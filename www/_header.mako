@@ -59,6 +59,12 @@
     <!--[if lt IE 9]>
     <script src="/static/bootstrap/js/html5shiv.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+        var mailto = function(encrypted){
+            return(encrypted.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+        }
+    </script>
 </head>
 
 <body>
@@ -68,9 +74,8 @@
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/#about">About</a></li>
             <li><a href="/#jobs">Jobs</a></li>
-            <li><a href="/news">News</a></li>
             <li><a href="/#contact">Contact</a></li>
         </ul>
-        <h3><img src="/static/cos_logo.png" width="200px" /></h3>
+        <h3><a href="/"><img src="/static/cos_logo.png" width="200px" /></a></h3>
     </div>
     <hr />

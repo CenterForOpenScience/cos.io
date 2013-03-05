@@ -1,7 +1,7 @@
 <h1>Contact</h1>
 <br />
 <table class="table">
-    <tr><td>Email</td><td><a href="mailto:contact@centerforopenscience.org">contact@centerforopenscience.org</a></td></tr>
+    <tr><td>Email</td><td>contact@centerforopenscience.org</td></tr>
     <tr><td>WWW</td><td>http://centerforopenscience.org/<br />
         http://openscienceframework.org/</td></tr>
     <tr><td>Twitter</td><td><a href="http://twitter.com/OSFramework">@OSFramework</a></td></tr>
