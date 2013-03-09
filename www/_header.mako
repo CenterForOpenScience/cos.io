@@ -78,4 +78,5 @@
         </ul>
         <h3><a href="/"><img src="/static/cos_logo.png" width="200px" /></a></h3>
     </div>
+    <div><img src=""</div>
     <hr />
