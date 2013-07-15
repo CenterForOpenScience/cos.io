@@ -37,3 +37,8 @@ pip-log.txt
 nosetests.xml
 *.mo
 .idea
+env
+
+# Python
+#######################
+frozen

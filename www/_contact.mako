@@ -11,8 +11,9 @@
         <td>
             <address>
                 <strong>Center for Open Science</strong><br />
-                2857 Stratford Glen Way<br />
-                Charlottesville, VA  22911
+                210 Ridge McIntire Road<br />
+                Suite 500<br />
+                Charlottesville, VA 22903
             </address>
         </td>
     </tr>

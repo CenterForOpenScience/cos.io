@@ -3,10 +3,8 @@
 <div class="jumbotron">
     <h1>We're hiring</h1>
     <p class="lead">
-        <a href="/#job-devs">Developers</a>,
-        <a href="/#job-interns">Developer Interns</a>,
-        an <a href="/#job-omcc">Office Manager and Conference Coordinator</a>,
-        and a <a href="/#job-pc">Project Coordinator</a>.
+        <a href="/#job-devs">Developers</a> and
+        <a href="/#job-interns">Developer Interns</a>
     </p>
 </div>
 

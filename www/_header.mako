@@ -8,7 +8,7 @@
     <meta name="author" content="Jeffrey R. Spies">
 
     <!-- Le styles -->
-    <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
         body {
             padding-top: 20px;
@@ -53,7 +53,7 @@
             line-height: 20px;
         }
     </style>
-    <link href="/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -74,6 +74,9 @@
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/#about">About</a></li>
             <li><a href="/#jobs">Jobs</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/pr/">Press</a></li>
+            <li><a href="/grants">Grants</a></li>
             <li><a href="/#contact">Contact</a></li>
         </ul>
         <h3><a href="/"><img src="/static/cos_logo.png" width="200px" /></a></h3>

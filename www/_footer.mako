@@ -4,7 +4,13 @@
 </div>
 
 </div> <!-- /container -->
+<script src="/static/bootstrap/js/jquery.js"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript">
+
+    $("a[data-toggle=popover]").popover({html:true}).click(function(e) {
+        e.preventDefault()
+    });
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-26813616-2']);
