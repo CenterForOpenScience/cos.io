@@ -1,7 +1,7 @@
 <%inherit file="/_index.mako"/>
 
 <div id="entry">
-<h4>Help the Center's Co-Founder Graduate</h4>
+<h4>Econtalk interview with founder Brian Nosek</h4>
 <h5>By providing feedback that will eventually improve the OSF</h5>
 <p>April 5, 2013, Jeffrey Spies</p>
 <p>As you may know, I am the lead developer of the Open Science Framework (OSF; http://openscienceframework.org). Initial development of the OSF is my dissertation project, and I am one week away from submitting it. However, I need your help first!</p>
