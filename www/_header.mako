@@ -26,8 +26,9 @@
 
             /* Main marketing message and sign up button */
         .jumbotron {
-            margin: 60px 0;
-            text-align: center;
+            margin: 50px;
+            text-align: left;
+
         }
         .jumbotron h1 {
             font-size: 72px;
@@ -36,6 +37,12 @@
         .jumbotron .btn {
             font-size: 21px;
             padding: 14px 24px;
+            margin: 30px;
+        }
+
+        .jumbotron p {
+            font-size: 39px;
+            line-height: 1.5;
         }
 
             /* Supporting marketing content */
@@ -52,6 +59,34 @@
             font-weight: 200;
             line-height: 20px;
         }
+
+        .footer {
+            margin: 10px 0px 30px 0px;
+            padding: 25px 0 25px;
+            background-color: #eeeeee;
+            text-shadow: 0 1px 0 #fff;
+            border-top:1px solid #e5e5e5;
+            border-bottom:1px solid #e5e5e5;
+            color: #555555;
+        }
+
+        .footer ul {
+            list-style: none;
+            margin-left:0;
+        }
+
+        .press {
+            margin: 20px 0px 20px 0px;
+        }
+
+        .press h4 {
+            margin-top:0px;
+        }
+
+        .wrapper {
+            margin: 30px 0px 30px 0px;
+        }
+
     </style>
     <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
@@ -71,15 +106,12 @@
 <div class="container-narrow">
     <div class="masthead">
         <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#jobs">Jobs</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/pr/">Press</a></li>
-            <li><a href="/grants">Grants</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/activity/">Activity</a></li>
+            <!--<li><a href="/press/">Press</a></li>-->
             <li><a href="/#contact">Contact</a></li>
         </ul>
         <h3><a href="/"><img src="/static/cos_logo.png" width="200px" /></a></h3>
     </div>
-    <div><img src=""</div>
     <hr />

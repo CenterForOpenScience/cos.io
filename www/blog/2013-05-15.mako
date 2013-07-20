@@ -36,6 +36,6 @@
 <br />
 <ul class="breadcrumb">
     <li><a href="/">Home</a> <span class="divider">/</span></li>
-    <li><a href="/blog/">Blog</a> <span class="divider">/</span></li>
+    <li><a href="/news/">News</a> <span class="divider">/</span></li>
     <li class="active">Current</li>
 </ul>

@@ -1,30 +1,22 @@
 <%inherit file="_index.mako"/>
-
-<div class="jumbotron">
-    <h1>We're hiring</h1>
-    <p class="lead">
-        <a href="/#job-devs">Developers</a> and
-        <a href="/#job-interns">Developer Interns</a>
-    </p>
+<div class="wrapper">
+<div class="container">
+        <div class="row">
+            <div class="span3">
+                <p><img src="/static/r.png"</p>
+            </div>
+            <div class="jumbotron span5">
+                <h3>The Center for Open Science (COS) aims to increase openness, integrity, and reproducibility of scientific research.</h3>
+            </div>
+        </div>
 </div>
-
-<hr />
-
-<%include file="_about.mako"/>
-<hr />
-<div class="row-fluid">
-    <div class="span12">
-        <a name="jobs"></a>
-        <%include file="_jobs.mako"/>
-    </div>
 </div>
+<%include file="front.mako"/>
 <hr />
+
 <div class="row-fluid">
     <div class="span12">
         <a name="contact"></a>
         <%include file="_contact.mako"/>
     </div>
 </div>
-<ul class="breadcrumb" style="margin-bottom:0px;">
-    <li class="active">Home</li>
-</ul>
