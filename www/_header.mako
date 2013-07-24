@@ -95,10 +95,18 @@
     <script src="/static/bootstrap/js/html5shiv.js"></script>
     <![endif]-->
 
+    <script src="/static/bootstrap/js/jquery.js"></script>
+
     <script type="text/javascript">
         var mailto = function(encrypted){
             return(encrypted.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
         }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
     </script>
 </head>
 

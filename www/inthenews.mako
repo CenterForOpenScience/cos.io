@@ -2,13 +2,23 @@
 
 <div id="article">
     <div class="container">
-               <div class="press row">
+        <div class="press row">
             <div class="span2">
                 <p><img src="/static/chronicle.jpg"</p>
             </div>
             <div class="span5">
-                <h4>Daniel Kahneman Sees 'Train-Wreck Looming' for Social Psychology</h4>
-                <p>Daniel Kahneman sent an e-mail last week to a dozen social psychologists, spelling out what he sees as a way to restore the credibility of priming research. The research, which has found that small cues can cause strong subconscious effects, have come under fire after attempts to replicate some high-profile studies failed. It hasn't helped that some prominent social psychologists have committed flat-out fraud.</p>
+                <h4>Daniel Kahneman Sees &#8216;Train-Wreck Looming&#8217; for Social Psychology</h4>
+                <p>Daniel Kahneman sent an e-mail last week to a dozen social psychologists, spelling out what he sees as a way to restore the credibility of priming research. The research, which has found that small cues can cause strong subconscious effects, have come under fire after attempts to replicate some high-profile studies failed. It hasn&#8217;t helped that some prominent social psychologists have committed flat-out fraud.</p>
+                <p><a href="http://www.sciencemag.org/content/337/6098/1031.short">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/chronicle.jpg"</p>
+            </div>
+            <div class="span5">
+                <h4>Daniel Kahneman Sees &#8216;Train-Wreck Looming&#8217; for Social Psychology</h4>
+                <p>Daniel Kahneman sent an e-mail last week to a dozen social psychologists, spelling out what he sees as a way to restore the credibility of priming research. The research, which has found that small cues can cause strong subconscious effects, have come under fire after attempts to replicate some high-profile studies failed. It hasn&#8217;t helped that some prominent social psychologists have committed flat-out fraud.</p>
                 <p><a href="http://www.sciencemag.org/content/337/6098/1031.short">Read more</a></p>
             </div>
         </div> <!-- row -->
@@ -38,7 +48,7 @@
             </div>
             <div class="span5">
                 <h4>Is Psychology About to Come Undone?</h4>
-                <p>April 17th, 2012 | If you're a psychologist, the news has to make you a little nervous-particularly if you're a psychologist who published an article in 2008 in any of these three journals: <em>Psychological Science</em>, the <em>Journal of Personality and Social Psychology</em>, or the <em>Journal of Experimental Psychology: Learning, Memory, and Cognition</em>.</p>
+                <p>April 17th, 2012 | If you&#8217;re a psychologist, the news has to make you a little nervous-particularly if you&#8217;re a psychologist who published an article in 2008 in any of these three journals: <em>Psychological Science</em>, the <em>Journal of Personality and Social Psychology</em>, or the <em>Journal of Experimental Psychology: Learning, Memory, and Cognition</em>.</p>
                 <p><a href="http://chronicle.com/blogs/percolator/is-psychology-about-to-come-undone/29045">Read more</a></p>
             </div>
         </div> <!-- row -->
@@ -47,7 +57,7 @@
                 <p><img src="/static/Science.gif"</p>
             </div>
             <div class="span5">
-                <h4>Psychology's Bold Initiative</h4>
+                <h4>Psychology&#8217;s Bold Initiative</h4>
                 <p>March 30th, 2012 | Some psychology researchers argue that a scientific culture that too heavily favors new and counterintuitive ideas over the confirmation of existing results has led to too many findings that are striking for their novelty and published in respected journals-but are nonetheless false.</p>
                 <p><a href="http://www.sciencemag.org/content/335/6076/1558">Read more</a></p>
             </div>

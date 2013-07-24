@@ -18,6 +18,7 @@
                             <li><a href="/#contact">Contact</a></li>
                             <li><a href="/jobs/">Jobs</a></li>
                             <li><a href="/inthenews/">In the News</a></li>
+                            <li><a href="/grants/">Grants</a></li>
                         </ul>
                     </div>
                     <div class="span2">
@@ -36,7 +37,7 @@
         <div class="container copyright">
             <div class="row">
                 <div class="span12">
-                <p>Copyright Center for Open Science &copy; 2011-2012</p>
+                <p>Copyright &copy; 2012-2013 <a href="http://centerforopenscience.org">CenterforOpenScience.org</a></p>
                 </div>
             </div>
         </div>
@@ -69,5 +70,5 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>
-</body>
+    </body>
 </html>
