@@ -13,7 +13,7 @@
     </div>
     <div class="span4">
         <h4>For Developers</h4>
-        <p>COS supports open source projects for science, connects via API with other services, hires open source developers, and provides grants for new open projects. <strong>And we're hiring.</strong></p>
+        <p>COS supports open source projects for science, connects via API with other services, hires open source developers, and provides grants for new open projects.</p>
         <p><strong><a href="/developers">Read more</a></strong></p>
     </div>
 </div>
