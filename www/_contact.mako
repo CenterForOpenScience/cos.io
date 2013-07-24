@@ -4,9 +4,8 @@
     <tr><td>Email</td><td>contact@centerforopenscience.org</td></tr>
     <tr><td>WWW</td><td>http://centerforopenscience.org/<br />
         http://openscienceframework.org/</td></tr>
-    <tr><td>Twitter</td><td><a href="http://twitter.com/OSFramework">@OSFramework</a></td></tr>
-    <tr><td>Facebook</td><td>https://www.facebook.com/OpenScienceFramework</td></tr>
-    <tr><td>Phone</td><td>+1 (434) 924-0666</td></tr>
+</td></tr>
+    <!-- <tr><td>Phone</td><td></td></tr> -->
     <tr><td>Mailing address</td>
         <td>
             <address>

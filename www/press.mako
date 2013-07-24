@@ -5,7 +5,6 @@
         <h3>Contact</h3>
         <div class="well" style="text-align:center;">
         <p style="margin-bottom:0px;">
-                +1 (434) 924-0666<br /><br />
                 media@centerforopenscience.org
         </p>
         </div>
@@ -23,5 +22,5 @@
 </div>
 <ul class="breadcrumb">
     <li><a href="/">Home</a> <span class="divider">/</span></li>
-    <li class="active">Press Info</li>
+    <li class="active">Press</li>
 </ul>
