@@ -2,7 +2,6 @@
 
 <h3>Grant Giving</h3>
 
-
 <p>The Center for Open Science (COS) occasionally invites grant proposals to increase the openness, integrity, and reproducibility of scientific research.  Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices.</p>
 <p>Project proposals are solutions-oriented.  COS does not fund meetings to write more academic papers suggesting that someone should do something.  COS funds the projects by the someone that does the something.</p>
 <p>COS priorities are to (1) make the entire scientific workflow accessible, (2) increase scientists&#8217; accountability, (3) facilitate good practices by scientists, (4) increase reward for good practices, and (5) promote reproducibility of scientific findings.</p>
