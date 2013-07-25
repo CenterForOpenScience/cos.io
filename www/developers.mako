@@ -19,11 +19,10 @@
 
         <h4>Grants and Bounties</h4>
 
-        <p>The Center for Open Science (COS) occasionally invites grant proposals or specific project bounties to increase the openness, integrity, and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices. <a href="http://centerforopenscience.org/grants/">Find out more</a>.</p>
+        <p>The Center for Open Science (COS) occasionally invites grant proposals or specific project bounties to increase the openness, integrity, and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices. <a href="/grants/">Find out more</a>.</p>
          </span>
-         </div>
-    </div> <!-- placement -->
-</div> <!-- row -->
+         </div> <!-- text -->
+    </div> <!-- row -->
 
 <ul class="breadcrumb">
     <li><a href="/">Home</a> <span class="divider">/</span></li>
