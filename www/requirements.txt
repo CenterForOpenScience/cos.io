@@ -1,9 +1,0 @@
-Flask==0.10.1
-Jinja2==2.7.1
-Mako==0.8.1
-MarkupSafe==0.18
-Werkzeug==0.9.3
-docutils==0.11
-itsdangerous==0.23
-wsgiref==0.1.2
-wysiweb==0.1.0
