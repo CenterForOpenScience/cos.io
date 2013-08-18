@@ -38,7 +38,7 @@ nosetests.xml
 *.mo
 .idea
 env
-
+.env
 # Python
 #######################
 frozen
