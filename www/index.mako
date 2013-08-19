@@ -7,18 +7,12 @@
     }
 
     .carousel .item {
-        height: 100%;
+        max-height: 100%;
     }
 
     .carousel img {
         display: block;
-    }
-
-    .carousel .item-text {
-        padding-top: 50px;
-        height: 250px;
-##        width: 500px;
-##        margin-left: 100px;
+        max-width: 100%;
     }
 
 
@@ -81,14 +75,14 @@
                         <ul>
                             <li class="span4">
                                 <div>
-                                    <img src="/static/benevocats.png" alt="benevocats"/>
+                                    <img src="/static/dj.png" alt="developer job image"/>
                                 </div>
                             </li>
                             <li class="span6 offset1">
                                 <div>
                                     <h1>We&#8217;re hiring!</h1>
                                     <h4>We love open source, science, databases, web/API development, CMS, and Python.</h4>
-                                    <h4>We&#8217;re also looking for a recent biology grad to be a coordinator for a new replication project!</h4>
+                                    <h4>We&#8217;re also looking for a recent biology grad to be a coordinator for a new replication project.</h4>
                                 </div>
                             </li>
                         </ul>

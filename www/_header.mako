@@ -87,6 +87,10 @@
             margin: 30px 0px 30px 0px;
         }
 
+        a:hover, a:focus {
+        text-decoration: none;
+        }
+
     </style>
     <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
