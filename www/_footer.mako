@@ -4,7 +4,7 @@
     }
 </style>
 
-        <div class="footer">
+        <div class="footer span9">
             <div class="container">
                 <div class="row">
                     <div class="span1">
