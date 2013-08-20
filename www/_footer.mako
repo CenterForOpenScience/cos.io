@@ -23,7 +23,7 @@
                         <ul>
                             <li><a href="/#contact">Contact</a></li>
                             <li><a href="/jobs/">Jobs</a></li>
-                            <li><a href="/inthenews/">In the News</a></li>
+                            <li><a href="/activity/">Activity</a></li>
                             <li><a href="/grants/">Grants</a></li>
                         </ul>
                     </div>
