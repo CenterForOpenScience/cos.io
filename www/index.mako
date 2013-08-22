@@ -37,7 +37,25 @@
     <div class="row-fluid">
         <div id="this-carousel-id" class="carousel slide container span12"><!-- class of slide for animation -->
             <div class="carousel-inner">
-                <div class="item active"><!-- class of active since it's the first item -->
+                <div class="item active"><!-- class of active because it's the first item -->
+                    <a href="/jobs/">
+                        <ul>
+                            <li class="span4">
+                                <div>
+                                    <img src="/static/dj.png" alt="developer job image"/>
+                                </div>
+                            </li>
+                            <li class="span6 offset1">
+                                <div>
+                                    <h1>We&#8217;re hiring!</h1>
+                                    <h4>We love open source, science, databases, web/API development, CMS, and Python.</h4>
+                                    <h4>We&#8217;re also looking for a recent biology grad to be a coordinator for a new replication project.</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </a>
+                </div> <!-- item -->
+                <div class="item">
                     <a href="/about/">
                         <ul>
                             <li class="span4">
@@ -65,24 +83,6 @@
                             <li class="span6 offset1">
                                 <div>
                                     <h3>We support badges as a way for journals to acknowledge authors&#8217; open practices.</h3>
-                                </div>
-                            </li>
-                        </ul>
-                    </a>
-                </div> <!-- item -->
-                <div class="item">
-                    <a href="/jobs/">
-                        <ul>
-                            <li class="span4">
-                                <div>
-                                    <img src="/static/dj.png" alt="developer job image"/>
-                                </div>
-                            </li>
-                            <li class="span6 offset1">
-                                <div>
-                                    <h1>We&#8217;re hiring!</h1>
-                                    <h4>We love open source, science, databases, web/API development, CMS, and Python.</h4>
-                                    <h4>We&#8217;re also looking for a recent biology grad to be a coordinator for a new replication project.</h4>
                                 </div>
                             </li>
                         </ul>
