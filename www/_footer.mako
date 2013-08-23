@@ -4,10 +4,9 @@
     }
 </style>
 
-        <div class="footer span9">
-            <div class="container">
-                <div class="row">
-                    <div class="span1">
+        <div class="footer">
+                <div class="row-fluid">
+                    <div class="span2">
                         <p>&nbsp;</p>
                     </div>
                     <div class="span3">
@@ -26,7 +25,7 @@
                             <li><a href="/grants/">Grants</a></li>
                         </ul>
                     </div>
-                    <div class="span2">
+                    <div class="span4">
                         <h4>Socialize</h4>
                         <div style="padding-right:40px;">
                             <a href="http://twitter.com/OSFramework"><img src="/static/twitter_alt.png" alt="Twitter" height="24" width="24"></a>
@@ -37,13 +36,10 @@
                         </div>
                     </div> <!-- column -->
                 </div> <!-- row -->
-            </div> <!-- container -->
         </div> <!-- footer -->
-        <div class="container copyright">
-            <div class="row">
-                <div class="span12">
-                <p style="font-size: 10px;"><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0; margin-right: 5px;" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</a></p>
-                </div>
+        <div class="row-fluid coyright">
+            <div class="span12">
+            <p style="font-size: 10px;"><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0; margin-right: 5px;" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</a></p>
             </div>
         </div>
 
