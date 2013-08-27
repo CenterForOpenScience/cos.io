@@ -2,6 +2,16 @@
 
 <div id="article">
     <div class="container">
+    <div class="press row">
+            <div class="span2">
+                <p><img src="/static/hycos.png"</p>
+            </div>
+            <div class="span6">
+                <h4>The Center for Open Science Hosts HackYourPhD</h4>
+                <p>August 27th, 2013 | Célya Gruson-Daniel (<a href="https://twitter.com/celyagd">@celyagd</a>) will open with a short presentation of HackYourPhD (<a href="https://twitter.com/hackyourphd">@HackYourPhD</a>), which she co-founded.  Célya is based in Paris and has been touring the United States this summer producing a web documentary focused on the open science community. She will introduce individuals she has met during the HackYourPhD open science tour, her discoveries, and the questions that were raised concerning the future of open science. Célya will be concluding her documentary in Charlottesville at the Center for Open Science.</p>
+                <p><a href="/pr/2013-08-27/" target="_blank">Read more</a></p>
+            </div>
+        </div> <!-- row -->
         <div class="press row">
             <div class="span2">
                 <p><img src="/static/newyorker.png"</p>
