@@ -9,7 +9,7 @@
             <div class="span6">
                 <h4>The Center for Open Science Hosts HackYourPhD</h4>
                 <p>August 27th, 2013 | Célya Gruson-Daniel (<a href="https://twitter.com/celyagd">@celyagd</a>) will open with a short presentation of HackYourPhD (<a href="https://twitter.com/hackyourphd">@HackYourPhD</a>), which she co-founded.  Célya is based in Paris and has been touring the United States this summer producing a web documentary focused on the open science community. She will introduce individuals she has met during the HackYourPhD open science tour, her discoveries, and the questions that were raised concerning the future of open science. Célya will be concluding her documentary in Charlottesville at the Center for Open Science.</p>
-                <p><a href="/pr/2013-08-27/" target="_blank">Read more</a></p>
+                <p><a href="/pr/2013-08-27/">Read more</a></p>
             </div>
         </div> <!-- row -->
         <div class="press row">
@@ -49,6 +49,7 @@
             <div class="span6">
                 <h4>Center for Open Science to provide revolutionary approach to scientific communication</h4>
                 <p>March 5th, 2013 | Scientific research aims to create knowledge about how the world works. Knowledge accumulates when scientists conduct studies and share their findings with others. Sharing allows other scientists to identify flaws or ot extend the findings to get more knowledge. Given its importance, it is surprising that a large portion of scientific research is never shared at all. The Center for Open Science, which opens today in Charlottesville, Virginia, aims to improve how science is conducted and communicated.  <a href="/static/pr/cos_pr_20130305.docx"><img src="/static/page_white_word.png"/></a> <a href="/static/pr/cos_pr_20130305.pdf"><img src="/static/page_white_acrobat.png"/></a></p>
+                <p><a href="/pr/2013-03-05/">Read more</a></p>
             </div>
         </div> <!-- row -->
         <div class="press row">
@@ -63,7 +64,7 @@ be bogus. Researchers have built careers on findings that are
 dubious or even turn out to be fraudulent. Much of the conversation
 about that trend has focused on flaws in social psychology, but the
 problem is not confined to a single field.</p>
-                <p><a href="http://chronicle.com/article/New-Center-Hopes-to-Clean-Up/137683/" target="_blank">Read more</a></p>
+                <p><a href="http://chronicle.com/article/New-Center-Hopes-to-Clean-Up/137683/">Read more</a></p>
             </div>
         </div> <!-- row -->
         <div class="press row">
@@ -73,7 +74,7 @@ problem is not confined to a single field.</p>
             <div class="span6">
                 <h4>Replicate This</h4>
                 <p>February 26th, 2013 | [M]any of the classic studies that led us to our current understanding of priming have never been replicated. In fact, the few attempts to reproduce the results that we have taken at face value for so long have failed. In late 2012, that led Daniel Kahneman, noted Princeton University psychologist and author of the best-selling book Thinking Fast and Slow, to write an open e-mail to the entire priming-research community. He wrote, &#8220;Your field is now the poster child for doubts about the integrity of psychological research.&#8221; Kahneman&#8217;s solution? A new research protocol whereby cooperating labs attempt to check and replicate each other&#8217;s studies.</p>
-                <p><a href="http://www.psmag.com/magazines/march-april-2013/reproducibility-project-science-53141/" target="_blank">Read more</a></p>
+                <p><a href="http://www.psmag.com/magazines/march-april-2013/reproducibility-project-science-53141/">Read more</a></p>
             </div>
         </div> <!-- row -->
         <div class="press row">
