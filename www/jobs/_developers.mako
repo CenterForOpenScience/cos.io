@@ -1,4 +1,11 @@
-<a name="job-devs"></a>
+<style>
+    .indent li {
+        list-style: none;
+        text-indent: -8px;
+    }
+
+</style>
+
 <h3>Developers</h3>
 <dl class="dl-horizontal">
     <dt>Background</dt>
@@ -10,7 +17,7 @@
     </p></dd>
     <dt>Core Technologies</dt>
     <dd>
-        <ul style="margin-left: 10px;">
+        <ul class="indent">
             <li>Python</li>
             <li>Micro-frameworks (e.g., Flask)</li>
             <li>Git</li>
