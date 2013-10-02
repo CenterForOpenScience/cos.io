@@ -73,6 +73,22 @@
                     </a>
                 </div> <!-- item -->
                 <div class="item">
+                    <a href="https://openscienceframework.org">
+                        <ul>
+                            <li class="span4">
+                                <div>
+                                    <img src="/static/network.png" alt="network visualization"/>
+                                </div>
+                            </li>
+                            <li class="span6 offset1">
+                                <div>
+                                    <h3>The Open Science Framework is a workflow tool usable by scientists of any domain.</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </a>
+                </div> <!-- item -->
+                <div class="item">
                     <a href="/journals/">
                         <ul>
                             <li class="span4">
