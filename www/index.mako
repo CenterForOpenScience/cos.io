@@ -49,7 +49,6 @@
                                 <div>
                                     <h1>We&#8217;re hiring!</h1>
                                     <h4>We love open source, science, databases, web/API development, CMS, and Python.</h4>
-                                    <h4>We&#8217;re also looking for a recent biology grad to be a coordinator for a new replication project.</h4>
                                 </div>
                             </li>
                         </ul>
