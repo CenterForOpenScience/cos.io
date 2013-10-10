@@ -26,7 +26,7 @@
 <div class="row-fluid">
     <div class="span10 offset1">
         <p>If you've spent too long searching through directories for a dataset only to realize it was on another lab member's machine, or if you've lost track of the 19 versions of the same file, or if you've been frustrated by how long you spend looking for research materials from your own collaborations, then join the Center for Open Science (COS) for a free SPSP preconference workshop. Brian Nosek, COS staff, and others will be on hand to give tutorials, answer questions, and help you make the most of your time by using the Open Science Framework (OSF; http://openscienceframework.org/). By the end of the day, you will have established an environment for you and your collaborators to share and archive your materials and data.</p>
-        <p>No matter the domain or your progress on your project, the OSF can help you document, share, collaborate, archive, and register your research. At the workshop, get your workflow organized.  Manage your collaborations. Take advantage of automated tools that maintain version histories of documents and log workflow to help reconstruct your memory when you return to projects months or years later.  Also, if you desire, make your materials and data available to others, and register your study designs and analysis plans before data collection for strong confirmatory designs.</p>
+        <p>No matter the domain or your progress on your project, the OSF can help you document, share, collaborate on, archive, and register your research. At the workshop, get your workflow organized.  Manage your collaborations. Take advantage of automated tools that maintain version histories of documents and log workflow to help reconstruct your memory when you return to projects months or years later.  Also, if you desire, make your materials and data available to others, and register your study designs and analysis plans before data collection for strong confirmatory designs.</p>
         <p>Bring your laptop, research materials and data.  We will help you make the most out of the OSF and help you take control of your workflow.</p>
         <p>Come yourself or bring your team.</p>
         <p>Need more information? Email contact@centerforopenscience.org.</p>
@@ -36,7 +36,7 @@
     <div class="span10 offset1">
         <h4>Tentative Schedule</h4>
         <p><span style="font-weight: 500">Morning</span> (9:00 AM - 12:00 PM): Informational presentations and interactive sessions on OSF focusing on best practices, options for use, upcoming features, and how to put the OSF into practical use.  This session will provide a practical overview of the OSF’s features including helpful tools, archiving, documenting, sharing and open registration features.</p>
-         <p><span style="font-weight: 500">Afternoon</span> (1:00 PM - Until): Getting to work. Participants will bring their laptops and receive support from COS staff and each other in organizing their research materials and studies using the OSF.</p>
+         <p><span style="font-weight: 500">Afternoon</span> (1:00 PM - On): Getting to work. Participants will bring their laptops and receive support from COS staff and each other in organizing their research materials and studies using the OSF.</p>
     </div>
 </div>
 <div class="row-fluid">
