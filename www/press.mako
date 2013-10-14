@@ -2,6 +2,16 @@
 
 <div id="article">
     <div class="container">
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/Science.gif"</p>
+            </div>
+            <div class="span6">
+                <h4>Your Data, Warts and All</h4>
+                <p>October 4th, 2013 | The imperative for thorough, transparent, and accurate reporting is often in conflict with the need young scientists have to add items to their CVs. Fortunately there are ways—some straightforward and safe; others risky or requiring more effort—to manage this conflict, staying close to data-disclosure ideals while also getting on with your career. "You need to understand how the present culture of science works in order to know how to be pragmatic about pursuing your ideals," Nosek says.</p>
+                <p><a href="http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2013_10_04/caredit.a1300211">Read more</a></p>
+            </div>
+        </div> <!-- row -->
     <div class="press row">
             <div class="span2">
                 <p><img src="/static/hycos.png"</p>
