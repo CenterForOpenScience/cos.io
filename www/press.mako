@@ -2,6 +2,16 @@
 
 <div id="article">
     <div class="container">
+            <div class="press row">
+            <div class="span2">
+                <p><img src="/static/SE_Logo.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Reproducibility Initiative Receives $1.3M Grant to Validate 50 Landmark Cancer Studies</h4>
+                <p>October 16, 2013 | The Center for Open Science announced​ ​today that it would designate $1.3M of funding from the Laura and John Arnold Foundation towards the Reproducibility​ ​Initiative​ to independently validate 50 landmark cancer biology studies. The 50​ ​chosen studies are among the highest impact studies in the field over the period of 2010 to 2012, and systematic​ ​validation could be crucial to developing future cancer drugs.</p>
+                <p><a href="/pr/2013-10-16">Read more</a></p>
+            </div>
+        </div> <!-- row -->
         <div class="press row">
             <div class="span2">
                 <p><img src="/static/Science.gif"</p>
