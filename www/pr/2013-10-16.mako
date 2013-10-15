@@ -53,7 +53,7 @@ freely available online, providing the first publicly available complete dataset
 
 <h4>About the Laura and John Arnold Foundation</h4>
 
-<p><a href="www.arnoldfoundation.org.">Laura and John Arnold Foundation</a> is private foundation that currently focuses its strategic investments on criminal​ ​justice, education, public accountability, and research integrity. LJAF has offices in Houston and New York​ City.</p>
+<p><a href="http://www.arnoldfoundation.org">The Laura and John Arnold Foundation</a> is private foundation that currently focuses its strategic investments on criminal​ ​justice, education, public accountability, and research integrity. LJAF has offices in Houston and New York​ City.</p>
 
 <h4>Media Contact</h4>
 <p>Elizabeth Iorns<br>
