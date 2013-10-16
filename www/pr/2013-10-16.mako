@@ -49,7 +49,7 @@ freely available online, providing the first publicly available complete dataset
 
 <h4>About Center for Open Science</h4>
 
-<p>​The ​<a href="http://centerforopenscience.org/">​Center for Open Science​</a>​ is a non-profit organization founded in January 2013​ ​to increase openness, integrity, and reproducibility of scientific research. The Center creates and maintains ​<a href="http://openscienceframework.org/">​software​ ​infrastructure​</a> to support researchers scientific workflow, builds community​ ​among technologists, researchers, and stakeholders in science for improving scientific practices, and supports​ ​metascience research – scientific research on scientific practices .Contact Brian Nosek (nosek@centerforopenscience.org) or Jeff Spies (jeff@centerforopenscience.org).
+<p>​The ​<a href="http://centerforopenscience.org/">​Center for Open Science​</a>​ is a non-profit organization founded in January 2013​ ​to increase openness, integrity, and reproducibility of scientific research. The Center creates and maintains ​<a href="http://openscienceframework.org/">​software​ ​infrastructure​</a> to support researchers scientific workflow, builds community​ ​among technologists, researchers, and stakeholders in science for improving scientific practices, and supports​ ​metascience research – scientific research on scientific practices. Contact Brian Nosek (nosek@centerforopenscience.org) or Jeff Spies (jeff@centerforopenscience.org).
 
 <h4>About the Laura and John Arnold Foundation</h4>
 
