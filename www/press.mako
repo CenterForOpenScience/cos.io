@@ -2,13 +2,24 @@
 
 <div id="article">
     <div class="container">
-            <div class="press row">
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/economist.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Trouble at the lab</h4>
+                <p>October 19th, 2013 | The idea that the same experiments always get the same results, no matter who performs them, is one of the cornerstones of science’s claim to objective truth. If a systematic campaign of replication does not lead to the same results, then either the original research is flawed (as the replicators claim) or the replications are (as many of the original researchers on priming contend). Either way, something is awry.</p>
+                <p><a href="http://www.economist.com/news/briefing/21588057-scientists-think-science-self-correcting-alarming-degree-it-not-trouble">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
             <div class="span2">
                 <p><img src="/static/SE_Logo.png"</p>
             </div>
             <div class="span6">
                 <h4>Reproducibility Initiative Receives $1.3M Grant to Validate 50 Landmark Cancer Studies</h4>
-                <p>October 16, 2013 | The Center for Open Science announced​ ​today that it would designate $1.3M of funding from the Laura and John Arnold Foundation towards the Reproducibility​ ​Initiative​ to independently validate 50 landmark cancer biology studies. The 50​ ​chosen studies are among the highest impact studies in the field over the period of 2010 to 2012, and systematic​ ​validation could be crucial to developing future cancer drugs.</p>
+                <p>October 16th, 2013 | The Center for Open Science announced​ ​today that it would designate $1.3M of funding from the Laura and John Arnold Foundation towards the Reproducibility​ ​Initiative​ to independently validate 50
+                    landmark cancer biology studies. The 50​ ​chosen studies are among the highest impact studies in the field over the period of 2010 to 2012, and systematic​ ​validation could be crucial to developing future cancer drugs.</p>
                 <p><a href="/pr/2013-10-16">Read more</a></p>
             </div>
         </div> <!-- row -->
