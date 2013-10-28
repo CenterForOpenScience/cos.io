@@ -31,6 +31,7 @@
         <p>Bring your laptop, research materials and data.  We will help you make the most out of the OSF and help you take control of your workflow.</p>
         <p>Come yourself or bring your team.</p>
         <p>Need more information? Email spsp2014@centerforopenscience.org.</p>
+        <p>Looking for information on our open source development/hackathon track, or know someone who might be interested in attending? Click <a href="/spspdev/">here</a>.</p>
     </div>
 </div>
 <div class="row-fluid">
