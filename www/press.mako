@@ -4,6 +4,26 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/sciam_logo.png"</p>
+            </div>
+            <div class="span6">
+                <h4>You can’t read just one: Reproducibility and multiple sources</h4>
+                <p>October 29th, 2013 | We teach students in introductory science classes that reproducibility is one of the hallmarks of science. As they learn more about their disciplines, they need to be aware of the practical challenges involved in reproducing the work of others, and the importance of finding multiple sources about a topic needs to be emphasized.</p>
+                <p><a href="http://blogs.scientificamerican.com/information-culture/2013/10/29/you-cant-read-just-one-reproducibility-and-multiple-sources/">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/reason_logo.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Are Most Scientific Results Bunk?</h4>
+                <p>October 28th, 2013 | Nosek's Open Science Framework project seems like a promising way to nudge researchers toward greater transparency and less data dredging. Through the system researchers can obtain "badges" for project pre-registration, open data, and open materials. Presumably these badges will help persuade journal editors to be more likely to publish such studies and thus encourage better research practices. </p>
+                <p><a href="http://reason.com/blog/2013/10/28/are-most-scientific-results-bunk">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/economist.png"</p>
             </div>
             <div class="span6">
