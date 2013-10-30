@@ -14,11 +14,11 @@
     </div>
     <div class="span4">
         <h4>Community Building</h4>
-        <p>Community building on open practices among open-source developers, open science researchers, and the broader scientific community, such as the <a href="https://groups.google.com/group/openscienceframework?hl=en&pli=1">Open Science Collaboration</a>.</p>
+        <p>Community building on open practices among open-source developers, open science researchers, and the broader scientific community, such as the <a href="https://groups.google.com/group/openscienceframework?hl=en&pli=1">Open Science Collaboration</a>, whose blog you can find <a href="http://osc.centerforopenscience.org">here</a>.</p>
     </div>
     <div class="span4">
         <h4>Metascience</h4>
-        <p>Metascience, research on scientific practices, such as the <a href="http://openscienceframework.org/project/EZcUj/wiki/home">Reproducibility Project</a>.</p>
+        <p>Metascience, research on scientific practices, such as <a href="http://openscienceframework.org/project/EZcUj/wiki/home">Reproducibility Project: Psychology</a> and our partnership with Science Exchange, <a href="https://openscienceframework.org/project/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>.</p>
     </div>
 </div>
 <div class="row-fluid">
