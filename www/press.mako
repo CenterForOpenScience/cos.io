@@ -4,6 +4,26 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/observer_flag.jpg"</p>
+            </div>
+            <div class="span6">
+                <h4>What’s New at Psychological Science: An Interview with Editor in Chief Eric Eich</h4>
+                <p>November 1st, 2013 | Initiatives launching at Psychological Science in 2014 have the potential for far-reaching effects on authors, readers, and science as a whole. The Academic Observer sat down with Editor in Chief Eric Eich to talk about his experience with the journal so far and the exciting new changes ahead.</p>
+                <p><a href="http://www.psychologicalscience.org/index.php/publications/observer/2013/november-2013/whats-new-at-psychological-science.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/aps.jpg"</p>
+            </div>
+            <div class="span6">
+                <h4>APS Replication Initiative Under Way</h4>
+                <p>November 1st, 2013 | Earlier this year, Perspectives on Psychological Science announced the first project of the new Registered Replication Report (RRR) initiative, which aims to support high-quality, multi-center replications of important psychological findings. The response was tremendous: 30 labs from all over the world are currently participating in our first RRR project.</p>
+                <p><a href="http://www.psychologicalscience.org/index.php/publications/observer/2013/november-2013/aps-replication-initiative-underway.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/sciam_logo.png"</p>
             </div>
             <div class="span6">
