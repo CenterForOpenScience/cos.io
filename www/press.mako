@@ -4,6 +4,16 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/newyorker.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Science and Its Skeptics</h4>
+                <p>November 7th, 2013 | The wholesale shift in the culture of how scientists think about their craft is at least as significant a meta-story as the replicability crisis itself. But the prophets of doom never let their readers in on this happy secret.</p>
+                <p><a href="http://www.newyorker.com/online/blogs/elements/2013/11/science-and-its-skeptics.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/observer_flag.jpg"</p>
             </div>
             <div class="span6">
