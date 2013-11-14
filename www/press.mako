@@ -4,6 +4,16 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/nature.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Receptive to replication</h4>
+                <p>November 8th, 2013 | The Reproducibility Initiative (Nat. Biotechnol. 30, 806, 2012) represents another way of replicating research. A collaboration between the Science Exchange and PLOS ONE, the initiative offers to broker independent validation of a researcher's work in return for a fee, with subsequent publication in the journal. In October, the Laura and John Arnold Foundation provided $1.3 million to the initiative to authenticate 50 high-profile cancer papers from the past two years.</p>
+                <p><a href="http://www.nature.com/nbt/journal/v31/n11/full/nbt.2748.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/newyorker.png"</p>
             </div>
             <div class="span6">
