@@ -4,6 +4,28 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/ng.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Welcome To The Era of Big Replication</h4>
+                <p>November 26th, 2013 | "It is very telling that everyone I spoke to praised the initiative, including the authors whose work did not replicate. There was none of the acrimony that has stained past debates. When something is done this well, it’s pretty churlish to not accept the results.</p>
+
+                <p>This is a harbinger of things to come.” </p>
+                <p><a href="http://phenomena.nationalgeographic.com/2013/11/26/welcome-to-the-era-of-big-replication/">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/nature.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Psychologists strike a blow for reproducibility</h4>
+                <p>November 26th, 2013 | “This is a really important initiative for psychology,” says Danny Oppenheimer, a psychologist at the University of California, Los Angeles, whose work was under scrutiny but who did not take part in the collaboration. “It means that the replicability problem, while by no means trivial, may not be as widespread as some critics of the field have suggested.” </p>
+                <p><a href="http://www.nature.com/news/psychologists-strike-a-blow-for-reproducibility-1.14232">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/nature.png"</p>
             </div>
             <div class="span6">
