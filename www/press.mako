@@ -4,6 +4,16 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/Science.gif"</p>
+            </div>
+            <div class="span6">
+                <h4>Second Look at Psychology Experiments Offers Reassurance</h4>
+                <p>November 27th, 2013 | Big research collaborations have become common—think Human Genome Project, Mars rovers, the new BRAIN Initiative—but they are almost unknown in psychology. Most psychological experiments are carried out by a single lab group, often just a few researchers. But several collaborations that span dozens of psychology laboratories around the world have recently formed. Their goal is nothing short of testing the reproducibility of psychological science.</p>
+                <p><a href="http://news.sciencemag.org/social-sciences/2013/11/second-look-psychology-experiments-offers-reassurance">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/ng.png"</p>
             </div>
             <div class="span6">
