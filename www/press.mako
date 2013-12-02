@@ -4,6 +4,98 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/Science.gif"</p>
+            </div>
+            <div class="span6">
+                <h4>Second Look at Psychology Experiments Offers Reassurance</h4>
+                <p>November 27th, 2013 | Big research collaborations have become common—think Human Genome Project, Mars rovers, the new BRAIN Initiative—but they are almost unknown in psychology. Most psychological experiments are carried out by a single lab group, often just a few researchers. But several collaborations that span dozens of psychology laboratories around the world have recently formed. Their goal is nothing short of testing the reproducibility of psychological science.</p>
+                <p><a href="http://news.sciencemag.org/social-sciences/2013/11/second-look-psychology-experiments-offers-reassurance">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/ng.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Welcome To The Era of Big Replication</h4>
+                <p>November 26th, 2013 | "It is very telling that everyone I spoke to praised the initiative, including the authors whose work did not replicate. There was none of the acrimony that has stained past debates. When something is done this well, it’s pretty churlish to not accept the results.</p>
+
+                <p>This is a harbinger of things to come.” </p>
+                <p><a href="http://phenomena.nationalgeographic.com/2013/11/26/welcome-to-the-era-of-big-replication/">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/nature.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Psychologists strike a blow for reproducibility</h4>
+                <p>November 26th, 2013 | “This is a really important initiative for psychology,” says Danny Oppenheimer, a psychologist at the University of California, Los Angeles, whose work was under scrutiny but who did not take part in the collaboration. “It means that the replicability problem, while by no means trivial, may not be as widespread as some critics of the field have suggested.” </p>
+                <p><a href="http://www.nature.com/news/psychologists-strike-a-blow-for-reproducibility-1.14232">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/nature.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Receptive to replication</h4>
+                <p>November 8th, 2013 | The Reproducibility Initiative (Nat. Biotechnol. 30, 806, 2012) represents another way of replicating research. A collaboration between the Science Exchange and PLOS ONE, the initiative offers to broker independent validation of a researcher's work in return for a fee, with subsequent publication in the journal. In October, the Laura and John Arnold Foundation provided $1.3 million to the initiative to authenticate 50 high-profile cancer papers from the past two years.</p>
+                <p><a href="http://www.nature.com/nbt/journal/v31/n11/full/nbt.2748.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/newyorker.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Science and Its Skeptics</h4>
+                <p>November 7th, 2013 | The wholesale shift in the culture of how scientists think about their craft is at least as significant a meta-story as the replicability crisis itself. But the prophets of doom never let their readers in on this happy secret.</p>
+                <p><a href="http://www.newyorker.com/online/blogs/elements/2013/11/science-and-its-skeptics.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/observer_flag.jpg"</p>
+            </div>
+            <div class="span6">
+                <h4>What’s New at Psychological Science: An Interview with Editor in Chief Eric Eich</h4>
+                <p>November 1st, 2013 | Initiatives launching at Psychological Science in 2014 have the potential for far-reaching effects on authors, readers, and science as a whole. The Academic Observer sat down with Editor in Chief Eric Eich to talk about his experience with the journal so far and the exciting new changes ahead.</p>
+                <p><a href="http://www.psychologicalscience.org/index.php/publications/observer/2013/november-2013/whats-new-at-psychological-science.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/aps.jpg"</p>
+            </div>
+            <div class="span6">
+                <h4>APS Replication Initiative Under Way</h4>
+                <p>November 1st, 2013 | Earlier this year, Perspectives on Psychological Science announced the first project of the new Registered Replication Report (RRR) initiative, which aims to support high-quality, multi-center replications of important psychological findings. The response was tremendous: 30 labs from all over the world are currently participating in our first RRR project.</p>
+                <p><a href="http://www.psychologicalscience.org/index.php/publications/observer/2013/november-2013/aps-replication-initiative-underway.html">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/sciam_logo.png"</p>
+            </div>
+            <div class="span6">
+                <h4>You can’t read just one: Reproducibility and multiple sources</h4>
+                <p>October 29th, 2013 | We teach students in introductory science classes that reproducibility is one of the hallmarks of science. As they learn more about their disciplines, they need to be aware of the practical challenges involved in reproducing the work of others, and the importance of finding multiple sources about a topic needs to be emphasized.</p>
+                <p><a href="http://blogs.scientificamerican.com/information-culture/2013/10/29/you-cant-read-just-one-reproducibility-and-multiple-sources/">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/reason_logo.png"</p>
+            </div>
+            <div class="span6">
+                <h4>Are Most Scientific Results Bunk?</h4>
+                <p>October 28th, 2013 | Nosek's Open Science Framework project seems like a promising way to nudge researchers toward greater transparency and less data dredging. Through the system researchers can obtain "badges" for project pre-registration, open data, and open materials. Presumably these badges will help persuade journal editors to be more likely to publish such studies and thus encourage better research practices. </p>
+                <p><a href="http://reason.com/blog/2013/10/28/are-most-scientific-results-bunk">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/economist.png"</p>
             </div>
             <div class="span6">

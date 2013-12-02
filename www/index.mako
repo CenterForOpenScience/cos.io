@@ -48,7 +48,7 @@
                             <li class="span6 offset1">
                                 <div>
                                     <h1>We&#8217;re hiring!</h1>
-                                    <h4>We love open source, science, databases, web/API development, CMS, and Python.</h4>
+                                    <h3>We love open source, science, databases, web/API dev, and Python.</h3>
                                 </div>
                             </li>
                         </ul>
@@ -66,6 +66,23 @@
                                 <div>
 ##                                    <br>
                                     <h3>The COS advocates openness, integrity, and reproducibility of scientific research.</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </a>
+                </div> <!-- item -->
+                <div class="item">
+                    <a href="http://openscienceframework.org/project/EZcUj/wiki/home">
+                        <ul>
+                            <li class="span4">
+                                <div>
+                                    <img src="/static/secos.png" alt="Reproducibility Project"/>
+                                </div>
+                            </li>
+                            <li class="span6 offset1">
+                                <div>
+                                    <br>
+                                    <h3>We&#8217;re investigating reproducibility in psychology and cancer biology.</h3>
                                 </div>
                             </li>
                         </ul>
@@ -98,23 +115,6 @@
                             <li class="span6 offset1">
                                 <div>
                                     <h3>We support badges as a way for journals to acknowledge authors&#8217; open practices.</h3>
-                                </div>
-                            </li>
-                        </ul>
-                    </a>
-                </div> <!-- item -->
-                <div class="item">
-                    <a href="http://openscienceframework.org/project/EZcUj/wiki/home">
-                        <ul>
-                            <li class="span4">
-                                <div>
-                                    <img src="/static/psychologists.png" alt="Reproducibility Project"/>
-                                </div>
-                            </li>
-                            <li class="span6 offset1">
-                                <div>
-                                    <br>
-                                    <h3>Over 100 researchers are contributing to our Reproducibility Project.</h3>
                                 </div>
                             </li>
                         </ul>

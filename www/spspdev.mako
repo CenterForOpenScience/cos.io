@@ -27,6 +27,7 @@
         <p>This free pre-conference mini-hackathon is for developers that would like to learn about or contribute to free and open source tools for supporting the scientific workflow.  The Center for Open Science (http://centerforopenscience.org/) sponsors free, open-source software to improve research practices and facilitate openness in scientific communication.  Novice through expert developers are welcome.  Morning is for lightning talks about open source projects; Afternoon on is for sprints to get some coding done.  Come and get involved!</p>
         <p>Bring a team or join one when you arrive.</p>
         <p>Need more information? Email spsp2014@centerforopenscience.org.</p>
+        <p>Looking more for information on how to use these open source tools as a researcher rather than how to build them? Click <a href="/spsp/">here</a>.</p>
     </div>
 </div>
 <div class="row-fluid">
