@@ -55,6 +55,23 @@
                     </a>
                 </div> <!-- item -->
                 <div class="item">
+                    <a href="/spsp/">
+                        <ul>
+                            <li class="span4">
+                                <div>
+                                    <img src="/static/SPSP.png" alt="COS logo"/>
+                                </div>
+                            </li>
+                            <li class="span6 offset1">
+                                <div>
+##                                    <br>
+                                    <p style="font-size: 26px; line-height: 115%">We're holding two free SPSP preconferences: one with workshops on improving your workflow, and one on open source software in open science.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </a>
+                </div> <!-- item -->
+                <div class="item">
                     <a href="/about/">
                         <ul>
                             <li class="span4">

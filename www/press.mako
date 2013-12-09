@@ -4,6 +4,17 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/atlantic.png"</p>
+            </div>
+            <div class="span6">
+                <h4>How to Read About Science</h4>
+                <p>December 6th, 2013 | Yes, scientists should do high-quality work and journalists should report it responsibly, but readers should be discerning and thoughtful information consumers. They can’t expect science writing to provide simple answers to complex questions; in fact, they should be skeptical of any piece that claims to do so. As University of Virginia psychology professor Brian Nosek told me, "Science reporting is not purveying the facts, it's purveying the discovery process, the adventure into the unknown."</p>
+                <p><a href="http://www.theatlantic.com/health/archive/2013/12/how-to-read-about-science/281855/">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/Science.gif"</p>
             </div>
             <div class="span6">
