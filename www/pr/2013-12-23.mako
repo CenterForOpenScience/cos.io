@@ -1,7 +1,7 @@
 <%inherit file="/_index.mako"/>
 
 <h4>The John Templeton Foundation awards $2.1M joining the Laura and John Arnold Foundation and Alfred P. Sloan Foundation in $10M year for COS</h4>
-<h5>Nonprofit will increase research transparency and provide free technologies for scientists</h5>
+
 <p>December 23, 2013</p>
 <p>Initiated by a grant from the Laura and John Arnold Foundation in early 2013, the Center for Open Science (COS; http://cos.io/) received support from an anonymous donor in March to accelerate development of the Open Science Framework (http://osf.io/), a free web application that supports the scientific workflow making it easy for researchers to document, archive, and share their research materials and data.  In June, the Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers to support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.  This month, COS will make the first major feature release from the Alfred P. Sloan support.
 </p>
