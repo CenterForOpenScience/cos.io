@@ -27,8 +27,7 @@
     Center for Open Science: http://centerforopenscience.org/
         <br />
     Open Science Framework: http://openscienceframework.org/
-<p>Download this release as a <a href="/static/pr/cos_pr_20130305.docx"><img src="/static/page_white_word.png"/> docx</a> or <a href="/static/pr/cos_pr_20130305.pdf"><img src="/static/page_white_acrobat.png"/> pdf</a></p>
-</p>
+
 <ul class="breadcrumb">
     <li><a href="/">Home</a> <span class="divider">/</span></li>
     <li><a href="/pr/">Press Info</a> <span class="divider">/</span></li>
