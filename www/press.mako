@@ -4,6 +4,16 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/cos_logo.png"</p>
+            </div>
+            <div class="span6">
+                <h4>The John Templeton Foundation awards $2.1M joining the Laura and John Arnold Foundation and Alfred P. Sloan Foundation in $10M year for COS</h4>
+                <p>December 23rd, 2013 | Initiated by a grant from the Laura and John Arnold Foundation in early 2013, the Center for Open Science (COS; http://cos.io/) received additional support from an anonymous donor in March to accelerate development of the Open Science Framework (http://osf.io/). The OSF is a free web application that supports the scientific workflow, making it easy for researchers to document, archive, and share their research materials and data. In June, the Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers to support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management. This month, COS will make the first major feature release from the Alfred P. Sloan Foundation support.</p>
+                <p><a href="http://cos.io/pr/2013-12-23/">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/Science.gif"</p>
             </div>
             <div class="span6">

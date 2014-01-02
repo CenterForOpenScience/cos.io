@@ -39,6 +39,6 @@
     </dd>
     <dt>Applying</dt>
     <dd><p>
-        Please send a resume and cover letter explaining your background and interest in the position to jobs@centerforopenscience.org.  Send with the subject heading &#8220;Developer.&#8221;  Questions about the position and COS are welcome.  You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.
+        Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.  You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.
     </p></dd>
 </dl>
