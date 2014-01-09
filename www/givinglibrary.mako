@@ -11,7 +11,7 @@
         <div style="text-align: center;">
             <h1>Click for Open Science</h1>
             <br>
-            <a href="http://givinglibrary.org/organizations/the-center-for-open-science"><img src="/static/gl_share.png" style="padding-left: 150px"></a>
+            <a href="http://givinglibrary.org/organizations/the-center-for-open-science"><img src="/static/gl_share.png"></a>
             <h3>Share the COS mission and Giving Library will make a $5 donation.</h3>
         </div>
     </div>
@@ -26,14 +26,14 @@
         <p>Support open science and open source initiatives today. <a href="#howto">Make a difference with a click.</a></p>
     </div>
     <div style="padding-left: 100px; padding-top: 125px" data-twttr-id="twttr-sandbox-0">
-        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-tweet twitter-tweet-rendered" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin: 10px 0px; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); border-width: 1px; border-style: solid; box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px; position: static; visibility: visible;" title="Embedded Tweet" width="500" height="210"></iframe>
-        <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-tweet twitter-tweet-rendered" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin: 10px 0px; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); border-width: 1px; border-style: solid; box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px; position: static; visibility: visible;" title="Embedded Tweet" width="500" height="210"></iframe>
-        <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <iframe id="twitter-widget-2" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-tweet twitter-tweet-rendered" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin: 10px 0px; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); border-width: 1px; border-style: solid; box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px; position: static; visibility: visible;" title="Embedded Tweet" width="500" height="210"></iframe>
-        <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <iframe id="twitter-widget-3" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-tweet twitter-tweet-rendered" style="display: block; max-width: 99%; min-width: 220px; padding: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin: 10px 0px; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); border-width: 1px; border-style: solid; box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px; position: static; visibility: visible;" title="Embedded Tweet" width="500" height="210"></iframe>
-        <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet" lang="en"><p>If you click on and share this link, the <a href="https://twitter.com/OSFramework">@OSFramework</a> receives $5 donation from <a href="https://twitter.com/GivingLibrary">@GivingLibrary</a>. Visit <a href="http://t.co/7uhyOShCxM">http://t.co/7uhyOShCxM</a> <a href="https://twitter.com/search?q=%23Share2Give&amp;src=hash">#Share2Give</a></p>&mdash; Matt Motyl (@MattMotyl) <a href="https://twitter.com/MattMotyl/statuses/421322023818653697">January 9, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet" lang="en"><p>Hey friendos, especially <a href="https://twitter.com/search?q=%23openscience&amp;src=hash">#openscience</a> advocates: share <a href="https://twitter.com/OSFramework">@OSFramework</a> and <a href="https://twitter.com/GivingLibrary">@GivingLibrary</a> will donate $5 to them! Visit <a href="http://t.co/6eBbCriuKf">http://t.co/6eBbCriuKf</a></p>&mdash; Melissa Lewis (@meli_lewis) <a href="https://twitter.com/meli_lewis/statuses/421317453457543168">January 9, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet" lang="en"><p>You can share how <a href="https://twitter.com/OSFramework">@OSFramework</a> is good and earn $5 for open science from <a href="https://twitter.com/GivingLibrary">@GivingLibrary</a>. Visit <a href="http://t.co/t9EVINuwKP">http://t.co/t9EVINuwKP</a> <a href="https://twitter.com/search?q=%23Share2Give&amp;src=hash">#Share2Give</a></p>&mdash; Timothy Bates (@timothycbates) <a href="https://twitter.com/timothycbates/statuses/421316681693032448">January 9, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet" lang="en"><p>Go to <a href="http://t.co/119xEi6iP7">http://t.co/119xEi6iP7</a> …, click &quot;Share Now&quot;, and <a href="https://twitter.com/GivingLibrary">@GivingLibrary</a> will donate $5 to <a href="https://twitter.com/OSFramework">@OSFramework</a> <a href="https://twitter.com/search?q=%23Share2Give&amp;src=hash">#Share2Give</a></p>&mdash; Denise Holman (@denise_holman) <a href="https://twitter.com/denise_holman/statuses/421315421162053636">January 9, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
 
