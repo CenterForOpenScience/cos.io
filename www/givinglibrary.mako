@@ -11,7 +11,7 @@
         <div style="text-align: center;">
             <h1>Make a Difference with a Click</h1>
             <br>
-            <p class="lead">When you <a href="http://givinglibrary.org/organizations/the-center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation of support.</p>
+            <p class="lead">When you <a href="http://givinglibrary.org/organizations/center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation of support.</p>
             <br>
         </div>
     </div>
@@ -24,7 +24,7 @@
             <img src="/static/gl_gif.gif" style="padding-bottom: 100px"></a>
         </div>
 
-        <h2>1. <a href="http://givinglibrary.org/organizations/the-center-for-open-science">Visit</a> Giving Library</h2>
+        <h2>1. <a href="http://givinglibrary.org/organizations/center-for-open-science">Visit</a> Giving Library</h2>
         <h2>2. Click on "Share Now"</h2>
         <h2>3. Log in or sign up for Giving Library</h2>
         <h2>4. Share on Twitter or Facebook</h2>
@@ -36,7 +36,7 @@
 
 <div class="row-fluid">
     <div class="span12">
-        <p>Visit Giving Libary to share the <a href="http://givinglibrary.org/organizations/the-center-for-open-science">Center for Open Science page</a>. Each post to Facebook or Twitter will mean COS receives $5 from Giving Libary to pursue our mission of <strong>increasing the openness, integrity, and reproducibility</strong> of scientific research. We build </p>
+        <p>Visit Giving Libary to share the <a href="http://givinglibrary.org/organizations/center-for-open-science">Center for Open Science page</a>. Each post to Facebook or Twitter will mean COS receives $5 from Giving Libary to pursue our mission of <strong>increasing the openness, integrity, and reproducibility</strong> of scientific research. We build </p>
         <p>Giving Libary directs philanthropists (like you!) to discover new organizations. By visiting and sharing the COS Giving Library page, you are promoting <strong>open science</strong> and our <strong>open source</strong> initiatives like the <a href="http://osf.io">Open Science Framework</a>.</p>
         <h3>See who is making donations with their clicks:</h3><Br>
     </div>
