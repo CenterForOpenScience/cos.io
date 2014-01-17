@@ -12,7 +12,7 @@
             <h1>Make a Difference with a Click</h1>
             <br>
             <p class="lead">When you <a href="http://givinglibrary.org/organizations/center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation of support. In <a href="https://github.com/gittip/www.gittip.com/issues/1892">collaboration with Gittip</a>, that $5 will be donated to OSS developers that are making a difference in the open source and open science communities. The COS, as part of its daily mission, is already one of Gittip's top donors, but we can do even more - possibly $62,000 more, but the pot goes away January 31, 2014!</p>
-<img style="float:right;" src="/static/gittiptop.png" />
+<img style="text-align: center;" src="/static/gittiptop.png" />
     </div>
 </div>
 
