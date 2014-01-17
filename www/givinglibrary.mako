@@ -13,7 +13,7 @@
             <br>
             <p class="lead">When you <a href="http://givinglibrary.org/organizations/center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation of support. In collaboration with <a href="http://gittip.com">Gittip</a>, that $5 will be donated to OSS developers that are making a difference in the open source/science community (more info <a href="https://github.com/gittip/www.gittip.com/issues/1892">here</a>). The COS, as part of its daily mission, is <a href="https://www.gittip.com/cos.io/">already one of Gittip's top donors</a></p>
 <img style="text-align: center;" src="/static/topdonors.png" />
-<p>but we can do even more. The pot at the Giving Library is as high as $62,000, but goes away January 31, 2014.</p>
+<p class="lead">but we can do even more. The pot at the Giving Library is as high as $62,000, but goes away January 31, 2014.</p>
             <br>
         </div>
     </div>
