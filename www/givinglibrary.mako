@@ -9,9 +9,9 @@
 <div class="row-fluid">
     <div class="span12">
         <div style="text-align: center;">
-            <h1>Make a Difference with a Click</h1>
+            <h1>Make a Difference for Open Source Software with a Click</h1>
             <br>
-            <p class="lead">When you <a href="http://givinglibrary.org/organizations/center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation of support.</p>
+            <p class="lead">When you <a href="http://givinglibrary.org/organizations/center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation of support. In collaboration with Gittip, that $5 donation will be gittip'd to an OSS developer that is making a difference in the open source/science community (more info <a herf="https://github.com/gittip/www.gittip.com/issues/1892">here</a>).</p>
             <br>
         </div>
     </div>
@@ -27,7 +27,7 @@
         <h2>1. <a href="http://givinglibrary.org/organizations/center-for-open-science">Visit</a> Giving Library</h2>
         <h2>2. Click on "Share Now"</h2>
         <h2>3. Log in or sign up for Giving Library</h2>
-        <h2>4. Share on Twitter or Facebook</h2>
+        <h2>4. Share on Twitter or Facebook; you can customize the message to include this link - http://cos.io/givinglibrary - to make it easier for people to continue the sharing!</h2>
     </div>
 </div>
 
