@@ -1,9 +1,21 @@
 <a name="job-pc"></a>
 <h3>Project Coordinator</h3>
 <dl class="dl-horizontal">
-    <dt>Background</dt><dd><p>The Center for Open Science (COS) conducts and support open, crowdsourced projects about metascience - science of scientific practices.  Our best known project is the Reproducibility Project.  This is an active collaboration of more than 100 researchers around the world conducting replications of studies in three important psychology journals.  Another project is the Archival Project.  This is a review of existing publishing practices that will involve hundreds or thousands of undergraduates from psychology honor societies as coders of published studies following a standard protocol.  We need a project coordinator with extremely strong social and organizational skills to coordinate the project teams for our crowdsourced projects, and to facilitate the development and operation of new metascience research projects.</p></dd>
-    <dt>Responsibilities</dt><dd><p>The key responsibilities for the position include: coordinating Center-supported open research projects, maintaining project documentation, facilitating communication and coordination of project contributors, managing project data and materials, quality control, managing project timelines and goals, managing project research assistants, and coordinating mini-grants for some open projects.</p></dd>
-    <dt>Skills</dt><dd><p>Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Effective managerial skills with research assistants; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; background in scientific methodology (B.A./B.S. level at least); effective writing skills.  Skills in programming and data analysis are a plus, but not essential.</p></dd>
-    <dt>Notes</dt><dd><p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  Get more information about the Reproducibility Project and Center <a href="http://centerforopenscience.org/#about">here</a>.</p></dd>
-    <dt>Applying</dt><dd><p>Please send a resume and cover letter explaining your background and interest in the position to jobs@centerforopenscience.org.  Send with the subject heading "Project coordinator".  Questions about the position and COS are welcome.</p></dd>
+    <dt>Background</dt>
+        <dd>
+            <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="https://osf.io/">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices. We seek a project coordinator with extremely strong social and organizational skills to contribute to community and metascience efforts, and to help facilitate open science practices more broadly.  This position is highly appropriate for individuals that are looking for full-time experience prior to attending graduate school in a scientific field.</p>
+        </dd>
+    <dt>Responsibilities</dt>
+        <dd>
+            <p>The key responsibilities for the coordinator position include fostering connections with the scientific community, communicating about COS initiatives, providing training and support for users of COS tools, and contributing to launch and management of new initiatives, maintaining project documentation, testing and quality control of new features, and tracking progress on project timelines and goals.</p>
+        </dd>
+    <dt>Skills</dt>
+        <dd>
+            <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Effective managerial skills with research assistants; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; background in scientific methodology (B.A./B.S. level at least); effective writing skills.  Skills in programming and data analysis are a plus.</p>
+        </dd>
+    <dt>Applying</dt>
+        <dd>
+            <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</p>
+        </dd>
+
 </dl>

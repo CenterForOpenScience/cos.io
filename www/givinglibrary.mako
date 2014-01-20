@@ -11,7 +11,7 @@
         <div style="text-align: center;">
             <h1>Make a Difference with a Click</h1>
             <br>
-            <p class="lead">When you <a href="http://givinglibrary.org/organizations/center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation of support.</p>
+            <p class="lead">When you <a href="http://givinglibrary.org/organizations/center-for-open-science">share the COS mission through Giving Library</a>, the Center will receive a $5 donation that will be used to support open science and open source developers.</p>
             <br>
         </div>
     </div>
