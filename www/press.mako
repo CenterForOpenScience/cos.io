@@ -4,7 +4,17 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/cos_logo.png"</p>
+                <p><img src="/static/wtju.png"></p>
+            </div>
+            <div class="span6">
+                <h4>COS on WTJU</h4>
+                <p>January 17th, 2014 | Andrew Sallans and Josh Carp of the Center for Open Science were interviewed on WTJU's Soundboard.</p>
+                <p><a href="/static/WTJUinterview.mp3">Listen</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
+                <p><img src="/static/cos_logo.png"></p>
             </div>
             <div class="span6">
                 <h4>The John Templeton Foundation awards $2.1M joining the Laura and John Arnold Foundation and Alfred P. Sloan Foundation in $10M year for COS</h4>
@@ -14,7 +24,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/Science.gif"</p>
+                <p><img src="/static/Science.gif"></p>
             </div>
             <div class="span6">
                 <h4>Second Look at Psychology Experiments Offers Reassurance</h4>
@@ -24,7 +34,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/ng.png"</p>
+                <p><img src="/static/ng.png"></p>
             </div>
             <div class="span6">
                 <h4>Welcome To The Era of Big Replication</h4>
@@ -36,7 +46,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/nature.png"</p>
+                <p><img src="/static/nature.png"></p>
             </div>
             <div class="span6">
                 <h4>Psychologists strike a blow for reproducibility</h4>
@@ -46,7 +56,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/nature.png"</p>
+                <p><img src="/static/nature.png"></p>
             </div>
             <div class="span6">
                 <h4>Receptive to replication</h4>
@@ -56,7 +66,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/newyorker.png"</p>
+                <p><img src="/static/newyorker.png"></p>
             </div>
             <div class="span6">
                 <h4>Science and Its Skeptics</h4>
@@ -66,7 +76,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/observer_flag.jpg"</p>
+                <p><img src="/static/observer_flag.jpg"></p>
             </div>
             <div class="span6">
                 <h4>What’s New at Psychological Science: An Interview with Editor in Chief Eric Eich</h4>
@@ -76,7 +86,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/aps.jpg"</p>
+                <p><img src="/static/aps.jpg"></p>
             </div>
             <div class="span6">
                 <h4>APS Replication Initiative Under Way</h4>
@@ -86,7 +96,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/sciam_logo.png"</p>
+                <p><img src="/static/sciam_logo.png"></p>
             </div>
             <div class="span6">
                 <h4>You can’t read just one: Reproducibility and multiple sources</h4>
@@ -96,7 +106,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/reason_logo.png"</p>
+                <p><img src="/static/reason_logo.png"></p>
             </div>
             <div class="span6">
                 <h4>Are Most Scientific Results Bunk?</h4>
@@ -106,7 +116,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/economist.png"</p>
+                <p><img src="/static/economist.png"></p>
             </div>
             <div class="span6">
                 <h4>Trouble at the lab</h4>
@@ -116,7 +126,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/SE_Logo.png"</p>
+                <p><img src="/static/SE_Logo.png"></p>
             </div>
             <div class="span6">
                 <h4>Reproducibility Initiative Receives $1.3M Grant to Validate 50 Landmark Cancer Studies</h4>
@@ -127,7 +137,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/Science.gif"</p>
+                <p><img src="/static/Science.gif"></p>
             </div>
             <div class="span6">
                 <h4>Your Data, Warts and All</h4>
@@ -137,7 +147,7 @@
         </div> <!-- row -->
     <div class="press row">
             <div class="span2">
-                <p><img src="/static/hycos.png"</p>
+                <p><img src="/static/hycos.png"></p>
             </div>
             <div class="span6">
                 <h4>The Center for Open Science Hosts HackYourPhD</h4>
@@ -147,7 +157,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/newyorker.png"</p>
+                <p><img src="/static/newyorker.png"></p>
             </div>
             <div class="span6">
                 <h4>The Crisis in Social Psychology That Isn&#8217;t</h4>
@@ -157,7 +167,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/ng.png"</p>
+                <p><img src="/static/ng.png"></p>
             </div>
             <div class="span6">
                 <h4>New Center Aims to Make Science More Open and Reliable</h4>
@@ -167,7 +177,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/Science.gif"</p>
+                <p><img src="/static/Science.gif"></p>
             </div>
             <div class="span6">
                 <h4>Psychologists Launch a Bare-All Research Initiative</h4>
@@ -177,7 +187,7 @@
         </div> <!-- row -->
                 <div class="press row">
             <div class="span2">
-                <p><img src="/static/cos_logo.png"</p>
+                <p><img src="/static/cos_logo.png"></p>
             </div>
             <div class="span6">
                 <h4>Center for Open Science to provide revolutionary approach to scientific communication</h4>
@@ -187,7 +197,7 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/chronicle.jpg"</p>
+                <p><img src="/static/chronicle.jpg"></p>
             </div>
             <div class="span6">
                 <h4>New Center Hopes to Clean Up Sloppy Science and Bogus Research</h4>
@@ -202,7 +212,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/pacstand.png"</p>
+                <p><img src="/static/pacstand.png"></p>
             </div>
             <div class="span6">
                 <h4>Replicate This</h4>
@@ -212,7 +222,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/nyt.png"</p>
+                <p><img src="/static/nyt.png"></p>
             </div>
             <div class="span6">
                 <h4>Primed for Controversy</h4>
@@ -226,7 +236,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/huffpo.png"</p>
+                <p><img src="/static/huffpo.png"></p>
             </div>
             <div class="span6">
                 <h4>The Crisis in Squishy Science: Trouble for Scientists and for Journalists</h4>
@@ -238,7 +248,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/nbc.png"</p>
+                <p><img src="/static/nbc.png"></p>
             </div>
             <div class="span6">
                 <h4>Scandals force psychologists to do some soul-searching</h4>
@@ -250,7 +260,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/apa.png"</p>
+                <p><img src="/static/apa.png"></p>
             </div>
             <div class="span6">
                 <h4>Interesting results: Can they be replicated?</h4>
@@ -260,17 +270,17 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/newyorker.png"</p>
+                <p><img src="/static/newyorker.png"></p>
             </div>
             <div class="span6">
                 <h4>Cleaning Up Science</h4>
                 <p>December 24th, 2012 | A lot of scientists have been busted recently for making up data and fudging statistics. One case involves a Harvard professor who I once knew and worked with; another a Dutch social psychologist who made up results by the bushel. Medicine, too, has seen a rash of scientific foul play; perhaps most notably, the dubious idea that vaccines could cause autism appears to have been a hoax perpetrated by a scientific cheat. A blog called RetractionWatch publishes depressing notices, almost daily.</p>
-                <p><a href="http://www.newyorker.com/online/blogs/newsdesk/2012/12/cleaning-up-science.html target="_blank"">Read more</a></p>
+                <p><a href="http://www.newyorker.com/online/blogs/newsdesk/2012/12/cleaning-up-science.html" target="_blank">Read more</a></p>
             </div>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/atlantic.png"</p>
+                <p><img src="/static/atlantic.png"></p>
             </div>
             <div class="span6">
                 <h4>The Myth of Self-Correcting Science</h4>
@@ -280,7 +290,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/Science.gif"</p>
+                <p><img src="/static/Science.gif"></p>
             </div>
             <div class="span6">
                 <h4>Final Report on Stapel Also Blames Field As a Whole</h4>
@@ -290,7 +300,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/os_summit.png"</p>
+                <p><img src="/static/os_summit.png"></p>
             </div>
             <div class="span6">
                 <h4>Video: Solving the Crisis of Reproducing Science Research</h4>
@@ -300,7 +310,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/chronicle.jpg"</p>
+                <p><img src="/static/chronicle.jpg"></p>
             </div>
             <div class="span6">
                 <h4>Daniel Kahneman Sees &#8216;Train-Wreck Looming&#8217; for Social Psychology</h4>
@@ -310,7 +320,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
                 <div class="press row">
             <div class="span2">
-                <p><img src="/static/econlib.jpg"</p>
+                <p><img src="/static/econlib.jpg"></p>
             </div>
             <div class="span6">
                 <h4>Nosek on Truth, Science, and Academic Incentives</h4>
@@ -320,7 +330,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/Science.gif"</p>
+                <p><img src="/static/Science.gif"></p>
             </div>
             <div class="span6">
                 <h4>Service Offers to Reproduce Results for a Fee</h4>
@@ -330,7 +340,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/npg.png"</p>
+                <p><img src="/static/npg.png"></p>
             </div>
             <div class="span6">
                 <h4>Replication studies: Bad copy</h4>
@@ -340,7 +350,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/chronicle.jpg"</p>
+                <p><img src="/static/chronicle.jpg"></p>
             </div>
             <div class="span6">
                 <h4>Is Psychology About to Come Undone?</h4>
@@ -350,7 +360,7 @@ problem is not confined to a single field.</p>
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/Science.gif"</p>
+                <p><img src="/static/Science.gif"></p>
             </div>
             <div class="span6">
                 <h4>Psychology&#8217;s Bold Initiative</h4>

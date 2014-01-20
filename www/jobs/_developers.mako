@@ -29,16 +29,16 @@
         <p>We are much more concerned about collaboration, passion, and ability than the actual technologies you use. We believe that a great developer should be a great developer in any language. We focus on Python in that Python developers typically value readability and community, and we are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
     </dd>
     <dt>Location</dt>
-    <dd>
-        <p>We’re located in Charlottesville, VA and currently looking for candidates that can relocate to the area. Charlottesville is well known for its history (mostly Jefferson-related) and is situated in the foothills of the Blue Ridge Mountains, making for ample hiking opportunities for those that can suffer being away from the internet--we (probably) won’t count this against you. It also has a number of mostly arbitrary accolades that can be found here (<a href="http://www.charlottesville.org/Index.aspx?page=158">http://www.charlottesville.org/Index.aspx?page=158</a>). Other things we care about: it has a burgeoning tech scene, is in the top 15 cities in the country for restaurants per capita (lots of good food), and has a rich music/coffee scene--much of which is located on the downtown mall, one of the country's longest pedestrian malls.
-</p>
-    </dd>
+        <dd>
+            <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+        </dd>
     <dt>Benefits</dt>
-    <dd>
-        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, white-board walls, 401(k), and health/dental/vision insurance.</p>
-    </dd>
+        <dd>
+            <p>The Center for Open Science offers full time employees 401(k, health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+        </dd>
     <dt>Applying</dt>
-    <dd><p>
-        Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.  You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.
-    </p></dd>
+        <dd>
+            <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+            <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+        </dd>
 </dl>

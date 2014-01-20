@@ -20,7 +20,7 @@ app = w.app # Needed if you want to serve with, say, nginx
 
 
 if __name__ == "__main__":
-    #app.run(port=5000, debug=True) # Ready to serve Flask app from the templates in www
+    # app.run(port=5000, debug=True) # Ready to serve Flask app from the templates in www
 
     # or
 
