@@ -20,9 +20,17 @@
         <dd>
             <p>Substantial training and experience in scientific research and methodology; Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in programming, web development, and data analysis are a plus.</p>
         </dd>
+    <dt>Location</dt>
+        <dd>
+            <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+        </dd>
+    <dt>Benefits</dt>
+        <dd>
+            <p>The Center for Open Science offers full time employees 401(k, health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+        </dd>
     <dt>Applying</dt>
-        <dd><p>
-        Pl
-            ease send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</a>
-        </p></dd>
+        <dd>
+            <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+            <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</a></p>
+        </dd>
 </dl>
