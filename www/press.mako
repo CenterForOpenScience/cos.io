@@ -4,12 +4,22 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/wtju.png"></p>
+                <p><img src="/static/wtju.png" style="padding-left: 10px"></p>
             </div>
             <div class="span6">
                 <h4>COS on WTJU</h4>
                 <p>January 17th, 2014 | Andrew Sallans and Josh Carp of the Center for Open Science were interviewed on WTJU's Soundboard.</p>
                 <p><a href="/static/WTJUinterview.mp3">Listen</a></p>
+            </div>
+        </div> <!-- row -->
+                <div class="press row">
+        <div class="span2">
+                <p><img src="/static/nbc29.jpg"></p>
+            </div>
+            <div class="span6">
+                <h4>COS on NBC29</h4>
+                <p>January 16th, 2014 | Whitney Harris from NBC29 news visited the Center for Open Science, reporting on the Center's mission of increasing the openness, integrity, and reproducibility of scientific research. Whitney also gave the Center's treadmill desk some attention.</p>
+                <p><a href="http://www.nbc29.com/story/24468145/new-charlottesville-nonprofit-helps-scientists-collaborate-around-the-world">Read more</a></p>
             </div>
         </div> <!-- row -->
         <div class="press row">
