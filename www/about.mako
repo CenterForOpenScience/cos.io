@@ -4,7 +4,7 @@
     <div class="span12">
         <a name="about"></a>
         <a name="why-open-science"></a>
-        <h1>Why Open Science?</h1>
+        <h1>Why Open Science</h1>
         <p>No central authority validates scientific claims; a claim that depends on its source's authority is not scientific. Rather, the observation of consistent results when well-defined procedures are repeated&mdash;reproducibility&mdash;demarcates science and nonscience [<a href="http://books.google.com/books?id=A_pLAzk-P20C">Braude 2002</a>, p. 33]. Thus replication should be a core scientific practice. Scientists who routinely supply detailed methods with their observations&mdash;who do open science&mdash;improve scientific education, their community's ability to build on prior work, and public confidence in science. Thus openness should be a core scientific value.</p>
         <a name="about-the-center"></a>
         <h1>About the Center</h1>
