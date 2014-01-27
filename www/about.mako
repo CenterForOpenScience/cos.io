@@ -3,6 +3,10 @@
 <div class="row-fluid">
     <div class="span12">
         <a name="about"></a>
+        <a name="why-open-science"></a>
+        <h1>Why Open Science</h1>
+        <p>No central authority validates scientific claims; a claim that depends on its source's authority is not scientific. Rather, the observation of consistent results when well-defined procedures are repeated&mdash;reproducibility&mdash;demarcates science and nonscience [<a href="http://books.google.com/books?id=A_pLAzk-P20C">Braude 2002</a>, p. 33]. Thus replication should be a core scientific practice, and scientists should routinely supply methods of sufficient detail to support replication with their observations. Scientists must also confront the <a href="http://www.scientificexploration.org/journal/jse_14_1_scargle.pdf">"file-drawer problem"</a> by routinely supplying all studies regarding a claim. "Open Science"&mdash;providing sufficiently complete methods and observations&mdash;improves public confidence in science, scientific education, and the community's ability to advance prior work. Thus openness should be a core scientific value.</p>
+        <a name="about-the-center"></a>
         <h1>About the Center</h1>
         <p>The Center for Open Science (COS) is a non-profit organization based in Charlottesville, Virginia. COS is dedicated to improving the alignment between scientific values and scientific practices to improve the accumulation and application of knowledge. Operating with a technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, and is collaborative, high energy, and dedicated to openness.</p>
         <p>COS has three primary activities: </p>
