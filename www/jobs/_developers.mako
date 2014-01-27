@@ -1,20 +1,11 @@
-<style>
-    .indent li {
-        list-style: none;
-        text-indent: -8px;
-    }
-
-</style>
 
 <h3>Developers</h3>
 <dl class="dl-horizontal">
     <dt>Background</dt>
-    <dd><p>
-       Develop exclusively free, open source software in the name of open science.</p>
-
-<p>The Center for Open Science (http://centerforopenscience.org) is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively free and open source (http://github.com/CenterForOpenScience).</p>
-
-    </p></dd>
+    <dd>
+       <p>Develop exclusively free, open source software in the name of open science.</p>
+       <p>The Center for Open Science (http://centerforopenscience.org) is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively free and open source (http://github.com/CenterForOpenScience).</p>
+    </dd>
     <dt>Core Technologies</dt>
     <dd>
         <ul class="indent">

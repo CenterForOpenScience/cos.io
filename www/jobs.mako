@@ -7,6 +7,7 @@
 <dt><a href="#devintern">Developer Intern</a></dt>
 <dt><a href="#manager">Project Manager</a></dt>
 <dt><a href="#coordinator">Project Coordinator</a></dt>
+<dt><a href="#BITSS">BITSS Research Transparency Associate</a></dt>
 </dl>
 
 <h3 id="location">Working in Charlottesville</h3>
@@ -32,6 +33,9 @@
 </div>
 <div id="coordinator">
     <%include file="jobs/_projectcoordinator.mako"/>
+</div>
+<div id="BITSS">
+    <%include file="jobs/_BITSSassociate.mako"/>
 </div>
 
 <ul class="breadcrumb">

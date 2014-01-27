@@ -1,11 +1,3 @@
-<style>
-    .indent li {
-        list-style: none;
-        text-indent: -8px;
-    }
-
-</style>
-
 <h3>Project Manager</h3>
 <dl class="dl-horizontal">
     <dt>Background</dt>
@@ -31,6 +23,6 @@
     <dt>Applying</dt>
         <dd>
             <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-            <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</a></p>
+            <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</p>
         </dd>
 </dl>
