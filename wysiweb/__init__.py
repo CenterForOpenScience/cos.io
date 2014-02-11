@@ -127,7 +127,7 @@ class WYSIWeb:
                                 if i == len(split_path)-1:
                                     with open(self.join(new_path, 'index.html'), 'w') as f:
                                         f.write(self.router(new_route).encode('utf-8'))
-        print self.frozen_path
+        # print self.frozen_path
         static_app = Flask(__name__, static_path=self.static_route, static_folder=self.join(self.frozen_path, self.static_route))
         static_app.add_url_rule('/', 'router', self.static_router, defaults={'path':'index.html'})
         static_app.add_url_rule("/<path:path>/", 'router', self.static_router)
