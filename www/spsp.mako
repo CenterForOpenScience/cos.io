@@ -17,7 +17,7 @@
 <div class="row-fluid">
     <div class="span12" id="preconference-SPSP">
         <h3>Visit us!</h3>
-        <p>COS is hosting a free, drop in, <strong>preconference event</strong>. There are no formal presentations.Brian Nosek, COS staff, and others will be on hand to give tutorials, answer questions, and help you make the most of your time by using the Open Science Framework (OSF; http://osf.io/).</p>
+        <p>COS is hosting a free, drop-in, <strong>preconference event</strong>. There are no formal presentations. Brian Nosek, COS staff, and others from the Open Science Collaboration will be on hand to give tutorials, answer questions, and help you make the most of your time by using the Open Science Framework (OSF; http://osf.io/).</p>
         <div class="span10 offset1" id="preconference-details">
             <p>Room 5 in the Austin Convention Center</p>
             <p>Thursday, February 13</p>
@@ -27,7 +27,7 @@
 </div>
 <div class="row-fluid">
     <div class="span12" id="booth-SPSP">
-        <p>The Center will also have a <strong>booth</strong> open at all poster sessions. Drop by to learn about our activities, how to get involved, to buy a tshirt, or get an OSF demo.</p>
+        <p>The Center will also have a <strong>booth</strong> open during all poster sessions. Drop by to buy a tshirt, get an OSF demo, or to learn about our activities and how to get involved,.</p>
         <div class="span10 offset1" id="booth-details">
             <p>Friday and Saturday, February 14 and 15</p>
             <p>Booth 14 in the Austin Convention Center</p>
