@@ -33,6 +33,12 @@
     }
 
 </style>
+
+    <div id="spsp-banner">
+        <h2 align="center">COS is at SPSP 2014! <a style="font-size: 20px;" href="/spsp">Get more information.</a></h2>
+
+    </div>
+    <hr />
 <div class = "container-fluid">
     <div class="row-fluid">
         <div id="this-carousel-id" class="carousel slide container span12"><!-- class of slide for animation -->
