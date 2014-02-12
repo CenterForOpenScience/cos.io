@@ -10,31 +10,105 @@
     <div class="span12">
         <div style="text-align: center;">
             <h1>Center for Open Science</h1>
-            <h2>SPSP Preconference Event</h2>
-            <h3>February 13, 2014</h3>
-            <h3>Austin, Texas</h3>
+            <h2>SPSP 2014</h2>
         </div>
     </div>
-<div class="row-fluid">
-    <div class="span10 offset1">
-        <hr>
-        <h2 style="text-align: center;">Tools for your workflow</h2>
-    </div>
 </div>
-    <br>
 <div class="row-fluid">
-    <div class="span12">
-        <p>If you've spent too long searching through directories for a dataset only to realize it was on another lab member's machine, or if you've lost track of the 19 versions of the same file, or if you've been frustrated by how long you spend looking for research materials from your own collaborations, then join the Center for Open Science (COS) for a free SPSP preconference workshop. Brian Nosek, COS staff, and others will be on hand to give tutorials, answer questions, and help you make the most of your time by using the Open Science Framework (OSF; <a href="http://osf.io/">http://osf.io/)</a>.</p>
-        <p>This is an open conference.  There are no formal presentations.  Visit anytime from 9a-12p or 1p-4p to Room 5 in the Austin Convention Center.  COS team members will demonstrate tools, get you started, and provide training and support as needed.  Bring your laptop, research materials and data. We will help you make the most out of the OSF for supporting your research workflow.  Drop-in for just 15 minutes, or spend the whole day!</p>
-        <p>No matter the domain or your progress on your project, the OSF can help you document, share, collaborate on, archive, and register your research. At the workshop, get your workflow organized. Manage your collaborations. Take advantage of automated tools that maintain version histories of documents and log workflow to help reconstruct your memory when you return to projects months or years later. Also, if you desire, make your materials and data available to others, and register your study designs and analysis plans before data collection for strong confirmatory designs.</p>
-        <p>Come yourself or bring your team.</p>
-        <p>Need more information? Email spsp2014@centerforopenscience.org.</p>
-        <p>Looking for information on our open source development/hackathon track, or know someone who might be interested in attending? Click <a href="/spspdev/">here</a>.</p>
+    <div class="span12" id="preconference-SPSP">
+        <h3>Visit us!</h3>
+        <p>COS is hosting a free, drop-in, <strong>preconference event</strong>. There are no formal presentations. Brian Nosek, COS staff, and others from the Open Science Collaboration will be on hand to give tutorials, answer questions, and help you make the most of your time by using the Open Science Framework (OSF; http://osf.io/).</p>
+        <div class="span10 offset1" id="preconference-details">
+            <p>Room 5 in the Austin Convention Center</p>
+            <p>Thursday, February 13</p>
+            <p>9am-12pm and 1pm-4pm</p>
+        </div>
     </div>
 </div>
 <div class="row-fluid">
-    <div class="span8 offset2">
-    <iframe src="https://docs.google.com/forms/d/1AWpzvGaYWivxTx_UDtJEXmdSGUyYnf0m3C-ABjuhIi0/viewform?embedded=true" width="620" height="680" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <div class="span12" id="booth-SPSP">
+        <p>The Center will also have a <strong>booth</strong> open during all poster sessions. Drop by to buy a tshirt, get an OSF demo, or to learn about our activities and how to get involved,.</p>
+        <div class="span10 offset1" id="booth-details">
+            <p>Friday and Saturday, February 14 and 15</p>
+            <p>Booth 14 in the Austin Convention Center</p>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12" id="preconference-SPSP" style="margin-bottom: 30px">
+        <h3>Looking for more information on a project?</h3>
+        <div style="float: left" class="span5">
+            <div style="text-align: center">
+                <h4>Reproducibility Project: Psychology</h4>
+                <button class="btn" data-toggle="modal" data-target="#rpp-modal" style="margin-bottom: 10px"><img src="/static/spspimg/RPPflyer.png" width="200px"></button>
+                <div class="modal fade" id="rpp-modal" tabindex="-1" role="dialog" aria-labelledby="rppModal" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="/static/spspimg/RPPflyer.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center">Visit the project <a href="https://osf.io/ezcuj/wiki/home/">page on the OSF</a>.</p>
+                <p style="text-align: center">For more information or to sign up, contact johanna@cos.io.</p>
+            </div>
+        </div>
+        <div style="float: right" class="span5">
+            <div style="text-align: center">
+                <h4>Collaborative Replications and Education Project</h4>
+                <button class="btn" data-toggle="modal" data-target="#crep-modal" style="margin-bottom: 10px"><img src="/static/spspimg/CREPflyer.png" width="200px"></button>
+                <div class="modal fade" id="crep-modal" tabindex="-1" role="dialog" aria-labelledby="crepModal" aria-hidden="true"  style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="/static/spspimg/CREPflyer.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center">Visit the project <a href="https://osf.io/wfc6u/"">page on the OSF</a>.</p>
+                <p style="text-align: center">For more information or to sign up, contact graheje@plu.edu.</p>
+            </div>
+        </div>
+        <div style="float: left" class="span5">
+            <div style="text-align: center">
+                <h4>Archival Project</h4>
+                <button class="btn" data-toggle="modal" data-target="#archival-modal" style="margin-bottom: 10px"><img src="/static/spspimg/archivalflyer.png" width="200px"></button>
+                <div class="modal fade" id="archival-modal" tabindex="-1" role="dialog" aria-labelledby="archivalModal" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="/static/spspimg/archivalflyer.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center">Visit the project <a href="http://archivalproject.org/">website</a>.</p>
+                <p style="text-align: center">For more information or to sign up, contact johanna@cos.io.</p>
+            </div>
+        </div>
+        <div style="float: right" class="span5">
+            <div style="text-align: center">
+                <h4>Many Labs 3</h4>
+                <button class="btn" data-toggle="modal" data-target="#manylabs-modal" style="margin-bottom: 10px"><img src="/static/spspimg/manylabsflyer.png" width="200px"></button>
+                <div class="modal fade" id="manylabs-modal" tabindex="-1" role="dialog" aria-labelledby="manylabsModal" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="/static/spspimg/manylabsflyer.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center">Visit the project <a href="https://osf.io/ct89g/"">page on the OSF</a>.</p>
+                <p style="text-align: center">For more information or to sign up, contact raklein@ufl.edu.</p>
+            </div>
+        </div>
+    </div>
+    <div style="margin-bottom: 100px">
+        <p>Concise information on all of the Center for Open Science's activities is viewable <a href="https://docs.google.com/document/d/1qkWanWHzkWCJ_yFur_M-v83WXTM_oVYClj92iFZZsSA/edit?usp=sharing">here</a>.</p>
     </div>
 </div>
 
