@@ -91,19 +91,36 @@
         </div>
         <div style="float: right" class="span5">
             <div style="text-align: center">
-                <h4>Many Labs 3</h4>
-                <button class="btn" data-toggle="modal" data-target="#manylabs-modal" style="margin-bottom: 10px"><img src="/static/spspimg/manylabsflyer.png" width="200px"></button>
+                <h4>Many Labs 2</h4>
+                <button class="btn" data-toggle="modal" data-target="#manylabs-modal" style="margin-bottom: 10px"><img src="/static/spspimg/manylabs2flyer.png" width="200px"></button>
                 <div class="modal fade" id="manylabs-modal" tabindex="-1" role="dialog" aria-labelledby="manylabsModal" aria-hidden="true" style="display: none;">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <img src="/static/spspimg/manylabsflyer.png">
+                                <img src="/static/spspimg/manylabs2flyer.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center">Read the <a href="https://docs.google.com/document/d/141o2U8ZCeRMkr0gfz21RiUEICI-Udt1w8LPSPKPEzU0/edit">proposal</a>.</p>
+                <p style="text-align: center">For more information or to sign up, contact raklein@ufl.edu.</p>
+            </div>
+        </div>
+        <div style="float: left" class="span5">
+            <div style="text-align: center">
+                <h4>Many Labs 3</h4>
+                <button class="btn" data-toggle="modal" data-target="#manylabs3-modal" style="margin-bottom: 10px"><img src="/static/spspimg/manylabs3.png" width="200px"></button>
+                <div class="modal fade" id="manylabs3-modal" tabindex="-1" role="dialog" aria-labelledby="manylabs3Modal" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="/static/spspimg/manylabs3.png">
                             </div>
                         </div>
                     </div>
                 </div>
                 <p style="text-align: center">Visit the project <a href="https://osf.io/ct89g/"">page on the OSF</a>.</p>
-                <p style="text-align: center">For more information or to sign up, contact raklein@ufl.edu.</p>
+                <p style="text-align: center">For more information or to sign up, contact cebersole@virginia.edu.</p>
             </div>
         </div>
     </div>
