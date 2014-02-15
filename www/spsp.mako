@@ -33,12 +33,12 @@
                 <dt>Message body</dt>
                 <dd>Presentation abstract</dd>
                 <dt>Attachment</dt>
-                <dd>Any files you want associated with your project (e.g., PowerPoints, PDFs, data, video, materials)</dd>
+                <dd>Your presentation file (e.g., PowerPoint, Keynote, or PDF)</dd>
             </dl>
         </div>
 
-        <p>Once sent, we will follow-up by sending you the permanent identifier that others can use to cite your work; you can also login and make changes to your project at that URL. If you didn't have an OSF account, one will be created automatically and a link to set your password will be emailed to you; if you do, we will simply create a new project in your account.</p>
-        <p>To see all of the posters and talks submitted, visit http://osf.io/view/spsp2014 .</p>
+        <p>Once sent, we will follow-up by sending you the permanent identifier that others can use to cite your work; you can also login and make changes, such as uploading additional files, to your project at that URL. If you didn't have an OSF account, one will be created automatically and a link to set your password will be emailed to you; if you do, we will simply create a new project in your account.</p>
+        <p>To see all of the posters and talks submitted, visit http://osf.io/view/spsp2014.</p>
     </div>
 </div>
 <div class="row-fluid">
