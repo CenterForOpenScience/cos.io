@@ -16,6 +16,33 @@
 </div>
 <div class="row-fluid">
     <div class="span12" id="preconference-SPSP">
+        <img src="/static/spspimg/Frank.jpg" width="215px" style="padding-right: 20px; padding-bottom: 50px; padding-top: 50px">
+        <img src="/static/spspimg/anna.jpg" width="215px" style="padding-right: 20px; padding-bottom: 50px; padding-top: 50px">
+        <img src="/static/spspimg/chris.jpg" width="215px" style="padding-bottom: 50px; padding-top: 50px">
+        <h3>Sharing your poster or talk via the Open Science Framework is as simple as sending an email</h3>
+        <p>Send an email to one of the following addresses from the email account you would like used on the OSF:</p>
+        <ul>
+            <li>For posters, email spsp2014-poster@osf.io</li>
+            <li>For talks, email spsp2014-talk@osf.io</li>
+        </ul>
+        <p>The format of the email should be as follows:</p>
+        <div class="span11 offset1">
+            <dl>
+                <dt>Subject</dt>
+                <dd>Presentation title</dd>
+                <dt>Message body</dt>
+                <dd>Presentation abstract</dd>
+                <dt>Attachment</dt>
+                <dd>Any files you want associated with your project (e.g., PowerPoints, PDFs, data, video, materials)</dd>
+            </dl>
+        </div>
+
+        <p>Once sent, we will follow-up by sending you the permanent identifier that others can use to cite your work; you can also login and make changes to your project at that URL. If you didn't have an OSF account, one will be created automatically and a link to set your password will be emailed to you; if you do, we will simply create a new project in your account.</p>
+        <p>To see all of the posters and talks submitted, visit http://osf.io/view/spsp2014 .</p>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12" id="preconference-SPSP">
         <h3>Visit us!</h3>
         <p>COS is hosting a free, drop-in, <strong>preconference event</strong>. There are no formal presentations. Brian Nosek, COS staff, and others from the Open Science Collaboration will be on hand to give tutorials, answer questions, and help you make the most of your time by using the Open Science Framework (OSF; http://osf.io/).</p>
         <div class="span10 offset1" id="preconference-details">
