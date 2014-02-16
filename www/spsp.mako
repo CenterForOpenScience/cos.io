@@ -31,7 +31,7 @@
                 <dt>Subject</dt>
                 <dd>Presentation title</dd>
                 <dt>Message body</dt>
-                <dd>Presentation abstract</dd>
+                <dd>Presentation abstract (if any)</dd>
                 <dt>Attachment</dt>
                 <dd>Your presentation file (e.g., PowerPoint, Keynote, or PDF)</dd>
             </dl>
@@ -39,28 +39,10 @@
 
         <p>Once sent, we will follow-up by sending you the permanent identifier that others can use to cite your work; you can also login and make changes, such as uploading additional files, to your project at that URL. If you didn't have an OSF account, one will be created automatically and a link to set your password will be emailed to you; if you do, we will simply create a new project in your account.</p>
         <p>To see all of the posters and talks submitted, visit http://osf.io/view/spsp2014 .</p>
+        <p>Learn more about the OSF and how you can use it to support your research, collaborator, and project management by starting <a href="https://osf.io/getting-started/">here</a>.</p>
     </div>
 </div>
-<div class="row-fluid">
-    <div class="span12" id="preconference-SPSP">
-        <h3>Visit us!</h3>
-        <p>COS is hosting a free, drop-in, <strong>preconference event</strong>. There are no formal presentations. Brian Nosek, COS staff, and others from the Open Science Collaboration will be on hand to give tutorials, answer questions, and help you make the most of your time by using the Open Science Framework (OSF; http://osf.io/).</p>
-        <div class="span10 offset1" id="preconference-details">
-            <p>Room 5 in the Austin Convention Center</p>
-            <p>Thursday, February 13</p>
-            <p>9am-12pm and 1pm-4pm</p>
-        </div>
-    </div>
-</div>
-<div class="row-fluid">
-    <div class="span12" id="booth-SPSP">
-        <p>The Center will also have a <strong>booth</strong> open during all poster sessions. Drop by to buy a tshirt, get an OSF demo, or to learn about our activities and how to get involved,.</p>
-        <div class="span10 offset1" id="booth-details">
-            <p>Friday and Saturday, February 14 and 15</p>
-            <p>Booth 14 in the Austin Convention Center</p>
-        </div>
-    </div>
-</div>
+
 <br>
 <div class="row-fluid">
     <div class="span12" id="preconference-SPSP" style="margin-bottom: 30px">
