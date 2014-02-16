@@ -35,7 +35,8 @@
 </style>
 
     <div id="spsp-banner">
-        <h2 align="center">COS is at SPSP 2014! <a style="font-size: 20px;" href="/spsp">More information.</a></h2>
+        <h2 align="center"><a href="/spsp">SPSP 2014</a></h2>
+        <h3 align="center">Upload your poster or talk to the web and get more info on COS activities here.</h3>
 
     </div>
     <hr />

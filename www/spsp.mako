@@ -9,17 +9,13 @@
 <div class="row-fluid">
     <div class="span12">
         <div style="text-align: center;">
-            <h1>Center for Open Science</h1>
             <h2>SPSP 2014</h2>
         </div>
     </div>
 </div>
 <div class="row-fluid">
     <div class="span12" id="preconference-SPSP">
-        <img src="/static/spspimg/Frank.jpg" width="215px" style="padding-right: 20px; padding-bottom: 50px; padding-top: 50px">
-        <img src="/static/spspimg/anna.jpg" width="215px" style="padding-right: 20px; padding-bottom: 50px; padding-top: 50px">
-        <img src="/static/spspimg/chris.jpg" width="215px" style="padding-bottom: 50px; padding-top: 50px">
-        <h3>Sharing your poster or talk via the Open Science Framework is as simple as sending an email</h3>
+        <h3 align="center">Sharing your poster or talk via the Open Science Framework is as simple as sending an email</h3>
         <p>Send an email to one of the following addresses from the email account you would like used on the OSF:</p>
         <ul>
             <li>For posters, email spsp2014-poster@osf.io</li>
@@ -40,6 +36,9 @@
         <p>Once sent, we will follow-up by sending you the permanent identifier that others can use to cite your work; you can also login and make changes, such as uploading additional files, to your project at that URL. If you didn't have an OSF account, one will be created automatically and a link to set your password will be emailed to you; if you do, we will simply create a new project in your account.</p>
         <p>To see all of the posters and talks submitted, visit http://osf.io/view/spsp2014 .</p>
         <p>Learn more about the OSF and how you can use it to support your research, collaborator, and project management by starting <a href="https://osf.io/getting-started/">here</a>.</p>
+            <img src="/static/spspimg/Frank.jpg" width="215px" style="padding-right: 20px; padding-bottom: 50px; padding-top: 50px">
+        <img src="/static/spspimg/anna.jpg" width="215px" style="padding-right: 20px; padding-bottom: 50px; padding-top: 50px">
+        <img src="/static/spspimg/chris.jpg" width="215px" style="padding-bottom: 50px; padding-top: 50px">
     </div>
 </div>
 
