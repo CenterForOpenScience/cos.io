@@ -1,7 +1,7 @@
 <h1>Contact</h1>
 <br />
 <table class="table">
-    <tr><td>Email</td><td>contact@centerforopenscience.org</td></tr>
+    <tr><td>Email</td><td>contact@cos.io</td></tr>
     <tr><td>WWW</td><td>http://centerforopenscience.org/<br />
         http://openscienceframework.org/</td></tr>
 </td></tr>
