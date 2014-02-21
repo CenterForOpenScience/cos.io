@@ -285,7 +285,7 @@ problem is not confined to a single field.</p>
                 <p>February 20th, 2013 | In the wake of several scandals in psychology research, scientists are asking themselves just how much of their research is valid.</p>
 
 <p>In the past 10 years, dozens of studies in the psychology field have been retracted, and several high-profile studies have not stood up to scrutiny when outside researchers tried to replicate the research.</p>
-                <p><a href="http://www.nbcnews.com/science/scandals-force-psychologists-do-some-soul-searching-1C8453878" target="_blank">Read more</a></p>
+                <p><a href="http://science.nbcnews.com/_news/2013/02/20/17032396-scandals-force-psychologists-to-do-some-soul-searching?lite" target="_blank">Read more</a></p>
             </div>
         </div> <!-- row -->
         <div class="press row">
