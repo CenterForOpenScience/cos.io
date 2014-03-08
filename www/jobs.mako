@@ -2,6 +2,7 @@
 
 <h1 id="top">Jobs</h1>
 
+<p>The following positions are seeking candidates at the Center for Open Science. If you know someone who would be a good fit, visit our <a href="/referral">referrals</a> page for more information.</p>
 <dl>
 <dt><a href="#developer">Developer</a></dt>
 <dt><a href="#devintern">Developer Intern</a></dt>
