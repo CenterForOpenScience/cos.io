@@ -9,7 +9,6 @@
 <dt><a href="#manager">Project Manager</a></dt>
 <dt><a href="#coordinator">Project Coordinator</a></dt>
 <dt><a href="#stats">Statistical and Methodological Consultant</a></dt>
-<dt><a href="#hrintern">Human Resources Intern</a></dt>
 <dt><a href="#BITSS">BITSS Research Transparency Associate</a></dt>
 </dl>
 
@@ -43,10 +42,6 @@
 <a href="#top">Back to top</a>
 <div id="stats">
     <%include file="jobs/_statsconsultant.mako"/>
-</div>
-<a href="#top">Back to top</a>
-<div id="hrintern">
-    <%include file="jobs/_hrintern.mako"/>
 </div>
 <a href="#top">Back to top</a>
 <div id="BITSS">
