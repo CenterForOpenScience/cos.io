@@ -34,12 +34,6 @@
 
 </style>
 
-    <div id="spsp-banner">
-        <h2 align="center"><a href="/spsp">SPSP 2014</a></h2>
-        <h3 align="center">Upload your poster or talk to the web and get more info on COS activities here.</h3>
-
-    </div>
-    <hr />
 <div class = "container-fluid">
     <div class="row-fluid">
         <div id="this-carousel-id" class="carousel slide container span12"><!-- class of slide for animation -->
