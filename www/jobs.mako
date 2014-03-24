@@ -2,13 +2,13 @@
 
 <h1 id="top">Jobs</h1>
 
+<p>If you know someone who would be a good fit for our full-time developer position, visit our <a href="/referral">referrals</a> page to learn about our referral bounty.</p>
 <dl>
 <dt><a href="#developer">Developer</a></dt>
 <dt><a href="#devintern">Developer Intern</a></dt>
 <dt><a href="#manager">Project Manager</a></dt>
 <dt><a href="#coordinator">Project Coordinator</a></dt>
 <dt><a href="#stats">Statistical and Methodological Consultant</a></dt>
-<dt><a href="#hrintern">Human Resources Intern</a></dt>
 <dt><a href="#BITSS">BITSS Research Transparency Associate</a></dt>
 </dl>
 
@@ -42,10 +42,6 @@
 <a href="#top">Back to top</a>
 <div id="stats">
     <%include file="jobs/_statsconsultant.mako"/>
-</div>
-<a href="#top">Back to top</a>
-<div id="hrintern">
-    <%include file="jobs/_hrintern.mako"/>
 </div>
 <a href="#top">Back to top</a>
 <div id="BITSS">
