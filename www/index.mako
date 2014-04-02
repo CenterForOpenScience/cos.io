@@ -1,7 +1,9 @@
 <%inherit file="_base.mako"/>
 <%def name="title()">Home</%def>
 <%def name="description()">The Center for Open Science homepage</%def>
-<%def page ="page()"></%>
+<%def name="page()">
+<% page = 'home' %>
+</%def>
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
@@ -11,6 +13,8 @@
     <link href="static/plugins/bxslider/jquery.bxslider.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
+
+${page}
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">

@@ -2,6 +2,9 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<%def name="page()">
+<% page = 'home' %>
+</%def>
 
 ${self.stylesheets()}
 
@@ -53,7 +56,7 @@ ${self.stylesheets()}
         <!-- BEGIN TOP NAVIGATION MENU -->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="dropdown ${ 'active' if title() == 'Home' else ''}">
+                <li class="dropdown ${ 'active' if page == 'home' else ''}">
                     <a href="/">Home </a>
                 </li>
                 <li class="dropdown ${ 'active' if page in ['about_work', 'about_team'] else ''}">
