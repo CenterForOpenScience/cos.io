@@ -7,7 +7,6 @@
 <dt><a href="#developer">Developer</a></dt>
 <dt><a href="#devintern">Developer Intern</a></dt>
 <dt><a href="#manager">Project Manager</a></dt>
-<dt><a href="#coordinator">Project Coordinator</a></dt>
 <dt><a href="#stats">Statistical and Methodological Consultant</a></dt>
 <dt><a href="#BITSS">BITSS Research Transparency Associate</a></dt>
 </dl>
@@ -34,10 +33,6 @@
 <a href="#top">Back to top</a>
 <div id="manager">
     <%include file="jobs/_projectmanager.mako"/>
-</div>
-<a href="#top">Back to top</a>
-<div id="coordinator">
-    <%include file="jobs/_projectcoordinator.mako"/>
 </div>
 <a href="#top">Back to top</a>
 <div id="stats">
