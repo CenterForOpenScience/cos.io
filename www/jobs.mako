@@ -2,12 +2,18 @@
 <%def name="title()">News</%def>
 <%def name="description()">The Center for Open Science news and updates</%def>
 
+
+
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
+<%namespace name="base" file="_base.mako"/>
+<%def name="navigation()">
+    ${base.navlinks('jobs')}
+</%def>
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">

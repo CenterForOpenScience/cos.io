@@ -5,6 +5,12 @@
 <% page = 'home' %>
 </%def>
 
+<%namespace name="base" file="_base.mako"/>
+<%def name="navigation()">
+    ${base.navlinks('home')}
+</%def>
+
+
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
@@ -22,6 +28,8 @@ ${page}
     <div class="fullwidthbanner-container slider-main">
     <div class="fullwidthabnner radial-center">
         <ul id="revolutionul" style="display:none;">
+            
+
             <!-- THE FIRST SLIDE -->
             <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400">
                 <div class="caption lft slide_title slide_item_left"
@@ -74,6 +82,25 @@ ${page}
 
                 </div>
             </li>
+              <!-- THE FIRST SLIDE -->
+            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400">
+                <div class="caption lft slide_title slide_item_left"
+                     data-x="200"
+                     data-y="50"
+                     data-speed="1500"
+                     data-start="700"
+                     data-easing="easeOutExpo">
+                    We advocate the
+                </div>
+                <div class="caption lfl slide_title slide_item_left"
+                     data-x="200"
+                     data-y="120"
+                     data-speed="1500"
+                     data-start="1700"
+                     data-easing="easeOutExpo">
+                    <strong style="color: black">openness</strong>
+                </div>
+                </li>
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>
     </div>

@@ -2,8 +2,32 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-<%def name="page()">
-<% page = 'home' %>
+<%def name='navlinks(page)'>
+        <!-- BEGIN TOP NAVIGATION MENU -->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown ${ 'active' if page == 'home' else ''}">
+                    <a href="/">Home </a>
+                </li>
+                <li class="dropdown ${ 'active' if page in ['about_work', 'about_team'] else ''}">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
+                        About us
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/about_work/">Our Work</a></li>
+                        <li><a href="/about_team/">Our Team</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown ${ 'active' if page == 'news' else ''}">
+                    <a href="/news/">News </a>
+                </li>
+                <li class="dropdown ${ 'active' if page == 'jobs' else ''}">
+                    <a href="/jobs/" >Jobs</a>
+                </li>
+            </ul>
+        </div>
+        <!-- BEGIN TOP NAVIGATION MENU -->
 </%def>
 
 ${self.stylesheets()}
@@ -52,38 +76,14 @@ ${self.stylesheets()}
             </a>
             <!-- END LOGO -->
         </div>
+    
+    ${self.navigation()}
 
-        <!-- BEGIN TOP NAVIGATION MENU -->
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="dropdown ${ 'active' if page == 'home' else ''}">
-                    <a href="/">Home </a>
-                </li>
-                <li class="dropdown ${ 'active' if page in ['about_work', 'about_team'] else ''}">
-                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
-                        About us
-                        <i class="fa fa-angle-down"></i>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/about_work/">Our Work</a></li>
-                        <li><a href="/about_team/">Our Team</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown ${ 'active' if page == 'news' else ''}">
-                    <a href="/news/">News </a>
-                </li>
-                <li class="dropdown ${ 'active' if page == 'jobs' else ''}">
-                    <a href="/jobs/" >Jobs</a>
-                </li>
-            </ul>
-        </div>
-        <!-- BEGIN TOP NAVIGATION MENU -->
     </div>
 </div>
 <!-- END HEADER -->
 
 <!-- Each page's content can be found in their respective mako files. -->
-
 
 ${self.body()}
 
@@ -103,7 +103,7 @@ ${self.body()}
 
                 <!-- Begin Map -->
                 <div class="row" id="footer-map">
-                    <iframe width="330" height="160" frameborder="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;output=embed"></iframe>
+                    <iframe width="100%" height="160" frameborder="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;output=embed"></iframe>
                     <br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;source=embed">
                     210 Ridge McIntire Rd</a> in a larger map</small>
                 </div>

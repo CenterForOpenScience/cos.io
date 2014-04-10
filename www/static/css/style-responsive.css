@@ -417,8 +417,7 @@
 		margin-left: -15px;
 	}
 	.header ul.nav {
-		clear: both;
-		float: left;
+				float: right;
 	}
 	.header .nav li {
 		margin-right: 25px;

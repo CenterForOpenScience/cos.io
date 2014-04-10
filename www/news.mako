@@ -9,6 +9,10 @@
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
+<%namespace name="base" file="_base.mako"/>
+<%def name="navigation()">
+    ${base.navlinks('news')}
+</%def>
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
