@@ -53,6 +53,13 @@ ${self.stylesheets()}
     <link href="../static/css/pages/portfolio.css" rel="stylesheet" type="text/css"/>
     <link href="../static/css/custom.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME STYLES -->
+
+   <!-- BEGIN FLICKR STYLES  -->
+        <link href="../static/plugins/jflickrfeed/style.css" rel="stylesheet" type="text/css" media="all" /> 
+        <link href="../static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
+    <!-- END FLICKR STYLES -->
+
+
 </head>
 <!-- END HEAD -->
 
@@ -136,12 +143,8 @@ ${self.body()}
                 <h2>Photo Stream</h2>
                 <!-- BEGIN BLOG PHOTOS STREAM -->
                 <div class="blog-photo-stream margin-bottom-30">
-                    <ul class="list-unstyled">
-                        <li><a href="#"><img src="../static/img/people/img5-small.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="../static/img/works/img1.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="../static/img/people/img4-large.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="../static/img/works/img6.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="../static/img/pics/img1-large.jpg" alt=""></a></li>
+                    <ul id="cbox" class="list-unstyled thumbs">
+                        
                     </ul>
                 </div>
                 <!-- END BLOG PHOTOS STREAM -->
@@ -212,6 +215,11 @@ ${self.body()}
 <script type="text/javascript" src="../static/plugins/back-to-top.js"></script>
 
 <!-- END CORE PLUGINS -->
+   <!-- BEGIN FLICKR JS  -->
+        <script src="../static/plugins/jflickrfeed/colorbox/jquery.colorbox-min.js"></script>
+        <script src="../static/plugins/jflickrfeed/jflickrfeed.min.js"></script>
+        <script src="../static/plugins/jflickrfeed/setup.js"></script>
+    <!-- END FLICKR JS -->
 
 ${self.javascript_bottom()}
 

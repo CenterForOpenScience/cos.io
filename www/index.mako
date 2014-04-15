@@ -81,26 +81,7 @@ ${page}
                     <img src="static/img/sliders/COS_center_image.png" id="no-transform" alt="Open symbol">
 
                 </div>
-            </li>
-              <!-- THE FIRST SLIDE -->
-            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400">
-                <div class="caption lft slide_title slide_item_left"
-                     data-x="200"
-                     data-y="50"
-                     data-speed="1500"
-                     data-start="700"
-                     data-easing="easeOutExpo">
-                    We advocate the
-                </div>
-                <div class="caption lfl slide_title slide_item_left"
-                     data-x="200"
-                     data-y="120"
-                     data-speed="1500"
-                     data-start="1700"
-                     data-easing="easeOutExpo">
-                    <strong style="color: black">openness</strong>
-                </div>
-                </li>
+            </li>           
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>
     </div>
