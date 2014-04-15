@@ -110,7 +110,7 @@ ${self.body()}
 
                 <!-- Begin Map -->
                 <div class="row" id="footer-map">
-                    <iframe width="100%" height="160" frameborder="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;output=embed"></iframe>
+                    <iframe width="100%" height="240" frameborder="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;output=embed"></iframe>
                     <br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;source=embed">
                     210 Ridge McIntire Rd</a> in a larger map</small>
                 </div>
@@ -153,39 +153,12 @@ ${self.body()}
 
             <div class="col-md-4 col-sm-4">
                 <!-- BEGIN TWITTER BLOCK -->
-                <h2>Latest Tweets</h2>
-                <dl class="dl-horizontal f-twitter">
-                    <dt><i class="fa fa-twitter"></i></dt>
-                    <dd>
-                        <a href="#">@keenthemes</a>
-                        Imperdiet condimentum diam dolor lorem sit consectetur adipiscing
-                        <span>3 min ago</span>
-                    </dd>
-                </dl>
-                <dl class="dl-horizontal f-twitter">
-                    <dt><i class="fa fa-twitter"></i></dt>
-                    <dd>
-                        <a href="#">@keenthemes</a>
-                        Sequat ipsum dolor onec eget orci fermentum condimentum lorem sit consectetur adipiscing
-                        <span>8 min ago</span>
-                    </dd>
-                </dl>
-                <dl class="dl-horizontal f-twitter">
-                    <dt><i class="fa fa-twitter"></i></dt>
-                    <dd>
-                        <a href="#">@keenthemes</a>
-                        Remonde sequat ipsum dolor lorem sit consectetur adipiscing
-                        <span>12 min ago</span>
-                    </dd>
-                </dl>
-                <dl class="dl-horizontal f-twitter">
-                    <dt><i class="fa fa-twitter"></i></dt>
-                    <dd>
-                        <a href="#">@keenthemes</a>
-                        Pilsum dolor lorem sit consectetur adipiscing orem sequat
-                        <span>16 min ago</span>
-                    </dd>
-                </dl>
+                <h2>Twitter Feed</h2>
+ <a class="twitter-timeline" href="https://twitter.com/OSFramework" data-widget-id="456100099907547136"  data-theme="dark"  data-related="twitterapi,twitter" data-aria-polite="assertive" height="300" lang="EN" data-chrome="nofooter transparent noheader noscrollbar noborders" data-tweet-limit="3">Tweets by @OSFramework</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
                 <!-- END TWITTER BLOCK -->
             </div>
         </div>

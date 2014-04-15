@@ -9,17 +9,17 @@ $(document).ready(function(){
 	});
 	
 	$('#cbox').jflickrfeed({
-		limit: 5,
+		limit: 10,
 		qstrings: {
 			id: '99620615@N06'
 		},
 		itemTemplate: '<li>'+
-						'<a rel="colorbox" href="{{image}}" title="{{title}}">' +
+						'<a rel="colorbox" href="{{image_b}}" title="{{title}}">' +
 							'<img src="{{image_s}}" alt="{{title}}" />' +
 						'</a>' +
 					  '</li>'
 	}, function(data) {
-		$('#cbox a').colorbox({ onLoad: function () { $('#colorbox').show(); } });
+		$('#cbox a').colorbox({ onLoad: function () { $('#colorbox').show(); }, maxWidth:'95%', maxHeight:'95%' });
 	});
 	
 	$('#cycle').jflickrfeed({
