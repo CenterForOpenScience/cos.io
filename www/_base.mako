@@ -54,7 +54,8 @@ ${self.stylesheets()}
     <link href="../static/css/custom.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME STYLES -->
 
-   <!-- BEGIN FLICKR STYLES  -->
+   <!-- BEGIN FLICKR STYLES --> 
+   <!-- uses jflickrfeed plugin http://www.newmediacampaigns.com/blog/a-jquery-flickr-feed-plugin -->
         <link href="../static/plugins/jflickrfeed/style.css" rel="stylesheet" type="text/css" media="all" /> 
         <link href="../static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
     <!-- END FLICKR STYLES -->
@@ -78,7 +79,7 @@ ${self.stylesheets()}
             </button>
             <!-- END RESPONSIVE MENU TOGGLER -->
             <!-- BEGIN LOGO (you can use logo image instead of text)-->
-            <a class="navbar-brand logo-v1" href="index.html">
+            <a class="navbar-brand logo-v1" href="/">
                 <img src="../static/img/icons/cos_wide.png" id="logoimg" alt="COS logo">
             </a>
             <!-- END LOGO -->
@@ -152,13 +153,10 @@ ${self.body()}
             </div>
 
             <div class="col-md-4 col-sm-4">
-                <!-- BEGIN TWITTER BLOCK -->
+                <!-- BEGIN TWITTER BLOCK : Uses Official Twitter widget with customizations -->
                 <h2>Twitter Feed</h2>
- <a class="twitter-timeline" href="https://twitter.com/OSFramework" data-widget-id="456100099907547136"  data-theme="dark"  data-related="twitterapi,twitter" data-aria-polite="assertive" height="300" lang="EN" data-chrome="nofooter transparent noheader noscrollbar noborders" data-tweet-limit="3">Tweets by @OSFramework</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
+                     <a class="twitter-timeline" href="https://twitter.com/OSFramework" data-widget-id="456100099907547136"  data-theme="dark"  data-related="twitterapi,twitter" data-aria-polite="assertive" height="300" lang="EN" data-chrome="nofooter transparent noheader noscrollbar noborders" data-tweet-limit="3">Tweets by @OSFramework</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 <!-- END TWITTER BLOCK -->
             </div>
         </div>

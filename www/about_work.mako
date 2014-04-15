@@ -4,9 +4,8 @@
 <%def name="title()">About our Work</%def>
 <%def name="description()">The Center for Open Science works on community, metascience, and infrastructure projects.</%def>
 
-<%namespace name="base" file="_base.mako"/>
 <%def name="navigation()">
-    ${base.navlinks('about_work')}
+    ${self.navlinks('about_work')}
 </%def>
 
 <%def name="stylesheets()">

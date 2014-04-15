@@ -43,10 +43,9 @@
 		margin-top: 17px;
 	}
 
-	.header .nav li > a:hover,
-	.header .nav li.active > a ,
-	.header .nav li.active:hover > a {
-		background: #fcfcfc !important;
+
+	.header .nav li.active > a  {
+			background: #fff ; 
 	}
 
 	.header .nav li > a:hover {

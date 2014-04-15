@@ -9,9 +9,8 @@
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
-<%namespace name="base" file="_base.mako"/>
 <%def name="navigation()">
-    ${base.navlinks('news')}
+    ${self.navlinks('news')}
 </%def>
 
 <!-- BEGIN PAGE CONTAINER -->
@@ -238,7 +237,7 @@
                         </table>
                         <p class="text-left">February 26th, 2013 | [M]any of the classic studies that led us to our current understanding of priming have never been replicated. In fact, the few attempts to reproduce the results that we have taken at face value for so long have failed. In late 2012, that led Daniel Kahneman, noted Princeton University psychologist and author of the best-selling book Thinking Fast and Slow, to write an open e-mail to the entire priming-research community. He wrote, “Your field is now the poster child for doubts about the integrity of psychological research.” Kahneman’s solution? A new research protocol whereby cooperating labs attempt to check and replicate each other’s studies.</p>
                     </a>
-                    <a class="col-md-4 service-box-v1" href="hhttp://www.nytimes.com/2013/02/24/opinion/sunday/psychology-research-control.html?_r=0">
+                    <a class="col-md-4 service-box-v1" href="http://www.nytimes.com/2013/02/24/opinion/sunday/psychology-research-control.html?_r=0">
                         <table>
                             <tr>
                                 <td><img src="../static/img/icons/nyt.png" height="100"></td>

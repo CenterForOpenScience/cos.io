@@ -4,9 +4,8 @@
 <%def name="description()">The Center for Open Science team is diverse in background and skills.</%def>
 <% page = 'about_team' %>
 
-<%namespace name="base" file="_base.mako"/>
 <%def name="navigation()">
-    ${base.navlinks('about_team')}
+    ${self.navlinks('about_team')}
 </%def>
 
 <%def name="stylesheets()">
