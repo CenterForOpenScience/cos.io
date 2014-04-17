@@ -118,16 +118,16 @@ ${self.body()}
                     210 Ridge McIntire Road<br />
                     Suite 500<br />
                     Charlottesville, VA 22903<br />
-                    Email: <a href="mailto:info@keenthemes.com">contact@centerforopenscience.org</a>
+                    Email: <a href="mailto:contact@cos.io">contact@cos.io</a>
                 </address>
                 <!--BEGIN SOCIAL LINKS -->
                 <div class="row">
                     <ul class="social-footer">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.facebook.com/OpenScienceFramework"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/103557785986281627994/posts"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/3187955?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A1430177711396542103724%2CVSRPtargetId%3A3187955%2CVSRPcmpt%3Aprimary"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/OSFramework"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/CenterForOpenScience"><i class="fa fa-github"></i></a></li>
                     </ul>
                 </div>
                 <!-- END SOCIAL LINKS -->

@@ -1,6 +1,6 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">News</%def>
-<%def name="description()">The Center for Open Science news and updates</%def>
+<%def name="title()">Jobs</%def>
+<%def name="description()">Open job positions at the Center for Open Science</%def>
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->

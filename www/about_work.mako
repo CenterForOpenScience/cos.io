@@ -68,7 +68,7 @@
                 </p>
                 <br>
                 <h3><strong>Interested in finding ways to work together?</strong></h3>
-                <p>Visit our pages for <a href="journals.html">journals and societies</a>, for <a href="scientists.html">scientists</a>, or for <a href="developers.html">developers</a>.</p>
+                <p>Visit our pages for <a href="/journals/">journals and societies</a>, for <a href="/scientists/">scientists</a>, or for <a href="/developers/">developers</a>.</p>
                 <div class="spacer"></div>
             </div>
 
@@ -189,7 +189,7 @@
                                     <p>The Center for Open Science is conveniently located on the Downtown Mall in Charlottesville, Virginia. COS is a Python-based, open source development shop; local programming groups and developers are invited to
                                         share our office for meet-ups, as a work space, or to get involved with our mission.
                                         Developers can contribute to maturing projects like OSF or bring in new ideas of their own. For more information on visiting our office,
-                                        email <a href="mailto: contact@centerforopenscience.org" style="color: black">contact@centerforopenscience.org</a>.
+                                        email <a href="mailto:contact@centerforopenscience.org" style="color: black">contact@centerforopenscience.org</a>.
                                     </p>
                                 </div>
                             </div>
