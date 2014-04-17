@@ -78,7 +78,9 @@ font-weight: 400;
 .panel-info >.panel-heading {
     background-color: #E8F7FC !important;
 }
-
+.panel-heading {
+  cursor: pointer;
+}
 .jobs-pics {
     max-width: 300px;
     padding-right: 30px;
@@ -200,7 +202,7 @@ text-decoration: none;
 margin-bottom: 10px;
 }
 
-.service-box-v1:hover i, .service-box-v1:hover p, .service-box-v1:hover h2 {
+.service-box-v1:hover i, .service-box-v1:hover p {
     font-size: 13px;
 }
 
@@ -254,6 +256,7 @@ margin-bottom: 10px;
 .footer #footer-map {
     padding-top: 20px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .copyright {
@@ -279,4 +282,32 @@ margin-bottom: 10px;
 .front-team h3 {
 	margin:10px 0 12px;
 	line-height:30px !important;
+}
+
+/* Bootstrap Carousel */ 
+#carousel { 
+  height: 375px;
+border-bottom: 1px solid #eee;
+text-align: center;
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF);
+background: -ms-radial-gradient(circle, #FAFFFF, #CEF3FF)
+}
+
+.slide-container {
+width: 60%;
+margin: auto;
+padding: 30px 0;
+}
+.slide-text {
+  width: 340px;
+float: left;
+text-align: left;
+}
+.slide-text h1{
+  padding: 6px 0; 
+}
+.slide-image{ 
+  float:right;
 }

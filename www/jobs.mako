@@ -2,12 +2,17 @@
 <%def name="title()">Jobs</%def>
 <%def name="description()">Open job positions at the Center for Open Science</%def>
 
+
+
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
+<%def name="navigation()">
+    ${self.navlinks('jobs')}
+</%def>
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
@@ -27,7 +32,8 @@
 <div id="accordion1" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion1_1">
-            <h4 class="panel-title">
+                        <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
                 <a  data-parent="#accordion1" >
                     Developer
                 </a>
@@ -76,6 +82,7 @@
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion2_2">
+                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
                 <a data-parent="#accordion2" >
                     Developer Intern
                 </a>
@@ -98,6 +105,8 @@
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
+                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+
                 <a data-parent="#accordion3" >
                     Project Manager
                 </a>
@@ -140,6 +149,8 @@
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
+                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+
                 <a data-parent="#accordion4" >
                     Project Coordinator
                 </a>
@@ -182,6 +193,8 @@
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion5_5">
+                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+
                 <a data-parent="#accordion5" >
                     Statistical and Methodological Consultants
                 </a>
@@ -226,6 +239,8 @@
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
+                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+
                 <a data-parent="#accordion6" >
                     BITSS Research Transparency Associate
                 </a>
@@ -405,6 +420,20 @@
         jQuery(document).ready(function() {
             App.init();
             ContactUs.init();
+        
+            $('.panel-heading').on('click', function(){ 
+                var el = $(this); 
+                if($(this).parents('.panel').find('.panel-collapse').hasClass('collapse')){
+                    console.log('true'); 
+                    $(this).find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>'); 
+                } else {
+                    console.log('false'); 
+                    $(this).find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>'); 
+
+                }
+            }); 
+            
+                                    
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->

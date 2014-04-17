@@ -4,6 +4,10 @@
 <%def name="description()">The Center for Open Science team is diverse in background and skills.</%def>
 <% page = 'about_team' %>
 
+<%def name="navigation()">
+    ${self.navlinks('about_team')}
+</%def>
+
 <%def name="stylesheets()">
 <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />

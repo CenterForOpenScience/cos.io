@@ -5,12 +5,19 @@
 <% page = 'home' %>
 </%def>
 
+<%def name="navigation()">
+    ${self.navlinks('home')}
+</%def>
+
+
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <link rel="stylesheet" href="static/plugins/revolution_slider/css/rs-style.css" media="screen">
     <link rel="stylesheet" href="static/plugins/revolution_slider/rs-plugin/css/settings.css" media="screen">
     <link href="static/plugins/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link href="static/css/animate.css" rel="stylesheet" />
+
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
@@ -18,68 +25,50 @@ ${page}
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
-<!-- BEGIN REVOLUTION SLIDER -->
-    <div class="fullwidthbanner-container slider-main">
-    <div class="fullwidthabnner radial-center">
-        <ul id="revolutionul" style="display:none;">
-            <!-- THE FIRST SLIDE -->
-            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400">
-                <div class="caption lft slide_title slide_item_left"
-                     data-x="200"
-                     data-y="50"
-                     data-speed="1500"
-                     data-start="700"
-                     data-easing="easeOutExpo">
-                    We advocate the
-                </div>
-                <div class="caption lfl slide_title slide_item_left"
-                     data-x="200"
-                     data-y="120"
-                     data-speed="1500"
-                     data-start="1700"
-                     data-easing="easeOutExpo">
-                    <strong style="color: black">openness</strong>
-                </div>
-                <div class="caption lfl slide_title slide_item_left"
-                     data-x="200"
-                     data-y="190"
-                     data-speed="1500"
-                     data-start="2700"
-                     data-easing="easeOutExpo">
-                    <strong style="color: black">integrity</strong>
-                </div>
-                <div class="caption lfl slide_title slide_item_left"
-                     data-x="200"
-                     data-y="260"
-                     data-speed="1500"
-                     data-start="3700"
-                     data-easing="easeOutExpo">
-                    <span style="padding-left: 1px">and</span> <strong style="color: black">reproducibility</strong>
-                </div>
-                <div class="caption lfb slide_title slide_item_left"
-                     data-x="200"
-                     data-y="330"
-                     data-speed="1500"
-                     data-start="4700"
-                     data-easing="easeOutExpo">
-                    of scientific research
-                </div>
-                <div class="caption lfb"
-                     data-x="863"
-                     data-y="75"
-                     data-speed="1500"
-                     data-start="700"
-                     data-easing="easeOutExpo"  >
-                    <img src="static/img/sliders/COS_center_image.png" id="no-transform" alt="Open symbol">
+ 
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <!-- Hiding indicators, add back when multiple slides 
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      --> 
 
-                </div>
-            </li>
-        </ul>
-        <div class="tp-bannertimer tp-bottom"></div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="slide-container"> 
+            <!-- Animations: animate.css -->
+              <div class="slide-text animated fadeInLeft">
+                 <h1> We advocate the </h1> 
+                 <h1> <b> openness </b> </h1> 
+                 <h1> <b> integrity </b>  </h1> 
+                 <h1><b> reproducibility </b></h1> 
+                 <h1> of scientific research </h1> 
+              </div> 
+              <div class="slide-image animated fadeInRight"> 
+                <img src="static/img/sliders/COS_center_image.png" id="no-transform" alt="Open symbol">
+              </div>
+            </div> 
+        </div>
+     
+      </div>
+
+      <!-- Controls -->
+      <!-- Hiding controls, add back when multiple slides 
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+
+      --> 
     </div>
-</div>
 
-<!-- END REVOLUTION SLIDER -->
+
 
     <div class="clearfix"></div>
 
@@ -187,6 +176,7 @@ ${page}
             Index.initRevolutionSlider();
             Portfolio.init();
         });
+        $('.carousel').carousel();
     </script>
 
 </%def>

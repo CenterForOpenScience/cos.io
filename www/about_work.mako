@@ -4,6 +4,9 @@
 <%def name="title()">About our Work</%def>
 <%def name="description()">The Center for Open Science works on community, metascience, and infrastructure projects.</%def>
 
+<%def name="navigation()">
+    ${self.navlinks('about_work')}
+</%def>
 
 <%def name="stylesheets()">
 
