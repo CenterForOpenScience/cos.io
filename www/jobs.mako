@@ -6,7 +6,6 @@
 <dl>
 <dt><a href="#developer">Developer</a></dt>
 <dt><a href="#devintern">Developer Intern</a></dt>
-<dt><a href="#manager">Project Manager</a></dt>
 <dt><a href="#stats">Statistical and Methodological Consultant</a></dt>
 <dt><a href="#BITSS">BITSS Research Transparency Associate</a></dt>
 </dl>
@@ -29,10 +28,6 @@
 <a href="#top">Back to top</a>
 <div id="devintern">
     <%include file="jobs/_interns.mako"/>
-</div>
-<a href="#top">Back to top</a>
-<div id="manager">
-    <%include file="jobs/_projectmanager.mako"/>
 </div>
 <a href="#top">Back to top</a>
 <div id="stats">
