@@ -4,6 +4,16 @@
     <div class="container">
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/SE_Logo.png" style="padding-left: 10px"></p>
+            </div>
+            <div class="span6">
+                <h4>Reproducibility Project: Cancer Biology Receives $500,000 of Reagents</h4>
+                <p>May 1st, 2014 | Science Exchange announced today that many top scientific suppliers will provide over $500,000 worth of research reagents and models to support the Reproducibility Project: Cancer Biology.</p>
+                <p><a href="/pr/2014-05-01">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/guardian.gif" style="padding-left: 10px"></p>
             </div>
             <div class="span6">
@@ -156,11 +166,11 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
-                <p><img src="/static/SE_Logo.png"></p>
+                <p><img src="/static/cos_logo.png"></p>
             </div>
             <div class="span6">
-                <h4>Reproducibility Initiative Receives $1.3M Grant to Validate 50 Landmark Cancer Studies</h4>
-                <p>October 16th, 2013 | The Center for Open Science announced​ ​today that it would designate $1.3M of funding from the Laura and John Arnold Foundation towards the Reproducibility​ ​Initiative​ to independently validate 50
+                <h4>Reproducibility Project: Cancer Biology Receives $1.3M Grant to Validate 50 Landmark Cancer Studies</h4>
+                <p>October 16th, 2013 | The Center for Open Science announced​ ​today that it would designate $1.3M of funding from the Laura and John Arnold Foundation towards the Reproducibility​ ​Project: Cancer Biology​ to independently validate 50
                     landmark cancer biology studies. The 50​ ​chosen studies are among the highest impact studies in the field over the period of 2010 to 2012, and systematic​ ​validation could be crucial to developing future cancer drugs.</p>
                 <p><a href="/pr/2013-10-16">Read more</a></p>
             </div>
