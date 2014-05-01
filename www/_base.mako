@@ -152,10 +152,10 @@ ${self.body()}
 
             </div>
 
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4" id="twitterbox">
                 <!-- BEGIN TWITTER BLOCK : Uses Official Twitter widget with customizations -->
                 <h2>Twitter Feed</h2>
-                     <a class="twitter-timeline" href="https://twitter.com/OSFramework" data-widget-id="456100099907547136"  data-theme="dark"  data-related="twitterapi,twitter" data-aria-polite="assertive" height="300" lang="EN" data-chrome="nofooter transparent noheader noscrollbar noborders" data-tweet-limit="3">Tweets by @OSFramework</a>
+                     <a class="twitter-timeline" href="https://twitter.com/OSFramework" data-widget-id="456100099907547136"  data-theme="dark"  data-related="twitterapi,twitter" data-aria-polite="assertive" height="400" lang="EN" data-chrome="nofooter transparent noheader noscrollbar noborders" data-tweet-limit="3">Tweets by @OSFramework</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 <!-- END TWITTER BLOCK -->
             </div>

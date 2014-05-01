@@ -216,6 +216,14 @@ margin-bottom: 10px;
 }
 
 /*Footer*/
+
+
+
+
+.footer .blog-photo-stream {
+    margin-top: 17px;
+}
+
 .footer {
 	padding: 35px 0;
 	font-size: 13px;

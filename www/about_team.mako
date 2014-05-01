@@ -9,7 +9,7 @@
 </%def>
 
 <%def name="stylesheets()">
-<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
@@ -55,7 +55,7 @@
         </li>
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
-                <img src="../static/img/people/img1-large.jpg" alt="Azeem Mufti">
+                <img src="../static/img/people/mufti.jpg" alt="Azeem Mufti">
                 <h3>
                     <a href="https://osf.io/uq89h/">Azeem Mufti</a>
                     <small>Intern | Infrastructure</small>
@@ -68,6 +68,17 @@
         </li>
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
+                <img src="../static/img/people/geiger.jpg" alt="Brian Geiger">
+                <h3>
+                    <a href="https://osf.io/typ46/">Brian Geiger</a>
+                    <small>Developer | Infrastructure</small>
+                </h3>
+            </div>
+        </li>
+    </ul>
+    <ul class="list-unstyled">
+        <li class="col-md-3 space-mobile">
+            <div class="thumbnail">
                 <img src="../static/img/people/nosek.jpg" alt="Brian Nosek">
                 <h3>
                     <a href="https://osf.io/cdi38/">Brian Nosek</a>
@@ -75,10 +86,7 @@
                 </h3>
             </div>
         </li>
-    </ul>
-</div>
-<div class="row front-team">
-    <ul class="list-unstyled">
+
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/fitzgerald.jpg" alt="Cailey Fitzgerald">
@@ -91,6 +99,16 @@
                 </ul>
             </div>
         </li>
+
+        <li class="col-md-3 space-mobile">
+            <div class="thumbnail">
+                <img src="../static/img/people/uguz.jpg" alt="Caner Uguz">
+                <h3>
+                    <a href="https://osf.io/b6dn2/">Caner Uguz</a>
+                    <small>Developer | Infrastructure</small>
+                </h3>
+            </div>
+        </li>
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/bischak.jpg" alt="Chris Bischak">
@@ -100,9 +118,11 @@
                 </h3>
             </div>
         </li>
+    </ul>
+    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
-                <img src="../static/img/people/img1-large.jpg" alt="Chris Seto">
+                <img src="../static/img/people/seto.jpg" alt="Chris Seto">
                 <h3>
                     <a href="#">Chris Seto</a>
                     <small>Junior Developer | Infrastructure</small>
@@ -114,17 +134,13 @@
         </li>
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
-                <img src="../static/img/people/img1-large.jpg" alt="Chun Wang">
+                <img src="../static/img/people/wang.jpg" alt="Chun Wang">
                 <h3>
                     <a href="https://osf.io/mejnw/">Chun Wang</a>
                     <small>Volunteer | Infrastructure</small>
                 </h3>
             </div>
         </li>
-    </ul>
-</div>
-<div class="row front-team">
-    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/holman.jpg" alt="Denise Holman">
@@ -136,6 +152,26 @@
                     <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Goole Plus" class="googleplus"></a></li>
                     <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
                 </ul>
+            </div>
+        </li>
+        <li class="col-md-3 space-mobile">
+            <div class="thumbnail">
+                <img src="../static/img/people/feilitzsch.jpg" alt="Fabian von Feilitzsch">
+                <h3>
+                    <a href="https://osf.io/nz6xq/">Fabian von Feilitzsch</a>
+                    <small>Intern | Infrastructure</small>
+                </h3>
+            </div>
+        </li>
+    </ul>
+    <ul class="list-unstyled">
+        <li class="col-md-3 space-mobile">
+            <div class="thumbnail">
+                <img src="../static/img/people/huynh.jpg" alt="Faye Huynh">
+                <h3>
+                    <a href="#">Faye Huynh</a>
+                    <small>XXX | XXX</small>
+                </h3>
             </div>
         </li>
         <li class="col-md-3 space-mobile">
@@ -176,9 +212,16 @@
             </div>
         </li>
     </ul>
-</div>
-<div class="row front-team">
     <ul class="list-unstyled">
+        <li class="col-md-3 space-mobile">
+            <div class="thumbnail">
+                <img src="../static/img/people/witschey.jpg" alt="Jim Witschey">
+                <h3>
+                    <a href="https://osf.io/q4g5d/">Jim Witschey</a>
+                    <small>Intern | Infrastructure</small>
+                </h3>
+            </div>
+        </li>
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/cohoon.jpg" alt="Johanna Cohoon">
@@ -188,7 +231,6 @@
                 </h3>
                 <ul class="social-icons social-icons-color">
                     <li><a href="https://twitter.com/jlcohoon" data-original-title="Twitter" class="twitter"></a></li>
-                    <li><a href="https://plus.google.com/u/0/+JohannaCohoon/posts" data-original-title="Goole Plus" class="googleplus"></a></li>
                     <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
                     <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
                 </ul>
@@ -196,7 +238,7 @@
         </li>
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
-                <img src="../static/img/people/img1-large.jpg" alt="Jordan Marshall">
+                <img src="../static/img/people/marshall.jpg" alt="Jordan Marshall">
                 <h3>
                     <a href="#">Jordan Marshall</a>
                     <small>Intern | Infrastructure</small>
@@ -212,6 +254,8 @@
                 </h3>
             </div>
         </li>
+    </ul>
+    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
@@ -221,20 +265,22 @@
                 </h3>
             </div>
         </li>
-    </ul>
-</div>
-<div class="row front-team">
-    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
-                <img src="../static/img/people/img1-large.jpg" alt="Kyle O'Donnell">
+                <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
                 <h3>
-                    <a href="https://osf.io/yr3bh/">Kyle O'Donnell</a>
-                    <small>Intern | Infrastructure</small>
+                    <a href="#">Lauren Revere</a>
+                    <small>XXX | XXX</small>
                 </h3>
-                <ul class="social-icons social-icons-color">
-                    <li><a href="https://github.com/KahOD" data-original-title="GitHub" class="github"></a></li>
-                </ul>
+            </div>
+        </li>
+        <li class="col-md-3">
+            <div class="thumbnail">
+                <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
+                <h3>
+                    <a href="#">Wendy Zhu</a>
+                    <small>Volunteer | Infrastructure</small>
+                </h3>
             </div>
         </li>
         <li class="col-md-3 space-mobile">
@@ -246,6 +292,8 @@
                 </h3>
             </div>
         </li>
+    </ul>
+    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/lapuz.jpg" alt="Michael Lapuz">
@@ -264,24 +312,31 @@
                 </h3>
             </div>
         </li>
-    </ul>
-</div>
-<div class="row front-team">
-    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
-                <img src="../static/img/people/img1-large.jpg" alt="Patrick Ryan">
+                <img src="../static/img/people/richter.jpg" alt="Natasha Richter">
+                <h3>
+                    <a href="#">Natasha Richter</a>
+                    <small>Intern | Community</small>
+                </h3>
+            </div>
+        </li>
+        <li class="col-md-3 space-mobile">
+            <div class="thumbnail">
+                <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
                 <h3>
                     <a href="https://osf.io/27ptw/">Patrick Ryan </a>
                     <small>Intern | Infrastructure</small>
                 </h3>
             </div>
         </li>
+    </ul>
+    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/amanfu.jpg" alt="Robert Amanfu">
                 <h3>
-                    <a href="https://osf.io/sn8rm/">Robert Amanfu </a>
+                    <a href="https://osf.io/sn8rm/">Robert Amanfu</a>
                     <small>Volunteer | Infrastructure</small>
                 </h3>
             </div>
@@ -311,10 +366,6 @@
                 </ul>
             </div>
         </li>
-    </ul>
-</div>
-<div class="row front-team">
-    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/portnow.jpg" alt="Sam Portnow">
@@ -328,6 +379,8 @@
 
             </div>
         </li>
+    </ul>
+    <ul class="list-unstyled">
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
                 <img src="../static/img/people/brodsky.jpg" alt="Saul Brodsky">
@@ -349,6 +402,16 @@
                 </ul>
             </div>
         </li>
+
+        <li class="col-md-3">
+            <div class="thumbnail">
+                <img src="../static/img/people/hudson.jpg" alt="Tanesha Hudson">
+                <h3>
+                    <a href="https://osf.io/wdbn4/">Tanesha Hudson</a>
+                    <small>Intern | XXXXX</small>
+                </h3>
+            </div>
+        </li>
         <li class="col-md-3">
             <div class="thumbnail">
                 <img src="../static/img/people/errington.jpg" alt="Tim Errington">
@@ -362,21 +425,10 @@
             </div>
         </li>
     </ul>
-</div>
-<div class="row front-team">
     <ul class="list-unstyled">
         <li class="col-md-3">
             <div class="thumbnail">
-                <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
-                <h3>
-                    <a href="#">Wendy Zhu</a>
-                    <small>Volunteer | Infrastructure</small>
-                </h3>
-            </div>
-        </li>
-        <li class="col-md-3">
-            <div class="thumbnail">
-                <img src="../static/img/people/img1-large.jpg" alt="Zoe Zhang">
+                <img src="../static/img/people/zhang.jpg" alt="Zoe Zhang">
                 <h3>
                     <a href="#">Zoe Zhang</a>
                     <small>Volunteer | Infrastructure</small>
@@ -394,13 +446,13 @@
 <!-- END PAGE CONTAINER -->
 
 <%def name="javascript_bottom()">
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-<script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-<script src="assets/scripts/app.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function() {
-        App.init();
-    });
-</script>
-<!-- END PAGE LEVEL JAVASCRIPTS -->
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="assets/scripts/app.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
