@@ -7,7 +7,6 @@
 <dt><a href="#developer">Developer</a></dt>
 <dt><a href="#devintern">Developer Intern</a></dt>
 <dt><a href="#stats">Statistical and Methodological Consultant</a></dt>
-<dt><a href="#BITSS">BITSS Research Transparency Associate</a></dt>
 </dl>
 
 <h3 id="location">Working in Charlottesville</h3>
@@ -32,10 +31,6 @@
 <a href="#top">Back to top</a>
 <div id="stats">
     <%include file="jobs/_statsconsultant.mako"/>
-</div>
-<a href="#top">Back to top</a>
-<div id="BITSS">
-    <%include file="jobs/_BITSSassociate.mako"/>
 </div>
 <a href="#top">Back to top</a>
 
