@@ -14,6 +14,16 @@
         </div> <!-- row -->
         <div class="press row">
             <div class="span2">
+                <p><img src="/static/psmag_logo.png" style="padding-left: 10px"></p>
+            </div>
+            <div class="span6">
+                <h4>The Reformation: Can Social Scientists Save Themselves?</h4>
+                <p>April 28, 2014 | "Academic hoaxes have a way of crystallizing, and then shattering, the intellectual pretensions of an era. It was almost 20 years ago, for instance, that a physicist named Alan Sokal laid siege to postmodern theory with a Trojan horse."</p>
+                <p><a href="http://www.psmag.com/navigation/health-and-behavior/can-social-scientists-save-themselves-human-behavior-78858/">Read more</a></p>
+            </div>
+        </div> <!-- row -->
+        <div class="press row">
+            <div class="span2">
                 <p><img src="/static/guardian.gif" style="padding-left: 10px"></p>
             </div>
             <div class="span6">
