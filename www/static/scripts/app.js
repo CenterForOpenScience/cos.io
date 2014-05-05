@@ -252,9 +252,8 @@ var App = function () {
         initBxSlider: function () {
             $('.bxslider').show();
             $('.bxslider').bxSlider({
-                minSlides: 3,
-                maxSlides: 3,
-                slideWidth: 360,
+                
+               
                 slideMargin: 10,
                 moveSlides: 1,
                 responsive: true,

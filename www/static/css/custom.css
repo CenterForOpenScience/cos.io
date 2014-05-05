@@ -304,9 +304,9 @@ background: -ms-radial-gradient(circle, #FAFFFF, #CEF3FF)
 }
 
 .slide-container {
-width: 60%;
+width: 100%;
 margin: auto;
-padding: 30px 0;
+padding: 30px;
 }
 .slide-text {
   width: 340px;
@@ -318,4 +318,17 @@ text-align: left;
 }
 .slide-image{ 
   float:right;
+  width: 100%;
+  height:auto;
+}
+
+.resize-text {
+padding: 10px 0 0 40px;
+text-transform: uppercase;
+}
+.slide-wrapper {
+  width: 100%; 
+ background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF) 
 }

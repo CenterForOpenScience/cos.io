@@ -423,13 +423,12 @@
         
             $('.panel-heading').on('click', function(){ 
                 var el = $(this); 
-                if($(this).parents('.panel').find('.panel-collapse').hasClass('collapse')){
-                    console.log('true'); 
-                    $(this).find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>'); 
+                if(el.parents('.panel').find('.panel-collapse').hasClass('collapse')){
+                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>'); 
+                    el.siblings('.panel-collapse').collapse('show');
                 } else {
-                    console.log('false'); 
-                    $(this).find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>'); 
-
+                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>'); 
+                    el.siblings('.panel-collapse').collapse('hide');
                 }
             }); 
             

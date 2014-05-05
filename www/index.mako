@@ -13,8 +13,6 @@
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link rel="stylesheet" href="static/plugins/revolution_slider/css/rs-style.css" media="screen">
-    <link rel="stylesheet" href="static/plugins/revolution_slider/rs-plugin/css/settings.css" media="screen">
     <link href="static/plugins/bxslider/jquery.bxslider.css" rel="stylesheet" />
     <link href="static/css/animate.css" rel="stylesheet" />
 
@@ -24,52 +22,20 @@
 ${page}
 
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container">
- 
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <!-- Hiding indicators, add back when multiple slides 
-      <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-      </ol>
-      --> 
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="slide-container"> 
-            <!-- Animations: animate.css -->
-              <div class="slide-text animated fadeInLeft">
-                 <h1> We advocate the </h1> 
-                 <h1> <b> openness </b> </h1> 
-                 <h1> <b> integrity </b>  </h1> 
-                 <h1><b> reproducibility </b></h1> 
-                 <h1> of scientific research </h1> 
-              </div> 
-              <div class="slide-image animated fadeInRight"> 
-                <img src="static/img/sliders/COS_center_image.png" id="no-transform" alt="Open symbol">
-              </div>
+<div class="slide-wrapper"> 
+<div class="container"> 
+    <ul class="bxslider">
+        <li>
+            <div class="row tagline"> 
+                <div class="col-xs-6"> <h4 class="resize-text"> We advocate the <br /> <b> openness </b> <br /> <b> integrity </b> <br /> and<b>  reproducibility</b>  <br /> of scientific research </h4> </div>
+                <div class="col-xs-6"> <img src="static/img/cos_center_logo_small.png" /></div>
             </div> 
-        </div>
-     
-      </div>
+            
 
-      <!-- Controls -->
-      <!-- Hiding controls, add back when multiple slides 
-      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-
-      --> 
-    </div>
-
-
-
+        </li>
+    </ul>
+</div>
+</div>
     <div class="clearfix"></div>
 
 <!-- BEGIN CONTAINER -->
@@ -77,7 +43,7 @@ ${page}
     <!-- BEGIN ABOUT INFO -->
     <div class="row margin-bottom-10">
         <!-- BEGIN INFO BLOCK -->
-        <div class="lead">
+        <div class="lead col-xs-12">
             <p>COS is dedicated to improving the alignment between scientific values and scientific practices to improve the accumulation and application of knowledge. Operating with a technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions.
                 We blend science and technology with our mission-driven fervor to build new tools for the scientific community.</p>
         </div>
@@ -162,9 +128,8 @@ ${page}
 <%def name="javascript_bottom()">
 
     <script type="text/javascript" src="static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="static/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="static/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="static/plugins/bxslider/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="static/plugins/text-resize.js"></script>
     <script src="static/scripts/index.js"></script>
     <script src="static/plugins/jquery.mixitup.min.js"></script>
     <script src="static/scripts/app.js"></script>
@@ -173,10 +138,12 @@ ${page}
         jQuery(document).ready(function() {
             App.init();
             App.initBxSlider();
-            Index.initRevolutionSlider();
             Portfolio.init();
+            $('.resize-text').resizeText(); 
+            
+
         });
-        $('.carousel').carousel();
+
     </script>
 
 </%def>
