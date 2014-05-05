@@ -26,7 +26,7 @@ ${page}
 <div class="container"> 
     <ul class="bxslider">
         <li>
-            <div class="row tagline"> 
+            <div class="row tagline animated fadeIb"> 
                 <div class="col-xs-6"> <h4 class="resize-text"> We advocate the <br /> <b> openness </b> <br /> <b> integrity </b> <br /> and<b>  reproducibility</b>  <br /> of scientific research </h4> </div>
                 <div class="col-xs-6"> <img src="static/img/cos_center_logo_small.png" /></div>
             </div> 

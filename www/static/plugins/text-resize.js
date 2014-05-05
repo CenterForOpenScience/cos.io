@@ -7,7 +7,7 @@
 
         // Default options
         var settings = $.extend({
-            beginSize 	: 16,
+            beginSize : 16,
             endSize : 35,
             lowWidth : 200,
     		highWidth: 600

@@ -332,3 +332,9 @@ text-transform: uppercase;
 background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
 background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF) 
 }
+
+.bx-wrapper img {
+width: 85%;
+display: block;
+padding: 3% 0%;
+)
