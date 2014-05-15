@@ -314,7 +314,7 @@
         </li>
         <li class="col-md-3 space-mobile">
             <div class="thumbnail">
-                <img src="../static/img/people/richter.png" alt="Natasha Richter">
+                <img src="../static/img/people/richter.jpg" alt="Natasha Richter">
                 <h3>
                     <a href="#">Natasha Richter</a>
                     <small>Intern | Community</small>
@@ -408,7 +408,7 @@
                 <img src="../static/img/people/hudson.jpg" alt="Tanesha Hudson">
                 <h3>
                     <a href="https://osf.io/wdbn4/">Tanesha Hudson</a>
-                    <small>Intern | XXXXX</small>
+                    <small>Intern | Infrastructure</small>
                 </h3>
             </div>
         </li>
