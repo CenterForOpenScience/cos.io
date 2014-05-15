@@ -90,7 +90,7 @@
                     </a>
                 </div>
                 <div class="row margin-bottom-20">
-                    <a class="col-md-4 service-box-v1" href="/2013-12-23/">
+                    <a class="col-md-4 service-box-v1" href="../pr/2013-12-23/">
                         <table>
                             <tr>
                                 <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/jtf.jpg" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
@@ -214,7 +214,7 @@
 
 
                 <div class="row margin-bottom-20">
-                    <a class="col-md-4 service-box-v1" href="/2013-10-16/">
+                    <a class="col-md-4 service-box-v1" href="../pr/2013-10-16/">
                         <table>
                             <tr>
                                 <td><img src="../static/img/icons/SE_Logo.png" width="150"></td>
@@ -263,7 +263,7 @@
                         </table>
                         <p class="text-left">March 5th, 2013 | A group of psychologists are launching a project this week that they hope will make studies in their field radically more transparent and prompt other fields to open up as well. With a pledge of $5.25 million from private supporters, they have set up an outfit called the Center for Open Science. It is collaborating with an established journal, Perspectives on Psychological Science, to solicit work from authors who are willing to work completely in the open and have their studies replicated. Authors will be asked to first publish an experimental design and then, after a public vetting, collect data. Findings come in a separate publication. </p>
                     </a>
-                    <a class="col-md-4 service-box-v1" href="/2013-3-05/">
+                    <a class="col-md-4 service-box-v1" href="../pr/2013-3-05/">
                         <table>
                             <tr>
                                 <td><img src="../static/img/icons/cos_logo.png" width="100"></td>

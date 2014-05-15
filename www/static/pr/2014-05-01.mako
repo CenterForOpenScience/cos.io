@@ -68,10 +68,10 @@
                     <p>Tess Mayall<br>
                         Community Manager, Science Exchange<br>
                         Tel: +1 831 345 0055<br>
-                        Email: <script type="text/javascript">document.write(mailto("<n uers=\"znvygb:grff@fpvraprrkpunatr.pbz\" ery=\"absbyybj\">grff@fpvraprrkpunatr.pbz</n>"));</script><a href="mailto:tess@scienceexchange.com" rel="nofollow">tess@scienceexchange.com</a><noscript>&lt;strong&gt;&lt;u&gt;tess@sci&lt;span style="display:none;"&gt;null&lt;/span&gt;enceexch&lt;span style="display:none;"&gt;null&lt;/span&gt;ange.com&lt;/u&gt;&lt;/strong&gt;</noscript></p>
+                        Email: <a href="mailto:tess@scienceexchange.com" rel="nofollow">tess@scienceexchange.com</a></p>
                     <p>Tim Errington<br>
                         Project Manager, Center for Open Science<br>
-                        Email: <script type="text/javascript">document.write(mailto("<n uers=\"znvygb:EC-pnapreovbybtl+cerff@pbf.vb\" ery=\"absbyybj\">EC-pnapreovbybtl+cerff@pbf.vb</n>"));</script><a href="mailto:RP-cancerbiology+press@cos.io" rel="nofollow">RP-cancerbiology+press@cos.io</a><noscript>&lt;strong&gt;&lt;u&gt;RP-cancer&lt;span style="display:none;"&gt;null&lt;/span&gt;biology+p&lt;span style="display:none;"&gt;null&lt;/span&gt;ress@cos.&lt;span style="display:none;"&gt;null&lt;/span&gt;io&lt;/u&gt;&lt;/strong&gt;</noscript></p>
+                        Email: <a href="mailto:RP-cancerbiology+press@cos.io" rel="nofollow">RP-cancerbiology+press@cos.io</a></p>
 
 
                 </div>
