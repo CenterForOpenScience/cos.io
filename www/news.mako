@@ -32,6 +32,64 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="/pr/2014-05-01">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/se_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>Reproducibility Project: Cancer Biology Receives $500,000 of Reagents</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">May 1st, 2014 | Science Exchange announced today that many top scientific suppliers will provide over $500,000 worth of research reagents and models to support the Reproducibility Project: Cancer Biology.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.psmag.com/navigation/health-and-behavior/can-social-scientists-save-themselves-human-behavior-78858/">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/psmag_logo.png" width="125"></td>
+                                <td><h2 class="text-left">The Reformation: Can Social Scientists Save Themselves?</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">April 28, 2014 | "Academic hoaxes have a way of crystallizing, and then shattering, the intellectual pretensions of an era. It was almost 20 years ago, for instance, that a physicist named Alan Sokal laid siege to postmodern theory with a Trojan horse."</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.theguardian.com/science/head-quarters/2014/jan/24/the-changing-face-of-psychology">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/guardian.gif" width="125"></td>
+                                <td><h2 class="text-left">The Changing Face of Psychology</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">January 24th, 2014 | "Now, finally, the tide is turning. A growing number of psychologists – particularly the younger generation – are fed up with results that don’t replicate, journals that value story-telling over truth, and an academic culture in which researchers treat data as their personal property. Psychologists are realising that major scientific advances will require us to stamp out malpractice, face our own weaknesses, and overcome the ego-driven ideals that maintain the status quo."</p>
+                    </a>
+                </div>
+                <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://discovermagazine.com/2014/jan-feb/46-research-report-repeat-with-brian-nosek#.UuZ1tGQo6OE">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/dsc_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>Psychology's Credibility Crisis</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">January 2014 | The Center for Open Science's activities and the need for greater numbers of replications in science was ranked as number 46 in the Discover Magazine's top 100 stories of 2013.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://centerforopenscience.org/static/WTJUinterview.mp3">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/wtju.png" width="125"></td>
+                                <td><h2 class="text-left">COS on WTJU</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">January 17th, 2014 | Andrew Sallans and Josh Carp of the Center for Open Science were interviewed on WTJU's Soundboard.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.nbc29.com/story/24468145/new-charlottesville-nonprofit-helps-scientists-collaborate-around-the-world">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/nbc29.jpg" width="125"></td>
+                                <td><h2 class="text-left">COS on NBC29</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">January 16th, 2014 | Whitney Harris from NBC29 news visited the Center for Open Science, reporting on the Center's mission of increasing the openness, integrity, and reproducibility of scientific research. Whitney also gave the Center's treadmill desk some attention.</p>
+                    </a>
+                </div>
+                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="/2013-12-23/">
                         <table>
                             <tr>
