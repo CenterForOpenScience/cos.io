@@ -36,6 +36,15 @@
                         <table>
                             <tr>
                                 <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/SE_Logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>Improving the Credibility of Scientific Research: Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">May 19, 2014 | Journal articles are the currency of science, but incentives favoring novelty over accuracy potentially undermine the credibility of the scientific literature.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="/pr/2014-05-01">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/se_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
                                 <h2>Reproducibility Project: Cancer Biology Receives $500,000 of Reagents</h2></td>
                             </tr>
                         </table>
