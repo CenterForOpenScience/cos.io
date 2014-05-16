@@ -1,11 +1,11 @@
-<%inherit file="../../_base.mako"/>
+<%inherit file="../_base.mako"/>
 <%def name="title()">News</%def>
 <%def name="description()">The Center for Open Science news and updates</%def>
 <%def name="page()">news</%def>
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
@@ -28,9 +28,9 @@
                     </div>
                     <table >
                         <tr>
-                            <td style="padding-left: 10px"><img src="../static/img/icons/SE_Logo.png"></td>
-                            <td style="padding-left: 50px"><img src="../static/img/icons/cos_Logo.png" height="100px"></td>
-                            <td style="padding-left: 50px"><img src="../static/img/icons/ljaf.png"></td>
+                            <td style="padding-left: 10px"><img src="/static/img/icons/SE_Logo.png"></td>
+                            <td style="padding-left: 50px"><img src="/static/img/icons/cos_Logo.png" height="100px"></td>
+                            <td style="padding-left: 50px"><img src="/static/img/icons/ljaf.png"></td>
                         </tr>
                     </table>
             </div>
@@ -82,7 +82,7 @@
             <div class="col-md-3 blog-sidebar" style="padding-left: 55px">
 
 
-                          <%include file="../../newsitem.mako"/>
+                          <%include file="../newsitem.mako"/>
 
                 </div>
 

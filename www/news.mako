@@ -35,7 +35,7 @@
                     <a class="col-md-4 service-box-v1" href="/pr/2014-05-01">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/se_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/SE_Logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
                                 <h2>Reproducibility Project: Cancer Biology Receives $500,000 of Reagents</h2></td>
                             </tr>
                         </table>
