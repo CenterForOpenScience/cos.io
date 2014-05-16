@@ -128,7 +128,7 @@
                                 <div class="mix-details">
                                     <h4>Grants</h4>
                                     <p>COS  invites grant proposals to increase the openness, integrity, and reproducibility of scientific research. Funded projects could be technical solutions, revolutionary data, or community oriented endeavors.
-                                        <a href="page_grants" style="color: black">Find out more</a>.
+                                        <a href="/grants" style="color: black">Find out more</a>.
                                     </p>
                                 </div>
                             </div>

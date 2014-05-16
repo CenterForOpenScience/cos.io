@@ -28,7 +28,7 @@
          <p>Learn more or get involved at the <a href="http://openscienceframework.org/project/VMRGu/wiki/home">Open Science Collaboration OSF page</a>, visit the <a href="http://osc.centerforopenscience.org/">OSC blog</a>, or join the <a href="https://groups.google.com/forum/#!forum/openscienceframework">Google Group</a> conversation.</p>
         <h3>Grants</h3>
       <p>COS occasionally invites grant proposals to increase the openness, integrity, and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices.
-Project proposals are solutions-oriented. COS does not fund meetings to write more academic papers suggesting that someone should do something. COS funds the projects by the someone that does the something. <a href="grants.html">Find out more</a>.</p>
+Project proposals are solutions-oriented. COS does not fund meetings to write more academic papers suggesting that someone should do something. COS funds the projects by the someone that does the something. <a href="/grants">Find out more</a>.</p>
   <p>The Reproducibility Project: Psychology <a href="http://openscienceframework.org/project/EZcUj/node/KqgT5/wiki/home">offers grants</a> to conduct replications for its effort to estimate the reproducibility of Psychological Science. The application process is easy. Contribute to the community effort, and get a grant to do it!</p>
 
 
