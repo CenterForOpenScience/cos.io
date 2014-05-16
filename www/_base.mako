@@ -30,6 +30,10 @@
         <!-- BEGIN TOP NAVIGATION MENU -->
 </%def>
 
+<%def name="navigation()">
+    ${self.navlinks('home')}
+</%def>
+
 ${self.stylesheets()}
 
 <!-- BEGIN HEAD -->
