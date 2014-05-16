@@ -32,10 +32,10 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
-                    <a class="col-md-4 service-box-v1" href="/pr/2014-05-01">
+                    <a class="col-md-4 service-box-v1" href="/pr/2014-05-19">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/se_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/sp_140.jpg" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
                                 <h2>Improving the Credibility of Scientific Research: Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</h2></td>
                             </tr>
                         </table>
@@ -68,8 +68,6 @@
                         </table>
                         <p class="text-left">January 24th, 2014 | "Now, finally, the tide is turning. A growing number of psychologists – particularly the younger generation – are fed up with results that don’t replicate, journals that value story-telling over truth, and an academic culture in which researchers treat data as their personal property. Psychologists are realising that major scientific advances will require us to stamp out malpractice, face our own weaknesses, and overcome the ego-driven ideals that maintain the status quo."</p>
                     </a>
-                </div>
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://discovermagazine.com/2014/jan-feb/46-research-report-repeat-with-brian-nosek#.UuZ1tGQo6OE">
                         <table>
                             <tr>
@@ -97,8 +95,6 @@
                         </table>
                         <p class="text-left">January 16th, 2014 | Whitney Harris from NBC29 news visited the Center for Open Science, reporting on the Center's mission of increasing the openness, integrity, and reproducibility of scientific research. Whitney also gave the Center's treadmill desk some attention.</p>
                     </a>
-                </div>
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="../pr/2013-12-23/">
                         <table>
                             <tr>
@@ -127,10 +123,6 @@
                         </table>
                         <p class="text-left">November 27th, 2013 | Big research collaborations have become common—think Human Genome Project, Mars rovers, the new BRAIN Initiative—but they are almost unknown in psychology. Most psychological experiments are carried out by a single lab group, often just a few researchers. But several collaborations that span dozens of psychology laboratories around the world have recently formed. Their goal is nothing short of testing the reproducibility of psychological science.</p>
                     </a>
-
-                </div>
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://phenomena.nationalgeographic.com/2013/11/26/welcome-to-the-era-of-big-replication/">
                         <table>
                             <tr>
@@ -158,9 +150,6 @@
                         </table>
                         <p class="text-left">November 8th, 2013 | The Reproducibility Initiative (Nat. Biotechnol. 30, 806, 2012) represents another way of replicating research. A collaboration between the Science Exchange and PLOS ONE, the initiative offers to broker independent validation of a researcher's work in return for a fee, with subsequent publication in the journal. In October, the Laura and John Arnold Foundation provided $1.3 million to the initiative to authenticate 50 high-profile cancer papers from the past two years.</p>
                     </a>
-                </div>
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://www.newyorker.com/online/blogs/elements/2013/11/science-and-its-skeptics.html">
                         <table>
                             <tr>
@@ -188,10 +177,6 @@
                         </table>
                         <p class="text-left">November 1st, 2013 | Earlier this year, Perspectives on Psychological Science announced the first project of the new Registered Replication Report (RRR) initiative, which aims to support high-quality, multi-center replications of important psychological findings. The response was tremendous: 30 labs from all over the world are currently participating in our first RRR project.</p>
                     </a>
-                </div>
-
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://blogs.scientificamerican.com/information-culture/2013/10/29/you-cant-read-just-one-reproducibility-and-multiple-sources/">
                         <table>
                             <tr>
@@ -219,10 +204,6 @@
                         </table>
                         <p class="text-left">October 19th, 2013 | The idea that the same experiments always get the same results, no matter who performs them, is one of the cornerstones of science’s claim to objective truth. If a systematic campaign of replication does not lead to the same results, then either the original research is flawed (as the replicators claim) or the replications are (as many of the original researchers on priming contend). Either way, something is awry.</p>
                     </a>
-                </div>
-
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="../pr/2013-10-16/">
                         <table>
                             <tr>
@@ -250,10 +231,6 @@
                         </table>
                         <p class="text-left">May 1st, 2013 | Things aren’t quite as bad as they seem, though. Although Nature’ report was headlined “Disputed results a fresh blow for social psychology,” it scarcely noted that there have been some replications of experiments modelled on Dijksterhuis’s phenomenon. His finding could still turn out to be right, if weaker than first thought. More broadly, social priming is just one thread in the very rich fabric of social psychology. The field will survive, even if social priming turns out to have been overrated or an unfortunate detour.</p>
                     </a>
-                </div>
-
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://phenomena.nationalgeographic.com/2013/03/05/new-center-aims-to-make-science-more-open-and-reliable/">
                         <table>
                             <tr>
@@ -281,10 +258,6 @@
                         </table>
                         <p class="text-left">March 5th, 2013 | Scientific research aims to create knowledge about how the world works. Knowledge accumulates when scientists conduct studies and share their findings with others. Sharing allows other scientists to identify flaws or ot extend the findings to get more knowledge. Given its importance, it is surprising that a large portion of scientific research is never shared at all. The Center for Open Science, which opens today in Charlottesville, Virginia, aims to improve how science is conducted and communicated.</p>
                     </a>
-                </div>
-
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://chronicle.com/article/New-Center-Hopes-to-Clean-Up/137683/">
                         <table>
                             <tr>
@@ -312,9 +285,6 @@
                         </table>
                         <p class="text-left">February 24th, 2013 | In 2005, the writer Malcolm Gladwell introduced readers to the phenomenon of “thinking without thinking” - the mental work we all do automatically - in his blockbuster book “Blink.” Typical of the genre is a reliance on the “goal-priming effect,” in which study subjects automatically and unintentionally alter their thoughts or behavior when prompted by various kinds of information. But now, goal-priming experiments are coming under scrutiny - and in the process, revealing a problem at the heart of psychological research itself.</p>
                     </a>
-                </div>
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://www.huffingtonpost.com/bella-depaulo/the-crisis-in-squishy-sci_b_2697848.html">
                         <table>
                             <tr>
@@ -342,9 +312,6 @@
                         </table>
                         <p class="text-left">February 2013 | In psychology, as in other sciences, replication is the gold standard. In theory, new knowledge doesn’t make it into the canon until the studies that produced it have been verified, independently, by more than one researcher. But in practice, critics say the field rarely lives up to that ideal - and the result is a psychological literature rife with findings that may or may not be true, yet are generally accepted as valid.</p>
                     </a>
-                </div>
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://www.newyorker.com/online/blogs/newsdesk/2012/12/cleaning-up-science.html%20target=">
                         <table>
                             <tr>
@@ -372,9 +339,6 @@
                         </table>
                         <p class="text-left">December 7th, 2012 | A joint report on disgraced social psychologist Diederik Stapel was issued on 28 November by three committees, one for each of the universities where he worked. [...] In a video statement, he said he was deeply sorry and announced he had written an autobiography to explain how his fraud happened. But the key message in the joint report said that the fraud is not just about Stapel but colleagues, co-authors, reviewers, and editors at even the most prestigious journals.</p>
                     </a>
-                </div>
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://fora.tv/2012/10/19/Crisis_of_Reproducing_Science_Research__How_to_Solve_It">
                         <table>
                             <tr>
@@ -402,10 +366,6 @@
                         </table>
                         <p class="text-left">September 10th, 2012 | Brian Nosek of the University of Virginia talks with EconTalk host Russ Roberts about how incentives in academic life create a tension between truth-seeking and professional advancement. Nosek argues that these incentives create a subconscious bias toward making research decisions in favor of novel results that may not be true, particularly in empirical and experimental work in the social sciences. In the second half of the conversation, Nosek details some practical innovations occurring in the field of psychology.</p>
                     </a>
-
-                </div>
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://www.sciencemag.org/content/337/6098/1031.short">
                         <table>
                             <tr>
@@ -433,10 +393,6 @@
                         </table>
                         <p class="text-left">April 17th, 2012 | If you’re a psychologist, the news has to make you a little nervous-particularly if you’re a psychologist who published an article in 2008 in any of these three journals: Psychological Science, the Journal of Personality and Social Psychology, or the Journal of Experimental Psychology: Learning, Memory, and Cognition.</p>
                     </a>
-
-                </div>
-
-                <div class="row margin-bottom-20">
                     <a class="col-md-4 service-box-v1" href="http://www.sciencemag.org/content/335/6076/1558">
                         <table>
                             <tr>
