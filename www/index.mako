@@ -103,7 +103,7 @@ ${page}
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-laptop blue"></i></em>
-                    <span>Infrastructure Development</span>
+                    <span>Infrastructure</span>
                 </div>
                 <p>We seek to improve the scientific workflow by connecting technologies that support research and communication. See our work at the <a href="http://openscienceframework.org">Open Science Framework</a>. Or, read check out <a href="/about_work/">some of our other projects</a>.</p>
             </div>
