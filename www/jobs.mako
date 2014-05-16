@@ -175,7 +175,7 @@
                 <li><br></li>
                 <li class="row text-left"><h3>Keep comfortable.</h3> We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.  </li>
                 <li><br></li>
-                <li class="row text-right"><h3>We're a Mac shop.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
+                <li class="row text-right"><h3>Get a Mac.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
                 <li><br></li>
                 <li class="row text-left"><h3>Plan for the future.</h3> We’ll help you set up your 401k, and COS contributes up to 4% matches.</li>
                 <li><br></li>
