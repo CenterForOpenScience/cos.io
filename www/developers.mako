@@ -18,7 +18,7 @@
 
         <h1><strong>Resources for Developers</strong></h1>
         <br>
-        <p>A natural parallel to open scientific practices is open source software, and to that end, the Center for Open Science (COS) relies on open source tools for its infrastructure. You can find software produced by the COS on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+        <p>A natural parallel to open scientific practices is open source software. The Center for Open Science (COS) relies on open source tools for its infrastructure. You can find software maintained by COS on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
 
         <h3>Open Source Community and Projects</h3>
 
@@ -26,9 +26,9 @@
 
         </p><h3>Jobs</h3>
 
-        <p><em>Developers</em>. We love open source, science, databases, web/API development, content management systems, and Python. You should too. If so, please submit a resume and cover letter via our <a href="jobs.html">jobs page</a>. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@centerforopenscience.org" rel="nofollow">jobs@centerforopenscience.org</a>.</p>
-        <p><em>Developer internships</em>. Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project. Please submit a resume and cover letter via our <a href="jobs.html">jobs page</a>. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@centerforopenscience.org" rel="nofollow">jobs@centerforopenscience.org</a>.</p>
-        <p>More information on our open positions is available on our <a href="jobs.html">jobs page</a>.</p>
+        <p><em>Developers</em>. We love open source, science, databases, web/API development, content management systems, and Python. You should too. If so, please submit a resume and cover letter via our <a href="../jobs.html">jobs page</a>. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@centerforopenscience.org" rel="nofollow">jobs@centerforopenscience.org</a>.</p>
+        <p><em>Developer internships</em>. Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project. Please submit a resume and cover letter via our <a href="../jobs.html">jobs page</a>. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io" rel="nofollow">jobs@cos.io</a>.</p>
+        <p>More information on our open positions is available on our <a href="../jobs.html">jobs page</a>.</p>
         <h3>Grants and Bounties</h3>
 
         <p>The Center for Open Science (COS) occasionally invites grant proposals or specific project bounties to increase the openness, integrity, and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices. </p>
