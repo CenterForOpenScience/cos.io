@@ -24,7 +24,7 @@
 
                 <div style="padding-bottom: 25px">
                     <div style=" padding-bottom: 25px">
-                        <h1><strong>Reproducibility Project: Cancer Biology Receives $500,000 of Reagents</h1>
+                        <h1><strong>Reproducibility Project: Cancer Biology Receives $500,000 of Reagents</strong></h1>
                     </div>
                     <table >
                         <tr>
