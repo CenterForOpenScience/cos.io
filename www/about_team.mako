@@ -83,6 +83,10 @@
                 <a href="https://osf.io/cdi38/">Brian Nosek</a>
                 <small>Co-founder</small>
             </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://twitter.com/briannosek" data-original-title="Twitter" class="twitter"></a></li>
+                <li><a href="https://github.com/bnosek" data-original-title="GitHub" class="github"></a> </li>
+            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
