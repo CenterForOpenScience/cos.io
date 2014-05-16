@@ -5,11 +5,6 @@
 <% page = 'home' %>
 </%def>
 
-<%def name="navigation()">
-    ${self.navlinks('home')}
-</%def>
-
-
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />

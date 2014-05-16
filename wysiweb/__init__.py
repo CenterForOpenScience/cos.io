@@ -113,7 +113,7 @@ class WYSIWeb:
                     if is_valid:
                         if split_path[0] == 'index':
                             with open(self.join(frozen_path, 'index.html'), 'w') as f:
-                                f.write(self.router('/index'))
+                                f.write(self.router('/index').encode('utf-8'))
                         else:
                             new_path = frozen_path
                             new_route = '/'

@@ -29,7 +29,7 @@
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/Schiller.jpg" alt="Alex Schiller">
+            <img src="../static/img/people/schiller.jpg" alt="Alex Schiller">
             <h3>
                 <a href="https://osf.io/rnizy/">Alex Schiller</a>
                 <small>Intern | Infrastructure</small>
@@ -153,7 +153,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/rosenburg.jpg" alt="Jake Rosenberg">
+            <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
             <h3>
                 <a href="https://osf.io/bnpaa/">Jake Rosenberg</a>
                 <small>Intern | Infrastructure</small>
@@ -202,6 +202,10 @@
                 <a href="https://osf.io/icpnw/">Josh Carp</a>
                 <small>Developer | Infrastructure</small>
             </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://twitter.com/whatthecarp" data-original-title="Twitter" class="twitter"></a></li>
+                <li><a href="https://github.com/jmcarp" data-original-title="GitHub" class="github"></a> </li>
+            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -285,7 +289,7 @@
             <img src="../static/img/people/liebowitz.jpg" alt="Robert Liebowitz">
             <h3>
                 <a href="https://osf.io/nf3cv/">Robert Liebowitz</a>
-                <small>Volunteer | Infrastructure</small>
+                <small>Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.facebook.com/RobertEvan" data-original-title="Facebook" class="facebook"></a></li>
@@ -297,7 +301,7 @@
 <ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/Chrisinger.JPG" alt="Sam Chrisinger">
+            <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
             <h3>
                 <a href="#">Sam Chrisinger</a>
                 <small>Intern | Infrastructure</small>
@@ -337,6 +341,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="http://www.stevenloria.com/" data-original-title="Person" class="person"></a></li>
+                <li><a href="https://github.com/sloria" data-original-title="GitHub" class="github"></a></li>
             </ul>
         </div>
     </li>

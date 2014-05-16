@@ -30,6 +30,10 @@
         <!-- BEGIN TOP NAVIGATION MENU -->
 </%def>
 
+<%def name="navigation()">
+    ${self.navlinks('home')}
+</%def>
+
 ${self.stylesheets()}
 
 <!-- BEGIN HEAD -->
@@ -41,23 +45,23 @@ ${self.stylesheets()}
     <meta content="Johanna Cohoon" name="author" />
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="../static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <!-- END GLOBAL MANDATORY STYLES -->
 
     <!-- BEGIN THEME STYLES -->
-    <link href="../static/css/style-metronic.css" rel="stylesheet" type="text/css"/>
-    <link href="../static/css/style.css" rel="stylesheet" type="text/css"/>
-    <link href="../static/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>
-    <link href="../static/css/style-responsive.css" rel="stylesheet" type="text/css"/>
-    <link href="../static/css/pages/portfolio.css" rel="stylesheet" type="text/css"/>
-    <link href="../static/css/custom.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <link href="/static/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/pages/portfolio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/custom.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME STYLES -->
 
    <!-- BEGIN FLICKR STYLES --> 
    <!-- uses jflickrfeed plugin http://www.newmediacampaigns.com/blog/a-jquery-flickr-feed-plugin -->
-        <link href="../static/plugins/jflickrfeed/style.css" rel="stylesheet" type="text/css" media="all" /> 
-        <link href="../static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
+        <link href="/static/plugins/jflickrfeed/style.css" rel="stylesheet" type="text/css" media="all" /> 
+        <link href="/static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
     <!-- END FLICKR STYLES -->
 
 
@@ -80,7 +84,7 @@ ${self.stylesheets()}
             <!-- END RESPONSIVE MENU TOGGLER -->
             <!-- BEGIN LOGO (you can use logo image instead of text)-->
             <a class="navbar-brand logo-v1" href="/">
-                <img src="../static/img/icons/cos_wide.png" id="logoimg" alt="COS logo">
+                <img src="/static/img/icons/cos_wide.png" id="logoimg" alt="COS logo">
             </a>
             <!-- END LOGO -->
         </div>
@@ -179,17 +183,17 @@ ${self.body()}
 <!--[if lt IE 9]>
 <script src="../static/plugins/respond.min.js"></script>
 <![endif]-->
-<script src="../static/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script src="../static/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
-<script src="../static/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="../static/plugins/hover-dropdown.js"></script>
-<script type="text/javascript" src="../static/plugins/back-to-top.js"></script>
+<script src="/static/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="/static/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/static/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/static/plugins/hover-dropdown.js"></script>
+<script type="text/javascript" src="/static/plugins/back-to-top.js"></script>
 
 <!-- END CORE PLUGINS -->
    <!-- BEGIN FLICKR JS  -->
-        <script src="../static/plugins/jflickrfeed/colorbox/jquery.colorbox-min.js"></script>
-        <script src="../static/plugins/jflickrfeed/jflickrfeed.min.js"></script>
-        <script src="../static/plugins/jflickrfeed/setup.js"></script>
+        <script src="/static/plugins/jflickrfeed/colorbox/jquery.colorbox-min.js"></script>
+        <script src="/static/plugins/jflickrfeed/jflickrfeed.min.js"></script>
+        <script src="/static/plugins/jflickrfeed/setup.js"></script>
     <!-- END FLICKR JS -->
 
 ${self.javascript_bottom()}

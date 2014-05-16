@@ -1,4 +1,4 @@
-<%inherit file="../../_base.mako"/>
+<%inherit file="../_base.mako"/>
 <%def name="title()">News</%def>
 <%def name="description()">The Center for Open Science news and updates</%def>
 <%def name="page()">news</%def>
@@ -58,7 +58,7 @@
         <div class="col-md-3 blog-sidebar" style="padding-left: 55px">
 
 
-                       <%include file="../../newsitem.mako"/>
+                       <%include file="../newsitem.mako"/>
 
 
 </div>
