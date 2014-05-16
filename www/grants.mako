@@ -23,7 +23,7 @@
                 <li>Enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or
                 <li>Conduct metascience research with implications for improving scientific practices</li>
             </ol>
-        <p>Project proposals are solutions-oriented.  COS does not fund meetings to write more academic papers suggesting that someone should do something.  COS funds the projects by the someone that does the something.</p>
+        <p>Project proposals are solutions-oriented.  COS does not fund meetings to write more academic papers suggesting that someone should do something.  COS funds projects that are ready to act.</p>
         <p>COS priorities are to:</p>
             <ol>
             <li>Make the entire scientific workflow accessible</li>
@@ -66,7 +66,7 @@
             </div>
 
         </li></ul>
-        <p>Please additionally provide an estimated project budget in an Excel spreadsheet, broken down by time and subcategory of spending.</p>
+        <p>Please also provide an estimated project budget spreadsheet, broken down by time and subcategory of spending.</p>
 
     </div>
     <!-- END CONTAINER -->
