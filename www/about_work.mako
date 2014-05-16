@@ -28,12 +28,12 @@
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile">
                 <h1><strong>Our Work<br><br></strong></h1>
-                <p>The Center for Open Science was founded in the spring of 2013. We began with one project, the
-                    <a href="https://osf.io/">Open Science Framework</a>, and a mission: to use open practices to
-                    improve scientific research. Since then, our founders, Brian Nosek and Jeff Spies, have turned that mission into a daily goal. At COS, we
-                    believe that by increasing transparency, we can improve practices and results in all scientific disciplines.</p>
+                <p>The Center for Open Science was founded in the spring of 2013. We began with one infrastructure project, the
+                    <a href="https://osf.io/">Open Science Framework</a>, one research project, <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, and a mission: to increase openness, integrity, and reproducibility of scientific research. 
+                    That mission has become a daily goal driving all of our projects. At COS, we
+                    aim to improve scientific practices by making it easier and more desirable to align them with scientific values.</p>
 
-                <h3 class="center margin-top-50 margin-bottom-20">We engage in three primary activities:</h3>
+                <h3 class="center margin-top-50 margin-bottom-20">We have three primary activities:</h3>
                 <div class="row margin-bottom-50">
                     <!-- BEGIN LISTS -->
                     <div class="col-md-4 col-sm-6">
@@ -58,8 +58,8 @@
                         <dl class="front-lists-v1">
                             <dt><i class="fa fa-flask "></i>&nbsp;&nbsp;&nbsp;Metascience</dt>
                             <dd>In an effort to better understand the practices we hope to improve, COS has
-                                helped implement several metascience projects investigating the replicability of several scientific
-                                disciplines. </dd>
+                                support several metascience projects investigating the replicability of several scientific
+                                disciplines such as <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>, and <a href="https://osf.io/wx7ck/">Many Labs</a>. </dd>
                         </dl>
                     </div>
                     <!-- END LISTS -->
@@ -91,7 +91,7 @@
                 <div class="filter-v1 margin-top-10">
                     <ul class="mix-filter">
                         <li class="filter" data-filter="all">All</li>
-                        <li class="filter" data-filter="infrastructure">Infrastructure Development</li>
+                        <li class="filter" data-filter="infrastructure">Infrastructure</li>
                         <li class="filter" data-filter="community">Community Building</li>
                         <li class="filter" data-filter="metascience">Metascience</li>
                     </ul>
@@ -116,7 +116,7 @@
                                 <div class="mix-details">
                                     <h4>Reproducibility Project: Psychology</h4>
                                     <p>The Reproducibility Project: Psychology is a massive community effort to replicate published studies from three landmark journals. We hope to learn about how open practices and incentive structures can impact the scientific process and results as well as
-                                        the rate of replication and reproducibility in psychology. Over 150 researchers from around the globe are involved in the RP:P, conducting research, extracting data from existing articles, and providing administrative and technical support.
+                                        the rate of replication and reproducibility in psychology. Over 250 researchers from around the globe are involved in the RP:P, conducting research, extracting data from existing articles, and providing administrative and technical support.
                                         <a href="https://openscienceframework.org/project/EZcUj/wiki/home/" style="color: black">Become a part of the effort.</a>
                                     </p>
                                 </div>
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 mix infrastructure">
+                        <div class="col-md-4 col-sm-6 mix infrastructure community">
                             <div class="mix-inner">
                                 <img class="img-responsive" src="../static/img/badge.png" alt="Badges for Open Practices">
                                 <div class="mix-details">
