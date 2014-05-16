@@ -55,17 +55,21 @@
                     <br>
                     <h3>Quoted Contacts</h3>
                     <p>
-                    Daniel Lakens, <a href="mailto: D.Lakens@tue.nl">D.Lakens@tue.nl</a><Br>
-                    Daniel Simons, <a href="mailto:dsimons@illinois.edu">dsimons@illinois.edu</a><br>
-                    Chris Chambers, <a href="mailto:chambersc1@cardiff.ac.uk">chambersc1@cardiff.ac.uk</a><br>
-                    Christian Unkelbach, <a href="mailto:christian.unkelbach@uni-koeln.de">christian.unkelbach@uni-koeln.de</a><Br>
+                    <ul>
+                        <li>Daniel Lakens, <a href="mailto: D.Lakens@tue.nl">D.Lakens@tue.nl</a></li>
+                        <li>Daniel Simons, <a href="mailto:dsimons@illinois.edu">dsimons@illinois.edu</a></li>
+                        <li>Chris Chambers, <a href="mailto:chambersc1@cardiff.ac.uk">chambersc1@cardiff.ac.uk</a></li>
+                        <li>Christian Unkelbach, <a href="mailto:christian.unkelbach@uni-koeln.de">christian.unkelbach@uni-koeln.de</a></li>
+                    </ul>
                     </p>
                     <h3>Other Contacts</h3>
                     <p>
-                    Brian Nosek: co-Editor of the special issue; Associate Professor, University of Virginia; Director, Center for Open Science; <A href="mailto:nosek@virginia.edu">nosek@virginia.edu</a><br>
-                    George Banks: member Registered Reports Committee; Assistant Professor Longwood University; <a href="mailto:banksgc@longwood.edu">banksgc@longwood.edu</a> <br>
-                    Alex Holcombe: co-Editor Registered Replication Reports, Perspectives on Psychological Science; member Registered Reports Committee; <a href="mailto:alex.holcombe@sydney.edu.au">alex.holcombe@sydney.edu.au</a> <br>
-                    Edward (Ted) Miguel: Director of Berkeley Initiative for Transparency in the Social Sciences (BITSS); member Registered Reports Committee; Professor, University of California, Berkeley; <a href="mailto:emiguel@berkeley.edu">emiguel@berkeley.edu</a>
+                    <ul>
+                        <li>Brian Nosek: co-Editor of the special issue; Associate Professor, University of Virginia; Director, Center for Open Science; <A href="mailto:nosek@virginia.edu">nosek@virginia.edu</a></li>
+                        <li>George Banks: member Registered Reports Committee; Assistant Professor Longwood University; <a href="mailto:banksgc@longwood.edu">banksgc@longwood.edu</a></li>
+                        <li>Alex Holcombe: co-Editor Registered Replication Reports, Perspectives on Psychological Science; member Registered Reports Committee; <a href="mailto:alex.holcombe@sydney.edu.au">alex.holcombe@sydney.edu.au</a> </li>
+                        <li>Edward (Ted) Miguel: Director of Berkeley Initiative for Transparency in the Social Sciences (BITSS); member Registered Reports Committee; Professor, University of California, Berkeley; <a href="mailto:emiguel@berkeley.edu">emiguel@berkeley.edu</a></li>
+                    </ul>
                     </p>
                     <br>
                     <h3>Frequently Asked Questions</h3>
