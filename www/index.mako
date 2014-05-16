@@ -22,7 +22,7 @@ ${page}
     <ul class="bxslider">
         <li>
             <div class="row tagline animated fadeIb"> 
-                <div class="col-xs-6"> <h4 class="resize-text"> We advocate the <br /> <b> openness </b> <br /> <b> integrity </b> <br /> and<b>  reproducibility</b>  <br /> of scientific research </h4> </div>
+                <div class="col-xs-6"> <h4 class="resize-text"> We foster <br /> <b> openness </b> <br /> <b> integrity </b> <br /> and<b>  reproducibility</b>  <br /> of scientific research </h4> </div>
                 <div class="col-xs-6"> <img src="static/img/cos_center_logo_small.png" /></div>
             </div> 
             
@@ -91,7 +91,7 @@ ${page}
                     <em><i class="fa fa-flask blue"></i></em>
                     <span>Metascience</span>
                 </div>
-                <p>We conduct research on scientific practices and provide grants for relevant endeavors. Our research is often a mass effort. <a href="/about_work/">See some examples</a>.</p>
+                <p>We conduct research on scientific practices and provide grants for relevant endeavors. Most projects are open, crowdsourced efforts. <a href="/about_work/">See some examples</a>.</p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
