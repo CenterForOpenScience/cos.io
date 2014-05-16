@@ -36,7 +36,7 @@
                         <table>
                             <tr>
                                 <td class="text-left" style="padding-bottom: 15px"><img src="/static/img/icons/sp_140.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
-                                <h2>Improving the Credibility of Scientific Research: Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</h2></td>
+                                <h2>Improving the Credibility of Scientific Research: Registered Reports</h2></td>
                             </tr>
                         </table>
                         <p class="text-left">May 19, 2014 | Journal articles are the currency of science, but incentives favoring novelty over accuracy potentially undermine the credibility of the scientific literature.</p>
