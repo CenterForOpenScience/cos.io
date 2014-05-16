@@ -6,7 +6,7 @@
         <h1>Resources for Developers</h1>
         <br>
         <span style="text-align:justify">
-        <p>A natural parallel to open scientific practices is open source software, and to that end, the Center for Open Science relies on open source tools for its infrastructure. You can find the Center for Open Science on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+        <p>A natural parallel to open scientific practices is open source software.  The Center for Open Science relies on open source tools for its infrastructure. You can find the Center for Open Science on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
 
         <h4>Open Source Community and Projects</h4>
 
