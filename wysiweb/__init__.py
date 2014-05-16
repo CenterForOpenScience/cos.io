@@ -63,8 +63,8 @@ class WYSIWeb:
         else:
             with open(path, 'r') as f:
                 out = f.read()
-        out = self.re_unlinked_url.sub('<a href="\g<url>">\g<url></a>', out)
-        out = self.re_unlinked_email.sub(lambda match: self.obfuscate_email(match.group('email')), out)
+        #out = self.re_unlinked_url.sub('<a href="\g<url>">\g<url></a>', out)
+        #out = self.re_unlinked_email.sub(lambda match: self.obfuscate_email(match.group('email')), out)
         return out
 
     def get_filename(self, path):
@@ -113,7 +113,7 @@ class WYSIWeb:
                     if is_valid:
                         if split_path[0] == 'index':
                             with open(self.join(frozen_path, 'index.html'), 'w') as f:
-                                f.write(self.router('/index'))
+                                f.write(self.router('/index').encode('utf-8'))
                         else:
                             new_path = frozen_path
                             new_route = '/'
