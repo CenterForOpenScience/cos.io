@@ -4,7 +4,7 @@
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
@@ -35,7 +35,7 @@
                     <a class="col-md-4 service-box-v1" href="/pr/2014-05-19">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/sp_140.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="/static/img/icons/sp_140.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
                                 <h2>Improving the Credibility of Scientific Research: Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</h2></td>
                             </tr>
                         </table>
@@ -44,7 +44,7 @@
                     <a class="col-md-4 service-box-v1" href="/pr/2014-05-01">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/se_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="/static/img/icons/SE_Logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
                                 <h2>Reproducibility Project: Cancer Biology Receives $500,000 of Reagents</h2></td>
                             </tr>
                         </table>
@@ -53,7 +53,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.psmag.com/navigation/health-and-behavior/can-social-scientists-save-themselves-human-behavior-78858/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/psmag_logo.png" width="125"></td>
+                                <td><img src="/static/img/icons/psmag_logo.png" width="125"></td>
                                 <td><h2 class="text-left">The Reformation: Can Social Scientists Save Themselves?</h2></td>
                             </tr>
                         </table>
@@ -62,7 +62,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.theguardian.com/science/head-quarters/2014/jan/24/the-changing-face-of-psychology">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/guardian.gif" width="125"></td>
+                                <td><img src="/static/img/icons/guardian.gif" width="125"></td>
                                 <td><h2 class="text-left">The Changing Face of Psychology</h2></td>
                             </tr>
                         </table>
@@ -71,7 +71,7 @@
                     <a class="col-md-4 service-box-v1" href="http://discovermagazine.com/2014/jan-feb/46-research-report-repeat-with-brian-nosek#.UuZ1tGQo6OE">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/dsc_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="/static/img/icons/dsc_logo.png" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
                                 <h2>Psychology's Credibility Crisis</h2></td>
                             </tr>
                         </table>
@@ -80,7 +80,7 @@
                     <a class="col-md-4 service-box-v1" href="http://centerforopenscience.org/static/WTJUinterview.mp3">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/wtju.png" width="125"></td>
+                                <td><img src="/static/img/icons/wtju.png" width="125"></td>
                                 <td><h2 class="text-left">COS on WTJU</h2></td>
                             </tr>
                         </table>
@@ -89,16 +89,16 @@
                     <a class="col-md-4 service-box-v1" href="http://www.nbc29.com/story/24468145/new-charlottesville-nonprofit-helps-scientists-collaborate-around-the-world">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/nbc29.jpg" width="125"></td>
+                                <td><img src="/static/img/icons/nbc29.jpg" width="125"></td>
                                 <td><h2 class="text-left">COS on NBC29</h2></td>
                             </tr>
                         </table>
                         <p class="text-left">January 16th, 2014 | Whitney Harris from NBC29 news visited the Center for Open Science, reporting on the Center's mission of increasing the openness, integrity, and reproducibility of scientific research. Whitney also gave the Center's treadmill desk some attention.</p>
                     </a>
-                    <a class="col-md-4 service-box-v1" href="../pr/2013-12-23/">
+                    <a class="col-md-4 service-box-v1" href="/pr/2013-12-23/">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/jtf.jpg" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="/static/img/icons/jtf.jpg" width="175" align="left" style="padding-top: 20px; padding-right: 10px">
 
                                 <span id="templetonFont" >The John Templeton Foundation awards $2.1M joining the Laura and John Arnold Foundation and Alfred P. Sloan Foundation in $10M year for COS</span></td>
                             </tr>
@@ -108,7 +108,7 @@
                     <a class="col-md-4 service-box-v1" href="http://discovermagazine.com/2014/jan-feb?page=2#.UrMg02RDu39">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/dsc_logo.png" width="125"></td>
+                                <td><img src="/static/img/icons/dsc_logo.png" width="125"></td>
                                 <td><h2 class="text-left">Psychology's Credibility Crisis</h2></td>
                             </tr>
                         </table>
@@ -117,7 +117,7 @@
                     <a class="col-md-4 service-box-v1" href="http://news.sciencemag.org/social-sciences/2013/11/second-look-psychology-experiments-offers-reassurance">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/Science.gif" width="125"></td>
+                                <td><img src="/static/img/icons/Science.gif" width="125"></td>
                                 <td><h2 class="text-left">Second Look at Psychology Experiments Offers Reassurance</h2></td>
                             </tr>
                         </table>
@@ -126,7 +126,7 @@
                     <a class="col-md-4 service-box-v1" href="http://phenomena.nationalgeographic.com/2013/11/26/welcome-to-the-era-of-big-replication/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/ng.png" width="125"></td>
+                                <td><img src="/static/img/icons/ng.png" width="125"></td>
                                 <td><h2 class="text-left">Welcome To The Era of Big Replication</h2></td>
                             </tr>
                         </table>
@@ -135,7 +135,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.nature.com/news/psychologists-strike-a-blow-for-reproducibility-1.14232">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/nature.png" width="125"></td>
+                                <td><img src="/static/img/icons/nature.png" width="125"></td>
                                 <td><h2 class="text-left">Psychologists strike a blow for reproducibility</h2></td>
                             </tr>
                         </table>
@@ -144,7 +144,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.nature.com/nbt/journal/v31/n11/full/nbt.2748.html">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/nature.png" width="125"></td>
+                                <td><img src="/static/img/icons/nature.png" width="125"></td>
                                 <td><h2 class="text-left">Receptive to replication</h2></td>
                             </tr>
                         </table>
@@ -153,7 +153,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.newyorker.com/online/blogs/elements/2013/11/science-and-its-skeptics.html">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/newyorker.png" width="125"></td>
+                                <td><img src="/static/img/icons/newyorker.png" width="125"></td>
                                 <td><h2 class="text-left">Science and Its Skeptics</h2></td>
                             </tr>
                         </table>
@@ -162,7 +162,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.psychologicalscience.org/index.php/publications/observer/2013/november-2013/whats-new-at-psychological-science.html">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/observer_flag.jpg" width="125"></td>
+                                <td><img src="/static/img/icons/observer_flag.jpg" width="125"></td>
                                 <td><h2 class="text-left">What’s New at Psychological Science: An Interview with Editor in Chief Eric Eich</h2></td>
                             </tr>
                         </table>
@@ -171,7 +171,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.psychologicalscience.org/index.php/publications/observer/2013/november-2013/aps-replication-initiative-underway.html">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/aps.jpg" width="125"></td>
+                                <td><img src="/static/img/icons/aps.jpg" width="125"></td>
                                 <td><h2 class="text-left">APS Replication Initiative Under Way</h2></td>
                             </tr>
                         </table>
@@ -180,7 +180,7 @@
                     <a class="col-md-4 service-box-v1" href="http://blogs.scientificamerican.com/information-culture/2013/10/29/you-cant-read-just-one-reproducibility-and-multiple-sources/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/sciam_logo.png" width="125"></td>
+                                <td><img src="/static/img/icons/sciam_logo.png" width="125"></td>
                                 <td><h2 class="text-left">You can’t read just one: Reproducibility and multiple sources</h2></td>
                             </tr>
                         </table>
@@ -189,7 +189,7 @@
                     <a class="col-md-4 service-box-v1" href="http://reason.com/blog/2013/10/28/are-most-scientific-results-bunk">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/reason_logo.png" height="100"></td>
+                                <td><img src="/static/img/icons/reason_logo.png" height="100"></td>
                                 <td><h2 class="text-left">Are Most Scientific Results Bunk?</h2></td>
                             </tr>
                         </table>
@@ -198,7 +198,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.economist.com/news/briefing/21588057-scientists-think-science-self-correcting-alarming-degree-it-not-trouble">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/economist.png" width="150"></td>
+                                <td><img src="/static/img/icons/economist.png" width="150"></td>
                                 <td><h2 class="text-left">Trouble at the lab</h2></td>
                             </tr>
                         </table>
@@ -207,7 +207,7 @@
                     <a class="col-md-4 service-box-v1" href="../pr/2013-10-16/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/SE_Logo.png" width="150"></td>
+                                <td><img src="/static/img/icons/SE_Logo.png" width="150"></td>
                                 <td><h2 class="text-left">Press release: Reproducibility Initiative Receives $1.3M Grant</h2></td>
                             </tr>
                         </table>
@@ -216,7 +216,7 @@
                     <a class="col-md-4 service-box-v1" href="http://sciencecareers.sciencemag.org/career_magazine/previous_issues/articles/2013_10_04/caredit.a1300211">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/Science.gif" height="75"></td>
+                                <td><img src="/static/img/icons/Science.gif" height="75"></td>
                                 <td><h2 class="text-left">Your Data, Warts and All</h2></td>
                             </tr>
                         </table>
@@ -225,7 +225,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.newyorker.com/online/blogs/elements/2013/05/the-crisis-in-social-psychology-that-isnt.html">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/newyorker.png" width="125"></td>
+                                <td><img src="/static/img/icons/newyorker.png" width="125"></td>
                                 <td><h2 class="text-left">The Crisis in Social Psychology That Isn’t</h2></td>
                             </tr>
                         </table>
@@ -234,7 +234,7 @@
                     <a class="col-md-4 service-box-v1" href="http://phenomena.nationalgeographic.com/2013/03/05/new-center-aims-to-make-science-more-open-and-reliable/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/ng.png" height="100"></td>
+                                <td><img src="/static/img/icons/ng.png" height="100"></td>
                                 <td><h2 class="text-left">New Center Aims to Make Science More Open and Reliable</h2></td>
                             </tr>
                         </table>
@@ -243,7 +243,7 @@
                     <a class="col-md-4 service-box-v1" href="http://news.sciencemag.org/2013/03/psychologists-launch-bare-all-research-initiative/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/Science.gif" height="75"></td>
+                                <td><img src="/static/img/icons/Science.gif" height="75"></td>
                                 <td><h2 class="text-left">Psychologists Launch a Bare-All Research Initiative</h2></td>
                             </tr>
                         </table>
@@ -252,7 +252,7 @@
                     <a class="col-md-4 service-box-v1" href="../pr/2013-3-05/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/cos_logo.png" width="100"></td>
+                                <td><img src="/static/img/icons/cos_logo.png" width="100"></td>
                                 <td><h2 class="text-left">Press release: COS to provide revolutionary approach to scientific communication</h2></td>
                             </tr>
                         </table>
@@ -261,7 +261,7 @@
                     <a class="col-md-4 service-box-v1" href="http://chronicle.com/article/New-Center-Hopes-to-Clean-Up/137683/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/chronicle.jpg" height="100"></td>
+                                <td><img src="/static/img/icons/chronicle.jpg" height="100"></td>
                                 <td><h2 class="text-left">New Center Hopes to Clean Up Sloppy Science and Bogus Research</h2></td>
                             </tr>
                         </table>
@@ -270,7 +270,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.psmag.com/magazines/march-april-2013/reproducibility-project-science-53141/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/pacstand.png" width="160"></td>
+                                <td><img src="/static/img/icons/pacstand.png" width="160"></td>
                                 <td><h2 class="text-left">Replicate This</h2></td>
                             </tr>
                         </table>
@@ -279,7 +279,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.nytimes.com/2013/02/24/opinion/sunday/psychology-research-control.html?_r=0">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/nyt.png" height="100"></td>
+                                <td><img src="/static/img/icons/nyt.png" height="100"></td>
                                 <td><h2 class="text-left">Primed for Controversy</h2></td>
                             </tr>
                         </table>
@@ -288,7 +288,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.huffingtonpost.com/bella-depaulo/the-crisis-in-squishy-sci_b_2697848.html">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/huffpo.png" width="125"></td>
+                                <td><img src="/static/img/icons/huffpo.png" width="125"></td>
                                 <td><h2 class="text-left">The Crisis in Squishy Science: Trouble for Scientists and for Journalists</h2></td>
                             </tr>
                         </table>
@@ -297,7 +297,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.nbcnews.com/science/scandals-force-psychologists-do-some-soul-searching-1C8453878">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/nbc.png" width="100"></td>
+                                <td><img src="/static/img/icons/nbc.png" width="100"></td>
                                 <td><h2 class="text-left">Scandals force psychologists to do some soul-searching</h2></td>
                             </tr>
                         </table>
@@ -306,7 +306,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.apa.org/monitor/2013/02/results.aspx">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/apa.png" width="100"></td>
+                                <td><img src="/static/img/icons/apa.png" width="100"></td>
                                 <td><h2 class="text-left">Interesting results: Can they be replicated?</h2></td>
                             </tr>
                         </table>
@@ -315,7 +315,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.newyorker.com/online/blogs/newsdesk/2012/12/cleaning-up-science.html%20target=">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/newyorker.png" width="125"></td>
+                                <td><img src="/static/img/icons/newyorker.png" width="125"></td>
                                 <td><h2 class="text-left">Cleaning Up Science</h2></td>
                             </tr>
                         </table>
@@ -324,7 +324,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.theatlantic.com/health/archive/2012/12/the-myth-of-self-correcting-science/266228/">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/atlantic.png" width="150"></td>
+                                <td><img src="/static/img/icons/atlantic.png" width="150"></td>
                                 <td><h2 class="text-left">The Myth of Self-Correcting Science</h2></td>
                             </tr>
                         </table>
@@ -333,7 +333,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.sciencemag.org/content/338/6112/1270.summary">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/Science.gif" height="75"></td>
+                                <td><img src="/static/img/icons/Science.gif" height="75"></td>
                                 <td><h2 class="text-left">Final Report on Stapel Also Blames Field As a Whole</h2></td>
                             </tr>
                         </table>
@@ -342,7 +342,7 @@
                     <a class="col-md-4 service-box-v1" href="http://fora.tv/2012/10/19/Crisis_of_Reproducing_Science_Research__How_to_Solve_It">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/os_summit.png" width="125"></td>
+                                <td><img src="/static/img/icons/os_summit.png" width="125"></td>
                                 <td><h2 class="text-left">Video: Solving the Crisis of Reproducing Science Research</h2></td>
                             </tr>
                         </table>
@@ -351,7 +351,7 @@
                     <a class="col-md-4 service-box-v1" href="http://chronicle.com/blogs/percolator/daniel-kahneman-sees-train-wreck-looming-for-social-psychology/31338">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/chronicle.jpg" height="100"></td>
+                                <td><img src="/static/img/icons/chronicle.jpg" height="100"></td>
                                 <td><h2 class="text-left">Daniel Kahneman Sees ‘Train-Wreck Looming’ for Social Psychology</h2></td>
                             </tr>
                         </table>
@@ -360,7 +360,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.econtalk.org/archives/2012/09/nosek_on_truth.html">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/econlib.jpg" height="100"></td>
+                                <td><img src="/static/img/icons/econlib.jpg" height="100"></td>
                                 <td><h2 class="text-left">Nosek on Truth, Science, and Academic Incentives</h2></td>
                             </tr>
                         </table>
@@ -369,7 +369,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.sciencemag.org/content/337/6098/1031.short">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/Science.gif" height="75"></td>
+                                <td><img src="/static/img/icons/Science.gif" height="75"></td>
                                 <td><h2 class="text-left">Service Offers to Reproduce Results for a Fee</h2></td>
                             </tr>
                         </table>
@@ -378,7 +378,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.nature.com/news/replication-studies-bad-copy-1.10634">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/npg.png" height="100"></td>
+                                <td><img src="/static/img/icons/npg.png" height="100"></td>
                                 <td><h2 class="text-left">Replication studies: Bad copy</h2></td>
                             </tr>
                         </table>
@@ -387,7 +387,7 @@
                     <a class="col-md-4 service-box-v1" href="http://chronicle.com/blogs/percolator/is-psychology-about-to-come-undone/29045">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/chronicle.jpg" height="100"></td>
+                                <td><img src="/static/img/icons/chronicle.jpg" height="100"></td>
                                 <td><h2 class="text-left">Is Psychology About to Come Undone?</h2></td>
                             </tr>
                         </table>
@@ -396,7 +396,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.sciencemag.org/content/335/6076/1558">
                         <table>
                             <tr>
-                                <td><img src="../static/img/icons/Science.gif" height="75"></td>
+                                <td><img src="/static/img/icons/Science.gif" height="75"></td>
                                 <td><h2 class="text-left">Psychology’s Bold Initiative</h2></td>
                             </tr>
                         </table>
@@ -419,8 +419,8 @@
 
 <%def name="javascript_bottom()">
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-    <script type="text/javascript" src="../static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="../static/scripts/app.js"></script>
+    <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/static/scripts/app.js"></script>
     <script type="text/javascript">
             jQuery(document).ready(function() {
                 App.init();                      
