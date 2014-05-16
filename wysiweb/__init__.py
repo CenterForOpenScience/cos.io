@@ -63,8 +63,8 @@ class WYSIWeb:
         else:
             with open(path, 'r') as f:
                 out = f.read()
-        out = self.re_unlinked_url.sub('<a href="\g<url>">\g<url></a>', out)
-        out = self.re_unlinked_email.sub(lambda match: self.obfuscate_email(match.group('email')), out)
+        #out = self.re_unlinked_url.sub('<a href="\g<url>">\g<url></a>', out)
+        #out = self.re_unlinked_email.sub(lambda match: self.obfuscate_email(match.group('email')), out)
         return out
 
     def get_filename(self, path):
