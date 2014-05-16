@@ -45,7 +45,7 @@
                     <dt>Background</dt>
                     <dd>
                         <p>Develop exclusively free, open source software in the name of open science.</p>
-                        <p>The Center for Open Science (<a href="http://centerforopenscience.org">http://centerforopenscience.org</a>) is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively free and open source (<a href="http://github.com/CenterForOpenScience">http://github.com/CenterForOpenScience</a>).</p>
+                        <p>The <a href="http://centerforopenscience.org">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
                     </dd>
                     <dt>Core Technologies</dt>
                     <dd>
@@ -71,7 +71,7 @@
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@centerforopenscience.org">jobs@centerforopenscience.org</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
                     </dd>
                 </dl>
             </div>
@@ -94,7 +94,7 @@
                     <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/submit/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@centerforopenscience.org">jobs@centerforopenscience.org</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
                 </dd>
                 </dl>
             </div>
@@ -140,7 +140,7 @@
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</p>
+                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@centerforopenscience.org">jobs@centerforopenscience.org</a>.</p>
                     </dd>
                 </dl>
             </div>
@@ -156,7 +156,7 @@
 
 <h3><br><br><strong>What we do<br><br></strong></h3>
 <p>We work on the cutting edge of open source software. We are mission driven - increasing openness
-    and reproducibility in science research by building free tools, forming community projects, and
+    and reproducibility in science research by building tools, forming community projects, and
     conducting open, crowdsourced research. We are facilitating positive changes to the scientific
     culture and reward structure. <strong>We want you to join our team.</strong></p>
 <br>
@@ -169,17 +169,17 @@
             <ul id="benefits" class="list-unstyled margin-bottom-20 col-md-8">
                 <li class="row text-right"><h3>Collaborate.</h3>The Center places a high value on developing skills and collaboration.<br> Teamwork, pair programming, collaboration internally and externally are daily practice.   </li>
                 <li><br></li>
-                <li class="row text-left"><h3>Eat well.</h3> Keep your energy up with drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
+                <li class="row text-left"><h3>Eat well.</h3> Keep your energy up with your favoriate drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
                 <li><br></li>
-                <li class="row text-right"><h3>Get fit.</h3> All full time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community. </li>
+                <li class="row text-right"><h3>Get fit.</h3> All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community. </li>
                 <li><br></li>
-                <li class="row text-left"><h3>Keep comfortable.</h3> We take our work seriously, not ourselves.  <br>COS is a casual environment - casual dress, bean bags, high quality workspaces,<br> and an open, non-hierarchical floor plan.  </li>
+                <li class="row text-left"><h3>Keep comfortable.</h3> We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.  </li>
                 <li><br></li>
-                <li class="row text-right"><h3>Snag a Mac.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
+                <li class="row text-right"><h3>We're a Mac shop.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
                 <li><br></li>
                 <li class="row text-left"><h3>Plan for the future.</h3> We’ll help you set up your 401k, and COS contributes up to 4% matches.</li>
                 <li><br></li>
-                <li class="row text-right"><h3>Enjoy the view.</h3> The modern and stylish Center offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside!  </li>
+                <li class="row text-right"><h3>Enjoy the view.</h3> The modern and stylish COS offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside!  </li>
             </ul>
         </div>
         <div class="margin-top-80 margin-bottom-60 margin-left-40 col-md-2">
@@ -196,7 +196,7 @@
 <div id = "location"></div>
 <h3><strong>Where we live<br><br></strong></h3>
 <p>From hikes and rides atop the peaks of the Blue Ridge Mountains, to navigating the taps of the BrewRidge Trail, Charlottesville boasts both urban culture and rural adventure. The pedestrian mall downtown offers local shopping, a range of restaurants from French fine dining to sushi rolls to take-away crepes, weekend farmer’s markets, and a music scene to suit tastes for both jazz piano and garage rock.</p>
-<p>Steeped with history, Charlottesville and the surrounding area offers many landmarks of its own. To branch out beyond the local without leaving the city, however, there are museums like the Kluge-Ruhe Aboriginal Art Museum and the Special Collections Library at UVA. And, if you want to get out of town, DC is just two hours away and the state capital, Richmond, is a mere hour drive.</p>
+<p>Steeped with history, Charlottesville and the surrounding area offers many landmarks of its own. To branch out beyond the local without leaving the city, however, there are museums like the Kluge-Ruhe Aboriginal Art Museum and the Special Collections Library at UVA. And, if you want to get out of town, DC is just two hours away and the state capital, Richmond, is a mere one-hour drive.</p>
 <p><a href="http://travel.nytimes.com/2008/10/26/travel/26hours.html?pagewanted=all">See why the New York Times loves Charlottesville!</a></p>
 <p><a href="http://www.c-ville.com/events/">Or, check out the local events calendar.</a></p>
 </div>
