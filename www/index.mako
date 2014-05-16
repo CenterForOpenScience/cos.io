@@ -39,8 +39,7 @@ ${page}
     <div class="row margin-bottom-10">
         <!-- BEGIN INFO BLOCK -->
         <div class="lead col-xs-12">
-            <p>COS is dedicated to improving the alignment between scientific values and scientific practices to improve the accumulation and application of knowledge. Operating with a technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions.
-                We blend science and technology with our mission-driven fervor to build new tools for the scientific community.</p>
+            <p>COS is dedicated to improving the alignment between scientific values and scientific practices to improve the accumulation and application of knowledge. As a non-profit technology start-up, the COS team moves quickly from problem to solution, evaluation to revision. We blend science and technology in our mission-driven effort to support and improve research practices.</p>
         </div>
         <!-- END INFO BLOCK -->
     </div>
