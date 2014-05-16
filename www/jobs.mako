@@ -101,94 +101,6 @@
         </div>
     </div>
 </div>
-<div id="accordion3" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-
-                <a data-parent="#accordion3" >
-                    Project Manager
-                </a>
-            </h4>
-        </div>
-        <div id="accordion3_3" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="https://osf.io/">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We seek a project manager with substantial training in research methodology and practice, extremely strong social and organizational skills, and ability to translate ideals into practical uses.  The Project Manager will contribute to community and metascience efforts, and help facilitate open science practices more broadly.  This position is highly appropriate for graduating PhD’s seeking to stay involved in scientific research and improving scientific practices.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <p>The key responsibilities for the project manager include managing initiatives to improve scientific practices including badges for journals to acknowledge open practices (e.g., <a href="https://osf.io/tvyxz/"></a><a href="https://osf.io/tvyxz/">https://osf.io/tvyxz/</a>), a Registered Reports publishing format (e.g., <a href="https://osf.io/hxeza/"></a><a href="https://osf.io/hxeza/">https://osf.io/hxeza/</a>), checklists for research workflow (e.g., <a href="https://osf.io/mv8pj/"></a><a href="https://osf.io/mv8pj/">https://osf.io/mv8pj/</a>), and disclosure standards (e.g., <a href="https://osf.io/hadz3/"></a><a href="https://osf.io/hadz3/">https://osf.io/hadz3/</a>).  The project manager will foster and manage connections with the scientific community on these initiatives, provide training and support for users, maintain project documentation and standards, and track progress on project goals.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Substantial training and experience in scientific research and methodology; Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in programming, web development, and data analysis are a plus.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="accordion4" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-
-                <a data-parent="#accordion4" >
-                    Project Coordinator
-                </a>
-            </h4>
-        </div>
-        <div id="accordion4_4" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="https://osf.io/">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices. We seek a project coordinator with extremely strong social and organizational skills to contribute to community and metascience efforts, and to help facilitate open science practices more broadly.  This position is highly appropriate for individuals that are looking for full-time experience prior to attending graduate school in a scientific field.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <p>The key responsibilities for the coordinator position include fostering connections with the scientific community, communicating about COS initiatives, providing training and support for users of COS tools, and contributing to launch and management of new initiatives, maintaining project documentation, testing and quality control of new features, and tracking progress on project timelines and goals.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Effective managerial skills with research assistants; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; background in scientific methodology (B.A./B.S. level at least); effective writing skills.  Skills in programming and data analysis are a plus.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
 <div id="accordion5" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
@@ -230,74 +142,6 @@
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                         <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome.</p>
                     </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="accordion6" class="panel-group margin-bottom-50">
-    <div class="panel panel-info">
-        <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-
-                <a data-parent="#accordion6" >
-                    BITSS Research Transparency Associate
-                </a>
-            </h4>
-        </div>
-        <div id="accordion6_6" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>This position is not with the Center for Open Science, but is, instead, a courtesy posting for the Berkeley Initiative for Transparency in Social Sciences.</p>
-                        <p>The <a href="http://bitss.org/">Berkeley Initiative for Transparency in Social Sciences</a> (BITSS) is a new effort to promote the integrity, replicability, and validity of empirical social science research. The program is fostering an active network of social science researchers and institutions committed to strengthening transparency in economics, political science, behavioral science, and related disciplines. Central to BITSS is the identification and evaluation of strategies or tools to improve research transparency, including study registries, pre-analysis plans, data archiving and sharing platforms, and replications.</p>
-                        <p>Headquartered at the <a href="http://cega.berkeley.edu">Center for Effective Global Action</a> at UC Berkeley, BITSS is looking for a Program Associate to support the initiative’s evaluation and outreach efforts. The candidate is expected to engage actively with social science researchers at scientific conferences, to raise awareness of new and emerging tools for research transparency. This could include the organization of satellite sessions, trainings, seminars, or other activities to share information and resources.</p>
-                        <p>The candidate also will contribute directly to the refinement of the Open Science Framework, a platform created by the Center for Open Science at the University of Virginia that helps researchers document and archive their study designs, materials and data. Toward this end, the candidate is expected to make several visits to the Center over the course of a year.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <ul>
-                            <li>Providing technical assistance in the use of new tools for BITSS affiliates, including in-person and web meetings, email/phone consultations, online fora, the development of online help materials, and referrals to other resources (e.g. those provided by COS).</li>
-                            <li>Providing continuous updates on BITSS activities to COS leadership, and updating BITSS leadership on developments at COS.</li>
-                            <li>Collecting feedback from the broader social science community and recommend fixes, features, and revisions to the OSF platform.</li>
-                            <li>Participating in and presenting at academic conferences to raise awareness of different tools to improve research transparency and integrity.</li>
-                            <li>Supporting the planning and development of curriculum and problem sets for an annual BITSS summer institute (including teaching assistance to support advanced doctoral students enrolled in the institute).</li>
-                            <li>Providing administrative and logistics support as needed for planning summer training modules, organizing BITSS annual meeting, reporting to donors, and supporting other BITSS activities.</li>
-                        </ul>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>The ideal candidate will have strong experience working with empirical datasets in the social sciences and familiarity with some of the new tools in research transparency. S/he should be eager and
-                            able to quickly grasp new advances in both transparency software development and empirical research methods. S/he should also be able to communicate clearly with a broad range of stakeholders, from journal editors and social scientists to software developers and the public. The candidate should meet the following requirements:</p>
-                        <ul>
-                            <li>Graduate degree in Economics, Political Science, Psychology or another data-intensive social science discipline. Computer science graduates are also encouraged to apply.</li>
-                            <li>Familiarity with the management and analysis of empirical data in the social sciences, including experience with assessing and documenting data quality and implementing metadata standards.</li>
-                            <li>Experience with statistical software packages such as STATA, R, or MATLAB. Coding and programming skills a plus.</li>
-                            <li>Interest in research transparency and the value of improving the standards of rigor in empirical scientific research.</li>
-                            <li>Demonstrated evidence of quickly and successfully seizing on a new technology for a past project.</li>
-                            <li>Excellent written and oral communication skills, with the ability to interact productively with diverse audiences.</li>
-                            <li>Demonstrated ability to multitask and be responsive to time-sensitive deadlines.</li>
-                            <li>Ability to execute work independently while communicating effectively with colleagues and managers.</li>
-                        </ul>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>BITSS is located in Berkeley, California.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>This is a one year 50%-100% FTE position for someone eager to collaborate with leading social science researchers to rapidly and decisively shift research norms in favor of more transparent practices. Candidates might pursue other activities at the same time. Daily/Weekly schedule is flexible. Contract subject to renewal depending on performance and available funding.</p>
-                        <p>Salary is commensurate with experience. For information on the comprehensive benefits package offered by the University of California visit: <a href="http://atyourservice.ucop.edu/forms_pubs/misc/benefits_of_belonging.pdf"></a><a href="http://atyourservice.ucop.edu/forms_pubs/misc/benefits_of_belonging.pdf">http://atyourservice.ucop.edu/forms_pubs/misc/benefits_of_belonging.pdf</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>All applications must be submitted through the UC Berkeley jobs website. Please visit <a href="http://jobs.berkeley.edu"></a><a href="http://jobs.berkeley.edu">http://jobs.berkeley.edu</a> and search for Job ID# 17259. In addition to a current CV, candidates should submit a cover letter outlining (1) qualifications for the responsibilities listed above, (2) specific interest in the position, and (3) at least two academic and/or professional references. Incomplete applications will not be considered.</p>
-                        <p>The candidate is expected to start in February 2014. Applications will be reviewed on a rolling basis. Therefore, candidates are encouraged to apply as early as possible.</p>
-                        <p>The University of California, Berkeley is an Equal Opportunity/Affirmative Action Employer.</p>
-                    </dd>
-
                 </dl>
             </div>
         </div>
@@ -349,7 +193,7 @@
 
 </div>
 
-
+<div id = "location"></div>
 <h3><strong>Where we live<br><br></strong></h3>
 <p>From hikes and rides atop the peaks of the Blue Ridge Mountains, to navigating the taps of the BrewRidge Trail, Charlottesville boasts both urban culture and rural adventure. The pedestrian mall downtown offers local shopping, a range of restaurants from French fine dining to sushi rolls to take-away crepes, weekend farmer’s markets, and a music scene to suit tastes for both jazz piano and garage rock.</p>
 <p>Steeped with history, Charlottesville and the surrounding area offers many landmarks of its own. To branch out beyond the local without leaving the city, however, there are museums like the Kluge-Ruhe Aboriginal Art Museum and the Special Collections Library at UVA. And, if you want to get out of town, DC is just two hours away and the state capital, Richmond, is a mere hour drive.</p>
