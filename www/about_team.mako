@@ -81,7 +81,7 @@
             <img src="../static/img/people/nosek.jpg" alt="Brian Nosek">
             <h3>
                 <a href="https://osf.io/cdi38/">Brian Nosek</a>
-                <small>Cofounder</small>
+                <small>Co-founder</small>
             </h3>
         </div>
     </li>
@@ -171,7 +171,7 @@
             <img src="../static/img/people/spies.jpg" alt="Jeff Spies">
             <h3>
                 <a href="https://osf.io/jk5cv/">Jeff Spies</a>
-                <small>Cofounder</small>
+                <small>Co-founder</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://twitter.com/JeffSpies" data-original-title="Twitter" class="twitter"></a></li>

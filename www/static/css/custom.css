@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+.big {
+    font-size: 50px;
+}
+
 #no-transform {
     width: 300px !important;
 }

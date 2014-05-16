@@ -1,11 +1,11 @@
-<%inherit file="../../_base.mako"/>
+<%inherit file="../_base.mako"/>
 <%def name="title()">News</%def>
 <%def name="description()">The Center for Open Science news and updates</%def>
 <%def name="page()">news</%def>
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
@@ -24,7 +24,7 @@
 
                 <div style="padding-bottom: 25px">
                     <div style=" padding-bottom: 25px">
-                        <h1><strong>Improving the Credibility of Scientific Research: Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</h1>
+                        <h1><strong>Improving the Credibility of Scientific Research: Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</strong></h1>
                     </div>
                 </div>
 
@@ -55,53 +55,61 @@
                     </p>
                     <p>The 27 original findings replicated in these papers cover a wide range of topics such as the primacy of warmth in forming impressions of people’s personality (Original: Asch 1946; Replication: Nauts, Langner, Huijsmans, Vonk, & Wigboldus, 2014), the “Romeo and Juliet” effect in romantic relationships (Original: Driscoll, Davis, & Lipetz, 1972; Replication: Sinclair, Hood, & Wright, 2014), effects of stereotypes on math performance (Original: Shih, Pittinsky, & Ambady, 1999; Replications: Gibson, Losee, & Vitiello, 2014; Moon & Roeder, 2014), the effect of experiencing physical warmth on judgments of interpersonal warmth (Original: Williams & Bargh, 2008; Replication: Lynott, Corker, Wortman, Connell, Donnellan, Lucas, & O’Brien, 2014), and the impact of recalling moral behavior on the perception of brightness (Original: Banerjee, Chatterjee, & Sinha, 2012; Replication: Brandt, IJzerman, & Blanken, 2014).</p>
                     <p>Christian Unkelbach, Professor at the University of Cologne and Editor-in-Chief of Social Psychology, concluded “We are very pleased with the special issue in demonstrating the potential value of RR’s in advancing scientific research and communication.  We are adopting the model as a regular submission option for the journal, and we encourage other journals to do so.”</p>
-                    <h4>Selected Results</h4>
+                    <br>
+                    <h3>Selected Results</h3>
                     <ul>
                         <li>A replication of a classic study by Asch (1946) that had been done without formal inferential statistical analysis allowed Nauts, Langner, Huijsmans, Vonk, and Wigboldus (2014) to re-examine whether warmth is a central trait when forming impressions. They found no evidence that warmth is more important than other traits, such as intelligence, and they remind readers of the fact that Asch never interpreted his own work in the way it is now cited in Introduction to Psychology textbooks.</li>
                         <li>The Many Labs replication project (Klein et al., 2014) was a large collaboration in which 36 research teams from around the world collected data from 6,344 participants to assess variation in replicability of 13 classic and contemporary effects across samples and settings. This large project revealed relatively little variation in effect sizes across labs, and demonstrated that crowdsourcing offers a feasible way to collect large sample sizes and gain substantial knowledge about replicability.</li>
                         <li>Three research teams (Lynott et al., 2014) collaboratively replicated a study on the relationship between physical warmth and judgments of personal warmth (Williams & Bargh, 2008) which has been widely cited in the media and the scientific literature. The researchers collected data from 861 participants, but did not observe an effect of physical warmth on judgments of personal warmth.</li>
                         <li>Zezelj & Jokic (2014) attempted to resolve the discrepancies between the results of previous findings on the effect that psychological distance from an event influences has on how people think about that event. They highlight subtle differences in the experimental paradigms that could explain the discrepancy.  This article is accompanied by a discussion among the original authors and the replication team in which new data are brought to bear.</li>
                     </ul>
-                    <h4>Quoted Contacts</h4>
+                    <br>
+                    <h3>Quoted Contacts</h3>
                     <p>
-                    Daniel Lakens, D.Lakens@tue.nl<Br>
-                    Daniel Simons, dsimons@illinois.edu<br>
-                    Chris Chambers, chambersc1@cardiff.ac.uk<br>
-                    Christian Unkelbach, christian.unkelbach@uni-koeln.de<Br>
+                    Daniel Lakens, <a href="mailto: D.Lakens@tue.nl">D.Lakens@tue.nl</a><Br>
+                    Daniel Simons, <a href="mailto:dsimons@illinois.edu">dsimons@illinois.edu</a><br>
+                    Chris Chambers, <a href="mailto:chambersc1@cardiff.ac.uk">chambersc1@cardiff.ac.uk</a><br>
+                    Christian Unkelbach, <a href="mailto:christian.unkelbach@uni-koeln.de">christian.unkelbach@uni-koeln.de</a><Br>
                     </p>
-                    <h4>Other Contacts</h4>
+                    <h3>Other Contacts</h3>
                     <p>
-                    Brian Nosek: co-Editor of the special issue; Associate Professor, University of Virginia; Director, Center for Open Science; nosek@virginia.edu<br>
-                    George Banks: member Registered Reports Committee; Assistant Professor Longwood University; banksgc@longwood.edu <br>
-                    Alex Holcombe: co-Editor Registered Replication Reports, Perspectives on Psychological Science; member Registered Reports Committee; alex.holcombe@sydney.edu.au <br>
-                    Edward (Ted) Miguel: Director of Berkeley Initiative for Transparency in the Social Sciences (BITSS); member Registered Reports Committee; Professor, University of California, Berkeley; emiguel@berkeley.edu
+                    Brian Nosek: co-Editor of the special issue; Associate Professor, University of Virginia; Director, Center for Open Science; <A href="mailto:nosek@virginia.edu">nosek@virginia.edu</a><br>
+                    George Banks: member Registered Reports Committee; Assistant Professor Longwood University; <a href="mailto:banksgc@longwood.edu">banksgc@longwood.edu</a> <br>
+                    Alex Holcombe: co-Editor Registered Replication Reports, Perspectives on Psychological Science; member Registered Reports Committee; <a href="mailto:alex.holcombe@sydney.edu.au">alex.holcombe@sydney.edu.au</a> <br>
+                    Edward (Ted) Miguel: Director of Berkeley Initiative for Transparency in the Social Sciences (BITSS); member Registered Reports Committee; Professor, University of California, Berkeley; <a href="mailto:emiguel@berkeley.edu">emiguel@berkeley.edu</a>
                     </p>
-                    <h4>Frequently Asked Questions</h4>
+                    <br>
+                    <h3>Frequently Asked Questions</h3>
                     <dl>
                         <dt>
                             If a replication fails to obtain the original result, does that mean that the original is false?
                         </dt>
+                        <br>
                         <dd>
                             No. It could also occur if there were an error in the replication, or if the replication were underpowered, or if there were changes in the sample, setting, materials, or procedure that were critical for obtaining the original result.  The replications in the special issue were highly powered and designed to eliminate any differences from the original that were known to be critical in obtaining the result. With any replication, though, there could be differences in methodology that had not yet been recognized as important in obtaining the effect. Direct replications like these can improve our understanding of the conditions necessary to obtain an effect.
                         </dd>
+                        <br>
                         <dt>
                             Does the proportion of studies successfully replicated in the special issue say something about the replicability of social psychology more generally?
                         </dt>
                         <dd>
                             No.  Authors self-selected the studies they wanted to replicate.  The peer review process evaluated each submission independently (only 15 of the original 40 submissions were included in the special issue). Consequently, the collection of studies is highly selective, and the proportion of successful replications applies only to the particular set of studies chosen for this issue.
                         </dd>
+                        <br>
                         <dt>
                             Does a failure to replicate an original result suggest that the original was obtained fraudulently?
                         </dt>
                         <dd>
                             No. Failure to replicate a result is an ordinary event.  Fraud is an extraordinary event.
                         </dd>
+                        <br>
                         <dt>
                             Does a failure to replicate mean that the replication attempt was flawed?
                         </dt>
                         <dd>
                             No.  It could indicate a problem with the replication.  But, it could also indicate that there was an error in the original result, that the original result was a false positive, or that the methodological differences between the replication and the original study are critical for obtaining the effect.
                         </dd>
+                        <br>
                         <dt>
                             That’s a lot of no’s.  Then what does a failure to replicate mean?
                         </dt>
@@ -120,7 +128,7 @@
             <div class="col-md-3 blog-sidebar" style="padding-left: 55px">
 
 
-                    <%include file="../../newsitem.mako"/>
+                    <%include file="../newsitem.mako"/>
 
             </div>
 
