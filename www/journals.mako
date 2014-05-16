@@ -31,12 +31,12 @@
         <h3>Open Science Framework (OSF)</h3>
         <p>The <a href="http://osf.io/">OSF</a> is a web application that supports documentation, archiving, registration, and collaboration.  OSF stores and manages materials, data, analysis scripts, and reports, and integrates with the researchers’ daily workflow.  Researchers control what is managed privately or publicly. OSF’s preregistration services can support other registries (e.g., clinicaltrials.gov). OSF can support any journal for RR’s, badges, and as a back-end repository or workflow management system so that more of the research process is available for peer review and post-publication. Get more information <a href="http://osf.io">here</a>.</p>
             <br>
-        <h3>Disclosure Standards and Checklists</h3>
+        <h3>Disclosure Standards</h3>
         <p>Journals, editors, or reviewers can request disclosure of key information about the research process by authors.
             For example, disclosure of four details of the research process - (1) all conditions, (2) all measures, (3) all
             exclusions, and (4) determination of sample sizes - is now standard practice in <a href="http://pss.sagepub.com/content/25/1/3">
             Psychological Science</a>, and is available as a standard statement for peer reviewers evaluating submissions at
-            <a href="https://osf.io/hadz3/">any journal</a>.  The Disclosure committee maintains best practices for disclosure standards across disciplines, assists with integration of disclosure practices into publishing workflows, and tracks use of disclosure standards by journals.</p>
+            <a href="https://osf.io/hadz3/">any journal</a>.</p>
             <br>
         <h3>Checklists for Research Workflow</h3>
         <p>Well-designed checklists provide handy guides for their users, and improve the quality and consistency of outcomes (Gawande, 2009).  This committee will help develop, maintain and support checklists for researchers, authors, reviewers and editors for the research and publishing workflows.  Effective checklists can improve reporting practices, facilitate recognition of good practices, improve ability to aggregate evidence and increase reproducibility.</p>
