@@ -36,7 +36,7 @@
                         <table>
                             <tr>
                                 <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/sp_140.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
-                                <h2>Improving the Credibility of Scientific Research: Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</h2></td>
+                                <h2>Social Psychology releases special issue of 15 Registered Reports attempting to replicate important results in social psychology</h2></td>
                             </tr>
                         </table>
                         <p class="text-left">May 19, 2014 | Journal articles are the currency of science, but incentives favoring novelty over accuracy potentially undermine the credibility of the scientific literature.</p>
@@ -270,9 +270,7 @@
                         <p class="text-left">March 5th, 2013 | A group of psychologists are launching a project this week that
                             they hope will make studies in their field radically more transparent and prompt other fields
                             to open up as well. With a pledge of $5.25 million from private supporters, they have set up
-                            an outfit called the Center for Open Science. It is collaborating with an established journal,
-                            Perspectives on Psychological Science, to solicit work from authors who are willing to work
-                            completely in the open and have their studies replicated.</p>
+                            an outfit called the Center for Open Science. </p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="../pr/2013-3-05/">
                         <table>
@@ -415,10 +413,7 @@
                             </tr>
                         </table>
                         <p class="text-left">October 5th, 2012 | Daniel Kahneman sent an e-mail last week to a dozen social
-                            psychologists, spelling out what he sees as a way to restore the credibility of priming research.
-                            The research, which has found that small cues can cause strong subconscious effects, have come under
-                            fire after attempts to replicate some high-profile studies failed. It hasn’t helped that some
-                            prominent social psychologists have committed flat-out fraud.</p>
+                            psychologists, spelling out what he sees as a way to restore the credibility of priming research.</p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="http://www.econtalk.org/archives/2012/09/nosek_on_truth.html">
                         <table>
