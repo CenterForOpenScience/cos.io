@@ -120,7 +120,7 @@ ${self.body()}
             <div class="col-md-4 col-sm-4 space-mobile">
                 <!-- BEGIN ABOUT -->
                 <h2>About</h2>
-                <p class="margin-bottom-30">The Center for Open Science advocates for openness, integrity, and reproducibility in scientific research.</p>
+                <p class="margin-bottom-30">The Center for Open Science fosters openness, integrity, and reproducibility of scientific research.</p>
                 <div class="clearfix"></div>
                 <!-- END ABOUT -->
 
