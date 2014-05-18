@@ -25,8 +25,10 @@
                 <li class="dropdown ${ 'active' if page == 'jobs' else ''}">
                     <a href="/jobs/" >Jobs</a>
                 </li>
+                <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science" style="color: red">Donate</a></li>
             </ul>
         </div>
+
         <!-- BEGIN TOP NAVIGATION MENU -->
 </%def>
 
