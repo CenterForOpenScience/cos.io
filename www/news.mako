@@ -21,8 +21,8 @@
         <!--BEGIN DESCRIPTION -->
         <h1><strong>What's all the buzz about?<br></strong></h1>
         <br>
-        <p>Open science and transparency practices are gaining media attention rapidly. Read about the Center, our projects,
-        and related news items below.</p>
+        <p>Open science and transparency practices are hot topics in the scientific community and in the media at large. Read about COS, our projects,
+        and related news below.</p>
         <br><br>
 
         <!--END DESCRIPTION-->
