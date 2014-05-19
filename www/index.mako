@@ -39,7 +39,7 @@ ${page}
     <div class="row margin-bottom-10">
         <!-- BEGIN INFO BLOCK -->
         <div class="lead col-xs-12">
-            <p>COS is dedicated to improving the alignment between scientific values and scientific practices to improve the accumulation and application of knowledge. As a non-profit technology start-up, the COS team moves quickly from problem to solution, evaluation to revision. We blend science and technology in our mission-driven effort to support and improve research practices.</p>
+            <p>COS is dedicated to improving the alignment between scientific values and scientific practices. As a non-profit technology start-up, our team moves quickly from problem to solution, and continuously evaluates and improves our solutions.  We blend science and technology in support of open science - transparency and inclusivity.</p>
         </div>
         <!-- END INFO BLOCK -->
     </div>
@@ -66,16 +66,16 @@ ${page}
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-book blue"></i></em>
-                    <span>Journals & Publishing</span>
+                    <span>Publishers & Societies</span>
                 </div>
-                <p>COS has built tools for journals and societies who want to show support for open science with minimal resources expended. <a href="/journals/">Read more.</a></p>
+                <p>COS has built free, easy-to-adopt tools for journals and societies to incentivize preregistration and sharing of data and materials. <a href="/journals/">Read more.</a></p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-download blue"></i></em>
                     <span>Developers</span>
                 </div>
-                <p>COS builds open source projects for science, connects via API with other services, and provides grants for new open projects. <a href="/developers/">Find out how you can get involved.</a></p>
+                <p>COS builds open source infrastructure for science, connects via API with other services, and supports open projects. <a href="/developers/">Find out how you can get involved.</a></p>
             </div>
         </div>
         <div class="spacer"></div>
@@ -96,7 +96,7 @@ ${page}
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-group blue"></i></em>
-                    <span>Community Building</span>
+                    <span>Community</span>
                 </div>
                 <p>COS is fostering community among open-source developers, open science researchers, and the broader scientific community. Visit our Google group for the <a href="https://groups.google.com/group/openscienceframework?hl=en&amp;pli=1">Open Science Collaboration</a>. Read <a href="/about_work/">more about our community efforts</a>.</p>
             </div>
@@ -105,7 +105,7 @@ ${page}
                     <em><i class="fa fa-laptop blue"></i></em>
                     <span>Infrastructure</span>
                 </div>
-                <p>We seek to improve the scientific workflow by connecting technologies that support research and communication. See our work at the <a href="http://openscienceframework.org">Open Science Framework</a>. Or, read check out <a href="/about_work/">some of our other projects</a>.</p>
+                <p>We support and improve the scientific workflow by connecting technologies that researchers use. See our work at the <a href="http://openscienceframework.org">Open Science Framework</a> and check out <a href="/about_work/">some of our other projects</a>.</p>
             </div>
         </div>
         <!-- END SERVICE BOX -->

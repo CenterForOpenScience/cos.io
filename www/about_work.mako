@@ -30,15 +30,15 @@
                 <h1><strong>Our Work<br><br></strong></h1>
                 <p>The Center for Open Science was founded in the spring of 2013. We began with one infrastructure project, the
                     <a href="https://osf.io/">Open Science Framework</a>, one research project, <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, and a mission: to increase openness, integrity, and reproducibility of scientific research. 
-                    That mission has become a daily goal driving all of our projects. At COS, we
-                    aim to improve scientific practices by making it easier and more desirable to align them with scientific values.</p>
+                    That mission is a daily goal driving all of our projects. At COS, we
+                    provide tools to make it easy and desirable to align scientific practices with core scientific values.</p>
 
                 <h3 class="center margin-top-50 margin-bottom-20">We have three primary activities:</h3>
                 <div class="row margin-bottom-50">
                     <!-- BEGIN LISTS -->
                     <div class="col-md-4 col-sm-6">
                         <dl class="front-lists-v1">
-                            <dt><i class="fa fa-laptop "></i>&nbsp;&nbsp;&nbsp;Infrastructure Development</dt>
+                            <dt><i class="fa fa-laptop "></i>&nbsp;&nbsp;&nbsp;Infrastructure</dt>
                             <dd>The <a href="https://osf.io/">Open Science Framework</a> is our major infrastructure endeavor. The OSF is an online
                                 resource for researchers to pursue their current workflow and easily introduce open practices.
                                 The OSF provides version control, altmetrics for measuring impact, and personalizable privacy options.</dd>
@@ -46,26 +46,23 @@
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <dl class="front-lists-v1">
-                            <dt><i class="fa fa-group "></i>&nbsp;&nbsp;&nbsp;Community Building</dt>
-                            <dd>We believe that by engaging the scientific community in a more comprehensive way,
-                                the incentive structure that researchers work within may begin to change. We seek to develop
-                                new community standards and encourage more crosstalk between scientists. We are part of the
-                                <a href="https://groups.google.com/forum/#!forum/openscienceframework">Open Science Collaboration</a> (OSC)–a network of researchers and institutions that support research
-                                transparency.</dd>
+                            <dt><i class="fa fa-group "></i>&nbsp;&nbsp;&nbsp;Community</dt>
+                            <dd>Incentives for success focus scientists on getting published more than getting it right.  Nudging these dysfunctional incentives requires 
+                                engagement with the entire science ecosystem - funders, journals, societies, and institutions.  We engage the entire ecosystem and support tools and 
+                                procedures to shape daily practices such as <a href="https://osf.io/tvyxz/wiki/home/">badges for open science</a> and <a href="http://centerforopenscience.org/pr/2014-05-19/">Registered Reports</a>.  </dd>
                         </dl>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <dl class="front-lists-v1">
                             <dt><i class="fa fa-flask "></i>&nbsp;&nbsp;&nbsp;Metascience</dt>
-                            <dd>In an effort to better understand the practices we hope to improve, COS has
-                                support several metascience projects investigating the replicability of several scientific
-                                disciplines such as <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>, and <a href="https://osf.io/wx7ck/">Many Labs</a>. </dd>
+                            <dd>We support metascience projects about the state of scientific research and evaluation of interventions to improve it.  This includes investigating the reproducibility of research 
+                                with projects such as <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>, and <a href="https://osf.io/wx7ck/">Many Labs</a>. </dd>
                         </dl>
                     </div>
                     <!-- END LISTS -->
                 </div>
-                <p>To read about COS goals and activities in the <a href="https://docs.google.com/document/d/17OTxjE5zl34VcXiAORayFOCDIkyRCiefh1ZBN1qEBUc/edit">
-                    COS strategic plan</a>, or read two scholarly articles by our founders, outlining a vision of
+                <p>Read about COS goals and activities in the <a href="https://docs.google.com/document/d/17OTxjE5zl34VcXiAORayFOCDIkyRCiefh1ZBN1qEBUc/edit">
+                    COS strategic plan</a>, or in scholarly articles outlining a vision of
                     scientific utopia for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.Ui5vdmTJHy0">
                         research communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">research practices</a>.
                 </p>
