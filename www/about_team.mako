@@ -223,15 +223,6 @@
     </li>
 </ul>
 <ul class="list-unstyled">
-    <li class="col-md-3">
-        <div class="thumbnail">
-            <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
-            <h3>
-                <a href="#">Wendy Zhu</a>
-                <small>Volunteer | Infrastructure</small>
-            </h3>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
@@ -259,8 +250,6 @@
             </h3>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/richter.jpg" alt="Natasha Richter">
@@ -270,6 +259,9 @@
             </h3>
         </div>
     </li>
+
+</ul>
+<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
@@ -301,8 +293,6 @@
             </ul>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
@@ -315,6 +305,8 @@
             </ul>
         </div>
     </li>
+</ul>
+<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/portnow.jpg" alt="Sam Portnow">
@@ -350,8 +342,7 @@
         </div>
     </li>
 
-</ul>
-<ul class="list-unstyled">
+
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/hudson.jpg" alt="Tanesha Hudson">
@@ -361,6 +352,8 @@
             </h3>
         </div>
     </li>
+</ul>
+<ul class="list-unstyled">
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/errington.jpg" alt="Tim Errington">
@@ -371,6 +364,15 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="www.linkedin.com/pub/tim-errington/8/a92/558/" data-original-title="LinkedIn" class="linkedin"></a></li>
             </ul>
+        </div>
+    </li>
+        <li class="col-md-3">
+        <div class="thumbnail">
+            <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
+            <h3>
+                <a href="#">Wendy Zhu</a>
+                <small>Volunteer | Infrastructure</small>
+            </h3>
         </div>
     </li>
 </ul>

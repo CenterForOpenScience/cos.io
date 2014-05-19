@@ -199,6 +199,7 @@
 <p>Steeped with history, Charlottesville and the surrounding area offers many landmarks of its own. To branch out beyond the local without leaving the city, however, there are museums like the Kluge-Ruhe Aboriginal Art Museum and the Special Collections Library at UVA. And, if you want to get out of town, DC is just two hours away and the state capital, Richmond, is a mere one-hour drive.</p>
 <p><a href="http://travel.nytimes.com/2008/10/26/travel/26hours.html?pagewanted=all">See why the New York Times loves Charlottesville!</a></p>
 <p><a href="http://www.c-ville.com/events/">Or, check out the local events calendar.</a></p>
+<p>Thank you to <a href="https://www.flickr.com/photos/daveynin/">David Fulmer</a>,<a href="https://www.flickr.com/photos/miguelvieira/">Miguel Vieira</a>, <a href="https://www.flickr.com/photos/awebb/">Aaron Webb</a>, <a href="https://www.flickr.com/photos/kthread/">Kristen Taylor</a>, <a href="https://www.flickr.com/photos/small_realm/sets/">Bob Mical</a>, and <a href="https://www.flickr.com/photos/westher/sets/">Esther Westerveld</a> for the use of their photos.</p>
 </div>
 <div class="spacer"></div>
 <!-- END INFO BLOCK -->
@@ -208,39 +209,39 @@
         <div class="col-md-3 col-xs-4 jobs-pics" style="height:162px; overflow: hidden"><a data-rel="fancybox-button" class="active item overflow_image fancybox-button" href="../static/img/photos/uva_basketball.jpg" >
             <img src="../static/img/photos/uva_basketball.jpg" alt="UVA basketball" class="img-responsive" ></a>
         </div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/winter belmont.jpg">
-            <img src="../static/img/photos/winter belmont.jpg" alt="Belmont in winter" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/hiking trail mark.jpg">
-            <img src="../static/img/photos/hiking trail mark.jpg" alt="hiking trail" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/rotunda construction horizontal.jpg">
-            <img src="../static/img/photos/rotunda construction horizontal.jpg" alt="Rotunda" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/winter-belmont.jpg">
+            <img src="../static/img/photos/winter-belmont.jpg" alt="Belmont in winter" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/hiking-trail-mark.jpg">
+            <img src="../static/img/photos/hiking-trail-mark.jpg" alt="hiking trail" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/rotunda-construction-horizontal.jpg">
+            <img src="../static/img/photos/rotunda-construction-horizontal.jpg" alt="Rotunda" class="img-responsive"></a></div>
 
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/10 miler.jpg">
-            <img src="../static/img/photos/10 miler.jpg" alt="10 miler" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/acrobat pavilion.jpg">
-            <img src="../static/img/photos/acrobat pavilion.jpg" alt="Acrobat" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/farmer's market tomatoes.jpg">
-            <img src="../static/img/photos/farmer's market tomatoes.jpg" alt="Farmer's market" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="http://farm1.staticflickr.com/48/131371094_4e54c8aa38_o.jpg">
-            <img src="http://farm1.staticflickr.com/48/131371094_4e54c8aa38_o.jpg" alt="Rotunda at night" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/10-miler.jpg">
+            <img src="../static/img/photos/10-miler.jpg" alt="10 miler" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/acrobat-pavilion.jpg">
+            <img src="../static/img/photos/acrobat-pavilion.jpg" alt="Acrobat" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/farmer's-market-tomatoes.jpg">
+            <img src="../static/img/photos/farmer's-market-tomatoes.jpg" alt="Farmer's market" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/paramount-line.jpg">
+            <img src="../static/img/photos/paramount-line.jpg" alt="Paramount" class="img-responsive"></a></div>
 
         <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/Jeffersons_Monticello_Pond_Reflection.jpg">
             <img src="../static/img/photos/Jeffersons_Monticello_Pond_Reflection.jpg" alt="Monticello" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/meadow trail.jpg">
-            <img src="../static/img/photos/meadow trail.jpg" alt="Meadow trail" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/moto bar.jpg">
-            <img src="../static/img/photos/moto bar.jpg" alt="Moto bar" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/meadowtrail.jpg">
+            <img src="../static/img/photos/meadowtrail.jpg" alt="Meadow trail" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/moto-bar.jpg">
+            <img src="../static/img/photos/moto-bar.jpg" alt="Moto bar" class="img-responsive"></a></div>
         <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/pride festival.jpg">
-            <img src="../static/img/photos/pride festival.jpg" alt="Pride festival" class="img-responsive"></a></div>
+            <img src="../static/img/photos/pride-festival.jpg" alt="Pride festival" class="img-responsive"></a></div>
 
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/pumpkins carter mountain.jpg">
-            <img src="../static/img/photos/pumpkins carter mountain.jpg" alt="Pumpkins on Carter Mountain" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/stream forest.jpg">
-            <img src="../static/img/photos/stream forest.jpg" alt="Forest Stream" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/the corner.jpg">
-            <img src="../static/img/photos/the corner.jpg" alt="UVA Corner" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/water street buildings.jpg">
-            <img src="../static/img/photos/water street buildings.jpg" alt="Water Street" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/pumpkins-carter-mountain.jpg">
+            <img src="../static/img/photos/pumpkins-carter-mountain.jpg" alt="Pumpkins on Carter Mountain" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/stream-forest.jpg">
+            <img src="../static/img/photos/stream-forest.jpg" alt="Forest Stream" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/the-corner.jpg">
+            <img src="../static/img/photos/the-corner.jpg" alt="UVA Corner" class="img-responsive"></a></div>
+        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/water-street-buildings.jpg">
+            <img src="../static/img/photos/water-street-buildings.jpg" alt="Water Street" class="img-responsive"></a></div>
     </div>
 
 </div>
