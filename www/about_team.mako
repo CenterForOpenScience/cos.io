@@ -54,6 +54,18 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/macdonald.jpg" alt="Austin Macdonald">
+            <h3>
+                <a href="https://osf.io/4nw7z/">Austin Macdonald</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/asmacdo" data-original-title="GitHub" class="github"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/mufti.jpg" alt="Azeem Mufti">
             <h3>
                 <a href="https://osf.io/uq89h/">Azeem Mufti</a>
@@ -74,8 +86,6 @@
             </h3>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/nosek.jpg" alt="Brian Nosek">
@@ -115,8 +125,6 @@
             </h3>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/seto.jpg" alt="Chris Seto">
@@ -137,8 +145,32 @@
                 <small>Office Manager & Events Coordinator | Community Building</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Goole Plus" class="googleplus"></a></li>
                 <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/feilitzsch.jpg" alt="Fabian von Feilitzsch">
+            <h3>
+                <a href="https://osf.io/nz6xq/">Fabian von Feilitzsch</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/fabianvf" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/profile/view?id=230618636" data-original-title="Linkedin" class="linkedin"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/huynh.jpg" alt="Faye Huynh">
+            <h3>
+                <a href="https://osf.io/zkaeq/">Faye Huynh</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/fh9cp" data-original-title="GitHub" class="github"></a></li>
             </ul>
         </div>
     </li>
@@ -164,8 +196,6 @@
             </ul>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/spies.jpg" alt="Jeff Spies">
@@ -178,6 +208,18 @@
                 <li><a href="https://plus.google.com/u/0/+JeffreySpies/posts" data-original-title="Goole Plus" class="googleplus"></a></li>
                 <li><a href="http://www.linkedin.com/pub/jeffrey-spies/52/1a7/507" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://github.com/jeffspies" data-original-title="GitHub" class="github"></a> </li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/witschey.jpg" alt="Jim Witschey">
+            <h3>
+                <a href="https://osf.io/q4g5d/">Jim Witschey</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www4.ncsu.edu/~jwshephe/" data-original-title="person" class="person"></a></li>
             </ul>
         </div>
     </li>
@@ -212,13 +254,11 @@
         <div class="thumbnail">
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
             <h3>
-                <a href="#">Kurtis Jungersen</a>
+                <a href="https://osf.io/q36he/">Kurtis Jungersen</a>
                 <small>Intern | Infrastructure</small>
             </h3>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
@@ -234,6 +274,18 @@
             <h3>
                 <a href="https://osf.io/iqszn/">Michael Lapuz</a>
                 <small>Intern | Infrastructure</small>
+            </h3>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/yao.jpg" alt="Michelle Yao">
+            <h3>
+                <a href="https://osf.io/ufixg/">Michelle Yao</a>
+                <small>Intern | Infrastructure</small>
+                <ul class="social-icons social-icons-color">
+                    <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
+                </ul>
             </h3>
         </div>
     </li>
@@ -255,15 +307,24 @@
             </h3>
         </div>
     </li>
-
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
             <h3>
                 <a href="https://osf.io/27ptw/">Patrick Ryan </a>
                 <small>Intern | Infrastructure</small>
+            </h3>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/fan.jpg" alt="Peter Fan">
+            <h3>
+                <a href="https://osf.io/7nz2x/">Peter Fan</a>
+                <small>Intern | Infrastructure</small>
+                <ul class="social-icons social-icons-color">
+                    <li><a href="https://github.com/pjfan" data-original-title="GitHub" class="github"></a></li>
+                </ul>
             </h3>
         </div>
     </li>
@@ -301,8 +362,6 @@
             </ul>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/portnow.jpg" alt="Sam Portnow">
@@ -312,6 +371,18 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/SamPortnow" data-original-title="GitHub" class="github"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/bowman.jpg" alt="Sara Bowman">
+            <h3>
+                <a href="https://osf.io/d9ehg/">Sara Bowman</a>
+                <small>Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.linkedin.com/profile/view?id=81587328" data-original-title="linkedin" class="linkedin"></a></li>
             </ul>
         </div>
     </li>
@@ -337,8 +408,6 @@
             </ul>
         </div>
     </li>
-
-
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/hudson.jpg" alt="Tanesha Hudson">
@@ -348,8 +417,6 @@
             </h3>
         </div>
     </li>
-</ul>
-<ul class="list-unstyled">
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/errington.jpg" alt="Tim Errington">
