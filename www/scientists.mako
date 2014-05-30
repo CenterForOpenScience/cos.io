@@ -8,6 +8,9 @@
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
+<%def name="navigation()">
+    ${self.navlinks('about')}
+</%def>
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
