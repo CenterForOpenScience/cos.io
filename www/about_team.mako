@@ -44,7 +44,7 @@
             <img src="../static/img/people/sallans.jpg" alt="Andrew Sallans">
             <h3>
                 <a href="https://osf.io/mcrb2/">Andrew Sallans</a>
-                <small>Partnerships, Collaborations, & Funding Manager | Community Building</small>
+                <small>Partnerships, Collaborations, & Funding Manager | Community </small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://twitter.com/asallans" data-original-title="Twitter" class="twitter"></a></li>
@@ -146,7 +146,7 @@
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
             <h3>
                 <a href="https://osf.io/f9xpl/">Denise Holman</a>
-                <small>Office Manager & Events Coordinator | Community Building</small>
+                <small>Office Manager & Events Coordinator | Community </small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
@@ -383,7 +383,7 @@
             <img src="../static/img/people/bowman.jpg" alt="Sara Bowman">
             <h3>
                 <a href="https://osf.io/d9ehg/">Sara Bowman</a>
-                <small>Volunteer | Infrastructure</small>
+                <small>Project Manager | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.linkedin.com/profile/view?id=81587328" data-original-title="linkedin" class="linkedin"></a></li>
