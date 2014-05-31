@@ -73,7 +73,7 @@ class WYSIWeb:
     def get_path(self, path):
         split_path = path.split('/')
         for part in split_path:
-            if part.startswith('_') or part.startswith('.'):
+            if part.startswith(('_', '.')):
                 return None
 
         filename = self.get_filename(path)
@@ -83,7 +83,7 @@ class WYSIWeb:
             if glb:
                 path = re.sub('^\.\/www\/', '', glb[0])
                 filename = self.get_filename(path)
-                if (filename.startswith('_') or filename.startswith('.')):
+                if filename.startswith(('_', '.')):
                     return None
                 return path
         return None
