@@ -105,11 +105,7 @@ class WYSIWeb:
                 split_path = path_less_ext.split('/')
                 static_route_minus_root =  self.static_folder.replace(self.site_folder, '')[1:]
                 if not split_path[0] == static_route_minus_root:
-                    is_valid = True
-                    for part in split_path:
-                        if part.startswith('.') or part.startswith('_'):
-                            is_valid = False
-                    if is_valid:
+                    if not any(part.startswith(('.', '_')) for part in split_path):
                         if split_path[0] == 'index':
                             with open(self.join(frozen_path, 'index.html'), 'w') as f:
                                 f.write(self.router('/index').encode('utf-8'))
