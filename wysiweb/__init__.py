@@ -68,8 +68,7 @@ class WYSIWeb:
         return out
 
     def get_filename(self, path):
-        split_path = path.split('/')
-        return split_path[len(split_path)-1]
+        return os.path.basename(path)
 
     def get_path(self, path):
         split_path = path.split('/')
