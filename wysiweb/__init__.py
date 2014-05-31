@@ -50,12 +50,12 @@ class WYSIWeb:
         return '<script type="text/javascript">document.write(mailto("<n uers=\\"znvygb:{email}\\" ery=\\"absbyybj\\">{email}</n>"));</script><noscript><strong><u>{noscript}</u></strong></noscript>'.format(email=encrypted_email, noscript=noscript)
 
     def render(self, path, **kwargs):
-        base, format = os.path.splitext(path)
-        format = format[1:]
-        if format in ['mako']:
+        base, fmt = os.path.splitext(path)
+        fmt = fmt[1:]
+        if fmt == 'mako':
             out = self.lookup.get_template(path).render(**kwargs)
             #return Template(filename=path).render(**kwargs)
-        elif format in ['rst']:
+        elif fmt == 'rst':
             with open(path, 'r') as f:
                 out = f.read()
             result = publish_parts(out, writer_name='html')
