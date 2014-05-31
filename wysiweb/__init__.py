@@ -37,7 +37,7 @@ class WYSIWeb:
         )
 
     def join(self, *args):
-        args = [arg[1:] if i is not 0 and arg.startswith('/') else arg for i,arg in enumerate(args)]
+        args[1:] = [arg[1:] if arg.startswith('/') else arg for arg in args]
         return os.path.join(*args)
 
     def split_len(self, seq, length):
