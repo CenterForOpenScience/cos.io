@@ -47,7 +47,7 @@
                 <p>The Notification Service will make use of the <a href="http://osf.io">Open Science Framework</a> (OSF), COS’s existing, free,
                     open-source platform designed to connect the scholarly workflow.</p>
                 <p>“We strongly believe that ensuring broad and continuing access to research is central to the mission
-                    of higher education,” ARL executive director Elliott Shore said. “We are delighted to partner with
+                    of higher education,” ARL executive director Elliott Shore said. “We are thrilled to partner with
                     the Center for Open Science in this endeavor. Their mission is in sync with ours and their talents
                     are exactly what we need to make the SHARE Notification Service a success.”</p>
                 <p>AAU executive vice president John Vaughn said, “We are delighted that SHARE has reached this important
