@@ -32,6 +32,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="/pr/2014-06-02">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/cos_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>SHARE Selects COS as development partner for notification service</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 02, 2014 | SHARE and COS...have agreed to form a partnership to build the SHARE Notification Service, which will provide notice that research is avialable to the public.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="/pr/2014-05-19">
                         <table>
                             <tr>
@@ -80,7 +89,7 @@
                         </table>
                         <p class="text-left">January 2014 | The Center for Open Science's activities and the need for greater numbers of replications in science was ranked as number 46 in the Discover Magazine's top 100 stories of 2013.</p>
                     </a>
-                    <a class="col-md-4 service-box-v1" href="http://centerforopenscience.org/static/WTJUinterview.mp3">
+                    <a class="col-md-4 service-box-v1" href="http://cos.io/static/WTJUinterview.mp3">
                         <table>
                             <tr>
                                 <td><img src="/static/img/icons/wtju.png" width="125"></td>
