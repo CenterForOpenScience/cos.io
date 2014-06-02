@@ -39,7 +39,16 @@
                                 <h2>SHARE Selects COS as development partner for notification service</h2></td>
                             </tr>
                         </table>
-                        <p class="text-left">June 02, 2014 | SHARE and COS...have agreed to form a partnership to build the SHARE Notification Service, which will provide notice that research is avialable to the public.</p>
+                        <p class="text-left">June 02, 2014 | SHARE and COS...have agreed to form a partnership to build the SHARE Notification Service, which will provide notice that research is available to the public.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.aaas.org/news/concerns-about-non-reproducible-data-mount-some-solutions-take-shape">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/aaas.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>As Concerns About Non-Reproducible Data Mount, Some Solutions Take Shape</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">May 30, 2014 | "Reproducibility — the ability to redo an experiment and get the same results — is a cornerstone of science, but it has been the subject of some troubling news lately..."</p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="/pr/2014-05-19">
                         <table>
