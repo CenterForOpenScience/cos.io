@@ -261,6 +261,10 @@
                 <a href="https://osf.io/q36he/">Kurtis Jungersen</a>
                 <small>Intern | Infrastructure</small>
             </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/pub/kurtis-jungersen/37/76b/3a" data-original-title="linkedin" class="linkedin"></a></li>
+            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
