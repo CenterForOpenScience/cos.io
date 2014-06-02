@@ -34,11 +34,11 @@
                 <br>
                 <P>Brian Nosek<br>
                     Co-founder, Center for Open Science<br>
-                    <a href="mailto:brian@centerforopenscience.org" rel="nofollow">brian@centerforopenscience.org</a>
+                    <a href="mailto:brian@cos.io" rel="nofollow">brian@cos.io</a>
                 <br>
                 Jeffrey Spies<br>
                 Co-founder, Center for Open Science<br>
-                <a href="mailto:jeff@centerforopenscience.org" rel="nofollow">jeff@centerforopenscience.org</a>
+                <a href="mailto:jeff@cos.io" rel="nofollow">jeff@cos.io</a>
             </div>
             <!--END CONTENT-->
         </DIV>

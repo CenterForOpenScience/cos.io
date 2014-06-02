@@ -45,7 +45,7 @@
                     <dt>Background</dt>
                     <dd>
                         <p>Develop exclusively free, open source software in the name of open science.</p>
-                        <p>The <a href="http://centerforopenscience.org">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
+                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
                     </dd>
                     <dt>Core Technologies</dt>
                     <dd>
@@ -71,7 +71,7 @@
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@centerforopenscience.org">jobs@centerforopenscience.org</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
                     </dd>
                     <dt>Referrals</dt>
                     <dd>
@@ -101,7 +101,7 @@
                     <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@centerforopenscience.org">jobs@centerforopenscience.org</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
                 </dd>
                 </dl>
             </div>
@@ -147,7 +147,7 @@
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@centerforopenscience.org">jobs@centerforopenscience.org</a>.</p>
+                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
                     </dd>
                 </dl>
             </div>

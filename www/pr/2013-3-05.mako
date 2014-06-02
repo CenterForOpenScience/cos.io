@@ -69,17 +69,17 @@
                 <p>The Center's operations and activities are growing rapidly. Scientists and the publishers of academic journals are
                     eligible to receive Center for Open Science grants for replication studies designed to verify the results of
                     important research. Those interested in applying for grants are encouraged to email
-                    <a href="mailto:contact@centerforopenscience.org" rel="nofollow">contact@centerforopenscience.org</a>.</p>
+                    <a href="mailto:contact@cos.io" rel="nofollow">contact@cos.io</a>.</p>
                 <br>
                 <h4><strong>Media Contact</strong></h4>
                 <br>
                 <P>Brian Nosek<br>
                     Co-founder, Center for Open Science<br>
-                    <a href="mailto:brian@centerforopenscience.org" rel="nofollow">brian@centerforopenscience.org</a>
+                    <a href="mailto:brian@cos.io" rel="nofollow">brian@cos.io</a>
                 <br>
                 Jeffrey Spies<br>
                 Co-founder, Center for Open Science<br>
-                <a href="mailto:jeff@centerforopenscience.org" rel="nofollow">jeff@centerforopenscience.org</a>
+                <a href="mailto:jeff@cos.io" rel="nofollow">jeff@cos.io</a>
             </div>
             <!--END CONTENT-->
         </DIV>

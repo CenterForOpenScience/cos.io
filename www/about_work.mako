@@ -49,7 +49,7 @@
                             <dt><i class="fa fa-group "></i>&nbsp;&nbsp;&nbsp;Community</dt>
                             <dd>Incentives for success focus scientists on getting published more than getting it right.  Nudging these dysfunctional incentives requires 
                                 engagement with the entire science ecosystem - funders, journals, societies, and institutions.  We engage the entire ecosystem and support tools and 
-                                procedures to shape daily practices such as <a href="https://osf.io/tvyxz/wiki/home/">badges for open science</a> and <a href="http://centerforopenscience.org/pr/2014-05-19/">Registered Reports</a>.  </dd>
+                                procedures to shape daily practices such as <a href="https://osf.io/tvyxz/wiki/home/">badges for open science</a> and <a href="http://cos.io/pr/2014-05-19/">Registered Reports</a>.  </dd>
                         </dl>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -149,7 +149,7 @@
                                     <h4>Badges for Open Practices</h4>
                                     <p> COS maintains badges for open data, open materials, and preregistration to acknowledge open practices. The badges are unbranded and freely available for use by journals and other organizations.
                                         The criteria for earning badges, alternatives for badge certification processes, and examples for integrating badges into journal workflows are <a href="https://openscienceframework.org/project/TVyXZ/wiki/home" style="color: black">here</a>.
-                                        Email <a href="mailto:contact@centerforopenscience.org" rel="nofollow" style="color: black">contact@centerforopenscience.org</a> to get support or ask questions about using badges to incentivize open practices.
+                                        Email <a href="mailto:contact@cos.io" rel="nofollow" style="color: black">contact@cos.io</a> to get support or ask questions about using badges to incentivize open practices.
                                     </p>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                                     <h4>Open Science Collaboration</h4>
                                     <p>The <a href="http://openscienceframework.org/project/VMRGu/wiki/home" style="color: black">Open Science Collaboration</a> is an interdisciplinary group of individuals operating through the Open Science Framework.
                                         The OSC advances projects in open science guided by common interests and community standards.</p>
-                                    <p>Learn more or get involved at the Open Science Collaboration OSF page, visit the <a href="http://osc.centerforopenscience.org/" style="color: black">OSC blog</a>,
+                                    <p>Learn more or get involved at the Open Science Collaboration OSF page, visit the <a href="http://osc.cos.io/" style="color: black">OSC blog</a>,
                                         or join the <a href="https://groups.google.com/forum/#!forum/openscienceframework" style="color: black">Google Group</a> conversation.
                                     </p>
                                 </div>
@@ -189,7 +189,7 @@
                                     <p>The Center for Open Science is conveniently located on the Downtown Mall in Charlottesville, Virginia. COS is a Python-based, open source development shop; local programming groups and developers are invited to
                                         share our office for meet-ups, as a work space, or to get involved with our mission.
                                         Developers can contribute to maturing projects like OSF or bring in new ideas of their own. For more information on visiting our office,
-                                        email <a href="mailto:contact@centerforopenscience.org" style="color: black">contact@centerforopenscience.org</a>.
+                                        email <a href="mailto:contact@cos.io" style="color: black">contact@cos.io</a>.
                                     </p>
                                 </div>
                             </div>
