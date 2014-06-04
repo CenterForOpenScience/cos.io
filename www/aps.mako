@@ -16,13 +16,19 @@
 <div class="page-container ">
 
     <!-- BEGIN CONTAINER -->
-    <div class="container min-hight margin-bottom-100 margin-top-50">
-
+    <div class="container min-height margin-bottom-100 margin-top-50">
+        
         <h1 class="center big" style="color: #ECAF19"><strong>APS 2014</strong></h1>
-        <Br>
+
+        <div class="center">
+            <img src="/static/img/2014_Convention_banner-with-APS_700px.jpg" />
+        </div>
+
         <h3 class="center">Sharing your poster or talk via the <a href="http://osf.io">Open Science Framework</a> is as simple as sending an email</h3>
-        <br><hr>
-        <div  class="col-md-8 col-md-offset-2 margin-top-20 margin-bottom-50">
+
+        <hr />
+
+        <div class="col-md-8 col-md-offset-2 margin-top-20 margin-bottom-50">
 
         <p>Send an email to one of the following addresses from the email account you would like used on the OSF:</p>
         <ul>
