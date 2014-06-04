@@ -176,7 +176,7 @@
             <ul id="benefits" class="list-unstyled margin-bottom-20 col-md-8">
                 <li class="row text-right"><h3>Collaborate.</h3>The Center places a high value on developing skills and collaboration.<br> Teamwork, pair programming, collaboration internally and externally are daily practice.   </li>
                 <li><br></li>
-                <li class="row text-left"><h3>Eat well.</h3> Keep your energy up with your favoriate drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
+                <li class="row text-left"><h3>Eat well.</h3> Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
                 <li><br></li>
                 <li class="row text-right"><h3>Get fit.</h3> All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community. </li>
                 <li><br></li>
