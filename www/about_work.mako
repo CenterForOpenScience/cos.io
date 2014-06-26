@@ -100,7 +100,8 @@
                                 <div class="mix-details">
                                     <h4>Open Science Framework</h4>
                                     <p>The <a href="http://openscienceframework.org/" style="color: black">OSF</a> supports the scientific workflow.
-                                        Journals, funders, and societies that would like to encourage or require open data, open materials, or preregistration can use the OSF as infrastructure to support those services.
+                                        Journals, funders, and societies that would like to encourage or require open data,
+                                        open materials, or preregistration can use the OSF as infrastructure to support those services.
                                         Researchers get value using the OSF privately  or publicly as a means of managing and supporting their workflow.
                                         Our open source code is also <a href="https://github.com/CenterForOpenScience/openscienceframework.org" style="color: black">available online</a>.
                                     </p>
@@ -112,9 +113,13 @@
                                 <img class="img-responsive" src="../static/img/RPP.png" alt="Reproducibility Project: Psychology">
                                 <div class="mix-details">
                                     <h4>Reproducibility Project: Psychology</h4>
-                                    <p>The Reproducibility Project: Psychology is a massive community effort to replicate published studies from three landmark journals. We hope to learn about how open practices and incentive structures can impact the scientific process and results as well as
-                                        the rate of replication and reproducibility in psychology. Over 250 researchers from around the globe are involved in the RP:P, conducting research, extracting data from existing articles, and providing administrative and technical support.
-                                        <a href="https://openscienceframework.org/project/EZcUj/wiki/home/" style="color: black">Become a part of the effort.</a>
+                                    <p>The RPP is a massive community effort to replicate
+                                        published studies from three landmark journals. We hope to learn about how open
+                                        practices and incentive structures can impact the scientific process and results as well as
+                                        the rate of replication and reproducibility in psychology. Volunteers conduct research, extract
+                                        data from existing articles, and provide administrative and technical support.
+                                        <a href="https://openscienceframework.org/project/EZcUj/wiki/home/" style="color: black">
+                                            Become a part of the effort.</a>
                                     </p>
                                 </div>
                             </div>
@@ -147,9 +152,12 @@
                                 <img class="img-responsive" src="../static/img/badge.png" alt="Badges for Open Practices">
                                 <div class="mix-details">
                                     <h4>Badges for Open Practices</h4>
-                                    <p> COS maintains badges for open data, open materials, and preregistration to acknowledge open practices. The badges are unbranded and freely available for use by journals and other organizations.
-                                        The criteria for earning badges, alternatives for badge certification processes, and examples for integrating badges into journal workflows are <a href="https://openscienceframework.org/project/TVyXZ/wiki/home" style="color: black">here</a>.
-                                        Email <a href="mailto:contact@cos.io" rel="nofollow" style="color: black">contact@cos.io</a> to get support or ask questions about using badges to incentivize open practices.
+                                    <p> COS maintains badges for open data, open materials, and preregistration to
+                                        acknowledge open practices. The badges are unbranded and freely available for
+                                        use by journals and other organizations. More information is available
+                                        <a href="https://openscienceframework.org/project/TVyXZ/wiki/home" style="color: black">here</a>.
+                                        Email <a href="mailto:contact@cos.io" rel="nofollow" style="color: black">contact@cos.io</a>
+                                        to get support or ask questions about using badges to incentivize open practices.
                                     </p>
                                 </div>
                             </div>
@@ -159,10 +167,14 @@
                                 <img class="img-responsive" src="../static/img/photos/osc_ipad.png" alt="OSC">
                                 <div class="mix-details">
                                     <h4>Open Science Collaboration</h4>
-                                    <p>The <a href="http://openscienceframework.org/project/VMRGu/wiki/home" style="color: black">Open Science Collaboration</a> is an interdisciplinary group of individuals operating through the Open Science Framework.
-                                        The OSC advances projects in open science guided by common interests and community standards.</p>
-                                    <p>Learn more or get involved at the Open Science Collaboration OSF page, visit the <a href="http://osc.cos.io/" style="color: black">OSC blog</a>,
-                                        or join the <a href="https://groups.google.com/forum/#!forum/openscienceframework" style="color: black">Google Group</a> conversation.
+                                    <p>The <a href="http://openscienceframework.org/project/VMRGu/wiki/home" style="color: black">
+                                        Open Science Collaboration</a> is an interdisciplinary group of individuals
+                                        operating through the Open Science Framework. The OSC advances projects in open
+                                        science guided by common interests and community standards.</p>
+                                    <p>Learn more by visiting the
+                                        <a href="http://osc.cos.io/" style="color: black">OSC blog</a> or join the
+                                        <a href="https://groups.google.com/forum/#!forum/openscienceframework" style="color: black">
+                                            Google Group</a> conversation.
                                     </p>
                                 </div>
                             </div>
@@ -173,9 +185,12 @@
                                 <img class="img-responsive" src="../static/img/AP.png" alt="Archival Project">
                                 <div class="mix-details">
                                     <h4>Archival Project</h4>
-                                    <p>This massive online effort takes a different perspective on metascience research. The <a href="http://archivalproject.org/" style="color: black">Archival Project</a> engages psychology students from around the world.
-                                        Students learn how to dissect a scientific article by extracting the most important data from a pool of published articles. They record information like power, confidence intervals, and whether or not the study was a replication of a previous publication.
-                                        At the close of this project, we hope to draw conclusions about the current state of scientific practices in psychology.
+                                    <p>This massive online effort takes a different perspective on metascience research.
+                                        The <a href="http://archivalproject.org/" style="color: black">Archival Project</a> engages
+                                        psychology students from around the world. Students learn how to dissect a scientific
+                                        article by extracting the most important data from a pool of published articles.
+                                        At the close of this project, we hope to draw conclusions about the current state
+                                        of scientific practices in psychology.
                                     </p>
                                 </div>
                             </div>
@@ -186,9 +201,10 @@
                                 <img class="img-responsive" src="../static/img/dev.png" alt="Developer Meetups and Opportunities">
                                 <div class="mix-details">
                                     <h4>Developer Meetups and Opportunities</h4>
-                                    <p>The Center for Open Science is conveniently located on the Downtown Mall in Charlottesville, Virginia. COS is a Python-based, open source development shop; local programming groups and developers are invited to
-                                        share our office for meet-ups, as a work space, or to get involved with our mission.
-                                        Developers can contribute to maturing projects like OSF or bring in new ideas of their own. For more information on visiting our office,
+                                    <p>COS is a Python-based, open source development shop; local programming groups and
+                                        developers are invited to share our office for meet-ups, as a work space, or to
+                                        get involved with our mission. Developers can contribute to maturing projects
+                                        like OSF or bring in new ideas of their own. For more information on visiting our office,
                                         email <a href="mailto:contact@cos.io" style="color: black">contact@cos.io</a>.
                                     </p>
                                 </div>
