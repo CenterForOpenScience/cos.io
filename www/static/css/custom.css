@@ -28,27 +28,6 @@ body {
 
 .social-icons .person {background: url(../img/icons/social/person.png) no-repeat;}
 
-/*Sponsor Page*/
-
-.tab-pane .med-font {
-    font-size: 18px;
-}
-
-.tab-pane td {
-    padding-top: 50px;
-    padding-bottom: 20px;
-
-}
-
-.tab-pane img {
-    
-    max-width: 200px;
-    margin-right: 50px;
-}
-
-.donation-table img {
-    width: 200px;
-}
 /*Lists*/
 .front-lists-v1 li {
     font-size: 14px;

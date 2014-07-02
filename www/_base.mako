@@ -17,7 +17,6 @@
                     <ul class="dropdown-menu">
                         <li><a href="/about_work/">Our Work</a></li>
                         <li><a href="/about_team/">Our Team</a></li>
-                        <li><a href="/about_sponsor/">Funding</a></li>
                     </ul>
                 </li>
                 <li class="dropdown ${ 'active' if page == 'news' else ''}">
