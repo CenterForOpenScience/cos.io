@@ -108,6 +108,107 @@
         </div>
     </div>
 </div>
+<div id="accordion3" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
+                        <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#accordion3" >
+                    Web Designer
+                </a>
+            </h4>
+        </div>
+        <div id="accordion3_3" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Focus on the visual design, identity, and user experience of the <a href="http://cos.io">Center for Open Science</a>'s free and open source products and services.  Be part of an enthusiastic and motivated team that is helping science become more open and reproducible.  The Web Designer will employ leading edge design and user experience methods to create a professional, accessible, polished style for COS products, services, and web presence.  This role requires expert understanding of UI/UX fundamentals and design trends, an uncanny sense of style, color, layout, and typography; and someone who wants to contribute to a mission-driven, non-profit startup.</p>
+                        <p>See more on <a href="https://github.com/CenterForOpenScience/">Github</a>.</p>
+                    </dd>
+                    <dt> Responsibilities</dt>
+                    <dd>
+                        <p>Design and maintain the visual brand for COS products, foremost the <a href="http://osf.io">Open Science Framework</a> and its associated services; collaborate with community and infrastructure teams to match visual and interactive styles with COS products, services, and web presence; Align design and creative strategies with COS mission; Produce web and print photos, websites, banners, ads, videos, and more.</p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Seeks and employs cutting edge and modern web design techniques and tools; Outstanding information design abilities; Graphical expertise in Adobe products; Technical expertise in HTML, CSS, and Javascript; Understanding of modern techniques/frameworks and single-page/API-driven front-ends; Great communicator; Desire and passion in collaborating across many functional areas of the team; Strong abilities in presenting rationale behind strategic, architectural, and design decisions; Advocate for user experience; Team player; High energy, results-oriented, productive and dedicated to high quality.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="accordion4" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
+                        <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#accordion4" >
+                    Senior Developer
+                </a>
+            </h4>
+        </div>
+        <div id="accordion4_4" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Develop exclusively free, open source software to support open science.</p>
+                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS senior developers, with 10+ years of professional software development experience, who are passionate about modern web and API practices, love science, and posses expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to science. Everything we develop is exclusively free and open source.</p>
+                        <p>See more on <a href="https://github.com/CenterForOpenScience/">Github</a>.</p>
+                    </dd>
+                    <dt>Core Technologies</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Python</li>
+                            <li>Micro-frameworks (e.g., Flask)</li>
+                            <li>Git</li>
+                            <li>Javascript</li>
+                            <li>Javascript Frameworks (e.g., Knockout)</li>
+                            <li>No-SQL Databases (e.g., MongoDB)</li>
+                            <li>API development</li>
+                        </ul>
+                        <p>We are much more concerned about collaboration, passion, and ability than the actual technologies you use. We believe that a great developer should be a great developer in any language. We focus on Python in that Python developers typically value readability and community, and we are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                    </dd>
+                    <dt>Referrals</dt>
+                    <dd>
+                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
+                        <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
+                        <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
+                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="accordion5" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
@@ -115,7 +216,7 @@
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
 
                 <a data-parent="#accordion5" >
-                    Statistical and Methodological Consultants
+                    Statistical and Methodological Consultant
                 </a>
             </h4>
         </div>
@@ -154,6 +255,53 @@
         </div>
     </div>
 </div>
+<div id="accordion6" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
+                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+
+                <a data-parent="#accordion6" >
+                    Technical Project Manager
+                </a>
+            </h4>
+        </div>
+        <div id="accordion6_6" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Help lead development of exclusively free, open source software to support open science.  The <a href="http://cos.io">Center for Open Science</a> (COS) is a funded non-profit startup seeking a highly-motivated and experienced development manager to support small teams of OSS developers.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <p>COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The Technical Project Manager will be responsible for leading small teams of full-time and intern developers to maximize work quality, efficiency, team well-being, and growth of team members’ skills and responsibilities.  Also, the Technical Project Manager will collaborate with the leadership team for coordination of overall priorities and architectural choices and direction.</p>
+                        <p>See our <a href="#accordion1">Developer position</a> to learn more about the desired qualities of COS developers.  See more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Strong technical decision-making and solid development ability; Action-orientation; Managing and planning projects; Developing and maintaining processes with the team; Practicality and strategic foresight; Follow-through on the entire lifecycle (including testing, QA, release management, and deployment); Establishing and meeting timelines and milestones; Organization; Effective fostering of a positive work environment; Empowering team members to develop skills and acquire new responsibilities; Capitalizing on the available motivation and talent of team members.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!--END OPPORTUNITIES -->
 
 
