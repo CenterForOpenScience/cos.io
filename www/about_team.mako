@@ -179,6 +179,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/braswell.jpg" alt="Erin Braswell">
+            <h3>
+                <a href="https://osf.io/gqx2h/">Erin Braswell</a>
+                <small>Project Coordinator/Developer | Community, Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/erinspace" data-original-title="github" class="github"></a></li>
+                <li><a href="https://twitter.com/erinbspace" data-original-title="twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/feilitzsch.jpg" alt="Fabian von Feilitzsch">
             <h3>
                 <a href="https://osf.io/nz6xq/">Fabian von Feilitzsch</a>
@@ -311,6 +324,18 @@
                 <a href="https://osf.io/amvr6/">Lyndsy Simon</a>
                 <small>Developer | Infrastructure</small>
             </h3>
+        </div>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kidwell.jpg" alt="Mallory Kidwell">
+            <h3>
+                <a href="https://osf.io/ufixg/">Mallory Kidwell</a>
+                <small>Project Coordinator | Metascience</small>
+            </h3>
+                <ul class="social-icons social-icons-color">
+                    <li><a href="https://www.linkedin.com/profile/view?id=203460462" data-original-title="linkedin" class="linkedin"></a></li>
+                </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
