@@ -179,7 +179,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/braswell.jpg" alt="Erin Braswell">
+            <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
                 <a href="https://osf.io/gqx2h/">Erin Braswell</a>
                 <small>Project Coordinator/Developer | Community, Infrastructure</small>
@@ -328,7 +328,7 @@
     </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/kidwell.jpg" alt="Mallory Kidwell">
+            <img src="../static/img/people/kidwell.JPG" alt="Mallory Kidwell">
             <h3>
                 <a href="https://osf.io/ufixg/">Mallory Kidwell</a>
                 <small>Project Coordinator | Metascience</small>
