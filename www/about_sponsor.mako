@@ -67,7 +67,7 @@
                                                 <td class="sponsor-center" ><img src="/static/img/sloan.png"></td>
                                                 <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
                                                 <strong>$331,400</strong><br>
-                                                The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers to support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
+                                                The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
                                                 </td>
                                             </tr>
                                         </table>
@@ -91,18 +91,18 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><img src="/static/img/icons/SE_logo.png"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/icons/SE_Logo_Large.png"></td>
                                                 <td><span class="med-font"><strong>Science Exchange</strong></span><br>
                                                 <strong>$35,000</strong><br>
-                                                Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology</a><br>
+                                                Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
                                                 <td class="sponsor-center" ><img src="/static/img/icons/arl2.jpg"></td>
                                                 <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
-                                                <strong>MONEY</strong><br>
-                                                The association of Research Libraries selected COS to build the SHARE notification system, using the OSF to provide notice that research is available to the public.<br>
+                                                <strong>$152,386</strong><br>
+                                                The association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                         </table>
@@ -172,14 +172,14 @@
                             reagents<br>
                             </td>
                         </tr>
-                        <tr class="spacer"></tr>
+                        <tr class="spacer-square"></tr>
                         <tr>
                             <td class="sponsor-center" id="square"><img src="/static/img/icons/milli.png"></td>
                             <td><span class="med-font"><strong>EMD Millipore</strong></span><br>
                             reagents</a><br>
                             </td>
                         </tr>
-                        <tr class="spacer"></tr>
+                        <tr class="spacer-square"></tr>
                         <tr>
                             <td class="sponsor-center" ><img src="/static/img/icons/harlan.png"></td>
                             <td><span class="med-font"><strong>Harlan Laboratories</strong></span><br>
@@ -231,12 +231,12 @@
                     <p>Currently, there are two ways to support the Center for Open Science:</p>
                     <table  class="margin-top-50 donation-table">
                         <tr>
-                            <td class="col-md-1"><img src="/static/img/icons/givinglibrary.png"></td>
-                            <td class="col-md-3" >Giving Library is a catalogue of non-profits where you can make a secure donation to COS.</td>
+                            <td class="sponsor-center"><img src="/static/img/icons/givinglibrary.png"></td>
+                            <td>Giving Library is a catalogue of non-profits where you can make a secure donation to COS.</td>
                         </tr>
                         <tr>
-                            <td class="col-md-1"><img src="/static/img/icons/amazon.jpg"></td>
-                            <td class="col-md-3">AmazonSmile allows shoppers to benefit organizations they support, just by making their usual online purchases.</td>
+                            <td class="sponsor-center"><img src="/static/img/icons/amazon.jpg"></td>
+                            <td>AmazonSmile allows shoppers to benefit organizations they support, just by making their usual online purchases.</td>
                         </tr>
 
                     </table>

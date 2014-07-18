@@ -23,7 +23,11 @@ body {
 }
 
 .spacer {
-    height: 50px;
+    height: 25px;
+}
+
+.spacer-square {
+    height: 10px;
 }
 
 .social-icons .person {background: url(../img/icons/social/person.png) no-repeat;}
@@ -327,6 +331,6 @@ body {
 }
 
 #square img {
-    height: 50%;
-    width: 50%;
+    height: 110%;
+    width: 33%;
 }
