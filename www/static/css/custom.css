@@ -298,7 +298,7 @@ body {
     float:right;
     width: 100%;
     height:auto;
-}
+} 
 
 .resize-text {
     padding: 10px 0 0 40px;
@@ -317,7 +317,16 @@ body {
     padding: 3% 0%;
 }
 
-/*.center img {
-    width: 100%;
+.sponsor-center {
+    width : 360px;
+    text-align: center;
+}
+.sponsor-center img {
+    width: 80%;
     height: auto;
-}*/
+}
+
+#square img {
+    height: 50%;
+    width: 50%;
+}

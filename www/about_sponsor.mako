@@ -50,23 +50,21 @@
                                     <div class="tab-pane" id="portlet_tab2_1">
                                         <table>
                                             <tr>
-                                                <td class="center"><img src="/static/img/ljaf.gif"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/ljaf.gif"></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
                                                 <strong>$2,166,125</strong><br>
                                                 The Laura and John Arnold Foundation donated funds to support the Center's operating costs for an initial four-year period. The funds were provided to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td></td>
+                                                <td class="sponsor-center" ><img src="/static/img/oval.png"></td>
                                                 <td><span class="med-font"><strong>Anonymous Donor</strong></span><br>
                                                 <strong>$400,000</strong><br>
-                                                An anonymous donor funded...Lorem ipsum dolor sit amet,
-                                                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                                                ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
+                                               <br>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="center"><img src="/static/img/sloan.png"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/sloan.png"></td>
                                                 <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
                                                 <strong>$331,400</strong><br>
                                                 The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers to support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
@@ -77,33 +75,34 @@
                                     <div class="tab-pane active" id="portlet_tab2_2">
                                         <table>
                                             <tr>
-                                                <td class="center"><img src="/static/img/ljaf.gif"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/ljaf.gif"></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
                                                 <strong>$1,549,625</strong><br>
                                                 The Laura and John Arnold Foundation supported the Center for Open Science in their continuing mission to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             </tr>
+                                            <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="center"><img src="/static/img/templeton.png"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/templeton.png"></td>
                                                 <td><span class="med-font"><strong>John Templeton Foundation</strong></span><br>
                                                 <strong>$759,549</strong><br>
                                                 The John Templeton Foundationton awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
                                                 </td>
                                             </tr>
+                                            <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="center"><img src="/static/img/icons/SE_logo.png"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/icons/SE_logo.png"></td>
                                                 <td><span class="med-font"><strong>Science Exchange</strong></span><br>
                                                 <strong>$35,000</strong><br>
-                                                Science Exchange donated funds to....consetetur sadipscing elitr,
-                                                ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                                                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd<br>
+                                                Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology</a><br>
                                                 </td>
                                             </tr>
+                                            <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="center"><img src="/static/img/icons/arl.png"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/icons/arl2.jpg"></td>
                                                 <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
                                                 <strong>MONEY</strong><br>
-                                                The association of Research Libraries selected COS to build the SHARE notification system, <br>
+                                                The association of Research Libraries selected COS to build the SHARE notification system, using the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                         </table>
@@ -116,121 +115,110 @@
                 </div>
                 <div id="in-kind" class="margin-top-100">
                     <h3><strong>In-Kind Donations and Reagents</strong></h3>
-                    <p>These organizations helped us out by privinding in-kind donations of goods and services.</p>
+                    <p>These organizations helped us out by provinding in-kind donations of goods and services.</p>
                     <table  class="margin-top-50 donation-table">
                         <tr>
-                            <td class="center"><img src="/static/img/icons/dreamhost.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/dreamhost.png"></td>
                             <td><span class="med-font"><strong>Dreamhost</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Dreamhost does something nice for us.<br>
+                            servers<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/google.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/google2.png"></td>
                             <td><span class="med-font"><strong>Google</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Google gives us a discount on...<br>
+                            software<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/jetbrains.jpg"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/jetbrains.jpg"></td>
                             <td><span class="med-font"><strong>JetBrains</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            JetBrains supplies something<br>
+                            software<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/readyforce.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/readyforce.png"></td>
                             <td><span class="med-font"><strong>Readyforce.com</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Readyforce.com helped us with recruiting.<br>
+                            recruitment<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/biologo.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/biologo.png"></td>
                             <td><span class="med-font"><strong>Biolegend</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Biolegend made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents
                             </td>
-                        </tr>                                            
+                        </tr>
+                        <tr class="spacer"></tr>                                            
                         <tr>
-                            <td class="center"><img src="/static/img/icons/criver.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/criver.png"></td>
                             <td><span class="med-font"><strong>Charles River Laboratories</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Biolegend made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/corning.gif"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/corning.gif"></td>
                             <td><span class="med-font"><strong>Corning Incorporated</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Corning Incorporated made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/ddc.jpg"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/ddc.jpg"></td>
                             <td><span class="med-font"><strong>DDC Medical</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            DDC Medical made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/milli.png"></td>
+                            <td class="sponsor-center" id="square"><img src="/static/img/icons/milli.png"></td>
                             <td><span class="med-font"><strong>EMD Millipore</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            EMD Millipore made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents</a><br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/harlan.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/harlan.png"></td>
                             <td><span class="med-font"><strong>Harlan Laboratories</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Harlan Laboratories made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents</a><br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/licor.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/licor.png"></td>
                             <td><span class="med-font"><strong>LI-COR Biosciences</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            LI-COR Biosciences made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents</a><br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/mirus.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/mirus.png"></td>
                             <td><span class="med-font"><strong>Mirus Bio</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Mirus Bio made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/novus.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/novus.png"></td>
                             <td><span class="med-font"><strong>Novus Biologicals</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Novus Biologicals made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                            reagents</a><br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/sigma-aldrich.jpg"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/sigma-aldrich.jpg"></td>
                             <td><span class="med-font"><strong>Sigma-Aldrich</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Sigma-Aldrich made an in kind donation of XXXX as reagents for the <a href=
-                            "https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology.</a><br>
+                           reagents<br>
                             </td>
                         </tr>
+                        <tr class="spacer"></tr>
                         <tr>
-                            <td class="center"><img src="/static/img/icons/zipfian.png"></td>
+                            <td class="sponsor-center" ><img src="/static/img/icons/zipfian.png"></td>
                             <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
-                            <strong>MONEY</strong><br>
-                            Zipfian Academy discounts...<br>
+                            recruitment<br>
                             </td>
                         </tr>
 
