@@ -55,9 +55,10 @@
                                                 <strong>$2,166,125</strong><br>
                                                 The Laura and John Arnold Foundation donated funds to support the Center's operating costs for an initial four-year period. The funds were provided to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
+                                            <tr class="spacer"></tr>
                                             </tr>
                                             <tr>
-                                                <td class="sponsor-center" ><img src="/static/img/oval.png"></td>
+                                                <td class="sponsor-center" ></td>
                                                 <td><span class="med-font"><strong>Anonymous Donor</strong></span><br>
                                                 <strong>$400,000</strong><br>
                                                <br>
@@ -71,6 +72,19 @@
                                                 </td>
                                             </tr>
                                         </table>
+                                        <div id="in-kind" class="margin-top-100">
+                                            <h3><strong>In-Kind Donations</strong></h3>
+                                            <p>These organizations helped us out by provinding in-kind donations of goods and services.</p>
+                                            <table  class="margin-top-50 donation-table">
+                                                <tr>
+                                                    <td class="sponsor-center" id="jetbrains"><img src="/static/img/icons/jetbrains.jpg"></td>
+                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br>
+                                                    PyCharm and Webstorm Professional Editions<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                            </table>
+                                        </div>
                                     </div>
                                     <div class="tab-pane active" id="portlet_tab2_2">
                                         <table>
@@ -91,138 +105,145 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><img src="/static/img/icons/SE_Logo_Large.png"></td>
-                                                <td><span class="med-font"><strong>Science Exchange</strong></span><br>
-                                                <strong>$35,000</strong><br>
-                                                Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
-                                                </td>
-                                            </tr>
-                                            <tr class="spacer"></tr>
-                                            <tr>
                                                 <td class="sponsor-center" ><img src="/static/img/icons/arl2.jpg"></td>
                                                 <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
                                                 <strong>$152,386</strong><br>
                                                 The association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center" ><img src="/static/img/icons/SE_Logo_Large.png"></td>
+                                                <td><span class="med-font"><strong>Science Exchange</strong></span><br>
+                                                <strong>$35,000</strong><br>
+                                                Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
+                                                </td>
+                                            </tr>
                                         </table>
+                                        <div id="in-kind" class="margin-top-100">
+                                            <h3><strong>In-Kind Donations</strong></h3>
+                                            <p>These organizations helped us out by provinding in-kind donations of goods and services.</p>
+                                            <table  class="margin-top-50 donation-table">
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/biologo.png"></td>
+                                                    <td><span class="med-font"><strong>Biolegend</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>  
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/criver.png"></td>
+                                                    <td><span class="med-font"><strong>Charles River Laboratories</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/corning.gif"></td>
+                                                    <td><span class="med-font"><strong>Corning Incorporated</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/ddc.jpg"></td>
+                                                    <td><span class="med-font"><strong>DDC Medical</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/dreamhost.png"></td>
+                                                    <td><span class="med-font"><strong>Dreamhost</strong></span><br>
+                                                    free services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="square"><img src="/static/img/icons/milli.png"></td>
+                                                    <td><span class="med-font"><strong>EMD Millipore</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="google"><img src="/static/img/icons/google2.png"></td>
+                                                    <td><span class="med-font"><strong>Google</strong></span><br>
+                                                    google apps for non-profits<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/harlan.png"></td>
+                                                    <td><span class="med-font"><strong>Harlan Laboratories</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="jetbrains"><img src="/static/img/icons/jetbrains.jpg"></td>
+                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br>
+                                                    professional editions of PyCharm and Webstorm<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/licor.png"></td>
+                                                    <td><span class="med-font"><strong>LI-COR Biosciences</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/mirus.png"></td>
+                                                    <td><span class="med-font"><strong>Mirus Bio</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/novus.png"></td>
+                                                    <td><span class="med-font"><strong>Novus Biologicals</strong></span><br>
+                                                    reagents for Reproducibility Project: Cancer Biology</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/readyforce.png"></td>
+                                                    <td><span class="med-font"><strong>Readyforce.com</strong></span><br>
+                                                    recruitment<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/salesforce.jpg"></td>
+                                                    <td><span class="med-font"><strong>Salesforce</strong></span><br>
+                                                    non-profit discounts<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/sigma-aldrich.jpg"></td>
+                                                    <td><span class="med-font"><strong>Sigma-Aldrich</strong></span><br>
+                                                   reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/zipfian.png"></td>
+                                                    <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
+                                                    recruitment<br>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                </div>
-                <div id="in-kind" class="margin-top-100">
-                    <h3><strong>In-Kind Donations and Reagents</strong></h3>
-                    <p>These organizations helped us out by provinding in-kind donations of goods and services.</p>
-                    <table  class="margin-top-50 donation-table">
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/dreamhost.png"></td>
-                            <td><span class="med-font"><strong>Dreamhost</strong></span><br>
-                            servers<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/google2.png"></td>
-                            <td><span class="med-font"><strong>Google</strong></span><br>
-                            software<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/jetbrains.jpg"></td>
-                            <td><span class="med-font"><strong>JetBrains</strong></span><br>
-                            software<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/readyforce.png"></td>
-                            <td><span class="med-font"><strong>Readyforce.com</strong></span><br>
-                            recruitment<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/biologo.png"></td>
-                            <td><span class="med-font"><strong>Biolegend</strong></span><br>
-                            reagents
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>                                            
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/criver.png"></td>
-                            <td><span class="med-font"><strong>Charles River Laboratories</strong></span><br>
-                            reagents<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/corning.gif"></td>
-                            <td><span class="med-font"><strong>Corning Incorporated</strong></span><br>
-                            reagents<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/ddc.jpg"></td>
-                            <td><span class="med-font"><strong>DDC Medical</strong></span><br>
-                            reagents<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer-square"></tr>
-                        <tr>
-                            <td class="sponsor-center" id="square"><img src="/static/img/icons/milli.png"></td>
-                            <td><span class="med-font"><strong>EMD Millipore</strong></span><br>
-                            reagents</a><br>
-                            </td>
-                        </tr>
-                        <tr class="spacer-square"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/harlan.png"></td>
-                            <td><span class="med-font"><strong>Harlan Laboratories</strong></span><br>
-                            reagents</a><br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/licor.png"></td>
-                            <td><span class="med-font"><strong>LI-COR Biosciences</strong></span><br>
-                            reagents</a><br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/mirus.png"></td>
-                            <td><span class="med-font"><strong>Mirus Bio</strong></span><br>
-                            reagents<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/novus.png"></td>
-                            <td><span class="med-font"><strong>Novus Biologicals</strong></span><br>
-                            reagents</a><br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/sigma-aldrich.jpg"></td>
-                            <td><span class="med-font"><strong>Sigma-Aldrich</strong></span><br>
-                           reagents<br>
-                            </td>
-                        </tr>
-                        <tr class="spacer"></tr>
-                        <tr>
-                            <td class="sponsor-center" ><img src="/static/img/icons/zipfian.png"></td>
-                            <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
-                            recruitment<br>
-                            </td>
-                        </tr>
-
-                    </table>
 
                 </div>
                 <div id="donations" class="margin-top-100">
