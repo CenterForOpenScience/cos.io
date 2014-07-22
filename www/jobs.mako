@@ -28,18 +28,62 @@
 <!--BEGIN OPPORTUNITIES -->
 <h1><strong>Open Positions</strong><br><br></h1>
 
-
 <div id="accordion1" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion1_1">
                         <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a  data-parent="#accordion1" >
-                    Developer
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#accordion3" >
+                    Administrative Assistant Intern
                 </a>
             </h4>
         </div>
         <div id="accordion1_1" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science (COS) seeks an ambitious and industrious individual who is looking to build experience with office administrative tasks while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. COS is bustling. The Administrative Assistant Intern will help ensure effective daily operations.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <p>The candidate will be responsible for administrative tasks including, but not limited to: scheduling meetings and events, receiving visitors and giving office tours, processing daily incoming and outgoing mail, assisting with the coordination of catered staff lunches, running errands such as weekly grocery pickups, processing and filing a variety of documents and materials, acting as a point of contact for COS vendors, proofreading and editing, and offering general support to the Office Manager.</p>
+
+                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Exceptional organization and great attention to detail; high level of professionalism; ability to use web communication and documentation software effectively; team-oriented; very strong work ethic; multi-tasking; self-starter and industrious; adaptivity to rapidly changing demands in a high performance workplace; interest in science, technology, non-profits, or entrepreneurship; effective writing skills; evident interest in administrative tasks.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="accordion2" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion2_2">
+                        <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+                <a  data-parent="#accordion2" >
+                    Developer
+                </a>
+            </h4>
+        </div>
+        <div id="accordion2_2" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -85,17 +129,17 @@
         </div>
     </div>
 </div>
-<div id="accordion2" class="panel-group">
+<div id="accordion3" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion2_2">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a data-parent="#accordion2" >
+                <a data-parent="#accordion3" >
                     Developer Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion2_2" class="panel-collapse collapse">
+        <div id="accordion3_3" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
@@ -108,31 +152,32 @@
         </div>
     </div>
 </div>
-<div id="accordion3" class="panel-group">
+<div id="accordion4" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion3" >
-                    Web Designer
+                <a  data-parent="#accordion4" >
+                    Human Resources Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion3_3" class="panel-collapse collapse">
+        <div id="accordion4_4" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
                     <dd>
-                        <p>Focus on the visual design, identity, and user experience of the <a href="http://cos.io">Center for Open Science</a>'s free and open source products and services.  Be part of an enthusiastic and motivated team that is helping science become more open and reproducible.  The Web Designer will employ leading edge design and user experience methods to create a professional, accessible, polished style for COS products, services, and web presence.  This role requires expert understanding of UI/UX fundamentals and design trends, an uncanny sense of style, color, layout, and typography; and someone who wants to contribute to a mission-driven, non-profit startup.</p>
-                        <p>See more on <a href="https://github.com/CenterForOpenScience/">Github</a>.</p>
+                        <p>The Center for Open Science (COS) seeks a highly-motivated and entrepreneurially-minded individual who wants to build experience in human resources and team development.  COS operates as an energetic and fast-paced technology start-up, already employing 17 full-time team members and over a dozen software development interns in only the first year of operation.  The team continues to grow quickly, and is presently working to add another 3-6 software developers, 1 statistical consultant, a technical project manager, a web designer, and additional software development interns.    Building a productive and fast-paced team, with specialized skills in a number of areas, is a significant challenge, and something that requires great attention to a broad assortment of details.  We are pleased to invite applicants for the role of Human Resources Intern.</p>
                     </dd>
                     <dt> Responsibilities</dt>
                     <dd>
-                        <p>Design and maintain the visual brand for COS products, foremost the <a href="http://osf.io">Open Science Framework</a> and its associated services; collaborate with community and infrastructure teams to match visual and interactive styles with COS products, services, and web presence; Align design and creative strategies with COS mission; Produce web and print photos, websites, banners, ads, videos, and more.</p>
+                        <p>Promotion of job and internship opportunities, initial organization and screening of candidates, coordination of interview and on-site visit activities, use of the JobScore system, and integration of new team members into the COS culture.  This individual will work very closely with senior COS team members to accomplish the critical mission of building and growing the team.  As a non-profit organization with deep roots in the academic environment, we can promise a positive mentoring environment and great foundation for future opportunities with technology companies, start-ups, or academic administration.</p>
                     </dd>
                     <dt>Skills</dt>
                     <dd>
-                        <p>Seeks and employs cutting edge and modern web design techniques and tools; Outstanding information design abilities; Graphical expertise in Adobe products; Technical expertise in HTML, CSS, and Javascript; Understanding of modern techniques/frameworks and single-page/API-driven front-ends; Great communicator; Desire and passion in collaborating across many functional areas of the team; Strong abilities in presenting rationale behind strategic, architectural, and design decisions; Advocate for user experience; Team player; High energy, results-oriented, productive and dedicated to high quality.</p>
+                        <p>Extremely high social and communication skills; exceptional organization and attention to detail; ability to use web communication and documentation software effectively; team-oriented; very strong work ethic; multi-tasking; self-starter and industrious; adaptivity to rapidly changing demands in a high performance workplace; demonstrated interest in science, technology, non-profits, or entrepreneurship; effective writing skills; evident interest in building teams and helping others succeed.</p>
+
+                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.  </p>
                     </dd>
                     <dt>Location</dt>
                     <dd>
@@ -140,29 +185,29 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                      <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
                     </dd>
                 </dl>
             </div>
         </div>
     </div>
 </div>
-<div id="accordion4" class="panel-group">
+<div id="accordion5" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion5_5">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion4" >
+                <a  data-parent="#accordion5" >
                     Senior Developer
                 </a>
             </h4>
         </div>
-        <div id="accordion4_4" class="panel-collapse collapse">
+        <div id="accordion5_5" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -209,18 +254,18 @@
         </div>
     </div>
 </div>
-<div id="accordion5" class="panel-group">
+<div id="accordion6" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion5_5">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
 
-                <a data-parent="#accordion5" >
+                <a data-parent="#accordion6" >
                     Statistical and Methodological Consultant
                 </a>
             </h4>
         </div>
-        <div id="accordion5_5" class="panel-collapse collapse">
+        <div id="accordion6_6" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -255,18 +300,18 @@
         </div>
     </div>
 </div>
-<div id="accordion6" class="panel-group">
+<div id="accordion7" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion7_7">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
 
-                <a data-parent="#accordion6" >
+                <a data-parent="#accordion7" >
                     Technical Project Manager
                 </a>
             </h4>
         </div>
-        <div id="accordion6_6" class="panel-collapse collapse">
+        <div id="accordion7_7" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -276,7 +321,7 @@
                     <dt>Responsibilities</dt>
                     <dd>
                         <p>COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The Technical Project Manager will be responsible for leading small teams of full-time and intern developers to maximize work quality, efficiency, team well-being, and growth of team members’ skills and responsibilities.  Also, the Technical Project Manager will collaborate with the leadership team for coordination of overall priorities and architectural choices and direction.</p>
-                        <p>See our <a href="#accordion1">Developer position</a> to learn more about the desired qualities of COS developers.  See more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
+                        <p>See our <a href="#accordion2">Developer position</a> to learn more about the desired qualities of COS developers.  See more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
                     </dd>
                     <dt>Skills</dt>
                     <dd>
@@ -294,6 +339,50 @@
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                         <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="accordion8" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion8_8">
+                        <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#accordion3" >
+                    Web Designer
+                </a>
+            </h4>
+        </div>
+        <div id="accordion8_8" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Focus on the visual design, identity, and user experience of the <a href="http://cos.io">Center for Open Science</a>'s free and open source products and services.  Be part of an enthusiastic and motivated team that is helping science become more open and reproducible.  The Web Designer will employ leading edge design and user experience methods to create a professional, accessible, polished style for COS products, services, and web presence.  This role requires expert understanding of UI/UX fundamentals and design trends, an uncanny sense of style, color, layout, and typography; and someone who wants to contribute to a mission-driven, non-profit startup.</p>
+                        <p>See more on <a href="https://github.com/CenterForOpenScience/">Github</a>.</p>
+                    </dd>
+                    <dt> Responsibilities</dt>
+                    <dd>
+                        <p>Design and maintain the visual brand for COS products, foremost the <a href="http://osf.io">Open Science Framework</a> and its associated services; collaborate with community and infrastructure teams to match visual and interactive styles with COS products, services, and web presence; Align design and creative strategies with COS mission; Produce web and print photos, websites, banners, ads, videos, and more.</p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Seeks and employs cutting edge and modern web design techniques and tools; Outstanding information design abilities; Graphical expertise in Adobe products; Technical expertise in HTML, CSS, and Javascript; Understanding of modern techniques/frameworks and single-page/API-driven front-ends; Great communicator; Desire and passion in collaborating across many functional areas of the team; Strong abilities in presenting rationale behind strategic, architectural, and design decisions; Advocate for user experience; Team player; High energy, results-oriented, productive and dedicated to high quality.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
                     </dd>
                 </dl>
             </div>
