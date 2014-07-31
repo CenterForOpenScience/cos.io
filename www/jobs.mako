@@ -256,16 +256,61 @@
 </div>
 <div id="accordion6" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-
-                <a data-parent="#accordion6" >
-                    Statistical and Methodological Consultant
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
+                        <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#accordion6" >
+                    Social Media and Content Management Intern
                 </a>
             </h4>
         </div>
         <div id="accordion6_6" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science (COS) seeks an enthusiastic intern who is looking to build experience with social media and content management in a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. COS is bustling. The Social Media and Content Management Intern will support growing engagement with the COS community.</p>
+                    </dd>
+                    <dt> Responsibilities</dt>
+                    <dd>
+                        <p>The candidate will be responsible for social media and content management tasks including, but not limited to: editing and producing video and photograph content; videotaping and photographing events; working with other team members to maintain the COS presence on Twitter, Facebook, LinkedIn, YouTube, COS website, and other channels.</p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Works fast, efficiently, and accurately; highly organized; attentive to detail; high level of professionalism; expert with social media; has some experience with or willingness to learn videography and photography; effective at multi-tasking; self-starter and industrious; able to adapt to rapidly changing demands in a high performance workplace; interest in science, technology, non-profits, or entrepreneurship; effective writing skills.</p>
+
+                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                      <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="accordion7" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion7_7">
+                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+
+                <a data-parent="#accordion7" >
+                    Statistical and Methodological Consultant
+                </a>
+            </h4>
+        </div>
+        <div id="accordion7_7" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -300,18 +345,18 @@
         </div>
     </div>
 </div>
-<div id="accordion7" class="panel-group">
+<div id="accordion8" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion7_7">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion8_8">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
 
-                <a data-parent="#accordion7" >
+                <a data-parent="#accordion8" >
                     Technical Project Manager
                 </a>
             </h4>
         </div>
-        <div id="accordion7_7" class="panel-collapse collapse">
+        <div id="accordion8_8" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -345,9 +390,9 @@
         </div>
     </div>
 </div>
-<div id="accordion8" class="panel-group">
+<div id="accordion9" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion8_8">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion9_9">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#accordion3" >
@@ -355,7 +400,7 @@
                 </a>
             </h4>
         </div>
-        <div id="accordion8_8" class="panel-collapse collapse">
+        <div id="accordion9_9" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
