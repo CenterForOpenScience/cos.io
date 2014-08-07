@@ -203,11 +203,67 @@
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#accordion5" >
-                    Senior Developer
+                    Product Marketing Manager
                 </a>
             </h4>
         </div>
         <div id="accordion5_5" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Join a mission-driven, non-profit tech startup that is promoting openness, integrity, and reproducibility of scientific research.  With rapid growth over the past year, and over $12M in startup funding, COS will add a strategically-oriented Product Marketing Manager to focus attention on marketing of COS products and services.  COS products and services are entirely free and open-source.  The manager will be responsible for leading efforts to identify and target key audiences, position products, and grow adoption.  The role is entirely mission-driven: How can COS products and services best be used to promote and support the adoption of scientific values in daily scientific practices?</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Develop, manage, and coordinate execution of strategic marketing plans for COS products</li>
+                            <li>Create short-term marketing campaigns in support of high-level goals</li>
+                            <li>Conduct market research and concept/market testing to identify optimal positioning and audience for each product</li>
+                            <li>Work with designers and developers to refine products to meet user needs while carefully managing cost and scope</li>
+                            <li>Maintain comprehensive roadmap for marketing of products, including intersection with future target audiences</li>
+                            <li>Work closely with COS leadership team, project managers, and project coordinators to align efforts and communicate potential new product opportunities</li>
+                        </ul>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Deep knowledge of marketing strategy and sales tactics; Ability to relate for-profit marketing/sales strategies to non-profit mission-driven efforts; Extremely high social and communication skills; Self-starter and industrious; Team-oriented; Very strong work ethic; Adaptivity to rapidly changing demands in a high performance workplace; Market research skills; Presentation skills; Attention to detail and timing; Values transparency and collaboration; Experience with science and technology sectors; Flexibility and ability to manage multiple simultaneous priorities.</p>
+                    </dd>
+                    <dt>Notes</dt>
+                    <dd>
+                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (<a href="http://osf.io/">http://osf.io/</a>) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: <a href="https://osf.io/tvyxz/">badges</a> to acknowledge open practices, and <a href="https://osf.io/8mpji/wiki/home/">Registered Reports</a>; and (3) metascience, research on scientific practices, example projects: <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>, <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, and <a href="https://osf.io/ebmf8/">Many Labs</a>. COS promotes inclusivity and serves a global audience of researchers across all domains.</p>  
+
+                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS on this website, and in its <a href="http://centerforopenscience.org/news/">news</a> section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices.</a></p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="accordion6" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
+                        <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#accordion6" >
+                    Senior Developer
+                </a>
+            </h4>
+        </div>
+        <div id="accordion6_6" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -254,17 +310,17 @@
         </div>
     </div>
 </div>
-<div id="accordion6" class="panel-group">
+<div id="accordion7" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion7_7">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion6" >
+                <a  data-parent="#accordion7" >
                     Social Media and Content Management Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion6_6" class="panel-collapse collapse">
+        <div id="accordion7_7" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -299,18 +355,18 @@
         </div>
     </div>
 </div>
-<div id="accordion7" class="panel-group">
+<div id="accordion8" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion7_7">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion8_8">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
 
-                <a data-parent="#accordion7" >
+                <a data-parent="#accordion8" >
                     Statistical and Methodological Consultant
                 </a>
             </h4>
         </div>
-        <div id="accordion7_7" class="panel-collapse collapse">
+        <div id="accordion8_8" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -345,18 +401,18 @@
         </div>
     </div>
 </div>
-<div id="accordion8" class="panel-group">
+<div id="accordion9" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion8_8">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion9_9">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
 
-                <a data-parent="#accordion8" >
+                <a data-parent="#accordion9" >
                     Technical Project Manager
                 </a>
             </h4>
         </div>
-        <div id="accordion8_8" class="panel-collapse collapse">
+        <div id="accordion9_9" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -390,17 +446,17 @@
         </div>
     </div>
 </div>
-<div id="accordion9" class="panel-group">
+<div id="accordion10" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion9_9">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion10_10">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion3" >
+                <a  data-parent="#accordion10" >
                     Web Designer
                 </a>
             </h4>
         </div>
-        <div id="accordion9_9" class="panel-collapse collapse">
+        <div id="accordion10_10" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
