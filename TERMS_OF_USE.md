@@ -140,7 +140,7 @@
 
 20. **PROCEDURE FOR MAKING CLAIMS OF COPYRIGHT INFRINGEMENT**
 
-  **In accordance with the Digital Millennium Copyright Act (17 USC § 512****), any ****notifications of claimed copyright infringement must be sent to our Designated ****Agent****:**
+  **In accordance with the Digital Millennium Copyright Act (17 USC § 512), any notifications of claimed copyright infringement must be sent to our Designated Agent:**
 
   Andrew Sallans  
   Center for Open Science  
