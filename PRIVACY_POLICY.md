@@ -123,7 +123,7 @@ We protect your personal information using industry-standard safeguards. We may 
 
   If an Administrator changes the privacy settings of a Project, those changes will be applied prospectively.  For example, if an Administrator changes a privacy setting from "Public" to "Private" or "Limited Access", there is no way for COS to restrict people who have previously viewed or downloaded the previously publicly accessible Content from using it.
 
-12. HOW WE USE YOUR PERSONAL INFORMATION
+12. **HOW WE USE YOUR PERSONAL INFORMATION**
 
   When you register with COS, you acknowledge that information you provide on your membership profile may be seen by others and used by COS as described in this Privacy Policy and our Terms of Use. 
 
