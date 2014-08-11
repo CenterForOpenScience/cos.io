@@ -123,6 +123,7 @@ ${self.body()}
                 <!-- BEGIN ABOUT -->
                 <h2>About</h2>
                 <p class="margin-bottom-30">The Center for Open Science fosters openness, integrity, and reproducibility of scientific research.</p>
+                <p><a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/TERMS_OF_USE.md">Terms</a>&nbsp;|&nbsp;<a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/PRIVACY_POLICY.md">Privacy</a></p> 
                 <div class="clearfix"></div>
                 <!-- END ABOUT -->
 
