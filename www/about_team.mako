@@ -182,7 +182,7 @@
             <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
                 <a href="https://osf.io/gqx2h/">Erin Braswell</a>
-                <small>Project Coordinator/Developer | Community, Infrastructure</small>
+                <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/erinspace" data-original-title="github" class="github"></a></li>
@@ -472,7 +472,7 @@
             <img src="../static/img/people/ehsan.jpg" alt="Saman Ehsan"">
             <h3>
                 <a href="https://osf.io/dcb3q/">Saman Ehsan</a>
-                <small>Intern | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/se8ea" data-original-title="GitHub" class="github"></a></li>
