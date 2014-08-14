@@ -37,7 +37,7 @@ class WYSIWeb:
         )
 
     def join(self, *args):
-        args = [arg[1:] if i is not 0 and arg.startswith('/') else arg for i,arg in enumerate(args)]
+        args[1:] = [arg[1:] if arg.startswith('/') else arg for arg in args]
         return os.path.join(*args)
 
     def split_len(self, seq, length):
@@ -50,12 +50,12 @@ class WYSIWeb:
         return '<script type="text/javascript">document.write(mailto("<n uers=\\"znvygb:{email}\\" ery=\\"absbyybj\\">{email}</n>"));</script><noscript><strong><u>{noscript}</u></strong></noscript>'.format(email=encrypted_email, noscript=noscript)
 
     def render(self, path, **kwargs):
-        base, format = os.path.splitext(path)
-        format = format[1:]
-        if format in ['mako']:
+        base, fmt = os.path.splitext(path)
+        fmt = fmt[1:]
+        if fmt == 'mako':
             out = self.lookup.get_template(path).render(**kwargs)
             #return Template(filename=path).render(**kwargs)
-        elif format in ['rst']:
+        elif fmt == 'rst':
             with open(path, 'r') as f:
                 out = f.read()
             result = publish_parts(out, writer_name='html')
@@ -68,13 +68,12 @@ class WYSIWeb:
         return out
 
     def get_filename(self, path):
-        split_path = path.split('/')
-        return split_path[len(split_path)-1]
+        return os.path.basename(path)
 
     def get_path(self, path):
         split_path = path.split('/')
         for part in split_path:
-            if part.startswith('_') or part.startswith('.'):
+            if part.startswith(('_', '.')):
                 return None
 
         filename = self.get_filename(path)
@@ -84,7 +83,7 @@ class WYSIWeb:
             if glb:
                 path = re.sub('^\.\/www\/', '', glb[0])
                 filename = self.get_filename(path)
-                if (filename.startswith('_') or filename.startswith('.')):
+                if filename.startswith(('_', '.')):
                     return None
                 return path
         return None
@@ -106,11 +105,7 @@ class WYSIWeb:
                 split_path = path_less_ext.split('/')
                 static_route_minus_root =  self.static_folder.replace(self.site_folder, '')[1:]
                 if not split_path[0] == static_route_minus_root:
-                    is_valid = True
-                    for part in split_path:
-                        if part.startswith('.') or part.startswith('_'):
-                            is_valid = False
-                    if is_valid:
+                    if not any(part.startswith(('.', '_')) for part in split_path):
                         if split_path[0] == 'index':
                             with open(self.join(frozen_path, 'index.html'), 'w') as f:
                                 f.write(self.router('/index').encode('utf-8'))
