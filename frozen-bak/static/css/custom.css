@@ -1,0 +1,318 @@
+/* here you can put your own css to customize and override the theme */
+
+body {
+    color: #000;
+    font-size:15px !important;
+    direction: ltr;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Open Sans' !important;
+    overflow-x: hidden;
+}
+
+.big {
+    font-size: 50px;
+}
+
+#no-transform {
+    width: 300px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.social-icons .person {background: url(../img/icons/social/person.png) no-repeat;}
+
+/*Lists*/
+.front-lists-v1 li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 5px !important;
+}
+.front-lists-v1 dd {
+    margin-bottom: 10px;
+}
+
+#logoimg {
+    width: 350px;
+}
+
+/*News Page*/
+
+#templetonFont {
+    color: #444;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+/*Jobs Page*/
+
+.panel-info >.panel-heading {
+    background-color: #E8F7FC !important;
+}
+.panel-heading {
+    cursor: pointer;
+}
+.jobs-pics {
+    max-width: 300px;
+    padding-right: 30px;
+    height: 162px;
+    overflow: hidden;
+}
+
+/*Portfolio*/
+.mix-grid .mix {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px !important;
+}
+
+.mix-grid .mix .mix-inner {
+    position: relative;
+    width: 100%;
+    height: 300px !important;
+
+}
+
+.mix-grid .mix .mix-details p {
+    padding: 0 30px;
+    font-size: 13px !important;
+}
+
+/*From Responsive*/
+.header a.logo-v1 img {
+    margin-top: 2px !important;
+}
+
+/*Homepage*/
+
+.radial-center {
+    /* fallback */
+    background-color: #FAFFFF;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF);
+
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #FAFFFF, #CEF3FF);
+
+    /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+}
+
+#myCarousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.overflow_image {
+    width:1200px;
+    height: 350px;
+    overflow: hidden;
+}
+
+/*Service Box*/
+
+#servicegrid {
+    margin-bottom: 50px;
+}
+
+.service-box {
+    margin-top: 30px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 30px !important;
+}
+
+.service-box-v1 {
+    padding: 25px !important;
+    text-align: center !important;
+    height: 370px !important;
+}
+
+.service-box p {
+    color: #656565;
+    font-size: 15px;
+    text-align: left !important;
+}
+
+.service-box .service-box-heading {
+    margin-bottom: 5px;
+}
+
+.service-box .service-box-heading i {
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    border-radius: 34px;
+    font-size:18px;
+    height:32px;
+    width:32px;
+    line-height: 32px;
+    text-align:center !important;
+    vertical-align: baseline;
+}
+
+.service-box-v1 h2{
+    margin-left: 20px;
+}
+
+.service-box-v1 p{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.service-box-v1 img{
+    margin-bottom: 10px;
+}
+
+.service-box-v1:hover i, .service-box-v1:hover p {
+    font-size: 13px;
+}
+
+.service-box-v1:hover {
+    background: #0da3e2;
+    transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    text-decoration:none !important;
+}
+
+/*Footer*/
+
+
+
+
+.footer .blog-photo-stream {
+    margin-top: 17px;
+}
+
+.footer {
+    padding: 35px 0;
+    font-size: 13px;
+    background: #3d3d45 !important;
+}
+
+.footer .social-footer {
+    margin: 0 0 0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer .social-footer li {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+
+.footer .social-footer li i {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+.footer .social-footer li i:hover {
+    color: #fff;
+    transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.footer .social-footer li a:hover {
+    text-decoration: none;
+}
+
+.footer #footer-map {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.copyright {
+    color: #dee4eb;
+    font-size: 12px;
+    padding: 10px 0;
+    background: #3d3d45;
+}
+
+/*Team Blocks*/
+
+.front-team {
+    margin: 0px 0px !important;
+}
+.front-team .thumbnail {
+    border: none;
+    height: 380px !important;
+}
+.front-team .thumbnail img {
+    height: 265px;
+}
+
+.front-team h3 {
+    margin:10px 0 12px;
+    line-height:30px !important;
+}
+
+/* Bootstrap Carousel */
+#carousel {
+    height: 375px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+    background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+    background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF);
+    background: -ms-radial-gradient(circle, #FAFFFF, #CEF3FF)
+}
+
+.slide-container {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+.slide-text {
+    width: 340px;
+    float: left;
+    text-align: left;
+}
+.slide-text h1{
+    padding: 6px 0;
+}
+.slide-image{
+    float:right;
+    width: 100%;
+    height:auto;
+}
+
+.resize-text {
+    padding: 10px 0 0 40px;
+    text-transform: uppercase;
+}
+.slide-wrapper {
+    width: 100%;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+    background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+    background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF)
+}
+
+.bx-wrapper img {
+    width: 85%;
+    display: block;
+    padding: 3% 0%;
+)
