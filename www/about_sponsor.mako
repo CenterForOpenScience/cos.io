@@ -78,8 +78,8 @@
                                             <table  class="margin-top-50 donation-table">
                                                 <tr>
                                                     <td class="sponsor-center" id="jetbrains"><img src="/static/img/icons/jetbrains.jpg"></td>
-                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br>
-                                                    PyCharm and Webstorm Professional Editions<br>
+                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br> 
+                                                    professional editions of PyCharm and Webstorm via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -155,7 +155,7 @@
                                                 <tr>
                                                     <td class="sponsor-center" ><img src="/static/img/icons/dreamhost.png"></td>
                                                     <td><span class="med-font"><strong>Dreamhost</strong></span><br>
-                                                    free services<br>
+                                                    free <a href="http://wiki.dreamhost.com/Non-profit_Discount">services for non-profits</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -169,7 +169,7 @@
                                                 <tr>
                                                     <td class="sponsor-center" id="google"><img src="/static/img/icons/google2.png"></td>
                                                     <td><span class="med-font"><strong>Google</strong></span><br>
-                                                    google apps for non-profits<br>
+                                                    <a href="http://www.google.com/nonprofits/products/">google apps for non-profits</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer-small"></tr>
@@ -183,7 +183,7 @@
                                                 <tr>
                                                     <td class="sponsor-center" id="jetbrains"><img src="/static/img/icons/jetbrains.jpg"></td>
                                                     <td><span class="med-font"><strong>JetBrains</strong></span><br>
-                                                    professional editions of PyCharm and Webstorm<br>
+                                                    professional editions of PyCharm and Webstorm via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -216,9 +216,8 @@
                                                 </tr>
                                                 <tr class="spacer-small"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center" ><img src="/static/img/icons/salesforce.jpg"></td>
-                                                    <td><span class="med-font"><strong>Salesforce</strong></span><br>
-                                                    non-profit discounts<br>
+                                                    <td class="sponsor-center" ><img src="/static/img/icons/salesforce-desk.png"></td>
+                                                    <td><span class="med-font"><strong>Salesforce</strong></span><br>non-profit discount for <a href="http://www.desk.com/">desk.com</a> through the Salesforce.com Foundation's <a href="http://www.salesforcefoundation.org/power-of-us/">Power of Us program</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer-small"></tr>
