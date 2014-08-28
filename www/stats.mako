@@ -40,6 +40,7 @@
                 <br>
                 <p><strong>Online consulting by appointment:</strong></p>
                 <p>Want to talk through your problem in real time? Use the scheduler to make an appointment for a Google Hangout with one of our consultants. Initial consultations are up to 30 minutes. More complex problems will be handled through follow-up consultations.</p>
+                <br>
                 <h2><strong>Training</strong></h2>
                 <hr>
                 <p><strong>Online Workshops</strong></p>
