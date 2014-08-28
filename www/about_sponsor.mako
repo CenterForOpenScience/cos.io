@@ -113,7 +113,7 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><img src="/static/img/icons/SE_Logo_Large.png"></td>
+                                                <td class="sponsor-center" ><img src="/static/img/icons/SE_Logo.png"></td>
                                                 <td><span class="med-font"><strong>Science Exchange</strong></span><br>
                                                 <strong>$35,000</strong><br>
                                                 Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
