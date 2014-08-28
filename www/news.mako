@@ -35,11 +35,38 @@
                     <a class="col-md-4 service-box-v1" href="/pr/2014-08-28">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/elife.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/elife.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 5px">
                                 <h2>eLife, the Center for Open Science, and Science Exchange partner to assess the reproducibility of cancer biology research</h2></td>
                             </tr>
                         </table>
                         <p class="text-left">August 28, 2014 | eLife will be the publisher for the results of the Reproducibility Project: Cancer Biology, an effort led by the Center for Open Science and Science Exchange.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.psychologicalscience.org/index.php/publications/observer/2014/july-august-14/a-year-of-reproducibility-initiatives-the-replication-revolution-forges-ahead.html">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/aps.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 8px">
+                                <h2>A Year of Reproducibility Initiatives: The Replication Revolution Forges Ahead</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">July/August, 2014 | Emerging leaders in psychological reproducibility came together at the 2014 APS Annual Convention in San Francisco to discuss their current efforts to enact this cultural shift toward a more open and ultimately more reliable way of conducting scientific research.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.slate.com/articles/health_and_science/science/2014/07/replication_controversy_in_psychology_bullying_file_drawer_effect_blog_posts.single.html">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/slate_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 5px">
+                                <h2>Why Psychologists’ Food Fight Matters</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">July 31, 2014 | “Important findings” haven’t been replicated, and science may have to change its ways.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://opensource.com/life/14/6/center-open-science-framework">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/Opensource.com_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>A web platform for streamlining scientific workflows</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 18, 2014 | If you haven’t heard, science has been experiencing some issues. Though most scientists believe in the ideals of openness, transparency, and reproducibility, the reality is that the incentive structure of academic research encourages exactly the opposite.</p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="/pr/2014-06-02">
                         <table>
