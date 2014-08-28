@@ -134,15 +134,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/bischak.jpg" alt="Chris Bischak">
-            <h3>
-                <a href="#">Chris Bischak</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/seto.jpg" alt="Chris Seto">
             <h3>
                 <a href="#">Chris Seto</a>
@@ -181,7 +172,7 @@
         <div class="thumbnail">
             <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
-                <a href="https://osf.io/gqx2h/">Erin Braswell</a>
+                <a href="https://osf.io/tfyje/">Erin Braswell</a>
                 <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
@@ -314,7 +305,6 @@
                 <ul class="social-icons social-icons-color">
                     <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
                 </ul>
-
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -330,21 +320,12 @@
         <div class="thumbnail">
             <img src="../static/img/people/kidwell.JPG" alt="Mallory Kidwell">
             <h3>
-                <a href="https://osf.io/ufixg/">Mallory Kidwell</a>
+                <a href="https://osf.io/z2u9w/">Mallory Kidwell</a>
                 <small>Project Coordinator | Metascience</small>
             </h3>
                 <ul class="social-icons social-icons-color">
                     <li><a href="https://www.linkedin.com/profile/view?id=203460462" data-original-title="linkedin" class="linkedin"></a></li>
                 </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/lapuz.jpg" alt="Michael Lapuz">
-            <h3>
-                <a href="https://osf.io/iqszn/">Michael Lapuz</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -357,7 +338,6 @@
                 <ul class="social-icons social-icons-color">
                     <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
                 </ul>
-
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -376,28 +356,6 @@
                 <a href="#">Natasha Richter</a>
                 <small>Intern | Community</small>
             </h3>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
-            <h3>
-                <a href="https://osf.io/27ptw/">Patrick Ryan </a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/fan.jpg" alt="Peter Fan">
-            <h3>
-                <a href="https://osf.io/7nz2x/">Peter Fan</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-                <ul class="social-icons social-icons-color">
-                    <li><a href="https://github.com/pjfan" data-original-title="GitHub" class="github"></a></li>
-                </ul>
-
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -460,15 +418,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/brodsky.jpg" alt="Saul Brodsky">
-            <h3>
-                <a href="#">Saul Brodsky</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/ehsan.jpg" alt="Saman Ehsan">
             <h3>
                 <a href="https://osf.io/dcb3q/">Saman Ehsan</a>
@@ -494,15 +443,6 @@
     </li>
     <li class="col-md-3">
         <div class="thumbnail">
-            <img src="../static/img/people/hudson.jpg" alt="Tanesha Hudson">
-            <h3>
-                <a href="https://osf.io/wdbn4/">Tanesha Hudson</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-        </div>
-    </li>
-    <li class="col-md-3">
-        <div class="thumbnail">
             <img src="../static/img/people/errington.jpg" alt="Tim Errington">
             <h3>
                 <a href="https://osf.io/alh38/">Tim Errington</a>
@@ -522,6 +462,15 @@
             </h3>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/herrick.jpg" alt="Xander Herrick">
+            <h3>
+                <a href="https://osf.io/trwjd/">Xander Herrick</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+        </div>
+    </li>
 </ul>
 </div>
 <!-- END OUR TEAM -->
@@ -530,19 +479,6 @@
 <h1><strong>Alumni<br><br></strong></h1>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/mufti.jpg" alt="Azeem Mufti">
-            <h3>
-                <a href="https://osf.io/uq89h/">Azeem Mufti</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="http://google.com/+azeemmufti" data-original-title="Goole Plus" class="googleplus"></a></li>
-                <li><a href="http://www.linkedin.com/profile/view?id=106930243" data-original-title="Linkedin" class="linkedin"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/bischak.jpg" alt="Chris Bischak">
@@ -554,14 +490,11 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
+            <img src="../static/img/people/lewis.jpg" alt="Melissa Lewis">
             <h3>
-                <a href="https://osf.io/3t5vu/">Lauren Revere</a>
-                <small>Intern | Infrastructure</small>
+                <a href="https://osf.io/5hdme/">Melissa Lewis</a>
+                <small>Developer | Infrastructure</small>
             </h3>
-                <ul class="social-icons social-icons-color">
-                    <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
-                </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -596,18 +529,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
-            <h3>
-                <a href="#">Sam Chrisinger</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="http://github.com/shc7pw" data-original-title="GitHub" class="github"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/brodsky.jpg" alt="Saul Brodsky">
             <h3>
                 <a href="#">Saul Brodsky</a>
@@ -621,27 +542,6 @@
             <h3>
                 <a href="https://osf.io/wdbn4/">Tanesha Hudson</a>
                 <small>Intern | Infrastructure</small>
-            </h3>
-        </div>
-    </li>
-    <li class="col-md-3">
-        <div class="thumbnail">
-            <img src="../static/img/people/errington.jpg" alt="Tim Errington">
-            <h3>
-                <a href="https://osf.io/alh38/">Tim Errington</a>
-                <small>Project Manager | Metascience</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="www.linkedin.com/pub/tim-errington/8/a92/558/" data-original-title="LinkedIn" class="linkedin"></a></li>
-            </ul>
-        </div>
-    </li>
-        <li class="col-md-3">
-        <div class="thumbnail">
-            <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
-            <h3>
-                <a href="#">Wendy Zhu</a>
-                <small>Volunteer | Infrastructure</small>
             </h3>
         </div>
     </li>
