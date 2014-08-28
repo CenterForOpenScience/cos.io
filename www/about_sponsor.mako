@@ -144,7 +144,7 @@
                                                     reagents for Reproducibility Project: Cancer Biology<br>
                                                     </td>
                                                 </tr>
-                                                <tr class="spacer"></tr>
+                                                <tr class="spacer-small"></tr>
                                                 <tr>
                                                     <td class="sponsor-center" ><img src="/static/img/icons/ddc.jpg"></td>
                                                     <td><span class="med-font"><strong>DDC Medical</strong></span><br>
