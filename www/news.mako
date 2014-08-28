@@ -59,6 +59,15 @@
                         </table>
                         <p class="text-left">July 31, 2014 | “Important findings” haven’t been replicated, and science may have to change its ways.</p>
                     </a>
+                    <a class="col-md-4 service-box-v1" href="http://opensource.com/life/14/6/center-open-science-framework">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/Opensource.com_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>A web platform for streamlining scientific workflows</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 18, 2014 | If you haven’t heard, science has been experiencing some issues. Though most scientists believe in the ideals of openness, transparency, and reproducibility, the reality is that the incentive structure of academic research encourages exactly the opposite.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="/pr/2014-06-02">
                         <table>
                             <tr>
