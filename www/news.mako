@@ -53,7 +53,7 @@
                     <a class="col-md-4 service-box-v1" href="http://www.slate.com/articles/health_and_science/science/2014/07/replication_controversy_in_psychology_bullying_file_drawer_effect_blog_posts.single.html">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/slate_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 5px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/Slate_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 5px">
                                 <h2>Why Psychologists’ Food Fight Matters</h2></td>
                             </tr>
                         </table>
