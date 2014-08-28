@@ -31,7 +31,16 @@
         <div class="row">
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
-                <div class="row margin-bottom-20">
+                <div class="row margin-bottom-20">                    
+                    <a class="col-md-4 service-box-v1" href="/pr/2014-08-28">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/elife.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>eLife, the Center for Open Science, and Science Exchange partner to assess the reproducibility of cancer biology research</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">August 28, 2014 | eLife will be the publisher for the results of the Reproducibility Project: Cancer Biology, an effort led by the Center for Open Science and Science Exchange.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="/pr/2014-06-02">
                         <table>
                             <tr>
