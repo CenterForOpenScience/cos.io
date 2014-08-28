@@ -266,7 +266,8 @@ body {
     height: 380px !important;
 }
 .front-team .thumbnail img {
-    height: 265px;
+    max-height: 265px;
+    max-width: 256px
 }
 
 .front-team h3 {
