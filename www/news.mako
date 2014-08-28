@@ -50,6 +50,15 @@
                         </table>
                         <p class="text-left">July/August 2014 | Emerging leaders in psychological reproducibility came together at the 2014 APS Annual Convention in San Francisco to discuss their current efforts to enact this cultural shift toward a more open and ultimately more reliable way of conducting scientific research.</p>
                     </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.slate.com/articles/health_and_science/science/2014/07/replication_controversy_in_psychology_bullying_file_drawer_effect_blog_posts.single.html">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/slate_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 5px">
+                                <h2>Why Psychologists’ Food Fight Matters</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">July 31, 2014 | “Important findings” haven’t been replicated, and science may have to change its ways.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="/pr/2014-06-02">
                         <table>
                             <tr>
