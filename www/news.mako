@@ -48,7 +48,7 @@
                                 <h2>A Year of Reproducibility Initiatives: The Replication Revolution Forges Ahead</h2></td>
                             </tr>
                         </table>
-                        <p class="text-left">July/August 2014 | Emerging leaders in psychological reproducibility came together at the 2014 APS Annual Convention in San Francisco to discuss their current efforts to enact this cultural shift toward a more open and ultimately more reliable way of conducting scientific research.</p>
+                        <p class="text-left">July/August, 2014 | Emerging leaders in psychological reproducibility came together at the 2014 APS Annual Convention in San Francisco to discuss their current efforts to enact this cultural shift toward a more open and ultimately more reliable way of conducting scientific research.</p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="http://www.slate.com/articles/health_and_science/science/2014/07/replication_controversy_in_psychology_bullying_file_drawer_effect_blog_posts.single.html">
                         <table>
