@@ -23,7 +23,11 @@ body {
 }
 
 .spacer {
-    height: 50px;
+    height: 25px;
+}
+
+.spacer-small {
+    height: 10px;
 }
 
 .social-icons .person {background: url(../img/icons/social/person.png) no-repeat;}
@@ -298,7 +302,7 @@ body {
     float:right;
     width: 100%;
     height:auto;
-}
+} 
 
 .resize-text {
     padding: 10px 0 0 40px;
@@ -315,4 +319,28 @@ body {
     width: 85%;
     display: block;
     padding: 3% 0%;
-)
+}
+
+.sponsor-center {
+    width : 360px;
+    text-align: center;
+}
+.sponsor-center img {
+    width: 80%;
+    height: auto;
+}
+
+#square img {
+    height: 110%;
+    width: 33%;
+}
+
+#google img {
+    height: 30%;
+    width: 70%;
+}
+
+#jetbrains img {
+    height: 115%;
+    width: 75%;
+}
