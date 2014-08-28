@@ -35,11 +35,20 @@
                     <a class="col-md-4 service-box-v1" href="/pr/2014-08-28">
                         <table>
                             <tr>
-                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/elife.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/elife.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 5px">
                                 <h2>eLife, the Center for Open Science, and Science Exchange partner to assess the reproducibility of cancer biology research</h2></td>
                             </tr>
                         </table>
                         <p class="text-left">August 28, 2014 | eLife will be the publisher for the results of the Reproducibility Project: Cancer Biology, an effort led by the Center for Open Science and Science Exchange.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.psychologicalscience.org/index.php/publications/observer/2014/july-august-14/a-year-of-reproducibility-initiatives-the-replication-revolution-forges-ahead.html">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/aps.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 8px">
+                                <h2>A Year of Reproducibility Initiatives: The Replication Revolution Forges Ahead</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">July/August 2014 | Emerging leaders in psychological reproducibility came together at the 2014 APS Annual Convention in San Francisco to discuss their current efforts to enact this cultural shift toward a more open and ultimately more reliable way of conducting scientific research.</p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="/pr/2014-06-02">
                         <table>
