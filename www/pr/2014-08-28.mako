@@ -15,8 +15,7 @@
                     <h1><strong>eLife, the Center for Open Science, and Science Exchange partner to assess the reproducibility of cancer biology research</strong></h1>
                 </div>
             </div>
-            <h2>Cambridge, UK, Charlottesville, USA, & Palo Alto, USA – August 28, 2014</h2>
-            <br>
+            <p>Cambridge, UK, Charlottesville, USA, & Palo Alto, USA – August 28, 2014</p>
             <h3>eLife will be the publisher for the results of the Reproducibility Project: Cancer Biology, an effort led by the Center for Open Science and Science Exchange.</h3>
             <br>
 
@@ -40,8 +39,6 @@
                 <p>For more information about eLife, the eLife editors, and the eLife editorial process, visit <a href="http://elifesciences.org/about">http://elifesciences.org/about.</a></p>
                 <br>
                 <h4><strong>Press Contacts</strong></h4>
-                <br>
-                <p>##</p>
 
                 <p>Jennifer Mitchell<br>
                 Communications assistant, eLife<br>
@@ -56,18 +53,16 @@
                 Community Manager, Science Exchange<br>
                 +1 831 345 0055<br>
                 <a href="mailto:tess@scienceexchange.com" rel="nofollow">tess@scienceexchange.com</a></p>
-
-                <p>##</p>
-
-                <h4>About eLife</h4>
+                <br>
+                <h4><strong>About eLife</strong></h4>
                  
                 <p>eLife Sciences Publications Ltd is a unique collaboration between the funders and practitioners of research to communicate ground-breaking discoveries in the life and biomedical sciences in the most effective way. The eLife journal is a platform for maximising the reach and influence of new discoveries and showcasing new approaches to the presentation, use, and assessment of research. eLife is supported by the Howard Hughes Medical Institute, the Max Planck Society and the Wellcome Trust. Learn more at <a href="http://elifesciences.org">elifesciences.org</a>.</p>
-
-                <h4>About the Center for Open Science</h4>
+                <br>
+                <h4><strong>About the Center for Open Science</strong></h4>
 
                 <p>The Center for Open Science (COS) is a non-profit science and technology company founded in March of 2013 to foster openness, integrity, and reproducibility of scientific research. COS supports this mission through three primary activities: supporting metascience research, building community among different stakeholders in science, and creating and maintaining a free and open source software infrastructure. The flagship infrastructure platform at COS is the <a href="http://osf.io">Open Science Framework</a> (OSF), a web application for supporting the research workflow by connecting technologies that scientists use to increase the efficiency and effectiveness of their research. Researchers can use OSF to collaborate, document, archive, share, and register research projects, materials, and data. Learn more at <a href="http://cos.io">cos.io</a> and <a href="http://osf.io">osf.io</a>.</p>
-
-                <h4>About Science Exchange</h4>
+                <br>
+                <h4><strong>About Science Exchange</strong></h4>
 
                 <p>Science Exchange is an online marketplace for scientific experiments. The Science Exchange network includes thousands of expert scientific experimental service providers including providers from 71 of the top 100 U.S. research universities. The Science Exchange network is used to independently validate research reagents, results, and methods to ensure accuracy and reproducibility. The company has received an award from the Kauffman Foundation for Entrepreneurship and has received investment from Union Square Ventures, O’Reilly AlphaTech Ventures, Y Combinator, and SV Angel. Learn more at <a href="http://scienceexchange.com">www.scienceexchange.com</a>.</p>
 
