@@ -208,15 +208,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/rybaki.jpg" alt="Harry Rybacki">
-            <h3>
-                <a href="https://osf.io/uycv3/">Harry Rybacki</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
             <h3>
                 <a href="https://osf.io/bnpaa/">Jake Rosenberg</a>
@@ -240,18 +231,6 @@
                 <li><a href="https://plus.google.com/u/0/+JeffreySpies/posts" data-original-title="Goole Plus" class="googleplus"></a></li>
                 <li><a href="http://www.linkedin.com/pub/jeffrey-spies/52/1a7/507" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://github.com/jeffspies" data-original-title="GitHub" class="github"></a> </li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/witschey.jpg" alt="Jim Witschey">
-            <h3>
-                <a href="https://osf.io/q4g5d/">Jim Witschey</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="http://www4.ncsu.edu/~jwshephe/" data-original-title="person" class="person"></a></li>
             </ul>
         </div>
     </li>
@@ -476,6 +455,7 @@
 <!-- END OUR TEAM -->
 <!-- BEGIN ALUMNI -->
 <div class="row front-team">
+<hr>
 <h1><strong>Alumni<br><br></strong></h1>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
@@ -486,6 +466,27 @@
                 <a href="#">Chris Bischak</a>
                 <small>Intern | Infrastructure</small>
             </h3>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/rybaki.jpg" alt="Harry Rybacki">
+            <h3>
+                <a href="https://osf.io/uycv3/">Harry Rybacki</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/witschey.jpg" alt="Jim Witschey">
+            <h3>
+                <a href="https://osf.io/q4g5d/">Jim Witschey</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www4.ncsu.edu/~jwshephe/" data-original-title="person" class="person"></a></li>
+            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
