@@ -461,9 +461,27 @@
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/bischak.jpg" alt="Alexander Ferguson">
+            <h3>
+                <a href="#">Alexander Ferguson</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/bischak.jpg" alt="Chris Bischak">
             <h3>
                 <a href="#">Chris Bischak</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/rybaki.jpg" alt="Chun Wang">
+            <h3>
+                <a href="https://osf.io/uycv3/">Chun Wang</a>
                 <small>Intern | Infrastructure</small>
             </h3>
         </div>
