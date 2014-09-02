@@ -27,10 +27,46 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-10 space-mobile">
-                <h1><strong>Statistical and Methodological Consulting Services<br><br></strong></h1>
-                <p>Are you unsure of how to write analysis plans, run power analyses, make your statistical analyses reproducible, or what those ‘new statistics’ are? COS statistics and methods consultants can help with that. Our core mission is to help researchers improve the openness, integrity, and reproducibility of their statistical work. Services and training are free to all. See the summary of services we offer below, and check out the FAQ at the bottom for more specifics about the content we cover.</p>
+                <h1><strong>Statistical & Methodological Consulting Services<br></strong></h1>
                 <br>
-                <p>Want to get information about upcoming workshops and new resources? Subscribe to our email list.</p>
+                <h2><center>Learn more about Open and Reproducible...</center></h2>
+                <div class="service-box margin-bottom-40">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-box-heading">
+                            <span>Tools & Computation</span>
+                        </div>
+                        <ul>
+                            <li>Using R</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-box-heading">
+                            <span>Methods & Statistics</span>
+                        </div>
+                        <ul>
+                            <li>Power Analyses</li>
+                            <li>Meta-Analyses</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-box-heading">
+                            <span>Workflows & Practices</span>
+                        </div>
+                        <ul>
+                            <li>OSF training</li>
+                            <li>Preregistration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 space-mobile">
+
+                <br>
+                <br>
+                <div class="note note-info">
+                <p><strong>Want to get information about upcoming workshops and new resources? Subscribe to our email list.</strong></p>
+                </div>
                 <br>
                 <h2><strong>One-on-One Consulting Services</strong></h2>
 
