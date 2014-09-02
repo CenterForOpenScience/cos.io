@@ -165,7 +165,7 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center" id="google"><a href="http://www.google.com/enterprise/apps/business/"><img src="/static/img/icons/google2.png"></a></td>
+                                                    <td class="sponsor-center" id="google"><a href="http://www.google.com"><img src="/static/img/icons/google2.png"></a></td>
                                                     <td><span class="med-font"><strong>Google</strong></span><br>
                                                     <a href="http://www.google.com/nonprofits/products/">Google Apps for non-profits</a><br>
                                                     </td>
