@@ -75,7 +75,7 @@
                                             <p>These organizations helped us out by provinding in-kind donations of goods and services.</p>
                                             <table  class="margin-top-50 donation-table">
                                                 <tr>
-                                                    <td class="sponsor-center" id="jetbrains"><a href="jetbrains.com"><img src="/static/img/icons/jetbrains.jpg"></a></td>
+                                                    <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
                                                     <td><span class="med-font"><strong>JetBrains</strong></span><br> 
                                                     Professional editions of PyCharm and Webstorm via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
                                                     </td>
@@ -165,9 +165,9 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center" id="google"><a href="http://google.com"><img src="/static/img/icons/google2.png"></a></td>
+                                                    <td class="sponsor-center" id="google"><a href="http://www.google.com/enterprise/apps/business/"><img src="/static/img/icons/google2.png"></a></td>
                                                     <td><span class="med-font"><strong>Google</strong></span><br>
-                                                    <a href="http://www.google.com/nonprofits/products/">Google apps for non-profits</a><br>
+                                                    <a href="http://www.google.com/nonprofits/products/">Google Apps for non-profits</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer-small"></tr>
@@ -253,7 +253,7 @@
                             <td>Giving Library is a catalogue of non-profits where you can make a secure donation to COS.</td>
                         </tr>
                         <tr>
-                            <td class="sponsor-center"><a href="smile.amazon.org"><img src="/static/img/icons/amazon.jpg"></a></td>
+                            <td class="sponsor-center"><a href="http://smile.amazon.com"><img src="/static/img/icons/amazon.jpg"></a></td>
                             <td>AmazonSmile allows shoppers to benefit organizations they support, just by making their usual online purchases.</td>
                         </tr>
 
