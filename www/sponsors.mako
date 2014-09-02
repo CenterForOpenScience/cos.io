@@ -98,7 +98,7 @@
                                                 <td class="sponsor-center"><a href="http://www.templeton.org/"><img src="/static/img/templeton.png"></a></td>
                                                 <td><span class="med-font"><strong>John Templeton Foundation</strong></span><br>
                                                 <strong>$759,549</strong><br>
-                                                The John Templeton Foundationton awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
+                                                The John Templeton Foundation awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
