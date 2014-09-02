@@ -267,7 +267,9 @@ body {
 }
 .front-team .thumbnail img {
     max-height: 265px;
-    max-width: 256px
+    max-width: 256px;
+    min-width: 256px;
+    min-height: 256px;
 }
 
 .front-team h3 {

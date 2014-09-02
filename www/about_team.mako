@@ -146,6 +146,18 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/person.png" alt="Courtney Soderberg">
+            <h3>
+                <a href="https://osf.io/hsey5/">Courtney Soderberg</a>
+                <small>Statisical Consultant | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/chrisseto" data-original-title="GitHub" class="github"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
             <h3>
                 <a href="https://osf.io/f9xpl/">Denise Holman</a>
@@ -272,18 +284,6 @@
                 <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://www.linkedin.com/pub/kurtis-jungersen/37/76b/3a" data-original-title="linkedin" class="linkedin"></a></li>
             </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
-            <h3>
-                <a href="https://osf.io/3t5vu/">Lauren Revere</a>
-                <small>Intern | Infrastructure</small>
-            </h3>
-                <ul class="social-icons social-icons-color">
-                    <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
-                </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -461,9 +461,9 @@
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/bischak.jpg" alt="Alexander Ferguson">
+            <img src="../static/img/people/person.png" alt="Alexander Ferguson">
             <h3>
-                <a href="#">Alexander Ferguson</a>
+                <a href="https://osf.io/gxe9a/">Alexander Ferguson</a>
                 <small>Intern | Infrastructure</small>
             </h3>
         </div>
@@ -479,9 +479,9 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/rybaki.jpg" alt="Chun Wang">
+            <img src="../static/img/people/person.png" alt="Chun Wang">
             <h3>
-                <a href="https://osf.io/uycv3/">Chun Wang</a>
+                <a href="https://osf.io/mejnw/">Chun Wang</a>
                 <small>Intern | Infrastructure</small>
             </h3>
         </div>
@@ -505,6 +505,18 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="http://www4.ncsu.edu/~jwshephe/" data-original-title="person" class="person"></a></li>
             </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
+            <h3>
+                <a href="https://osf.io/3t5vu/">Lauren Revere</a>
+                <small>Intern | Infrastructure</small>
+            </h3>
+                <ul class="social-icons social-icons-color">
+                    <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
+                </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
