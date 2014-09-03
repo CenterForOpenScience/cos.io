@@ -106,7 +106,7 @@
                                                 <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
                                                 <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
                                                 <strong>$152,386</strong><br>
-                                                The association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
+                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
