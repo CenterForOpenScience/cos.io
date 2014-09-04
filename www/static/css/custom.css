@@ -32,6 +32,9 @@ body {
 
 .social-icons .person {background: url(../img/icons/social/person.png) no-repeat;}
 
+.social-icons .osf {background: url(../img/icons/social/osf.png) no-repeat;}
+
+
 /*Lists*/
 .front-lists-v1 li {
     font-size: 14px;
