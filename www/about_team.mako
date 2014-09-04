@@ -146,7 +146,7 @@
             <img src="../static/img/people/seto.jpg" alt="Chris Seto">
             <h3>
                 <a href="#">Chris Seto</a>
-                <small>Junior Developer | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/chrisseto" data-original-title="GitHub" class="github"></a></li>
@@ -168,13 +168,12 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/person.png" alt="Courtney Soderberg">
+            <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 <a href="https://osf.io/hsey5/">Courtney Soderberg</a>
                 <small>Statisical Consultant | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/csoderberg" data-original-title="GitHub" class="github"></a></li>
             </ul>
         </div>
     </li>
