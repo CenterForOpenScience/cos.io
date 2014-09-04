@@ -99,7 +99,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/fitzgerald.jpg" alt="Cailey Fitzgerald">
+            <img src="../static/img/people/fitzgerald2.jpg" alt="Cailey Fitzgerald">
             <h3>
                 Cailey Fitzgerald
                 <small>Intern | Infrastructure</small>
@@ -317,7 +317,7 @@
             </ul>
         </div>
     </li>
-<!--     <li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/yuan.jpg" alt="Jinlu Yuan">
             <h3>
@@ -325,9 +325,11 @@
                 <small>Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/xbkq5/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
-    </li> -->
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/cohoon.jpg" alt="Johanna Cohoon">
@@ -425,7 +427,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/richter.jpg" alt="Natasha Richter">
+            <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
             <h3>
                 Natasha Richter
                 <small>Intern | Community</small>
