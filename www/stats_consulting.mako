@@ -68,22 +68,22 @@
                 <p><strong>Want to get information about upcoming workshops and new resources? Subscribe to <a href="http://eepurl.com/2kghn">our email list.</a></strong></p>
                 </div>
                 <br>
-                <h2><strong>One-on-One Consulting Services</strong></h2>
+                <h2><strong>Free One-on-One Consulting Services</strong></h2>
 
                 <hr>
                 <p><strong>Email Consulting:</strong></p>
-                <p>Have a question that you think could be answered over email, or just want to get some general suggests of resources to look into? Email <a href='mailto:stats-consulting@cos.io'>stats-consulting@cos.io</a> with your questions. We will try our best or respond within 1-2 business days. Please include data, syntax, and output files, when applicable. If we feel the question could be better answered ‘in person’, we will email to set up an online appointment.</p>
+                <p>Have a question that you think could be answered over email, or just want to get some general suggestions of resources to look into? Email <a href='mailto:stats-consulting@cos.io'>stats-consulting@cos.io</a> with your questions. We will try our best to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. If we feel the question could be better answered ‘in person’, we will email to set up an online appointment.</p>
                 <br>
                 <p><strong>Online consulting by appointment:</strong></p>
                 <p>Want to talk through your problem in real time? <a href="https://www.google.com/calendar/embed?src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&ctz=America/New_York">Check our calendar</a>  to see when our consultants are available and then  <a href="mailto:stats-consulting@cos.io">email us</a> to request a Google Hangout appointment. In your email, please include a short description of your question, as well as data, syntax, and output files, when applicable. If you don’t see any times that work for you, email us and we will try to set up a special time outside our normal consulting hours. Initial consultations are up to 30 minutes. More complex problems will be handled through follow-up consultations.</p>
                 <br>
-                <h2><strong>Training</strong></h2>
+                <h2><strong>Free Training</strong></h2>
                 <hr>
                 <p><strong>Online Workshops</strong></p>
                 <p>We offer online workshops on topics related to reproducible research and good statistical practices. Recordings of workshops and related materials will be made available via the OSF.</p>
                 <br>
                 <p><strong>On-site Workshops</strong></p>
-                <p>Want a more in-depth, hands-on experience for you lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats@cos.io'>stats-consulting@cos.io</a> to request a COS workshop in your area.</p>
+                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats@cos.io'>stats-consulting@cos.io</a> to request a COS workshop in your area.</p>
                 <br>
                 <h2><strong>FAQ</strong></h2>
                 <hr>
@@ -128,7 +128,7 @@
 
                 <p><strong>Are your services really free?</p></strong>
                 <p>Yep. The Center for Open Science is a non-profit organization committed to helping the scientific community align values and practices. To that end, all of our products and services are free and open source. This is made possible by the generous donations of our sponsors.</p>
-                <p><strong>How can I recognize your help?</strong></p>
+                <p><strong>How can I acknowledge your services?</strong></p>
                 <p>Tell your friends about our services! Acknowledgement is not required, but is appreciated for spreading the word.</p>
 
             <!-- END INFO BLOCK -->
