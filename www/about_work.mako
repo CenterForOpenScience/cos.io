@@ -49,7 +49,7 @@
                             <dt><i class="fa fa-group "></i>&nbsp;&nbsp;&nbsp;Community</dt>
                             <dd>Incentives for success focus scientists on getting published more than getting it right.  Nudging these dysfunctional incentives requires 
                                 engagement with the entire science ecosystem - funders, journals, societies, and institutions.  We engage the entire ecosystem and support tools and 
-                                procedures to shape daily practices such as <a href="https://osf.io/tvyxz/wiki/home/">badges for open science</a> and <a href="http://cos.io/pr/2014-05-19/">Registered Reports</a>.  </dd>
+                                procedures to shape daily practices such as <a href="https://osf.io/tvyxz/wiki/home/">badges for open science</a> and <a href="http://cos.io/pr/2014-05-19/">Registered Reports</a>. We also offer <a href="/stats_consulting/">free consulting services and training</a> on reproducible practices and statistics. </dd>
                         </dl>
                     </div>
                     <div class="col-md-4 col-sm-6">
