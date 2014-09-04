@@ -328,22 +328,9 @@ body {
     width : 360px;
     text-align: center;
 }
+
 .sponsor-center img {
-    width: 80%;
-    height: auto;
+    max-width: 225px;
+    max-height: 145px;
 }
 
-#square img {
-    height: 110%;
-    width: 33%;
-}
-
-#google img {
-    height: 30%;
-    width: 70%;
-}
-
-#jetbrains img {
-    height: 115%;
-    width: 75%;
-}

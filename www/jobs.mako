@@ -203,7 +203,7 @@
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#accordion5" >
-                    Product Marketing Manager
+                    Product Marketing Lead
                 </a>
             </h4>
         </div>
@@ -212,7 +212,7 @@
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
                     <dd>
-                        <p>Join a mission-driven, non-profit tech startup that is promoting openness, integrity, and reproducibility of scientific research.  With rapid growth over the past year, and over $12M in startup funding, COS will add a strategically-oriented Product Marketing Manager to focus attention on marketing of COS products and services.  COS products and services are entirely free and open-source.  The manager will be responsible for leading efforts to identify and target key audiences, position products, and grow adoption.  The role is entirely mission-driven: How can COS products and services best be used to promote and support the adoption of scientific values in daily scientific practices?</p>
+                        <p>Join a mission-driven, non-profit tech startup that is promoting openness, integrity, and reproducibility of scientific research.  With rapid growth over the past year, and over $12M in startup funding, COS will add a strategically-oriented Product Marketing Lead to focus attention on marketing of COS products and services.  COS products and services are entirely free and open-source.  The manager will be responsible for leading efforts to identify and target key audiences, position products, and grow adoption.  The role is entirely mission-driven: How can COS products and services best be used to promote and support the adoption of scientific values in daily scientific practices?</p>
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
