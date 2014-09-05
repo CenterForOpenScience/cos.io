@@ -41,7 +41,7 @@
                                     </li>
                                     <li>
                                         <a href="#portlet_tab2_1" data-toggle="tab">
-                                        2013 </a>
+                                        2013</a>
                                     </li>
                                 </ul>
                                 <div class="tab-content">
@@ -50,8 +50,8 @@
                                             <tr>
                                                 <td class="sponsor-center"><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$2,166,125</strong><br>
-                                                The Laura and John Arnold Foundation donated funds to support the Center's operating costs for an initial four-year period. The funds were provided to foster open, reliable, and rigorous scientific research.<br>
+                                                <strong>$2,161,625</strong><br>
+                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             <tr class="spacer"></tr>
                                             </tr>
@@ -89,8 +89,8 @@
                                             <tr>
                                                 <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$1,549,625</strong><br>
-                                                The Laura and John Arnold Foundation supported the Center for Open Science in their continuing mission to foster open, reliable, and rigorous scientific research.<br>
+                                                <strong>$2,174,625</strong><br>
+                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
