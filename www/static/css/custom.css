@@ -32,6 +32,9 @@ body {
 
 .social-icons .person {background: url(../img/icons/social/person.png) no-repeat;}
 
+.social-icons .osf {background: url(../img/icons/social/osf.png) no-repeat;}
+
+
 /*Lists*/
 .front-lists-v1 li {
     font-size: 14px;
@@ -266,7 +269,10 @@ body {
     height: 380px !important;
 }
 .front-team .thumbnail img {
-    height: 265px;
+    max-height: 265px;
+    max-width: 256px;
+    min-width: 256px;
+    min-height: 256px;
 }
 
 .front-team h3 {
