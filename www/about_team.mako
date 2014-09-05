@@ -120,7 +120,10 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/caneruguz" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="www.linkedin.com/in/caneruguz" data-original-title="LinkedIn" class="linkedin"></a></li>
                 <li><a href="https://osf.io/b6dn2/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://www.caneruguz.com/" data-original-title="person" class="person"></a></li>
+                <li><a href="https://twitter.com/caneruguz" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -138,7 +141,7 @@
             </ul>
         </div>
     </li>    
-<!--     <li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/overstreet.jpg" alt="Chelsea Overstreet">
             <h3>
@@ -147,10 +150,10 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/overstreetce" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/juwia/" data-original-title="osf" class="osf"></a></li>
+                <!-- <li><a href="https://osf.io/juwia/" data-original-title="osf" class="osf"></a></li> -->
             </ul>
         </div>
-    </li> -->
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/seto.jpg" alt="Chris Seto">
@@ -175,8 +178,8 @@
                 <li><a href="https://github.com/csheldonhess" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="http://www.linkedin.com/in/csheldonhess" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/x8hp3/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://twitter.com/parody_bit" data-original-title="Twitter" class="twitter"></a></li>
                 <li><a href="http://coral.sheldon-hess.org" data-original-title="person" class="person"></a></li>
+                <li><a href="https://twitter.com/parody_bit" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -261,7 +264,20 @@
             </ul>
         </div>
     </li>
-<!--     <li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
+            <h3>
+                Ginny Huang
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/ij94f/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/ojha.jpg" alt="Himanshu Ojha">
             <h3>
@@ -270,10 +286,11 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/himanshuo" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/himanshuo" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/dvsn9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
-    </li> -->
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
@@ -301,19 +318,6 @@
                 <li><a href="http://www.linkedin.com/pub/jeffrey-spies/52/1a7/507" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/jk5cv/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/JeffSpies" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
-            <h3>
-                Ginny Huang
-                <small>Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/ij94f/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -510,7 +514,7 @@
                 <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/se8ea" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://github.com/samanehsan" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/dcb3q/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
