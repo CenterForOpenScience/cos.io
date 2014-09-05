@@ -514,7 +514,7 @@
                 <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/se8ea" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://github.com/samanehsan" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/dcb3q/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
