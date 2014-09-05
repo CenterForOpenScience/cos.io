@@ -253,7 +253,7 @@
                             <td>Giving Library is a catalogue of non-profits where you can make a secure donation to COS.</td>
                         </tr>
                         <tr>
-                            <td class="sponsor-center"><a href="http://smile.amazon.com"><img src="/static/img/icons/amazon.jpg"></a></td>
+                            <td class="sponsor-center"><a href="http://smile.amazon.com/ch/46-1496217"><img src="/static/img/icons/amazon.jpg"></a></td>
                             <td>AmazonSmile allows shoppers to benefit organizations they support, just by making their usual online purchases.</td>
                         </tr>
 
