@@ -41,7 +41,7 @@
                                     </li>
                                     <li>
                                         <a href="#portlet_tab2_1" data-toggle="tab">
-                                        2013 </a>
+                                        2013</a>
                                     </li>
                                 </ul>
                                 <div class="tab-content">
@@ -50,8 +50,8 @@
                                             <tr>
                                                 <td class="sponsor-center"><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$2,166,125</strong><br>
-                                                The Laura and John Arnold Foundation donated funds to support the Center's operating costs for an initial four-year period. The funds were provided to foster open, reliable, and rigorous scientific research.<br>
+                                                <strong>$2,161,625</strong><br>
+                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             <tr class="spacer"></tr>
                                             </tr>
@@ -89,8 +89,8 @@
                                             <tr>
                                                 <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$1,549,625</strong><br>
-                                                The Laura and John Arnold Foundation supported the Center for Open Science in their continuing mission to foster open, reliable, and rigorous scientific research.<br>
+                                                <strong>$2,174,625</strong><br>
+                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -98,7 +98,7 @@
                                                 <td class="sponsor-center"><a href="http://www.templeton.org/"><img src="/static/img/templeton.png"></a></td>
                                                 <td><span class="med-font"><strong>John Templeton Foundation</strong></span><br>
                                                 <strong>$759,549</strong><br>
-                                                The John Templeton Foundationton awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
+                                                The John Templeton Foundation awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -106,7 +106,7 @@
                                                 <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
                                                 <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
                                                 <strong>$152,386</strong><br>
-                                                The association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
+                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -253,7 +253,7 @@
                             <td>Giving Library is a catalogue of non-profits where you can make a secure donation to COS.</td>
                         </tr>
                         <tr>
-                            <td class="sponsor-center"><a href="http://smile.amazon.com"><img src="/static/img/icons/amazon.jpg"></a></td>
+                            <td class="sponsor-center"><a href="http://smile.amazon.com/ch/46-1496217"><img src="/static/img/icons/amazon.jpg"></a></td>
                             <td>AmazonSmile allows shoppers to benefit organizations they support, just by making their usual online purchases.</td>
                         </tr>
 
