@@ -72,7 +72,7 @@
                                         </table>
                                         <div id="in-kind" class="margin-top-100">
                                             <h3><strong>In-Kind Donations</strong></h3>
-                                            <p>These organizations helped us out by provinding in-kind donations of goods and services.</p>
+                                            <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
                                             <table  class="margin-top-50 donation-table">
                                                 <tr>
                                                     <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
@@ -120,7 +120,7 @@
                                         </table>
                                         <div id="in-kind" class="margin-top-100">
                                             <h3><strong>In-Kind Donations</strong></h3>
-                                            <p>These organizations helped us out by provinding in-kind donations of goods and services.</p>
+                                            <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
                                             <table  class="margin-top-50 donation-table">
                                                 <tr>
                                                     <td class="sponsor-center" ><a href="http://www.biolegend.com/"><img src="/static/img/icons/biologo.png"></a></td>
