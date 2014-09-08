@@ -580,18 +580,18 @@
 <h1><strong>Alumni<br><br></strong></h1>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
-<!--     <li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/person.png" alt="Alexander Ferguson">
+            <img src="../static/img/people/ferguson.jpg" alt="Alexander Ferguson">
             <h3>
-                <a href="https://osf.io/gxe9a/">Alexander Ferguson</a>
+                Alexander Ferguson
                 <small>Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/4nw7z/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://osf.io/gxe9a/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
-    </li> -->
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/macdonald.jpg" alt="Austin Macdonald">
