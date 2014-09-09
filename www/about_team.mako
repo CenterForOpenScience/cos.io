@@ -433,7 +433,7 @@
         <div class="thumbnail">
             <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
             <h3>
-                Natasha Richter
+                Natasha Welcher
                 <small>Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
