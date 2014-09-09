@@ -49,7 +49,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="http://www.linkedin.com/in/andrewsallans" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/mcrb2/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://osf.io/ruiy4/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/asallans" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>

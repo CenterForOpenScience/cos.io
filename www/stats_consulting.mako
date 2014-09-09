@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-10 space-mobile">
+            <div class="col-md-10">
 
                 <br>
                 <br>
