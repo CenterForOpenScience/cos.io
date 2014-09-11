@@ -80,6 +80,7 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/brianjgeiger" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/typ46/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/thefoodgeek" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
