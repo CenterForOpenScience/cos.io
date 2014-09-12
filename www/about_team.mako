@@ -32,7 +32,7 @@
             <img src="../static/img/people/schiller.jpg" alt="Alex Schiller">
             <h3>
                 Alex Schiller
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/alexschiller" data-original-title="GitHub" class="github"></a></li>
@@ -59,7 +59,7 @@
             <img src="../static/img/people/mufti.jpg" alt="Azeem Mufti">
             <h3>
                 Azeem Mufti
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/azeemmufti" data-original-title="GitHub" class="github"></a></li>
@@ -103,7 +103,7 @@
             <img src="../static/img/people/fitzgerald2.jpg" alt="Cailey Fitzgerald">
             <h3>
                 Cailey Fitzgerald
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/caileyfitz" data-original-title="GitHub" class="github"></a> </li>
@@ -133,7 +133,7 @@
             <img src="../static/img/people/rollins.jpg" alt="Casey Rollins">
             <h3>
                 Casey Rollins
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/cmr3rm" data-original-title="GitHub" class="github"></a></li>
@@ -147,7 +147,7 @@
             <img src="../static/img/people/overstreet.jpg" alt="Chelsea Overstreet">
             <h3>
                 Chelsea Overstreet
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/overstreetce" data-original-title="GitHub" class="github"></a></li>
@@ -214,7 +214,7 @@
             <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
             <h3>
                 Erica Baranski
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
@@ -243,7 +243,7 @@
             <img src="../static/img/people/feilitzsch.jpg" alt="Fabian von Feilitzsch">
             <h3>
                 Fabian von Feilitzsch
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/fabianvf" data-original-title="GitHub" class="github"></a></li>
@@ -257,7 +257,7 @@
             <img src="../static/img/people/huynh.jpg" alt="Faye Huynh">
             <h3>
                 Faye Huynh
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/fh9cp" data-original-title="GitHub" class="github"></a></li>
@@ -270,7 +270,7 @@
             <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
             <h3>
                 Ginny Huang
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
@@ -283,7 +283,7 @@
             <img src="../static/img/people/ojha.jpg" alt="Himanshu Ojha">
             <h3>
                 Himanshu Ojha
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/himanshuo" data-original-title="GitHub" class="github"></a></li>
@@ -297,7 +297,7 @@
             <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
             <h3>
                 Jake Rosenberg
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.facebook.com/jakerose27" data-original-title="Facebook" class="facebook"></a></li>
@@ -327,7 +327,7 @@
             <img src="../static/img/people/yuan.jpg" alt="Jinlu Yuan">
             <h3>
                 Jinlu Yuan
-                <small>Intern | Community</small>
+                <small>HR Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
@@ -369,7 +369,7 @@
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
             <h3>
                 Kurtis Jungersen
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
@@ -409,7 +409,7 @@
             <img src="../static/img/people/yao.jpg" alt="Michelle Yao">
             <h3>
                 Michelle Yao
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
                 <ul class="social-icons social-icons-color">
                     <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
@@ -435,7 +435,7 @@
             <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
             <h3>
                 Natasha Welcher
-                <small>Intern | Community</small>
+                <small>HR Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
@@ -447,7 +447,7 @@
             <img src="../static/img/people/amanfu.jpg" alt="Robert Amanfu">
             <h3>
                 Robert Amanfu
-                <small>Volunteer | Infrastructure</small>
+                <small>Developer Volunteer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/sn8rm/" data-original-title="osf" class="osf"></a></li>
@@ -459,7 +459,7 @@
             <img src="../static/img/people/liebowitz.jpg" alt="Robert Liebowitz">
             <h3>
                 Robert Liebowitz
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.facebook.com/RobertEvan" data-original-title="Facebook" class="facebook"></a></li>
@@ -473,7 +473,7 @@
             <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
             <h3>
                 Sam Chrisinger
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="http://github.com/shc7pw" data-original-title="GitHub" class="github"></a></li>
@@ -486,7 +486,7 @@
             <img src="../static/img/people/portnow.jpg" alt="Sam Portnow">
             <h3>
                 Sam Portnow
-                <small>Volunteer | Infrastructure</small>
+                <small>Developer Volunteer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/SamPortnow" data-original-title="GitHub" class="github"></a></li>
@@ -552,7 +552,7 @@
             <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
             <h3>
                 Wendy Zhu
-                <small>Volunteer | Infrastructure</small>
+                <small>Developer Volunteer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/kneic/" data-original-title="osf" class="osf"></a></li>
@@ -564,7 +564,7 @@
             <img src="../static/img/people/herrick.jpg" alt="Xander Herrick">
             <h3>
                 Xander Herrick
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/XTech2k" data-original-title="GitHub" class="github"></a></li>
@@ -586,7 +586,7 @@
             <img src="../static/img/people/ferguson.jpg" alt="Alexander Ferguson">
             <h3>
                 Alexander Ferguson
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/gxe9a/" data-original-title="osf" class="osf"></a></li>
@@ -598,7 +598,7 @@
             <img src="../static/img/people/macdonald.jpg" alt="Austin Macdonald">
             <h3>
                 Austin Macdonald
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/asmacdo" data-original-title="GitHub" class="github"></a></li>
@@ -611,7 +611,7 @@
             <img src="../static/img/people/bischak.jpg" alt="Chris Bischak">
             <h3>
                 Chris Bischak
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
         </div>
     </li>
@@ -620,7 +620,7 @@
             <img src="../static/img/people/wang.jpg" alt="Chun Wang">
             <h3>
                 Chun Wang
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/mejnw/" data-original-title="osf" class="osf"></a></li>
@@ -632,7 +632,7 @@
             <img src="../static/img/people/rybaki.jpg" alt="Harry Rybacki">
             <h3>
                 Harry Rybacki
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/uycv3/" data-original-title="osf" class="osf"></a></li>
@@ -644,7 +644,7 @@
             <img src="../static/img/people/witschey.jpg" alt="Jim Witschey">
             <h3>
                 Jim Witschey
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/mambocab" data-original-title="GitHub" class="github"></a></li>
@@ -658,7 +658,7 @@
             <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
             <h3>
                 Lauren Revere
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
@@ -684,7 +684,7 @@
             <img src="../static/img/people/lapuz.jpg" alt="Michael Lapuz">
             <h3>
                 Michael Lapuz
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/iqszn/" data-original-title="osf" class="osf"></a></li>
@@ -696,7 +696,7 @@
             <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
             <h3>
                 Patrick Ryan
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/27ptw/" data-original-title="osf" class="osf"></a></li>
@@ -708,7 +708,7 @@
             <img src="../static/img/people/fan.jpg" alt="Peter Fan">
             <h3>
                 Peter Fan
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
                 <ul class="social-icons social-icons-color">
                     <li><a href="https://github.com/pjfan" data-original-title="GitHub" class="github"></a></li>
@@ -721,7 +721,7 @@
             <img src="../static/img/people/brodsky.jpg" alt="Saul Brodsky">
             <h3>
                 Saul Brodsky
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/bax5h/" data-original-title="osf" class="osf"></a></li>
@@ -733,7 +733,7 @@
             <img src="../static/img/people/hudson.jpg" alt="Tanesha Hudson">
             <h3>
                 Tanesha Hudson
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/wdbn4/" data-original-title="osf" class="osf"></a></li>
