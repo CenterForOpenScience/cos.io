@@ -144,7 +144,7 @@ ${self.body()}
                     Center for Open Science<br />
                     210 Ridge McIntire Road<br />
                     Suite 500<br />
-                    Charlottesville, VA 22903<br />
+                    Charlottesville, VA 22902<br />
                     Email: <a href="mailto:contact@cos.io">contact@cos.io</a>
                 </address>
                 <!--BEGIN SOCIAL LINKS -->

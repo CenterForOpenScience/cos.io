@@ -83,7 +83,7 @@
                 <p>We offer online workshops on topics related to reproducible research and good statistical practices. Recordings of workshops and related materials will be made available via the OSF.</p>
                 <br>
                 <p><strong>On-site Workshops</strong></p>
-                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats@cos.io'>stats-consulting@cos.io</a> to request a COS workshop in your area.</p>
+                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io'>stats-consulting@cos.io</a> to request a COS workshop in your area.</p>
                 <br>
                 <h2><strong>FAQ</strong></h2>
                 <hr>
