@@ -165,6 +165,12 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" id="google"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
+                                                    <td><span class="med-font"><strong>Github</strong></span><br>
+                                                    Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="google"><a href="http://www.google.com"><img src="/static/img/icons/google2.png"></a></td>
                                                     <td><span class="med-font"><strong>Google</strong></span><br>
                                                     <a href="http://www.google.com/nonprofits/products/">Google Apps for non-profits</a><br>
