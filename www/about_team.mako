@@ -186,6 +186,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
+            <h3>
+                Cornelius Nelson
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bxcty/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 Courtney Soderberg
@@ -193,6 +206,19 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/hsey5/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/holman.jpg" alt="Dejah Carter">
+            <h3>
+                Dejah Carter
+                <small>Administrative Assistant Intern | Community </small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
