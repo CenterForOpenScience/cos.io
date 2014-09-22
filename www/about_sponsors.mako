@@ -167,7 +167,7 @@
                                                 <tr>
                                                     <td class="sponsor-center" id="square"><a href="https://www.flowdock.com/"><img src="/static/img/icons/flowdock-logo.png"></a></td>
                                                     <td><span class="med-font"><strong>Flowdock</strong></span><br>
-                                                    Free team chat and collaboration application</a><br>
+                                                    Free access to their <a href="http://flowdock.com">team chat and collaboration</a> application<br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
