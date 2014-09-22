@@ -165,6 +165,13 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" id="square"><a href="https://www.flowdock.com/"><img src="/static/img/icons/flowdock-logo.png"></a></td>
+                                                    <td><span class="med-font"><strong>Flowdock</strong></span><br>
+                                                    Free team chat and collaboration application</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="google"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
                                                     <td><span class="med-font"><strong>Github</strong></span><br>
                                                     Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
