@@ -76,8 +76,8 @@
                                             <table  class="margin-top-50 donation-table">
                                                 <tr>
                                                     <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
-                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br> 
-                                                    Professional editions of PyCharm and Webstorm via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
+                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br>
+                                                    Professional editions of <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> and <a href="http://www.jetbrains.com/webstorm/">Webstorm</a> via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -165,6 +165,19 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" id="square"><a href="https://www.flowdock.com/"><img src="/static/img/icons/flowdock-logo.png"></a></td>
+                                                    <td><span class="med-font"><strong>Flowdock</strong></span><br>
+                                                    Free team chat and collaboration application</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="google"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
+                                                    <td><span class="med-font"><strong>Github</strong></span><br>
+                                                    Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="google"><a href="http://www.google.com"><img src="/static/img/icons/google2.png"></a></td>
                                                     <td><span class="med-font"><strong>Google</strong></span><br>
                                                     <a href="http://www.google.com/nonprofits/products/">Google Apps for non-profits</a><br>
@@ -181,7 +194,7 @@
                                                 <tr>
                                                     <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
                                                     <td><span class="med-font"><strong>JetBrains</strong></span><br>
-                                                    Professional editions of PyCharm and Webstorm via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
+                                                    Professional editions of <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> and <a href="http://www.jetbrains.com/webstorm/">Webstorm</a> via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
