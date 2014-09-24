@@ -30,7 +30,7 @@
                 <h1><strong>Statistical & Methodological Consulting Services<br></strong></h1>
                 <br>
                 <h2><center>Learn more about Open and Reproducible...</center></h2>
-                <div class="row service-box margin-bottom-40">
+                <div class="service-box margin-bottom-40">
                     <div class="col-md-4 col-sm-4">
                         <div class="service-box-heading">
                             <span>Tools & Computation</span>
