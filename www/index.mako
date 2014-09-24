@@ -55,7 +55,7 @@ ${page}
         </div>
         <!-- BEGIN SERVICE BOX -->
         <div class="service-box margin-bottom-40">
-            <br>
+            <div class="row">
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-user blue"></i></em>
@@ -77,11 +77,11 @@ ${page}
                 </div>
                 <p>COS builds open source infrastructure for science, connects via API with other services, and supports open projects. <a href="/developers/">Find out how you can get involved.</a></p>
             </div>
-        </div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
+            </div>
+       </div>
 
         <div class="center margin-bottom-40 margin-top-40">
+            <div class="row">
             <h1 class="bold">What We Work On</h1>
         </div>
         <div class="service-box">
@@ -106,6 +106,7 @@ ${page}
                     <span>Infrastructure</span>
                 </div>
                 <p>We support and improve the scientific workflow by connecting technologies that researchers use. See our work at the <a href="http://openscienceframework.org">Open Science Framework</a> and check out <a href="/about_work/">some of our other projects</a>.</p>
+            </div>
             </div>
         </div>
         <!-- END SERVICE BOX -->
