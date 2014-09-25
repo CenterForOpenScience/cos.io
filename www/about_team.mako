@@ -392,6 +392,18 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/cain.jpg" alt="Katy Cain">
+            <h3>
+                Katy Cain
+                <small> Social Media Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/q36he/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
             <h3>
                 Kurtis Jungersen
