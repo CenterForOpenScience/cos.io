@@ -201,7 +201,7 @@
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#accordion6" >
-                    Product Marketing Lead
+                    Product Marketer
                 </a>
             </h4>
         </div>
