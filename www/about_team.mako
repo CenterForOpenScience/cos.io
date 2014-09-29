@@ -211,19 +211,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/holman.jpg" alt="Dejah Carter">
-            <h3>
-                Dejah Carter
-                <small>Administrative Assistant Intern | Community </small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
             <h3>
                 Denise Holman
@@ -680,6 +667,20 @@
             </ul>
         </div>
     </li> -->
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
+            <h3>
+                Erica Baranski
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/rybaki.jpg" alt="Harry Rybacki">
