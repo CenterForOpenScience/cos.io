@@ -224,20 +224,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
-            <h3>
-                Erica Baranski
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
                 Erin Braswell
@@ -385,7 +371,12 @@
                 <small> Social Media Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/q36he/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://www.facebook.com/KattherineCain?ref=bookmarks" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/KatyCain526" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="http://www.linkedin.com/pub/katherine-cain/a0/26a/a18" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="http://osf.io/i2tmd" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://katherinecain.photoshelter.com" data-original-title="Person" class="person"></a></li>
+                <li><a href="https://twitter.com/KatyCain526" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
