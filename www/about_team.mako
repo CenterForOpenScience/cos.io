@@ -411,7 +411,7 @@
             <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
             <h3>
                 Kushagra Gupta
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.facebook.com/imkushagra" data-original-title="Facebook" class="facebook"></a></li>
