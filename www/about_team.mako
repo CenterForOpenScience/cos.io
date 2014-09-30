@@ -186,6 +186,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
+            <h3>
+                Cornelius Nelson
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bxcty/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 Courtney Soderberg
@@ -218,20 +231,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
-            <h3>
-                Erica Baranski
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
             </ul>
         </div>
     </li>
@@ -378,6 +377,23 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/cain.jpg" alt="Katy Cain">
+            <h3>
+                Katy Cain
+                <small> Social Media Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/KattherineCain?ref=bookmarks" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/KatyCain526" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="http://www.linkedin.com/pub/katherine-cain/a0/26a/a18" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="http://osf.io/i2tmd" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://katherinecain.photoshelter.com" data-original-title="Person" class="person"></a></li>
+                <li><a href="https://twitter.com/KatyCain526" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
             <h3>
                 Kurtis Jungersen
@@ -387,6 +403,21 @@
                 <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://www.linkedin.com/pub/kurtis-jungersen/37/76b/3a" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/q36he/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
+            <h3>
+                Kushagra Gupta
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/imkushagra" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/KushG" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/pub/kushagra-gupta/26/88/a84" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/k9xyz/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -639,6 +670,20 @@
             </ul>
         </div>
     </li> -->
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
+            <h3>
+                Erica Baranski
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/rybaki.jpg" alt="Harry Rybacki">
