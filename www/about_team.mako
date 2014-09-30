@@ -196,6 +196,18 @@
             </ul>
         </div>
     </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/carter.jpg" alt="Dejah Carter">
+            <h3>
+                Dejah Carter
+                <small>Administrative Assistant Intern | Community </small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/a4xe3/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
