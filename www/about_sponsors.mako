@@ -50,7 +50,7 @@
                                             <tr>
                                                 <td class="sponsor-center"><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$2,161,625</strong><br>
+                                                <strong>$2,166,125</strong><br>
                                                 The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             <tr class="spacer"></tr>
@@ -99,6 +99,14 @@
                                                 <td><span class="med-font"><strong>John Templeton Foundation</strong></span><br>
                                                 <strong>$759,549</strong><br>
                                                 The John Templeton Foundation awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
+                                                <strong>$168,600</strong><br>
+                                                The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
