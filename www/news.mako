@@ -31,7 +31,16 @@
         <div class="row">
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
-                <div class="row margin-bottom-20">                    
+                <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://www.apamonitor-digital.org/apamonitor/201409/#pg35">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/APA_Monitor.jpg" width="125"></td>
+                                <td><h2 class="text-left">Reproducing Results</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">September, 2014 | APA and other groups advocate for more data sharing and replication studies, although some psychologists say they aren't necessary.</p>
+                    </a>                  
                     <a class="col-md-4 service-box-v1" href="/pr/2014-08-28">
                         <table>
                             <tr>
