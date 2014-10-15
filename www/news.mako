@@ -134,7 +134,7 @@
                         </table>
                         <p class="text-left">January 2014 | The Center for Open Science's activities and the need for greater numbers of replications in science was ranked as number 46 in the Discover Magazine's top 100 stories of 2013.</p>
                     </a>
-                    <a class="col-md-4 service-box-v1" href="http://cos.io/static/WTJUinterview.mp3">
+                    <a class="col-md-4 service-box-v1" href="/static/WTJUinterview.mp3">
                         <table>
                             <tr>
                                 <td><img src="/static/img/icons/wtju.png" width="125"></td>
