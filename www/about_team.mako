@@ -189,7 +189,7 @@
             <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
             <h3>
                 Cornelius Nelson
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer Volunteer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
