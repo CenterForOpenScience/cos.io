@@ -27,17 +27,17 @@
 
 <!--BEGIN OPPORTUNITIES -->
 <h1><strong>Open Positions</strong><br><br></h1>
-<div id="accordion2" class="panel-group">
+<div id="accordion1" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion2_2">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion1_1">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a  data-parent="#accordion2" >
+                <a  data-parent="#accordion1" >
                     Developer
                 </a>
             </h4>
         </div>
-        <div id="accordion2_2" class="panel-collapse collapse">
+        <div id="accordion1_1" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -83,17 +83,17 @@
         </div>
     </div>
 </div>
-<div id="accordion3" class="panel-group">
+<div id="accordion2" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion2_2">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a data-parent="#accordion3" >
+                <a data-parent="#accordion2" >
                     Developer Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion3_3" class="panel-collapse collapse">
+        <div id="accordion2_2" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
@@ -106,17 +106,17 @@
         </div>
     </div>
 </div>
-<div id="accordion4" class="panel-group">
+<div id="accordion3" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
-                        <h4 class="panel-title">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion4" >
+                <a  data-parent="#accordion3" >
                     Human Resources Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion4_4" class="panel-collapse collapse">
+        <div id="accordion3_3" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -151,17 +151,17 @@
         </div>
     </div>
 </div>
-<div id="accordion5" class="panel-group">
+<div id="accordion4" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion5_5">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion5" >
+                <a  data-parent="#accordion4" >
                     IT Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion5_5" class="panel-collapse collapse">
+        <div id="accordion4_4" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -195,17 +195,17 @@
         </div>
     </div>
 </div>
-<div id="accordion6" class="panel-group">
+<div id="accordion5" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion6_6">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion5_5">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion6" >
+                <a  data-parent="#accordion5" >
                     Product Marketer
                 </a>
             </h4>
         </div>
-        <div id="accordion6_6" class="panel-collapse collapse">
+        <div id="accordion5_5" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -380,51 +380,6 @@
                     <dt>Skills</dt>
                     <dd>
                         <p>Substantial training and experience in scientific research, quantitative methods, and reproducible research practices; Extremely high social and communication skills; Exceptional organization and attention to detail; Service-oriented mindset; Diverse experience with technologies for data collection, analysis, and visualization; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in programming (at least R, ideally Python or Julia), web development, and data analysis are essential.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="accordion11" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion11_11">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-
-                <a data-parent="#accordion11" >
-                    Technical Project Manager
-                </a>
-            </h4>
-        </div>
-        <div id="accordion11_11" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>Help lead development of exclusively free, open source software to support open science.  The <a href="http://cos.io">Center for Open Science</a> (COS) is a funded non-profit startup seeking a highly-motivated and experienced development manager to support small teams of OSS developers.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <p>COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The Technical Project Manager will be responsible for leading small teams of full-time and intern developers to maximize work quality, efficiency, team well-being, and growth of team members’ skills and responsibilities.  Also, the Technical Project Manager will collaborate with the leadership team for coordination of overall priorities and architectural choices and direction.</p>
-                        <p>See our <a href="#accordion2">Developer position</a> to learn more about the desired qualities of COS developers.  See more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Strong technical decision-making and solid development ability; Action-orientation; Managing and planning projects; Developing and maintaining processes with the team; Practicality and strategic foresight; Follow-through on the entire lifecycle (including testing, QA, release management, and deployment); Establishing and meeting timelines and milestones; Organization; Effective fostering of a positive work environment; Empowering team members to develop skills and acquire new responsibilities; Capitalizing on the available motivation and talent of team members.</p>
                     </dd>
                     <dt>Location</dt>
                     <dd>
