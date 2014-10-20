@@ -478,7 +478,7 @@
             <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
             <h3>
                 Natasha Welcher
-                <small>HR Intern | Community</small>
+                <small>HR Assistant | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
