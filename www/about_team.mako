@@ -189,7 +189,7 @@
             <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
             <h3>
                 Cornelius Nelson
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer Volunteer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
@@ -411,7 +411,7 @@
             <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
             <h3>
                 Kushagra Gupta
-                <small>Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.facebook.com/imkushagra" data-original-title="Facebook" class="facebook"></a></li>
@@ -478,7 +478,7 @@
             <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
             <h3>
                 Natasha Welcher
-                <small>HR Intern | Community</small>
+                <small>HR Assistant | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>

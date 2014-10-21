@@ -113,13 +113,9 @@
                                 <img class="img-responsive" src="../static/img/RPP.png" alt="Reproducibility Project: Psychology">
                                 <div class="mix-details">
                                     <h4>Reproducibility Project: Psychology</h4>
-                                    <p>The RPP is a massive community effort to replicate
-                                        published studies from three landmark journals. We hope to learn about how open
-                                        practices and incentive structures can impact the scientific process and results as well as
-                                        the rate of replication and reproducibility in psychology. Volunteers conduct research, extract
-                                        data from existing articles, and provide administrative and technical support.
-                                        <a href="https://openscienceframework.org/project/EZcUj/wiki/home/" style="color: black">
-                                            Become a part of the effort.</a>
+                                    <p>The RPP is a massive community effort to replicate published studies from three landmark journals. We hope to learn about how open practices and incentive structures can impact the scientific process and results as well as the rate of replication and reproducibility in psychology.
+                                        <a href="https://osf.io/ezcuj/wiki/home/" style="color: black">
+                                            Read about the effort.</a>
                                     </p>
                                 </div>
                             </div>
@@ -141,7 +137,7 @@
                                 <img class="img-responsive" src="../static/img/RPCB.png" alt="Reproducibility Project: Cancer Biology">
                                 <div class="mix-details">
                                     <h4>Reproducibility Project: Cancer Biology</h4>
-                                    <p><a href="https://openscienceframework.org/project/e81xl/wiki/home/" style="color: black">The Reproducibility Project: Cancer Biology</a> is another empirical study of the replicability of published science.
+                                    <p><a href="https://osf.io/e81xl/wiki/home/" style="color: black">The Reproducibility Project: Cancer Biology</a> is another empirical study of the replicability of published science.
                                         Teaming up with the <a href="https://www.scienceexchange.com/" style="color: black">Science Exchange</a>, we examine how does the current scientific incentive structure affects research practices. If we change those incentives, does the science change as well?
                                     </p>
                                 </div>
@@ -155,7 +151,7 @@
                                     <p> COS maintains badges for open data, open materials, and preregistration to
                                         acknowledge open practices. The badges are unbranded and freely available for
                                         use by journals and other organizations. More information is available
-                                        <a href="https://openscienceframework.org/project/TVyXZ/wiki/home" style="color: black">here</a>.
+                                        <a href="https://osf.io/tvyxz/wiki/home/" style="color: black">here</a>.
                                         Email <a href="mailto:contact@cos.io" rel="nofollow" style="color: black">contact@cos.io</a>
                                         to get support or ask questions about using badges to incentivize open practices.
                                     </p>
@@ -172,7 +168,7 @@
                                         operating through the Open Science Framework. The OSC advances projects in open
                                         science guided by common interests and community standards.</p>
                                     <p>Learn more by visiting the
-                                        <a href="http://osc.cos.io/" style="color: black">OSC blog</a> or join the
+                                        <a href="http://osc.centerforopenscience.org/" style="color: black">OSC blog</a> or join the
                                         <a href="https://groups.google.com/forum/#!forum/openscienceframework" style="color: black">
                                             Google Group</a> conversation.
                                     </p>
