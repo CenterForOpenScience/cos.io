@@ -1,9 +1,6 @@
 <%inherit file="_base.mako"/>
 <%def name="title()">Home</%def>
 <%def name="description()">The Center for Open Science homepage</%def>
-<%def name="page()">
-<% page = 'home' %>
-</%def>
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
@@ -13,8 +10,6 @@
 
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
-
-${page}
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="slide-wrapper"> 
