@@ -5,7 +5,7 @@
 <%def name="description()">The Center for Open Science is funded by private foundations.</%def>
 
 <%def name="navigation()">
-    ${self.navlinks('about_sponsor')}
+    ${self.navlinks('about_sponsors')}
 </%def>
 
 <%def name="stylesheets()">
