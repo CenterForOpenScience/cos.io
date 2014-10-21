@@ -37,8 +37,6 @@
     ${self.navlinks('home')}
 </%def>
 
-${self.stylesheets()}
-
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
@@ -59,6 +57,7 @@ ${self.stylesheets()}
     <link href="/static/css/style-responsive.css" rel="stylesheet" type="text/css"/>
     <link href="/static/css/pages/portfolio.css" rel="stylesheet" type="text/css"/>
     <link href="/static/css/custom.css" rel="stylesheet" type="text/css"/>
+    ${self.stylesheets()}
     <!-- END THEME STYLES -->
 
    <!-- BEGIN FLICKR STYLES --> 
