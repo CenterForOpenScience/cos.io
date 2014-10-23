@@ -447,6 +447,23 @@
                 </ul>
         </div>
     </li>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/michael.JPG" alt="Michael Hasleton">
+            <h3>
+                Michael Hasleton
+                <small>Developer | Infrastructure</small>
+            </h3>
+                <ul class="social-icons social-icons-color">
+                    <li><a href="https://github.com/icereval" data-original-title="GitHub" class="github"></a></li>
+                    <li><a href="https://www.linkedin.com/pub/michael-haselton/2/b61/227" data-original-title="linkedin" class="linkedin"></a></li>
+                    <li><a href="https://osf.io/ashx3/" data-original-title="osf" class="osf"></a></li>
+                    <li><a href="https://twitter.com/icereval" data-original-title="Twitter" class="twitter"></a></li>
+
+                </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/yao.jpg" alt="Michelle Yao">
