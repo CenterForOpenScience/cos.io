@@ -46,6 +46,7 @@ ${self.stylesheets()}
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="${self.description()}" name="description" />
     <meta content="Johanna Cohoon" name="author" />
+    <link href="/static/favicon.ico" rel="shortcut icon">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
