@@ -450,7 +450,7 @@
     </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/michael.JPG" alt="Michael Hasleton">
+            <img src="../static/img/people/michael.jpg" alt="Michael Hasleton">
             <h3>
                 Michael Hasleton
                 <small>Developer | Infrastructure</small>
