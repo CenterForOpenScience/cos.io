@@ -9,7 +9,7 @@
                 <li class="dropdown ${ 'active' if page == 'home' else ''}">
                     <a href="/">Home </a>
                 </li>
-                <li class="dropdown ${ 'active' if page[:5] == 'about' else ''}">
+                <li class="dropdown ${ 'active' if 'about' in page else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         About us
                         <i class="fa fa-angle-down"></i>
