@@ -9,7 +9,7 @@
                 <li class="dropdown ${ 'active' if page == 'home' else ''}">
                     <a href="/">Home </a>
                 </li>
-                <li class="dropdown ${ 'active' if page in ['about_work', 'about_team', 'about'] else ''}">
+                <li class="dropdown ${ 'active' if page.startswith('about') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         About us
                         <i class="fa fa-angle-down"></i>
@@ -37,8 +37,6 @@
     ${self.navlinks('home')}
 </%def>
 
-${self.stylesheets()}
-
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
@@ -60,6 +58,7 @@ ${self.stylesheets()}
     <link href="/static/css/style-responsive.css" rel="stylesheet" type="text/css"/>
     <link href="/static/css/pages/portfolio.css" rel="stylesheet" type="text/css"/>
     <link href="/static/css/custom.css" rel="stylesheet" type="text/css"/>
+    ${self.stylesheets()}
     <!-- END THEME STYLES -->
 
    <!-- BEGIN FLICKR STYLES --> 
