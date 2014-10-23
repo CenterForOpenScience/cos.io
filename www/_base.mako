@@ -44,6 +44,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="${self.description()}" name="description" />
     <meta content="Johanna Cohoon" name="author" />
+    <link href="/static/favicon.ico" rel="shortcut icon">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -143,7 +144,7 @@ ${self.body()}
                     Center for Open Science<br />
                     210 Ridge McIntire Road<br />
                     Suite 500<br />
-                    Charlottesville, VA 22902<br />
+                    Charlottesville, VA 22903-5083<br />
                     Email: <a href="mailto:contact@cos.io">contact@cos.io</a>
                 </address>
                 <!--BEGIN SOCIAL LINKS -->

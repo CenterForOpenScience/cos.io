@@ -1,4 +1,4 @@
-from flask import Flask, abort, request, redirect
+from flask import Flask, send_from_directory
 import os
 import glob
 import re
@@ -28,12 +28,20 @@ class WYSIWeb:
 
         self.app = Flask(__name__, static_path=self.static_route, static_folder=self.static_folder)
 
+        self.app.add_url_rule('/favicon.ico', self.favicon)
         self.app.add_url_rule('/', 'router', self.router, defaults={'path':'index'})
         self.app.add_url_rule("/<path:path>/", 'router', self.router)
 
         self.lookup = TemplateLookup(
             directories=[self.site_folder],
             input_encoding=input_encoding
+        )
+
+    def favicon(self):
+        return send_from_directory(
+            self.static_folder,
+            'favicon.ico',
+            mimetype='image/vnd.microsoft.icon'
         )
 
     def join(self, *args):
