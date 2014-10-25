@@ -44,13 +44,13 @@
 
     <div class="clearfix"></div>
 
-    <div id="servicegrid" class="margin-bottom-100 margin-top-50">
-        <div class="center margin-bottom-40">
-            <h1 class="bold">Who We Work With</h1>
-        </div>
-        <!-- BEGIN SERVICE BOX -->
-        <div class="service-box margin-bottom-40">
-            <div class="row">
+<div id="servicegrid" class="margin-bottom-100 margin-top-50">
+    <div class="center margin-bottom-40">
+        <h1 class="bold">Who We Work With</h1>
+    </div>
+    <!-- BEGIN SERVICE BOX -->
+    <div class="service-box margin-bottom-40">
+        <div class="row">
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-user blue"></i></em>
@@ -61,7 +61,7 @@
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-book blue"></i></em>
-                    <span>Publishers & Societies</span>
+                    <span>Publishers &amp; Societies</span>
                 </div>
                 <p>COS has built free, easy-to-adopt tools for journals and societies to incentivize preregistration and sharing of data and materials. <a href="/journals/">Read more.</a></p>
             </div>
@@ -72,15 +72,15 @@
                 </div>
                 <p>COS builds open source infrastructure for science, connects via API with other services, and supports open projects. <a href="/developers/">Find out how you can get involved.</a></p>
             </div>
-            </div>
-       </div>
-
-        <div class="center margin-bottom-40 margin-top-40">
-            <div class="row">
-            <h1 class="bold">What We Work On</h1>
         </div>
-        <div class="service-box">
-            <br>
+    </div>
+    <!-- END SERVICE BOX -->
+    <div class="center margin-bottom-40">
+        <h1 class="bold">What We Work On</h1>
+    </div>
+    <!-- BEGIN SERVICE BOX -->
+    <div class="service-box margin-bottom-40">
+        <div class="row">
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-flask blue"></i></em>
@@ -102,11 +102,10 @@
                 </div>
                 <p>We support and improve the scientific workflow by connecting technologies that researchers use. See our work at the <a href="http://openscienceframework.org">Open Science Framework</a> and check out <a href="/about_work/">some of our other projects</a>.</p>
             </div>
-            </div>
         </div>
-        <!-- END SERVICE BOX -->
-
     </div>
+    <!-- END SERVICE BOX -->
+</div>
         </div>
     <!-- END CONTAINER -->
 
