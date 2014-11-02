@@ -277,6 +277,20 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/kriebel.jpg" alt="Gary Kriebel">
+            <h3>
+                Gary Kriebel
+                <small>Technical Project Manager | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.linkedin.com/in/garykriebel/" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/njkr6/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://odpllc.com" data-original-title="Person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
             <h3>
                 Ginny Huang
@@ -601,7 +615,7 @@
                 <small>Project Manager | Metascience</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="www.linkedin.com/pub/tim-errington/8/a92/558/" data-original-title="LinkedIn" class="linkedin"></a></li>
+                <li><a href="https://www.linkedin.com/pub/tim-errington/8/a92/558" data-original-title="LinkedIn" class="linkedin"></a></li>
                 <li><a href="https://osf.io/alh38/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
