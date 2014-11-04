@@ -45,6 +45,7 @@
             <h3>
                 Andrew Sallans
                 <small>Partnerships, Collaborations, & Funding Manager | Community </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">andre<span style="display:none;">null</span>w@cos<span style="display:none;">null</span>.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:naqerj@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -76,6 +77,7 @@
             <h3>
                 Brian Geiger
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bgeig<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:otrvtre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -91,6 +93,7 @@
             <h3>
                 Brian Nosek
                 <small>Co-founder</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nose<span style="display:none;">null</span>k@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:abfrx@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -120,6 +123,7 @@
             <h3>
                 Caner Uguz
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">can<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:pnare@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -164,6 +168,7 @@
             <h3>
                 Chris Seto
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">chrisse<span style="display:none;">null</span>to@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:puevffrgb@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -178,6 +183,7 @@
             <h3>
                 Coral Sheldon-Hess
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">cor<span style="display:none;">null</span>al@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:pbeny@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -208,6 +214,7 @@
             <h3>
                 Courtney Soderberg
                 <small>Statisical Consultant | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">court<span style="display:none;">null</span>ney@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
 
@@ -234,6 +241,7 @@
             <h3>
                 Denise Holman
                 <small>Office Manager & Events Coordinator | Community </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">deni<span style="display:none;">null</span>se@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:qravfr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -248,6 +256,7 @@
             <h3>
                 Erin Braswell
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">er<span style="display:none;">null</span>in@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:reva@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -291,6 +300,7 @@
             <h3>
                 Gary Kriebel
                 <small>Technical Project Manager | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">gar<span style="display:none;">null</span>y@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:tnel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -347,6 +357,7 @@
             <h3>
                 Jeff Spies
                 <small>Co-founder</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jef<span style="display:none;">null</span>f@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:wrss@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -364,6 +375,7 @@
             <h3>
                 Jinlu Yuan
                 <small>HR Intern | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jinl<span style="display:none;">null</span>u@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:wlhna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -378,6 +390,7 @@
             <h3>
                 Johanna Cohoon
                 <small>Project Coordinator | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">johan<span style="display:none;">null</span>na@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbunaan@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -394,6 +407,7 @@
             <h3>
                 Josh Carp
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jos<span style="display:none;">null</span>h@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbfu@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -455,6 +469,7 @@
             <h3>
                 Lyndsy Simon
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lynd<span style="display:none;">null</span>sy@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:ylaqfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -469,6 +484,7 @@
             <h3>
                 Mallory Kidwell
                 <small>Project Coordinator | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mallo<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
                 <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:znyybel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -485,6 +501,7 @@
             <h3>
                 Michael Hasleton
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mich<span style="display:none;">null</span>ael@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
                 <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:zvpunry@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -515,6 +532,7 @@
             <h3>
                 Nan Chen
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">na<span style="display:none;">null</span>n@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
                 <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:ana@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -529,6 +547,7 @@
             <h3>
                 Natasha Welcher
                 <small>HR Assistant | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -594,6 +613,7 @@
             <h3>
                 Saman Ehsan
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">sam<span style="display:none;">null</span>an@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:fnzna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -609,6 +629,7 @@
             <h3>
                 Sara Bowman
                 <small>Project Manager | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">sar<span style="display:none;">null</span>a@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:fnen@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -624,6 +645,7 @@
             <h3>
                 Steve Loria
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">ste<span style="display:none;">null</span>ve@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:fgrir@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
@@ -639,6 +661,7 @@
             <h3>
                 Tim Errington
                 <small>Project Manager | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">t<span style="display:none;">null</span>im@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:gvz@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
