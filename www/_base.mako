@@ -40,6 +40,7 @@
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
+    <meta name="google-site-verification" content="BFNbseofFcxRL75jeKcC5vz5BqorW18gQEDx0vK7DKc" />
     <title>COS | ${self.title()}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="${self.description()}" name="description" />

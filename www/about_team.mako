@@ -45,8 +45,10 @@
             <h3>
                 Andrew Sallans
                 <small>Partnerships, Collaborations, & Funding Manager | Community </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">andre<span style="display:none;">null</span>w@cos<span style="display:none;">null</span>.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:naqerj@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://www.linkedin.com/in/andrewsallans" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/ruiy4/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/asallans" data-original-title="Twitter" class="twitter"></a></li>
@@ -62,7 +64,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/azeemmufti" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="http://google.com/+azeemmufti" data-original-title="Goole Plus" class="googleplus"></a></li>
+                <li><a href="http://google.com/+azeemmufti" data-original-title="Google Plus" class="googleplus"></a></li>
                 <li><a href="http://www.linkedin.com/profile/view?id=106930243" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/uq89h/" data-original-title="osf" class="osf"></a></li>
 
@@ -75,8 +77,10 @@
             <h3>
                 Brian Geiger
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bgeig<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:otrvtre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/brianjgeiger" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/typ46/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/thefoodgeek" data-original-title="Twitter" class="twitter"></a></li>
@@ -89,8 +93,10 @@
             <h3>
                 Brian Nosek
                 <small>Co-founder</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nose<span style="display:none;">null</span>k@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:abfrx@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/bnosek" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/cdi38/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/briannosek" data-original-title="Twitter" class="twitter"></a></li>
@@ -117,8 +123,10 @@
             <h3>
                 Caner Uguz
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">can<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:pnare@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/caneruguz" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="www.linkedin.com/in/caneruguz" data-original-title="LinkedIn" class="linkedin"></a></li>
                 <li><a href="https://osf.io/b6dn2/" data-original-title="osf" class="osf"></a></li>
@@ -160,8 +168,10 @@
             <h3>
                 Chris Seto
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">chrisse<span style="display:none;">null</span>to@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:puevffrgb@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/chrisseto" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/juwia/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -173,8 +183,10 @@
             <h3>
                 Coral Sheldon-Hess
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">cor<span style="display:none;">null</span>al@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:pbeny@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/csheldonhess" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="http://www.linkedin.com/in/csheldonhess" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/x8hp3/" data-original-title="osf" class="osf"></a></li>
@@ -202,8 +214,11 @@
             <h3>
                 Courtney Soderberg
                 <small>Statisical Consultant | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">court<span style="display:none;">null</span>ney@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+
+                <li><script type="text/javascript">document.write("<n uers=\"pbhegarl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://osf.io/hsey5/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -226,8 +241,10 @@
             <h3>
                 Denise Holman
                 <small>Office Manager & Events Coordinator | Community </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">deni<span style="display:none;">null</span>se@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qravfr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -239,8 +256,10 @@
             <h3>
                 Erin Braswell
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">er<span style="display:none;">null</span>in@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:reva@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/erinspace" data-original-title="github" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/pub/erin-braswell/31/a7/481" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/tfyje/" data-original-title="osf" class="osf"></a></li>
@@ -272,6 +291,22 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/fh9cp" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/zkaeq/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kriebel.jpg" alt="Gary Kriebel">
+            <h3>
+                Gary Kriebel
+                <small>Technical Project Manager | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">gar<span style="display:none;">null</span>y@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:tnel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/in/garykriebel/" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/njkr6/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://odpllc.com" data-original-title="Person" class="person"></a></li>
             </ul>
         </div>
     </li>
@@ -322,8 +357,10 @@
             <h3>
                 Jeff Spies
                 <small>Co-founder</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jef<span style="display:none;">null</span>f@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wrss@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/jeffspies" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://plus.google.com/u/0/+JeffreySpies/posts" data-original-title="Goole Plus" class="googleplus"></a></li>
                 <li><a href="http://www.linkedin.com/pub/jeffrey-spies/52/1a7/507" data-original-title="Linkedin" class="linkedin"></a></li>
@@ -338,8 +375,10 @@
             <h3>
                 Jinlu Yuan
                 <small>HR Intern | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jinl<span style="display:none;">null</span>u@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wlhna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/xbkq5/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -351,8 +390,10 @@
             <h3>
                 Johanna Cohoon
                 <small>Project Coordinator | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">johan<span style="display:none;">null</span>na@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbunaan@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/edb8y/" data-original-title="osf" class="osf"></a></li>
@@ -366,8 +407,10 @@
             <h3>
                 Josh Carp
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jos<span style="display:none;">null</span>h@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbfu@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/jmcarp" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/icpnw/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/whatthecarp" data-original-title="Twitter" class="twitter"></a></li>
@@ -426,8 +469,10 @@
             <h3>
                 Lyndsy Simon
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lynd<span style="display:none;">null</span>sy@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ylaqfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/amvr6/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -439,8 +484,11 @@
             <h3>
                 Mallory Kidwell
                 <small>Project Coordinator | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mallo<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
                 <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:znyybel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+
                     <li><a href="https://www.linkedin.com/profile/view?id=203460462" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/z2u9w/" data-original-title="osf" class="osf"></a></li>
                 </ul>
@@ -453,8 +501,10 @@
             <h3>
                 Michael Hasleton
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mich<span style="display:none;">null</span>ael@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
                 <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:zvpunry@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                     <li><a href="https://github.com/icereval" data-original-title="GitHub" class="github"></a></li>
                     <li><a href="https://www.linkedin.com/pub/michael-haselton/2/b61/227" data-original-title="linkedin" class="linkedin"></a></li>
                     <li><a href="https://osf.io/ashx3/" data-original-title="osf" class="osf"></a></li>
@@ -482,8 +532,10 @@
             <h3>
                 Nan Chen
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">na<span style="display:none;">null</span>n@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
                 <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ana@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                     <li><a href="https://github.com/chennan47" data-original-title="GitHub" class="github"></a></li>
                     <li><a href="https://osf.io/njqpw/" data-original-title="osf" class="osf"></a></li>
                 </ul>
@@ -495,8 +547,10 @@
             <h3>
                 Natasha Welcher
                 <small>HR Assistant | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -555,27 +609,33 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/bowman.jpg" alt="Sara Bowman">
+            <img src="../static/img/people/ehsan.jpg" alt="Saman Ehsan">
             <h3>
-                Sara Bowman
-                <small>Project Manager | Community</small>
+                Saman Ehsan
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">sam<span style="display:none;">null</span>an@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://www.linkedin.com/profile/view?id=81587328" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/d9ehg/" data-original-title="osf" class="osf"></a></li>
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:fnzna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+
+                <li><a href="https://github.com/samanehsan" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/dcb3q/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/ehsan.jpg" alt="Saman Ehsan">
+            <img src="../static/img/people/bowman.jpg" alt="Sara Bowman">
             <h3>
-                Saman Ehsan
-                <small>Developer | Infrastructure</small>
+                Sara Bowman
+                <small>Project Manager | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">sar<span style="display:none;">null</span>a@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/samanehsan" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/dcb3q/" data-original-title="osf" class="osf"></a></li>
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:fnen@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+
+                <li><a href="https://www.linkedin.com/profile/view?id=81587328" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/d9ehg/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -585,8 +645,10 @@
             <h3>
                 Steve Loria
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">ste<span style="display:none;">null</span>ve@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:fgrir@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/sloria" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/qrgl2/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://www.stevenloria.com/" data-original-title="Person" class="person"></a></li>
@@ -599,9 +661,11 @@
             <h3>
                 Tim Errington
                 <small>Project Manager | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">t<span style="display:none;">null</span>im@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="www.linkedin.com/pub/tim-errington/8/a92/558/" data-original-title="LinkedIn" class="linkedin"></a></li>
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:gvz@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/pub/tim-errington/8/a92/558" data-original-title="LinkedIn" class="linkedin"></a></li>
                 <li><a href="https://osf.io/alh38/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
