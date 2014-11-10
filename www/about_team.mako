@@ -465,6 +465,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/banner.jpg" alt="Kushagra Gupta">
+            <h3>
+                Larry Banner
+                <small>Technical Project Manager | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/lbanner" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ygsav/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
             <h3>
                 Lyndsy Simon
@@ -703,6 +716,7 @@
                 <small>IT Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/zobair.chs" data-original-title="Facebook" class="facebook"></a></li>
                 <li><a href="https://github.com/ZobairAlijan" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/3hqpd/" data-original-title="osf" class="osf"></a></li>
             </ul>
