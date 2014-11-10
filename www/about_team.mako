@@ -469,10 +469,13 @@
             <h3>
                 Larry Banner
                 <small>Technical Project Manager | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lar<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:yneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/lbanner" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/ygsav/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/lbanner" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
