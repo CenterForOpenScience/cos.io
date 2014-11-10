@@ -218,7 +218,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
 
-                <li><script type="text/javascript">document.write("<n uers=\"pbhegarl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:pbhegarl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://osf.io/hsey5/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -307,6 +307,19 @@
                 <li><a href="https://www.linkedin.com/in/garykriebel/" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/njkr6/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://odpllc.com" data-original-title="Person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/rhee.jpg" alt="Gene Rhee">
+            <h3>
+                Gene Rhee
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/gkr6sy" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/629w8/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -465,6 +478,22 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/banner.jpg" alt="Larry Banner">
+            <h3>
+                Larry Banner
+                <small>Technical Project Manager | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lar<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:yneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/lbanner" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ygsav/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/lbanner" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
             <h3>
                 Lyndsy Simon
@@ -492,6 +521,20 @@
                     <li><a href="https://www.linkedin.com/profile/view?id=203460462" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/z2u9w/" data-original-title="osf" class="osf"></a></li>
                 </ul>
+        </div>
+    </li>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/frazier.jpg" alt="Matthew Frazier">
+            <h3>
+                Matthew Frazier
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/mfraezz" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/d2c4i/" data-original-title="osf" class="osf"></a></li>
+            </ul>
         </div>
     </li>
     </li>
@@ -692,6 +735,20 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/XTech2k" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/trwjd/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/alijan.jpg" alt="Zobair Alijan">
+            <h3>
+                Zobair Alijan
+                <small>IT Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/zobair.chs" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/ZobairAlijan" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/3hqpd/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
