@@ -23,7 +23,7 @@
         <br>
         <h3><a href="https://osf.io">Open Science Framework (OSF)</a></h3>
         <div style="float:right; margin-left:20px;">
-            <img src="http://s27.postimg.org/zc7bocr6b/Screen_Shot_2014_11_07_at_4_37_18_PM.png" height="220" width="530">
+            <img src="/static/img/cos_connected.png" height="220" width="530">
         </div>
         <p>Create projects. Organize materials. Collaborate with others. The OSF is a free, open source tool that supports the entire scientific workflow.</p>
         <p>Use the OSF to plan, manage, and archive research materials and data. Share those materials with just collaborators, or make them available publicly. Get credit for your work when others view, download, use, or extend your research.  Register projects to create frozen versions to mark the state of a project at a particular point in its history - onset of data collection, at manuscript submission, final version for publication.</p>
