@@ -312,6 +312,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/rhee.jpg" alt="Gene Rhee">
+            <h3>
+                Gene Rhee
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/629w8/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
             <h3>
                 Ginny Huang
@@ -465,7 +478,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/banner.jpg" alt="Kushagra Gupta">
+            <img src="../static/img/people/banner.jpg" alt="Larry Banner">
             <h3>
                 Larry Banner
                 <small>Technical Project Manager | Infrastructure</small>
@@ -508,6 +521,20 @@
                     <li><a href="https://www.linkedin.com/profile/view?id=203460462" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/z2u9w/" data-original-title="osf" class="osf"></a></li>
                 </ul>
+        </div>
+    </li>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/frazier.jpg" alt="Matthew Frazier">
+            <h3>
+                Matthew Frazier
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/d2c4i/" data-original-title="osf" class="osf"></a></li>
+            </ul>
         </div>
     </li>
     </li>
