@@ -740,7 +740,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/alijan.jpg" alt="Xander Herrick">
+            <img src="../static/img/people/alijan.jpg" alt="Zobair Alijan">
             <h3>
                 Zobair Alijan
                 <small>IT Intern | Infrastructure</small>
