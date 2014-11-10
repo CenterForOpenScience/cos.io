@@ -695,6 +695,19 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/alijan.jpg" alt="Xander Herrick">
+            <h3>
+                Zobair Alijan
+                <small>IT Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ZobairAlijan" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/3hqpd/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
 </ul>
 </div>
 <!-- END OUR TEAM -->
