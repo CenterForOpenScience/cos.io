@@ -318,7 +318,7 @@
                 <small>Developer Volunteer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://github.com/gkr6sy" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/629w8/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -532,7 +532,7 @@
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://github.com/mfraezz" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/d2c4i/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
