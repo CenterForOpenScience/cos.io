@@ -9,7 +9,7 @@
                 <li class="dropdown ${ 'active' if page == 'home' else ''}">
                     <a href="/">Home </a>
                 </li>
-                <li class="dropdown ${ 'active' if page in ['about_work', 'about_team', 'about'] else ''}">
+                <li class="dropdown ${ 'active' if page.startswith('about') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         About us
                         <i class="fa fa-angle-down"></i>
@@ -26,7 +26,7 @@
                 <li class="dropdown ${ 'active' if page == 'jobs' else ''}">
                     <a href="/jobs/" >Jobs</a>
                 </li>
-                <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science" style="color: red">Donate</a></li>
+                <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
             </ul>
         </div>
 
@@ -37,15 +37,15 @@
     ${self.navlinks('home')}
 </%def>
 
-${self.stylesheets()}
-
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
+    <meta name="google-site-verification" content="BFNbseofFcxRL75jeKcC5vz5BqorW18gQEDx0vK7DKc" />
     <title>COS | ${self.title()}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="${self.description()}" name="description" />
     <meta content="Johanna Cohoon" name="author" />
+    <link href="/static/favicon.ico" rel="shortcut icon">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -59,6 +59,7 @@ ${self.stylesheets()}
     <link href="/static/css/style-responsive.css" rel="stylesheet" type="text/css"/>
     <link href="/static/css/pages/portfolio.css" rel="stylesheet" type="text/css"/>
     <link href="/static/css/custom.css" rel="stylesheet" type="text/css"/>
+    ${self.stylesheets()}
     <!-- END THEME STYLES -->
 
    <!-- BEGIN FLICKR STYLES --> 
@@ -144,7 +145,7 @@ ${self.body()}
                     Center for Open Science<br />
                     210 Ridge McIntire Road<br />
                     Suite 500<br />
-                    Charlottesville, VA 22902<br />
+                    Charlottesville, VA 22903-5083<br />
                     Email: <a href="mailto:contact@cos.io">contact@cos.io</a>
                 </address>
                 <!--BEGIN SOCIAL LINKS -->

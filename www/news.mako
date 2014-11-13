@@ -32,6 +32,24 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://www.the-scientist.com/?articles.view/articleNo/41265/title/The-Rules-of-Replication/">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/the_scientist.jpg" width="125"></td>
+                                <td><h2 class="text-left">The Rules of Replication</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">November 1, 2014 | Should there be standard protocols for how researchers attempt to reproduce the work of others?</p>
+                    </a> 
+                    <a class="col-md-4 service-box-v1" href="http://blogs.loc.gov/digitalpreservation/2014/09/teaching-integrity-in-empirical-research-an-interview-with-richard-ball-and-norm-medeiros/">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/loc_signal_logo.jpg" width="125"></td>
+                                <td><h2 class="text-left">Teaching Integrity in Empirical Research</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">September 12, 2014 | An Interview with Richard Ball and Norm Medeiros</p>
+                    </a> 
                     <a class="col-md-4 service-box-v1" href="http://www.apamonitor-digital.org/apamonitor/201409/#pg35">
                         <table>
                             <tr>
