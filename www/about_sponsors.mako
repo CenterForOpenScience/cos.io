@@ -248,6 +248,13 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center"><a href="https://teamgantt.com/"><img src="/static/img/icons/teamgantt.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>TeamGantt</strong></span><br>
+                                                   Expansion of plan to accommodate more team members<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center"><a href="http://www.zipfianacademy.com/"><img src="/static/img/icons/zipfian.png"></a></td>
                                                     <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
                                                     Recruitment<br>
