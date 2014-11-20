@@ -128,7 +128,7 @@
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:pnare@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/caneruguz" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="www.linkedin.com/in/caneruguz" data-original-title="LinkedIn" class="linkedin"></a></li>
+                <li><a href="https://www.linkedin.com/in/caneruguz" data-original-title="LinkedIn" class="linkedin"></a></li>
                 <li><a href="https://osf.io/b6dn2/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://www.caneruguz.com/" data-original-title="person" class="person"></a></li>
                 <li><a href="https://twitter.com/caneruguz" data-original-title="Twitter" class="twitter"></a></li>
