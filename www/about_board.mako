@@ -27,7 +27,7 @@
                     <div class="row margin-bottom-30">
                         <div class="col-md-5">
                             <div class="thumbnail">
-                                <img src="../static/img/people/board/kraut.jpg" alt="Alex Schiller">
+                                <img src="../static/img/people/board/kraut.jpg" alt="Alan G. Kraut">
                                 <h3>
                                     Alan G. Kraut<br>
                                     <small>Executive Director, Association for Psychological Science</small>
@@ -47,7 +47,7 @@
                     <div class="row margin-bottom-30">
                         <div class="col-md-5">
                             <div class="thumbnail">
-                                <img src="../static/img/people/board/Ioannidis.jpg" alt="Andrew Sallans">
+                                <img src="../static/img/people/board/Ioannidis.jpg" alt="John P.A. Ioannidis">
                                 <div>
                                     <h3>
                                         John P.A. Ioannidis<br>
@@ -68,7 +68,7 @@
                     <div class="row margin-bottom-30">
                         <div class="col-md-5">
                             <div class="thumbnail">
-                                <img src="../static/img/people/board/greenberg.jpg" alt="Cailey Fitzgerald">
+                                <img src="../static/img/people/board/greenberg.jpg" alt="Joshua M. Greenberg">
                                 <h3>
                                     Joshua M. Greenberg<br>
                                     <small>Director, Alfred P. Sloan Foundation's Digital Information Technology Program</small>
@@ -86,7 +86,23 @@
                     <div class="row margin-bottom-30">
                         <div class="col-md-5">
                             <div class="thumbnail">
-                                <img src="../static/img/people/board/stodden.jpg" alt="Cailey Fitzgerald">
+                                <img src="../static/img/people/board/mcnutt.jpg" alt="Marcia McNutt">
+                                <h3>
+                                    Marcia McNutt<br>
+                                    <small>Editor-In-Chief, Science.</small>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <p>Marcia McNutt is a geophysicist who is the nineteenth editor-in-chief of Science. Prior to joining Science, she served as the fifteenth director of the US Geological Survey from 2009 to 2013 as one of a group of accomplished scientists who populated top government posts as part of President Obama’s “dream team.” During her tenure, the USGS responded to a number of major disasters, including earthquakes in Haiti, Chile, and Japan, and the Deepwater Horizon oil spill.</p>
+                            <p>McNutt has also served as president and chief executive officer of the Monterey Bay Aquarium Research Institute (MBARI), in Moss Landing, CA. During her time at MBARI, the institution became a leader in developing biological and chemical sensors for remote ocean deployment, installed the first deep-sea cabled observatory in US waters, and advanced the integration of artificial intelligence into autonomous underwater vehicles for complex undersea missions. McNutt began her faculty career at MIT where she became the Griswold Professor of Geophysics and served as Director of the Joint Program in Oceanography & Applied Ocean Science & Engineering, offered by MIT and the Woods Hole Oceanographic Institution. Her own research area is the dynamics of the upper mantle and lithosphere on geologic time scales, work that has taken her to distant continents and oceans for field observations. She is a veteran of more than a dozen deep-sea expeditions, more than half of which she has served as chief scientist or co-chief scientist.</p>
+                            <p>McNutt’s honors and awards include membership in the National Academy of Sciences, the American Philosophical Society, and the American Academy of Arts and Sciences. She also holds honorary doctoral degrees from Colorado College, University of Minnesota, Monmouth University, and Colorado School of Mines. She was awarded the Macelwane Medal by the American Geophysical Union in 1988 for research accomplishments by a young scientist and the Maurice Ewing Medal in 2007 for her significant contributions to deep-sea exploration. The US Coast Guard awarded her their Meritorious Service Medal, the noncombat equivalent to the Bronze Star, for her work on the Deepwater Horizon oil spill. She earned a BA in Physics from Colorado College and a PhD in Earth Sciences from Scripps Institution of Oceanography, University of California, San Diego.</p>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-30">
+                        <div class="col-md-5">
+                            <div class="thumbnail">
+                                <img src="../static/img/people/board/stodden.jpg" alt="Victoria Stodden">
                                 <h3>
                                     Victoria Stodden<br>
                                     <small>Assistant professor of Statistics, Columbia University</small>
