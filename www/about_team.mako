@@ -57,6 +57,18 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/ferronato.jpg" alt="Betsy Ferronato">
+            <h3>
+                Betsy Ferronato
+                <small>Human Resources Intern| Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/dvx4k/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/geiger.jpg" alt="Brian Geiger">
             <h3>
                 Brian Geiger
@@ -590,6 +602,7 @@
                 <small>QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
