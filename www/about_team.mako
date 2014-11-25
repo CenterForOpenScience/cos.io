@@ -63,6 +63,7 @@
                 <small>Human Resources Intern| Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://www.linkedin.com/pub/betsy-ferronato/1b/282/584" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/dvx4k/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -598,11 +599,12 @@
         <div class="thumbnail">
             <img src="../static/img/people/pfeiffer.jpg" alt="Natasha Richter">
             <h3>
-                Nici Pfeiffer
+                Nicole Pfeiffer
                 <small>QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
