@@ -27,17 +27,17 @@
 
 <!--BEGIN OPPORTUNITIES -->
 <h1><strong>Open Positions</strong><br><br></h1>
-<div id="accordion1" class="panel-group">
+<div id="AdminstrativeAssistantIntern_main" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion1_1">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AdminstrativeAssistantIntern">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion1" >
+                <a  data-parent="#AdminstrativeAssistantIntern_main" >
                     Administrative Assistant Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion1_1" class="panel-collapse collapse">
+        <div id="AdminstrativeAssistantIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -74,17 +74,17 @@
         </div>
     </div>
 </div>
-<div id="accordion2" class="panel-group">
+<div id="Developer_main" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion2_2">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a  data-parent="#accordion2" >
+                <a  data-parent="#Developer_main" >
                     Developer
                 </a>
             </h4>
         </div>
-        <div id="accordion2_2" class="panel-collapse collapse">
+        <div id="Developer" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -130,17 +130,17 @@
         </div>
     </div>
 </div>
-<div id="accordion3" class="panel-group">
+<div id="DeveloperIntern_main" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#DeveloperIntern">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a data-parent="#accordion3" >
+                <a data-parent="#DeveloperIntern_main">
                     Developer Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion3_3" class="panel-collapse collapse">
+        <div id="DeveloperIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
@@ -153,17 +153,17 @@
         </div>
     </div>
 </div>
-<div id="accordion4" class="panel-group">
+<div id="HumanResourcesIntern_main" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion4" >
+                <a  data-parent="#HumanResourcesIntern_main" >
                     Human Resources Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion4_4" class="panel-collapse collapse">
+        <div id="HumanResourcesIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -198,17 +198,17 @@
         </div>
     </div>
 </div>
-<div id="accordion5" class="panel-group">
+<div id="ITIntern_main" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion5_5">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion5" >
+                <a  data-parent="#ITIntern_main" >
                     IT Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion5_5" class="panel-collapse collapse">
+        <div id="ITIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -242,17 +242,17 @@
         </div>
     </div>
 </div>
-<div id="accordion7" class="panel-group">
+<div id="QATestEngineerIntern_main" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion7_7">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion7" >
+                <a  data-parent="#QATestEngineerIntern_main" >
                     QC/QA/Test Engineer Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion7_7" class="panel-collapse collapse">
+        <div id="QATestEngineerIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -287,17 +287,17 @@
         </div>
     </div>
 </div>
-<div id="accordion8" class="panel-group">
+<div id="SeniorDeveloper_main" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion8_8">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion8" >
+                <a  data-parent="#SeniorDeveloper_main" >
                     Senior Developer
                 </a>
             </h4>
         </div>
-        <div id="accordion8_8" class="panel-collapse collapse">
+        <div id="SeniorDeveloper" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -344,18 +344,18 @@
         </div>
     </div>
 </div>
-<div id="accordion10" class="panel-group">
+<div id="StatsConsultant_main" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion10_10">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#StatsConsultant">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
 
-                <a data-parent="#accordion10" >
+                <a data-parent="#StatsConsultant_main" >
                     Statistical and Methodological Consultant
                 </a>
             </h4>
         </div>
-        <div id="accordion10_10" class="panel-collapse collapse">
+        <div id="StatsConsultant" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -390,17 +390,17 @@
         </div>
     </div>
 </div>
-<div id="accordion12" class="panel-group">
+<div id="WebDesigner_main" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion12_12">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#WebDesigner">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion12" >
+                <a  data-parent="#WebDesigner_main" >
                     Web Designer
                 </a>
             </h4>
         </div>
-        <div id="accordion12_12" class="panel-collapse collapse">
+        <div id="WebDesigner" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -568,6 +568,11 @@
             }); 
             
                                     
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            location.hash && $(location.hash + '.collapse').collapse('show');
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
