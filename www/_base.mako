@@ -45,6 +45,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="${self.description()}" name="description" />
     <meta content="Johanna Cohoon" name="author" />
+    <meta property="og:image" content="http://centerforopenscience.org/static/img/cos_logo.png"/>
     <link href="/static/favicon.ico" rel="shortcut icon">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
