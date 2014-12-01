@@ -27,12 +27,12 @@
 
 <!--BEGIN OPPORTUNITIES -->
 <h1><strong>Open Positions</strong><br><br></h1>
-<div id="AdminstrativeAssistantIntern_main" class="panel-group">
+<div id="AdminstrativeAssistantIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AdminstrativeAssistantIntern">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AdminstrativeAssistantIntern_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#AdminstrativeAssistantIntern_main" >
+                <a  data-parent="#AdminstrativeAssistantIntern" >
                     Administrative Assistant Intern
                 </a>
             </h4>
@@ -74,12 +74,12 @@
         </div>
     </div>
 </div>
-<div id="Developer_main" class="panel-group">
+<div id="Developer" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a  data-parent="#Developer_main" >
+                <a  data-parent="#Developer" >
                     Developer
                 </a>
             </h4>
@@ -130,12 +130,12 @@
         </div>
     </div>
 </div>
-<div id="DeveloperIntern_main" class="panel-group">
+<div id="DeveloperIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#DeveloperIntern">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#DeveloperIntern_heading">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a data-parent="#DeveloperIntern_main">
+                <a data-parent="#DeveloperIntern">
                     Developer Intern
                 </a>
             </h4>
@@ -153,12 +153,12 @@
         </div>
     </div>
 </div>
-<div id="HumanResourcesIntern_main" class="panel-group">
+<div id="HumanResourcesIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#HumanResourcesIntern_main" >
+                <a  data-parent="#HumanResourcesIntern" >
                     Human Resources Intern
                 </a>
             </h4>
@@ -198,12 +198,12 @@
         </div>
     </div>
 </div>
-<div id="ITIntern_main" class="panel-group">
+<div id="ITIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#ITIntern_main" >
+                <a  data-parent="#ITIntern" >
                     IT Intern
                 </a>
             </h4>
@@ -242,12 +242,12 @@
         </div>
     </div>
 </div>
-<div id="QATestEngineerIntern_main" class="panel-group">
+<div id="QATestEngineerIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#QATestEngineerIntern_main" >
+                <a  data-parent="#QATestEngineerIntern" >
                     QC/QA/Test Engineer Intern
                 </a>
             </h4>
@@ -287,12 +287,12 @@
         </div>
     </div>
 </div>
-<div id="SeniorDeveloper_main" class="panel-group">
+<div id="SeniorDeveloper" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper_heading">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#SeniorDeveloper_main" >
+                <a  data-parent="#SeniorDeveloper" >
                     Senior Developer
                 </a>
             </h4>
@@ -344,13 +344,13 @@
         </div>
     </div>
 </div>
-<div id="StatsConsultant_main" class="panel-group">
+<div id="StatsConsultant" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#StatsConsultant">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#StatsConsultant_heading">
                                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
 
-                <a data-parent="#StatsConsultant_main" >
+                <a data-parent="#StatsConsultant" >
                     Statistical and Methodological Consultant
                 </a>
             </h4>
@@ -390,12 +390,12 @@
         </div>
     </div>
 </div>
-<div id="WebDesigner_main" class="panel-group">
+<div id="WebDesigner" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#WebDesigner">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#WebDesigner_heading">
                         <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#WebDesigner_main" >
+                <a  data-parent="#WebDesigner" >
                     Web Designer
                 </a>
             </h4>
