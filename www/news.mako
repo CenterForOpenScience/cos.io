@@ -32,6 +32,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://www.elasticsearch.com/customer/center-open-science/">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/elasticsearch.png" width="125"></td>
+                                <td><h2 class="text-left">Improving Scientific Research Worldwide</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">December, 2014 | The challenge: How do you enable scientists around the world to improve processes, share, and collaborate? The Elasticsearch solution: By using Elasticsearch to provide 5x faster search and an improved user experience</p>
+                    </a> 
                     <a class="col-md-4 service-box-v1" href="http://www.the-scientist.com/?articles.view/articleNo/41265/title/The-Rules-of-Replication/">
                         <table>
                             <tr>
