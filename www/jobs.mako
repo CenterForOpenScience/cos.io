@@ -378,7 +378,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>Salary commensurate with experience.</p>
+                        <p>Salary range is $60,000 to $70,000; commensurate with experience.</p>
                         <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
                     </dd>
                     <dt>Travel</dt>
