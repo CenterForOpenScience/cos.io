@@ -277,6 +277,13 @@ body {
     min-height: 256px;
 }
 
+.board-thumbnail img {
+    max-height: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    min-width: 400px;
+}
+
 .front-team h3 {
     margin:10px 0 12px;
     line-height:30px !important;
