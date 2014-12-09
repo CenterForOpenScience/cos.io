@@ -30,7 +30,7 @@
         <div class="thumbnail">
             <img src="../static/img/people/schiller.jpg" alt="Alex Schiller">
             <h3>
-                Alex Schiller
+                Jeremy Schiller
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
