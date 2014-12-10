@@ -19,8 +19,7 @@
     <div class="container min-hight margin-top-50">
 
         <!--BEGIN DESCRIPTION -->
-        <h1><strong>What's all the buzz about?<br></strong></h1>
-        <br>
+        <h1><strong>What's all the buzz about?</strong></h1>
         <p>Open science and transparency practices are hot topics in the scientific community and in the media at large. Read about COS, our projects,
         and related news below.</p>
         <br><br>

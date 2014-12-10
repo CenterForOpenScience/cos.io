@@ -26,48 +26,37 @@
         <div class="row margin-bottom-30">
 
             <!-- BEGIN INFO BLOCK -->
-            <div class="col-md-10 space-mobile">
-                <h1><strong>Statistical & Methodological Consulting Services<br></strong></h1>
-                <br>
-                <h2><center>Learn more about Open and Reproducible...</center></h2>
-                <div class="row service-box margin-bottom-40">
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-box-heading">
-                            <span>Tools & Computation</span>
-                        </div>
-                        <ul>
-                            <li>Using R</li>
-                            <li>Github</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-box-heading">
-                            <span>Methods & Statistics</span>
-                        </div>
-                        <ul>
-                            <li>Power Analyses</li>
-                            <li>Meta-Analyses</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-box-heading">
-                            <span>Workflows & Practices</span>
-                        </div>
-                        <ul>
-                            <li>OSF training</li>
-                            <li>Preregistration</li>
-                        </ul>
-                    </div>
+            <div class="col-md-12 stats-intro space-mobile">
+                <h1><strong>Statistical & Methodological Consulting</strong></h1>
+                <p>Individual scientists can improve the replicability of their own work through careful documentation,
+                    adherence to standards, and the use of open tools.</p>
+                <div class="row col-md-8">
+                    <p>Our consultants can help answer questions about open and reproducible tools, methodologies, and workflows.
+                        For instance, in the past, we have given guidance on:</p>
+                    <ul>
+                        <li>Using R</li>
+                        <li>Learning Github</li>
+                        <li>Conducting power analysis</li>
+                        <li>Conducting meta-analyses</li>
+                        <li>Using the OSF</li>
+                        <li>Preregistering analysis plans</li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-md-10 space-mobile">
 
-                <br>
-                <br>
-                <div class="note note-info">
-                <p><strong>Want to get information about upcoming workshops and new resources? Subscribe to <a href="http://eepurl.com/2kghn">our email list.</a></strong></p>
-                </div>
-                <br>
+                <a href="mailto:stats-consulting@cos.io" class="stats-action col-md-3 col-md-offset-1" id="stats-consult">
+                    <div >
+                        <i class="fa fa-pencil"></i>
+                        <p>Request a Consultation</p>
+                    </div>
+                </a>
+                <a href="http://eepurl.com/2kghn" class="stats-action col-md-3 col-md-offset-1">
+                    <div id="stats-news">
+                        <i class="fa fa-envelope-o"></i>
+                        <p>Receive Updates<br>on our Services</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-12 space-mobile">
                 <h2><strong>Free One-on-One Consulting Services</strong></h2>
 
                 <hr>
@@ -134,9 +123,12 @@
                 <p><strong>How can I acknowledge your services?</strong></p>
                 <p>Tell your friends about our services! Acknowledgement is not required, but is appreciated for spreading the word.</p>
 
-            <!-- END INFO BLOCK -->
+                <!-- END INFO BLOCK -->
+            </div>
         </div>
+        <!--End About Info-->
     </div>
+
     <!--End Container-->
 </div>
 <!-- END PAGE CONTAINER -->

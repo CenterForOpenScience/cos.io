@@ -23,7 +23,7 @@
 
 <!-- BEGIN OUR TEAM -->
 <div class="row front-team">
-<h1><strong>Our Team<br><br></strong></h1>
+<h1><strong>Our Team</strong></h1>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">

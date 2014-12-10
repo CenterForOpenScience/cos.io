@@ -413,3 +413,30 @@ body {
 #speechbubble{
     width:150px;
 }
+
+
+/*Stats*/
+.stats-action {
+    text-align: center;
+    font-size: 25px;
+    background-color: #e8f6fc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.stats-action .fa {
+    font-size: 45px;
+}
+.stats-intro a:hover{
+    text-decoration: none;
+}
+
+#stats-consult {
+    margin-top: 20px;
+}
+
+.stats-intro ul {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 18px;
+    
+}
