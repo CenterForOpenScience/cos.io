@@ -418,7 +418,7 @@ body {
 /*Stats*/
 .stats-action {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #e8f6fc;
     padding: 10px;
     margin-bottom: 20px;
@@ -426,17 +426,18 @@ body {
 .stats-action .fa {
     font-size: 45px;
 }
+
+#stats-consult {
+    margin-top: 10px;
+}
+
 .stats-intro a:hover{
     text-decoration: none;
 }
 
-#stats-consult {
-    margin-top: 20px;
-}
-
-.stats-intro ul {
+.stats-intro table {
     list-style-type: none;
     line-height: 30px;
-    font-size: 18px;
-    
+
+
 }
