@@ -27,7 +27,7 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile">
-                <h1><strong>Our Work<br><br></strong></h1>
+                <h1><strong>Our Work</strong></h1>
                 <p>The Center for Open Science was founded in the spring of 2013. We began with one infrastructure project, the
                     <a href="https://osf.io/">Open Science Framework</a>, one research project, <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, and a mission: to increase openness, integrity, and reproducibility of scientific research. 
                     That mission is a daily goal driving all of our projects. At COS, we

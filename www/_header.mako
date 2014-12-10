@@ -36,14 +36,4 @@
 
 <body>
 <div class="container-narrow">
-    <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/press/">Press</a></li>
-            <li><a href="/jobs/">Jobs <span class="badge badge-success">3</span></a></li>
-            <li><a href="/#contact">Contact</a></li>
-        </ul>
-        <h3><a href="/"><img src="/static/cos_logo.png" width="200px" /></a></h3>
-    </div>
-    <hr />
+
