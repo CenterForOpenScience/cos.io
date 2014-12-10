@@ -32,6 +32,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://elifesciences.org/elife-news/Cancer-biology-reproducibility-effort-takes-another-step-forward">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/elife.jpg" width="125"></td>
+                                <td><h2 class="text-left">Cancer biology reproducibility effort takes another step forward</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">December 10, 2014 | eLife has published the first papers from the Reproducibility Project: Cancer Biology. </p>
+                    </a> 
                     <a class="col-md-4 service-box-v1" href="http://www.elasticsearch.com/customer/center-open-science/">
                         <table>
                             <tr>
