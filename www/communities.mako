@@ -173,7 +173,7 @@
                                         <td>
                                             <h3>Open Source</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p><br><br>
-                                            <a href="#" class="btn blue">
+                                            <a href="https://github.com/CenterForOpenScience/osf.io" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -203,7 +203,7 @@
                                         <td>
                                             <h3>Open Science Collaboration</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="http://osc.centerforopenscience.org/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -222,7 +222,7 @@
                                         <td>
                                             <h3>Mozilla</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="https://www.mozilla.org/en-US/mission/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -234,7 +234,7 @@
                                         <td>
                                             <h3>Open Knowledge Foundation</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="http://us.okfn.org/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -255,12 +255,12 @@
                         <td><h2>Join the conversation!</h2>
                             <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
                                 transparency, and reproducbility in the OSC Google Group.</p>
-                            <p><a href="groups.google.com/forum/#!forum/openscienceframework">Sign up here.</a></p></td>
+                            <p><a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank">Sign up here.</a></p></td>
                     </tr>
                 </table>
             </div>
         </div>
-         <!-- END COS COMMUNITIES -->
+         <!-- END COS COMMUNITIES -->s
 
         <div>
 
