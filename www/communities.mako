@@ -49,8 +49,8 @@
                                             <img src="../static/img/icons/community_badge.gif">
                                         </td>
                                         <td>
-                                            <h3>Badges to acknowledge open practices</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <h3>Badges to Acknowledge Open Practices</h3>
+                                            <p>Badges incentivize open research by rewarding authors with visual acknowledgements on published manuscripts. Currently, badges can be earned for three distinct practices: open data, open materials, and preregistration. Badges appear directly on publications along with information regarding where the relevant data, materials, or registration can be found.  The badges and their criteria are developed and maintained as a community-driven initiative of the Center for Open Science.</p>
                                             <a href="https://osf.io/tvyxz/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -62,8 +62,8 @@
                                         </td>
                                         <td>
                                             <h3>Registered Reports</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="https://osf.io/zv2cs/" target="_blank" class="btn blue">
+                                            <p>Registered reports offer journals an alternative structure to the current publishing format to promote transparency and reproducibility in scientific research. In this model, peer review occurs twice. Each study procedure and analysis plan are evaluated prior to data collection for in-principle acceptance; if accepted, the final manuscript is essentially guaranteed publication regardless of the reported outcome, with a second peer review to ensure the accepted methodology was conducted.</p>
+                                            <a href="https://osf.io/8mpji/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -81,7 +81,7 @@
                                         </td>
                                         <td>
                                             <h3>Reproducibility Project: Psychology (RP:P)</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <p>The RP:P is crowdsourced metascience project with the aim of estimating the rate of reproducibility in published psychology research. Scientists who join the RP:P choose an experiment from a randomly selected pool of studies, replicate one finding, and document the process according to an established protocol. The project hopes to identify predictors of reproducibility and factors that improve the research process. The RP:P is coordinated by the Center for Open Science and involves volunteer scientists from all over the world.</p>
                                             <a href="https://osf.io/ezcuj/wiki/home/ target="_blank"" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -173,7 +173,7 @@
                                         <td>
                                             <h3>Open Source Developing</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p><br><br>
-                                            <a href="#" class="btn blue">
+                                            <a href="https://github.com/CenterForOpenScience/osf.io" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -203,7 +203,7 @@
                                         <td>
                                             <h3>Open Science Collaboration</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="http://osc.centerforopenscience.org/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -222,7 +222,7 @@
                                         <td>
                                             <h3>Mozilla</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="https://www.mozilla.org/en-US/mission/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -234,7 +234,7 @@
                                         <td>
                                             <h3>Open Knowledge Foundation</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="http://us.okfn.org/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -255,7 +255,7 @@
                         <td><h2>Join the conversation!</h2>
                             <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
                                 transparency, and reproducbility in the OSC Google Group.</p>
-                            <p><a href="groups.google.com/forum/#!forum/openscienceframework">Sign up here.</a></p></td>
+                            <p><a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank">Sign up here.</a></p></td>
                     </tr>
                 </table>
             </div>

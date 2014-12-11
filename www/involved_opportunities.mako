@@ -69,7 +69,7 @@
             </ul>
         </div>
         <div class="col-md-3 col-md-offset-1 margin-top-50">
-            <a href="mailto:stats-consulting@cos.io" >
+            <a href="#" >
                 <div class="action-box">
                     <img src="/static/img/icons/handshake.png">
                     <p>Become an ambassador</p>
@@ -77,7 +77,7 @@
             </a>
         </div>
         <div class="col-md-3 col-md-offset-1 margin-bottom-50">
-            <a href="mailto:stats-consulting@cos.io" >
+            <a href="#" >
                 <div class="action-box">
                     <i class="fa fa-envelope"></i>
                     <p>Contact an ambassador</p>
@@ -236,14 +236,55 @@
 <!-- START TAB 2 -->
 <div class="tab-pane" id="tab_2">
     <div class="col-md-12">
-        SCIENTISTS
-        OSF-sign up
-        Stats consulting
-        become an ambassador
-        metascience projects
-        propose metascience project
-    </div>
+       <h3>Make YOUR science OPEN Science.</h3>
+        <p>The Center for Open Science offers researchers a wide variety of invaluable tools and resources that can help you support open science practices with your work.</p>
+        </div>
+
+        <div class="col-md-8">
+      <h2>1. Use The Open Science Framework (OSF)</h2>
+      <p>Do you have a research project that is in need of organization? Do you want to easily integrate your research with all of your favorite research tools? The OSF is a <b>free</b> online resource for scientists to manage workflow, increase efficiency, and practice open science! The OSF is part network of research materials, part version control system, and part collaboration software with a mission to increase the alignment between scientific values and scientific practices. <a href="osf.io">Learn more about how the OSF can improve your workflow.</a>
+      </div>
+
+      <div class="col-md-4  margin-top-50">
+            <a href="https://osf.io" target="_blank">
+                <div class="action-box">
+                    <i class="fa fa-laptop"></i>
+                    <p>Sign up for the OSF</p>
+                </div>
+            </a>
+        </div>
+
+         <div class="col-md-8">
+        <h2>2. Free Stats Consulting</h2>
+         Do you want to learn how to harness the power of statistics while maintaining good open science practices? We offer free statistical consulting to curious researchers as well as free online and in-person workshops. You can email us with your questions or request a Google Hangout appointment to talk through your problem face to face. <a href="osf.io/stats_consulting/">Check out our statistical consulting services today.</a>
+
+         </div>
+         <div class="col-md-4  margin-top-50">
+            <a href="mailto:stats-consulting@cos.io">
+                <div class="action-box">
+                    <i class="fa fa-pencil"></i>
+                    <p>Request a consultation</p>
+                </div>
+            </a>
+        </div>
+
+<div class="col-md-8">
+         <h2>3. Become an Ambassador</h2>
+         Ambassadors act as the local authority on the Center for Open Science, the Open Science Framework, and open science practices within their community. Anyone from any field can become one of our Ambassadors and is the perfect opportunity for any open science enthusiast who wants to help spread the word. <a href= "http://osf.io/involved_opportunities/">Read more about our ambassador program here.</a>
 </div>
+
+ <div class="col-md-4  margin-top-50">
+            <a href="#">
+                <div class="action-box">
+                    <img src="/static/img/icons/handshake.png">
+                    <p>Become an ambassador</p>
+                </div>
+            </a>
+        </div>
+
+
+</div>
+
 <!-- END TAB 2 -->
 <!-- START TAB 3 -->
 <div class="tab-pane" id="tab_3">
