@@ -31,6 +31,7 @@
             <div class="col-md-12 space-mobile sponsor">
 
                 <h1><strong>Our Sponsors</strong></h1>
+                <p class="lead">The Center for Open Science is a non-profit funded through a number of grants and donations.</p>
                 <div class="portlet box tabbable margin-top-50">
                         <div class="portlet-body">
                             <div class="portlet-tabs">
