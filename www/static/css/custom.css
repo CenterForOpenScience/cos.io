@@ -416,14 +416,14 @@ body {
 
 
 /*Stats*/
-.stats-action {
+.action-box {
     text-align: center;
     font-size: 20px;
     background-color: #e8f6fc;
     padding: 10px;
     margin-bottom: 20px;
 }
-.stats-action .fa {
+.action-box .fa {
     font-size: 45px;
 }
 
@@ -438,6 +438,32 @@ body {
 .stats-intro table {
     list-style-type: none;
     line-height: 30px;
+}
 
 
+/*Opportunities*/
+
+.ambassador-box {
+    margin: 25px;
+}
+.ambassador-img img{
+    width: 200px;
+    border-radius: 50% !important;
+}
+
+.ambassador-name {
+    text-align: center;
+    padding-top: 20px;
+}
+.ambassador-instit {
+    text-align: center;
+}
+
+.action-box img {
+    width: 75px;
+}
+
+/*Footer*/
+.twitter-timeline {
+    max-height: 400px;
 }

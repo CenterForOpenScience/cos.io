@@ -52,13 +52,13 @@
 
                 <div  class="col-md-3 col-md-offset-1">
                     <a href="mailto:stats-consulting@cos.io" >
-                        <div class="stats-action" id="stats-consult">
+                        <div class="action-box" id="stats-consult">
                             <i class="fa fa-pencil"></i>
                             <p>Request a Consultation</p>
                         </div>
                     </a>
                     <a href="http://eepurl.com/2kghn" target="_blank">
-                        <div class="stats-action">
+                        <div class="action-box">
                             <i class="fa fa-envelope-o"></i>
                             <p>Receive Updates<br>on our Services</p>
                         </div>
