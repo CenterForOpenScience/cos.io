@@ -3,7 +3,7 @@
 <%def name="description()">The Center for Open Science initiates open source and metascience community projects.</%def>
 
 <%def name="navigation()">
-    ${self.navlinks('about_team')}
+    ${self.navlinks('communities')}
 </%def>
 
 <%def name="stylesheets()">
@@ -49,9 +49,9 @@
                                             <img src="../static/img/icons/community_badge.gif">
                                         </td>
                                         <td>
-                                            <h3>Badges to incentivize open practices</h3>
+                                            <h3>Badges to acknowledge open practices</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="https://osf.io/tvyxz/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -63,7 +63,7 @@
                                         <td>
                                             <h3>Registered Reports</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <a href="https://osf.io/zv2cs/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -74,22 +74,173 @@
                             <!-- END TAB 1 -->
                             <!-- START TAB 2 -->
                             <div class="tab-pane" id="tab_2">
-                                metascience
+                                <table>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Reproducibility Project: Psychology (RP:P)</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="https://osf.io/ezcuj/wiki/home/ target="_blank"" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Reproducibility Project: Cancer Biology (RP:CB)</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="https://osf.io/e81xl/wiki/home/" target="_blank" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Many Labs</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="https://osf.io/wx7ck/wiki/home/" target="_blank" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Many Labs 2</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="https://osf.io/8cd4r/wiki/home/" target="_blank" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                      <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Many Labs 3</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="https://osf.io/ct89g/wiki/home/" target="_blank" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                      <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Collaborative Replications and Education Project (CREP)</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="https://osf.io/wfc6u/wiki/home/" target="_blank" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                       <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Crowdstorming</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="https://osf.io/gvm2z/wiki/home/" target="_blank" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                </table>
                             </div>
                             <!-- END TAB 2 -->
                             <!-- START TAB 3 -->
                             <div class="tab-pane" id="tab_3">
-                                infrastructure
+                                <table>
+                                 <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Open Source Developing</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p><br><br>
+                                            <a href="#" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                 </table>
                             </div>
                             <!-- END TAB 3 -->
                             <!-- START TAB 4 -->
                             <div class="tab-pane" id="tab_4">
-                                interest groups
+                                <table>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Ambassadors</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="#" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Open Science Collaboration</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="#" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                </table>
                             </div>
                             <!-- END TAB 4 -->
                             <!-- START TAB 5 -->
                             <div class="tab-pane" id="tab_5">
-                                Foundations
+                                <table>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Mozilla</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="#" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="community-badge">
+                                            <img src="../static/img/icons/community_badge.gif">
+                                        </td>
+                                        <td>
+                                            <h3>Open Knowledge Foundation</h3>
+                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <a href="#" class="btn blue">
+                                                <i class="fa fa-search"></i> Learn more
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                </table>
                             </div>
                             <!-- END TAB 5 -->
                         </div>
