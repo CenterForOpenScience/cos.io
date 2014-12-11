@@ -3,7 +3,7 @@
 <%def name="description()">The Center for Open Science initiates open source and metascience community projects.</%def>
 
 <%def name="navigation()">
-    ${self.navlinks('about_team')}
+    ${self.navlinks('communities')}
 </%def>
 
 <%def name="stylesheets()">
@@ -171,7 +171,7 @@
                                             <img src="../static/img/icons/community_badge.gif">
                                         </td>
                                         <td>
-                                            <h3>Open Source</h3>
+                                            <h3>Open Source Developing</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p><br><br>
                                             <a href="https://github.com/CenterForOpenScience/osf.io" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more

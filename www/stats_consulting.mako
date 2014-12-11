@@ -57,7 +57,7 @@
                             <p>Request a Consultation</p>
                         </div>
                     </a>
-                    <a href="http://eepurl.com/2kghn" >
+                    <a href="http://eepurl.com/2kghn" target="_blank">
                         <div class="stats-action">
                             <i class="fa fa-envelope-o"></i>
                             <p>Receive Updates<br>on our Services</p>
