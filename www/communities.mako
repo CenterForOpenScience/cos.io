@@ -49,7 +49,7 @@
                                             <img src="../static/img/icons/community_badge.gif">
                                         </td>
                                         <td>
-                                            <h3>Badges to acknowledge open practices</h3>
+                                            <h3>Badges to Acknowledge Open Practices</h3>
                                             <p>Badges incentivize open research by rewarding authors with visual acknowledgements on published manuscripts. Currently, badges can be earned for three distinct practices: open data, open materials, and preregistration. Badges appear directly on publications along with information regarding where the relevant data, materials, or registration can be found.  The badges and their criteria are developed and maintained as a community-driven initiative of the Center for Open Science.</p>
                                             <a href="https://osf.io/tvyxz/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
