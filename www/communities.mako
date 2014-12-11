@@ -81,7 +81,7 @@
                                         </td>
                                         <td>
                                             <h3>Reproducibility Project: Psychology (RP:P)</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <p>The RP:P is crowdsourced metascience project with the aim of estimating the rate of reproducibility in published psychology research. Scientists who join the RP:P choose an experiment from a randomly selected pool of studies, replicate one finding, and document the process according to an established protocol. The project hopes to identify predictors of reproducibility and factors that improve the research process. The RP:P is coordinated by the Center for Open Science and involves volunteer scientists from all over the world.</p>
                                             <a href="https://osf.io/ezcuj/wiki/home/ target="_blank"" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
