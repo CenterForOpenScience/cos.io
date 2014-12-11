@@ -20,7 +20,6 @@
 <div class="container min-hight margin-bottom-100 margin-top-50">
 
         <h1><strong>Resources for Developers</strong></h1>
-        <br>
         <p>A natural parallel to open scientific practices is open source software. The Center for Open Science (COS) relies on open source tools for its infrastructure. You can find software maintained by COS on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
 
         <h3>Open Source Community and Projects</h3>

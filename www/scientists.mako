@@ -20,7 +20,7 @@
 <div class="container min-hight margin-bottom-100 margin-top-50">
 
         <h1><strong>Resources for Scientists</strong></h1>
-        <br>
+
         <h3><a href="https://osf.io">Open Science Framework (OSF)</a></h3>
         <div style="float:right; margin-left:20px;">
             <img src="/static/img/cos_connected.png" height="220" width="530">

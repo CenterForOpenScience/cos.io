@@ -19,7 +19,6 @@
     <div class="container min-hight margin-bottom-100 margin-top-50">
 
         <h1><strong>Grant Giving</strong></h1>
-        <Br>
         <p>The Center for Open Science (COS) occasionally invites grant proposals to increase the openness, integrity, and reproducibility of scientific research.  Proposals can aim to:</p>
             <ol>
                 <li>Create or connect open science infrastructure</li>

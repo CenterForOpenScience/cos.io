@@ -23,51 +23,49 @@
     <!-- BEGIN CONTAINER -->
     <div class="container min-hight margin-top-50">
         <!-- BEGIN ABOUT INFO -->
-        <div class="row margin-bottom-30">
+        <div class="row col-md-12 margin-bottom-30">
 
             <!-- BEGIN INFO BLOCK -->
-            <div class="col-md-10 space-mobile">
-                <h1><strong>Statistical & Methodological Consulting Services<br></strong></h1>
-                <br>
-                <h2><center>Learn more about Open and Reproducible...</center></h2>
-                <div class="row service-box margin-bottom-40">
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-box-heading">
-                            <span>Tools & Computation</span>
+            <div class="stats-intro space-mobile">
+                <h1><strong>Statistical & Methodological Consulting</strong></h1>
+                <div class="row col-md-8">
+
+                    <p>Individual scientists can improve the replicability of their own work through careful documentation,
+                        adherence to standards, and the use of open tools.</p>
+                    <p>Our consultants can help answer questions about open and reproducible tools, methodologies, and workflows.
+                        For instance, in the past, we have given guidance on:</p>
+                    <table class="col-md-10 col-md-offset-1">
+                        <tr>
+                            <td><i class="fa fa-check"></i>Using R</td>
+                            <td><i class="fa fa-check"></i>Learning Github</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-check"></i>Conducting power analyses</td>
+                            <td><i class="fa fa-check"></i>Conducting meta-analyses</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-check"></i>Using the OSF</td>
+                            <td><i class="fa fa-check"></i>Preregistering analysis plans</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div  class="col-md-3 col-md-offset-1">
+                    <a href="mailto:stats-consulting@cos.io" >
+                        <div class="stats-action" id="stats-consult">
+                            <i class="fa fa-pencil"></i>
+                            <p>Request a Consultation</p>
                         </div>
-                        <ul>
-                            <li>Using R</li>
-                            <li>Github</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-box-heading">
-                            <span>Methods & Statistics</span>
+                    </a>
+                    <a href="http://eepurl.com/2kghn" >
+                        <div class="stats-action">
+                            <i class="fa fa-envelope-o"></i>
+                            <p>Receive Updates<br>on our Services</p>
                         </div>
-                        <ul>
-                            <li>Power Analyses</li>
-                            <li>Meta-Analyses</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-box-heading">
-                            <span>Workflows & Practices</span>
-                        </div>
-                        <ul>
-                            <li>OSF training</li>
-                            <li>Preregistration</li>
-                        </ul>
-                    </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-10 space-mobile">
-
-                <br>
-                <br>
-                <div class="note note-info">
-                <p><strong>Want to get information about upcoming workshops and new resources? Subscribe to <a href="http://eepurl.com/2kghn">our email list.</a></strong></p>
-                </div>
-                <br>
+            <div class="space-mobile">
                 <h2><strong>Free One-on-One Consulting Services</strong></h2>
 
                 <hr>
@@ -105,7 +103,7 @@
                     <li>Help you implement new trends in methods and practices (e.g. cumulative meta-analyses and effect size and confidence intervals)</li>
                 </ul>
                 <br>
-                <p>Sample questions:</p>
+                <p>Example questions:</p>
                 <ul>
                     <li>I’m starting a new line of research, so I’m unsure about what the effect size for my studies will be. How would I do a power analysis to inform my planned sample?</li>
                     <br>
@@ -117,13 +115,13 @@
                 <p><strong>What can't we do?</strong></p>
                 <br>
                 <ul>
-                    <li><strong>Write programs to perform your data analyses for you:</strong> We can suggest resources, show you example code or code outlines, and help you work through coding bugs when you get stuck, but we cannot write the programs for you.</li>
+                    <li>Write programs to perform your data analyses for you: We can suggest resources, show you example code or code outlines, and help you work through coding bugs when you get stuck, but we cannot write the programs for you.</li>
                     <br>
-                    <li><strong>Perform or write up your data analyses for you:</strong> We are happy to provide support and suggestions for data analysis and interpretation, but we cannot actually perform these analyses or write them up for you.</li>
+                    <li>Perform or write up your data analyses for you: We are happy to provide support and suggestions for data analysis and interpretation, but we cannot actually perform these analyses or write them up for you.</li>
                     <br>
-                    <li><strong>Turn back time to meet urgent deadlines</strong></li>
+                    <li>Turn back time to meet urgent deadlines.</li>
                     <br>
-                    <li><strong>Help you complete your coursework</strong></li>
+                    <li>Help you complete your coursework.</li>
                 </ul>
                 <br>
                 <p><strong>What is reproducible research?</strong></p>
@@ -134,9 +132,12 @@
                 <p><strong>How can I acknowledge your services?</strong></p>
                 <p>Tell your friends about our services! Acknowledgement is not required, but is appreciated for spreading the word.</p>
 
-            <!-- END INFO BLOCK -->
+                <!-- END INFO BLOCK -->
+            </div>
         </div>
+        <!--End About Info-->
     </div>
+
     <!--End Container-->
 </div>
 <!-- END PAGE CONTAINER -->

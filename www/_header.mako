@@ -9,87 +9,7 @@
 
     <!-- Le styles -->
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-        body {
-            padding-top: 20px;
-            padding-bottom: 40px;
-        }
-
-            /* Custom container */
-        .container-narrow {
-            margin: 0 auto;
-            max-width: 700px;
-        }
-        .container-narrow > hr {
-            margin: 30px 0;
-        }
-
-            /* Main marketing message and sign up button */
-        .jumbotron {
-            margin: 50px;
-            text-align: left;
-
-        }
-        .jumbotron h1 {
-            font-size: 72px;
-            line-height: 1;
-        }
-        .jumbotron .btn {
-            font-size: 21px;
-            padding: 14px 24px;
-            margin: 30px;
-        }
-
-        .jumbotron p {
-            font-size: 39px;
-            line-height: 1.5;
-        }
-
-            /* Supporting marketing content */
-        .marketing {
-            margin: 60px 0;
-        }
-        .marketing p + h4 {
-            margin-top: 28px;
-        }
-
-        p {
-            margin-bottom: 20px;
-            font-size: 16px;
-            font-weight: 200;
-            line-height: 20px;
-        }
-
-        .footer {
-            margin: 10px 0px 30px 0px;
-            padding: 25px 0 25px;
-            background-color: #eeeeee;
-            text-shadow: 0 1px 0 #fff;
-            border-top:1px solid #e5e5e5;
-            border-bottom:1px solid #e5e5e5;
-            color: #555555;
-        }
-
-        .footer ul {
-            list-style: none;
-            margin-left:0;
-        }
-
-        .press {
-            margin: 20px 0px 20px 0px;
-        }
-
-        .press h4 {
-            margin-top:0px;
-        }
-
-        .wrapper {
-            margin: 30px 0px 30px 0px;
-        }
-
-        a:hover, a:focus {
-        text-decoration: none;
-        }
+    <style href="static/css/style.css" rel="stylesheet">
 
     </style>
     <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -116,14 +36,4 @@
 
 <body>
 <div class="container-narrow">
-    <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/press/">Press</a></li>
-            <li><a href="/jobs/">Jobs <span class="badge badge-success">3</span></a></li>
-            <li><a href="/#contact">Contact</a></li>
-        </ul>
-        <h3><a href="/"><img src="/static/cos_logo.png" width="200px" /></a></h3>
-    </div>
-    <hr />
+
