@@ -58,7 +58,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/registrations.png">
+                                            <img src="../static/img/icons/speech.gif">
                                         </td>
                                         <td>
                                             <h3>Registered Reports</h3>
