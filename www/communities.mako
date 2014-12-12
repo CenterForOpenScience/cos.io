@@ -81,7 +81,7 @@
                                         </td>
                                         <td>
                                             <h3>Reproducibility Project: Psychology (RP:P)</h3>
-                                            <p>The RP:P is crowdsourced metascience project with the aim of estimating the rate of reproducibility in published psychology research. Scientists who join the RP:P choose an experiment from a randomly selected pool of studies, replicate one finding, and document the process according to an established protocol. The project hopes to identify predictors of reproducibility and factors that improve the research process. The RP:P is coordinated by the Center for Open Science and involves volunteer scientists from all over the world.</p>
+                                            <p>The RP:P is a collaborative community effort to replicate published psychology experiments from three landmark journals. By asking scientists to follow an established protocol and document their process, we hope to learn about how open practices can impact the scientific method and results while also estimating the rate of reproducibility. The RP:P is coordinated at the Center for Open Science and involves volunteer scientists from all over the world.</p>
                                             <a href="https://osf.io/ezcuj/wiki/home/ target="_blank"" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -93,7 +93,7 @@
                                         </td>
                                         <td>
                                             <h3>Reproducibility Project: Cancer Biology (RP:CB)</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <p>The RP:CB is an independent initiative to conduct direct replications of 50 high-impact cancer biology studies. The project anticipates learning more about predictors of reproducibility, common obstacles to conducting replications, and how the current scientific incentive structure affects research practices by estimating the rate of reproducibility in a sample of published cancer biology literature. The RP:CB is a collaborative effort between the Center for Open Science and network provider Science Exchange.</p>
                                             <a href="https://osf.io/e81xl/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -104,8 +104,8 @@
                                             <img src="../static/img/icons/community_badge.gif">
                                         </td>
                                         <td>
-                                            <h3>Many Labs</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <h3>Many Labs I</h3>
+                                            <p>The Many Labs I project is a crowdsourced metascience study that takes a packet of 12 distinct psychology experiments and tests them in dozens of different labs, thus the title, “Many Labs." By comparing the conditions under which the study was administered, such as participant compensation and geographic location of the lab, this project hopes to illuminate trends in replication success.</p>
                                             <a href="https://osf.io/wx7ck/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -116,7 +116,7 @@
                                             <img src="../static/img/icons/community_badge.gif">
                                         </td>
                                         <td>
-                                            <h3>Many Labs 2</h3>
+                                            <h3>Many Labs II</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
                                             <a href="https://osf.io/8cd4r/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
@@ -128,7 +128,7 @@
                                             <img src="../static/img/icons/community_badge.gif">
                                         </td>
                                         <td>
-                                            <h3>Many Labs 3</h3>
+                                            <h3>Many Labs III</h3>
                                             <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
                                             <a href="https://osf.io/ct89g/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
@@ -255,7 +255,9 @@
                         <td><h2>Join the conversation!</h2>
                             <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
                                 transparency, and reproducbility in the OSC Google Group.</p>
-                            <p><a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank">Sign up here.</a></p></td>
+                            <p><a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank" class="btn blue">
+                            <i class="fa fa-pencil-square-o"></i> Sign up today
+                            </a></p></td>
                     </tr>
                 </table>
             </div>
