@@ -105,7 +105,7 @@
                                         </td>
                                         <td>
                                             <h3>Many Labs I</h3>
-                                            <p>The Many Labs I project is a crowdsourced metascience study that takes a packet of 12 distinct psychology experiments and tests them in dozens of different labs, thus the title, “Many Labs." By comparing the conditions under which the study was administered, such as participant compensation and geographic location of the lab, this project hopes to illuminate trends in replication success.</p>
+                                            <p>The Many Labs I project is a crowdsourced metascience study that selects 12 distinct psychology experiments and tests them all in numerous different labs, thus the title, “Many Labs." By comparing the conditions under which the study was administered, such as participant compensation and geographic location of the lab, this project hopes to illuminate trends in replication success.</p>
                                             <a href="https://osf.io/wx7ck/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -252,7 +252,7 @@
                 <table>
                     <tr>
                         <td id="speechbubble"><img src="../static/img/icons/speech.gif"></td>
-                        <td><h2>Join the conversation!</h2>
+                        <td><h3>Join the conversation!</h3>
                             <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
                                 transparency, and reproducbility in the OSC Google Group.</p>
                             <p><a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank" class="btn blue">
