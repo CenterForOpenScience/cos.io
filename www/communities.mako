@@ -46,7 +46,7 @@
                                 <table>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Badges(Laurel).png">
                                         </td>
                                         <td>
                                             <h3>Badges to Acknowledge Open Practices</h3>
@@ -58,7 +58,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/registrations.png">
                                         </td>
                                         <td>
                                             <h3>Registered Reports</h3>
@@ -149,7 +149,7 @@
                                     </tr>
                                        <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Crowdstorming.png">
                                         </td>
                                         <td>
                                             <h3>Crowdstorming</h3>
@@ -168,7 +168,7 @@
                                 <table>
                                  <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/OpenAccess2.png">
                                         </td>
                                         <td>
                                             <h3>Open Source Developing</h3>
