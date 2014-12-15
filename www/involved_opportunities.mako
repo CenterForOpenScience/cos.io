@@ -242,7 +242,7 @@
 
         <div class="col-md-8">
       <h2>1. Use The Open Science Framework (OSF)</h2>
-      <p>Do you have a research project that is in need of organization? Do you want to easily integrate your research with all of your favorite research tools? The OSF is a <b>free</b> online resource for scientists to manage workflow, increase efficiency, and practice open science! The OSF is part network of research materials, part version control system, and part collaboration software with a mission to increase the alignment between scientific values and scientific practices. <a href="osf.io">Learn more about how the OSF can improve your workflow.</a>
+      <p>Do you have a research project that is in need of organization? Do you want to easily integrate your research with all of your favorite research tools? The OSF is a <b>free</b> online resource for scientists to manage workflow, increase efficiency, and practice open science! The OSF is part network of research materials, part version control system, and part collaboration software with a mission to increase the alignment between scientific values and scientific practices. <a href="osf.io">Learn more about how the Open Science Framework can improve your research workflow.</a>
       </div>
 
       <div class="col-md-4  margin-top-50">
@@ -255,9 +255,8 @@
         </div>
 
          <div class="col-md-8">
-        <h2>2. Free Stats Consulting</h2>
-         Do you want to learn how to harness the power of statistics while maintaining good open science practices? We offer free statistical consulting to curious researchers as well as free online and in-person workshops. You can email us with your questions or request a Google Hangout appointment to talk through your problem face to face. <a href="osf.io/stats_consulting/">Check out our statistical consulting services today.</a>
-
+        <h2>2. Access Free Statistical Consulting</h2>
+         Do you want to learn how to harness the power of statistics while maintaining good open science practices? We offer free statistical consulting to curious researchers as well as free online and in-person workshops. You can email us with your questions or request a Google Hangout appointment to talk through your problem face to face. <a href="osf.io/stats_consulting/">Sign up for our statistical consulting services today!</a> 
          </div>
          <div class="col-md-4  margin-top-50">
             <a href="mailto:stats-consulting@cos.io">
@@ -269,19 +268,23 @@
         </div>
 
 <div class="col-md-8">
-         <h2>3. Become an Ambassador</h2>
-         Ambassadors act as the local authority on the Center for Open Science, the Open Science Framework, and open science practices within their community. Anyone from any field can become one of our Ambassadors and is the perfect opportunity for any open science enthusiast who wants to help spread the word. <a href= "http://osf.io/involved_opportunities/">Read more about our ambassador program here.</a>
+         <h2>3. Become a Center for Open Science Ambassador</h2>
+         Ambassadors act as the local authority on the Center for Open Science, the Open Science Framework, and open science practices within their community. Anyone from any field can become one of our Ambassadors and is the perfect opportunity for any open science enthusiast who wants to help spread the word. <a href= "http://osf.io/involved_opportunities/">Read more about the Center for Open Science ambassador program here.</a>
 </div>
 
  <div class="col-md-4  margin-top-50">
             <a href="#">
                 <div class="action-box">
-                    <img src="/static/img/icons/handshake.png">
+                    <img src="/static/img/icons/Ambassador_Handshake.png">
                     <p>Become an ambassador</p>
                 </div>
             </a>
         </div>
 
+<div class="col-md-8">
+         <h2>3. Become an Ambassador</h2>
+         Ambassadors act as the local authority on the Center for Open Science, the Open Science Framework, and open science practices within their community. Anyone from any field can become one of our Ambassadors and is the perfect opportunity for any open science enthusiast who wants to help spread the word. <a href= "http://osf.io/involved_opportunities/">Read more about the Center for Open Science ambassador program here.</a>
+</div>
 
 </div>
 
