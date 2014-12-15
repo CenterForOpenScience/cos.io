@@ -14,7 +14,7 @@
 
 
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container">
+<div class="page-container" id="communities">
 
 
     <!-- BEGIN CONTAINER -->
@@ -288,8 +288,21 @@
     <script src="assets/scripts/app.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
-            App.init();
+
+            var tab = location.hash.slice(1,6);
+            var availableTabs = ['tab_1', 'tab_2', 'tab_3', 'tab_4', 'tab_5'];
+            if(tab && availableTabs.indexOf(tab) !== -1){
+             ## remove active classes from tabs
+            $(".tabbable > li").removeClass("active");
+            $(".tab-pane").removeClass("active");
+
+            ## add active class to appropriate tab
+            $("a[href='#"+tab+"'").parent().addClass("active");
+            $("#"+tab).addClass("active");
+            }
+
         });
     </script>
+
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>

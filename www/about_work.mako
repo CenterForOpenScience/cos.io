@@ -68,7 +68,7 @@
                 </p>
                 <br>
                 <h3><strong>Interested in finding ways to work together?</strong></h3>
-                <p>Visit our pages for <a href="/journals/">journals and societies</a>, for <a href="/scientists/">scientists</a>, or for <a href="/developers/">developers</a>.</p>
+                <p>Visit our pages for <a href="/involved_opportunities/#tab_3">journals and societies</a>, for <a href="/involved_opportunities/#tab_2"">scientists</a>, or for <a href="/involved_opportunities/#tab_4">developers</a>.</p>
                 <div class="spacer"></div>
             </div>
 
