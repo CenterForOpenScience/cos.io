@@ -105,7 +105,16 @@
                                         </td>
                                         <td>
                                             <h3>Many Labs I</h3>
-                                            <p>The Many Labs I project is a crowdsourced metascience study that takes a packet of 12 distinct psychology experiments and tests them in dozens of different labs, thus the title, “Many Labs." By comparing the conditions under which the study was administered, such as participant compensation and geographic location of the lab, this project hopes to illuminate trends in replication success.</p>
+                                            <p>The Many Labs I project is a crowdsourced metascience study that takes a packet of 12 distinct psychology experiments and tests them in dozens of different labs, thus the title, “Many Labs." By comparing the conditions under which the study was administered, such as participant compensation and geographic location of the lab, this project helped to illuminate trends in replication success.
+                                            <p> 
+                                            <b>Results</b> 
+                                            <uo>
+                                            <li>Variations in sample and setting have little impact on observed effect magnitudes</li>
+                                            <li>When there is variation in effect magnitude across samples, it occurs in studies with large effects, not studies with small effects</li>
+                                            <li>Replicability is much more dependent on the effect of study rather than the sample or setting in which it was studied</li>
+                                            <li>Replicability holds even across lab-web and across nations</li>
+                                            <li>Two effects in a subdomain with substantial debate about reproducibility (flag and currency priming) show no evidence of an effect in individual samples or in the aggregate.</li> </uo> </p>
+                                             </p>
                                             <a href="https://osf.io/wx7ck/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -117,7 +126,13 @@
                                         </td>
                                         <td>
                                             <h3>Many Labs II</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <p>Many Labs II employs an expanded version of the Many Labs paradigm to investigate a substantial number of new effects and further examine the findings from Many Labs I.  In particular, the study examines: 
+                                            <uo>
+                                             <li>Effects expected to vary in detectable effect size </li> 
+                                             <li> Effects that are thought to vary across cultural contexts and others that are not </li> 
+                                             <li>Effects that are plausibly contingent on other features of the sample or setting</li> 
+                                             <li>Effects that are known to be replicable and others that are untested including additional examples from “social priming” and other areas.</li> </uo><br>In this instance of the Many Labs study, we were particularly interested in recruiting contributors from as many nations and cultural contexts within nations as possible, including student and non-student samples.  
+</p>
                                             <a href="https://osf.io/8cd4r/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -129,7 +144,8 @@
                                         </td>
                                         <td>
                                             <h3>Many Labs III</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <p>Many psychologists rely on undergraduate participant pools as their primary source of participants. Most participant pools are made up of undergraduate students taking introductory psychology courses over the course of a semester. Many Labs III is another crowdsourced project that will systematically evaluate time-of-semester effects across many participant pools. The project team created a single experimental protocol assessing 10 known effects within 30 minutes. Twenty three labs will administer the same protocol across the academic semester. The aggregate data will provide evidence as to whether the time-of-semester moderates the detectability of effects. 
+</p>
                                             <a href="https://osf.io/ct89g/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -141,7 +157,7 @@
                                         </td>
                                         <td>
                                             <h3>Collaborative Replications and Education Project (CREP)</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <p>The goal of the Collaborative Replications and Education Project is to facilitate student research training and solidify research findings in psychological science through student participation in large-scale replication efforts. We have composed a list of current studies that we encourage students and instructors to replicate as part of research methods courses, independent studies, bachelor theses, and the like. Everyone who conducts a replication of a study on the list will be encouraged to submit their results to a centralized location where they can be further analyzed by interested researchers/experts. Students and instructors who conduct replications that become part of a published paper will be recognized as contributors on any publications that arise from the data. </p>
                                             <a href="https://osf.io/wfc6u/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -153,7 +169,7 @@
                                         </td>
                                         <td>
                                             <h3>Crowdstorming</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
+                                            <p>Crowdstorming a dataset is a method of data analysis in which multiple independent analysts investigate the same research question on the same data set in whatever manner they consider to be best. This approach should be particularly useful for complex data sets in which a variety of analytic approaches could be used, and when dealing with controversial issues about which researchers and others have very different priors. This first crowdstorming project establishes a protocol for independent simultaneous analysis of a single dataset by multiple teams, and resolution of the variation in analytic strategies and effect estimates among them. </p>
                                             <a href="https://osf.io/gvm2z/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -172,7 +188,7 @@
                                         </td>
                                         <td>
                                             <h3>Open Source Developing</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p><br><br>
+                                            <p>The Center for Open Science is a Python-based, open source development shop. Developers who want to support open science should definitely consider contributing to our open source community. The Open Science Framework, the flagship platform of the Center for Open Science, is a web application for supporting the research workflow. Essentially, the Center for Open Science wants to bring the core philosophy of open source development to science. Developers have the opportunity to contribute to maturing products, like the Open Science Framework, or to new projects that help make science better. </p><br><br>
                                             <a href="https://github.com/CenterForOpenScience/osf.io" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
@@ -190,8 +206,8 @@
                                         </td>
                                         <td>
                                             <h3>Ambassadors</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="#" class="btn blue">
+                                            <p>Center for Open Science ambassadors act as the local authority on the Center for Open Science, the Open Science Framework, and open science practices in their community. They are trained to talk about the Center for Open Science, lead Open Science Framework demonstrations, and represent us at conferences and meetings. Researchers in any field and from any country can become COS Ambassadors. This is a great opportunity to promote open science in your community  and help us work to increase openness, integrity, and reproducibility across scientific domains.</p>
+                                            <a href="/involved_opportunities/#tab_1" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
@@ -202,8 +218,8 @@
                                         </td>
                                         <td>
                                             <h3>Open Science Collaboration</h3>
-                                            <p>Master cleanse beard authentic Austin viral deep v XOXO flexitarian photo booth quinoa, food truck skateboard semiotics Helvetica health goth. Tofu meh flannel, small batch 3 wolf moon cred narwhal. Fanny pack Schlitz meh keffiyeh lumbersexual gastropub. Shoreditch listicle hella, bicycle rights PBR&B letterpress meh whatever.</p>
-                                            <a href="http://osc.centerforopenscience.org/" target="_blank" class="btn blue">
+                                            <p>The Open Science Collaboration is a network of researchers, professionals, citizen scientists, and others with an interest in open science, metascience, and good scientific practices. The goal of the Open Science Collaboration is to promote open collaboration of scientific ideas. Collaboration and broadcasting of problems increases the odds a person with the right expertise will see it and be able to solve it easily. In the same vein, collaboration can lead to novel solutions to problems being found. Collaboration also means that projects can be more ambitious, as more people with a variety of expertise and experience are involved to help distribute the work. </p>
+                                            <a href="https://osf.io/vmrgu/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
