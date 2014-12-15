@@ -26,7 +26,7 @@
 <!-- BEGIN INFO BLOCK -->
 
 <!--BEGIN OPPORTUNITIES -->
-<h1><strong>Open Positions</strong><br><br></h1>
+<h1><strong>Open Positions</strong></h1>
 <p class="lead">COS is looking for open science enthusiasts to join our team. Openness means inclusivity: the Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
 
 <div id="AdminstrativeAssistantIntern" class="panel-group">
