@@ -46,7 +46,7 @@
                                 <table>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/Badges(Laurel).png">
+                                            <img src="../static/img/icons/open_data.gif">
                                         </td>
                                         <td>
                                             <h3>Badges to Acknowledge Open Practices</h3>
@@ -58,7 +58,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/registrations.png">
+                                            <img src="../static/img/icons/Registrations.png">
                                         </td>
                                         <td>
                                             <h3>Registered Reports</h3>
@@ -77,7 +77,7 @@
                                 <table>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Reproducibility_Psychology.png">
                                         </td>
                                         <td>
                                             <h3>Reproducibility Project: Psychology (RP:P)</h3>
@@ -89,7 +89,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Reproducibility_Cancer_Biology.png">
                                         </td>
                                         <td>
                                             <h3>Reproducibility Project: Cancer Biology (RP:CB)</h3>
@@ -101,7 +101,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Many_Labs_I.png">
                                         </td>
                                         <td>
                                             <h3>Many Labs I</h3>
@@ -113,7 +113,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Many_Labs_II.png">
                                         </td>
                                         <td>
                                             <h3>Many Labs II</h3>
@@ -125,7 +125,7 @@
                                     </tr>
                                       <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Many_Labs_III.png">
                                         </td>
                                         <td>
                                             <h3>Many Labs III</h3>
@@ -137,7 +137,7 @@
                                     </tr>
                                       <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/CREP_Logo.png">
                                         </td>
                                         <td>
                                             <h3>Collaborative Replications and Education Project (CREP)</h3>
@@ -149,7 +149,7 @@
                                     </tr>
                                        <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/Crowdstorming.png">
+                                            <img src="../static/img/icons/Crowdstorm.png">
                                         </td>
                                         <td>
                                             <h3>Crowdstorming</h3>
@@ -168,7 +168,7 @@
                                 <table>
                                  <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/OpenAccess2.png">
+                                            <img src="../static/img/icons/Open_Access.png">
                                         </td>
                                         <td>
                                             <h3>Open Source Developing</h3>
@@ -186,7 +186,7 @@
                                 <table>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Ambassadors_Icon.png">
                                         </td>
                                         <td>
                                             <h3>Ambassadors</h3>
@@ -198,7 +198,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Open_Science_Collaborative_Logo.png">
                                         </td>
                                         <td>
                                             <h3>Open Science Collaboration</h3>
@@ -217,7 +217,7 @@
                                 <table>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/mozilla_wordmark.png">
                                         </td>
                                         <td>
                                             <h3>Mozilla</h3>
@@ -229,7 +229,7 @@
                                     </tr>
                                     <tr>
                                         <td class="community-badge">
-                                            <img src="../static/img/icons/community_badge.gif">
+                                            <img src="../static/img/icons/Open_Knowledge_Foundation.png">
                                         </td>
                                         <td>
                                             <h3>Open Knowledge Foundation</h3>

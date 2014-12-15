@@ -71,7 +71,7 @@
         <div class="col-md-3 col-md-offset-1 margin-top-50">
             <a href="#" >
                 <div class="action-box">
-                    <img src="/static/img/icons/handshake.png">
+                    <img src="/static/img/icons/Ambassador_Handshake.png">
                     <p>Become an ambassador</p>
                 </div>
             </a>
