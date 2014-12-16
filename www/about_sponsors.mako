@@ -30,7 +30,8 @@
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile sponsor">
 
-                <h1><strong>Our Sponsors<br><br></strong></h1>
+                <h1><strong>Our Sponsors</strong></h1>
+                <p class="lead">The Center for Open Science is a non-profit funded through a number of grants and donations.</p>
                 <div class="portlet box tabbable margin-top-50">
                         <div class="portlet-body">
                             <div class="portlet-tabs">
@@ -248,6 +249,13 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center"><a href="https://teamgantt.com/"><img src="/static/img/icons/teamgantt.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>TeamGantt</strong></span><br>
+                                                   Expansion of plan to accommodate more team members<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center"><a href="http://www.zipfianacademy.com/"><img src="/static/img/icons/zipfian.png"></a></td>
                                                     <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
                                                     Recruitment<br>
@@ -298,14 +306,6 @@
     <script src="../static/plugins/jquery.mixitup.min.js"></script>
     <script src="../static/scripts/app.js"></script>
     <script src="../static/scripts/portfolio.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            App.init();
-            Portfolio.init();
-            toastr.info('Scroll down to make a donation!');
-            toastr.options.showDuration = '100000';
-        })
-    </script>
 
 </%def>
 <!-- END PAGE LEVEL JAVASCRIPTS --> 

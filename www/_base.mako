@@ -6,9 +6,6 @@
         <!-- BEGIN TOP NAVIGATION MENU -->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="dropdown ${ 'active' if page == 'home' else ''}">
-                    <a href="/">Home </a>
-                </li>
                 <li class="dropdown ${ 'active' if page.startswith('about') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         About us
@@ -20,11 +17,31 @@
                         <li><a href="/about_sponsors/">Our Sponsors</a></li>
                     </ul>
                 </li>
+                <li class="dropdown ${ 'active' if page.startswith('stats') else ''}">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
+                        Services
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/stats_consulting/">Statistical Consulting</a></li>
+                        <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown ${ 'active' if page == 'communities' else ''}">
+                    <a href="/communities/">Communities</a>
+                </li>
                 <li class="dropdown ${ 'active' if page == 'news' else ''}">
                     <a href="/news/">News </a>
                 </li>
-                <li class="dropdown ${ 'active' if page == 'jobs' else ''}">
-                    <a href="/jobs/" >Jobs</a>
+                <li class="dropdown ${ 'active' if page.startswith('involved') else ''}">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
+                        Get Involved
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/involved_opportunities/">Opportunities</a></li>
+                        <li><a href="/involved_jobs/">Jobs</a></li>
+                    </ul>
                 </li>
                 <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
             </ul>
@@ -45,6 +62,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="${self.description()}" name="description" />
     <meta content="Johanna Cohoon" name="author" />
+    <meta property="og:image" content="http://centerforopenscience.org/static/img/cos_center_logo_small.png"/>
     <link href="/static/favicon.ico" rel="shortcut icon">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
@@ -205,16 +223,17 @@ ${self.body()}
         <script src="/static/plugins/jflickrfeed/setup.js"></script>
     <!-- END FLICKR JS -->
 
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-26813616-2']);
-    _gaq.push(['_trackPageview']);
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  ga('create', 'UA-26813616-1', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['openscienceframework.org'] );
+  ga('send', 'pageview');
+
 </script>
 
 ${self.javascript_bottom()}

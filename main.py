@@ -25,6 +25,6 @@ if __name__ == "__main__":
 
     # or
 
-    # static_app = w.freeze('./frozen')
-    # static_app.run(port=5000, debug=False) # Ready to serve Flask app that mimics a static server
+     #static_app = w.freeze('./frozen')
+     #static_app.run(port=5000, debug=False) # Ready to serve Flask app that mimics a static server
 

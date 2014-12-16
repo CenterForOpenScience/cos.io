@@ -26,18 +26,67 @@
 <!-- BEGIN INFO BLOCK -->
 
 <!--BEGIN OPPORTUNITIES -->
-<h1><strong>Open Positions</strong><br><br></h1>
-<div id="accordion1" class="panel-group">
+<h1><strong>Open Positions</strong></h1>
+<p class="lead">COS is looking for open science enthusiasts to join our team. Openness means inclusivity: the Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+
+<div id="AdminstrativeAssistantIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion1_1">
-                        <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a  data-parent="#accordion1" >
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AdminstrativeAssistantIntern_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#AdminstrativeAssistantIntern" >
+                    Administrative Assistant Intern
+                </a>
+            </h4>
+        </div>
+        <div id="AdminstrativeAssistantIntern" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science (COS) seeks an ambitious and industrious individual who is looking to build experience with office administrative tasks while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. COS is bustling. The Administrative Assistant Intern will help ensure effective daily operations.</p>
+                    </dd>
+                    <dt> Responsibilities</dt>
+                    <dd>
+                        <p>The candidate will be responsible for administrative tasks including, but not limited to: scheduling meetings and events, receiving visitors and giving office tours, processing daily incoming and outgoing mail, assisting with the coordination of catered staff lunches, running errands such as weekly grocery pickups, processing and filing a variety of documents and materials, acting as a point of contact for COS vendors, proofreading and editing, and offering general support to the Office Manager.</p>
+
+                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site. </p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Exceptional organization and great attention to detail; high level of professionalism; ability to use web communication and documentation software effectively; team-oriented; very strong work ethic; multi-tasking; self-starter and industrious; adaptivity to rapidly changing demands in a high performance workplace; interest in science, technology, non-profits, or entrepreneurship; effective writing skills; evident interest in administrative tasks.</p>
+
+                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.  </p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Developer" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#Developer" >
                     Developer
                 </a>
             </h4>
         </div>
-        <div id="accordion1_1" class="panel-collapse collapse">
+        <div id="Developer" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -73,7 +122,7 @@
                     </dd>
                     <dt>Referrals</dt>
                     <dd>
-                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p> 
+                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
                         <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
                         <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
                         <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply.</p>
@@ -83,17 +132,17 @@
         </div>
     </div>
 </div>
-<div id="accordion2" class="panel-group">
+<div id="DeveloperIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion2_2">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
-                <a data-parent="#accordion2" >
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#DeveloperIntern_heading">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#DeveloperIntern">
                     Developer Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion2_2" class="panel-collapse collapse">
+        <div id="DeveloperIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
@@ -106,17 +155,17 @@
         </div>
     </div>
 </div>
-<div id="accordion3" class="panel-group">
+<div id="HumanResourcesIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion3_3">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion3" >
+                <a  data-parent="#HumanResourcesIntern" >
                     Human Resources Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion3_3" class="panel-collapse collapse">
+        <div id="HumanResourcesIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -143,7 +192,7 @@
                     </dd>
                     <dt>Applying</dt>
                     <dd>
-                      <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
                     </dd>
                 </dl>
@@ -151,17 +200,17 @@
         </div>
     </div>
 </div>
-<div id="accordion4" class="panel-group">
+<div id="ITIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion4_4">
-                        <h4 class="panel-title">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion4" >
+                <a  data-parent="#ITIntern" >
                     IT Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion4_4" class="panel-collapse collapse">
+        <div id="ITIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -170,7 +219,7 @@
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
-                    <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
+                        <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
                     </dd>
                     <dt>Skills</dt>
                     <dd>
@@ -195,17 +244,17 @@
         </div>
     </div>
 </div>
-<div id="accordion7" class="panel-group">
+<div id="QATestEngineerIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion7_7">
-                        <h4 class="panel-title">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion7" >
+                <a  data-parent="#QATestEngineerIntern" >
                     QC/QA/Test Engineer Intern
                 </a>
             </h4>
         </div>
-        <div id="accordion7_7" class="panel-collapse collapse">
+        <div id="QATestEngineerIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -240,17 +289,17 @@
         </div>
     </div>
 </div>
-<div id="accordion8" class="panel-group">
+<div id="SeniorDeveloper" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion8_8">
-                        <h4 class="panel-title">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper_heading">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion8" >
+                <a  data-parent="#SeniorDeveloper" >
                     Senior Developer
                 </a>
             </h4>
         </div>
-        <div id="accordion8_8" class="panel-collapse collapse">
+        <div id="SeniorDeveloper" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -297,33 +346,33 @@
         </div>
     </div>
 </div>
-<div id="accordion10" class="panel-group">
+<div id="StatsConsultant" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#accordion10_10">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#StatsConsultant_heading">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
 
-                <a data-parent="#accordion10" >
+                <a data-parent="#StatsConsultant" >
                     Statistical and Methodological Consultant
                 </a>
             </h4>
         </div>
-        <div id="accordion10_10" class="panel-collapse collapse">
+        <div id="StatsConsultant" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
                     <dd>
                         <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., Open Science Framework), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We will hire two individuals with substantial training in quantitative methods, research methodology, and reproducible research practices to be a consulting team to train, support, and foster open, reproducible research practices across the sciences.</p>
-                        <p>Statistical and Methodological Consultants will contribute to the COS mission, particularly the community and metascience efforts, and help facilitate open, reproducible practices across the scientific community.  Statistical and Methodological Consultants must have extremely strong quantitative, methodological, social, and organizational skills.  Depending on training and expertise, part of one or both of these positions will be devoted to support activities in the White House’s Office of Science and Technology Policy related to reproducible research practices.  This position is appropriate for recent or past PhD’s with particularly strong quantitative training in their substantive discipline.</p>
+                        <p>Statistical and Methodological Consultants will contribute to the COS mission, particularly the community and metascience efforts, and help facilitate open, reproducible practices across the scientific community. Statistical and Methodological Consultants must have extremely strong quantitative, methodological, social, and organizational skills. Depending on training and expertise, part of one or both of these positions will be devoted to support activities in the White House’s Office of Science and Technology Policy related to reproducible research practices.</p>
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
-                        <p>The Statistical and Methodological Consultants will provide active, hands-on consultation for reproducible best practices in data analysis and research design.  This includes short-term visits to universities, departments, and laboratories; lectures and training at conferences; virtual consulting and training; and development and maintenance of education materials and practical guides for distribution.  Consulting services will include open science, reproducibility practices, data analysis, and research methodology.</p>
-                        <p>The Statistical and Methodological Consultants will assist in forming and maintaining COS’s best practices for reproducible research, and collaborate with the whole COS team in making its infrastructure and products accessible, useful, and applicable to scientists across research disciplines.</p>
+                        <p>The Statistical and Methodological Consultants will provide active, hands-on consultation for reproducible best practices in data analysis and research design. This includes short-term visits to universities, departments, and laboratories; lectures and training at conferences; virtual consulting and training through emails and webinars; and development and maintenance of education materials and practical guides for distribution. Consulting services will include open science, reproducibility practices, data analysis, and research methodology.</p>
+                        <p>The Statistical and Methodological Consultants will assist in forming and maintaining COS’s  best practices for reproducible research, and collaborate with the whole COS team in making its infrastructure and products accessible, useful, and applicable to scientists across research disciplines..</p>
                     </dd>
                     <dt>Skills</dt>
                     <dd>
-                        <p>Substantial training and experience in scientific research, quantitative methods, and reproducible research practices; Extremely high social and communication skills; Exceptional organization and attention to detail; Service-oriented mindset; Diverse experience with technologies for data collection, analysis, and visualization; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in programming (at least R, ideally Python or Julia), web development, and data analysis are essential.</p>
+                        <p>Master’s degree in statistics or a substantive scientific discipline is required, PhD is preferred; Substantial training and experience in scientific research, quantitative methods, and reproducible research practices; Skills in quantitative data analysis and free statistical programming software commonly used by scientists (e.g. R or Python) are essential. Very strong written and verbal  communication skills; Service-oriented mindset; Comfortable teaching content to researchers from many different substantive backgrounds and at different career levels; Team-oriented; Very strong work ethic; Exceptional organization, time-management, and attention to detail.</p>
                     </dd>
                     <dt>Location</dt>
                     <dd>
@@ -331,7 +380,12 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
+                        <p>Salary range is $60,000 to $70,000; commensurate with experience.</p>
                         <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Travel</dt>
+                    <dd>
+                        <p>Travel will range from 25-50% time.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -343,17 +397,17 @@
         </div>
     </div>
 </div>
-<div id="accordion12" class="panel-group">
+<div id="WebDesigner" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#accordion12_12">
-                        <h4 class="panel-title">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#WebDesigner_heading">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#accordion12" >
+                <a  data-parent="#WebDesigner" >
                     Web Designer
                 </a>
             </h4>
         </div>
-        <div id="accordion12_12" class="panel-collapse collapse">
+        <div id="WebDesigner" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -392,100 +446,39 @@
 <!--END OPPORTUNITIES -->
 
 
-<h3>Openness means inclusivity</h3>
-<p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
 
-
-<h3><br><br><strong>What we do<br><br></strong></h3>
+<h3><br><br><strong>What we do</strong></h3>
 <p>We work on the cutting edge of open source software. We are mission driven - increasing openness
     and reproducibility in science research by building tools, forming community projects, and
     conducting open, crowdsourced research. We are facilitating positive changes to the scientific
-    culture and reward structure. <strong>We want you to join our team.</strong></p>
-<br>
-<br>
+    culture and reward structure.</p>
 
-<div class="container">
+<div>
     <!-- BEGIN LISTS -->
-    <div class="row col-md-10 front-lists-v1 margin-bottom-75">
+    <div class="row col-md-12 front-lists-v1 margin-bottom-25">
         <div>
-            <ul id="benefits" class="list-unstyled margin-bottom-20 col-md-8">
-                <li class="row text-right"><h3>Collaborate.</h3>The Center places a high value on developing skills and collaboration.<br> Teamwork, pair programming, collaboration internally and externally are daily practice.   </li>
-                <li><br></li>
-                <li class="row text-left"><h3>Eat well.</h3> Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
-                <li><br></li>
-                <li class="row text-right"><h3>Get fit.</h3> All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community. </li>
-                <li><br></li>
-                <li class="row text-left"><h3>Keep comfortable.</h3> We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.  </li>
-                <li><br></li>
-                <li class="row text-right"><h3>Get a Mac.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
-                <li><br></li>
-                <li class="row text-left"><h3>Plan for the future.</h3> We’ll help you set up your 401k, and COS contributes up to 4% matches.</li>
-                <li><br></li>
-                <li class="row text-right"><h3>Enjoy the view.</h3> The modern and stylish COS offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside!  </li>
+            <ul id="benefits" class="row list-unstyled margin-bottom-20 col-md-8">
+                <li><h3>Collaborate.</h3>The Center places a high value on developing skills and collaboration.<br> Teamwork, pair programming, collaboration internally and externally are daily practice.   </li>
+                <li><h3>Eat well.</h3> Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
+                <li><h3>Get fit.</h3> All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community. </li>
+                <li><h3>Keep comfortable.</h3> We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.  </li>
+                <li><h3>Get a Mac.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
+                <li><h3>Plan for the future.</h3> We’ll help you set up your 401k, and COS contributes up to 4% matches.</li>
+                <li><h3>Enjoy the view.</h3> The modern and stylish COS offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside!  </li>
             </ul>
-        </div>
-        <div class="margin-top-80 margin-bottom-60 margin-left-40 col-md-2">
-            <img src="../static/img/photos/Melissa_openhouse.jpg" width="400" alt="Melissa Lewis presenting">
-        </div>
-        <div class="margin-top-100 margin-bottom-20 margin-left-40 col-md-2">
-            <img src="../static/img/photos/COS_openhouse.jpg" width="400" alt="COS open house">
         </div>
     </div>
     <!-- END LISTS -->
-
 </div>
 
 <div id = "location"></div>
-<h3><strong>Where we live<br><br></strong></h3>
+<h3><strong>Where we live</strong></h3>
 <p>From hikes and rides atop the peaks of the Blue Ridge Mountains, to navigating the taps of the BrewRidge Trail, Charlottesville boasts both urban culture and rural adventure. The pedestrian mall downtown offers local shopping, a range of restaurants from French fine dining to sushi rolls to take-away crepes, weekend farmer’s markets, and a music scene to suit tastes for both jazz piano and garage rock.</p>
 <p>Steeped with history, Charlottesville and the surrounding area offers many landmarks of its own. To branch out beyond the local without leaving the city, however, there are museums like the Kluge-Ruhe Aboriginal Art Museum and the Special Collections Library at UVA. And, if you want to get out of town, DC is just two hours away and the state capital, Richmond, is a mere one-hour drive.</p>
-<p><a href="http://travel.nytimes.com/2008/10/26/travel/26hours.html?pagewanted=all">See why the New York Times loves Charlottesville!</a></p>
-<p><a href="http://www.theguardian.com/world/2014/jul/27/happiness-place-called-charlottesville-virginia">Read this article in The Guardian about Charlottesville's great community.</a></p>
-<p><a href="http://www.c-ville.com/events/">Or, check out the local events calendar.</a></p>
-<p>Thank you to <a href="https://www.flickr.com/photos/daveynin/">David Fulmer</a>,<a href="https://www.flickr.com/photos/miguelvieira/">Miguel Vieira</a>, <a href="https://www.flickr.com/photos/awebb/">Aaron Webb</a>, <a href="https://www.flickr.com/photos/kthread/">Kristen Taylor</a>, <a href="https://www.flickr.com/photos/small_realm/sets/">Bob Mical</a>, and <a href="https://www.flickr.com/photos/westher/sets/">Esther Westerveld</a> for the use of their photos.</p>
+<p>See why the <a href="http://travel.nytimes.com/2008/10/26/travel/26hours.html?pagewanted=all">New York Times loves Charlottesville!</a> Read this <a href="http://www.theguardian.com/world/2014/jul/27/happiness-place-called-charlottesville-virginia">article in The Guardian</a> about Charlottesville's great community. Or, check out the <a href="http://www.c-ville.com/events/">local events calendar.</a></p>
 </div>
 <div class="spacer"></div>
 <!-- END INFO BLOCK -->
-
-
-    <div>
-        <div class="col-md-3 col-xs-4 jobs-pics" style="height:162px; overflow: hidden"><a data-rel="fancybox-button" class="active item overflow_image fancybox-button" href="../static/img/photos/uva_basketball.jpg" >
-            <img src="../static/img/photos/uva_basketball.jpg" alt="UVA basketball" class="img-responsive" ></a>
-        </div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/winter-belmont.jpg">
-            <img src="../static/img/photos/winter-belmont.jpg" alt="Belmont in winter" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/hiking-trail-mark.jpg">
-            <img src="../static/img/photos/hiking-trail-mark.jpg" alt="hiking trail" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/rotunda-construction-horizontal.jpg">
-            <img src="../static/img/photos/rotunda-construction-horizontal.jpg" alt="Rotunda" class="img-responsive"></a></div>
-
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/10-miler.jpg">
-            <img src="../static/img/photos/10-miler.jpg" alt="10 miler" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/acrobat-pavilion.jpg">
-            <img src="../static/img/photos/acrobat-pavilion.jpg" alt="Acrobat" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/farmer's-market-tomatoes.jpg">
-            <img src="../static/img/photos/farmer's-market-tomatoes.jpg" alt="Farmer's market" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/paramount-line.jpg">
-            <img src="../static/img/photos/paramount-line.jpg" alt="Paramount" class="img-responsive"></a></div>
-
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/Jeffersons_Monticello_Pond_Reflection.jpg">
-            <img src="../static/img/photos/Jeffersons_Monticello_Pond_Reflection.jpg" alt="Monticello" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/meadowtrail.jpg">
-            <img src="../static/img/photos/meadowtrail.jpg" alt="Meadow trail" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/moto-bar.jpg">
-            <img src="../static/img/photos/moto-bar.jpg" alt="Moto bar" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/pride festival.jpg">
-            <img src="../static/img/photos/pride-festival.jpg" alt="Pride festival" class="img-responsive"></a></div>
-
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/pumpkins-carter-mountain.jpg">
-            <img src="../static/img/photos/pumpkins-carter-mountain.jpg" alt="Pumpkins on Carter Mountain" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/stream-forest.jpg">
-            <img src="../static/img/photos/stream-forest.jpg" alt="Forest Stream" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/the-corner.jpg">
-            <img src="../static/img/photos/the-corner.jpg" alt="UVA Corner" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/water-street-buildings.jpg">
-            <img src="../static/img/photos/water-street-buildings.jpg" alt="Water Street" class="img-responsive"></a></div>
-    </div>
 
 </div>
 </div>
@@ -508,19 +501,24 @@
         jQuery(document).ready(function() {
             App.init();
             ContactUs.init();
-        
-            $('.panel-heading').on('click', function(){ 
-                var el = $(this); 
+
+            $('.panel-heading').on('click', function(){
+                var el = $(this);
                 if(el.parents('.panel').find('.panel-collapse').hasClass('collapse')){
-                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>'); 
+                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>');
                     el.siblings('.panel-collapse').collapse('show');
                 } else {
-                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>'); 
+                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>');
                     el.siblings('.panel-collapse').collapse('hide');
                 }
-            }); 
-            
-                                    
+            });
+
+
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            location.hash && $(location.hash + '.collapse').collapse('show');
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->

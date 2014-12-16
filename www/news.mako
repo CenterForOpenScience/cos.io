@@ -19,9 +19,8 @@
     <div class="container min-hight margin-top-50">
 
         <!--BEGIN DESCRIPTION -->
-        <h1><strong>What's all the buzz about?<br></strong></h1>
-        <br>
-        <p>Open science and transparency practices are hot topics in the scientific community and in the media at large. Read about COS, our projects,
+        <h1><strong>News</strong></h1>
+        <p class="lead">What's all the buzz about? Open science and transparency practices are hot topics in the scientific community and in the media at large. Read about COS, our projects,
         and related news below.</p>
         <br><br>
 
@@ -32,6 +31,24 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://elifesciences.org/elife-news/Cancer-biology-reproducibility-effort-takes-another-step-forward">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/elife.jpg" width="125"></td>
+                                <td><h2 class="text-left">Cancer biology reproducibility effort takes another step forward</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">December 10, 2014 | eLife has published the first papers from the Reproducibility Project: Cancer Biology. </p>
+                    </a> 
+                    <a class="col-md-4 service-box-v1" href="http://www.elasticsearch.com/customer/center-open-science/">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/elasticsearch.png" width="125"></td>
+                                <td><h2 class="text-left">Improving Scientific Research Worldwide</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">December, 2014 | The challenge: How do you enable scientists around the world to improve processes, share, and collaborate? The Elasticsearch solution: By using Elasticsearch to provide 5x faster search and an improved user experience</p>
+                    </a> 
                     <a class="col-md-4 service-box-v1" href="http://www.the-scientist.com/?articles.view/articleNo/41265/title/The-Rules-of-Replication/">
                         <table>
                             <tr>
@@ -40,6 +57,15 @@
                             </tr>
                         </table>
                         <p class="text-left">November 1, 2014 | Should there be standard protocols for how researchers attempt to reproduce the work of others?</p>
+                    </a> 
+                    <a class="col-md-4 service-box-v1" href="http://blogs.loc.gov/digitalpreservation/2014/09/teaching-integrity-in-empirical-research-an-interview-with-richard-ball-and-norm-medeiros/">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/loc_signal_logo.jpg" width="125"></td>
+                                <td><h2 class="text-left">Teaching Integrity in Empirical Research</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">September 12, 2014 | An Interview with Richard Ball and Norm Medeiros</p>
                     </a> 
                     <a class="col-md-4 service-box-v1" href="http://www.apamonitor-digital.org/apamonitor/201409/#pg35">
                         <table>
