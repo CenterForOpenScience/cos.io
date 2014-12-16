@@ -1,8 +1,8 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">About our Work</%def>
-<%def name="description()">The Center for Open Science works on community, metascience, and infrastructure projects.</%def>
+<%def name="title()">What Does the Center for Open Science Do?</%def>
+<%def name="description()"> Openness, Reproducibility, Integrity: The COS develops infrastructure for scientists, researches reproducibility, and helps build the open science community. </%def>
 
 <%def name="navigation()">
     ${self.navlinks('about_work')}

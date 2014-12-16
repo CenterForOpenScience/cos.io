@@ -501,6 +501,13 @@ body {
     width: 75px;
 }
 
+.Collaborate_Swap_Image {
+    background-image: url("../img/photos/Jobs_Photo_Before.jpg");
+}
+
+
+
+
 /*Footer*/
 .twitter-timeline {
     max-height: 400px;

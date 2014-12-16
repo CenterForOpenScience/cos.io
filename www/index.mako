@@ -1,6 +1,6 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Home</%def>
-<%def name="description()">The Center for Open Science homepage</%def>
+<%def name="title()">Openness, Reproducibility, and Integrity - Center for Open Science</%def>
+<%def name="description()">COS is non-profit technology start-up dedicated to improving the alignment between scientific values and scientific practices. </%def>
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
@@ -93,7 +93,7 @@
                     <em><i class="fa fa-group blue"></i></em>
                     <span>Community</span>
                 </div>
-                <p>COS is fostering community among open-source developers, open science researchers, and the broader scientific community. Visit our Google group for the <a href="https://groups.google.com/group/openscienceframework?hl=en&amp;pli=1">Open Science Collaboration</a>. Read <a href="/communities/#tab_1">more about our community efforts</a>.</p>
+                <p>COS is fostering community among open-source developers, open science researchers, and the broader scientific community. Visit our Google group for the <a href="https://groups.google.com/group/openscienceframework?hl=en&amp;pli=1">Open Science Collaboration</a>. Read <a href="/communities/#tab_1">more about our community efforts and publishing initiatives.</a></p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">

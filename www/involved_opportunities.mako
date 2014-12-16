@@ -1,6 +1,6 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Opportunities</%def>
-<%def name="description()">The Center for Open Science works with developers, scientists, journals, and societies.</%def>
+<%def name="title()">Get Involved with Open Science - Center for Open Science</%def>
+<%def name="description()">The Center for Open Science offers a variety of ways for developers, scientists, journals, and societies to get involved.</%def>
 
 <%def name="navigation()">
     ${self.navlinks('involved_opportunities')}

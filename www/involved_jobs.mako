@@ -448,27 +448,68 @@
 
 
 <h3><br><br><strong>What we do</strong></h3>
-<p>We work on the cutting edge of open source software. We are mission driven - increasing openness
-    and reproducibility in science research by building tools, forming community projects, and
-    conducting open, crowdsourced research. We are facilitating positive changes to the scientific
-    culture and reward structure.</p>
+<p>We work on the cutting edge of open source software. We are mission driven - increasing openness and reproducibility in science research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure.</p>
 
 <div>
-    <!-- BEGIN LISTS -->
-    <div class="row col-md-12 front-lists-v1 margin-bottom-25">
-        <div>
-            <ul id="benefits" class="row list-unstyled margin-bottom-20 col-md-8">
-                <li><h3>Collaborate.</h3>The Center places a high value on developing skills and collaboration.<br> Teamwork, pair programming, collaboration internally and externally are daily practice.   </li>
-                <li><h3>Eat well.</h3> Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
-                <li><h3>Get fit.</h3> All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community. </li>
-                <li><h3>Keep comfortable.</h3> We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.  </li>
-                <li><h3>Get a Mac.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
-                <li><h3>Plan for the future.</h3> We’ll help you set up your 401k, and COS contributes up to 4% matches.</li>
-                <li><h3>Enjoy the view.</h3> The modern and stylish COS offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside!  </li>
-            </ul>
-        </div>
-    </div>
-    <!-- END LISTS -->
+    <!-- BEGIN TABLE -->
+    <table> 
+    <tr>
+    <td>
+    <center><h3>Collaborate.</h3>
+    <br>
+    The Center places a high value on developing skills and collaboration.<br>Teamwork, pair programming, collaboration internally and externally are daily practice.</center></td>
+
+    <td>
+        <div id="Collaborate_Swap_Image">
+        <img src="/static/img/photos/Jobs_Photo_Before.jpg">
+        </div> </td>
+    <tr>
+    <td>
+  <center><h3>Eat well.</h3>
+    <br>
+    Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen.Enjoy  catered lunches from local restaurants twice a week. </td>
+    <td>
+        <div id=Eat_Swap_Image>
+        </div> </td>
+
+   <tr><td> <center><h3>Get fit.</h3>
+    <br>
+     All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community.</center> </td>
+    <td>
+        <div id=Fit_Swap_Image>
+        </div> </td> </tr>
+    
+ <tr><td><center> <h3>Keep comfortable.</h3>
+    <br>
+    We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.</center> </td>
+    <td>
+        <div id=Comfortable_Swap_Image>
+        </div> </td> </tr>
+<tr><td> <center><h3>Get a Mac.</h3>
+    <br>
+    We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan. </center> </td>
+    <td>
+        <div id=Mac_Swap_Image>
+        </div> </td> </tr>
+
+<tr><td> <center><h3>Plan for the future.</h3>
+    <br>
+     We’ll help you set up your 401k, and COS contributes up to 4% matches.</center> </td>
+    <td>
+        <div id=Plan_Swap_Image>
+        </div> </td> </tr>
+
+<tr><td> <center><h3>Enjoy the view.</h3>
+    <br>
+     The modern and stylish COS offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside! </center> </td>
+    <td>
+        <div id=View_Swap_Image>
+        </div> </td> </tr>
+    
+   
+    </table>
+
+    <!-- END TABLE -->
 </div>
 
 <div id = "location"></div>

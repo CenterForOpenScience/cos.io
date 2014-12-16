@@ -1,6 +1,6 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Communities</%def>
-<%def name="description()">The Center for Open Science initiates open source and metascience community projects.</%def>
+<%def name="title()">Open Science Communities - Center for Open Science</%def>
+<%def name="description()">The Center for Open Science leads a variety of open source and metascience community projects, which you can find here.</%def>
 
 <%def name="navigation()">
     ${self.navlinks('communities')}

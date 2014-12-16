@@ -1,7 +1,7 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()">About our Partners</%def>
-<%def name="description()">The Center for Open Science partners are diverse in background and skills.</%def>
+<%def name="title()"> Center for Open Science|About Our Partners </%def>
+<%def name="description()">The Center for Open Science partners with a variety of organizations to facilitate our mission of bringing openness and transparency to science. </%def>
 
 <%def name="navigation()">
     ${self.navlinks('about_partners')}
