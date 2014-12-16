@@ -450,7 +450,7 @@ body {
     background-color: #0da3e2 !important;
 }
 
-/*Stats*/
+
 .action-box {
     text-align: center;
     font-size: 20px;
@@ -465,6 +465,8 @@ body {
     text-decoration: none;
 }
 
+
+/*Stats*/
 #stats-consult {
     margin-top: 10px;
 }
@@ -501,6 +503,31 @@ body {
     width: 75px;
 }
 
+.action-link a:hover{
+    text-decoration: none;
+}
+
+#dollar-grant {
+    background-image: url("../img/icons/dollar.png");
+    background-size: 80px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 160px;
+}
+
+#dollar-grant:hover {
+    background-image: url("../img/icons/dollar_dark.png");
+}
+
+#grant-box {
+    height: 130px;
+}
+
+#grant-box p {
+    padding-top: 50px;
+    width: 161px;
+}
 /*Footer*/
 .twitter-timeline {
     max-height: 400px;
