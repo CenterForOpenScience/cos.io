@@ -82,7 +82,7 @@
                                         <td>
                                             <h3>Reproducibility Project: Psychology (RP:P)</h3>
                                             <p>The RP:P is a collaborative community effort to replicate published psychology experiments from three landmark journals. By asking scientists to follow an established protocol and document their process, we hope to learn about how open practices can impact the scientific method and results while also estimating the rate of reproducibility. The RP:P is coordinated at the Center for Open Science and involves volunteer scientists from all over the world.</p>
-                                            <a href="https://osf.io/ezcuj/wiki/home/ target="_blank"" class="btn blue">
+                                            <a href="https://osf.io/ezcuj/wiki/home/" target="_blank" class="btn blue">
                                                 <i class="fa fa-search"></i> Learn more
                                             </a>
                                         </td>
