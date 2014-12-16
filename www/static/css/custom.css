@@ -156,11 +156,13 @@ body {
 .service-box p {
     color: #656565;
     font-size: 15px;
-    text-align: left !important;
+    text-align: center !important;
 }
 
 .service-box .service-box-heading {
     margin-bottom: 5px;
+    text-align: center;
+    margin-left: 0px;
 }
 
 .service-box .service-box-heading i {
