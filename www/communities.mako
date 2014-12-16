@@ -24,7 +24,7 @@
 <div class="row community-content">
 <div>
 <h1><strong>Communities</strong></h1>
-<p>The Center for Open Science contributes to the progress of a larger community effort to increase the
+<p class="lead">The Center for Open Science contributes to the progress of a larger community effort to increase the
     transparency and inclusiveness of all scientific disciplines. Open science is a movement with many smaller
     communities producing great work. Click below to learn more about each community effort and how to get
     involved.</p>
