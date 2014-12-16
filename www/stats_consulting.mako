@@ -30,7 +30,7 @@
                 <h1><strong>Statistical & Methodological Consulting</strong></h1>
                 <div class="row col-md-8">
 
-                    <p>Individual scientists can improve the replicability of their own work through careful documentation,
+                    <p class="lead">Individual scientists can improve the replicability of their own work through careful documentation,
                         adherence to standards, and the use of open tools.</p>
                     <p>Our consultants can help answer questions about open and reproducible tools, methodologies, and workflows.
                         For instance, in the past, we have given guidance on:</p>
