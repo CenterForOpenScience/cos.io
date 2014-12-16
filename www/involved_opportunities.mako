@@ -113,7 +113,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/banks.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -132,7 +132,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/grahe.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -148,6 +148,25 @@
                     </table>
                 </td>
             </tr>
+            <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                                <img src="../static/img/icons/community_badge.gif">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Michael Gorman
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                University of Virginia
+                            </td>
+                        </tr>
+                    </table>
+                </td>
         </table>
         <h3>International Ambassadors</h3>
         <table>
@@ -175,7 +194,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/nilsonne.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -194,7 +213,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/IJzerman.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -204,7 +223,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-instit">
-                                Tillburg University
+                                Tilburg University
                             </td>
                         </tr>
                     </table>
@@ -215,7 +234,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/fiedler.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -252,7 +271,7 @@
             scientific values and scientific practices. <a href="osf.io">Learn more about how the OSF can improve your workflow.</a>
     </div>
 
-    <div class="col-md-4  margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="https://osf.io" target="_blank">
             <div class="action-box">
                 <i class="fa fa-laptop"></i>
@@ -269,7 +288,7 @@
             face. <a href="osf.io/stats_consulting/">Check out our statistical consulting services.</a></p>
 
     </div>
-    <div class="col-md-4  margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="mailto:stats-consulting@cos.io">
             <div class="action-box">
                 <i class="fa fa-pencil"></i>
@@ -286,7 +305,7 @@
             <a href="http://osf.io/involved_opportunities/">Read more about our ambassador program here.</a></p>
     </div>
 
-    <div class="col-md-4 margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="#">
             <div class="action-box">
                 <img src="/static/img/icons/Ambassador_Handshake.png">
@@ -305,7 +324,7 @@
                 visit the Communities page</a>.</p>
     </div>
 
-    <div class="col-md-4  margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="#">
             <div class="action-box">
                 <i class="fa fa-envelope"></i>
@@ -332,7 +351,7 @@
             Reproducibility will outline a number of best practices that can be employed by any Journal.
         </p></div>
 
-         <div class="col-md-4  margin-top-50">
+         <div class="col-md-4 action-link margin-top-50">
         <a href="#" target="_blank">
             <div class="action-box">
                 <i class="fa fa-exclamation-circle"></i>
@@ -351,7 +370,7 @@
             <a href="http://www.psychologicalscience.org/index.php/publications/journals/psychological_science/badges"
                target="_blank">Psych Science</a>.</p></div>
 
-                <div class="col-md-4  margin-top-50">
+                <div class="col-md-4 action-link margin-top-50">
         <a href="mailto:contact@cos.io" target="_blank">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
@@ -368,7 +387,7 @@
             uploaded poster will be recorded. <a href="https://osf.io/view/aps2014/" target="_blank">See how APS 2014 used this service.</a>
         </p></div>
 
-              <div class="col-md-4  margin-top-50">
+              <div class="col-md-4 action-link margin-top-50">
         <a href="mailto:contact@cos.io" target="_blank">
             <div class="action-box">
                 <i class="fa fa-bar-chart"></i>
@@ -391,7 +410,7 @@
                 issue of Social Psychology</a> dedicated to RRs. Or, <a href="https://osf.io/hxeza/wiki/home/">view the articles on the
                 Open Science Framework</a> along with their registrations.</p></div>
 
-           <div class="col-md-4  margin-top-50">
+           <div class="col-md-4 action-link margin-top-50">
         <a href="mailto:contact@cos.io" target="_blank">
             <div class="action-box">
                 <i class="fa fa-envelope"></i>
@@ -415,7 +434,7 @@
         <p><a href="osf.io" target="_blank">The Open Science Framework (OSF)</a>, the flagship COS platform, is a web application that supports research workflow. The OSF supports: archiving and preservation of research materials and data, version control for scientific materials, registering projects (tagging a version at a particularly important point in the workflow), forking scientific materials and other incentives for sharing and open practice, and integration or linking of services through APIs.</a>
     </div>
 
-    <div class="col-md-4  margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="https://github.com/centerforopenscience" target="_blank">
             <div class="action-box">
                 <i class="fa fa-github"></i>
@@ -429,7 +448,7 @@
         <p>Developers can contribute to maturing projects like OSF, or to new projects such as: <a href="https://github.com/CenterForOpenScience/scinet-citelet" target="_blank"> Citelet</a>, tools for extracting citation meta-data from HTML articles viewed in the browser; <a href="https://github.com/CenterForOpenScience/pydocx" target="_blank">Pydocx</a>, a parser that provides roundtrip conversion of .docx files to other formats such as LaTeX; <a href="https://github.com/jmcarp/sciparse" target="_blank">SciParse</a>, tools for parsing references from HTML snippets, and from JSON data structures generated by the Citelet; or <a href="https://github.com/CenterForOpenScience/hgrid" target="_blank">FileViewer</a>, a web-based file management system integrating DropzoneJS and SlickGridJS.</a>
     </div>
 
-    <div class="col-md-4  margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="mailto:contact@cos.io">
             <div class="action-box">
                 <i class="fa fa-comments"></i>
@@ -445,7 +464,7 @@
         <p><i>Developer internships.</i> Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project. Please submit a resume and cover letter via our jobs page. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
     </div>
 
-    <div class="col-md-4  margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="http://centerforopenscience.org/jobs/" target="_blank">
             <div class="action-box">
                 <i class="fa fa-briefcase"></i>
@@ -460,7 +479,7 @@
         <p>The COS occasionally invites grant proposals or specific project bounties to increase the openness, integrity, and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices.
     </div>
 
-    <div class="col-md-4  margin-top-50">
+    <div class="col-md-4 action-link margin-top-50">
         <a href="http://centerforopenscience.org/grants/" target="_blank">
             <div class="action-box" id="grant-box">
                 <div id="dollar-grant">
