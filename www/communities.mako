@@ -80,7 +80,11 @@
             </td>
             <td>
                 <h3>Reproducibility Project: Psychology (RP:P)</h3>
-                <p>The RP:P is a collaborative community effort to replicate published psychology experiments from three landmark journals. By asking scientists to follow an established protocol and document their process, we hope to learn about how open practices can impact the scientific method and results while also estimating the rate of reproducibility. The RP:P is coordinated at the Center for Open Science and involves volunteer scientists from all over the world.</p>
+                <p>The RP:P is a collaborative community effort to replicate published psychology experiments from three
+                    landmark journals. By asking scientists to follow an established protocol and document their process,
+                    we hope to learn about how open practices can impact the scientific method and results while also
+                    estimating the rate of reproducibility. The RP:P is coordinated at the Center for Open Science and
+                    involves volunteer scientists from all over the world.</p>
                 <a href="https://osf.io/ezcuj/wiki/home/" target="_blank" class="btn blue">
                     <i class="fa fa-search"></i> Learn more
                 </a>
@@ -186,7 +190,7 @@
                 <img src="../static/img/icons/Open_Access.png">
             </td>
             <td>
-                <h3>Open Source Developing</h3>
+                <h3>Open Source Developers</h3>
                 <p>The Center for Open Science is a Python-based, open source development shop. Developers who want to support open science should definitely consider contributing to our open source community. The Open Science Framework, the flagship platform of the Center for Open Science, is a web application for supporting the research workflow. Essentially, the Center for Open Science wants to bring the core philosophy of open source development to science. Developers have the opportunity to contribute to maturing products, like the Open Science Framework, or to new projects that help make science better. </p><br><br>
                 <a href="https://github.com/CenterForOpenScience/osf.io" target="_blank" class="btn blue">
                     <i class="fa fa-search"></i> Learn more
