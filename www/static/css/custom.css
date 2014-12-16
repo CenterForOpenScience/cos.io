@@ -498,6 +498,9 @@ body {
 .ambassador-instit {
     text-align: center;
 }
+.ambassador-instit-padding {
+    text-align: center;
+    padding-bottom: 30px;}
 
 .action-box img {
     width: 75px;

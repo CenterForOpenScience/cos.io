@@ -122,7 +122,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Longwood University
                             </td>
                         </tr>
@@ -141,7 +141,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Pacific Lutheran University
                             </td>
                         </tr>
@@ -203,7 +203,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Stockholm University
                             </td>
                         </tr>
@@ -222,7 +222,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Tilburg University
                             </td>
                         </tr>
