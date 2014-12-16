@@ -1,8 +1,8 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Sponsorship</%def>
-<%def name="description()">The Center for Open Science is funded by private foundations.</%def>
+<%def name="title()">Center for Open Science | About Our Sponsors </%def>
+<%def name="description()">The Center for Open Science is funded by private foundations. Learn about them here. </%def>
 
 <%def name="navigation()">
     ${self.navlinks('about_sponsors')}

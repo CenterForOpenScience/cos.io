@@ -1,8 +1,8 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Stats</%def>
-<%def name="description()">Statistical and Methodological Consulting Services.</%def>
+<%def name="title()">Statistical and Methodological Consulting - Center for Open Science</%def>
+<%def name="description()">The Center for Open Science offers totally free statistical and methodological consulting services so that you can make your science better.</%def>
 
 <%def name="navigation()">
     ${self.navlinks('stats')}
