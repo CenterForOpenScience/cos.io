@@ -294,7 +294,7 @@
     <div class="col-md-4  margin-top-50">
         <a href="#">
             <div class="action-box">
-                <i class="fa fa-bar-chart"></i>
+                <i class="fa fa-envelope"></i>
                 <p>Email a Project Coordinator</p>
             </div>
         </a>

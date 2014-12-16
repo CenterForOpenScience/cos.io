@@ -56,21 +56,21 @@
                     <em><i class="fa fa-user blue"></i></em>
                     <span>Scientists</span>
                 </div>
-                <p>Research can be arduous; COS wants to make scientists' lives easier by simplifying their workflow. <a href="/scientists/">Learn how we're doing that.</a></p>
+                <p>Research can be arduous; COS wants to make scientists' lives easier by simplifying their workflow. <a href="/involved_opportunities/#tab_2">Learn how we're doing that.</a></p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-book blue"></i></em>
                     <span>Publishers &amp; Societies</span>
                 </div>
-                <p>COS has built free, easy-to-adopt tools for journals and societies to incentivize preregistration and sharing of data and materials. <a href="/journals/">Read more.</a></p>
+                <p>COS has built free, easy-to-adopt tools for journals and societies to incentivize preregistration and sharing of data and materials. <a href="/involved_opportunities/#tab_3">Read more.</a></p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-download blue"></i></em>
                     <span>Developers</span>
                 </div>
-                <p>COS builds open source infrastructure for science, connects via API with other services, and supports open projects. <a href="/developers/">Find out how you can get involved.</a></p>
+                <p>COS builds open source infrastructure for science, connects via API with other services, and supports open projects. <a href="/involved_opportunities/#tab_4">Find out how you can get involved.</a></p>
             </div>
         </div>
     </div>
@@ -86,21 +86,21 @@
                     <em><i class="fa fa-flask blue"></i></em>
                     <span>Metascience</span>
                 </div>
-                <p>We conduct research on scientific practices and provide grants for relevant endeavors. Most projects are open, crowdsourced efforts. <a href="/about_work/">See some examples</a>.</p>
+                <p>We conduct research on scientific practices and provide grants for relevant endeavors. Most projects are open, crowdsourced efforts. <a href="/communities/#tab_2">See some examples</a>.</p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-group blue"></i></em>
                     <span>Community</span>
                 </div>
-                <p>COS is fostering community among open-source developers, open science researchers, and the broader scientific community. Visit our Google group for the <a href="https://groups.google.com/group/openscienceframework?hl=en&amp;pli=1">Open Science Collaboration</a>. Read <a href="/about_work/">more about our community efforts</a>.</p>
+                <p>COS is fostering community among open-source developers, open science researchers, and the broader scientific community. Visit our Google group for the <a href="https://groups.google.com/group/openscienceframework?hl=en&amp;pli=1">Open Science Collaboration</a>. Read <a href="/communities/#tab_1">more about our community efforts</a>.</p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <em><i class="fa fa-laptop blue"></i></em>
                     <span>Infrastructure</span>
                 </div>
-                <p>We support and improve the scientific workflow by connecting technologies that researchers use. See our work at the <a href="http://openscienceframework.org">Open Science Framework</a> and check out <a href="/about_work/">some of our other projects</a>.</p>
+                <p>We support and improve the scientific workflow by connecting technologies that researchers use. See our work at the <a href="http://openscienceframework.org">Open Science Framework</a> and check out <a href="/communities/#tab_3">some of our other projects</a>.</p>
             </div>
         </div>
     </div>

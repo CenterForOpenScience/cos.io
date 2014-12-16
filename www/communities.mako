@@ -240,12 +240,14 @@
     <table>
         <tr>
             <td id="speechbubble"><img src="../static/img/icons/speech.gif"></td>
-            <td><h2>Join the conversation!</h2>
+            <td>
+                <h2>Join the conversation!</h2>
                 <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
                     transparency, and reproducbility in the OSC Google Group.</p>
-                <p><a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank" class="btn blue">
+                <a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank" class="btn blue">
                     <i class="fa fa-pencil-square-o"></i> Sign up today
-                </a></p></td>
+                </a>
+            </td>
         </tr>
     </table>
 </div>
