@@ -309,26 +309,60 @@
             Partner with COS to get the expertise and resources of a team dedicated to open science. Together we can make
             a difference.</p>
     </div>
+
     <div class="col-md-8">
         <h4>1. Create Author Guidelines</h4>
         <p>One simple step towards changing the status quo is to make clear what the new standards are. Announcing advocacy
             for open materials and open data can make a big difference—outlining what each of those means to your society
             can make an even bigger one. A forthcoming report from November 2014's Workshop on Promoting Openness and
             Reproducibility will outline a number of best practices that can be employed by any Journal.
-        </p>
-        <h4>2. Award Badges</h4>
-        <p>COS has developed badges that journals can offer to appear with articles to acknowledge and reward transparency practices. Other entities can award badges to previously published
+        </p></div>
+
+         <div class="col-md-4  margin-top-50">
+        <a href="#" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-exclamation-circle"></i>
+                <p>Alert me when available</p>
+            </div>
+        </a>
+    </div>
+
+<div class="col-md-8">
+        <p><h4>2. Award Badges</h4></p>
+        <p>COS has developed <a href="https://osf.io/tvyxz" target="_blank">badges</a> that journals can offer to appear with articles to acknowledge and reward transparency practices. Other entities can award badges to previously published
             works outside of pre-publication peer review. Integrating badges is simple because the application
             process coincides with peer review. Adoption by journals is low risk because authors’ application
             for badges is optional. COS can assist with the introduction of badges by any group, as it has done with
             <a href="http://www.psychologicalscience.org/index.php/publications/journals/psychological_science/badges"
-               target="_blank">Psych Science</a>. <a href="https://osf.io/tvyxz">Get more information here.</a></p>
+               target="_blank">Psych Science</a>.</p></div>
+
+                <div class="col-md-4  margin-top-50">
+        <a href="mailto:contact@cos.io" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-shield"></i>
+                <p>Ask about utilizing badges</p>
+            </div>
+        </a>
+    </div>
+
+<div class="col-md-8">
         <h4>3. Publicly Archive Conference Posters and Talks</h4>
         <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
             dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
             email and will receive a permantent, persistent URL that links to their work. Download counts and visits to each
-            uploaded poster will be recorded. <a href="https://osf.io/view/aps2014/">See how APS 2014 used this service.</a>
-        </p>
+            uploaded poster will be recorded. <a href="https://osf.io/view/aps2014/" target="_blank">See how APS 2014 used this service.</a>
+        </p></div>
+
+              <div class="col-md-4  margin-top-50">
+        <a href="mailto:contact@cos.io" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-bar-chart"></i>
+                <p>Request a poster page</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
         <h4>4. Promote Registered Reports</h4>
         <p>Registered Reports (RR) involve peer review of study designs and analysis plans prior to data collection.
             Reviewers evaluate the importance of the research question and quality of the design. Accepted proposals
@@ -338,9 +372,18 @@
             special issue of Social Psychology.</p>
         <p>COS can help journals adopt Registered Reports by offering a registration tool through the Open Science Framework (OSF).
             Journals or societies can display registered articles on their website, but can take advantage of the OSF's ability
-            to permanently archive documents and provide persistent URLs. </p>
+            to permanently archive documents and provide persistent URLs. </p></div>
 
+           <div class="col-md-4  margin-top-50">
+        <a href="mailto:contact@cos.io" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-envelope"></i>
+                <p>Contact for more information</p>
+            </div>
+        </a>
     </div>
+
+
 </div>
 <!-- END TAB 3 -->
 <!-- START TAB 4 -->
