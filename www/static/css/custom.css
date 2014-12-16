@@ -486,11 +486,13 @@ body {
 .ambassador-box {
     margin: 25px;
 }
+.ambassador-action-box {
+    height: 135px;
+}
 .ambassador-img img{
     width: 200px;
     border-radius: 50% !important;
 }
-
 .ambassador-name {
     text-align: center;
     padding-top: 20px;
@@ -498,11 +500,22 @@ body {
 .ambassador-instit {
     text-align: center;
 }
-
+.ambassador-icon {
+    background-image: url("../img/icons/Ambassador_Handshake.png");
+    background-size: 80px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+}
+.ambassador-icon:hover {
+    background-image: url("../img/icons/Ambassador_Handshake_Dark.png");
+}
+.ambassador-icon p {
+    padding-top: 50px;
+}
 .action-box img {
     width: 75px;
 }
-
 .action-link a:hover{
     text-decoration: none;
 }
@@ -513,7 +526,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 40px;
-    width: 160px;
 }
 
 #dollar-grant:hover {
@@ -526,7 +538,6 @@ body {
 
 #grant-box p {
     padding-top: 50px;
-    width: 161px;
 }
 /*Footer*/
 .twitter-timeline {
