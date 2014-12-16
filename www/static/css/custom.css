@@ -454,6 +454,9 @@ body {
 .action-box .fa {
     font-size: 45px;
 }
+.action-box:hover {
+    text-decoration: none;
+}
 
 #stats-consult {
     margin-top: 10px;

@@ -21,7 +21,7 @@
 <div class="container min-hight margin-top-50">
 
 <!-- BEGIN CONTENT -->
-<div class="row community-content" >
+<div class="row community-content">
 <div>
 <h1><strong>Opportunities</strong></h1>
 <p>COS collaborates with and produces tools for scientists, journals and societies, and developers. Read about our
@@ -74,44 +74,17 @@
                 <img src="/static/img/icons/Ambassador_Handshake.png">
                 <p>Become an ambassador</p>
             </div>
-        <div class="col-md-8">
-            <h4>What Ambassadors Do</h4>
-            <ul>
-                <li>Act as a local authority on COS, the OSF, transparency, and reproducible practices</li>
-                <li>Represent COS at conferences and meetings</li>
-                <li>Grow our open science community</li>
-                <li>Blog experiences and join in the online conversation</li>
-                <li>Organize and lead OSF demos</li>
-                <li>Provide feedback on OSF features</li>
-                <li>Model COS swag!</li>
-            </ul>
-            <h4>What Ambassadors Get</h4>
-            <ul>
-                <li>Training on how to COS initiatives and practices</li>
-                <li>A cool badge on your OSF profile</li>
-                <li>COS T-shirts and stickers</li>
-                <li>Reimbursement for travel expenses</li>
-                <li>A food budget for workshops and conferences</li>
-                <li>Early access to new OSF features</li>
-            </ul>
-        </div>
-        <div class="col-md-3 col-md-offset-1 margin-top-50">
-            <a href="#" >
-                <div class="action-box">
-                    <img src="/static/img/icons/Ambassador_Handshake.png">
-                    <p>Become an ambassador</p>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-3 col-md-offset-1 margin-bottom-50">
-            <a href="#" >
-                <div class="action-box">
-                    <i class="fa fa-envelope"></i>
-                    <p>Contact an ambassador</p>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-12 margin-top-20">
+        </a>
+    </div>
+    <div class="col-md-3 col-md-offset-1 margin-bottom-50">
+        <a href="#" >
+            <div class="action-box">
+                <i class="fa fa-envelope"></i>
+                <p>Contact an ambassador</p>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-12 margin-top-20">
         <h3>Domestic Ambassadors</h3>
         <table>
             <tr>
@@ -263,7 +236,7 @@
 <!-- START TAB 2 -->
 <div class="tab-pane" id="tab_2">
     <div class="col-md-12">
-        <h2>Make YOUR science OPEN Science</h2>
+        <h2>Make YOUR Science OPEN Science</h2>
         <p>The Center for Open Science offers researchers a wide variety of invaluable tools and resources that can help you support open science practices with your work.</p>
     </div>
 
@@ -303,7 +276,7 @@
     <div class="col-md-4  margin-top-50">
         <a href="#">
             <div class="action-box">
-                <img src="/static/img/icons/handshake.png">
+                <img src="/static/img/icons/Ambassador_Handshake.png">
                 <p>Become an ambassador</p>
             </div>
         </a>
@@ -315,7 +288,7 @@
             Each of these projects empirically measures one aspect of scientific research, with the ultimate goal of producing
             scientifically substantiated "best practices." To sign up for one, click on the right to
             send us an email with your area of expertise and the name of the project you wish to join. <a href="/communities/#tab_2">For more information on each of the metascience intitiatives,
-            visit the Communities page</a>.</p>
+                visit the Communities page</a>.</p>
     </div>
 
     <div class="col-md-4  margin-top-50">
@@ -327,7 +300,6 @@
         </a>
     </div>
 </div>
-
 <!-- END TAB 2 -->
 <!-- START TAB 3 -->
 <div class="tab-pane" id="tab_3">
@@ -336,93 +308,106 @@
         <p>Journals and societies have a powerful voice, but scientific norms can seem to have a daunting preponderance.
             Partner with COS to get the expertise and resources of a team dedicated to open science. Together we can make
             a difference.</p>
-        </div>
+    </div>
     <div class="col-md-8">
-        <h4>Author guidelines</h4>
+        <h4>1. Create Author Guidelines</h4>
         <p>One simple step towards changing the status quo is to make clear what the new standards are. Announcing advocacy
             for open materials and open data can make a big difference—outlining what each of those means to your society
-            can make an even bigger one. COS has been involved in a number of workshops on transparency and reproducibility;
-            contact us for a consultation on how to draw out your new guidelines. A forthcoming report from November 2014's
-            Workshop on Promoting Openness and Reproducibility will outline a number of best practices that can be employed
-            by any Journal.
-            Best Practices for Promoting Openness and Reproducibility in Journal Guidelines
+            can make an even bigger one. A forthcoming report from November 2014's Workshop on Promoting Openness and
+            Reproducibility will outline a number of best practices that can be employed by any Journal.
         </p>
-        <h4>Badges</h4>
-        <p></p>
+        <h4>2. Award Badges</h4>
+        <p>COS has developed badges that journals can offer to appear with articles to acknowledge and reward transparency practices. Other entities can award badges to previously published
+            works outside of pre-publication peer review. Integrating badges is simple because the application
+            process coincides with peer review. Adoption by journals is low risk because authors’ application
+            for badges is optional. COS can assist with the introduction of badges by any group, as it has done with
+            <a href="http://www.psychologicalscience.org/index.php/publications/journals/psychological_science/badges"
+               target="_blank">Psych Science</a>. <a href="https://osf.io/tvyxz">Get more information here.</a></p>
+        <h4>3. Publicly Archive Conference Posters and Talks</h4>
+        <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
+            dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
+            email and will receive a permantent, persistent URL that links to their work. Download counts and visits to each
+            uploaded poster will be recorded. <a href="https://osf.io/view/aps2014/">See how APS 2014 used this service.</a>
+        </p>
+        <h4>4. Promote Registered Reports</h4>
+        <p>Registered Reports (RR) involve peer review of study designs and analysis plans prior to data collection.
+            Reviewers evaluate the importance of the research question and quality of the design. Accepted proposals
+            are published if they adhere to the proposal regardless of the outcome. RR addresses challenges of publishing
+            of negative results, lowers barrier to conducting worthwhile replications, obtains pre-commitment from
+            reviewers on quality of design, and produces strong confirmatory tests. See RR's in practice in a recent
+            special issue of Social Psychology.</p>
+        <p>COS can help journals adopt Registered Reports by offering a registration tool through the Open Science Framework (OSF).
+            Journals or societies can display registered articles on their website, but can take advantage of the OSF's ability
+            to permanently archive documents and provide persistent URLs. </p>
 
-        training and education
-        meetings for good practices
-        Registered reports
-        use OSF as a repo
-        poster thing
     </div>
 </div>
 <!-- END TAB 3 -->
 <!-- START TAB 4 -->
 <div class="tab-pane" id="tab_4">
-<div class="col-md-12">
-   <h2>Join Our Open Source Community!</h2>
+    <div class="col-md-12">
+        <h2>Join Our Open Source Community!</h2>
         <p>A natural parallel to open scientific practices is open source software. COS is a Python-based, open source development shop. You can join our mission to bring the core philosophy of open source development to science.</p>
-        </div>
+    </div>
 
-        <div class="col-md-8">
-      <h4>1. Support Open Science with Open Source Tools</h4>
-      <p><a href="osf.io" target="_blank">The Open Science Framework (OSF)</a>, the flagship COS platform, is a web application that supports research workflow. The OSF supports: archiving and preservation of research materials and data, version control for scientific materials, registering projects (tagging a version at a particularly important point in the workflow), forking scientific materials and other incentives for sharing and open practice, and integration or linking of services through APIs.</a>
-      </div>
+    <div class="col-md-8">
+        <h4>1. Support Open Science with Open Source Tools</h4>
+        <p><a href="osf.io" target="_blank">The Open Science Framework (OSF)</a>, the flagship COS platform, is a web application that supports research workflow. The OSF supports: archiving and preservation of research materials and data, version control for scientific materials, registering projects (tagging a version at a particularly important point in the workflow), forking scientific materials and other incentives for sharing and open practice, and integration or linking of services through APIs.</a>
+    </div>
 
-      <div class="col-md-4  margin-top-50">
-            <a href="https://github.com/centerforopenscience" target="_blank">
-                <div class="action-box">
-                    <i class="fa fa-github"></i>
-                    <p>Visit our Github</p>
-                </div>
-            </a>
-        </div>
+    <div class="col-md-4  margin-top-50">
+        <a href="https://github.com/centerforopenscience" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-github"></i>
+                <p>Visit our Github</p>
+            </div>
+        </a>
+    </div>
 
-             <div class="col-md-8">
-      <h4>2. Contribute to an Open Source Project</h4>
-      <p>Developers can contribute to maturing projects like OSF, or to new projects such as: <a href="https://github.com/CenterForOpenScience/scinet-citelet" target="_blank"> Citelet</a>, tools for extracting citation meta-data from HTML articles viewed in the browser; <a href="https://github.com/CenterForOpenScience/pydocx" target="_blank">Pydocx</a>, a parser that provides roundtrip conversion of .docx files to other formats such as LaTeX; <a href="https://github.com/jmcarp/sciparse" target="_blank">SciParse</a>, tools for parsing references from HTML snippets, and from JSON data structures generated by the Citelet; or <a href="https://github.com/CenterForOpenScience/hgrid" target="_blank">FileViewer</a>, a web-based file management system integrating DropzoneJS and SlickGridJS.</a>
-      </div>
+    <div class="col-md-8">
+        <h4>2. Contribute to an Open Source Project</h4>
+        <p>Developers can contribute to maturing projects like OSF, or to new projects such as: <a href="https://github.com/CenterForOpenScience/scinet-citelet" target="_blank"> Citelet</a>, tools for extracting citation meta-data from HTML articles viewed in the browser; <a href="https://github.com/CenterForOpenScience/pydocx" target="_blank">Pydocx</a>, a parser that provides roundtrip conversion of .docx files to other formats such as LaTeX; <a href="https://github.com/jmcarp/sciparse" target="_blank">SciParse</a>, tools for parsing references from HTML snippets, and from JSON data structures generated by the Citelet; or <a href="https://github.com/CenterForOpenScience/hgrid" target="_blank">FileViewer</a>, a web-based file management system integrating DropzoneJS and SlickGridJS.</a>
+    </div>
 
-      <div class="col-md-4  margin-top-50">
-            <a href="mailto:contact@cos.io">
-                <div class="action-box">
-                    <i class="fa fa-comments"></i>
-                    <p>Find out how to contribute</p>
-                </div>
-            </a>
-        </div>
+    <div class="col-md-4  margin-top-50">
+        <a href="mailto:contact@cos.io">
+            <div class="action-box">
+                <i class="fa fa-comments"></i>
+                <p>Find out how to contribute</p>
+            </div>
+        </a>
+    </div>
 
-<div class="col-md-8">
+    <div class="col-md-8">
         <h4>3. Join Our Team</h4>
-      <p><i>Developers.</i> We love open source, science, databases, web/API development, content management systems, and Python. You should too. If so, please submit a resume and cover letter via our jobs page. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
+        <p><i>Developers.</i> We love open source, science, databases, web/API development, content management systems, and Python. You should too. If so, please submit a resume and cover letter via our jobs page. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
 
-<p><i>Developer internships.</i> Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project. Please submit a resume and cover letter via our jobs page. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
-      </div>
+        <p><i>Developer internships.</i> Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project. Please submit a resume and cover letter via our jobs page. Questions about the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
+    </div>
 
-      <div class="col-md-4  margin-top-50">
-            <a href="http://centerforopenscience.org/jobs/" target="_blank">
-                <div class="action-box">
-                    <i class="fa fa-briefcase"></i>
-                    <p>Discover open positions</p>
-                </div>
-            </a>
-        </div>
+    <div class="col-md-4  margin-top-50">
+        <a href="http://centerforopenscience.org/jobs/" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-briefcase"></i>
+                <p>Discover open positions</p>
+            </div>
+        </a>
+    </div>
 
-        <div class="col-md-8">
+    <div class="col-md-8">
 
         <h4>4. Apply for a Grant</h4>
-      <p>The COS occasionally invites grant proposals or specific project bounties to increase the openness, integrity, and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices.
-      </div>
+        <p>The COS occasionally invites grant proposals or specific project bounties to increase the openness, integrity, and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure, (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices.
+    </div>
 
-      <div class="col-md-4  margin-top-50">
-            <a href="http://centerforopenscience.org/grants/" target="_blank">
-                <div class="action-box">
-                    <i class="fa fa-money"></i>
-                    <p>Learn about our grants</p>
-                </div>
-            </a>
-        </div>
+    <div class="col-md-4  margin-top-50">
+        <a href="http://centerforopenscience.org/grants/" target="_blank">
+            <div class="action-box">
+                <img src="/static/img/icons/dollar.gif">
+                <p>Learn about our grants</p>
+            </div>
+        </a>
+    </div>
 
 </div>
 <!-- END TAB 4 -->
@@ -458,21 +443,19 @@
     <script src="assets/scripts/app.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
-
             var tab = location.hash.slice(1,6);
             var availableTabs = ['tab_1', 'tab_2', 'tab_3', 'tab_4'];
             if(tab && availableTabs.indexOf(tab) !== -1){
-             ## remove active classes from tabs
+            ## remove active classes from tabs
             $(".tabbable > li").removeClass("active");
-            $(".tab-pane").removeClass("active");
+                $(".tab-pane").removeClass("active");
 
             ## add active class to appropriate tab
             $("a[href='#"+tab+"'").parent().addClass("active");
-            $("#"+tab).addClass("active");
+                $("#"+tab).addClass("active");
             }
 
         });
     </script>
-
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
