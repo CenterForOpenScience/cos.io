@@ -414,6 +414,13 @@ body {
     width:150px;
 }
 
+.conversation table td .blue{
+    background-color: #0da3e2;
+}
+
+.conversation table td .blue:hover{
+    background-color: #0da3e2 !important;
+}
 
 /*Stats*/
 .action-box {
