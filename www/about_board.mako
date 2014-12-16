@@ -20,11 +20,11 @@
     <div class="container min-hight margin-top-50">
     <!-- BEGIN OUR BOARD -->
         <div class="row front-board">
-        <h1><strong>Our Board<br><br></strong></h1>
+        <h1><strong>Our Board</strong></h1>
         <br>
-            <div class="col-md-12 col-sm-12">
+            <div class="row col-md-12 col-sm-12">
                 <div class="content-page">
-                    <div><h2>The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</h2></div>
+                    <p>The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
                     <hr>
                     <br>
                     <div class="row margin-bottom-30">
