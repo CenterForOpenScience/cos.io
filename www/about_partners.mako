@@ -27,53 +27,64 @@
 <br>
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-6 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/icons/arl2.jpg" alt="SHARE">
-            <h3>
-                Association of Research Libraries
-                ## <small>SHARE</small>
-            </h3>
-        </div>
+        <a href="http://www.arl.org/">
+            <div class="thumbnail">
+                <img src="../static/img/icons/arl2.jpg" alt="SHARE">
+                <h3>
+                    Association of Research Libraries
+                </h3>
+            </div>
+        </a>
     </li>
         <li class="col-md-6 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/icons/SE_Logo.png" alt="Science Exchange">
-            <h3>
-                Science Exchange
-            </h3>
-        </div>
+        <a href="https://www.scienceexchange.com/">
+            <div class="thumbnail">
+                <img src="../static/img/icons/SE_Logo.png" alt="Science Exchange">
+                <h3>
+                    Science Exchange
+                </h3>
+            </div>
+        </a>
     </li>
         <li class="col-md-6 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/icons/okfn.png" alt="OKFN">
-            <h3>
-                Open Knowledge Foundation
-            </h3>
-        </div>
+        <a href="https://okfn.org/">
+            <div class="thumbnail">
+                <img src="../static/img/icons/okfn.png" alt="OKFN">
+                <h3>
+                    Open Knowledge Foundation
+                </h3>
+            </div>
+        </a>
     </li>
         <li class="col-md-6 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/icons/aps.jpg" alt="APS">
-            <h3>
-                Association for Psychological Science
-            </h3>
-        </div>
+        <a href="http://www.psychologicalscience.org/">
+            <div class="thumbnail">
+                <img src="../static/img/icons/aps.jpg" alt="APS">
+                <h3>
+                    Association for Psychological Science
+                </h3>
+            </div>
+        </a>
     </li>
         <li class="col-md-6 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/icons/agu.png" alt="AGU">
-            <h3>
-                American Geophysical Union
-            </h3>
-        </div>
+        <a href="http://sites.agu.org/">
+            <div class="thumbnail">
+                <img src="../static/img/icons/agu.png" alt="AGU">
+                <h3>
+                    American Geophysical Union
+                </h3>
+            </div>
+        </a>
     </li>
         <li class="col-md-6 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/icons/bitss.jpg" alt="BITSS">
-            <h3>
-                Berkeley Initiative for Transparency in the Social Sciences
-            </h3>
-        </div>
+        <a href="http://bitss.org/">
+            <div class="thumbnail">
+                <img src="../static/img/icons/bitss.jpg" alt="BITSS">
+                <h3>
+                    Berkeley Initiative for Transparency in the Social Sciences
+                </h3>
+            </div>
+        </a>
     </li>
 </div>
 <!-- END OUR PARTNERS -->
