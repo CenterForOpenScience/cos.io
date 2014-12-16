@@ -289,6 +289,27 @@ body {
     line-height:30px !important;
 }
 
+/*Partner Blocks*/
+
+.front-partners {
+    margin: 0px 0px !important;
+}
+.front-partners .thumbnail {
+    border: none;
+    height: 380px !important;
+}
+.front-partners .thumbnail img {
+    max-height: 265px;
+    max-width: 256px;
+    /*min-width: 256px;*/
+    /*min-height: 256px;*/
+}
+
+.front-partners h3 {
+    margin:10px 0 12px;
+    line-height:30px !important;
+}
+
 /* Bootstrap Carousel */
 #carousel {
     height: 375px;
