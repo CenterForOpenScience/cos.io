@@ -171,7 +171,7 @@
                 <img src="../static/img/icons/Crowdstorm.png">
             </td>
             <td>
-                <h3>Crowdstorming</h3>
+                <h3>Crowdstorming a Dataset</h3>
                 <p>Crowdstorming a dataset is a method of data analysis in which multiple independent analysts investigate the same research question on the same data set in whatever manner they consider to be best. This approach should be particularly useful for complex data sets in which a variety of analytic approaches could be used, and when dealing with controversial issues about which researchers and others have very different priors. This first crowdstorming project establishes a protocol for independent simultaneous analysis of a single dataset by multiple teams, and resolution of the variation in analytic strategies and effect estimates among them. </p>
                 <a href="https://osf.io/gvm2z/wiki/home/" target="_blank" class="btn blue">
                     <i class="fa fa-search"></i> Learn more

@@ -24,7 +24,7 @@
         <br>
             <div class="row col-md-12 col-sm-12">
                 <div class="content-page">
-                    <p>The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
+                    <p class="lead">The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
                     <hr>
                     <br>
                     <div class="row margin-bottom-30">
