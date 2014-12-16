@@ -541,6 +541,11 @@ body {
 #grant-box p {
     padding-top: 50px;
 }
+.ambassador-instit-padding {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 /*Footer*/
 .twitter-timeline {
     max-height: 400px;

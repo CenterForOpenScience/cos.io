@@ -33,7 +33,6 @@
         <li><a href="#tab_2" data-toggle="tab">Scientists</a></li>
         <li><a href="#tab_3" data-toggle="tab">Journals and Societies</a></li>
         <li><a href="#tab_4" data-toggle="tab">Developers</a></li>
-        <li><a href="#tab_5" data-toggle="tab">Grant Giving</a></li>
     </ul>
 </div>
 <div class="col-md-9 col-sm-9">
@@ -106,7 +105,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/banks.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -115,7 +114,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Longwood University
                             </td>
                         </tr>
@@ -125,7 +124,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/grahe.JPG">
                             </td>
                         </tr>
                         <tr>
@@ -134,7 +133,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Pacific Lutheran University
                             </td>
                         </tr>
@@ -168,7 +167,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/nilsonne.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -177,7 +176,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Stockholm University
                             </td>
                         </tr>
@@ -187,7 +186,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/IJzerman.jpg">
                             </td>
                         </tr>
                         <tr>
@@ -196,7 +195,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 Tillburg University
                             </td>
                         </tr>
@@ -208,7 +207,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/icons/community_badge.gif">
+                                <img src="../static/img/people/ambassadors/fiedler.JPG">
                             </td>
                         </tr>
                         <tr>
@@ -400,7 +399,7 @@
         <a href="https://github.com/centerforopenscience" target="_blank">
             <div class="action-box">
                 <i class="fa fa-github"></i>
-                <p>Visit our Github</p>
+                <p>Visit our projects on Github</p>
             </div>
         </a>
     </div>
@@ -447,52 +446,34 @@
         </a>
     </div>
 
-    <div class="col-md-8">
-
-        <h4>4. Apply for a Grant</h4>
-        <p>The COS occasionally invites grant proposals or specific project bounties to increase the openness, integrity,
-            and reproducibility of scientific research. Proposals can aim to (1) create or connect open science infrastructure,
-            (2) enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other
-            stakeholders in science, or (3) conduct metascience research with implications for improving scientific practices.</p>
-    </div>
-
-    <div class="col-md-4  action-link margin-top-50">
-        <a href="/grants/" target="_blank">
-            <div class="action-box" id="grant-box">
-                <div id="dollar-grant">
-                    <p>Learn about our grants</p>
-                </div>
-            </div>
-        </a>
-    </div>
 
 </div>
 <!-- END TAB 4 -->
-<!-- BEGIN TAB 5 -->
-<div class="tab-pane" id="tab_5">
-    <div class="col-md-12">
-        <h2>Respond to a Call for Proposals</h2>
-        <p>The Center for Open Science (COS) occasionally invites grant proposals to increase the openness, integrity,
-            and reproducibility of scientific research. Presently, we are not accepting grant proposals.</p>
-        <p>When being accepted, proposals can aim to:</p>
-        <ol>
-            <li>Create or connect open science infrastructure</li>
-            <li>Enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or
-            <li>Conduct metascience research with implications for improving scientific practices</li>
-        </ol>
-        <p>Project proposals are solutions-oriented.  COS does not fund meetings to write more academic papers suggesting
-            that someone should do something.  COS funds projects that are ready to act.</p>
-        <p>Projects can be proof-of-concept to large-scale implementation.  There is no set budget limit.  However,
-            approvable budget size is strongly correlated with potential project impact.</p>
-        <p>Projects that develop new innovations, attempt novel solutions, and directly address improving incentives in
-            science for promoting accuracy and knowledge-building are encouraged. Projects that are “safe bets” or already
-            in use in other areas of science are discouraged.  Finally, projects that
-            can scale or be extended across scientific disciplines are preferred to those that have a “low ceiling” or
-            are disciplinary-specific.</p>
-
-    </div>
-</div>
-<!-- END TAB 5 -->
+##<!-- BEGIN TAB 5 -->
+##<div class="tab-pane" id="tab_5">
+##    <div class="col-md-12">
+##        <h2>Respond to a Call for Proposals</h2>
+##        <p>The Center for Open Science (COS) occasionally invites grant proposals to increase the openness, integrity,
+##            and reproducibility of scientific research. Presently, we are not accepting grant proposals.</p>
+##        <p>When being accepted, proposals can aim to:</p>
+##        <ol>
+##            <li>Create or connect open science infrastructure</li>
+##            <li>Enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or
+##            <li>Conduct metascience research with implications for improving scientific practices</li>
+##        </ol>
+##        <p>Project proposals are solutions-oriented.  COS does not fund meetings to write more academic papers suggesting
+##            that someone should do something.  COS funds projects that are ready to act.</p>
+##        <p>Projects can be proof-of-concept to large-scale implementation.  There is no set budget limit.  However,
+##            approvable budget size is strongly correlated with potential project impact.</p>
+##        <p>Projects that develop new innovations, attempt novel solutions, and directly address improving incentives in
+##            science for promoting accuracy and knowledge-building are encouraged. Projects that are “safe bets” or already
+##            in use in other areas of science are discouraged.  Finally, projects that
+##            can scale or be extended across scientific disciplines are preferred to those that have a “low ceiling” or
+##            are disciplinary-specific.</p>
+##
+##    </div>
+##</div>
+##<!-- END TAB 5 -->
 </div>
 </div>
 </div>
