@@ -552,23 +552,23 @@
     The Center places a high value on developing skills and collaboration.<br>Teamwork, pair programming, collaboration internally and externally are daily practice.</center></td>
 
     <td>
-        <div id="Collaborate_Swap_Image">
-        <img src="/static/img/photos/Jobs_Photo_Before.jpg">
-        </div> </td>
+    <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);">
+        
+    </div>
     <tr>
     <td>
   <center><h3>Eat well.</h3>
     <br>
-    Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen.Enjoy  catered lunches from local restaurants twice a week. </td>
+    Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen.<br>Enjoy  catered lunches from local restaurants twice a week. </td>
     <td>
-        <div id=Eat_Swap_Image>
+        <div id="Eat_Swap_Image">
         </div> </td>
 
    <tr><td> <center><h3>Get fit.</h3>
     <br>
      All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community.</center> </td>
     <td>
-        <div id=Fit_Swap_Image>
+        <div id="Fit_Swap_Image">
         </div> </td> </tr>
     
  <tr><td><center> <h3>Keep comfortable.</h3>

@@ -1,6 +1,6 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()"> Center for Open Science | About Our Board of Directors</%def>
+<%def name="title()">Board of Directors</%def>
 <%def name="description()">The board represents scientific and technology communities in order to provide COS with advice for meeting its mission: to increase openness, integrity, and reproducibility across the sciences.</%def>
 
 <%def name="navigation()">
@@ -20,7 +20,7 @@
     <div class="container min-hight margin-top-50">
     <!-- BEGIN OUR BOARD -->
         <div class="row front-board">
-        <h1><strong>Our Board</strong></h1>
+        <h1><strong>Board of Diractors at COS</strong></h1>
         <br>
             <div class="row col-md-12 col-sm-12">
                 <div class="content-page">
