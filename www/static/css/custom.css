@@ -557,3 +557,15 @@ body {
 .twitter-timeline {
     max-height: 400px;
 }
+
+
+.circular {
+    background-color: #CEF3FF;
+    border-radius: 400px !important;
+    height: 380px;
+}
+
+.circular dl {
+    text-align: center;
+    padding-top: 75px;
+}
