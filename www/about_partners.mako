@@ -1,6 +1,6 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()"> Center for Open Science|About Our Partners </%def>
+<%def name="title()">About Our Partners </%def>
 <%def name="description()">The Center for Open Science partners with a variety of organizations to facilitate our mission of bringing openness and transparency to science. </%def>
 
 <%def name="navigation()">
@@ -23,7 +23,7 @@
 
         <!-- BEGIN OUR PARTNERS -->
         <div class="row front-partners">
-            <h1><strong>Our Partners</strong></h1>
+            <h1><strong>Partners of COS</strong></h1>
             <p class="lead">Through cooperative efforts with a number of other organizations, COS pursues its mission of
             increasing transparency and reproducibility in the sciences.</p>
             <br>

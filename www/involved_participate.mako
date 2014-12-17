@@ -1,8 +1,8 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Get Involved with Open Science - Center for Open Science</%def>
+<%def name="title()">Get Involved with Open Science</%def>
 <%def name="description()">The Center for Open Science offers a variety of ways for developers, scientists, journals, and societies to get involved.</%def>
 <%def name="navigation()">
-    ${self.navlinks('involved_opportunities')}
+    ${self.navlinks('involved_participate')}
 </%def>
 
 <%def name="stylesheets()">
@@ -13,7 +13,7 @@
 
 
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container" id="opportunities">
+<div class="page-container" id="participate">
 
 
 <!-- BEGIN CONTAINER -->
@@ -22,7 +22,7 @@
 <!-- BEGIN CONTENT -->
 <div class="row community-content">
 <div>
-<h1><strong>Opportunities</strong></h1>
+<h1><strong>Participate in Open Science with COS</strong></h1>
 <p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Read about our
     ambassador program to represent open science interests, or explore the other opportunities to work together below.</p>
 <!-- BEGIN TABS -->
@@ -284,7 +284,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/tvyxz/wiki/home/">
+        <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
                 <p>Learn more about badges</p>
@@ -298,7 +298,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/tvyxz/wiki/home/">
+        <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
                 <p>See an Example Registration</p>
@@ -316,7 +316,7 @@
 
     </div>
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:stats-consulting@cos.io">
+        <a href="mailto:stats-consulting@cos.io?subject=Stats Consultation">
             <div class="action-box">
                 <i class="fa fa-pencil"></i>
                 <p>Request a consultation</p>
@@ -335,7 +335,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io">
+        <a href="mailto:contact@cos.io?subject=Metascience Project Enrollment">
             <div class="action-box">
                 <i class="fa fa-envelope"></i>
                 <p>Email a Project Coordinator</p>
@@ -362,7 +362,7 @@
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io" target="_blank">
+        <a href="mailto:contact@cos.io?subject=Requesting Author Guidelines">
             <div class="action-box">
                 <i class="fa fa-exclamation-circle"></i>
                 <p>Alert me when available</p>
@@ -381,7 +381,7 @@
                target="_blank">Psych Science</a>.</p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io" target="_blank">
+        <a href="mailto:contact@cos.io?subject=Badges">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
                 <p>Ask about utilizing badges</p>
@@ -398,7 +398,7 @@
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io" target="_blank">
+        <a href="mailto:contact@cos.io?subject=Requesting Poster Service">
             <div class="action-box">
                 <i class="fa fa-bar-chart"></i>
                 <p>Request a poster page</p>
@@ -421,7 +421,7 @@
                 Open Science Framework</a> along with their registrations.</p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io" target="_blank">
+        <a href="mailto:contact@cos.io?subject=Registered Reports">
             <div class="action-box">
                 <i class="fa fa-envelope"></i>
                 <p>Contact for more information</p>
@@ -471,7 +471,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io">
+        <a href="mailto:contact@cos.io?subject=Supporting Open Source Development">
             <div class="action-box">
                 <i class="fa fa-comments"></i>
                 <p>Find out how to contribute</p>
@@ -486,7 +486,7 @@
             the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
         <p><i>Developer internships.</i> Same as above but in summer or part-time internship form; students will work
             with our developers and carve out their own open science project. Please submit a resume and cover letter
-            via <a href="/involved_jobs">our jobs page</a>. Questions about the position and COS are welcome and can be sent to
+            via <a href="/involved_jobs" target="_blank">our jobs page</a>. Questions about the position and COS are welcome and can be sent to
             <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
     </div>
 

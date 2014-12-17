@@ -35,7 +35,7 @@
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/involved_opportunities/">Opportunities</a></li>
+                        <li><a href="/involved_participate/">Participate</a></li>
                         <li><a href="/involved_jobs/">Jobs</a></li>
                     </ul>
                 </li>
