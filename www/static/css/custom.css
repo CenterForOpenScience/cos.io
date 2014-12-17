@@ -94,13 +94,16 @@ body {
     font-size: 13px !important;
 }
 
-.photoSwitch{
-    background:url(../img/dev.png) center top no-repeat;
-    background-size: 200px;
-    border-radius: 60px;
-    width:150px;
-    height:150px;
-    
+.photoSwitch {
+background: urlcenter top no-repeat;
+border-radius: 60px;
+background-size: 250px;
+width: 250px;
+height: 250px;
+}
+
+.photoSwitch {}
+
 
 
 }

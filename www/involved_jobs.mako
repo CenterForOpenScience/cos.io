@@ -457,54 +457,55 @@
     <td>
     <center><h3>Collaborate.</h3>
     <br>
-    The Center places a high value on developing skills and collaboration.<br>Teamwork, pair programming, collaboration internally and externally are daily practice.</center></td>
+    The Center places a high value on developing skills and collaboration. Teamwork, pair programming, collaboration internally and externally are daily practice.</center></td>
 
     <td>
-    <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);">
+    <center><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
         
     </div>
     <tr>
     <td>
-  <center><h3>Eat well.</h3>
+        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
+   </td>
+    <td><center><h3>Eat well.</h3>
     <br>
-    Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen.<br>Enjoy  catered lunches from local restaurants twice a week. </td>
-    <td>
-        <div id="Eat_Swap_Image">
-        </div> </td>
+    Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen.Enjoy  catered lunches from local restaurants twice a week. </td> </tr>
 
    <tr><td> <center><h3>Get fit.</h3>
     <br>
      All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community.</center> </td>
     <td>
-        <div id="Fit_Swap_Image">
+         <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
         </div> </td> </tr>
     
- <tr><td><center> <h3>Keep comfortable.</h3>
+ <tr>
+    <td>
+         <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center> </td> 
+    <td><center> <h3>Keep comfortable.</h3>
     <br>
     We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.</center> </td>
-    <td>
-        <div id=Comfortable_Swap_Image>
-        </div> </td> </tr>
+    </tr>
 <tr><td> <center><h3>Get a Mac.</h3>
     <br>
-    We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan. </center> </td>
+    All full-time employees receive an <strong> Apple laptop</strong>of their choice and a workstation with 27” screen.
+ </center> </td>
     <td>
-        <div id=Mac_Swap_Image>
-        </div> </td> </tr>
+        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
+         </td> </tr>
 
-<tr><td> <center><h3>Plan for the future.</h3>
+<tr>
+<td>
+        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center> </td>
+    <td> <center><h3>Plan for the future.</h3>
     <br>
-     We’ll help you set up your 401k, and COS contributes up to 4% matches.</center> </td>
-    <td>
-        <div id=Plan_Swap_Image>
-        </div> </td> </tr>
+     We’ll help you set up your <strong>401k</strong>, and COS contributes up to 4% matches.</center> </td>
+     </tr>
 
 <tr><td> <center><h3>Enjoy the view.</h3>
     <br>
-     The modern and stylish COS offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside! </center> </td>
+     The modern and stylish COS offices are located in the heart of <br><strong>Charlottesville</strong> on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside! </center> </td>
     <td>
-        <div id=View_Swap_Image>
-        </div> </td> </tr>
+        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center> </td> </tr>
     
    
     </table>
