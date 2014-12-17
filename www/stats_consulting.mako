@@ -1,7 +1,7 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Statistical and Methodological Consulting - Center for Open Science</%def>
+<%def name="title()">Statistical and Methodological Consulting</%def>
 <%def name="description()">The Center for Open Science offers totally free statistical and methodological consulting services so that you can make your science better.</%def>
 
 <%def name="navigation()">
@@ -27,7 +27,7 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="stats-intro space-mobile">
-                <h1><strong>Statistical & Methodological Consulting</strong></h1>
+                <h1><strong>Statistical & Methodological Consulting through COS</strong></h1>
                 <div class="row col-md-8">
 
                     <p class="lead">Individual scientists can improve the replicability of their own work through careful documentation,

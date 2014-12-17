@@ -1,5 +1,5 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Openness, Reproducibility, and Integrity - Center for Open Science</%def>
+<%def name="title()">Openness, Reproducibility, and Integrity</%def>
 <%def name="description()">COS is non-profit technology start-up dedicated to improving the alignment between scientific values and scientific practices. </%def>
 
 <%def name="stylesheets()">
