@@ -17,8 +17,8 @@
     <ul class="bxslider">
         <li>
             <div class="row tagline animated fadeIb"> 
-                <div class="col-xs-6"> <h4 class="resize-text"> We foster <br /> <b> openness </b> <br /> <b> integrity
-                </b> <br /> and<b>  reproducibility</b>  <br /> of scientific research </h4> </div>
+                <div class="hp-slide-head col-xs-6"> <h1> We foster the<br/> <strong>openness</strong> <br/> <strong>integrity
+                </strong> <br/> and <strong>reproducibility</strong> <br/> of scientific research </h1> </div>
                 <div class="col-xs-6"> <img src="static/img/cos_center_logo_small.png" /></div>
             </div> 
             
@@ -50,7 +50,7 @@
 
 <div id="servicegrid" class="margin-bottom-100 margin-top-50">
     <div class="center margin-bottom-40">
-        <h1 class="bold">What We Work On</h1>
+        <div class="hp-service-title"><strong>What We Work On</strong></div>
     </div>
     <!-- BEGIN SERVICE BOX -->
     <div class="service-box margin-bottom-50">
@@ -86,7 +86,7 @@
     </div>
     <!-- END SERVICE BOX -->
     <div class="center margin-bottom-40">
-        <h1 class="bold">Who We Work With</h1>
+        <div class="hp-service-title"><strong>Who We Work With</strong></div>
     </div>
     <!-- BEGIN SERVICE BOX -->
     <div class="service-box margin-bottom-40">

@@ -151,6 +151,10 @@ body {
 
 /*Service Box*/
 
+.hp-service-title{
+    font-size: 25px;
+}
+
 #servicegrid {
     margin-bottom: 50px;
 }
@@ -343,24 +347,36 @@ body {
     margin: auto;
     padding: 30px;
 }
-.slide-text {
-    width: 340px;
-    float: left;
-    text-align: left;
-}
-.slide-text h1{
-    padding: 6px 0;
-}
+
 .slide-image{
     float:right;
     width: 100%;
     height:auto;
 }
 
-.resize-text {
-    padding: 10px 0 0 40px;
+.hp-slide-head{
+    padding-top: 50px;
     text-transform: uppercase;
 }
+
+.hp-slide-head h1{
+    line-height:50px;
+}
+@media screen and (max-width:770px){
+    .hp-slide-head{
+        padding-top: 10px;
+    }
+    .hp-slide-head h1 {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width:620px){
+    .hp-slide-head h1 {
+        line-height: 30px;
+    }
+}
+
 .slide-wrapper {
     width: 100%;
     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
