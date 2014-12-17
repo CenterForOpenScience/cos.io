@@ -94,15 +94,19 @@ body {
     font-size: 13px !important;
 }
 
-.photoSwitch{
-    background:url(../img/dev.png) center top no-repeat;
+.photoSwitch {
     background-size: 200px;
     border-radius: 60px;
     width:150px;
     height:150px;
-    
+}
 
-
+.whatWeDo a:hover .photoSwitch {
+    background: center bottom no-repeat;
+    background-size: 200px;
+    border-radius: 60px;
+    width:150px;
+    height:150px;
 }
 
 /*From Responsive*/
