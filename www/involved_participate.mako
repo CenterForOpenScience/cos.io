@@ -294,14 +294,14 @@
 
      <div class="col-md-8">
         <h4><strong>3. Pre-register your studies</strong></h4>
-        <p>Some stuff</p>
+        <p></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
         <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
-                <p>See an Example Registration</p>
+                <p>See an example registration</p>
             </div>
         </a>
     </div>
