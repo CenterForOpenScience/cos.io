@@ -102,7 +102,9 @@ body {
     -moz-border-radius: 125px;
     background-size: 250px;
 }
-
+.WhatWeDo{
+    padding: 20px;
+}
 .whatWeDo a:hover .photoSwitch {
     width:250px;
     height:250px;
@@ -111,6 +113,8 @@ body {
     border-radius: 125px;
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
+    filter: sepia(0.3) !important;
+    
 }
 
 /*From Responsive*/
