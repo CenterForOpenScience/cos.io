@@ -580,13 +580,13 @@
 </tr>
 <tr>
   <td>
-        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/computer.png);"></div></center></a>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Computer.png);"></div></center></a>
          </td>
   <td>
-        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/plan.png);"></div></center></a>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Plan.png);"></div></center></a>
     </td>
     <td>
-        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/view.png);"></div></center></a>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/View.png);"></div></center></a>
 
     </td>
     
