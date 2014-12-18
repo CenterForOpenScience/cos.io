@@ -282,6 +282,13 @@ body {
     line-height:30px !important;
 }
 
+.board-thumbnail img {
+    max-height: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    min-width: 400px;
+}
+
 /* Bootstrap Carousel */
 #carousel {
     height: 375px;
