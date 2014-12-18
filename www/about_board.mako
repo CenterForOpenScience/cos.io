@@ -20,7 +20,7 @@
     <div class="container min-hight margin-top-50">
     <!-- BEGIN OUR BOARD -->
         <div class="row front-board">
-        <h1><strong>Board of Diractors at COS</strong></h1>
+        <h1><strong>Board of Directors at COS</strong></h1>
         <br>
             <div class="row col-md-12 col-sm-12">
                 <div class="content-page">
@@ -46,6 +46,26 @@
                             <p>It was APS efforts through Kraut that created OppNet, a $120+ mil basic behavioral science research initiative at NIH; a behavioral science directorate at NSF; and established eligibility for scientific clinical psychology in NSF's Graduate Research Fellowship Program. In addition, APS generated articles/stories/columns/blogs are regularly featured in print and online at Newsweek, Time, Huffington Post, Scientific American, New York Times, Wall St. Journal, etc.</p>
 
                             <p>Kraut received his Ph.D. in Developmental Psychology from Syracuse University in 1977.  From 1977-80, he was on the psychology faculty of Virginia Polytechnic Institute and State University in Blacksburg, VA.  Before establishing APS, Kraut directed various science and policy programs at the American Psychological Association and was APA’s founding Executive Director for Science.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30">
+                        <div class="col-md-5">
+                            <div class="board-thumbnail">
+                                <img src="../static/img/people/board/lupia.jpg" alt="Arthur Lupia">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3>
+                                Arthur Lupia<br>
+                                <small>Hal R. Varian Professor of Political Science at the University of Michigan</small>
+                            </h3>
+                            <h5>2014-2016</h5>
+                            <p>Arthur Lupia is the Hal R. Varian Professor of Political Science at the University of Michigan and research professor at its Institute for Social Research. He examines how information and institutions affect policy and politics, with a focus on how people make decisions when they lack information.  He draws from multiple scientific and philosophical disciplines and uses multiple research methods. His topics of expertise include information processing, persuasion, strategic communication, and civic competence. His books include The Democratic Dilemma: Can Citizens Learn What They Need to Know? (1998); Elements of Reason: Cognition, Choice, and the Bounds of Rationality (2000); and The Cambridge Handbook of Experimental Political Science (2011). </p>
+
+                            <p>He has held a range of scientific leadership positions. He is Chair of the National Research Council’s Roundtable on the Application of Social and Behavioral Science Research, and serves on the Advisory Board of the Division of Behavioral and Social Sciences and Education of the National Academy of Science, and as an Executive Board member of Climate Central. In the past, he has served as Principal Investigator of the American National Election Studies, Chair of the Social, Economic, and Political Sciences section of the American Association for the Advancement of Science, and was co-founder of TESS (Time-Sharing Experiments in the Social Sciences), which has helped hundreds of scientists from many disciplines run innovative experiments on opinion formation and change using nationally representative subject pools. He has led numerous task forces on scientific communication and research transparency and is regularly asked to advise scientific organizations and research groups on how to effectively communicate science to broad and diverse audiences.</p>
+
+                            <p>He is an elected member of the American Academy of Arts and Sciences, a Fellow of the American Association for the Advancement of Science, a Guggenheim Fellow, a Fellow at the Center for Social and Behavioral Sciences, a recipient of the American Association for Public Opinion Research’s Innovator’s Award, the American Political Science Association’s Ithiel de Sola Pool Award, and the National Academy of Science’s Award for Initiatives in Research. Dr. Lupia received in B.A. in economics from the University of Rochester and his Ph.D. in social science from the California Institute of Technology.  </p>
                         </div>
                     </div>
                     <hr>
