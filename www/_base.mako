@@ -18,6 +18,7 @@
                         <li><a href="/about_work/">Our Work</a></li>
                         <li><a href="/about_team/">Our Team</a></li>
                         <li><a href="/about_sponsors/">Our Sponsors</a></li>
+                        <li><a href="/about_board/">Our Board</a></li>
                     </ul>
                 </li>
                 <li class="dropdown ${ 'active' if page == 'news' else ''}">
