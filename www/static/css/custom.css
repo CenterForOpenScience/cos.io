@@ -94,6 +94,29 @@ body {
     font-size: 13px !important;
 }
 
+.photoSwitch {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px !important;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background-size: 250px;
+}
+.WhatWeDo{
+    padding: 20px;
+}
+.whatWeDo a:hover .photoSwitch {
+    width:250px;
+    height:250px;
+    background: center bottom no-repeat;
+    background-size: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    filter: sepia(0.3) !important;
+    
+}
+
 /*From Responsive*/
 .header a.logo-v1 img {
     margin-top: 2px !important;
@@ -135,10 +158,6 @@ body {
 }
 
 /*Service Box*/
-
-.hp-service-title{
-    font-size: 25px;
-}
 
 #servicegrid {
     margin-bottom: 50px;
@@ -332,36 +351,24 @@ body {
     margin: auto;
     padding: 30px;
 }
-
+.slide-text {
+    width: 340px;
+    float: left;
+    text-align: left;
+}
+.slide-text h1{
+    padding: 6px 0;
+}
 .slide-image{
     float:right;
     width: 100%;
     height:auto;
 }
 
-.hp-slide-head{
-    padding-top: 50px;
+.resize-text {
+    padding: 10px 0 0 40px;
     text-transform: uppercase;
 }
-
-.hp-slide-head h1{
-    line-height:50px;
-}
-@media screen and (max-width:770px){
-    .hp-slide-head{
-        padding-top: 10px;
-    }
-    .hp-slide-head h1 {
-        font-size: 25px !important;
-    }
-}
-
-@media screen and (max-width:620px){
-    .hp-slide-head h1 {
-        line-height: 30px;
-    }
-}
-
 .slide-wrapper {
     width: 100%;
     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
