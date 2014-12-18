@@ -98,7 +98,7 @@
                 </div>
                 <p>By providing tools for use and studying normative scientific practices, COS empowers scientists who want
                     to make their work more discoverable and more streamlined.
-                    <a href="/involved_opportunities/#tab_2">Read about simple steps toward open science.</a></p>
+                    <a href="/involved_participate/#tab_2">Read about simple steps toward open science.</a></p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
@@ -106,7 +106,7 @@
                     <span>Publishers &amp; Societies</span>
                 </div>
                 <p>COS has built free, easy-to-adopt infrastructure for journals and societies to incentivize preregistration and
-                    sharing of data and materials. <a href="/involved_opportunities/#tab_3">Read more about how we can assist you.</a></p>
+                    sharing of data and materials. <a href="/involved_participate/#tab_3">Read more about how we can assist you.</a></p>
 
             </div>
             <div class="col-md-4 col-sm-4">
@@ -116,7 +116,7 @@
                 </div>
                 <p>COS builds open source web apps, connects via API with other services, and supports
                     open projects. The scientific community can benefit from many open source practices and resources;
-                    <a href="/involved_opportunities/#tab_4">find out how you can contribute.</a></p>
+                    <a href="/involved_participate/#tab_4">find out how you can contribute.</a></p>
             </div>
         </div>
     </div>
