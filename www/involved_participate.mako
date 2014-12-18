@@ -145,7 +145,7 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="#" alt="Michael Gorman">
+                                <img src="../static/img/cat.jpeg" alt="Michael Gorman">
                             </td>
                         </tr>
                         <tr>
