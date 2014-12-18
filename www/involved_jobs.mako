@@ -552,13 +552,12 @@
     The Center places a high value on developing skills and collaboration. Teamwork, pair programming, collaboration internally and externally are daily practice.</center></td>
 
     <td>
-    <center><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
-    <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div>
+    <a><center><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></center></div>
         
     </div>
     <tr>
     <td>
-        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center></a>
    </td>
     <td><center><h3>Eat well.</h3>
     <br>
@@ -568,12 +567,13 @@
     <br>
      All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community.</center> </td>
     <td>
-         <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center></a>
         </div> </td> </tr>
     
  <tr>
     <td>
-         <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center> </td> 
+         <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center></a>
+    </td> 
     <td><center> <h3>Keep comfortable.</h3>
     <br>
     We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.</center> </td>
@@ -583,24 +583,27 @@
     All full-time employees receive an <strong> Apple laptop</strong>of their choice and a workstation with 27” screen.
  </center> </td>
     <td>
-        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center></a>
          </td> </tr>
 
-<tr>
-<td>
-        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center> </td>
+    <tr>
+    <td>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center></a>
+    </td>
     <td> <center><h3>Plan for the future.</h3>
     <br>
      We’ll help you set up your 401k, and COS contributes up to 4% matches.</center> </td>
     <td>
-        <div id=Plan_Swap_Image>
-        </div> </td> </tr>
 
-<tr><td> <center><h3>Enjoy the view.</h3>
+    <tr>
+        <td><center><h3>Enjoy the view.</h3>
     <br>
      The modern and stylish COS offices are located in the heart of <br><strong>Charlottesville</strong> on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside! </center> </td>
     <td>
-        <center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center> </td> </tr>
+        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></center></a>
+
+    </td>
+    </tr>
     
    
     </table>

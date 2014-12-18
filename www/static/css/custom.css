@@ -95,22 +95,22 @@ body {
 }
 
 .photoSwitch {
-background: urlcenter top no-repeat;
-border-radius: 60px;
-background-size: 250px;
-width: 250px;
-height: 250px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px !important;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background-size: 250px;
 }
 
-.photoSwitch {}
-
-
 .whatWeDo a:hover .photoSwitch {
+    width:250px;
+    height:250px;
     background: center bottom no-repeat;
-    background-size: 200px;
-    border-radius: 60px;
-    width:150px;
-    height:150px;
+    background-size: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
 }
 
 /*From Responsive*/
