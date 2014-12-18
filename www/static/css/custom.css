@@ -136,6 +136,10 @@ body {
 
 /*Service Box*/
 
+.hp-service-title{
+    font-size: 25px;
+}
+
 #servicegrid {
     margin-bottom: 50px;
 }
@@ -328,24 +332,36 @@ body {
     margin: auto;
     padding: 30px;
 }
-.slide-text {
-    width: 340px;
-    float: left;
-    text-align: left;
-}
-.slide-text h1{
-    padding: 6px 0;
-}
+
 .slide-image{
     float:right;
     width: 100%;
     height:auto;
-} 
+}
 
-.resize-text {
-    padding: 10px 0 0 40px;
+.hp-slide-head{
+    padding-top: 50px;
     text-transform: uppercase;
 }
+
+.hp-slide-head h1{
+    line-height:50px;
+}
+@media screen and (max-width:770px){
+    .hp-slide-head{
+        padding-top: 10px;
+    }
+    .hp-slide-head h1 {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width:620px){
+    .hp-slide-head h1 {
+        line-height: 30px;
+    }
+}
+
 .slide-wrapper {
     width: 100%;
     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
@@ -372,37 +388,37 @@ body {
 
 /*Communities*/
 .community-tabbable {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  border-left: solid 2px #0da3e2;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-left: solid 2px #0da3e2;
 }
 .community-tabbable li {
-  position: relative;
-  margin-bottom: 1px;
+    position: relative;
+    margin-bottom: 1px;
 }
 .community-tabbable li a {
-  font-size: 14px;
-  color: #7C858E;
-  display: block;
-  background: #F4F4F4;
-  padding: 12px 10px 11px 8px;
+    font-size: 14px;
+    color: #7C858E;
+    display: block;
+    background: #F4F4F4;
+    padding: 12px 10px 11px 8px;
 }
 .community-tabbable li:hover a,
 .community-tabbable li.active a{
-  background: #0da3e2;
-  text-decoration: none;
-  color: #fff;
+    background: #0da3e2;
+    text-decoration: none;
+    color: #fff;
 }
 .community-tabbable li.active:after {
-  content: '';
-  display: inline-block;
-  border-bottom: 6px solid transparent;
-  border-top: 6px solid transparent;
-  border-left: 6px solid #0da3e2;
-  position: absolute;
-  top: 16px;
-  right: -5px;
+    content: '';
+    display: inline-block;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-left: 6px solid #0da3e2;
+    position: absolute;
+    top: 16px;
+    right: -5px;
 }
 .community-badge {
     vertical-align: top;
@@ -449,6 +465,10 @@ body {
 }
 
 .conversation table td .blue:hover{
+    background-color: #0da3e2 !important;
+}
+
+.conversation table td .blue:visited{
     background-color: #0da3e2 !important;
 }
 
@@ -509,9 +529,12 @@ body {
     background-position: center;
     height: 40px;
 }
-.ambassador-icon:hover {
+
+.ambassador-icon:hover{
     background-image: url("../img/icons/Ambassador_Handshake_Dark.png");
 }
+
+
 .ambassador-icon p {
     padding-top: 50px;
 }
@@ -519,6 +542,9 @@ body {
     width: 75px;
 }
 .action-link a:hover{
+    text-decoration: none;
+}
+.action-link a:visited {
     text-decoration: none;
 }
 
@@ -556,4 +582,21 @@ body {
 /*Footer*/
 .twitter-timeline {
     max-height: 400px;
+}
+
+/*Our Work*/
+
+#venn {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 950px) {
+    #venn {
+        padding-top: 20px;
+    }
 }
