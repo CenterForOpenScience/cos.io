@@ -33,8 +33,8 @@
                      Research Libraries"></a></td>
                     <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
                         The Association of Research Libraries is a nonprofit organization comprised of university and research
-                        libraries across the United States. ARL is working in conjunction with COS to create a <a href="/pr/2014-06-02/">
-                        notification service</a> to connect scientists with relevant research.
+                        libraries across the United States. ARL is working in conjunction with COS to create the <a href="/pr/2014-06-02/">
+                        SHARE notification service</a> to connect scientists with relevant research.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
@@ -66,7 +66,7 @@
                 <tr>
                     <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
                     <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
-                        Share?
+                        
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
