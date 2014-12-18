@@ -159,6 +159,10 @@ body {
 
 /*Service Box*/
 
+.hp-service-title{
+    font-size: 25px;
+}
+
 #servicegrid {
     margin-bottom: 50px;
 }
@@ -226,6 +230,25 @@ body {
     -webkit-transition:all 0.4s ease-in-out;
     text-decoration:none !important;
 }
+
+.hp-slide-head{
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.hp-slide-head h1{
+    line-height:50px;
+}
+@media screen and (max-width:770px){
+    .hp-slide-head{
+        padding-top: 10px;
+    }
+    .hp-slide-head h1 {
+        font-size: 25px !important;
+    }
+}
+
+
 
 /*Footer*/
 
