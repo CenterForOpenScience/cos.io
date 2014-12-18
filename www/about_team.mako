@@ -1,7 +1,7 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()">About our Team</%def>
-<%def name="description()">The Center for Open Science team is diverse in background and skills.</%def>
+<%def name="title()">About Our Team </%def>
+<%def name="description()">The Center for Open Science team is diverse in background and skills, all devoted to increasing the Openness, Reproducibility, and Integrity in science. </%def>
 
 <%def name="navigation()">
     ${self.navlinks('about_team')}
@@ -23,7 +23,7 @@
 
 <!-- BEGIN OUR TEAM -->
 <div class="row front-team">
-<h1><strong>Our Team</strong></h1>
+<h1><strong>The COS Team</strong></h1>
 <p class="lead">From astronomy to chemistry, the COS team brings a variety of experiences and skills to the table.</p>
 <br>
 <ul class="list-unstyled" id="whoWeAre">

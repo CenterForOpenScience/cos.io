@@ -29,21 +29,21 @@
                         <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
                     </ul>
                 </li>
-                <li class="dropdown ${ 'active' if page == 'communities' else ''}">
-                    <a href="/communities/">Communities</a>
-                </li>
-                <li class="dropdown ${ 'active' if page == 'news' else ''}">
-                    <a href="/news/">News </a>
-                </li>
-                <li class="dropdown ${ 'active' if page.startswith('involved') else ''}">
+                 <li class="dropdown ${ 'active' if page.startswith('involved') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         Get Involved
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/involved_opportunities/">Opportunities</a></li>
+                        <li><a href="/involved_participate/">Participate</a></li>
                         <li><a href="/involved_jobs/">Jobs</a></li>
                     </ul>
+                </li>
+                <li class="dropdown ${ 'active' if page == 'communities' else ''}">
+                    <a href="/communities/">Communities</a>
+                </li>
+                <li class="dropdown ${ 'active' if page == 'news' else ''}">
+                    <a href="/news/">News </a>
                 </li>
                 <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
             </ul>

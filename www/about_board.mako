@@ -1,7 +1,7 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()">About our Board</%def>
-<%def name="description()">The Center for Open Science board is diverse in background and skills.</%def>
+<%def name="title()">Board of Directors</%def>
+<%def name="description()">The board represents scientific and technology communities in order to provide COS with advice for meeting its mission: to increase openness, integrity, and reproducibility across the sciences.</%def>
 
 <%def name="navigation()">
     ${self.navlinks('about_board')}
@@ -20,11 +20,11 @@
     <div class="container min-hight margin-top-50">
     <!-- BEGIN OUR BOARD -->
         <div class="row front-board">
-        <h1><strong>Our Board</strong></h1>
+        <h1><strong>Board of Diractors at COS</strong></h1>
         <br>
             <div class="row col-md-12 col-sm-12">
                 <div class="content-page">
-                    <p>The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
+                    <p class="lead">The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
                     <hr>
                     <br>
                     <div class="row margin-bottom-30">

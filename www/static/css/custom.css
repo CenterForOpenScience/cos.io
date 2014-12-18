@@ -136,6 +136,10 @@ body {
 
 /*Service Box*/
 
+.hp-service-title{
+    font-size: 25px;
+}
+
 #servicegrid {
     margin-bottom: 50px;
 }
@@ -156,11 +160,13 @@ body {
 .service-box p {
     color: #656565;
     font-size: 15px;
-    text-align: left !important;
+    text-align: center !important;
 }
 
 .service-box .service-box-heading {
     margin-bottom: 5px;
+    text-align: center;
+    margin-left: 0px;
 }
 
 .service-box .service-box-heading i {
@@ -326,24 +332,36 @@ body {
     margin: auto;
     padding: 30px;
 }
-.slide-text {
-    width: 340px;
-    float: left;
-    text-align: left;
-}
-.slide-text h1{
-    padding: 6px 0;
-}
+
 .slide-image{
     float:right;
     width: 100%;
     height:auto;
-} 
+}
 
-.resize-text {
-    padding: 10px 0 0 40px;
+.hp-slide-head{
+    padding-top: 50px;
     text-transform: uppercase;
 }
+
+.hp-slide-head h1{
+    line-height:50px;
+}
+@media screen and (max-width:770px){
+    .hp-slide-head{
+        padding-top: 10px;
+    }
+    .hp-slide-head h1 {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width:620px){
+    .hp-slide-head h1 {
+        line-height: 30px;
+    }
+}
+
 .slide-wrapper {
     width: 100%;
     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
@@ -370,37 +388,37 @@ body {
 
 /*Communities*/
 .community-tabbable {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  border-left: solid 2px #0da3e2;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-left: solid 2px #0da3e2;
 }
 .community-tabbable li {
-  position: relative;
-  margin-bottom: 1px;
+    position: relative;
+    margin-bottom: 1px;
 }
 .community-tabbable li a {
-  font-size: 14px;
-  color: #7C858E;
-  display: block;
-  background: #F4F4F4;
-  padding: 12px 10px 11px 8px;
+    font-size: 14px;
+    color: #7C858E;
+    display: block;
+    background: #F4F4F4;
+    padding: 12px 10px 11px 8px;
 }
 .community-tabbable li:hover a,
 .community-tabbable li.active a{
-  background: #0da3e2;
-  text-decoration: none;
-  color: #fff;
+    background: #0da3e2;
+    text-decoration: none;
+    color: #fff;
 }
 .community-tabbable li.active:after {
-  content: '';
-  display: inline-block;
-  border-bottom: 6px solid transparent;
-  border-top: 6px solid transparent;
-  border-left: 6px solid #0da3e2;
-  position: absolute;
-  top: 16px;
-  right: -5px;
+    content: '';
+    display: inline-block;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-left: 6px solid #0da3e2;
+    position: absolute;
+    top: 16px;
+    right: -5px;
 }
 .community-badge {
     vertical-align: top;
@@ -450,6 +468,10 @@ body {
     background-color: #0da3e2 !important;
 }
 
+.conversation table td .blue:visited{
+    background-color: #0da3e2 !important;
+}
+
 
 .action-box {
     text-align: center;
@@ -486,11 +508,13 @@ body {
 .ambassador-box {
     margin: 25px;
 }
+.ambassador-action-box {
+    height: 135px;
+}
 .ambassador-img img{
     width: 200px;
     border-radius: 50% !important;
 }
-
 .ambassador-name {
     text-align: center;
     padding-top: 20px;
@@ -498,12 +522,29 @@ body {
 .ambassador-instit {
     text-align: center;
 }
+.ambassador-icon {
+    background-image: url("../img/icons/Ambassador_Handshake.png");
+    background-size: 80px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+}
 
+.ambassador-icon:hover{
+    background-image: url("../img/icons/Ambassador_Handshake_Dark.png");
+}
+
+
+.ambassador-icon p {
+    padding-top: 50px;
+}
 .action-box img {
     width: 75px;
 }
-
 .action-link a:hover{
+    text-decoration: none;
+}
+.action-link a:visited {
     text-decoration: none;
 }
 
@@ -513,7 +554,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 40px;
-    width: 160px;
 }
 
 #dollar-grant:hover {
@@ -526,9 +566,37 @@ body {
 
 #grant-box p {
     padding-top: 50px;
-    width: 161px;
 }
+.ambassador-instit-padding {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Collaborate_Swap_Image {
+    background-image: url("../img/photos/Jobs_Photo_Before.jpg");
+}
+
+
+
+
 /*Footer*/
 .twitter-timeline {
     max-height: 400px;
+}
+
+/*Our Work*/
+
+#venn {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 950px) {
+    #venn {
+        padding-top: 20px;
+    }
 }
