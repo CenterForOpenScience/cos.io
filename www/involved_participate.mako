@@ -46,7 +46,7 @@
             integrity, and reproducibility across scientific domains.</p>
 
         <div class="col-md-8">
-            <h4>What Ambassadors Do</h4>
+            <h4><b>What Ambassadors Do</b></h4>
             <ul>
                 <li>Act as a local authority on COS, the OSF, transparency, and reproducible practices</li>
                 <li>Represent COS at conferences and meetings</li>
@@ -67,7 +67,7 @@
             </a>
         </div>
         <div class="col-md-8">
-            <h4>What Ambassadors Get</h4>
+            <h4><b>What Ambassadors Get</b></h4>
             <ul>
                 <li>Training on how to COS initiatives and practices</li>
                 <li>A cool badge on your OSF profile</li>
@@ -251,7 +251,7 @@
 <!-- START TAB 2 -->
 <div class="tab-pane" id="tab_2">
     <div class="col-md-12">
-        <h2><strong>Make Steps Toward Transparency</strong></h2>
+        <h2><strong>Take Steps Toward Transparency</strong></h2>
         <p>The Center for Open Science offers researchers a wide variety of invaluable tools and resources that can help
             you support open science practices with your work.</p>
     </div>
@@ -259,9 +259,9 @@
     <div class="col-md-8">
         <h4><strong>1. Use The Open Science Framework (OSF)</strong></h4>
         <p>The OSF is a free, secure web application that allows scientists to organize and archive files, and increase
-            documentation. Using the OSF addresses common problems like the way old files seem to disappear and the confusion
-            between "final_report.docx" and "final_report2.docx." Reduce email clutter, integrate tools you already use like
-            Dropbox or Figshare, and easily make your work public when you choose. <a href="https://osf.io/4znzp/wiki/home/" target="_blank">Learn
+            documentation. Using the OSF addresses common problems like the way old files seem to disappear and eliminates confusion
+            over which file copy is most up to date: "final_report.docx" or "final_report2.docx." Reduce email clutter, integrate tools you already use like
+            Dropbox or Figshare, and easily make your work publicly available when you choose. <a href="https://osf.io/4znzp/wiki/home/" target="_blank">Learn
             more about how the OSF can improve your work.</a>
     </div>
 
@@ -276,7 +276,7 @@
 
     <div class="col-md-8">
         <h4><strong>2. Apply for a Badge</strong></h4>
-        <p>Many journals are offering <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/">visual acknowledgement</a>
+        <p>Many journals are offering <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/" target="_blank">visual acknowledgement</a>
         of open practices such as pre-registration or the public
         archiving of materials or data. Authors who apply for and are granted a badge will see an icon printed on their
         article to draw attention to the open practices used. A few journals that award badges are Cortex, European Journal
@@ -294,13 +294,22 @@
 
      <div class="col-md-8">
         <h4><strong>3. Pre-register your studies</strong></h4>
-        <p></p>
+        <p>By pre-registering your project, you invariably increase the scientific integrity of your work.
+        Pre-registration involves creating an frozen snapshot of your research progress at any point in time that you choose.
+        Registering your project before you start data collection allows you to revisit exactly what your original research questions were
+        and provides evidence that you have followed your proposed protocol throughout data collection.</p>
+
+        <p>You can use the <a href="https://osf.io" target="_blank">Open Science Framework</a> to create a frozen
+        registration of your research project, which can be used as a repository for registered reports. <a href="https://osf.io/47uq9/"
+         target="_blank">Find more useful resources on pre-registration.</a>
+
+        </p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
+        <a href="https://osf.io/h8sp7/" target="_blank">
             <div class="action-box">
-                <i class="fa fa-shield"></i>
+                <i class="fa fa-file-text-o "></i>
                 <p>See an example registration</p>
             </div>
         </a>
