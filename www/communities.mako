@@ -20,15 +20,19 @@
     <div class="container min-hight margin-top-50">
 
         <!-- BEGIN CONTENT -->
-        <div class="row community-content">
-            <h1><strong>Communities COS Supports</strong></h1>
-            <p class="lead">The Center for Open Science contributes to the progress of a larger community effort to increase the
-                transparency and inclusiveness of all scientific disciplines. Open science is a movement with many smaller
-                communities producing great work. Click below to learn more about each community effort and how to get
-                involved.</p>
-            <!-- BEGIN TABS -->
-            <div class="margin-top-20">
-                <div class="col-md-3 col-sm-3 community-tab-list">
+        <div class="community-content">
+            <div class="row">
+                <div class="col-sm-12 margin-top-20">
+                    <h1><strong>Communities COS Supports</strong></h1>
+                    <p class="lead">The Center for Open Science contributes to the progress of a larger community effort to increase the
+                        transparency and inclusiveness of all scientific disciplines. Open science is a movement with many smaller
+                        communities producing great work. Click below to learn more about each community effort and how to get
+                        involved.</p> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 community-tab-list">
                     <ul class="tabbable community-tabbable">
                         <li class="active"><a href="#tab_1" data-toggle="tab">Publishing Initiatives</a></li>
                         <li><a href="#tab_2" data-toggle="tab">Metascience</a></li>
@@ -36,9 +40,9 @@
                         <li><a href="#tab_4" data-toggle="tab">Interest Groups</a></li>
                     </ul>
                 </div>
-                <div class="col-md-9 col-sm-9">
+                <div class="col-sm-8 col-sm-offset-1 ">
                     <!-- START TAB CONTENT -->
-                    <div class="tab-content ">
+                    <div class="tab-content">
                         <!-- START TAB 1 -->
                         <div class="tab-pane active" id="tab_1">
                             <table>
@@ -229,12 +233,14 @@
 
                             </table>
                         </div>
-                    <!-- END TAB 4 -->
-                    <!-- END TAB CONTENT -->
                     </div>
+                    <!-- END TAB CONTENT -->
                 </div>
 
-                <div class="conversation col-md-12 col-sm-12">
+            </div>
+
+            <div class="row">
+                <div class="conversation col-sm-12">
                     <table>
                         <tr>
                             <td id="speechbubble"><img src="../static/img/icons/speech.gif"></td>
@@ -250,7 +256,9 @@
                     </table>
                 </div>
             </div>
-        </div>
+
+        </div>  
+
         <!-- END CONTENT -->
     </div>
     <!-- END CONTAINER -->
