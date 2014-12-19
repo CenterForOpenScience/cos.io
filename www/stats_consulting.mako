@@ -27,13 +27,11 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="stats-intro space-mobile">
-                <h1><strong>Statistical & Methodological Consulting through COS</strong></h1>
+                <h1><strong>Statistical & Methodological Consulting</strong></h1>
                 <div class="row col-md-8">
 
-                    <p class="lead">Individual scientists can improve the replicability of their own work through careful documentation,
-                        adherence to standards, and the use of open tools.</p>
-                    <p>Our consultants can help answer questions about open and reproducible tools, methodologies, and workflows.
-                        For instance, in the past, we have given guidance on:</p>
+                    <p class="lead">Scientists can improve the replicability of their own work through careful documentation, adherence to standards, and the use of open tools.
+                    We answer questions and provide training on open and reproducible tools, methodologies, and workflows. Some examples:</p>
                     <table class="col-md-10 col-md-offset-1">
                         <tr>
                             <td><i class="fa fa-check"></i>Using R</td>
@@ -51,10 +49,16 @@
                 </div>
 
                 <div  class="col-md-3 col-md-offset-1">
-                    <a href="mailto:stats-consulting@cos.io" >
+                    <a href="mailto:stats-consulting@cos.io?subject=Request a Consultation">
                         <div class="action-box" id="stats-consult">
                             <i class="fa fa-pencil"></i>
                             <p>Request a Consultation</p>
+                        </div>
+                    </a>
+                    <a href="mailto:stats-consulting@cos.io?subject=Request a Workshop">
+                        <div class="action-box">
+                            <i class="fa fa-share-square-o"></i>
+                            <p>Request a Workshop</p>
                         </div>
                     </a>
                     <a href="http://eepurl.com/2kghn" target="_blank">
@@ -69,11 +73,11 @@
                 <h2><strong>Free One-on-One Consulting Services</strong></h2>
 
                 <hr>
-                <p><strong>Email Consulting:</strong></p>
-                <p>Have a question that you think could be answered over email, or just want to get some general suggestions of resources to look into? Email <a href='mailto:stats-consulting@cos.io'>stats-consulting@cos.io</a> with your questions. We will try our best to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. If we feel the question could be better answered ‘in person’, we will email to set up an online appointment.</p>
+                <p><strong>Email Consulting</strong></p>
+                <p>Email <a href='mailto:stats-consulting@cos.io?subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. If we feel the question could be better answered ‘in person’, we will email to set up an online appointment.</p>
                 <br>
-                <p><strong>Online consulting by appointment:</strong></p>
-                <p>Want to talk through your problem in real time? <a href="https://www.google.com/calendar/embed?src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&ctz=America/New_York">Check our calendar</a>  to see when our consultants are available and then  <a href="mailto:stats-consulting@cos.io">email us</a> to request a Google Hangout appointment. In your email, please include a short description of your question, as well as data, syntax, and output files, when applicable. If you don’t see any times that work for you, email us and we will try to set up a special time outside our normal consulting hours. Initial consultations are up to 30 minutes. More complex problems will be handled through follow-up consultations.</p>
+                <p><strong>Online consulting by appointment</strong></p>
+                <p>Want to talk through your problem in real time? <a href="https://www.google.com/calendar/embed?src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&ctz=America/New_York">Check our calendar</a>  to see when our consultants are available and then  <a href="mailto:stats-consulting@cos.io?subject=Request a Google Hangout Appointment">email us</a> to request a Google Hangout appointment. In your email, please include a short description of your question, as well as data, syntax, and output files, when applicable. If you don’t see any times that work for you, email us and we will try to set up a special time outside our normal consulting hours. Initial consultations are up to 30 minutes. More complex problems will be handled through follow-up consultations.</p>
                 <br>
                 <h2><strong>Free Training</strong></h2>
                 <hr>
@@ -84,7 +88,7 @@
                 <p>We offer online workshops on topics related to reproducible research and good statistical practices. Recordings of workshops and related materials are available on the <a href="https://osf.io/djrig/">Stats Consulting OSF Project.</a></p>
                 <br>
                 <p><strong>On-site Workshops</strong></p>
-                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io'>stats-consulting@cos.io</a> to request a COS workshop in your area.</p>
+                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io?subject=Request a COS Workshop'>stats-consulting@cos.io</a> to request a COS workshop in your area.</p>
                 <br>
                 <h2><strong>FAQ</strong></h2>
                 <hr>

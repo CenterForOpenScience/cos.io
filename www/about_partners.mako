@@ -23,8 +23,8 @@
 
         <!-- BEGIN OUR PARTNERS -->
         <div class="row front-partners">
-            <h1><strong>Partners of COS</strong></h1>
-            <p class="lead">Through cooperative efforts with a number of other organizations, COS pursues its mission of
+            <h1><strong>COS Partners</strong></h1>
+            <p class="lead">Through cooperative efforts, COS pursues its mission of
             increasing transparency and reproducibility in the sciences.</p>
             <br>
             <table class="margin-bottom-50">
@@ -49,26 +49,18 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="https://okfn.org/"><img src="../static/img/icons/okfn.png" alt="OKFN"></a></td>
-                    <td><span class="med-font"><strong>Open Knowledge Foundation</strong></span><br>
-                        OKFN does THIS with us.
-                    </td>
-                </tr>
-                <tr class="spacer"></tr>
-                <tr>
                     <td class="sponsor-center"><a href="http://www.psychologicalscience.org/"><img src="../static/img/icons/aps.jpg" alt="APS"></a></td>
                     <td><span class="med-font"><strong>Association for Psychological Science</strong></span><br>
-                        Association for Psychological Science has adopted <a href="https://osf.io/tvyxz/wiki/home">badges</a>
-                        to recognize researchers who make their materials and data open, as well as those who pre-register their work.
+                        Association for Psychological Science has adopted <a href="https://osf.io/tvyxz/wiki/home">badges</a> to recognize researchers who make their materials and data open, as well as those who pre-register their work.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
-                <tr>
-                    <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
-                    <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
+                ## <tr>
+                ##     <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
+                ##     <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
                         
-                    </td>
-                </tr>
+                ##     </td>
+                ## </tr>
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="http://cega.berkeley.edu/programs/BITSS/"><img src="../static/img/icons/bitss.jpg" alt="BITSS"></a></td>
