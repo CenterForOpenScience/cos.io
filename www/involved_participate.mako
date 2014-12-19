@@ -275,19 +275,18 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>2. Apply for a Badge</strong></h4>
-        <p>Many journals are offering <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/" target="_blank">visual acknowledgement</a>
-        of open practices such as pre-registration or the public
-        archiving of materials or data. Authors who apply for and are granted a badge will see an icon printed on their
-        article to draw attention to the open practices used. A few journals that award badges are Cortex, European Journal
-        of Personality, Psychological Science, Social Psychology, and Human Computation.</p>
+        <h4><strong>2. Conduct Reproducible Analyses</strong></h4>
+        <p>Do you want to learn how to harness the power of statistics while maintaining good open science practices? We
+            offer free statistical consulting to curious researchers as well as free online and in-person workshops. You
+            can email us with your questions or request a Google Hangout appointment to talk through your problem face to
+            face. <a href="/stats_consulting/">Check out our statistical consulting services.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
+        <a href="mailto:stats-consulting@cos.io?subject=Stats Consultation">
             <div class="action-box">
-                <i class="fa fa-shield"></i>
-                <p>Learn more about badges</p>
+                <i class="fa fa-pencil"></i>
+                <p>Request a consultation</p>
             </div>
         </a>
     </div>
@@ -315,20 +314,19 @@
         </a>
     </div>
 
-
     <div class="col-md-8">
-        <h4><strong>4. Conduct Reproducible Analyses</strong></h4>
-        <p>Do you want to learn how to harness the power of statistics while maintaining good open science practices? We
-            offer free statistical consulting to curious researchers as well as free online and in-person workshops. You
-            can email us with your questions or request a Google Hangout appointment to talk through your problem face to
-            face. <a href="/stats_consulting/">Check out our statistical consulting services.</a></p>
-
+        <h4><strong>4. Apply for a Badge</strong></h4>
+        <p>Many journals are offering <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/" target="_blank">visual acknowledgement</a>
+        of open practices such as pre-registration or the public
+        archiving of materials or data. Authors who apply for and are granted a badge will see an icon printed on their
+        article to draw attention to the open practices used. A few journals that award badges are Cortex, European Journal
+        of Personality, Psychological Science, Social Psychology, and Human Computation.</p>
     </div>
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:stats-consulting@cos.io?subject=Stats Consultation">
+        <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
             <div class="action-box">
-                <i class="fa fa-pencil"></i>
-                <p>Request a consultation</p>
+                <i class="fa fa-shield"></i>
+                <p>Learn more about badges</p>
             </div>
         </a>
     </div>
