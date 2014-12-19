@@ -36,6 +36,34 @@
                     <hr>
                     <br>
 
+                    ## <div class="row-fluid summary">
+                    ##     <div class="span11">
+                    ##         <h2>MyHeading</h2>  
+                    ##     </div>
+                    ##     <div class="span1">
+                    ##         <button class="btn btn-success" data-toggle="collapse" data-target="#intro">+</button>
+                    ##     </div>
+                    ## </div>
+                    ## <div class="row-fluid summary">
+                    ##     <div id="intro" class="collapse"> 
+                    ##         Here is more of the bio
+                    ##     </div>
+                    ## </div>
+
+
+                    ##     <div class="span12">
+                    ##         <h2>My other heading</h2>  
+                    ##     </div>
+                    ##     <div class="span2">
+                    ##         <button class="btn btn-success" data-toggle="collapse" data-target="#intro2">+</button>
+                    ##     </div>
+                    ## </div>
+                    ## <div class="row-fluid summary">
+                    ##     <div id="intro2" class="collapse"> 
+                    ##         Here comes more of the text...
+                    ##     </div>
+                    ## </div>
+
 
                     <div class="row margin-bottom-30" id="AlanKraut">
                         <div class="col-md-5">
