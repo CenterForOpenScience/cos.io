@@ -236,8 +236,15 @@ body {
     text-transform: uppercase;
 }
 
+.main-cos-logo img{
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 90px;
+    min-height: 90px;
+}
+
 .hp-slide-head h1{
-    line-height:50px;
+    line-height:60px;
 }
 @media screen and (max-width:770px){
     .hp-slide-head{
