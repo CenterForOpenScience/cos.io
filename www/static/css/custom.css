@@ -639,7 +639,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top:20px;
-    padding-top: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 950px) {

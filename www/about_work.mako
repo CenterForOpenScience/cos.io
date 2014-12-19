@@ -1,5 +1,5 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">What we do</%def>
+<%def name="title()">About Our Mission</%def>
 <%def name="description()"> Openness, Reproducibility, Integrity: The COS develops infrastructure for scientists, researches reproducibility, and helps build the open science community. </%def>
 
 <%def name="navigation()">
@@ -25,16 +25,8 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile">
-                <h1><strong>What Does COS Do?</strong></h1>
-                <p>The Center for Open Science was founded in the spring of 2013. We began with one infrastructure project, the
-                    <a href="https://osf.io/">Open Science Framework</a>, one research project, <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, and a mission: to increase openness, integrity, and reproducibility of scientific research.
-                    That mission is a daily goal driving all of our projects. At COS, we
-                    provide tools to make it easy and desirable to align scientific practices with core scientific values.</p>
-                <p>Read about COS goals and activities in the <a href="https://docs.google.com/document/d/17OTxjE5zl34VcXiAORayFOCDIkyRCiefh1ZBN1qEBUc/edit">
-                    COS strategic plan</a>, or in scholarly articles outlining a vision of
-                    scientific utopia for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.Ui5vdmTJHy0">
-                        research communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">research practices</a>.
-                </p>
+                <h1><strong>COS Mission</strong></h1>
+
 
                 <div class="row margin-bottom-20">
                     <div class="col-md-4">
@@ -42,32 +34,28 @@
                     </div>
                     <!-- BEGIN LISTS -->
                     <div class="col-md-8 col-sm-12 ">
-                        <h3 class="center margin-top-20 margin-bottom-20">We work on three things:</h3>
-                        <dl class="front-lists-v1">
-                            <dt>Infrastructure</dt>
-                            <dd>COS builds open source tools for scientists. The <a href="https://osf.io/">Open Science Framework</a> is a web application that connects and supports the research workflow, enabling scientists to increase the efficiency and effectiveness of their research. Researchers can use the OSF to collaborate, document, archive, share, and register research projects, materials, and data. The OSF provides version control, altmetrics for measuring impact, and personalizable privacy options.</dd>
-                        </dl>
-                        <dl class="front-lists-v1">
-                            <dt>Metascience</dt>
-                            <dd>We support metascience projects investigating the state of scientific research and
-                                evaluation of interventions to improve it.  This includes examining the reproducibility of
-                                published research with projects such as <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility
-                                    Project: Psychology</a> and <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project:
-                                    Cancer Biology</a>, and <a href="https://osf.io/wx7ck/">Many Labs</a>. </dd>
-                        </dl>
+                  <p>The Center for Open Science was founded in 2013 in Charlottesville, Virginia. We began with one infrastructure
+                   project, the <a href="https://osf.io/" target="_blank">Open Science Framework</a>, one research project,
+                   <a href="https://osf.io/ezcuj/wiki/home/" target="_blank">Reproducibility Project: Psychology</a>, and a mission:
+                   to increase openness, integrity, and reproducibility of scientific research. That mission guides all of our work.
+                   Today, we are a team of about 50 people supporting a much larger collection  of
+                   <a href="/communities/">communities</a> that are producing tools and services to align scientific practices with
+                   scientific values.</p>
 
-                        <dl class="front-lists-v1">
-                            <dt>Community</dt>
-                            <dd>The established incentives for success focus scientists on getting published more than getting it right. Nudging these dysfunctional incentives requires engagement with the entire science ecosystem &#8212funders, journals, societies, and institutions.  We support <a href="/involved_participate/">COS Ambassadors</a> and <a href="/communities/">COS Communities</a> to improve incentives and practices with programs such as <a href="https://osf.io/tvyxz/wiki/home/">badges to acknowledge open practices</a> and <a href="https://osf.io/8mpji/">Registered Reports</a>. We also offer <a href="/stats_consulting/">free consulting services and training</a> on reproducible practices and statistics. </dd>
-                        </dl>
+                     <p>COS's philosophy and motivation is summarized in its <a href="https://docs.google.com/document/d/17OTxjE5zl34VcXiAORayFOCDIkyRCiefh1ZBN1qEBUc/edit"
+                   target="_blank">strategic plan</a> and in scholarly articles outlining a vision of  scientific utopia for
+                   <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.VJR1cAAGd" target="_blank">research communication</a>
+                    and <a href="http://pps.sagepub.com/content/7/6/615.full" target="_blank">research practices</a>.</p>
+
+                     <p>Because of our generous <a href="/about_sponsors/"> funders</a> and outstanding  <a href="/about_partners/">partners</a>,
+                   we are able to produce entirely free and open-source products and services. Use the header above to explore the  team, services,
+                    and communities that make COS possible and productive.</p>
+
                     </div>
                     <!-- END LISTS -->
                 </div>
 
-                <h3><strong>Use our free services or collaborate with us</strong></h3>
-                <p>Find out how! Visit our pages for <a href="/involved_participate/#tab_2">scientists</a>, for<a href="/involved_participate/#tab_3">journals and societies</a>, or for <a href="/involved_participate/#tab_4">developers</a>.</p>
-                <div class="spacer"></div>
-            </div>
+      
 
             <!-- END INFO BLOCK -->
         </div>
