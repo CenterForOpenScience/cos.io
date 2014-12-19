@@ -58,7 +58,7 @@
             </ul>
         </div>
         <div class="col-md-4 action-link margin-top-50">
-            <a href="mailto:contact@cos.io">
+            <a href="mailto:contact@cos.io?subject=Become an Ambassador">
                 <div class="action-box ambassador-action-box">
                     <div class="ambassador-icon">
                         <p>Become an ambassador</p>
