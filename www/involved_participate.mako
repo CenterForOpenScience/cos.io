@@ -22,7 +22,7 @@
 <!-- BEGIN CONTENT -->
 <div class="row community-content">
 <div>
-<h1><strong>Participate in Open Science with COS</strong></h1>
+<h1><strong>Participate in Open Science</strong></h1>
 <p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
@@ -47,12 +47,11 @@
         <div class="col-md-8">
             <h4><b>What Ambassadors Do</b></h4>
             <ul>
-                <li>Act as a local authority on COS, the OSF, transparency, and reproducible practices</li>
+                <li>Act as local information resource about COS, the OSF, transparency, and reproducible practices</li>
                 <li>Represent COS at conferences and meetings</li>
-                <li>Grow our open science community</li>
+                <li>Grow the open science community</li>
                 <li>Blog experiences and join in the online conversation</li>
-                <li>Organize and lead OSF demos</li>
-                <li>Provide feedback on OSF features</li>
+                <li>Provide training on OSF and reproducible practices</li>
                 <li>Model COS swag!</li>
             </ul>
         </div>
@@ -68,17 +67,37 @@
         <div class="col-md-8">
             <h4><b>What Ambassadors Get</b></h4>
             <ul>
-                <li>Training on how to COS initiatives and practices</li>
+                <li>Training on COS initiatives and practices</li>
                 <li>A cool badge on your OSF profile</li>
                 <li>COS T-shirts and stickers</li>
-                <li>Reimbursement for travel expenses</li>
                 <li>A food budget for workshops and conferences</li>
-                <li>Early access to new OSF features</li>
+                <li>Reimbursement for travel expenses</li>
             </ul>
         </div>
     </div>
     <div class="col-md-12">
-        <h3><strong>Domestic Ambassadors</strong></h3>
+        <h3><strong>COS Ambassadors</strong></h3>
+        <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                                <a href="https://osf.io/pct7w/">
+                                    <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                <strong>Daniël Lakens</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                Eindhoven University of Technology
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
         <table>
             <tr>
                 <td>
@@ -102,97 +121,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <a href="https://osf.io/7x9sk/" target="_blank">
-                                    <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                <strong>George Banks</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Longwood University
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <a href="https://osf.io/ul4gx/" target="_blank">
-                                    <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                <strong>Jon Grahe</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Pacific Lutheran University
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            ## <tr>
-            ##     <td>
-            ##         <table class="ambassador-box">
-            ##             <tr>
-            ##                 <td class="ambassador-img">
-            ##                 <a href="https://osf.io/qhitc/" target="_blank">
-            ##                     <img src="../static/img/cat.jpeg" alt="Michael Gorman">
-            ##                 </a>
-            ##                 </td>
-            ##             </tr>
-            ##             <tr>
-            ##                 <td class="ambassador-name">
-            ##                     <strong>Michael Gorman</strong>
-            ##                 </td>
-            ##             </tr>
-            ##             <tr>
-            ##                 <td class="ambassador-instit-padding">
-            ##                     University of Virginia
-            ##                 </td>
-            ##             </tr>
-            ##         </table>
-            ##     </td>
-            ## </tr>
-        </table>
-        <h3><strong>International Ambassadors</strong></h3>
-        <table>
-            <tr>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <a href="https://osf.io/pct7w/">
-                                    <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                <strong>Daniel Lakens</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                Eindhoven University of Technology
-                            </td>
-                        </tr>
-                    </table>
-                </td>
+
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -214,6 +143,29 @@
                         </tr>
                     </table>
                 </td>
+
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                                <a href="https://osf.io/7x9sk/" target="_blank">
+                                    <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                <strong>George Banks</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Longwood University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -236,6 +188,35 @@
                     </table>
                 </td>
             </tr>
+
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                                <a href="https://osf.io/ul4gx/" target="_blank">
+                                    <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                <strong>Jon Grahe</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Pacific Lutheran University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            ##     </td>
+            ## </tr>
+        </table>
+
+
             <tr>
                 <td>
                     <table class="ambassador-box">
@@ -266,17 +247,16 @@
 <!-- START TAB 2 -->
 <div class="tab-pane" id="tab_2">
     <div class="col-md-12">
-        <h2><strong>Take Steps Toward Transparency</strong></h2>
-        <p>The Center for Open Science offers tools and resources that can help researchers do their work better.</p>
+        <h2><strong>Take Steps Towards Transparency</strong></h2>
+        <p>COS offers researchers tools and services to make your research better, more efficient, and more reproducible.</p>
     </div>
 
     <div class="col-md-8">
         <h4><strong>1. Use The Open Science Framework (OSF)</strong></h4>
-        <p>The OSF is a free, secure web application that allows scientists to organize and archive files, and increase
-            documentation. Using the OSF addresses common problems like the way old files seem to disappear and eliminates confusion
-            over which file copy is most up to date: "final_report.docx" or "final_report2.docx." Reduce email clutter, integrate tools you already use like
-            Dropbox or Figshare, and easily make your work publicly available when you choose. <a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
-            more about how the OSF can improve your work.</a>
+        <p>OSF is a free, secure web application for project management, collaboration, registration, and archiving.
+        Stop losing files, improve collaboration, and integrate OSF projects with the tools you use (e.g., Dropbox, GitHub,
+        Figshare, Dataverse). <a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
+            more</a>.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -292,7 +272,7 @@
         <h4><strong>2. Conduct Reproducible Analyses</strong></h4>
         <p>COS offers free statistical consulting to improve reproducible practices. Get email help on power analysis
          and calculating confidence intervals, individualized hangouts for learning R and GitHub, or schedule a group to
-         be trained on OSF. <a href="/stats_consulting/">Learn more.</a></p>
+         be trained on OSF. <a href="/stats_consulting/">Read more.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -308,11 +288,9 @@
         <h4><strong>3. Pre-register your studies</strong></h4>
         <p>Pre-registration on the OSF takes a snapshot of projects with time stamps to facilitate their discovery whether
         they end up being published or not. Pre-registration with analysis plans facilitates strong confirmatory research designs.
-        Use the [OSF to register] and learn more about [preregistration] and [confirmatory research].</p>
-
-        <p>You can use the <a href="https://osf.io" target="_blank">Open Science Framework</a> to create a frozen
-        registration of your research project, which can be used as a repository for registered reports. <a href="https://osf.io/47uq9/"
-         target="_blank">Find more useful resources on pre-registration.</a>
+        Use the <a href="https://osf.io" target="_blank">OSF to register</a> and learn more about <a href="https://osf.io/47uq9/"
+         target="_blank">pre-registration</a> and <a href="http://www.columbia.edu/~mh2245/papers1/PA_2012b.pdf" target="_blank">
+         confirmatory analysis</a>.</p>
 
         </p>
     </div>
@@ -327,30 +305,26 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>4. Apply for a Badge</strong></h4>
-        <p>Many journals are offering <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/" target="_blank">visual acknowledgement</a>
-        of open practices such as pre-registration or the public
-        archiving of materials or data. Authors who apply for and are granted a badge will see an icon printed on their
-        article to draw attention to the open practices used. A few journals that award badges are Cortex, European Journal
-        of Personality, Psychological Science, Social Psychology, and Human Computation.</p>
+        <h4><strong>4. Signal Open Practices</strong></h4>
+        <p>Badges for open practices in publications signal others that researchers value and practice open science.
+        Some journals now offer this <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/" target="_blank">visual acknowledgement</a> for open data,
+         open materials, and preregistration. If a journal you publish in offers badges, apply. If it does not, recommend the badges program to the journal.</p>
     </div>
     <div class="col-md-4 action-link margin-top-50">
         <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
-                <p>Learn more about badges</p>
+                <p>Find out how to apply for a badge</p>
             </div>
         </a>
     </div>
 
     <div class="col-md-8">
         <h4><strong>5. Join a Metascience Project</strong></h4>
-        <p>COS facilitates a number of ongoing metascience research projects.
-            Each of these projects empirically measures one aspect of scientific research, with the ultimate goal of producing
-            scientifically substantiated "best practices." To sign up for one, click on the right to
-            send us an email with your area of expertise and the name of the project you wish to join.
-            <a href="/communities/#tab_2">For more information on each of the metascience intitiatives,
-                visit the Communities page</a>.</p>
+        <p>COS facilitates crowd-sourced metascience research. Projects investigate reproducibility, current research practices,
+        and evaluate new research practices. Crowdsourcing models encourage inclusivity so that anyone can contribute based
+        on their skills, interests, and motivation. <a href="/communities/#tab_2">Explore the metascience initiatives</a> and
+        then email a project coordinator if you'd like to join.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
