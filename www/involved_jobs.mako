@@ -536,8 +536,8 @@
 
 
 <!--END OPPORTUNITIES -->
-
-
+<br><br>
+<p>Check out the <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
 
 <h3><br><br><strong>What we do</strong></h3>
 <p>We work on the cutting edge of open source software. We are mission driven - increasing openness and reproducibility in science research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure.</p>
@@ -562,18 +562,19 @@
 <tr>
     <td><center><h3>Collaborate.</h3>
     <br>
-    The Center places a high value on developing <strong> skills and collaboration </strong>. Teamwork, pair programming, collaboration internally and externally are daily practice.</center></td>
+    <p>The Center places a high value on developing <strong>skills and collaboration</strong>. Teamwork, pair programming, collaboration internally and externally are daily practice.</p></center></td>
    
     <td><center><h3>Eat well.</h3>
     <br>
-    <strong> Keep your energy up </strong> with your favorite drinks and snacks from the fully stocked kitchen.Enjoy catered lunches from local restaurants twice a week. </td> 
+    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen.Enjoy catered lunches from local restaurants twice a week.</p></td> 
 
-   <td> <center><h3>Get fit.</h3>
+   <td><center><h3>Get fit.</h3>
     <br>
-     All full-time employees receive health, dental, and vision insurance. We promote our own <strong> health and well-being </strong> with stand-up and exercise desks, access to an on-site gym, and the great biking and hiking access in the community.</center> </td>
-     <td><center> <h3>Keep comfortable.</h3>
+     <p>All full-time employees receive health, dental, and vision insurance. We promote our own<strong> health and well-being</strong> with stand-up and exercise desks, access to an on-site gym, and the great biking and hiking access in the community.</p></center></td>
+
+     <td><center><h3>Keep comfortable.</h3>
     <br>
-    We take our work seriously, and work best in a casual environment - casual dress, <strong> bean bag chairs </strong>, high-quality workspaces, and an open, non-hierarchical floor plan.</center> </td>
+    <p>We take our work seriously, and work best in a casual environment - casual dress,<strong> bean bag chairs</strong>, high-quality workspaces, and an open, non-hierarchical floor plan.</p></center> </td>
     </tr>
     
 <tr>
@@ -592,19 +593,17 @@
     
 <tr><td> <center><h3>Get a Mac.</h3>
     <br>
-    All full-time employees receive an <strong> Apple laptop</strong>of their choice and a workstation with 27” screen.
+    <p>All full-time employees receive an <strong>Apple laptop</strong>of their choice and a workstation with 27” screen.</p>
  </center> </td>
     
     <td> <center><h3>Plan for the future.</h3>
     <br>
-     We’ll help you set up your 401k, and <strong> COS contributes up to 4% matches.</strong></center> </td>
+     <p>We’ll help you set up your 401k, and <strong>COS contributes up to 4% matches.</strong></p></center> </td>
         <td><center><h3>Enjoy the view.</h3>
     <br>
-     The modern and stylish COS offices are located in the <strong> heart of Charlottesville</strong> on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside! </center> </td>
+     <p>The modern and stylish COS offices are located in the <strong>heart of Charlottesville</strong> on the downtown pedestrian mall. Central Virginia and the Shenandoah mountains are right outside!</p></center> </td>
     
     </tr>
-    
-   
     </table>
 
     <!-- END TABLE -->

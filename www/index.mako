@@ -72,7 +72,7 @@
                     <i class="fa fa-laptop blue"></i><br>
                     <span>Infrastructure</span>
                 </div>
-                <p>COS supports and maintains the free <a href="http://osf.io" target="_blank">Open Science Framework</a> to help researchers manage and archive their research, privately or publicly. [Take a tour] to learn more.</p>
+                <p>COS supports and maintains the free <a href="http://osf.io" target="_blank">Open Science Framework</a> to help researchers manage and archive their research, privately or publicly. <a href="https://osf.io/getting-started/">Take a tour</a> to learn more.</p>
             </div>
         </div>
     </div>

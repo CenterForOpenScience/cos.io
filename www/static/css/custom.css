@@ -117,6 +117,12 @@ body {
     
 }
 
+.whatWeDo p {
+    text-align: justify !important;
+    text-justify: inter-word;
+
+}
+
 /*From Responsive*/
 .header a.logo-v1 img {
     margin-top: 2px !important;
