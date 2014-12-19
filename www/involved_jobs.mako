@@ -562,7 +562,7 @@
 <tr>
     <td><center><h3>Collaborate.</h3>
     <br>
-    <p>The Center places a high value on developing <strong>skills and collaboration</strong>. Teamwork, pair programming, collaboration internally and externally are daily practice.</p></center></td>
+    <p>The Center places a high value on developing skills and partnerships. <strong>Teamwork</strong>, pair programming, collaboration internally and externally are <strong>daily practice</strong>.</p></center></td>
    
     <td><center><h3>Eat well.</h3>
     <br>

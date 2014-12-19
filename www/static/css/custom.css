@@ -118,7 +118,7 @@ body {
 }
 
 .whatWeDo p {
-    text-align: justify !important;
+    text-align: left !important;
     text-justify: inter-word;
 
 }
