@@ -23,11 +23,11 @@
         <div class="community-content">
             <div class="row">
                 <div class="col-sm-12 margin-top-20">
-                    <h1><strong>Communities COS Supports</strong></h1>
-                    <p class="lead">The Center for Open Science contributes to the progress of a larger community effort to increase the
-                        transparency and inclusiveness of all scientific disciplines. Open science is a movement with many smaller
-                        communities producing great work. Click below to learn more about each community effort and how to get
-                        involved.</p> 
+                    <h1><strong>COS Communities</strong></h1>
+                    <p class="lead">COS Communities blur the boundary between COS and the many individual and organizational
+                    contributors to improving scientific practices. COS Communities form around particular products or services
+                    to define specifications, maximize applicability, promote adoption, and facilitate evaluation and improvement.
+                    Click below to learn more about each COS Community to use their work or get involved.</p>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
                                     </td>
                                     <td>
                                         <h3>Registered Reports</h3>
-                                        <p>Registered reports offer journals an alternative structure to the current publishing format to promote transparency and reproducibility in scientific research. In this model, peer review occurs twice. Each study procedure and analysis plan are evaluated prior to data collection for in-principle acceptance; if accepted, the final manuscript is essentially guaranteed publication regardless of the reported outcome, with a second peer review to ensure the accepted methodology was conducted.</p>
+                                        <p>Registered Reports offer journals an alternative structure to the current publishing format to promote transparency and reproducibility in scientific research. In this model, peer review occurs twice. Each study procedure and analysis plan are evaluated prior to data collection for in-principle acceptance; if accepted, the final manuscript is essentially guaranteed publication regardless of the reported outcome, with a second peer review to ensure the accepted methodology was conducted.</p>
                                         <a href="https://osf.io/8mpji/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>
@@ -84,9 +84,9 @@
                                     <td>
                                         <h3>Reproducibility Project: Psychology (RP:P)</h3>
                                         <p>The RP:P is a collaborative community effort to replicate published psychology experiments from three
-                                            landmark journals. By asking scientists to follow an established protocol and document their process,
-                                            we hope to learn about how open practices can impact the scientific method and results while also
-                                            estimating the rate of reproducibility. The RP:P is coordinated at the Center for Open Science and
+                                            important journals. Replication teams follow a standard protocol to maximize consistency and quality
+                                            across replications, and the accumulated data, materials and workflow are to be open for critical
+                                            review on OSF. The RP:P is coordinated at the Center for Open Science and
                                             involves volunteer scientists from all over the world.</p>
                                         <a href="https://osf.io/ezcuj/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
@@ -99,7 +99,11 @@
                                     </td>
                                     <td>
                                         <h3>Reproducibility Project: Cancer Biology (RP:CB)</h3>
-                                        <p>The RP:CB is an independent initiative to conduct direct replications of 50 high-impact cancer biology studies. The project anticipates learning more about predictors of reproducibility, common obstacles to conducting replications, and how the current scientific incentive structure affects research practices by estimating the rate of reproducibility in a sample of published cancer biology literature. The RP:CB is a collaborative effort between the Center for Open Science and network provider Science Exchange.</p>
+                                        <p>The RP:CB is an initiative to conduct direct replications of 50 high-impact cancer biology studies.
+                                        The project anticipates learning more about predictors of reproducibility, common obstacles to conducting replications,
+                                        and how the current scientific incentive structure affects research practices by estimating the rate of reproducibility
+                                        in a sample of published cancer biology literature. The RP:CB is a collaborative effort between the Center for
+                                        Open Science and network provider Science Exchange.</p>
                                         <a href="https://osf.io/e81xl/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>
@@ -111,15 +115,16 @@
                                     </td>
                                     <td>
                                         <h3>Many Labs I</h3>
-                                        <p>The Many Labs I project is a crowdsourced metascience study that takes a packet of 12 distinct psychology experiments and tests them in dozens of different labs, thus the title, “Many Labs." By comparing the conditions under which the study was administered, such as participant compensation and geographic location of the lab, this project helped to illuminate trends in replication success.
+                                        <p>Many Labs I project was a crowdsourced replication study in which the same 13 psychological effects
+                                        were examined in 36 independent samples to examine variability in replicability across sample and setting.
                                         <p>
                                             <b>Results</b>
                                             <uo>
-                                                <li>Variations in sample and setting have little impact on observed effect magnitudes</li>
-                                                <li>When there is variation in effect magnitude across samples, it occurs in studies with large effects, not studies with small effects</li>
-                                                <li>Replicability is much more dependent on the effect of study rather than the sample or setting in which it was studied</li>
-                                                <li>Replicability holds even across lab-web and across nations</li>
-                                                <li>Two effects in a subdomain with substantial debate about reproducibility (flag and currency priming) show no evidence of an effect in individual samples or in the aggregate.</li> </uo> </p>
+                                                <li>Variations in sample and setting had little impact on observed effect magnitudes</li>
+                                                <li>When there was variation in effect magnitude across samples, it occurred in studies with large effects, not studies with small effects</li>
+                                                <li>Replicability was much more dependent on the effect of study rather than the sample or setting in which it was studied</li>
+                                                <li>Replicability held even across lab-web and across nations</li>
+                                                <li>Two effects in a subdomain with substantial debate about reproducibility (flag and currency priming) showed no evidence of an effect in individual samples or in the aggregate.</li> </uo> </p>
                                         </p>
                                         <a href="https://osf.io/wx7ck/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
@@ -132,12 +137,9 @@
                                     </td>
                                     <td>
                                         <h3>Many Labs II</h3>
-                                        <p>Many Labs II employs an expanded version of the Many Labs paradigm to investigate a substantial number of new effects and further examine the findings from Many Labs I.  In particular, the study examines:
-                                            <uo>
-                                                <li>Effects expected to vary in detectable effect size </li>
-                                                <li> Effects that are thought to vary across cultural contexts and others that are not </li>
-                                                <li>Effects that are plausibly contingent on other features of the sample or setting</li>
-                                                <li>Effects that are known to be replicable and others that are untested including additional examples from “social priming” and other areas.</li> </uo><br>In this instance of the Many Labs study, we were particularly interested in recruiting contributors from as many nations and cultural contexts within nations as possible, including student and non-student samples.
+                                        <p>Conducted in Fall of 2014, Many Labs II employed the same model as Many Labs I but with almost 30 effects,
+                                        more than 100 laboratories, and including samples from more than 20 countries. The findings should be released in mid-2015.
+
                                         </p>
                                         <a href="https://osf.io/8cd4r/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
@@ -150,7 +152,12 @@
                                     </td>
                                     <td>
                                         <h3>Many Labs III</h3>
-                                        <p>Many psychologists rely on undergraduate participant pools as their primary source of participants. Most participant pools are made up of undergraduate students taking introductory psychology courses over the course of a semester. Many Labs III is another crowdsourced project that will systematically evaluate time-of-semester effects across many participant pools. The project team created a single experimental protocol assessing 10 known effects within 30 minutes. Twenty three labs will administer the same protocol across the academic semester. The aggregate data will provide evidence as to whether the time-of-semester moderates the detectability of effects.
+                                        <p>Many psychologists rely on undergraduate participant pools as their primary source of participants.
+                                        Most participant pools are made up of undergraduate students taking introductory psychology courses over
+                                        the course of a semester. Also conducted in Fall of 2014, Many Labs III systematically evaluated
+                                        time-of-semester effects for 10 psychological effects across many participant pools. Twenty labs
+                                        administered the same protocol across the academic semester. The aggregate data will provide evidence as
+                                        to whether the time-of-semester moderates the detectability of effects.
                                         </p>
                                         <a href="https://osf.io/ct89g/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
@@ -163,7 +170,11 @@
                                     </td>
                                     <td>
                                         <h3>Collaborative Replications and Education Project (CREP)</h3>
-                                        <p>The goal of the Collaborative Replications and Education Project is to facilitate student research training and solidify research findings in psychological science through student participation in large-scale replication efforts. We have composed a list of current studies that we encourage students and instructors to replicate as part of research methods courses, independent studies, bachelor theses, and the like. Everyone who conducts a replication of a study on the list will be encouraged to submit their results to a centralized location where they can be further analyzed by interested researchers/experts. Students and instructors who conduct replications that become part of a published paper will be recognized as contributors on any publications that arise from the data. </p>
+                                        <p>The Collaborative Replications and Education Project facilitates student research training
+                                        through conducting replications. The community-led team composed a list of studies that could be
+                                        replicated as part of research methods courses, independent studies, or bachelor theses. Replication
+                                        teams are encouraged to submit their results to an information commons for aggregation for potential
+                                        publication. This integrates learning and substantive contribution to research.</p>
                                         <a href="https://osf.io/wfc6u/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>
@@ -171,11 +182,11 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="../static/img/icons/Crowdstorm.png">
+                                        <img src="../static/img/icons/crowd.png">
                                     </td>
                                     <td>
-                                        <h3>Crowdstorming a Dataset</h3>
-                                        <p>Crowdstorming a dataset is a method of data analysis in which multiple independent analysts investigate the same research question on the same data set in whatever manner they consider to be best. This approach should be particularly useful for complex data sets in which a variety of analytic approaches could be used, and when dealing with controversial issues about which researchers and others have very different priors. This first crowdstorming project establishes a protocol for independent simultaneous analysis of a single dataset by multiple teams, and resolution of the variation in analytic strategies and effect estimates among them. </p>
+                                        <h3>Crowdsourcing a Dataset</h3>
+                                        <p>Crowdsourcing a dataset is a method of data analysis in which multiple independent analysts investigate the same research question on the same data set in whatever manner they consider to be best. This approach should be particularly useful for complex data sets in which a variety of analytic approaches could be used, and when dealing with controversial issues about which researchers and others have very different priors. This first crowdstorming project establishes a protocol for independent simultaneous analysis of a single dataset by multiple teams, and resolution of the variation in analytic strategies and effect estimates among them. </p>
                                         <a href="https://osf.io/gvm2z/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>

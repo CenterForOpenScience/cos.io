@@ -353,18 +353,17 @@
 <!-- START TAB 3 -->
 <div class="tab-pane" id="tab_3">
     <div class="col-md-12">
-        <h2><strong>Take Advantage of Established Resources</strong></h2>
-        <p>Journals and societies have a powerful voice, but scientific norms can seem to have a daunting preponderance.
-            Partner with COS to get the expertise and resources of a team dedicated to open science. Together we can make
-            a difference.</p>
+        <h2><strong>Nudge Incentives Towards Openness</strong></h2>
+        <p>Journals and societies shape important incentives driving researchers' behavior.  COS supports products and
+        services that journals and societies can use to promote open and reproducible practices.</p>
     </div>
 
     <div class="col-md-8">
-        <h4><strong>1. Update Author Guidelines to Increase Openness</strong></h4>
-        <p>One simple step towards changing the status quo is to make clear what the new standards are. Announcing advocacy
-            for open materials and open data can make a big difference—outlining what each of those means to your society
-            can make an even bigger one. A forthcoming report from November 2014's Workshop on Promoting Openness and
-            Reproducibility will outline a number of best practices that can be employed by any Journal.
+        <h4><strong>1. Author Guidelines to Promote Openness and Reproducibility</strong></h4>
+        <p>Author guidelines clarify journal standards, recommendations, and requirements. In November 2014, COS hosted a
+        meeting of researchers, editors, and funders to identify best practices for promoting openness and reproducibility
+        with author guidelines. The forthcoming report will provide recommendations for publishers and societies for their
+        journals.
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -377,29 +376,27 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>2. Award Badges</strong></h4>
-        <p>COS has developed <a href="https://osf.io/tvyxz/wiki/home" target="_blank">badges</a> that journals can offer to appear
-            with articles to acknowledge and reward transparency practices. Other entities can award badges to previously published
-            works outside of pre-publication peer review. Integrating badges is simple because the application
-            process coincides with peer review. Adoption by journals is low risk because authors’ application
-            for badges is optional. COS can assist with the introduction of badges by any group, as it has done with
-            <a href="http://www.psychologicalscience.org/index.php/publications/journals/psychological_science/badges"
-               target="_blank">Psych Science</a>.</p></div>
+        <h4><strong>2. Signal open practices with badges</strong></h4>
+        <p>Journals can signal their valuing of open practices by adopting <a href="https://osf.io/tvyxz/wiki/home"
+        target="_blank">badges</a> to acknowledge authors of articles that have open data, open materials, or preregistration.
+        A COS Community maintains the badge specifications and facilitates integration of badge awarding into the journal
+        workflow. Badges are a low risk nudge because adoption by authors is optional, and the simple signal can promote
+        normative changes in practice.</p></div>
 
     <div class="col-md-4 action-link margin-top-50">
         <a href="mailto:contact@cos.io?subject=Badges">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
-                <p>Ask about utilizing badges</p>
+                <p>Ask about using badges</p>
             </div>
         </a>
     </div>
 
     <div class="col-md-8">
-        <h4><strong>3. Publicly Archive Conference Posters and Talks</strong></h4>
+        <h4><strong>3. Poster and talk sharing service</strong></h4>
         <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
             dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
-            email and will receive a permantent, persistent URL that links to their work. Download counts and visits to each
+            email and will receive a permanent, persistent URL that links to their work. Download counts and visits to each
             uploaded poster will be recorded. <a href="https://osf.io/view/aps2014/" target="_blank">See how APS 2014 used this service.</a>
         </p></div>
 
@@ -407,30 +404,32 @@
         <a href="mailto:contact@cos.io?subject=Requesting Poster Service">
             <div class="action-box">
                 <i class="fa fa-bar-chart"></i>
-                <p>Request a poster page</p>
+                <p>Request the sharing service</p>
             </div>
         </a>
     </div>
 
     <div class="col-md-8">
-        <h4><strong>4. Request Registered Reports</strong></h4>
+        <h4><strong>4. Adopt Registered Reports</strong></h4>
         <p>Registered Reports (RR) involve peer review of study designs and analysis plans prior to data collection.
             Reviewers evaluate the importance of the research question and quality of the design. Accepted proposals
             are published if they adhere to the proposal regardless of the outcome. RRs address challenges of publishing
             of negative results, lowers barrier to conducting worthwhile replications, obtains pre-commitment from
             reviewers on quality of design, and produces strong confirmatory tests.</p>
-        <p>COS can help journals adopt Registered Reports by offering a registration tool through the Open Science Framework (OSF).
-            Journals or societies can display registered articles on their website, but can take advantage of the OSF's ability
-            to permanently archive documents and provide persistent URLs.  See a recent
-            <a href="http://www.psycontent.com/content/l67413865317/?p=d558840c17244b82aff2ba794c374dc2&pi=2" target="_blank">special
-                issue of Social Psychology</a> dedicated to RRs. Or, <a href="https://osf.io/hxeza/wiki/home/" target="_blank">view the articles on the
-                Open Science Framework</a> along with their registrations.</p></div>
+        <p>A COS Community maintains an information commons about RRs, promotes adoption, and evaluates
+        publishing model. COS also offers registration services through the <a href="https://osf.io" target="_blank">OSF</a>.
+        Journals can adopt Registered Reports as a submission option. See examples of this model in action at <a href="https://osf.io/vwfk2/" target="_blank">
+        Social Psychology</a>,
+        <a href="http://elifesciences.org/eLife-the-Center-for-Open-Science-and-Science-Exchange-partner-to-assess-the-reproducibility-of-cancer-biology-research"
+         target="_blank">eLife</a>, and <a href="http://www.psychologicalscience.org/index.php/replication" target="_blank">Perspectives on
+        Psychological Science</a>.
+    </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Registered Reports">
+        <a href="https://osf.io/zv2cs/" target="_blank">
             <div class="action-box">
-                <i class="fa fa-envelope"></i>
-                <p>Contact for more information</p>
+                <i class="fa fa-check"></i>
+                <p>Learn more about registered reports</p>
             </div>
         </a>
     </div>
