@@ -537,9 +537,9 @@
 
 <!--END OPPORTUNITIES -->
 <br><br>
-<p>Check out the <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
+<p>Check out our <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
 
-<h3><br><br><strong>What we do</strong></h3>
+<h3><br><strong>What we do</strong></h3>
 <p>We work on the cutting edge of open source software. We are mission driven - increasing openness and reproducibility in science research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure.</p>
 
 <div class="whatWeDo">
@@ -566,7 +566,7 @@
    
     <td><center><h3>Eat well.</h3>
     <br>
-    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen.Enjoy catered lunches from local restaurants twice a week.</p></td> 
+    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen. Enjoy catered lunches from local restaurants twice a week.</p></td>
 
    <td><center><h3>Get fit.</h3>
     <br>
@@ -593,7 +593,7 @@
     
 <tr><td> <center><h3>Get a Mac.</h3>
     <br>
-    <p>All full-time employees receive an <strong>Apple laptop</strong>of their choice and a workstation with 27” screen.</p>
+    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27” screen.</p>
  </center> </td>
     
     <td> <center><h3>Plan for the future.</h3>
