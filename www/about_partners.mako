@@ -51,7 +51,10 @@
                 <tr>
                     <td class="sponsor-center"><a href="http://www.psychologicalscience.org/"><img src="../static/img/icons/aps.jpg" alt="APS"></a></td>
                     <td><span class="med-font"><strong>Association for Psychological Science</strong></span><br>
-                        Association for Psychological Science has adopted <a href="https://osf.io/tvyxz/wiki/home">badges</a> to recognize researchers who make their materials and data open, as well as those who pre-register their work.
+                       The Association for Psychological Science journal, <i>Psychological Science</i>, has adopted <a href="https://osf.io/tvyxz/wiki/home" target="_blank">badges</a>
+                       to recognize researchers who follow open practices. And, the journal, Perspectives on Psychological Science,
+                       adopted Registered <a href="https://osf.io/hj6da/" target="_blank">Replication Reports</a> with a grant for replications from COS.
+
                     </td>
                 </tr>
                 <tr class="spacer"></tr>

@@ -74,7 +74,7 @@
 
                 <hr>
                 <p><strong>Email Consulting</strong></p>
-                <p>Email <a href='mailto:stats-consulting@cos.io?subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. If we feel the question could be better answered ‘in person’, we will email to set up an online appointment.</p>
+                <p>Email <a href='mailto:stats-consulting@cos.io?subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable.</p>
                 <br>
                 <p><strong>Online consulting by appointment</strong></p>
                 <p>Want to talk through your problem in real time? <a href="https://www.google.com/calendar/embed?src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&ctz=America/New_York">Check our calendar</a>  to see when our consultants are available and then  <a href="mailto:stats-consulting@cos.io?subject=Request a Google Hangout Appointment">email us</a> to request a Google Hangout appointment. In your email, please include a short description of your question, as well as data, syntax, and output files, when applicable. If you don’t see any times that work for you, email us and we will try to set up a special time outside our normal consulting hours. Initial consultations are up to 30 minutes. More complex problems will be handled through follow-up consultations.</p>
@@ -88,7 +88,7 @@
                 <p>We offer online workshops on topics related to reproducible research and good statistical practices. Recordings of workshops and related materials are available on the <a href="https://osf.io/djrig/">Stats Consulting OSF Project.</a></p>
                 <br>
                 <p><strong>On-site Workshops</strong></p>
-                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io?subject=Request a COS Workshop'>stats-consulting@cos.io</a> to request a COS workshop in your area.</p>
+                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io?subject=Request a COS Workshop'>stats-consulting@cos.io</a>.</p>
                 <br>
                 <h2><strong>FAQ</strong></h2>
                 <hr>
@@ -100,7 +100,7 @@
                     <br>
                     <li>Consult on the choice and application of statistical methods</li>
                     <br>
-                    <li>Introduce tools (e.g. the OSF) to streamline your workflow</li>
+                    <li>Introduce tools (e.g. the <a href="https://osf.io" target="_blank">OSF</a>) to streamline your workflow</li>
                     <br>
                     <li>Aid in understanding and interpreting statistical analyses</li>
                     <br>
@@ -111,7 +111,7 @@
                 <ul>
                     <li>I’m starting a new line of research, so I’m unsure about what the effect size for my studies will be. How would I do a power analysis to inform my planned sample?</li>
                     <br>
-                    <li>I want to start using the OSF, but I’m not sure quite where to start. Can you give suggestions on how to get started?</li>
+                    <li>I want to start using the <a href="https://osf.io" target="_blank">OSF</a>, but I’m not sure quite where to start. Can you give suggestions on how to get started?</li>
                     <br>
                     <li>How do I calculate confidence intervals for my effect size?</li>
                 </ul>
@@ -129,7 +129,7 @@
                 </ul>
                 <br>
                 <p><strong>What is reproducible research?</strong></p>
-                Reproducible research is research in which the materials, procedure, and statistical analyses can be reproduced by the original or independent researchers. Some methods and statistical practices that contribute to the reproducibility of research and results are: high powered studies, study registration, analysis plans that distinguish confirmatory and exploratory analyses, saving and annotating analysis scripts, and archiving and sharing materials and data. A good review of reproducible practices can be found here: <a href="https://osf.io/xidvw/">https://osf.io/xidvw/</a>.</p>
+                Reproducible research is research in which the materials, procedure, and statistical analyses can be reproduced by the original or independent researchers. Some methods and statistical practices that contribute to the reproducibility of research and results are: high powered studies, study registration, analysis plans that distinguish confirmatory and exploratory analyses, saving and annotating analysis scripts, and archiving and sharing materials and data. <a href="https://osf.io/nte3j/" target="_blank">See a good example review of reproducible practices</a>.</p>
 
                 <p><strong>Are your services really free?</p></strong>
                 <p>Yep. The Center for Open Science is a non-profit organization committed to helping the scientific community align values and practices. To that end, all of our products and services are free and open source. This is made possible by the generous donations of our sponsors.</p>
