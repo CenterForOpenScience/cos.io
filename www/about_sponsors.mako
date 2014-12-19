@@ -1,7 +1,7 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Center for Open Science | About Our Sponsors </%def>
+<%def name="title()">About Our Sponsors </%def>
 <%def name="description()">The Center for Open Science is funded by private foundations. Learn about them here. </%def>
 
 <%def name="navigation()">
@@ -30,7 +30,7 @@
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile sponsor">
 
-                <h1><strong>Our Sponsors</strong></h1>
+                <h1><strong>Sponsors of COS</strong></h1>
                 <p class="lead">The Center for Open Science is a non-profit funded through a number of grants and donations.</p>
                 <div class="portlet box tabbable margin-top-50">
                         <div class="portlet-body">
@@ -100,6 +100,14 @@
                                                 <td><span class="med-font"><strong>John Templeton Foundation</strong></span><br>
                                                 <strong>$759,549</strong><br>
                                                 The John Templeton Foundation awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"></td>
+                                                <td><span class="med-font"><strong>Anonymous Donor</strong></span><br>
+                                                <strong>$310,000</strong><br>
+                                                Donor support for an incubator project program.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>

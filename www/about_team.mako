@@ -1,6 +1,6 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Center for Open Science | About Our Team </%def>
+<%def name="title()">About Our Team </%def>
 <%def name="description()">The Center for Open Science team is diverse in background and skills, all devoted to increasing the Openness, Reproducibility, and Integrity in science. </%def>
 
 <%def name="navigation()">
@@ -23,8 +23,8 @@
 
 <!-- BEGIN OUR TEAM -->
 <div class="row front-team">
-<h1><strong>Our Team</strong></h1>
-<p class="lead">From astronomy to chemistry, the COS team brings a variety of experiences and skills to the table.</p>
+<h1><strong>The COS Team</strong></h1>
+<p class="lead">Astronomers, biologists, chemists, computer scientists, education researchers, engineers, neuroscientists, and psychologists have come together to provide tools and services that benefit all sciences.</p>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">
