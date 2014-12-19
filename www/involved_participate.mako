@@ -76,14 +76,37 @@
         </div>
     </div>
     <div class="col-md-12">
-        <h3><strong>Domestic Ambassadors</strong></h3>
+        <h3><strong>Ambassadors</strong></h3>
         <table>
             <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/pct7w/" target="_blank">
+                                <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Daniel Lakens
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                Eindhoven University of Technology
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/gqx2h/" target="_blank">
                                 <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
+                            </a>    
                             </td>
                         </tr>
                         <tr>
@@ -102,7 +125,9 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/7x9sk/" target="_blank">
                                 <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
+                            </a>
                             </td>
                         </tr>
                         <tr>
@@ -117,11 +142,57 @@
                         </tr>
                     </table>
                 </td>
+            </tr>
+            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/nolrw/" target="_blank">
+                                <img src="../static/img/people/ambassadors/nilsonne.jpg" alt="Gustav Nilsonne">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Gustav Nilsonne
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Stockholm University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/3hsfj/" target="_blank">
+                                <img src="../static/img/people/ambassadors/IJzerman.jpg" alt="Hans Ijzerman">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Hans IJzerman
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Tillburg University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/ul4gx/" target="_blank">
                                 <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
+                            </a>
                             </td>
                         </tr>
                         <tr>
@@ -132,6 +203,29 @@
                         <tr>
                             <td class="ambassador-instit-padding">
                                 Pacific Lutheran University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/acfnb/" target="_blank">
+                                <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Susann Fielder
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                MPI Collective Goods Institute
                             </td>
                         </tr>
                     </table>
@@ -159,89 +253,7 @@
             ##     </td>
             ## </tr>
         </table>
-        <h3><strong>International Ambassadors</strong></h3>
-        <table>
-            <tr>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Daniel Lakens
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                Eindhoven University of Technology
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <img src="../static/img/people/ambassadors/nilsonne.jpg" alt="Gustav Nilsonne">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Gustav Nilsonne
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Stockholm University
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <img src="../static/img/people/ambassadors/IJzerman.jpg" alt="Hans Ijzerman">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Hans IJzerman
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Tillburg University
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Susann Fielder
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                MPI Collective Goods Institute
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+        
     </div>
 </div>
 <!-- END TAB 1 -->
