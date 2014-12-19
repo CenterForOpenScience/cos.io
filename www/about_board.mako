@@ -26,19 +26,18 @@
                 <div class="content-page">
                     <p class="lead">The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
                     <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-default" href="http://google.com">Alan G. Kraut</button>
-                        <button type="button" class="btn btn-default">Arthur Lupia</button>
-                        <button type="button" class="btn btn-default">John P.A. Ioannidis</button>
-                        <button type="button" class="btn btn-default">Joshua M. Greenberg</button>
-                        <button type="button" class="btn btn-default">Marcia McNutt</button>
-                        <button type="button" class="btn btn-default">Victoria Stodden</button>
-
+                        <a href="#AlanKraut"><button type="button" class="btn btn-default">Alan G. Kraut</button></a>
+                        <a href="#ArthurLupia"><button type="button" class="btn btn-default">Arthur Lupia</button></a>
+                        <a href="#JohnIoannidis"><button type="button" class="btn btn-default">John P.A. Ioannidis</button></a>
+                        <a href="#JoshGreenberg"><button type="button" class="btn btn-default">Joshua M. Greenberg</button></a>
+                        <a href="#MarciaMcNutt"><button type="button" class="btn btn-default">Marcia McNutt</button></a>
+                        <a href="#VictoriaStodden"><button type="button" class="btn btn-default">Victoria Stodden</button></a>
                     </div>
                     <hr>
                     <br>
 
 
-                    <div class="row margin-bottom-30">
+                    <div class="row margin-bottom-30" id="AlanKraut">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
                                 <img src="../static/img/people/board/kraut.jpg" alt="Alan G. Kraut">
@@ -60,7 +59,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="row margin-bottom-30">
+                    <div class="row margin-bottom-30" id="ArthurLupia">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
                                 <img src="../static/img/people/board/lupia.jpg" alt="Arthur Lupia">
@@ -80,7 +79,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="row margin-bottom-30">
+                    <div class="row margin-bottom-30" id="JohnIoannidis">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
                                 <img src="../static/img/people/board/Ioannidis.jpg" alt="John P.A. Ioannidis">
@@ -101,7 +100,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="row margin-bottom-30">
+                    <div class="row margin-bottom-30" id="JoshGreenberg">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
                                 <img src="../static/img/people/board/greenberg.jpg" alt="Joshua M. Greenberg">
@@ -122,7 +121,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="row margin-bottom-30">
+                    <div class="row margin-bottom-30" id="MarciaMcNutt">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
                                 <img src="../static/img/people/board/mcnutt.jpg" alt="Marcia McNutt">
@@ -141,7 +140,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="row margin-bottom-30">
+                    <div class="row margin-bottom-30" id="VictoriaStodden">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
                                 <img src="../static/img/people/board/stodden2.jpg" alt="Victoria Stodden">
