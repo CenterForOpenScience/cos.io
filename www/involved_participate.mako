@@ -183,7 +183,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Daniel Lakens
+                                <strong>Daniel Lakens</strong>
                             </td>
                         </tr>
                         <tr>
@@ -197,12 +197,14 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/nolrw/">
                                 <img src="../static/img/people/ambassadors/nilsonne.jpg" alt="Gustav Nilsonne">
+                            </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Gustav Nilsonne
+                                <strong>Gustav Nilsonne</strong>
                             </td>
                         </tr>
                         <tr>
@@ -216,12 +218,14 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/3hsfj/">
                                 <img src="../static/img/people/ambassadors/IJzerman.jpg" alt="Hans Ijzerman">
+                            </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Hans IJzerman
+                                <strong>Hans IJzerman</strong>
                             </td>
                         </tr>
                         <tr>
@@ -237,12 +241,14 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/acfnb/">
                                 <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
+                            </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Susann Fielder
+                                <strong>Susann Fielder</strong>
                             </td>
                         </tr>
                         <tr>
