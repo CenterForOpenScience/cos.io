@@ -76,42 +76,19 @@
         </div>
     </div>
     <div class="col-md-12">
-        <h3><strong>COS Ambassadors</strong></h3>
-        <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <a href="https://osf.io/pct7w/">
-                                    <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                <strong>Daniël Lakens</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                Eindhoven University of Technology
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-
+        <h3><strong>Domestic Ambassadors</strong></h3>
         <table>
             <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <a href="https://osf.io/gqx2h/" target="_blank">
-                                    <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
-                                </a>
-                                </td>
+                                <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
+                            </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                <strong>Erica Baranski</strong>
+                                Erica Baranski
                             </td>
                         </tr>
                         <tr>
@@ -121,41 +98,16 @@
                         </tr>
                     </table>
                 </td>
-
                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                            <a href="https://osf.io/nolrw/">
-                                <img src="../static/img/people/ambassadors/nilsonne.jpg" alt="Gustav Nilsonne">
-                            </a>
+                                <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                <strong>Gustav Nilsonne</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Stockholm University
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <a href="https://osf.io/7x9sk/" target="_blank">
-                                    <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                <strong>George Banks</strong>
+                                George Banks
                             </td>
                         </tr>
                         <tr>
@@ -165,42 +117,16 @@
                         </tr>
                     </table>
                 </td>
-
                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                            <a href="https://osf.io/3hsfj/">
-                                <img src="../static/img/people/ambassadors/IJzerman.jpg" alt="Hans Ijzerman">
-                            </a>
+                                <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                <strong>Hans IJzerman</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Tillburg University
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <a href="https://osf.io/ul4gx/" target="_blank">
-                                    <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                <strong>Jon Grahe</strong>
+                                Jon Grahe
                             </td>
                         </tr>
                         <tr>
@@ -211,25 +137,100 @@
                     </table>
                 </td>
             </tr>
-
+            ## <tr>
+            ##     <td>
+            ##         <table class="ambassador-box">
+            ##             <tr>
+            ##                 <td class="ambassador-img">
+            ##                     <img src="../static/img/cat.jpeg" alt="Michael Gorman">
+            ##                 </td>
+            ##             </tr>
+            ##             <tr>
+            ##                 <td class="ambassador-name">
+            ##                     Michael Gorman
+            ##                 </td>
+            ##             </tr>
+            ##             <tr>
+            ##                 <td class="ambassador-instit-padding">
+            ##                     University of Virginia
+            ##                 </td>
+            ##             </tr>
+            ##         </table>
             ##     </td>
             ## </tr>
         </table>
-
-
+        <h3><strong>International Ambassadors</strong></h3>
+        <table>
             <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                            <a href="https://osf.io/acfnb/">
-                                <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
-                            </a>
+                                <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                <strong>Susann Fielder</strong>
+                                Daniel Lakens
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                Eindhoven University of Technology
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                                <img src="../static/img/people/ambassadors/nilsonne.jpg" alt="Gustav Nilsonne">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Gustav Nilsonne
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Stockholm University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                                <img src="../static/img/people/ambassadors/IJzerman.jpg" alt="Hans Ijzerman">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Hans IJzerman
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Tillburg University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                                <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Susann Fielder
                             </td>
                         </tr>
                         <tr>
