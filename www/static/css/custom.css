@@ -183,7 +183,7 @@ body {
 .service-box p {
     color: #656565;
     font-size: 15px;
-    text-align: center !important;
+    text-align: justify !important;
 }
 
 .service-box .service-box-heading {
@@ -192,6 +192,11 @@ body {
     margin-left: 0px;
 }
 
+/*.service-box .service-box-heading p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+*/
 .service-box .service-box-heading i {
     -webkit-border-radius: 34px;
     -moz-border-radius: 34px;
