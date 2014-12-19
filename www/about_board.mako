@@ -36,7 +36,7 @@
                         <div class="col-md-7">
                             <h3>
                                 Alan G. Kraut<br>
-                                <small>Executive Director, Association for Psychological Science</small>
+                                <small><b>Executive Director, Association for Psychological Science</b></small>
                             </h3>
                             <h5>Term: 2013-2015</h5>
                             <p>Alan Kraut is the founding Executive Director of the Association for Psychological Science (APS), the major organization devoted solely to the interests of research and academic psychology and its contributions to the public interest. Kraut was APS’s first employee and has taken APS from an initial membership of a few hundred in 1989 to an organization that today has 27,000 members, five leading journals with Psychological Science now the most cited empirical journal among 300 in behavioral science, a premier convention and a reputation as the most effective national (and now very much international) voice for behavioral and psychological science.</p>
@@ -58,7 +58,7 @@
                         <div class="col-md-7">
                             <h3>
                                 Arthur Lupia<br>
-                                <small>Hal R. Varian Professor of Political Science at the University of Michigan</small>
+                                <small><b>Hal R. Varian Professor of Political Science at the University of Michigan</b></small>
                             </h3>
                             <h5>Term: 2014-2016</h5>
                             <p>Arthur Lupia is the Hal R. Varian Professor of Political Science at the University of Michigan and research professor at its Institute for Social Research. He examines how information and institutions affect policy and politics, with a focus on how people make decisions when they lack information.  He draws from multiple scientific and philosophical disciplines and uses multiple research methods. His topics of expertise include information processing, persuasion, strategic communication, and civic competence. His books include The Democratic Dilemma: Can Citizens Learn What They Need to Know? (1998); Elements of Reason: Cognition, Choice, and the Bounds of Rationality (2000); and The Cambridge Handbook of Experimental Political Science (2011). </p>
@@ -78,7 +78,7 @@
                         <div class="col-md-7">
                             <h3>
                                 John P.A. Ioannidis<br>
-                                <small>C.F. Rehnborg Chair in Disease Prevention at Stanford University</small>
+                                <small><b>C.F. Rehnborg Chair in Disease Prevention at Stanford University</b></small>
                             </h3>
                             <h5>Term: 2013-2016</h5>
                             <p>John P.A. Ioannidis holds the C.F. Rehnborg Chair in Disease Prevention at Stanford University and is Professor of Medicine, Professor of Health Research and Policy, and Director of the Stanford Prevention Research Center (SPRC) at Stanford University School of Medicine, Professor of Statistics (by courtesy) at Stanford University School of Humanities and Sciences, one of the two Directors of the Meta-Research Innovation Center at Stanford (METRICS), member of the Stanford Cancer Institute and the Stanford Cardiovascular Institute, and affiliate in the Stanford Center on Longevity and the Woods Institute for the Environment.</p>
@@ -100,7 +100,7 @@
                         <div class="col-md-7">
                             <h3>
                                 Joshua M. Greenberg<br>
-                                <small>Director, Alfred P. Sloan Foundation's Digital Information Technology Program</small>
+                                <small><b>Director, Alfred P. Sloan Foundation's Digital Information Technology Program</b></small>
                             </h3>
                             <h5>Term: 2013-2016</h5>
                             <p>Dr. Greenberg received his Bachelor of Arts in History of Science, Medicine and Technology from the Johns Hopkins University, and both Masters and Doctoral degrees from Cornell University's Department of Science & Technology Studies. His dissertation work on the early history of the consumer videocassette recorder and the invention of the video rental industry was published as "From Betamax to Blockbuster" by the MIT Press (2008). The research was notable for the extensive use of online media to collect oral histories of early video store owners, employees and customers.</p>
@@ -121,7 +121,7 @@
                         <div class="col-md-7">
                             <h3>
                                 Marcia McNutt<br>
-                                <small>Editor-In-Chief, Science</small>
+                                <small><b>Editor-In-Chief, Science</b></small>
                             </h3>
                             <h5>Term: 2014-2016</h5>
                             <p>Marcia McNutt is a geophysicist who is the nineteenth editor-in-chief of Science. Prior to joining Science, she served as the fifteenth director of the US Geological Survey from 2009 to 2013 as one of a group of accomplished scientists who populated top government posts as part of President Obama’s “dream team.” During her tenure, the USGS responded to a number of major disasters, including earthquakes in Haiti, Chile, and Japan, and the Deepwater Horizon oil spill.</p>
@@ -140,7 +140,7 @@
                         <div class="col-md-7">
                             <h3>
                                 Victoria Stodden<br>
-                                <small>Assistant professor of Statistics, Columbia University</small>
+                                <small><b>Assistant professor of Statistics, Columbia University</b></small>
                             </h3>
                             <h5>Term: 2013-2015</h5>
                             <p>Victoria is an associate professor in the Graduate School of Library and Information Science at the University of Illinois at Urbana-Champaign, and affiliated with the Columbia University. She completed her PhD in statistics and her law degree at Stanford University.</p>
