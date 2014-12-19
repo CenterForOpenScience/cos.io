@@ -25,8 +25,8 @@
             <div class="row col-md-12 col-sm-12">
                 <div class="content-page">
                     <p class="lead">The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
-                    <div class="btn-group-vertical" role="group">
-                        <button type="button" class="btn btn-default">Alan G. Kraut</button>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" href="http://google.com">Alan G. Kraut</button>
                         <button type="button" class="btn btn-default">Arthur Lupia</button>
                         <button type="button" class="btn btn-default">John P.A. Ioannidis</button>
                         <button type="button" class="btn btn-default">Joshua M. Greenberg</button>
