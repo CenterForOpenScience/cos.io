@@ -77,13 +77,26 @@
                                 <small><b>Executive Director, Association for Psychological Science</b></small>
                             </h3>
                             <h5>Term: 2013-2015</h5>
-                            <p>Alan Kraut is the founding Executive Director of the Association for Psychological Science (APS), the major organization devoted solely to the interests of research and academic psychology and its contributions to the public interest. Kraut was APS’s first employee and has taken APS from an initial membership of a few hundred in 1989 to an organization that today has 27,000 members, five leading journals with Psychological Science now the most cited empirical journal among 300 in behavioral science, a premier convention and a reputation as the most effective national (and now very much international) voice for behavioral and psychological science.</p>
 
-                            <p>Kraut has more than 30 years of experience as a science and research administrator, advocate, and opinion leader. He is recognized in Washington for his effectiveness in shaping national policy and he often is quoted both in the science press and more general media on science policy.</p>
+                            <div class="row-fluid summary">
+                                <div class="span11">
+                                      <p>Alan Kraut is the founding Executive Director of the Association for Psychological Science (APS), the major organization devoted solely to the interests of research and academic psychology and its contributions to the public interest. Kraut was APS’s first employee and has taken APS from an initial membership of a few hundred in 1989 to an organization that today has 27,000 members, five leading journals with Psychological Science now the most cited empirical journal among 300 in behavioral science, a premier convention and a reputation as the most effective national (and now very much international) voice for behavioral and psychological science.</p>
+                                </div>
+                                <div class="span1">
+                                    <a class="button" data-toggle="collapse" data-target="#more1">more</a>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="more1" class="collapse"> 
+                                    <p>Kraut has more than 30 years of experience as a science and research administrator, advocate, and opinion leader. He is recognized in Washington for his effectiveness in shaping national policy and he often is quoted both in the science press and more general media on science policy.</p>
 
-                            <p>It was APS efforts through Kraut that created OppNet, a $120+ mil basic behavioral science research initiative at NIH; a behavioral science directorate at NSF; and established eligibility for scientific clinical psychology in NSF's Graduate Research Fellowship Program. In addition, APS generated articles/stories/columns/blogs are regularly featured in print and online at Newsweek, Time, Huffington Post, Scientific American, New York Times, Wall St. Journal, etc.</p>
+                                    <p>It was APS efforts through Kraut that created OppNet, a $120+ mil basic behavioral science research initiative at NIH; a behavioral science directorate at NSF; and established eligibility for scientific clinical psychology in NSF's Graduate Research Fellowship Program. In addition, APS generated articles/stories/columns/blogs are regularly featured in print and online at Newsweek, Time, Huffington Post, Scientific American, New York Times, Wall St. Journal, etc.</p>
 
-                            <p>Kraut received his Ph.D. in Developmental Psychology from Syracuse University in 1977.  From 1977-80, he was on the psychology faculty of Virginia Polytechnic Institute and State University in Blacksburg, VA.  Before establishing APS, Kraut directed various science and policy programs at the American Psychological Association and was APA’s founding Executive Director for Science.</p>
+                                    <p>Kraut received his Ph.D. in Developmental Psychology from Syracuse University in 1977.  From 1977-80, he was on the psychology faculty of Virginia Polytechnic Institute and State University in Blacksburg, VA.  Before establishing APS, Kraut directed various science and policy programs at the American Psychological Association and was APA’s founding Executive Director for Science.</p>
+                                </div>
+                            </div>
+
+                            
                         </div>
                     </div>
                     <hr>
@@ -99,11 +112,25 @@
                                 <small><b>Hal R. Varian Professor of Political Science at the University of Michigan</b></small>
                             </h3>
                             <h5>Term: 2014-2016</h5>
-                            <p>Arthur Lupia is the Hal R. Varian Professor of Political Science at the University of Michigan and research professor at its Institute for Social Research. He examines how information and institutions affect policy and politics, with a focus on how people make decisions when they lack information.  He draws from multiple scientific and philosophical disciplines and uses multiple research methods. His topics of expertise include information processing, persuasion, strategic communication, and civic competence. His books include The Democratic Dilemma: Can Citizens Learn What They Need to Know? (1998); Elements of Reason: Cognition, Choice, and the Bounds of Rationality (2000); and The Cambridge Handbook of Experimental Political Science (2011). </p>
 
-                            <p>He has held a range of scientific leadership positions. He is Chair of the National Research Council’s Roundtable on the Application of Social and Behavioral Science Research, and serves on the Advisory Board of the Division of Behavioral and Social Sciences and Education of the National Academy of Science, and as an Executive Board member of Climate Central. In the past, he has served as Principal Investigator of the American National Election Studies, Chair of the Social, Economic, and Political Sciences section of the American Association for the Advancement of Science, and was co-founder of TESS (Time-Sharing Experiments in the Social Sciences), which has helped hundreds of scientists from many disciplines run innovative experiments on opinion formation and change using nationally representative subject pools. He has led numerous task forces on scientific communication and research transparency and is regularly asked to advise scientific organizations and research groups on how to effectively communicate science to broad and diverse audiences.</p>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Arthur Lupia is the Hal R. Varian Professor of Political Science at the University of Michigan and research professor at its Institute for Social Research. He examines how information and institutions affect policy and politics, with a focus on how people make decisions when they lack information.  He draws from multiple scientific and philosophical disciplines and uses multiple research methods. His topics of expertise include information processing, persuasion, strategic communication, and civic competence. His books include The Democratic Dilemma: Can Citizens Learn What They Need to Know? (1998); Elements of Reason: Cognition, Choice, and the Bounds of Rationality (2000); and The Cambridge Handbook of Experimental Political Science (2011).</p>
+                                </div>
+                                <div class="span2">
+                                    <a class="button" data-toggle="collapse" data-target="#more2">more</a>
+                                </div>
+                            </div>
 
-                            <p>He is an elected member of the American Academy of Arts and Sciences, a Fellow of the American Association for the Advancement of Science, a Guggenheim Fellow, a Fellow at the Center for Social and Behavioral Sciences, a recipient of the American Association for Public Opinion Research’s Innovator’s Award, the American Political Science Association’s Ithiel de Sola Pool Award, and the National Academy of Science’s Award for Initiatives in Research. Dr. Lupia received in B.A. in economics from the University of Rochester and his Ph.D. in social science from the California Institute of Technology.  </p>
+                            <div class="row-fluid summary">
+                                <div id="more2" class="collapse"> 
+                                <p>Arthur Lupia is the Hal R. Varian Professor of Political Science at the University of Michigan and research professor at its Institute for Social Research. He examines how information and institutions affect policy and politics, with a focus on how people make decisions when they lack information.  He draws from multiple scientific and philosophical disciplines and uses multiple research methods. His topics of expertise include information processing, persuasion, strategic communication, and civic competence. His books include The Democratic Dilemma: Can Citizens Learn What They Need to Know? (1998); Elements of Reason: Cognition, Choice, and the Bounds of Rationality (2000); and The Cambridge Handbook of Experimental Political Science (2011).</p>
+
+                                <p>He has held a range of scientific leadership positions. He is Chair of the National Research Council’s Roundtable on the Application of Social and Behavioral Science Research, and serves on the Advisory Board of the Division of Behavioral and Social Sciences and Education of the National Academy of Science, and as an Executive Board member of Climate Central. In the past, he has served as Principal Investigator of the American National Election Studies, Chair of the Social, Economic, and Political Sciences section of the American Association for the Advancement of Science, and was co-founder of TESS (Time-Sharing Experiments in the Social Sciences), which has helped hundreds of scientists from many disciplines run innovative experiments on opinion formation and change using nationally representative subject pools. He has led numerous task forces on scientific communication and research transparency and is regularly asked to advise scientific organizations and research groups on how to effectively communicate science to broad and diverse audiences.</p>
+
+                                <p>He is an elected member of the American Academy of Arts and Sciences, a Fellow of the American Association for the Advancement of Science, a Guggenheim Fellow, a Fellow at the Center for Social and Behavioral Sciences, a recipient of the American Association for Public Opinion Research’s Innovator’s Award, the American Political Science Association’s Ithiel de Sola Pool Award, and the National Academy of Science’s Award for Initiatives in Research. Dr. Lupia received in B.A. in economics from the University of Rochester and his Ph.D. in social science from the California Institute of Technology.  </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <hr>
@@ -119,7 +146,16 @@
                                 <small><b>C.F. Rehnborg Chair in Disease Prevention at Stanford University</b></small>
                             </h3>
                             <h5>Term: 2013-2016</h5>
-                            <p>John P.A. Ioannidis holds the C.F. Rehnborg Chair in Disease Prevention at Stanford University and is Professor of Medicine, Professor of Health Research and Policy, and Director of the Stanford Prevention Research Center (SPRC) at Stanford University School of Medicine, Professor of Statistics (by courtesy) at Stanford University School of Humanities and Sciences, one of the two Directors of the Meta-Research Innovation Center at Stanford (METRICS), member of the Stanford Cancer Institute and the Stanford Cardiovascular Institute, and affiliate in the Stanford Center on Longevity and the Woods Institute for the Environment.</p>
+
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>John P.A. Ioannidis holds the C.F. Rehnborg Chair in Disease Prevention at Stanford University and is Professor of Medicine, Professor of Health Research and Policy, and Director of the Stanford Prevention Research Center (SPRC) at Stanford University School of Medicine, Professor of Statistics (by courtesy) at Stanford University School of Humanities and Sciences, one of the two Directors of the Meta-Research Innovation Center at Stanford (METRICS), member of the Stanford Cancer Institute and the Stanford Cardiovascular Institute, and affiliate in the Stanford Center on Longevity and the Woods Institute for the Environment.</p>
+                                </div>
+                                <div class="span2">
+                                    <a class="button" data-toggle="collapse" data-target="#more2">more</a>
+                                </div>
+                            </div>
+                         
 
                             <p>He was born in New York, NY in 1965 and grew up in Athens, Greece. He was Valedictorian of his class (1984) at Athens College and won a number of early awards, including the National Award of the Greek Mathematical Society in 1984. He graduated in the top rank of his class from the School of Medicine, University of Athens, in 1990 and received also a doctorate in biopathology from the same institution. He trained at Harvard and Tufts, specializing in Internal Medicine and Infectious Diseases, and then held positions at NIH, Johns Hopkins and Tufts before returning to Greece in 1999. From 1999 until 2010 he chaired the Department of Hygiene and Epidemiology at the School of Medicine, University of Ioannina in Greece, as a tenured professor since 2003. He has been adjunct faculty for the Tufts University School of Medicine since 1996, with the rank of professor since 2002. In 2008-2010 he led the Genetics/Genomics component of the Tufts Clinical and Translational Science Institute (CTSI) and the Center for Genetic Epidemiology and Modeling (CGEM) of the Tufts Institute for Clinical Research and Health Policy Studies at Tufts Medical Center. He is also adjunct professor of epidemiology at the Harvard School of Public Health and visiting professor of epidemiology and biostatistics at Imperial College London.</p>
 

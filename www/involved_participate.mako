@@ -55,25 +55,25 @@
                 <li>Model COS swag!</li>
             </ul>
         </div>
-        <div class="col-md-4 action-link margin-top-50">
-            <a href="mailto:contact@cos.io?subject=Become an Ambassador">
-                <div class="action-box ambassador-action-box">
-                    <div class="ambassador-icon">
-                        <p>Become an ambassador</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-8">
-            <h4><b>What Ambassadors Get</b></h4>
-            <ul>
-                <li>Training on COS initiatives and practices</li>
-                <li>A cool badge on your OSF profile</li>
-                <li>COS T-shirts and stickers</li>
-                <li>A food budget for workshops and conferences</li>
-                <li>Reimbursement for travel expenses</li>
-            </ul>
-        </div>
+        ## <div class="col-md-4 action-link margin-top-50">
+        ##     <a href="mailto:contact@cos.io?subject=Become an Ambassador">
+        ##         <div class="action-box ambassador-action-box">
+        ##             <div class="ambassador-icon">
+        ##                 <p>Become an ambassador</p>
+        ##             </div>
+        ##         </div>
+        ##     </a>
+        ## </div>
+        ## <div class="col-md-8">
+        ##     <h4><b>What Ambassadors Get</b></h4>
+        ##     <ul>
+        ##         <li>Training on COS initiatives and practices</li>
+        ##         <li>A cool badge on your OSF profile</li>
+        ##         <li>COS T-shirts and stickers</li>
+        ##         <li>A food budget for workshops and conferences</li>
+        ##         <li>Reimbursement for travel expenses</li>
+        ##     </ul>
+        ## </div>
     </div>
     <div class="col-md-12">
         <h3><strong>Ambassadors</strong></h3>
