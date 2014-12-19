@@ -23,8 +23,7 @@
 <div class="row community-content">
 <div>
 <h1><strong>Participate in Open Science with COS</strong></h1>
-<p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Read about our
-    ambassador program to represent open science interests, or explore the other opportunities to work together below.</p>
+<p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 <div class="col-md-3 col-sm-3 community-tab-list">
@@ -86,12 +85,14 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
-                            </td>
+                                <a href="https://osf.io/gqx2h/" target="_blank">
+                                    <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
+                                </a>
+                                </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Erica Baranski
+                                <strong>Erica Baranski</strong>
                             </td>
                         </tr>
                         <tr>
@@ -105,12 +106,14 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
+                                <a href="https://osf.io/7x9sk/" target="_blank">
+                                    <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
+                                </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                George Banks
+                                <strong>George Banks</strong>
                             </td>
                         </tr>
                         <tr>
@@ -124,12 +127,14 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
+                                <a href="https://osf.io/ul4gx/" target="_blank">
+                                    <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
+                                </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Jon Grahe
+                                <strong>Jon Grahe</strong>
                             </td>
                         </tr>
                         <tr>
@@ -140,27 +145,29 @@
                     </table>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                                <img src="../static/img/cat.jpeg" alt="Michael Gorman">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Michael Gorman
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                University of Virginia
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
+            ## <tr>
+            ##     <td>
+            ##         <table class="ambassador-box">
+            ##             <tr>
+            ##                 <td class="ambassador-img">
+            ##                 <a href="https://osf.io/qhitc/" target="_blank">
+            ##                     <img src="../static/img/cat.jpeg" alt="Michael Gorman">
+            ##                 </a>
+            ##                 </td>
+            ##             </tr>
+            ##             <tr>
+            ##                 <td class="ambassador-name">
+            ##                     <strong>Michael Gorman</strong>
+            ##                 </td>
+            ##             </tr>
+            ##             <tr>
+            ##                 <td class="ambassador-instit-padding">
+            ##                     University of Virginia
+            ##                 </td>
+            ##             </tr>
+            ##         </table>
+            ##     </td>
+            ## </tr>
         </table>
         <h3><strong>International Ambassadors</strong></h3>
         <table>
@@ -169,7 +176,9 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                                <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
+                                <a href="https://osf.io/pct7w/">
+                                    <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
+                                </a>
                             </td>
                         </tr>
                         <tr>
@@ -252,8 +261,7 @@
 <div class="tab-pane" id="tab_2">
     <div class="col-md-12">
         <h2><strong>Take Steps Toward Transparency</strong></h2>
-        <p>The Center for Open Science offers researchers a wide variety of invaluable tools and resources that can help
-            you support open science practices with your work.</p>
+        <p>The Center for Open Science offers tools and resources that can help researchers do their work better.</p>
     </div>
 
     <div class="col-md-8">
