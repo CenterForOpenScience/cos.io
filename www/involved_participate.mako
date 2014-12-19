@@ -269,7 +269,7 @@
         <p>The OSF is a free, secure web application that allows scientists to organize and archive files, and increase
             documentation. Using the OSF addresses common problems like the way old files seem to disappear and eliminates confusion
             over which file copy is most up to date: "final_report.docx" or "final_report2.docx." Reduce email clutter, integrate tools you already use like
-            Dropbox or Figshare, and easily make your work publicly available when you choose. <a href="https://osf.io/4znzp/wiki/home/" target="_blank">Learn
+            Dropbox or Figshare, and easily make your work publicly available when you choose. <a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
             more about how the OSF can improve your work.</a>
     </div>
 
@@ -284,10 +284,9 @@
 
     <div class="col-md-8">
         <h4><strong>2. Conduct Reproducible Analyses</strong></h4>
-        <p>Do you want to learn how to harness the power of statistics while maintaining good open science practices? We
-            offer free statistical consulting to curious researchers as well as free online and in-person workshops. You
-            can email us with your questions or request a Google Hangout appointment to talk through your problem face to
-            face. <a href="/stats_consulting/">Check out our statistical consulting services.</a></p>
+        <p>COS offers free statistical consulting to improve reproducible practices. Get email help on power analysis
+         and calculating confidence intervals, individualized hangouts for learning R and GitHub, or schedule a group to
+         be trained on OSF. <a href="/stats_consulting/">Learn more.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -301,10 +300,9 @@
 
      <div class="col-md-8">
         <h4><strong>3. Pre-register your studies</strong></h4>
-        <p>By pre-registering your project, you invariably increase the scientific integrity of your work.
-        Pre-registration involves creating an frozen snapshot of your research progress at any point in time that you choose.
-        Registering your project before you start data collection allows you to revisit exactly what your original research questions were
-        and provides evidence that you have followed your proposed protocol throughout data collection.</p>
+        <p>Pre-registration on the OSF takes a snapshot of projects with time stamps to facilitate their discovery whether
+        they end up being published or not. Pre-registration with analysis plans facilitates strong confirmatory research designs.
+        Use the [OSF to register] and learn more about [preregistration] and [confirmatory research].</p>
 
         <p>You can use the <a href="https://osf.io" target="_blank">Open Science Framework</a> to create a frozen
         registration of your research project, which can be used as a repository for registered reports. <a href="https://osf.io/47uq9/"
@@ -340,7 +338,7 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>5. Enroll in a Metascience Project</strong></h4>
+        <h4><strong>5. Join a Metascience Project</strong></h4>
         <p>COS facilitates a number of ongoing metascience research projects.
             Each of these projects empirically measures one aspect of scientific research, with the ultimate goal of producing
             scientifically substantiated "best practices." To sign up for one, click on the right to
