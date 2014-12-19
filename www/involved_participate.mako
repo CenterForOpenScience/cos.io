@@ -490,11 +490,11 @@
         <h4><strong>3. Join Our Team</strong></h4>
         <p><i>Developers.</i> We love open source, science, databases, web/API development, content management systems,
             and Python. You should too. If so, please submit a resume and cover letter via our jobs page. Questions about
-            the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
+            the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io?subject=Join Our Team">jobs@cos.io.</a></p>
         <p><i>Developer internships.</i> Same as above but in summer or part-time internship form; students will work
             with our developers and carve out their own open science project. Please submit a resume and cover letter
             via <a href="/involved_jobs" target="_blank">our jobs page</a>. Questions about the position and COS are welcome and can be sent to
-            <a href="mailto:jobs@cos.io">jobs@cos.io.</a></p>
+            <a href="mailto:jobs@cos.io?subject=Join Our Team">jobs@cos.io.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
