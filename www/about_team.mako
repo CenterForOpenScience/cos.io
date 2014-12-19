@@ -24,7 +24,7 @@
 <!-- BEGIN OUR TEAM -->
 <div class="row front-team">
 <h1><strong>The COS Team</strong></h1>
-<p class="lead">From astronomy to chemistry, the COS team brings a variety of experiences and skills to the table.</p>
+<p class="lead">Astronomers, biologists, chemists, computer scientists, education researchers, engineers, neuroscientists, and psychologists have come together to provide tools and services that benefit all sciences.</p>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">

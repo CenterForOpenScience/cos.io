@@ -213,7 +213,7 @@
                                     <td>
                                         <h3>Ambassadors</h3>
                                         <p>Center for Open Science ambassadors act as the local authority on the Center for Open Science, the Open Science Framework, and open science practices in their community. They are trained to talk about the Center for Open Science, lead Open Science Framework demonstrations, and represent us at conferences and meetings. Researchers in any field and from any country can become COS Ambassadors. This is a great opportunity to promote open science in your community  and help us work to increase openness, integrity, and reproducibility across scientific domains.</p>
-                                        <a href="/involved_participate/#tab_1" class="btn blue">
+                                        <a href="/involved_participate" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>
                                     </td>

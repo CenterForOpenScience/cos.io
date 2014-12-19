@@ -115,7 +115,7 @@
                     <span>Developers</span>
                 </div>
                 <p>COS builds open source web apps, connects via API with other services, and supports
-                    open projects. The scientific community can benefit from many open source practices and resources;
+                    open projects.
                     <a href="/involved_participate/#tab_4">find out how you can contribute.</a></p>
             </div>
         </div>

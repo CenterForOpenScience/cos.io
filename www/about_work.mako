@@ -42,13 +42,10 @@
                     </div>
                     <!-- BEGIN LISTS -->
                     <div class="col-md-8 col-sm-12 ">
-                        <h3 class="center margin-top-20 margin-bottom-20">We have three primary areas of activity:</h3>
+                        <h3 class="center margin-top-20 margin-bottom-20">We work on three things:</h3>
                         <dl class="front-lists-v1">
                             <dt>Infrastructure</dt>
-                            <dd>COS builds open source tools for scientists. The <a href="https://osf.io/">Open Science Framework</a>
-                                is our primary infrastructure endeavor. The OSF is an online
-                                resource for researchers to continue their current workflow and easily introduce open practices.
-                                The OSF provides version control, altmetrics for measuring impact, and personalizable privacy options.</dd>
+                            <dd>COS builds open source tools for scientists. The <a href="https://osf.io/">Open Science Framework</a> is a web application that connects and supports the research workflow, enabling scientists to increase the efficiency and effectiveness of their research. Researchers can use the OSF to collaborate, document, archive, share, and register research projects, materials, and data. The OSF provides version control, altmetrics for measuring impact, and personalizable privacy options.</dd>
                         </dl>
                         <dl class="front-lists-v1">
                             <dt>Metascience</dt>
@@ -61,21 +58,14 @@
 
                         <dl class="front-lists-v1">
                             <dt>Community</dt>
-                            <dd>The established incentives for success focus scientists on getting published more than getting it right.
-                                Nudging these dysfunctional incentives requires engagement with the entire science ecosystem&#8212funders,
-                                journals, societies, and institutions.  We engage the entire ecosystem and support
-                                procedures to re-shape daily practices such as <a href="https://osf.io/tvyxz/wiki/home/">badges
-                                    for open science</a> and <a href="http://cos.io/pr/2014-05-19/">Registered Reports</a>.
-                                We also offer <a href="/stats_consulting/">free consulting services and training</a> on
-                                reproducible practices and statistics. </dd>
+                            <dd>The established incentives for success focus scientists on getting published more than getting it right. Nudging these dysfunctional incentives requires engagement with the entire science ecosystem &#8212funders, journals, societies, and institutions.  We support <a href="/involved_participate/">COS Ambassadors</a> and <a href="/communities/">COS Communities</a> to improve incentives and practices with programs such as <a href="https://osf.io/tvyxz/wiki/home/">badges to acknowledge open practices</a> and <a href="https://osf.io/8mpji/">Registered Reports</a>. We also offer <a href="/stats_consulting/">free consulting services and training</a> on reproducible practices and statistics. </dd>
                         </dl>
                     </div>
                     <!-- END LISTS -->
                 </div>
 
-                <h3><strong>Interested in finding ways to work together?</strong></h3>
-                <p>Visit our pages for <a href="/involved_participate/#tab_3">journals and societies</a>, for
-                    <a href="/involved_participate/#tab_2"">scientists</a>, or for <a href="/involved_participate/#tab_4">developers</a>.</p>
+                <h3><strong>Use our free services or collaborate with us</strong></h3>
+                <p>Find out how! Visit our pages for <a href="/involved_participate/#tab_2">scientists</a>, for<a href="/involved_participate/#tab_3">journals and societies</a>, or for <a href="/involved_participate/#tab_4">developers</a>.</p>
                 <div class="spacer"></div>
             </div>
 
