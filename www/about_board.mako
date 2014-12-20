@@ -275,11 +275,11 @@
     <script src="assets/scripts/app.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
-            location.hash && $(location.hash + ' .collapse').collapse('show');
+            // location.hash && $(location.hash + ' .collapse').collapse('show');
 
-            $('.btn-group').click(function(){
-                $(location.hash + ' .collapse').collapse('show');
-            });
+            // $('.btn-group').click(function(){
+            //     $(location.hash + ' .collapse').collapse('show');
+            // });
 
             $( '.more').click(function() {
               $( '.more').hide();
