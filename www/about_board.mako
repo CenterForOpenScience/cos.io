@@ -36,35 +36,7 @@
                     <hr>
                     <br>
 
-                    ## <div class="row-fluid summary">
-                    ##     <div class="span11">
-                    ##         <h2>MyHeading</h2>  
-                    ##     </div>
-                    ##     <div class="span1">
-                    ##         <button class="btn btn-success" data-toggle="collapse" data-target="#intro">+</button>
-                    ##     </div>
-                    ## </div>
-                    ## <div class="row-fluid summary">
-                    ##     <div id="intro" class="collapse"> 
-                    ##         Here is more of the bio
-                    ##     </div>
-                    ## </div>
-
-
-                    ##     <div class="span12">
-                    ##         <h2>My other heading</h2>  
-                    ##     </div>
-                    ##     <div class="span2">
-                    ##         <button class="btn btn-success" data-toggle="collapse" data-target="#intro2">+</button>
-                    ##     </div>
-                    ## </div>
-                    ## <div class="row-fluid summary">
-                    ##     <div id="intro2" class="collapse"> 
-                    ##         Here comes more of the text...
-                    ##     </div>
-                    ## </div>
-
-
+                    <div class="all_board_list">
                     <div class="row margin-bottom-30" id="AlanKraut">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
@@ -266,10 +238,11 @@
                                 <p>She testified before the Congressional House Science, Space, and Technology Committee on Scientific Transparency and Integrity on March 5, 2013.</p>
                                 <p>She co-chaired a working group on Virtual Organizations for the NSF's Office of Cyberinfrastructure Task Force on Grand Challenge Communities in 2010.</p>
                                 <p>She is also the creator and curator of SparseLab, a collaborative platform for reproducible computational research in underdetermined systems.</p>
-                                <p>She serves on several advisory boards including The Texas Advanced Computing Center, the Center for Open Science, hackNY.org,Galaxy, and the Science Exchange. She is a nominated member of the Sigma Xi scientific research society.</p>
+                                <p>She serves on several advisory boards including The Texas Advanced Computing Center, the Center for Open Science, hackNY.org, Galaxy, and the Science Exchange. She is a nominated member of the Sigma Xi scientific research society.</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -278,14 +251,20 @@
     </div>
 </div>
 <!-- END PAGE CONTAINER -->
-
 <%def name="javascript_bottom()">
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
     <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="assets/scripts/app.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
-            App.init();
+            location.hash && $(location.hash + ' .collapse').collapse('show');
+
+            $('.all_board_list a').click(function(){
+                $(this).text(function(i, old){
+                    return old=='more' ?  '---' : 'more';
+                });
+            });
+
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
