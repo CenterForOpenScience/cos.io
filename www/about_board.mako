@@ -259,6 +259,10 @@
         jQuery(document).ready(function() {
             location.hash && $(location.hash + ' .collapse').collapse('show');
 
+            $('.btn-group').click(function(){
+                $(location.hash + ' .collapse').collapse('show');
+            });
+
             $('.all_board_list a').click(function(){
                 $(this).text(function(i, old){
                     return old=='more' ?  '---' : 'more';
