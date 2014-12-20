@@ -12,7 +12,7 @@
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/about_work/">Our Mission</a></li>
+                        <li><a href="/about_mission/">Our Mission</a></li>
                         <li><a href="/about_team/">Our Team</a></li>
                         <li><a href="/about_sponsors/">Our Sponsors</a></li>
                         <li><a href="/about_board/">Our Board</a></li>
