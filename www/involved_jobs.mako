@@ -26,7 +26,9 @@
 <!-- BEGIN INFO BLOCK -->
 
 <!--BEGIN OPPORTUNITIES -->
-<h1><strong>Open Positions</strong><br><br></h1>
+<h1><strong>Open Positions</strong></h1>
+<p class="lead">COS is looking for open science enthusiasts to join our team. Openness means inclusivity: the Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+
 <div id="AdminstrativeAssistantIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AdminstrativeAssistantIntern_heading">
@@ -66,7 +68,7 @@
                     </dd>
                     <dt>Applying</dt>
                     <dd>
-                      <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
                     </dd>
                 </dl>
@@ -77,8 +79,8 @@
 <div id="Developer" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
-                        <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#Developer" >
                     Developer
                 </a>
@@ -120,7 +122,7 @@
                     </dd>
                     <dt>Referrals</dt>
                     <dd>
-                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p> 
+                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
                         <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
                         <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
                         <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply.</p>
@@ -134,7 +136,7 @@
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#DeveloperIntern_heading">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a data-parent="#DeveloperIntern">
                     Developer Intern
                 </a>
@@ -190,7 +192,7 @@
                     </dd>
                     <dt>Applying</dt>
                     <dd>
-                      <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
                     </dd>
                 </dl>
@@ -201,7 +203,7 @@
 <div id="ITIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
-                        <h4 class="panel-title">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#ITIntern" >
                     IT Intern
@@ -217,7 +219,7 @@
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
-                    <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
+                        <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
                     </dd>
                     <dt>Skills</dt>
                     <dd>
@@ -337,7 +339,7 @@
 <div id="QATestEngineerIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
-                        <h4 class="panel-title">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#QATestEngineerIntern" >
                     QC/QA/Test Engineer Intern
@@ -382,7 +384,7 @@
 <div id="SeniorDeveloper" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper_heading">
-                        <h4 class="panel-title">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#SeniorDeveloper" >
                     Senior Developer
@@ -440,7 +442,7 @@
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#StatsConsultant_heading">
-                                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span> 
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
 
                 <a data-parent="#StatsConsultant" >
                     Statistical and Methodological Consultant
@@ -490,7 +492,7 @@
 <div id="WebDesigner" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#WebDesigner_heading">
-                        <h4 class="panel-title">
+            <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#WebDesigner" >
                     Web Designer
@@ -534,102 +536,84 @@
 
 
 <!--END OPPORTUNITIES -->
+<br><br>
+<p>Check out our <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
 
-
-<h3>Openness means inclusivity</h3>
-<p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-
-
-<h3><br><br><strong>What we do<br><br></strong></h3>
-<p>We work on the cutting edge of open source software. We are mission driven - increasing openness
-    and reproducibility in science research by building tools, forming community projects, and
-    conducting open, crowdsourced research. We are facilitating positive changes to the scientific
-    culture and reward structure. <strong>We want you to join our team.</strong></p>
-<br>
+<h3><br><strong>What we do</strong></h3>
+<p>We work on the cutting edge of open source software. We are mission driven - increasing openness and reproducibility in science research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure.</p>
 <br>
 
-<div class="container">
-    <!-- BEGIN LISTS -->
-    <div class="row col-md-10 front-lists-v1 margin-bottom-75">
-        <div>
-            <ul id="benefits" class="list-unstyled margin-bottom-20 col-md-8">
-                <li class="row text-right"><h3>Collaborate.</h3>The Center places a high value on developing skills and collaboration.<br> Teamwork, pair programming, collaboration internally and externally are daily practice.   </li>
-                <li><br></li>
-                <li class="row text-left"><h3>Eat well.</h3> Keep your energy up with your favorite drinks and snacks from the fully stocked kitchen. <br> Enjoy catered lunches from local restaurants twice a week. </li>
-                <li><br></li>
-                <li class="row text-right"><h3>Get fit.</h3> All full-time employees receive health, dental, and vision insurance. <br>We promote our own health and well-being with stand-up and exercise desks, <br>access to an on-site gym, and the great biking and hiking access in the community. </li>
-                <li><br></li>
-                <li class="row text-left"><h3>Keep comfortable.</h3> We take our work seriously, and work best in <br>a casual environment - casual dress, bean bag chairs, high-quality workspaces,<br> and an open, non-hierarchical floor plan.  </li>
-                <li><br></li>
-                <li class="row text-right"><h3>Get a Mac.</h3>  All full-time employees receive an Apple laptop of their choice and <br>a workstation with 27” screen. </li>
-                <li><br></li>
-                <li class="row text-left"><h3>Plan for the future.</h3> We’ll help you set up your 401k, and COS contributes up to 4% matches.</li>
-                <li><br></li>
-                <li class="row text-right"><h3>Enjoy the view.</h3> The modern and stylish COS offices are located in the heart of <br>Charlottesville on the downtown pedestrian mall.  Central Virginia and the Shenandoah mountains are right outside!  </li>
-            </ul>
-        </div>
-        <div class="margin-top-80 margin-bottom-60 margin-left-40 col-md-2">
-            <img src="../static/img/photos/Melissa_openhouse.jpg" width="400" alt="Melissa Lewis presenting">
-        </div>
-        <div class="margin-top-100 margin-bottom-20 margin-left-40 col-md-2">
-            <img src="../static/img/photos/COS_openhouse.jpg" width="400" alt="COS open house">
-        </div>
+<div class="row">
+    <div class="whatWeDo">
+        <ul class="list-unstyled">
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></a>
+                <div>
+                    <center><h3>Collaborate.</h3></center>
+                    <p>The Center places a high value on developing skills and partnerships. <strong>Teamwork</strong>, pair programming, collaboration internally and externally are <strong>daily practice</strong>.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Food.png);"></div></a>
+                <div>
+                    <center><h3>Eat well.</h3></center>
+                    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen. Enjoy catered lunches from local restaurants twice a week.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/GetFit.png);"></div></a>
+                <div>
+                    <center><h3>Get fit.</h3></center>
+                    <p>All full-time employees receive health, dental, and vision insurance. We promote our own<strong> health and well-being</strong> with stand-up and exercise desks, access to an on-site gym, and the great biking and hiking access in the community.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Comfortable.png);"></div></a>
+                <div>
+                    <center><h3>Keep comfortable.</h3></center>
+                    <p>We take our work seriously, and work best in a casual environment - casual dress,<strong> bean bag chairs</strong>, high-quality workspaces, and an open, non-hierarchical floor plan.</p>
+                </div>
+            </li>
+        </ul>
     </div>
-    <!-- END LISTS -->
-
+</div>
+<div class="row" style="padding-top:20px;">
+    <div class="whatWeDo">
+        <ul class="list-unstyled">
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Computer.png);"></div></a>
+                <div>
+                    <center><h3>Get a Mac.</h3></center>
+                    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27” screen.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Plan.png);"></div></a>
+                <div>
+                    <center><h3>Plan for the future.</h3></center>
+                    <p>We’ll help you set up your 401k, and <strong>COS contributes up to 4% matches.</strong></p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/View.jpg);"></div></a>
+                <div class="whatWeDo-perks">
+                    <center><h3>Enjoy the view.</h3></div></center>
+                    <p>The modern and stylish COS offices are located in the <strong>heart of Charlottesville</strong> on the downtown pedestrian mall. Central Virginia and the Shenandoah mountains are right outside!</p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>
 
+
 <div id = "location"></div>
-<h3><strong>Where we live<br><br></strong></h3>
+<h3><strong>Where we live</strong></h3>
 <p>From hikes and rides atop the peaks of the Blue Ridge Mountains, to navigating the taps of the BrewRidge Trail, Charlottesville boasts both urban culture and rural adventure. The pedestrian mall downtown offers local shopping, a range of restaurants from French fine dining to sushi rolls to take-away crepes, weekend farmer’s markets, and a music scene to suit tastes for both jazz piano and garage rock.</p>
 <p>Steeped with history, Charlottesville and the surrounding area offers many landmarks of its own. To branch out beyond the local without leaving the city, however, there are museums like the Kluge-Ruhe Aboriginal Art Museum and the Special Collections Library at UVA. And, if you want to get out of town, DC is just two hours away and the state capital, Richmond, is a mere one-hour drive.</p>
-<p><a href="http://travel.nytimes.com/2008/10/26/travel/26hours.html?pagewanted=all">See why the New York Times loves Charlottesville!</a></p>
-<p><a href="http://www.theguardian.com/world/2014/jul/27/happiness-place-called-charlottesville-virginia">Read this article in The Guardian about Charlottesville's great community.</a></p>
-<p><a href="http://www.c-ville.com/events/">Or, check out the local events calendar.</a></p>
-<p>Thank you to <a href="https://www.flickr.com/photos/daveynin/">David Fulmer</a>,<a href="https://www.flickr.com/photos/miguelvieira/">Miguel Vieira</a>, <a href="https://www.flickr.com/photos/awebb/">Aaron Webb</a>, <a href="https://www.flickr.com/photos/kthread/">Kristen Taylor</a>, <a href="https://www.flickr.com/photos/small_realm/sets/">Bob Mical</a>, and <a href="https://www.flickr.com/photos/westher/sets/">Esther Westerveld</a> for the use of their photos.</p>
+<p>See why the <a href="http://travel.nytimes.com/2008/10/26/travel/26hours.html?pagewanted=all">New York Times loves Charlottesville!</a> Read this <a href="http://www.theguardian.com/world/2014/jul/27/happiness-place-called-charlottesville-virginia">article in The Guardian</a> about Charlottesville's great community. Or, check out the <a href="http://www.c-ville.com/events/">local events calendar.</a></p>
 </div>
 <div class="spacer"></div>
 <!-- END INFO BLOCK -->
-
-
-    <div>
-        <div class="col-md-3 col-xs-4 jobs-pics" style="height:162px; overflow: hidden"><a data-rel="fancybox-button" class="active item overflow_image fancybox-button" href="../static/img/photos/uva_basketball.jpg" >
-            <img src="../static/img/photos/uva_basketball.jpg" alt="UVA basketball" class="img-responsive" ></a>
-        </div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/winter-belmont.jpg">
-            <img src="../static/img/photos/winter-belmont.jpg" alt="Belmont in winter" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/hiking-trail-mark.jpg">
-            <img src="../static/img/photos/hiking-trail-mark.jpg" alt="hiking trail" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/rotunda-construction-horizontal.jpg">
-            <img src="../static/img/photos/rotunda-construction-horizontal.jpg" alt="Rotunda" class="img-responsive"></a></div>
-
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/10-miler.jpg">
-            <img src="../static/img/photos/10-miler.jpg" alt="10 miler" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/acrobat-pavilion.jpg">
-            <img src="../static/img/photos/acrobat-pavilion.jpg" alt="Acrobat" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/farmer's-market-tomatoes.jpg">
-            <img src="../static/img/photos/farmer's-market-tomatoes.jpg" alt="Farmer's market" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/paramount-line.jpg">
-            <img src="../static/img/photos/paramount-line.jpg" alt="Paramount" class="img-responsive"></a></div>
-
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/Jeffersons_Monticello_Pond_Reflection.jpg">
-            <img src="../static/img/photos/Jeffersons_Monticello_Pond_Reflection.jpg" alt="Monticello" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/meadowtrail.jpg">
-            <img src="../static/img/photos/meadowtrail.jpg" alt="Meadow trail" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/moto-bar.jpg">
-            <img src="../static/img/photos/moto-bar.jpg" alt="Moto bar" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/pride festival.jpg">
-            <img src="../static/img/photos/pride-festival.jpg" alt="Pride festival" class="img-responsive"></a></div>
-
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/pumpkins-carter-mountain.jpg">
-            <img src="../static/img/photos/pumpkins-carter-mountain.jpg" alt="Pumpkins on Carter Mountain" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/stream-forest.jpg">
-            <img src="../static/img/photos/stream-forest.jpg" alt="Forest Stream" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/the-corner.jpg">
-            <img src="../static/img/photos/the-corner.jpg" alt="UVA Corner" class="img-responsive"></a></div>
-        <div class="col-md-3 col-xs-4 jobs-pics margin-bottom-25"><a data-rel="fancybox-button" class="item overflow_image fancybox-button" href="../static/img/photos/water-street-buildings.jpg">
-            <img src="../static/img/photos/water-street-buildings.jpg" alt="Water Street" class="img-responsive"></a></div>
-    </div>
 
 </div>
 </div>
@@ -652,19 +636,19 @@
         jQuery(document).ready(function() {
             App.init();
             ContactUs.init();
-        
-            $('.panel-heading').on('click', function(){ 
-                var el = $(this); 
+
+            $('.panel-heading').on('click', function(){
+                var el = $(this);
                 if(el.parents('.panel').find('.panel-collapse').hasClass('collapse')){
-                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>'); 
+                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>');
                     el.siblings('.panel-collapse').collapse('show');
                 } else {
-                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>'); 
+                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>');
                     el.siblings('.panel-collapse').collapse('hide');
                 }
-            }); 
-            
-                                    
+            });
+
+
         });
     </script>
     <script type="text/javascript">

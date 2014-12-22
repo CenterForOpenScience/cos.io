@@ -1,7 +1,7 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()">About our Team</%def>
-<%def name="description()">The Center for Open Science team is diverse in background and skills.</%def>
+<%def name="title()">About Our Team </%def>
+<%def name="description()">The Center for Open Science team is diverse in background and skills, all devoted to increasing the Openness, Reproducibility, and Integrity in science. </%def>
 
 <%def name="navigation()">
     ${self.navlinks('about_team')}
@@ -23,7 +23,8 @@
 
 <!-- BEGIN OUR TEAM -->
 <div class="row front-team">
-<h1><strong>Our Team<br><br></strong></h1>
+<h1><strong>The COS Team</strong></h1>
+<p class="lead">Astronomers, biologists, chemists, computer scientists, education researchers, engineers, neuroscientists, and psychologists have come together to provide tools and services that benefit all sciences.</p>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">
@@ -369,7 +370,7 @@
             <img src="../static/img/people/spies.jpg" alt="Jeff Spies">
             <h3>
                 Jeff Spies
-                <small>Co-founder</small>
+                <small>Co-founder, CTO</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jef<span style="display:none;">null</span>f@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">

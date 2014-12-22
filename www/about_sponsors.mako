@@ -1,8 +1,8 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Sponsorship</%def>
-<%def name="description()">The Center for Open Science is funded by private foundations.</%def>
+<%def name="title()">About Our Sponsors </%def>
+<%def name="description()">The Center for Open Science is funded by private foundations. Learn about them here. </%def>
 
 <%def name="navigation()">
     ${self.navlinks('about_sponsors')}
@@ -30,7 +30,8 @@
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile sponsor">
 
-                <h1><strong>Our Sponsors<br><br></strong></h1>
+                <h1><strong>Sponsors of COS</strong></h1>
+                <p class="lead">The Center for Open Science is a non-profit funded through a number of grants and donations.</p>
                 <div class="portlet box tabbable margin-top-50">
                         <div class="portlet-body">
                             <div class="portlet-tabs">
@@ -103,6 +104,14 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
+                                                <td class="sponsor-center"></td>
+                                                <td><span class="med-font"><strong>Anonymous Donor</strong></span><br>
+                                                <strong>$310,000</strong><br>
+                                                Donor support for an incubator project program.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
                                                 <td class="sponsor-center"><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a></td>
                                                 <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
                                                 <strong>$168,600</strong><br>
@@ -131,12 +140,26 @@
                                             <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
                                             <table  class="margin-top-50 donation-table">
                                                 <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.atcc.org/"><img src="/static/img/icons/atcc.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>ATCC</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center" ><a href="http://www.biolegend.com/"><img src="/static/img/icons/biologo.png"></a></td>
                                                     <td><span class="med-font"><strong>Biolegend</strong></span><br>
                                                     Reagents for Reproducibility Project: Cancer Biology
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>  
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.cellsignal.com/"><img src="/static/img/icons/cst.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>Cell Signaling Technologies</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
                                                 <tr>
                                                     <td class="sponsor-center" ><a href="http://www.criver.com/"><img src="/static/img/icons/criver.png"></a></td>
                                                     <td><span class="med-font"><strong>Charles River Laboratories</strong></span><br>
@@ -305,14 +328,6 @@
     <script src="../static/plugins/jquery.mixitup.min.js"></script>
     <script src="../static/scripts/app.js"></script>
     <script src="../static/scripts/portfolio.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            App.init();
-            Portfolio.init();
-            toastr.info('Scroll down to make a donation!');
-            toastr.options.showDuration = '100000';
-        })
-    </script>
 
 </%def>
 <!-- END PAGE LEVEL JAVASCRIPTS --> 

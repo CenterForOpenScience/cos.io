@@ -6,25 +6,44 @@
         <!-- BEGIN TOP NAVIGATION MENU -->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="dropdown ${ 'active' if page == 'home' else ''}">
-                    <a href="/">Home </a>
-                </li>
                 <li class="dropdown ${ 'active' if page.startswith('about') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         About us
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/about_work/">Our Work</a></li>
+                        <li><a href="/about_mission/">Our Mission</a></li>
                         <li><a href="/about_team/">Our Team</a></li>
                         <li><a href="/about_sponsors/">Our Sponsors</a></li>
+                        <li><a href="/about_board/">Our Board</a></li>
+                        <li><a href="/about_partners/">Our Partners</a></li>
                     </ul>
+                </li>
+                <li class="dropdown ${ 'active' if page.startswith('stats') else ''}">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
+                        Services
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/stats_consulting/">Statistical Consulting</a></li>
+                        <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
+                    </ul>
+                </li>
+                 <li class="dropdown ${ 'active' if page.startswith('involved') else ''}">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
+                        Get Involved
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/involved_participate/">Participate</a></li>
+                        <li><a href="/involved_jobs/">Jobs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown ${ 'active' if page == 'communities' else ''}">
+                    <a href="/communities/">Communities</a>
                 </li>
                 <li class="dropdown ${ 'active' if page == 'news' else ''}">
                     <a href="/news/">News </a>
-                </li>
-                <li class="dropdown ${ 'active' if page == 'jobs' else ''}">
-                    <a href="/jobs/" >Jobs</a>
                 </li>
                 <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
             </ul>
