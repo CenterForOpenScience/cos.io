@@ -230,13 +230,13 @@
                         <div class="col-md-7">
                             <h3>
                                 Victoria Stodden<br>
-                                <small><b>Assistant professor of Statistics, Columbia University</b></small>
+                                <small><b>Associate Professor, Graduate School of Library and Information Science, University of Illinois at Urbana-Champaign</b></small>
                             </h3>
                             <h5>Term: 2013-2015</h5>
 
                             <div class="row-fluid summary">
                                 <div class="span21">
-                                <p>Victoria is an associate professor in the Graduate School of Library and Information Science at the University of Illinois at Urbana-Champaign, and affiliated with the Columbia University. She completed her PhD in statistics and her law degree at Stanford University.</p>
+                                <p>Victoria is an Associate Professor in the Graduate School of Library and Information Science at the University of Illinois at Urbana-Champaign, and affiliated with the Columbia University. She completed her PhD in statistics and her law degree at Stanford University.</p>
                                 <p>Her research centers on the multifaceted problem of enabling reproducibility in computational science. This includes studying adequacy and robustness in replicated results, designing and implementing validation systems, developing standards of openness for data and code sharing, and resolving legal and policy barriers to disseminating reproducible research.</p>
                                 <p>She is the developer of the "Reproducible Research Standard," a suite of open licensing recommendations for the dissemination of computational results, and winner of the Kaltura Prize for Access to Knowledge Writing.</p>
                                 </div>

@@ -370,7 +370,7 @@
             <img src="../static/img/people/spies.jpg" alt="Jeff Spies">
             <h3>
                 Jeff Spies
-                <small>Co-founder</small>
+                <small>Co-founder, CTO</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jef<span style="display:none;">null</span>f@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
