@@ -112,15 +112,17 @@ body {
     background-size: 250px;
     border-radius: 125px;
     -webkit-border-radius: 125px;
-    -moz-border-radius: 125px;
-    filter: sepia(0.3) !important;
-    
+    -moz-border-radius: 125px;    
 }
 
 .whatWeDo p {
-    text-align: left !important;
-    text-justify: inter-word;
+    text-align: justify;
+    text-justify: inter-word !important;
+}
 
+.whatWeDo h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*From Responsive*/

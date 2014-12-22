@@ -541,73 +541,70 @@
 
 <h3><br><strong>What we do</strong></h3>
 <p>We work on the cutting edge of open source software. We are mission driven - increasing openness and reproducibility in science research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure.</p>
+<br>
 
-<div class="whatWeDo">
-    <!-- BEGIN TABLE -->
-    <table cellpadding="10px" >
-    <tr>
-    <td>
-    <a><center><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></center></div></a></td>
-     <td>
-     <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Food.png);"></div></center></a>
-    </td>
-    <td>
-        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/GetFit.png);"></div></center></a>
-        </div> </td>
-      <td>
-         <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Comfortable.png);"></div></center></a>
-    </td> 
-</tr>
-
-<tr>
-    <td><center><h3>Collaborate.</h3>
-    <br>
-    <p>The Center places a high value on developing skills and partnerships. <strong>Teamwork</strong>, pair programming, collaboration internally and externally are <strong>daily practice</strong>.</p></center></td>
-   
-    <td><center><h3>Eat well.</h3>
-    <br>
-    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen. Enjoy catered lunches from local restaurants twice a week.</p></td>
-
-   <td><center><h3>Get fit.</h3>
-    <br>
-     <p>All full-time employees receive health, dental, and vision insurance. We promote our own<strong> health and well-being</strong> with stand-up and exercise desks, access to an on-site gym, and the great biking and hiking access in the community.</p></center></td>
-
-     <td><center><h3>Keep comfortable.</h3>
-    <br>
-    <p>We take our work seriously, and work best in a casual environment - casual dress,<strong> bean bag chairs</strong>, high-quality workspaces, and an open, non-hierarchical floor plan.</p></center> </td>
-    </tr>
-    
-<tr>
-</tr>
-<tr>
-  <td>
-        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Computer.png);"></div></center></a>
-         </td>
-  <td>
-        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Plan.png);"></div></center></a>
-    </td>
-    <td>
-        <a><center> <div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/View.png);"></div></center></a>
-
-    </td>
-    
-<tr><td> <center><h3>Get a Mac.</h3>
-    <br>
-    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27” screen.</p>
- </center> </td>
-    
-    <td> <center><h3>Plan for the future.</h3>
-    <br>
-     <p>We’ll help you set up your 401k, and <strong>COS contributes up to 4% matches.</strong></p></center> </td>
-        <td><center><h3>Enjoy the view.</h3>
-    <br>
-     <p>The modern and stylish COS offices are located in the <strong>heart of Charlottesville</strong> on the downtown pedestrian mall. Central Virginia and the Shenandoah mountains are right outside!</p></center> </td>
-    
-    </tr>
-    </table>
-
-    <!-- END TABLE -->
+<div class="row">
+    <div class="whatWeDo">
+        <ul class="list-unstyled">
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></a>
+                <div>
+                    <center><h3>Collaborate.</h3></center>
+                    <p>The Center places a high value on developing skills and partnerships. <strong>Teamwork</strong>, pair programming, collaboration internally and externally are <strong>daily practice</strong>.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Food.png);"></div></a>
+                <div>
+                    <center><h3>Eat well.</h3></center>
+                    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen. Enjoy catered lunches from local restaurants twice a week.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/GetFit.png);"></div></a>
+                <div>
+                    <center><h3>Get fit.</h3></center>
+                    <p>All full-time employees receive health, dental, and vision insurance. We promote our own<strong> health and well-being</strong> with stand-up and exercise desks, access to an on-site gym, and the great biking and hiking access in the community.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Comfortable.png);"></div></a>
+                <div>
+                    <center><h3>Keep comfortable.</h3></center>
+                    <p>We take our work seriously, and work best in a casual environment - casual dress,<strong> bean bag chairs</strong>, high-quality workspaces, and an open, non-hierarchical floor plan.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>
+<div class="row" style="padding-top:20px;">
+    <div class="whatWeDo">
+        <ul class="list-unstyled">
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Computer.png);"></div></a>
+                <div>
+                    <center><h3>Get a Mac.</h3></center>
+                    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27” screen.</p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Plan.png);"></div></a>
+                <div>
+                    <center><h3>Plan for the future.</h3></center>
+                    <p>We’ll help you set up your 401k, and <strong>COS contributes up to 4% matches.</strong></p>
+                </div>
+            </li>
+            <li class="col-md-3 space-mobile">
+                <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/View.jpg);"></div></a>
+                <div class="whatWeDo-perks">
+                    <center><h3>Enjoy the view.</h3></div></center>
+                    <p>The modern and stylish COS offices are located in the <strong>heart of Charlottesville</strong> on the downtown pedestrian mall. Central Virginia and the Shenandoah mountains are right outside!</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
 
 <div id = "location"></div>
 <h3><strong>Where we live</strong></h3>
