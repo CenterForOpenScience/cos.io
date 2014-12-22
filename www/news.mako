@@ -1,6 +1,6 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">News</%def>
-<%def name="description()">The Center for Open Science news and updates.</%def>
+<%def name="title()">Center for Open Science News</%def>
+<%def name="description()">The Center for Open Science's home for news and press updates.</%def>
 
 <%def name="stylesheets()">
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
@@ -19,9 +19,8 @@
     <div class="container min-hight margin-top-50">
 
         <!--BEGIN DESCRIPTION -->
-        <h1><strong>What's all the buzz about?<br></strong></h1>
-        <br>
-        <p>Open science and transparency practices are hot topics in the scientific community and in the media at large. Read about COS, our projects,
+        <h1><strong>News</strong></h1>
+        <p class="lead">What's all the buzz about? Open science and transparency practices are hot topics in the scientific community and in the media at large. Read about COS, our projects,
         and related news below.</p>
         <br><br>
 
