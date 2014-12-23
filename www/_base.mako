@@ -36,7 +36,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="/involved_participate/">Participate</a></li>
-                        <li><a href="/involved_jobs/">Jobs</a></li>
+                        <li><a href="/jobs/">Jobs</a></li>
                     </ul>
                 </li>
                 <li class="dropdown ${ 'active' if page == 'communities' else ''}">
