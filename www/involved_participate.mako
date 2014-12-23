@@ -491,12 +491,12 @@
             the position and COS are welcome and can be sent to <a href="mailto:jobs@cos.io?subject=Join Our Team">jobs@cos.io.</a></p>
         <p><i>Developer internships.</i> Same as above but in summer or part-time internship form; students will work
             with our developers and carve out their own open science project. Please submit a resume and cover letter
-            via <a href="/involved_jobs" target="_blank">our jobs page</a>. Questions about the position and COS are welcome and can be sent to
+            via <a href="/jobs" target="_blank">our jobs page</a>. Questions about the position and COS are welcome and can be sent to
             <a href="mailto:jobs@cos.io?subject=Join Our Team">jobs@cos.io.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="/involved_jobs" target="_blank">
+        <a href="/jobs" target="_blank">
             <div class="action-box">
                 <i class="fa fa-briefcase"></i>
                 <p>Discover open positions</p>
