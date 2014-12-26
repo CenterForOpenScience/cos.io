@@ -233,7 +233,7 @@ ${self.body()}
 
   ga('create', 'UA-26813616-1', 'auto', {'allowLinker': true});
   ga('require', 'linker');
-  ga('linker:autoLink', ['openscienceframework.org'] );
+  ga('linker:autoLink', ['openscienceframework.org', 'osf.io'] );
   ga('send', 'pageview');
 
 </script>
