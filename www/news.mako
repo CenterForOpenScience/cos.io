@@ -31,6 +31,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href=" http://www.psmag.com/navigation/books-and-culture/trustworthy-published-science-97180/">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/psmag.png" width="125"></td>
+                                <td><h2 class="text-left">How Trustworthy is Published Science?</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">December 26, 2014 | There's some evidence of a reproducibility problem. But the more recent emphasis on exact replication of experiments may be misguided.</p>
+                    </a> 
                     <a class="col-md-4 service-box-v1" href="http://elifesciences.org/elife-news/Cancer-biology-reproducibility-effort-takes-another-step-forward">
                         <table>
                             <tr>
