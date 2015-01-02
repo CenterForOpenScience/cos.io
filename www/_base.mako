@@ -4,7 +4,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <%def name='navlinks(page)'>
         <!-- BEGIN TOP NAVIGATION MENU -->
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse col-md-7 col-md-offset-1" >
             <ul class="nav navbar-nav">
                 <li class="dropdown ${ 'active' if page.startswith('about') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
@@ -109,7 +109,8 @@
 <!-- BEGIN HEADER -->
 <div class="header navbar navbar-default navbar-default-top" id="blue-nav">
     <div class="container">
-        <div class="navbar-header">
+    <div class="row">
+        <div class="navbar-header col-md-4">
             <!-- BEGIN RESPONSIVE MENU TOGGLER -->
             <button class="navbar-toggle btn navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
@@ -123,10 +124,10 @@
             </a>
             <!-- END LOGO -->
         </div>
-    
     ${self.navigation()}
 
     </div>
+</div>
 </div>
 <!-- END HEADER -->
 
