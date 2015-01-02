@@ -58,12 +58,12 @@
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
-                ## <tr>
-                ##     <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
-                ##     <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
-                        
-                ##     </td>
-                ## </tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
+                    <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
+                        The American Geophysical Union has partnered with COS on the development of a directory aimed at helping Earth and space science authors and journals find appropriate places to deposit data based on data types, disciplines, and other relevant repository factors.
+                    </td>
+                </tr>
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="http://cega.berkeley.edu/programs/BITSS/"><img src="../static/img/icons/bitss.jpg" alt="BITSS"></a></td>
