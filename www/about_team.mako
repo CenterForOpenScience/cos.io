@@ -245,8 +245,8 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:qoebbxf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://www.linkedin.com/in/derekbbrooks" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/2g3m9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -467,8 +467,10 @@
             <h3>
                 Katya Davydova
                 <small> Human Resources Intern | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">kdav<span style="display:none;">null</span>ydova@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:xqnilqbin@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://www.linkedin.com/profile/view?id=200774365" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="http://osf.io/tfj5b" data-original-title="osf" class="osf"></a></li>
