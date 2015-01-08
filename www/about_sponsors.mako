@@ -37,16 +37,20 @@
                             <div class="portlet-tabs">
                                 <ul class="nav nav-tabs">
                                     <li class="active">
-                                        <a href="#portlet_tab2_2" data-toggle="tab">
+                                        <a href="#year_2015" data-toggle="tab">
+                                        2015 </a>
+                                    </li>
+                                    <li>
+                                        <a href="#year_2014" data-toggle="tab">
                                         2014 </a>
                                     </li>
                                     <li>
-                                        <a href="#portlet_tab2_1" data-toggle="tab">
+                                        <a href="#year_2013" data-toggle="tab">
                                         2013</a>
                                     </li>
                                 </ul>
                                 <div class="tab-content">
-                                    <div class="tab-pane" id="portlet_tab2_1">
+                                    <div class="tab-pane" id="year_2013">
                                         <table>
                                             <tr>
                                                 <td class="sponsor-center"><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
@@ -85,7 +89,7 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="tab-pane active" id="portlet_tab2_2">
+                                    <div class="tab-pane" id="year_2014">
                                         <table>
                                             <tr>
                                                 <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
@@ -152,7 +156,13 @@
                                                     Reagents for Reproducibility Project: Cancer Biology
                                                     </td>
                                                 </tr>
-                                                <tr class="spacer"></tr>  
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="buffer"><a href="http://www.bufferapp.com/"><img src="/static/img/icons/buffer.png"></a></td>
+                                                    <td><span class="med-font"><strong>Buffer</strong></span><br>Discount for social media scheduling services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
                                                 <tr>
                                                     <td class="sponsor-center" ><a href="http://www.cellsignal.com/"><img src="/static/img/icons/cst.jpg"></a></td>
                                                     <td><span class="med-font"><strong>Cell Signaling Technologies</strong></span><br>
@@ -251,9 +261,15 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" id="rackspace"><a href="http://www.rackspace.com/"><img src="/static/img/icons/rackspace.png"></a></td>
+                                                    <td><span class="med-font"><strong>Rackspace</strong></span><br>Monthly credit for cloud services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center"><a href="http://www.readyforce.com/"><img src="/static/img/icons/readyforce.png"></a></td>
                                                     <td><span class="med-font"><strong>Readyforce.com</strong></span><br>
-                                                    Recruitment<br>
+                                                    Use of recruitment services for developer internships<br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -280,12 +296,75 @@
                                                 <tr>
                                                     <td class="sponsor-center"><a href="http://www.zipfianacademy.com/"><img src="/static/img/icons/zipfian.png"></a></td>
                                                     <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
-                                                    Recruitment<br>
+                                                    Use of recruitment services for developers and statistical consultants<br>
                                                     </td>
                                                 </tr>
 
                                             </table>
 
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane active" id="year_2015">
+                                        <table>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
+                                                <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
+                                                <strong>$2,166,125</strong><br>
+                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
+                                                </td>
+                                            <tr class="spacer"></tr>
+                                            </tr>
+                                            <tr>
+                                                <td class="sponsor-center" ></td>
+                                                <td><span class="med-font"><strong>Anonymous Donor</strong></span><br>
+                                                <strong>$400,000</strong><br>
+                                               <br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
+                                                <strong>$331,400</strong><br>
+                                                The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div id="in-kind" class="margin-top-100">
+                                            <h3><strong>In-Kind Donations</strong></h3>
+                                            <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
+                                            <table  class="margin-top-50 donation-table">
+                                                <tr>
+                                                    <td class="sponsor-center" id="buffer"><a href="http://www.bufferapp.com/"><img src="/static/img/icons/buffer.png"></a></td>
+                                                    <td><span class="med-font"><strong>Buffer</strong></span><br>Discount for social media scheduling services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br>
+                                                    Professional editions of <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> and <a href="http://www.jetbrains.com/webstorm/">Webstorm</a> via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="mailchimp"><a href="http://www.mailchimp.com/"><img src="/static/img/icons/mailchimp.png"></a></td>
+                                                    <td><span class="med-font"><strong>Mailchimp</strong></span><br>Discount for email list subscription services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="rackspace"><a href="http://www.rackspace.com/"><img src="/static/img/icons/rackspace.png"></a></td>
+                                                    <td><span class="med-font"><strong>Rackspace</strong></span><br>Monthly credit for cloud services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="spanning"><a href="http://www.spanning.com/"><img src="/static/img/icons/spanning.png"></a></td>
+                                                    <td><span class="med-font"><strong>Spanning</strong></span><br>Non-profit discount on "Backup For Google Apps"<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                            </table>
                                         </div>
                                     </div>
                                 </div>
