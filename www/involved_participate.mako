@@ -234,6 +234,27 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/c8p6s/" target="_blank">
+                                <img src="../static/img/people/ambassadors/norm.jpg" alt="Norm Medeiros">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Norm Medeiros
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Haverford College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
                             <a href="https://osf.io/acfnb/" target="_blank">
                                 <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
                             </a>
