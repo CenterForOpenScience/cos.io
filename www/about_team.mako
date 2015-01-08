@@ -158,9 +158,9 @@
                 <small>Administrative Assistant Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/cmr3rm" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="http://www.linkedin.com/pub/casey-rollins/83/958/927/" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/q7fts/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://github.com/cgineste" data-original-title="GitHub" class="github"></a></li>
+                ## <li><a href="https://www.linkedin.com/in/catherineprudom" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/z8ji9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -422,9 +422,8 @@
                 <small>Administrative Assistant Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/edb8y/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="www.linkedin.com/pub/jillian-carrigan/a0/919/6b/" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/an7bp/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -575,8 +574,7 @@
                 <small>Administrative Assistant Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/mfraezz" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/d2c4i/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://osf.io/zn5bv/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
