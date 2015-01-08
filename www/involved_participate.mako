@@ -125,6 +125,29 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/9nsep/" target="_blank">
+                                <img src="/static/img/people/ambassadors/garret.jpg" alt="Garret Christensen">
+                            </a>    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Garret Christensen
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                UC Berkeley Center for Effective Global Action
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
                             <a href="https://osf.io/7x9sk/" target="_blank">
                                 <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
                             </a>
@@ -142,8 +165,6 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -186,6 +207,8 @@
                         </tr>
                     </table>
                 </td>
+            </tr>
+            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -207,8 +230,27 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/c8p6s/" target="_blank">
+                                <img src="../static/img/people/ambassadors/norm.jpg" alt="Norm Medeiros">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Norm Medeiros
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Haverford College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
                 <td>
                     <table class="ambassador-box">
                         <tr>

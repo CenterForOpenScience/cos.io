@@ -149,7 +149,21 @@
                 <li><a href="https://osf.io/q7fts/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
-    </li>    
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
+            <h3>
+                Catherine Gineste
+                <small>Administrative Assistant Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cmr3rm" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="http://www.linkedin.com/pub/casey-rollins/83/958/927/" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/q7fts/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/overstreet.jpg" alt="Chelsea Overstreet">
@@ -175,24 +189,6 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:puevffrgb@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/chrisseto" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/juwia/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/sheldon-hess.jpg" alt="Coral Sheldon-Hess">
-            <h3>
-                Coral Sheldon-Hess
-                <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">cor<span style="display:none;">null</span>al@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:pbeny@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/csheldonhess" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="http://www.linkedin.com/in/csheldonhess" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/x8hp3/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://coral.sheldon-hess.org" data-original-title="person" class="person"></a></li>
-                <li><a href="https://twitter.com/parody_bit" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -224,18 +220,6 @@
             </ul>
         </div>
     </li>
-     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/carter.jpg" alt="Dejah Carter">
-            <h3>
-                Dejah Carter
-                <small>Administrative Assistant Intern | Community </small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/a4xe3/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
@@ -248,6 +232,21 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:qravfr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/brooks.jpg" alt="Derek Brooks">
+            <h3>
+                Derek Brooks
+                <small>Human Resources Intern | Community </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dbroo<span style="display:none;">null</span>ks@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qoebbxf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="http://www.linkedin.com/in/derekbbrooks" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/2g3m9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -415,6 +414,20 @@
             </ul>
         </div>
     </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/carrigan.jpg" alt="Jillian Carrigan">
+            <h3>
+                Jillian Carrigan
+                <small>Administrative Assistant Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/edb8y/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/carp.jpg" alt="Josh Carp">
@@ -445,6 +458,22 @@
                 <li><a href="http://osf.io/i2tmd" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://katherinecain.photoshelter.com" data-original-title="Person" class="person"></a></li>
                 <li><a href="https://twitter.com/KatyCain526" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
+            <h3>
+                Katya Davydova
+                <small> Human Resources Intern | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">kdav<span style="display:none;">null</span>ydova@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:xqnilqbin@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/profile/view?id=200774365" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="http://osf.io/tfj5b" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -525,7 +554,7 @@
         </div>
     </li>
     </li>
-        <li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/frazier.jpg" alt="Matthew Frazier">
             <h3>
@@ -534,6 +563,19 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/mfraezz" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/d2c4i/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/renfro.jpg" alt="Megan Renfro">
+            <h3>
+                Megan Renfro
+                <small>Administrative Assistant Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/mfraezz" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/d2c4i/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -788,6 +830,22 @@
             </h3>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/sheldon-hess.jpg" alt="Coral Sheldon-Hess">
+            <h3>
+                Coral Sheldon-Hess
+                <small>Developer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/csheldonhess" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="http://www.linkedin.com/in/csheldonhess" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/x8hp3/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://coral.sheldon-hess.org" data-original-title="person" class="person"></a></li>
+                <li><a href="https://twitter.com/parody_bit" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
 <!--     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/wang.jpg" alt="Chun Wang">
@@ -800,6 +858,18 @@
             </ul>
         </div>
     </li> -->
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/carter.jpg" alt="Dejah Carter">
+            <h3>
+                Dejah Carter
+                <small>Administrative Assistant Intern | Community </small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/a4xe3/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
