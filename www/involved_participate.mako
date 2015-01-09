@@ -266,7 +266,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 MPI Collective Goods Institute
                             </td>
                         </tr>
