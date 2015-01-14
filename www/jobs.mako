@@ -489,50 +489,6 @@
         </div>
     </div>
 </div>
-<div id="WebDesigner" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#WebDesigner_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#WebDesigner" >
-                    Web Designer
-                </a>
-            </h4>
-        </div>
-        <div id="WebDesigner" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>Focus on the visual design, identity, and user experience of the <a href="http://cos.io">Center for Open Science</a>'s free and open source products and services.  Be part of an enthusiastic and motivated team that is helping science become more open and reproducible.  The Web Designer will employ leading edge design and user experience methods to create a professional, accessible, polished style for COS products, services, and web presence.  This role requires expert understanding of UI/UX fundamentals and design trends, an uncanny sense of style, color, layout, and typography; and someone who wants to contribute to a mission-driven, non-profit startup.</p>
-                        <p>See more on <a href="https://github.com/CenterForOpenScience/">Github</a>.</p>
-                    </dd>
-                    <dt> Responsibilities</dt>
-                    <dd>
-                        <p>Design and maintain the visual brand for COS products, foremost the <a href="http://osf.io">Open Science Framework</a> and its associated services; collaborate with community and infrastructure teams to match visual and interactive styles with COS products, services, and web presence; Align design and creative strategies with COS mission; Produce web and print photos, websites, banners, ads, videos, and more.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Seeks and employs cutting edge and modern web design techniques and tools; Outstanding information design abilities; Graphical expertise in Adobe products; Technical expertise in HTML, CSS, and Javascript; Understanding of modern techniques/frameworks and single-page/API-driven front-ends; Great communicator; Desire and passion in collaborating across many functional areas of the team; Strong abilities in presenting rationale behind strategic, architectural, and design decisions; Advocate for user experience; Team player; High energy, results-oriented, productive and dedicated to high quality.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!--END OPPORTUNITIES -->
