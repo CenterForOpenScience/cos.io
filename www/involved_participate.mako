@@ -262,7 +262,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Susann Fielder
+                                Susann Fiedler
                             </td>
                         </tr>
                         <tr>
