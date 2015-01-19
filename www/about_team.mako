@@ -93,7 +93,7 @@
             <img src="../static/img/people/nosek.jpg" alt="Brian Nosek">
             <h3>
                 Brian Nosek
-                <small>Co-founder</small>
+                <small>Co-founder, Executive Director</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nose<span style="display:none;">null</span>k@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
@@ -422,7 +422,7 @@
                 <small>Administrative Assistant Intern | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="www.linkedin.com/pub/jillian-carrigan/a0/919/6b/" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="http://www.linkedin.com/pub/jillian-carrigan/a0/919/6b/" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/an7bp/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
