@@ -462,7 +462,7 @@
                     <dt>Responsibilities</dt>
                     <dd>
                         <p>The Statistical and Methodological Consultants will provide active, hands-on consultation for reproducible best practices in data analysis and research design. This includes short-term visits to universities, departments, and laboratories; lectures and training at conferences; virtual consulting and training through emails and webinars; and development and maintenance of education materials and practical guides for distribution. Consulting services will include open science, reproducibility practices, data analysis, and research methodology.</p>
-                        <p>The Statistical and Methodological Consultants will assist in forming and maintaining COS’s  best practices for reproducible research, and collaborate with the whole COS team in making its infrastructure and products accessible, useful, and applicable to scientists across research disciplines..</p>
+                        <p>The Statistical and Methodological Consultants will assist in forming and maintaining COS’s  best practices for reproducible research, and collaborate with the whole COS team in making its infrastructure and products accessible, useful, and applicable to scientists across research disciplines.</p>
                     </dd>
                     <dt>Skills</dt>
                     <dd>
@@ -480,6 +480,48 @@
                     <dt>Travel</dt>
                     <dd>
                         <p>Travel will range from 25-50% time.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="WebDesignIntern" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#WebDesignIntern_heading">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+
+                <a data-parent="#WebDesignIntern" >
+                    Web Design Intern
+                </a>
+            </h4>
+        </div>
+        <div id="WebDesignIntern" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Focus on the visual design, identity, and user experience of the Center for Open Science’s (COS) free and open source products and services. Be part of an enthusiastic and motivated team that is helping science become more open and reproducible. The Web Designer Intern will employ leading edge design and user experience methods to create a professional, accessible, polished style for COS products, services, and web presence. This role requires expert understanding of UI/UX fundamentals and design trends, an uncanny sense of style, color, layout, and typography; and someone who wants to contribute to a mission-driven, non-profit startup. See more on GitHub.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <p>Design and maintain the visual brand for COS products, foremost the Open Science Framework and its associated services; collaborate with community and infrastructure teams to match visual and interactive styles with COS products, services, and web presence; Align design and creative strategies with COS mission; Produce web and print photos, websites, banners, ads, videos, and more.</p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Seeks and employs cutting edge and modern web design techniques and tools; Outstanding information design abilities; Graphical expertise in Adobe products; Great communicator; Desire and passion in collaborating across many functional areas of the team; Strong abilities in presenting rationale behind strategic, architectural, and design decisions; Advocate for user experience; Team player; High energy, results-oriented, productive and dedicated to high quality.</p>
+
+                        <p>Highly desired: Technical expertise in HTML, CSS, and Javascript; Understanding of modern techniques/frameworks and single-page/API-driven front-ends.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
