@@ -272,7 +272,7 @@
             <img src="../static/img/people/feilitzsch.jpg" alt="Fabian von Feilitzsch">
             <h3>
                 Fabian von Feilitzsch
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/fabianvf" data-original-title="GitHub" class="github"></a></li>
@@ -338,6 +338,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/mendell.jpg" alt="Himanshu Ojha">
+            <h3>
+                Harris Mendell
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/harrismendell" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/6r2an/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/ojha.jpg" alt="Himanshu Ojha">
             <h3>
                 Himanshu Ojha
@@ -347,6 +360,19 @@
                 <li><a href="https://github.com/himanshuo" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/in/himanshuo" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/dvsn9/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kumar.jpg" alt="Himica Kumar">
+            <h3>
+                Himica Kumar
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/himicakumar" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/3makx/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
