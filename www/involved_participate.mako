@@ -234,6 +234,27 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/rg9e3/" target="_blank">
+                                <img src="../static/img/people/ambassadors/nicole.jpg" alt="Nicole Janz">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Nicole Janz
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                University of Cambridge
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
                             <a href="https://osf.io/c8p6s/" target="_blank">
                                 <img src="../static/img/people/ambassadors/norm.jpg" alt="Norm Medeiros">
                             </a>
@@ -242,6 +263,29 @@
                         <tr>
                             <td class="ambassador-name">
                                 Norm Medeiros
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Haverford College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/jdstq/" target="_blank">
+                                <img src="../static/img/people/ambassadors/richard.jpg" alt="Richard Ball">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Richard Ball
                             </td>
                         </tr>
                         <tr>
@@ -262,7 +306,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Susann Fielder
+                                Susann Fiedler
                             </td>
                         </tr>
                         <tr>
