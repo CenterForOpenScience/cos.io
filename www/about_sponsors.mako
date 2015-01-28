@@ -307,25 +307,10 @@
                                     <div class="tab-pane active" id="year_2015">
                                         <table>
                                             <tr>
-                                                <td class="sponsor-center"><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
-                                                <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$2,166,125</strong><br>
-                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
-                                                </td>
-                                            <tr class="spacer"></tr>
-                                            </tr>
-                                            <tr>
-                                                <td class="sponsor-center" ></td>
-                                                <td><span class="med-font"><strong>Anonymous Donor</strong></span><br>
-                                                <strong>$400,000</strong><br>
-                                               <br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sponsor-center"><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a></td>
-                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
-                                                <strong>$331,400</strong><br>
-                                                The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
+                                                <td class="sponsor-center"><a href="http://www.nimh.nih.gov/index.shtml"><img src="/static/img/icons/nimh.gif"></a></td>
+                                                <td><span class="med-font"><strong>National Institute of Mental Health</strong></span><br>
+                                                <strong>$29,341</strong><br>
+                                                Subcontract from Prometheus Research for integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
                                                 </td>
                                             </tr>
                                         </table>
