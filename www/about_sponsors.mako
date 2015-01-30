@@ -319,8 +319,91 @@
                                             <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
                                             <table  class="margin-top-50 donation-table">
                                                 <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.atcc.org/"><img src="/static/img/icons/atcc.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>ATCC</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.biolegend.com/"><img src="/static/img/icons/biologo.png"></a></td>
+                                                    <td><span class="med-font"><strong>Biolegend</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="buffer"><a href="http://www.bufferapp.com/"><img src="/static/img/icons/buffer.png"></a></td>
                                                     <td><span class="med-font"><strong>Buffer</strong></span><br>Discount for social media scheduling services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.cellsignal.com/"><img src="/static/img/icons/cst.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>Cell Signaling Technologies</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.criver.com/"><img src="/static/img/icons/criver.png"></a></td>
+                                                    <td><span class="med-font"><strong>Charles River Laboratories</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.corning.com/index.aspx"><img src="/static/img/icons/corning.gif"></a></td>
+                                                    <td><span class="med-font"><strong>Corning Incorporated</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.ddcmedical.com/"><img src="/static/img/icons/ddc.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>DDC Medical</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.dreamhost.com/"><img src="/static/img/icons/dreamhost.png"></a></td>
+                                                    <td><span class="med-font"><strong>Dreamhost</strong></span><br>
+                                                    Free <a href="http://wiki.dreamhost.com/Non-profit_Discount">services for non-profits</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="square"><a href="http://www.emdmillipore.com/US/en?isCountryEMD=yes"><img src="/static/img/icons/milli.png"></a></td>
+                                                    <td><span class="med-font"><strong>EMD Millipore</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="square"><a href="https://www.flowdock.com/"><img src="/static/img/icons/flowdock-logo.png"></a></td>
+                                                    <td><span class="med-font"><strong>Flowdock</strong></span><br>
+                                                    Free access to their <a href="http://flowdock.com">team chat and collaboration</a> application<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="google"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
+                                                    <td><span class="med-font"><strong>Github</strong></span><br>
+                                                    Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="google"><a href="http://www.google.com"><img src="/static/img/icons/google2.png"></a></td>
+                                                    <td><span class="med-font"><strong>Google</strong></span><br>
+                                                    <a href="http://www.google.com/nonprofits/products/">Google Apps for non-profits</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="http://www.harlan.com/"><img src="/static/img/icons/harlan.png"></a></td>
+                                                    <td><span class="med-font"><strong>Harlan Laboratories</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -332,8 +415,29 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.licor.com/bio/"><img src="/static/img/icons/licor.png"></a></td>
+                                                    <td><span class="med-font"><strong>LI-COR Biosciences</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="mailchimp"><a href="http://www.mailchimp.com/"><img src="/static/img/icons/mailchimp.png"></a></td>
                                                     <td><span class="med-font"><strong>Mailchimp</strong></span><br>Discount for email list subscription services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="https://www.mirusbio.com/https://www.mirusbio.com/"><img src="/static/img/icons/mirus.png"></a></td>
+                                                    <td><span class="med-font"><strong>Mirus Bio</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="http://www.novusbio.com/"><img src="/static/img/icons/novus.png"></a></td>
+                                                    <td><span class="med-font"><strong>Novus Biologicals</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -344,11 +448,44 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center"><a href="http://www.readyforce.com/"><img src="/static/img/icons/readyforce.png"></a></td>
+                                                    <td><span class="med-font"><strong>Readyforce.com</strong></span><br>
+                                                    Use of recruitment services for developer internships<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="http://www.salesforce.com/desk/overview/"><img src="/static/img/icons/salesforce-desk.png"></a></td>
+                                                    <td><span class="med-font"><strong>Salesforce</strong></span><br>Non-profit discount for <a href="http://www.desk.com/">desk.com</a> through the Salesforce.com Foundation's <a href="http://www.salesforcefoundation.org/power-of-us/">Power of Us program</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="https://www.sigmaaldrich.com"><img src="/static/img/icons/sigma-aldrich.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>Sigma-Aldrich</strong></span><br>
+                                                   Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="spanning"><a href="http://www.spanning.com/"><img src="/static/img/icons/spanning.png"></a></td>
                                                     <td><span class="med-font"><strong>Spanning</strong></span><br>Non-profit discount on "Backup For Google Apps"<br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="https://teamgantt.com/"><img src="/static/img/icons/teamgantt.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>TeamGantt</strong></span><br>
+                                                   Expansion of plan to accommodate more team members<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="http://www.zipfianacademy.com/"><img src="/static/img/icons/zipfian.png"></a></td>
+                                                    <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
+                                                    Use of recruitment services for developers and statistical consultants<br>
+                                                    </td>
+                                                </tr>
                                             </table>
                                         </div>
                                     </div>
