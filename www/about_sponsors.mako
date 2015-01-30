@@ -310,7 +310,7 @@
                                                 <td class="sponsor-center"><a href="http://www.nimh.nih.gov/index.shtml"><img src="/static/img/icons/nimh.gif"></a></td>
                                                 <td><span class="med-font"><strong>National Institute of Mental Health</strong></span><br>
                                                 <strong>$29,341</strong><br>
-                                                Subcontract from Prometheus Research for integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
+                                                Subcontract from <a href="http://www.prometheusresearch.com/">Prometheus Research</a> for integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
                                                 </td>
                                             </tr>
                                         </table>
