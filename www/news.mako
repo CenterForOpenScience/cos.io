@@ -31,6 +31,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/WashingtonPost.png" width="125"></td>
+                                <td><h2 class="text-left">The new scientific revolution: Reproducibility at last</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">January 27, 2015 | Diederik Stapel, a professor of social psychology in the Netherlands, had been a rock-star scientist — regularly appearing on television and publishing in top journals. Among his striking discoveries was that people exposed to litter and abandoned objects are more likely to be bigoted.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href=" http://www.psmag.com/navigation/books-and-culture/trustworthy-published-science-97180/">
                         <table>
                             <tr>
