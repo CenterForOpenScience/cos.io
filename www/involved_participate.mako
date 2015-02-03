@@ -137,7 +137,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-instit">
-                                UC Berkeley Center for Effective Global Action
+                                UC Berkeley Center for<br>Effective Global Action
                             </td>
                         </tr>
                     </table>
@@ -202,7 +202,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-instit-padding">
-                                Tillburg University
+                                Tilburg University
                             </td>
                         </tr>
                     </table>
@@ -310,7 +310,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 MPI Collective Goods Institute
                             </td>
                         </tr>
