@@ -114,7 +114,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:otbetrf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="osf.io/3n6eh" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://osf.io/3n6eh" data-original-title="osf" class="osf"></a></li>
             
             </ul>
         </div>
@@ -642,7 +642,7 @@
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/zn5bv/" data-original-title="osf" class="osf"></a></li>
+                
             </ul>
         </div>
     </li>
@@ -719,20 +719,7 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/pfeiffer.jpg" alt="Nicole Pfeiffer">
-            <h3>
-                Nicole Pfeiffer
-                <small>QA Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
+    
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/liebowitz.jpg" alt="Robert Liebowitz">
@@ -1024,6 +1011,20 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/iqszn/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/pfeiffer.jpg" alt="Nicole Pfeiffer">
+            <h3>
+                Nicole Pfeiffer
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
