@@ -295,6 +295,27 @@
                         </tr>
                     </table>
                 </td>
+                   <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/tmwry/" target="_blank">
+                                <img src="../static/img/people/ambassadors/klein.jpg" alt="Richard Klein">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Richard Klein
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                University of Florida
+                            </td>
+                        </tr>
+                    </table>
+                </td>
                 <td>
                     <table class="ambassador-box">
                         <tr>
