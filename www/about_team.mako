@@ -824,7 +824,7 @@
     </li>
     <li class="col-md-3">
         <div class="thumbnail">
-            <img src="../static/img/people/paudel.jpg" alt="Wendy Zhu">
+            <img src="../static/img/people/paudel.jpg" alt="Wisher Paudel">
             <h3>
                 Wisher Paudel
                 <small>QA Intern | Infrastructure</small>
