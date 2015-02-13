@@ -679,7 +679,7 @@
                 $(".tab-pane").removeClass("active");
 
             ## add active class to appropriate tab
-            $("a[href='#"+tab+"'").parent().addClass("active");
+            $("a[href='#"+tab+"']").parent().addClass("active");
                 $("#"+tab).addClass("active");
             }
 
