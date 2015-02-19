@@ -121,7 +121,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/fitzgerald2.jpg" alt="Cailey Fitzgerald">
+            <img src="../static/img/people/fitzgerald3.jpg" alt="Cailey Fitzgerald">
             <h3>
                 Cailey Fitzgerald
                 <small>Developer Intern | Infrastructure</small>
@@ -340,10 +340,24 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/vuu.jpg" alt="Gina Vuu">
+            <h3>
+                Gina Vuu
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ginavuu" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/gina-vuu/a4/779/2a2" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/s3tzc/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
             <h3>
                 Ginny Huang
-                <small>Developer Intern | Infrastructure</small>
+                <small>QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
@@ -717,6 +731,20 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
             </ul>
+        </div>
+    </li>
+
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/hernandez.jpg" alt="Reina Hernandez">
+            <h3>
+                Reina Hernandez
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+            
+                    <li><a href="https://osf.io/3gs4f/" data-original-title="osf" class="osf"></a></li>
+                </ul>
         </div>
     </li>
     
