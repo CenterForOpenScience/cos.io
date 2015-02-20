@@ -678,19 +678,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/yao.jpg" alt="Michelle Yao">
-            <h3>
-                Michelle Yao
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-                <ul class="social-icons social-icons-color">
-                    <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/ufixg/" data-original-title="osf" class="osf"></a></li>
-                </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/chen.jpg" alt="Nan Chen">
             <h3>
                 Nan Chen
@@ -1038,6 +1025,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/iqszn/" data-original-title="osf" class="osf"></a></li>
             </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/yao.jpg" alt="Michelle Yao">
+            <h3>
+                Michelle Yao
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+                <ul class="social-icons social-icons-color">
+                    <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/ufixg/" data-original-title="osf" class="osf"></a></li>
+                </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
