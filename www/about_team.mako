@@ -438,21 +438,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/yuan.jpg" alt="Jinlu Yuan">
-            <h3>
-                Jinlu Yuan
-                <small>HR Intern | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jinl<span style="display:none;">null</span>u@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wlhna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/xbkq5/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/cohoon.jpg" alt="Johanna Cohoon">
             <h3>
                 Johanna Cohoon
@@ -840,7 +825,7 @@
             <img src="../static/img/people/alijan.jpg" alt="Zobair Alijan">
             <h3>
                 Zobair Alijan
-                <small>IT Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.facebook.com/zobair.chs" data-original-title="Facebook" class="facebook"></a></li>
@@ -973,6 +958,21 @@
                 <li><a href="https://github.com/mambocab" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/q4g5d/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://www4.ncsu.edu/~jwshephe/" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/yuan.jpg" alt="Jinlu Yuan">
+            <h3>
+                Jinlu Yuan
+                <small>HR Intern | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jinl<span style="display:none;">null</span>u@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wlhna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/xbkq5/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
