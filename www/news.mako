@@ -112,6 +112,15 @@
                         </table>
                         <p class="text-left">July/August, 2014 | Emerging leaders in psychological reproducibility came together at the 2014 APS Annual Convention in San Francisco to discuss their current efforts to enact this cultural shift toward a more open and ultimately more reliable way of conducting scientific research.</p>
                     </a>
+                    <a class="col-md-4 service-box-v1" href="http://spectrum.ieee.org/view-from-the-valley/at-work/tech-careers/engineer-tracy-chou-has-the-stats-on-workplace-diversity-at-startups">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/IEEE_Spectrum.png" width="125"></td>
+                                <td><h2 class="text-left">Engineer Tracy Chou Has the Stats on Workplace Diversity at Startups</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">August 22, 2014 | Where are all the women engineers? That’s a question on a lot of minds these past few months. A number of large companies—like Google, Facebook, Yahoo, Apple—have gone public with statistics about their workforces, and the numbers weren’t encouraging.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="http://www.slate.com/articles/health_and_science/science/2014/07/replication_controversy_in_psychology_bullying_file_drawer_effect_blog_posts.single.html">
                         <table>
                             <tr>
