@@ -29,7 +29,8 @@
                         <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
                     </ul>
                 </li>
-                 <li class="dropdown ${ 'active' if page.startswith('involved') else ''}">
+                 <li class="dropdown ${ 'active' if page.startswith('involved') else ''}
+                                     ${ 'active' if page.startswith('jobs') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         Get Involved
                         <i class="fa fa-angle-down"></i>
