@@ -146,6 +146,15 @@
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+                         <p>COS interns who have to relocate to Charlottesville will be eligible for reimbursement up to $250 for pre-approved travel costs (including rental car, taxi, plane, train, hotel, or mileage if using a personal vehicle). COS will assist interns with locating temporary housing in the area as well. Please refer to this relocation document for helpful tips on moving to Charlottesville for the summer.</p>
+                    </dd>
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                     <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p></dd>
