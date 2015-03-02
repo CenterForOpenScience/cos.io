@@ -705,7 +705,20 @@
             </ul>
         </div>
     </li>
-
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/pfeiffer.jpg" alt="Nicole Pfeiffer">
+            <h3>
+                Nicole Pfeiffer
+                <small>Software Quality Engineer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/hernandez.jpg" alt="Reina Hernandez">
@@ -1038,20 +1051,6 @@
                     <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/ufixg/" data-original-title="osf" class="osf"></a></li>
                 </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/pfeiffer.jpg" alt="Nicole Pfeiffer">
-            <h3>
-                Nicole Pfeiffer
-                <small>QA Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
-            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
