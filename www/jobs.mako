@@ -255,16 +255,16 @@
         </div>
     </div>
 </div>
-<div id="ProjectCoordinator" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectCoordinator_heading">
-                        <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#ProjectCoordinator" >
-                    Project Coordinator
-                </a>
-            </h4>
-        </div>
+## <div id="ProjectCoordinator" class="panel-group">
+##     <div class="panel panel-info">
+##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectCoordinator_heading">
+##                         <h4 class="panel-title">
+##                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                 <a  data-parent="#ProjectCoordinator" >
+##                     Project Coordinator
+##                 </a>
+##             </h4>
+##         </div>
 ##        <div id="ProjectCoordinator" class="panel-collapse collapse">
 ##           <div class="panel-body">
 ##                <dl class="dl-horizontal">
