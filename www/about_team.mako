@@ -473,9 +473,9 @@
             <h3>
                 Jordan Gold
                 <small>QA Intern | Infrastructure</small>
-                
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jeg3tw" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/e4zsq/" data-original-title="osf" class="osf"></a></li>
                 
             </ul>
@@ -641,7 +641,8 @@
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                
+                <li><a href="https://github.com/mmk4jq" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/vz8ug/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -833,6 +834,7 @@
                 <small>Developer Volunteer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/wentingzhu" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/kneic/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -1026,6 +1028,7 @@
                 <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/meli-lewis" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/5hdme/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
