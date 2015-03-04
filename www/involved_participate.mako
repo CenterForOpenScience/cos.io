@@ -137,7 +137,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-instit">
-                                UC Berkeley Center for Effective Global Action
+                                UC Berkeley Center for<br>Effective Global Action
                             </td>
                         </tr>
                     </table>
@@ -202,7 +202,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-instit-padding">
-                                Tillburg University
+                                Tilburg University
                             </td>
                         </tr>
                     </table>
@@ -295,6 +295,27 @@
                         </tr>
                     </table>
                 </td>
+                   <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/tmwry/" target="_blank">
+                                <img src="../static/img/people/ambassadors/klein.jpg" alt="Richard Klein">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Richard Klein
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                University of Florida
+                            </td>
+                        </tr>
+                    </table>
+                </td>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -310,7 +331,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="ambassador-instit">
+                            <td class="ambassador-instit-padding">
                                 MPI Collective Goods Institute
                             </td>
                         </tr>
@@ -658,7 +679,7 @@
                 $(".tab-pane").removeClass("active");
 
             ## add active class to appropriate tab
-            $("a[href='#"+tab+"'").parent().addClass("active");
+            $("a[href='#"+tab+"']").parent().addClass("active");
                 $("#"+tab).addClass("active");
             }
 

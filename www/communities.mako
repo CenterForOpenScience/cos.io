@@ -22,7 +22,7 @@
         <!-- BEGIN CONTENT -->
         <div class="community-content">
             <div class="row">
-                <div class="col-sm-12 margin-top-20">
+                <div class="col-sm-12 row margin-top-20">
                     <h1><strong>COS Communities</strong></h1>
                     <p class="lead">COS Communities blur the boundary between COS and the many individual and organizational
                     contributors to improving scientific practices. COS Communities form around particular products or services
