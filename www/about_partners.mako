@@ -29,22 +29,9 @@
             <br>
             <table class="margin-bottom-50">
                 <tr>
-                    <td class="sponsor-center"><a href="http://www.arl.org/"><img src="../static/img/icons/arl2.jpg" alt="Association of
-                     Research Libraries"></a></td>
-                    <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
-                        The Association of Research Libraries is a nonprofit organization comprised of university and research
-                        libraries across the United States. ARL is working in conjunction with COS to create the <a href="/pr/2014-06-02/">
-                        SHARE notification service</a> to connect scientists with relevant research.
-                    </td>
-                </tr>
-                <tr class="spacer"></tr>
-                <tr>
-                    <td class="sponsor-center"><a href="https://www.scienceexchange.com/"><img src="../static/img/icons/SE_Logo.png" alt="Science
-                    Exchange"></a></td>
-                    <td><span class="med-font"><strong>Science Exchange</strong></span><br>
-                       Science Exchange has partnered with COS to conduct the <a href="https://osf.io/e81xl/wiki/home/">
-                       Reproducibility Project: Cancer Biology.</a> Science Exchange organizes providers and connects research labs
-                       with the metascience effort.
+                    <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
+                    <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
+                        The American Geophysical Union has partnered with COS on the development of a directory aimed at helping Earth and space science authors and journals find appropriate places to deposit data based on data types, disciplines, and other relevant repository factors.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
@@ -59,18 +46,43 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
-                    <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
-                        The American Geophysical Union has partnered with COS on the development of a directory aimed at helping Earth and space science authors and journals find appropriate places to deposit data based on data types, disciplines, and other relevant repository factors.
+                    <td class="sponsor-center"><a href="http://www.arl.org/"><img src="../static/img/icons/arl2.jpg" alt="Association of
+                     Research Libraries"></a></td>
+                    <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
+                        The Association of Research Libraries is a nonprofit organization comprised of university and research
+                        libraries across the United States. ARL is working in conjunction with COS to create the <a href="/pr/2014-06-02/">
+                        SHARE notification service</a> to connect scientists with relevant research.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="http://cega.berkeley.edu/programs/BITSS/"><img src="../static/img/icons/bitss.jpg" alt="BITSS"></a></td>
                     <td><span class="med-font"><strong>Berkeley Initiative for Transparency in the Social Sciences</strong></span><br>
-                        BITSS works with COS to increase reproducibility and transparency in social sciences. BITSS provides workshops
-                        and training for social scientists, including instruction on using the <a href="https://osf.io">Open
-                        Science Framework</a>.
+                        BITSS works with COS to increase reproducibility and transparency in social sciences. BITSS provides workshops and training for social scientists, including instruction on using the <a href="https://osf.io">Open Science Framework</a>.
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://elifesciences.org"><img src="../static/img/icons/elife.jpg" alt="BITSS"></a></td>
+                    <td><span class="med-font"><strong>elife Sciences Publications</strong></span><br>
+                        eLife has partnered with COS and Science Exchange to be the publisher for the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>. Each paper that will be replicated for the metascience project will undergo peer review at eLife using the Registered Report format with the results of these experiments published in a <a href="http://elifesciences.org/collections/reproducibility-project-cancer-biology">Replication Study.</a>
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://www.prometheusresearch.com/"><img src="../static/img/icons/prometheus.jpg" alt="BITSS"></a></td>
+                    <td><span class="med-font"><strong>Prometheus Research</strong></span><br>
+                       Prometheus Research has partnered with COS on use of the OSF and its application programming interface (API), to connect with their open source, integrated <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments. This will enable OSF users to easily utilize EDC instruments within their OSF projects</a>.
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="https://www.scienceexchange.com/"><img src="../static/img/icons/SE_Logo.png" alt="Science
+                    Exchange"></a></td>
+                    <td><span class="med-font"><strong>Science Exchange</strong></span><br>
+                       Science Exchange has partnered with COS to conduct the <a href="https://osf.io/e81xl/wiki/home/">
+                       Reproducibility Project: Cancer Biology</a>. Science Exchange organizes providers and connects research labs
+                       with the metascience effort.
                     </td>
                 </tr>
             </table>
