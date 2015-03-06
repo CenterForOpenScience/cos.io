@@ -225,7 +225,7 @@
             <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 Courtney Soderberg
-                <small>Statisical Consultant | Community</small>
+                <small>Statistical Consultant | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">court<span style="display:none;">null</span>ney@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
