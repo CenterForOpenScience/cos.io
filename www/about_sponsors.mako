@@ -307,6 +307,14 @@
                                     <div class="tab-pane active" id="year_2015">
                                         <table>
                                             <tr>
+                                                <td class="sponsor-center"><a href="http://www.hewlett.org/programs/global-development-population"><img src="/static/img/icons/hewlett.jpeg"></a></td>
+                                                <td><span class="med-font"><strong>The William and Flora Hewlett Foundation</strong></span><br>
+                                                <strong>$100,000</strong><br>
+                                                The William and Flora Hewlett Foundation granted an award for planning a strategy to support transparent and reproducible research practices in Africa.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
                                                 <td class="sponsor-center"><a href="http://www.nimh.nih.gov/index.shtml"><img src="/static/img/icons/nimh.gif"></a></td>
                                                 <td><span class="med-font"><strong>National Institute of Mental Health</strong></span><br>
                                                 <strong>$29,341</strong><br>
