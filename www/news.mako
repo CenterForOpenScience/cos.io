@@ -39,7 +39,7 @@
                                 <h2>COS: Quarterly Update</h2></td>
                             </tr>
                         </table>
-                        <p class="text-left"> March 09, 2015 | This is a summary report of progress during the our December 2014 to February 2015 epic and some highlights of our plans for March to May 2015.</p>
+                        <p class="text-left"> March 09, 2015 | This is a summary report of progress during our December 2014 to February 2015 quarter and some highlights of our plans for March to May 2015.</p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html">
                         <table>
