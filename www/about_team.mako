@@ -357,7 +357,7 @@
             <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
             <h3>
                 Ginny Huang
-                <small>QA Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
@@ -690,20 +690,6 @@
                     <li><a href="https://github.com/chennan47" data-original-title="GitHub" class="github"></a></li>
                     <li><a href="https://osf.io/njqpw/" data-original-title="osf" class="osf"></a></li>
                 </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
-            <h3>
-                Natasha Welcher
-                <small>HR Assistant | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
-            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -1056,6 +1042,20 @@
                     <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/ufixg/" data-original-title="osf" class="osf"></a></li>
                 </ul>
+        </div>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
+            <h3>
+                Natasha Welcher
+                <small>HR Assistant | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
+            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
