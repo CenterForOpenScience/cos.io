@@ -32,7 +32,7 @@
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
                     
-                     <a class="col-md-4 service-box-v1" href="http://us9.campaign-archive2.com/?u=4ea2d63bcf7c2776e53a62167&id=b9a78b6985&e=e77644b5a8">
+                     <a class="col-md-4 service-box-v1" href="http://us9.campaign-archive2.com/?u=4ea2d63bcf7c2776e53a62167&id=b9a78b6985">
                         <table>
                             <tr>
                                 <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/cos_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
