@@ -211,50 +211,50 @@
 ##         </div>
 ##     </div>
 ## </div>
-<div id="ITIntern" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#ITIntern" >
-                    IT Intern
-                </a>
-            </h4>
-        </div>
-        <div id="ITIntern" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>Contribute to the operational efficiency of a growing small business.  The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to help support day-to-day technical IT operations.  With a growing team and office environment, COS has a growing amount of hardware and software to manage and maintain.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Educational background in computer engineering, electrical engineering, computer science, IT, or other related areas; Strong collaborative personality and ability to work across diverse teams; Strong sense of customer support and interaction; Commitment to delivering quality service; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization.</p>
-
-                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
+##<div id="ITIntern" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
+##            <h4 class="panel-title">
+##               <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#ITIntern" >
+##                    IT Intern
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="ITIntern" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt>
+##                    <dd>
+##                        <p>Contribute to the operational efficiency of a growing small business.  The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to help support day-to-day technical IT operations.  With a growing team and office environment, COS has a growing amount of hardware and software to manage and maintain.</p>
+##                    </dd>
+##                    <dt>Responsibilities</dt>
+##                    <dd>
+##                        <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
+##                    </dd>
+##                    <dt>Skills</dt>
+##                    <dd>
+##                        <p>Educational background in computer engineering, electrical engineering, computer science, IT, or other related areas; Strong collaborative personality and ability to work across diverse teams; Strong sense of customer support and interaction; Commitment to delivering quality service; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization.</p>
+##
+##                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+##                    </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                    </dd>
+##                    <dt>Benefits</dt>
+##                    <dd>
+##                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
+##                    </dd>
+##                </dl>
+##            </div>
+##        </div>
+##    </div>
+##</div>
 ## <div id="ProjectCoordinator" class="panel-group">
 ##     <div class="panel panel-info">
 ##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectCoordinator_heading">
