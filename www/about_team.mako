@@ -237,6 +237,22 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/mellor.jpg" alt="David Mellor">
+            <h3>
+                David Mellor
+                <small>Project Manager | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dav<span style="display:none;">null</span>id@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qnivq@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://osf.io/qthsf/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://www.linkedin.com/in/davidtmellor" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://twitter.com/evomellor" data-original-title="twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
             <h3>
                 Denise Holman

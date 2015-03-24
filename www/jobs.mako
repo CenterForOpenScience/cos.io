@@ -589,8 +589,10 @@
 <br><br>
 <p>Check out our <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
 
-<h3><br><strong>What we do</strong></h3>
-<p>We work on the cutting edge of open source software. We are mission driven - increasing openness and reproducibility in science research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure. Read an <a href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html" target="_blank">article in the Washington Post</a> about us!</p>
+<h3><br><strong>What we do</strong></h3><br><br>
+<div style="text-align:center"><iframe width="750" height="500" src="https://www.youtube.com/embed/LJDOr5LIB38" frameborder="0" allowfullscreen></iframe></div>
+
+<table><tr><td width="14%"></td><td width="72%"><p><strong>We work on the cutting edge of open source software. We are mission driven </strong>-- increasing openness and reproducibility in scientific research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure. Read an <a href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html" target="_blank">article in the Washington Post</a> about us!</p></td><td width="14%"></td></tr></table> 
 <br>
 
 <div class="row">
