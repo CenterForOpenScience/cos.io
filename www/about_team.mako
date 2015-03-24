@@ -237,6 +237,22 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/mellor.jpg" alt="David Mellor">
+            <h3>
+                David Mellor
+                <small>Project Manager | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dav<span style="display:none;">null</span>id@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qnivq@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://osf.io/qthsf/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://www.linkedin.com/in/davidtmellor" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://twitter.com/evomellor" data-original-title="twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
             <h3>
                 Denise Holman
@@ -925,22 +941,7 @@
             </h3>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/sheldon-hess.jpg" alt="Coral Sheldon-Hess">
-            <h3>
-                Coral Sheldon-Hess
-                <small>Developer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/csheldonhess" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="http://www.linkedin.com/in/csheldonhess" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/x8hp3/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://coral.sheldon-hess.org" data-original-title="person" class="person"></a></li>
-                <li><a href="https://twitter.com/parody_bit" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
+   
 <!--     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/wang.jpg" alt="Chun Wang">

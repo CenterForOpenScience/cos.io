@@ -125,6 +125,30 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/e5fh9/" target="_blank">
+                                <img src="../static/img/people/ambassadors/schonbrodt.jpg" alt="Felix Schönbrod">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Felix Schönbrod
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                Ludwig-Maximilians-Universität München
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
                             <a href="https://osf.io/9nsep/" target="_blank">
                                 <img src="/static/img/people/ambassadors/garret.jpg" alt="Garret Christensen">
                             </a>    
@@ -142,8 +166,6 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -186,7 +208,10 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+               
+            </tr>
+            <tr>
+                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -207,8 +232,6 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -251,7 +274,10 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+            
+            </tr>
+            <tr>
+                    <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -272,8 +298,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
+
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -316,7 +341,9 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+            </tr>
+            <tr>
+                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
