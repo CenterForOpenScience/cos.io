@@ -911,22 +911,6 @@
             </h3>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/sheldon-hess.jpg" alt="Coral Sheldon-Hess">
-            <h3>
-                Coral Sheldon-Hess
-                <small>Developer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/csheldonhess" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="http://www.linkedin.com/in/csheldonhess" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/x8hp3/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://coral.sheldon-hess.org" data-original-title="person" class="person"></a></li>
-                <li><a href="https://twitter.com/parody_bit" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
 <!--     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/wang.jpg" alt="Chun Wang">
