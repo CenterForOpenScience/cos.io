@@ -209,19 +209,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
-            <h3>
-                Cornelius Nelson
-                <small>Developer Volunteer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/bxcty/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 Courtney Soderberg
@@ -923,6 +910,19 @@
             </ul>
         </div>
     </li> -->
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
+            <h3>
+                Cornelius Nelson
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bxcty/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/carter.jpg" alt="Dejah Carter">
