@@ -167,20 +167,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
-            <h3>
-                Catherine Gineste
-                <small>Administrative Assistant Intern | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/cgineste" data-original-title="GitHub" class="github"></a></li>
-                ## <li><a href="https://www.linkedin.com/in/catherineprudom" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/z8ji9/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/overstreet.jpg" alt="Chelsea Overstreet">
             <h3>
                 Chelsea Overstreet
@@ -250,21 +236,6 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:qravfr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/brooks.jpg" alt="Derek Brooks">
-            <h3>
-                Derek Brooks
-                <small>Human Resources Intern | Community </small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dbroo<span style="display:none;">null</span>ks@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qoebbxf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://www.linkedin.com/in/derekbbrooks" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/2g3m9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -418,20 +389,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/himicakumar" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/3makx/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
-            <h3>
-                Jake Rosenberg
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.facebook.com/jakerose27" data-original-title="Facebook" class="facebook"></a></li>
-                <li><a href="https://github.com/jakerose27" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/bnpaa/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -891,6 +848,20 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
+            <h3>
+                Catherine Gineste
+                <small>Administrative Assistant Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cgineste" data-original-title="GitHub" class="github"></a></li>
+                ## <li><a href="https://www.linkedin.com/in/catherineprudom" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/z8ji9/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/bischak.jpg" alt="Chris Bischak">
             <h3>
                 Chris Bischak
@@ -937,6 +908,21 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/brooks.jpg" alt="Derek Brooks">
+            <h3>
+                Derek Brooks
+                <small>Human Resources Intern | Community </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dbroo<span style="display:none;">null</span>ks@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qoebbxf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="http://www.linkedin.com/in/derekbbrooks" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/2g3m9/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
             <h3>
                 Erica Baranski
@@ -946,6 +932,20 @@
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
+            <h3>
+                Jake Rosenberg
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/jakerose27" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/jakerose27" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bnpaa/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
