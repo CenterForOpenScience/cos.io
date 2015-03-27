@@ -912,10 +912,8 @@
             <h3>
                 Derek Brooks
                 <small>Human Resources Intern | Community </small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dbroo<span style="display:none;">null</span>ks@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qoebbxf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://www.linkedin.com/in/derekbbrooks" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/2g3m9/" data-original-title="osf" class="osf"></a></li>
             </ul>
