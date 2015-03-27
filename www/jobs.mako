@@ -346,48 +346,48 @@
 ##        </div>
 ##    </div>
 ##</div>
-<div id="Recruiter" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Recruiter_heading">
-                        <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#Recruiter" >
-                    Recruiter
-                </a>
-            </h4>
-        </div>
-        <div id="Recruiter" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>Contribute to the growth needs of a rapidly growing, non-profit, tech startup with over $14M in initial funding.  The <a href="http://centerforopenscience.org">Center for Open Science (COS)</a> is a mission-driven organization seeking a highly-motivated individual to join the team as a full-time recruiter.  The team is passionate about improving science, uses modern web and API practices, and has expertise across the web development stack.  The recruiting effort will focus on tech talent, and there will be frequent needs in other specialized science and general operation roles.  Successful candidates will bring some experience in recruiting, enthusiasm for science and technology, and, particularly, motivation to take on responsibility for COS’s recruiting efforts.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                    <p>Perform recruiting activities throughout the hiring process including (but not limited to):  sourcing, screening, coordination of interviews, communication with candidates, preparation of offer letters, and initial onboarding activities. Conduct sourcing of candidates using many strategies, including:  posting to university career sites and social media, recruiting at career fairs and hackathons, and identifying opportunities in the community.   Track and monitor ROI for recruiting efforts. Embrace the organizational values of openness, inclusivity, and transparency. Travel is estimated to average about one week per month.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Bachelor’s degree. Excellent interpersonal and presentation skills, strong problem solving abilities, strong sense of ownership, self-starter, initiative, at least 2 years of experience with recruiting in some form, demonstrated success in prior recruiting efforts, some prior experience with Applicant Tracking Systems.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
+##<div id="Recruiter" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Recruiter_heading">
+##                        <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#Recruiter" >
+##                    Recruiter
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="Recruiter" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt>
+##                    <dd>
+##                        <p>Contribute to the growth needs of a rapidly growing, non-profit, tech startup with over $14M in initial funding.  The <a href="http://centerforopenscience.org">Center for Open Science (COS)</a> is a mission-driven organization seeking a highly-motivated individual to join the team as a full-time recruiter.  The team is passionate about improving science, uses modern web and API practices, and has expertise across the web development stack.  The recruiting effort will focus on tech talent, and there will be frequent needs in other specialized science and general operation roles.  Successful candidates will bring some experience in recruiting, enthusiasm for science and technology, and, particularly, motivation to take on responsibility for COS’s recruiting efforts.</p>
+##                    </dd>
+##                    <dt>Responsibilities</dt>
+##                    <dd>
+##                    <p>Perform recruiting activities throughout the hiring process including (but not limited to):  sourcing, screening, coordination of interviews, communication with candidates, preparation of offer letters, and initial onboarding activities. Conduct sourcing of candidates using many strategies, including:  posting to university career sites and social media, recruiting at career fairs and hackathons, and identifying opportunities in the community.   Track and monitor ROI for recruiting efforts. Embrace the organizational values of openness, inclusivity, and transparency. Travel is estimated to average about one week per month.</p>
+##                    </dd>
+##                    <dt>Skills</dt>
+##                    <dd>
+##                        <p>Bachelor’s degree. Excellent interpersonal and presentation skills, strong problem solving abilities, strong sense of ownership, self-starter, initiative, at least 2 years of experience with recruiting in some form, demonstrated success in prior recruiting efforts, some prior experience with Applicant Tracking Systems.</p>
+##                    </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                    </dd>
+##                    <dt>Benefits</dt>
+##                    <dd>
+##                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
+##                    </dd>
+##                </dl>
+##            </div>
+##        </div>
+##    </div>
+##</div>
 ## <div id="QATestEngineerIntern" class="panel-group">
 ##     <div class="panel panel-info">
 ##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
