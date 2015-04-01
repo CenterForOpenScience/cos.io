@@ -79,7 +79,7 @@
         <h3><strong>Ambassadors</strong></h3>
         <table>
             <tr>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -100,7 +100,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -121,7 +121,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -144,7 +144,7 @@
                 </td>                  
             </tr>
             <tr>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -165,7 +165,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -186,7 +186,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -209,7 +209,7 @@
                 </td>               
             </tr>
             <tr>
-                 <td>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -230,7 +230,7 @@
                         </tr>
                     </table>
                 </td>
-                 <td>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -251,7 +251,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -274,7 +274,7 @@
                 </td>           
             </tr>
             <tr>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -295,7 +295,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -316,7 +316,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -339,7 +339,7 @@
                 </td>
             </tr>
             <tr>
-                 <td>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -360,7 +360,7 @@
                         </tr>
                     </table>
                 </td>
-                   <td>
+                   <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -381,7 +381,7 @@
                         </tr>
                     </table>
                 </td>
-                 <td>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">

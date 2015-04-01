@@ -456,23 +456,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/cain.jpg" alt="Katy Cain">
-            <h3>
-                Katy Cain
-                <small> Social Media Intern | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.facebook.com/KattherineCain?ref=bookmarks" data-original-title="Facebook" class="facebook"></a></li>
-                <li><a href="https://github.com/KatyCain526" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="http://www.linkedin.com/pub/katherine-cain/a0/26a/a18" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="http://osf.io/i2tmd" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://katherinecain.photoshelter.com" data-original-title="Person" class="person"></a></li>
-                <li><a href="https://twitter.com/KatyCain526" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
             <h3>
                 Katya Davydova
@@ -985,6 +968,23 @@
                 <li><a href="https://github.com/jmcarp" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/icpnw/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/whatthecarp" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/cain.jpg" alt="Katy Cain">
+            <h3>
+                Katy Cain
+                <small> Social Media Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/KattherineCain?ref=bookmarks" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/KatyCain526" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="http://www.linkedin.com/pub/katherine-cain/a0/26a/a18" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="http://osf.io/i2tmd" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://katherinecain.photoshelter.com" data-original-title="Person" class="person"></a></li>
+                <li><a href="https://twitter.com/KatyCain526" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
