@@ -105,7 +105,7 @@
                         <tr>
                             <td class="ambassador-img">
                             <a href="https://osf.io/u8rmv/" target="_blank">
-                                <img src="/static/img/people/ambassadors/pagegould.jpg" alt="Elizabeth Page-Gould">
+                                <img src="/static/img/people/ambassadors/pagegould.png" alt="Elizabeth Page-Gould">
                             </a>    
                             </td>
                         </tr>
@@ -141,7 +141,9 @@
                             </td>
                         </tr>
                     </table>
-                </td>
+                </td>                  
+            </tr>
+            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -163,9 +165,6 @@
                         </tr>
                     </table>
                 </td>
-                
-            </tr>
-            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -207,8 +206,10 @@
                             </td>
                         </tr>
                     </table>
-                </td>
-                <td>
+                </td>               
+            </tr>
+            <tr>
+                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -229,9 +230,6 @@
                         </tr>
                     </table>
                 </td>
-               
-            </tr>
-            <tr>
                  <td>
                     <table class="ambassador-box">
                         <tr>
@@ -273,7 +271,9 @@
                             </td>
                         </tr>
                     </table>
-                </td>
+                </td>           
+            </tr>
+            <tr>
                 <td>
                     <table class="ambassador-box">
                         <tr>
@@ -316,10 +316,7 @@
                         </tr>
                     </table>
                 </td>
-            
-            </tr>
-            <tr>
-                    <td>
+                <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -340,8 +337,9 @@
                         </tr>
                     </table>
                 </td>
-
-                <td>
+            </tr>
+            <tr>
+                 <td>
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -383,8 +381,6 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
                  <td>
                     <table class="ambassador-box">
                         <tr>
