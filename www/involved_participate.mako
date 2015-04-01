@@ -104,6 +104,27 @@
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
+                            <a href="https://osf.io/u8rmv/" target="_blank">
+                                <img src="/static/img/people/ambassadors/pagegould.jpg" alt="Elizabeth Page-Gould">
+                            </a>    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Elizabeth Page-Gould
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                University of Toronto
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
                             <a href="https://osf.io/gqx2h/" target="_blank">
                                 <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
                             </a>    
@@ -249,6 +270,27 @@
                         <tr>
                             <td class="ambassador-instit-padding">
                                 Pacific Lutheran University
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/3dmgk/" target="_blank">
+                                <img src="../static/img/people/ambassadors/woo.JPG" alt="Kara Woo">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Kara Woo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                National Center for Ecological Analysis and Synthesis
                             </td>
                         </tr>
                     </table>
