@@ -211,50 +211,50 @@
 ##         </div>
 ##     </div>
 ## </div>
-<div id="ITIntern" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#ITIntern" >
-                    IT Intern
-                </a>
-            </h4>
-        </div>
-        <div id="ITIntern" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>Contribute to the operational efficiency of a growing small business.  The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to help support day-to-day technical IT operations.  With a growing team and office environment, COS has a growing amount of hardware and software to manage and maintain.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Educational background in computer engineering, electrical engineering, computer science, IT, or other related areas; Strong collaborative personality and ability to work across diverse teams; Strong sense of customer support and interaction; Commitment to delivering quality service; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization.</p>
-
-                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
+##<div id="ITIntern" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
+##            <h4 class="panel-title">
+##               <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#ITIntern" >
+##                    IT Intern
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="ITIntern" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt>
+##                    <dd>
+##                        <p>Contribute to the operational efficiency of a growing small business.  The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to help support day-to-day technical IT operations.  With a growing team and office environment, COS has a growing amount of hardware and software to manage and maintain.</p>
+##                    </dd>
+##                    <dt>Responsibilities</dt>
+##                    <dd>
+##                        <p>COS is a mostly Apple shop, offering all employees and interns access to Mac laptops, large screen displays and workstations.  Beyond end user workstations, this internship would involve training for support in routers, access points, projectors, displays, Apple TVs, portable storage devices, security systems, configuration of online services including Google Apps for Non-Profits, and more.  There will be opportunities to learn techniques for automation of processes.</p>
+##                    </dd>
+##                    <dt>Skills</dt>
+##                    <dd>
+##                        <p>Educational background in computer engineering, electrical engineering, computer science, IT, or other related areas; Strong collaborative personality and ability to work across diverse teams; Strong sense of customer support and interaction; Commitment to delivering quality service; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization.</p>
+##
+##                        <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+##                    </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                    </dd>
+##                    <dt>Benefits</dt>
+##                    <dd>
+##                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
+##                    </dd>
+##                </dl>
+##            </div>
+##        </div>
+##    </div>
+##</div>
 ## <div id="ProjectCoordinator" class="panel-group">
 ##     <div class="panel panel-info">
 ##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectCoordinator_heading">
@@ -346,48 +346,48 @@
 ##        </div>
 ##    </div>
 ##</div>
-<div id="Recruiter" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Recruiter_heading">
-                        <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#Recruiter" >
-                    Recruiter
-                </a>
-            </h4>
-        </div>
-        <div id="Recruiter" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>Contribute to the growth needs of a rapidly growing, non-profit, tech startup with over $14M in initial funding.  The <a href="http://centerforopenscience.org">Center for Open Science (COS)</a> is a mission-driven organization seeking a highly-motivated individual to join the team as a full-time recruiter.  The team is passionate about improving science, uses modern web and API practices, and has expertise across the web development stack.  The recruiting effort will focus on tech talent, and there will be frequent needs in other specialized science and general operation roles.  Successful candidates will bring some experience in recruiting, enthusiasm for science and technology, and, particularly, motivation to take on responsibility for COS’s recruiting efforts.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                    <p>Perform recruiting activities throughout the hiring process including (but not limited to):  sourcing, screening, coordination of interviews, communication with candidates, preparation of offer letters, and initial onboarding activities. Conduct sourcing of candidates using many strategies, including:  posting to university career sites and social media, recruiting at career fairs and hackathons, and identifying opportunities in the community.   Track and monitor ROI for recruiting efforts. Embrace the organizational values of openness, inclusivity, and transparency. Travel is estimated to average about one week per month.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Bachelor’s degree. Excellent interpersonal and presentation skills, strong problem solving abilities, strong sense of ownership, self-starter, initiative, at least 2 years of experience with recruiting in some form, demonstrated success in prior recruiting efforts, some prior experience with Applicant Tracking Systems.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
+##<div id="Recruiter" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Recruiter_heading">
+##                        <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#Recruiter" >
+##                    Recruiter
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="Recruiter" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt>
+##                    <dd>
+##                        <p>Contribute to the growth needs of a rapidly growing, non-profit, tech startup with over $14M in initial funding.  The <a href="http://centerforopenscience.org">Center for Open Science (COS)</a> is a mission-driven organization seeking a highly-motivated individual to join the team as a full-time recruiter.  The team is passionate about improving science, uses modern web and API practices, and has expertise across the web development stack.  The recruiting effort will focus on tech talent, and there will be frequent needs in other specialized science and general operation roles.  Successful candidates will bring some experience in recruiting, enthusiasm for science and technology, and, particularly, motivation to take on responsibility for COS’s recruiting efforts.</p>
+##                    </dd>
+##                    <dt>Responsibilities</dt>
+##                    <dd>
+##                    <p>Perform recruiting activities throughout the hiring process including (but not limited to):  sourcing, screening, coordination of interviews, communication with candidates, preparation of offer letters, and initial onboarding activities. Conduct sourcing of candidates using many strategies, including:  posting to university career sites and social media, recruiting at career fairs and hackathons, and identifying opportunities in the community.   Track and monitor ROI for recruiting efforts. Embrace the organizational values of openness, inclusivity, and transparency. Travel is estimated to average about one week per month.</p>
+##                    </dd>
+##                    <dt>Skills</dt>
+##                    <dd>
+##                        <p>Bachelor’s degree. Excellent interpersonal and presentation skills, strong problem solving abilities, strong sense of ownership, self-starter, initiative, at least 2 years of experience with recruiting in some form, demonstrated success in prior recruiting efforts, some prior experience with Applicant Tracking Systems.</p>
+##                    </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                    </dd>
+##                    <dt>Benefits</dt>
+##                    <dd>
+##                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
+##                    </dd>
+##                </dl>
+##            </div>
+##        </div>
+##    </div>
+##</div>
 ## <div id="QATestEngineerIntern" class="panel-group">
 ##     <div class="panel panel-info">
 ##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
@@ -589,8 +589,10 @@
 <br><br>
 <p>Check out our <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
 
-<h3><br><strong>What we do</strong></h3>
-<p>We work on the cutting edge of open source software. We are mission driven - increasing openness and reproducibility in science research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure. Read an <a href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html" target="_blank">article in the Washington Post</a> about us!</p>
+<h3><br><strong>What we do</strong></h3><br><br>
+<div style="text-align:center"><iframe width="750" height="500" src="https://www.youtube.com/embed/LJDOr5LIB38" frameborder="0" allowfullscreen></iframe></div>
+
+<table><tr><td width="14%"></td><td width="72%"><p><strong>We work on the cutting edge of open source software. We are mission driven </strong>-- increasing openness and reproducibility in scientific research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure. Read an <a href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html" target="_blank">article in the Washington Post</a> about us!</p></td><td width="14%"></td></tr></table> 
 <br>
 
 <div class="row">

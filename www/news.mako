@@ -31,6 +31,16 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    
+                     <a class="col-md-4 service-box-v1" href="http://us9.campaign-archive2.com/?u=4ea2d63bcf7c2776e53a62167&id=b9a78b6985">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/cos_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>COS: Quarterly Update</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left"> March 09, 2015 | This is a summary report of progress during our December 2014 to February 2015 quarter and some highlights of our plans for March to May 2015.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html">
                         <table>
                             <tr>

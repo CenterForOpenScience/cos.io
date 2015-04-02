@@ -167,20 +167,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
-            <h3>
-                Catherine Gineste
-                <small>Administrative Assistant Intern | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/cgineste" data-original-title="GitHub" class="github"></a></li>
-                ## <li><a href="https://www.linkedin.com/in/catherineprudom" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/z8ji9/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/overstreet.jpg" alt="Chelsea Overstreet">
             <h3>
                 Chelsea Overstreet
@@ -209,29 +195,32 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
-            <h3>
-                Cornelius Nelson
-                <small>Developer Volunteer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/bxcty/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 Courtney Soderberg
-                <small>Statisical Consultant | Community</small>
+                <small>Statistical Consultant | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">court<span style="display:none;">null</span>ney@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
 
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:pbhegarl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://osf.io/hsey5/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/mellor.jpg" alt="David Mellor">
+            <h3>
+                David Mellor
+                <small>Project Manager | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dav<span style="display:none;">null</span>id@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qnivq@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://osf.io/qthsf/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://www.linkedin.com/in/davidtmellor" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://twitter.com/evomellor" data-original-title="twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -247,21 +236,6 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:qravfr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/brooks.jpg" alt="Derek Brooks">
-            <h3>
-                Derek Brooks
-                <small>Human Resources Intern | Community </small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">dbroo<span style="display:none;">null</span>ks@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qoebbxf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://www.linkedin.com/in/derekbbrooks" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/2g3m9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -357,7 +331,7 @@
             <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
             <h3>
                 Ginny Huang
-                <small>QA Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
@@ -415,20 +389,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/himicakumar" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/3makx/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
-            <h3>
-                Jake Rosenberg
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.facebook.com/jakerose27" data-original-title="Facebook" class="facebook"></a></li>
-                <li><a href="https://github.com/jakerose27" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/bnpaa/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -491,22 +451,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="http://www.linkedin.com/pub/jillian-carrigan/a0/919/6b/" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/an7bp/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/carp.jpg" alt="Josh Carp">
-            <h3>
-                Josh Carp
-                <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jos<span style="display:none;">null</span>h@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbfu@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/jmcarp" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/icpnw/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://twitter.com/whatthecarp" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -690,20 +634,6 @@
                     <li><a href="https://github.com/chennan47" data-original-title="GitHub" class="github"></a></li>
                     <li><a href="https://osf.io/njqpw/" data-original-title="osf" class="osf"></a></li>
                 </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
-            <h3>
-                Natasha Welcher
-                <small>HR Assistant | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
-            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
@@ -918,27 +848,25 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
+            <h3>
+                Catherine Gineste
+                <small>Administrative Assistant Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cgineste" data-original-title="GitHub" class="github"></a></li>
+                ## <li><a href="https://www.linkedin.com/in/catherineprudom" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/z8ji9/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/bischak.jpg" alt="Chris Bischak">
             <h3>
                 Chris Bischak
                 <small>Developer Intern | Infrastructure</small>
             </h3>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/sheldon-hess.jpg" alt="Coral Sheldon-Hess">
-            <h3>
-                Coral Sheldon-Hess
-                <small>Developer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/csheldonhess" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="http://www.linkedin.com/in/csheldonhess" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/x8hp3/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://coral.sheldon-hess.org" data-original-title="person" class="person"></a></li>
-                <li><a href="https://twitter.com/parody_bit" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
         </div>
     </li>
 <!--     <li class="col-md-3 space-mobile">
@@ -953,6 +881,19 @@
             </ul>
         </div>
     </li> -->
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
+            <h3>
+                Cornelius Nelson
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bxcty/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/carter.jpg" alt="Dejah Carter">
@@ -967,6 +908,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/brooks.jpg" alt="Derek Brooks">
+            <h3>
+                Derek Brooks
+                <small>Human Resources Intern | Community </small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www.linkedin.com/in/derekbbrooks" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/2g3m9/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/baranski.jpg" alt="Erica Baranski">
             <h3>
                 Erica Baranski
@@ -976,6 +930,20 @@
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
+            <h3>
+                Jake Rosenberg
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/jakerose27" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/jakerose27" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bnpaa/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1003,6 +971,20 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/xbkq5/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/carp.jpg" alt="Josh Carp">
+            <h3>
+                Josh Carp
+                <small>Developer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jmcarp" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/icpnw/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/whatthecarp" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -1056,6 +1038,18 @@
                     <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/ufixg/" data-original-title="osf" class="osf"></a></li>
                 </ul>
+        </div>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
+            <h3>
+                Natasha Welcher
+                <small>HR Assistant | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
+            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
