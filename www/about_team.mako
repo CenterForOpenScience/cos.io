@@ -81,7 +81,7 @@
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bil<span style="display:none;">null</span>ly@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbunaan@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ovyyl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://www.linkedin.com/profile/view?id=285397262" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://github.com/billyhunt" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/e5c7r/" data-original-title="osf" class="osf"></a></li>
@@ -346,19 +346,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
-            <h3>
-                Ginny Huang
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/ij94f/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/mendell.jpg" alt="Himanshu Ojha">
             <h3>
                 Harris Mendell
@@ -454,7 +441,7 @@
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jol<span style="display:none;">null</span>ene@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbunaan@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbyrar@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/jolene-esposito" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/wmp4n/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -947,6 +934,19 @@
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
+            <h3>
+                Ginny Huang
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/ij94f/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>

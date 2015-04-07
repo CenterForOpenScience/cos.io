@@ -20,9 +20,7 @@
     <link rel="stylesheet" href="https://osf.io/static/public/css/common.css?a45164e6">
     <link href='//fonts.googleapis.com/css?family=Carrois+Gothic|Inika|Patua+One' rel='stylesheet' type='text/css'>
 
-<%def name="navigation()">
-    ${self.navlinks('about')}
-</%def>
+
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
@@ -40,7 +38,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-6">
                         <div class="center" style="margin-bottom: 15px;">
-                            <img src="/static/img/cos_connected.png" height="220" width="530"/>
+                            <img src="/static/img/cos_connected.png" height="300" width="615"/>
                         </div>
                         <p class="hpSubHeadTwo center">Project management with collaborators,<br> project sharing with the public</p>
                         <p class="hpSubHeadOne" style="margin-top: 30px;">The OSF supports the entire research lifecycle: planning, execution, reporting, archiving, and discovery.</p>
@@ -59,11 +57,11 @@
                 </div>
                 <div class="row text-center">
                 <div class="col-sm-6 hpFeature">
-                        <p>The OSF has improved our research workflow. The components feature makes it really orderly.</p>
-                        <div class="hpFeatureInfo">-<a href="https://osf.io/e5cjd/">Rodrigo Garcia</a>, Head of Bioinformatics, National Institute of Genomic Medicine, Mexico</div>
+                        <p>The OSF has revolutionized my ability to manage multiple research projects as part of my teaching workload.</p>
+                        <div class="hpFeatureInfo">-<a href="https://osf.io/z7mt6/">Anne Allison</a>, Associate Professor of Biology, Piedmont Virginia Community College</div>
                     </div>
                     <div class="col-sm-6 hpFeature">
-                        <p>The OSF is an effective tool to help our students understand and apply sound data management principles ot their work.</p>
+                        <p>The OSF is an effective tool to help our students understand and apply sound data management principles to their work.</p>
                         <div class="hpFeatureInfo">-<a href="https://osf.io/c8p6s/">Norm Medeiros</a> and <a href="https://osf.io/jdstq/">Richard Ball</a>, Project TIER, Haverford College</div>
                     </div>
                     <div class="col-sm-6 hpFeature">
@@ -71,8 +69,8 @@
                         <div class="hpFeatureInfo">-<a href="https://osf.io/gqx2h/">Erica Baranski</a>, PhD Student, UC Riverside</div>
                     </div>
                     <div class="col-sm-6 hpFeature">
-                        <p>The OSF has revolutionized my ability to manage multiple authentic research projects as part of my teaching workload.</p>
-                        <div class="hpFeatureInfo">-<a href="https://osf.io/z7mt6/">Anne Allison</a>, Associate Professor of Biology, Piedmont Virginia Community College</div>
+                        <p>The OSF has improved our research workflow. Having an authoritative version of our files available to all members of the project is great.</p>
+                        <div class="hpFeatureInfo">-<a href="https://osf.io/e5cjd/">Rodrigo Garcia</a>, Head of Bioinformatics, National Institute of Genomic Medicine, Mexico</div>
                     </div>
                     <div class="row text-center hpHeader">
                         <div class="col-md-12">

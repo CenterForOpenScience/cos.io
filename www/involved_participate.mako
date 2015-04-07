@@ -155,7 +155,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Felix Schönbrod
+                                Felix Schönbrodt
                             </td>
                         </tr>
                         <tr>
