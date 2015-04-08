@@ -552,14 +552,20 @@ body {
 
 /*Opportunities*/
 
+.ambassador-data {
+    vertical-align: top;
+}
+
 .ambassador-box {
     margin: 25px;
+    width: 202px;
 }
 .ambassador-action-box {
     height: 135px;
 }
 .ambassador-img img{
     width: 200px;
+    height: 200px;
     border-radius: 50% !important;
 }
 .ambassador-name {

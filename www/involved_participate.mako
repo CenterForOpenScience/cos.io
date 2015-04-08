@@ -79,7 +79,7 @@
         <h3><strong>Ambassadors</strong></h3>
         <table>
             <tr>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -100,7 +100,28 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/u8rmv/" target="_blank">
+                                <img src="/static/img/people/ambassadors/pagegould.png" alt="Elizabeth Page-Gould">
+                            </a>    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Elizabeth Page-Gould
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                University of Toronto
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -120,8 +141,10 @@
                             </td>
                         </tr>
                     </table>
-                </td>
-                <td>
+                </td>                  
+            </tr>
+            <tr>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -132,7 +155,7 @@
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Felix Schönbrod
+                                Felix Schönbrodt
                             </td>
                         </tr>
                         <tr>
@@ -142,10 +165,7 @@
                         </tr>
                     </table>
                 </td>
-                
-            </tr>
-            <tr>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -166,7 +186,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -186,8 +206,10 @@
                             </td>
                         </tr>
                     </table>
-                </td>
-                <td>
+                </td>               
+            </tr>
+            <tr>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -208,10 +230,7 @@
                         </tr>
                     </table>
                 </td>
-               
-            </tr>
-            <tr>
-                 <td>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -232,7 +251,7 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -252,8 +271,31 @@
                             </td>
                         </tr>
                     </table>
+                </td>           
+            </tr>
+            <tr>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/3dmgk/" target="_blank">
+                                <img src="../static/img/people/ambassadors/woo.JPG" alt="Kara Woo">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Kara Woo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                National Center for Ecological Analysis and Synthesis
+                            </td>
+                        </tr>
+                    </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -274,10 +316,7 @@
                         </tr>
                     </table>
                 </td>
-            
-            </tr>
-            <tr>
-                    <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -298,8 +337,9 @@
                         </tr>
                     </table>
                 </td>
-
-                <td>
+            </tr>
+            <tr>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -320,7 +360,7 @@
                         </tr>
                     </table>
                 </td>
-                   <td>
+                   <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -341,9 +381,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
-                 <td>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">

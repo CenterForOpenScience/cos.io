@@ -74,6 +74,24 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/hunt.jpg" alt="Billy Hunt">
+            <h3>
+                Billy Hunt
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bil<span style="display:none;">null</span>ly@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ovyyl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/profile/view?id=285397262" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://github.com/billyhunt" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/e5c7r/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://billyhunt.com/" data-original-title="Person" class="person"></a></li>
+                <li><a href="https://twitter.com/billyhunt" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/geiger.jpg" alt="Brian Geiger">
             <h3>
                 Brian Geiger
@@ -328,19 +346,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
-            <h3>
-                Ginny Huang
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/ij94f/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/mendell.jpg" alt="Himanshu Ojha">
             <h3>
                 Harris Mendell
@@ -427,6 +432,21 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/esposito.jpg" alt="Jolene Esposito">
+            <h3>
+                Jolene Esposito
+                <small>Project Manager | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jol<span style="display:none;">null</span>ene@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbyrar@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/jolene-esposito" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/wmp4n/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/gold.jpg" alt="Jordan Gold">
@@ -451,23 +471,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="http://www.linkedin.com/pub/jillian-carrigan/a0/919/6b/" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/an7bp/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/cain.jpg" alt="Katy Cain">
-            <h3>
-                Katy Cain
-                <small> Social Media Intern | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.facebook.com/KattherineCain?ref=bookmarks" data-original-title="Facebook" class="facebook"></a></li>
-                <li><a href="https://github.com/KatyCain526" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="http://www.linkedin.com/pub/katherine-cain/a0/26a/a18" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="http://osf.io/i2tmd" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://katherinecain.photoshelter.com" data-original-title="Person" class="person"></a></li>
-                <li><a href="https://twitter.com/KatyCain526" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -720,6 +723,7 @@
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:fnen@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
 
+                <li><a href="https://github.com/saradbowman" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/profile/view?id=81587328" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/d9ehg/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -935,6 +939,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
+            <h3>
+                Ginny Huang
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/huangginny" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/ij94f/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
             <h3>
                 Jake Rosenberg
@@ -985,6 +1002,23 @@
                 <li><a href="https://github.com/jmcarp" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/icpnw/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/whatthecarp" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/cain.jpg" alt="Katy Cain">
+            <h3>
+                Katy Cain
+                <small> Social Media Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/KattherineCain?ref=bookmarks" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/KatyCain526" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="http://www.linkedin.com/pub/katherine-cain/a0/26a/a18" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="http://osf.io/i2tmd" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://katherinecain.photoshelter.com" data-original-title="Person" class="person"></a></li>
+                <li><a href="https://twitter.com/KatyCain526" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>

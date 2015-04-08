@@ -85,6 +85,13 @@
                        with the metascience effort.
                     </td>
                 </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://www.tessexperiments.org/"><img src="../static/img/icons/TESSLogo.jpg" alt="TESS"></a></td>
+                    <td><span class="med-font"><strong>Time-sharing Experiments for the Social Sciences</strong></span><br>
+                       Time-sharing Experiments for the Social Sciences (TESS) is an NSF-funded project that supports free data collections on representative samples of U.S. adults for experimental research. COS and TESS have partnered to host TESS's entire historical and future data catalog of more than 300 experiments on the Open Science Framework.
+                    </td>
+                </tr>
             </table>
         </div>
         <!-- END OUR PARTNERS -->
