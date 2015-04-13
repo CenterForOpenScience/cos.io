@@ -34,13 +34,23 @@
                     </div>
                     <!-- BEGIN LISTS -->
                     <div class="col-md-8 col-sm-12 ">
-                  <p>Reproducibility of research can be improved by increasing transparency of the research process and products. The TOP Guidelines provide a template to enhance transparency in the science that journals publish.  With minor adaptation of the text, funders can adopt these guidelines for research that they fund. The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org">SCIENCE Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.</p>
-
-                     <p>The TOP Guidelines Committee, sponsored by the <a href="http://cos.io">Center for Open Science</a>, maintains an <a href="https://osf.io/9f6gx/">information commons</a> for transparency standards, serves as an advisory group for journals and funders, evaluate guidelines’ effectiveness, and manages guideline updating to maximize quality and interdisciplinary applicability.  Updates to standards are recorded with version number and date.  Adopting journals and funders can denote the version number that they adopt to facilitate tracking and updating of standards over time.</p>
-                  <br>
+                  <p>Reproducibility of research can be improved by increasing transparency of the research process and products. The TOP Guidelines provide a template to enhance transparency in the science that journals publish.  With minor adaptation of the text, funders can adopt these guidelines for research that they fund.</p>
+                  <p>Journal editors and publishers are encouraged to adopt TOP for their author guidelines to increase the transparency and reproducibility of the research that they publish.</p>
+<br>
+                  <p><b>The TOP Guidelines describe 8 categories of tranparency:</b> 
+                  <ul><li>Citation
+                  <li>Data Transparency
+                  <li>Analytic methods (code) transparency
+                  <li>Research materials transparency
+                  <li>Design and analysis transparency
+                  <li>Preregistration of studies
+                  <li>Preregistration of analysis plans
+                  <li>Replications
+                  </ul> 
                   <br>
                   <a href="https://osf.io/9f6gx/"><h1>Read the Guidelines</h1></a>
-                   
+                  <br>
+                  <p>The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org">SCIENCE Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.</p>
 
                     </div>
                     
