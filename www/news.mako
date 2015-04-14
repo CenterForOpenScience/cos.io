@@ -32,6 +32,15 @@
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
                     
+                     <a class="col-md-4 service-box-v1" href="http://www.share-research.org/2015/04/share-launches-beta-of-share-notify-for-informing-stakeholders-when-research-is-released/">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/share.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>SHARE Launches Beta of SHARE Notify for Informing Stakeholders When Research Is Released</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left"> April 14, 2015 | To make research more widely accessible, discoverable, and reusable, SHARE is launching today a public beta version of its free notification service, SHARE Notify.</p>
+                    </a>
                      <a class="col-md-4 service-box-v1" href="http://us9.campaign-archive2.com/?u=4ea2d63bcf7c2776e53a62167&id=b9a78b6985">
                         <table>
                             <tr>
