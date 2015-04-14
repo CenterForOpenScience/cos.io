@@ -279,7 +279,7 @@
                         <tr>
                             <td class="ambassador-img">
                             <a href="https://osf.io/3dmgk/" target="_blank">
-                                <img src="../static/img/people/ambassadors/woo.JPG" alt="Kara Woo">
+                                <img src="../static/img/people/ambassadors/woo.jpg" alt="Kara Woo">
                             </a>
                             </td>
                         </tr>
