@@ -381,6 +381,29 @@
                         </tr>
                     </table>
                 </td>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/5ju9e/" target="_blank">
+                                <img src="../static/img/people/ambassadors/lake.jpg" alt="Sherry Lake">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Sherry Lake
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                University of Virginia
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
                  <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
