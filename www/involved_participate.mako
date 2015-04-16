@@ -279,7 +279,7 @@
                         <tr>
                             <td class="ambassador-img">
                             <a href="https://osf.io/3dmgk/" target="_blank">
-                                <img src="../static/img/people/ambassadors/woo.JPG" alt="Kara Woo">
+                                <img src="../static/img/people/ambassadors/woo.jpg" alt="Kara Woo">
                             </a>
                             </td>
                         </tr>
@@ -381,6 +381,29 @@
                         </tr>
                     </table>
                 </td>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/5ju9e/" target="_blank">
+                                <img src="../static/img/people/ambassadors/lake.jpg" alt="Sherry Lake">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Sherry Lake
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                University of Virginia
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
                  <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>

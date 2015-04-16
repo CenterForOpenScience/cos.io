@@ -26,49 +26,63 @@
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile">
                 <h1><strong>Guidelines for Transparency and Openness Promotion (TOP)</strong></h1>
-<br>
+                <br>
 
                 <div class="row margin-bottom-20">
-                    <div class="col-md-4">
-                        <img src="/static/img/icons/venndiagram.png" id="venn">
+                    <div class="col-md-3">
+                        <img src="/static/img/pics/top-pen.png">
                     </div>
                     <!-- BEGIN LISTS -->
-                    <div class="col-md-8 col-sm-12 ">
-                  <p>Reproducibility of research can be improved by increasing transparency of the research process and products. The TOP Guidelines provide a template to enhance transparency in the science that journals publish.  With minor adaptation of the text, funders can adopt these guidelines for research that they fund. The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org">SCIENCE Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.</p>
 
-                     <p>The TOP Guidelines Committee, sponsored by the <a href="http://cos.io">Center for Open Science</a>, maintains an <a href="https://osf.io/9f6gx/">information commons</a> for transparency standards, serves as an advisory group for journals and funders, evaluate guidelines’ effectiveness, and manages guideline updating to maximize quality and interdisciplinary applicability.  Updates to standards are recorded with version number and date.  Adopting journals and funders can denote the version number that they adopt to facilitate tracking and updating of standards over time.</p>
-                  <br>
-                  <br>
-                  <a href="https://osf.io/9f6gx/"><h1>Read the Guidelines</h1></a>
-                   
+                    <div class="col-md-9 col-sm-12 ">
+                        <p>The TOP Guidelines were developed by researchers, journal editors, and funders in the social and behavioral sciences.
+                            They provide concrete items that organizations may use to increase transparency in published research.</p>
 
+                        <p>Journal editors and publishers are encouraged to adopt the TOP for their author guidelines to increase
+                            the transparency and reproducibility of the research that they publish. Funders can also adapt the
+                            text to direct their grantees toward more transparent practices.</p>
+                        <h4 class="margin-top-40">The TOP Guidelines describe 8 categories of transparency:</h4>
+                        <ul>
+                            <li>Citation</li>
+                            <li>Data Transparency</li>
+                            <li>Analytic methods (code) transparency</li>
+                            <li>Research materials transparency</li>
+                            <li>Design and analysis transparency</li>
+                            <li>Preregistration of studies</li>
+                            <li>Preregistration of analysis plans</li>
+                            <li>Replications</li>
+                        </ul>
+
+                        <h1 class="margin-top-40"><a href="https://osf.io/9f6gx/">Read the Guidelines</a></h1>
+
+                        <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org">SCIENCE Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.</p>
                     </div>
-                    
+
                     <!-- END LISTS -->
                 </div>
 
 
 
-            <!-- END INFO BLOCK -->
+                <!-- END INFO BLOCK -->
+            </div>
         </div>
+        <!--End Container-->
     </div>
-    <!--End Container-->
-</div>
-<!-- END PAGE CONTAINER -->
+    <!-- END PAGE CONTAINER -->
 
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-<%def name="javascript_bottom()">
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <%def name="javascript_bottom()">
 
-    <script type="text/javascript" src="../static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="../static/plugins/jquery.mixitup.min.js"></script>
-    <script src="../static/scripts/app.js"></script>
-    <script src="../static/scripts/portfolio.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            App.init();
-            Portfolio.init();
-        });
-    </script>
+            <script type="text/javascript" src="../static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+            <script src="../static/plugins/jquery.mixitup.min.js"></script>
+            <script src="../static/scripts/app.js"></script>
+            <script src="../static/scripts/portfolio.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function() {
+                    App.init();
+                    Portfolio.init();
+                });
+            </script>
 
-</%def>
-<!-- END PAGE LEVEL JAVASCRIPTS -->
+    </%def>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->

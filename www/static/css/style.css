@@ -64,7 +64,7 @@ h1.block, h2.block, h3.block, h4.block, h5.block, h6.block {
 h2, h2 a {
   color: #444;
   font-size: 21px;
-  font-weight: 400;
+
   line-height: 26px;
   text-decoration: none;
 }
@@ -286,6 +286,11 @@ Misc tools
 .margin-top-100 {
   margin-top: 100px !important;
 }
+
+.margin-top-130 {
+  margin-top: 130px !important;
+}
+
 .margin-bottom-100 {
     margin-bottom: 100px !important;
 }
