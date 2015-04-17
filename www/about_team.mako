@@ -588,7 +588,7 @@
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/mmk4jq" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://github.com/megankelly" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/vz8ug/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
