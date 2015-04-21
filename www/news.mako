@@ -31,7 +31,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
-                    
+                    <a class="col-md-4 service-box-v1" href="../pr/2015-04-21/">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/open_trials.png" width="150"></td>
+                                <td><h2 class="text-left">Open Trials: Open Knowledge announces plans for open, online database of clinical trials</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">April 21st, 2015 | Open Knowledge today announced plans to develop Open Trials, an open, online database of information about the world’s clinical research trials funded by the Laura and John Arnold Foundation. The project, which is designed to increase transparency and improve access to research, will be directed by Ben Goldacre, an internationally known leader on clinical transparency.</p>
+                    </a>
                      <a class="col-md-4 service-box-v1" href="http://www.share-research.org/2015/04/share-launches-beta-of-share-notify-for-informing-stakeholders-when-research-is-released/">
                         <table>
                             <tr>
