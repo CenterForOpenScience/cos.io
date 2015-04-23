@@ -174,7 +174,7 @@
             <img src="../static/img/people/kugler.jpg" alt="Casey Kugler">
             <h3>
                 Casey Kugler
-                <small>Technical Recruiter | Community</small>
+                <small>Recruiter | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">casey.ku<span style="display:none;">null</span>gler@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
