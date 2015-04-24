@@ -273,7 +273,28 @@
                     </table>
                 </td>
             </tr>
-            <tr>    
+            <tr>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/zm6tg/" target="_blank">
+                                <img src="../static/img/people/ambassadors/sly.JPG" alt="Jim Sly">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Jim Sly
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Missouri State University
+                            </td>
+                        </tr>
+                    </table>
+                </td>           
                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
@@ -316,6 +337,8 @@
                         </tr>
                     </table>
                 </td>
+            </tr>
+            <tr>
                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
@@ -337,8 +360,6 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>    
                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
@@ -381,6 +402,8 @@
                         </tr>
                     </table>
                 </td>
+            </tr>
+            <tr>     
                    <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
@@ -402,8 +425,6 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>    
                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
