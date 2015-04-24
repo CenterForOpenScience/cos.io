@@ -44,10 +44,28 @@
                         <table>
                             <tr>
                                 <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/share.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
-                                <h2>SHARE Launches Beta of SHARE Notify for Informing Stakeholders When Research Is Released</h2></td>
+                                <h2>SHARE Launches Beta of SHARE Notify</h2></td>
                             </tr>
                         </table>
                         <p class="text-left"> April 14, 2015 | To make research more widely accessible, discoverable, and reusable, SHARE is launching today a public beta version of its free notification service, SHARE Notify.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://wmra.org/post/toward-more-open-science-charlottesville">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/wmra.jpeg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>Toward More Open Science in Charlottesville</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left"> April 14, 2015 | In a scientific utopia, communication is open, data are accurate and results are reproducible.  That’s the kind of environment The Center for Open Science in Charlottesville is trying to provide for its users. WMRA’s Kara Lofton has the story.</p>
+                    </a>
+                      <a class="col-md-4 service-box-v1" href="http://www.biotechniques.com/BiotechniquesJournal/2015/April/THE-IMMORTAL-CHALLENGE/biotechniques-357777.html">
+                        <table>
+                            <tr>
+                                <td class="text-left" style="padding-bottom: 15px"><img src="../static/img/icons/biotechniques.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px">
+                                <h2>THE IMMORTAL CHALLENGE</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left"> April 2015 | Reproducibility in life science is a hot button topic at the moment. Jeffrey Perkel examines the ways in which stem cell researchers are dealing with this issue in their work. The Reproducibility Project: Cancer Biology is highlighted.</p>
                     </a>
                      <a class="col-md-4 service-box-v1" href="http://us9.campaign-archive2.com/?u=4ea2d63bcf7c2776e53a62167&id=b9a78b6985">
                         <table>
