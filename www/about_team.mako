@@ -61,7 +61,7 @@
             <img src="../static/img/people/ferronato.jpg" alt="Betsy Ferronato">
             <h3>
                 Betsy Ferronato
-                <small>Human Resources Intern| Community</small>
+                <small>Human Resources Assistant | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bet<span style="display:none;">null</span>sy@cos<span style="display:none;">null</span>.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
@@ -380,8 +380,10 @@
             <h3>
                 Harry Rybacki
                 <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">har<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:uneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/HarryRybacki" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/uycv3/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -615,10 +617,14 @@
             <img src="../static/img/people/renfro.jpg" alt="Megan Renfro">
             <h3>
                 Megan Renfro
-                <small>Administrative Assistant Intern | Community</small>
+                <small>Administrative Assistant | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mren<span style="display:none;">null</span>fro@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+            <li><script type="text/javascript">document.write("<n uers=\"znvygb:zeraseb@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/pub/megan-renfro/b5/800/287" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/zn5bv/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/chimnysphere" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -669,6 +675,19 @@
                 <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/muggill.jpg" alt="Patrick Muggill">
+            <h3>
+                Patrick Muggill
+                <small>IT Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www.linkedin.com/in/patrickmuggill" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/239eh/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
