@@ -279,7 +279,7 @@
                         <tr>
                             <td class="ambassador-img">
                             <a href="https://osf.io/zm6tg/" target="_blank">
-                                <img src="../static/img/people/ambassadors/sly.JPG" alt="Jim Sly">
+                                <img src="../static/img/people/ambassadors/sly.jpg" alt="Jim Sly">
                             </a>
                             </td>
                         </tr>
