@@ -739,3 +739,14 @@ body {
     max-height: 45px;
     max-width: 100px;
 }
+
+/*Prereg*/
+#pre-reg-slogan {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.pre-reg p {
+    font-size: 21px;
+    font-weight: 300;
+}
