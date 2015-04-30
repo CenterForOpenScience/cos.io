@@ -727,7 +727,7 @@
                 <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="http://github.com/shc7pw" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://github.com/samchrisinger" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/4ur7b/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
