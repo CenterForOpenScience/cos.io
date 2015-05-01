@@ -276,20 +276,10 @@ INSTALLED_APPS = (
     'nested_inline',
     "ckeditor",
     "django_extlog",
-    #"email_obfuscator",
     "django_extensions",
-    #"import_export",
     "email_obfuscator",
     "csvimport",
     'orderedmodel',
-
-
-
-
-
-
-
-
 
 )
 
