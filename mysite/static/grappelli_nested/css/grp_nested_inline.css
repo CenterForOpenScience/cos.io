@@ -1,0 +1,9 @@
+/* INLINES */
+.nested-inline {
+    margin: 0;
+}
+.nested-inline .nested-inline {
+    border: 1px solid #AAAAAA;
+    margin: 12px 1% 17px 1%;
+    width: 97.6%;
+}

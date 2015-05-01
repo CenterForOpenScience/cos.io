@@ -1,0 +1,650 @@
+/* here you can put your own css to customize and override the theme */
+
+body {
+    color: #000;
+    font-size:15px !important;
+    direction: ltr;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Open Sans' !important;
+    overflow-x: hidden;
+}
+
+.big {
+    font-size: 50px;
+}
+
+#no-transform {
+    width: 300px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.spacer {
+    height: 25px;
+}
+
+.spacer-small {
+    height: 10px;
+}
+
+.social-icons .person {background: url(../img/icons/social/person.png) no-repeat;}
+
+.social-icons .osf {background: url(../img/icons/social/osf.png) no-repeat;}
+
+.social-icons .email {background: url(../img/icons/social/email.png) no-repeat;}
+
+
+/*Lists*/
+.front-lists-v1 li {
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+.front-lists-v1 dd {
+    margin-bottom: 10px;
+}
+
+#logoimg {
+    width: 350px;
+}
+
+/*News Page*/
+
+#templetonFont {
+    color: #444;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+/*Jobs Page*/
+
+.panel-info >.panel-heading {
+    background-color: #E8F7FC !important;
+}
+.panel-heading {
+    cursor: pointer;
+}
+.jobs-pics {
+    max-width: 300px;
+    padding-right: 30px;
+    height: 162px;
+    overflow: hidden;
+}
+
+/*Portfolio*/
+.mix-grid .mix {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px !important;
+}
+
+.mix-grid .mix .mix-inner {
+    position: relative;
+    width: 100%;
+    height: 300px !important;
+
+}
+
+.mix-grid .mix .mix-details p {
+    padding: 0 30px;
+    font-size: 13px !important;
+}
+
+.photoSwitch {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px !important;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background-size: 250px;
+}
+.WhatWeDo{
+    padding: 20px;
+}
+.whatWeDo a:hover .photoSwitch {
+    width:250px;
+    height:250px;
+    background: center bottom no-repeat;
+    background-size: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;    
+}
+
+.whatWeDo p {
+    text-align: justify;
+    text-justify: inter-word !important;
+}
+
+.whatWeDo h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*From Responsive*/
+.header a.logo-v1 img {
+    margin-top: 2px !important;
+}
+
+/*Homepage*/
+
+.radial-center {
+    /* fallback */
+    background-color: #FAFFFF;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF);
+
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #FAFFFF, #CEF3FF);
+
+    /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+}
+
+#myCarousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.overflow_image {
+    width:1200px;
+    height: 350px;
+    overflow: hidden;
+}
+
+/*Service Box*/
+
+.hp-service-title{
+    font-size: 25px;
+}
+
+#servicegrid {
+    margin-bottom: 50px;
+}
+
+.service-box {
+    margin-top: 30px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 30px !important;
+}
+
+.service-box-v1 {
+    padding: 25px !important;
+    text-align: center !important;
+    height: 370px !important;
+}
+
+.service-box p {
+    color: #656565;
+    font-size: 15px;
+    text-align: justify !important;
+}
+
+.service-box .service-box-heading {
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+/*.service-box .service-box-heading p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+*/
+.service-box .service-box-heading i {
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    border-radius: 34px;
+    font-size:18px;
+    height:32px;
+    width:32px;
+    line-height: 32px;
+    text-align:center !important;
+    vertical-align: baseline;
+}
+
+.service-box-v1 h2{
+    margin-left: 20px;
+}
+
+.service-box-v1 p{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.service-box-v1 img{
+    margin-bottom: 10px;
+}
+
+.service-box-v1:hover i, .service-box-v1:hover p {
+    font-size: 13px;
+}
+
+.service-box-v1:hover {
+    background: #0da3e2;
+    transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    text-decoration:none !important;
+}
+
+.hp-slide-head{
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.main-cos-logo img{
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 90px;
+    min-height: 90px;
+}
+
+.hp-slide-head h1{
+    line-height:60px;
+}
+@media screen and (max-width:770px){
+    .hp-slide-head{
+        padding-top: 10px;
+    }
+    .hp-slide-head h1 {
+        font-size: 25px !important;
+    }
+}
+
+
+
+/*Footer*/
+
+
+
+
+.footer .blog-photo-stream {
+    margin-top: 17px;
+}
+
+.footer {
+    padding: 35px 0;
+    font-size: 13px;
+    background: #3d3d45 !important;
+}
+
+.footer .social-footer {
+    margin: 0 0 0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer .social-footer li {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+
+.footer .social-footer li i {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+.footer .social-footer li i:hover {
+    color: #fff;
+    transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.footer .social-footer li a:hover {
+    text-decoration: none;
+}
+
+.footer #footer-map {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.copyright {
+    color: #dee4eb;
+    font-size: 12px;
+    padding: 10px 0;
+    background: #3d3d45;
+}
+
+/*Team Blocks*/
+
+.front-team {
+    margin: 0px 0px !important;
+}
+.front-team .thumbnail {
+    border: none;
+    height: 380px !important;
+}
+.front-team .thumbnail img {
+    border-radius: 256px !important;
+    max-height: 250px;
+}
+.front-team h3 {
+    margin:10px 0 12px;
+    line-height:30px !important;
+}
+
+/*Board Blocks*/
+
+.board-thumbnail img {
+    max-height: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    min-width: 400px;
+}
+
+/*Partner Blocks*/
+
+.front-partners {
+    margin: 0px 0px !important;
+}
+.front-partners .thumbnail {
+    border: none;
+    height: 380px !important;
+}
+.front-partners .thumbnail img {
+    max-height: 265px;
+    max-width: 256px;
+    /*min-width: 256px;*/
+    /*min-height: 256px;*/
+}
+
+.front-partners h3 {
+    margin:10px 0 12px;
+    line-height:30px !important;
+}
+
+/* Bootstrap Carousel */
+#carousel {
+    height: 375px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+    background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+    background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF);
+    background: -ms-radial-gradient(circle, #FAFFFF, #CEF3FF)
+}
+
+.slide-container {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+.slide-text {
+    width: 340px;
+    float: left;
+    text-align: left;
+}
+.slide-text h1{
+    padding: 6px 0;
+}
+.slide-image{
+    float:right;
+    width: 100%;
+    height:auto;
+}
+
+.resize-text {
+    padding: 10px 0 0 40px;
+    text-transform: uppercase;
+}
+.slide-wrapper {
+    width: 100%;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
+    background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+    background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF)
+}
+
+.bx-wrapper img {
+    width: 85%;
+    display: block;
+    padding: 3%;
+}
+
+.sponsor-center {
+    width : 360px;
+    text-align: center;
+}
+
+.sponsor-center img {
+    max-width: 225px;
+    max-height: 145px;
+}
+
+
+/*Communities*/
+.community-tabbable {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-left: solid 2px #0da3e2;
+}
+.community-tabbable li {
+    position: relative;
+    margin-bottom: 1px;
+}
+.community-tabbable li a {
+    font-size: 14px;
+    color: #7C858E;
+    display: block;
+    background: #F4F4F4;
+    padding: 12px 10px 11px 8px;
+}
+.community-tabbable li:hover a,
+.community-tabbable li.active a{
+    background: #0da3e2;
+    text-decoration: none;
+    color: #fff;
+}
+.community-tabbable li.active:after {
+    content: '';
+    display: inline-block;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-left: 6px solid #0da3e2;
+    position: absolute;
+    top: 16px;
+    right: -5px;
+}
+.community-badge {
+    vertical-align: top;
+}
+
+.community-badge img{
+    max-height: 150px;
+    max-width: 150px;
+    padding: 20px;
+}
+
+
+
+.tab-pane table td .blue {
+    background-color: #0da3e2;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.tab-pane table td .blue:hover {
+    background-color: #0da3e2 !important;
+}
+
+.community-content {
+    margin: 0px 0px 30px 0px !important;
+}
+
+.community-tab-list {
+    padding: 0px;
+}
+
+.conversation img {
+    width:90%;
+}
+
+#speechbubble{
+    width:150px;
+}
+
+.conversation table td .blue{
+    background-color: #0da3e2;
+}
+
+.conversation table td .blue:hover{
+    background-color: #0da3e2 !important;
+}
+
+.conversation table td .blue:visited{
+    background-color: #0da3e2 !important;
+}
+
+
+.action-box {
+    text-align: center;
+    font-size: 20px;
+    background-color: #e8f6fc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.action-box .fa {
+    font-size: 45px;
+}
+.action-box:hover {
+    text-decoration: none;
+}
+
+
+/*Stats*/
+#stats-consult {
+    margin-top: 10px;
+}
+
+.stats-intro a:hover{
+    text-decoration: none;
+}
+
+.stats-intro table {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+
+/*Opportunities*/
+
+.ambassador-box {
+    margin: 25px;
+}
+.ambassador-action-box {
+    height: 135px;
+}
+.ambassador-img img{
+    width: 200px;
+    border-radius: 50% !important;
+}
+.ambassador-name {
+    text-align: center;
+    padding-top: 20px;
+}
+.ambassador-instit {
+    text-align: center;
+}
+.ambassador-icon {
+    background-image: url("../img/icons/Ambassador_Handshake.png");
+    background-size: 80px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+}
+
+.ambassador-icon:hover{
+    background-image: url("../img/icons/Ambassador_Handshake_Dark.png");
+}
+
+
+.ambassador-icon p {
+    padding-top: 50px;
+}
+.action-box img {
+    width: 75px;
+}
+.action-link a:hover{
+    text-decoration: none;
+}
+.action-link a:visited {
+    text-decoration: none;
+}
+
+#dollar-grant {
+    background-image: url("../img/icons/dollar.png");
+    background-size: 80px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+}
+
+#dollar-grant:hover {
+    background-image: url("../img/icons/dollar_dark.png");
+}
+
+#grant-box {
+    height: 130px;
+}
+
+#grant-box p {
+    padding-top: 50px;
+}
+.ambassador-instit-padding {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Collaborate_Swap_Image {
+    background-image: url("../img/photos/Jobs_Photo_Before.jpg");
+}
+
+
+
+
+/*Footer*/
+.twitter-timeline {
+    max-height: 400px;
+}
+
+/*Our Work*/
+
+#venn {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 950px) {
+    #venn {
+        padding-top: 20px;
+    }
+}

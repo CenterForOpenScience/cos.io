@@ -1,0 +1,27 @@
+
+{% extends "base.html" %}{% load staticfiles %}
+{%  block title %}News{% endblock %}
+{% block description %}The Center for Open Science news and updates {% endblock %}
+{% block navlinks %}{% with 'news' as nav %}
+        {{ block.super }}
+    {% endwith %}{% endblock %}
+
+{% block content %}
+{% block stylesheets %}
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+{%  endblock %}
+
+
+{% block javascript %}
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="{% static '/static/plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script src="{% static '/static/scripts/app.js' %}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+{% endblock %}{% endblock %}

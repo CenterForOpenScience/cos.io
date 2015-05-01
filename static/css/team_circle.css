@@ -1,0 +1,7 @@
+
+.circular {
+            border-radius: 50%! important;
+            -webkit-border-radius: 50%! important;
+            -moz-border-radius: 80%! important;
+
+        }

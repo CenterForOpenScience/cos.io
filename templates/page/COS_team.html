@@ -1,0 +1,120 @@
+{% extends "base.html" %}{% load thumbnail %}{% load cropping %}{% load staticfiles %}
+{% block title %}About Our Team {% endblock %}
+{% block description %}The Center for Open Science team is diverse in background and skills, all devoted to increasing the Openness, Reproducibility, and Integrity in science. {% endblock %}
+
+{% block navlinks %}{% with 'about' as nav %}
+        {{ block.super }}
+{% endwith %}{% endblock %}{% block content %}
+<x></x>
+{% block stylesheets %}
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
+          xmlns="http://www.w3.org/1999/html"/>
+    <link href="{% static '/static/css/team_circle.css' %}" rel="stylesheet" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+{% endblock %}{% load email_obfuscator %}
+
+    <!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+
+<!-- BEGIN CONTAINER -->
+<div class="container min-hight margin-top-50">
+
+<!-- BEGIN OUR TEAM -->
+<div class="row front-team">
+<h1><strong>The COS Team</strong></h1>
+<p class="lead">Astronomers, biologists, chemists, computer scientists, education researchers, engineers, neuroscientists, and psychologists have come together to provide tools and services that benefit all sciences.</p>
+<div class="container"><br />
+    <div class="row team-padding" >
+        {% for team_member in current_members %}
+            <li class="col-md-3 space-mobile" >
+                <div class="thumbnail">
+                    <div class="circular" style="background: url({% cropped_thumbnail team_member "min_free_cropping" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px"></div>
+                    <h3>{{ team_member.name }}
+                    <small>{{ team_member.position }}</small></h3>
+                    <ul class="social-icons social-icons-color" >
+                        {% if team_member.linkedin_url %}
+                            <li> <a href="{{ team_member.linkedin_url }}" target="_blank" data-original-title="Linkedin" class="linkedin"></a> </li>
+                        {% endif %}
+                        {% if team_member.twitter_url %}
+                            <li> <a href="{{ team_member.twitter_url }}" target="_blank" data-original-title="twitter" class="twitter"></a></li>
+                        {% endif %}
+                        {% if team_member.tumblr_url %}
+                            <li> <a href="{{ team_member.tumblr_url }}" target="_blank" data-original-title="tumblr" class="tumblr"></a></li>
+                        {% endif %}
+                        {% if team_member.github_url %}
+                            <li> <a href="{{ team_member.github_url }}" target="_blank" data-original-title="github" class="github"></a></li>
+                        {% endif %}
+                        {% if team_member.google_url %}
+                            <li> <a href="{{ team_member.google_url }}" target="_blank" data-original-title="Goole Plus" class="googleplus"></a></li>
+                        {% endif %}
+                        {% if team_member.OSF_url %}
+                            <li> <a href="{{ team_member.OSF_url }}" target="_blank" data-original-title="osf" class="osf"></a></li>
+                        {% endif %}
+                        {% if team_member.email %}
+                           <li>  <a href="{{ "mailto:" | obfuscate }}{{ team_member.email | obfuscate }}" target="_blank" data-original-title="email" class="email"></a></li>
+                        {% endif %}
+                        {% if team_member.facebook_url %}
+                            <li> <a href="{{ team_member.facebook_url }}" target="_blank" data-original-title="Facebook" class="facebook"></a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </li>
+        {% endfor %}
+    </div>
+</div>
+{#<hr style="height:3px; border-width: 5px; border-color:#111111; background-color:#009900; " />#}
+<hr>
+<link rel="stylesheet" type="text/css" href="/static/css/H1.css" />
+        <h1><strong>Alumni</strong></h1><br><br>
+     {% for team_member in alumni_members %}
+            <li class="col-md-3 space-mobile" >
+                <div class="thumbnail">
+                    <div class="circular" style="background: url({% cropped_thumbnail team_member "min_free_cropping" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px"></div>
+                    <h3>{{ team_member.name }}
+                    <small>{{ team_member.position }}</small></h3>
+                    <ul class="social-icons social-icons-color" >
+                        {% if team_member.linkedin_url %}
+                            <li> <a href="{{ team_member.linkedin_url }}" target="_blank" data-original-title="Linkedin" class="linkedin"></a> </li>
+                        {% endif %}
+                        {% if team_member.twitter_url %}
+                            <li> <a href="{{ team_member.twitter_url }}" target="_blank" data-original-title="twitter" class="twitter"></a></li>
+                        {% endif %}
+                        {% if team_member.tumblr_url %}
+                            <li> <a href="{{ team_member.tumblr_url }}" target="_blank" data-original-title="tumblr" class="tumblr"></a></li>
+                        {% endif %}
+                        {% if team_member.github_url %}
+                            <li> <a href="{{ team_member.github_url }}" target="_blank" data-original-title="github" class="github"></a></li>
+                        {% endif %}
+                        {% if team_member.google_url %}
+                            <li> <a href="{{ team_member.google_url }}" target="_blank" data-original-title="Goole Plus" class="googleplus"></a></li>
+                        {% endif %}
+                        {% if team_member.OSF_url %}
+                            <li> <a href="{{ team_member.OSF_url }}" target="_blank" data-original-title="osf" class="osf"></a></li>
+                        {% endif %}
+                        {% if team_member.email %}
+                           <li>  <a href="{{ "mailto:" | obfuscate }}{{ team_member.email | obfuscate }}" target="_blank" data-original-title="email" class="email"></a></li>
+                        {% endif %}
+                        {% if team_member.facebook_url %}
+                            <li> <a href="{{ team_member.facebook_url }}" target="_blank" data-original-title="Facebook" class="facebook"></a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </li>
+     {% endfor %}
+</div>
+</div>
+</div>
+<br/><br/>
+{% endblock %}
+{% block javascript_bottom %}
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="{% static '/static/plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script src="{% static '/static/scripts/app.js' %}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+{% endblock %}

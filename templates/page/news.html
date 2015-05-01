@@ -1,0 +1,71 @@
+{% extends "base.html" %}{% load staticfiles %}{% load thumbnail %}{% load cropping %}
+{% block title %}Center for Open Science News {% endblock %}
+{% block description %}The Center for Open Science's home for news and press updates.{% endblock %}
+
+
+{% block navlinks %}{% with 'news' as nav %}
+        {{ block.super }}
+    {% endwith %}{% endblock %}
+{% block stylesheets %}
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+{% endblock %}{% block content %}
+
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+
+    <!-- BEGIN CONTAINER -->
+    <div class="container min-hight margin-top-50">
+
+        <!--BEGIN DESCRIPTION -->
+        <h1><strong>News</strong></h1>
+        <p class="lead">What's all the buzz about? Open science and transparency practices are hot topics in the
+            scientific community and in the media at large. Read about COS, our projects, and related news below.</p>
+        <br><br>
+      <!-- BEGIN BLOCKQUOTE AND VIDEO -->
+        <div class="row">
+            <!-- BEGIN Press BLOCKS -->
+            <div class="col-md-12">
+                <div class="row margin-bottom-20">
+        <!--END DESCRIPTION-->
+        {% for news_item in news %}
+            <div class="col-md-4 service-box-v1" >
+                <div style=" cursor: pointer;" onclick="document.location.href = '{{ news_item.link }}'" >
+                    <div class="col-md-6">
+                        <img src="{% cropped_thumbnail news_item "min_free_cropping" max_size=news_item.get_thumb_max_size %}" />
+                    </div>
+                    <div class="col-md-0">
+                        <h2 class="text-left " style="padding-top: 0px; padding-left: 150px; padding-right: 0px">{{ news_item.title }}</h2>
+                     </div>
+                        <br clear="all" />
+
+                    <p class="text-left " style="padding-bottom: 5px">{{ news_item.body }}</P>
+                </div>
+            </div>
+            {% if forloop.counter|divisibleby:3 %}
+                <br clear="all" />
+            {% endif %}
+        {% endfor %}
+                </div>
+            </div>
+            <!-- END Press BLOCKS -->
+        </div>
+        <!-- END BLOCKQUOTE AND VIDEO -->
+
+    </div>
+    <!-- END CONTAINER -->
+<!-- BEGIN PAGE CONTAINER -->
+{% endblock %}
+
+{% block javascript %}
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/static/scripts/app.js"></script>
+    <script type="text/javascript">
+            jQuery(document).ready(function() {
+                App.init();
+            });
+        </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+{% endblock %}
