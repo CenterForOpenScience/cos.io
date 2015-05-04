@@ -58,10 +58,25 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/boughton.jpg" alt="Andy Boughton">
+            <h3>
+                Andy Boughton
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">abou<span style="display:none;">null</span>ght@cos<span style="display:none;">null</span>.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:nobhtug@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/abought" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/tgzc5/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/ferronato.jpg" alt="Betsy Ferronato">
             <h3>
                 Betsy Ferronato
-                <small>Human Resources Intern| Community</small>
+                <small>Human Resources Assistant| Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bet<span style="display:none;">null</span>sy@cos<span style="display:none;">null</span>.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
@@ -598,7 +613,7 @@
             <img src="../static/img/people/renfro.jpg" alt="Megan Renfro">
             <h3>
                 Megan Renfro
-                <small>Administrative Assistant Intern | Community</small>
+                <small>Administrative Assistant | Community</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/zn5bv/" data-original-title="osf" class="osf"></a></li>
