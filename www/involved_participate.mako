@@ -79,7 +79,7 @@
         <h3><strong>Ambassadors</strong></h3>
         <table>
             <tr>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -100,7 +100,28 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/u8rmv/" target="_blank">
+                                <img src="/static/img/people/ambassadors/pagegould.png" alt="Elizabeth Page-Gould">
+                            </a>    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Elizabeth Page-Gould
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                University of Toronto
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -120,19 +141,42 @@
                             </td>
                         </tr>
                     </table>
-                </td>
-                <td>
+                </td>                  
+            </tr>
+            <tr>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
-                            <a href="https://osf.io/e5fh9/" target="_blank">
-                                <img src="../static/img/people/ambassadors/schonbrodt.jpg" alt="Felix Schönbrod">
+                            <a href="https://osf.io/gymd4/" target="_blank">
+                                <img src="../static/img/people/ambassadors/McKiernan.jpg" alt="Erin McKiernan">
                             </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="ambassador-name">
-                                Felix Schönbrod
+                                Erin McKiernan
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit">
+                                National Autonomous University of Mexico
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/e5fh9/" target="_blank">
+                                <img src="../static/img/people/ambassadors/schonbrodt.jpg" alt="Felix Schönbrodt">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Felix Schönbrodt
                             </td>
                         </tr>
                         <tr>
@@ -142,10 +186,7 @@
                         </tr>
                     </table>
                 </td>
-                
-            </tr>
-            <tr>
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -166,7 +207,9 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+            </tr>
+            <tr>    
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -186,8 +229,8 @@
                             </td>
                         </tr>
                     </table>
-                </td>
-                <td>
+                </td>               
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -208,10 +251,7 @@
                         </tr>
                     </table>
                 </td>
-               
-            </tr>
-            <tr>
-                 <td>
+                 <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -232,7 +272,30 @@
                         </tr>
                     </table>
                 </td>
-                <td>
+            </tr>
+            <tr>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/zm6tg/" target="_blank">
+                                <img src="../static/img/people/ambassadors/sly.jpg" alt="Jim Sly">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Jim Sly
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                Missouri State University
+                            </td>
+                        </tr>
+                    </table>
+                </td>           
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -252,8 +315,31 @@
                             </td>
                         </tr>
                     </table>
+                </td>           
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/3dmgk/" target="_blank">
+                                <img src="../static/img/people/ambassadors/woo.jpg" alt="Kara Woo">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Kara Woo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                National Center for Ecological Analysis and Synthesis
+                            </td>
+                        </tr>
+                    </table>
                 </td>
-                <td>
+            </tr>
+            <tr>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -274,10 +360,7 @@
                         </tr>
                     </table>
                 </td>
-            
-            </tr>
-            <tr>
-                    <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -298,8 +381,7 @@
                         </tr>
                     </table>
                 </td>
-
-                <td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -320,7 +402,9 @@
                         </tr>
                     </table>
                 </td>
-                   <td>
+            </tr>
+            <tr>     
+                   <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">
@@ -341,9 +425,28 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
-            <tr>
-                 <td>
+                <td class="ambassador-data">
+                    <table class="ambassador-box">
+                        <tr>
+                            <td class="ambassador-img">
+                            <a href="https://osf.io/5ju9e/" target="_blank">
+                                <img src="../static/img/people/ambassadors/lake.jpg" alt="Sherry Lake">
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-name">
+                                Sherry Lake
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ambassador-instit-padding">
+                                University of Virginia
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="ambassador-data">
                     <table class="ambassador-box">
                         <tr>
                             <td class="ambassador-img">

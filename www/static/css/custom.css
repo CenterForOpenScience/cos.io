@@ -552,14 +552,20 @@ body {
 
 /*Opportunities*/
 
+.ambassador-data {
+    vertical-align: top;
+}
+
 .ambassador-box {
     margin: 25px;
+    width: 202px;
 }
 .ambassador-action-box {
     height: 135px;
 }
 .ambassador-img img{
     width: 200px;
+    height: 200px;
     border-radius: 50% !important;
 }
 .ambassador-name {
@@ -647,4 +653,100 @@ body {
     #venn {
         padding-top: 20px;
     }
+}
+
+/*OSF*/
+.osf-about {
+    min-height: 330px
+}
+
+.action-list {
+    background-color: #e6faff;
+    padding: 5px;
+}
+
+.action-list-head h2{
+    background-color: #2f89af;
+    color: white;
+    padding: 15px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.action-list h4 {
+    background-color: white;
+    line-height: 25px;
+    padding: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.action-list h4:hover {
+    background-color: #e6faff;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
+
+.action-list a {
+    font-weight: 300;
+    color: black
+}
+
+.action-list a:hover {
+    text-decoration: none;
+}
+
+.action-list .blue{
+    color: #0da3e2;
+    font-weight: 400;
+}
+
+.osf-reviews {
+    min-height: 370px;
+}
+
+.osf-reviews h2 {
+    font-size: 28px;
+}
+
+.osf-reviews blockquote p {
+    font-size: 15px;
+}
+
+.action-list .fa {
+    font-size: 28px;
+    padding-right: 11px;
+}
+
+.osf-connect {
+    min-height: 216px;
+}
+
+.image-row {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.image-row li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+.image-row li img {
+    max-height: 45px;
+    max-width: 100px;
+}
+
+/*Prereg*/
+#pre-reg-slogan {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.pre-reg p {
+    font-size: 21px;
+    font-weight: 300;
 }
