@@ -71,19 +71,16 @@
     <!-- BEGIN CONTAINER -->
     <div class="container min-height margin-top-50 col-md-12">
         <div class="center" >
-            <h1>Pre-Registration Prize</h1>
-
-
+            <h1>The $1,000,000 Pre-Registration Prize</h1><p>
+                <h2><b>Coming Summer, 2015</b></h2>
         </div>
+        
         <div class="col-md-8 margin-top-50  margin-bottom-30">
-            <h2 id="pre-reg-slogan">Planning Pays.</h2>
-            <p>The Center for Open Science is giving away $1,000,000 to one thousand researchers
-                to encourage the open and early sharing of research plans.</p>
-            <p>We believe that pre-registering your research idea will increase transparency and create more reproducible
-                results. You already plan your work, so why not get rewarded for it? Visit
-                <a href="http://osf.io/x5w7h">the project page</a> for more information.</p>
+            <p>One thousand researchers will win $1,000 each for publishing research that was pre-registered with the research design and analysis plan. </p>
+            <p>Sign-up here to stay informed!</p> 
             <div class="center">
             <img src="/static/img/pics/pre-reg-flow.png" alt="preregistration workflow" width="600px" class="margin-top-40">
+            <p><h2 id="pre-reg-slogan"><b>Planning Pays</b></h2></p>
             </div>
 
         </div>
