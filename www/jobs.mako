@@ -158,9 +158,6 @@
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                     <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p></dd>
-                    <dt>PyLadies Partnership</dt><dd>
-                    <p>In support of promoting diversity in the tech community, COS has partnered with <a href="http://www.pyladies.com/">PyLadies</a> to dedicate one 12-week Summer 2015 Developer Internship seat to a PyLady member.  In line with other COS internships, this is a paid internship and is open to US citizens.  Applicants for this specific internship seat will be asked for a reference letter from a PyLadies chapter organizer.  In addition to the internship, the selected intern for this seat will be invited to travel with the COS team to PyCon 2015 in Montreal, with all expenses covered.</p>
-                </dd>
                 </dl>
             </div>
         </div>
