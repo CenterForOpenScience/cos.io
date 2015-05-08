@@ -307,6 +307,38 @@
                                     <div class="tab-pane active" id="year_2015">
                                         <table>
                                             <tr>
+                                                <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
+                                                <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
+                                                <strong>$1,702,000</strong><br>
+                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://www.templeton.org/"><img src="/static/img/templeton.png"></a></td>
+                                                <td><span class="med-font"><strong>John Templeton Foundation</strong></span><br>
+                                                <strong>$759,548</strong><br>
+                                                The John Templeton Foundation awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
+                                                <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br/>
+                                                <strong>$261,233</strong><br/>
+                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br/>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://www.nia.nih.gov/"><img src="/static/img/icons/nia.gif"></a></td>
+                                                <td><span class="med-font"><strong>National Institute on Aging</strong></span><br>
+                                                <strong>$215,148</strong><br>
+                                                Partnership with the NIA.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
                                                 <td class="sponsor-center"><a href="http://www.hewlett.org/programs/global-development-population"><img src="/static/img/icons/hewlett.jpeg"></a></td>
                                                 <td><span class="med-font"><strong>The William and Flora Hewlett Foundation</strong></span><br>
                                                 <strong>$100,000</strong><br>
@@ -321,6 +353,7 @@
                                                 Subcontract from <a href="http://www.prometheusresearch.com/">Prometheus Research</a> for integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
                                                 </td>
                                             </tr>
+                                            <tr class="spacer"></tr>
                                         </table>
                                         <div id="in-kind" class="margin-top-100">
                                             <h3><strong>In-Kind Donations</strong></h3>
