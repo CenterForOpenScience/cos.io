@@ -38,24 +38,24 @@
 <div class="tab-content ">
 <!-- START TAB 1 -->
 <div class="tab-pane active" id="tab_1">
-    <div class="container">
-        <h2><strong>Promote Open Science in Your Community</strong></h2>
-        <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
-            materials to help you advocate for open science. United, we can increase openness,
-            integrity, and reproducibility across scientific domains.</p>
+<div class="container">
+    <h2><strong>Promote Open Science in Your Community</strong></h2>
+    <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
+        materials to help you advocate for open science. United, we can increase openness,
+        integrity, and reproducibility across scientific domains.</p>
 
-        <div class="col-md-8">
-            <h4><b>What Ambassadors Do</b></h4>
-            <ul>
-                <li>Act as local information resource about COS, the OSF, transparency, and reproducible practices</li>
-                <li>Represent COS at conferences and meetings</li>
-                <li>Grow the open science community</li>
-                <li>Blog experiences and join in the online conversation</li>
-                <li>Provide training on OSF and reproducible practices</li>
-                <li>Model COS swag!</li>
-            </ul>
-        </div>
-        ## <div class="col-md-4 action-link margin-top-50">
+    <div class="col-md-8">
+        <h4><b>What Ambassadors Do</b></h4>
+        <ul>
+            <li>Act as local information resource about COS, the OSF, transparency, and reproducible practices</li>
+            <li>Represent COS at conferences and meetings</li>
+            <li>Grow the open science community</li>
+            <li>Blog experiences and join in the online conversation</li>
+            <li>Provide training on OSF and reproducible practices</li>
+            <li>Model COS swag!</li>
+        </ul>
+    </div>
+    ## <div class="col-md-4 action-link margin-top-50">
         ##     <a href="mailto:contact@cos.io?subject=Become an Ambassador">
         ##         <div class="action-box ambassador-action-box">
         ##             <div class="ambassador-icon">
@@ -75,400 +75,400 @@
         ##     </ul>
         ## </div>
     </div>
-    <div class="col-md-12">
-        <h3><strong>Ambassadors</strong></h3>
-        <table>
+<div class="col-md-12">
+<h3><strong>Ambassadors</strong></h3>
+<table>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
             <tr>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/pct7w/" target="_blank">
-                                <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Daniel Lakens
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                Eindhoven University of Technology
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/u8rmv/" target="_blank">
-                                <img src="/static/img/people/ambassadors/pagegould.png" alt="Elizabeth Page-Gould">
-                            </a>    
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Elizabeth Page-Gould
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                University of Toronto
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/gqx2h/" target="_blank">
-                                <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
-                            </a>    
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Erica Baranski
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                University of California, Riverside
-                            </td>
-                        </tr>
-                    </table>
-                </td>                  
-            </tr>
-            <tr>
-                 <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/gymd4/" target="_blank">
-                                <img src="../static/img/people/ambassadors/McKiernan.jpg" alt="Erin McKiernan">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Erin McKiernan
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                National Autonomous University of Mexico
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/e5fh9/" target="_blank">
-                                <img src="../static/img/people/ambassadors/schonbrodt.jpg" alt="Felix Schönbrodt">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Felix Schönbrodt
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                Ludwig-Maximilians-Universität München
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/9nsep/" target="_blank">
-                                <img src="/static/img/people/ambassadors/garret.jpg" alt="Garret Christensen">
-                            </a>    
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Garret Christensen
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit">
-                                UC Berkeley Center for<br>Effective Global Action
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>    
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/7x9sk/" target="_blank">
-                                <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                George Banks
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Longwood University
-                            </td>
-                        </tr>
-                    </table>
-                </td>               
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/nolrw/" target="_blank">
-                                <img src="../static/img/people/ambassadors/nilsonne.jpg" alt="Gustav Nilsonne">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Gustav Nilsonne
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Stockholm University
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                 <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/3hsfj/" target="_blank">
-                                <img src="../static/img/people/ambassadors/IJzerman.jpg" alt="Hans Ijzerman">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Hans IJzerman
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Tilburg University
-                            </td>
-                        </tr>
-                    </table>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/pct7w/" target="_blank">
+                        <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
+                    </a>
                 </td>
             </tr>
             <tr>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/zm6tg/" target="_blank">
-                                <img src="../static/img/people/ambassadors/sly.jpg" alt="Jim Sly">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Jim Sly
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Missouri State University
-                            </td>
-                        </tr>
-                    </table>
-                </td>           
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/ul4gx/" target="_blank">
-                                <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Jon Grahe
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Pacific Lutheran University
-                            </td>
-                        </tr>
-                    </table>
-                </td>           
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/3dmgk/" target="_blank">
-                                <img src="../static/img/people/ambassadors/woo.jpg" alt="Kara Woo">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Kara Woo
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                National Center for Ecological Analysis and Synthesis
-                            </td>
-                        </tr>
-                    </table>
+                <td class="ambassador-name">
+                    Daniel Lakens
                 </td>
             </tr>
             <tr>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/rg9e3/" target="_blank">
-                                <img src="../static/img/people/ambassadors/nicole.jpg" alt="Nicole Janz">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Nicole Janz
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                University of Cambridge
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/c8p6s/" target="_blank">
-                                <img src="../static/img/people/ambassadors/norm.jpg" alt="Norm Medeiros">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Norm Medeiros
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Haverford College
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/jdstq/" target="_blank">
-                                <img src="../static/img/people/ambassadors/richard.jpg" alt="Richard Ball">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Richard Ball
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                Haverford College
-                            </td>
-                        </tr>
-                    </table>
+                <td class="ambassador-instit">
+                    Eindhoven University of Technology
                 </td>
             </tr>
-            <tr>     
-                   <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/tmwry/" target="_blank">
-                                <img src="../static/img/people/ambassadors/klein.jpg" alt="Richard Klein">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Richard Klein
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                University of Florida
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/5ju9e/" target="_blank">
-                                <img src="../static/img/people/ambassadors/lake.jpg" alt="Sherry Lake">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Sherry Lake
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                University of Virginia
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="ambassador-data">
-                    <table class="ambassador-box">
-                        <tr>
-                            <td class="ambassador-img">
-                            <a href="https://osf.io/acfnb/" target="_blank">
-                                <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
-                            </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-name">
-                                Susann Fiedler
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="ambassador-instit-padding">
-                                MPI Collective Goods Institute
-                            </td>
-                        </tr>
-                    </table>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/u8rmv/" target="_blank">
+                        <img src="/static/img/people/ambassadors/pagegould.png" alt="Elizabeth Page-Gould">
+                    </a>
                 </td>
             </tr>
-            ## <tr>
+            <tr>
+                <td class="ambassador-name">
+                    Elizabeth Page-Gould
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of Toronto
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/gqx2h/" target="_blank">
+                        <img src="/static/img/people/ambassadors/erica.jpg" alt="Erica Baranski">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Erica Baranski
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of California, Riverside
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/e5fh9/" target="_blank">
+                        <img src="../static/img/people/ambassadors/schonbrodt.jpg" alt="Felix Schönbrod">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Felix Schönbrodt
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Ludwig-Maximilians-Universität München
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/9nsep/" target="_blank">
+                        <img src="/static/img/people/ambassadors/garret.jpg" alt="Garret Christensen">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Garret Christensen
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    UC Berkeley Center for<br>Effective Global Action
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/7x9sk/" target="_blank">
+                        <img src="../static/img/people/ambassadors/banks.jpg" alt="George Banks">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    George Banks
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Longwood University
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/nolrw/" target="_blank">
+                        <img src="../static/img/people/ambassadors/nilsonne.jpg" alt="Gustav Nilsonne">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Gustav Nilsonne
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Stockholm University
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/3hsfj/" target="_blank">
+                        <img src="../static/img/people/ambassadors/IJzerman.jpg" alt="Hans Ijzerman">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Hans IJzerman
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Tilburg University
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/ul4gx/" target="_blank">
+                        <img src="../static/img/people/ambassadors/grahe.JPG" alt="Jon Grahe">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Jon Grahe
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Pacific Lutheran University
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/3dmgk/" target="_blank">
+                        <img src="../static/img/people/ambassadors/woo.jpg" alt="Kara Woo">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Kara Woo
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    National Center for Ecological Analysis and Synthesis
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/vix6c/" target="_blank">
+                        <img src="../static/img/people/ambassadors/zargar.png" alt="Mahmood Zargar">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Mahmood Zargar
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    McGill University
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+
+                        <img src="../static/img/people/ambassadors/saleh.png" alt="Nassar Saleh">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Nassar Saleh
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Queens University
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/rg9e3/" target="_blank">
+                        <img src="../static/img/people/ambassadors/nicole.jpg" alt="Nicole Janz">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Nicole Janz
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Cambridge
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/c8p6s/" target="_blank">
+                        <img src="../static/img/people/ambassadors/norm.jpg" alt="Norm Medeiros">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Norm Medeiros
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Haverford College
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/jdstq/" target="_blank">
+                        <img src="../static/img/people/ambassadors/richard.jpg" alt="Richard Ball">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Richard Ball
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Haverford College
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/tmwry/" target="_blank">
+                        <img src="../static/img/people/ambassadors/klein.jpg" alt="Richard Klein">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Richard Klein
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Florida
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/5ju9e/" target="_blank">
+                        <img src="../static/img/people/ambassadors/lake.jpg" alt="Sherry Lake">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Sherry Lake
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Virginia
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/acfnb/" target="_blank">
+                        <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Susann Fiedler
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    MPI Collective Goods Institute
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+    ## <tr>
             ##     <td>
             ##         <table class="ambassador-box">
             ##             <tr>
@@ -490,8 +490,8 @@
             ##     </td>
             ## </tr>
         </table>
-        
-    </div>
+
+</div>
 </div>
 <!-- END TAB 1 -->
 <!-- START TAB 2 -->
@@ -504,9 +504,9 @@
     <div class="col-md-8">
         <h4><strong>1. Use The Open Science Framework (OSF)</strong></h4>
         <p>OSF is a free, secure web application for project management, collaboration, registration, and archiving.
-        Stop losing files, improve collaboration, and integrate OSF projects with the tools you use (e.g., Dropbox, GitHub,
-        Figshare, Dataverse). <a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
-            more</a>.</p>
+            Stop losing files, improve collaboration, and integrate OSF projects with the tools you use (e.g., Dropbox, GitHub,
+            Figshare, Dataverse). <a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
+                more</a>.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -521,8 +521,8 @@
     <div class="col-md-8">
         <h4><strong>2. Conduct Reproducible Analyses</strong></h4>
         <p>COS offers free statistical consulting to improve reproducible practices. Get email help on power analysis
-         and calculating confidence intervals, individualized hangouts for learning R and GitHub, or schedule a group to
-         be trained on OSF. <a href="/stats_consulting/">Read more.</a></p>
+            and calculating confidence intervals, individualized hangouts for learning R and GitHub, or schedule a group to
+            be trained on OSF. <a href="/stats_consulting/">Read more.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -534,13 +534,13 @@
         </a>
     </div>
 
-     <div class="col-md-8">
+    <div class="col-md-8">
         <h4><strong>3. Pre-register your studies</strong></h4>
         <p>Pre-registration on the OSF takes a snapshot of projects with time stamps to facilitate their discovery whether
-        they end up being published or not. Pre-registration with analysis plans facilitates strong confirmatory research designs.
-        Use the <a href="https://osf.io" target="_blank">OSF to register</a> and learn more about <a href="https://osf.io/47uq9/"
-         target="_blank">pre-registration</a> and <a href="http://www.columbia.edu/~mh2245/papers1/PA_2012b.pdf" target="_blank">
-         confirmatory analysis</a>.</p>
+            they end up being published or not. Pre-registration with analysis plans facilitates strong confirmatory research designs.
+            Use the <a href="https://osf.io" target="_blank">OSF to register</a> and learn more about <a href="https://osf.io/47uq9/"
+                                                                                                         target="_blank">pre-registration</a> and <a href="http://www.columbia.edu/~mh2245/papers1/PA_2012b.pdf" target="_blank">
+                confirmatory analysis</a>.</p>
 
         </p>
     </div>
@@ -557,8 +557,8 @@
     <div class="col-md-8">
         <h4><strong>4. Signal Open Practices</strong></h4>
         <p>Badges for open practices in publications signal others that researchers value and practice open science.
-        Some journals now offer this <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/" target="_blank">visual acknowledgement</a> for open data,
-         open materials, and preregistration. If a journal you publish in offers badges, apply. If it does not, recommend the badges program to the journal.</p>
+            Some journals now offer this <a href="https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/" target="_blank">visual acknowledgement</a> for open data,
+            open materials, and preregistration. If a journal you publish in offers badges, apply. If it does not, recommend the badges program to the journal.</p>
     </div>
     <div class="col-md-4 action-link margin-top-50">
         <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">
@@ -572,9 +572,9 @@
     <div class="col-md-8">
         <h4><strong>5. Join a Metascience Project</strong></h4>
         <p>COS facilitates crowd-sourced metascience research. Projects investigate reproducibility, current research practices,
-        and evaluate new research practices. Crowdsourcing models encourage inclusivity so that anyone can contribute based
-        on their skills, interests, and motivation. <a href="/communities/#tab_2">Explore the metascience initiatives</a> and
-        then email a project coordinator if you'd like to join.</p>
+            and evaluate new research practices. Crowdsourcing models encourage inclusivity so that anyone can contribute based
+            on their skills, interests, and motivation. <a href="/communities/#tab_2">Explore the metascience initiatives</a> and
+            then email a project coordinator if you'd like to join.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -592,15 +592,15 @@
     <div class="col-md-12">
         <h2><strong>Nudge Incentives Towards Openness</strong></h2>
         <p>Journals and societies shape important incentives driving researchers' behavior.  COS supports products and
-        services that journals and societies can use to promote open and reproducible practices.</p>
+            services that journals and societies can use to promote open and reproducible practices.</p>
     </div>
 
     <div class="col-md-8">
         <h4><strong>1. Author Guidelines to Promote Openness and Reproducibility</strong></h4>
         <p>Author guidelines clarify journal standards, recommendations, and requirements. In November 2014, COS hosted a
-        meeting of researchers, editors, and funders to identify best practices for promoting openness and reproducibility
-        with author guidelines. The forthcoming report will provide recommendations for publishers and societies for their
-        journals.
+            meeting of researchers, editors, and funders to identify best practices for promoting openness and reproducibility
+            with author guidelines. The forthcoming report will provide recommendations for publishers and societies for their
+            journals.
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -615,10 +615,10 @@
     <div class="col-md-8">
         <h4><strong>2. Signal open practices with badges</strong></h4>
         <p>Journals can signal their valuing of open practices by adopting <a href="https://osf.io/tvyxz/wiki/home"
-        target="_blank">badges</a> to acknowledge authors of articles that have open data, open materials, or preregistration.
-        A COS Community maintains the badge specifications and facilitates integration of badge awarding into the journal
-        workflow. Badges are a low risk nudge because adoption by authors is optional, and the simple signal can promote
-        normative changes in practice.</p></div>
+                                                                              target="_blank">badges</a> to acknowledge authors of articles that have open data, open materials, or preregistration.
+            A COS Community maintains the badge specifications and facilitates integration of badge awarding into the journal
+            workflow. Badges are a low risk nudge because adoption by authors is optional, and the simple signal can promote
+            normative changes in practice.</p></div>
 
     <div class="col-md-4 action-link margin-top-50">
         <a href="mailto:contact@cos.io?subject=Badges">
@@ -654,13 +654,13 @@
             of negative results, lowers barrier to conducting worthwhile replications, obtains pre-commitment from
             reviewers on quality of design, and produces strong confirmatory tests.</p>
         <p>A COS Community maintains an information commons about RRs, promotes adoption, and evaluates
-        publishing model. COS also offers registration services through the <a href="https://osf.io" target="_blank">OSF</a>.
-        Journals can adopt Registered Reports as a submission option. See examples of this model in action at <a href="https://osf.io/vwfk2/" target="_blank">
-        Social Psychology</a>,
-        <a href="http://elifesciences.org/eLife-the-Center-for-Open-Science-and-Science-Exchange-partner-to-assess-the-reproducibility-of-cancer-biology-research"
-         target="_blank">eLife</a>, and <a href="http://www.psychologicalscience.org/index.php/replication" target="_blank">Perspectives on
-        Psychological Science</a>.
-    </p></div>
+            publishing model. COS also offers registration services through the <a href="https://osf.io" target="_blank">OSF</a>.
+            Journals can adopt Registered Reports as a submission option. See examples of this model in action at <a href="https://osf.io/vwfk2/" target="_blank">
+                Social Psychology</a>,
+            <a href="http://elifesciences.org/eLife-the-Center-for-Open-Science-and-Science-Exchange-partner-to-assess-the-reproducibility-of-cancer-biology-research"
+               target="_blank">eLife</a>, and <a href="http://www.psychologicalscience.org/index.php/replication" target="_blank">Perspectives on
+                Psychological Science</a>.
+        </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
         <a href="https://osf.io/zv2cs/" target="_blank">
@@ -744,32 +744,32 @@
 
 </div>
 <!-- END TAB 4 -->
-##<!-- BEGIN TAB 5 -->
-##<div class="tab-pane" id="tab_5">
-##    <div class="col-md-12">
-##        <h2>Respond to a Call for Proposals</h2>
-##        <p>The Center for Open Science (COS) occasionally invites grant proposals to increase the openness, integrity,
-##            and reproducibility of scientific research. Presently, we are not accepting grant proposals.</p>
-##        <p>When being accepted, proposals can aim to:</p>
-##        <ol>
-##            <li>Create or connect open science infrastructure</li>
-##            <li>Enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or
-##            <li>Conduct metascience research with implications for improving scientific practices</li>
-##        </ol>
-##        <p>Project proposals are solutions-oriented.  COS does not fund meetings to write more academic papers suggesting
-##            that someone should do something.  COS funds projects that are ready to act.</p>
-##        <p>Projects can be proof-of-concept to large-scale implementation.  There is no set budget limit.  However,
-##            approvable budget size is strongly correlated with potential project impact.</p>
-##        <p>Projects that develop new innovations, attempt novel solutions, and directly address improving incentives in
-##            science for promoting accuracy and knowledge-building are encouraged. Projects that are “safe bets” or already
-##            in use in other areas of science are discouraged.  Finally, projects that
-##            can scale or be extended across scientific disciplines are preferred to those that have a “low ceiling” or
-##            are disciplinary-specific.</p>
-##
-##    </div>
-##</div>
-##<!-- END TAB 5 -->
-</div>
+    ##<!-- BEGIN TAB 5 -->
+    ##<div class="tab-pane" id="tab_5">
+    ##    <div class="col-md-12">
+    ##        <h2>Respond to a Call for Proposals</h2>
+    ##        <p>The Center for Open Science (COS) occasionally invites grant proposals to increase the openness, integrity,
+    ##            and reproducibility of scientific research. Presently, we are not accepting grant proposals.</p>
+    ##        <p>When being accepted, proposals can aim to:</p>
+    ##        <ol>
+    ##            <li>Create or connect open science infrastructure</li>
+    ##            <li>Enable or incentivize new practices by scientists, societies, journals, funders, libraries, or other stakeholders in science, or
+    ##            <li>Conduct metascience research with implications for improving scientific practices</li>
+    ##        </ol>
+    ##        <p>Project proposals are solutions-oriented.  COS does not fund meetings to write more academic papers suggesting
+    ##            that someone should do something.  COS funds projects that are ready to act.</p>
+    ##        <p>Projects can be proof-of-concept to large-scale implementation.  There is no set budget limit.  However,
+    ##            approvable budget size is strongly correlated with potential project impact.</p>
+    ##        <p>Projects that develop new innovations, attempt novel solutions, and directly address improving incentives in
+    ##            science for promoting accuracy and knowledge-building are encouraged. Projects that are “safe bets” or already
+    ##            in use in other areas of science are discouraged.  Finally, projects that
+    ##            can scale or be extended across scientific disciplines are preferred to those that have a “low ceiling” or
+    ##            are disciplinary-specific.</p>
+    ##
+    ##    </div>
+    ##</div>
+    ##<!-- END TAB 5 -->
+    </div>
 </div>
 </div>
 <!-- END TABS -->
