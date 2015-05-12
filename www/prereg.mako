@@ -76,9 +76,9 @@
         </div>
         
         <div class="col-md-8 margin-top-50  margin-bottom-30">
-            
-            <p>One thousand researchers will win $1,000 each for publishing research that was pre-registered with the research design and analysis plan. </p>
-            <p>Sign-up here to stay informed!</p> 
+            <h2><strong>Plan your discovery</strong></h2>
+            <p>One thousand researchers will win $1,000 each for publishing work whose analyses were pre-registered on
+                the Open Science Framework. Sign-up here to stay informed!</p>
             <div class="center">
             <img src="/static/img/pics/pre-reg-flow.png" alt="preregistration workflow" width="600px" class="margin-top-40">
 
