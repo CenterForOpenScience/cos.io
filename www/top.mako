@@ -53,7 +53,7 @@
                             <li>Replications</li>
                         </ul>
 
-                        <h1 class="margin-top-40"><a href="https://osf.io/9f6gx/">Read the Guidelines</a></h1>
+                        <h1 class="margin-top-40"><a href="https://osf.io/ud578/">Read the Guidelines</a></h1>
 
                         <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org">SCIENCE Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.</p>
                     </div>
