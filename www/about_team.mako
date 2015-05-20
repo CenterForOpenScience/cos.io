@@ -320,19 +320,7 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/huynh.jpg" alt="Faye Huynh">
-            <h3>
-                Faye Huynh
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/fh9cp" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/zkaeq/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/kriebel.jpg" alt="Gary Kriebel">
@@ -985,6 +973,19 @@
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/huynh.jpg" alt="Faye Huynh">
+            <h3>
+                Faye Huynh
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/fh9cp" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/zkaeq/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
