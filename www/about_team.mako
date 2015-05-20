@@ -350,21 +350,7 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/vuu.jpg" alt="Gina Vuu">
-            <h3>
-                Gina Vuu
-                <small>QA Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/ginavuu" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/pub/gina-vuu/a4/779/2a2" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/s3tzc/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
+        <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/mendell.jpg" alt="Himanshu Ojha">
             <h3>
@@ -989,6 +975,21 @@
             </ul>
         </div>
     </li>
+<li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/vuu.jpg" alt="Gina Vuu">
+            <h3>
+                Gina Vuu
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ginavuu" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/gina-vuu/a4/779/2a2" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/s3tzc/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/huang.jpg" alt="Ginny Huang">
