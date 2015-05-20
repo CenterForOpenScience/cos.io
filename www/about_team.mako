@@ -350,20 +350,7 @@
             </ul>
         </div>
     </li>
-        <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/mendell.jpg" alt="Himanshu Ojha">
-            <h3>
-                Harris Mendell
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/harrismendell" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/6r2an/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
+           <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/rybaki.jpg" alt="Harry Rybacki">
             <h3>
@@ -1003,6 +990,20 @@
             </ul>
         </div>
     </li>
+ <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/mendell.jpg" alt="Himanshu Ojha">
+            <h3>
+                Harris Mendell
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/harrismendell" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/6r2an/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
