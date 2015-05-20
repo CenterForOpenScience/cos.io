@@ -638,6 +638,19 @@
                 </ul>
         </div>
     </li>
+ <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
+            <h3>
+                Natasha Welcher
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/pfeiffer.jpg" alt="Nicole Pfeiffer">
@@ -1128,19 +1141,7 @@
                 </ul>
         </div>
     </li>
-        <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/richter2.jpg" alt="Natasha Richter">
-            <h3>
-                Natasha Welcher
-                <small>HR Assistant | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
+           <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
             <h3>
