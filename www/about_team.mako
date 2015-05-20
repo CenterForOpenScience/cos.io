@@ -442,21 +442,7 @@
             </ul>
         </div>
     </li>
-        <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/gold.jpg" alt="Jordan Gold">
-            <h3>
-                Jordan Gold
-                <small>QA Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/jeg3tw" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/e4zsq/" data-original-title="osf" class="osf"></a></li>
-                
-            </ul>
-        </div>
-    </li>
-        <li class="col-md-3 space-mobile">
+               <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/carrigan.jpg" alt="Jillian Carrigan">
             <h3>
@@ -1058,6 +1044,21 @@
             </ul>
         </div>
     </li>
+ <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gold.jpg" alt="Jordan Gold">
+            <h3>
+                Jordan Gold
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jeg3tw" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/e4zsq/" data-original-title="osf" class="osf"></a></li>
+                
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/carp.jpg" alt="Josh Carp">
