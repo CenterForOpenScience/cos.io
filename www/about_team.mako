@@ -442,23 +442,7 @@
             </ul>
         </div>
     </li>
-                  <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
-            <h3>
-                Katya Davydova
-                <small> Human Resources Intern | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">kdav<span style="display:none;">null</span>ydova@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:xqnilqbin@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://www.linkedin.com/profile/view?id=200774365" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="http://osf.io/tfj5b" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
+                      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
             <h3>
@@ -1074,6 +1058,23 @@
             </ul>
         </div>
     </li>
+<li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
+            <h3>
+                Katya Davydova
+                <small> Human Resources Intern | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">kdav<span style="display:none;">null</span>ydova@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:xqnilqbin@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/profile/view?id=200774365" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="http://osf.io/tfj5b" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/cain.jpg" alt="Katy Cain">
