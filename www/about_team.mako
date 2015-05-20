@@ -728,20 +728,7 @@
             </ul>
         </div>
     </li>
-        <li class="col-md-3">
-        <div class="thumbnail">
-            <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
-            <h3>
-                Wendy Zhu
-                <small>Developer Volunteer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/wentingzhu" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/kneic/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3">
+           <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/paudel.jpg" alt="Wisher Paudel">
             <h3>
@@ -1219,6 +1206,20 @@
             </ul>
         </div>
     </li>
+ <li class="col-md-3">
+        <div class="thumbnail">
+            <img src="../static/img/people/zhu.jpg" alt="Wendy Zhu">
+            <h3>
+                Wendy Zhu
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/wentingzhu" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/kneic/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/herrick.jpg" alt="Xander Herrick">
