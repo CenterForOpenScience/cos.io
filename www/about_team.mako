@@ -442,20 +442,7 @@
             </ul>
         </div>
     </li>
-               <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/carrigan.jpg" alt="Jillian Carrigan">
-            <h3>
-                Jillian Carrigan
-                <small>Administrative Assistant Intern | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="http://www.linkedin.com/pub/jillian-carrigan/a0/919/6b/" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/an7bp/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
+                  <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
             <h3>
@@ -1031,6 +1018,20 @@
             </ul>
         </div>
     </li>
+ <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/carrigan.jpg" alt="Jillian Carrigan">
+            <h3>
+                Jillian Carrigan
+                <small>Administrative Assistant Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www.linkedin.com/pub/jillian-carrigan/a0/919/6b/" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/an7bp/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/yuan.jpg" alt="Jinlu Yuan">
