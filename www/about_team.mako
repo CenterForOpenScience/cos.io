@@ -1037,7 +1037,7 @@
             <h3>
                 Katya Davydova
                 <small> Human Resources Intern | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">kdav<span style="display:none;">null</span>ydova@co<span style="display:none;">null</span>s.io</small></span></noscript>
+           
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
