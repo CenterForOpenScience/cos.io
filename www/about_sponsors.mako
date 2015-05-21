@@ -71,7 +71,7 @@
                                                 <td class="sponsor-center"><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a></td>
                                                 <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
                                                 <strong>$331,400</strong><br>
-                                                The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
+                                                The Alfred P. Sloan Foundation awarded COS a grant to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
                                                 </td>
                                             </tr>
                                         </table>
@@ -119,7 +119,7 @@
                                                 <td class="sponsor-center"><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a></td>
                                                 <td><span class="med-font"><strong>Alfred P. Sloan Foundation</strong></span><br>
                                                 <strong>$168,600</strong><br>
-                                                The Alfred P. Sloan Foundation gave an award to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
+                                                The Alfred P. Sloan Foundation awarded COS a grant to connect the OSF with tools created by other open source and open science service providers. The funds will support data management planning, pre-registration of research designs, data archiving, data analysis, and journal management.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -334,7 +334,7 @@
                                                 <td class="sponsor-center"><a href="http://www.nia.nih.gov/"><img src="/static/img/icons/nia.gif"></a></td>
                                                 <td><span class="med-font"><strong>National Institute on Aging</strong></span><br>
                                                 <strong>$215,148</strong><br>
-                                                Partnership with the NIA.<br>
+                                                The National Institute on Aging awarded COS a grant to focus on adoption of practices and incentives for the aging community.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -342,7 +342,7 @@
                                                 <td class="sponsor-center"><a href="http://www.hewlett.org/programs/global-development-population"><img src="/static/img/icons/hewlett.jpeg"></a></td>
                                                 <td><span class="med-font"><strong>The William and Flora Hewlett Foundation</strong></span><br>
                                                 <strong>$100,000</strong><br>
-                                                The William and Flora Hewlett Foundation granted an award for planning a strategy to support transparent and reproducible research practices in Africa.<br>
+                                                The William and Flora Hewlett Foundation awarded COS a grant for planning a strategy to support transparent and reproducible research practices in Africa.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -367,43 +367,8 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center" ><a href="http://www.biolegend.com/"><img src="/static/img/icons/biologo.png"></a></td>
-                                                    <td><span class="med-font"><strong>Biolegend</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
                                                     <td class="sponsor-center" id="buffer"><a href="http://www.bufferapp.com/"><img src="/static/img/icons/buffer.png"></a></td>
                                                     <td><span class="med-font"><strong>Buffer</strong></span><br>Discount for social media scheduling services<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center" ><a href="http://www.cellsignal.com/"><img src="/static/img/icons/cst.jpg"></a></td>
-                                                    <td><span class="med-font"><strong>Cell Signaling Technologies</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center" ><a href="http://www.criver.com/"><img src="/static/img/icons/criver.png"></a></td>
-                                                    <td><span class="med-font"><strong>Charles River Laboratories</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center" ><a href="http://www.corning.com/index.aspx"><img src="/static/img/icons/corning.gif"></a></td>
-                                                    <td><span class="med-font"><strong>Corning Incorporated</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center" ><a href="http://www.ddcmedical.com/"><img src="/static/img/icons/ddc.jpg"></a></td>
-                                                    <td><span class="med-font"><strong>DDC Medical</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology<br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -411,13 +376,6 @@
                                                     <td class="sponsor-center" ><a href="http://www.dreamhost.com/"><img src="/static/img/icons/dreamhost.png"></a></td>
                                                     <td><span class="med-font"><strong>Dreamhost</strong></span><br>
                                                     Free <a href="http://wiki.dreamhost.com/Non-profit_Discount">services for non-profits</a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center" id="square"><a href="http://www.emdmillipore.com/US/en?isCountryEMD=yes"><img src="/static/img/icons/milli.png"></a></td>
-                                                    <td><span class="med-font"><strong>EMD Millipore</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -442,23 +400,9 @@
                                                 </tr>
                                                 <tr class="spacer-small"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center"><a href="http://www.harlan.com/"><img src="/static/img/icons/harlan.png"></a></td>
-                                                    <td><span class="med-font"><strong>Harlan Laboratories</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
                                                     <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
                                                     <td><span class="med-font"><strong>JetBrains</strong></span><br>
                                                     Professional editions of <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> and <a href="http://www.jetbrains.com/webstorm/">Webstorm</a> via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center" ><a href="http://www.licor.com/bio/"><img src="/static/img/icons/licor.png"></a></td>
-                                                    <td><span class="med-font"><strong>LI-COR Biosciences</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -469,29 +413,8 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center"><a href="https://www.mirusbio.com/https://www.mirusbio.com/"><img src="/static/img/icons/mirus.png"></a></td>
-                                                    <td><span class="med-font"><strong>Mirus Bio</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center"><a href="http://www.novusbio.com/"><img src="/static/img/icons/novus.png"></a></td>
-                                                    <td><span class="med-font"><strong>Novus Biologicals</strong></span><br>
-                                                    Reagents for Reproducibility Project: Cancer Biology</a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
                                                     <td class="sponsor-center" id="rackspace"><a href="http://www.rackspace.com/"><img src="/static/img/icons/rackspace.png"></a></td>
                                                     <td><span class="med-font"><strong>Rackspace</strong></span><br>Monthly credit for cloud services<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center"><a href="http://www.readyforce.com/"><img src="/static/img/icons/readyforce.png"></a></td>
-                                                    <td><span class="med-font"><strong>Readyforce.com</strong></span><br>
-                                                    Use of recruitment services for developer internships<br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
@@ -501,12 +424,14 @@
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
+                                                <tr class="spacer"></tr>
                                                 <tr>
                                                     <td class="sponsor-center"><a href="https://www.sigmaaldrich.com"><img src="/static/img/icons/sigma-aldrich.jpg"></a></td>
                                                     <td><span class="med-font"><strong>Sigma-Aldrich</strong></span><br>
                                                    Reagents for Reproducibility Project: Cancer Biology<br>
                                                     </td>
                                                 </tr>
+                                                <tr class="spacer"></tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
                                                     <td class="sponsor-center" id="spanning"><a href="http://www.spanning.com/"><img src="/static/img/icons/spanning.png"></a></td>
@@ -515,22 +440,9 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center" id="systembio"><a href="http://www.systembio.com/"><img src="/static/img/icons/SBI.png"></a></td>
-                                                    <td><span class="med-font"><strong>System Biosciences</strong></span><br>Reagents for Reproducibility Project: Cancer Biology<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
                                                     <td class="sponsor-center"><a href="https://teamgantt.com/"><img src="/static/img/icons/teamgantt.jpg"></a></td>
                                                     <td><span class="med-font"><strong>TeamGantt</strong></span><br>
                                                    Expansion of plan to accommodate more team members<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center"><a href="http://www.zipfianacademy.com/"><img src="/static/img/icons/zipfian.png"></a></td>
-                                                    <td><span class="med-font"><strong>Zipfian Academy</strong></span><br>
-                                                    Use of recruitment services for developers and statistical consultants<br>
                                                     </td>
                                                 </tr>
                                             </table>
