@@ -76,7 +76,7 @@
         </div>
         
         <div class="col-md-8 margin-top-50  margin-bottom-30">
-            <h2><strong>Plan your discovery</strong></h2>
+            <h2><strong>Plan. Test. Discover.</strong></h2>
             <p>One thousand researchers will win $1,000 each for publishing work whose analyses were pre-registered on
                 the Open Science Framework. Sign-up here to stay informed!</p>
             <div class="center">
