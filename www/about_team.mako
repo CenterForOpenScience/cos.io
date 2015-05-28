@@ -334,7 +334,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/feilitzsch.jpg" alt="Fabian von Feilitzsch">
+            <img src="../static/img/people/vonfeilitzsch.jpg" alt="Fabian von Feilitzsch">
             <h3>
                 Fabian von Feilitzsch
                 <small>Developer | Infrastructure</small>
@@ -404,7 +404,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/rybaki.jpg" alt="Harry Rybacki">
+            <img src="../static/img/people/rybacki.jpg" alt="Harry Rybacki">
             <h3>
                 Harry Rybacki
                 <small>Developer | Infrastructure</small>
