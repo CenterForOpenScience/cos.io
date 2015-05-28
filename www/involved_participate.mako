@@ -148,6 +148,27 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                <a href="https://osf.io/gymd4/" target="_blank">
+                    <img src="../static/img/people/ambassadors/McKiernan.jpg" alt="Erin McKiernan">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Erin McKiernan
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    National Autonomous University of Mexico
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/e5fh9/" target="_blank">
                         <img src="../static/img/people/ambassadors/schonbrodt.jpg" alt="Felix Schönbrod">
                     </a>
@@ -186,6 +207,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -202,13 +225,11 @@
             </tr>
             <tr>
                 <td class="ambassador-instit-padding">
-                    Longwood University
+                    UNC Charlotte
                 </td>
             </tr>
         </table>
     </td>
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -251,6 +272,29 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                <a href="https://osf.io/zm6tg/" target="_blank">
+                    <img src="../static/img/people/ambassadors/sly.jpg" alt="Jim Sly">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Jim Sly
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Missouri State University
+                </td>
+            </tr>
+        </table>
+    </td>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -272,8 +316,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -295,6 +337,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -320,9 +364,9 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-
+                    <a href="https://osf.io/kz53a/" target="_blank">
                         <img src="../static/img/people/ambassadors/saleh.png" alt="Nassar Saleh">
-
+                    </a>
                 </td>
             </tr>
             <tr>
@@ -337,8 +381,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -360,6 +402,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -402,8 +446,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -425,6 +467,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -596,18 +640,16 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>1. Author Guidelines to Promote Openness and Reproducibility</strong></h4>
-        <p>Author guidelines clarify journal standards, recommendations, and requirements. In November 2014, COS hosted a
-            meeting of researchers, editors, and funders to identify best practices for promoting openness and reproducibility
-            with author guidelines. The forthcoming report will provide recommendations for publishers and societies for their
-            journals.
+        <h4><strong>1. Transparency and Openness Promotion (TOP) Guidelines</strong></h4>
+        <p>Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards. <a href="https://osf.io/ud578/"></p>
+        <p>Read the Guidelines</a> or <a href="mailto:contact@cos.io?subject=TOP Guidelines">email us</a> with questions, comments, or to join as a signatory.
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Requesting Author Guidelines">
+        <a href="https://osf.io/ud578/">
             <div class="action-box">
-                <i class="fa fa-exclamation-circle"></i>
-                <p>Alert me when available</p>
+                <i class="fa fa-book"></i>
+                <p>Read the Guidelines</p>
             </div>
         </a>
     </div>
@@ -630,18 +672,18 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>3. Poster and talk sharing service</strong></h4>
+        <h4><strong>3. OSF for Meetings</strong></h4>
         <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
             dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
             email and will receive a permanent, persistent URL that links to their work. Download counts and visits to each
-            uploaded poster will be recorded. <a href="https://osf.io/view/aps2014/" target="_blank">See how APS 2014 used this service.</a>
+            uploaded poster will be recorded. <a href="https://osf.io/view/spsp2015/" target="_blank">See how the 2015 SPSP meeting used this service</a> to share over 300 talks and posters.
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Requesting Poster Service">
+        <a href="mailto:contact@cos.io?subject=OSF for Meetings Request">
             <div class="action-box">
                 <i class="fa fa-bar-chart"></i>
-                <p>Request the sharing service</p>
+                <p>Request OSF for Meetings</p>
             </div>
         </a>
     </div>

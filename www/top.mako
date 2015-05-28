@@ -25,44 +25,50 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="col-md-12 space-mobile">
-                <h1><strong>Guidelines for Transparency and Openness Promotion (TOP)</strong></h1>
+                <h1><strong>Transparency and Openness Promotion (TOP) Guidelines</strong></h1>
                 <br>
 
-                <div class="row margin-bottom-20">
-                    <div class="col-md-3">
-                        <img src="/static/img/pics/top-pen.png">
-                    </div>
-                    <!-- BEGIN LISTS -->
+                    ##<div class="col-md-3">
+                     ##<img src="/static/img/pics/top-pen.png">
+                    ##</div>
+                    
 
-                    <div class="col-md-9 col-sm-12 ">
-                        <p>The TOP Guidelines were developed by researchers, journal editors, and funders in the social and behavioral sciences.
-                            They provide concrete items that organizations may use to increase transparency in published research.</p>
+                    
+                        <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
 
-                        <p>Journal editors and publishers are encouraged to adopt the TOP for their author guidelines to increase
-                            the transparency and reproducibility of the research that they publish. Funders can also adapt the
-                            text to direct their grantees toward more transparent practices.</p>
-                        <h4 class="margin-top-40">The TOP Guidelines describe 8 categories of transparency:</h4>
+                        <p>Journals, publishers, societies, repositories, and other organizations with a stake in science are encouraged to join as signatories of the TOP Guidelines.  Journal signatories are officially expressing interest in the guidelines and commit to conducting a review for potential adoption within a year.  Organization signatories are expressing their support for the principles expressed in the TOP Guidelines and to encourage their journals, where applicable, to do the same.</p>
+                        <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org"><em>Science</em> Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.</p>
+                        
+                        <h2><strong>Materials</strong></h2>
                         <ul>
-                            <li>Citation</li>
-                            <li>Data Transparency</li>
-                            <li>Analytic methods (code) transparency</li>
-                            <li>Research materials transparency</li>
-                            <li>Design and analysis transparency</li>
-                            <li>Preregistration of studies</li>
-                            <li>Preregistration of analysis plans</li>
-                            <li>Replications</li>
+                            <li>Article introducing the TOP Guidelines (<i>Science</i> Magazine, coming soon)</li>
+                            <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
+                            <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
+                            <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
+                            
                         </ul>
+                        <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                        <h1 class="margin-top-40"><a href="https://osf.io/9f6gx/">Read the Guidelines</a></h1>
+                
+                <h2><strong>Signatories</strong></h2>
+                
+                        <p><i>Coming soon!</i></p>
 
-                        <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org">SCIENCE Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.</p>
-                    </div>
-
-                    <!-- END LISTS -->
-                </div>
-
-
-
+                
+                
+                <h2><strong>Related Efforts</strong></h2>
+                  
+                        <p>TOP Guidelines are one of a family of efforts aiming to increase openness, integrity, and reproducibility of scientific research.  Explore and join these related efforts:</p>
+                        <ul>
+                            <li><a href="https://osf.io/tvyxz/wiki/home/">Badges to acknowledge open practices</li>
+                            <li><a href="http://www.copdess.org/">COPDESS: Coalition for Publishing Data in the Earth and Space Sciences</a></li>
+                            <li><a href="http://www.dartstatement.org/">DA-RT: Data Access and Research Transparency</a></li>
+                            <li><a href="http://www.nih.gov/about/reporting-preclinical-research.htm">NIH Principles and Guidelines for Reporting Preclinical Research</a></li>
+                            <li><a href="http://centerforopenscience.org/prereg/">The Pre-reg Prize</a></li>
+                            <li><a href="https://osf.io/8mpji/wiki/home/">Registered Reports</a></li>
+                        </ul>
+                  
+                
                 <!-- END INFO BLOCK -->
             </div>
         </div>
