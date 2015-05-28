@@ -27,7 +27,9 @@
                     <p class="lead">The Board represents the scientific and technology communities in order to provide COS with advice for meeting its mission to increase openness, integrity, and reproducibility across the sciences.</p>
                     <div class="btn-group" role="group">
                         <a href="#AlanKraut"><button type="button" class="btn btn-default">Alan G. Kraut</button></a>
+                        <a href="#AndrewUpdegrove"><button type="button" class="btn btn-default">Andrew Updegrove</button></a>
                         <a href="#ArthurLupia"><button type="button" class="btn btn-default">Arthur Lupia</button></a>
+                        <a href="#HeatherJoseph"><button type="button" class="btn btn-default">Heather Joseph</button></a>
                         <a href="#JohnIoannidis"><button type="button" class="btn btn-default">John P.A. Ioannidis</button></a>
                         <a href="#JoshGreenberg"><button type="button" class="btn btn-default">Joshua M. Greenberg</button></a>
                         <a href="#MarciaMcNutt"><button type="button" class="btn btn-default">Marcia McNutt</button></a>
@@ -75,6 +77,80 @@
                         </div>
                     </div>
                     <hr>
+                   <div class="row margin-bottom-30" id="AndrewUpdegrove">
+                        <div class="col-md-5">
+                            <div class="board-thumbnail">
+                                <img src="../static/img/people/board/updegrove.jpg" alt="Andrew Updegrove">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3>
+                                Andrew Updegrove<br>
+                                <small><b>Co-founder, Partner, Gesmer Updegrove LLP</b></small>
+                            </h3>
+                            <h5>Term: 2015-2016</h5>
+
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Andrew Updegrove is a co-founder and partner of the Boston law firm of Gesmer Updegrove LLP.
+
+                                        Since 1988 he has served as legal counsel to over 135 standards development organizations and
+
+                                        open source foundations, most of which he has helped structure and launch. He has been
+
+                                        retained by many of the largest technology companies in the world to assist them in forming such
+
+                                        He has also written and spoken extensively on the topics of consortia, standard setting and open
+
+                                        source software, has given testimony to the United States Department of Justice, Federal Trade
+
+                                        Commission, and Congressional and State legislative committees on the same topics, and has
+
+                                        filed “friend of the court” briefs on a pro bono basis with the Federal Circuit Court, Supreme Court,
+
+                                        and Federal Trade Commission in support of standards development in leading standards-related
+
+                                        litigation.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more2">more</a>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid summary">
+                                <div id="more2" class="collapse">
+                                <p>In 2002, he launched ConsortiumInfo.org, a website intended to be the most detailed
+
+                                    and comprehensive resource on the Internet on the topics of consortia and standard setting, as
+
+                                    well as Standards Today, an eJournal of news, ideas and analysis in the standard setting and
+
+                                    open source areas with over 7,000 subscribers around the world. In 2005, he launched the
+
+                                    Standards Blog. ConsortiumInfo.org serves over 10 million page views annually.</p>
+
+                                <p>He has been a member of the United States Standards Strategy revision committee, has served
+
+                                    on a National Academy of Sciences committee on standards-related intellectual property rights
+
+                                    policies commissioned by the US PTO, and has received the President’s Award for Journalism
+
+                                    from American National Standards Institute (ANSI). His current and past Board service includes
+
+                                    the Boards of Directors of ANSI, the Linux Foundation and the Free Standards Group, and the
+
+                                    Boards of Advisors of HL7 and Open Source for America. He is a graduate of Yale University
+
+                                    and the Cornell University Law School.</p>
+
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more2">less</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
                     <div class="row margin-bottom-30" id="ArthurLupia">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
@@ -109,6 +185,80 @@
                                 </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="HeatherJoseph">
+                        <div class="col-md-5">
+                            <div class="board-thumbnail">
+                                <img src="../static/img/people/board/joseph.png" alt="Heather Joseph">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3>
+                                Heather Joseph<br>
+                                <small><b>Executive Director, The Scholarly Publishing and Academic Resources Coalition (SPARC)</b></small>
+                            </h3>
+                            <h5>Term: 2015-2016</h5>
+
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Heather Joseph serves as the Executive Director of SPARC, (the Scholarly Publishing
+
+                                        and Academic Resources Coalition), an international coalition of academic and research
+
+                                        libraries working to expand the global, open communication of research and scholarship.
+
+                                        She leads the strategic and operational activities of the organization, and has focused
+
+                                        SPARC’s efforts on creating and supporting new models for sharing digital articles, data
+
+                                        and educational resources. Under her stewardship, SPARC has become widely
+
+                                        recognized as the leading international force for effective Open Access policy advocacy,
+
+                                        successfully securing legislation and executive actions in the U.S., Canada and Europe.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more3">more</a>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid summary">
+                                <div id="more3" class="collapse">
+                                <p>To support SPARC’s mission, Ms. Joseph spearheaded the launch of the student Right to
+
+                                        Research Coalition, an international advocacy organization that has grown to represent
+
+                                        nearly seven million students worldwide, and provides opportunities for students and
+
+                                        early career researchers to actively engage in advocacy for the open sharing of research
+
+                                        and scholarship. She is also the convener of the Alliance for Taxpayer Access, a national
+
+                                        coalition of major U.S. education, research and advocacy organizations that advocate for
+
+                                        public access to the results of federally funded research.</p>
+
+                                <p>Prior to joining SPARC, she spent 15 years as a publishing executive in both commercial
+
+                                        and not-for-profit publishing organizations. Ms. Joseph serves on the Board of Directors
+
+                                        of a number of non-profit organizations, including the Public Library of Science (PLoS),
+
+                                        DuraSpace and the Center for Open Science. She is an active participant in projects and
+
+                                        committees at several U.S. federal agencies, and was recently appointed to the Secretary
+
+                                        of Commerce’s advisory Council on Digital Data. Ms. Joseph is a frequent speaker and
+
+                                        writer on topics relating to opening up access to knowledge.</p>
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more3">less</a>
+                                </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <hr>
