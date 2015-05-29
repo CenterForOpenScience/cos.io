@@ -512,7 +512,7 @@
             <img src="../static/img/people/esposito.jpg" alt="Jolene Esposito">
             <h3>
                 Jolene Esposito
-                <small>Project Manager | Metascience</small>
+                <small>Project Manager | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jol<span style="display:none;">null</span>ene@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
