@@ -456,22 +456,7 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
-            <h3>
-                Kushagra Gupta
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.facebook.com/imkushagra" data-original-title="Facebook" class="facebook"></a></li>
-                <li><a href="https://github.com/KushG" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://www.linkedin.com/pub/kushagra-gupta/26/88/a84" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/k9xyz/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
+       <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/banner.jpg" alt="Larry Banner">
             <h3>
@@ -1064,6 +1049,22 @@
             </ul>
         </div>
     </li>
+ <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
+            <h3>
+                Kushagra Gupta
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/imkushagra" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/KushG" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/pub/kushagra-gupta/26/88/a84" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/k9xyz/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
