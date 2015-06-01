@@ -51,13 +51,13 @@
                         <p class="margin-top-20">Journals, publishers, societies, repositories, and other organizations with a stake in science are encouraged to join as signatories of the TOP Guidelines.</p>
                         <p class="margin-top-20"><b>Journal signatories are:</b></p>
                         <ol>
-                            <li>expressing their support of the principles expressed in the TOP Guidelines - improving openness, transparency, and reproducibility</li>
-                            <li>expressing interest in the guidelines and commit to conducting a review within a year of the standards and levels for potential adoption</li>
+                            <li>Expressing their support of the principles expressed in the TOP Guidelines - improving openness, transparency, and reproducibility</li>
+                            <li>Expressing interest in the guidelines and commit to conducting a review within a year of the standards and levels for potential adoption</li>
                         </ol>
                         <p class="margin-top-20"><b>Organization signatories are:</b></p>
                         <ol>
-                            <li>expressing their support for the principles expressed in the TOP Guidelines - improving openness, transparency, and reproducibility</li>
-                            <li>if relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
+                            <li>Expressing their support for the principles expressed in the TOP Guidelines - improving openness, transparency, and reproducibility</li>
+                            <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
@@ -66,8 +66,8 @@
                     <p class="margin-top-20"><strong>Organization Signatories</strong></p>
                     <p><i>Coming Soon!</i></p>
 
-                                
-                <h2><strong>Related Efforts</strong></h2>
+                <hr>
+                <h1><strong>Related Efforts</strong></h1>
                     <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org"><em>Science</em> Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.  TOP Guidelines are one of a family of efforts aiming to increase openness, integrity, and reproducibility of scientific research.  Explore and join these related efforts:</p>
                         <ul>
                             <li><a href="https://osf.io/tvyxz/wiki/home/">Badges to acknowledge open practices</li>
