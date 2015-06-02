@@ -716,6 +716,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/gorman2.jpg" alt="Patrick Gorman">
+            <h3>
+                Patrick Gorman
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="http://www.github.com/PatrickEGorman" data-original-title="github" class="github"></a></li>
+                <li><a href="https://osf.io/nrzex/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/muggill.jpg" alt="Patrick Muggill">
             <h3>
                 Patrick Muggill
