@@ -462,19 +462,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/yuan.jpg" alt="Jinlu Yuan">
-            <h3>
-                Jinlu Yuan
-                <small>QA Intern | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/xbkq5/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
 ##    <li class="col-md-3 space-mobile">
 ##        <div class="thumbnail">
 ##            <img src="../static/img/people/lui.jpg" alt="Jiankun Lui">
@@ -1162,6 +1149,19 @@
                 <li><a href="https://github.com/mambocab" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/q4g5d/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://www4.ncsu.edu/~jwshephe/" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+        <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/yuan.jpg" alt="Jinlu Yuan">
+            <h3>
+                Jinlu Yuan
+                <small>HR Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.linkedin.com/profile/view?id=195310010" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/xbkq5/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
