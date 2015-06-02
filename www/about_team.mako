@@ -180,7 +180,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/fitzgerald3.jpg" alt="Cailey Fitzgerald">
+            <img src="../static/img/people/fitzgerald.jpg" alt="Cailey Fitzgerald">
             <h3>
                 Cailey Fitzgerald
                 <small>Developer Intern | Infrastructure</small>
@@ -525,28 +525,13 @@
             <img src="../static/img/people/esposito.jpg" alt="Jolene Esposito">
             <h3>
                 Jolene Esposito
-                <small>Project Manager | Metascience</small>
+                <small>Project Manager | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jol<span style="display:none;">null</span>ene@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbyrar@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/jolene-esposito" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/wmp4n/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
-            <h3>
-                Kushagra Gupta
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.facebook.com/imkushagra" data-original-title="Facebook" class="facebook"></a></li>
-                <li><a href="https://github.com/KushG" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://www.linkedin.com/pub/kushagra-gupta/26/88/a84" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/k9xyz/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -670,7 +655,7 @@
     </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/michael.jpg" alt="Michael Hasleton">
+            <img src="../static/img/people/haselton.jpg" alt="Michael Hasleton">
             <h3>
                 Michael Hasleton
                 <small>Developer | Infrastructure</small>
@@ -1210,6 +1195,22 @@
             </ul>
         </div>
     </li>
+ <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
+            <h3>
+                Kushagra Gupta
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/imkushagra" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/KushG" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/pub/kushagra-gupta/26/88/a84" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/k9xyz/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
