@@ -25,7 +25,7 @@ class News(models.Model):
     order = models.PositiveIntegerField()
 
     def __unicode__(self):
-        return self.title
+        return u'%s' % self.title
 
     def get_thumb_max_size(self):
         return str(self.thumb_image_width) + 'x' + str(self.thumb_image_height);

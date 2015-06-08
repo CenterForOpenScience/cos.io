@@ -20,21 +20,17 @@ class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
         return super(AmbassadorsAdmin, self).get_form(request, obj, **kwargs)
 
     def image_url(self, obj):
-        if not obj.image:
-            return '123'
-        return '<a target="_blank" href="' + obj.image.url + '">' + obj.image.url + '</a>'
+        print obj.image.url
     image_url.allow_tag = True
 
     def thumb_url(self, obj):
-        if not obj.image or not obj.thumb_image_width or not obj.thumb_image_height:
-            return '123'
         url = get_thumbnailer(obj.image).get_thumbnail({
             'size': (obj.thumb_image_width, obj.thumb_image_height),
             'box': obj.mini_image,
             'crop': True,
             'detail': True,
             }).url
-        return '<a target="_blank" href="' + url + '">' + url + '</a>'
+        print url
     thumb_url.allow_tag = True
 
 admin.site.register(Ambassadors, AmbassadorsAdmin)

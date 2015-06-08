@@ -215,20 +215,19 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = STATIC_URL + "media/"
-MEDIA_ROOT = os.path.join(PROJECT_ROOT, "../media")
+MEDIA_URL = STATIC_URL + "/static/media/"
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, "../static/media")
 
 CKEDITOR_UPLOAD_PATH = "../uploads"
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, "../static"),
-
+    os.path.join(PROJECT_ROOT, "../static/"),
 )
 
 FIXTURE_DIRS = (os.path.join(PROJECT_ROOT, 'fixtures'),)
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = os.path.join(PROJECT_ROOT, *MEDIA_URL.strip("/").split("/"))
+
 
 # Package/module name to import the root urlpatterns from for the project.
 ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
@@ -246,7 +245,7 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "../templates"),)
 
 INSTALLED_APPS = (
 
-
+    # "suit",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -276,6 +275,8 @@ INSTALLED_APPS = (
     "django_extlog",
     "django_extensions",
     "email_obfuscator",
+    # "csvimport",
+    # 'orderedmodel',
 
 )
 
@@ -407,15 +408,5 @@ BASE_DIR = os.path.abspath(__file__)
 for _ in range(3):
     BASE_DIR = os.path.dirname(BASE_DIR)
 
-
-
-# THUMBNAIL_PROCESSORS = (
-#     'image_cropping.thumbnail_processors.crop_corners',
-# ) + thumbnail_settings.THUMBNAIL_PROCESSORS
-
-
-
-MEDIA_URL = '/media/'
-CKEDITOR_UPLOAD_PATH = "uploads/"
 
 CKEDITOR_CONFIGS = {'default': {'toolbar': None, }, }

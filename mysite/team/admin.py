@@ -28,9 +28,7 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
         return super(TeamAdmin, self).get_form(request, obj, **kwargs)
 
     def image_url(self, obj):
-        if not obj.image:
-            return 'make sure you click on save and continue editing button before you click save'
-        return '<a target="_blank" href="' + obj.image.url + '">' + obj.image.url + '</a>'
+        return u' %s' % obj.image.url
     image_url.allow_tag = True
 
     def thumb_url(self, obj):
@@ -42,11 +40,7 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
             'crop': True,
             'detail': True,
             }).url
-        return '<a target="_blank" href="' + url + '">' + url + '</a>'
+        return u'%s' % url
     thumb_url.allow_tag = True
 
 admin.site.register(Team, TeamAdmin)
-
-
-
-

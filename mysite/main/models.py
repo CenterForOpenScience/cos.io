@@ -12,6 +12,3 @@ class Pages(models.Model):
     class Meta:
         verbose_name = u'Main View Page'
         verbose_name_plural = u'Main View Page'
-
-
-
