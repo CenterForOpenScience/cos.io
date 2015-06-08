@@ -1,12 +1,15 @@
 from django.db import models
+from adminsortable.models import Sortable
 from easy_thumbnails.files import get_thumbnailer
 from image_cropping import ImageRatioField, ImageCropField
 
 
+
 class News(models.Model):
-    pub_date = models.DateTimeField('date published', 'author', )
-    ordering = ['publication_date']
+    pub_date = models.DateTimeField('date published', 'author')
+    ordering = ['pub_date']
     title = models.CharField(max_length=150)
+
 
     original_image_width = models.PositiveIntegerField(null=True)
     original_image_height = models.PositiveIntegerField(null=True)
@@ -15,10 +18,10 @@ class News(models.Model):
     thumb_image_height = models.PositiveIntegerField(null=True)
 
     image = ImageCropField(upload_to='uploaded_images')
-    min_free_cropping = ImageRatioField('image', free_crop=True)
+    mini_image = ImageRatioField('image', free_crop=True)
 
     link = models.CharField(max_length=200)
-    body = models.TextField(blank=True)
+    body = models.TextField()
     order = models.PositiveIntegerField()
 
     def __unicode__(self):
@@ -40,12 +43,3 @@ class News(models.Model):
         verbose_name = u'News'
         verbose_name_plural = u'COS News Section'
         ordering = ['order']
-
-
-
-
-
-
-
-
-

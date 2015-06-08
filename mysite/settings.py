@@ -82,7 +82,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 from easy_thumbnails.conf import Settings as thumbnail_settings
 
 USE_SOUTH = False
-TEMPLATE_DEBUG = True
+# TEMPLATE_DEBUG = True
 
 NEXUS_SKIP_INSTALLED_APPS_REQUIREMENTS = True
 ########################
@@ -246,9 +246,7 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "../templates"),)
 
 INSTALLED_APPS = (
 
-    #"grappelli_nested",
-    #"grappelli",
-    # "suit",
+
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -278,8 +276,6 @@ INSTALLED_APPS = (
     "django_extlog",
     "django_extensions",
     "email_obfuscator",
-    "csvimport",
-    'orderedmodel',
 
 )
 
@@ -338,7 +334,7 @@ PACKAGE_NAME_GRAPPELLI = "grappelli_safe"
 
 # These will be added to ``INSTALLED_APPS``, only if available.
 OPTIONAL_APPS = (
-    "debug_toolbar",
+    # "debug_toolbar",
     "django_extensions",
     "compressor",
     PACKAGE_NAME_FILEBROWSER,
@@ -422,5 +418,4 @@ for _ in range(3):
 MEDIA_URL = '/media/'
 CKEDITOR_UPLOAD_PATH = "uploads/"
 
-CKEDITOR_CONFIGS = { 'default': { 'toolbar': None, },
-}
+CKEDITOR_CONFIGS = {'default': {'toolbar': None, }, }

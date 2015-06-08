@@ -5,3 +5,7 @@
             -moz-border-radius: 80%! important;
 
         }
+
+li {
+    list-style-type: none;
+}

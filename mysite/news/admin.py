@@ -10,7 +10,6 @@ class NewsAdmin(ImageCroppingMixin, SortableModelAdmin):
     readonly_fields = ('News_image_url', 'News_thumb_url',)
     sortable = 'order'
 
-
     def News_image_url(self, obj):
         if not obj.image:
             return ''
@@ -22,7 +21,7 @@ class NewsAdmin(ImageCroppingMixin, SortableModelAdmin):
             return ''
         url = get_thumbnailer(obj.image).get_thumbnail({
                 'size': (obj.thumb_image_width, obj.thumb_image_height),
-                'box': obj.min_free_cropping,
+                'box': obj.mini_image,
                 'crop': True,
                 'detail': True,
                 }).url
@@ -30,5 +29,3 @@ class NewsAdmin(ImageCroppingMixin, SortableModelAdmin):
     News_thumb_url.allow_tag = True
 
 admin.site.register(News, NewsAdmin)
-
-

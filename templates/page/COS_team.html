@@ -14,7 +14,7 @@
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% load email_obfuscator %}
 
-    <!-- BEGIN PAGE CONTAINER -->
+<!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
 
 <!-- BEGIN CONTAINER -->
@@ -29,7 +29,7 @@
         {% for team_member in current_members %}
             <li class="col-md-3 space-mobile" >
                 <div class="thumbnail">
-                    <div class="circular" style="background: url({% cropped_thumbnail team_member "min_free_cropping" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px"></div>
+                    <div class="circular" style="background: url({% cropped_thumbnail team_member "mini_image" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px"></div>
                     <h3>{{ team_member.name }}
                     <small>{{ team_member.position }}</small></h3>
                     <ul class="social-icons social-icons-color" >
@@ -70,7 +70,7 @@
      {% for team_member in alumni_members %}
             <li class="col-md-3 space-mobile" >
                 <div class="thumbnail">
-                    <div class="circular" style="background: url({% cropped_thumbnail team_member "min_free_cropping" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px"></div>
+                    <div class="circular" style="background: url({% cropped_thumbnail team_member "mini_image" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px"></div>
                     <h3>{{ team_member.name }}
                     <small>{{ team_member.position }}</small></h3>
                     <ul class="social-icons social-icons-color" >

@@ -29,22 +29,23 @@
 <h1><strong>Open Positions</strong></h1>
 <p class="lead">COS is looking for open science enthusiasts to join our team. Openness means inclusivity: the Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
 <link rel="stylesheet" type="text/css" href="/static/test.css" />
-{% for section in sections %}
+{% for jobs in current_job %}
 <div id="Developer" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
             <h4 class="panel-title" >
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#Developer" >
-                    {{ section.title }}
+{#                    {% for jobs in current_job %}#}
+                    {{ jobs.title }}
                 </a>
             </h4>
         </div>
         <div id="Developer" class="panel-collapse collapse">
             <div class="panel-body" >
                 <dl class="dl-horizontal">
-                {% for entry in section.entries.all %}
-                        <dt>{{ entry.label | safe}}</dt>
+                {% for entry in jobs.entries.all %}
+                        <dt>{{ entry.section | safe}}</dt>
                         <dd>{{ entry.description | safe}}</dd>
                 {% endfor %}
                  </dl>
@@ -52,6 +53,11 @@
         </div>
         </div></div>
         {% endfor %}
+
+        {% for jobs in past_job %}
+        {% endfor %}
+
+
 
 
 

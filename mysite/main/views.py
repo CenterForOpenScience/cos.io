@@ -6,6 +6,7 @@ from mysite.news.models import News
 from mysite.team.models import Team
 from mysite.main.models import Pages
 from mysite.jobs.models import Section
+from mysite.jobs.models import Entry
 from mysite.ambassadors.models import Ambassadors
 
 
@@ -87,9 +88,33 @@ class JobsPageView(generic.TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(JobsPageView, self).get_context_data(**kwargs)
-        context['sections'] = Section.objects.all()
-        # import pdb; pdb.set_trace()
+        current_job = []
+        past_job = []
+        for jobs in Section.objects.all():
+            if jobs.not_active:
+                past_job.append(jobs)
+            else:
+                current_job.append(jobs)
+        context['current_job'] = current_job
+        context['past_job'] = past_job
         return context
+
+    # def my_context_data(self, **kwargs):
+    #     context = super(JobsPageView, self).get_context_data(**kwargs)
+    #     current = []
+    #     past = []
+    #     for jobs in Entry.objects.all():
+    #         if jobs.nott_active:
+    #             past.append(jobs)
+    #         else:
+    #             current.append(jobs)
+    #     context['current'] = current
+    #     context['past'] = past
+    #     return context
+
+
+
+
 
 
 class MissionPageView(generic.TemplateView):

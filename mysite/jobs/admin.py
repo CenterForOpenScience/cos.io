@@ -19,8 +19,8 @@ class EntryInline(admin.TabularInline):
 
 class EntryAdmin(admin.ModelAdmin):
     inlines = [ListEntryInline, AnchorInline]
-    list_display = ['section', 'label', ]
-    # list_editable = ['section', 'description', ]
+    list_display = ['position', 'section', ]
+    list_editable = ['section', ]
 
     def __init__(self, *args, **kwargs):
         super(EntryAdmin, self).__init__(*args, **kwargs)
@@ -28,8 +28,8 @@ class EntryAdmin(admin.ModelAdmin):
 
 class SectionAdmin(admin.ModelAdmin):
     inlines = [EntryInline]
-    list_display = ['title', ]
-    list_editable = ['title', ]
+    list_display = ['title', 'not_active', ]
+    list_editable = ['not_active', ]
 
 admin.site.register(Section, SectionAdmin)
 admin.site.register(Entry, EntryAdmin)

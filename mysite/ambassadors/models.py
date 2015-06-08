@@ -14,9 +14,9 @@ class Ambassadors(models.Model):
     thumb_image_height = models.PositiveIntegerField(null=True)
 
     image = ImageCropField(upload_to='uploaded_images')
-    min_free_cropping = ImageRatioField('image', free_crop=True)
+    mini_image = ImageRatioField('image', free_crop=True)
     link = models.CharField(max_length=100)
-    # order = models.PositiveIntegerField(null=True)
+
 
     def __unicode__(self):
         return self.name

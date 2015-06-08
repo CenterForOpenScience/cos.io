@@ -1,7 +1,7 @@
 # coding=utf-8
 from django.db import models
-from image_cropping import ImageRatioField, ImageCropField
 from easy_thumbnails.files import get_thumbnailer
+from image_cropping import ImageRatioField, ImageCropField
 
 
 class Team(models.Model):
@@ -15,14 +15,14 @@ class Team(models.Model):
     thumb_image_height = models.PositiveIntegerField(null=True)
 
     image = ImageCropField(upload_to='uploaded_images')
-    min_free_cropping = ImageRatioField('image', free_crop=True)
+    mini_image = ImageRatioField('image', free_crop=True)
 
     email = models.CharField(max_length=255, null=True, blank=True)
     yahoo = models.CharField(max_length=255, null=True, blank=True)
     picasa = models.CharField(max_length=255, null=True, blank=True)
     youtube = models.CharField(max_length=255, null=True, blank=True)
     OSF_url = models.CharField(max_length=255, null=True, blank=True)
-    pintrest = models.CharField(max_length=255, null=True, blank=True)
+    pinterest = models.CharField(max_length=255, null=True, blank=True)
     wordpress = models.CharField(max_length=255, null=True, blank=True)
     tumblr_url = models.CharField(max_length=255, null=True, blank=True)
     google_url = models.CharField(max_length=255, null=True, blank=True)
@@ -31,6 +31,7 @@ class Team(models.Model):
     facebook_url = models.CharField(max_length=255, null=True, blank=True)
     linkedin_url = models.CharField(max_length=255, null=True, blank=True)
     personal_website = models.CharField(max_length=255, null=True, blank=True)
+
 
     def __unicode__(self):
         return self.name

@@ -12,16 +12,18 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
 
     def get_form(self, request, obj=None, **kwargs):
         if not obj:
-            kwargs['fields'] = ['name', 'position', 'alumni', 'original_image_width', 'original_image_height', 'facebook_url',
-                                'twitter_url', 'google_url','tumblr_url', 'github_url', 'OSF_url', 'linkedin_url',
-                                'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa', 'pintrest','image', ]
+            kwargs['fields'] = ['name', 'position', 'alumni', 'original_image_width', 'original_image_height',
+                                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
+                                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
+                                'pinterest', 'image', ]
+
             kwargs['exclude'] = ['image_url', 'thumb_url', ]
         else:
-            kwargs['fields'] = ['name', 'position', 'alumni' , 'original_image_width', 'original_image_height', 'facebook_url',
-                                'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url', 'linkedin_url',
-                                'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa', 'pintrest',
-                                'image', 'thumb_image_width','thumb_image_height', 'min_free_cropping', 'image_url',
-                                'thumb_url', ]
+            kwargs['fields'] = ['name', 'position', 'alumni' , 'original_image_width', 'original_image_height',
+                                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
+                                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
+                                'pinterest', 'image', 'thumb_image_width','thumb_image_height', 'mini_image',
+                                'image_url', 'thumb_url', ]
 
         return super(TeamAdmin, self).get_form(request, obj, **kwargs)
 
@@ -36,7 +38,7 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
             return 'make sure you click on save and continue editing button before you click save'
         url = get_thumbnailer(obj.image).get_thumbnail({
             'size': (obj.thumb_image_width, obj.thumb_image_height),
-            'box': obj.min_free_cropping,
+            'box': obj.mini_image,
             'crop': True,
             'detail': True,
             }).url
