@@ -40,6 +40,8 @@
                             <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
                             <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
                             <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
+                            <li><a href="#journals">Journal Signatories</a></li>
+                            <li><a href="#orgs">Organization Signatories</a></li>
                             <li>Article introducing the TOP Guidelines (<i>Science</i> Magazine, coming soon)</li>
                             
                         </ul>
@@ -51,20 +53,22 @@
                         <p class="margin-top-20">Journals, publishers, societies, repositories, and other organizations with a stake in science are encouraged to join as signatories of the TOP Guidelines.</p>
                         <p class="margin-top-20"><b>Journal signatories are:</b></p>
                         <ol>
-                            <li>Expressing their support of the principles expressed in the TOP Guidelines - improving openness, transparency, and reproducibility</li>
+                            <li>Expressing their support of the principles of openness, transparency, and reproducibility</li>
                             <li>Expressing interest in the guidelines and commit to conducting a review within a year of the standards and levels for potential adoption</li>
                         </ol>
                         <p class="margin-top-20"><b>Organization signatories are:</b></p>
                         <ol>
-                            <li>Expressing their support for the principles expressed in the TOP Guidelines - improving openness, transparency, and reproducibility</li>
+                            <li>Expressing their support of the principles of openness, transparency, and reproducibility</li>
                             <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><strong>Journal Signatories</strong></p>
-                    <p><i>Coming Soon!</i></p>
-                    <p class="margin-top-20"><strong>Organization Signatories</strong></p>
-                    <p><i>Coming Soon!</i></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories</strong></p>
+                    <i>Coming Soon!</i>
+                    
+
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories</strong></p>
+                    <i>Coming Soon!</i>
 
                 <hr>
                 <h1><strong>Related Efforts</strong></h1>
