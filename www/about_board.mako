@@ -80,7 +80,7 @@
                    <div class="row margin-bottom-30" id="AndrewUpdegrove">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
-                                <img src="../static/img/people/board/updegrove.jpg" alt="Andrew Updegrove">
+                                <img src="../static/img/people/board/updegrove.JPG" alt="Andrew Updegrove">
                             </div>
                         </div>
                         <div class="col-md-7">
