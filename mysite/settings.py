@@ -244,8 +244,6 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "../templates"),)
 ################
 
 INSTALLED_APPS = (
-
-    # "suit",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -275,9 +273,6 @@ INSTALLED_APPS = (
     "django_extlog",
     "django_extensions",
     "email_obfuscator",
-    # "csvimport",
-    # 'orderedmodel',
-
 )
 
 
@@ -408,5 +403,5 @@ BASE_DIR = os.path.abspath(__file__)
 for _ in range(3):
     BASE_DIR = os.path.dirname(BASE_DIR)
 
-
+MEDIA_URL = '/media/'
 CKEDITOR_CONFIGS = {'default': {'toolbar': None, }, }

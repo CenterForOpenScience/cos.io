@@ -20,7 +20,7 @@ class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
         return super(AmbassadorsAdmin, self).get_form(request, obj, **kwargs)
 
     def image_url(self, obj):
-        print obj.image.url
+        return obj.image.url
     image_url.allow_tag = True
 
     def thumb_url(self, obj):
@@ -30,7 +30,7 @@ class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
             'crop': True,
             'detail': True,
             }).url
-        print url
+        return url
     thumb_url.allow_tag = True
 
 admin.site.register(Ambassadors, AmbassadorsAdmin)

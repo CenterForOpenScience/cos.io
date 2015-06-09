@@ -4,12 +4,10 @@ from easy_thumbnails.files import get_thumbnailer
 from image_cropping import ImageRatioField, ImageCropField
 
 
-
 class News(models.Model):
     pub_date = models.DateTimeField('date published', 'author')
     ordering = ['pub_date']
     title = models.CharField(max_length=150)
-
 
     original_image_width = models.PositiveIntegerField(null=True)
     original_image_height = models.PositiveIntegerField(null=True)
@@ -28,7 +26,7 @@ class News(models.Model):
         return u'%s' % self.title
 
     def get_thumb_max_size(self):
-        return str(self.thumb_image_width) + 'x' + str(self.thumb_image_height);
+        return str(self.thumb_image_width), 'x' ,str(self.thumb_image_height)
 
     def save(self, *args, **kwargs):
         found_id = self.id

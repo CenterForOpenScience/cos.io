@@ -37,7 +37,7 @@ class Team(models.Model):
         return self.name
 
     def get_thumb_max_size(self):
-        return u'%s %s' % str(self.thumb_image_width) + 'x' + str(self.thumb_image_height)
+        return u'%s %s' % str(self.thumb_image_width), 'x', str(self.thumb_image_height)
 
     def save(self, *args, **kwargs):
         found_id = self.id

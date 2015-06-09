@@ -99,23 +99,6 @@ class JobsPageView(generic.TemplateView):
         context['past_job'] = past_job
         return context
 
-    # def my_context_data(self, **kwargs):
-    #     context = super(JobsPageView, self).get_context_data(**kwargs)
-    #     current = []
-    #     past = []
-    #     for jobs in Entry.objects.all():
-    #         if jobs.nott_active:
-    #             past.append(jobs)
-    #         else:
-    #             current.append(jobs)
-    #     context['current'] = current
-    #     context['past'] = past
-    #     return context
-
-
-
-
-
 
 class MissionPageView(generic.TemplateView):
     template_name = 'page/about_mission.html'

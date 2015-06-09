@@ -46,7 +46,7 @@ urlpatterns += patterns('',
     url(r"^(?i)service$", ServicePageView.as_view(), name="service"),
     url(r"^(?i)osf$", OsfPageView.as_view(), name="osf"),
     url(r"^(?i)pr/(?P<item>.*)/$", PrPageView.as_view(), name="pr"),
-    url(r"^(?i)about_board$", AboutBoardPageView.as_view(), name="about_board"),
+    url(r"^(?i)about_board$", AboutBoardPageView.as_view(), name ="about_board"),
     url(r"^(?i)about_team$", TeamPageView.as_view(), name="COS_Team"),
     url(r"^(?i)communities$", CommunitiesPageView.as_view(), name="communities"),
     url(r"^(?i)ambassadors$", AmbassadorsPageView.as_view(), name="ambassadors"),
@@ -57,6 +57,9 @@ urlpatterns += patterns('',
     url(r"^(?i)stats_consulting$", StatsPageView.as_view(), name="stats_consulting"),
     url(r"^(?i)top$", TopPageView.as_view(), name="top"),
     url(r"^(?i)involved_participate$", InvolvedParticipatesPageView.as_view(), name="involved_participate"),
+
+
+
 
     ("^", include("mezzanine.generic.urls")),
     (r'^ckeditor/', include('ckeditor.urls')),
@@ -83,6 +86,8 @@ if settings.DEBUG:
         "document_root": settings.MEDIA_ROOT,
     }),
 
+
+
     # HOMEPAGE AS AN EDITABLE PAGE IN THE PAGE TREE
     # ---------------------------------------------
     # This pattern gives us a normal ``Page`` object, so that your
@@ -96,7 +101,7 @@ if settings.DEBUG:
     # "/.html" - so for this case, the template "pages/index.html"
     # should be used if you want to customize the homepage's template.
 
-    # url("^$", "mezzanine.pages.views.page", {"slug": "/"}, name="home"),
+    #url("^$", "mezzanine.pages.views.page", {"slug": "/"}, name="home"),
 
     # HOMEPAGE FOR A BLOG-ONLY SITE
     # -----------------------------
@@ -106,7 +111,7 @@ if settings.DEBUG:
     # ``settings.py`` module, and delete the blog page object from the
     # page tree in the admin if it was installed.
 
-    # url("^$", "mezzanine.blog.views.blog_post_list", name="home"),
+    #url("^$", "mezzanine.blog.views.blog_post_list", name="home"),
 
     # MEZZANINE'S URLS
     # ----------------
@@ -134,9 +139,13 @@ if settings.DEBUG:
     # of this file as well.
     # Note that for any of the various homepage patterns above, you'll
     # need to use the ``SITE_PREFIX`` setting as well.
+
     # ("^%s/" % settings.SITE_PREFIX, include("mezzanine.urls"))
-    # Adds ``STATIC_URL`` to the context of error pages, so that error
-    # pages can use JS, CSS and images.
+
+
+
+# Adds ``STATIC_URL`` to the context of error pages, so that error
+# pages can use JS, CSS and images.
 handler404 = "mezzanine.core.views.page_not_found"
 handler500 = "mezzanine.core.views.server_error"
 
@@ -149,7 +158,7 @@ if "django.contrib.admin" in settings.INSTALLED_APPS:
         reset_pattern = "^reset/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>.+)/$"
     urlpatterns += patterns("django.contrib.auth.views",
                             url("^password_reset/$", "password_reset", name="password_reset"),
-                            url("^password_reset/done/$", "password_reset_done", name="password_reset_done"),
+                            url("^password_reset/done/$", "password_reset_done",name="password_reset_done"),
                             url("^reset/done/$", "password_reset_complete", name="password_reset_complete"),
                             url(reset_pattern, "password_reset_confirm", name="password_reset_confirm"),
                             )
