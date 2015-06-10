@@ -33,13 +33,12 @@
             <div class="col-md-4 service-box-v1" >
                 <div style=" cursor: pointer;" onclick="document.location.href = '{{ news_item.link }}'" >
                     <div class="col-md-6">
-                        <img src="{% cropped_thumbnail news_item "mini_image" max_size=news_item.get_thumb_max_size %}" />
+                    <img src="{% cropped_thumbnail news_item "mini_image" max_size=news_item.get_thumb_max_size %}" />
                     </div>
                     <div class="col-md-0">
                         <h2 class="text-left " style="padding-top: 0px; padding-left: 150px; padding-right: 0px">{{ news_item.title }}</h2>
                      </div>
                         <br clear="all" />
-
                     <p class="text-left " style="padding-bottom: 5px">{{ news_item.body }}</P>
                 </div>
             </div>
