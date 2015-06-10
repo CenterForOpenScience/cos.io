@@ -11,14 +11,13 @@ class NewsAdmin(ImageCroppingMixin, SortableModelAdmin):
     sortable = 'order'
 
     def News_image_url(self, obj):
-        if not obj.image:
-            return ''
         return obj.image.url
+
     News_image_url.allow_tag = True
 
     def News_thumb_url(self, obj):
         if not obj.image or not obj.thumb_image_width or not obj.thumb_image_height:
-            return ''
+            return '123'
         url = get_thumbnailer(obj.image).get_thumbnail({
                 'size': (obj.thumb_image_width, obj.thumb_image_height),
                 'box': obj.mini_image,

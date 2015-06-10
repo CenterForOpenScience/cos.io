@@ -6,7 +6,7 @@ from easy_thumbnails.files import get_thumbnailer
 
 class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
     readonly_fields = ('image_url', 'thumb_url',)
-    list_display = ['name', 'position', ]
+    list_display = ['name', 'position', 'link', ]
     list_editable = ['position', ]
 
     def get_form(self, request, obj=None, **kwargs):
@@ -14,13 +14,14 @@ class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
             kwargs['fields'] = ['name', 'position', 'link', 'original_image_width', 'original_image_height', 'image', ]
             kwargs['exclude'] = ['image_url', 'thumb_url', ]
         else:
-            kwargs['fields'] = ['name', 'position', 'link', 'original_image_width', 'original_image_height', 'image',
+            kwargs['fields'] = ['name', 'position', 'link' , 'original_image_width', 'original_image_height', 'image',
                                 'thumb_image_width', 'thumb_image_height', 'mini_image', 'image_url',
                                 'thumb_url', ]
         return super(AmbassadorsAdmin, self).get_form(request, obj, **kwargs)
 
     def image_url(self, obj):
         return obj.image.url
+
     image_url.allow_tag = True
 
     def thumb_url(self, obj):
