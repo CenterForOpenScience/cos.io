@@ -21,7 +21,7 @@ class Ambassadors(models.Model):
         return self.name
 
     def get_thumb_max_size(self):
-        print str(self.thumb_image_width) + 'x' + str(self.thumb_image_height)
+        return str(self.thumb_image_width) + 'x' + str(self.thumb_image_height)
 
     def save(self, *args, **kwargs):
         found_id = self.id

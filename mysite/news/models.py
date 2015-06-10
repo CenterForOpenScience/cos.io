@@ -23,10 +23,10 @@ class News(models.Model):
     order = models.PositiveIntegerField()
 
     def __unicode__(self):
-        return u'%s' % self.title
+        return self.title
 
     def get_thumb_max_size(self):
-        return str(self.thumb_image_width), 'x' ,str(self.thumb_image_height)
+        return str(self.thumb_image_width) + 'x' + str(self.thumb_image_height)
 
     def save(self, *args, **kwargs):
         found_id = self.id
