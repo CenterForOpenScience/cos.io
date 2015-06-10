@@ -72,7 +72,7 @@
                             <li>Science Translational Medicine</li>
                         </ul>
                     <p>American Geophysical Union (19 Journals)</p>
-                        <ul>
+                       <!--<ul>
                             <li>Earth and Space Science</li>
                             <li>Earth's Future</li>
                             <li>Geochemistry, Geophysics, Geosystems</li>
@@ -92,7 +92,7 @@
                             <li>Space Weather</li>
                             <li>Tectonics</li>
                             <li>Water Resources Research</li>
-                        </ul>
+                        </ul>-->
                     <p>American Heart Association (12 Journals)</p>
                         <ul>
                             <li>Arteriosclerosis, Thrombosis, and Vascular Biology</li>
