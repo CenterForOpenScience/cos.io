@@ -4,7 +4,6 @@ from ckeditor.fields import RichTextField
 
 class Section(models.Model):
     title = models.CharField(max_length=200, blank=True)
-    title1 = models.CharField(max_length=200, blank=True)
     not_active = models.BooleanField(default=False)
 
     def __str__(self):

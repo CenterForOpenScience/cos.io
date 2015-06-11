@@ -21,7 +21,6 @@ class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
 
     def image_url(self, obj):
         return obj.image.url
-
     image_url.allow_tag = True
 
     def thumb_url(self, obj):
