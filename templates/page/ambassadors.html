@@ -19,59 +19,58 @@
 
 
 <!-- BEGIN CONTAINER -->
-<div class="container min-hight margin-top-50">
+    <div class="container min-hight margin-top-50">
 
-<!-- BEGIN OUR TEAM -->
-<div class="row front-team">
-<h1><strong>Participate in Open Science</strong></h1>
-<p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
-<!-- BEGIN TABS -->
-<div class="col-md-9 col-md-offset-3 col-sm-9 col-sm-offset-3">
-<div class="tab-content ">
-<!-- START TAB 1 -->
-<link rel="stylesheet" type="text/css" href="/static/test.css" />
-<link rel="stylesheet" type="text/css" href="/static/css/ambassadors.css" />
-    <div class="container">
-        <h2><strong>Promote Open Science in Your Community</strong></h2>
-        <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
-            materials to help you advocate for open science. United, we can increase openness,
-            integrity, and reproducibility across scientific domains.</p>
-        <div class="row">
-              <div class="col-md-8">
-            <h4><b>What Ambassadors Do</b></h4>
-                  <div class="indented col-mid-8">
-                       <ul>
-                            <li>Act as local information resource about COS, the OSF, transparency, and reproducible practices</li>
-                            <li>Represent COS at conferences and meetings</li>
-                            <li>Grow the open science community</li>
-                            <li>Blog experiences and join in the online conversation</li>
-                            <li>Provide training on OSF and reproducible practices</li>
-                            <li>Model COS swag!</li>
-                        </ul>
-                  </div>
-            </div>
-        </div>
+    <!-- BEGIN OUR TEAM -->
+        <div class="row front-team">
+            <h1><strong>Participate in Open Science</strong></h1>
+            <p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
+            <!-- BEGIN TABS -->
+            <div class="col-md-12">
+                <div class="tab-content ">
+                <!-- START TAB 1 -->
+                <link rel="stylesheet" type="text/css" href="/static/css/ambassadors.css" />
+                    <div class="container">
+                        <h2><strong>Promote Open Science in Your Community</strong></h2>
+                        <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
+                            materials to help you advocate for open science. United, we can increase openness,
+                            integrity, and reproducibility across scientific domains.</p>
+                        <div class="row">
+                              <div class="col-md-8">
+                            <h4><b>What Ambassadors Do</b></h4>
+                                  <div class="indented col-mid-8">
+                                       <ul>
+                                            <li>Act as local information resource about COS, the OSF, transparency, and reproducible practices</li>
+                                            <li>Represent COS at conferences and meetings</li>
+                                            <li>Grow the open science community</li>
+                                            <li>Blog experiences and join in the online conversation</li>
+                                            <li>Provide training on OSF and reproducible practices</li>
+                                            <li>Model COS swag!</li>
+                                        </ul>
+                                  </div>
+                            </div>
+                        </div>
 
-    </div>
-        <div class ="col-md-11 ">
-        <h3><strong>Ambassadors</strong></h3>
-                {% for image in ambassadors %}
-                    <center><div class="col-md-4">
-                        <a href="{{ image.link }}" target="_blank"><br/>
-                            <div class="circular" style="background: url({% cropped_thumbnail image "mini_image" max_size=image.get_thumb_max_size %}); width: {{ image.thumb_image_width }}px; height: {{ image.thumb_image_height }}px"></div></a>
-                        <h4>{{ image.name }}</h4>
-                        <h5>{{ image.position }}</h5>
-                    </div></center>
-                    {% if forloop.counter|divisibleby:3 %}
-                <br clear="all" />
-                {% endif %}
-                    {% endfor %}
-                </div>
+                    </div>
+                        <div class ="col-md-11">
+                        <h3><strong>Ambassadors</strong></h3>
+                                {% for image in ambassadors %}
+                                    <center><div class="col-md-3">
+                                        <a href="{{ image.link }}" target="_blank"><br/>
+                                            <div class="circular" style="background: url({% cropped_thumbnail image "mini_image" max_size=image.get_thumb_max_size %}); width: {{ image.thumb_image_width }}px; height: {{ image.thumb_image_height }}px"></div></a>
+                                        <h4>{{ image.name }}</h4>
+                                        <h5>{{ image.position }}</h5>
+                                    </div></center>
+                                    {% if forloop.counter|divisibleby:4 %}
+                                <br clear="all" />
+                                {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
             </div>
         </div>
     </div>
 </div>
-    </div>
 {% endblock %}
 
 {% block javascript_bottom %}
