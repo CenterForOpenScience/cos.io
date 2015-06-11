@@ -184,7 +184,6 @@ DATABASES = {
     }
 }
 
-
 #########
 # PATHS #
 #########
@@ -404,4 +403,9 @@ for _ in range(3):
     BASE_DIR = os.path.dirname(BASE_DIR)
 
 MEDIA_URL = '/media/'
-CKEDITOR_CONFIGS = {'default': {'toolbar': None, }, }
+CKEDITOR_CONFIGS = {
+    'default':
+        {
+            'toolbar': None,
+        },
+    }
