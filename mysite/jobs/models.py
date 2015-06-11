@@ -14,7 +14,7 @@ class Section(models.Model):
 
 
 class Entry(models.Model):
-    position = models.ForeignKey(Section, null=True, default=None, blank=True)
+    position = models.ForeignKey(Section, related_name='entries' , null=True, default=None, blank=True)
     section = models.CharField(max_length=50)
     description = RichTextField(blank=True)
 
@@ -22,7 +22,7 @@ class Entry(models.Model):
         return self.section
 
     class Meta:
-        verbose_name_plural = u'Section'
+        verbose_name_plural = u'section'
 
 
 class ListEntry(models.Model):
