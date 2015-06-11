@@ -25,29 +25,18 @@ urlpatterns = i18n_patterns("",
 )
 
 urlpatterns += patterns('',
-
-    # We don't want to presume how your homepage works, so here are a
-    # few patterns you can use to set it up.
-
-    # HOMEPAGE AS STATIC TEMPLATE
-    # ---------------------------
-    # This pattern simply loads the index.html template. It isn't
-    # commented out like the others, so it's the default. You only need
-    # one homepage pattern, so if you use a different one, comment this
-    # one out.
-
-
     url("^$", views.HomepageView.as_view(), {"template": "index.html"}, name="home"),
     url(r"^(?i)$", views.HomepageView.as_view(), name="homepage"),
     url(r"^(?i)aps", ApsPageView.as_view(), name="aps"),
+    url(r"^(?i)top$", TopPageView.as_view(), name="top"),
+    url(r"^(?i)osf$", OsfPageView.as_view(), name="osf"),
     url(r"^(?i)jobs$", JobsPageView.as_view(), name="jobs"),
     url(r"^(?i)news$", NewsPageView.as_view(), name="news"),
     url(r"^(?i)about$", AboutPageView.as_view(), name="about"),
-    url(r"^(?i)service$", ServicePageView.as_view(), name="service"),
-    url(r"^(?i)osf$", OsfPageView.as_view(), name="osf"),
     url(r"^(?i)pr/(?P<item>.*)/$", PrPageView.as_view(), name="pr"),
-    url(r"^(?i)about_board$", AboutBoardPageView.as_view(), name ="about_board"),
+    url(r"^(?i)service$", ServicePageView.as_view(), name="service"),
     url(r"^(?i)about_team$", TeamPageView.as_view(), name="COS_Team"),
+    url(r"^(?i)about_board$", AboutBoardPageView.as_view(), name ="about_board"),
     url(r"^(?i)communities$", CommunitiesPageView.as_view(), name="communities"),
     url(r"^(?i)ambassadors$", AmbassadorsPageView.as_view(), name="ambassadors"),
     url(r"^(?i)about_mission$", MissionPageView.as_view(), name="about_mission"),
@@ -55,16 +44,11 @@ urlpatterns += patterns('',
     url(r"^(?i)about_partners$", PartnersPageView.as_view(), name="about_partners"),
     url(r"^(?i)about_sponsors$", SponsorsPageView.as_view(), name="about_sponsors"),
     url(r"^(?i)stats_consulting$", StatsPageView.as_view(), name="stats_consulting"),
-    url(r"^(?i)top$", TopPageView.as_view(), name="top"),
     url(r"^(?i)involved_participate$", InvolvedParticipatesPageView.as_view(), name="involved_participate"),
-
-
-
 
     ("^", include("mezzanine.generic.urls")),
     (r'^ckeditor/', include('ckeditor.urls')),
     (r'^grappelli/', include('grappelli.urls')),
-
 
     url("^admin/", include(admin.site.urls)),
     ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
@@ -85,8 +69,6 @@ if settings.DEBUG:
     url(r"^media/(?P<path>.*)$", "django.views.static.serve", {
         "document_root": settings.MEDIA_ROOT,
     }),
-
-
 
     # HOMEPAGE AS AN EDITABLE PAGE IN THE PAGE TREE
     # ---------------------------------------------
