@@ -5,23 +5,26 @@ import getopt,sys
 import csv, codecs, cStringIO
 
 
+#This is holder class for command line parameters which will be provided by user.
+#We are expecting user to provide command, input file name and out file name.
 class UserParams:
     def __init__(self):
-        self.inputFile = ""
-        self.outputFile = ""
-        self.tableName = ""
+        self.inputFile = "";
+        self.outputFile = "";
+        self.tableName = "";
 
-
+#This class is responsible to export a sqlite database to csv file.
 class SqliteExport:
-    def __init__(self, input_file, output_file, table_name):
-        conn = sqlite3.connect(input_file)
+    def __init__(self, inputFile,outputFile,tableName):
+        conn = sqlite3.connect(inputFile)
         self.queue = cStringIO.StringIO()
         self.writer = csv.writer(self.queue, dialect=csv.excel)
-        self.stream = open(output_file, "wb")
+        self.stream = open(outputFile, "wb");
         self.encoder = codecs.getincrementalencoder("utf-8")()
         self.rows = conn.cursor()
-        self.rows.execute(table_name)
+        self.rows.execute('select * from ' + tableName)
 
+#This method writes each row from sqlite database to csv file.
     def writerows(self):
         for row in self.rows:
             self.writer.writerow([unicode(s).encode("utf-8") for s in row])
@@ -32,14 +35,16 @@ class SqliteExport:
             self.queue.truncate(0)
         self.stream.close()
 
-
+#this function is responsible for processing command line parameters.
+#It check if users has provided command, tableName, input and output filename.
+#we have used python library getopt to handle command line parameters.
 def main(argvs):
   argv = argvs[1:]
-  userParam = UserParams()
-  inputfile = ""
-  outputfile = ""
-  tableName = ""
-  opts = ""
+  userParam = UserParams();
+  inputfile = "";
+  outputfile = "";
+  tableName = "";
+  opts = "";
   try:
 	opts, args = getopt.getopt(argv,"ht:i:o:",["table=","ifile=","ofile="])
   except getopt.GetoptError:
