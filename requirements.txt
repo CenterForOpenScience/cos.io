@@ -1,6 +1,7 @@
 beautifulsoup4==4.1.3
 bleach==1.4.1
 chardet==2.3.0
+Mezzanine==3.1.10
 Django==1.7.5
 django-admin-sortable==1.8.3
 django-appconf==1.0.1
@@ -19,7 +20,6 @@ filebrowser-safe==0.3.8
 future==0.9.0
 grappelli-safe==0.3.13
 html5lib==0.99999
-Mezzanine==3.1.10
 oauthlib==0.7.2
 pbr==0.11.0
 Pillow==2.8.1
