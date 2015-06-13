@@ -14,7 +14,7 @@ class Section(models.Model):
 
 
 class Entry(models.Model):
-    position = models.ForeignKey(Section, related_name='entries' , null=True, default=None, blank=True)
+    position = models.ForeignKey(Section, related_name='entries', null=True, default=None, blank=True)
     section = models.CharField(max_length=50)
     description = RichTextField(blank=True)
 
@@ -31,4 +31,3 @@ class ListEntry(models.Model):
 
 class Anchor(models.Model):
     entry = models.ForeignKey(Entry)
-

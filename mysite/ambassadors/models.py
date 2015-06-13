@@ -27,7 +27,6 @@ class Ambassadors(models.Model):
         found_id = self.id
         super(Ambassadors, self).save(*args, **kwargs)
         if self.image and found_id is None and self.original_image_width and self.original_image_height:
-            print '123'
             self.image = get_thumbnailer(self.image).get_thumbnail({
                 'size': (self.original_image_width, self.original_image_height),
             }).name
