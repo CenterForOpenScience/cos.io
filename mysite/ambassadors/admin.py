@@ -14,7 +14,7 @@ class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
             kwargs['fields'] = ['name', 'position', 'link', 'original_image_width', 'original_image_height', 'image', ]
             kwargs['exclude'] = ['image_url', 'thumb_url', ]
         else:
-            kwargs['fields'] = ['name', 'position', 'link' , 'original_image_width', 'original_image_height', 'image',
+            kwargs['fields'] = ['name', 'position', 'link', 'original_image_width', 'original_image_height', 'image',
                                 'thumb_image_width', 'thumb_image_height', 'mini_image', 'image_url',
                                 'thumb_url', ]
         return super(AmbassadorsAdmin, self).get_form(request, obj, **kwargs)
@@ -31,7 +31,7 @@ class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
             'box': obj.mini_image,
             'crop': True,
             'detail': True,
-            }).url
+        }).url
         return url
     thumb_url.allow_tag = True
 
