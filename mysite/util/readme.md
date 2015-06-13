@@ -40,21 +40,21 @@ $ python export.py -t  <name of the table>  -o   .csv -i  dev.db
 
 In order to import the files from csv to database type:
 ```bash
-python import.py -t <name of the table> -i   .csv -o dev.db
+$ python import.py -t <name of the table> -i   .csv -o dev.db
 ```
 
 For Jobs section it is different. There are two tables -- section and entry
 
 You must use the following to export:
 ```bash
-python export.py -t  jobs_section  -o jobs.csv -i  dev.db
-python export.py -t  jobs_entry  -o jobs1.csv -i  dev.db
+$ python export.py -t  jobs_section  -o jobs.csv -i  dev.db
+$ python export.py -t  jobs_entry  -o jobs1.csv -i  dev.db
 ```
 
 The above command first exports section in jobs.csv and then entry in jobs1.csv.
 
 Do the same thing when you import:
 ```bash
-python import.py -t jobs_section -i jobs.csv -o dev.db
-python import.py -t jobs_entry -i jobs1.csv -o dev.db
+$ python import.py -t jobs_section -i jobs.csv -o dev.db
+$ python import.py -t jobs_entry -i jobs1.csv -o dev.db
 ```
