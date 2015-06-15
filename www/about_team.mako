@@ -655,9 +655,9 @@
     </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/haselton.jpg" alt="Michael Hasleton">
+            <img src="../static/img/people/haselton.jpg" alt="Michael Haselton">
             <h3>
-                Michael Hasleton
+                Michael Haselton
                 <small>Developer | Infrastructure</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mich<span style="display:none;">null</span>ael@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
