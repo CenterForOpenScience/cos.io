@@ -31,6 +31,24 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://www.nytimes.com/2015/06/16/science/retractions-coming-out-from-under-science-rug.html?_r=0">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/nyt.png" width="150"></td>
+                                <td><h2 class="text-left">Science, Now Under Scrutiny Itself</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 15, 2015 | A steady increase in study retractions has alarmed journals and scientists, raising difficult questions about how research is conducted.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.theverge.com/2015/6/9/8749841/science-frauds-potti-lacour">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/verge.png" width="150"></td>
+                                <td><h2 class="text-left">The lessons of famous science frauds</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 9, 2015 | . . . But PubPeer and other efforts, such as the Center for Open Science and work by the University of Pennsylvania’s Uri Simonsohn and colleagues, show that free and open critiques, powered by the internet, could dramatically speed up science’s self-correction process.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="http://nautil.us/issue/24/error/the-trouble-with-scientists">
                         <table>
                             <tr>
@@ -75,6 +93,15 @@
                             </tr>
                         </table>
                         <p class="text-left"> April 2015 | Reproducibility in life science is a hot button topic at the moment. Jeffrey Perkel examines the ways in which stem cell researchers are dealing with this issue in their work. The Reproducibility Project: Cancer Biology is highlighted.</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="https://hbr.org/2015/03/what-to-do-when-people-draw-different-conclusions-from-the-same-data">
+                        <table>
+                            <tr>
+                                <td><img src="/static/img/icons/HBR.png" width="150"></td>
+                                <td><h2 class="text-left">What to Do When People Draw Different Conclusions From the Same Data</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">March 31, 2015 | “In God we trust; all others must bring data.” That famous line from statistician William Edwards Deming has become a mantra for data-driven companies, because it points to the promise of finding objective answers. But in practice, as every analyst knows, interpreting data is a messy, subjective business. </p>
                     </a>
                      <a class="col-md-4 service-box-v1" href="http://us9.campaign-archive2.com/?u=4ea2d63bcf7c2776e53a62167&id=b9a78b6985">
                         <table>

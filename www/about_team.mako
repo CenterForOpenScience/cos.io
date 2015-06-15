@@ -655,7 +655,7 @@
     </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/haselton.jpg" alt="Michael Hasleton">
+            <img src="../static/img/people/haselton.jpg" alt="Michael Haselton">
             <h3>
                 Michael Haselton
                 <small>Developer | Infrastructure</small>
