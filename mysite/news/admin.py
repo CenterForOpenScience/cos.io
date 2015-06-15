@@ -19,11 +19,11 @@ class NewsAdmin(ImageCroppingMixin, SortableModelAdmin):
         if not obj.image or not obj.thumb_image_width or not obj.thumb_image_height:
             return u'%s'
         url = get_thumbnailer(obj.image).get_thumbnail({
-                'size': (obj.thumb_image_width, obj.thumb_image_height),
-                'box': obj.mini_image,
-                'crop': True,
-                'detail': True,
-                }).url
+            'size': (obj.thumb_image_width, obj.thumb_image_height),
+            'box': obj.mini_image,
+            'crop': True,
+            'detail': True,
+        }).url
         return url
     News_thumb_url.allow_tag = True
 

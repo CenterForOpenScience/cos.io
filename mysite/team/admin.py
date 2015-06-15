@@ -33,13 +33,13 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
 
     def thumb_url(self, obj):
         if not obj.image or not obj.thumb_image_width or not obj.thumb_image_height:
-            return 'make sure you click on save and continue editing button before you click save'
+            return 'Make sure you click on save and continue editing button before you click save.'
         url = get_thumbnailer(obj.image).get_thumbnail({
             'size': (obj.thumb_image_width, obj.thumb_image_height),
             'box': obj.mini_image,
             'crop': True,
             'detail': True,
-            }).url
+        }).url
         return u'%s' % url
     thumb_url.allow_tag = True
 

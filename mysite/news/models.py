@@ -1,5 +1,4 @@
 from django.db import models
-from adminsortable.models import Sortable
 from easy_thumbnails.files import get_thumbnailer
 from image_cropping import ImageRatioField, ImageCropField
 
