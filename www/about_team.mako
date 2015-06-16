@@ -517,20 +517,7 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/kelly.jpg" alt="Megan Kelly">
-            <h3>
-                Megan Kelly
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/megankelly" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/vz8ug/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
+        <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/renfro.jpg" alt="Megan Renfro">
             <h3>
@@ -1076,6 +1063,19 @@
                 <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/3t5vu/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+<li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kelly.jpg" alt="Megan Kelly">
+            <h3>
+                Megan Kelly
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/megankelly" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/vz8ug/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
