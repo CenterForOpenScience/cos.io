@@ -677,7 +677,7 @@
             <img src="../static/img/people/welcher.jpg" alt="Natasha Richter">
             <h3>
                 Natasha Welcher
-                <small>Developer Intern | Infrastructure</small>
+                <small>QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
