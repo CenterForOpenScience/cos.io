@@ -267,7 +267,7 @@
             </tr>
             <tr>
                 <td class="ambassador-instit-padding">
-                    Tilburg University
+                    VU University Amsterdam
                 </td>
             </tr>
         </table>

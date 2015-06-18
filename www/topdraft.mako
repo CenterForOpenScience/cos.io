@@ -63,7 +63,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (86)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -218,34 +218,25 @@
                     Comprehensive Results in Social Psychology<br> 
                     Cortex<br> 
                     Developmental Psychobiology<br> 
-                    Developmental Science<br>  
                     Evolution and Human Behavior<br>
                     European Journal of Personality Psychology<br> 
                     European Union Politics<br>
                     Experimental Psychology<br> 
                     Hippocampus<br> 
                     Human Performance<br> 
-                    Instructional Science<br>  
-                    Italian Political Science Review<br>
                     International Interactions<br>
                     International Journal of Selection and Assessment<br> 
-                    Journal of Adolescence<br>
                     Journal of Business and Psychology<br> 
-                    Journal of Conflict Resolution<br>  
-                    Journal of Consumer Research<br>  
                     Journal of Experimental Social Psychology<br> 
                     Journal of Media Psychology<br> 
                     Journal of Memory and Language<br> 
                     Journal of Research in Personality<br> 
-                    Journal of Social and Personal Relationships<br>  
                     Judgment and Decision Making<br> 
                     Language Learning<br> 
                     Nicotine and Tobacco Research<br>
                     Organizational Behavior and Human Decision Processes<br> 
-                    Palgrave Communications<br>  
-                    Party Politics<br>  
+                    Palgrave Communications<br>
                     PeerJ<br> 
-                    Personal Relationships<br>
                     Political Behavior<br>
                     Political Science Research and Methods<br>
                     Psychology of Sport and Exercise<br> 
@@ -254,27 +245,21 @@
                     Social Cognition<br> 
                     Sociological Methods and Research<br>
                     Sociological Science<br>
-                    State Politics and Policy Quaterly<br>
-                    Work, Aging, and Retirement<br></p>
+                    State Politics and Policy Quaterly<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (26)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
                     Association for Psychological Science<br>
-                    Association of Research Libraries<br>  
                     Berkeley Initiative for Transparency in the Social Sciences<br>
                     Bio, Tech and Beyond<br>
                     Center for Open Science<br>
                     Databrary<br>
-                    DataONE<br> 
                     EGAP<br>
                     figshare<br>
-                    International Association for Relationship Research<br>  
-                    Interuniversity Consortium for Political and Social Research (ICPSR)<br>  
                     Laura and John Arnold Foundation<br>
-                    Mozilla Science Lab<br>  
                     Open Context<br>
                     Open fMRI<br>
                     Prometheus Research<br>

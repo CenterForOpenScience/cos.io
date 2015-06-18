@@ -99,6 +99,8 @@
                        Time-sharing Experiments for the Social Sciences (TESS) is an NSF-funded project that supports free data collections on representative samples of U.S. adults for experimental research. COS and TESS have partnered to host TESS's entire historical and future data catalog of more than 300 experiments on the Open Science Framework.
                     </td>
                 </tr>
+            <p class="lead">At times, COS makes grants to individuals and organizations in support of open science initiatives.  For COS grants of $50,000 or less, no overhead costs are permitted.  For COS grants larger than $50,000, overhead costs may not exceed 15% of direct project costs.</p>
+            <br>
             </table>
         </div>
         <!-- END OUR PARTNERS -->
