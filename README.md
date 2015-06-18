@@ -4,7 +4,7 @@
 
 $ pip install -r requirements.txt
 
-$ pip python manage.py runserver
+$ python manage.py runserver
 
 go to http://127.0.0.1/
 
