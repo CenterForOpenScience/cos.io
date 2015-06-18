@@ -317,6 +317,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/barbour.jpg" alt="Eric Barbour">
+            <h3>
+                Eric Barbour
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/barbour-em" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/632w7/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
                 Erin Braswell
@@ -433,14 +446,14 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/kumar.jpg" alt="Himica Kumar">
+            <img src="../static/img/people/hand.jpg" alt="Jamie Hand">
             <h3>
-                Himica Kumar
+                Jamie Hand
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/himicakumar" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/3makx/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://github.com/jamiehand" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/26a4v/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -575,6 +588,18 @@
                 <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/3t5vu/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3">
+        <div class="thumbnail">
+            <img src="../static/img/people/ghaemmaghami.jpg" alt="Leela Ghaemmaghami">
+            <h3>
+                Leela Ghaemmaghami
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/leela-1" data-original-title="GitHub" class="github"></a></li>
             </ul>
         </div>
     </li>
@@ -748,6 +773,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/ticklemepierce" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bdgrh/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -759,9 +785,8 @@
                 <small>QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-            
-                    <li><a href="https://osf.io/3gs4f/" data-original-title="osf" class="osf"></a></li>
-                </ul>
+                <li><a href="https://osf.io/3gs4f/" data-original-title="osf" class="osf"></a></li>
+            </ul>
         </div>
     </li>
 ##    <li class="col-md-3 space-mobile">
@@ -777,18 +802,19 @@
 ##            </ul>
 ##        </div>
 ##    </li>
-##    <li class="col-md-3 space-mobile">
-##        <div class="thumbnail">
-##            <img src="../static/img/people/bajij.jpg" alt="Rohan Bajij">
-##            <h3>
-##                Rohan Bajij
-##                <small>Developer Volunteer | Infrastructure</small>
-##            </h3>
-##            <ul class="social-icons social-icons-color">
-##                <li><a href="https://github.com/rohan-bajij" data-original-title="GitHub" class="github"></a></li>
-##                            </ul>
-##        </div>
-##    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/bajaj.jpg" alt="Rohan Bajaj">
+            <h3>
+                Rohan Bajaj
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/rohan-bajij" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/djp5m/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
@@ -863,6 +889,17 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:gvz@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://www.linkedin.com/pub/tim-errington/8/a92/558" data-original-title="LinkedIn" class="linkedin"></a></li>
                 <li><a href="https://osf.io/alh38/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3">
+        <div class="thumbnail">
+            <img src="../static/img/people/banner2.jpg" alt="William Banner">
+            <h3>
+                William Banner
+                <small>Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
             </ul>
         </div>
     </li>
@@ -991,18 +1028,6 @@
             </h3>
         </div>
     </li>
-<!--     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/wang.jpg" alt="Chun Wang">
-            <h3>
-                Chun Wang
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/mejnw/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li> -->
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/nelson.jpg" alt="Cornelius Nelson">
@@ -1110,6 +1135,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/kumar.jpg" alt="Himica Kumar">
+            <h3>
+                Himica Kumar
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/himicakumar" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/3makx/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/rosenberg.jpg" alt="Jake Rosenberg">
             <h3>
                 Jake Rosenberg
@@ -1194,7 +1232,7 @@
             </ul>
         </div>
     </li>
-<li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
             <h3>
@@ -1208,7 +1246,7 @@
             </ul>
         </div>
     </li>
- <li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/gupta.jpg" alt="Kushagra Gupta">
             <h3>
@@ -1256,7 +1294,7 @@
             </ul>
         </div>
     </li>
-<li class="col-md-3 space-mobile">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/kelly.jpg" alt="Megan Kelly">
             <h3>
