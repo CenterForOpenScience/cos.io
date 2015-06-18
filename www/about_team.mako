@@ -431,19 +431,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/kumar.jpg" alt="Himica Kumar">
-            <h3>
-                Himica Kumar
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/himicakumar" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/3makx/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/spies.jpg" alt="Jeff Spies">
@@ -1105,6 +1092,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/harrismendell" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/6r2an/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kumar.jpg" alt="Himica Kumar">
+            <h3>
+                Himica Kumar
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/himicakumar" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/3makx/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
