@@ -1,3 +1,6 @@
+- `master` COS Status: [![Build Status](https://travis-ci.org/ZobairAlijan/COS-Site.svg?branch=master)](https://travis-ci.org/ZobairAlijan/COS-Site)
+
+
 # COS-Site
 
 <h3>Installation</h3>
@@ -18,5 +21,6 @@ go to http://127.0.0.1:8000/admin
 <h3>Settings</h3>
 
 Go to mysite and change default_local_settings.py to local_settings.py.
+
 
 
