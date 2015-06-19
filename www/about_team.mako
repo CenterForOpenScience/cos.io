@@ -1187,6 +1187,20 @@
             </ul>
         </div>
     </li>
+   <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gold.jpg" alt="Jordan Gold">
+            <h3>
+                Jordan Gold
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jeg3tw" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/e4zsq/" data-original-title="osf" class="osf"></a></li>
+
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/carp.jpg" alt="Josh Carp">
@@ -1198,20 +1212,6 @@
                 <li><a href="https://github.com/jmcarp" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/icpnw/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/whatthecarp" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-       <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/gold.jpg" alt="Jordan Gold">
-            <h3>
-                Jordan Gold
-                <small>QA Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/jeg3tw" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/e4zsq/" data-original-title="osf" class="osf"></a></li>
-
             </ul>
         </div>
     </li>
@@ -1234,15 +1234,16 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
+            <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
             <h3>
-                Kurtis Jungersen
-                <small>Developer Intern | Infrastructure</small>
+                Katya Davydova
+                <small> Human Resources Intern | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">kdav<span style="display:none;">null</span>ydova@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://www.linkedin.com/pub/kurtis-jungersen/37/76b/3a" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/q36he/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/profile/view?id=200774365" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="http://osf.io/tfj5b" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1262,21 +1263,7 @@
         </div>
     </li>
 
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/davydova.jpg" alt="Katya Davydova">
-            <h3>
-                Katya Davydova
-                <small> Human Resources Intern | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">kdav<span style="display:none;">null</span>ydova@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://www.linkedin.com/profile/view?id=200774365" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="http://osf.io/tfj5b" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
+
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
@@ -1288,9 +1275,6 @@
                 <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://www.linkedin.com/pub/kurtis-jungersen/37/76b/3a" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/q36he/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/3t5vu/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
