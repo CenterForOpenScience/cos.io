@@ -1,4 +1,4 @@
-- `master` COS Status: [![Build Status](https://travis-ci.org/ZobairAlijan/COS-Site.svg?branch=master)](https://travis-ci.org/ZobairAlijan/COS-Site)
+`master` COS Status: [![Build Status](https://travis-ci.org/ZobairAlijan/COS-Site.svg?branch=master)](https://travis-ci.org/ZobairAlijan/COS-Site)
 
 
 # COS-Site
