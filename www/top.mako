@@ -63,7 +63,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (86)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (95)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -213,7 +213,10 @@
                         </ul>
                     <p>Acta Psychologica<br> 
                     Addiction<br>  
-                    American Journal of Political Science<br> 
+                    Smerican Journal of Community Psychology<br>
+                    American Journal of Political Science<br>
+                    Asian Journal of Social Psychology<br>
+                    Autism Research<br>   
                     Cognition and Emotion<br> 
                     Comprehensive Results in Social Psychology<br> 
                     Cortex<br> 
@@ -223,15 +226,18 @@
                     European Journal of Personality Psychology<br> 
                     European Union Politics<br>
                     Experimental Psychology<br> 
+                    GigaScience<br>
                     Hippocampus<br> 
                     Human Performance<br> 
                     Instructional Science<br>  
                     Italian Political Science Review<br>
                     International Interactions<br>
+                    International Journal of Human-Computer Studies<br>
                     International Journal of Selection and Assessment<br> 
                     Journal of Adolescence<br>
                     Journal of Business and Psychology<br> 
                     Journal of Conflict Resolution<br>  
+                    Jounal of Consumer Psychology<br>
                     Journal of Consumer Research<br>  
                     Journal of Experimental Social Psychology<br> 
                     Journal of Media Psychology<br> 
@@ -241,6 +247,10 @@
                     Judgment and Decision Making<br> 
                     Language Learning<br> 
                     Nicotine and Tobacco Research<br>
+                    Neurology® <br>
+                    Neurology: Clinical Practice®<br>
+                    Neurology: Genetics®<br>
+                    Neurology: Neuroimmunology & Neuroinflammation®<br>
                     Organizational Behavior and Human Decision Processes<br> 
                     Palgrave Communications<br>  
                     Party Politics<br>  
@@ -258,19 +268,22 @@
                     Work, Aging, and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (26)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (29)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
                     Association for Psychological Science<br>
+                    Association for Research in Personality<br>
                     Association of Research Libraries<br>  
                     Berkeley Initiative for Transparency in the Social Sciences<br>
                     Bio, Tech and Beyond<br>
                     Center for Open Science<br>
                     Databrary<br>
                     DataONE<br> 
+                    Dataverse<br>
                     EGAP<br>
                     figshare<br>
+                    Global Biological Standards Institute<br>
                     International Association for Relationship Research<br>  
                     Interuniversity Consortium for Political and Social Research (ICPSR)<br>  
                     Laura and John Arnold Foundation<br>
@@ -289,7 +302,8 @@
                 <h1><strong>Related Efforts</strong></h1>
                     <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org"><em>Science</em> Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.  TOP Guidelines are one of a family of efforts aiming to increase openness, integrity, and reproducibility of scientific research.  Explore and join these related efforts:</p>
                         <ul>
-                            <li><a href="https://osf.io/tvyxz/wiki/home/">Badges to acknowledge open practices</li>
+                            <li><a href="http://www.apa.org/science/leadership/bsa/data-sharing-report.pdf">APA Board of Scientific Affairs Statement on Data-Sharing (June, 2015)</a></li>
+                            <li><a href="https://osf.io/tvyxz/wiki/home/">Badges to acknowledge open practices</a></li>
                             <li><a href="http://www.copdess.org/">COPDESS: Coalition for Publishing Data in the Earth and Space Sciences</a></li>
                             <li><a href="http://www.dartstatement.org/">DA-RT: Data Access and Research Transparency</a></li>
                             <li><a href="http://www.nih.gov/about/reporting-preclinical-research.htm">NIH Principles and Guidelines for Reporting Preclinical Research</a></li>
