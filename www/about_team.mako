@@ -302,6 +302,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/pattison.jpg" alt="Dawn Pattison">
+            <h3>
+                Dawn Pattison
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/pattisdr" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/wkxs8/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/holman.jpg" alt="Denise Holman">
             <h3>
                 Denise Holman
@@ -427,6 +440,19 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:uneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/HarryRybacki" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/uycv3/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/moco.jpg" alt="Henrique Moco">
+            <h3>
+                Henrique Moco
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/hmoco" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/y24tr/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
