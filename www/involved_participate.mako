@@ -279,6 +279,27 @@
             <tr>
                 <td class="ambassador-img">
                 <a href="https://osf.io/zm6tg/" target="_blank">
+                    <img src="../static/img/people/ambassadors/mario.png" alt="J. Mario Siqueiros-García">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    J. Mario Siqueiros-García
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    National Autonomous University of Mexico
+                </td>
+            </tr>
+        </table>
+    </td>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                <a href="https://osf.io/zm6tg/" target="_blank">
                     <img src="../static/img/people/ambassadors/sly.jpg" alt="Jim Sly">
                 </a>
                 </td>
@@ -316,6 +337,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>    
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -337,8 +360,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -381,6 +402,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>    
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -402,8 +425,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -446,6 +467,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>    
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -467,8 +490,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
