@@ -63,7 +63,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (95)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (107)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -108,7 +108,7 @@
                             <li>Journal of the American Heart Association</li>
                             <li>Stroke</li>
                         </ul>
-
+                    <p>American Meteorological Society (11 Journals)</p>
 
                     <!--<p>American Psychological Association (92 Journals)</p>
                         <ul>    
@@ -213,7 +213,7 @@
                         </ul>
                     <p>Acta Psychologica<br> 
                     Addiction<br>  
-                    Smerican Journal of Community Psychology<br>
+                    American Journal of Community Psychology<br>
                     American Journal of Political Science<br>
                     Asian Journal of Social Psychology<br>
                     Autism Research<br>   
@@ -223,9 +223,10 @@
                     Developmental Psychobiology<br> 
                     Developmental Science<br>  
                     Evolution and Human Behavior<br>
-                    European Journal of Personality Psychology<br> 
+                    European Journal of Personality<br> 
                     European Union Politics<br>
                     Experimental Psychology<br> 
+                    F1000Research<br>
                     GigaScience<br>
                     Hippocampus<br> 
                     Human Performance<br> 
@@ -265,13 +266,14 @@
                     Sociological Methods and Research<br>
                     Sociological Science<br>
                     State Politics and Policy Quaterly<br>
-                    Work, Aging, and Retirement<br></p>
+                    Work, Aging and Retirement<br></p>
                    
 
                     <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (29)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
+                    American Meteorological Society<br>  
                     Association for Psychological Science<br>
                     Association for Research in Personality<br>
                     Association of Research Libraries<br>  
@@ -282,6 +284,7 @@
                     DataONE<br> 
                     Dataverse<br>
                     EGAP<br>
+                    F1000<br>
                     figshare<br>
                     Global Biological Standards Institute<br>
                     International Association for Relationship Research<br>  
