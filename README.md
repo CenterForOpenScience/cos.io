@@ -14,8 +14,6 @@ go to http://127.0.0.1:8000
 
 <h3>Run as Admin</h3>
 
-$ python manage.py syncdb
-
 $ python manage.py runserver
 
 go to http://127.0.0.1:8000/admin
