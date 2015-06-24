@@ -63,7 +63,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (107)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (108)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -266,6 +266,7 @@
                     Sociological Methods and Research<br>
                     Sociological Science<br>
                     State Politics and Policy Quaterly<br>
+                    Stress and Health<br>
                     Work, Aging and Retirement<br></p>
                    
 
