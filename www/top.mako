@@ -269,7 +269,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (29)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (31)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -283,6 +283,7 @@
                     Databrary<br>
                     DataONE<br> 
                     Dataverse<br>
+                    Dryad<br>
                     EGAP<br>
                     F1000<br>
                     figshare<br>
@@ -296,7 +297,7 @@
                     Prometheus Research<br>
                     rOpenSci<br>
                     Society for a Science of Clinical Psychology<br>
-                    Society for Australasian Social Psychologists<br>
+                    Society of Australasian Social Psychologists<br>
                     SPARC<br>
                     Sunlight Foundation<br>
                     Time-series Experiments in Social Sciences<br></p>
