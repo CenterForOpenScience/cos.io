@@ -63,7 +63,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (108)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (111)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -109,6 +109,11 @@
                             <li>Stroke</li>
                         </ul>
                     <p>American Meteorological Society (11 Journals)</p>
+                    <p>American Society for Cell Biology (2 journals)</p>
+                        <ul>
+                            <li>CBE - Life Sciences Education</li>
+                            <li>Molecular Biology of the Cell</li>
+                        </ul>
 
                     <!--<p>American Psychological Association (92 Journals)</p>
                         <ul>    
@@ -215,8 +220,10 @@
                     Addiction<br>  
                     American Journal of Community Psychology<br>
                     American Journal of Political Science<br>
+                    American Society for Cell Biology<br>
                     Asian Journal of Social Psychology<br>
                     Autism Research<br>   
+                    Behavioral Science & Policy<br>
                     Cognition and Emotion<br> 
                     Comprehensive Results in Social Psychology<br> 
                     Cortex<br> 
@@ -270,7 +277,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (31)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (34)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -278,6 +285,7 @@
                     Association for Psychological Science<br>
                     Association for Research in Personality<br>
                     Association of Research Libraries<br>  
+                    Behavioral Science & Policy Association<br>
                     Berkeley Initiative for Transparency in the Social Sciences<br>
                     Bio, Tech and Beyond<br>
                     Center for Open Science<br>
@@ -301,7 +309,8 @@
                     Society of Australasian Social Psychologists<br>
                     SPARC<br>
                     Sunlight Foundation<br>
-                    Time-series Experiments in Social Sciences<br></p>
+                    Time-series Experiments in Social Sciences<br>
+                    University of California Curation Center (UC3)<br></p>
 
                 <hr>
                 <h1><strong>Related Efforts</strong></h1>
