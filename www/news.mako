@@ -31,6 +31,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="../pr/2015-06-25/">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/cos_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">New Guidelines to Improve Research and Publishing Practices</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 25, 2015 | Today in SCIENCE, the Transparency and Openness Promotion (TOP) Committee has published the TOP Guidelines, a set of author guidelines that journals can adopt to enhance the transparency of the research they publish.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="http://us9.campaign-archive1.com/?u=4ea2d63bcf7c2776e53a62167&id=17b9463d7b">
                         <table>
                             <tr>

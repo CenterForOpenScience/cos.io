@@ -37,12 +37,13 @@
                         <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines.  TOP includes eight modular standards, each with three levels of increasing stringency.   Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.  </p>                    
                         
                         <ul>
+                            <li><a href ="http://www.sciencemag.org/content/348/6242/1422.full">Article introducing the TOP Guidelines, <i>Science</i></a></li>
                             <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
                             <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
                             <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
                             <li><a href="#journals">Journal Signatories</a></li>
                             <li><a href="#orgs">Organization Signatories</a></li>
-                            <li>Article introducing the TOP Guidelines (<i>Science</i> Magazine, coming soon)</li>
+                            
                             
                         </ul>
                         
@@ -277,7 +278,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (34)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (33)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -309,8 +310,7 @@
                     Society of Australasian Social Psychologists<br>
                     SPARC<br>
                     Sunlight Foundation<br>
-                    Time-series Experiments in Social Sciences<br>
-                    University of California Curation Center (UC3)<br></p>
+                    Time-series Experiments in Social Sciences<br></p>
 
                 <hr>
                 <h1><strong>Related Efforts</strong></h1>
