@@ -611,7 +611,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/h8sp7/" target="_blank">
+        <a href="https://osf.io/scayl/" target="_blank">
             <div class="action-box">
                 <i class="fa fa-file-text-o "></i>
                 <p>See an example registration</p>

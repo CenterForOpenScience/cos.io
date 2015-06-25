@@ -245,6 +245,7 @@
                     International Journal of Selection and Assessment<br> 
                     Journal of Adolescence<br>
                     Journal of Business and Psychology<br> 
+                    Journal of Cell Biology<br>
                     Journal of Conflict Resolution<br>  
                     Jounal of Consumer Psychology<br>
                     Journal of Consumer Research<br>  
