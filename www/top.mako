@@ -221,7 +221,6 @@
                     Addiction<br>  
                     American Journal of Community Psychology<br>
                     American Journal of Political Science<br>
-                    American Society for Cell Biology<br>
                     Asian Journal of Social Psychology<br>
                     Autism Research<br>   
                     Behavioral Science & Policy<br>
@@ -286,6 +285,7 @@
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
                     American Meteorological Society<br>  
+                    American Society for Cell Biology<br>
                     Association for Psychological Science<br>
                     Association for Research in Personality<br>
                     Association of Research Libraries<br>  
