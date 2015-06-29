@@ -78,8 +78,10 @@
         <div class="col-md-8 margin-top-50  margin-bottom-30">
             <h2><strong>Plan. Test. Discover.</strong></h2>
             <p>One thousand researchers will win $1,000 each for publishing work whose analyses were pre-registered on
-                the Open Science Framework. Sign-up here to stay informed!</p>
+                the Open Science Framework. Learn more <a href="https://osf.io/x5w7h/">here</a>. 
+                To stay informed, sign up using the form on the right.</p>
             <div class="center">
+            <a href="https://osf.io/x5w7h/">
             <img src="/static/img/pics/pre-reg-flow.png" alt="preregistration workflow" width="600px" class="margin-top-40">
 
             </div>
