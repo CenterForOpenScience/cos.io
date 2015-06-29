@@ -215,21 +215,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 BOWER_COMPONENTS_ROOT = os.path.join(PROJECT_ROOT, "static")
 
-BOWER_INSTALLED_APPS = (
-    'jquery#1.11.0',
-    "bootstrap#3.3.5",
-    "fontawesome#4.3.0",
-    "animate.css#3.3.0",
-    "dw-bxslider-4#4.2.5",
-    "animated-header#1.0.0",
-    "gmaps#0.4.18",
-    "fancybox#2.1.5",
-    "flexslider#2.5.0",
-    "mixitup#2.1.8",
-    "respond#1.4.2",
-    "toastr#2.1.1"
-)
-
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
