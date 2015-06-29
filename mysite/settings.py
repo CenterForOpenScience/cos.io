@@ -154,8 +154,7 @@ AUTHENTICATION_BACKENDS = ("mezzanine.core.auth_backends.MezzanineBackend",)
 STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
-    'django.contrib.staticfiles.finders.DefaultStorageFinder',
-    'djangobower.finders.BowerFinder',
+    'django.contrib.staticfiles.finders.DefaultStorageFinder'
 )
 
 # The numeric mode to set newly-uploaded files to. The value should be
@@ -213,8 +212,6 @@ STATIC_URL = "/static/"
 # STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
-BOWER_COMPONENTS_ROOT = os.path.join(PROJECT_ROOT, "static")
-
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
@@ -256,7 +253,6 @@ INSTALLED_APPS = (
     "mezzanine.pages",
     "django.contrib.sitemaps",
     "django.contrib.staticfiles",
-    'djangobower',
     'robots',
     "mezzanine.boot",
     "mezzanine.conf",

@@ -6,9 +6,9 @@
 {% block stylesheets %}
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static 'fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
-    <link href="{% static 'dw-bxslider-4/dist/jquery.bxslider.min.css' %}" rel="stylesheet" />
-    <link href="{% static 'animate.css/animate.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/dw-bxslider-4/dist/jquery.bxslider.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/animate.css/animate.min.css' %}" rel="stylesheet" />
 
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}
@@ -126,13 +126,13 @@
 
 <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 {% block javascript_bottom%}
-    <script type="text/javascript" src="{% static 'dw-bxslider-4/dist/jquery.bxslider.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/dw-bxslider-4/dist/jquery.bxslider.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
     <script type="text/javascript" src="{% static 'plugins/text-resize.js' %}"></script>
-    <script src="{% static 'scripts/index.js' %}"></script>
-    <script src="{% static 'mixitup/build/jquery.mixitup.min.js' %}"></script>
-    <script src="{% static 'scripts/app.js' %}"></script>
-    <script src="{% static 'scripts/portfolio.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/index.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/mixitup/build/jquery.mixitup.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/portfolio.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();

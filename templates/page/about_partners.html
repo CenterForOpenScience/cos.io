@@ -9,7 +9,7 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static 'fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -108,8 +108,8 @@
 
 {% block javascript_bottom %}
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-    <script type="text/javascript" src="{% static 'fancybox/source/jquery.fancybox.pack.js' %}"></script>
-    <script src="{% static 'scripts/app.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();

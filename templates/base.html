@@ -15,8 +15,8 @@
     <link href="{% static 'favicon.ico' %}" rel="shortcut icon">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="{% static 'fontawesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css"/>
-    <link href="{% static 'bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'bower_components/fontawesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
     <!-- END GLOBAL MANDATORY STYLES -->
 
 
@@ -215,11 +215,11 @@
 <!-- BEGIN CORE PLUGINS(REQUIRED FOR ALL PAGES) -->
 
 <!--[if lt IE 9]>
-<script src="{% static 'respond/dest/respond.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/respond/dest/respond.min.js' %}"></script>
 <![endif]-->
-<script src="{% static 'jquery/dist/jquery.min.js' %}" type="text/javascript"></script>
-<script src="{% static 'plugins/jquery-migrate-1.2.1.min.js' %}" type="text/javascript"></script>
-<script src="{% static 'bootstrap/dist/js/bootstrap.min.js' %}" type="text/javascript"></script>
+<script type="text/javascript" src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'plugins/jquery-migrate-1.2.1.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'plugins/hover-dropdown.js' %}"></script>
 <script type="text/javascript" src="{% static 'plugins/back-to-top.js' %}"></script>
 

@@ -7,7 +7,7 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static 'fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
           xmlns="http://www.w3.org/1999/html"/>
     <link href="{% static 'css/team_circle.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
@@ -77,9 +77,8 @@
 {% block javascript_bottom %}
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 
-    <script type="text/javascript" src="{% static 'fancybox/source/jquery.fancybox.pack.js' %}">
-    </script>
-    <script src="{% static 'scripts/app.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();

@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 	$('#basicuse').jflickrfeed({
 		limit: 14,
+        flickrbase: 'https://api.flickr.com/services/feeds/',
 		qstrings: {
 			id: '99620615@N06'
 		},
@@ -10,6 +11,7 @@ $(document).ready(function(){
 	
 	$('#cbox').jflickrfeed({
 		limit: 10,
+        flickrbase: 'https://api.flickr.com/services/feeds/',
 		qstrings: {
 			id: '99620615@N06'
 		},
@@ -21,9 +23,10 @@ $(document).ready(function(){
 	}, function(data) {
 		$('#cbox a').colorbox({ onLoad: function () { $('#colorbox').show(); }, maxWidth:'95%', maxHeight:'95%' });
 	});
-	
+
 	$('#cycle').jflickrfeed({
 		limit: 14,
+        flickrbase: 'https://api.flickr.com/services/feeds/',
 		qstrings: {
 			id: '99620615@N06'
 		},
