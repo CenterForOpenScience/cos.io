@@ -220,7 +220,7 @@ MEDIA_ROOT = os.path.join(PROJECT_ROOT, "../static/media")
 CKEDITOR_UPLOAD_PATH = "../uploads"
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, "../static/"),
+    os.path.join(PROJECT_ROOT, "static"),
 )
 
 FIXTURE_DIRS = (os.path.join(PROJECT_ROOT, 'fixtures'),)
