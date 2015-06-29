@@ -4,7 +4,7 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="/static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}
 
@@ -21,7 +21,7 @@
         <h1 class="center big" style="color: #ECAF19"><strong>APS 2014</strong></h1>
 
         <div class="center">
-            <img src="{% static '/static/img/2014_Convention_banner-with-APS_700px.jpg' %}" />
+            <img src="{% static 'img/2014_Convention_banner-with-APS_700px.jpg' %}" />
         </div>
 
         <h3 class="center">Sharing your poster or talk via the <a href="http://osf.io">Open Science Framework</a> is as simple as sending an email</h3>
@@ -58,8 +58,8 @@
 
 {% block javascript_bottom %}
 <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-<script type="text/javascript" src="{% static '/static/plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
-<script src="{% static '/static/scripts/app.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+<script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();

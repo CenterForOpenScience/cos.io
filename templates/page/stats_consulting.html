@@ -11,7 +11,7 @@
 {% block stylesheets %}
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <!-- <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" /> -->
+{#    <!-- <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" /> -->#}
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 
 {% endblock %}{% block content %}
@@ -145,9 +145,10 @@
     <!--End Container-->
 </div>
 <!-- END PAGE CONTAINER -->
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->{% endblock %}
-{% block javascript_bottom %}
+{% endblock %}
 
+<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+{% block javascript_bottom %}
 
 <!-- END PAGE LEVEL JAVASCRIPTS -->
 {% endblock %}

@@ -8,7 +8,7 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="/static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -22,7 +22,7 @@
         <h1 class="center">Open Science Framework</h1>
         <div class="col-md-12 margin-top-50 margin-bottom-50 osf-about">
             <div class="col-md-8 col-sm-12 center">
-                <img src="/static/img/pics/lifecycle.jpg" style="max-width: 450px"/>
+                <img src="{% static 'img/pics/lifecycle.jpg' %}" style="max-width: 450px"/>
                 <h3>The OSF supports the entire research lifecycle: planning, execution, reporting, archiving, and discovery.</h3>
 
                 <p>It provides project management with collaborators, and project sharing with the public.
@@ -43,13 +43,13 @@
                 <p>With the OSF you can link tools like Dropbox, Github, and Zotero to your projects, centralizing your work
                     and making it easy to share with collaborators or other scientists.</p>
                 <ul class="image-row">
-                    <li><img src="/static/img/icons/osf-connections/dropbox.png" alt="Dropbox logo"></li>
-                    <li><img src="/static/img/icons/osf-connections/as3.png" alt="Amazon S3 logo"></li>
-                    <li><img src="/static/img/icons/osf-connections/dataverse_project_logo.png" alt="Dataverse logo"></li>
-                    <li><img src="/static/img/icons/osf-connections/drive_icon.png" alt="Google Drive logo"></li>
-                    <li><img src="/static/img/icons/osf-connections/logo-mendeley.png" alt="Mendeley logo"></li>
-                    <li><img src="/static/img/icons/osf-connections/Octocat.png" alt="Github Logo"></li>
-                    <li><img src="/static/img/icons/osf-connections/zotero.png" alt="Zotero logo"></li>
+                    <li><img src="{% static 'img/icons/osf-connections/dropbox.png' %}" alt="Dropbox logo"></li>
+                    <li><img src="{% static 'img/icons/osf-connections/as3.png' %}" alt="Amazon S3 logo"></li>
+                    <li><img src="{% static 'img/icons/osf-connections/dataverse_project_logo.png' %}" alt="Dataverse logo"></li>
+                    <li><img src="{% static 'img/icons/osf-connections/drive_icon.png' %}" alt="Google Drive logo"></li>
+                    <li><img src="{% static 'img/icons/osf-connections/logo-mendeley.png' %}" alt="Mendeley logo"></li>
+                    <li><img src="{% static 'img/icons/osf-connections/Octocat.png' %}" alt="Github Logo"></li>
+                    <li><img src="{% static 'img/icons/osf-connections/zotero.png' %}" alt="Zotero logo"></li>
                 </ul>
             </div>
             <div class="col-md-3 col-md-offset-1 col-sm-12 action-list">
@@ -96,8 +96,8 @@
 <!-- END PAGE CONTAINER -->
 <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 {% block javascript_bottom %}
-    <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="/static/scripts/app.js"></script>
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();

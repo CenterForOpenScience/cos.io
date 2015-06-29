@@ -10,7 +10,7 @@
 
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static 'static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -33,7 +33,7 @@
 
                 <div class="row margin-bottom-20">
                     <div class="col-md-4">
-                        <img src="{% static '/static/img/icons/venndiagram.png' %}" id="venn">
+                        <img src="{% static 'img/icons/venndiagram.png' %}" id="venn">
                     </div>
                     <!-- BEGIN LISTS -->
                     <div class="col-md-8 col-sm-12 ">
@@ -66,14 +66,15 @@
     <!--End Container-->
 </div>
 <!-- END PAGE CONTAINER -->
+{% endblock %}
 
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->{% endblock %}
+<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 {% block javascript_bottom %}
 
-    <script type="text/javascript" src="{% static '/static/plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
-    <script src="{% static '/static/plugins/jquery.mixitup.min.js' %}"></script>
-    <script src="{% static '/static/scripts/app.js' %}"></script>
-    <script src="{% static '/static/scripts/portfolio.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/mixitup/build/jquery.mixitup.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/portfolio.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();
