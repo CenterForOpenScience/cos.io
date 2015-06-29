@@ -9,7 +9,7 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <link href="{% static 'fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}
 
@@ -47,7 +47,7 @@
                     <div class="row margin-bottom-30" id="AlanKraut">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
-                                <img src="{% static '/static/img/people/board/kraut.jpg' %}" alt="Alan G. Kraut">
+                                <img src="{% static 'img/people/board/kraut.jpg' %}" alt="Alan G. Kraut">
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -85,7 +85,7 @@
                     <div class="row margin-bottom-30" id="ArthurLupia">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
-                                <img src="{% static '/static/img/people/board/lupia.jpg' %}" alt="Arthur Lupia">
+                                <img src="{% static 'img/people/board/lupia.jpg' %}" alt="Arthur Lupia">
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -122,7 +122,7 @@
                     <div class="row margin-bottom-30" id="JohnIoannidis">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
-                                <img src="{% static '/static/img/people/board/Ioannidis.jpg' %}" alt="John P.A. Ioannidis">
+                                <img src="{% static 'img/people/board/Ioannidis.jpg' %}" alt="John P.A. Ioannidis">
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -158,7 +158,7 @@
                     <div class="row margin-bottom-30" id="JoshGreenberg">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
-                                <img src="{% static '/static/img/people/board/greenberg.jpg' %}" alt="Joshua M. Greenberg">
+                                <img src="{% static 'img/people/board/greenberg.jpg' %}" alt="Joshua M. Greenberg">
 
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                     <div class="row margin-bottom-30" id="MarciaMcNutt">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
-                                <img src="{% static '/static/img/people/board/mcnutt.jpg' %}" alt="Marcia McNutt">
+                                <img src="{% static 'img/people/board/mcnutt.jpg' %}" alt="Marcia McNutt">
 
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                     <div class="row margin-bottom-30" id="VictoriaStodden">
                         <div class="col-md-5">
                             <div class="board-thumbnail">
-                                <img src="{% static '/static/img/people/board/stodden2.jpg' %}" alt="Victoria Stodden">
+                                <img src="{% static 'img/people/board/stodden2.jpg' %}" alt="Victoria Stodden">
 
                             </div>
                         </div>
@@ -275,11 +275,13 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
 <!-- END PAGE CONTAINER -->
 {% block javascript_bottom %}
-    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->{% endblock %}
-    <script type="text/javascript" src="{% static '/static/plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
-    <script src="{% static '/static/scripts/app.js' %}"></script>
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="{% static 'fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             // location.hash && $(location.hash + ' .collapse').collapse('show');

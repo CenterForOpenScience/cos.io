@@ -155,6 +155,7 @@ STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
     'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    'djangobower.finders.BowerFinder',
 )
 
 # The numeric mode to set newly-uploaded files to. The value should be
@@ -209,7 +210,25 @@ STATIC_URL = "/static/"
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
+# STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+BOWER_COMPONENTS_ROOT = os.path.join(PROJECT_ROOT, "static")
+
+BOWER_INSTALLED_APPS = (
+    'jquery#1.11.0',
+    "bootstrap#3.3.5",
+    "fontawesome#4.3.0",
+    "animate.css#3.3.0",
+    "dw-bxslider-4#4.2.5",
+    "animated-header#1.0.0",
+    "gmaps#0.4.18",
+    "fancybox#2.1.5",
+    "flexslider#2.5.0",
+    "mixitup#2.1.8",
+    "respond#1.4.2",
+    "toastr#2.1.1"
+)
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -220,7 +239,7 @@ MEDIA_ROOT = os.path.join(PROJECT_ROOT, "../static/media")
 CKEDITOR_UPLOAD_PATH = "../uploads"
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, "../static/"),
+    os.path.join(PROJECT_ROOT, "static"),
 )
 
 FIXTURE_DIRS = (os.path.join(PROJECT_ROOT, 'fixtures'),)
@@ -252,6 +271,8 @@ INSTALLED_APPS = (
     "mezzanine.pages",
     "django.contrib.sitemaps",
     "django.contrib.staticfiles",
+    'djangobower',
+    'robots',
     "mezzanine.boot",
     "mezzanine.conf",
     "mezzanine.core",

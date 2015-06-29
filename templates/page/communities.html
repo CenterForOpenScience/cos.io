@@ -8,7 +8,7 @@
 
 {% block stylesheets %}
  <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-<link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+<link href="{% static 'fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
 <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -47,7 +47,7 @@
                             <table>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/open_data.gif">
+                                        <img src="{% static 'img/icons/open_data.gif' %}">
                                     </td>
                                     <td>
                                         <h3>Badges to Acknowledge Open Practices</h3>
@@ -59,7 +59,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Registrations.png">
+                                        <img src="{% static 'img/icons/Registrations.png' %}">
                                     </td>
                                     <td>
                                         <h3>Registered Reports</h3>
@@ -78,7 +78,7 @@
                             <table>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Reproducibility_Psychology.png">
+                                        <img src="{% static 'img/icons/Reproducibility_Psychology.png' %}">
                                     </td>
                                     <td>
                                         <h3>Reproducibility Project: Psychology (RP:P)</h3>
@@ -94,7 +94,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Reproducibility_Cancer_Biology.png">
+                                        <img src="{% static 'img/icons/Reproducibility_Cancer_Biology.png' %}">
                                     </td>
                                     <td>
                                         <h3>Reproducibility Project: Cancer Biology (RP:CB)</h3>
@@ -110,7 +110,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Many_Labs_I.png">
+                                        <img src="{% static 'img/icons/Many_Labs_I.png' %}">
                                     </td>
                                     <td>
                                         <h3>Many Labs I</h3>
@@ -132,7 +132,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Many_Labs_II.png">
+                                        <img src="{% static 'img/icons/Many_Labs_II.png' %}">
                                     </td>
                                     <td>
                                         <h3>Many Labs II</h3>
@@ -147,7 +147,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Many_Labs_III.png">
+                                        <img src="{% static 'img/icons/Many_Labs_III.png' %}">
                                     </td>
                                     <td>
                                         <h3>Many Labs III</h3>
@@ -165,7 +165,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/CREP_Logo.png">
+                                        <img src="{% static 'img/icons/CREP_Logo.png' %}">
                                     </td>
                                     <td>
                                         <h3>Collaborative Replications and Education Project (CREP)</h3>
@@ -181,7 +181,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/crowd.png">
+                                        <img src="{% static 'img/icons/crowd.png' %}">
                                     </td>
                                     <td>
                                         <h3>Crowdsourcing a Dataset</h3>
@@ -200,7 +200,7 @@
                             <table>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Open_Access.png">
+                                        <img src="{% static 'img/icons/Open_Access.png' %}">
                                     </td>
                                     <td>
                                         <h3>Open Source Developers</h3>
@@ -218,7 +218,7 @@
                             <table>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Ambassadors_Icon.png">
+                                        <img src="{% static 'img/icons/Ambassadors_Icon.png' %}">
                                     </td>
                                     <td>
                                         <h3>Ambassadors</h3>
@@ -230,7 +230,7 @@
                                 </tr>
                                 <tr>
                                     <td class="community-badge">
-                                        <img src="/static/img/icons/Open_Science_Collaborative_Logo.png">
+                                        <img src="{% static 'img/icons/Open_Science_Collaborative_Logo.png' %}">
                                     </td>
                                     <td>
                                         <h3>Open Science Collaboration</h3>
@@ -253,7 +253,7 @@
                 <div class="conversation col-sm-12">
                     <table>
                         <tr>
-                            <td id="speechbubble"><img src="../static/img/icons/speech.gif"></td>
+                            <td id="speechbubble"><img src="{% static 'img/icons/speech.gif' %}"></td>
                             <td>
                                 <h2>Join the conversation!</h2>
                                 <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
@@ -279,8 +279,8 @@
 {% endblock %}
 {% block javascript_bottom %}
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-    <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="/static/scripts/app.js"></script>
+    <script type="text/javascript" src="{% static 'fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             var tab = location.hash.slice(1,6);

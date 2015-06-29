@@ -52,7 +52,7 @@ urlpatterns += patterns('',
 
     url("^admin/", include(admin.site.urls)),
     ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-urlpatterns += staticfiles_urlpatterns()
+
 urlpatterns += staticfiles_urlpatterns()
 
 if settings.DEBUG:

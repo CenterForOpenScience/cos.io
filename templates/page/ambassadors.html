@@ -7,9 +7,9 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
+    <link href="{% static 'fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
           xmlns="http://www.w3.org/1999/html"/>
-    <link href="{% static '/static/css/team_circle.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/team_circle.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -29,8 +29,8 @@
 <div class="col-md-9 col-md-offset-3 col-sm-9 col-sm-offset-3">
 <div class="tab-content ">
 <!-- START TAB 1 -->
-<link rel="stylesheet" type="text/css" href="/static/test.css" />
-<link rel="stylesheet" type="text/css" href="/static/css/ambassadors.css" />
+<link rel="stylesheet" type="text/css" href="{% static 'test.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/ambassadors.css' %}" />
     <div class="container">
         <h2><strong>Promote Open Science in Your Community</strong></h2>
         <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
@@ -77,9 +77,9 @@
 {% block javascript_bottom %}
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 
-    <script type="text/javascript" src="{% static 'static/plugins/fancybox/source/jquery.fancybox.pack.js' %}">
+    <script type="text/javascript" src="{% static 'fancybox/source/jquery.fancybox.pack.js' %}">
     </script>
-    <script src="{% static '/static/scripts/app.js' %}"></script>
+    <script src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();

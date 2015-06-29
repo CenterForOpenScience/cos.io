@@ -8,7 +8,7 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <link href="{% static 'fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -25,9 +25,9 @@
                 <br>
                 <div class="row margin-bottom-20">
                     <div class="col-md-3">
-                        <img src="/static/img/pics/top-pen.png">
+                        <img src="{% static 'img/pics/top-pen.png' %}">
                     </div>
-                    <link rel="stylesheet" type="text/css" href="/static/test.css" />
+                    <link rel="stylesheet" type="text/css" href="{% static 'test.css' %}" />
                     <!-- BEGIN LISTS -->
                     <div class="col-md-9 col-sm-12 ">
                         <p>The TOP Guidelines were developed by researchers, journal editors, and funders in the social and behavioral sciences.
@@ -61,10 +61,10 @@
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 {% endblock %}
 {% block javascript %}
-            <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-            <script src="/static/plugins/jquery.mixitup.min.js"></script>
-            <script src="/static/scripts/app.js"></script>
-            <script src="/static/scripts/portfolio.js"></script>
+            <script type="text/javascript" src="{% static 'fancybox/source/jquery.fancybox.pack.js' %}"></script>
+            <script src="{% static 'mixitup/build/jquery.mixitup.min.js' %}"></script>
+            <script src="{% static 'scripts/app.js' %}"></script>
+            <script src="{% static 'scripts/portfolio.js' %}"></script>
             <script type="text/javascript">
                 jQuery(document).ready(function() {
                     App.init();
