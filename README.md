@@ -7,7 +7,7 @@
 
 $ pip install -r requirements.txt
 
-$ python manage.py bower install
+$ bower install
 $ python manage.py migrate
 $ python manage.py createsuperuser
 $ python manage.py runserver
