@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (111)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (114)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -221,11 +221,11 @@
                     Addiction<br>  
                     American Journal of Community Psychology<br>
                     American Journal of Political Science<br>
-                    American Society for Cell Biology<br>
                     Asian Journal of Social Psychology<br>
                     Autism Research<br>   
                     Behavioral Science & Policy<br>
                     Cognition and Emotion<br> 
+                    Collabra<br>
                     Comprehensive Results in Social Psychology<br> 
                     Cortex<br> 
                     Developmental Psychobiology<br> 
@@ -251,7 +251,8 @@
                     Journal of Consumer Research<br>  
                     Journal of Experimental Social Psychology<br> 
                     Journal of Media Psychology<br> 
-                    Journal of Memory and Language<br> 
+                    Journal of Memory and Language<br>
+                    Journal of Organizational Behavior<br> 
                     Journal of Research in Personality<br> 
                     Journal of Social and Personal Relationships<br>  
                     Judgment and Decision Making<br> 
@@ -279,17 +280,20 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (33)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (39)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
                     American Meteorological Society<br>  
+                    American Society for Cell Biology<br>
                     Association for Psychological Science<br>
                     Association for Research in Personality<br>
                     Association of Research Libraries<br>  
                     Behavioral Science & Policy Association<br>
                     Berkeley Initiative for Transparency in the Social Sciences<br>
                     Bio, Tech and Beyond<br>
+                    Busara Center for Economics<br>
+                    Carnegie Mellon University<br>
                     Center for Open Science<br>
                     Databrary<br>
                     DataONE<br> 
@@ -299,13 +303,17 @@
                     F1000<br>
                     figshare<br>
                     Global Biological Standards Institute<br>
+                    Innovations for Poverty Action<br>
                     International Association for Relationship Research<br>  
                     Interuniversity Consortium for Political and Social Research (ICPSR)<br>  
                     Laura and John Arnold Foundation<br>
-                    Mozilla Science Lab<br>  
+                    Mozilla Science Lab<br>
+                    The Open Atmospheric Society<br>  
                     Open Context<br>
                     Open fMRI<br>
+                    Paperity<br>
                     Prometheus Research<br>
+                    Riffyn<br>
                     rOpenSci<br>
                     Society for a Science of Clinical Psychology<br>
                     Society of Australasian Social Psychologists<br>
@@ -322,6 +330,7 @@
                             <li><a href="http://www.copdess.org/">COPDESS: Coalition for Publishing Data in the Earth and Space Sciences</a></li>
                             <li><a href="http://www.dartstatement.org/">DA-RT: Data Access and Research Transparency</a></li>
                             <li><a href="http://www.nih.gov/about/reporting-preclinical-research.htm">NIH Principles and Guidelines for Reporting Preclinical Research</a></li>
+                            <li><a href="https://osf.io">The Open Science Framework</a></li>
                             <li><a href="http://centerforopenscience.org/prereg/">The Pre-reg Prize</a></li>
                             <li><a href="https://osf.io/8mpji/wiki/home/">Registered Reports</a></li>
                         </ul>

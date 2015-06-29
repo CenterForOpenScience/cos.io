@@ -31,6 +31,51 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://nymag.com/scienceofus/2015/06/new-guidelines-for-better-scientific-research.html">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/sciofus.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">Scientists Just Published Ambitious New Guidelines for Conducting Better Research</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 25, 2015 | Today the group released its guidelines via an article in (perhaps fittingly) Science, lead-authored by Brian Nosek, a University of Virginia psychologist and research-transparency advocate, and they’re ambitious. </p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.theguardian.com/science/head-quarters/2015/jun/25/the-first-imperative-science-that-isnt-transparent-isnt-science">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/guardian.gif" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">The first imperative: Science that isn’t transparent isn’t science</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 25, 2015 | Today we launch a new initiative to promote ‘open science’ or as we hope to one day call it, ‘science’</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.nytimes.com/2015/06/26/science/journal-science-releases-guidelines-for-publishing-scientific-studies.html?referrer=">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/nyt.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">Journal Science Releases Guidelines for Publishing Scientific Studies</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 25, 2015 | In the midst of a debate over scientific misconduct, one of the world’s leading scientific journals on Thursday posted the most comprehensive guidelines for the publication of studies in basic science to date, calling for the adoption of clearly defined rules on the sharing of data and methods.</p>
+                    </a>
+                     <a class="col-md-4 service-box-v1" href="http://www.sciencemag.org/content/348/6242/1403.full">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/aaas.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">Solving Reproducibility</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 25, 2015 | Transparency is central to improving reproducibility, but it is expensive and time-consuming. What can be done to alleviate those obstacles?</p>
+                    </a>
+                    <a class="col-md-4 service-box-v1" href="http://www.sciencemag.org/content/348/6242/1422.full">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/aaas.jpg" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">Promoting an Open Research Culture</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">June 25, 2015 | Transparency, openness, and reproducibility are readily recognized as vital features of science. When asked, most scientists embrace these features as disciplinary norms and values. Therefore, one might expect that these valued features would be routine in daily practice. Yet, a growing body of evidence suggests that this is not the case.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="../pr/2015-06-25/">
                         <table>
                             <tr>
@@ -80,10 +125,10 @@
                         <table>
                             <tr>
                                 <td><img src="/static/img/icons/open_trials.png" width="150"></td>
-                                <td><h2 class="text-left">Open Trials: Open Knowledge announces plans for open, online database of clinical trials</h2></td>
+                                <td><h2 class="text-left">Open Trials: Open Knowledge plans open, online database of clinical trials</h2></td>
                             </tr>
                         </table>
-                        <p class="text-left">April 21, 2015 | Open Knowledge today announced plans to develop Open Trials, an open, online database of information about the world’s clinical research trials funded by the Laura and John Arnold Foundation. The project, which is designed to increase transparency and improve access to research, will be directed by Ben Goldacre, an internationally known leader on clinical transparency.</p>
+                        <p class="text-left">April 21, 2015 | Open Knowledge today announced plans to develop Open Trials, an open, online database of information about the world’s clinical research trials funded by the Laura and John Arnold Foundation.</p>
                     </a>
                      <a class="col-md-4 service-box-v1" href="http://www.share-research.org/2015/04/share-launches-beta-of-share-notify-for-informing-stakeholders-when-research-is-released/">
                         <table>
