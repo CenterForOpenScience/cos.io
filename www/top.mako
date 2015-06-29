@@ -280,7 +280,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (37)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (39)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -292,6 +292,7 @@
                     Behavioral Science & Policy Association<br>
                     Berkeley Initiative for Transparency in the Social Sciences<br>
                     Bio, Tech and Beyond<br>
+                    Busara Center for Economics<br>
                     Carnegie Mellon University<br>
                     Center for Open Science<br>
                     Databrary<br>
@@ -310,6 +311,7 @@
                     The Open Atmospheric Society<br>  
                     Open Context<br>
                     Open fMRI<br>
+                    Paperity<br>
                     Prometheus Research<br>
                     Riffyn<br>
                     rOpenSci<br>
