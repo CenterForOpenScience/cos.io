@@ -617,18 +617,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3">
-        <div class="thumbnail">
-            <img src="../static/img/people/ghaemmaghami.jpg" alt="Leela Ghaemmaghami">
-            <h3>
-                Leela Ghaemmaghami
-                <small>Developer Volunteer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/leela-1" data-original-title="GitHub" class="github"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
@@ -1301,6 +1289,18 @@
                 <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://www.linkedin.com/pub/kurtis-jungersen/37/76b/3a" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/q36he/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3">
+        <div class="thumbnail">
+            <img src="../static/img/people/ghaemmaghami.jpg" alt="Leela Ghaemmaghami">
+            <h3>
+                Leela Ghaemmaghami
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/leela-1" data-original-title="GitHub" class="github"></a></li>
             </ul>
         </div>
     </li>
