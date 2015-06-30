@@ -479,6 +479,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/jamiehand" data-original-title="GitHub" class="github"></a></li>
+                 <li><a href="https://www.linkedin.com/in/jamiechand" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/26a4v/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
