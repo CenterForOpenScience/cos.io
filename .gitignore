@@ -17,3 +17,7 @@ migrations
 local_settings.py
 
 !.gitkeep
+local_settings.py
+.local_settings.pyc
+.pyc
+
