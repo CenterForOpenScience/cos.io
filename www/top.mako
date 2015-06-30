@@ -280,7 +280,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (39)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (41)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -289,6 +289,8 @@
                     Association for Psychological Science<br>
                     Association for Research in Personality<br>
                     Association of Research Libraries<br>  
+                    Astrophysics Source Code Library<br>  
+                    Authorea<br>
                     Behavioral Science & Policy Association<br>
                     Berkeley Initiative for Transparency in the Social Sciences<br>
                     Bio, Tech and Beyond<br>
