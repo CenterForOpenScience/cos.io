@@ -912,7 +912,7 @@
             <img src="../static/img/people/banner2.jpg" alt="William Banner">
             <h3>
                 William Banner
-                <small>Intern | Infrastructure</small>
+                <small> QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
             </ul>
