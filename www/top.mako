@@ -37,7 +37,7 @@
                         <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines.  TOP includes eight modular standards, each with three levels of increasing stringency.   Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.  </p>                    
                         
                         <ul>
-                            <li><a href ="http://www.sciencemag.org/content/348/6242/1422.full">Article introducing the TOP Guidelines, <i>Science</i></a></li>
+                            <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
                             <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
                             <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
                             <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (114)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (115)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -263,6 +263,7 @@
                     Neurology: Genetics®<br>
                     Neurology: Neuroimmunology & Neuroinflammation®<br>
                     Organizational Behavior and Human Decision Processes<br> 
+                    Organizational Research Methods<br>
                     Palgrave Communications<br>  
                     Party Politics<br>  
                     PeerJ<br> 
