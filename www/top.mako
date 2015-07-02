@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (114)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (115)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -263,6 +263,7 @@
                     Neurology: Genetics®<br>
                     Neurology: Neuroimmunology & Neuroinflammation®<br>
                     Organizational Behavior and Human Decision Processes<br> 
+                    Organizational Research Methods<br>
                     Palgrave Communications<br>  
                     Party Politics<br>  
                     PeerJ<br> 
