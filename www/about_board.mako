@@ -1,6 +1,6 @@
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Board of Directors</%def>
+<%def name="title()">Advisory Board</%def>
 <%def name="description()">The board represents scientific and technology communities in order to provide COS with advice for meeting its mission: to increase openness, integrity, and reproducibility across the sciences.</%def>
 
 <%def name="navigation()">
