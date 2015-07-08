@@ -2,7 +2,6 @@
 *.py[cod]
 *.so
 */__pycache__/*
-
 # DB / Migrations
 db.sqlite3
 migrations
@@ -10,7 +9,6 @@ migrations
 !/static/media/
 /static/media/*
 !/static/media/.gitkeep
-
 *.diff
 .idea
 **/bower_components

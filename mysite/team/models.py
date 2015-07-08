@@ -1,4 +1,3 @@
-# coding=utf-8
 from django.db import models
 from easy_thumbnails.files import get_thumbnailer
 from image_cropping import ImageRatioField, ImageCropField

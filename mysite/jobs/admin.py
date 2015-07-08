@@ -18,7 +18,7 @@ class EntryInline(admin.TabularInline):
 
 
 class EntryAdmin(admin.ModelAdmin):
-    inlines = [ListEntryInline, AnchorInline]
+    inline = [ListEntryInline, AnchorInline]
     list_display = ['position', 'section', ]
     list_editable = ['section', ]
 
@@ -27,7 +27,7 @@ class EntryAdmin(admin.ModelAdmin):
 
 
 class SectionAdmin(admin.ModelAdmin):
-    inlines = [EntryInline]
+    inline = [EntryInline]
     list_display = ['title', 'not_active', ]
     list_editable = ['not_active', ]
 
