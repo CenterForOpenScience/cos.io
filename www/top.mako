@@ -268,6 +268,10 @@
                     Party Politics<br>  
                     PeerJ<br> 
                     Personal Relationships<br>
+                    PLOS Biology<br>
+                    PLOS Computational Biology<br>
+                    PLOS Medicine<br>
+                    PLOS ONE<br>
                     Political Behavior<br>
                     Political Science Research and Methods<br>
                     Psychology of Sport and Exercise<br> 
@@ -316,6 +320,7 @@
                     Open fMRI<br>
                     Paperity<br>
                     Prometheus Research<br>
+                    Public Library of Science (PLOS)<br>
                     Riffyn<br>
                     rOpenSci<br>
                     Society for a Science of Clinical Psychology<br>
