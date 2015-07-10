@@ -34,4 +34,4 @@ class Ambassadors(models.Model):
 
     class Meta:
         ordering = ('name',)
-        verbose_name_plural = u'COS Ambassadors'
+        verbose_name_plural = u' COS Ambassadors '

@@ -9,7 +9,7 @@
 
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -29,14 +29,14 @@
             <br>
             <table class="margin-bottom-50">
                 <tr>
-                    <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="/static/img/icons/agu.png" alt="AGU"></a></td>
+                    <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="{% static 'img/icons/agu.png' %}" alt="AGU"></a></td>
                     <td><span class="med-font"><strong>American Geophysical Union</strong></span><br>
                         The American Geophysical Union has partnered with COS on the development of a directory aimed at helping Earth and space science authors and journals find appropriate places to deposit data based on data types, disciplines, and other relevant repository factors.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://www.psychologicalscience.org/"><img src="/static/img/icons/aps.jpg" alt="APS"></a></td>
+                    <td class="sponsor-center"><a href="http://www.psychologicalscience.org/"><img src="{% static 'img/icons/aps.jpg' %}" alt="APS"></a></td>
                     <td><span class="med-font"><strong>Association for Psychological Science</strong></span><br>
                        The Association for Psychological Science journal, <i>Psychological Science</i>, has adopted <a href="https://osf.io/tvyxz/wiki/home" target="_blank">badges</a>
                        to recognize researchers who follow open practices. And, the journal, Perspectives on Psychological Science,
@@ -46,7 +46,7 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg" alt="Association of
+                    <td class="sponsor-center"><a href="http://www.arl.org/"><img src="{% static 'img/icons/arl2.jpg' %}" alt="Association of
                      Research Libraries"></a></td>
                     <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
                         The Association of Research Libraries is a nonprofit organization comprised of university and research
@@ -56,28 +56,28 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://cega.berkeley.edu/programs/BITSS/"><img src="/static/img/icons/bitss.jpg" alt="BITSS"></a></td>
+                    <td class="sponsor-center"><a href="http://cega.berkeley.edu/programs/BITSS/"><img src="{% static 'img/icons/bitss.jpg' %}" alt="BITSS"></a></td>
                     <td><span class="med-font"><strong>Berkeley Initiative for Transparency in the Social Sciences</strong></span><br>
                         BITSS works with COS to increase reproducibility and transparency in social sciences. BITSS provides workshops and training for social scientists, including instruction on using the <a href="https://osf.io">Open Science Framework</a>.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://elifesciences.org"><img src="/static/img/icons/elife.jpg" alt="BITSS"></a></td>
+                    <td class="sponsor-center"><a href="http://elifesciences.org"><img src="{% static 'img/icons/elife.jpg' %}" alt="BITSS"></a></td>
                     <td><span class="med-font"><strong>elife Sciences Publications</strong></span><br>
                         eLife has partnered with COS and Science Exchange to be the publisher for the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>. Each paper that will be replicated for the metascience project will undergo peer review at eLife using the Registered Report format with the results of these experiments published in a <a href="http://elifesciences.org/collections/reproducibility-project-cancer-biology">Replication Study.</a>
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://www.prometheusresearch.com/"><img src="/static/img/icons/prometheus.jpg" alt="prometheus_research"></a></td>
+                    <td class="sponsor-center"><a href="http://www.prometheusresearch.com/"><img src="{% static 'img/icons/prometheus.jpg' %}" alt="prometheus_research"></a></td>
                     <td><span class="med-font"><strong>Prometheus Research</strong></span><br>
                        Prometheus Research has partnered with COS on use of the OSF and its application programming interface (API), to connect with their open source, integrated <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments. This will enable OSF users to easily utilize EDC instruments within their OSF projects</a>.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="https://www.scienceexchange.com/"><img src="/static/img/icons/SE_Logo.png" alt="Science
+                    <td class="sponsor-center"><a href="https://www.scienceexchange.com/"><img src="{% static 'img/icons/SE_Logo.png' %}" alt="Science
                     Exchange"></a></td>
                     <td><span class="med-font"><strong>Science Exchange</strong></span><br>
                        Science Exchange has partnered with COS to conduct the <a href="https://osf.io/e81xl/wiki/home/">
@@ -87,7 +87,7 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://www.tessexperiments.org/"><img src="/static/img/icons/TESSLogo.jpg" alt="TESS"></a></td>
+                    <td class="sponsor-center"><a href="http://www.tessexperiments.org/"><img src="{% static 'img/icons/TESSLogo.jpg' %}" alt="TESS"></a></td>
                     <td><span class="med-font"><strong>Time-sharing Experiments for the Social Sciences</strong></span><br>
                        Time-sharing Experiments for the Social Sciences (TESS) is an NSF-funded project that supports free data collections on representative samples of U.S. adults for experimental research. COS and TESS have partnered to host TESS's entire historical and future data catalog of more than 300 experiments on the Open Science Framework.
                     </td>
@@ -104,11 +104,12 @@
 
 </div>
 <!-- END PAGE CONTAINER -->
+{% endblock %}
 
 {% block javascript_bottom %}
-    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->{% endblock %}
-    <script type="text/javascript" src="{% static '/static/plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
-    <script src="{% static '/static/scripts/app.js' %}"></script>
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();

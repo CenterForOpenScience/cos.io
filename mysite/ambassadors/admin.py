@@ -5,7 +5,7 @@ from easy_thumbnails.files import get_thumbnailer
 
 
 class AmbassadorsAdmin(ImageCroppingMixin, admin.ModelAdmin):
-    readonly_fields = ('image_url', 'thumb_url',)
+    readonly_fields = ('image_url', 'thumb_url', )
     list_display = ['name', 'position', 'link', ]
     list_editable = ['position', ]
 

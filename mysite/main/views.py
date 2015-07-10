@@ -6,7 +6,6 @@ from mysite.news.models import News
 from mysite.team.models import Team
 from mysite.main.models import Pages
 from mysite.jobs.models import Section
-from mysite.jobs.models import Entry
 from mysite.ambassadors.models import Ambassadors
 
 

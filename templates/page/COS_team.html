@@ -8,9 +8,9 @@
 <x></x>
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
           xmlns="http://www.w3.org/1999/html"/>
-    <link href="{% static '/static/css/team_circle.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/team_circle.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% load email_obfuscator %}
 
@@ -65,7 +65,7 @@
 </div>
 {#<hr style="height:3px; border-width: 5px; border-color:#111111; background-color:#009900; " />#}
 <hr>
-<link rel="stylesheet" type="text/css" href="/static/css/H1.css" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/H1.css' %}" />
         <h1><strong>Alumni</strong></h1><br><br>
      {% for team_member in alumni_members %}
             <li class="col-md-3 space-mobile" >
@@ -109,8 +109,8 @@
 {% endblock %}
 {% block javascript_bottom %}
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-    <script type="text/javascript" src="{% static '/static/plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
-    <script src="{% static '/static/scripts/app.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();
