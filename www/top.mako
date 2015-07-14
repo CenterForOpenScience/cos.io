@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (115)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (171)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -217,6 +217,61 @@
                             <li>Perspectives on Psychological Science</li>
                             <li>Psychological Science</li>
                         </ul>
+                    <p>Frontiers (51 Journals)
+                        <ul>
+                            <li>Frontiers in Aging Neuroscience</li>  
+                            <li>Frontiers in Applied Mathematics and Statistics</li>  
+                            <li>Frontiers in Astronomy and Space Sciences</li>  
+                            <li>Frontiers in Behavioral Neuroscience</li>  
+                            <li>Frontiers in Bioengineering and Biotechnology</li>  
+                            <li>Frontiers in Built Environment</li>  
+                            <li>Frontiers in Cardiovascular Medicine</li>  
+                            <li>Frontiers in Cell and Developmental Biology</li>  
+                            <li>Frontiers in Cellular and Infection Microbiology</li>  
+                            <li>Frontiers in Cellular Neuroscience</li>  
+                            <li>Frontiers in Chemistry</li>  
+                            <li>Frontiers in Computational Neuroscience</li>  
+                            <li>Frontiers in Digital Humanities</li>  
+                            <li>Frontiers in Earth Science</li>  
+                            <li>Frontiers in Ecology and Evolution</li>  
+                            <li>Frontiers in Endocrinology</li>  
+                            <li>Frontiers in Energy Research</li>  
+                            <li>Frontiers in Environmental Science</li> 
+                            <li>Frontiers in Genetics</li>
+                            <li>Frontiers in Human Neuroscience</li>
+                            <li>Frontiers in ICT</li>
+                            <li>Frontiers in Immunology</li>
+                            <li>Frontiers in Integrative Neuroscience</li>
+                            <li>Frontiers in Marine Science</li>
+                            <li>Frontiers in Materials</li>
+                            <li>Frontiers in Mechanical Engineering</li>
+                            <li>Frontiers in Medicine</li>
+                            <li>Frontiers in Microbiology</li>
+                            <li>Frontiers in Molecular Biosciences</li>
+                            <li>Frontiers in Molecular Neuroscience</li>
+                            <li>Frontiers in Neural Circuits</li>
+                            <li>Frontiers in Neuroanatomy</li>
+                            <li>Frontiers in Neuroinformatics</li>
+                            <li>Frontiers in Neurology</li>
+                            <li>Frontiers in Neurorobotics</li>
+                            <li>Frontiers in Neuroscience</li>
+                            <li>Frontiers in Nutrition</li>
+                            <li>Frontiers in Oncology</li>
+                            <li>Frontiers in Pediatrics</li>
+                            <li>Frontiers in Pharmacology</li>
+                            <li>Frontiers in Physics</li>
+                            <li>Frontiers in Physiology</li>
+                            <li>Frontiers in Plant Science</li>
+                            <li>Frontiers in Psychiatry</li>
+                            <li>Frontiers in Psychology</li>
+                            <li>Frontiers in Public Health</li>
+                            <li>Frontiers in Robotics and AI</li>
+                            <li>Frontiers in Surgery</li>
+                            <li>Frontiers in Synaptic Neuroscience</li>
+                            <li>Frontiers in Systems Neuroscience</li>
+                            <li>Frontiers in Veterinary Science</li>
+                        </ul>
+
                     <p>Acta Psychologica<br> 
                     Addiction<br>  
                     American Journal of Community Psychology<br>
@@ -232,6 +287,7 @@
                     Developmental Science<br>  
                     Evolution and Human Behavior<br>
                     European Journal of Personality<br> 
+                    European Political Science<br>
                     European Union Politics<br>
                     Experimental Psychology<br> 
                     F1000Research<br>
@@ -285,7 +341,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (41)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (43)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -309,6 +365,7 @@
                     EGAP<br>
                     F1000<br>
                     figshare<br>
+                    Frontiers<br>
                     Global Biological Standards Institute<br>
                     Innovations for Poverty Action<br>
                     International Association for Relationship Research<br>  

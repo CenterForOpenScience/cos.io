@@ -31,6 +31,15 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://arstechnica.com/science/2015/07/some-new-ideas-for-fixing-science/">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/ars.jpeg" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">Some New Ideas for Fixing Science</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">July 2, 2015 | The latest issue of Science includes three articles that lay out options for journals, universities, and individual researchers who hope to improve transparency and accountability in research.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="http://nymag.com/scienceofus/2015/06/new-guidelines-for-better-scientific-research.html">
                         <table>
                             <tr>
