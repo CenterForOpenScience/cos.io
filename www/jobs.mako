@@ -675,7 +675,7 @@
                     <dt>Applying</dt>
                     <dd>
                         
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs2/centerforopenscience/research-support-specialist/aRwJIOk-er5z3SiGalkWKP" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                     </dd>
                 </dl>
             </div>
