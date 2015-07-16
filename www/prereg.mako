@@ -81,9 +81,9 @@
                 the Open Science Framework. Learn more <a href="https://osf.io/x5w7h/">here</a>. 
                 To stay informed, sign up using the form on the right.</p>
             <div class="center">
-            <a href="https://osf.io/x5w7h/">
+            <a href="https://osf.io/x5w7h/wiki/home/">
             <img src="/static/img/pics/pre-reg-flow.png" alt="preregistration workflow" width="600px" class="margin-top-40">
-
+            </a>
             </div>
 
         </div>
