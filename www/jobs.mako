@@ -589,18 +589,18 @@
         </div>
     </div>
 </div>
-<div id="ResearchSupportSpecialist" class="panel-group">
+<div id="ResearchScientist" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ResearchSupportSpecialist_heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ResearchScientist_heading">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
 
-                <a data-parent="#ResearchSupportSpecialist" >
-                    Research Support Specialist
+                <a data-parent="#ResearchScientist" >
+                    Research Scientist
                 </a>
             </h4>
         </div>
-        <div id="ResearchSupportSpecialist" class="panel-collapse collapse">
+        <div id="ResearchScientist" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
