@@ -413,6 +413,7 @@
                     Public Library of Science (PLOS)<br>
                     Riffyn<br>
                     rOpenSci<br>
+                    Software Sustainability Institute<br>
                     Society for a Science of Clinical Psychology<br>
                     Society of Australasian Social Psychologists<br>
                     SPARC<br>
