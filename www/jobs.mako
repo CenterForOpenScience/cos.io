@@ -487,58 +487,6 @@
         </div>
     </div>
 </div>
-<<<<<<< HEAD
-<div id="StatsConsultant" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#StatsConsultant_heading">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-
-                <a data-parent="#StatsConsultant" >
-                    Statistical and Methodological Consultant
-                </a>
-            </h4>
-        </div>
-        <div id="StatsConsultant" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., Open Science Framework), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We will hire two individuals with substantial training in quantitative methods, research methodology, and reproducible research practices to be a consulting team to train, support, and foster open, reproducible research practices across the sciences.</p>
-                        <p>Statistical and Methodological Consultants will contribute to the COS mission, particularly the community and metascience efforts, and help facilitate open, reproducible practices across the scientific community. Statistical and Methodological Consultants must have extremely strong quantitative, methodological, social, and organizational skills. Depending on training and expertise, part of one or both of these positions will be devoted to support activities in the White House’s Office of Science and Technology Policy related to reproducible research practices.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <p>The Statistical and Methodological Consultants will provide active, hands-on consultation for reproducible best practices in data analysis and research design. This includes short-term visits to universities, departments, and laboratories; lectures and training at conferences; virtual consulting and training through emails and webinars; and development and maintenance of education materials and practical guides for distribution. Consulting services will include open science, reproducibility practices, data analysis, and research methodology.</p>
-                        <p>The Statistical and Methodological Consultants will assist in forming and maintaining COS’s  best practices for reproducible research, and collaborate with the whole COS team in making its infrastructure and products accessible, useful, and applicable to scientists across research disciplines.</p>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Master’s degree in statistics or a substantive scientific discipline is required, PhD is preferred; Substantial training and experience in scientific research, quantitative methods, and reproducible research practices; Skills in quantitative data analysis and free statistical programming software commonly used by scientists (e.g. R or Python) are essential. Very strong written and verbal  communication skills; Service-oriented mindset; Comfortable teaching content to researchers from many different substantive backgrounds and at different career levels; Team-oriented; Very strong work ethic; Exceptional organization, time-management, and attention to detail.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>Salary range is $60,000 to $70,000; commensurate with experience.</p>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Travel</dt>
-                    <dd>
-                        <p>Travel will range from 25-50% time.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
 <div id="ReproducibleResearchEvangelist" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
@@ -591,7 +539,6 @@
     </div>
 </div>
 <div id="ResearchScientist" class="panel-group">
-=======
 ##<div id="StatsConsultant" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -694,8 +641,7 @@
 ##        </div>
 ##    </div>
 ##</div>
-<div id="ResearchSupportSpecialist" class="panel-group">
->>>>>>> 33e5323b1a85f52d3d78962cb118fdb8dd97cbce
+<div id="ResearchScientist" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
             <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ResearchScientist_heading">
