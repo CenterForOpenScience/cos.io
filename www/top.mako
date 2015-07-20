@@ -217,7 +217,7 @@
                             <li>Perspectives on Psychological Science</li>
                             <li>Psychological Science</li>
                         </ul>
-                    <p>Frontiers (51 Journals)
+                    <p>Frontiers (51 Journals)</p>
                         <ul>
                             <li>Frontiers in Aging Neuroscience</li>  
                             <li>Frontiers in Applied Mathematics and Statistics</li>  
@@ -271,7 +271,7 @@
                             <li>Frontiers in Systems Neuroscience</li>
                             <li>Frontiers in Veterinary Science</li>
                         </ul>
-                    <p>Ubiquity Press (29 journals)/p>
+                    <p>Ubiquity Press (29 journals)</p>
                         <ul>
                             <li>Ancient Asia</li>
                             <li>Archaeology International</li>
