@@ -399,7 +399,7 @@
                     Frontiers<br>
                     Global Biological Standards Institute<br>
                     Innovations for Poverty Action<br>
-                    Institution for Social and Policy Standards (ISPS)<br>
+                    Institution for Social and Policy Studies (ISPS)<br>
                     International Association for Relationship Research<br>  
                     Interuniversity Consortium for Political and Social Research (ICPSR)<br>  
                     Laura and John Arnold Foundation<br>
