@@ -533,6 +533,29 @@
         </table>
     </td>
 </tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/i8w73/" target="_blank">
+                        <img src="../static/img/people/ambassadors/hardwicke.jpeg" alt="Tom Hardwicke">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Tom Hardwicke
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University College London
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
     ## <tr>
             ##     <td>
             ##         <table class="ambassador-box">

@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (171)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (200)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -271,6 +271,37 @@
                             <li>Frontiers in Systems Neuroscience</li>
                             <li>Frontiers in Veterinary Science</li>
                         </ul>
+                    <p>Ubiquity Press (29 journals)/p>
+                        <ul>
+                            <li>Ancient Asia</li>
+                            <li>Archaeology International</li>
+                            <li>Architectural Histories</li>
+                            <li>Bulletin of the History of Archaeology</li>
+                            <li>Citizen Science: Theory and Practice</li>
+                            <li>The Comics Grid: Journal of Comics Scholarship</li>
+                            <li>Data Science Journal</li>
+                            <li>Glocality</li>
+                            <li>Governance in Africa</li>
+                            <li>Insights</li>
+                            <li>Journal of Interactive Media in Education</li>
+                            <li>Journal of Circadian Rythms</li>
+                            <li>Journal of Conservation and Museum Studies</li>
+                            <li>Journal of European Psychology Students</li>
+                            <li>Journal of Open Archaeology</li>
+                            <li>Journal of Open Psychology Data</li>
+                            <li>Journal of Open Research Software</li>
+                            <li>Journal of Molecular Signaling</li>
+                            <li>Open Health Data</li>
+                            <li>Open Journal of Bioresources</li>
+                            <li>Open Quaternary</li>
+                            <li>Opticon1826</li>
+                            <li>Papers from the Institute of Archaeology</li>
+                            <li>Present Pasts</li>
+                            <li>Psychologica Belgica</li>
+                            <li>Secularism and Nonreligion</li>
+                            <li>Stability: International Journal of Security and Development</li>
+                            <li>Utrecht Journal of International and European Law</li>
+                        </ul>
 
                     <p>Acta Psychologica<br> 
                     Addiction<br>  
@@ -341,7 +372,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (45)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (46)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -382,11 +413,13 @@
                     Public Library of Science (PLOS)<br>
                     Riffyn<br>
                     rOpenSci<br>
+                    Software Sustainability Institute<br>
                     Society for a Science of Clinical Psychology<br>
                     Society of Australasian Social Psychologists<br>
                     SPARC<br>
                     Sunlight Foundation<br>
-                    Time-series Experiments in Social Sciences<br></p>
+                    Time-series Experiments in Social Sciences<br>
+                    Ubiquity Press<br></p>
 
                 <hr>
                 <h1><strong>Related Efforts</strong></h1>
