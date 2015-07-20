@@ -738,6 +738,7 @@
 <br><br>
 <p>Check out our <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
 
+<div id="benefits">
 <h3><br><strong>What we do</strong></h3><br><br>
 <div style="text-align:center"><iframe width="750" height="500" src="https://www.youtube.com/embed/LJDOr5LIB38" frameborder="0" allowfullscreen></iframe></div>
 
@@ -816,6 +817,7 @@
 <div class="spacer"></div>
 <!-- END INFO BLOCK -->
 
+</div>
 </div>
 </div>
 </div>
