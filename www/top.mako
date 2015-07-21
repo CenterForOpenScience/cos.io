@@ -346,9 +346,9 @@
                     Language Learning<br> 
                     Nicotine and Tobacco Research<br>
                     Neurology® <br>
-                    Neurology: Clinical Practice®<br>
-                    Neurology: Genetics®<br>
-                    Neurology: Neuroimmunology & Neuroinflammation®<br>
+                    Neurology®: Clinical Practice<br>
+                    Neurology®: Genetics<br>
+                    Neurology®: Neuroimmunology & Neuroinflammation<br>
                     Organizational Behavior and Human Decision Processes<br> 
                     Organizational Research Methods<br>
                     Palgrave Communications<br>  
