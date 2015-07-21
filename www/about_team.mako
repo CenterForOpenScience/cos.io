@@ -797,7 +797,7 @@
             <img src="../static/img/people/hernandez.jpg" alt="Reina Hernandez">
             <h3>
                 Reina Hernandez
-                <small>QA Intern | Infrastructure</small>
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/3gs4f/" data-original-title="osf" class="osf"></a></li>
