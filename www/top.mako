@@ -217,7 +217,7 @@
                             <li>Perspectives on Psychological Science</li>
                             <li>Psychological Science</li>
                         </ul>
-                    <p>BioMed Central (287 Journals)</p>
+                    <p>BioMed Central (506 Journals)</p>
                     <p>Frontiers (51 Journals)</p>
                         <ul>
                             <li>Frontiers in Aging Neuroscience</li>  
