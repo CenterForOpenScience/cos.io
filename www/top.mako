@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (487)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (506)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -217,7 +217,7 @@
                             <li>Perspectives on Psychological Science</li>
                             <li>Psychological Science</li>
                         </ul>
-                    <p>BioMed Central (287 Journals)</p>
+                    <p>BioMed Central (506 Journals)</p>
                     <p>Frontiers (51 Journals)</p>
                         <ul>
                             <li>Frontiers in Aging Neuroscience</li>  
@@ -288,7 +288,7 @@
                             <li>Journal of Circadian Rythms</li>
                             <li>Journal of Conservation and Museum Studies</li>
                             <li>Journal of European Psychology Students</li>
-                            <li>Journal of Open Archaeology</li>
+                            <li>Journal of Open Archaeology Data</li>
                             <li>Journal of Open Psychology Data</li>
                             <li>Journal of Open Research Software</li>
                             <li>Journal of Molecular Signaling</li>
