@@ -288,7 +288,7 @@
                             <li>Journal of Circadian Rythms</li>
                             <li>Journal of Conservation and Museum Studies</li>
                             <li>Journal of European Psychology Students</li>
-                            <li>Journal of Open Archaeology</li>
+                            <li>Journal of Open Archaeology Data</li>
                             <li>Journal of Open Psychology Data</li>
                             <li>Journal of Open Research Software</li>
                             <li>Journal of Molecular Signaling</li>
