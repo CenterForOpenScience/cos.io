@@ -1,44 +1,23 @@
 [
     {
         "id": 0,
-        "name": "Survey Monkey", 
-        "stage": "Data Collection",
+        "name": "Dryad", 
+        "stage": "Data Repository",
         "docs": "",
         "amount": ""
     },
     {
         "id": 1,
-        "name": "Qualtrics", 
-        "stage": "Data Collection",
-        "docs": "",
+        "name": "Bitbucket", 
+        "stage": "Code Repository",
+        "docs": "<a href:'https://confluence.atlassian.com/display/BITBUCKET/Use+the+Bitbucket+REST+APIs'>https://confluence.atlassian.com/display/BITBUCKET/Use+the+Bitbucket+REST+APIs</a>",
         "amount": ""
     },    
         {
         "id": 2,
-        "name": "Owncloud", 
-        "stage": "Storage",
-        "docs": "",
+        "name": "Zenodo", 
+        "stage": "Data Repository",
+        "docs": "<a href:'https://zenodo.org/dev'>https://zenodo.org/dev</a>,
         "amount": ""
-    }, 
-        {
-        "id": 3,
-        "name": "Azure", 
-        "stage": "Compute",
-        "docs": "",
-        "amount": ""
-    },   
-        {
-        "id": 4,
-        "name": "OneDrive", 
-        "stage": "Storage",
-        "docs": "",
-        "amount": ""
-    },    
-        {
-        "id": 5,
-        "name": "Publons", 
-        "stage": "Peer Review",
-        "docs": "<a href='https://publons.com/api/v1/'>https://publons.com/api/v1/</a>",
-        "amount": ""
-    }       
+    }
 ]
