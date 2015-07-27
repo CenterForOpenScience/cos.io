@@ -95,9 +95,9 @@
             <table data-toggle="table" data-url="/static/grants.json" data-height="299" data-sort-name="name" data-sort-order="desc">
                 <thead>
                     <tr>
-                        <th data-field="tool" data-align="right" data-sortable="true">Tool/Service</th>
-                        <th data-field="stage" data-align="center" data-sortable="true">Workflow Stage</th>
-                        <th data-field="docs" data-sortable="true">API Documentation</th>
+                        <th data-field="id" data-align="right" data-sortable="true">Project Number</th>
+                        <th data-field="name" data-align="center" data-sortable="true">Item Name</th>
+                        <th data-field="price" data-sortable="true">Item Price</th>
                         <th data-field="amount" data-sortable="true">Grant Amount</th>
                     </tr>
                 </thead>
