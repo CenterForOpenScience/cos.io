@@ -71,7 +71,7 @@
     <!-- BEGIN CONTAINER -->
     <div class="container min-height margin-top-50 col-md-12">
         <div class="center" >
-            <h1>The $1,000,000 Pre-Registration Prize</h1><p>
+            <h1>The $1,000,000 Pre-Registration Challenge</h1><p>
             <h2>Coming Summer, 2015</h2>
         </div>
         
