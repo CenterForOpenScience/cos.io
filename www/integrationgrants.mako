@@ -10,7 +10,7 @@
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="/static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="/static/plugins/bootstrap/css/bootstrap-table.css" rel="stylesheet" >
+    <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
 
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 
@@ -72,7 +72,7 @@
 
 
     <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="/static/plugins/bootstrap/js/bootstrap-table.js"></script>
+    <script src="/static/scripts/bootstrap-table.js"></script>
 
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
