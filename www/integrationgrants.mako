@@ -27,9 +27,9 @@
         </div>
         
         <div class="col-md-12 margin-top-50  margin-bottom-30">
-            <p>The free, open source <a href="http://osf.io">Open Science Framework (OSF)</a> connects services across the entire research lifecycle to promote research efficiency and reproducibility.  For example, OSF is integrated with storage providers like Box.com, Dropbox, Amazon S3, figshare, GitHub, Google Drive, and Dataverse, and citation management tools Zotero and Mendeley.  However, there are <strong>hundreds</strong> of tools and services that researchers use everyday to create and manage research protocols, collect and analyze data, author manuscripts, submit and review articles, track impact, and search and discover others research.  </p>
+            <p>The free, open source <a href="http://osf.io">Open Science Framework (OSF)</a> connects services across the entire research lifecycle to promote research efficiency and reproducibility.  For example, OSF is integrated with storage providers Box.com, Dropbox, Amazon S3, figshare, GitHub, Google Drive, and Dataverse, and citation management tools Zotero and Mendeley.  However, there are <strong>hundreds</strong> of tools and services that researchers use everyday to create and manage research protocols, collect and analyze data, author manuscripts, submit and review articles, track impact, and search and discover others research.  </p>
          </br>           
-            <p>Developers, we need <strong>you</strong> to help us connect all of these services!  The <a href="http://cos.io">Center for Open Science</a> supports and maintains the OSF and has grants available to connect OSF with the tools and services that researchers use.  See the list below for services that we have identified as high priority for integration.  Complete our short proposal today to claim a grant to help us integrate them!  Don’t see one that should be there?  Suggest it!
+            <p>Developers, we need <strong>you</strong> to help us connect all of these services!  The <a href="http://cos.io">Center for Open Science</a> supports and maintains the OSF and has grants available to connect OSF with the tools and services that researchers use.  See the list below for an ever-growing list of services that we have identified as a high-priority and ready for integration.  Complete our short proposal today for a grant to help us integrate them!  Don’t see one that should be there?  Suggest it!
             </p>
         </br>
             <p>Proposals should include the following information:
@@ -54,7 +54,7 @@
         </br>
             <p>Proposers must commit to making all code available as open source with an Apache 2.0 license.  Applicants may propose working on multiple integrations.</p>  
         </br>
-            <p>Proposals will be accepted on a rolling basis, but no later than August 12, 2015 at Midnight EDT.  Decisions will be made quickly after and awards made no later than August 31, 2015.</p>
+            <p>Proposals will be accepted on a rolling basis, but no later than August 12, 2015 at Midnight EDT.  Decisions will be made quickly so that teams can receive funding and initiate their work.</p>
             <div class="center">
                 <p><a href="https://docs.google.com/forms/d/1h2T_So_f52nGpA8SH2RnywgztoOyca533O9sf9K42HQ/viewform">Apply now</a></p>
         </br>
