@@ -9,9 +9,9 @@
 <%def name="stylesheets()">
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/plugins/bootstrap/css/bootstrap-table.css" rel="stylesheet" >
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-    <link href="../static/plugins/bootstrap/css/bootstrap-table.css" rel="stylesheet" >
     <style type="text/css">
         #mc_embed_signup{
             background:#e7f5fc;
@@ -92,7 +92,7 @@
                 <p><a href="https://docs.google.com/forms/d/1h2T_So_f52nGpA8SH2RnywgztoOyca533O9sf9K42HQ/viewform">Apply now</a></p>
             </div>
             
-            <table data-url="/static/data1.json" data-height="299" data-sort-name="name" data-sort-order="desc">
+            <table data-toggle="table" data-url="/static/grants.json" data-height="299" data-sort-name="name" data-sort-order="desc">
                 <thead>
                     <tr>
                         <th data-field="id" data-align="right" data-sortable="true">Item ID</th>
@@ -119,7 +119,7 @@
 
     <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="assets/scripts/app.js"></script>
-     <script src="../static/plugins/bootstrap/js/bootstrap-table.js"></script>
+    <script src="/static/plugins/bootstrap/js/bootstrap-table.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();
