@@ -1,128 +1,44 @@
 [
     {
         "id": 0,
-        "name": "Item 0",
-        "price": "$0",
-        "amount": "$0"
+        "name": "Survey Monkey", 
+        "stage": "Data Collection",
+        "docs": "",
+        "amount": ""
     },
     {
         "id": 1,
-        "name": "Item 1",
-        "price": "$1",
-        "amount": "$0"
-    },
-    {
+        "name": "Qualtrics", 
+        "stage": "Data Collection",
+        "docs": "",
+        "amount": ""
+    },    
+        {
         "id": 2,
-        "name": "Item 2",
-        "price": "$2",
-        "amount": "$0"
-    },
-    {
+        "name": "Owncloud", 
+        "stage": "Storage",
+        "docs": "",
+        "amount": ""
+    }, 
+        {
         "id": 3,
-        "name": "Item 3",
-        "price": "$3",
-        "amount": "$0"
-    },
-    {
+        "name": "Azure", 
+        "stage": "Compute",
+        "docs": "",
+        "amount": ""
+    },   
+        {
         "id": 4,
-        "name": "Item 4",
-        "price": "$4",
-        "amount": "$0"
-    },
-    {
+        "name": "OneDrive", 
+        "stage": "Storage",
+        "docs": "",
+        "amount": ""
+    },    
+        {
         "id": 5,
-        "name": "Item 5",
-        "price": "$5",
-        "amount": "$0"
-    },
-    {
-        "id": 6,
-        "name": "Item 6",
-        "price": "$6",
-        "amount": "$0"
-    },
-    {
-        "id": 7,
-        "name": "Item 7",
-        "price": "$7",
-        "amount": "$0"
-    },
-    {
-        "id": 8,
-        "name": "Item 8",
-        "price": "$8",
-        "amount": "$0"
-    },
-    {
-        "id": 9,
-        "name": "Item 9",
-        "price": "$9",
-        "amount": "$0"
-    },
-    {
-        "id": 10,
-        "name": "Item 10",
-        "price": "$10",
-        "amount": "$0"
-    },
-    {
-        "id": 11,
-        "name": "Item 11",
-        "price": "$11",
-        "amount": "$0"
-    },
-    {
-        "id": 12,
-        "name": "Item 12",
-        "price": "$12",
-        "amount": "$0"
-    },
-    {
-        "id": 13,
-        "name": "Item 13",
-        "price": "$13",
-        "amount": "$0"
-    },
-    {
-        "id": 14,
-        "name": "Item 14",
-        "price": "$14",
-        "amount": "$0"
-    },
-    {
-        "id": 15,
-        "name": "Item 15",
-        "price": "$15",
-        "amount": "$0"
-    },
-    {
-        "id": 16,
-        "name": "Item 16",
-        "price": "$16",
-        "amount": "$0"
-    },
-    {
-        "id": 17,
-        "name": "Item 17",
-        "price": "$17",
-        "amount": "$0"
-    },
-    {
-        "id": 18,
-        "name": "Item 18",
-        "price": "$18",
-        "amount": "$0"
-    },
-    {
-        "id": 19,
-        "name": "Item 19",
-        "price": "$19",
-        "amount": "$0"
-    },
-    {
-        "id": 20,
-        "name": "Item 20",
-        "price": "$20",
-        "amount": "$0"
-    }
+        "name": "Publons", 
+        "stage": "Peer Review",
+        "docs": "<a href='https://publons.com/api/v1/'>https://publons.com/api/v1/</a>",
+        "amount": ""
+    }       
 ]
