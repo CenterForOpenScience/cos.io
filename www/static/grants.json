@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Survey Monkey", 
+        "stage": "Data Collection",
+        "docs": "",
+        "amount": ""
+    },
+    {
+        "id": 1,
+        "name": "Qualtrics", 
+        "stage": "Data Collection",
+        "docs": "",
+        "amount": ""
+    },    
+        {
+        "id": 2,
+        "name": "Owncloud", 
+        "stage": "Storage",
+        "docs": "",
+        "amount": ""
+    }, 
+        {
+        "id": 3,
+        "name": "Azure", 
+        "stage": "Compute",
+        "docs": "",
+        "amount": ""
+    },   
+        {
+        "id": 4,
+        "name": "OneDrive", 
+        "stage": "Storage",
+        "docs": "",
+        "amount": ""
+    },    
+        {
+        "id": 5,
+        "name": "Publons", 
+        "stage": "Peer Review",
+        "docs": "<a href='https://publons.com/api/v1/'>https://publons.com/api/v1/</a>",
+        "amount": ""
+    }       
+]
