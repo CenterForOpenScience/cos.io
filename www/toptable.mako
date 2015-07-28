@@ -65,13 +65,12 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                   <table data-toggle="table" data-url="/static/grants.json" data-height="299" data-sort-name="name" data-sort-order="asc" data-search="true">
+                   <table data-toggle="table" data-url="/static/top.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true">
                         <thead>
                             <tr>
-                        <th data-field="name" data-sortable="true">Tool/Service</th>
-                        <th data-field="stage" data-sortable="true">Workflow Stage</th>
-                        <th data-field="docs" >API Documentation</th>
-                        <th data-field="amount" data-sortable="true">Grant Amount</th>
+                        <th data-field="Journal Title" data-sortable="true">Journal Title</th>
+                        <th data-field="Publisher" data-sortable="true">Publisher</th>
+                        <th data-field="Association" >Society/Association Affiliation</th>
                             </tr>
                         </thead>
                     </table>      
