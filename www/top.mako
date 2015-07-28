@@ -370,6 +370,7 @@
                     Sociological Science<br>
                     State Politics and Policy Quaterly<br>
                     Stress and Health<br>
+                    Survey Research Methods<br>
                     Work, Aging and Retirement<br></p>
                    
 
