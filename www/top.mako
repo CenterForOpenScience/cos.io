@@ -409,7 +409,7 @@
                     The Open Atmospheric Society<br>  
                     Open Context<br>
                     Open fMRI<br>
-                    Open Therapeutics<br>
+                    Open Therapeutics / Microbial Robotics, LLC<br>
                     Paperity<br>
                     Prometheus Research<br>
                     Public Library of Science (PLOS)<br>
