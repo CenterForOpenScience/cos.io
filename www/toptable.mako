@@ -10,6 +10,7 @@
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 
 </%def>
@@ -64,7 +65,18 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (506)</strong></p>
+                   <table data-toggle="table" data-url="/static/grants.json" data-height="299" data-sort-name="name" data-sort-order="asc" data-search="true">
+                        <thead>
+                            <tr>
+                        <th data-field="name" data-sortable="true">Tool/Service</th>
+                        <th data-field="stage" data-sortable="true">Workflow Stage</th>
+                        <th data-field="docs" >API Documentation</th>
+                        <th data-field="amount" data-sortable="true">Grant Amount</th>
+                            </tr>
+                        </thead>
+                    </table>      
+
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (507)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -284,7 +296,6 @@
                             <li>Glocality</li>
                             <li>Governance in Africa</li>
                             <li>Insights</li>
-                            <li>Journal of the Belgian Society of Radiology</li>
                             <li>Journal of Interactive Media in Education</li>
                             <li>Journal of Circadian Rythms</li>
                             <li>Journal of Conservation and Museum Studies</li>
@@ -324,6 +335,7 @@
                     European Union Politics<br>
                     Experimental Psychology<br> 
                     F1000Research<br>
+                    GigaScience<br>
                     Hippocampus<br> 
                     Human Performance<br> 
                     Instructional Science<br>  
@@ -335,7 +347,7 @@
                     Journal of Business and Psychology<br> 
                     Journal of Cell Biology<br>
                     Journal of Conflict Resolution<br>  
-                    Jounal of Consumer Psychology<br>
+                    Journal of Consumer Psychology<br>
                     Journal of Consumer Research<br>  
                     Journal of Experimental Social Psychology<br> 
                     Journal of Media Psychology<br> 
@@ -452,12 +464,13 @@
             <script src="../static/plugins/jquery.mixitup.min.js"></script>
             <script src="../static/scripts/app.js"></script>
             <script src="../static/scripts/portfolio.js"></script>
-            <script type="text/javascript">
+                        <script type="text/javascript">
                 jQuery(document).ready(function() {
                     App.init();
                     Portfolio.init();
                 });
             </script>
+            <script src="/static/scripts/bootstrap-table.js"></script>
 
     </%def>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
