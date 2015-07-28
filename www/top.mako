@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (506)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (507)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -370,6 +370,7 @@
                     Sociological Science<br>
                     State Politics and Policy Quaterly<br>
                     Stress and Health<br>
+                    Survey Research Methods<br>
                     Work, Aging and Retirement<br></p>
                    
 
@@ -408,7 +409,7 @@
                     The Open Atmospheric Society<br>  
                     Open Context<br>
                     Open fMRI<br>
-                    Open Therapeutics<br>
+                    Open Therapeutics / Microbial Robotics, LLC<br>
                     Paperity<br>
                     Prometheus Research<br>
                     Public Library of Science (PLOS)<br>
