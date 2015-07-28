@@ -17,7 +17,7 @@
         "id": 2,
         "name": "Zenodo", 
         "stage": "Data Repository",
-        "docs": "<a href:'https://zenodo.org/dev'>https://zenodo.org/dev</a>,
+        "docs": "<a href:'https://zenodo.org/dev'>https://zenodo.org/dev</a>",
         "amount": "$8,000-$10,000"
     }
 ]
