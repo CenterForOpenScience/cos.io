@@ -156,13 +156,6 @@
             <script type="text/javascript" src="../static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
             <script src="../static/plugins/jquery.mixitup.min.js"></script>
             <script src="../static/scripts/app.js"></script>
-            <script src="../static/scripts/portfolio.js"></script>
-                        <script type="text/javascript">
-                jQuery(document).ready(function() {
-                    App.init();
-                    Portfolio.init();
-                });
-            </script>
             <script src="/static/scripts/bootstrap-table.js"></script>
 
     </%def>
