@@ -284,6 +284,7 @@
                             <li>Glocality</li>
                             <li>Governance in Africa</li>
                             <li>Insights</li>
+                            <li>Journal of the Belgian Society of Radiology</li>
                             <li>Journal of Interactive Media in Education</li>
                             <li>Journal of Circadian Rythms</li>
                             <li>Journal of Conservation and Museum Studies</li>
@@ -311,6 +312,7 @@
                     Asian Journal of Social Psychology<br>
                     Autism Research<br>   
                     Behavioral Science & Policy<br>
+                    Bio-protocol<br>
                     Cognition and Emotion<br> 
                     Collabra<br>
                     Comprehensive Results in Social Psychology<br> 
@@ -323,7 +325,6 @@
                     European Union Politics<br>
                     Experimental Psychology<br> 
                     F1000Research<br>
-                    GigaScience<br>
                     Hippocampus<br> 
                     Human Performance<br> 
                     Instructional Science<br>  
