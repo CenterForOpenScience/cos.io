@@ -155,7 +155,6 @@
 
             <script type="text/javascript" src="../static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
             <script src="../static/plugins/jquery.mixitup.min.js"></script>
-            <script src="../static/scripts/app.js"></script>
             <script src="/static/scripts/bootstrap-table.js"></script>
 
     </%def>
