@@ -85,10 +85,10 @@
                     <iframe src="https://www.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border:solid 1px #777 " width="400" height="300" frameborder="0" scrolling="no"></iframe>
                 </div>
                 <p><strong>Online Workshops</strong></p>
-                <p>We offer online workshops on topics related to reproducible research and good statistical practices. Recordings of workshops and related materials are available on the <a href="https://osf.io/djrig/">Stats Consulting OSF Project.</a></p>
+                <p>We offer online workshops on topics related to reproducible research and good statistical practices. Recordings of workshops and related materials are available on the <a href="https://osf.io/djrig/">Stats Consulting OSF Project.</a></p> 
                 <br>
                 <p><strong>On-site Workshops</strong></p>
-                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io?subject=Request a COS Workshop'>stats-consulting@cos.io</a>.</p>
+                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io?subject=Request a COS Workshop'>stats-consulting@cos.io</a>. Go <a href="https://osf.io/d5aqs/wiki/Past%20Workshops/">here</a> to see past workshop locations.</p> 
                 <br>
                 <h2><strong>FAQ</strong></h2>
                 <hr>
