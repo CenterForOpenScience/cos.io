@@ -41,6 +41,7 @@
                 </ls>
             </p>
         </br>
+        <p>Example integrations below. Other suggestions are welcome.</p>
             <table data-toggle="table" data-url="/static/grants.json" data-height="299" data-sort-name="name" data-sort-order="asc">
                 <thead>
                     <tr>
