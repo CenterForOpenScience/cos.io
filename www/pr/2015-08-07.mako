@@ -14,13 +14,17 @@
                 <div style=" padding-bottom: 10px">
                     <h1><strong>Center for Open Science Announces Five New Hires</strong></h1><br>
                     <!--<h4><i>Five hires expand team to 40 Full-Time Staff</i></h4>-->
+                      <table >
+                        <tr>
+                            <td style="padding-left: 70px"><img src="/static/img/newhires.png" height="200px"></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
             <!--END DESCRIPTION-->
             <!--BEGIN CONTENT-->
             <div style="padding-bottom: 50px;">
-            <p><img src="../static/img/newhires.png"><br></p>
-                <p><i>6 August 2015 - Charlottesville, VA -</i> Today, the <a href="http://cos.io">Center for Open Science</a> (COS; <a href="http://cos.io">http://cos.io</a>) announced the hiring of five new staff to expand their <a href="http://cos.io/about_team">full-time team to 40</a>. Joining the staff are four Developers and one Software Quality Engineer. These talented hires enable COS to expand its pursuit of increasing the openness, integrity, and reproducibility of scientific research. 
+                <p><i>7 August 2015 - Charlottesville, VA -</i> Today, the <a href="http://cos.io">Center for Open Science</a> (COS; <a href="http://cos.io">http://cos.io</a>) announced the hiring of five new staff to expand their <a href="http://cos.io/about_team">full-time team to 40</a>. Joining the staff are four Developers and one Software Quality Engineer. These talented hires enable COS to expand its pursuit of increasing the openness, integrity, and reproducibility of scientific research. 
 </p>
 
                 <p><b>Lauren Barker</b>, Developer, is a rising fourth year at the University of Virginia who will be graduating with a degree in Computer Science in May of 2016. She will continue as a COS intern during the school year and join the full-time staff upon graduation. Lauren spends her time at COS creating and supporting tools that promote shareability and openness.</p>

@@ -31,7 +31,7 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
-                    <a class="col-md-4 service-box-v1" href="../pr/2015-08-06/">
+                    <a class="col-md-4 service-box-v1" href="../pr/2015-08-07/">
                         <table>
                             <tr>
                                 <td><img src="../static/img/icons/cos_logo.png" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
