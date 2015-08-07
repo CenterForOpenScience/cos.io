@@ -38,7 +38,7 @@
                                 <td><h2 class="text-left">Center for Open Science Announces Five New Hires</h2></td>
                             </tr>
                         </table>
-                        <p class="text-left">August 6, 2015 | Today, the Center for Open Science (COS; http://cos.io) announced the hiring of five new staff to expand their full time team to 40. Joining the staff are four Developers and one Software Quality Engineer.</p>
+                        <p class="text-left">August 7, 2015 | Today, the Center for Open Science announced the hiring of five new staff to expand their full-time team to 40. Joining the staff are four Developers and one Software Quality Engineer.</p>
                     </a>
                     <a class="col-md-4 service-box-v1" href="https://www.coar-repositories.org/activities/advocacy-leadership/aligning-repository-networks-across-regions/collaboration-on-data-exchange-technological-development-and-metadata/">
                         <table>
