@@ -31,7 +31,7 @@
 
                 <p><b>Fitz Elliott</b>, Developer, has been building websites and databases since 2002 for the biologists at the Cell Migration Consortium and HemoShear Therapeutics.  He loves crafting tools to help scientists share their research with the world, and is enthusiastic about joining a team that shares this passion.</p>
 
-                <p><b>Dawn Pattinson</b>, Developer, joins the full-time corps following a summer internship with COS. She is a manufacturing-engineer-turned-web-developer who is excited to be refining her skills while improving the reliability of scientific research.  Dawn is eager to be joining this team in what she believes is the best town in the world--Charlottesville, VA.</p>
+                <p><b>Dawn Pattison</b>, Developer, joins the full-time corps following a summer internship with COS. She is a manufacturing-engineer-turned-web-developer who is excited to be refining her skills while improving the reliability of scientific research.  Dawn is eager to be joining this team in what she believes is the best town in the world--Charlottesville, VA.</p>
 
                 <p><b>Casey Rollins</b>, Developer, has been interning at COS since summer 2014, and will join the team full-time in May 2016 upon completing her degree. She is a student in Computer Science at the University of Virginia. Casey has spent the past year developing features for the <a href="https://osf.io">Open Science Framework</a> and is excited to continue this work.</p>
 
