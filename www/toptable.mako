@@ -35,7 +35,7 @@
                     
 
                     
-                        <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines.  TOP includes eight modular standards, each with three levels of increasing stringency.   Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.  </p>                    
+                        <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines.  TOP includes eight modular standards, each with three levels of increasing stringency.   Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>                    
                         
                         <ul>
                             <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
@@ -44,11 +44,8 @@
                             <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
                             <li><a href="#journals">Journal Signatories</a></li>
                             <li><a href="#orgs">Organization Signatories</a></li>
-                            
-                            
                         </ul>
                         
-
                 <hr>
                 <h1><strong>Signatories</strong></h1>
                 
@@ -63,71 +60,37 @@
                             <li>Expressing their support of the principles of openness, transparency, and reproducibility</li>
                             <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                         </ol>
-                         <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
+                         <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>.</p>
 
-                    
-                    <p class="margin-top-20"><h2><strong>Journal Signatories (506)</strong></h2></p>     
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (508)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (47)</b></a></li>
+                    </ul>
 
-                   <table data-toggle="table" data-url="/static/topjournals.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true">
-                        <thead>
-                            <tr>
-                        <th data-field="Journal Title" data-sortable="true">Journal Title</th>
-                        <th data-field="Publisher" data-sortable="true">Publisher</th>
-                        <th data-field="Association" >Society/Association Affiliation</th>
-                            </tr>
-                        </thead>
-                    </table>      
-
-                    
-                    <h2><strong>Organization Signatories (46)</strong></h2>
-                    <p>AAAS<br>
-                    Alfred P. Sloan Foundation<br>
-                    American Geophysical Union<br>
-                    American Meteorological Society<br>  
-                    American Society for Cell Biology<br>
-                    Association for Psychological Science<br>
-                    Association for Research in Personality<br>
-                    Association of Research Libraries<br>  
-                    Astrophysics Source Code Library<br>  
-                    Authorea<br>
-                    Behavioral Science & Policy Association<br>
-                    Berkeley Initiative for Transparency in the Social Sciences<br>
-                    Bio, Tech and Beyond<br>
-                    Busara Center for Economics<br>
-                    Carnegie Mellon University<br>
-                    Center for Open Science<br>
-                    Databrary<br>
-                    DataONE<br> 
-                    Dataverse<br>
-                    Dryad<br>
-                    EGAP<br>
-                    F1000<br>
-                    figshare<br>
-                    Frontiers<br>
-                    Global Biological Standards Institute<br>
-                    Innovations for Poverty Action<br>
-                    Institution for Social and Policy Studies (ISPS)<br>
-                    International Association for Relationship Research<br>  
-                    Interuniversity Consortium for Political and Social Research (ICPSR)<br>  
-                    Laura and John Arnold Foundation<br>
-                    Mozilla Science Lab<br>
-                    The Open Atmospheric Society<br>  
-                    Open Context<br>
-                    Open fMRI<br>
-                    Open Therapeutics / Microbial Robotics, LLC<br>
-                    Paperity<br>
-                    Prometheus Research<br>
-                    Public Library of Science (PLOS)<br>
-                    Riffyn<br>
-                    rOpenSci<br>
-                    Software Sustainability Institute<br>
-                    Society for a Science of Clinical Psychology<br>
-                    Society of Australasian Social Psychologists<br>
-                    SPARC<br>
-                    Sunlight Foundation<br>
-                    Time-series Experiments in Social Sciences<br>
-                    Ubiquity Press<br></p>
-
+                    <div class="tab-content">
+                        <div id="journals" class="tab-pane fade in active">
+                                <table data-toggle="table" data-url="/static/topjournals.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true">
+                                    <thead>
+                                        <tr>
+                                            <th data-field="Journal Title" data-sortable="true" class="col-md-4">Journal Title</th>
+                                            <th data-field="Publisher" data-sortable="true" class="col-md-2">Publisher</th>
+                                            <th data-field="Association" data-sortable="true" class="col-md-2">Society/Association Affiliation</th>
+                                            <th data-field="Subject Area" data-sortable="true" class="col-md-2">Subject Area</th>
+                                        </tr>
+                                    </thead>
+                                </table>   
+                        </div>
+                        <div id="Organizations" class="tab-pane fade">
+                                <table data-toggle="table" data-url="/static/toporgs.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true">
+                                    <thead>
+                                        <tr>
+                                            <th data-field="Organization" data-sortable="true">Organization</th>
+                                        </tr>
+                                    </thead>
+                                </table>   
+                        </div>
+                    </div>  
+   
                 <hr>
                 <h1><strong>Related Efforts</strong></h1>
                     <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org"><em>Science</em> Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.  TOP Guidelines are one of a family of efforts aiming to increase openness, integrity, and reproducibility of scientific research.  Explore and join these related efforts:</p>
