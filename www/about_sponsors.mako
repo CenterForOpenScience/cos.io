@@ -419,6 +419,12 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" id="runscope"><a href="http://www.runscope.com/"><img src="/static/img/icons/runscope.png"></a></td>
+                                                    <td><span class="med-font"><strong>Runscope</strong></span><br>Monthly credit for use of API<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center"><a href="http://www.salesforce.com/desk/overview/"><img src="/static/img/icons/salesforce-desk.png"></a></td>
                                                     <td><span class="med-font"><strong>Salesforce</strong></span><br>Non-profit discount for <a href="http://www.desk.com/">desk.com</a> through the Salesforce.com Foundation's <a href="http://www.salesforcefoundation.org/power-of-us/">Power of Us program</a><br>
                                                     </td>
