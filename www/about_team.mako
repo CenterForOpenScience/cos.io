@@ -305,7 +305,7 @@
             <img src="../static/img/people/pattison.jpg" alt="Dawn Pattison">
             <h3>
                 Dawn Pattison
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/pattisdr" data-original-title="GitHub" class="github"></a></li>
@@ -717,7 +717,7 @@
             <img src="../static/img/people/welcher.jpg" alt="Natasha Richter">
             <h3>
                 Natasha Welcher
-                <small>QA Intern | Infrastructure</small>
+                <small>QA Software Quality Engineer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
