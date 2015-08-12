@@ -2,2536 +2,3049 @@
   {
     "Journal Title":"Acta Psychologica",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Addiction",
-    "Publisher":"Society for the Study of Addiction",
-    "Association":"Society for the Study of Addiction"
+    "Publisher":"Wiley",
+    "Association":"Society for the Study of Addiction",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"American Journal of Community Psychology",
     "Publisher":"Springer",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"American Journal of Political Science",
     "Publisher":"Wiley",
-    "Association":"Midwest Political Science Association"
+    "Association":"Midwest Political Science Association",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Arteriosclerosis, Thrombosis, and Vascular Biology",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Asian Journal of Social Psychology",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Autism Research",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Behavioral Science & Policy",
     "Publisher":"Behavioral Science & Policy Association and the Brookings Institution Press",
-    "Association":"Behavioral Science & Policy Association and the Brookings Institution Press"
+    "Association":"Behavioral Science & Policy Association and the Brookings Institution Press",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Bulletin of the American Meteorological Society",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
-    "Journal Title":"CBE—Life Sciences Education",
+    "Journal Title":"CBE-Life Sciences Education",
     "Publisher":"American Society for Cell Biology",
-    "Association":"American Society for Cell Biology"
+    "Association":"American Society for Cell Biology",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Social Sciences"
   },
   {
     "Journal Title":"Circulation",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Circulation Research",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Circulation: Arrhythmia and Electrophysiology",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Circulation: Cardiovascular Genetics",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Circulation: Cardiovascular Imaging",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Circulation: Cardiovascular Interventions",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Circulation: Cardiovascular Quality and Outcomes",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Circulation: Heart Failure",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Clincal Psychological Science",
-    "Publisher":"American Psychological Society",
-    "Association":"American Psychological Society"
+    "Publisher":"Sage",
+    "Association":"Association for Psychological Science",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Cognition and Emotion",
     "Publisher":"Taylor and Francis",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities | Psychology"
   },
   {
     "Journal Title":"Collabra",
     "Publisher":"University of California Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary"
   },
   {
     "Journal Title":"Comprehensive Results in Social Psychology",
     "Publisher":"Society of Australasian Social Psychologists & European Association of Social Psychology",
-    "Association":"Society of Australasian Social Psychologists & European Association of Social Psychology"
+    "Association":"Society of Australasian Social Psychologists & European Association of Social Psychology",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Cortex",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities | Medicine | Neuroscience | Psychology"
   },
   {
     "Journal Title":"Developmental Psychobiology",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Neuroscience | Psychology"
   },
   {
     "Journal Title":"Developmental Science",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience | Psychology"
   },
   {
     "Journal Title":"Earth and Space Science",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Earth Interactions",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Earth's Future",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"European Journal of Personality",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"European Political Science",
     "Publisher":"Palgrave McMillan",
-    "Association":"European Consortium for Political Research."
+    "Association":"European Consortium for Political Research.",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"European Union Politics",
     "Publisher":"Sage",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Evolution and Human Behavior",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Arts and Humanities | Psychology"
   },
   {
     "Journal Title":"Experimental Psychology",
     "Publisher":"Hogrefe",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities | Psychology"
   },
   {
     "Journal Title":"F1000Research",
     "Publisher":"F1000",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Immunology and Microbiology | Medicine | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Geochemistry, Geophysics, Geosystems",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Geophysical Research Letters",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Global Biogeochemical Cycles",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences | Environmental Science"
   },
   {
     "Journal Title":"Hippocampus",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Human Performance",
     "Publisher":"Taylor and Francis",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Business, Management and Accounting | Psychology"
   },
   {
     "Journal Title":"Hypertension",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Instructional Science",
     "Publisher":"Springer",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology | Social Sciences"
   },
   {
     "Journal Title":"International Interactions",
     "Publisher":"Taylor and Francis",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"International Journal of Human-Computer Studies (IJHCS)",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary "
   },
   {
     "Journal Title":"International Journal of Selection and Assessment",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Business, Management and Accounting | Psychology"
   },
   {
     "Journal Title":"Italian Political Science Review",
     "Publisher":"Cambridge University Press",
-    "Association":"Italian Political Science Asssociation"
+    "Association":"Italian Political Science Asssociation",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Journal of Adolescence",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Psychology"
   },
   {
     "Journal Title":"Journal of Advances in Modeling Earth Systems (JAMES)",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences | Environmental Science"
   },
   {
     "Journal Title":"Journal of Applied Meteorology and Climatology",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Journal of Atmospheric and Oceanic Technology",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences | Engineering"
   },
   {
     "Journal Title":"Journal of Business and Psychology",
     "Publisher":"Springer",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Business, Management and Accounting | Psychology"
   },
   {
     "Journal Title":"Journal of Cell Biology",
     "Publisher":"Rockerfeller University Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Journal of Climate",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Journal of Conflict Resolution",
     "Publisher":"Sage",
-    "Association":"The Peace Science Society"
+    "Association":"The Peace Science Society",
+    "Subject Area":"Business, Management and Accounting | Social Sciences"
   },
   {
     "Journal Title":"Journal of Consumer Psychology",
     "Publisher":"Elsevier",
-    "Association":"Society for Consumer Psychology, Division 23 of the American Psychological Association"
+    "Association":"Society for Consumer Psychology, Division 23 of the American Psychological Association",
+    "Subject Area":"Business, Management and Accounting | Psychology"
   },
   {
     "Journal Title":"Journal of Consumer Research",
     "Publisher":"Oxford University Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities | Economics, Econometrics and Finance | Business, Management and Accounting | Social Sciences"
   },
   {
     "Journal Title":"Journal of Experimental Social Psychology",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology | Social Sciences"
   },
   {
     "Journal Title":"Journal of Geophysical Research: Atmospheres",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Environmental Science | Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Journal of Geophysical Research: Biogeosciences",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Environmental Science | Earth and Planetary Sciences | Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Journal of Geophysical Research: Earth Surface",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Environmental Science | Earth and Planetary Sciences | Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Journal of Geophysical Research: Oceans",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Environmental Science | Earth and Planetary Sciences | Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Journal of Geophysical Research: Planets",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Environmental Science | Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Journal of Geophysical Research: Solid Earth",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Environmental Science | Earth and Planetary Sciences | Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Journal of Geophysical Research: Space Physics",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Environmental Science | Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Journal of Hydrometeorology",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Journal of Media Psychology",
     "Publisher":"Hogrefe",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology | Social Sciences"
   },
   {
     "Journal Title":"Journal of Memory and Language",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences | Psychology | Arts and Humanities | Computer Science"
   },
   {
     "Journal Title":"Journal of Organizational Behavior",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Business, Management and Accounting | Psychology | Social Sciences"
   },
   {
     "Journal Title":"Journal of Physical Oceanography",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Journal of Research in Personality",
     "Publisher":"Elsevier",
-    "Association":" Association for Research in Personality"
+    "Association":" Association for Research in Personality",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Journal of Social and Personal Relationships",
     "Publisher":"Sage",
-    "Association":"International Association for Relationship Research"
+    "Association":"International Association for Relationship Research",
+    "Subject Area":"Psychology | Social Sciences"
   },
   {
     "Journal Title":"Journal of the American Heart Association",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of the Atmospheric Sciences",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Judgment and Decision Making",
     "Publisher":"Society for Judgement and Decision Making and European Association for Decision Making",
-    "Association":"Society for Judgement and Decision Making and European Association for Decision Making"
+    "Association":"Society for Judgement and Decision Making and European Association for Decision Making",
+    "Subject Area":"Decision Sciences | Economics, Econometrics and Finance | Psychology"
   },
   {
     "Journal Title":"Language Learning",
     "Publisher":"Wiley",
-    "Association":"Language Learning Research Club, University of Michigan"
+    "Association":"Language Learning Research Club, University of Michigan",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Meteorological Monographs",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Molecular Biology of the Cell",
     "Publisher":"American Society for Cell Biology",
-    "Association":"American Society for Cell Biology"
+    "Association":"American Society for Cell Biology",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Monthly Weather Review",
     "Publisher":"American Meteorological Society",
-    "Association":"American Meteorological Society"
+    "Association":"American Meteorological Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Neurology®",
     "Publisher":"American Academy of Neurology",
-    "Association":"American Academy of Neurology"
+    "Association":"American Academy of Neurology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Neurology®: Clinical Practice",
     "Publisher":"American Academy of Neurology",
-    "Association":"American Academy of Neurology"
+    "Association":"American Academy of Neurology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Neurology®: Genetics",
     "Publisher":"American Academy of Neurology",
-    "Association":"American Academy of Neurology"
+    "Association":"American Academy of Neurology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Neurology®: Neuroimmunology & Neuroinflammation",
     "Publisher":"American Academy of Neurology",
-    "Association":"American Academy of Neurology"
+    "Association":"American Academy of Neurology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Nicotine and Tobacco Research",
     "Publisher":"Oxford University Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Organizational Behavior and Human Decision Processes",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Business, Management and Accounting | Psychology"
   },
   {
     "Journal Title":"Organizational Research Methods",
     "Publisher":"Sage",
-    "Association":"The Academy of Management"
+    "Association":"The Academy of Management",
+    "Subject Area":"Business, Management and Accounting | Decision Sciences"
   },
   {
     "Journal Title":"Paleoceanography",
     "Publisher":"American Geophysical Union",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Palgrave Communications",
     "Publisher":"Palgrave McMillan",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary "
   },
   {
     "Journal Title":"Party Politics",
     "Publisher":"Sage",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"PeerJ",
     "Publisher":"PeerJ",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Medicine | Neuroscience"
   },
   {
     "Journal Title":"Personal Relationships",
     "Publisher":"Wiley",
-    "Association":"International Association for Relationship Research"
+    "Association":"International Association for Relationship Research",
+    "Subject Area":"Psychology | Social Sciences"
   },
   {
     "Journal Title":"Perspectives on Psychological Science",
     "Publisher":"Sage",
-    "Association":"Association for Psychological Science"
+    "Association":"Association for Psychological Science",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"PLoS Biology",
     "Publisher":"Public Library of Science (PLOS)",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Immunology and Microbiology| Neuroscience"
   },
   {
     "Journal Title":"PLoS Computational Biology",
     "Publisher":"Public Library of Science (PLOS)",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Environmental Science | Mathematics | Agricultural and Biological Sciences | Computer Science | Neuroscience"
   },
   {
     "Journal Title":"PLoS Medicine",
     "Publisher":"Public Library of Science (PLOS)",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"PLoS ONE",
     "Publisher":"Public Library of Science (PLOS)",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Political Behavior",
     "Publisher":"Springer",
-    "Association":"American Political Science Association"
+    "Association":"American Political Science Association",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Political Science Research and Methods",
     "Publisher":"Cambridge University Press",
-    "Association":"European Political Science Association"
+    "Association":"European Political Science Association",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Psychological Science",
     "Publisher":"Sage",
-    "Association":"Association for Psychological Science"
+    "Association":"Association for Psychological Science",
+    "Subject Area":"Arts and Humanities | Psychology"
   },
   {
     "Journal Title":"Psychology of Sport and Exercise",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology | Health Professions"
   },
   {
     "Journal Title":"Quarterly Journal of Political Science",
     "Publisher":"Now Publishers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Radio Science",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences | Engineering | Physics and Astronomy"
   },
   {
     "Journal Title":"Research and Politics",
     "Publisher":"Sage",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Reviews of Geophysics",
     "Publisher":"American Geophysical Union",
-    "Association":"American Geophysical Union"
+    "Association":"American Geophysical Union",
+    "Subject Area":"Earth and Planetary Sciences | Engineering | Physics and Astronomy"
   },
   {
     "Journal Title":"Science ",
     "Publisher":"AAAS",
-    "Association":"AAAS"
+    "Association":"AAAS",
+    "Subject Area":"Multidisciplinary| Arts and Humanities"
   },
   {
     "Journal Title":"Science Advances",
     "Publisher":"AAAS",
-    "Association":"AAAS"
+    "Association":"AAAS",
+    "Subject Area":"Multidisciplinary| Arts and Humanities"
   },
   {
     "Journal Title":"Science Signalling",
     "Publisher":"AAAS",
-    "Association":"AAAS"
+    "Association":"AAAS",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Science Translational Medicine",
     "Publisher":"AAAS",
-    "Association":"AAAS"
+    "Association":"AAAS",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Social Cognition\n",
     "Publisher":"Guilford Press",
-    "Association":"International Social Cognition Network"
+    "Association":"International Social Cognition Network",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Social Psychology ",
     "Publisher":"Hogrefe",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities | Psychology | Social Sciences"
   },
   {
     "Journal Title":"Sociological Methods and Research",
     "Publisher":"Sage",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Sociological Science",
     "Publisher":"Society for Sociological Science",
-    "Association":"Society for Sociological Science"
+    "Association":"Society for Sociological Science",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Space Weather",
     "Publisher":"American Geophysical Union ",
-    "Association":"American Geophysical Union "
+    "Association":"American Geophysical Union ",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"State Politics and Policy Quarterly",
     "Publisher":"Sage",
-    "Association":"American Political Science Association"
+    "Association":"American Political Science Association",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Stress and Health",
     "Publisher":"Wiley",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Psychology"
   },
   {
     "Journal Title":"Stroke",
     "Publisher":"American Heart Association",
-    "Association":"American Heart Association"
+    "Association":"American Heart Association",
+    "Subject Area":"Medicine | Neuroscience | Nursing"
   },
   {
     "Journal Title":"Tectonics",
     "Publisher":"American Geophysical Union ",
-    "Association":"American Geophysical Union "
+    "Association":"American Geophysical Union ",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Water Resources Research",
     "Publisher":"American Geophysical Union ",
-    "Association":"American Geophysical Union "
+    "Association":"American Geophysical Union ",
+    "Subject Area":"Environmental Science"
   },
   {
     "Journal Title":"Weather and Forecasting",
     "Publisher":"American Meteorlogical Society",
-    "Association":"American Meteorlogical Society"
+    "Association":"American Meteorlogical Society",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Weather, Climate, and Society",
     "Publisher":"American Meteorlogical Society",
-    "Association":"American Meteorlogical Society"
+    "Association":"American Meteorlogical Society",
+    "Subject Area":"Earth and Planetary Sciences | Environmental Science | Social Sciences"
   },
   {
     "Journal Title":"Work, Aging and Retirement",
     "Publisher":"Oxford University Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Business, Management and Accounting | Psychology | Social Sciences"
   },
   {
     "Journal Title":"Journal of Mathematical Psychology",
     "Publisher":"Elsevier",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Mathematics | Psychology"
   },
   {
     "Journal Title":"Frontiers in Aging Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Applied Mathematics and Statistics",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Mathematics"
   },
   {
     "Journal Title":"Frontiers in Astronomy and Space Sciences",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Earth and Planetary Sciences"
   },
   {
     "Journal Title":"Frontiers in Behavioral Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience | Psychology"
   },
   {
     "Journal Title":"Frontiers in Bioengineering and Biotechnology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Engineering | "
   },
   {
     "Journal Title":"Frontiers in Built Environment",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Engineering"
   },
   {
     "Journal Title":"Frontiers in Cardiovascular Medicine",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Frontiers in Cell and Developmental Biology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Frontiers in Cellular and Infection Microbiology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Frontiers in Cellular Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Chemistry",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Chemistry"
   },
   {
     "Journal Title":"Frontiers in Computational Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Digital Humanities",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities"
   },
   {
     "Journal Title":"Frontiers in Earth Science",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Earth and Planetary Science"
   },
   {
     "Journal Title":"Frontiers in Ecology and Evolution",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science"
   },
   {
     "Journal Title":"Frontiers in Endocrinology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Frontiers in Energy Research",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Energy"
   },
   {
     "Journal Title":"Frontiers in Environmental Science",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Environmental Science"
   },
   {
     "Journal Title":"Frontiers in Genetics",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Frontiers in Human Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in ICT",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science"
   },
   {
     "Journal Title":"Frontiers in Immunology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Frontiers in Integrative Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Marine Science",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science"
   },
   {
     "Journal Title":"Frontiers in Materials",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Engineering"
   },
   {
     "Journal Title":"Frontiers in Mechanical Engineering",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Engineering"
   },
   {
     "Journal Title":"Frontiers in Medicine",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Frontiers in Microbiology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology"
   },
   {
     "Journal Title":"Frontiers in Molecular Biosciences",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Frontiers in Molecular Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Neural Circuits",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Neuroanatomy",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Neuroinformatics",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Engineering | Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Neurology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Neurorobotics",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Engineering"
   },
   {
     "Journal Title":"Frontiers in Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Nutrition",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Nursing | Health Professions"
   },
   {
     "Journal Title":"Frontiers in Oncology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Frontiers in Pediatrics",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Frontiers in Pharmacology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Frontiers in Physics",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Physics and Astronomy"
   },
   {
     "Journal Title":"Frontiers in Physiology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Frontiers in Plant Science",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Frontiers in Psychiatry",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Frontiers in Psychology",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Frontiers in Public Health",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Frontiers in Robotics and AI",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary"
   },
   {
     "Journal Title":"Frontiers in Surgery",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Frontiers in Synaptic Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Systems Neuroscience",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Veterinary Science",
     "Publisher":"Frontiers",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Veterinary"
   },
   {
     "Journal Title":"Ancient Asia",
     "Publisher":"Ubiquity Press",
-    "Association":"Society of South Asian Archaeology"
+    "Association":"Society of South Asian Archaeology",
+    "Subject Area":"Arts and Humanities"
   },
   {
     "Journal Title":"Archaeology International",
     "Publisher":"Ubiquity Press",
-    "Association":"University College London Institute of Archaeology"
+    "Association":"University College London Institute of Archaeology",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Architectural Histories",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities"
   },
   {
     "Journal Title":"Bulletin of the History of Archaeology",
     "Publisher":"Ubiquity Press",
-    "Association":"University College London Institute of Archaeology"
+    "Association":"University College London Institute of Archaeology",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Citizen Science: Theory and Practice",
     "Publisher":"Ubiquity Press",
-    "Association":"Citizen Science Association"
+    "Association":"Citizen Science Association",
+    "Subject Area":"Multidisciplinary"
   },
   {
     "Journal Title":"The Comics Grid: Journal of Comics Scholarship",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities"
   },
   {
     "Journal Title":"Data Science Journal",
     "Publisher":"Ubiquity Press",
-    "Association":"International Council for Science : Committee on Data for Science and Technology"
+    "Association":"International Council for Science : Committee on Data for Science and Technology",
+    "Subject Area":"Multidisciplinary "
   },
   {
     "Journal Title":"Glocality",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary "
   },
   {
     "Journal Title":"Governance in Africa",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Insights",
     "Publisher":"Ubiquity Press",
-    "Association":"United Kingdom Serials Group"
+    "Association":"United Kingdom Serials Group",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Journal of the Belgian Society of Radiology",
     "Publisher":"Ubiquity Press",
-    "Association":"Belgian Society of Radiology"
+    "Association":"Belgian Society of Radiology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Interactive Media in Education",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities"
   },
   {
     "Journal Title":"Journal of Circadian Rythms",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science"
   },
   {
     "Journal Title":"Journal of Conservation and Museum Studies",
     "Publisher":"Ubiquity Press",
-    "Association":"University College London Institute of Archaeology"
+    "Association":"University College London Institute of Archaeology",
+    "Subject Area":"Arts and Humanities"
   },
   {
     "Journal Title":"Journal of European Psychology Students",
     "Publisher":"Ubiquity Press",
-    "Association":"European Federation of Psychology Students' Association"
+    "Association":"European Federation of Psychology Students' Association",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Journal of Open Archaeology Data",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Journal of Open Psychology Data",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Journal of Open Research Software",
     "Publisher":"Ubiquity Press",
-    "Association":"Software Sustainability Institute"
+    "Association":"Software Sustainability Institute",
+    "Subject Area":"Multidisciplinary"
   },
   {
     "Journal Title":"Journal of Molecular Signaling",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Journal of Molecular Signaling"
   },
   {
     "Journal Title":"Open Health Data",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Open Journal of Bioresources",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Open Quaternary",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary "
   },
   {
     "Journal Title":"Opticon1826",
     "Publisher":"Ubiquity Press",
-    "Association":"University College London"
+    "Association":"University College London",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Papers from the Institute of Archaeology",
     "Publisher":"Ubiquity Press",
-    "Association":"University College London Institute of Archaeology"
+    "Association":"University College London Institute of Archaeology",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Present Pasts",
     "Publisher":"Ubiquity Press",
-    "Association":"University College London Institute of Archaeology"
+    "Association":"University College London Institute of Archaeology",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Psychologica Belgica",
     "Publisher":"Ubiquity Press",
-    "Association":"Belgian Association for Psychological Science"
+    "Association":"Belgian Association for Psychological Science",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"Secularism and Nonreligion",
     "Publisher":"Ubiquity Press",
-    "Association":"Nonreligion and Secularity Research Network"
+    "Association":"Nonreligion and Secularity Research Network",
+    "Subject Area":"Arts and Humanities | Social Sciences"
   },
   {
     "Journal Title":"Stability: International Journal of Security and Development",
     "Publisher":"Ubiquity Press",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Utrecht Journal of International and European Law",
     "Publisher":"Ubiquity Press",
-    "Association":"Urios, the Utrecht Association for International and European Law"
+    "Association":"Urios, the Utrecht Association for International and European Law",
+    "Subject Area":"Social Sciences"
   },
   {
     "Journal Title":"Acta Neuropathologica Communications",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Acta Veterinaria Scandinavica",
     "Publisher":"BioMed Central",
-    "Association":"Veterinary Associations of the Nordic Countries"
+    "Association":"Veterinary Associations of the Nordic Countries",
+    "Subject Area":"Veterinary"
   },
   {
     "Journal Title":"Addiction Science & Clinical Practice",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Advances in Simulation",
     "Publisher":"BioMed Central",
-    "Association":"Society in Europe for Simulation Applied to Medicine"
+    "Association":"Society in Europe for Simulation Applied to Medicine",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Agriculture & Food Security",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"AIDS Research and Therapy",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Algorithms for Molecular Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Computer Science | Mathematics"
   },
   {
     "Journal Title":"Allergy, Asthma & Clinical Immunology",
     "Publisher":"BioMed Central",
-    "Association":"Canadian Society of Allergy and Clinical Immunology"
+    "Association":"Canadian Society of Allergy and Clinical Immunology",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Alzheimer's Research & Therapy",
     "Publisher":"BioMed Central",
-    "Association":"Alzheimer's Disease International"
+    "Association":"Alzheimer's Disease International",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Animal Biotelemetry",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Annals of Clinical Microbiology and Antimicrobials",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Annals of General Psychiatry",
     "Publisher":"BioMed Central",
-    "Association":"International Society of Neurobiology and Psychopharmacology"
+    "Association":"International Society of Neurobiology and Psychopharmacology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Annals of Occupational and Environmental Medicine",
     "Publisher":"BioMed Central",
-    "Association":" Korean Society of Occupational and Environmental Medicine"
+    "Association":" Korean Society of Occupational and Environmental Medicine",
+    "Subject Area":"Medicine | Health Professions"
   },
   {
     "Journal Title":"Annals of Surgical Innovation and Research",
     "Publisher":"BioMed Central",
-    "Association":"International Club of Young Laparoscopic Surgeons and Ibero-American Society of Innovation in Endoscopic Surgery (AIICE)."
+    "Association":"International Club of Young Laparoscopic Surgeons and Ibero-American Society of Innovation in Endoscopic Surgery (AIICE).",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Antimicrobial Resistance and Infection Control",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology"
   },
   {
     "Journal Title":"Aquatic Biosystems",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science"
   },
   {
     "Journal Title":"Archives of Physiotherapy",
     "Publisher":"BioMed Central",
-    "Association":"The Italian Society of Physiotherapy (Società Italiana di Fisioterapia, S.I.F.) and The University of Applied Sciences and Arts of Southern Switzerland"
+    "Association":"The Italian Society of Physiotherapy (Società Italiana di Fisioterapia, S.I.F.) and The University of Applied Sciences and Arts of Southern Switzerland",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Archives of Public Health",
     "Publisher":"BioMed Central",
-    "Association":"Belgian Public Health Association"
+    "Association":"Belgian Public Health Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Arthritis Research & Therapy",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Asia Pacific Family Medicine",
     "Publisher":"BioMed Central",
-    "Association":"WONCA Asia Pacific"
+    "Association":"WONCA Asia Pacific",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Asthma Research and Practice",
     "Publisher":"BioMed Central",
-    "Association":"Interasma - Global Asthma Association"
+    "Association":"Interasma - Global Asthma Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Avian Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Basic and Clinical Andrology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Behavioral and Brain Functions",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Big Data Analytics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Mathematics "
   },
   {
     "Journal Title":"BioData Mining",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Mathematics | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Biological Procedures Online",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Biological Research",
     "Publisher":"BioMed Central",
-    "Association":" Chilean Biology Society"
+    "Association":" Chilean Biology Society",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Biology Direct",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Mathematics | Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Biology of Mood & Anxiety Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Medicine | Neuroscience"
   },
   {
     "Journal Title":"Biology of Sex Differences",
     "Publisher":"BioMed Central",
-    "Association":"Organization for the Study of Sex Differences and Society for Women's Health Research"
+    "Association":"Organization for the Study of Sex Differences and Society for Women's Health Research",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Social Sciences"
   },
   {
     "Journal Title":"Biomarker Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Biomaterials Research",
     "Publisher":"BioMed Central",
-    "Association":"Korean Society for BioMaterials"
+    "Association":"Korean Society for BioMaterials",
+    "Subject Area":"Engineering | Medicine"
   },
   {
     "Journal Title":"BioMedical Engineering OnLine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Engineering | Materials Science | Medicine | Health Professions"
   },
   {
     "Journal Title":"BioPsychoSocial Medicine",
     "Publisher":"BioMed Central",
-    "Association":"Japanese Society of Psychosomatic Medicine"
+    "Association":"Japanese Society of Psychosomatic Medicine",
+    "Subject Area":"Medicine | Neuroscience | Psychology"
   },
   {
     "Journal Title":"Biotechnology for Biofuels",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Energy | Environmental Science | Immunology and Microbiology"
   },
   {
     "Journal Title":"BMC Anesthesiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Biochemistry",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Bioinformatics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Mathematics | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Biophysics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Biotechnology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Cancer",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"BMC Cardiovascular Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Cell Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Clinical Pathology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Complementary and Alternative Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Dermatology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Developmental Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Ear, Nose and Throat Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Ecology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science"
   },
   {
     "Journal Title":"BMC Emergency Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Endocrine Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Evolutionary Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"BMC Family Practice",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Gastroenterology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Genetics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"BMC Genomics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Geriatrics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Health Services Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Hematology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Immunology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology"
   },
   {
     "Journal Title":"BMC Infectious Diseases",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC International Health and Human Rights",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Medical Education",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Medical Ethics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Nursing | Social Sciences"
   },
   {
     "Journal Title":"BMC Medical Genetics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"BMC Medical Genomics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"BMC Medical Imaging",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Medical Informatics and Decision Making",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Medical Research Methodology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Microbiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"BMC Molecular Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Musculoskeletal Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Nephrology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Neurology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Neuroscience",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"BMC Nursing",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Nursing"
   },
   {
     "Journal Title":"BMC Nutrition",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Nursing"
   },
   {
     "Journal Title":"BMC Obesity",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Ophthalmology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Oral Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Dentistry"
   },
   {
     "Journal Title":"BMC Palliative Care",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Pediatrics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Pharmacology and Toxicology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"BMC Physiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"BMC Plant Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"BMC Pregnancy & Childbirth",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Proceedings",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"BMC Psychiatry",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Psychology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Psychology"
   },
   {
     "Journal Title":"BMC Public Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Pulmonary Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Research Notes",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"BMC Sports Science, Medicine and Rehabilitation",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Structural Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"BMC Surgery",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Systems Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Biochemistry, Genetics and Molecular Biology | Mathematics"
   },
   {
     "Journal Title":"BMC Urology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"BMC Veterinary Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Veterinary"
   },
   {
     "Journal Title":"BMC Women's Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Borderline Personality Disorder and Emotion Dysregulation",
     "Publisher":"BioMed Central",
-    "Association":"National Education Alliance for Borderline Personality Disorder and Dachverband Dialektisch Behaviorale Therapie"
+    "Association":"National Education Alliance for Borderline Personality Disorder and Dachverband Dialektisch Behaviorale Therapie",
+    "Subject Area":"Psychology | Medicine"
   },
   {
     "Journal Title":"Breast Cancer Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Burns & Trauma",
     "Publisher":"BioMed Central",
-    "Association":"Chinese Burn Association and the Chinese Burn Care and Rehabilitation Association"
+    "Association":"Chinese Burn Association and the Chinese Burn Care and Rehabilitation Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Canadian Journal of Kidney Health and Disease",
     "Publisher":"BioMed Central",
-    "Association":"Canadian Society of Nephrology"
+    "Association":"Canadian Society of Nephrology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cancer & Metabolism",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cancer Cell International",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Cancer Imaging",
     "Publisher":"BioMed Central",
-    "Association":"International Cancer Imaging Society"
+    "Association":"International Cancer Imaging Society",
+    "Subject Area":"Medicine | Health Professions"
   },
   {
     "Journal Title":"Canine Genetics and Epidemiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cardio-Oncology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cardiovascular Diabetology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cardiovascular Ultrasound",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cell & Bioscience",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Cell Communication and Signaling",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Cell Division",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Cell Regeneration",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Cerebellum & Ataxias",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Child and Adolescent Psychiatry and Mental Health",
     "Publisher":"BioMed Central",
-    "Association":"International Association for Child and Adolescent Psychiatry and Allied Professions"
+    "Association":"International Association for Child and Adolescent Psychiatry and Allied Professions",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Chinese Journal of Cancer",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Chinese Medicine",
     "Publisher":"BioMed Central",
-    "Association":"International Society for Chinese Medicine"
+    "Association":"International Society for Chinese Medicine",
+    "Subject Area":"Medicine | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Chinese Neurosurgical Journal",
     "Publisher":"BioMed Central",
-    "Association":"Chinese Neurosurgical Society"
+    "Association":"Chinese Neurosurgical Society",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Chiropractic & Manual Therapies",
     "Publisher":"BioMed Central",
-    "Association":"European Academy of Chiropractic (EAC), The Royal College of Chiropractors, the Nordic Institute of Chiropractic and Clinical Biomechanics, and the Chiropractic & Osteopathic College of Australasia"
+    "Association":"European Academy of Chiropractic (EAC), The Royal College of Chiropractors, the Nordic Institute of Chiropractic and Clinical Biomechanics, and the Chiropractic & Osteopathic College of Australasia",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cilia",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Climate Change Responses",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Earth and Planetary Sciences | Environmental Science"
   },
   {
     "Journal Title":"Clinical and Molecular Allergy",
     "Publisher":"BioMed Central",
-    "Association":"Italian Society of Allergology, Asthma and Clinical Immunology"
+    "Association":"Italian Society of Allergology, Asthma and Clinical Immunology",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Clinical and Translational Allergy",
     "Publisher":"BioMed Central",
-    "Association":"European Academy of Allergy and Clinical Immunology"
+    "Association":"European Academy of Allergy and Clinical Immunology",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Clinical Diabetes and Endocrinology",
     "Publisher":"BioMed Central",
-    "Association":"University of Michigan"
+    "Association":"University of Michigan",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Clinical Epigenetics",
     "Publisher":"BioMed Central",
-    "Association":"Clinical Epigenetics Society"
+    "Association":"Clinical Epigenetics Society",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Clinical Hypertension",
     "Publisher":"BioMed Central",
-    "Association":"Korean Society of Hypertension"
+    "Association":"Korean Society of Hypertension",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Clinical Proteomics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Clinical Sarcoma Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Conflict and Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Social Sciences"
   },
   {
     "Journal Title":"Contraception and Reproductive Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine "
   },
   {
     "Journal Title":"COPD Research and Practice",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Cost Effectiveness and Resource Allocation",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Critical Care",
     "Publisher":"BioMed Central",
-    "Association":"International Symposium on Intensive Care and Emergency Medicine"
+    "Association":"International Symposium on Intensive Care and Emergency Medicine",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"DARU Journal of Pharmaceutical Sciences",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Diabetology & Metabolic Syndrome",
     "Publisher":"BioMed Central",
-    "Association":"Brazilian Diabetes Society"
+    "Association":"Brazilian Diabetes Society",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Diagnostic Pathology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Disaster and Military Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Emerging Themes in Epidemiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Environmental Evidence",
     "Publisher":"BioMed Central",
-    "Association":"Collaboration for Environmental Evidence"
+    "Association":"Collaboration for Environmental Evidence",
+    "Subject Area":"Earth and Planetary Sciences | Environmental Science"
   },
   {
     "Journal Title":"Environmental Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Environmental Science | Medicine"
   },
   {
     "Journal Title":"Epigenetics & Chromatin",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"EPMA Journal",
     "Publisher":"BioMed Central",
-    "Association":"European Association for Predictive, Preventive and Personalized Medicine"
+    "Association":"European Association for Predictive, Preventive and Personalized Medicine",
+    "Subject Area":"Medicine | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"European Journal of Medical Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"European Review of Aging and Physical Activity",
     "Publisher":"BioMed Central",
-    "Association":"European Group for Research into Elderly and Physical Activity"
+    "Association":"European Group for Research into Elderly and Physical Activity",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"EvoDevo",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Experimental & Translational Stroke Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Experimental Hematology & Oncology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Extreme Physiology & Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Eye and Vision",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Fertility Research and Practice",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Fibrogenesis & Tissue Repair",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Flavour",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Chemistry"
   },
   {
     "Journal Title":"Fluids and Barriers of the CNS",
     "Publisher":"BioMed Central",
-    "Association":"International Brain Barriers Society"
+    "Association":"International Brain Barriers Society",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"Frontiers in Zoology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Fungal Biology and Biotechnology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural Biology and Biological Sciences | Engineering"
   },
   {
     "Journal Title":"Genes and Environment",
     "Publisher":"BioMed Central",
-    "Association":"Japanese Environmental Mutagen Society"
+    "Association":"Japanese Environmental Mutagen Society",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Environmental Science | Psychology"
   },
   {
     "Journal Title":"Genetics Selection Evolution",
     "Publisher":"BioMed Central",
-    "Association":"INRA"
+    "Association":"INRA",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Genome Biology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Genome Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"GigaScience",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary"
   },
   {
     "Journal Title":"Globalization and Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Gut Pathogens",
     "Publisher":"BioMed Central",
-    "Association":"International Society for Genomic and Evolutionary Microbiology"
+    "Association":"International Society for Genomic and Evolutionary Microbiology",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Gynecologic Oncology Research and Practice",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Harm Reduction Journal",
     "Publisher":"BioMed Central",
-    "Association":"Harm Reduction International and the Eurasian Harm Reduction Association"
+    "Association":"Harm Reduction International and the Eurasian Harm Reduction Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Head & Face Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Health and Quality of Life Outcomes",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Health Information Science and Systems",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Health Professions"
   },
   {
     "Journal Title":"Health Research Policy and Systems",
     "Publisher":"BioMed Central",
-    "Association":"World Health Organization"
+    "Association":"World Health Organization",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Hepatology, Medicine and Policy",
     "Publisher":"BioMed Central",
-    "Association":"World Hepatitis Alliance"
+    "Association":"World Hepatitis Alliance",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Hereditary Cancer in Clinical Practice",
     "Publisher":"BioMed Central",
-    "Association":"International Hereditary Cancer Centre and International Union Against Cancer"
+    "Association":"International Hereditary Cancer Centre and International Union Against Cancer",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Hereditas",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Human Genomics",
     "Publisher":"BioMed Central",
-    "Association":"Human Genome Organisation"
+    "Association":"Human Genome Organisation",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Human Resources for Health",
     "Publisher":"BioMed Central",
-    "Association":"World Health Organization"
+    "Association":"World Health Organization",
+    "Subject Area":"Medicine | Social Sciences"
   },
   {
     "Journal Title":"Immunity & Ageing",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Immunology and Microbiology"
   },
   {
     "Journal Title":"Implementation Science",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Infectious Agents and Cancer",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Infectious Diseases of Poverty",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Social Sciences"
   },
   {
     "Journal Title":"International Breastfeeding Journal",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"International Journal for Equity in Health",
     "Publisher":"BioMed Central",
-    "Association":"International Society for Equity in Health"
+    "Association":"International Society for Equity in Health",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"International Journal of Behavioral Nutrition and Physical Activity",
     "Publisher":"BioMed Central",
-    "Association":"The International Society of Behavioral Nutrition and Physical Activity"
+    "Association":"The International Society of Behavioral Nutrition and Physical Activity",
+    "Subject Area":"Medicine | Nursing | Health Professions"
   },
   {
     "Journal Title":"International Journal of Health Geographics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Business, Management and Accounting | Computer Science | Medicine"
   },
   {
     "Journal Title":"International Journal of Mental Health Systems",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Nursing"
   },
   {
     "Journal Title":"International Journal of Pediatric Endocrinology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"International Journal of Retina and Vitreous",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Investigative Genetics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Irish Veterinary Journal",
     "Publisher":"BioMed Central",
-    "Association":"Veterinary Ireland"
+    "Association":"Veterinary Ireland",
+    "Subject Area":"Veterinary"
   },
   {
     "Journal Title":"Israel Journal of Health Policy Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Italian Journal of Pediatrics",
     "Publisher":"BioMed Central",
-    "Association":"Italian Society of Pediatrics"
+    "Association":"Italian Society of Pediatrics",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal for ImmunoTherapy of Cancer",
     "Publisher":"BioMed Central",
-    "Association":"Society for Immunotherapy of Cancer"
+    "Association":"Society for Immunotherapy of Cancer",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Animal Science and Biotechnology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Journal of Animal Science and Technology",
     "Publisher":"BioMed Central",
-    "Association":"Korean Society of Animal Sciences and Technology"
+    "Association":"Korean Society of Animal Sciences and Technology",
+    "Subject Area":"Agricultural and Biological Sciences"
   },
   {
     "Journal Title":"Journal of Biological Engineering",
     "Publisher":"BioMed Central",
-    "Association":"Institute of Biological Engineering"
+    "Association":"Institute of Biological Engineering",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Engineering | Environmental Science"
   },
   {
     "Journal Title":"Journal of Biological Research-Thessaloniki",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Journal of Biomedical Science",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Journal of Biomedical Semantics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Medicine"
   },
   {
     "Journal Title":"Journal of Cardiothoracic Surgery",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Cardiovascular Magnetic Resonance",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Health Professions"
   },
   {
     "Journal Title":"Journal of Clinical Bioinformatics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Clinical Movement Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Compassionate Health Care",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Health Professions"
   },
   {
     "Journal Title":"Journal of Congenital Cardiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Diabetes & Metabolic Disorders",
     "Publisher":"BioMed Central",
-    "Association":"Endocrinology and Metabolism Research Institute at Tehran University of Medical Sciences"
+    "Association":"Endocrinology and Metabolism Research Institute at Tehran University of Medical Sciences",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Eating Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience | Nursing"
   },
   {
     "Journal Title":"Journal of Environmental Health Science and Engineering",
     "Publisher":"BioMed Central",
-    "Association":"Iranian Association of Environmental Health "
+    "Association":"Iranian Association of Environmental Health ",
+    "Subject Area":"Medicine | Environmental Science | Immunology and Microbiology"
   },
   {
     "Journal Title":"Journal of Ethnobiology and Ethnomedicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Medicine | Social Sciences"
   },
   {
     "Journal Title":"Journal of Experimental & Clinical Cancer Research",
     "Publisher":"BioMed Central",
-    "Association":"Regina Elena National Cancer Institute"
+    "Association":"Regina Elena National Cancer Institute",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Journal of Foot and Ankle Research",
     "Publisher":"BioMed Central",
-    "Association":"Australasian Podiatry Council and The College of Podiatry"
+    "Association":"Australasian Podiatry Council and The College of Podiatry",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Health, Population and Nutrition",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science | Medicine"
   },
   {
     "Journal Title":"Journal of Hematology & Oncology",
     "Publisher":"BioMed Central",
-    "Association":"Chinese American Hematologist and Oncologist Network"
+    "Association":"Chinese American Hematologist and Oncologist Network",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Journal of Inflammation",
     "Publisher":"BioMed Central",
-    "Association":"British Inflammation Research Association"
+    "Association":"British Inflammation Research Association",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Journal of Intensive Care",
     "Publisher":"BioMed Central",
-    "Association":"Japanese Society of Intensive Care Medicine"
+    "Association":"Japanese Society of Intensive Care Medicine",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Invasive and Interventional Cardiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Medical Case Reports",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Molecular Psychiatry",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Nanobiotechnology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Pharmacology, Toxicology and Pharmaceutics | Chemical Engineering | Immunology and Microbiology | Materials Science | Biochemistry, Genetics and Molecular Biology | Medicine | Engineering"
   },
   {
     "Journal Title":"Journal of Negative Results in BioMedicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Journal of Neurodevelopmental Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Journal of NeuroEngineering and Rehabilitation",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Neuroinflammation",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Neuroscience"
   },
   {
     "Journal Title":"Journal of Occupational Medicine and Toxicology",
     "Publisher":"BioMed Central",
-    "Association":"European Society for Environmental and Occupational Medicine"
+    "Association":"European Society for Environmental and Occupational Medicine",
+    "Subject Area":"Medicine | Pharmacology, Toxicology and Pharmaceutics | Social Sciences"
   },
   {
     "Journal Title":"Journal of Orthopaedic Surgery and Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Otolaryngology - Head & Neck Surgery",
     "Publisher":"BioMed Central",
-    "Association":"Canadian Society of Otolaryngology-Head and Neck Surgery and the International Society for Maxillofacial Rehabilitation"
+    "Association":"Canadian Society of Otolaryngology-Head and Neck Surgery and the International Society for Maxillofacial Rehabilitation",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Ovarian Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Pharmaceutical Health Care and Sciences",
     "Publisher":"BioMed Central",
-    "Association":"Japanese Society of Pharmaceutical Health Care and Sciences"
+    "Association":"Japanese Society of Pharmaceutical Health Care and Sciences",
+    "Subject Area":"Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Journal of Pharmaceutical Policy and Practice",
     "Publisher":"BioMed Central",
-    "Association":"The University of Auckland and Auckland UniServices Ltd"
+    "Association":"The University of Auckland and Auckland UniServices Ltd",
+    "Subject Area":"Medicine | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Journal of Physiological Anthropology",
     "Publisher":"BioMed Central",
-    "Association":"Japan Society of Physiological Anthropology"
+    "Association":"Japan Society of Physiological Anthropology",
+    "Subject Area":"Social Sciences | Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Journal of the International Society of Sports Nutrition",
     "Publisher":"BioMed Central",
-    "Association":"International Society of Sports Nutrition"
+    "Association":"International Society of Sports Nutrition",
+    "Subject Area":"Agricultural and Biological Sciences | Nursing | Health Professions"
   },
   {
     "Journal Title":"Journal of Therapeutic Ultrasound",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Translational Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Journal of Trauma Management & Outcomes",
     "Publisher":"BioMed Central",
-    "Association":"Association of Chinese Orthopaedic Surgeons"
+    "Association":"Association of Chinese Orthopaedic Surgeons",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Journal of Venomous Animals and Toxins including Tropical Diseases",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Immunology and Microbiology | Medicine | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Kidney Disease and Transplantation",
     "Publisher":"BioMed Central",
-    "Association":"Institute of Kidney Diseases and Research Center and Institute of Transplantation "
+    "Association":"Institute of Kidney Diseases and Research Center and Institute of Transplantation ",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Lipids in Health and Disease",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Malaria Journal",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Maternal Health, Neonatology and Perinatology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Medical Gas Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Microbial Cell Factories",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Chemical Engineering | Immunology and Microbiology"
   },
   {
     "Journal Title":"Microbiome",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology"
   },
   {
     "Journal Title":"Military Medical Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Mobile DNA",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Molecular and Cellular Therapies",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Molecular Autism",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine | Neuroscience"
   },
   {
     "Journal Title":"Molecular Brain",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Neuroscience"
   },
   {
     "Journal Title":"Molecular Cancer",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Molecular Cytogenetics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Molecular Neurodegeneration",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine | Neuroscience"
   },
   {
     "Journal Title":"Molecular Pain",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine | Neuroscience"
   },
   {
     "Journal Title":"Movement Ecology",
     "Publisher":"BioMed Central",
-    "Association":"Minerva Center for Movement Ecology"
+    "Association":"Minerva Center for Movement Ecology",
+    "Subject Area":"Environmental Science "
   },
   {
     "Journal Title":"Multidisciplinary Respiratory Medicine",
     "Publisher":"BioMed Central",
-    "Association":"Interdisciplinary Association for Research in Lung Diseases"
+    "Association":"Interdisciplinary Association for Research in Lung Diseases",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Multiple Sclerosis and Demyelinating Disorders",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Neural Development",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Neuroscience"
   },
   {
     "Journal Title":"NeuroMetals",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Neuropsychiatric Electrophysiology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Neurovascular Imaging",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Nutrition & Metabolism",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Nursing"
   },
   {
     "Journal Title":"Nutrition Journal",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Nursing"
   },
   {
     "Journal Title":"Orphanet Journal of Rare Diseases",
     "Publisher":"BioMed Central",
-    "Association":"Orphanet"
+    "Association":"Orphanet",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Parasites & Vectors",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Particle and Fibre Toxicology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Environmental Science | Pharmacology, Toxicology and Pharmaceutics"
   },
   {
     "Journal Title":"Patient Safety in Surgery",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Pediatric Rheumatology",
     "Publisher":"BioMed Central",
-    "Association":"Pediatric Rheumatology European Society"
+    "Association":"Pediatric Rheumatology European Society",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Perioperative Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Philosophy, Ethics, and Humanities in Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Arts and Humanities | Medicine | Nursing"
   },
   {
     "Journal Title":"Pilot and Feasibility Studies",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Plant Methods",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Population Health Metrics",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Porcine Health Management",
     "Publisher":"BioMed Central",
-    "Association":"European Association for Porcine Health Management and European College for Porcine Health Management"
+    "Association":"European Association for Porcine Health Management and European College for Porcine Health Management",
+    "Subject Area":"Veterinary"
   },
   {
     "Journal Title":"Proteome Science",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Public Health Reviews",
     "Publisher":"BioMed Central",
-    "Association":"The Association of Schools of Public Health in the European Region"
+    "Association":"The Association of Schools of Public Health in the European Region",
+    "Subject Area":"Medicine | Nursing"
   },
   {
     "Journal Title":"Radiation Oncology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Regenerative Medicine Research",
     "Publisher":"BioMed Central",
-    "Association":"The Regenerative Medicine Research, Application and Compliance Consortium"
+    "Association":"The Regenerative Medicine Research, Application and Compliance Consortium",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Reproductive Biology and Endocrinology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Reproductive Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Research Integrity and Peer Review",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary"
   },
   {
     "Journal Title":"Research Involvement and Engagement",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Multidisciplinary"
   },
   {
     "Journal Title":"Respiratory Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Retrovirology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Safety in Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
     "Publisher":"BioMed Central",
-    "Association":"Norwegian Air Ambulance Foundation"
+    "Association":"Norwegian Air Ambulance Foundation",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Scoliosis and Spinal Disorders",
     "Publisher":"BioMed Central",
-    "Association":"Society on Scoliosis Orthopaedic and Rehabilitation Treatment, International Research Society of Spinal Deformities, Hellenic Spine Society, Italian Scoliosis and Spine Study Group, and the Italian Physiotherapist Association"
+    "Association":"Society on Scoliosis Orthopaedic and Rehabilitation Treatment, International Research Society of Spinal Deformities, Hellenic Spine Society, Italian Scoliosis and Spine Study Group, and the Italian Physiotherapist Association",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Skeletal Muscle",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Source Code for Biology and Medicine",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Computer Science | Decision Sciences | Medicine"
   },
   {
     "Journal Title":"Standards in Genomic Sciences",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology"
   },
   {
     "Journal Title":"Stem Cell Research & Therapy",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine"
   },
   {
     "Journal Title":"Substance Abuse Treatment, Prevention, and Policy",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Social Sciences"
   },
   {
     "Journal Title":"Systematic Reviews",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Theoretical Biology and Medical Modelling",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Mathematics | Medicine"
   },
   {
     "Journal Title":"Thrombosis Journal",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Thyroid Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Medicine | Neuroscience"
   },
   {
     "Journal Title":"Tobacco Induced Diseases",
     "Publisher":"BioMed Central",
-    "Association":"International Society for the Prevention of Tobacco Induced Diseases"
+    "Association":"International Society for the Prevention of Tobacco Induced Diseases",
+    "Subject Area":"Medicine | Social Sciences"
   },
   {
     "Journal Title":"Translational Neurodegeneration",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine | Neuroscience"
   },
   {
     "Journal Title":"Transplantation Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Trials",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Tropical Diseases, Travel Medicine and Vaccines",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Vascular Cell",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Computer Science | Neuroscience"
   },
   {
     "Journal Title":"Veterinary Research",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Veterinary"
   },
   {
     "Journal Title":"Virology Journal",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Medicine"
   },
   {
     "Journal Title":"Women's Midlife Health",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"World Allergy Organization Journal",
     "Publisher":"BioMed Central",
-    "Association":"World Allergy Organization"
+    "Association":"World Allergy Organization",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"World Journal of Emergency Surgery",
     "Publisher":"BioMed Central",
-    "Association":"World Society of Emergency Surgery"
+    "Association":"World Society of Emergency Surgery",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"World Journal of Surgical Oncology",
     "Publisher":"BioMed Central",
-    "Association":""
+    "Association":"",
+    "Subject Area":"Medicine"
   },
   {
     "Journal Title":"Zoological Letters",
     "Publisher":"BioMed Central",
-    "Association":" Zoological Society of Japan"
+    "Association":" Zoological Society of Japan",
+    "Subject Area":"Agricultural and Biological Sciences | Veterinary"
   },
   {
     "Journal Title":"Survey Research Methods",
     "Publisher":"European Survey Research Association",
-    "Association":"European Survey Research Association"
+    "Association":"European Survey Research Association",
+    "Subject Area":"Social Sciences"
+  },
+  {
+    "Journal Title":"Bio-protocol",
+    "Publisher":"Bio-protocol",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Immunology and Microbiology"
   }
 ]
