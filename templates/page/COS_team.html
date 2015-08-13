@@ -51,7 +51,7 @@
                         {% if team_member.OSF_url %}
                             <li> <a href="{{ team_member.OSF_url }}" target="_blank" data-original-title="osf" class="osf"></a></li>
                         {% endif %}
-                        {% if team_member.email %}
+                        {% if team_member.email and team_member.show_email%}
                            <li>  <a href="{{ "mailto:" | obfuscate }}{{ team_member.email | obfuscate }}" target="_blank" data-original-title="email" class="email"></a></li>
                         {% endif %}
                         {% if team_member.facebook_url %}

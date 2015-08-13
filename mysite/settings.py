@@ -266,6 +266,7 @@ INSTALLED_APPS = (
     "mysite.team",
     "mysite.main",
     "mysite.news",
+    "mysite.mailing_list",
     "mysite.ambassadors",
     "easy_thumbnails",
     "image_cropping",

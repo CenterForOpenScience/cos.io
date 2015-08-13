@@ -2,6 +2,8 @@ from django.db import models
 from easy_thumbnails.files import get_thumbnailer
 from image_cropping import ImageRatioField, ImageCropField
 
+from mysite.mailing_list.models import MailingList
+
 
 class Team(models.Model):
     name = models.CharField(max_length=255, unique=True)
@@ -10,13 +12,14 @@ class Team(models.Model):
     original_image_width = models.PositiveIntegerField(null=True)
     original_image_height = models.PositiveIntegerField(null=True)
 
-    thumb_image_width = models.PositiveIntegerField(null=True)
-    thumb_image_height = models.PositiveIntegerField(null=True)
+    thumb_image_width = models.PositiveIntegerField(null=False, blank=False)
+    thumb_image_height = models.PositiveIntegerField(null=False, blank=False)
 
     image = ImageCropField(upload_to='uploaded_images')
     mini_image = ImageRatioField('image', free_crop=True)
 
     email = models.CharField(max_length=255, null=True, blank=True)
+    show_email = models.BooleanField(default=False)
     yahoo = models.CharField(max_length=255, null=True, blank=True)
     picasa = models.CharField(max_length=255, null=True, blank=True)
     youtube = models.CharField(max_length=255, null=True, blank=True)
@@ -31,6 +34,8 @@ class Team(models.Model):
     linkedin_url = models.CharField(max_length=255, null=True, blank=True)
     personal_website = models.CharField(max_length=255, null=True, blank=True)
 
+    mailing_lists = models.ManyToManyField(MailingList, null=True, blank=True)
+
     def __unicode__(self):
         return self.name
 
@@ -42,7 +47,7 @@ class Team(models.Model):
         super(Team, self).save(*args, **kwargs)
         if self.image and found_id is None and self.original_image_width and self.original_image_height:
             self.image = get_thumbnailer(self.image).get_thumbnail({
-                'size': (self.original_image_width, self.original_image_height),
+                'size': (self.original_image_width, self.original_image_height)
             }).name
         super(Team, self).save(*args, **kwargs)
 
