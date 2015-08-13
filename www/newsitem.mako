@@ -15,7 +15,7 @@
     </div>
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2015-04-21/">Open Trials: Open Knowledge announces plans for open, online database of clinical trials/a></h3>
+            <h3><a href="/pr/2015-04-21/">Open Trials: Open Knowledge announces plans for open, online database of clinical trials</a></h3>
         </div>
     </div>
     <div class="row margin-bottom-10">
