@@ -32,6 +32,7 @@
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
+    padding-bottom: 40px !important;
 }
 
 .fixed-table-container.table-no-bordered {
