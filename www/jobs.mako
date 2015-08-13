@@ -395,41 +395,41 @@
 ##                 </a>
 ##             </h4>
 ##         </div>
-##         <div id="QATestEngineerIntern" class="panel-collapse collapse">
-##             <div class="panel-body">
-##                 <dl class="dl-horizontal">
-##                     <dt>Background</dt>
-##                     <dd>
-##                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="osf.io">Open Science Framework.</a></p>
-##                     </dd>
-##                     <dt>Responsibilities</dt>
-##                     <dd>
-##                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  Interns will develop rigorous product QC, QA, and testing skills by working closely with developers, technical architects, technical managers, and the product team. Interns will work in conjunction with the programmatic testing done by the development team and helps a ensure that only high-quality software is released.  This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.  See our other open positions to learn more about the desired qualities of COS developers and the product team.  Also, see more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
-##                     </dd>
-##                     <dt>Skills</dt>
-##                     <dd>
-##                         <p>Educational background in either computer science, engineering, or the sciences, ideally also with knowledge of scientific research practices and workflows; Strong collaborative personality and ability to work across diverse teams; Commitment to delivering quality products; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization; Attention to detail.</p>
+         <div id="QATestEngineerIntern" class="panel-collapse collapse">
+             <div class="panel-body">
+                 <dl class="dl-horizontal">
+                     <dt>Background</dt>
+                     <dd>
+                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="osf.io">Open Science Framework.</a></p>
+                     </dd>
+                     <dt>Responsibilities</dt>
+                     <dd>
+                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  Interns will develop rigorous product QC, QA, and testing skills by working closely with developers, technical architects, technical managers, and the product team. Interns will work in conjunction with the programmatic testing done by the development team and helps a ensure that only high-quality software is released.  This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.  See our other open positions to learn more about the desired qualities of COS developers and the product team.  Also, see more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
+                     </dd>
+                     <dt>Skills</dt>
+                     <dd>
+                         <p>Educational background in either computer science, engineering, or the sciences, ideally also with knowledge of scientific research practices and workflows; Strong collaborative personality and ability to work across diverse teams; Commitment to delivering quality products; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization; Attention to detail.</p>
 
-##                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
-##                     </dd>
-##                     <dt>Location</dt>
-##                     <dd>
-##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                     </dd>
-##                     <dt>Benefits</dt>
-##                     <dd>
-##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
-##                     </dd>
-##                     <dt>Applying</dt>
-##                     <dd>
-##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-##                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-##                     </dd>
-##                 </dl>
-##             </div>
-##         </div>
-##     </div>
-## </div>
+                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+                     </dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+                     </dd>
+                     <dt>Applying</dt>
+                     <dd>
+                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                     </dd>
+                 </dl>
+             </div>         
+             </div>
+    </div>
+ </div>
 <div id="SeniorDeveloper" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper_heading">
