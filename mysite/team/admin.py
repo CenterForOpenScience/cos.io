@@ -12,23 +12,28 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
 
     def get_form(self, request, obj=None, **kwargs):
         if not obj:
-            kwargs['fields'] = ['name', 'position', 'alumni', 'original_image_width', 'original_image_height',
-                                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
-                                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
-                                'pinterest', 'image', ]
+            kwargs['fields'] = [
+                'name', 'position', 'alumni', 'original_image_width', 'original_image_height',
+                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
+                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
+                'pinterest', 'image', 'show_email', 'mailing_lists',
+            ]
 
             kwargs['exclude'] = ['image_url', 'thumb_url', ]
         else:
-            kwargs['fields'] = ['name', 'position', 'alumni' , 'original_image_width', 'original_image_height',
-                                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
-                                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
-                                'pinterest', 'image', 'thumb_image_width','thumb_image_height', 'mini_image',
-                                'image_url', 'thumb_url', ]
+            kwargs['fields'] = [
+                'name', 'position', 'alumni' , 'original_image_width', 'original_image_height',
+                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
+                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
+                'pinterest', 'image', 'thumb_image_width','thumb_image_height', 'mini_image',
+                'image_url', 'thumb_url', 'show_email', 'mailing_lists',
+            ]
 
         return super(TeamAdmin, self).get_form(request, obj, **kwargs)
 
     def image_url(self, obj):
-        return u' %s' % obj.image.url
+        return unicode(obj.image.url)
+
     image_url.allow_tag = True
 
     def thumb_url(self, obj):
@@ -40,7 +45,7 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
             'crop': True,
             'detail': True,
         }).url
-        return u'%s' % url
+        return unicode(url)
     thumb_url.allow_tag = True
 
 admin.site.register(Team, TeamAdmin)
