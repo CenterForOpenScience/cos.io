@@ -1,6 +1,9 @@
 from django.db import models
 from easy_thumbnails.files import get_thumbnailer
 from image_cropping import ImageRatioField, ImageCropField
+from mysite.utils import make_request, auth
+import httplib2
+from googleapiclient.discovery import build
 
 from mysite.mailing_list.models import MailingList
 
@@ -42,6 +45,33 @@ class Team(models.Model):
     def get_thumb_max_size(self):
         return str(self.thumb_image_width) + 'x' + str(self.thumb_image_height)
 
+    def add_to_group(self, email):
+        mail = email
+        scope = 'https://www.googleapis.com/auth/admin.directory.members'
+        post_data = {
+            'email': self.email,
+            'role': 'MEMBER'
+        }
+        credentials = auth(scope)
+        http_auth = credentials.authorize(httplib2.Http())
+        service = build('admin', 'directory_v1', http=http_auth)
+        create = service.members().insert(groupKey=mail, body=post_data)
+        return create.execute()
+
+    def remove_from_group(self, email):
+        mail = email
+        scope = 'https://www.googleapis.com/auth/admin.directory.members'
+        credentials = auth(scope)
+        http_auth = credentials.authorize(httplib2.Http())
+        service = build('admin', 'directory_v1', http=http_auth)
+        create = service.members().delete(groupKey=mail, memberKey=self.email)
+        return create.execute()
+
+    def delete(self, using=None):
+        for group in self.mailing_lists.all():
+            self.remove_from_group(group)
+        return super(Team, self).delete()
+
     def save(self, *args, **kwargs):
         found_id = self.id
         super(Team, self).save(*args, **kwargs)
@@ -50,6 +80,10 @@ class Team(models.Model):
                 'size': (self.original_image_width, self.original_image_height)
             }).name
         super(Team, self).save(*args, **kwargs)
+        all_emails = self.mailing_lists.all()
+        for email in all_emails:
+            self.add_to_group(email)
+        return None
 
     class Meta:
         ordering = ('name',)
