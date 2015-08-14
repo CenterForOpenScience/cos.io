@@ -1,5 +1,5 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Pre-Reg Prize</%def>
+<%def name="title()">Pre-Reg Challenge</%def>
 <%def name="description()">Planning pays.</%def>
 
 <%def name="navigation()">
