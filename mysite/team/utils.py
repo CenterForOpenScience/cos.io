@@ -1,4 +1,5 @@
 import random
+import httplib
 
 from django.conf import settings
 from django.shortcuts import redirect
@@ -10,9 +11,13 @@ from oauth2client import client
 CLIENT_ID = ''
 CLIENT_SECRET = ''
 
+def make_request(http_method, domain, scope):
+    conn = httplib.HTTPConnection(domain)
+    conn.request(http_method, scope)
+    return conn.getresponse().read()
 
 def auth(scope_url):
-    from mysite.team.models import CredentialsModel
+    from .models import CredentialsModel
     flow = client.OAuth2WebServerFlow(client_id=CLIENT_ID,
                                       client_secret=CLIENT_SECRET,
                                       scope=scope_url,
