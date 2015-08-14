@@ -49,6 +49,7 @@ urlpatterns += patterns('',
     ("^", include("mezzanine.generic.urls")),
     (r'^ckeditor/', include('ckeditor.urls')),
     (r'^grappelli/', include('grappelli.urls')),
+    ("^", include("mezzanine.urls")),
 
     url("^admin/", include(admin.site.urls)),
     url(r'^robots\.txt$', include('robots.urls')),
