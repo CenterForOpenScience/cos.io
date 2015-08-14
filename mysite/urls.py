@@ -6,10 +6,11 @@ from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
 from django.conf.urls import patterns, include, url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from mysite.main.views import AboutBoardPageView, AboutPageView, MissionPageView, PartnersPageView, \
-    ServicePageView, GetInvolvedPageView, ApsPageView, CommunitiesPageView,  \
-    InvolvedParticipatesPageView, SponsorsPageView, StatsPageView, PrPageView, TeamPageView, JobsPageView,  \
-    AmbassadorsPageView, NewsPageView, OsfPageView, TopPageView
+from mysite.main.views import (AboutBoardPageView, AboutPageView, MissionPageView, PartnersPageView,
+                               ServicePageView, GetInvolvedPageView, ApsPageView, CommunitiesPageView,
+                               InvolvedParticipatesPageView, SponsorsPageView, StatsPageView, PrPageView,
+                               TeamPageView, JobsPageView, AmbassadorsPageView, NewsPageView, OsfPageView,
+                               TopPageView, LoginPageView,)
 
 admin.autodiscover()
 
