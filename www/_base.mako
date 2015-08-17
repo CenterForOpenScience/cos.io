@@ -39,6 +39,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="/involved_participate/">Participate</a></li>
                         <li><a href="/jobs/">Jobs</a></li>
+                        <li><a href="/top">TOP Guidelines</a></li>
                     </ul>
                 </li>
                 <li class="dropdown ${ 'active' if page == 'communities' else ''}">
