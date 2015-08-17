@@ -1341,17 +1341,14 @@
                 Michelle Yao
                 <small>Developer Intern | Infrastructure</small>
             </h3>
-                <ul class="social-icons social-icons-color">
-                    <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/xym4" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/ufixg/" data-original-title="osf" class="osf"></a></li>
-                </ul>
+            </ul>
         </div>
     </li>
+
     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
-            <h3>
-            <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/muggill.jpg" alt="Patrick Muggill">
             <h3>
@@ -1364,6 +1361,10 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/ryan.jpg" alt="Patrick Ryan">
+            <h3>
                 Patrick Ryan
                 <small>Developer Intern | Infrastructure</small>
             </h3>
