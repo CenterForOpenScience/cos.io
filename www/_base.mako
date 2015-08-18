@@ -27,7 +27,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="/stats_consulting/">Statistical Consulting</a></li>
                         <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
-                        <li><a href="http://osf.io/presentations" target="_blank">Presentation Sharing Service</a></li>
+                        <li><a href="http://osf.io/meetings" target="_blank">OSF for Meetings</a></li>
                     </ul>
                 </li>
                  <li class="dropdown ${ 'active' if page.startswith('involved') else ''}
