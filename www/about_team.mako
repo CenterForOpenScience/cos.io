@@ -345,7 +345,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/braswell.jpg" alt="Erin Braswell">
+            <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
                 Erin Braswell
                 <small>Developer | Infrastructure</small>
