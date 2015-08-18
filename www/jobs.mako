@@ -385,16 +385,16 @@
 ##        </div>
 ##    </div>
 ##</div>
-## <div id="QATestEngineerIntern" class="panel-group">
-##     <div class="panel panel-info">
-##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
-##             <h4 class="panel-title">
-##                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                 <a  data-parent="#QATestEngineerIntern" >
-##                     QC/QA/Test Engineer Intern
-##                 </a>
-##             </h4>
-##         </div>
+<div id="QATestEngineerIntern" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#QATestEngineerIntern" >
+                    QC/QA/Test Engineer Intern
+                </a>
+            </h4>
+        </div>
          <div id="QATestEngineerIntern" class="panel-collapse collapse">
              <div class="panel-body">
                  <dl class="dl-horizontal">
