@@ -50,6 +50,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:naqerj@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/AndrewSallans" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="http://www.linkedin.com/in/andrewsallans" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/ruiy4/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/asallans" data-original-title="Twitter" class="twitter"></a></li>
@@ -174,7 +175,7 @@
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:otbetrf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://osf.io/3n6eh" data-original-title="osf" class="osf"></a></li>
-            
+                <li><a href="https://github.com/ghalko" data-original-title="GitHub" class="github"></a> </li>
             </ul>
         </div>
     </li>
@@ -541,6 +542,7 @@
                <small>Developer Intern | Infrastructure</small>
            </h3>
            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jeffreyliu3230" data-original-title="GitHub" class="github"></a> </li>
                <li><a href="https://osf.io/wj4yg/" data-original-title="osf" class="osf"></a></li>
            </ul>
         </div>
@@ -744,14 +746,15 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/welcher.jpg" alt="Natasha Richter">
+            <img src="../static/img/people/welcher.jpg" alt="Natasha Welcher">
             <h3>
                 Natasha Welcher
-                <small>QA Software Quality Engineer | Infrastructure</small>
+                <small>Software Quality Engineer | Infrastructure</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/NatashaRichter" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -793,6 +796,7 @@
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/reinaH" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/3gs4f/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
