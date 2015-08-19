@@ -325,7 +325,7 @@
                                             <tr>
                                                 <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
                                                 <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br/>
-                                                <strong>$261,233</strong><br/>
+                                                <strong>$386,233</strong><br/>
                                                 The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br/>
                                                 </td>
                                             </tr>
@@ -339,6 +339,14 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
+                                                <td class="sponsor-center"><a href="http://www.nsf.gov"><img src="/static/img/icons/nsf.jpg"></a></td>
+                                                <td><span class="med-font"><strong>National Science Foundation</strong></span><br>
+                                                <strong>$100,150</strong><br>
+                                                Subcontract from the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
                                                 <td class="sponsor-center"><a href="http://www.hewlett.org/programs/global-development-population"><img src="/static/img/icons/hewlett.jpeg"></a></td>
                                                 <td><span class="med-font"><strong>The William and Flora Hewlett Foundation</strong></span><br>
                                                 <strong>$100,000</strong><br>
@@ -347,10 +355,18 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
+                                                <td class="sponsor-center"><a href="http://www.nsf.gov"><img src="/static/img/icons/nsf.jpg"></a></td>
+                                                <td><span class="med-font"><strong>National Science Foundation</strong></span><br>
+                                                <strong>$29,973</strong><br>
+                                                Subcontract from <a href="https://www.whitman.edu/">Whitman College</a> to collaborate on a two-day meeting at COS for development of editorial and funding policies to improve inference in evolutionary biology and ecology.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
                                                 <td class="sponsor-center"><a href="http://www.nimh.nih.gov/index.shtml"><img src="/static/img/icons/nimh.gif"></a></td>
                                                 <td><span class="med-font"><strong>National Institute of Mental Health</strong></span><br>
                                                 <strong>$29,341</strong><br>
-                                                Subcontract from <a href="http://www.prometheusresearch.com/">Prometheus Research</a> for integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
+                                                Subcontract from <a href="http://www.prometheusresearch.com/">Prometheus Research</a> to collaborate on the integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
