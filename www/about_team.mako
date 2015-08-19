@@ -745,10 +745,10 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/welcher.jpg" alt="Natasha Richter">
+            <img src="../static/img/people/welcher.jpg" alt="Natasha Welcher">
             <h3>
                 Natasha Welcher
-                <small>QA Software Quality Engineer | Infrastructure</small>
+                <small>Software Quality Engineer | Infrastructure</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
