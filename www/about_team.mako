@@ -541,6 +541,7 @@
                <small>Developer Intern | Infrastructure</small>
            </h3>
            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jeffreyliu3230" data-original-title="GitHub" class="github"></a> </li>
                <li><a href="https://osf.io/wj4yg/" data-original-title="osf" class="osf"></a></li>
            </ul>
         </div>
