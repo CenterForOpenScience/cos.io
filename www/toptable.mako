@@ -63,8 +63,8 @@
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>.</p>
 
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (509)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (47)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (510)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (48)</b></a></li>
                     </ul>
 
                     <div class="tab-content">

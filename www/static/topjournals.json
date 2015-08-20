@@ -198,7 +198,7 @@
   {
     "Journal Title":"European Journal of Personality",
     "Publisher":"Wiley",
-    "Association":"",
+    "Association":"European Association for Personality Psychology",
     "Subject Area":"Psychology",
     "FIELD5":""
   },
@@ -3561,5 +3561,12 @@
     "Association":"Cognitive Science Society",
     "Subject Area":"Neuroscience | Psychology",
     "FIELD5":" "
+  },
+  {
+    "Journal Title":"PeerJ Computer Science",
+    "Publisher":"PeerJ",
+    "Association":"",
+    "Subject Area":"Computer Science",
+    "FIELD5":""
   }
 ]
