@@ -25,6 +25,8 @@
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
+                        <li><a href="/journals">For Journals and Societies</a></li>
+                        <li><a href="/top">TOP Guidelines</a></li>
                         <li><a href="/stats_consulting/">Statistical Consulting</a></li>
                         <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
                         <li><a href="http://osf.io/meetings" target="_blank">OSF for Meetings</a></li>
@@ -37,9 +39,10 @@
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/involved_participate/">Participate</a></li>
-                        <li><a href="/jobs/">Jobs</a></li>
-                        <li><a href="/top">TOP Guidelines</a></li>
+                        <li><a href="/involved_participate#tab_1">Ambassadors</a></li>
+                        <li><a href="/involved_participate#tab_2">Scientists</a></li>
+                        <li><a href="/involved_participate#tab_4">Developers</a></li>
+                        <li><a href="/jobs">Jobs</a></li>
                     </ul>
                 </li>
                 <li class="dropdown ${ 'active' if page == 'communities' else ''}">

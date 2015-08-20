@@ -30,7 +30,7 @@
     <ul class="tabbable community-tabbable">
         <li class="active"><a href="#tab_1" data-toggle="tab">Ambassadors</a></li>
         <li><a href="#tab_2" data-toggle="tab">Scientists</a></li>
-        <li><a href="#tab_3" data-toggle="tab">Journals and Societies</a></li>
+##        <li><a href="#tab_3" data-toggle="tab">Journals and Societies</a></li>
         <li><a href="#tab_4" data-toggle="tab">Developers</a></li>
     </ul>
 </div>
@@ -658,108 +658,109 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>5. Join a Metascience Project</strong></h4>
-        <p>COS facilitates crowd-sourced metascience research. Projects investigate reproducibility, current research practices,
-            and evaluate new research practices. Crowdsourcing models encourage inclusivity so that anyone can contribute based
-            on their skills, interests, and motivation. <a href="/communities/#tab_2">Explore the metascience initiatives</a> and
-            then email a project coordinator if you'd like to join.</p>
+        <h4><strong>5. Share your presentations, materials, and data</strong></h4>
+        <p>Greater transparency means that more questions can be answered with existing data. Many openly
+            available datasets can be found on the <a href="https://osf.io">Open Science Framework</a>; the
+            <a href="https://osf.io/ezcuj/">Reproducibility Project: Psychology</a>, for example, has made its data public.
+            You can make yours public via the <a href="https://osf.io">OSF</a>. <a href="https://osf.io/meetings">OSF for Meetings</a> enables you to share slides
+            or posters before or after a conference. Encourage your conference organizer to have it set up, or <a href="mailto:contact@cos.io?subject=Meetings">request it yourself</a>.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Metascience Project Enrollment">
-            <div class="action-box">
-                <i class="fa fa-envelope"></i>
-                <p>Email a Project Coordinator</p>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- END TAB 2 -->
-<!-- START TAB 3 -->
-<div class="tab-pane" id="tab_3">
-    <div class="col-md-12">
-        <h2><strong>Nudge Incentives Towards Openness</strong></h2>
-        <p>Journals and societies shape important incentives driving researchers' behavior.  COS supports products and
-            services that journals and societies can use to promote open and reproducible practices.</p>
-    </div>
-
-    <div class="col-md-8">
-        <h4><strong>1. Transparency and Openness Promotion (TOP) Guidelines</strong></h4>
-        <p>Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards. <a href="https://osf.io/ud578/"></p>
-        <p>Read the Guidelines</a> or <a href="mailto:contact@cos.io?subject=TOP Guidelines">email us</a> with questions, comments, or to join as a signatory.
-        </p></div>
-
-    <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/ud578/">
-            <div class="action-box">
-                <i class="fa fa-book"></i>
-                <p>Read the Guidelines</p>
-            </div>
-        </a>
-    </div>
-
-    <div class="col-md-8">
-        <h4><strong>2. Signal open practices with badges</strong></h4>
-        <p>Journals can signal their valuing of open practices by adopting <a href="https://osf.io/tvyxz/wiki/home"
-                                                                              target="_blank">badges</a> to acknowledge authors of articles that have open data, open materials, or preregistration.
-            A COS Community maintains the badge specifications and facilitates integration of badge awarding into the journal
-            workflow. Badges are a low risk nudge because adoption by authors is optional, and the simple signal can promote
-            normative changes in practice.</p></div>
-
-    <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Badges">
-            <div class="action-box">
-                <i class="fa fa-shield"></i>
-                <p>Ask about using badges</p>
-            </div>
-        </a>
-    </div>
-
-    <div class="col-md-8">
-        <h4><strong>3. OSF for Meetings</strong></h4>
-        <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
-            dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
-            email and will receive a permanent, persistent URL that links to their work. Download counts and visits to each
-            uploaded poster will be recorded. <a href="https://osf.io/view/spsp2015/" target="_blank">See how the 2015 SPSP meeting used this service</a> to share over 300 talks and posters.
-        </p></div>
-
-    <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=OSF for Meetings Request">
+        <a href="mailto:contact@cos.io?subject=Meetings">
             <div class="action-box">
                 <i class="fa fa-bar-chart"></i>
                 <p>Request OSF for Meetings</p>
             </div>
         </a>
     </div>
-
-    <div class="col-md-8">
-        <h4><strong>4. Adopt Registered Reports</strong></h4>
-        <p>Registered Reports (RR) involve peer review of study designs and analysis plans prior to data collection.
-            Reviewers evaluate the importance of the research question and quality of the design. Accepted proposals
-            are published if they adhere to the proposal regardless of the outcome. RRs address challenges of publishing
-            of negative results, lowers barrier to conducting worthwhile replications, obtains pre-commitment from
-            reviewers on quality of design, and produces strong confirmatory tests.</p>
-        <p>A COS Community maintains an information commons about RRs, promotes adoption, and evaluates
-            publishing model. COS also offers registration services through the <a href="https://osf.io" target="_blank">OSF</a>.
-            Journals can adopt Registered Reports as a submission option. See examples of this model in action at <a href="https://osf.io/vwfk2/" target="_blank">
-                Social Psychology</a>,
-            <a href="http://elifesciences.org/eLife-the-Center-for-Open-Science-and-Science-Exchange-partner-to-assess-the-reproducibility-of-cancer-biology-research"
-               target="_blank">eLife</a>, and <a href="http://www.psychologicalscience.org/index.php/replication" target="_blank">Perspectives on
-                Psychological Science</a>.
-        </p></div>
-
-    <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/zv2cs/" target="_blank">
-            <div class="action-box">
-                <i class="fa fa-check"></i>
-                <p>Learn more about registered reports</p>
-            </div>
-        </a>
-    </div>
-
-
 </div>
-<!-- END TAB 3 -->
+<!-- END TAB 2 -->
+## <!-- START TAB 3 -->
+## <div class="tab-pane" id="tab_3">
+##    <div class="col-md-12">
+##        <h2><strong>Nudge Incentives Towards Openness</strong></h2>
+##        <p>Journals and societies shape important incentives driving researchers' behavior.  COS supports products and
+##            services that journals and societies can use to promote open and reproducible practices.</p>
+##    </div>
+
+##    <div class="col-md-8">
+##        <h4><strong>1. Transparency and Openness Promotion (TOP) Guidelines</strong></h4>
+##        <p>Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of ##increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards. <a href="https://osf.io/ud578/"></p>
+##        <p>Read the Guidelines</a> or <a href="mailto:contact@cos.io?subject=TOP Guidelines">email us</a> with questions, comments, or to join as a signatory.
+##        </p></div>
+
+##    <div class="col-md-4 action-link margin-top-50">
+##        <a href="https://osf.io/ud578/">
+##            <div class="action-box">
+##                <i class="fa fa-book"></i>
+##                <p>Read the Guidelines</p>
+##            </div>
+##        </a>
+##    </div>
+
+##    <div class="col-md-8">
+##        <h4><strong>2. Signal open practices with badges</strong></h4>
+##        <p>Journals can signal their valuing of open practices by adopting <a href="https://osf.io/tvyxz/wiki/home"
+##                                                                              target="_blank">badges</a> to acknowledge authors of articles that have open data, open materials, or preregistration.
+##            A COS Community maintains the badge specifications and facilitates integration of badge awarding into the journal
+##            workflow. Badges are a low risk nudge because adoption by authors is optional, and the simple signal can promote
+##            normative changes in practice.</p></div>
+
+##    <div class="col-md-4 action-link margin-top-50">
+##        <a href="mailto:contact@cos.io?subject=Badges">
+##            <div class="action-box">
+##                <i class="fa fa-shield"></i>
+##                <p>Ask about using badges</p>
+##            </div>
+##        </a>
+##    </div>
+
+##    <div class="col-md-8">
+##        <h4><strong>3. OSF for Meetings</strong></h4>
+##        <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
+##            dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
+##            email and will receive a permanent, persistent URL that links to their work. Download counts and visits to each
+##            uploaded poster will be recorded. <a href="https://osf.io/view/spsp2015/" target="_blank">See how the 2015 SPSP meeting used this service</a> to share over 300 talks and posters.
+##        </p></div>
+
+##    <div class="col-md-4 action-link margin-top-50">
+##        <a href="mailto:contact@cos.io?subject=OSF for Meetings Request">
+##            <div class="action-box">
+##                <i class="fa fa-bar-chart"></i>
+##                <p>Request OSF for Meetings</p>
+##            </div>
+##        </a>
+##    </div>
+
+##    <div class="col-md-8">
+##        <h4><strong>4. Adopt Registered Reports</strong></h4>
+##        <p>Registered Reports (RR) involve peer review of study designs and analysis plans prior to data collection.
+##            Reviewers evaluate the importance of the research question and quality of the design. Accepted proposals
+##            are published if they adhere to the proposal regardless of the outcome. RRs address challenges of publishing
+##            of negative results, lowers barrier to conducting worthwhile replications, obtains pre-commitment from
+##            reviewers on quality of design, and produces strong confirmatory tests.</p>
+##        <p>A COS Community maintains an information commons about RRs, promotes adoption, and evaluates
+##            publishing model. COS also offers registration services through the <a href="https://osf.io" target="_blank">OSF</a>.
+##            Journals can adopt Registered Reports as a submission option. See examples of this model in action at <a href="https://osf.io/vwfk2/" target="_blank">
+##                Social Psychology</a>,
+##            <a href="http://elifesciences.org/eLife-the-Center-for-Open-Science-and-Science-Exchange-partner-to-assess-the-reproducibility-of-cancer-biology-research"
+##               target="_blank">eLife</a>, and <a href="http://www.psychologicalscience.org/index.php/replication" target="_blank">Perspectives on
+##                Psychological Science</a>.
+##        </p></div>
+
+##    <div class="col-md-4 action-link margin-top-50">
+##        <a href="https://osf.io/zv2cs/" target="_blank">
+##            <div class="action-box">
+##                <i class="fa fa-check"></i>
+##                <p>Learn more about registered reports</p>
+##            </div>
+##        </a>
+##    </div>
+
+
+##</div>
+##<!-- END TAB 3 -->
 <!-- START TAB 4 -->
 <div class="tab-pane" id="tab_4">
     <div class="col-md-12">

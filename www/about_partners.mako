@@ -27,6 +27,7 @@
             <p class="lead">Through cooperative efforts, COS pursues its mission of
             increasing transparency and reproducibility in the sciences.</p>
             <br>
+        </div>
             <table class="margin-bottom-50">
                 <tr>
                     <td class="sponsor-center"><a href="http://sites.agu.org/"><img src="../static/img/icons/agu.png" alt="AGU"></a></td>
@@ -99,9 +100,10 @@
                        Time-sharing Experiments for the Social Sciences (TESS) is an NSF-funded project that supports free data collections on representative samples of U.S. adults for experimental research. COS and TESS have partnered to host TESS's entire historical and future data catalog of more than 300 experiments on the Open Science Framework.
                     </td>
                 </tr>
-            <p class="lead">At times, COS makes grants to individuals and organizations in support of open science initiatives.  For COS grants of $50,000 or less, no overhead costs are permitted.  For COS grants larger than $50,000, overhead costs may not exceed 15% of direct project costs.</p>
-            <br>
             </table>
+        <div class="row front-partners">
+            <p>At times, COS makes grants to individuals and organizations in support of open science initiatives.  For COS grants of $50,000 or less, no overhead costs are permitted.  For COS grants larger than $50,000, overhead costs may not exceed 15% of direct project costs.</p>
+            <br>
         </div>
         <!-- END OUR PARTNERS -->
     </div>
