@@ -64,7 +64,7 @@
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>. 
 
-                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (509)</strong></p>
+                    <p class="margin-top-20"><a id="journals"></a><strong>Journal Signatories (510)</strong></p>
                     <p>AAAS (4 Journals)</p>
                         <ul>
                             <li>Science 
@@ -357,6 +357,7 @@
                     Palgrave Communications<br>  
                     Party Politics<br>  
                     PeerJ<br> 
+                    PeerJ Computer Science<br>
                     Personal Relationships<br>
                     PLOS Biology<br>
                     PLOS Computational Biology<br>
@@ -376,7 +377,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (47)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (48)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -414,6 +415,7 @@
                     Open Therapeutics / Microbial Robotics, LLC<br>
                     Overleaf<br>
                     Paperity<br>
+                    PeerJ<br>
                     Prometheus Research<br>
                     Public Library of Science (PLOS)<br>
                     Riffyn<br>
