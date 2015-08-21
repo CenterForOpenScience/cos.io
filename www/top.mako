@@ -377,7 +377,7 @@
                     Work, Aging and Retirement<br></p>
                    
 
-                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (48)</strong></p>
+                    <p class="margin-top-20"><a id="orgs"></a><strong>Organization Signatories (49)</strong></p>
                     <p>AAAS<br>
                     Alfred P. Sloan Foundation<br>
                     American Geophysical Union<br>
@@ -422,6 +422,7 @@
                     rOpenSci<br>
                     Software Sustainability Institute<br>
                     Society for a Science of Clinical Psychology<br>
+                    Society for Personality and Social Psychology<br>
                     Society of Australasian Social Psychologists<br>
                     SPARC<br>
                     Sunlight Foundation<br>

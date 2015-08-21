@@ -63,7 +63,7 @@
 <a id="signatories"></a>
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (510)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (48)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (49)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
