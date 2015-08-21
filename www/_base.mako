@@ -19,7 +19,9 @@
                         <li><a href="/about_partners/">Our Partners</a></li>
                     </ul>
                 </li>
-                <li class="dropdown ${ 'active' if page.startswith('stats') else ''}">
+                <li class="dropdown ${ 'active' if page.startswith('journals') else ''}
+                                    ${ 'active' if page.startswith('top') else ''}
+                                    ${ 'active' if page.startswith('stats') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         Services
                         <i class="fa fa-angle-down"></i>
