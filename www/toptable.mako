@@ -42,8 +42,7 @@
                             <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
                             <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
                             <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
-                            <li><a href="#journals">Journal Signatories</a></li>
-                            <li><a href="#orgs">Organization Signatories</a></li>
+                            <li><a href="#signatories">Signatories</a></li>
                         </ul>
                         
                 <hr>
@@ -61,7 +60,7 @@
                             <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                         </ol>
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>.</p>
-
+<a id="signatories"></a>
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (510)</b></a></li>
                         <li><a data-toggle="tab" href="#Organizations"><b>Organizations (48)</b></a></li>

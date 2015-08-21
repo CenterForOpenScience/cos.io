@@ -70,6 +70,18 @@
                                         </a>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td class="community-badge">
+                                        <img src="../static/img/icons/list.png">
+                                    </td>
+                                    <td>
+                                        <h3>Transparency and Openness Promition (TOP) Guidelines</h3>
+                                        <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice. Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards, each with three levels of increasing stringency. Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards. These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
+                                        <a href="../top" class="btn blue">
+                                            <i class="fa fa-search"></i> Learn more
+                                        </a>
+                                    </td>
+                                </tr>
 
                             </table>
                         </div>
@@ -83,11 +95,11 @@
                                     </td>
                                     <td>
                                         <h3>Reproducibility Project: Psychology (RP:P)</h3>
-                                        <p>The RP:P is a collaborative community effort to replicate published psychology experiments from three
+                                        <p>The RP:P was a collaborative community effort to replicate published psychology experiments from three
                                             important journals. Replication teams follow a standard protocol to maximize consistency and quality
                                             across replications, and the accumulated data, materials and workflow are to be open for critical
-                                            review on OSF. The RP:P is coordinated at the Center for Open Science and
-                                            involves volunteer scientists from all over the world.</p>
+                                            review on OSF. One hundred replications were completed.</p>
+                                        </p>
                                         <a href="https://osf.io/ezcuj/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>

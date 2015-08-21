@@ -31,6 +31,17 @@
             <!-- BEGIN Press BLOCKS -->
             <div class="col-md-12">
                 <div class="row margin-bottom-20">
+                    <a class="col-md-4 service-box-v1" href="http://fivethirtyeight.com/features/science-isnt-broken/">
+                        <table>
+                            <tr>
+                                <td><img src="../static/img/icons/fivethirtyeight.jpeg" width="125" align="left" style="padding-top: 20px; padding-right: 10px"></td>
+                                <td><h2 class="text-left">Science Isn’t Broken</h2></td>
+                            </tr>
+                        </table>
+                        <p class="text-left">August 19, 2015 | f you follow the headlines, your confidence in science may have taken a hit lately.
+
+Peer review? More like self-review. An investigation in November uncovered a scam in which researchers were rubber-stamping their own work, circumventing peer review at five high-profile publishers.</p>
+                    </a>
                     <a class="col-md-4 service-box-v1" href="../pr/2015-08-12">
                         <table>
                             <tr>

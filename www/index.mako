@@ -105,7 +105,7 @@
                 </div>
                 <p>COS builds open source web apps, connects via API with other services, and supports
                     open projects.
-                    <a href="/involved_participate/#tab_4">find out how you can contribute.</a></p>
+                    <a href="/involved_participate/#tab_4">Find out how you can contribute.</a></p>
             </div>
         </div>
     </div>
