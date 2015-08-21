@@ -14,14 +14,15 @@
 <!-- BEGIN PAGE CONTAINER -->
 <div class="slide-wrapper"> 
 <div class="container"> 
-    <ul class="bxslider">
+     <ul class="bxslider">
         <li>
-            <div class="row tagline animated fadeIb"> 
-                <div class="hp-slide-head col-xs-6"> <h1> We foster the<br/> <strong>openness</strong> <br/> <strong>integrity
-                </strong> <br/> and <strong>reproducibility</strong> <br/> of scientific research </h1> </div>
-                <div class="col-xs-6 main-cos-logo"> <img src="static/img/cos_center_logo_small.png" /></div>
-            </div> 
-            
+            <div class="row tagline">
+                <div class="col-md-12 main-cos-logo"> <img src="static/img/cos_center_logo_small.png" /></div>
+                <div class="hp-slide-head col-md-12">
+                    <h1> We foster the <strong>openness</strong>, <strong>integrity</strong>, and
+                        <strong>reproducibility</strong> of scientific research </h1>
+                </div>
+            </div>
 
         </li>
     </ul>
