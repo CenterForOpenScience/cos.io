@@ -3,7 +3,7 @@
 <%def name="description()"> Guidelines for Transparency and Openness Promotion (TOP) in Journal Policies and Practices</%def>
 
 <%def name="navigation()">
-    ${self.navlinks('TOP')}
+    ${self.navlinks('top')}
 </%def>
 
 <%def name="stylesheets()">
