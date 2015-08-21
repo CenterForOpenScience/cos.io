@@ -64,9 +64,16 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://elifesciences.org"><img src="../static/img/icons/elife.jpg" alt="BITSS"></a></td>
+                    <td class="sponsor-center"><a href="http://elifesciences.org"><img src="../static/img/icons/elife.jpg" alt="eLife"></a></td>
                     <td><span class="med-font"><strong>elife Sciences Publications</strong></span><br>
                         eLife has partnered with COS and Science Exchange to be the publisher for the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>. Each paper that will be replicated for the metascience project will undergo peer review at eLife using the Registered Report format with the results of these experiments published in a <a href="http://elifesciences.org/collections/reproducibility-project-cancer-biology">Replication Study.</a>
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="https://lookit.mit.edu"><img src="../static/img/icons/lookitlogo.png" alt="Lookit"></a></td>
+                    <td><span class="med-font"><strong>MIT’s Early Childhood Cognition Laboratory (ECCL) Lookit Project</strong></span><br>
+                        ECCL has partnered with COS on development of an open-source environment for running developmental studies online.</a>
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
@@ -98,6 +105,13 @@
                     <td class="sponsor-center"><a href="http://www.tessexperiments.org/"><img src="../static/img/icons/TESSLogo.jpg" alt="TESS"></a></td>
                     <td><span class="med-font"><strong>Time-sharing Experiments for the Social Sciences</strong></span><br>
                        Time-sharing Experiments for the Social Sciences (TESS) is an NSF-funded project that supports free data collections on representative samples of U.S. adults for experimental research. COS and TESS have partnered to host TESS's entire historical and future data catalog of more than 300 experiments on the Open Science Framework.
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://www.ucr.edu/"><img src="../static/img/icons/UCR.jpeg" alt="UCR"></a></td>
+                    <td><span class="med-font"><strong>University of California, Riverside</strong></span><br>
+                       UCR has partnered with COS on a campus-wide interdisciplinary project, Institutional Re-engineering Ethical Discourse in STEM (iREDS), to use the OSF in a randomized control trial (RCT) studying the effects of interventions in standard ethics training.
                     </td>
                 </tr>
             </table>
