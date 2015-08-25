@@ -752,7 +752,7 @@
 
                 <div class="service-box-v1">
                     <a href=
-                    "http://www.newyorker.com/online/blogs/elements/2013/11/science-and-its-skeptics.html">
+                    "http://www.newyorker.com/tech/elements/the-crisis-in-social-psychology-that-isnt">
                     <img src="/static/img/icons/newyorker.png" width="125">
 
                     <h2 class="text-left">Science and Its Skeptics</h2>
@@ -1022,7 +1022,7 @@
 
                 <div class="service-box-v1">
                     <a href=
-                    "http://www.nbcnews.com/science/scandals-force-psychologists-do-some-soul-searching-1C8453878">
+                    "http://science.nbcnews.com/_news/2013/02/20/17032396-scandals-force-psychologists-to-do-some-soul-searching?lite">
                     <img src="/static/img/icons/nbc.png" width="100">
 
                     <h2 class="text-left">Scandals force psychologists to do
