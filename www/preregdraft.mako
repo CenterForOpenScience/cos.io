@@ -8,7 +8,7 @@
 </%def>
 
 <%def name="stylesheets()">
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES 12 -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
 
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
