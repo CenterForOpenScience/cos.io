@@ -79,17 +79,7 @@
    </div>
 
 </div>
-<!--
-<div class="container min-height margin-top-40">
-    <div class="center" >
-        <a href="https://osf.io" target="_blank">
-        <img src="/static/img/pics/preregbutton.png" alt="preregistration workflow" width="200px">
-        </a>
-        <a href="https://osf.io" target="_blank">
-        <img src="/static/img/pics/preregnoprize.png" alt="preregistration workflow" width="200px">
-        </a>
-    </div>
--->
+
 </div>
     <div class="container min-hight margin-top-40">
         <div class="community-content">
@@ -152,9 +142,6 @@
                             <table>
                                 <tr>
                                     <td>
-                                         <!--
-                                         <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="450" height="300" src="https://prezi.com/embed/hhyxxh0w4d8e/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWklacTNtbFpjdVRkUlFZdXJPdzJRcGY3eXpaRnh4UmVIWGJZanU5Z0R2UCtJWTZveGNucmNqd3ZhaGsySVdDek00bjAralIwOWo5a3VqQ3RsRHBka2ZzTHBhc2Ryeko5SXF5TEx1Ykd5Y0M0UT09&amp;landing_sign=KAaOsXNKfwLkStZ2vMMdjg9oYckvEjMMUZDByADJv2o#"></iframe>
-                                         -->
 
                                         <h3>How to Earn the Prize </p></h3>
                                         <ol>
@@ -495,25 +482,7 @@
                 </div>
 
             </div>
-<!--
-            <div class="row">
-                <div class="conversation col-sm-12">
-                    <table>
-                        <tr>
-                            <td id="speechbubble"><img src="../static/img/icons/speech.gif"></td>
-                            <td>
-                                <h2>Join the conversation!</h2>
-                                <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
-                                    transparency, and reproducbility in the OSC Google Group.</p>
-                                <a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank" class="btn blue">
-                                    <i class="fa fa-pencil-square-o"></i> Sign up today
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
--->
+
         </div>
 
         <!-- END CONTENT -->
