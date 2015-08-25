@@ -32,7 +32,7 @@
 
                     <p class="lead">Scientists can improve the replicability of their own work through careful documentation, adherence to standards, and the use of open tools.
                     We answer questions and provide training on open and reproducible tools, methodologies, and workflows. Some examples:</p>
-                    <table class="col-md-10 col-md-offset-1">
+                    <table class="col-md-12 col-md-offset-1">
                         <tr>
                             <td><i class="fa fa-check"></i>Using R</td>
                             <td><i class="fa fa-check"></i>Learning Github</td>
@@ -46,7 +46,10 @@
                             <td><i class="fa fa-check"></i>Preregistering analysis plans</td>
                         </tr>
                     </table>
+                    <br>
+                    <p class="lead">This service is provided in patnership with the <a href="https://bitss.org">Berkeley Initiative for Transparency in the Social Sciences (BITSS)</a></p>
                 </div>
+
 
                 <div  class="col-md-3 col-md-offset-1">
                     <a href="mailto:stats-consulting@cos.io?subject=Request a Consultation">

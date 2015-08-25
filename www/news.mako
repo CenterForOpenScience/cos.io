@@ -38,7 +38,7 @@
                                 <td><h2 class="text-left">Science Isn’t Broken</h2></td>
                             </tr>
                         </table>
-                        <p class="text-left">August 19, 2015 | f you follow the headlines, your confidence in science may have taken a hit lately.
+                        <p class="text-left">August 19, 2015 | If you follow the headlines, your confidence in science may have taken a hit lately.
 
 Peer review? More like self-review. An investigation in November uncovered a scam in which researchers were rubber-stamping their own work, circumventing peer review at five high-profile publishers.</p>
                     </a>
