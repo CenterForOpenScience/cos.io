@@ -19,6 +19,7 @@
             <!--BEGIN CONTENT-->
             <div style="padding-bottom: 50px;">
                 <p>27 August 2015 - Charlottesville, VA</p>
+                <br>
                 <p>Today, 270 researchers investigating the reproducibility of psychological science published their findings in Science Magazine.  Launched nearly four years ago and coordinated by the <a href="https://cos.io">Center for Open Science</a>, the <a href="https://osf.io/ezcuj">Reproducibility Project: Psychology</a> has produced the most comprehensive investigation ever done about the rate and predictors of reproducibility in a field of science.  The project conducted replications of 100 published findings of three prominent psychology journals.  They found that regardless of the analytic method or criteria used, fewer than half of their replications produced the same findings as the original study.  Mallory Kidwell, one of the project coordinators from the <a href="https://cos.io">Center for Open Science</a>, concluded, “The results provide suggestive evidence toward the challenges of reproducing research findings, including identifying predictors of reproducibility and practices to improve it.”
 </p>
 
@@ -37,7 +38,10 @@
     
                 <p>Since the Reproducibility Project began in 2011, similar projects have emerged in other fields such as the <a href="http://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>.  And, a discipline of metascience is emerging - scientific research about scientific research.  These and the widespread efforts to improve research transparency and reproducibility are indications that, as suggested by team member Susann Fiedler from the Max Planck Institute for Research on Collective Goods, “science is actively self-examining and self-correcting to maximize the quality and efficiency of the research process in the service of building knowledge for the public good.”
 </p>
-
+<br>
+---
+                <p>The Reproducibility Project: Psychology is funded by the <a href="http://ljaf.org">Laura and John Arnold Foundation</a>.</p>
+                <p>The Center for Open Science is funded by grants and donations from the <a href="http://ljaf.org">Laura and John Arnold Foundation</a>, the <a href="www.templeton.org">John Templeton Foundation</a>, and <a href="http://cos.io/about_sponsors">several other foundations and agencies</a>.</p>
 <br>
 <h4><strong>More information</strong></h4>
 <ol>
