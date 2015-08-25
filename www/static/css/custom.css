@@ -112,7 +112,7 @@ body {
     background-size: 250px;
     border-radius: 125px;
     -webkit-border-radius: 125px;
-    -moz-border-radius: 125px;    
+    -moz-border-radius: 125px;
 }
 
 .whatWeDo p {
@@ -182,10 +182,18 @@ body {
     margin-bottom: 30px !important;
 }
 
+.service-box-v1 a:hover {
+    text-decoration: none;
+}
+
 .service-box-v1 {
     padding: 25px !important;
     text-align: center !important;
-    height: 370px !important;
+    width: 400px;
+    border: 1px solid #EEE;
+    margin: 11px;
+    float: left;
+    box-shadow: 0 0 3px #EEE;
 }
 
 .service-box p {
@@ -218,7 +226,7 @@ body {
 }
 
 .service-box-v1 h2{
-    margin-left: 20px;
+    margin: 0 0 10px 0;
 }
 
 .service-box-v1 p{
@@ -228,7 +236,7 @@ body {
 }
 
 .service-box-v1 img{
-    margin-bottom: 10px;
+    padding: 0 10px 10px 0;
 }
 
 .service-box-v1:hover i, .service-box-v1:hover p {
