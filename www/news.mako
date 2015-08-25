@@ -25,7 +25,11 @@
         <br><br>
 
         <!--END DESCRIPTION-->
-                <div class="row margin-bottom-20">
+                <div class="loading-msg text-center">
+                    <img src="/static/img/spinner.gif" alt="spinner">
+                    <p> Loading news</p>
+                </div>
+                <div class="margin-bottom-20 grid" style="display:none">
                     <div class="service-box-v1"> <a href="http://fivethirtyeight.com/features/science-isnt-broken/">
 
 
@@ -810,10 +814,22 @@ Peer review? More like self-review. An investigation in November uncovered a sca
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
     <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="/static/scripts/app.js"></script>
+    <script src="/static/plugins/masonry.pkgd.min.js"></script>
     <script type="text/javascript">
             jQuery(document).ready(function() {
                 App.init();
+
             });
+            jQuery(window).on('load', function(){
+                $('.loading-msg').hide();
+                $('.grid').show().masonry({
+                  itemSelector: '.service-box-v1',
+                  columnWidth: '.service-box-v1',
+                  percentPosition : true
+                });
+            });
+
         </script>
+
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>

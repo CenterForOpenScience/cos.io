@@ -189,13 +189,26 @@ body {
 .service-box-v1 {
     padding: 25px !important;
     text-align: center !important;
-    width: 400px;
     border: 1px solid #EEE;
-    margin: 11px;
-    float: left;
+    width: calc(33% - 20px);
     box-shadow: 0 0 3px #EEE;
+    float: left;
+    margin: 10px;
 }
 
+.service-box-v1-col2 {
+    width: calc(66% - 20px);
+}
+
+.service-box-v1-col3 {
+    width: calc(99% - 20px);
+}
+
+@media (max-width: 767px){
+    .service-box-v1 {
+    width: calc(99% - 20px);
+    }
+}
 .service-box p {
     color: #656565;
     font-size: 15px;
