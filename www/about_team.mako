@@ -72,19 +72,6 @@
             </ul>
         </div>
     </li>
-   <li class="col-md-3 space-mobile">
-       <div class="thumbnail">
-           <img src="../static/img/people/yetton.jpg" alt="Benjamin Yetton">
-           <h3>
-               Benjamin Yetton
-               <small>Developer Intern | Infrastructure</small>
-           </h3>
-           <ul class="social-icons social-icons-color">
-               <li><a href="https://github.com/bdyetton" data-original-title="GitHub" class="github"></a></li>
-               <li><a href="https://osf.io/3zbdw/" data-original-title="osf" class="osf"></a></li>
-           </ul>
-       </div>
-   </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/ferronato.jpg" alt="Betsy Ferronato">
@@ -968,6 +955,19 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+       <div class="thumbnail">
+           <img src="../static/img/people/yetton.jpg" alt="Benjamin Yetton">
+           <h3>
+               Benjamin Yetton
+               <small>Developer Intern | Infrastructure</small>
+           </h3>
+           <ul class="social-icons social-icons-color">
+               <li><a href="https://github.com/bdyetton" data-original-title="GitHub" class="github"></a></li>
+               <li><a href="https://osf.io/3zbdw/" data-original-title="osf" class="osf"></a></li>
+           </ul>
+       </div>
+   </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
