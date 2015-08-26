@@ -60,10 +60,22 @@
                 <h4><strong>Contact</strong></h4>
                 <p>The Reproducibility Project: Psychology Represents the collective efforts of 270 researchers. The following is a selection of contacts for the project to facilitate connection with local or regional researchers that can speak about the project, findings, and implications.</p>  
 
+                <p><b>Project Organization</b><br>
+                Center for Open Science, Executive Director<br>
+                Brian Nosek, <a href="mailto:nosek@cos.io" rel="nofollow">nosek@cos.io</a><br>
+                Nosek's Scheduler: Denise Holman, <a href="mailto:denise@cos.io">denise@cos.io</a><br></p>
+                <p><b>Reproducibility Project: Psychology, Project Coordinators</b><br>
+                Johanna Cohoon, <a href="mailto:johanna@cos.io" rel="nofollow">johanna@cos.io</a><br>
+                Mallory Kidwell, <a href="mailto:mallory@cos.io">mallory@cos.io</a></p>
+                <p><b>Project analysis, R-Scripts, and data management</b><br>
+                Marcel van Assen, <a href="mailto:M.A.L.M.vanAssen@uvt.nl" rel="nofollow">M.A.L.M.vanAssen@uvt.nl</a><br>
+                Sacha Epskamp, <a href="mailto:sacha.epskamp@gmail.com">sacha.epskamp@gmail.com</a><br>
+                Fred Hasselman, <a href="mailto:f.hasselman@pwo.ru.nl" rel="nofollow">f.hasselman@pwo.ru.nl</a><br></p>
+                <p><b>Regional Contacts:</b></p>
                 <p><b>Australia</b><br>
                 Patrick Goodbourn, <a href="mailto:patgoodbourn@gmail.com" rel="nofollow">patgoodbourn@gmail.com</a><br></p>
                 <p><b>Austria</b><br>
-                Martin Voracek <a href="mailto:martin.voracek@univie.ac.at" rel="nofollow">martin.voracek@univie.ac.at</a><br></p>
+                Martin Voracek, <a href="mailto:martin.voracek@univie.ac.at" rel="nofollow">martin.voracek@univie.ac.at</a><br></p>
                 <p><b>Belgium</b><br>
                 Wolf Vanpaemel, <a href="mailto:wolf.vanpaemel@ppw.kuleuven.be" rel="nofollow">wolf.vanpaemel@ppw.kuleuven.be</a><br></p>
                 <p><b>Canada</b><br>
@@ -71,7 +83,7 @@
                 Stanka Fitneva, <a href="mailto:fitneva@queensu.ca" rel="nofollow">fitneva@queensu.ca</a><br>
                 Sean Mackinnon, <a href="mailto:mackinnon.sean@gmail.com" rel="nofollow">mackinnon.sean@gmail.com</a></p>
                 <p><b>Czech Republic</b><br>
-                Štěpán Bahník <a href="mailto:bahniks@seznam.cz" rel="nofollow">bahniks@seznam.cz</a><br></p>
+                Štěpán Bahník, <a href="mailto:bahniks@seznam.cz" rel="nofollow">bahniks@seznam.cz</a><br></p>
                 <p><b>England</b><br>
                 Angela Attwood, <a href="mailto:Angela.Attwood@bristol.ac.uk" rel="nofollow">Angela.Attwood@bristol.ac.uk</a><br>
                 Gavin B. Sullivan, <a href="mailto:gavin.sullivan@coventry.ac.uk" rel="nofollow">gavin.sullivan@coventry.ac.uk</a></p>
@@ -112,17 +124,7 @@
                 Michael Cohn, <a href="mailto:michael.cohn@ucsf.edu" rel="nofollow">michael.cohn@ucsf.edu</a><br>
                 Carmel Levitan, <a href="mailto:levitan@oxy.edu" rel="nofollow">levitan@oxy.edu</a><br>
                 Leslie Cramblet Alvarez, <a href="mailto:lcramblet@adams.edu " rel="nofollow">lcramblet@adams.edu</a><br></p>
-                <p><b>Project Organization</b><br>
-                Center for Open Science, Executive Director<br>
-                Brian Nosek, <a href="mailto:nosek@cos.io" rel="nofollow">nosek@cos.io</a><br>
-                Nosek's Scheduler: Denise Holman, <a href="mailto:denise@cos.io">denise@cos.io</a><br></p>
-                <p><b>Reproducibility Project: Psychology, Project Coordinators</b><br>
-                Johanna Cohoon, <a href="mailto:johanna@cos.io" rel="nofollow">johanna@cos.io</a><br>
-                Mallory Kidwell, <a href="mailto:mallory@cos.io">mallory@cos.io</a></p>
-                <p><b>Project analysis, R-Scripts, and data management</b><br>
-                Marcel van Assen, <a href="mailto:M.A.L.M.vanAssen@uvt.nl" rel="nofollow">M.A.L.M.vanAssen@uvt.nl</a><br>
-                Sacha Epskamp, <a href="mailto:sacha.epskamp@gmail.com">sacha.epskamp@gmail.com</a><br>
-                Fred Hasselman, <a href="mailto:f.hasselman@pwo.ru.nl" rel="nofollow">f.hasselman@pwo.ru.nl</a><br></p>
+
                 
             </div>
             <!--END CONTENT-->
