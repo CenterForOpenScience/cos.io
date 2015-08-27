@@ -36,6 +36,15 @@
             <div class="margin-bottom-20 grid" style="display:none">
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2015-08-27"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Massive collaboration testing reproducibility of psychology studies publishes findings</h2>
+
+                    <p class="text-left">August 27, 2015 | Today, 270 researchers investigating the reproducibility of psychological science published their findings in Science Magazine. Launched nearly four years ago and coordinated by the Center for Open Science, the Reproducibility Project: Psychology has produced the most comprehensive investigation ever done about the rate and predictors of reproducibility in a field of science. </p></a>
+                </div>
+                <div class="service-box-v1">
+                    <a href=
                     "http://fivethirtyeight.com/features/science-isnt-broken/"><img src="../static/img/icons/fivethirtyeight.jpeg"
                     width="125">
 
