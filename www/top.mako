@@ -68,7 +68,7 @@
 
                     <div class="tab-content">
                         <div id="journals" class="tab-pane fade in active">
-                                <table data-toggle="table" data-url="/static/topjournals.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true">
+                                <table data-toggle="table" data-url="/static/topjournals.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
                                     <thead>
                                         <tr>
                                             <th data-field="Journal Title" data-sortable="true" class="col-md-4">Journal Title</th>
@@ -80,7 +80,7 @@
                                 </table>   
                         </div>
                         <div id="Organizations" class="tab-pane fade">
-                                <table data-toggle="table" data-url="/static/toporgs.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true">
+                                <table data-toggle="table" data-url="/static/toporgs.json" data-height="799" data-sort-name="Organization" data-sort-order="asc" data-search="true">
                                     <thead>
                                         <tr>
                                             <th data-field="Organization" data-sortable="true">Organization</th>
