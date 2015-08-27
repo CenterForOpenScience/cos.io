@@ -46,10 +46,10 @@
                 <h4><strong>More information</strong></h4>
                 <ol>
                     <li>Science publication of the results of the Reproducibility Project: Psychology: <a href="http://www.sciencemag.org/lookup/doi/10.1126/science.aac4716">http://www.sciencemag.org/lookup/doi/10.1126/science.aac4716</a></li>
-                    <li><a href="https://osf.io/ezcuj">Reproducibility Project: Psychology</a> website at the <a href="https://osf.io">Open Science Framework</a> with all project details, materials, data, and authors: <a href="https://osf.io/ezcuj">https://osf.io/ezcuj/</a></li> 
-                    <li><a href="https://cos.io/top">TOP Guidelines</a> website with link to the June Science publication introducing them and information about the guidelines, signatories (>500 journals already), and related efforts across science disciplines: <a href="http://cos.io/top">http://cos.io/top</a> </li>
-                    <li><a href="https://cos.io/"> Center for Open Science</a>, sponsor of the Reproducibility Project: Psychology and <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>: <a href="http://cos.io">http://cos.io/</a> </li>
-                    <li><a href="http://osf.io">Open Science Framework</a>: Free, open-source infrastructure for researchers to facilitate sharing of research materials and data: <a href="http://osf.io">http://osf.io/</a></li> 
+                    <li><a href="https://osf.io/ezcuj">Reproducibility Project: Psychology website</a>  (https://osf.io/ezcuj/) at the <a href="https://osf.io">Open Science Framework</a> with all project details, materials, data, and authors</li> 
+                    <li><a href="https://cos.io/top">TOP Guidelines website</a> (http://cos.io/top) with link to the June Science publication introducing them and information about the guidelines, signatories (>500 journals already), and related efforts across science disciplines</li>
+                    <li><a href="https://cos.io/"> Center for Open Science</a> (http://cos.io), sponsor of the Reproducibility Project: Psychology and <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology</a> (https://osf.io/e81xl)</li>
+                    <li><a href="http://osf.io">Open Science Framework</a> (https://osf.io): Free, open-source infrastructure for researchers to facilitate sharing of research materials and data</li> 
                 </ol>
                  
 
