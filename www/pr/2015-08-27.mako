@@ -12,7 +12,7 @@
 
             <div style="padding-bottom: 10px">
                 <div style=" padding-bottom: 10px">
-                    <h1><strong>Massive collaboration testing reproducibility of psychology studies publishes findings</strong></h1><br>
+                    <h1><strong>Massive Collaboration Testing Reproducibility of Psychology Studies Publishes Findings</strong></h1><br>
                 </div>
             </div>
             <!--END DESCRIPTION-->
