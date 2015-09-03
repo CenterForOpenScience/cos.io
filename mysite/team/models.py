@@ -3,7 +3,6 @@ from easy_thumbnails.files import get_thumbnailer
 from image_cropping import ImageRatioField, ImageCropField
 from mysite.utils import make_request, auth
 import httplib2
-from googleapiclient.discovery import build
 
 from mysite.mailing_list.models import MailingList
 

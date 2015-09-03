@@ -1,10 +1,11 @@
-import httplib2
+import gdata
 
 from django.db import models
-from googleapiclient.discovery import build
+# from googleapiclient.discovery import build
 from django.contrib.auth.models import User
 from oauth2client.django_orm import CredentialsField
 
+import mysite.settings
 from mysite.utils import make_request, auth
 
 
@@ -14,8 +15,13 @@ class CredentialsModel(models.Model):
 
 
 class MailingList(models.Model):
+
     name = models.CharField(max_length=200, blank=False)
     email = models.CharField(max_length=200, blank=False)
+
+    def __init__(self, *args, **kwargs):
+        self.request = kwargs.pop('request', None)
+        super(MailingList, self).__init__(*args, **kwargs)
 
     def __unicode__(self):
         return self.name
@@ -40,15 +46,29 @@ class MailingList(models.Model):
 
     def _make_mailing_list(self):
         scope = 'https://www.googleapis.com/auth/admin.directory.group'
-        post_data = {
-            'email': self.email,
-            'name': self.name
-        }
-        credentials = auth(scope)
-        http_auth = credentials.authorize(httplib2.Http())
-        service = build('admin', 'directory_v1', http=http_auth)
-        create = service.groups().insert(body=post_data)
-        return create.exexute()
+
+        # Try to fetch the authentication token from the session
+        auth_token = self.request.session.get('google_auth_token')
+
+        # If an authentication token does not exist already,
+        # create one and store it in the session.
+        if not auth_token:
+            auth_token = gdata.gauth.OAuth2Token(
+                client_id=GOOGLE_CLIENT_ID,
+                client_secret=GOOGLE_CLIENT_SECRET,
+                scope=scope,
+                user_agent=USER_AGENT)
+            self.request.session['google_auth_token'] = auth_token
+
+        # post_data = {
+        #     'email': self.email,
+        #     'name': self.name
+        # }
+        # credentials = auth(scope)
+        # http_auth = credentials.authorize(httplib2.Http())
+        # service = build('admin', 'directory_v1', http=http_auth)
+        # create = service.groups().insert(body=post_data)
+        # return create.exexute()
 
     class Meta:
         ordering = ('name',)
@@ -75,7 +95,7 @@ class Staff(models.Model):
 
     def delete(self):
         scope = '/admin/directory/v1/groups/{group_key}/members/{member_key}'.format(member_key=self.email)
-        request = make_request('DELETE', 'www.googleapis.com', scope)
+        self.request = make_request('DELETE', 'www.googleapis.com', scope)
         return super(Staff, self).delete()
 
     def update(self):
