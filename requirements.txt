@@ -24,6 +24,7 @@ html5lib==0.99999
 Mezzanine==3.1.10
 oauth2client==1.4.12
 oauthlib==0.7.2
+oauth2client==1.4.12
 pbr==0.11.0
 Pillow==2.8.1
 #psycopg2==2.6

@@ -10,7 +10,7 @@ from mysite.main.views import (AboutBoardPageView, AboutPageView, MissionPageVie
                                ServicePageView, GetInvolvedPageView, ApsPageView, CommunitiesPageView,
                                InvolvedParticipatesPageView, SponsorsPageView, StatsPageView, PrPageView,
                                TeamPageView, JobsPageView, AmbassadorsPageView, NewsPageView, OsfPageView,
-                               TopPageView, google_login)
+                               TopPageView,)
 
 admin.autodiscover()
 

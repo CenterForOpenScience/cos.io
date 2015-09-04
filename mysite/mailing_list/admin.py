@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.shortcuts import redirect
 
-from .models import MailingList, Staff
+from .models import MailingList
 
 
 class MailingListAdmin(admin.ModelAdmin):
@@ -31,9 +31,5 @@ class MailingListAdmin(admin.ModelAdmin):
         return redirect(authorize_url)
 
 
-class StaffAdmin(admin.ModelAdmin):
-    list_display = ('first_name', 'last_name',)
-
-
 admin.site.register(MailingList, MailingListAdmin)
-admin.site.register(Staff, StaffAdmin)
+
