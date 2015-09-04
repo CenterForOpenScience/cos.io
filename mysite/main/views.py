@@ -1,5 +1,7 @@
 import os
-from django.shortcuts import render_to_response
+
+from django.http import Http404
+from django.shortcuts import render_to_response, redirect
 from django.views import generic
 
 from mysite.news.models import News
@@ -7,6 +9,7 @@ from mysite.team.models import Team
 from mysite.main.models import Pages
 from mysite.jobs.models import Section
 from mysite.ambassadors.models import Ambassadors
+from mysite.settings import GOOGLE_APPLICATION_REDIRECT_URI, GOOGLE_REDIRECT_SESSION_VAR
 
 
 class AboutPageView(generic.TemplateView):
@@ -192,3 +195,30 @@ class TopPageView(generic.TemplateView):
         context = super(TopPageView, self).get_context_data(**kwargs)
         context['page'] = Pages.objects.filter(slug=u'top')
         return context
+
+
+def google_login(request):
+
+    # Fetch the auth_token that we set in our base view
+    auth_token = request.session.get('google_auth_token')
+
+    # The code that google sends in case of a successful authentication
+    code = request.GET.get('code')
+
+    if code and auth_token:
+        # Set the redirect url on the token
+        auth_token.redirect_uri = GOOGLE_APPLICATION_REDIRECT_URI
+
+        # Generate the access token
+        auth_token.get_access_token(code)
+
+        request.session['google_auth_token'] = auth_token
+
+        # Populate a session variable indicating successful authentication
+        request.session[GOOGLE_COOKIE_CONSENT] = code
+
+        # Redirect to your base page
+        return redirect(request.session.get(GOOGLE_REDIRECT_SESSION_VAR))
+
+    # If user has not authenticated the app
+    return redirect('/')

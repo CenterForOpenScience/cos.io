@@ -14,19 +14,19 @@ from __future__ import absolute_import, unicode_literals
 # Controls the ordering and grouping of the admin menu.
 #
 # ADMIN_MENU_ORDER = (
-#     ("Content", ("pages.Page", "blog.BlogPost",
-#        "generic.ThreadedComment", ("Media Library", "fb_browse"),)),
-#     ("Site", ("sites.Site", "redirects.Redirect", "conf.Setting")),
-#     ("Users", ("auth.User", "auth.Group",)),
+#     ('Content', ('pages.Page', 'blog.BlogPost',
+#        'generic.ThreadedComment', ('Media Library', 'fb_browse'),)),
+#     ('Site', ('sites.Site', 'redirects.Redirect', 'conf.Setting')),
+#     ('Users', ('auth.User', 'auth.Group',)),
 # )
 
 # A three item sequence, each containing a sequence of template tags
 # used to render the admin dashboard.
 #
 # DASHBOARD_TAGS = (
-#     ("blog_tags.quick_blog", "mezzanine_tags.app_list"),
-#     ("comment_tags.recent_comments",),
-#     ("mezzanine_tags.recent_actions",),
+#     ('blog_tags.quick_blog', 'mezzanine_tags.app_list'),
+#     ('comment_tags.recent_comments',),
+#     ('mezzanine_tags.recent_actions',),
 # )
 
 # A sequence of templates used by the ``page_menu`` template tag. Each
@@ -37,9 +37,9 @@ from __future__ import absolute_import, unicode_literals
 # that doesn't appear in this setting, all pages will appear in it.
 
 # PAGE_MENU_TEMPLATES = (
-#     (1, "Top navigation bar", "pages/menus/dropdown.html"),
-#     (2, "Left-hand tree", "pages/menus/tree.html"),
-#     (3, "Footer", "pages/menus/footer.html"),
+#     (1, 'Top navigation bar', 'pages/menus/dropdown.html'),
+#     (2, 'Left-hand tree', 'pages/menus/tree.html'),
+#     (3, 'Footer', 'pages/menus/footer.html'),
 # )
 
 # A sequence of fields that will be injected into Mezzanine's (or any
@@ -54,20 +54,20 @@ from __future__ import absolute_import, unicode_literals
 # EXTRA_MODEL_FIELDS = (
 #     (
 #         # Dotted path to field.
-#         "mezzanine.blog.models.BlogPost.image",
+#         'mezzanine.blog.models.BlogPost.image',
 #         # Dotted path to field class.
-#         "somelib.fields.ImageField",
+#         'somelib.fields.ImageField',
 #         # Positional args for field class.
-#         ("Image",),
+#         ('Image',),
 #         # Keyword args for field class.
-#         {"blank": True, "upload_to": "blog"},
+#         {'blank': True, 'upload_to': 'blog'},
 #     ),
 #     # Example of adding a field to *all* of Mezzanine's content types:
 #     (
-#         "mezzanine.pages.models.Page.another_field",
-#         "IntegerField", # 'django.db.models.' is implied if path is omitted.
-#         ("Another name",),
-#         {"blank": True, "default": 1},
+#         'mezzanine.pages.models.Page.another_field',
+#         'IntegerField', # 'django.db.models.' is implied if path is omitted.
+#         ('Another name',),
+#         {'blank': True, 'default': 1},
 #     ),
 # )
 
@@ -102,7 +102,7 @@ MANAGERS = ADMINS
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -118,7 +118,7 @@ USE_TZ = False
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = "en"
+LANGUAGE_CODE = 'en'
 
 # Supported languages
 _ = lambda s: s
@@ -142,21 +142,21 @@ USE_I18N = False
 # Tuple of IP addresses, as strings, that:
 #   * See debug comments, when DEBUG is true
 #   * Receive x-headers
-INTERNAL_IPS = ("127.0.0.1",)
+INTERNAL_IPS = ('127.0.0.1',)
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
-    "django.template.loaders.filesystem.Loader",
-    "django.template.loaders.app_directories.Loader",
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
 )
 
-AUTHENTICATION_BACKENDS = ("mezzanine.core.auth_backends.MezzanineBackend",)
+AUTHENTICATION_BACKENDS = ('mezzanine.core.auth_backends.MezzanineBackend',)
 
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
-    "django.contrib.staticfiles.finders.FileSystemFinder",
-    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'django.contrib.staticfiles.finders.DefaultStorageFinder'
 )
 
@@ -171,19 +171,19 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 #############
 
 DATABASES = {
-    "default": {
-        # Add "postgresql_psycopg2", "mysql", "sqlite3" or "oracle".
-        "ENGINE": "django.db.backends.dev.db",
+    'default': {
+        # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'ENGINE': 'django.db.backends.dev.db',
         # DB name or path to database file if using sqlite3.
-        "NAME": "",
+        'NAME': '',
         # Not used with sqlite3.
-        "USER": "",
+        'USER': '',
         # Not used with sqlite3.
-        "PASSWORD": "",
+        'PASSWORD': '',
         # Set to empty string for localhost. Not used with sqlite3.
-        "HOST": "",
+        'HOST': '',
         # Set to empty string for default. Not used with sqlite3.
-        "PORT": "",
+        'PORT': '',
     }
 }
 
@@ -205,41 +205,41 @@ PROJECT_DIRNAME = PROJECT_ROOT.split(os.sep)[-1]
 CACHE_MIDDLEWARE_KEY_PREFIX = PROJECT_DIRNAME
 
 # URL prefix for static files.
-# Example: "http://media.lawrence.com/static/"
-STATIC_URL = "/static/"
+# Example: 'http://media.lawrence.com/static/'
+STATIC_URL = '/static/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
-# in apps' "static/" subdirectories and in STATICFILES_DIRS.
-# Example: "/home/media/media.lawrence.com/static/"
-# STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# in apps' 'static/' subdirectories and in STATICFILES_DIRS.
+# Example: '/home/media/media.lawrence.com/static/'
+# STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip('/'))
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
-# Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = STATIC_URL + "/static/media/"
-MEDIA_ROOT = os.path.join(PROJECT_ROOT, "../static/media")
+# Examples: 'http://media.lawrence.com/media/', 'http://example.com/media/'
+MEDIA_URL = STATIC_URL + '/static/media/'
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, '../static/media')
 
-CKEDITOR_UPLOAD_PATH = "../uploads"
+CKEDITOR_UPLOAD_PATH = '../uploads'
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, "static"),
+    os.path.join(PROJECT_ROOT, 'static'),
 )
 
 FIXTURE_DIRS = (os.path.join(PROJECT_ROOT, 'fixtures'),)
 # Absolute filesystem path to the directory that will hold user-uploaded files.
-# Example: "/home/media/media.lawrence.com/media/"
+# Example: '/home/media/media.lawrence.com/media/'
 
 
 # Package/module name to import the root urlpatterns from for the project.
-ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
+ROOT_URLCONF = '%s.urls' % PROJECT_DIRNAME
 
-# Put strings here, like "/home/html/django_templates"
-# or "C:/www/django/templates".
+# Put strings here, like '/home/html/django_templates'
+# or 'C:/www/django/templates'.
 # Always use forward slashes, even on Windows.
 # Don't forget to use absolute paths, not relative paths.
-TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "../templates"),)
+TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, '../templates'),)
 
 
 ################
@@ -247,37 +247,37 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "../templates"),)
 ################
 
 INSTALLED_APPS = (
-    "django.contrib.admin",
-    "django.contrib.auth",
-    "django.contrib.contenttypes",
-    "django.contrib.redirects",
-    "django.contrib.sessions",
-    "django.contrib.sites",
-    "mezzanine.pages",
-    "django.contrib.sitemaps",
-    "django.contrib.staticfiles",
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.redirects',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'mezzanine.pages',
+    'django.contrib.sitemaps',
+    'django.contrib.staticfiles',
     'robots',
-    "mezzanine.boot",
-    "mezzanine.conf",
-    "mezzanine.core",
-    "mezzanine.generic",
-    "mezzanine.blog",
-    "mezzanine.forms",
-    "mezzanine.galleries",
-    "mezzanine.twitter",
-    "mysite.jobs",
-    "mysite.team",
-    "mysite.main",
-    "mysite.news",
-    "mysite.mailing_list",
-    "mysite.ambassadors",
-    "easy_thumbnails",
-    "image_cropping",
+    'mezzanine.boot',
+    'mezzanine.conf',
+    'mezzanine.core',
+    'mezzanine.generic',
+    'mezzanine.blog',
+    'mezzanine.forms',
+    'mezzanine.galleries',
+    'mezzanine.twitter',
+    'mysite.jobs',
+    'mysite.team',
+    'mysite.main',
+    'mysite.news',
+    'mysite.mailing_list',
+    'mysite.ambassadors',
+    'easy_thumbnails',
+    'image_cropping',
     'nested_inline',
-    "ckeditor",
-    "django_extlog",
-    "django_extensions",
-    "email_obfuscator",
+    'ckeditor',
+    'django_extlog',
+    'django_extensions',
+    'email_obfuscator',
 )
 
 
@@ -287,47 +287,47 @@ SOUTH_TESTS_MIGRATE = False
 # Each one should be a callable that takes the request object as its
 # only parameter and returns a dictionary to add to the context.
 TEMPLATE_CONTEXT_PROCESSORS = (
-    "django.contrib.auth.context_processors.auth",
-    "django.contrib.messages.context_processors.messages",
-    "django.core.context_processors.debug",
-    "django.core.context_processors.i18n",
-    "django.core.context_processors.static",
-    "django.core.context_processors.media",
-    "django.core.context_processors.request",
-    "django.core.context_processors.tz",
-    "mezzanine.conf.context_processors.settings",
-    "mezzanine.pages.context_processors.page",
+    'django.contrib.auth.context_processors.auth',
+    'django.contrib.messages.context_processors.messages',
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.static',
+    'django.core.context_processors.media',
+    'django.core.context_processors.request',
+    'django.core.context_processors.tz',
+    'mezzanine.conf.context_processors.settings',
+    'mezzanine.pages.context_processors.page',
 )
 
 # List of middleware classes to use. Order is important; in the request phase,
 # these middleware classes will be applied in the order given, and in the
 # response phase the middleware will be applied in reverse order.
 MIDDLEWARE_CLASSES = (
-    "mezzanine.core.middleware.UpdateCacheMiddleware",
-    "django.contrib.sessions.middleware.SessionMiddleware",
-    "django.middleware.locale.LocaleMiddleware",
-    "django.contrib.auth.middleware.AuthenticationMiddleware",
-    "django.middleware.common.CommonMiddleware",
-    "django.middleware.csrf.CsrfViewMiddleware",
-    "django.contrib.messages.middleware.MessageMiddleware",
-    "mezzanine.core.request.CurrentRequestMiddleware",
-    "mezzanine.core.middleware.RedirectFallbackMiddleware",
-    "mezzanine.core.middleware.TemplateForDeviceMiddleware",
-    "mezzanine.core.middleware.TemplateForHostMiddleware",
-    "mezzanine.core.middleware.AdminLoginInterfaceSelectorMiddleware",
-    "mezzanine.core.middleware.SitePermissionMiddleware",
+    'mezzanine.core.middleware.UpdateCacheMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'mezzanine.core.request.CurrentRequestMiddleware',
+    'mezzanine.core.middleware.RedirectFallbackMiddleware',
+    'mezzanine.core.middleware.TemplateForDeviceMiddleware',
+    'mezzanine.core.middleware.TemplateForHostMiddleware',
+    'mezzanine.core.middleware.AdminLoginInterfaceSelectorMiddleware',
+    'mezzanine.core.middleware.SitePermissionMiddleware',
     # Uncomment the following if using any of the SSL settings:
-    # "mezzanine.core.middleware.SSLRedirectMiddleware",
-    "mezzanine.pages.middleware.PageMiddleware",
-    "mezzanine.core.middleware.FetchFromCacheMiddleware",
+    # 'mezzanine.core.middleware.SSLRedirectMiddleware',
+    'mezzanine.pages.middleware.PageMiddleware',
+    'mezzanine.core.middleware.FetchFromCacheMiddleware',
     #keeping log
-    "django_extlog.middleware.AuditLoggingMiddleware",
+    'django_extlog.middleware.AuditLoggingMiddleware',
 )
 
 # Store these package names here as they may change in the future since
 # at the moment we are using custom forks of them.
-PACKAGE_NAME_FILEBROWSER = "filebrowser_safe"
-PACKAGE_NAME_GRAPPELLI = "grappelli_safe"
+PACKAGE_NAME_FILEBROWSER = 'filebrowser_safe'
+PACKAGE_NAME_GRAPPELLI = 'grappelli_safe'
 
 #########################
 # OPTIONAL APPLICATIONS #
@@ -335,9 +335,9 @@ PACKAGE_NAME_GRAPPELLI = "grappelli_safe"
 
 # These will be added to ``INSTALLED_APPS``, only if available.
 OPTIONAL_APPS = (
-    # "debug_toolbar",
-    "django_extensions",
-    "compressor",
+    # 'debug_toolbar',
+    'django_extensions',
+    'compressor',
     PACKAGE_NAME_FILEBROWSER,
     PACKAGE_NAME_GRAPPELLI,
 )
@@ -351,19 +351,19 @@ OPTIONAL_APPS = (
 # Check fabfile.py for defaults.
 
 # FABRIC = {
-#     "SSH_USER": "", # SSH username for host deploying to
-#     "HOSTS": ALLOWED_HOSTS[:1], # List of hosts to deploy to (eg, first host)
-#     "DOMAINS": ALLOWED_HOSTS, # Domains for public site
-#     "REPO_URL": "ssh://hg@bitbucket.org/user/project", # Project's repo URL
-#     "VIRTUALENV_HOME":  "", # Absolute remote path for virtualenvs
-#     "PROJECT_NAME": "", # Unique identifier for project
-#     "REQUIREMENTS_PATH": "requirements.txt", # Project's pip requirements
-#     "GUNICORN_PORT": 8000, # Port gunicorn will listen on
-#     "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
-#     "DB_PASS": "", # Live database password
-#     "ADMIN_PASS": "", # Live admin user password
-#     "SECRET_KEY": SECRET_KEY,
-#     "NEVERCACHE_KEY": NEVERCACHE_KEY,
+#     'SSH_USER': '', # SSH username for host deploying to
+#     'HOSTS': ALLOWED_HOSTS[:1], # List of hosts to deploy to (eg, first host)
+#     'DOMAINS': ALLOWED_HOSTS, # Domains for public site
+#     'REPO_URL': 'ssh://hg@bitbucket.org/user/project', # Project's repo URL
+#     'VIRTUALENV_HOME':  '', # Absolute remote path for virtualenvs
+#     'PROJECT_NAME': '', # Unique identifier for project
+#     'REQUIREMENTS_PATH': 'requirements.txt', # Project's pip requirements
+#     'GUNICORN_PORT': 8000, # Port gunicorn will listen on
+#     'LOCALE': 'en_US.UTF-8', # Should end with '.UTF-8'
+#     'DB_PASS': '', # Live database password
+#     'ADMIN_PASS': '', # Live admin user password
+#     'SECRET_KEY': SECRET_KEY,
+#     'NEVERCACHE_KEY': NEVERCACHE_KEY,
 # }
 
 
@@ -377,9 +377,16 @@ OPTIONAL_APPS = (
 try:
     from mysite.local_settings import *
 except ImportError as e:
-    if "local_settings" not in str(e):
+    if 'local_settings' not in str(e):
         raise e
 
+
+GOOGLE_CLIENT_ID='578636167063-uqql4sem3lqi22i59cd5je7nidcr4d00.apps.googleusercontent.com'
+GOOGLE_CLIENT_SECRET='e6W_SSpj4okE0-1QpGxxntSo'
+#URL where the flow should go on successful authentication
+GOOGLE_APPLICATION_REDIRECT_URI = '/google_login'
+GOOGLE_REDIRECT_SESSION_VAR = 'session'
+LOGIN_REDIRECT_URL = ('')
 
 ####################
 # DYNAMIC SETTINGS #
@@ -415,3 +422,4 @@ CKEDITOR_CONFIGS = {
             'toolbar': None,
         },
     }
+APPEND_SLASH = True
