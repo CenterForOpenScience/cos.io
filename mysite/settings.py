@@ -75,9 +75,6 @@ from __future__ import absolute_import, unicode_literals
 #
 BLOG_USE_FEATURED_IMAGE = True
 
-GOOGLE_CLIENT_ID=''
-GOOGLE_CLIENT_SECRET=''
-
 # If True, the south application will be automatically added to the
 # INSTALLED_APPS setting.
 import os

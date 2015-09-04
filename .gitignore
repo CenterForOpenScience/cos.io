@@ -4,6 +4,7 @@
 */__pycache__/*
 # DB / Migrations
 db.sqlite3
+dev.db
 migrations
 /static/*
 !/static/media/
