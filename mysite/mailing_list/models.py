@@ -1,12 +1,13 @@
-import gdata
+import httplib2
 
 from django.db import models
-# from googleapiclient.discovery import build
+from django.forms import ModelForm
+from googleapiclient.discovery import build
 from django.contrib.auth.models import User
 from oauth2client.django_orm import CredentialsField
+from oauth2client.django_orm import Storage
 
-import mysite.settings
-from mysite.utils import make_request, auth
+from mysite.utils import make_request
 
 
 class CredentialsModel(models.Model):
@@ -18,6 +19,7 @@ class MailingList(models.Model):
 
     name = models.CharField(max_length=200, blank=False)
     email = models.CharField(max_length=200, blank=False)
+    user = models.ForeignKey(User)
 
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop('request', None)
@@ -28,7 +30,6 @@ class MailingList(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.pk:
-            pass
             self._make_mailing_list()
         else:
             self.update()
@@ -36,42 +37,42 @@ class MailingList(models.Model):
 
     def delete(self, *args, **kwargs):
         scope = '/admin/directory/v1/groups/{}'.format(self.email)
-        request = make_request('DELETE', 'www.googleapis.com', scope)
+        make_request('DELETE', 'www.googleapis.com', scope)
         return super(MailingList, self).delete(*args, **kwargs)
 
-    def update(self):
+    def update(self, *args, **kwargs):
         scope = '/admin/directory/v1/groups/{}'.format(self.email)
-        request = make_request('PUT', 'www.googleapis.com', scope)
-        return request
+        make_request('PUT', 'www.googleapis.com', scope)
+        return super(MailingList, self).delete(*args, **kwargs)
 
     def _make_mailing_list(self):
-        scope = 'https://www.googleapis.com/auth/admin.directory.group'
+        # fetch the user's credentials created from `/accounts/login/`
+        storage = Storage(CredentialsModel, 'id', self.user, 'credential')
+        credential = storage.get()
+        import ipdb; ipdb.set_trace()
 
-        # Try to fetch the authentication token from the session
-        auth_token = self.request.session.get('google_auth_token')
+        # TODO send them to the login page
+        if credential is None or credential.invalid is True:
+            return
 
-        # If an authentication token does not exist already,
-        # create one and store it in the session.
-        if not auth_token:
-            auth_token = gdata.gauth.OAuth2Token(
-                client_id=GOOGLE_CLIENT_ID,
-                client_secret=GOOGLE_CLIENT_SECRET,
-                scope=scope,
-                user_agent=USER_AGENT)
-            self.request.session['google_auth_token'] = auth_token
+        post_data = {
+            'email': self.email,
+            'name': self.name
+        }
+        http = credential.authorize(httplib2.Http())
+        service = build('admin', 'directory_v1', http=http)
+        create = service.groups().insert(body=post_data)
 
-        # post_data = {
-        #     'email': self.email,
-        #     'name': self.name
-        # }
-        # credentials = auth(scope)
-        # http_auth = credentials.authorize(httplib2.Http())
-        # service = build('admin', 'directory_v1', http=http_auth)
-        # create = service.groups().insert(body=post_data)
-        # return create.exexute()
+        # should return the API response
+        return create.execute()
 
     class Meta:
         ordering = ('name',)
         verbose_name_plural = u'Edit COS Mailing lists'
         verbose_name = u'Mailing Lists'
 
+
+class MailingListForm(ModelForm):
+    class Meta:
+        model = MailingList
+        fields = ['name', 'email']
