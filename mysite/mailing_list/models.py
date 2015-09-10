@@ -44,9 +44,10 @@ class MailingList(models.Model):
 
         # if the token is out of date, make the user login again
         try:
-            return delete.execute()
+            delete.execute()
         except:
-            HttpResponseRedirect('/accounts/login/')
+            return HttpResponseRedirect('/accounts/login/')
+        return super(MailingList, self).delete(*args, **kwargs)
 
     def update(self, *args, **kwargs):
         storage = Storage(CredentialsModel, 'id', self.user, 'credential')
@@ -67,9 +68,10 @@ class MailingList(models.Model):
 
         # if the token is out of date, make the user login again
         try:
-            return create.execute()
+            create.execute()
         except:
-            HttpResponseRedirect('/accounts/login/')
+            return HttpResponseRedirect('/accounts/login/')
+        return super(MailingList, self).delete(*args, **kwargs)
 
     def _make_mailing_list(self):
         # fetch the user's credentials created from `/accounts/login/`
