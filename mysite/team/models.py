@@ -1,5 +1,6 @@
 from django.db import models
 from easy_thumbnails.files import get_thumbnailer
+from googleapiclient.discovery import build
 from image_cropping import ImageRatioField, ImageCropField
 from mysite.utils import make_request, auth
 import httplib2
@@ -14,8 +15,8 @@ class Team(models.Model):
     original_image_width = models.PositiveIntegerField(null=True)
     original_image_height = models.PositiveIntegerField(null=True)
 
-    thumb_image_width = models.PositiveIntegerField(null=False, blank=False)
-    thumb_image_height = models.PositiveIntegerField(null=False, blank=False)
+    thumb_image_width = models.PositiveIntegerField(null=False, blank=False, default=0)
+    thumb_image_height = models.PositiveIntegerField(null=False, blank=False, default=0)
 
     image = ImageCropField(upload_to='uploaded_images')
     mini_image = ImageRatioField('image', free_crop=True)

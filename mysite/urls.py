@@ -26,7 +26,7 @@ urlpatterns = i18n_patterns('',
 )
 
 urlpatterns += patterns('',
-    url('^$', views.HomepageView.as_view(), {'template': 'index.html'}, name='home'),
+    url('^$', views.HomepageView.as_view(), {'template': 'page/index.html'}, name='home'),
     url(r'^(?i)$', views.HomepageView.as_view(), name='homepage'),
     url(r'^(?i)aps', ApsPageView.as_view(), name='aps'),
     url(r'^(?i)top$', TopPageView.as_view(), name='top'),
