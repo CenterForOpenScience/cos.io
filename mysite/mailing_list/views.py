@@ -1,11 +1,7 @@
 import os
-import logging
-import httplib2
 
-from apiclient.discovery import build
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponseBadRequest
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseBadRequest, HttpResponseRedirect
 from oauth2client import xsrfutil
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.django_orm import Storage
@@ -30,7 +26,7 @@ def index(request):
     storage = Storage(CredentialsModel, 'id', request.user, 'credential')
     credential = storage.get()
 
-    if credential is None or credential.invalid is True:
+    if credential is None or credential.invalid:
         FLOW.params['state'] = xsrfutil.generate_token(SECRET_KEY,
                                                        str(request.user))
         authorize_url = FLOW.step1_get_authorize_url()
