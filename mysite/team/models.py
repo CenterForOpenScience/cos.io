@@ -1,10 +1,13 @@
-from django.db import models
-from easy_thumbnails.files import get_thumbnailer
-from googleapiclient.discovery import build
-from image_cropping import ImageRatioField, ImageCropField
-from mysite.utils import make_request, auth
 import httplib2
 
+from django.db import models
+from googleapiclient.discovery import build
+from django.contrib.auth.models import User
+from oauth2client.django_orm import Storage
+from easy_thumbnails.files import get_thumbnailer
+from image_cropping import ImageRatioField, ImageCropField
+
+from mysite.mailing_list.models import CredentialsModel
 from mysite.mailing_list.models import MailingList
 
 
@@ -38,6 +41,7 @@ class Team(models.Model):
     personal_website = models.CharField(max_length=255, null=True, blank=True)
 
     mailing_lists = models.ManyToManyField(MailingList, null=True, blank=True)
+    creator = models.ForeignKey(User)
 
     def __unicode__(self):
         return self.name
@@ -45,24 +49,32 @@ class Team(models.Model):
     def get_thumb_max_size(self):
         return str(self.thumb_image_width) + 'x' + str(self.thumb_image_height)
 
-    def add_to_group(self, email):
-        mail = email
-        scope = 'https://www.googleapis.com/auth/admin.directory.member'
+    def add_to_group(self, mailing_list):
+        storage = Storage(CredentialsModel, 'id', self.creator, 'credential')
+        credential = storage.get()
+
+        if credential is None or credential.invalid:
+            return False
+
+        mail = mailing_list.email
         post_data = {
             'email': self.email,
             'role': 'MEMBER'
         }
-        credentials = auth(scope)
-        http_auth = credentials.authorize(httplib2.Http())
+        http_auth = credential.authorize(httplib2.Http())
         service = build('admin', 'directory_v1', http=http_auth)
         create = service.members().insert(groupKey=mail, body=post_data)
         return create.execute()
 
-    def remove_from_group(self, email):
-        mail = email
-        scope = 'https://www.googleapis.com/auth/admin.directory.member'
-        credentials = auth(scope)
-        http_auth = credentials.authorize(httplib2.Http())
+    def remove_from_group(self, mailing_list):
+        storage = Storage(CredentialsModel, 'id', self.creator, 'credential')
+        credential = storage.get()
+
+        if credential is None or credential.invalid:
+            return False
+
+        mail = mailing_list.email
+        http_auth = credential.authorize(httplib2.Http())
         service = build('admin', 'directory_v1', http=http_auth)
         create = service.members().delete(groupKey=mail, memberKey=self.email)
         return create.execute()
