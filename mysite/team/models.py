@@ -47,7 +47,7 @@ class Team(models.Model):
 
     def add_to_group(self, email):
         mail = email
-        scope = 'https://www.googleapis.com/auth/admin.directory.members'
+        scope = 'https://www.googleapis.com/auth/admin.directory.member'
         post_data = {
             'email': self.email,
             'role': 'MEMBER'
@@ -60,7 +60,7 @@ class Team(models.Model):
 
     def remove_from_group(self, email):
         mail = email
-        scope = 'https://www.googleapis.com/auth/admin.directory.members'
+        scope = 'https://www.googleapis.com/auth/admin.directory.member'
         credentials = auth(scope)
         http_auth = credentials.authorize(httplib2.Http())
         service = build('admin', 'directory_v1', http=http_auth)
