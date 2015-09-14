@@ -1,4 +1,3 @@
-
 <%inherit file="_base.mako"/>
 <%def name="title()">Preregistration Challenge</%def>
 <%def name="description()">Information about the Preregistration Challenge.</%def>
@@ -8,12 +7,12 @@
 </%def>
 
 <%def name="stylesheets()">
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
 
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+      <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+      <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+      <!--<style type="text/css">
         #mc_embed_signup{
             background:#e7f5fc;
             clear:left;
@@ -61,7 +60,7 @@
         #mc_embed_signup div .mce_inline_error {
             margin-bottom: 0px !important;
         }
-    </style>
+    </style> -->
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 
 </%def>
@@ -71,10 +70,11 @@
 <div class="page-container">
 
     <!-- BEGIN CONTAINER -->
-   <div class="container min-height margin-top-30 col-md-12">
+   ##<div class="container min-height margin-top-30 col-md-12">
+   ##<center><img src="/static/img/pics/prereg_logo_words.png" alt="logo" width="430px"></center>
       <div class="center margin-top-20">
         <h1>The $1,000,000 Preregistration Challenge</h1>
-        <h3>One thousand researchers will win $1,000 each for publishing work whose analyses were preregistered on the Open Science Framework.</h3></p></p></p>
+          <h3>One thousand researchers will win $1,000 each for publishing work whose analyses were preregistered on the Open Science Framework.</h3></p></p></p>
       </div>
    </div>
 
@@ -112,7 +112,8 @@
                         <table>
                             <tr>
                                 <td>
-                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/5RchaSlek_A" frameborder="0" allowfullscreen></iframe>
+
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe>
                                 </td>
                             </tr>
                         </table>
@@ -124,13 +125,12 @@
                             <tr>
                                 <td>
                                     <h3>Preregistration</h3>
-                                      <p>Preregistration is the act of submitting a research study design, sampling protocol, and analysis plan before conducting a study. A researcher who pre-registers her plan commits to collect and analyze data exactly as described in the archived, time stamped plan. As it is currently practiced, the research workflow can often lead to irreproducible results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish results that offer the most compelling stories. Since any research question can be analyzed many different of ways, virtually every dataset will some significant relationships if investigated sufficiently.</p>
+                                      <p>Preregistration is the act of formulating a study and analysis plan in an uneditable state before conducting the research. A preregistration guides a scientist to conduct and analyze a study exactly as specified in the plan. As it is currently practiced, the research workflow can often lead to irreproducible results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish those that offer the most compelling stories.</p>
 
-                                      <p>These problems are the inevitable result of misaligned incentives and subtle biases. Preregistration is a tool that helps us to be more open about our research practices. It allows us to clearly present the results of confirmatory analyses on hypotheses made a priori while still allowing us to present exploratory results as valuable findings that warrant further investigation.</p>
+                                      <p>These problems are the inevitable result of misaligned incentives and subtle biases. Preregistration is a tool that helps us to be more transparent about our research practices. It allows us to clearly present the results of hypothesis testing, confirmatory analyses while still allowing us to present hypothesis generating, exploratory results as valuable insights that warrant further investigation.</p>
 
-                                      <p>The process of preregistering one's plans is beneficial to both the scientific field and to the scientist. By writing out detailed data collection methods, analysis plans, and rules for excluding or missing data, we make important decisions that affect our workflow earlier, without the biases that occur once the data are in front of us.</p>
-                                    <h3>The Preregistration Challenge</h3>
-                                      <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish articles in an eligible journal that report on a study and its analysis preregistered through the OSF. Please review the information on this webpage to learn how you could be one of them! As with any competition, certain terms and conditions apply, but please ask us (prereg@cos.io) if you have questions!</p>
+                                      <h3>The Preregistration Challenge</h3>
+                                      <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish an article in an eligible journal that reports on an analysis preregistered on the OSF. Please review the information on this webpage to learn how you could be one of them! As with any competition, certain <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> apply, but please review our FAQ and ask us (prereg@cos.io) if you have questions!</p>
                                     <center><img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="450px" class="margin-top-10"></center>
                                   </td>
                               </tr>
@@ -147,7 +147,7 @@
                                         <ol>
                                           <li><p><b>Plan your study and analyses</b><p>Discuss with your lab members and colleagues. Plan both your research methods and the exact way in which you will analyze your data. Also, decide now how you're going to split the reward!</p>
 
-                                          As you prepare to submit your preregistration, you may use either this <a href="https://docs.google.com/document/d/1jBLsU-xldVvMRZXHou2CHOxpa6yfax859K7s53dNgOs/edit" target="_blank">Google Doc</a> or Word template to prepare your research plan.</p>
+                                          As you prepare to submit your preregistration, you may use this <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a>. The preregistration form on the OSF will also allow you to edit, save, and return later. </p>
 
                                           <li><b>Submit your plan on the Open Science Framework</b><p>The OSF will guide you through a series of questions about your experimental design, data collection, and analysis plans.</p>
                                             <!--
@@ -161,19 +161,25 @@
 
                                             <b>Statistical model</b> <p>Provide the specific statistical test and any parameters that are required to run it.</p>
                                             -->
-                                        <li><b>Research plan review</b><p> We will review your plan to check for completeness. This is not peer review! Once accepted, your research plan will be registered. It will appear as a preregistration on the OSF and your study will be eligible for the prize. Any preregistrations that do not go through this review process are not eligible for the Prize.</p>
+                                        <li><b>Research plan review</b><p> We will review your plan to check for completeness. <strong>This is not peer review!</strong> Once accepted, your research plan will be registered. It will appear as a preregistration on the OSF and your study will be eligible for the prize. Any preregistrations that do not go through this review process are not eligible for the Prize.</p>
 
                                         <li><b>Do your science!</b> <p>This is part is all up to you.</p>
 
                                         <li><b>Analyze according to your preregistered plan</b> <p>Your analysis must run precisely according to what you reported in your preregistration. Any additional analyses are acceptable for generating new hypotheses, but must be clearly differentiated from your registered results in the article.</p>
 
-                                        <li><b>Write up your results</b> <p>Your article must adhere to these guidelines. For example, you must distinguish between confirmatory results that came from testing the hypotheses stated in your plan, and any exploratory analyses you conducted. There must also be a URL link to your registration on the OSF.</p>
+                                        <li><b>Write up your results</b> <p>Your article must distinguish between confirmatory results that came from testing the registered hypotheses stated in your plan, and any exploratory analyses you conducted in order to generate new hypotheses. There must also be a URL link to your registration on the OSF.</p>
 
-                                        <li><b>Submit your manuscript for publication</b><p> Only peer-reviewed manuscripts published in an eligible journal can receive the prize.</p>
+                                        <li><b>Submit your manuscript for publication</b><p> Only peer-reviewed manuscripts published in an <a href="/preregjournals/" target="_blank">eligible journal</a> can receive the prize.</p>
 
-                                        <li><b>Receive your $1000 prize!</b> <p>We have a limited number of prizes. If you and your article are eligible, you will be awarded a prize on one of our award dates.</p>
+                                        <li><b>Receive your $1000 prize!</b> <p>We have a limited number of prizes. If you and your article are eligible, you will be awarded a prize on one of our award dates:
+                                            <ul>
+                                              <li>January 1, 2017: 50 Prizes</li>
+                                              <li>July 1, 2017: 100 Prizes</li>
+                                              <li>January 1, 2018: 100 Prizes</li>
+                                              <li>July 1, 2018: 250 Prizes</li>
+                                              <li>December 31, 2018: 500 Prizes</li>
+                                            </ul>
                                         </ol>
-
                                         <h3>See the whole process in this guided tour:</p></h3>
                                         <div style="text-align: center;">
                                           <a href="https://prezi.com/hhyxxh0w4d8e/the-pre-reg-challenge/" target="_blank">
@@ -193,17 +199,18 @@
                                 <tr>
                                     <td>
                                         <h3>Eligibility Criteria</h3>
-                                        <p> Entering the Preregistration Challenge requires that you agree to its terms (link to terms stored on OSF).
-                                        <p> Below are some items that we want to make sure each participant understands before beginning the Preregistration Challenge.<p>
-                                        <ul>
+                                        <p>
+                                        <p>Below are eight items from the complete terms and conditions that we want to make sure each participant understands before beginning the Preregistration Challenge.<p>
+                                        <ol>
                                           <li>Research plans that you submit through this process will be reviewed by us and designated external reviewers. </li>
                                           <li>The published article must also be reviewed before receiving the prize.</li>
-                                          <li>Prizes will be awarded at pre-determined dates to eligible entrants. If more eligible entrants exist that available prizes, entrants will be ranked based on the date of registration.</li>
+                                          <li>Prizes will be awarded at pre-determined dates to eligible entrants. If more eligible entrants exist than available prizes, entrants will be ranked based on the date of registration.</li>
+                                          <li>Articles must be published in an <a href="/preregjournals/" target="_blank">eligible journal</a>.</li>
                                           <li>The use of pre-existing data may prohibit you from entering the Preregistration Challenge.</li>
-                                          <li>Prizes are given to the person who submits the research plan through the OSF, and that person must be listed as an author on the published article.</li>
-                                          <li>Residents of countries on <a href="http://www.pmddtc.state.gov/embargoed_countries/" target="_blank">this list</a> cannot receive a prize.</li>
-                                        </ul>
-
+                                          <li>One prize is given per published article to the article author who submits the research plan through the OSF.</li>
+                                          <li>Residents of countries on the U.S. State Department's <a href="http://www.pmddtc.state.gov/embargoed_countries/" target="_blank">list of embargoed countries</a> may not participate in the Preregistration Challenge.</li>
+                                          <li>Entering the Preregistration Challenge requires that you agree to all of its <a href="https://osf.io/4uxbj/" target="_blank">terms</a>.</li>
+                                        </ol>
                                         </p>
                                     </td>
                                 </tr>
@@ -233,19 +240,19 @@
                                             </div>
                                           </div>
                                         </div>
-                                        <!-- End FAQ 1 --->
-                                        <!-- Begin FAQ 2 --->
+                                      <!-- End FAQ 1 --->
+                                      <!-- Begin FAQ 2 --->
                                         <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingTwo">
                                           <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                               Will you review my submissions?
                                             </a>
                                             </h4>
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                            <div class="panel-body">
-                                              Yes, we will review both your research plans and your final, published article. However, this is not peer review, and passing our review process does not guarantee your acceptance into any publication. Please see the "Review Process" tab on the left to learn more.
+                                              <div class="panel-body">
+                                                Yes, we will review both your research plans and your final, published article. However, this is not peer review, and passing our review process does not guarantee your acceptance into any publication. Please see the "Review Process" tab on the left to learn more.
                                               </div>
                                               </div>
                                               </div>
@@ -261,29 +268,34 @@
                                               </div>
                                               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div class="panel-body">
-                                                Perhaps. Standards for preregistering studies and analysis plans using existing data do not yet exist. We are working within the community to establish clear guidelines to make the Pre-Reg Challenge open to as many researchers as possible, while still maintaining the utility of preregistration. </p>
-                                                <p>The research plan that you submit will include a description of the use of existing data in your analysis, and the steps that you will take to ensure that the analysis is not influenced by the data. This description will be reviewed in our review process (see tab on left).
+                                                Perhaps. Standards for preregistering studies and analysis plans using existing data do not yet exist. We have been working within the community to establish clear guidelines to make the Preregistration Challenge open to as many researchers as possible, while still maintaining the utility of preregistration. </p>
+                                                <p>When you submit your research plan, you will be asked to classify your use of existing data in your planned analysis. If necessary, you will be asked to describe the steps you are going to take to ensure that any existing data does not influence the analytical decisions. This description will be reviewed in our review process (see tab on left). Below are the possible categories that may be used:
+                                                <ol type="I">
+                                                <li><strong>Registration prior to collection of data:</strong> As of the date of submission of Research Plan for Preregistration, the data have not yet been realized, collected, or created. In this scenario, the Entrant must certify that the data do not exist to retain eligibility.
+                                                </li>
+                                                <li><strong>Registration prior to any human observation of the data: </strong>As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed Study and Research Plan. Examples include museum specimens that have not been measured, or data that have been collected by non-human collectors and are inaccessible.  In this scenario, the Entrant must certify that the data have not been observed by anyone and how this is the case to retain eligibility.</li>
+                                                <li><strong>Registration prior to Entrant access to the data: </strong>As of the date of submission, the data exist, and have not been accessed by the Entrant, or the Entrant’s Study collaborators. Commonly, this includes data that has been collected by another researcher or institution.  In this scenario, the Entrant must certify that they have not accessed the data, explain who has accessed the data, and justify how any observation, analysis, and reporting of that data avoids compromising the confirmatory nature of the Research Plan. The justification will be reviewed to determine eligibility.</li>
+                                                <li><strong>Registration prior to Entrant analysis of the data: </strong>As of the date of submission, the data exist and have been accessed by the researcher, though no analysis has been conducted related to the Research Plan. Common situations for this are the existence of a large dataset that is the subject of many studies over time, or a split sample in which a portion is not analyzed to be subjected to confirmatory testing after exploratory analysis of the other data. In this scenario, the Entrant must certify that they have not analyzed the data related to the Research Plan (including calculation of summary statistics), explain what other analysis or reporting of the data has been done by the Entrant or others, and justify how any prior observation, analysis, and reporting of that data avoid compromising the confirmatory nature of the Research Plan.</li>
                                                 </div>
                                                 </div>
                                               </div>
-                                              <!-- End FAQ 3 -->
-                                              <!-- Begin FAQ 4 -->
-                                            <div class="panel panel-default">
-                                              <div class="panel-heading" role="tab" id="headingFour">
-                                                <h4 class="panel-title">
-                                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                  Does this apply to my field?
-                                                  </a>
-                                                </h4>
+                                            <!-- End FAQ 3 -->
+                                            <!-- Begin FAQ 4 -->
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="headingFour">
+                                                  <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                      Does this apply to my field?
+                                                    </a>
+                                                  </h4>
                                                 </div>
                                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                   <div class="panel-body">
-                                                  There are several circumstances that present specific challenges to the preregistration model.</p>
-
+                                                    There are several circumstances that present specific challenges to the preregistration model.</p>
                                                   <ul>
-                                                  <li><strong>Studies in which you are not testing the significance of a specific null hypothesis.</strong> Pre-registration can best reduce bias when the researcher intends to test collected data against a null hypothesis. There are many publishable, peer-reviewed endeavors in which this is not the case.
-                                                  <li><strong>Hypothesis testing using pre-existing data.</strong> Using previously-collected data places additional burden on the researcher to demonstrate that no biases have influenced their decision making process. Seeing descriptive statistics prior to analysis inevitably affect analysis decisions. See above.
-                                                  <li><strong>Field studies.</strong> Field science can be particularly challenging, with many variables outside of a researcher's control that affect the ability to collect data. Pilot trials, feedback from peers, and additional time or imagination in the planning phase can help to make your registered plans more accurate.
+                                                    <li><strong>Studies in which you are not testing the significance of a specific null hypothesis.</strong> Pre-registration can best reduce bias when the researcher intends to test collected data against a null hypothesis. There are many publishable, peer-reviewed endeavors in which this is not the case.
+                                                    <li><strong>Hypothesis testing using pre-existing data.</strong> Using previously-collected data places additional burden on the researcher to demonstrate that no biases have influenced their decision making process. Seeing descriptive statistics prior to analysis inevitably affect analysis decisions. See above.
+                                                    <li><strong>Field studies.</strong> Field science can be particularly challenging, with many variables outside of a researcher's control that affect the ability to collect data. Pilot trials, feedback from peers, and additional time or imagination in the planning phase can help to make your registered plans more accurate.
                                                   </ul>
                                                   If you have questions about the suitability of pre-registration for your research, please contact us (prereg@cos.io) and we will work with you to determine how best to preregister your work.
                                                   </div>
@@ -305,140 +317,166 @@
                                                        </div>
                                                       </div>
                                                     </div>
-                                                    <!-- End FAQ 5 -->
-                                                    <!-- Begin FAQ 6 -->
+                                                  <!-- End FAQ 5 -->
+                                                  <!-- Begin FAQ 6 -->
                                                     <div class="panel panel-default">
                                                       <div class="panel-heading" role="tab" id="headingSix">
                                                         <h4 class="panel-title">
                                                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                          Doesn't this create too much additional work?
+                                                          How can I get the results of my preregistered study published?
                                                           </a>
                                                         </h4>
                                                         </div>
                                                         <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                                                           <div class="panel-body">
+                                                           Preregistration is relatively new to many people, and so you may get questions from reviewers or editors during the review process. Below are some possible issues you may encounter and suggested responses.
+                                                            <ul>
+                                                            <hr>
+                                                            <li><strong>Possible feedback</strong> Reviewers or editors may request that you remove an experiment, study, analysis, variable, or design feature because the results are null results or marginal.</li>
+                                                            <li><strong>Possible response</strong> The results of these tests are included because they stem from prespecified analyses. Removing these results because of their non-significance would help perpetuate the publication bias already present in the literature. If the reviewer/editor proposes a reason why they believe the null result could be explained by a design flaw, it can often be helpful/appropriate to leave the test in, but discuss the reviewers concerns about the validity of that particular test/design feature in a discussion section.
+                                                            </li>
+                                                            <hr>
+                                                              <li><strong>Possible feedback</strong> You may receive editorial feedback from reviewers or editors about why you are referring to a pre-registered plan.</li>
+                                                              <li><strong>Possible response</strong> The registration was made prior to the start of data analysis, and so allows readers and reviewers the ability to verify which analyses were prespecified and confirmatory versus those which were not prespecified and therefore exploratory. The plan allows readers to see that the hypotheses, analyses, and design that were prespecified have been accurately and fully reported.</li>
+
+                                                              <hr>
+                                                              <li><strong>Possible feedback</strong> If the editor requests that you perform additional tests.</li>
+                                                              <li><strong>Possible response</strong> It is fine to perform additional analyses requested by reviewers, as long as your paper makes clear that the test was not part of the confirmatory analyses. Any promising findings that result from these newly added tests must be clearly indicated as exploratory.
+                                                              </li>
+                                                            </ul>
+                                                           </div>
+                                                          </div>
+                                                        </div>
+                                                      <!-- End FAQ 6 -->
+                                                  <!-- Begin FAQ 7 -->
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading" role="tab" id="headingSeven">
+                                                        <h4 class="panel-title">
+                                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                          Doesn't this create too much additional work?
+                                                          </a>
+                                                        </h4>
+                                                        </div>
+                                                        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                                                          <div class="panel-body">
                                                            Preparing these plans is likely to take considerable time and effort. However, every decision included in the pre-registration process is one that a researcher will have to make at some point anyway, and making these decisions up front, before data collection begins, can improve your workflow and reduce subtle biases. Our goal is to create a system that is transparent and easy to use, and we welcome feedback (prereg@cos.io).
                                                            </div>
                                                           </div>
                                                         </div>
-                                                        <!-- End FAQ 6 -->
-                                                        <!-- Begin FAQ 7 -->
+                                                      <!-- End FAQ 7 -->
+                                                      <!-- Begin FAQ 8 -->
                                                         <div class="panel panel-default">
-                                                          <div class="panel-heading" role="tab" id="headingSeven">
+                                                          <div class="panel-heading" role="tab" id="headingEight">
                                                             <h4 class="panel-title">
-                                                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                                             You're being naive, this is not how scientists work.
                                                               </a>
                                                             </h4>
                                                             </div>
-                                                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                                                            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                                                               <div class="panel-body">
                                                                We are aware that scientists at almost every career level are under exceptional pressure to publish. We also know that many publishable results are often not able to be reproduced. Therefore, we have created this incentive for researchers to try a new method. Our success will be measured by the number of award recipients who return to the process and register another analysis plan in the future (without being paid to do so!) because they have found it to improve their workflow and the reliability of their findings.
                                                                </div>
                                                               </div>
                                                             </div>
-                                                            <!-- End FAQ 7 -->
-                                                            <!-- Begin FAQ 8 -->
+                                                            <!-- End FAQ 8 -->
+                                                            <!-- Begin FAQ 9 -->
                                                             <div class="panel panel-default">
-                                                              <div class="panel-heading" role="tab" id="headingEight">
+                                                              <div class="panel-heading" role="tab" id="headingNine">
                                                                 <h4 class="panel-title">
-                                                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                                                 How can I use power analysis to determine an appropriate sample size?
                                                                   </a>
                                                                 </h4>
                                                                 </div>
-                                                                <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                                                                <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                                                                   <div class="panel-body">
                                                                      One repeated lesson we have seen is that many irreproducible studies are underpowered (John, Loewenstein, & Prelec, 2012; Button et al., 2013). In other words, they have less than an 80% chance of observing an effect with the sample size they use, given the alternative hypothesis is true. You can learn more about power analysis and how to conduct one here. If your power analysis indicates that you require a sample size outside of your available resources, we recommend combining resources with collaborators in order to avoid underpowered studies. Researchers may also be interested in an sequential analysis, an alternative approach to achieving high power (Lakens, 2014).
                                                                    </div>
                                                                   </div>
                                                                 </div>
-                                                                <!-- End FAQ 8 -->
-                                                                <!-- Begin FAQ 9 -->
+                                                                <!-- End FAQ 9 -->
+                                                                <!-- Begin FAQ 10 -->
                                                                 <div class="panel panel-default">
-                                                                  <div class="panel-heading" role="tab" id="headingNine">
+                                                                  <div class="panel-heading" role="tab" id="headingTen">
                                                                     <h4 class="panel-title">
-                                                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                                                   How do you know preregistration works? Is there any evidence?
                                                                       </a>
                                                                     </h4>
                                                                     </div>
-                                                                    <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                                                                    <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headinTen">
                                                                       <div class="panel-body">
                                                                         Although pre-registration has existed in a more limited form for clinical trials, the implementation of pre-registration across disciplines is novel. There are both strong theoretical reasons to pre-register (Chambers et al., 2014; Simmons, Nelson, & Simonsohn, 2011), and some empirical evidence that supports its effectiveness <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">(Kaplan and Irvin, 2015)</a>. We hope that the Pre-Reg Challenge will encourage researchers to give pre-registration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of pre-registration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the pre-registration process.
                                                                        </div>
                                                                     </div>
                                                                   </div>
-                                                                  <!-- End FAQ 9 -->
-                                                                  <!-- Begin FAQ 10 -->
+                                                                  <!-- End FAQ 10 -->
+                                                                  <!-- Begin FAQ 11 -->
                                                                   <div class="panel panel-default">
-                                                                    <div class="panel-heading" role="tab" id="headingTen">
+                                                                    <div class="panel-heading" role="tab" id="headingEleven">
                                                                       <h4 class="panel-title">
-                                                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                                                     Is my preregistration private? Can it be withdrawn?
                                                                         </a>
                                                                       </h4>
                                                                       </div>
-                                                                      <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                                                                      <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
                                                                         <div class="panel-body">
                                                                           You may embargo your preregistration plan so it is hidden from public view for up to 4 years. However, eventually all preregistrations will become public. It is possible to withdraw your preregistration, but a notification of retraction will be public. Finally, all submissions to the Preregistration Challenge will be reviewed by COS staff and designated external reviewers to assess its eligibility for the prize. You can read more about our review process in the "Review Process" tab on the left.
                                                                          </div>
                                                                       </div>
                                                                     </div>
-                                                                    <!-- End FAQ 10 -->
-                                                                    <!-- Begin FAQ 11 -->
+                                                                    <!-- End FAQ 11 -->
+                                                                    <!-- Begin FAQ 12 -->
                                                                     <div class="panel panel-default">
-                                                                      <div class="panel-heading" role="tab" id="headingEleven">
+                                                                      <div class="panel-heading" role="tab" id="headingTwelve">
                                                                         <h4 class="panel-title">
-                                                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                                                                       Can my analysis depend on my data?
                                                                           </a>
                                                                         </h4>
                                                                         </div>
-                                                                        <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                                                                        <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
                                                                           <div class="panel-body">
-                                                                          <p><h2>For example if a particular assumption is not met, I may need to use a different statistical model. How do I accomodate this into a preregistration?</p></h2>
+                                                                          <p><h2>For example if a particular assumption is not met, I may need to use a different statistical model. How do I accommodate this into a preregistration?</p></h2>
                                                                           Such situations are likely to be common. We suggest that you define a 'decision-tree' containing logical IF-THEN rules that specify the analyses that will be used in specific situations. We have put together some example decision trees to give you some ideas of how to accomplish this. In the event that you need to conduct an unplanned analysis, please note that preregistration does not prevent you from doing so, it simply makes clear which analyses were planned and which were not.
                                                                            </div>
                                                                         </div>
                                                                       </div>
-                                                                      <!-- End FAQ 11 -->
-                                                                      <!-- Begin FAQ 12 -->
+                                                                      <!-- End FAQ 12 -->
+                                                                      <!-- Begin FAQ 13 -->
                                                                       <div class="panel panel-default">
-                                                                        <div class="panel-heading" role="tab" id="headingTwelve">
+                                                                        <div class="panel-heading" role="tab" id="headingThirteen">
                                                                           <h4 class="panel-title">
-                                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                                                                               I still have questions...
                                                                             </a>
                                                                           </h4>
                                                                           </div>
-                                                                          <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+                                                                          <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
                                                                             <div class="panel-body">
-                                                                            We would be happy to help out! You can contact us at prereg@cos.io
+                                                                            We would be happy to help you and are open to feedback. You can contact us at prereg@cos.io
                                                                              </div>
                                                                           </div>
                                                                         </div>
-                                                                        <!-- End FAQ 12 -->
+                                                                      <!-- End FAQ 13 -->
                                               </div>
-
                                     </td>
                                 </tr>
-
-
                             </table>
                             </div>
                             <!-- END TAB 4 -->
                             <!-- START TAB 5 -->
                             <div class="tab-pane" id="tab_5">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <h3>Eligible Journals</h3>
-                                            <p> (coming soon)
-                                            </p>
-                                        </td>
-                                    </tr>
-                                </table>
+                              <table>
+                                <tr>
+                                  <td>
+                                    <h3>Eligible Journals</h3>
+                                    <p>In order to be eligible for the Preregistration Challenge, entrants must publish their articles in an <a href="/preregjournals/" target="_blank">eligible journal</a>. </p>
+                                  </td>
+                                </tr>
+                              </table>
                             </div>
                             <!-- END TAB 5 -->
                             <!-- START TAB 6 -->
