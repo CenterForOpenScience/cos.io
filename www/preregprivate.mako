@@ -98,9 +98,9 @@
                       <a href="https://osf.io" target="_blank">
                         <img src="/static/img/pics/preregbutton_blue.png" alt="preregistration workflow" width="200px">
                       </a>
-                      <a href="https://osf.io" target="_blank">
-                        <img src="/static/img/pics/preregnoprize_blue.png" alt="preregistration workflow" width="200px">
-                      </a>
+                    ##  <a href="https://osf.io" target="_blank">
+                    ##    <img src="/static/img/pics/preregnoprize_blue.png" alt="preregistration workflow" width="200px">
+                    ##  </a>
 
                 </div>
 
@@ -450,17 +450,33 @@
                                                                         <div class="panel-heading" role="tab" id="headingThirteen">
                                                                           <h4 class="panel-title">
                                                                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                                                                              I still have questions...
+                                                                              Can I preregister without entering the competition?
                                                                             </a>
                                                                           </h4>
                                                                           </div>
                                                                           <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
                                                                             <div class="panel-body">
-                                                                            We would be happy to help you and are open to feedback. You can contact us at prereg@cos.io
+                                                                              Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remeber that the review is required in order to be eligible for the $1,000 prize. 
                                                                              </div>
                                                                           </div>
                                                                         </div>
                                                                       <!-- End FAQ 13 -->
+                                                                      <!-- Begin FAQ 14 -->
+                                                                      <div class="panel panel-default">
+                                                                        <div class="panel-heading" role="tab" id="headingFourteen">
+                                                                          <h4 class="panel-title">
+                                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                                                              I still have questions...
+                                                                            </a>
+                                                                          </h4>
+                                                                          </div>
+                                                                          <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
+                                                                            <div class="panel-body">
+                                                                            We would be happy to help you and are open to feedback. You can contact us at prereg@cos.io
+                                                                             </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      <!-- End FAQ 14 -->
                                               </div>
                                     </td>
                                 </tr>
