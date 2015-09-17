@@ -212,6 +212,8 @@
                                           <li>Entering the Preregistration Challenge requires that you agree to all of its <a href="https://osf.io/4uxbj/" target="_blank">terms</a>.</li>
                                         </ol>
                                         </p>
+                                        <h3>Don't agree to the terms? </h3>
+                                        <p>See the FAQ for instructions on preregistering without going through the review process or competing for the $1,000 prize.
                                     </td>
                                 </tr>
                             </table>
@@ -385,13 +387,13 @@
                                                               <div class="panel-heading" role="tab" id="headingNine">
                                                                 <h4 class="panel-title">
                                                                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                                How can I use power analysis to determine an appropriate sample size?
+                                                                How do you know preregistration works? Is there any evidence?
                                                                   </a>
                                                                 </h4>
                                                                 </div>
                                                                 <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                                                                   <div class="panel-body">
-                                                                     One repeated lesson we have seen is that many irreproducible studies are underpowered (John, Loewenstein, & Prelec, 2012; Button et al., 2013). In other words, they have less than an 80% chance of observing an effect with the sample size they use, given the alternative hypothesis is true. You can learn more about power analysis and how to conduct one here. If your power analysis indicates that you require a sample size outside of your available resources, we recommend combining resources with collaborators in order to avoid underpowered studies. Researchers may also be interested in an sequential analysis, an alternative approach to achieving high power (Lakens, 2014).
+                                                                     Although pre-registration has existed in a more limited form for clinical trials, the implementation of pre-registration across disciplines is novel. There are both strong theoretical reasons to pre-register (Chambers et al., 2014; Simmons, Nelson, & Simonsohn, 2011), and some empirical evidence that supports its effectiveness <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">(Kaplan and Irvin, 2015)</a>. We hope that the Pre-Reg Challenge will encourage researchers to give pre-registration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of pre-registration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the pre-registration process.
                                                                    </div>
                                                                   </div>
                                                                 </div>
@@ -401,13 +403,13 @@
                                                                   <div class="panel-heading" role="tab" id="headingTen">
                                                                     <h4 class="panel-title">
                                                                       <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                                                  How do you know preregistration works? Is there any evidence?
+                                                                      Is my preregistration private? Can it be withdrawn?
                                                                       </a>
                                                                     </h4>
                                                                     </div>
                                                                     <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headinTen">
                                                                       <div class="panel-body">
-                                                                        Although pre-registration has existed in a more limited form for clinical trials, the implementation of pre-registration across disciplines is novel. There are both strong theoretical reasons to pre-register (Chambers et al., 2014; Simmons, Nelson, & Simonsohn, 2011), and some empirical evidence that supports its effectiveness <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">(Kaplan and Irvin, 2015)</a>. We hope that the Pre-Reg Challenge will encourage researchers to give pre-registration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of pre-registration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the pre-registration process.
+                                                                      You may embargo your preregistration plan so it is hidden from public view for up to 4 years. However, eventually all preregistrations will become public. It is possible to withdraw your preregistration, but a notification of retraction will be public. Finally, all submissions to the Preregistration Challenge will be reviewed by COS staff and designated external reviewers to assess its eligibility for the prize. You can read more about our review process in the "Review Process" tab on the left.
                                                                        </div>
                                                                     </div>
                                                                   </div>
@@ -417,13 +419,14 @@
                                                                     <div class="panel-heading" role="tab" id="headingEleven">
                                                                       <h4 class="panel-title">
                                                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                                                    Is my preregistration private? Can it be withdrawn?
+                                                                          Can my analysis depend on my data?
                                                                         </a>
                                                                       </h4>
                                                                       </div>
                                                                       <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
                                                                         <div class="panel-body">
-                                                                          You may embargo your preregistration plan so it is hidden from public view for up to 4 years. However, eventually all preregistrations will become public. It is possible to withdraw your preregistration, but a notification of retraction will be public. Finally, all submissions to the Preregistration Challenge will be reviewed by COS staff and designated external reviewers to assess its eligibility for the prize. You can read more about our review process in the "Review Process" tab on the left.
+                                                                          <p><h2>For example if a particular assumption is not met, I may need to use a different statistical model. How do I accommodate this into a preregistration?</p></h2>
+                                                                          Such situations are likely to be common. We suggest that you define a 'decision-tree' containing logical IF-THEN rules that specify the analyses that will be used in specific situations. We have put together some example decision trees to give you some ideas of how to accomplish this. In the event that you need to conduct an unplanned analysis, please note that preregistration does not prevent you from doing so, it simply makes clear which analyses were planned and which were not.
                                                                          </div>
                                                                       </div>
                                                                     </div>
@@ -433,14 +436,14 @@
                                                                       <div class="panel-heading" role="tab" id="headingTwelve">
                                                                         <h4 class="panel-title">
                                                                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                                                      Can my analysis depend on my data?
+                                                                            Can I preregister without entering the competition?
                                                                           </a>
                                                                         </h4>
                                                                         </div>
                                                                         <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
                                                                           <div class="panel-body">
-                                                                          <p><h2>For example if a particular assumption is not met, I may need to use a different statistical model. How do I accommodate this into a preregistration?</p></h2>
-                                                                          Such situations are likely to be common. We suggest that you define a 'decision-tree' containing logical IF-THEN rules that specify the analyses that will be used in specific situations. We have put together some example decision trees to give you some ideas of how to accomplish this. In the event that you need to conduct an unplanned analysis, please note that preregistration does not prevent you from doing so, it simply makes clear which analyses were planned and which were not.
+                                                                            Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remeber that the review is required in order to be eligible for the $1,000 prize.</p>
+                                                                            <p>Alternatively, you may simply fill out the content of the research plan in a <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="_blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a> and <a href="https://osf.io/getting-started/#registrations" target="_blank">register</a> your project.
                                                                            </div>
                                                                         </div>
                                                                       </div>
@@ -450,34 +453,18 @@
                                                                         <div class="panel-heading" role="tab" id="headingThirteen">
                                                                           <h4 class="panel-title">
                                                                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                                                                              Can I preregister without entering the competition?
+                                                                              I still have questions...
                                                                             </a>
                                                                           </h4>
                                                                           </div>
                                                                           <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
                                                                             <div class="panel-body">
-                                                                              Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remeber that the review is required in order to be eligible for the $1,000 prize. 
-                                                                             </div>
-                                                                          </div>
-                                                                        </div>
-                                                                      <!-- End FAQ 13 -->
-                                                                      <!-- Begin FAQ 14 -->
-                                                                      <div class="panel panel-default">
-                                                                        <div class="panel-heading" role="tab" id="headingFourteen">
-                                                                          <h4 class="panel-title">
-                                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                                                                              I still have questions...
-                                                                            </a>
-                                                                          </h4>
-                                                                          </div>
-                                                                          <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
-                                                                            <div class="panel-body">
                                                                             We would be happy to help you and are open to feedback. You can contact us at prereg@cos.io
                                                                              </div>
                                                                           </div>
                                                                         </div>
-                                                                      <!-- End FAQ 14 -->
-                                              </div>
+                                                                      <!-- End FAQ 13 -->
+                                                </div>
                                     </td>
                                 </tr>
                             </table>
