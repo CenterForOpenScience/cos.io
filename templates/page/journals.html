@@ -1,0 +1,163 @@
+{% extends "base.html" %}{% load staticfiles %}
+{% block title %}For Journals and Societies{% endblock %}
+{% block description %}The Center for Open Science offers a variety of services for journals and societies to facilitate
+    and incentivize open science.{% endblock %}
+{% block navlinks %}{% with 'service' as nav %}
+        {{ block.super }}
+{% endwith %}{% endblock %}
+
+
+{% block stylesheets %}
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/dw-bxslider-4/dist/jquery.bxslider.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'bower_components/animate.css/animate.min.css' %}" rel="stylesheet" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+{% endblock %}
+
+<!-- BEGIN PAGE CONTAINER -->
+{% block content %}
+<div class="page-container" id="participate">
+<!-- BEGIN CONTAINER -->
+    <div class="container min-hight margin-top-50">
+
+    <!-- BEGIN CONTENT -->
+        <div class="row community-content">
+            <div>
+                <h1><strong>Services for Journals and Societies</strong></h1>
+                <p class="lead">Journals and societies shape incentives driving researchers' behavior. COS supports products and services that can be used to promote open and reproducible practices.</p>
+                <!-- BEGIN TABS -->
+                <div class="margin-top-20">
+                <!-- START TAB 3 -->
+                    <div class="tab-pane" id="tab_3">
+
+                        <div class="col-md-8">
+                            <h4><strong>1. Adopt the Transparency and Openness Promotion (TOP) Guidelines</strong></h4>
+                            <p>Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards. </p>
+                            <p><a href="https://cos.io/top">Read the Guidelines</a>, <a href="http://cos.io/top">see the list of signatories</a>, or <a href="mailto:top@cos.io?subject=TOP Guidelines">email us</a> with questions, comments, or to join as a signatory.
+                            </p></div>
+
+                        <div class="col-md-4 action-link margin-top-50">
+                            <a href="https://osf.io/ud578/">
+                                <div class="action-box">
+                                    <i class="fa fa-book"></i>
+                                    <p>Read the Guidelines</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-8">
+                            <h4><strong>2. Signal open practices with badges</strong></h4>
+                            <p>Journals can signal their valuing of open practices by adopting <a href="https://osf.io/tvyxz/wiki/home"
+                                                                                                  target="_blank">badges</a> to acknowledge authors of articles that have open data, open materials, or preregistration.
+                                A COS Community maintains the badge specifications and facilitates integration of badge awarding into the journal
+                                workflow. Badges are a low risk nudge because adoption by authors is optional, and the simple signal can promote
+                                normative changes in practice.</p></div>
+
+                        <div class="col-md-4 action-link margin-top-50">
+                            <a href="mailto:contact@cos.io?subject=Badges">
+                                <div class="action-box">
+                                    <i class="fa fa-shield"></i>
+                                    <p>Ask about using badges</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-8">
+                            <h4><strong>3. Increase your conference's reach with OSF for Meetings</strong></h4>
+                            <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
+                                dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
+                                email and will receive a permanent, persistent URL that links to their work. Download counts and visits to each
+                                uploaded poster will be recorded. <a href="https://osf.io/view/spsp2015/" target="_blank">See how the 2015 SPSP meeting used this service</a> to share over 300 talks and posters.
+                            </p></div>
+
+                        <div class="col-md-4 action-link margin-top-50">
+                            <a href="mailto:contact@cos.io?subject=OSF for Meetings Request">
+                                <div class="action-box">
+                                    <i class="fa fa-bar-chart"></i>
+                                    <p>Request OSF for Meetings</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-8">
+                            <h4><strong>4. Adopt Registered Reports</strong></h4>
+                            <p>Registered Reports (RR) involve peer review of study designs and analysis plans prior to data collection.
+                                Reviewers evaluate the importance of the research question and quality of the design. Accepted proposals
+                                are published if they adhere to the proposal regardless of the outcome. RRs address challenges of publishing
+                                of negative results, lowers barrier to conducting worthwhile replications, obtains pre-commitment from
+                                reviewers on quality of design, and produces strong confirmatory tests.</p>
+                            <p>A COS Community maintains an information commons about RRs, promotes adoption, and evaluates
+                                publishing model. COS also offers registration services through the <a href="https://osf.io" target="_blank">OSF</a>.
+                                Journals can adopt Registered Reports as a submission option. See examples of this model in action at <a href="https://osf.io/vwfk2/" target="_blank">
+                                    Social Psychology</a>,
+                                <a href="http://elifesciences.org/eLife-the-Center-for-Open-Science-and-Science-Exchange-partner-to-assess-the-reproducibility-of-cancer-biology-research"
+                                   target="_blank">eLife</a>, and <a href="http://www.psychologicalscience.org/index.php/replication" target="_blank">Perspectives on
+                                    Psychological Science</a>.
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 action-link margin-top-50">
+                            <a href="https://osf.io/zv2cs/" target="_blank">
+                                <div class="action-box">
+                                    <i class="fa fa-check"></i>
+                                    <p>Learn more about registered reports</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <h4><strong>5. Use the OSF to Support Your Authors' Data and Materials Sharing</strong></h4>
+                            <p>The <a href="https://osf.io">Open Science Framework</a> is a free, open source web application built to manage the entire research workflow. The OSF provides an easy solution for editors and publishers seeking to provide their authors with a free platform for data and materials sharing. The OSF can also be used to handle parts of the publishing workflow. To learn more about strategies for using the OSF as a back end for your journal, <a href="mailto:contact@cos.io?subject=Journal_Services"send us an email</a>.
+
+                            </p></div>
+
+                        <div class="col-md-4 action-link margin-top-50">
+                            <a href="mailto:contact@cos.io?subject=Journal_Services">
+                                <div class="action-box">
+                                    <i class="fa fa-laptop"></i>
+                                    <p>Learn more about OSF for Journals</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END TAB 4 -->
+                </div>
+            </div>
+        </div>
+    <!-- END TABS -->
+    </div>
+</div>
+<!-- END COS COMMUNITIES -->
+
+<div>
+
+
+</div>
+<!-- END CONTENT -->
+
+<!-- END CONTAINER -->
+
+<!-- END PAGE CONTAINER -->
+
+{% endblock %}
+
+{% block javascript_bottom %}
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js'%}"></script>
+    <script src="{% static 'scripts/app.js'%}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            var tab = location.hash.slice(1,6);
+{#            var availableTabs = ['tab_1', 'tab_2', 'tab_3', 'tab_4', 'tab_5'];#}
+{#            if(tab && availableTabs.indexOf(tab) !== -1){#}
+{#             remove active classes from tabs#}
+{#           $(".tabbable > li").removeClass("active");#}
+{#                $(".tab-pane").removeClass("active");#}
+{#             add active class to appropriate tab#}
+{#            $("a[href='#"+tab+"']").parent().addClass("active");#}
+{#                $("#"+tab).addClass("active");#}
+{#            }#}
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+{% endblock %}

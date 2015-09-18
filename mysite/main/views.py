@@ -101,6 +101,13 @@ class JobsPageView(generic.TemplateView):
         context['past_job'] = past_job
         return context
 
+class JournalPageView(generic.TemplateView):
+    template_name = 'page/journals.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(JournalPageView, self).get_context_data(**kwargs)
+        context['page'] = Pages.objects.filter(slug=u'journals')
+        return context
 
 class MissionPageView(generic.TemplateView):
     template_name = 'page/about_mission.html'

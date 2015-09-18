@@ -11,7 +11,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content={% block description %}"COS is non-profit technology start-up dedicated to improving the alignment between scientific values and scientific practices."{% endblock %} />
     <meta property="og:image" content="http://centerforopenscience.org/static/img/cos_center_logo_small.png"/>
-    <link href="{% static 'favicon.ico' %}" rel="shortcut icon">
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="{% static 'bower_components/fontawesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css"/>
@@ -94,9 +94,11 @@
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" role="menu"><li>
+                        <li><a href="{% url 'journals' %}">For Journals and Societies</a></li>
                         <li><a href="{% url 'stats_consulting' %}">Statistical Consulting</a></li>
+                        <li><a href="{% url 'top' %}">TOP Guidelines</a></li>
                         <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
-                        <li><a href="http://osf.io/presentations" target="_blank">Presentation Sharing Service</a></li>
+                        <li><a href="http://osf.io/meetings" target="_blank">OSF For Meetings</a></li>
                     </ul>
                 </li>
                 <li role="presentation" class="dropdown {% if nav == 'get_involved' %}active{% endif %}">

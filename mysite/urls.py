@@ -10,7 +10,7 @@ from mysite.main.views import (AboutBoardPageView, AboutPageView, MissionPageVie
                                ServicePageView, GetInvolvedPageView, ApsPageView, CommunitiesPageView,
                                InvolvedParticipatesPageView, SponsorsPageView, StatsPageView, PrPageView,
                                TeamPageView, JobsPageView, AmbassadorsPageView, NewsPageView, OsfPageView,
-                               TopPageView,)
+                               TopPageView, JournalPageView)
 
 admin.autodiscover()
 
@@ -46,6 +46,7 @@ urlpatterns += patterns('',
     url(r'^(?i)about_sponsors$', SponsorsPageView.as_view(), name='about_sponsors'),
     url(r'^(?i)stats_consulting$', StatsPageView.as_view(), name='stats_consulting'),
     url(r'^(?i)involved_participate$', InvolvedParticipatesPageView.as_view(), name='involved_participate'),
+    url(r'^(?i)journals$', JournalPageView.as_view(), name ='journals'),
     # Urls for authenticating with Oauth2
     (r'^accounts/login/$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
     (r'^accounts/confirm/$', 'mysite.mailing_list.views.index'),
