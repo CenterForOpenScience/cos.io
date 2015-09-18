@@ -88,12 +88,13 @@
 
                     <ul class="tabbable community-tabbable">
                         <li class="active"><a href="#tab_0" data-toggle="tab">The Big Picture</a></li>
-                        <li><a href="#tab_1" data-toggle="tab">The Pre-Reg Challenge</a></li>
+                        <li><a href="#tab_1" data-toggle="tab">The Challenge</a></li>
                         <li><a href="#tab_2" data-toggle="tab">How to Earn the Prize</a></li>
                         <li><a href="#tab_3" data-toggle="tab">Eligibility Requirements</a></li>
                         <li><a href="#tab_4" data-toggle="tab">FAQ</a></li>
                         <li><a href="#tab_5" data-toggle="tab">Eligible Journals</a></li>
                         <li><a href="#tab_6" data-toggle="tab">Review Process</a></li>
+                        <li><a href="#tab_7" data-toggle="tab">Preregister without Review</a></li>
                       </ul>
                       <a href="https://osf.io" target="_blank">
                         <img src="/static/img/pics/preregbutton_blue.png" alt="preregistration workflow" width="200px">
@@ -165,9 +166,9 @@
 
                                         <li><b>Do your science!</b> <p>This is part is all up to you.</p>
 
-                                        <li><b>Analyze according to your preregistered plan</b> <p>Your analysis must run precisely according to what you reported in your preregistration. Any additional analyses are acceptable for generating new hypotheses, but must be clearly differentiated from your registered results in the article.</p>
+                                        <li><b>Analyze according to your preregistered plan</b> <p>Your analysis must run precisely according to what you specified in your preregistration. Any additional analyses are acceptable for generating new hypotheses, but must be clearly differentiated from the results of your registered analyses.</p>
 
-                                        <li><b>Write up your results</b> <p>Your article must distinguish between confirmatory results that came from testing the registered hypotheses stated in your plan, and any exploratory analyses you conducted in order to generate new hypotheses. There must also be a URL link to your registration on the OSF.</p>
+                                        <li><b>Write up your results</b> <p>Your article must distinguish between confirmatory results that came from testing the registered hypotheses, and any exploratory analyses you conducted in order to generate new hypotheses. There must also be a URL link to your registration on the OSF.</p>
 
                                         <li><b>Submit your manuscript for publication</b><p> Only peer-reviewed manuscripts published in an <a href="/preregjournals/" target="_blank">eligible journal</a> can receive the prize.</p>
 
@@ -188,7 +189,6 @@
                                         </div>
                                     </td>
                                 </tr>
-
 
                             </table>
                         </div>
@@ -213,7 +213,7 @@
                                         </ol>
                                         </p>
                                         <h3>Don't agree to the terms? </h3>
-                                        <p>See the FAQ for instructions on preregistering without going through the review process or competing for the $1,000 prize.
+                                        <p>See the FAQ for instructions on preregistering without going through the review process or competing for a $1,000 prize.
                                     </td>
                                 </tr>
                             </table>
@@ -295,11 +295,11 @@
                                                   <div class="panel-body">
                                                     There are several circumstances that present specific challenges to the preregistration model.</p>
                                                   <ul>
-                                                    <li><strong>Studies in which you are not testing the significance of a specific null hypothesis.</strong> Pre-registration can best reduce bias when the researcher intends to test collected data against a null hypothesis. There are many publishable, peer-reviewed endeavors in which this is not the case.
+                                                    <li><strong>Studies in which you are not testing the significance of a specific null hypothesis.</strong> Preregistration can best reduce bias when the researcher intends to test collected data against a null hypothesis. There are many publishable, peer-reviewed endeavors in which this is not the case.
                                                     <li><strong>Hypothesis testing using pre-existing data.</strong> Using previously-collected data places additional burden on the researcher to demonstrate that no biases have influenced their decision making process. Seeing descriptive statistics prior to analysis inevitably affect analysis decisions. See above.
                                                     <li><strong>Field studies.</strong> Field science can be particularly challenging, with many variables outside of a researcher's control that affect the ability to collect data. Pilot trials, feedback from peers, and additional time or imagination in the planning phase can help to make your registered plans more accurate.
                                                   </ul>
-                                                  If you have questions about the suitability of pre-registration for your research, please contact us (prereg@cos.io) and we will work with you to determine how best to preregister your work.
+                                                  If you have questions about the suitability of preregistration for your research, please contact us (prereg@cos.io) and we will work with you to determine how best to preregister your work.
                                                   </div>
                                                   </div>
                                                 </div>
@@ -315,7 +315,7 @@
                                                     </div>
                                                     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                       <div class="panel-body">
-                                                       Registered Reports are a particular publication format in which both the preregistered plans and the final manuscript undergo peer review. In the first stage, reviewers and editors evaluate the relevance of the research questions and the proposed methods to answer them. Submissions that pass stage one review are offered ‘in principle acceptance’ (IPA), and the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Stage two peer review evaluates the complete manuscript before publication. In most cases, the Pre-Reg Challenge is not part of a Registered Report.
+                                                       Registered Reports are a particular publication format in which both the preregistered plans and the final manuscript undergo peer review. In the first stage, reviewers and editors evaluate the relevance of the research questions and the proposed methods to answer them. Submissions that pass stage one review are offered ‘in principle acceptance’ (IPA), and the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Stage two peer review evaluates the complete manuscript before publication. In most cases, the Preregistration Challenge is not part of a Registered Report.
                                                        </div>
                                                       </div>
                                                     </div>
@@ -338,7 +338,7 @@
                                                             <li><strong>Possible response</strong> The results of these tests are included because they stem from prespecified analyses. Removing these results because of their non-significance would help perpetuate the publication bias already present in the literature. If the reviewer/editor proposes a reason why they believe the null result could be explained by a design flaw, it can often be helpful/appropriate to leave the test in, but discuss the reviewers concerns about the validity of that particular test/design feature in a discussion section.
                                                             </li>
                                                             <hr>
-                                                              <li><strong>Possible feedback</strong> You may receive editorial feedback from reviewers or editors about why you are referring to a pre-registered plan.</li>
+                                                              <li><strong>Possible feedback</strong> You may receive editorial feedback from reviewers or editors about why you are referring to a preregistered plan.</li>
                                                               <li><strong>Possible response</strong> The registration was made prior to the start of data analysis, and so allows readers and reviewers the ability to verify which analyses were prespecified and confirmatory versus those which were not prespecified and therefore exploratory. The plan allows readers to see that the hypotheses, analyses, and design that were prespecified have been accurately and fully reported.</li>
 
                                                               <hr>
@@ -361,7 +361,7 @@
                                                         </div>
                                                         <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                                                           <div class="panel-body">
-                                                           Preparing these plans is likely to take considerable time and effort. However, every decision included in the pre-registration process is one that a researcher will have to make at some point anyway, and making these decisions up front, before data collection begins, can improve your workflow and reduce subtle biases. Our goal is to create a system that is transparent and easy to use, and we welcome feedback (prereg@cos.io).
+                                                           Preparing these plans is likely to take considerable time and effort. However, every decision included in the preregistration process is one that a researcher will have to make at some point anyway, and making these decisions up front, before data collection begins, can improve your workflow and reduce subtle biases. Our goal is to create a system that is transparent and easy to use, and we welcome feedback (prereg@cos.io).
                                                            </div>
                                                           </div>
                                                         </div>
@@ -393,7 +393,7 @@
                                                                 </div>
                                                                 <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                                                                   <div class="panel-body">
-                                                                     Although pre-registration has existed in a more limited form for clinical trials, the implementation of pre-registration across disciplines is novel. There are both strong theoretical reasons to pre-register (Chambers et al., 2014; Simmons, Nelson, & Simonsohn, 2011), and some empirical evidence that supports its effectiveness <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">(Kaplan and Irvin, 2015)</a>. We hope that the Pre-Reg Challenge will encourage researchers to give pre-registration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of pre-registration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the pre-registration process.
+                                                                     Although preregistration has existed in a more limited form for clinical trials, the implementation of preregistration across disciplines is novel. There are both strong theoretical reasons to preregister (Chambers et al., 2014; Simmons, Nelson, & Simonsohn, 2011), and some empirical evidence that supports its effectiveness <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">(Kaplan and Irvin, 2015)</a>. We hope that the Preregistration Challenge will encourage researchers to give preregistration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of preregistration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the preregistration process.
                                                                    </div>
                                                                   </div>
                                                                 </div>
@@ -442,7 +442,7 @@
                                                                         </div>
                                                                         <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
                                                                           <div class="panel-body">
-                                                                            Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remeber that the review is required in order to be eligible for the $1,000 prize.</p>
+                                                                            Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remeber that the review is required in order to be eligible for a $1,000 prize.</p>
                                                                             <p>Alternatively, you may simply fill out the content of the research plan in a <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="_blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a> and <a href="https://osf.io/getting-started/#registrations" target="_blank">register</a> your project.
                                                                            </div>
                                                                         </div>
@@ -490,13 +490,13 @@
                                             <h3>Two Items to Review</h3>
                                             <ol>
                                             <li><h2>Research Plan Review</h2>
-                                            <p>In order to be eligible for the Pre-Reg Challenge, each submission must pass a review process in which the statistical methods of the proposed study and its analyses are checked for completeness. <strong>This process does not assess the validity of the research question or statistical methodology and in no way affects the editorial decisions of any journal. This is not peer review.</strong>
+                                            <p>In order to be eligible for the Preregistration Challenge, each submission must pass a review process in which the statistical methods of the proposed study and its analyses are checked for completeness. <strong>This process does not assess the validity of the research question or statistical methodology and in no way affects the editorial decisions of any journal. This is not peer review.</strong>
                                             <p>We will review the submitted study design and analysis descriptions, and determine whether all question fields were answered with enough detail to fully pre-specify the design and analysis plan. Here are the guidelines (link) that reviewers will use when evaluating your submitted plans.
-                                            <p>In order to be eligible for the prize, both you and administrators of the Pre-Reg Challenge must agree that the plan is acceptable. You may of course register anything else on the Open Science Framework at any time, but plans that do not pass this review process will not be eligible for the $1,000 prize.
+                                            <p>In order to be eligible for the prize, both you and administrators of the Preregistration Challenge must agree that the plan is acceptable. You may of course register anything else on the Open Science Framework at any time, but plans that do not pass this review process will not be eligible for a $1,000 prize.
 
                                             <li><h2>Article Review</h2>
                                             <p>Rarely does a complex undertaking go exactly according to plan. Preregistration allows you to more easily distinguish between hypothesis testing analyses (the "confirmatory" analyses) and hypothesis generating, exploratory analyses. Accordingly, articles must be reviewed to verify that the plans were followed and new analyses were appropriately separated.</p>
-                                            Below are examples of deviations from the pre-registered plans and how a researcher could respond to them. </p>
+                                            Below are examples of deviations from the preregistered plans and how a researcher could respond to them. </p>
                                             <ul>
                                             <li><p><strong>Deviations from Sampling Plan.</strong> </p>
                                             An author may not be able to recruit a sufficient number of participants to reach 95% power, but ended up with just over 80% power. In this case, the author should explain how their efforts were exhaustive and not influenced by the data collected up to that point.</p>
@@ -514,7 +514,36 @@
                                 </table>
                             </div>
                             <!-- END TAB 6 -->
+                            <!-- START TAB 7 -->
+                            <div class="tab-pane" id="tab_7">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <h3>Preregister without Review or Prize</h3>
+                                            <p>Do you want to preregister your research, but not have your research plan reviewed? You have two options, but please remember that these are <strong>not eligible for a $1,000 Prize</strong>.</p>
+                                            <ol type="I">
+                                            <li><h2>Select the blue "Begin a Preregistration" button on the left.</h2>
+                                            <p>You may opt out of the Challenge at any time and register your work without review. After completing the form, simply choose the option to register your research plan without review.</p>
 
+
+                                            <li><h2>Register an OSF Project</h2>
+                                            <p>This option uses the tools that have always been available on the Open Science Framework to register your work.
+                                            <ol>
+                                            <li>Create a research plan using the template we have available as a <a href="https://osf.io/jea94/" target="_blank">Word doc</a> or <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&m" target="_blank">Google doc</a>.</li>
+                                            <li>Create an <a href="https://osf.io" target="_blank">OSF</a> account.</li>
+                                            <li>Create a <a href="https://osf.io/getting-started/#start-one" target="_blank">project</a>.</li>
+                                            <li>Upload your research plan to the "files" section in the project you just created.</li>
+                                            <li><a href="https://osf.io/getting-started/#registrations" target="_blank">Register</a> your project using the "Registrations" tab near the top of the page. You will be give several options at this point, but for this purpose you can use the "Open-Ended Registration" option.</li>
+                                            </ol>
+                                            <p>
+
+
+                                            </p></ol>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- END TAB 7 -->
 
                     </div>
 
