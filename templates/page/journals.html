@@ -2,6 +2,9 @@
 {% block title %}For Journals and Societies{% endblock %}
 {% block description %}The Center for Open Science offers a variety of services for journals and societies to facilitate
     and incentivize open science.{% endblock %}
+{% block navlinks %}{% with 'service' as nav %}
+        {{ block.super }}
+{% endwith %}{% endblock %}
 
 
 {% block stylesheets %}
