@@ -16,5 +16,8 @@
   },
   "resolutions": {
     "jquery": "~1.11.0"
+  },
+  "devDependencies": {
+    "bootstrap-table": "~1.8.1"
   }
 }
