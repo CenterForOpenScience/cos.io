@@ -12,12 +12,10 @@
     "flexslider": "~2.5.0",
     "mixitup": "~2.1.8",
     "respond": "~1.4.2",
-    "toastr": "~2.1.1"
+    "toastr": "~2.1.1",
+    "bootstrap-table": "~1.8.1"
   },
   "resolutions": {
     "jquery": "~1.11.0"
-  },
-  "devDependencies": {
-    "bootstrap-table": "~1.8.1"
   }
 }
