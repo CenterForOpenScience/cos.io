@@ -255,6 +255,9 @@ body {
     min-width: 90px;
     min-height: 90px;
     margin:auto;
+    display: block;
+    padding: 3%;
+    width:100%
 }
 
 .hp-slide-head h1{
@@ -417,12 +420,6 @@ body {
     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAFFFF), to(#CEF3FF));
     background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
     background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF)
-}
-
-.bx-wrapper img {
-    width: 85%;
-    display: block;
-    padding: 3%;
 }
 
 .sponsor-center {

@@ -7,7 +7,7 @@
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
-{#    <link href="{% static 'bower_components/bxslider-4/dist/jquery.bxslider.min.css' %}" rel="stylesheet" />#}
+    <link href="{% static 'bower_components/dw-bxslider-4/dist/jquery.bxslider.min.css' %}" rel="stylesheet" />
     <link href="{% static 'bower_components/animate.css/animate.min.css' %}" rel="stylesheet" />
 
     <!-- END PAGE LEVEL PLUGIN STYLES -->
@@ -18,16 +18,14 @@
 
 <div class="slide-wrapper">
     <div class="container">
-        <ul class="bxslider">
-            <li>
-                <div class="row tagline">
+        <ul>
+                <div class="row tagline animated fadeIb">
                     <div class="col-md-12 main-cos-logo"><img src="{% static 'img/cos_center_logo_small.png' %}"></div>
                     <div class="hp-slide-head col-md-12">
                         <h1> We foster the <strong>openness</strong>, <strong>integrity
                         </strong>, and <strong>reproducibility</strong> of scientific research </h1>
                     </div>
                 </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -120,7 +118,7 @@
 
 <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 {% block javascript_bottom%}
-    <script type="text/javascript" src="{% static 'bower_components/bxslider-4/dist/jquery.bxslider.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bower_components/dw-bxslider-4/dist/jquery.bxslider.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
     <script type="text/javascript" src="{% static 'plugins/text-resize.js' %}"></script>
     <script type="text/javascript" src="{% static 'scripts/index.js' %}"></script>
