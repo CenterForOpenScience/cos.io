@@ -30,15 +30,6 @@ class AboutBoardPageView(generic.TemplateView):
         return context
 
 
-class AmbassadorsPageView(generic.TemplateView):
-    template_name = 'page/ambassadors.html'
-
-    def get_context_data(self, **kwargs):
-        context = super(AmbassadorsPageView, self).get_context_data(**kwargs)
-        context['ambassadors'] = Ambassadors.objects.filter()
-        return context
-
-
 class ApsPageView(generic.TemplateView):
     template_name = 'page/aps.html'
 
@@ -81,7 +72,7 @@ class InvolvedParticipatesPageView(generic.TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(InvolvedParticipatesPageView, self).get_context_data(**kwargs)
-        context['page'] = Pages.objects.filter(slug=u'involved_participates')
+        context['ambassadors'] = Ambassadors.objects.filter()
         return context
 
 

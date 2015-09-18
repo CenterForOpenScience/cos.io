@@ -437,10 +437,10 @@ body {
 
 /*Communities*/
 .community-tabbable {
-    padding: 0;
     margin: 0;
     list-style: none;
     border-left: solid 2px #0da3e2;
+    padding:0;
 }
 .community-tabbable li {
     position: relative;

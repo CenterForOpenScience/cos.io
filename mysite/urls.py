@@ -9,7 +9,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from mysite.main.views import (AboutBoardPageView, AboutPageView, MissionPageView, PartnersPageView,
                                ServicePageView, GetInvolvedPageView, ApsPageView, CommunitiesPageView,
                                InvolvedParticipatesPageView, SponsorsPageView, StatsPageView, PrPageView,
-                               TeamPageView, JobsPageView, AmbassadorsPageView, NewsPageView, OsfPageView,
+                               TeamPageView, JobsPageView, NewsPageView, OsfPageView,
                                TopPageView, JournalPageView)
 
 admin.autodiscover()
@@ -39,7 +39,6 @@ urlpatterns += patterns('',
     url(r'^(?i)about_team$', TeamPageView.as_view(), name='COS_Team'),
     url(r'^(?i)about_board$', AboutBoardPageView.as_view(), name ='about_board'),
     url(r'^(?i)communities$', CommunitiesPageView.as_view(), name='communities'),
-    url(r'^(?i)ambassadors$', AmbassadorsPageView.as_view(), name='ambassadors'),
     url(r'^(?i)about_mission$', MissionPageView.as_view(), name='about_mission'),
     url(r'^(?i)get_invovled$', GetInvolvedPageView.as_view(), name='get_involved'),
     url(r'^(?i)about_partners$', PartnersPageView.as_view(), name='about_partners'),
