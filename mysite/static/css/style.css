@@ -2534,3 +2534,12 @@ li [class*=" fa-"].icon-large {
 .login-signup-page .checkbox{
 	padding-left: 0;
 }
+
+.lead{
+  font-weight:300;
+
+}
+
+.checkboxes{
+  width:100%;
+}
