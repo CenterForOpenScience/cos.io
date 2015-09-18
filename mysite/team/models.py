@@ -99,5 +99,5 @@ class Team(models.Model):
 
     class Meta:
         ordering = ('name',)
-        verbose_name_plural = u'Add COS Team Images Here'
+        verbose_name_plural = u'Add COS Team Member'
         verbose_name = u'COS'
