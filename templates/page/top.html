@@ -9,6 +9,7 @@
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+     <link href="{% static 'css/bootstrap-table.css' %}" rel="stylesheet" >
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 {% endblock %}{% block content %}
 
@@ -55,7 +56,7 @@
                 </ul>
                 <div class="tab-content">
                     <div id="journals" class="tab-pane fade in active">
-                        <table data-toggle="table" data-url="{% static 'topjournals.json' %}" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
+                        <table data-toggle="table" data-url="static/topjournals.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
                             <thead>
                                 <tr>
                                     <th data-field="Journal Title" data-sortable="true" class="col-md-4">Journal Title</th>
@@ -103,6 +104,6 @@
     <%def name="javascript_bottom()">
             <script type="text/javascript" src="{% static 'plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
             <script src="{% static 'plugins/jquery.mixitup.min.js' %}"></script>
-            <script src="{% static 'scripts/bootstrap-table.js' %}"></script>
+            <script src="{% static 'bower_components/bootstrap_table/bootstrap-table.js' %}"></script>
     {% endblock %}
     <!-- END PAGE LEVEL JAVASCRIPTS -->
