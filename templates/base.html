@@ -55,78 +55,75 @@
 <!-- BEGIN HEADER -->
 <div class="header navbar navbar-default navbar-default-top" id="blue-nav">
     <div class="container">
-    <div class="row">
-        <div class="navbar-header col-md-4">
-            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
-            <button class="navbar-toggle btn navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- END RESPONSIVE MENU TOGGLER -->
-            <!-- BEGIN LOGO (you can use logo image instead of text)-->
-            <a class="navbar-brand logo-v1" href="/">
-                <img src="{% static 'img/icons/cos_wide.png' %}" id="logoimg" alt="COS logo">
-            </a>
-            <!-- END LOGO -->
-        </div>{% block navlinks %}
+        <div class="row">
+            <div class="navbar-header col-md-4">
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <button class="navbar-toggle btn navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN LOGO (you can use logo image instead of text)-->
+                <a class="navbar-brand logo-v1" href="/">
+                    <img src="{% static 'img/icons/cos_wide.png' %}" id="logoimg" alt="COS logo">
+                </a>
+                <!-- END LOGO -->
+            </div>
+            {% block navlinks %}
+            <!-- BEGIN TOP NAVIGATION MENU -->
+                <div class="navbar-collapse collapse col-md-7 col-md-offset-1" >
+                    <ul class="nav navbar-nav">
+                        <li role="presentation" class="dropdown {% if nav == 'about' %}active{% endif %}">
+                            <a href="{% url "about" %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                                About us
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{% url 'about_mission' %}">Our Mission</a></li>
+                                <li><a href="{% url 'COS_Team' %}">Our Team</a></li>
+                                <li><a href="{% url 'about_sponsors' %}">Our Sponsors</a></li>
+                                <li><a href="{% url 'about_board' %}">Our Board</a></li>
+                                <li><a href="{% url 'about_partners' %}">Our Partners</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown {% if nav == 'service' %}active{% endif %}">
+                            <a href="{% url 'service' %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                                Services
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu"><li>
+                                <li><a href="{% url 'journals' %}">For Journals and Societies</a></li>
+                                <li><a href="{% url 'stats_consulting' %}">Statistical Consulting</a></li>
+                                <li><a href="{% url 'top' %}">TOP Guidelines</a></li>
+                                <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
+                                <li><a href="http://osf.io/meetings" target="_blank">OSF For Meetings</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown {% if nav == 'get_involved' %}active{% endif %}">
+                            <a href="{% url 'get_involved' %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                                Get Involved
+                                <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu"><li>
+                                <li><a href="{% url 'involved_participate' %}#tab_1">Ambassadors</a></li>
+                                <li><a href="{% url 'involved_participate' %}#tab_2">Scientists</a></li>
+                                <li><a href="{% url 'involved_participate' %}#tab_4">Developers</a></li>
+                                <li><a href="{% url 'jobs' %}">Jobs</a></li>
+                            </ul>
+                        </li>
 
-
-        <!-- BEGIN TOP NAVIGATION MENU -->
-        <div class="navbar-collapse collapse col-md-7 col-md-offset-1" >
-            <ul class="nav navbar-nav">
-                <li role="presentation" class="dropdown {% if nav == 'about' %}active{% endif %}">
-                    <a href="{% url "about" %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
-                        About us
-                        <i class="fa fa-angle-down"></i>
-                    </a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="{% url 'about_mission' %}">Our Mission</a></li>
-                        <li><a href="{% url 'COS_Team' %}">Our Team</a></li>
-                        <li><a href="{% url 'about_sponsors' %}">Our Sponsors</a></li>
-                        <li><a href="{% url 'about_board' %}">Our Board</a></li>
-                        <li><a href="{% url 'about_partners' %}">Our Partners</a></li>
+                        <li role="presentation" class="dropdown {% if nav == 'communities' %}active{% endif %}">
+                            <a href="{% url 'communities' %}">Communities</a></li>
+                        <li role="presentation" class="dropdown {% if nav == 'news' %}active{% endif %}">
+                            <a href="{% url 'news' %}">News</a>
+                        </li>
+                        <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
                     </ul>
-                </li>
-                <li role="presentation" class="dropdown {% if nav == 'service' %}active{% endif %}">
-                    <a href="{% url 'service' %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
-                        Services
-                        <i class="fa fa-angle-down"></i>
-                    </a>
-                    <ul class="dropdown-menu" role="menu"><li>
-                        <li><a href="{% url 'journals' %}">For Journals and Societies</a></li>
-                        <li><a href="{% url 'stats_consulting' %}">Statistical Consulting</a></li>
-                        <li><a href="{% url 'top' %}">TOP Guidelines</a></li>
-                        <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
-                        <li><a href="http://osf.io/meetings" target="_blank">OSF For Meetings</a></li>
-                    </ul>
-                </li>
-                <li role="presentation" class="dropdown {% if nav == 'get_involved' %}active{% endif %}">
-                    <a href="{% url 'get_involved' %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
-                        Get Involved
-                        <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu"><li>
-                        <li><a href="{% url 'involved_participate' %}#tab_1">Ambassadors</a></li>
-                        <li><a href="{% url 'involved_participate' %}#tab_2">Scientists</a></li>
-                        <li><a href="{% url 'involved_participate' %}#tab_4">Developers</a></li>
-                        <li><a href="{% url 'jobs' %}">Jobs</a></li>
-                    </ul>
-                </li>
-
-                <li role="presentation" class="dropdown {% if nav == 'communities' %}active{% endif %}">
-                    <a href="{% url 'communities' %}">Communities</a></li>
-                <li role="presentation" class="dropdown {% if nav == 'news' %}active{% endif %}">
-                    <a href="{% url 'news' %}">News</a>
-                </li>
-                <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
-            </ul>
-        </div>
-
-        <!-- BEGIN TOP NAVIGATION MENU -->
+                </div>
+            <!-- BEGIN TOP NAVIGATION MENU -->
             {% endblock %}
-
-  </div>
-</div>
+        </div>
+    </div>
 </div>
 <!-- END HEADER -->
 
@@ -155,7 +152,6 @@
                 <p><a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/TERMS_OF_USE.md">Terms</a>&nbsp;|&nbsp;<a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/PRIVACY_POLICY.md">Privacy</a></p>
                 <div class="clearfix"></div>
                 <!-- END ABOUT -->
-
                 <!-- Begin Map -->
                 <div class="row" id="footer-map">
                     <iframe width="100%" height="240" frameborder="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;output=embed"></iframe>
@@ -164,7 +160,6 @@
                 </div>
                 <!-- End Map -->
             </div>
-
             <div class="col-md-4 col-sm-4 space-mobile">
                 <!-- BEGIN CONTACTS -->
                 <h2>Contact Us</h2>
@@ -186,19 +181,15 @@
                     </ul>
                 </div>
                 <!-- END SOCIAL LINKS -->
-
                 <!-- END CONTACTS -->
                 <h2>Photo Stream</h2>
                 <!-- BEGIN BLOG PHOTOS STREAM -->
                 <div class="blog-photo-stream margin-bottom-30">
                     <ul id="cbox" class="list-unstyled thumbs">
-
                     </ul>
                 </div>
                 <!-- END BLOG PHOTOS STREAM -->
-
             </div>
-
             <div class="col-md-4 col-sm-4" id="twitterbox">
                 <!-- BEGIN TWITTER BLOCK : Uses Official Twitter widget with customizations -->
                 <h2>Twitter Feed</h2>
@@ -208,7 +199,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <!-- END FOOTER -->
 
