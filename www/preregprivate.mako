@@ -214,7 +214,7 @@
                                         </ol>
                                         </p>
                                         <h3>Don't agree to the terms? </h3>
-                                        <p>See the FAQ for instructions on preregistering without going through the review process or competing for a $1,000 prize.
+                                        <p>You may still use the tools we've made to create a preregistration. Once you complete the form, simply register your project without review. <strong>Only preregistrations that undergo review are eligible for a $1,000 prize.</strong>
                                     </td>
                                 </tr>
                             </table>
@@ -504,7 +504,7 @@
                                             <li><p><strong>Deviations from Design Plan</p></strong>
                                             Partway through data collection, a researcher notices that lichens with more sun exposure tend to show the phenotype that was expected only during a certain time of day. The researcher should either preregister a new plan with "sun exposure" as a predictor variable or include that new variable under "exploratory" results.</p>
                                             <li><p><strong>Deviations from Analysis Plan</p></strong>
-                                            An author noticed that by controlling for one particular variable (e.g. the age of the subjects, the number of offspring a fish had, or the size of the local economy) the expected relationship became statistically significant. Since this was not predicted from the beginning (even if makes perfect sense in hindsight!) this would have to be clearly labeled as exploratory analysis. If the author wanted to keep it as confirmatory results, the analysis could be rerun with this control on another set of data, or part of the data that had been kept aside from the beginning, but that analysis would also have to be preregistered in order to be eligible for the prize.</p>
+                                            An author noticed that by controlling for one particular variable (e.g. the age of the subjects, the number of offspring a fish had, or the size of the local economy) the expected relationship became statistically significant. Since this was not predicted from the beginning (even if makes perfect sense in hindsight!) this would have to be clearly labeled as exploratory analysis. If the author wanted to keep it as confirmatory results, the analysis could be rerun with this control on a new set of data, or part of the data that had been kept aside from the beginning, but that analysis would also have to be preregistered in order to be eligible for the prize.</p>
                                             </ul>
                                             <p>Questions? Please contact us as prereg@cos.io or take advantage of our <a href="http://centerforopenscience.org/stats_consulting/" target="_blank">free statistical consulting services</a>.<p>
 
