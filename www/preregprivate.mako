@@ -145,7 +145,7 @@
                                 <tr>
                                     <td>
 
-                                        <h3>How to Earn the Prize </p></h3>
+                                        <h3>How to Earn the Prize</p></h3>
                                         <ol>
                                           <li><p><b>Plan your study and analyses</b><p>Discuss with your lab members and colleagues. Plan both your research methods and the exact way in which you will analyze your data. Also, decide now how you're going to split the reward!</p>
 
