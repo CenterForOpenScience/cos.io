@@ -127,12 +127,12 @@
                             <tr>
                                 <td>
                                     <h3>Preregistration</h3>
-                                      <p>Preregistration is the act of formulating a study and analysis plan in an uneditable state before conducting the research. A preregistration guides a scientist to conduct and analyze a study exactly as specified in the plan. As it is currently practiced, the research workflow can often lead to irreproducible results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish those that offer the most compelling stories.</p>
+                                      <p>A preregistration is a timestamped, uneditable study and analysis plan created before conducting research. It guides a scientist to conduct and analyze a study exactly as specified in the plan. As it is currently practiced, the research workflow can often lead to irreproducible results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish those that offer the most compelling stories.</p>
 
                                       <p>These problems are the inevitable result of misaligned incentives and subtle biases. Preregistration is a tool that helps us to be more transparent about our research practices. It allows us to clearly present the results of hypothesis testing, confirmatory analyses while still allowing us to present hypothesis generating, exploratory results as valuable insights that warrant further investigation.</p>
 
                                       <h3>The Preregistration Challenge</h3>
-                                      <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish an article in an eligible journal that reports on an analysis preregistered on the OSF. Please review the information on this webpage to learn how you could be one of them! As with any competition, certain <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> apply, but please review our FAQ and ask us (prereg@cos.io) if you have questions!</p>
+                                      <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish an article in an eligible journal that reports on an analysis preregistered on the OSF. Please review the information on this site to learn how you could be one of them! As with any competition, certain <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> apply, but please review our FAQ and ask us (prereg@cos.io) if you have questions!</p>
                                     <center><img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="450px" class="margin-top-10"></center>
                                   </td>
                               </tr>
@@ -165,13 +165,13 @@
                                             -->
                                         <li><b>Research plan review</b><p> We will review your plan to check for completeness. <strong>This is not peer review!</strong> Once accepted, your research plan will be registered. It will appear as a preregistration on the OSF and your study will be eligible for the prize. Any preregistrations that do not go through this review process are not eligible for the Prize.</p>
 
-                                        <li><b>Do your science!</b> <p>This is part is all up to you.</p>
+                                        <li><b>Do your science</b> <p>This is part is all up to you.</p>
 
-                                        <li><b>Analyze according to your preregistered plan</b> <p>Your analysis must run precisely according to what you specified in your preregistration. Any additional analyses are acceptable for generating new hypotheses, but must be clearly differentiated from the results of your registered analyses.</p>
+                                        <li><b>Analyze according to your preregistered plan</b> <p>Your analysis must run precisely according to what you specified in the preregistration. Any additional analyses are acceptable for generating new hypotheses, but must be clearly differentiated from the results of your registered analyses.</p>
 
                                         <li><b>Write up your results</b> <p>Your article must distinguish between confirmatory results that came from testing the registered hypotheses, and any exploratory analyses you conducted in order to generate new hypotheses. There must also be a URL link to your registration on the OSF.</p>
 
-                                        <li><b>Submit your manuscript for publication</b><p> Only peer-reviewed manuscripts published in an <a href="/preregjournals/" target="_blank">eligible journal</a> can receive the prize.</p>
+                                        <li><b>Submit your manuscript for publication</b><p> Only peer-reviewed manuscripts published in an <a href="/preregjournals/" target="_blank">eligible journal</a> are eligible to for a $1,000 prize.</p>
 
                                         <li><b>Receive your $1000 prize!</b> <p>We have a limited number of prizes. If you and your article are eligible, you will be awarded a prize on one of our award dates:
                                             <ul>
