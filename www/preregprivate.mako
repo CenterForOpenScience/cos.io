@@ -94,11 +94,12 @@
                         <li><a href="#tab_4" data-toggle="tab">FAQ</a></li>
                         <li><a href="#tab_5" data-toggle="tab">Eligible Journals</a></li>
                         <li><a href="#tab_6" data-toggle="tab">Review Process</a></li>
-                        <li><a href="#tab_7" data-toggle="tab">Preregister without Review</a></li>
+                        ##<li><a href="#tab_7" data-toggle="tab">Preregister without Review</a></li>
                       </ul>
                       <a href="https://osf.io" target="_blank">
-                        <img src="/static/img/pics/preregbutton_blue.png" alt="preregistration workflow" width="200px">
-                      </a>
+                        <img src="/static/img/pics/preregbutton.png" alt="preregistration workflow" width="200px"></a>
+                    ##  <a href="https://osf.io" target="_blank">
+                  ##      <img src="/static/img/pics/preregbutton_square.png" alt="preregistration workflow" width="140px"></a>
                     ##  <a href="https://osf.io" target="_blank">
                     ##    <img src="/static/img/pics/preregnoprize_blue.png" alt="preregistration workflow" width="200px">
                     ##  </a>
@@ -442,7 +443,7 @@
                                                                         </div>
                                                                         <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
                                                                           <div class="panel-body">
-                                                                            Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remeber that the review is required in order to be eligible for a $1,000 prize.</p>
+                                                                            Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remember that the review is required in order to be eligible for a $1,000 prize.</p>
                                                                             <p>Alternatively, you may simply fill out the content of the research plan in a <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="_blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a> and <a href="https://osf.io/getting-started/#registrations" target="_blank">register</a> your project.
                                                                            </div>
                                                                         </div>
@@ -514,7 +515,8 @@
                                 </table>
                             </div>
                             <!-- END TAB 6 -->
-                            <!-- START TAB 7 -->
+
+                            <!-- START TAB 7
                             <div class="tab-pane" id="tab_7">
                                 <table>
                                     <tr>
@@ -543,7 +545,7 @@
                                     </tr>
                                 </table>
                             </div>
-                            <!-- END TAB 7 -->
+                           END TAB 7 -->
 
                     </div>
 
