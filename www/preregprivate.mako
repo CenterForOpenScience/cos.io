@@ -315,7 +315,7 @@
                                                     </div>
                                                     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                       <div class="panel-body">
-                                                       Registered Reports are a particular publication format in which both the preregistered plans and the final manuscript undergo peer review. In the first stage, reviewers and editors evaluate the relevance of the research questions and the proposed methods to answer them. Submissions that pass stage one review are offered ‘in principle acceptance’ (IPA), and the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Stage two peer review evaluates the complete manuscript before publication. In most cases, the Preregistration Challenge is not part of a Registered Report.
+                                                       Registered Reports are a particular publication format in which both the preregistered plans and the final manuscript undergo peer review. In the first stage, reviewers and editors evaluate the relevance of the research questions and the proposed methods to answer them. Submissions that pass stage one review are offered ‘in principle acceptance’ (IPA), and the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Stage two peer review evaluates the complete manuscript before publication. </p> <p>In most cases, the Preregistration Challenge is not part of a Registered Report.
                                                        </div>
                                                       </div>
                                                     </div>
@@ -325,13 +325,13 @@
                                                       <div class="panel-heading" role="tab" id="headingSix">
                                                         <h4 class="panel-title">
                                                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                          How can I get the results of my preregistered study published?
+                                                          How will I get this published?
                                                           </a>
                                                         </h4>
                                                         </div>
                                                         <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                                                           <div class="panel-body">
-                                                           Preregistration is relatively new to many people, and so you may get questions from reviewers or editors during the review process. Below are some possible issues you may encounter and suggested responses.
+                                                           Preregistration is relatively new to many people, and so you may get questions from reviewers or editors during the review process. Below are some possible issues you may encounter and suggested strategies.
                                                             <ul>
                                                             <hr>
                                                             <li><strong>Possible feedback</strong> Reviewers or editors may request that you remove an experiment, study, analysis, variable, or design feature because the results are null results or marginal.</li>
@@ -491,8 +491,8 @@
                                             <ol>
                                             <li><h2>Research Plan Review</h2>
                                             <p>In order to be eligible for the Preregistration Challenge, each submission must pass a review process in which the statistical methods of the proposed study and its analyses are checked for completeness. <strong>This process does not assess the validity of the research question or statistical methodology and in no way affects the editorial decisions of any journal. This is not peer review.</strong>
-                                            <p>We will review the submitted study design and analysis descriptions, and determine whether all question fields were answered with enough detail to fully pre-specify the design and analysis plan. Here are the guidelines (link) that reviewers will use when evaluating your submitted plans.
-                                            <p>In order to be eligible for the prize, both you and administrators of the Preregistration Challenge must agree that the plan is acceptable. You may of course register anything else on the Open Science Framework at any time, but plans that do not pass this review process will not be eligible for a $1,000 prize.
+                                            <p>We will review the submitted study design and analysis descriptions, and determine whether all question fields were answered with enough detail to fully pre-specify the design and analysis plan. <a href="https://osf.io/h4ga8/" target="_blank">Here are the guidelines</a> that reviewers will use when evaluating your submitted plans.
+                                            <p>Only studies that pass this review process are eligible for the Preregistration Challenge. You may of course register anything else on the Open Science Framework at any time, but plans that do not pass this review process will not be eligible for a $1,000 prize.
 
                                             <li><h2>Article Review</h2>
                                             <p>Rarely does a complex undertaking go exactly according to plan. Preregistration allows you to more easily distinguish between hypothesis testing analyses (the "confirmatory" analyses) and hypothesis generating, exploratory analyses. Accordingly, articles must be reviewed to verify that the plans were followed and new analyses were appropriately separated.</p>
