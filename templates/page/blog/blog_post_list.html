@@ -199,10 +199,10 @@
                             <a href="{% url "blog_post_feed_category" category.slug "rss" %}">{% trans "RSS" %}</a> /
                             <a href="{% url "blog_post_feed_category" category.slug "atom" %}">{% trans "Atom" %}</a>
                         {% endif %}
-                        {% if author %}
-                            <a href="{% url "blog_post_feed_author" author.username "rss" %}">{% trans "RSS" %}</a> /
-                            <a href="{% url "blog_post_feed_author" author.username "atom" %}">{% trans "Atom" %}</a>
-                        {% endif %}
+{#                        {% if author %}#}
+{#                            <a href="{% url "blog_post_feed_author" author.username "rss" %}">{% trans "RSS" %}</a> /#}
+{#                            <a href="{% url "blog_post_feed_author" author.username "atom" %}">{% trans "Atom" %}</a>#}
+{#                        {% endif %}#}
                         {% if not tag and not category and not author %}
                             <a href="{% url "blog_post_feed" "rss" %}">{% trans "RSS" %}</a> /
                             <a href="{% url "blog_post_feed" "atom" %}">{% trans "Atom" %}</a>
