@@ -185,7 +185,11 @@ body {
 .service-box-v1 {
     padding: 25px !important;
     text-align: center !important;
-    height: 370px !important;
+    border:1px solid #EEE;
+    width:calc(33% - 20px);
+    box-shadow: 0 0 3px #EEE;
+    float:left;
+    margin:10px;
 }
 
 .service-box p {
@@ -218,7 +222,7 @@ body {
 }
 
 .service-box-v1 h2{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .service-box-v1 p{
@@ -226,9 +230,14 @@ body {
     text-decoration: none;
     font-size: 13px;
 }
+.service-box-v1 a{
+    color:#0DA3E2;
+}
 
 .service-box-v1 img{
     margin-bottom: 10px;
+    max-width:33%;
+    max-height:25%;
 }
 
 .service-box-v1:hover i, .service-box-v1:hover p {
@@ -241,6 +250,14 @@ body {
     -o-transition:all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
     -webkit-transition:all 0.4s ease-in-out;
+    text-decoration:none !important;
+}
+
+.service-box-v1 p:hover{
+    text-decoration:none !important;
+}
+
+.service-box-v1 h2:hover{
     text-decoration:none !important;
 }
 
