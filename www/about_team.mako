@@ -58,7 +58,7 @@
             <img src="../static/img/people/Liscouski.jpg" alt="Amanda Liscouski">
             <h3>
                 Amanda Liscouski
-                <small>Developer Intern | Infrastructure</small>
+                <small>QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/ajlisk" data-original-title="GitHub" class="github"></a> </li>
