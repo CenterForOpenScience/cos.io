@@ -7,7 +7,7 @@
         <div class="navbar-collapse collapse col-md-7 col-md-offset-1" >
             <ul class="nav navbar-nav">
                 <li class="dropdown ${ 'active' if page.startswith('about') else ''}">
-                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="/about_mission">
                         About us
                         <i class="fa fa-angle-down"></i>
                     </a>
