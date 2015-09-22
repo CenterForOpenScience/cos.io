@@ -100,7 +100,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/sanfilippo.jpg" alt="Anna Sanfilippo">
+            <img src="../static/img/people/Sanfilippo.jpg" alt="Anna Sanfilippo">
             <h3>
                 Anna Sanfilippo
                 <small>Developer Intern | Infrastructure</small>
@@ -736,7 +736,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/zhang.jpg" alt="Merlin Zhang">
+            <img src="../static/img/people/Zhang.jpg" alt="Merlin Zhang">
             <h3>
                 Merlin Zhang
                 <small>Developer Intern | Infrastructure</small>
