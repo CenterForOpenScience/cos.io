@@ -50,7 +50,7 @@
                     <li><b><a href="https://onedrive.live.com/about/en-us/">One Drive</a>-OSF integration</b> (Recipients: Ryan Casey, Travis Blount-Elliott, Jeff Morris, Harrison Thrift)</li>
                     <li><b><a href="https://evernote.com/">Evernote</a>-OSF integration</b> (Recipients: Raymond Yee)</li>
                     <li><b><a href="https://dmptool.org/">DMPTool</a>-OSF integration</b> (Recipients: Raymond Yee)</li>
-                    <li><b><a href="http://neurovault.org/">Neurovault/Neurosynth</a>-OSF integration</b> (Recipients: Chris Gorgoluski, Tal Yarkoni)</li>
+                    <li><b><a href="http://neurovault.org/">Neurovault/Neurosynth</a>-OSF integration</b> (Recipients: Chris Gorgolewski, Tal Yarkoni)</li>
                     <li><b><a href="http://vivoweb.org/">VIVO</a>-<a href="https://osf.io/share">SHARE</a>-OSF connections</b> (Recipients: Mike Conlon, Alexander Garcia Castro)</li> 
                     <li><b><a href="http://datadryad.org/">Dryad</a>-OSF integration</b> (Recipients: Kevin Wierman)</li>
                     <li><b><a href="https://www.sharelatex.com/">ShareLaTeX</a>-OSF integration</b> (Recipients: Daniel Neis, Luis Mulinari, Rafael Delucena, Cesar Costa)</li>
