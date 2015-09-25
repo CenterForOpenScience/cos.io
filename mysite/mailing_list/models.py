@@ -36,7 +36,7 @@ class MailingList(models.Model):
 
         # TODO send them to the login page
         if credential is None or credential.invalid is True:
-            return
+            return HttpResponseRedirect('/accounts/login/')
 
         http = credential.authorize(httplib2.Http())
         service = build('admin', 'directory_v1', http=http)
@@ -55,7 +55,7 @@ class MailingList(models.Model):
 
         # TODO send them to the login page
         if credential is None or credential.invalid is True:
-            return
+            return HttpResponseRedirect('/accounts/login/')
 
         post_data = {
             'email': self.email,
@@ -80,7 +80,7 @@ class MailingList(models.Model):
 
         # TODO send them to the login page
         if credential is None or credential.invalid is True:
-            return
+            return HttpResponseRedirect('/accounts/login/')
 
         post_data = {
             'email': self.email,
