@@ -83,8 +83,8 @@
             <!-- Share Buttons -->
              {% block blog_post_detail_sharebuttons %}
                 {% set_short_url_for blog_post %}
-                <a target="_blank" href="http://twitter.com/home?status={{ blog_post.short_url|urlencode }}%20{{ blog_post.title|urlencode }}"><img src="{% static 'tw_icon.png' %}"></a>
-                <a target="_blank" href="http://facebook.com/sharer.php?u={{ request.build_absolute_uri }}&amp;t={{ blog_post.title|urlencode }}"><img src="{% static 'fb_icon.png' %}"></a>
+                <a target="_blank" href="http://twitter.com/home?status={{ blog_post.short_url|urlencode }}%20{{ blog_post.title|urlencode }}"><img src="{% static 'img/icons/social/twitter.png' %}"></a>
+                <a target="_blank" href="http://facebook.com/sharer.php?u={{ request.build_absolute_uri }}&amp;t={{ blog_post.title|urlencode }}"><img src="{% static 'img/icons/social/facebook.png' %}"></a>
             {% endblock %}
         </div>
     </div>
@@ -104,7 +104,7 @@
     <div class="row">
         <div class="col-md-3 col-md-offset-1 blogButton">
             <button type="button" class="btn btn-primary">
-                <a href = "{% url 'blog' %}" style="color:#FFF">
+                <a href = "#" style="color:#FFF">
                     Back to Blog
                 </a>
 
