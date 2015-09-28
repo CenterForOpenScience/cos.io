@@ -385,51 +385,51 @@
 ##        </div>
 ##    </div>
 ##</div>
-<div id="QATestEngineerIntern" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#QATestEngineerIntern" >
-                    QC/QA/Test Engineer Intern
-                </a>
-            </h4>
-        </div>
-         <div id="QATestEngineerIntern" class="panel-collapse collapse">
-             <div class="panel-body">
-                 <dl class="dl-horizontal">
-                     <dt>Background</dt>
-                     <dd>
-                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="osf.io">Open Science Framework.</a></p>
-                     </dd>
-                     <dt>Responsibilities</dt>
-                     <dd>
-                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  Interns will develop rigorous product QC, QA, and testing skills by working closely with developers, technical architects, technical managers, and the product team. Interns will work in conjunction with the programmatic testing done by the development team and helps a ensure that only high-quality software is released.  This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.  See our other open positions to learn more about the desired qualities of COS developers and the product team.  Also, see more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
-                     </dd>
-                     <dt>Skills</dt>
-                     <dd>
-                         <p>Educational background in either computer science, engineering, or the sciences, ideally also with knowledge of scientific research practices and workflows; Strong collaborative personality and ability to work across diverse teams; Commitment to delivering quality products; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization; Attention to detail.</p>
-
-                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
-                     </dd>
-                     <dt>Location</dt>
-                     <dd>
-                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                     </dd>
-                     <dt>Benefits</dt>
-                     <dd>
-                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
-                     </dd>
-                     <dt>Applying</dt>
-                     <dd>
-                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-                     </dd>
-                 </dl>
-             </div>         
-             </div>
-    </div>
- </div>
+##<div id="QATestEngineerIntern" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
+##            <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#QATestEngineerIntern" >
+##                    QC/QA/Test Engineer Intern
+##                </a>
+##            </h4>
+##        </div>
+##         <div id="QATestEngineerIntern" class="panel-collapse collapse">
+##             <div class="panel-body">
+##                 <dl class="dl-horizontal">
+##                     <dt>Background</dt>
+##                    <dd>
+##                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="osf.io">Open Science Framework.</a></p>
+##                     </dd>
+##                     <dt>Responsibilities</dt>
+##                     <dd>
+##                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  Interns will develop rigorous product QC, QA, and testing skills by working closely with developers, technical architects, technical managers, and the product team. Interns will work in conjunction with the programmatic testing done by the development team and helps a ensure that only high-quality software is released.  This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.  See our other open positions to learn more about the desired qualities of COS developers and the product team.  Also, see more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
+##                     </dd>
+##                     <dt>Skills</dt>
+##                     <dd>
+##                         <p>Educational background in either computer science, engineering, or the sciences, ideally also with knowledge of scientific research practices and workflows; Strong collaborative personality and ability to work across diverse teams; Commitment to delivering quality products; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization; Attention to detail.</p>
+##
+##                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+##                     </dd>
+##                     <dt>Location</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                     </dd>
+##                     <dt>Benefits</dt>
+##                     <dd>
+##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                     </dd>
+##                     <dt>Applying</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+##                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+##                     </dd>
+##                 </dl>
+##             </div>         
+##             </div>
+##    </div>
+## </div>
 <div id="SeniorDeveloper" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper_heading">
@@ -589,57 +589,57 @@
 ##         </div>
 ##     </div>
 ## </div>
-<div id="ResearchScientist" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading">
-            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ResearchScientist_heading">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-
-                <a data-parent="#ResearchScientist" >
-                    Research Scientist
-                </a>
-            </h4>
-        </div>
-        <div id="ResearchScientist" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="http://osf.io/">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We will hire one individual for a one-year contract position with training in biomedical research to assist with the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>.  The position will be involved in managing the replication projects with a focus on performing data analysis and writing reports of the experimental results.  Candidates must have strong writing, organization, and statistical analysis skills.  This position is appropriate for recent or past PhDs with strong methodological and quantitative training in the biomedical sciences. </p>
-                
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <p>The position will provide support on the management of the replication projects for this large-scale project.  This includes performing the statistical analysis for each experiment that was conducted, writing the results and discussion of the Replication Studies, and organizing the content associated with the experiments (raw data, methods, materials, etc) on the project page on the <a href="https://osf.io/p7ayb/wiki/home/">Open Science Framework</a>.  The selected candidate will assist in demonstrating COS’s best practices for reproducible research by collaborating with the COS team and our partners on the project, <a href="https://www.scienceexchange.com">Science Exchange</a>, to ensure the experimental process and results are transparent and accessible to the research community. </p>
-                    
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Substantive scientific training and experience in biomedical research methodology is required, PhD is preferred.  Skills in quantitative data analysis and statistical programming software (e.g. R or Python) are essential.  Very strong written communication skills; team-oriented, very strong work ethic; exceptional organization, time-management, and attention to detail; passion for reproducible research and open tools.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                     
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Notes</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  As a tech start-up, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness.  COS is supported by NIH, the Laura and John Arnold Foundation, John Templeton Foundation, Alfred P. Sloan Foundation, the Hewlett Foundation, and an anonymous donor.  Get more information about the Reproducibility Project: Cancer Biology in an <a href="http://elifesciences.org/content/3/e04333">article</a> describing the project and learn more about COS in papers articulating a vision for "Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs2/centerforopenscience/research-scientist/aRwJIOk-er5z3SiGalkWKP" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
+##<div id="ResearchScientist" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading">
+##            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ResearchScientist_heading">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##
+##               <a data-parent="#ResearchScientist" >
+##                    Research Scientist
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="ResearchScientist" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                  <dt>Background</dt>
+##                    <dd>
+##                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="http://osf.io/">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We will hire one individual for a one-year contract position with training in biomedical research to assist with the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>.  The position will be involved in managing the replication projects with a focus on performing data analysis and writing reports of the experimental results.  Candidates must have strong writing, organization, and statistical analysis skills.  This position is appropriate for recent or past PhDs with strong methodological and quantitative training in the biomedical sciences. </p>
+##                
+##                    </dd>
+##                    <dt>Responsibilities</dt>
+##                    <dd>
+##                        <p>The position will provide support on the management of the replication projects for this large-scale project.  This includes performing the statistical analysis for each experiment that was conducted, writing the results and discussion of the Replication Studies, and organizing the content associated with the experiments (raw data, methods, materials, etc) on the project page on the <a href="https://osf.io/p7ayb/wiki/home/">Open Science Framework</a>.  The selected candidate will assist in demonstrating COS’s best practices for reproducible research by collaborating with the COS team and our partners on the project, <a href="https://www.scienceexchange.com">Science Exchange</a>, to ensure the experimental process and results are transparent and accessible to the research community. </p>
+##                    
+##                    </dd>
+##                    <dt>Skills</dt>
+##                    <dd>
+##                        <p>Substantive scientific training and experience in biomedical research methodology is required, PhD is preferred.  Skills in quantitative data analysis and statistical programming software (e.g. R or Python) are essential.  Very strong written communication skills; team-oriented, very strong work ethic; exceptional organization, time-management, and attention to detail; passion for reproducible research and open tools.</p>
+##                    </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                   </dd>
+##                    <dt>Benefits</dt>
+##                    <dd>
+##                     
+##                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+##                    </dd>
+##                    <dt>Notes</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  As a tech start-up, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness.  COS is supported by NIH, the Laura and John Arnold Foundation, John Templeton Foundation, Alfred P. Sloan Foundation, the Hewlett Foundation, and an anonymous donor.  Get more information about the Reproducibility Project: Cancer Biology in an <a href="http://elifesciences.org/content/3/e04333">article</a> describing the project and learn more about COS in papers articulating a vision for "Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        
+##                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs2/centerforopenscience/research-scientist/aRwJIOk-er5z3SiGalkWKP" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+##                    </dd>
+##                </dl>
+##            </div>
+##        </div>
+##    </div>
+##</div>
 <div id="WebDesignIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">

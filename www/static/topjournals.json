@@ -148,7 +148,7 @@
   },
   {
     "Journal Title":"Comprehensive Results in Social Psychology",
-    "Publisher":"Society of Australasian Social Psychologists & European Association of Social Psychology",
+    "Publisher":"Taylor and Francis",
     "Association":"Society of Australasian Social Psychologists & European Association of Social Psychology",
     "Subject Area":"Psychology",
     "FIELD5":""
@@ -289,7 +289,7 @@
   {
     "Journal Title":"International Interactions",
     "Publisher":"Taylor and Francis",
-    "Association":"",
+    "Association":"International Studies Association",
     "Subject Area":"Social Sciences",
     "FIELD5":""
   },
@@ -3567,6 +3567,118 @@
     "Publisher":"PeerJ",
     "Association":"",
     "Subject Area":"Computer Science",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Human Computation",
+    "Publisher":"Human Computation",
+    "Association":"",
+    "Subject Area":"Multidisciplinary",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Biodiversity Data Journal",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"ZooKeys",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"PhytoKeys",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"BioRisk",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Environmental Science",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"NeoBiota",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Journal of Hymenoptera Research",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"International Journal of Myriapodology",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Environmental Science",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Comparative Cytogenetics",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Biochemistry | Genetics and Molecular Biology",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Subterranean Biology",
+    "Publisher":"Pensoft Publishers",
+    "Association":"International Society for Subterranean Biology",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Nature Conservation",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Environmental Science",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"MycoKeys",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Deutsche Entomologische Zeitschrift",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Zoosystematics and Evolution",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Nota Lepidopterologica",
+    "Publisher":"Pensoft Publishers",
+    "Association":"Societas Europaea Lepidopterologica",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Research Ideas and Outcomes (RIO)",
+    "Publisher":"Pensoft Publishers",
+    "Association":"",
+    "Subject Area":"Multidisciplinary",
     "FIELD5":""
   }
 ]
