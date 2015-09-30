@@ -6,6 +6,8 @@
     ${self.navlinks('communities')}
 </%def>
 
+
+
 <%def name="stylesheets()">
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
@@ -94,8 +96,10 @@
                         <li><a href="#tab_4" data-toggle="tab">FAQ</a></li>
                         <li><a href="#tab_5" data-toggle="tab">Eligible Journals</a></li>
                         <li><a href="#tab_6" data-toggle="tab">Review Process</a></li>
+                        <li><a href="https://osf.io" target="_blank">Begin a Preregistration</a>
                         ##<li><a href="#tab_7" data-toggle="tab">Preregister without Review</a></li>
                       </ul>
+                      ## <a href="https://osf.io" target="_blank"><button type="button">Begin a Preregistration</button></a>
                       <a href="https://osf.io" target="_blank">
                         <img src="/static/img/pics/preregbutton.png" alt="preregistration workflow" width="200px"></a>
                     ##  <a href="https://osf.io" target="_blank">
@@ -114,7 +118,6 @@
                         <table>
                             <tr>
                                 <td>
-
                                   <iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe>
                                 </td>
                             </tr>
@@ -126,13 +129,16 @@
                         <table>
                             <tr>
                                 <td>
-                                    <h3>Preregistration</h3>
-                                      <p>A preregistration is a timestamped, uneditable study and analysis plan created before conducting research. It guides a scientist to conduct and analyze a study exactly as specified in the plan. As it is currently practiced, the research workflow can often lead to irreproducible results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish those that offer the most compelling stories.</p>
+                                    <h3>Science should be self correcting and cum ulative</h3>
+                                    <p>
+                                    A core principle of the scientific method is that our knowledge about how the universe works should grow more complete and accurate over time. Confronting this idealistic vision are forces that motivate our more mundane reality: writing publications and grants that are compelling, convincing our peers that our ideas are accurate and worth supporting, and simply succeeding in our careers. These incentives lead to practices that are misaligned with our values and science that cannot be reproduced. <i>In order to improve from the status quo, we need a process that accounts for these pressures.</i>
+                                    </p>
 
-                                      <p>These problems are the inevitable result of misaligned incentives and subtle biases. Preregistration is a tool that helps us to be more transparent about our research practices. It allows us to clearly present the results of hypothesis testing, confirmatory analyses while still allowing us to present hypothesis generating, exploratory results as valuable insights that warrant further investigation.</p>
+                                    <h3>Preregistration</h3>
+                                      <p>Preregistration is a tool that helps us to be more transparent about our research practices. It is a timestamped, read-only copy of a plan that describes a study’s protocol and its analysis that guides a scientist to conduct research exactly as specified. It allows us to clearly present the results of hypothesis testing, confirmatory analyses while still allowing us show hypothesis generating, exploratory results as valuable insights that warrant further investigation.</p>
 
                                       <h3>The Preregistration Challenge</h3>
-                                      <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish an article in an eligible journal that reports on an analysis preregistered on the OSF. Please review the information on this site to learn how you could be one of them! As with any competition, certain <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> apply, but please review our FAQ and ask us (prereg@cos.io) if you have questions!</p>
+                                      <p>We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish an article in an eligible journal that reports on an analysis preregistered on the OSF. Please review the information on this site to learn how you could be one of them! As with any competition, certain <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> apply, but please review our FAQ and ask us (prereg@cos.io) if you have questions!</p>
                                     <center><img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="450px" class="margin-top-10"></center>
                                   </td>
                               </tr>
@@ -201,20 +207,19 @@
                                     <td>
                                         <h3>Eligibility Criteria</h3>
                                         <p>
-                                        <p>Below are eight items from the complete terms and conditions that we want to make sure each participant understands before beginning the Preregistration Challenge.<p>
+                                        <p>We designed this process to encourage preregistration. Below are 8 terms for users who choose to enter the Preregistration Challenge. If you do not agree to the terms you may still continue, use the form, and register your research study without entering the Challenge. <strong>Only Preregistrations that enter the challenge and undergo review are eligible for a $1,000 prize.</strong> We welcome questions and feedback (prereg@cos.io).<p>
                                         <ol>
                                           <li>Research plans that you submit through this process will be reviewed by us and designated external reviewers. (see "Review Process" tab) </li>
                                           <li>The published article must also be reviewed before receiving the prize. (see "Review Process" tab)</li>
                                           <li>Prizes will be awarded at pre-determined dates to eligible entrants. If more eligible entrants exist than available prizes, entrants will be ranked based on the date of registration. (see FAQ)</li>
                                           <li>Articles must be published in an <a href="/preregjournals/" target="_blank">eligible journal</a>.</li>
-                                          <li>The use of pre-existing data may prohibit you from entering the Preregistration Challenge. (see FAQ)</li>
-                                          <li>One prize is given per published article to the article author who submits the research plan through the OSF.</li>
+                                          <li>The use of pre-existing data may make your registration ineligible for the Preregistration Challenge. (see FAQ)</li>
+                                          <li>When awarded, one prize is given per published article to the article author who submitted the reviewed and approved preregistration.</li>
                                           <li>Residents of countries on the U.S. State Department's <a href="http://www.pmddtc.state.gov/embargoed_countries/" target="_blank">list of embargoed countries</a> may not participate in the Preregistration Challenge.</li>
                                           <li>Entering the Preregistration Challenge requires that you agree to all of its <a href="https://osf.io/4uxbj/" target="_blank">terms</a>.</li>
                                         </ol>
                                         </p>
-                                        <h3>Don't agree to the terms? </h3>
-                                        <p>You may still use the tools we've made to create a preregistration. Once you complete the form, simply register your project without review. <strong>Only preregistrations that undergo review are eligible for a $1,000 prize.</strong>
+
                                     </td>
                                 </tr>
                             </table>
@@ -225,7 +230,7 @@
                             <table>
                                 <tr>
                                     <td>
-                                        <h3>FAQ</h3>
+                                        <h3>Frequently Asked Questions</h3>
                                         <!-- Begin FAQ 1 --->
                                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                         <div class="panel panel-default">
@@ -238,8 +243,8 @@
                                           </div>
                                           <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                             <div class="panel-body">
-                                              Yes and no. You are obligated to conduct and report the exact tests that you specified. However, everyone knows that many novel discoveries are sometimes completely unanticipated. The goal of preregistration is not to stop researchers from conducting any 'exploratory' analyses, it simply makes clear which results were the outcome of planned analyses and which were not (see Chambers, et. al, 2014).
-                                              </p><p>Exploring a dataset to look for unexpected relationships results in testable hypotheses, subjecting data to planned, confirmatory analyses is the best way to test those hypotheses. Making the distinction between exploratory and confirmatory analysis more transparent allows the reader to fairly evaluate the evidence being presented (see Wagenmakers et al., 2012).
+                                              Yes and no. You are obligated to conduct and report the exact tests that you specified. However, everyone knows that many novel discoveries are sometimes completely unanticipated. The goal of preregistration is not to stop researchers from conducting any 'exploratory' analyses, it simply makes clear which results were the outcome of planned analyses and which were not (<a href="http://orca.cf.ac.uk/59475/" target="_blank">Chambers et. al, 2014</a>).
+                                              </p><p>Exploring a dataset to look for unexpected relationships results in testable hypotheses, subjecting data to planned, confirmatory analyses is the best way to test those hypotheses. Making the distinction between exploratory and confirmatory analysis more transparent allows the reader to fairly evaluate the evidence being presented (<a href="http://pps.sagepub.com/content/7/6/632.abstract" target="_blank">Wagenmakers et al., 2012</a>).
                                             </div>
                                           </div>
                                         </div>
@@ -394,7 +399,7 @@
                                                                 </div>
                                                                 <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                                                                   <div class="panel-body">
-                                                                     Although preregistration has existed in a more limited form for clinical trials, the implementation of preregistration across disciplines is novel. There are both strong theoretical reasons to preregister (Chambers et al., 2014; Simmons, Nelson, & Simonsohn, 2011), and some empirical evidence that supports its effectiveness <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">(Kaplan and Irvin, 2015)</a>. We hope that the Preregistration Challenge will encourage researchers to give preregistration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of preregistration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the preregistration process.
+                                                                     Although preregistration has existed in a more limited form for clinical trials, the implementation of preregistration across disciplines is novel. There are both strong theoretical reasons to preregister (<a href="http://orca.cf.ac.uk/59475/" target="_blank">Chambers et. al, 2014</a>; <a href="http://pss.sagepub.com/content/22/11/1359" target="_blank">Simmons, Nelson, & Simonsohn, 2011</a>), and some empirical evidence that supports its effectiveness (<0a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">Kaplan and Irvin, 2015</a>). We hope that the Preregistration Challenge will encourage researchers to give preregistration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of preregistration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the preregistration process.
                                                                    </div>
                                                                   </div>
                                                                 </div>
@@ -426,8 +431,8 @@
                                                                       </div>
                                                                       <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
                                                                         <div class="panel-body">
-                                                                          <p><h2>For example if a particular assumption is not met, I may need to use a different statistical model. How do I accommodate this into a preregistration?</p></h2>
-                                                                          Such situations are likely to be common. We suggest that you define a 'decision-tree' containing logical IF-THEN rules that specify the analyses that will be used in specific situations. We have put together some example decision trees to give you some ideas of how to accomplish this. In the event that you need to conduct an unplanned analysis, please note that preregistration does not prevent you from doing so, it simply makes clear which analyses were planned and which were not.
+                                                                          <p>For example if a particular assumption is not met, I may need to use a different statistical model. How do I accommodate this into a preregistration?</p>
+                                                                          Such situations are likely to be common. We suggest that you define a 'decision-tree' containing logical IF-THEN rules that specify the analyses that will be used in specific situations. We have put together <a href="https://osf.io/x5w7h/files/" target="_blank">some example decision trees</a> to give you some ideas of how to accomplish this. In the event that you need to conduct an unplanned analysis, please note that preregistration does not prevent you from doing so, it simply makes clear which analyses were planned and which were not.
                                                                          </div>
                                                                       </div>
                                                                     </div>
