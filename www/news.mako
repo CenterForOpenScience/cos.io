@@ -34,6 +34,18 @@
             </div>
 
             <div class="margin-bottom-20 grid" style="display:none">
+                
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-09-29"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Reproducibility Project: Psychology Press Summary</h2>
+
+                    <p class="text-left">September 29, 2015 | The Reproducibility Project: Psychology was a collaborative effort of 270 contributors to replicate 100 important findings in the psychology literature. After the results were published, people from around the world engaged in conversations about the impact of this study on reproducibility and transparency.
+                        Find out more about the project through these news stories.</p></a>
+                </div>
+
                 <div class="service-box-v1">
                     <a href=
                     "../pr/2015-09-24"><img src="../static/img/icons/cos_logo.png"
@@ -54,18 +66,6 @@
                     <p class="text-left">September 8, 2015 | This is a summary
                     report of progress during our June to August 2015 quarter and
                     highlights of our plans for September to November 2015.</p></a>
-                </div>
-
-
-                <div class="service-box-v1">
-                    <a href=
-                    "../pr/2015-09-24"><img src="../static/img/icons/cos_logo.png"
-                    width="125">
-
-                    <h2 class="text-left">Reproducibility Project: Psychology Press Summary</h2>
-
-                    <p class="text-left">The Reproducibility Project: Psychology was a collaborative effort of 270 contributors to replicate 100 important findings in the psychology literature. After the results were published, people from around the world engaged in conversations about the impact of this study on reproducibility and transparency.
-                        Find out more about the project through these news stories.</p></a>
                 </div>
 
 
