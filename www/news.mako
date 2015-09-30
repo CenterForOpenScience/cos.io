@@ -43,7 +43,7 @@
 
                     <p class="text-left">September 24, 2015 | The Center for Open Science is pleased to announce 29 grants totalling nearly $300,000 for advancing openness, integrity, and reproducibility in science.  All tools and services developed with these grant funds will have open licenses to maximize collaboration, reuse, and community support, and many will integrate with the growing Open Science Framework (OSF) ecosystem.</p></a>
                 </div>
-                
+
                 <div class="service-box-v1">
                     <a href=
                     "http://us9.campaign-archive1.com/?u=4ea2d63bcf7c2776e53a62167&id=12890836b5">
@@ -101,11 +101,7 @@
                     <h2 class="text-left">OSF now a recommended repository for
                     Nature Publishing Group's journal Scientific Data</h2>
 
-                    <p class="text-left">August 2015 | Studies are finding that
-                    many groundbreaking published results with implications for
-                    human health and disease cannot be replicated. Sarah Webb
-                    explores how reproducibility issues in basic science are
-                    creating bumps on the road to the clinic.</p></a>
+                    <p class="text-left">August 12, 2015 | The Center for Open Science (COS) is pleased to announce that the Open Science Framework (OSF) is now listed as a recommended repository for the Nature Publishing Group’s Scientific Data journal.</p></a>
                 </div>
 
                 <div class="service-box-v1">
