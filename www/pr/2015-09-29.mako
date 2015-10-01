@@ -32,7 +32,7 @@
                     <tr class="spacer"></tr>
                 </tr>
                 <tr>
-                    <td class="sponsor-center"><a href="http://www.washingtonpost.com/news/speaking-of-science/wp/2015/08/27/trouble-in-science-massive-effort-to-reproduce-100-experimental-results-succeeds-only-36-times"><img src="/static/img/icons/washingtonpost.png"></a></td>
+                    <td class="sponsor-center"><a href="http://www.washingtonpost.com/news/speaking-of-science/wp/2015/08/27/trouble-in-science-massive-effort-to-reproduce-100-experimental-results-succeeds-only-36-times"><img src="/static/img/icons/WashingtonPost.png"></a></td>
                     <td><span class="med-font"><strong><a href="http://www.washingtonpost.com/news/speaking-of-science/wp/2015/08/27/trouble-in-science-massive-effort-to-reproduce-100-experimental-results-succeeds-only-36-times">The Washington Post</strong></a></span><br>
                                                 “Many scientific studies can’t be replicated. That’s a problem.” <br>by Joel Achenbach<br>
                     </td>
