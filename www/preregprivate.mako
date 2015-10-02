@@ -76,7 +76,6 @@
   ## <center><img src="/static/img/pics/prereg_logo_3_words.png" alt="logo" width="210px"></center>
       <div class="center margin-top-20">
       <h1>The $1,000,000 Preregistration Challenge</h1>
-          <h3>One thousand researchers will win $1,000 each for publishing work whose analyses were preregistered on the Open Science Framework.</h3></p></p></p>
       </div>
    </div>
 
@@ -118,7 +117,8 @@
                         <table>
                             <tr>
                                 <td>
-                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe>
+                                <p style="text-align:justify">Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will each win $1,000 for publishing results of preregistered research. Watch the intro video, explore the background information, or click “Begin a preregistration” to launch the guided tutorial to plan your next study!</p>
+                                  <p><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe>
                                 </td>
                             </tr>
                         </table>
@@ -129,7 +129,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <h3>Science should be self correcting and cum ulative</h3>
+                                    <h3>Science should be self correcting and cumulative</h3>
                                     <p>
                                     A core principle of the scientific method is that our knowledge about how the universe works should grow more complete and accurate over time. Confronting this idealistic vision are forces that motivate our more mundane reality: writing publications and grants that are compelling, convincing our peers that our ideas are accurate and worth supporting, and simply succeeding in our careers. These incentives lead to practices that are misaligned with our values and science that cannot be reproduced. <i>In order to improve from the status quo, we need a process that accounts for these pressures.</i>
                                     </p>
@@ -175,7 +175,7 @@
 
                                         <li><b>Analyze according to your preregistered plan</b> <p>Your analysis must run precisely according to what you specified in the preregistration. Any additional analyses are acceptable for generating new hypotheses, but must be clearly differentiated from the results of your registered analyses.</p>
 
-                                        <li><b>Write up your results</b> <p>Your article must distinguish between confirmatory results that came from testing the registered hypotheses, and any exploratory analyses you conducted in order to generate new hypotheses. There must also be a URL link to your registration on the OSF.</p>
+                                        <li><b>Write up your results</b> <p>Your article must distinguish between confirmatory results that came from testing the registered hypotheses, and any exploratory analyses you conducted in order to generate new hypotheses. There must also be a URL link to your registration on the OSF. You may use <a href="https://osf.io/zwkqj/" target="_blank">this checklist</a> when writing up your work.</p>
 
                                         <li><b>Submit your manuscript for publication</b><p> Only peer-reviewed manuscripts published in an <a href="/preregjournals/" target="_blank">eligible journal</a> are eligible to for a $1,000 prize.</p>
 
