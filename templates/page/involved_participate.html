@@ -35,11 +35,13 @@
                         <div class="tab-content ">
                             <!-- START TAB 1 -->
                             <div class="tab-pane active" id="tab_1">
-                                <div class="container">
-                                    <h2><strong>Promote Open Science in Your Community</strong></h2>
-                                    <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
+                                <div class="container" style="width:inherit;">
+                                    <div class="col-md-8">
+                                        <h2><strong>Promote Open Science in Your Community</strong></h2>
+                                        <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
                                         materials to help you advocate for open science. United, we can increase openness,
                                         integrity, and reproducibility across scientific domains.</p>
+                                    </div>
                                     <div class="col-md-8">
                                         <h4><b>What Ambassadors Do</b></h4>
                                         <ul>
@@ -64,7 +66,7 @@
                                     <div class="col-md-12">
                                         <h3><strong>Ambassadors</strong></h3>
                                         {% for image in ambassadors %}
-                                            <center><div class="col-md-4">
+                                            <center><div class="col-md-3">
                                                 <a href="{{ image.link }}" target="_blank"><br/>
                                                     <div class="circular" style="background: url({% cropped_thumbnail image "mini_image" max_size=image.get_thumb_max_size %}); width: {{ image.thumb_image_width }}px; height: {{ image.thumb_image_height }}px"></div></a>
                                                 <h4>{{ image.name }}</h4>
