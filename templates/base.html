@@ -104,10 +104,10 @@
                             <a href="{% url 'get_involved' %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
                                 Get Involved
                                 <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu" role="menu"><li>
-                                <li><a href="{% url 'involved_participate' %}#tab_1">Ambassadors</a></li>
-                                <li><a href="{% url 'involved_participate' %}#tab_2">Scientists</a></li>
-                                <li><a href="{% url 'involved_participate' %}#tab_4">Developers</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="location.reload()" href="{% url 'involved_participate' %}#tab_1">Ambassadors</a></li>
+                                <li><a onclick="location.reload()" href="{% url 'involved_participate' %}#tab_2">Scientists</a></li>
+                                <li><a onclick="location.reload()" href="{% url 'involved_participate' %}#tab_4">Developers</a></li>
                                 <li><a href="{% url 'jobs' %}">Jobs</a></li>
                             </ul>
                         </li>
