@@ -24,7 +24,7 @@
 <div class="row front-team">
 <h1><strong>The COS Team</strong></h1>
 <p class="lead">Astronomers, biologists, chemists, computer scientists, education researchers, engineers, neuroscientists, and psychologists have come together to provide tools and services that benefit all sciences.</p>
-<div class="container"><br />
+<div class="container" style="padding-left:50px"><br />
     <div class="row team-padding" >
         {% for team_member in current_members %}
             <li class="col-md-3 space-mobile" >
@@ -115,6 +115,9 @@
         jQuery(document).ready(function() {
             App.init();
         });
+    </script>
+    <script type="text/javascript">
+
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 {% endblock %}
