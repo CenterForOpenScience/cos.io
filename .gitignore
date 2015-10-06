@@ -1,21 +1,2 @@
-# Python
-*.py[cod]
-*.so
-*/__pycache__/*
-# DB / Migrations
-db.sqlite3
-dev.db
-migrations
-/static/*
-!/static/media/
-/static/media/*
-!/static/media/.gitkeep
-*.diff
-.idea
-**/bower_components
-local_settings.py
-
-!.gitkeep
-local_settings.py
-.local_settings.pyc
-env/
+*.pyc
+*./idea

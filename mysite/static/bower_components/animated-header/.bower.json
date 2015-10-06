@@ -1,0 +1,41 @@
+{
+  "name": "animated-header",
+  "version": "1.0.3",
+  "license": "MIT",
+  "description": "A fixed header that will animate its size on scroll. ",
+  "keywords": [
+    "jquery",
+    "animate",
+    "header",
+    "scroll"
+  ],
+  "homepage": "https://github.com/Haixing-Hu/animated-header.js",
+  "authors": [
+    {
+      "name": "Haixing Hu",
+      "email": "starfish.hu@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Haixing-Hu/animated-header.js.git"
+  },
+  "main": [
+    "js/animated-header.js"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.0"
+  },
+  "ignore": [
+    "test"
+  ],
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.3",
+    "commit": "379a172e088f400d5879f08ca18c2a17ff3fe848"
+  },
+  "_source": "git://github.com/Haixing-Hu/animated-header.js.git",
+  "_target": "~1.0.0",
+  "_originalSource": "animated-header"
+}
