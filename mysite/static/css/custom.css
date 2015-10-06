@@ -185,7 +185,11 @@ body {
 .service-box-v1 {
     padding: 25px !important;
     text-align: center !important;
-    height: 370px !important;
+    border:1px solid #EEE;
+    width:calc(33% - 20px);
+    box-shadow: 0 0 3px #EEE;
+    float:left;
+    margin:10px;
 }
 
 .service-box p {
@@ -218,7 +222,7 @@ body {
 }
 
 .service-box-v1 h2{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .service-box-v1 p{
@@ -226,9 +230,14 @@ body {
     text-decoration: none;
     font-size: 13px;
 }
+.service-box-v1 a{
+    color:#0DA3E2;
+}
 
 .service-box-v1 img{
     margin-bottom: 10px;
+    max-width:33%;
+    max-height:25%;
 }
 
 .service-box-v1:hover i, .service-box-v1:hover p {
@@ -244,16 +253,28 @@ body {
     text-decoration:none !important;
 }
 
+.service-box-v1 p:hover{
+    text-decoration:none !important;
+}
+
+.service-box-v1 h2:hover{
+    text-decoration:none !important;
+}
+
 .hp-slide-head{
-    padding-top: 50px;
+    text-align:center;
     text-transform: uppercase;
 }
 
 .main-cos-logo img{
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 200px;
+    max-width: 200px;
     min-width: 90px;
     min-height: 90px;
+    margin:auto;
+    display: block;
+    padding: 3%;
+    width:100%
 }
 
 .hp-slide-head h1{
@@ -418,12 +439,6 @@ body {
     background: -moz-radial-gradient(circle, #FAFFFF, #CEF3FF)
 }
 
-.bx-wrapper img {
-    width: 85%;
-    display: block;
-    padding: 3%;
-}
-
 .sponsor-center {
     width : 360px;
     text-align: center;
@@ -437,10 +452,10 @@ body {
 
 /*Communities*/
 .community-tabbable {
-    padding: 0;
     margin: 0;
     list-style: none;
     border-left: solid 2px #0da3e2;
+    padding:0;
 }
 .community-tabbable li {
     position: relative;

@@ -9,6 +9,10 @@ $ pip install -r requirements.txt
 
 $ bower install
 
+Add a local_settings.py file from the template included in the deploy folder- place this new file (local_settings.py) within the mysite folder.
+
+$ brew install memcached
+
 $ python manage.py migrate
 
 $ python manage.py createsuperuser
