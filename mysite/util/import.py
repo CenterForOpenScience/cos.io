@@ -13,7 +13,7 @@ class UserParams:
         self.outputFile = "";
         self.tableName = "";
 
-#This class is responsible to import a csv file to sqlite database. 
+#This class is responsible to import a csv file to sqlite database.
 class SqliteImport:
     def __init__(self, inputFile,outputFile,tableName):
         self.inputFile = inputFile

@@ -1,2 +1,15 @@
-*.pyc
-*./idea
+# Python
+*.py[cod]
+*.so
+*/__pycache__/*
+# DB / Migrations
+*.diff
+.idea
+**/bower_components
+local_settings.py
+
+!.gitkeep
+local_settings.py
+.local_settings.pyc
+env/
+util
