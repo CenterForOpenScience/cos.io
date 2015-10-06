@@ -41,7 +41,7 @@ class Team(models.Model):
     personal_website = models.CharField(max_length=255, null=True, blank=True)
 
     mailing_lists = models.ManyToManyField(MailingList, null=True, blank=True)
-    creator = models.ForeignKey(User)
+    creator = models.ForeignKey(User, blank=True)
 
     def __unicode__(self):
         return self.name
