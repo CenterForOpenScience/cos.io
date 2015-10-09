@@ -21,6 +21,9 @@ class News(models.Model):
     body = models.TextField()
     order = models.PositiveIntegerField()
 
+
+
+
     def __unicode__(self):
         return self.title
 
@@ -39,4 +42,4 @@ class News(models.Model):
     class Meta:
         verbose_name = u'News'
         verbose_name_plural = u'COS News Section'
-        ordering = ['order']
+        ordering = ['-author']
