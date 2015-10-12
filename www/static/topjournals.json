@@ -857,7 +857,7 @@
     "Journal Title":"Frontiers in Astronomy and Space Sciences",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Earth and Planetary Sciences",
+    "Subject Area":"Physics and Astronomy | Earth and Planetary Sciences",
     "FIELD5":""
   },
   {
@@ -871,14 +871,14 @@
     "Journal Title":"Frontiers in Bioengineering and Biotechnology",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Engineering | ",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Engineering | Agricultural and Biological Sciences",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Built Environment",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Engineering",
+    "Subject Area":"Engineering | Environmental Science | Materials Science",
     "FIELD5":""
   },
   {
@@ -892,7 +892,7 @@
     "Journal Title":"Frontiers in Cell and Developmental Biology",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Biochemistry, Genetics and Molecular Biology",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology ",
     "FIELD5":""
   },
   {
@@ -906,21 +906,21 @@
     "Journal Title":"Frontiers in Cellular Neuroscience",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Neuroscience",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Neuroscience",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Chemistry",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Chemistry",
+    "Subject Area":"Chemistry | Chemical Engineering",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Computational Neuroscience",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Neuroscience",
+    "Subject Area":"Neuroscience | Computer Science",
     "FIELD5":""
   },
   {
@@ -941,21 +941,21 @@
     "Journal Title":"Frontiers in Ecology and Evolution",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Agricultural and Biological Sciences | Environmental Science",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology  | Environmental Science",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Endocrinology",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Medicine",
+    "Subject Area":"Medicine | Biochemistry, Genetics and Molecular Biology",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Energy Research",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Energy",
+    "Subject Area":"Energy | Engineering",
     "FIELD5":""
   },
   {
@@ -976,14 +976,14 @@
     "Journal Title":"Frontiers in Human Neuroscience",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Neuroscience",
+    "Subject Area":"Neuroscience | Medicine",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in ICT",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Computer Science",
+    "Subject Area":"Computer Science | Engineering ",
     "FIELD5":""
   },
   {
@@ -1011,7 +1011,7 @@
     "Journal Title":"Frontiers in Materials",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Engineering",
+    "Subject Area":"Materials Science",
     "FIELD5":""
   },
   {
@@ -1025,7 +1025,7 @@
     "Journal Title":"Frontiers in Medicine",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Medicine",
+    "Subject Area":"Medicine | Health Professions",
     "FIELD5":""
   },
   {
@@ -1067,7 +1067,7 @@
     "Journal Title":"Frontiers in Neuroinformatics",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Computer Science | Engineering | Neuroscience",
+    "Subject Area":"Computer Science | Neuroscience",
     "FIELD5":""
   },
   {
@@ -1081,7 +1081,7 @@
     "Journal Title":"Frontiers in Neurorobotics",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Computer Science | Engineering",
+    "Subject Area":"Computer Science | Engineering | Neuroscience",
     "FIELD5":""
   },
   {
@@ -1109,14 +1109,14 @@
     "Journal Title":"Frontiers in Pediatrics",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Medicine",
+    "Subject Area":"Medicine | Health Professions",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Pharmacology",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Medicine | Pharmacology, Toxicology and Pharmaceutics",
+    "Subject Area":"Health Professions | Medicine | Pharmacology, Toxicology and Pharmaceutics",
     "FIELD5":""
   },
   {
@@ -1137,14 +1137,14 @@
     "Journal Title":"Frontiers in Plant Science",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Agricultural and Biological Sciences",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Psychiatry",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Medicine",
+    "Subject Area":"Medicine | Health Professions",
     "FIELD5":""
   },
   {
@@ -1158,21 +1158,21 @@
     "Journal Title":"Frontiers in Public Health",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Medicine",
+    "Subject Area":"Medicine | Health Professions",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Robotics and AI",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Multidisciplinary",
+    "Subject Area":"Computer Science | Engineering | Health Professions",
     "FIELD5":""
   },
   {
     "Journal Title":"Frontiers in Surgery",
     "Publisher":"Frontiers",
     "Association":"",
-    "Subject Area":"Medicine",
+    "Subject Area":"Medicine | Health Professions",
     "FIELD5":""
   },
   {
