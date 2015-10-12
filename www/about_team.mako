@@ -1412,7 +1412,7 @@
             <img src="../static/img/people/lewis.jpg" alt="Melissa Lewis">
             <h3>
                 Melissa Lewis
-                <small>Developer | Infrastructure</small>
+                <small>Project Coordinator | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/meli-lewis" data-original-title="GitHub" class="github"></a></li>
