@@ -29,6 +29,19 @@
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/gupta2.jpg" alt="Abhishek Gupta">
+            <h3>
+                Abhishek Gupta
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ag4ml" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/57ebh/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/schiller.jpg" alt="Alex Schiller">
             <h3>
                 Alex Schiller
@@ -37,6 +50,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/alexschiller" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/rnizy/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/Liscouski.jpg" alt="Amanda Liscouski">
+            <h3>
+                Amanda Liscouski
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ajlisk" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/nxygz/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -72,19 +98,19 @@
             </ul>
         </div>
     </li>
-   <li class="col-md-3 space-mobile">
-       <div class="thumbnail">
-           <img src="../static/img/people/yetton.jpg" alt="Benjamin Yetton">
-           <h3>
-               Benjamin Yetton
-               <small>Developer Intern | Infrastructure</small>
-           </h3>
-           <ul class="social-icons social-icons-color">
-               <li><a href="https://github.com/bdyetton" data-original-title="GitHub" class="github"></a></li>
-               <li><a href="https://osf.io/3zbdw/" data-original-title="osf" class="osf"></a></li>
-           </ul>
-       </div>
-   </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/Sanfilippo.jpg" alt="Anna Sanfilippo">
+            <h3>
+                Anna Sanfilippo
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/asanfilippo7" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/vfwjb/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/ferronato.jpg" alt="Betsy Ferronato">
@@ -239,6 +265,19 @@
                 <li><a href="https://github.com/cmr3rm" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="http://www.linkedin.com/pub/casey-rollins/83/958/927/" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/q7fts/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/chandler.jpg" alt="Chelsea Chandler">
+            <h3>
+                Chelsea Chandler
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ckc6cz" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/e6v4t/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -502,20 +541,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/hand.jpg" alt="Jamie Hand">
-            <h3>
-                Jamie Hand
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/jamiehand" data-original-title="GitHub" class="github"></a></li>
-                 <li><a href="https://www.linkedin.com/in/jamiechand" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/26a4v/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/spies.jpg" alt="Jeff Spies">
@@ -594,6 +619,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/hewett.jpg" alt="Kelsey Hewett">
+            <h3>
+                Kelsey Hewett
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/kch8qx" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/32utm/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/banner.jpg" alt="Larry Banner">
             <h3>
                 Larry Banner
@@ -618,20 +656,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/leb2dg" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/4mct9/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
-            <h3>
-                Lauren Revere
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/3t5vu/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -710,6 +734,18 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/Zhang.jpg" alt="Merlin Zhang">
+            <h3>
+                Merlin Zhang
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/merlinzhang" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/wzmtd/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
     </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
@@ -772,6 +808,19 @@
                 <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/jantrania.jpg" alt="Nirali Jantrania">
+            <h3>
+                Nirali Jantrania 
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/njantrania" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ctnk8/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -847,6 +896,18 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/Taylor.jpg" alt="Sara Taylor">
+            <h3>
+                Sara Taylor
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/65hkd/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/loria.jpg" alt="Steve Loria">
@@ -878,6 +939,19 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/dyce.jpg" alt="Vanessa Dyce">
+            <h3>
+                Vanessa Dyce
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ved4ef" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ws5ba/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/paudel.jpg" alt="Wisher Paudel">
@@ -888,6 +962,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/hwzg7/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://www.linkedin.com/pub/wisher-paudel/97/614/b8" data-original-title="LinkedIn" class="linkedin"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/Liu2.jpg" alt="Yuhuai Liu">
+            <h3>
+                Yuhuai Liu 
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/adlius" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/m2fur/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -968,6 +1055,19 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+       <div class="thumbnail">
+           <img src="../static/img/people/yetton.jpg" alt="Benjamin Yetton">
+           <h3>
+               Benjamin Yetton
+               <small>Developer Intern | Infrastructure</small>
+           </h3>
+           <ul class="social-icons social-icons-color">
+               <li><a href="https://github.com/bdyetton" data-original-title="GitHub" class="github"></a></li>
+               <li><a href="https://osf.io/3zbdw/" data-original-title="osf" class="osf"></a></li>
+           </ul>
+       </div>
+   </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
@@ -1125,6 +1225,20 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/hand.jpg" alt="Jamie Hand">
+            <h3>
+                Jamie Hand
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jamiehand" data-original-title="GitHub" class="github"></a></li>
+                 <li><a href="https://www.linkedin.com/in/jamiechand" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/26a4v/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/carrigan.jpg" alt="Jillian Carrigan">
             <h3>
                 Jillian Carrigan
@@ -1251,6 +1365,20 @@
                 <li><a href="https://github.com/kmjungersen" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://www.linkedin.com/pub/kurtis-jungersen/37/76b/3a" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/q36he/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
+            <h3>
+                Lauren Revere
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/3t5vu/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>

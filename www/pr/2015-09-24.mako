@@ -1,0 +1,90 @@
+<%inherit file="_pr.mako"/>
+
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+
+<!-- BEGIN CONTAINER -->
+<div class="container min-height margin-top-50">
+    <div class="row">
+        <!--BEGIN CONTENT CONTAINER -->
+        <div class="col-md-9 blog-item margin-bottom-40 ">
+            <!--BEGIN DESCRIPTION -->
+
+            <div style="padding-bottom: 10px">
+                <div style=" padding-bottom: 10px">
+                    <h1><strong>Center for Open Science issues 29 grants to develop open tools and services to support scientific research</strong></h1><br>
+                </div>
+            </div>
+            <!--END DESCRIPTION-->
+            <!--BEGIN CONTENT-->
+            <div style="padding-bottom: 50px;">
+                <p>24 September 2015 - Charlottesville, VA</p>
+                <br>
+                <p>The Center for Open Science is pleased to announce 29 grants totalling nearly $300,000 for advancing openness, integrity, and reproducibility in science.  All tools and services developed with these grant funds will have open licenses to maximize collaboration, reuse, and community support, and many will integrate with the growing <a href="https://osf.io">Open Science Framework</a> (OSF) ecosystem.  These grants were made possible by an anonymous donation to the <a href="https://cos.io">Center for Open Science</a>.
+</p>
+<br>
+                <p><b>Incubator Grants</b><br>
+                    Incubator grants support development of new open tools and services.  These grants may result in proofs-of-concept or beta-releases that can demonstrate potential to other funders for continued development and support.
+                    <ul>
+                        <li><b><a href="https://osf.io/89vqh/">The Many Lab</a></b>: Creating a sustained community for crowdsourcing research projects (Recipients: Olivia Atherton, Charlie Ebersole, Rick Klein)</li>
+                        <li><b>Visualizing projects on the OSF</b>: Developing visual representation of project histories for navigation and discovery (Recipient: Hayley Bance)</li>
+                        <li><b><a href="https://curatescience.org/">Curate Science</a></b>: Accelerating the growth of cumulative knowledge (Recipient: Etienne LeBel)</li>
+                        <li><b>Behavioral research tools</b>: Three small planning grants to explore potential for integration of existing projects (Recipients: Yoav Bar-Anan, Sebastiaan Mathot, Jonathan Pierce/Jeremy Gray)</li>
+                        <li><b>Open Data Button</b>: Creating an Open Data Button to facilitate open data requests and deposition into the OSF and other data repositories. (Recipients: Open Access Button team, supported by SPARC)</li>
+                        <li><b>Badges to Acknowledge Open Practices for <a href="http://www.ubiquitypress.com/">Ubiquity Press journals</a></b>: Adding functionality in the Ubiquity Press and OJS platforms to support <a href="https://osf.io/tvyxz/wiki/home/">open data, open materials, and preregistration badges</a> (Recipients: Brian Hole, Andy Byers, Mauro Sanchez)</li>
+                        <li><b>Open Contributor Small Grants</b>: Two awards for individual contributors to open tools, open science (Recipients: Ruben Arslan/Cyril Tata, Scott Sievert)</li>
+                        <li><b>Information Escrow</b>: Development of an information escrow infrastructure prototype that will reduce disincentives for investigating and disclosing research misconduct (Recipients: David Broockman, Neil Malhotra)</li>
+                    </ul>
+
+</p>
+<br>
+                <p><b>Integration Grants</b><br>
+                Integration grants support integrating tools and services that are useful to scientists through a free, open-source infrastructure called the <a href="https://osf.io">Open Science Framework</a> (OSF).  Connecting services together will make researchers’ work more efficient and reproducible.  OSF takes care of file and data management, registration, archiving, and other aspects of managing scientific data and workflow so that researchers can focus on their science.
+                <ul>
+                    <li><b><a href="https://galaxyproject.org/">Galaxy</a>-OSF integration</b> (Recipient: C. Titus Brown)</li>
+                    <li><b><a href="https://jasp-stats.org/">JASP Stats</a>-OSF integration</b> (Recipient: Jonathon Love)</li>
+                    <li><b><a href="http://zenodo.org">Zenodo</a>-OSF integration</b> (Recipient: Brandon Lorenz)</li>
+                    <li><b><a href="https://bitbucket.org/">Bitbucket</a>-OSF integration</b> (Recipients: Brandon Lorenz)</li>
+                    <li><b><a href="http://www.ubiquitypress.com/">Ubiquity</a>-OSF integration</b> (Recipients: Brian Hole, Andy Byers, Mauro Sanchez)</li>
+                    <li><b><a href="https://pkp.sfu.ca/ojs/">Open Journal Systems</a>-OSF integration</b> (Recipients: Brian Hole, Andy Byers, Mauro Sanchez)</li>
+                    <li><b><a href="https://onedrive.live.com/about/en-us/">One Drive</a>-OSF integration</b> (Recipients: Ryan Casey, Travis Blount-Elliott, Jeff Morris, Harrison Thrift)</li>
+                    <li><b><a href="https://evernote.com/">Evernote</a>-OSF integration</b> (Recipients: Raymond Yee)</li>
+                    <li><b><a href="https://dmptool.org/">DMPTool</a>-OSF integration</b> (Recipients: Raymond Yee)</li>
+                    <li><b><a href="http://neurovault.org/">Neurovault/Neurosynth</a>-OSF integration</b> (Recipients: Chris Gorgolewski, Tal Yarkoni)</li>
+                    <li><b><a href="http://vivoweb.org/">VIVO</a>-<a href="https://osf.io/share">SHARE</a>-OSF connections</b> (Recipients: Mike Conlon, Alexander Garcia Castro)</li> 
+                    <li><b><a href="http://datadryad.org/">Dryad</a>-OSF integration</b> (Recipients: Kevin Wierman)</li>
+                    <li><b><a href="https://www.sharelatex.com/">ShareLaTeX</a>-OSF integration</b> (Recipients: Daniel Neis, Luis Mulinari, Rafael Delucena, Cesar Costa)</li>
+                    <li><b><a href="http://www.psychopy.org/">PsychoPy</a>-OSF connections</b> (Recipients: Jonathan Pierce, Jeremy Gray)</li>
+                    <li><b><a href="http://osdoc.cogsci.nl/">OpenSesame</a>-OSF connections</b> (Recipients: Sebastiaan Mathot)</li>
+                    <li>Three additional integration awards pending</li>
+                </ul>
+</p>
+                <br>
+                <h4><strong>Contact</strong></h4>
+                Center for Open Science<br>
+                Andrew Sallans<br>
+                <a href="mailto:andrew@cos.io">andrew@cos.io</a>
+                <br>
+                <br>
+                <h4><strong>About the Center for Open Science</strong></h4>
+                <p>The <a href="http://cos.io">Center for Open Science</a> (COS) is a non-profit technology startup founded in 2013 with a mission to increase openness, integrity, and reproducibility of scientific research. COS pursues this mission by building communities around open science practices, supporting metascience research, and developing and maintaining free, open source software tools. The<a href="http://osf.io"> Open Science Framework</a> (OSF), COS’s flagship product, is a web application that connects and supports the research workflow, enabling scientists to increase the efficiency and effectiveness of their research. Researchers can use the OSF to collaborate, document, archive, share, and register research projects, materials, and data. Learn more at <a href="http://cos.io">cos.io</a> and <a href="http://osf.io">osf.io</a>, or follow us on Twitter <a href="http://twitter.com/osframework">@OSFramework</a>.
+
+            </div>
+            <!--END CONTENT-->
+        </DIV>
+        <!--END CONTENT CONTAINER -->
+
+        <!-- BEGIN RIGHT SIDEBAR -->
+        <div class="col-md-3 blog-sidebar" style="padding-left: 55px">
+
+
+                       <%include file="../newsitem.mako"/>
+
+
+</div>
+        </div>
+        <!-- END RIGHT SIDEBAR -->
+    </div>
+</div>
+<!-- END PAGE CONTAINER -->
+

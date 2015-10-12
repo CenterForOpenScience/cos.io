@@ -1,5 +1,5 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Pre-Reg Challenge</%def>
+<%def name="title()">Prereg Challenge</%def>
 <%def name="description()">Planning pays.</%def>
 
 <%def name="navigation()">
@@ -74,7 +74,7 @@
             <h1>The $1,000,000 Preregistration Challenge</h1><p>
             <h2>Coming Soon</h2>
         </div>
-
+        
         <div class="col-md-8 margin-top-50  margin-bottom-30">
             <h2><strong>Plan. Test. Discover.</strong></h2>
             <p>We have $1 million to give away. One thousand researchers will win $1,000 each for publishing research whose study and analysis plans were preregistered on the Open Science Framework. Learn more about the Challenge <a href="https://osf.io/x5w7h/wiki/home/" target="_blank">here</a>. Subscribe to the list to stay informed about the launch.</p>

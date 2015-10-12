@@ -23,7 +23,7 @@
 <div class="row community-content">
 <div>
 <h1><strong>Services for Journals and Societies</strong></h1>
-<p class="lead">Journals and societies shape important incentives driving researchers' behavior. COS supports products and services that can be used to promote open and reproducible practices.</p>
+<p class="lead">Journals and societies shape incentives driving researchers' behavior. COS supports products and services that can be used to promote open and reproducible practices.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 
@@ -33,8 +33,8 @@
 
     <div class="col-md-8">
         <h4><strong>1. Adopt the Transparency and Openness Promotion (TOP) Guidelines</strong></h4>
-        <p>Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards. <a href="https://osf.io/ud578/"></p>
-        <p>Read the Guidelines</a>, <a href="http://cos.io/top">see the list of signatories</a>, or <a href="mailto:top@cos.io?subject=TOP Guidelines">email us</a> with questions, comments, or to join as a signatory.
+        <p>Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards. </p>
+        <p><a href="https://cos.io/top">Read the Guidelines</a>, <a href="http://cos.io/top">see the list of signatories</a>, or <a href="mailto:top@cos.io?subject=TOP Guidelines">email us</a> with questions, comments, or to join as a signatory.
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -105,7 +105,7 @@
         </a>
     </div>
     <div class="col-md-8">
-        <h4><strong>5. Utilize the OSF to Support Your Authors' Data and Materials Sharing</strong></h4>
+        <h4><strong>5. Use the OSF to Support Your Authors' Data and Materials Sharing</strong></h4>
         <p>The <a href="https://osf.io">Open Science Framework</a> is a free, open source web application built to manage the entire research workflow. The OSF provides an easy solution for editors and publishers seeking to provide their authors with a free platform for data and materials sharing. The OSF can also be used to handle parts of the publishing workflow. To learn more about strategies for using the OSF as a back end for your journal, <a href="mailto:contact@cos.io?subject=Journal_Services"send us an email</a>.
 
         </p></div>
