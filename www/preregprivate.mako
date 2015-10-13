@@ -45,7 +45,7 @@
                         <li><a href="https://osf.io" target="_blank">Begin a Preregistration</a>
                       </ul>
                       <a href="https://osf.io" target="_blank">
-                      <img src="/static/img/pics/preregbutton.png" alt="preregistration workflow" width="200px"></a>
+                      <img src="/static/img/pics/preregbutton.png" alt="preregistration workflow" width="170px"></a>
                 </div>
                 <div class="col-sm-8 col-sm-offset-1 ">
                     <!-- START TAB CONTENT -->
