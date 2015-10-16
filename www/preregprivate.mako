@@ -42,7 +42,7 @@
                         <li><a id="tab-4" href="#four" data-toggle="tab">FAQ</a></li>
                         <li><a id="tab-5" href="#five" data-toggle="tab">Eligible Journals</a></li>
                         <li><a id="tab-6" href="#six" data-toggle="tab">Review Process</a></li>
-                        <li><a href="https://osf.io" target="_blank">Begin a Preregistration</a>
+                        ##<li><a href="https://osf.io" target="_blank">Begin a Preregistration</a>
                       </ul>
                       <a href="https://osf.io" target="_blank">
                       <img src="/static/img/pics/preregbutton.png" alt="preregistration workflow" width="170px"></a>
@@ -219,7 +219,7 @@
                                               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div class="panel-body">
                                                 Yes. Selective interpretation of pre-planned analyses can disrupt the diagnosticity of statistical inferences.  For example, imagine that you planned 100 tests in your preregistration, and then reported all 100, 5 of which achieved p < .05.  It is possible (even likely) that those five significant results are false positives.  If the paper then discussed just those five and ignored the others, the interpretation could be highly misleading.  Planning in advance is necessary but not sufficient for preserving diagnosticity.</p>
-                                                <p>To reduce interpretation biases, confirmatory research designs often have a small number of tests focused on the key questions in the research design, or adjustments for multiple-tests are included in the analysis plan.  It may be that some pre-registered analyses are dismissed as inappropriate or ill-conceived in retrospect, but doing that explicitly and transparently assists the reader in evaluating the rest of the confirmatory results.
+                                                <p>To reduce interpretation biases, confirmatory research designs often have a small number of tests focused on the key questions in the research design, or adjustments for multiple-tests are included in the analysis plan.  It may be that some preregistered analyses are dismissed as inappropriate or ill-conceived in retrospect, but doing that explicitly and transparently assists the reader in evaluating the rest of the confirmatory results.
                                                 </div>
                                                 </div>
                                               </div>
@@ -347,7 +347,7 @@
                                                                   <hr>
                                                                   <p><strong>Possible editorial feedback:</strong> Why are you referring to a preregistered plan and reporting them separately from other analyses?</p>
                                                                   <p><strong>Prereg requirement:</strong> The published article must make clear which analyses were part of the confirmatory design (usually distinguished in the results section with confirmatory and exploratory results sections), and there must be a URL to the preregistration on the OSF.</p>
-                                                                  <p><strong>Possible response to the editor:</strong> The registration was certified prior to the start of data analysis.  This defines analyses that were prespecified and confirmatory versus those which were not prespecified and therefore exploratory (citations). Clarifying this allows readers to see that the hypotheses, analyses, and design that were prespecified have been accurately and fully reported (<a href="http://www.jstor.org/stable/3893289" target="_blank">Jaeger & Halliday, 1998</a>; <a  href="http://psr.sagepub.com/content/2/3/196" target="_blank">Kerr, 1998</a>, <a href="http://jama.jamanetwork.com/article.aspx?articleid=1352120" target="_blank">Thomas & Peterson, 2012</a>).</p>
+                                                                  <p><strong>Possible response to the editor:</strong> The registration was certified prior to the start of data analysis.  This defines analyses that were prespecified and confirmatory versus those which were not prespecified and therefore exploratory. Clarifying this allows readers to see that the hypotheses, analyses, and design that were prespecified have been accurately and fully reported (<a href="http://www.jstor.org/stable/3893289" target="_blank">Jaeger & Halliday, 1998</a>; <a  href="http://psr.sagepub.com/content/2/3/196" target="_blank">Kerr, 1998</a>, <a href="http://jama.jamanetwork.com/article.aspx?articleid=1352120" target="_blank">Thomas & Peterson, 2012</a>).</p>
                                                                   <hr>
                                                                   <p><strong>Possible editorial feedback:</strong> Editor requests that you perform additional tests.</p>
                                                                   <p><strong>Prereg requirement:</strong> Additional tests are fine, they just need to be distinguished clearly from the confirmatory tests.</p>
