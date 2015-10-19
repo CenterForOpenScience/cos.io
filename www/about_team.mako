@@ -1170,10 +1170,8 @@
             <h3>
                 Harry Rybacki
                 <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">har<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:uneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/HarryRybacki" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/uycv3/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -1266,11 +1264,7 @@
             <h3>
                 Johanna Cohoon
                 <small>Project Coordinator | Metascience</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">johan<span style="display:none;">null</span>na@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbunaan@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/edb8y/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/jlcohoon" data-original-title="Twitter" class="twitter"></a></li>
