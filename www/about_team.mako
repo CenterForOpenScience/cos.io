@@ -1266,6 +1266,7 @@
                 <small>Project Coordinator | Metascience</small>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
+                <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/edb8y/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/jlcohoon" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
