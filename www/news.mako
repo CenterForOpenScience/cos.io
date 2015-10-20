@@ -37,6 +37,17 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2015-10-21"><img src="../static/img/icons/share.png"
+                    width="125">
+
+                    <h2 class="text-left">IMLS, Sloan Foundation Jointly Award ARL Grant to Expand and Enhance SHARE</h2>
+
+                    <p class="text-left">October 21, 2015 | The Association of Research Libraries (ARL) has been awarded a joint $1.2 million grant from the Institute of Museum and Library Services (IMLS) and the Alfred P. Sloan Foundation to expand and enhance SHARE’s open data set of research and scholarly activities across their life cycle. 
+                     </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2015-09-29"><img src="../static/img/icons/cos_logo.png"
                     width="125">
 
