@@ -7,130 +7,79 @@
 </%def>
 
 <%def name="stylesheets()">
-
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-      <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-      <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-      <!--<style type="text/css">
-        #mc_embed_signup{
-            background:#e7f5fc;
-            clear:left;
-            font:14px 'Open Sans';
-            margin-bottom: 30px;
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      a {
+        cursor:pointer;
         }
-        #mc_embed_signup form {
-            padding: 5px;
-        }
-
-        #mc_embed_signup_scroll .prereg-sign-up {
-            padding: 15px;
-            background-color: #2f89af;
-            padding: 15px;
-            color: white;
-        }
-
-        #mc_embed_signup h2 {
-
-            color: white;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            font-weight: 400;
-            font-size: 21px;
-        }
-
-        div.mc-field-group {
-            background-color: white;
-            padding: 3%;
-            margin-top: 2px;
-            margin-bottom: 2px;
-            width: 100% !important;
-        }
-
-        #mc_embed_signup input {
-            border: none;
-        }
-
-        #mc_embed_signup .button {
-            background-color: #2f89af;
-            display: block;
-            margin: 5px auto;
-        }
-
-        #mc_embed_signup div .mce_inline_error {
-            margin-bottom: 0px !important;
-        }
-    </style> -->
-    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    </style>
+<!-- END PAGE LEVEL PLUGIN STYLES -->
 
 </%def>
 
-
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container">
+
+  <div class="page-container">
 
     <!-- BEGIN CONTAINER -->
-   ##<div class="container min-height margin-top-40 col-md-12">
-  ## <center><img src="/static/img/pics/prereg_logo_3_words.png" alt="logo" width="210px"></center>
+
       <div class="center margin-top-20">
-      <h1>The $1,000,000 Preregistration Challenge</h1>
-          <h3>One thousand researchers will win $1,000 each for publishing work whose analyses were preregistered on the Open Science Framework.</h3></p></p></p>
+        <h1>The $1,000,000 Preregistration Challenge</h1>
       </div>
-   </div>
-
-</div>
-
-</div>
+  </div>
     <div class="container min-hight margin-top-40">
         <div class="community-content">
             <div class="row">
                 <div class="col-sm-2 community-tab-list">
-
-                    <ul class="tabbable community-tabbable">
-                        <li class="active"><a href="#tab_0" data-toggle="tab">The Big Picture</a></li>
-                        <li><a href="#tab_1" data-toggle="tab">The Pre-Reg Challenge</a></li>
-                        <li><a href="#tab_2" data-toggle="tab">How to Earn the Prize</a></li>
-                        <li><a href="#tab_3" data-toggle="tab">Eligibility Requirements</a></li>
-                        <li><a href="#tab_4" data-toggle="tab">FAQ</a></li>
-                        <li><a href="#tab_5" data-toggle="tab">Eligible Journals</a></li>
-                        <li><a href="#tab_6" data-toggle="tab">Review Process</a></li>
+                    <ul class="tabbable community-tabbable" id="">
+                        <li class="active"><a id="tab-0" href="#zero" data-toggle="tab">The Big Picture</a></li>
+                        <li><a id="tab-1" href="#one" data-toggle="tab">The Challenge</a></li>
+                        <li><a id="tab-2" href="#two" data-toggle="tab">How to Earn the Prize</a></li>
+                        <li><a id="tab-3" href="#three" data-toggle="tab">Eligibility Criteria</a></li>
+                        <li><a id="tab-4" href="#four" data-toggle="tab">FAQ</a></li>
+                        <li><a id="tab-5" href="#five" data-toggle="tab">Eligible Journals</a></li>
+                        <li><a id="tab-6" href="#six" data-toggle="tab">Review Process</a></li>
+                        <li><a href="https://osf.io" target="_blank">Begin a Preregistration</a>
                       </ul>
                       <a href="https://osf.io" target="_blank">
-                        <img src="/static/img/pics/preregbutton_blue.png" alt="preregistration workflow" width="200px">
-                      </a>
-                    ##  <a href="https://osf.io" target="_blank">
-                    ##    <img src="/static/img/pics/preregnoprize_blue.png" alt="preregistration workflow" width="200px">
-                    ##  </a>
-
+                      <img src="/static/img/pics/preregbutton.png" alt="preregistration workflow" width="200px"></a>
                 </div>
-
                 <div class="col-sm-8 col-sm-offset-1 ">
                     <!-- START TAB CONTENT -->
                     <div class="tab-content">
                     <!-- START TAB 0 -->
-                    <div class="tab-pane active" id="tab_0">
+                    <div class="tab-pane active" id="zero">
                         <table>
                             <tr>
                                 <td>
-
-                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe>
+                                  <p style="text-align:justify">
+                                    Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. Watch the intro video, <a data-tab-destination="tab-1">explore the background information</a>, and click “Begin a preregistration” to launch the guided tutorial to plan your next study! </p>
+                                  <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
-                      <div class="tab-pane" id="tab_1">
+                      <div class="tab-pane" id="one">
                         <table>
                             <tr>
                                 <td>
+                                    <h3>Scientific Values versus Scientific Practices</h3>
+                                      <p>
+                                        Core values of science are showing your work (transparency) and independent replication (reproducibility). However, scientists must publish, and publishing success is more likely with innovative, positive, and tidy results, even at the expense of transparent, reproducible research. What is good for science and what is good for scientists are not always be the same.  This creates a conflict-of-interest that could result in researchers inadvertently employing a variety of cognitive biases that lower the reproducibility of observed results. For example, a researcher may recall the original study purpose and analysis plan differently after observing the results, and unintentionally bias conclusions toward results that look good for publication and ignore results that do not.  The potential impact is a published literature that is more beautiful, and less reproducible, than reality.
+                                      </p>
                                     <h3>Preregistration</h3>
-                                      <p>Preregistration is the act of formulating a study and analysis plan in an uneditable state before conducting the research. A preregistration guides a scientist to conduct and analyze a study exactly as specified in the plan. As it is currently practiced, the research workflow can often lead to irreproducible results. This is not caused by ill intentions or fraud, but simply because there are many possible tests and such strong incentives to find and publish those that offer the most compelling stories.</p>
-
-                                      <p>These problems are the inevitable result of misaligned incentives and subtle biases. Preregistration is a tool that helps us to be more transparent about our research practices. It allows us to clearly present the results of hypothesis testing, confirmatory analyses while still allowing us to present hypothesis generating, exploratory results as valuable insights that warrant further investigation.</p>
-
-                                      <h3>The Preregistration Challenge</h3>
-                                      <p>Old habits die hard. We have $1 million to give away in order to encourage this practice. We are awarding $1,000 each to 1,000 researchers who publish an article in an eligible journal that reports on an analysis preregistered on the OSF. Please review the information on this webpage to learn how you could be one of them! As with any competition, certain <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> apply, but please review our FAQ and ask us (prereg@cos.io) if you have questions!</p>
+                                      <p>
+                                        Preregistration distinguishes confirmatory (hypothesis testing) and exploratory (hypothesis generating) analyses.  Confirmatory analyses are determined in advance; Exploratory analyses are responsive to the what is observed in the data.  Confirmatory analyses maximize diagnostic value of statistical inferences; Exploratory analyses provide opportunity for discovery of unexpected outcomes.  Both are important for scientific discovery.  The same data cannot be used to generate and test a hypothesis.  With preregistration, confirmatory analyses are planned in advance to retain their diagnosticity, and exploratory analyses are reported as post hoc investigations that might inspire confirmatory tests in future studies.
+                                      </p>
+                                    <h3>The Preregistration Challenge</h3>
+                                      <p>
+                                        Preregistration is an unfamiliar practice in many areas of science. We will give 1,000 awards of $1,000 each to promote education and experience with preregistration.  Award winners will have completed a preregistration using the Open Science Framework, a free scholarly commons,  and published the results in an eligible journal. Check out the <a data-tab-destination="tab-2">steps to earn a prize</a> steps to earn a prize next!
+                                      </p>
                                     <center><img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="450px" class="margin-top-10"></center>
                                   </td>
                               </tr>
@@ -138,40 +87,37 @@
                         </div>
                         <!-- END TAB 1 -->
                         <!-- START TAB 2 -->
-                        <div class="tab-pane" id="tab_2">
+                        <div class="tab-pane" id="two">
                             <table>
                                 <tr>
                                     <td>
-
-                                        <h3>How to Earn the Prize </p></h3>
+                                      <h3>How to Earn the Prize</p></h3>
                                         <ol>
-                                          <li><p><b>Plan your study and analyses</b><p>Discuss with your lab members and colleagues. Plan both your research methods and the exact way in which you will analyze your data. Also, decide now how you're going to split the reward!</p>
+                                          <li><p>
+                                            <strong>Plan your study and analyses</strong><p>Design your study and how you will analyze the data.  The <a href="https://osf.io/prereg" target="_blank">Preregistration workflow</a> on the Open Science Framework (OSF) will guide you through study design and analysis planning. You can save in progress and return later to continue.  <p>Alternatively, if you prefer to design off-line or in a collaborative editor, you can use this <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a> and move the content to the OSF Preregistration workflow later.
+                                            </p>
+                                          <li>
+                                            <strong>Submit your plan on the Open Science Framework</strong>
+                                              <p>Once you and your collaborators complete the design and analysis plan, submit it for review to assess eligibility for the prize.</p>
+                                          <li>
+                                            <strong>Research plan review</strong>
+                                              <p> We will review your plan to check for completeness and adherence to the <a data-tab-destination="tab-3">eligibility criteria</a>. <strong>This is not peer review of your research.</strong> Once accepted, your research plan will be registered and eligible for the prize. Preregistrations must be pre-approved to be eligible.</p>
+                                          <li>
+                                            <strong>Do your science</strong> <p>This part is all up to you.</p>
+                                          <li>
+                                            <strong>Analyze according to your preregistered plan</strong>
+                                              <p>For the confirmatory phase, analyze your data according to the preregistered plan, and write-up the results. Additional exploratory analysis is encouraged and must be clearly differentiated from the confirmatory analyses in your report.</p>
+                                        <li>
+                                          <strong>Write up your results</strong>
+                                            <p>Report all of the preregistered analyses in your manuscript, and clearly distinguish them from additional exploratory analyses. Include a URL link to the study preregistration.</p>
+                                        <li>
+                                          <strong>Submit your manuscript for publication</strong>
+                                            <p>Submit your manuscript to an <a href="/preregjournals/" target="_blank">eligible journal</a> for peer review. Make sure that the article includes everything on <a href="https://osf.io/zwkqj/" target="_blank">this checklist</a> when it is published.  It is your responsibility to ensure that all checklist items are in your article, the publishing journal is not involved in the administration of the Preregistration prize.
+                                        <li>
+                                          <strong>Submit your published article to confirm completion of the Preregistration Challenge</strong>
+                                          <p>As soon as your article is published online, submit notice of publication for review to confirm that the final article meets all Preregistration Challenge eligibility requirements.  If it does, the article is eligible for the next prize award date.</p>
 
-                                          As you prepare to submit your preregistration, you may use this <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a>. The preregistration form on the OSF will also allow you to edit, save, and return later. </p>
-
-                                          <li><b>Submit your plan on the Open Science Framework</b><p>The OSF will guide you through a series of questions about your experimental design, data collection, and analysis plans.</p>
-                                            <!--
-                                            <b>Sample size</b><p>We sometimes stop data collection once a significant effect emerges. However, this increases the likelihood of committing a Type I error. Sample sizes that are predetermined before data collection, even if they are arbitrary or constrained by resources, avoid this bias.</p>
-
-                                            <b>Exclusion criteria and missing data</b><p>Make these decisions before seeing how they affect your results. </p>
-
-                                            <b>Variables</b><p>State what variables will be collected, including predictors, outcomes, and covariates. Furthermore, if any variables will be made from multiple measures, state exactly how they will be constructed.</p>
-
-                                            <b>Randomization</b><p> Determine the methods for randomizing experimental treatments and state which levels will be randomized.</p>
-
-                                            <b>Statistical model</b> <p>Provide the specific statistical test and any parameters that are required to run it.</p>
-                                            -->
-                                        <li><b>Research plan review</b><p> We will review your plan to check for completeness. <strong>This is not peer review!</strong> Once accepted, your research plan will be registered. It will appear as a preregistration on the OSF and your study will be eligible for the prize. Any preregistrations that do not go through this review process are not eligible for the Prize.</p>
-
-                                        <li><b>Do your science!</b> <p>This is part is all up to you.</p>
-
-                                        <li><b>Analyze according to your preregistered plan</b> <p>Your analysis must run precisely according to what you reported in your preregistration. Any additional analyses are acceptable for generating new hypotheses, but must be clearly differentiated from your registered results in the article.</p>
-
-                                        <li><b>Write up your results</b> <p>Your article must distinguish between confirmatory results that came from testing the registered hypotheses stated in your plan, and any exploratory analyses you conducted in order to generate new hypotheses. There must also be a URL link to your registration on the OSF.</p>
-
-                                        <li><b>Submit your manuscript for publication</b><p> Only peer-reviewed manuscripts published in an <a href="/preregjournals/" target="_blank">eligible journal</a> can receive the prize.</p>
-
-                                        <li><b>Receive your $1000 prize!</b> <p>We have a limited number of prizes. If you and your article are eligible, you will be awarded a prize on one of our award dates:
+                                        <li><strong>Receive your $1000 prize!</strong> <p>The 1000 prizes will be awarded across 5 award dates.  If more eligible articles are submitted than available awards during that award period, then the eligible articles will be ranked by Preregistration date with earlier registrations being awarded first.  Non-awarded entries will remain in the eligible pool for the next award date:
                                             <ul>
                                               <li>January 1, 2017: 50 Prizes</li>
                                               <li>July 1, 2017: 100 Prizes</li>
@@ -189,56 +135,58 @@
                                     </td>
                                 </tr>
 
-
                             </table>
                         </div>
                         <!-- END TAB 2 -->
                         <!-- START TAB 3 -->
-                        <div class="tab-pane" id="tab_3">
+                        <div class="tab-pane" id="three">
                             <table>
                                 <tr>
                                     <td>
                                         <h3>Eligibility Criteria</h3>
                                         <p>
-                                        <p>Below are eight items from the complete terms and conditions that we want to make sure each participant understands before beginning the Preregistration Challenge.<p>
+                                        <p>There is a detailed description of the <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> for the Preregistration Challenge to meet legal requirements and maximize the fair administration of the process.  Here are highlights of key items:<p>
                                         <ol>
-                                          <li>Research plans that you submit through this process will be reviewed by us and designated external reviewers. (see "Review Process" tab) </li>
-                                          <li>The published article must also be reviewed before receiving the prize. (see "Review Process" tab)</li>
-                                          <li>Prizes will be awarded at pre-determined dates to eligible entrants. If more eligible entrants exist than available prizes, entrants will be ranked based on the date of registration. (see FAQ)</li>
-                                          <li>Articles must be published in an <a href="/preregjournals/" target="_blank">eligible journal</a>.</li>
-                                          <li>The use of pre-existing data may prohibit you from entering the Preregistration Challenge. (see FAQ)</li>
-                                          <li>One prize is given per published article to the article author who submits the research plan through the OSF.</li>
                                           <li>Residents of countries on the U.S. State Department's <a href="http://www.pmddtc.state.gov/embargoed_countries/" target="_blank">list of embargoed countries</a> may not participate in the Preregistration Challenge.</li>
-                                          <li>Entering the Preregistration Challenge requires that you agree to all of its <a href="https://osf.io/4uxbj/" target="_blank">terms</a>.</li>
+                                          <li>Articles must be published in an <a href="/preregjournals/" target="_blank">eligible journal</a>.</li>
+                                          <li>The use of pre-existing data may make your registration ineligible for the Preregistration Challenge. (see <a data-tab-destination="tab-4">FAQ</a>)</li>
+                                          <li>When awarded, one prize is given per published article to the article author that submitted the preregistration that was approved by the Challenge administrators.</li>
+                                          <li>Awardees can earn only one prize each, but can enter as many times as they wish and can be co-authors on other awarded entries.</li>
+                                          <li>Submissions for the Challenge will be reviewed by administrators and designated external reviewers for adherence to eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
+                                          <li>The published article must be submitted, reviewed, and approved for meeting eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
+                                          <li>Prizes will be awarded at pre-determined dates to eligible entrants. If more eligible entrants exist than available prizes, entrants will be ranked based on the date of registration. (see <a data-tab-destination="tab-4">FAQ</a>)</li>
+                                          <li>Entering the Preregistration Challenge requires that you agree to all of its <a href="https://osf.io/4uxbj/" target="_blank">terms</a>. If you do not agree to the terms you may still continue, use the form, and register your research study without entering the Challenge.</li>
                                         </ol>
+                                        <p>As experienced is gained with preregistration and the Challenge process, we expect that we will identify ways to improve the process and requirements.  We will make updates as is needed and document those changes. Prior entrants will not lose eligibility based on future changes.  The eligibility criteria and preregistration process is currently version 1.0.0.  Check the change log <a href="https://osf.io/4uxbj/" target="_blank">here</a>.</p>
+                                        <p>We welcome questions and feedback (prereg@cos.io).
                                         </p>
-                                        <h3>Don't agree to the terms? </h3>
-                                        <p>See the FAQ for instructions on preregistering without going through the review process or competing for the $1,000 prize.
+
                                     </td>
                                 </tr>
                             </table>
                         </div>
                         <!-- END TAB 3 -->
                         <!-- START TAB 4 -->
-                        <div class="tab-pane" id="tab_4">
+                        <div class="tab-pane" id="four">
                             <table>
                                 <tr>
                                     <td>
-                                        <h3>FAQ</h3>
+                                        <h3>Frequently Asked Questions</h3>
                                         <!-- Begin FAQ 1 --->
                                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                         <div class="panel panel-default">
                                           <div class="panel-heading" role="tab" id="headingOne">
                                             <h4 class="panel-title">
                                             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Does this tie my hands?
+                                            Does preregistration mean that I cannot test appropriateness of model assumptions and adjust analysis accordingly?
                                             </a>
                                             </h4>
                                           </div>
                                           <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                             <div class="panel-body">
-                                              Yes and no. You are obligated to conduct and report the exact tests that you specified. However, everyone knows that many novel discoveries are sometimes completely unanticipated. The goal of preregistration is not to stop researchers from conducting any 'exploratory' analyses, it simply makes clear which results were the outcome of planned analyses and which were not (see Chambers, et. al, 2014).
-                                              </p><p>Exploring a dataset to look for unexpected relationships results in testable hypotheses, subjecting data to planned, confirmatory analyses is the best way to test those hypotheses. Making the distinction between exploratory and confirmatory analysis more transparent allows the reader to fairly evaluate the evidence being presented (see Wagenmakers et al., 2012).
+                                            <p>No. Confirmatory analyses are planned in advance, but they can be conditional. A pre-analysis plan might specify preconditions for certain analysis strategies and what alternative analysis will be performed if those conditions are not met.  For example, if an analysis strategy requires data for a variable to be normally distributed, the analysis plan can specify evaluating normality and an alternate non-parametric test to be conducted if the normality assumption is violated.</p>
+
+                                            <p>For conditional analyses, we suggest that you define a 'decision-tree' containing logical IF-THEN rules that specify the analyses that will be used in specific situations. <a href="https://osf.io/x5w7h/files/" target="_blank">Here are some example decision trees</a>. In the event that you need to conduct an unplanned analysis, preregistration does not prevent you from doing so.  Preregistration simply makes clear which analyses were planned and which were not.
                                             </div>
                                           </div>
                                         </div>
@@ -248,13 +196,13 @@
                                         <div class="panel-heading" role="tab" id="headingTwo">
                                           <h4 class="panel-title">
                                               <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                              Will you review my submissions?
+                                              Do I need to report all results from my pre-analysis plans?
                                             </a>
                                             </h4>
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                               <div class="panel-body">
-                                                Yes, we will review both your research plans and your final, published article. However, this is not peer review, and passing our review process does not guarantee your acceptance into any publication. Please see the "Review Process" tab on the left to learn more.
+                                                Yes. The central aims of preregistration are to distinguish confirmatory and exploratory analyses and to preserve the diagnosticity of statistical inferences.  Selective reporting of planned analyses is problematic for the latter.
                                               </div>
                                               </div>
                                               </div>
@@ -264,20 +212,14 @@
                                             <div class="panel-heading" role="tab" id="headingThree">
                                               <h4 class="panel-title">
                                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Can I use a pre-existing data set?
+                                                Do I need to interpret all results from my pre-analaysis plans?
                                                 </a>
                                               </h4>
                                               </div>
                                               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div class="panel-body">
-                                                Perhaps. Standards for preregistering studies and analysis plans using existing data do not yet exist. We have been working within the community to establish clear guidelines to make the Preregistration Challenge open to as many researchers as possible, while still maintaining the utility of preregistration. </p>
-                                                <p>When you submit your research plan, you will be asked to classify your use of existing data in your planned analysis. If necessary, you will be asked to describe the steps you are going to take to ensure that any existing data does not influence the analytical decisions. This description will be reviewed in our review process (see tab on left). Below are the possible categories that may be used:
-                                                <ol type="I">
-                                                <li><strong>Registration prior to collection of data:</strong> As of the date of submission of Research Plan for Preregistration, the data have not yet been realized, collected, or created. In this scenario, the Entrant must certify that the data do not exist to retain eligibility.
-                                                </li>
-                                                <li><strong>Registration prior to any human observation of the data: </strong>As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed Study and Research Plan. Examples include museum specimens that have not been measured, or data that have been collected by non-human collectors and are inaccessible.  In this scenario, the Entrant must certify that the data have not been observed by anyone and how this is the case to retain eligibility.</li>
-                                                <li><strong>Registration prior to Entrant access to the data: </strong>As of the date of submission, the data exist, and have not been accessed by the Entrant, or the Entrant’s Study collaborators. Commonly, this includes data that has been collected by another researcher or institution.  In this scenario, the Entrant must certify that they have not accessed the data, explain who has accessed the data, and justify how any observation, analysis, and reporting of that data avoids compromising the confirmatory nature of the Research Plan. The justification will be reviewed to determine eligibility.</li>
-                                                <li><strong>Registration prior to Entrant analysis of the data: </strong>As of the date of submission, the data exist and have been accessed by the researcher, though no analysis has been conducted related to the Research Plan. Common situations for this are the existence of a large dataset that is the subject of many studies over time, or a split sample in which a portion is not analyzed to be subjected to confirmatory testing after exploratory analysis of the other data. In this scenario, the Entrant must certify that they have not analyzed the data related to the Research Plan (including calculation of summary statistics), explain what other analysis or reporting of the data has been done by the Entrant or others, and justify how any prior observation, analysis, and reporting of that data avoid compromising the confirmatory nature of the Research Plan.</li>
+                                                Yes. Selective interpretation of pre-planned analyses can disrupt the diagnosticity of statistical inferences.  For example, imagine that you planned 100 tests in your preregistration, and then reported all 100 observing just 5 of them achieving p < .05.  It is possible (even likely) that those five significant results are false positives.  If the paper then discussed just those five and ignored the others, the interpretation could be highly misleading.  Planning in advance is necessary but not sufficient for preserving diagnosticity.</p>
+                                                <p>To reduce interpretation biases, confirmatory research designs often have a small number of tests focused on the key questions in the research design, or adjustments for multiple-tests are included in the analysis plan.  It may be that some pre-registered analyses are dismissed as inappropriate or ill-conceived in retrospect, but doing that explicitly and transparently assists the reader in evaluating the rest of the confirmatory results.
                                                 </div>
                                                 </div>
                                               </div>
@@ -287,19 +229,14 @@
                                                 <div class="panel-heading" role="tab" id="headingFour">
                                                   <h4 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                      Does this apply to my field?
+                                                      Does preregistration mean that I can’t do any unplanned analyses?
                                                     </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                   <div class="panel-body">
-                                                    There are several circumstances that present specific challenges to the preregistration model.</p>
-                                                  <ul>
-                                                    <li><strong>Studies in which you are not testing the significance of a specific null hypothesis.</strong> Pre-registration can best reduce bias when the researcher intends to test collected data against a null hypothesis. There are many publishable, peer-reviewed endeavors in which this is not the case.
-                                                    <li><strong>Hypothesis testing using pre-existing data.</strong> Using previously-collected data places additional burden on the researcher to demonstrate that no biases have influenced their decision making process. Seeing descriptive statistics prior to analysis inevitably affect analysis decisions. See above.
-                                                    <li><strong>Field studies.</strong> Field science can be particularly challenging, with many variables outside of a researcher's control that affect the ability to collect data. Pilot trials, feedback from peers, and additional time or imagination in the planning phase can help to make your registered plans more accurate.
-                                                  </ul>
-                                                  If you have questions about the suitability of pre-registration for your research, please contact us (prereg@cos.io) and we will work with you to determine how best to preregister your work.
+                                                  <p>No.  Preregistration distinguishes confirmatory and exploratory analyses (<a href="http://orca.cf.ac.uk/59475/" target="_blank">Chambers et. al, 2014</a>).  Exploratory analysis is very important for discovery and hypothesis generation.  Simultaneously, results from exploratory analyses are more tentative, p-values are less diagnostic, and additional data is required to subject an exploratory results to a confirmatory test.  Making the distinction between exploratory and confirmatory analysis more transparent increases credibility of reports and helps the reader to fairly evaluate the evidence presented (<a href="http://pps.sagepub.com/content/7/6/632.abstract" target="_blank">Wagenmakers et al., 2012</a>).
+                                                  </p>
                                                   </div>
                                                   </div>
                                                 </div>
@@ -309,13 +246,13 @@
                                                   <div class="panel-heading" role="tab" id="headingFive">
                                                     <h4 class="panel-title">
                                                       <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                      Is this the same as Registered Reports?
+                                                      Will you review my submissions?
                                                       </a>
                                                     </h4>
                                                     </div>
                                                     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                       <div class="panel-body">
-                                                       Registered Reports are a particular publication format in which both the preregistered plans and the final manuscript undergo peer review. In the first stage, reviewers and editors evaluate the relevance of the research questions and the proposed methods to answer them. Submissions that pass stage one review are offered ‘in principle acceptance’ (IPA), and the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Stage two peer review evaluates the complete manuscript before publication. In most cases, the Pre-Reg Challenge is not part of a Registered Report.
+                                                       Yes, we will review your research plans and your final, published article for completeness and adherence to Preregistration Challenge <a data-tab-destination="tab-3">eligibility requirements</a>. However, this is not peer review of the content or quality of your research.  Passing the Preregistration Challenge review process has no bearing on acceptance of your article at any journal. You can read more about the <a data-tab-destination="tab-6">review process here</a>.
                                                        </div>
                                                       </div>
                                                     </div>
@@ -325,43 +262,50 @@
                                                       <div class="panel-heading" role="tab" id="headingSix">
                                                         <h4 class="panel-title">
                                                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                          How can I get the results of my preregistered study published?
+                                                          Can I use a pre-existing data set for my preregistration?
                                                           </a>
                                                         </h4>
                                                         </div>
                                                         <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                                                           <div class="panel-body">
-                                                           Preregistration is relatively new to many people, and so you may get questions from reviewers or editors during the review process. Below are some possible issues you may encounter and suggested responses.
-                                                            <ul>
-                                                            <hr>
-                                                            <li><strong>Possible feedback</strong> Reviewers or editors may request that you remove an experiment, study, analysis, variable, or design feature because the results are null results or marginal.</li>
-                                                            <li><strong>Possible response</strong> The results of these tests are included because they stem from prespecified analyses. Removing these results because of their non-significance would help perpetuate the publication bias already present in the literature. If the reviewer/editor proposes a reason why they believe the null result could be explained by a design flaw, it can often be helpful/appropriate to leave the test in, but discuss the reviewers concerns about the validity of that particular test/design feature in a discussion section.
+                                                          <p>Perhaps.  A goal of pre-analysis plans is to avoid analysis decisions that are contingent on observed results (except when those contingencies are specified in advance, see above).  This is more challenging for existing data, particularly when outcomes of the data have been observed or reports.  Standards for effective preregistration using existing data do not yet exist. We are using the Preregistration Challenge to help develop such standards.  As such, we have defined initial eligibility standards with pre-existing data and expect these to be refined over time.</p>
+                                                          <p>When you submit your research plan, you will identify whether existing data is included in your planned analysis. For some circumstances, you will describe the steps that will ensure that the data or reported outcomes do not influence the analytical decisions. Below are the categories for which preregistration may still be eligible for the Preregistration Challenge:
+                                                          </p>
+                                                          <ol>
+                                                            <li>
+                                                              <strong>Registration prior to collection of data:</strong> As of the date of submission of Research Plan for Preregistration, the data have not yet been realized, collected, or created. In this scenario, the Entrant must certify that the data do not exist to retain eligibility.
                                                             </li>
-                                                            <hr>
-                                                              <li><strong>Possible feedback</strong> You may receive editorial feedback from reviewers or editors about why you are referring to a pre-registered plan.</li>
-                                                              <li><strong>Possible response</strong> The registration was made prior to the start of data analysis, and so allows readers and reviewers the ability to verify which analyses were prespecified and confirmatory versus those which were not prespecified and therefore exploratory. The plan allows readers to see that the hypotheses, analyses, and design that were prespecified have been accurately and fully reported.</li>
-
-                                                              <hr>
-                                                              <li><strong>Possible feedback</strong> If the editor requests that you perform additional tests.</li>
-                                                              <li><strong>Possible response</strong> It is fine to perform additional analyses requested by reviewers, as long as your paper makes clear that the test was not part of the confirmatory analyses. Any promising findings that result from these newly added tests must be clearly indicated as exploratory.
-                                                              </li>
-                                                            </ul>
-                                                           </div>
-                                                          </div>
+                                                            <li>
+                                                              <strong>Registration prior to any human observation of the data:</strong> As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed Study and Research Plan. Examples include museum specimens that have not been measured, or data that have been collected by non-human collectors and are inaccessible. In this scenario, the Entrant must certify that the data have not been observed by anyone and how this is the case to retain eligibility.
+                                                            </li>
+                                                            <li>
+                                                              <strong>Registration prior to Entrant access to the data:</strong> As of the date of submission, the data exist, and have not been accessed by the Entrant, or the Entrant’s Study collaborators. Commonly, this includes data that has been collected by another researcher or institution. In this scenario, the Entrant must certify that they have not accessed the data, explain who has accessed the data, and justify how any observation, analysis, and reporting of that data avoids compromising the confirmatory nature of the Research Plan. The justification will be reviewed to determine eligibility.
+                                                            </li>
+                                                            <li>
+                                                              <strong>Registration prior to Entrant analysis of the data:</strong> As of the date of submission, the data exist and have been accessed by the researcher, though no analysis has been conducted related to the Research Plan. Common situations for this are the existence of a large dataset that is the subject of many studies over time, or a split sample in which a portion is not analyzed to be subjected to confirmatory testing after exploratory analysis of the other data. In this scenario, the Entrant must certify that they have not analyzed the data related to the Research Plan (including calculation of summary statistics), explain what other analysis or reporting of the data has been done by the Entrant or others, and justify how any prior observation, analysis, and reporting of that data avoid compromising the confirmatory nature of the Research Plan.
+                                                            </li>
                                                         </div>
-                                                      <!-- End FAQ 6 -->
+                                                      </div>
+                                                    </div>
+                                                  <!-- End FAQ 6 -->
                                                   <!-- Begin FAQ 7 -->
                                                     <div class="panel panel-default">
                                                       <div class="panel-heading" role="tab" id="headingSeven">
                                                         <h4 class="panel-title">
                                                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                          Doesn't this create too much additional work?
+                                                          Is preregistration relevant to my field or type of research?
                                                           </a>
                                                         </h4>
                                                         </div>
                                                         <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                                                           <div class="panel-body">
-                                                           Preparing these plans is likely to take considerable time and effort. However, every decision included in the pre-registration process is one that a researcher will have to make at some point anyway, and making these decisions up front, before data collection begins, can improve your workflow and reduce subtle biases. Our goal is to create a system that is transparent and easy to use, and we welcome feedback (prereg@cos.io).
+                                                          <p>There are several research circumstances that present challenges to conducting preregistered research.</p>
+                                                          <ul>
+                                                            <li><strong>Studies in which you are not conducting statistical inference testing.</strong> Most existing preregistration models are designed to reduce bias when the researcher intends to apply statistical inference techniques to collected data. There are many publishable, peer-reviewed endeavors for which this is not the case such as qualitative research and some kinds of observational studies.</li>
+                                                            <li><strong>Hypothesis testing using pre-existing data.</strong> Using previously-collected data places additional burden on the researcher to avoid analysis decisions that are contingent on the data and research outcomes. For example, seeing a simple summary of descriptive statistics prior to inferential testing can influence the choice of test and comparison of conditions or variables.</li>
+                                                            <li><strong>Field studies.</strong> Field science can be particularly challenging to preregister because data collection can be unpredictable - for sample size, for which variables are included, and for an evolving design that is responsive to the realities of data collection.  Pilot trials, feedback from peers, and additional time or imagination in the planning phase can help make registered plans more accurate, including identification of contingencies of data collection in advance.</li>
+                                                          </ul></p>
+                                                          <p>If the present preregistration process does not fit your research approach effectively, and you believe that there are ways to conduct preregistered research in your field, we encourage you to contact us to help develop and specify a preregistration process for your work (prereg@cos.io).  The Preregistration Challenge is both an education effort to encourage preregistration, and a research effort to develop effective preregistration processes that cover the wide variety of research approaches in science.
                                                            </div>
                                                           </div>
                                                         </div>
@@ -371,13 +315,14 @@
                                                           <div class="panel-heading" role="tab" id="headingEight">
                                                             <h4 class="panel-title">
                                                               <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                            You're being naive, this is not how scientists work.
+                                                            Is the Prereg Challenge the same as Registered Reports?
                                                               </a>
                                                             </h4>
                                                             </div>
                                                             <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                                                               <div class="panel-body">
-                                                               We are aware that scientists at almost every career level are under exceptional pressure to publish. We also know that many publishable results are often not able to be reproduced. Therefore, we have created this incentive for researchers to try a new method. Our success will be measured by the number of award recipients who return to the process and register another analysis plan in the future (without being paid to do so!) because they have found it to improve their workflow and the reliability of their findings.
+                                                                <p><a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> are a particular publication format in which the preregistered plan undergoes peer review in advance of observing the research outcomes. However, in the case of Registered Reports, that review is about the substance of the research and is conducted by a journal editorial staff.  Research designs that survive that peer review are offered ‘in principle acceptance’ (IPA) ensuring that the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Registered Reports are offered at 20 journals.</p>
+                                                                <p>Participants in the Prereg Challenge are welcome and encouraged to submit their preregistered designs to the Registered Reports mechanism at their preferred journal.  We recommend undergoing peer review at the journal first and preregistering for the Prereg Challenge after obtaining in-principle acceptance.  That way, the registered Prereg Challenge will not need to be revised following substantive peer review at the journal.</p>
                                                                </div>
                                                               </div>
                                                             </div>
@@ -387,83 +332,126 @@
                                                               <div class="panel-heading" role="tab" id="headingNine">
                                                                 <h4 class="panel-title">
                                                                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                                How do you know preregistration works? Is there any evidence?
+                                                                How will I ensure that my preregistered study will meet eligibility requirements when it is published?
                                                                   </a>
                                                                 </h4>
                                                                 </div>
                                                                 <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                                                                   <div class="panel-body">
-                                                                     Although pre-registration has existed in a more limited form for clinical trials, the implementation of pre-registration across disciplines is novel. There are both strong theoretical reasons to pre-register (Chambers et al., 2014; Simmons, Nelson, & Simonsohn, 2011), and some empirical evidence that supports its effectiveness <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382" target="_blank">(Kaplan and Irvin, 2015)</a>. We hope that the Pre-Reg Challenge will encourage researchers to give pre-registration a try. During the prize period we will be conducting a parallel metascience project to evaluate the influence of pre-registration on researchers' behaviors and the reproducibility of their studies. We would be delighted if you would consider participating by providing feedback on the pre-registration process.
-                                                                   </div>
+                                                                  <p>Preregistration is relatively new to many people, and so you may get questions from reviewers or editors during the review process. Below are some possible issues you may encounter and suggested strategies.</p>
+                                                                  <hr>
+                                                                  <p><strong>Possible editorial feedback:</strong> Reviewers or editors may request that you remove an experiment, study, analysis, variable, or design feature because the results are null results or marginal.</p>
+                                                                  <p><strong>Prereg requirement:</strong> All preregistered analysis plans must be reported. Selective reporting undermines diagnosticity of reported statistical inferences.
+                                                                  <p><strong>Possible response to the editor:</strong> The results of these tests are included because they stem from prespecified analyses in order to conduct a confirmatory test. Removing these results because of their non-significance would perpetuate publication bias already present in the literature (<a href="http://orca.cf.ac.uk/59475/" target="_blank">Chambers et al., 2014</a>; <a href="http://pss.sagepub.com/content/22/11/1359" target="_blank">Simmons et al., 2011</a>; <a href="http://pps.sagepub.com/content/7/6/632" target="_blank">Wagenmakers et al., 2012</a>).
+                                                                  <p><strong>Notes:</strong> If the reviewer/editor proposes a reason why they believe the null result could be explained by a design flaw, it can often be helpful/appropriate to leave the test in, but discuss the reviewers concerns about the validity of that particular test/design feature in a discussion section.</p>
+                                                                  <hr>
+                                                                  <p><strong>Possible editorial feedback:</strong> Why are you referring to a preregistered plan and reporting them separately from other analyses?</p>
+                                                                  <p><strong>Prereg requirement:</strong> The published article must make clear which analyses were part of the confirmatory design (usually distinguished in the results section with confirmatory and exploratory results sections), and there must be a URL to the preregistration on the OSF.</p>
+                                                                  <p><strong>Possible response to the editor:</strong> The registration was certified prior to the start of data analysis.  This defines analyses that were prespecified and confirmatory versus those which were not prespecified and therefore exploratory (citations). Clarifying this allows readers to see that the hypotheses, analyses, and design that were prespecified have been accurately and fully reported (<a href="http://www.jstor.org/stable/3893289" target="_blank">Jaeger & Halliday, 1998</a>; <a  href="http://psr.sagepub.com/content/2/3/196" target="_blank">Kerr, 1998</a>, <a href="http://jama.jamanetwork.com/article.aspx?articleid=1352120" target="_blank">Thomas & Peterson, 2012</a>).</p>
+                                                                  <hr>
+                                                                  <p><strong>Possible editorial feedback:</strong> Editor requests that you perform additional tests.</p>
+                                                                  <p><strong>Prereg requirement:</strong> Additional tests are fine, they just need to be distinguished clearly from the confirmatory tests.</p>
+                                                                  <p><strong>Possible response to the editor:</strong>  Yes, these additional analyses are informative.  We made sure to distinguish them from our preregistered analysis plan that is the most robust to alpha inflation.  These analyses provide additional information for learning from our data.</p>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                        <!-- End FAQ 9 -->
+                                                        <!-- Begin FAQ 10 -->
+                                                          <div class="panel panel-default">
+                                                            <div class="panel-heading" role="tab" id="headingTen">
+                                                                <h4 class="panel-title">
+                                                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                                                    Doesn’t this create too much additional work?
+                                                                  </a>
+                                                                </h4>
+                                                              </div>
+                                                              <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headinTen">
+                                                                <div class="panel-body">
+                                                                  Preparing these plans does require time and effort. However, every decision included in the preregistration process is one that a researcher will have to make at some point anyway, and making these decisions up front, before data collection begins, can improve your workflow and reduce subtle biases. Our goal is to create a system that is transparent and easy to use, and ultimately increases the efficiency and effectiveness of research design.  We welcome feedback (prereg@cos.io) about how to make it even better.
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          <!-- End FAQ 10 -->
+                                                          <!-- Begin FAQ 11 -->
+                                                            <div class="panel panel-default">
+                                                              <div class="panel-heading" role="tab" id="headingEleven">
+                                                                <h4 class="panel-title">
+                                                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                                                    Preregistration is naive; this is not how scientists work.
+                                                                  </a>
+                                                                </h4>
+                                                              </div>
+                                                              <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                                                                <div class="panel-body">
+                                                                  Scientists at almost every career level are under exceptional pressure to publish. Also, evidence suggests that publishable results are often not easily reproduced (<a href="http://www.nature.com/nature/journal/v483/n7391/full/483531a.html" target=""_blank">Begley & Ellis, 2012</a>; <a href="http://www.sciencemag.org/cgi/doi/10.1126/science.aac4716" target="_blank">Open Science Collaboration, 2015</a>; <a href="http://www.nature.com/doifinder/10.1038/nrd3439-c1" target="_blank">Prinz et al., 2011</a>). Therefore, we have created this incentive for researchers to try preregistration as a formalization of the idealized model of confirmatory hypothesis testing. An indicator of success will be measured by the number of participants who register analysis plans after participating in the Prereg Challenge because they have found it to improve their workflow and their confidence in their findings.
                                                                   </div>
                                                                 </div>
-                                                                <!-- End FAQ 9 -->
-                                                                <!-- Begin FAQ 10 -->
-                                                                <div class="panel panel-default">
-                                                                  <div class="panel-heading" role="tab" id="headingTen">
-                                                                    <h4 class="panel-title">
-                                                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                                                      Is my preregistration private? Can it be withdrawn?
-                                                                      </a>
-                                                                    </h4>
-                                                                    </div>
-                                                                    <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headinTen">
-                                                                      <div class="panel-body">
-                                                                      You may embargo your preregistration plan so it is hidden from public view for up to 4 years. However, eventually all preregistrations will become public. It is possible to withdraw your preregistration, but a notification of retraction will be public. Finally, all submissions to the Preregistration Challenge will be reviewed by COS staff and designated external reviewers to assess its eligibility for the prize. You can read more about our review process in the "Review Process" tab on the left.
-                                                                       </div>
+                                                              </div>
+                                                          <!-- End FAQ 11 -->
+                                                          <!-- Begin FAQ 12 -->
+                                                            <div class="panel panel-default">
+                                                              <div class="panel-heading" role="tab" id="headingTwelve">
+                                                                <h4 class="panel-title">
+                                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                                                      How do you know preregistration works? Is there any evidence?
+                                                                    </a>
+                                                                  </h4>
+                                                                </div>
+                                                                <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+                                                                  <div class="panel-body">
+                                                                      Preregistration has existed in a more limited form for clinical trials, but it is relatively new for basic and preclinical sciences. There are both strong theoretical reasons to preregister (<a href="http://orca.cf.ac.uk/59475/" target="_blank">Chambers et. al, 2014</a>; <a href="http://econtent.hogrefe.com/doi/full/10.1027/1864-9335/a000192" target="_blank">Nosek & Lakens, 2014</a>; <a href="http://pss.sagepub.com/lookup/doi/10.1177/0956797611417632" target="_blank">Simmons, Nelson, & Simonsohn, 2011</a>; <a href="http://jama.jamanetwork.com/article.aspx?articleid=1352120" target="_blank">Thomas & Peterson, 2012</a>), and some empirical evidence that suggests that it does impact research outcomes (<a href="http://dx.doi.org/10.1371/journal.pone.0132382" target="_blank">Kaplan and Irvin, 2015</a>). We are conducting the Preregistration Challenge to increase experience and evidence about preregistration in the basic sciences. We will conduct and support research efforts to evaluate preregistration through the Prereg Challenge and registration on the OSF more generally.
                                                                     </div>
                                                                   </div>
-                                                                  <!-- End FAQ 10 -->
-                                                                  <!-- Begin FAQ 11 -->
-                                                                  <div class="panel panel-default">
-                                                                    <div class="panel-heading" role="tab" id="headingEleven">
-                                                                      <h4 class="panel-title">
-                                                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                                                          Can my analysis depend on my data?
-                                                                        </a>
-                                                                      </h4>
-                                                                      </div>
-                                                                      <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
-                                                                        <div class="panel-body">
-                                                                          <p><h2>For example if a particular assumption is not met, I may need to use a different statistical model. How do I accommodate this into a preregistration?</p></h2>
-                                                                          Such situations are likely to be common. We suggest that you define a 'decision-tree' containing logical IF-THEN rules that specify the analyses that will be used in specific situations. We have put together some example decision trees to give you some ideas of how to accomplish this. In the event that you need to conduct an unplanned analysis, please note that preregistration does not prevent you from doing so, it simply makes clear which analyses were planned and which were not.
-                                                                         </div>
-                                                                      </div>
-                                                                    </div>
-                                                                    <!-- End FAQ 11 -->
-                                                                    <!-- Begin FAQ 12 -->
-                                                                    <div class="panel panel-default">
-                                                                      <div class="panel-heading" role="tab" id="headingTwelve">
-                                                                        <h4 class="panel-title">
-                                                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                                                            Can I preregister without entering the competition?
-                                                                          </a>
-                                                                        </h4>
-                                                                        </div>
-                                                                        <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
-                                                                          <div class="panel-body">
-                                                                            Yes! After you complete the research plan, you will have the option of registering it without having anyone review your plans. Remeber that the review is required in order to be eligible for the $1,000 prize.</p>
-                                                                            <p>Alternatively, you may simply fill out the content of the research plan in a <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="_blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a> and <a href="https://osf.io/getting-started/#registrations" target="_blank">register</a> your project.
-                                                                           </div>
-                                                                        </div>
-                                                                      </div>
-                                                                      <!-- End FAQ 12 -->
-                                                                      <!-- Begin FAQ 13 -->
-                                                                      <div class="panel panel-default">
-                                                                        <div class="panel-heading" role="tab" id="headingThirteen">
-                                                                          <h4 class="panel-title">
-                                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                                                                              I still have questions...
-                                                                            </a>
-                                                                          </h4>
-                                                                          </div>
-                                                                          <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
-                                                                            <div class="panel-body">
-                                                                            We would be happy to help you and are open to feedback. You can contact us at prereg@cos.io
-                                                                             </div>
-                                                                          </div>
-                                                                        </div>
-                                                                      <!-- End FAQ 13 -->
+                                                                </div>
+                                                            <!-- End FAQ 12 -->
+                                                            <!-- Begin FAQ 13 -->
+                                                              <div class="panel panel-default">
+                                                                <div class="panel-heading" role="tab" id="headingThirteen">
+                                                                  <h4 class="panel-title">
+                                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                                                      Is my preregistration private? Can it be withdrawn?
+                                                                    </a>
+                                                                  </h4>
+                                                                </div>
+                                                                <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
+                                                                  <div class="panel-body">
+                                                                    You may embargo your preregistration plan for up to 4 years following review to keep the details from public view. All registrations eventually become public because that is part of the purpose of a registry - to reduce the file-drawer effect (sometimes called the grey literature). It is possible to withdraw your preregistration, but a notification of the retraction will be public.
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            <!-- End FAQ 13 -->
+                                                            <!-- Begin FAQ 14 -->
+                                                              <div class="panel panel-default">
+                                                                <div class="panel-heading" role="tab" id="headingFourteen">
+                                                                  <h4 class="panel-title">
+                                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                                                      Can I preregister without entering the competition?
+                                                                    </a>
+                                                                  </h4>
+                                                                </div>
+                                                                <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
+                                                                  <div class="panel-body">
+                                                                    Yes! After you complete the research plan, you will have the option of registering it without submitting for review for the Prereg Challenge.  Review is required to be eligible for a $1,000 prize, but the Preregistration workflow is available for general use.
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            <!-- End FAQ 14 -->
+                                                            <!-- Begin FAQ 15 -->
+                                                              <div class="panel panel-default">
+                                                                <div class="panel-heading" role="tab" id="headingFifteen">
+                                                                  <h4 class="panel-title">
+                                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                                                      I still have questions...
+                                                                    </a>
+                                                                  </h4>
+                                                                </div>
+                                                                <div id="collapseFifteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifteen">
+                                                                  <div class="panel-body">
+                                                                    We would be happy to help and appreciate your feedback. Contact us at prereg@cos.io
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            <!-- End FAQ 15 -->
                                                 </div>
                                     </td>
                                 </tr>
@@ -471,39 +459,44 @@
                             </div>
                             <!-- END TAB 4 -->
                             <!-- START TAB 5 -->
-                            <div class="tab-pane" id="tab_5">
+                            <div class="tab-pane" id="five">
                               <table>
                                 <tr>
                                   <td>
                                     <h3>Eligible Journals</h3>
-                                    <p>In order to be eligible for the Preregistration Challenge, entrants must publish their articles in an <a href="/preregjournals/" target="_blank">eligible journal</a>. </p>
+                                    <p>Entrants must publish their eligible preregistered study in a journal listed <a href="https://cos.io/preregjournals" target="_blank">here</a> to be eligible for a Preregistration Challenge award.  Note that the Preregistration Challenge is administered independently from administration, peer review, and publication in these journals.</p>
+
+                                    <p>If a journal relevant to your research area does not appear on this list, you can assist in helping it become an eligible journal by encouraging the publisher and/or editors to take concrete steps to improve openness and reproducibly such as adopting the <a href="https://cos.io/top" target="_blank">TOP Guidelines</a>, making <a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> a submission option, and adopting <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">badges to acknowledge open practices</a>. More information about steps toward making a journal eligible for this list are [here].</p>
                                   </td>
                                 </tr>
                               </table>
                             </div>
                             <!-- END TAB 5 -->
                             <!-- START TAB 6 -->
-                            <div class="tab-pane" id="tab_6">
+                            <div class="tab-pane" id="six">
                                 <table>
                                     <tr>
                                         <td>
                                             <h3>Two Items to Review</h3>
                                             <ol>
                                             <li><h2>Research Plan Review</h2>
-                                            <p>In order to be eligible for the Pre-Reg Challenge, each submission must pass a review process in which the statistical methods of the proposed study and its analyses are checked for completeness. <strong>This process does not assess the validity of the research question or statistical methodology and in no way affects the editorial decisions of any journal. This is not peer review.</strong>
-                                            <p>We will review the submitted study design and analysis descriptions, and determine whether all question fields were answered with enough detail to fully pre-specify the design and analysis plan. Here are the guidelines (link) that reviewers will use when evaluating your submitted plans.
-                                            <p>In order to be eligible for the prize, both you and administrators of the Pre-Reg Challenge must agree that the plan is acceptable. You may of course register anything else on the Open Science Framework at any time, but plans that do not pass this review process will not be eligible for the $1,000 prize.
+                                              <p>Each submission must pass a review process in which the statistical methods of the proposed study and its analyses are checked for completeness and adherence to Preregistration Challenge eligibility requirements. <strong>This review does not assess the substance of the research, or the validity of the research design or statistical methodology. This review has no impact on the independent editorial decisions of any journal.</strong></p>
+                                              <p>Prereg Challenge administrators and reviewers will review the submitted study design and analysis descriptions, and determine whether all question fields were answered with enough detail to fully pre-specify the design and analysis plan, and follow the eligibility requirements.  <a href="https://osf.io/h4ga8/" target="_blank">Here are the guidelines</a> that reviewers will use when evaluating your submitted plans.</p>
+                                              <p>Only studies that pass this review process are eligible for the Preregistration Challenge. Studies that do not pass this review may still be registered on the Open Science Framework independent of the Prereg Challenge.</p>
+
 
                                             <li><h2>Article Review</h2>
-                                            <p>Rarely does a complex undertaking go exactly according to plan. Preregistration allows you to more easily distinguish between hypothesis testing analyses (the "confirmatory" analyses) and hypothesis generating, exploratory analyses. Accordingly, articles must be reviewed to verify that the plans were followed and new analyses were appropriately separated.</p>
-                                            Below are examples of deviations from the pre-registered plans and how a researcher could respond to them. </p>
+                                            <p>Following independent peer review and acceptance for publication at a Prereg Challenge <a href="https://cos.io/preregjournals" target="_blank">eligible journal</a>, you will submit a link to the in press or published article online, and a copy of the journal-formatted published article for final review for eligibility for a Prereg Challenge award.</p>
+                                            <p>Prereg Challenge administrators and reviewers then review the article to ensure that it meets all of the <a href="https://osf.io/4uxbj/" target="_blank">eligibility criteria</a> including following the preregistered design, providing a link to the preregistration, making clear distinction between preregistered confirmatory analyses and other analyses, and following the preregistered analysis plan.</p>
+                                            <p>It is possible that deviations from the sampling, design, or analysis plans occurred in the course of conducting the research.  Sometimes these deviations will render the preregistration ineligible for the Prereg Challenge award.  Other times, these deviations will not affect the diagnosticity of statistical inference and remain eligible for the award.  In either case, deviations from preregistered plans must be documented explicitly in the article.
+</p>
                                             <ul>
                                             <li><p><strong>Deviations from Sampling Plan.</strong> </p>
                                             An author may not be able to recruit a sufficient number of participants to reach 95% power, but ended up with just over 80% power. In this case, the author should explain how their efforts were exhaustive and not influenced by the data collected up to that point.</p>
                                             <li><p><strong>Deviations from Design Plan</p></strong>
                                             Partway through data collection, a researcher notices that lichens with more sun exposure tend to show the phenotype that was expected only during a certain time of day. The researcher should either preregister a new plan with "sun exposure" as a predictor variable or include that new variable under "exploratory" results.</p>
                                             <li><p><strong>Deviations from Analysis Plan</p></strong>
-                                            An author noticed that by controlling for one particular variable (e.g. the age of the subjects, the number of offspring a fish had, or the size of the local economy) the expected relationship became statistically significant. Since this was not predicted from the beginning (even if makes perfect sense in hindsight!) this would have to be clearly labeled as exploratory analysis. If the author wanted to keep it as confirmatory results, the analysis could be rerun with this control on another set of data, or part of the data that had been kept aside from the beginning, but that analysis would also have to be preregistered in order to be eligible for the prize.</p>
+                                            An author noticed that by controlling for one particular variable (e.g. the age of the subjects, the number of offspring a fish had, or the size of the local economy) the expected relationship became statistically significant. Since this was not predicted from the beginning (even if makes perfect sense in hindsight!) this would have to be clearly labeled as exploratory analysis. If the author wanted to keep it as confirmatory results, the analysis could be rerun with this control on a new set of data, or part of the data that had been kept aside from the beginning, but that analysis would also have to be preregistered in order to be eligible for the prize.</p>
                                             </ul>
                                             <p>Questions? Please contact us as prereg@cos.io or take advantage of our <a href="http://centerforopenscience.org/stats_consulting/" target="_blank">free statistical consulting services</a>.<p>
 
@@ -514,7 +507,36 @@
                                 </table>
                             </div>
                             <!-- END TAB 6 -->
+                            <!-- START TAB 7
+                            <div class="tab-pane" id="seven">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <h3>Preregister without Review or Prize</h3>
+                                            <p>Do you want to preregister your research, but not have your research plan reviewed? You have two options, but please remember that these are <strong>not eligible for a $1,000 Prize</strong>.</p>
+                                            <ol type="I">
+                                            <li><h2>Select the blue "Begin a Preregistration" button on the left.</h2>
+                                            <p>You may opt out of the Challenge at any time and register your work without review. After completing the form, simply choose the option to register your research plan without review.</p>
 
+
+                                            <li><h2>Register an OSF Project</h2>
+                                            <p>This option uses the tools that have always been available on the Open Science Framework to register your work.
+                                            <ol>
+                                            <li>Create a research plan using the template we have available as a <a href="https://osf.io/jea94/" target="_blank">Word doc</a> or <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&m" target="_blank">Google doc</a>.</li>
+                                            <li>Create an <a href="https://osf.io" target="_blank">OSF</a> account.</li>
+                                            <li>Create a <a href="https://osf.io/getting-started/#start-one" target="_blank">project</a>.</li>
+                                            <li>Upload your research plan to the "files" section in the project you just created.</li>
+                                            <li><a href="https://osf.io/getting-started/#registrations" target="_blank">Register</a> your project using the "Registrations" tab near the top of the page. You will be give several options at this point, but for this purpose you can use the "Open-Ended Registration" option.</li>
+                                            </ol>
+                                            <p>
+
+
+                                            </p></ol>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                           END TAB 7 -->
 
                     </div>
 
@@ -552,6 +574,24 @@
                 $("#"+tab).addClass("active");
             }
         });
-    </script>
+      </script>
+
+
+<script>
+       $("a[data-tab-destination]").on('click', function () {
+      var tab = $(this).attr('data-tab-destination');
+      $("#" + tab).click();
+  })
+
+## the following code allows for links between the Bootstrap tabs
+  $("a[data-tab-destination]").on('click', function () {
+ var tab = $(this).attr('data-tab-destination');
+ $("#" + tab).click();
+})
+
+;
+  </script>
+
+
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
