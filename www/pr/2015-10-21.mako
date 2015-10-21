@@ -45,7 +45,7 @@
 <br>
                 
                 <br>
-                <h4><strong>About the Association for Research Libraries</strong></h4>
+                <h4><strong>About the Association of Research Libraries</strong></h4>
                 <p>The <a href="http://www.arl.org/"> Association of Research Libraries</a> (ARL) is a nonprofit organization of 124 research libraries in the US and Canada. ARL’s mission is to influence the changing environment of scholarly communication and the public policies that affect research libraries and the diverse communities they serve. ARL pursues this mission by advancing the goals of its member research libraries, providing leadership in public and information policy to the scholarly and higher education communities, fostering the exchange of ideas and expertise, facilitating the emergence of new roles for research libraries, and shaping a future environment that leverages its interests with those of allied organizations. ARL is on the web at <a href="http://www.arl.org/">www.arl.org</a>.
                 <br>
                 <br><h4><strong>About the Association of American Universities </strong></h4>
