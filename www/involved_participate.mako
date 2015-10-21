@@ -360,6 +360,29 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/ph9rr/" target="_blank">
+                        <img src="../static/img/people/ambassadors/corker.png" alt="Katie Corker">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Katie Corker
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Kenyon College
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -381,6 +404,30 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/" target="_blank">
+                        <img src="../static/img/people/ambassadors/ellison.jpg" alt="Melissa McAdam Ellison">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Melissa McAdam Ellison
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Center for Naval Analyses
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -401,6 +448,29 @@
                 </td>
             </tr>
         </table>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/a45nu/" target="_blank">
+                        <img src="../static/img/people/ambassadors/meyers.jpg" alt="Natalie Meyers">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Natalie Meyers
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Notre Dame
+                </td>
+            </tr>
+        </table>
+    </td>
+
     </td>
 </tr>
 <tr>    
