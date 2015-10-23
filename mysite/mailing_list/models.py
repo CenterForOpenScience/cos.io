@@ -23,12 +23,12 @@ class MailingList(models.Model):
     def __unicode__(self):
         return self.name
 
-    def save(self, *args, **kwargs):
-        if not self.pk:
-            self._make_mailing_list()
-        else:
-            self.update()
-        return super(MailingList, self).save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     if not self.pk:
+    #         self._make_mailing_list()
+    #     else:
+    #         self.update()
+    #     return super(MailingList, self).save(*args, **kwargs)
 
     def delete(self, *args, **kwargs):
         storage = Storage(CredentialsModel, 'id', self.user, 'credential')
