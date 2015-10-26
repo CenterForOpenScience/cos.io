@@ -76,6 +76,52 @@
 ##         </div>
 ##     </div>
 ## </div>
+<div id="Community Manager" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#Community Manager_heading">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#Communitymanager">
+                    Community Manager
+                </a>
+            </h4>
+        </div>
+        <div id="Community Manager" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt><dd><p>Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research.  The Center for Open Science (COS) will add a strategically-oriented community and partnerships manager. COS produces entirely free and open products and services with minimal branding to promote wide adoption and non-competition.  This manager will facilitate the strategy, marketing, adoption, collaboration, and partnership growth around COS products and services - a sales team leader.  The role is entirely mission-driven: How can COS best promote and support the adoption of scientific values in daily scientific practices? </p></dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     <dt>Responsibilities</dt>
+                     </dd>
+                         <p>Lead the COS Community team to build and execute collaboration and partnership strategies within higher education, non-profit, technology, funder, and scientific communities.</p>
+                         <p>Develop and grow relationships and collaborations with partner organizations across the entire research lifecycle, across all scientific domains, and across all stakeholder communities.  Stakeholder areas include: higher-education institutions, publishers, funders, societies, non-profits, government agencies, science and technology companies.</p>
+                         <p>Position and market COS products and services to meet needs of organizations and the user community to maximize research transparency and reproducibility.  Overcome challenges, and inspire them to act.</p>
+                         <p>Operational management of scientific and technical teams focused on high-performance delivery, adoption, and scaling of products and services.</p>
+                         <p>“Client success” expert: Use Salesforce to track the pipeline of prospects and partners, and guide team toward achieving assertive goals with sprints and rapid feedback on effective success metrics.</p>
+                     <dt>Other Areas of Responsibility</dt>
+                     </dd>   
+                         <p>Work closely with the COS Community team to develop new feature proposals based on partner feedback.</p>
+                         <p>Keep up to date on issues within the scientific community and scholarly workflow across the entire research lifecycle.</p>
+                     <dt>Skills</dt>
+                     <dd>
+                         <p>Strong sense of strategy, politics, impressions, brand, reputation; Extremely high social and communication skills; Self-starter and industrious; Team-oriented; Very strong work ethic; Adaptivity to rapidly changing demands in a high performance workplace; Fluent in social media; Market research skills; Presentation skills; Attention to detail and timing; Values transparency and collaboration; Experience with science and technology sectors; Flexibility and ability to manage multiple simultaneous priorities; Strong familiarity or depth experience in some or many sectors of the scholarly workflow: publishing, libraries, scientific technology, university administration, technology companies, funding organizations, scientific societies; Resourcing/support-based management style.</p>
+                     <dt>Notes</dt>
+                     <dd>
+                         <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+                         <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities.</p>
+                     </dd>
+                    <dt>Applying</dt><dd>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to casey.kugler@cos.io.</p>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="Developer" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
@@ -158,6 +204,105 @@
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
                     <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="DonorandFunderRelationsLead" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#DonorandFunderRelationsLead_heading">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#DonorandFunderRelationsLead">
+                    Donor and Funder Relations Lead
+                </a>
+            </h4>
+        </div>
+        <div id="DonorandFunderRelationsLead" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt><dd><p>Join a mission-driven, non-profit tech-startup that is promoting openness, integrity, and reproducibility of scientific research.  The Center for Open Science (COS) will add a Director of Donor and Funder Relations to increase openness, integrity, and reproducibility of scientific research.  COS pursues its mission with foundation, grant, and donor support.  By providing free, open products and services to improve the quality and impact of scientific research, COS’s mission is directly relevant to many federal, commercial, and philanthropic organizations.  In its first three years of operation COS received ~$17 million of support from private and federal funding sources.  For its next phase, COS expects to expand the number and diversity of philanthropic supporters.  Moreover, COS has a unique position as a non-profit organization that operates like a commercial technology company.  The organization is high-energy and focused on delivering its products and services quickly with the highest quality in the market.  We aim to deliver high return on funder’s investment, not with dollars but in delivering scientific infrastructure and cultural change that will accelerate knowledge accumulation for the social good.</p></dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Responsibilities</dt>
+                     </dd>
+                         <p>Develop and implement annual and long-range, comprehensive funding plans with directed strategies for individual relationships, special campaigns, fundraising events, multi-year donor groups, donor cultivation, stewardship activities, and prospect identification.</p>
+                         <p>Set goals and clear metrics that drive current and sustainable fundraising performance, and evaluate progress at appropriate intervals. </p>
+                         <p>Oversee, manage, and conduct grant research and development. Manage all grant proposal processes including grants calendar, grant development, grant writing, and reporting.</p>
+                         <p>Be an outstanding representative of the organization with strong knowledge of COS’s mission, services, and strategy in communications with funders, constituency, board, and staff.</p>
+                         <p>Partner with COS Community team to broaden fundraising and organizational visibility through innovative use of social media channels and social media.</p>
+                         <p>Demonstrate excellence in event coordination and delivery.</p>
+                         <p>Strategically leverage the time and connections of the Executive Director and COS Board Members to achieve fundraising goals.</p>
+                         <p>Research, identify, and develop relationships prospective grantors to ensure ongoing sustainability. </p>
+                     <dt>Other Activities</dt>
+                     </dd>   
+                         <p>Manage donor and participant Salesforce data including maintenance of files, updated, reports, and data integrity. </p>
+                         <p>Remain current on fundraising trends and best practices used in the nonprofit sector and recommend strategies to leadership.</p>
+                         <p>Participate in board development.</p>.
+                         <p>Support budgeting and integration of grants and funding pipeline with operations team.</p>
+                     <dt>Notes</dt>
+                     <dd>
+                         <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+                         <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>    
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt><dd>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to casey.kugler@cos.io.</p>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="ExecutiveAssistant" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ExecutiveAssistant_heading">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#ExecutiveAssistant">
+                    Executive Assistant
+                </a>
+            </h4>
+        </div>
+        <div id="ExecutiveAssistant" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt><dd><p>Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research.  The Center for Open Science (COS) will add an operations-focused Executive Assistant.  The Executive Assistant will provide comprehensive organization, coordination, and communication support for the Executive Director and the Chief Technology Officer.  The Assistant’s flexibility, outstanding organizational skills and thoughtfulness will enhance the executive's effectiveness by providing information management support and representing the executive to others as well as anticipating issues before they become problems. COS is a fast-paced, rapidly growing company that is providing mission-driven services to the scientific community.  You will have a deep interest in technology and will thrive in a high-velocity, unstructured start-up environment.  </p></dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Responsibilities</dt>
+                     </dd>
+                         <p>Maintains executives’ appointment schedule by planning and scheduling meetings, conferences, teleconferences, and travel.</p>
+                         <p>Managing e-mail and other correspondence for executives.</p>
+                         <p>Point-of-contact for coordination with other organizations for executive-level meetings and negotiations.</p>
+                         <p>Identifying and anticipating organization and executives’ priorities to support prioritization of tasks and events, and identification of alternative courses of action with risks and opportunities of each.</p>
+                         <p>Creatively assessing tasks and identifying mechanisms to free up time on executives’ schedule to maintain focus on top priorities and efficient decision-making.</p>
+                         <p>Providing critical feedback to executives for when NOT to spend time on activities that can be completed by others.</p>
+                         <p>Comprehensive understanding of the organization and team members, and development of their trust to be an extension of the executive team.</p>
+                         <p>Provide effective, respected conduit of information between executives and entire staff.</p>
+                         <p>Conserves executives’ time by reading, researching, and routing correspondence; drafting letters, documents, and presentations; collecting and analyzing information; initiating communications; managing technology.</p>
+                     <dt>Other Areas of Responsibility</dt>
+                     </dd>   
+                         <p>Supporting Operations Team.</p>
+                         <p>Manage special projects and assignments.</p>
+                         <p>Represents the executive by attending meetings in the executive's absence.</p>
+                         <p>Provides historical reference by recording meeting discussions and results.</p>
+                     <dt>Notes</dt>
+                     <dd>
+                         <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+                         <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>    
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt><dd>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to casey.kugler@cos.io.</p>
                 </dl>
             </div>
         </div>
