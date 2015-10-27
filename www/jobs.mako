@@ -121,7 +121,7 @@
                          <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities.</p>
                      </dd>
                     <dt>Applying</dt><dd>
-                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="http://careers.jobscore.com/jobs2/centerforopenscience/community-manager/dHNViSE-4r5zLVeMg-44q7">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                 </dl>
             </div>
         </div>
@@ -262,7 +262,7 @@
                          <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
                     </dd>
                     <dt>Applying</dt><dd>
-                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="http://careers.jobscore.com/jobs2/centerforopenscience/donor-and-funder-relations-lead/cVZ6HoE-8r5z3ldG1ZS6tF">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                 </dl>
             </div>
         </div>
@@ -316,7 +316,7 @@
                          <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
                     </dd>
                     <dt>Applying</dt><dd>
-                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="http://careers.jobscore.com/jobs2/centerforopenscience/executive-assistant/a--IFoE_ar5zLVeMg-44q7">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                 </dl>
             </div>
         </div>
