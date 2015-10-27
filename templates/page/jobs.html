@@ -155,7 +155,6 @@
                 if(el.parents('.panel').find('.panel-collapse').hasClass('collapse')){
                     el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>');
                     el.siblings('.panel-collapse').collapse('show');
-                    el.parents('.panel').find('.panel-collapse').remove('collapse');
                 } else {
                     el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>');
                     el.siblings('.panel-collapse').collapse('hide');

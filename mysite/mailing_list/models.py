@@ -30,24 +30,24 @@ class MailingList(models.Model):
     #         self.update()
     #     return super(MailingList, self).save(*args, **kwargs)
 
-    def delete(self, *args, **kwargs):
-        storage = Storage(CredentialsModel, 'id', self.user, 'credential')
-        credential = storage.get()
-
-        # TODO send them to the login page
-        if credential is None or credential.invalid is True:
-            return HttpResponseRedirect('/accounts/login/')
-
-        http = credential.authorize(httplib2.Http())
-        service = build('admin', 'directory_v1', http=http)
-        delete = service.groups().delete(groupKey=self.email)
-
-        # if the token is out of date, make the user login again
-        try:
-            delete.execute()
-        except:
-            return HttpResponseRedirect('/accounts/login/')
-        return super(MailingList, self).delete(*args, **kwargs)
+    # def delete(self, *args, **kwargs):
+    #     storage = Storage(CredentialsModel, 'id', self.user, 'credential')
+    #     credential = storage.get()
+    #
+    #     # TODO send them to the login page
+    #     if credential is None or credential.invalid is True:
+    #         return HttpResponseRedirect('/accounts/login/')
+    #
+    #     http = credential.authorize(httplib2.Http())
+    #     service = build('admin', 'directory_v1', http=http)
+    #     delete = service.groups().delete(groupKey=self.email)
+    #
+    #     # if the token is out of date, make the user login again
+    #     try:
+    #         delete.execute()
+    #     except:
+    #         return HttpResponseRedirect('/accounts/login/')
+    #     return super(MailingList, self).delete(*args, **kwargs)
 
     def update(self, *args, **kwargs):
         storage = Storage(CredentialsModel, 'id', self.user, 'credential')
