@@ -481,7 +481,7 @@
                 <small>Web Design Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/chenhaoyu1992" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://github.com/haoyuchen1992" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/7du32/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
