@@ -121,7 +121,7 @@
                          <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities.</p>
                      </dd>
                     <dt>Applying</dt><dd>
-                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to casey.kugler@cos.io.</p>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                 </dl>
             </div>
         </div>
@@ -208,7 +208,7 @@
                     </dd>
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p></dd>
+                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p></dd>
                 </dl>
             </div>
         </div>
@@ -262,7 +262,7 @@
                          <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
                     </dd>
                     <dt>Applying</dt><dd>
-                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to casey.kugler@cos.io.</p>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                 </dl>
             </div>
         </div>
@@ -316,7 +316,7 @@
                          <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
                     </dd>
                     <dt>Applying</dt><dd>
-                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to casey.kugler@cos.io.</p>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position here. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                 </dl>
             </div>
         </div>
@@ -632,7 +632,7 @@
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
                     </dd>
                     <dt>Referrals</dt>
                     <dd>
@@ -834,7 +834,7 @@
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                     </dd>
                 </dl>
             </div>
