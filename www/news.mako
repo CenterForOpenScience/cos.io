@@ -37,6 +37,17 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2015-10-27"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science and Foundation for Earth Science Announce Partnership to Support Scientific Research</h2>
+
+                    <p class="text-left">October 28, 2015 | The Center for Open Science (COS) and the Foundation for Earth Science (FES) are pleased to announce a multi-year partnership to support greater access to Earth and environmental science data.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2015-10-21"><img src="../static/img/icons/share.png"
                     width="125">
 
