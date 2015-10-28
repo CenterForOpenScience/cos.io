@@ -83,6 +83,50 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/z7mt6/" target="_blank">
+                        <img src="../static/img/people/ambassadors/allison.jpg" alt="Anne Allison">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Anne Allison
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Piedmont Virginia Community College
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/7gzsb/" target="_blank">
+                        <img src="../static/img/people/ambassadors/lortie.jpg" alt="Chris Lortie">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Chris Lortie
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    National Center for Ecological Analysis and Synthesis
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/pct7w/" target="_blank">
                         <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
                     </a>
@@ -100,6 +144,30 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>  
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/vn74s/" target="_blank">
+                        <img src="/static/img/people/ambassadors/robinson.jpg" alt="Danielle Robinson">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Danielle Robinson
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Oregon Health and Science University
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -121,6 +189,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -142,8 +211,9 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+ </tr>
+<tr>   
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -186,6 +256,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -207,8 +278,9 @@
             </tr>
         </table>
     </td>
+
 </tr>
-<tr>
+<tr>    
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -251,6 +323,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -316,6 +389,7 @@
             </tr>
         </table>
     </td>
+   
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -338,7 +412,7 @@
         </table>
     </td>
 </tr>
-<tr>    
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -406,6 +480,7 @@
     </td>
 </tr>
 <tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -473,7 +548,7 @@
 
     </td>
 </tr>
-<tr>    
+<tr>   
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -516,6 +591,7 @@
             </tr>
         </table>
     </td>
+  
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -537,7 +613,7 @@
             </tr>
         </table>
     </td>
-</tr>
+ </tr>
 <tr>    
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -604,7 +680,7 @@
         </table>
     </td>
 </tr>
-<tr>
+<tr>  
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
