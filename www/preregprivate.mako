@@ -78,7 +78,7 @@
                                       </p>
                                     <h3>The Preregistration Challenge</h3>
                                       <p>
-                                        Preregistration is an unfamiliar practice in many areas of science. We will give 1,000 awards of $1,000 each to promote education and experience with preregistration.  Award winners will have completed a preregistration using the Open Science Framework, a free scholarly commons,  and published the results in an eligible journal. Check out the <a data-tab-destination="tab-2">steps to earn a prize</a> steps to earn a prize!
+                                        Preregistration is an unfamiliar practice in many areas of science. We will give 1,000 awards of $1,000 each to promote education and experience with preregistration.  Award winners will have completed a preregistration using the Open Science Framework, a free scholarly commons,  and published the results in an eligible journal. Check out the <a data-tab-destination="tab-2">steps to earn a prize</a>!
                                       </p>
                                     <center><img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="450px" class="margin-top-10"></center>
                                   </td>
