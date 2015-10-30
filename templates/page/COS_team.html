@@ -33,8 +33,14 @@
                     <h3>{{ team_member.name }}
                     <small>{{ team_member.position }}</small></h3>
                     <ul class="social-icons social-icons-color" >
+                        {% if team_member.email and team_member.show_email%}
+                           <li>  <a href="{{ "mailto:" | obfuscate }}{{ team_member.email | obfuscate }}" target="_blank" data-original-title="email" class="email"></a></li>
+                        {% endif %}
                         {% if team_member.OSF_url %}
                             <li> <a href="{{ team_member.OSF_url }}" target="_blank" data-original-title="osf" class="osf"></a></li>
+                        {% endif %}
+                        {% if team_member.github_url %}
+                            <li> <a href="{{ team_member.github_url }}" target="_blank" data-original-title="github" class="github"></a></li>
                         {% endif %}
                         {% if team_member.linkedin_url %}
                             <li> <a href="{{ team_member.linkedin_url }}" target="_blank" data-original-title="Linkedin" class="linkedin"></a> </li>
@@ -42,23 +48,23 @@
                         {% if team_member.twitter_url %}
                             <li> <a href="{{ team_member.twitter_url }}" target="_blank" data-original-title="twitter" class="twitter"></a></li>
                         {% endif %}
-                        {% if team_member.tumblr_url %}
-                            <li> <a href="{{ team_member.tumblr_url }}" target="_blank" data-original-title="tumblr" class="tumblr"></a></li>
-                        {% endif %}
-                        {% if team_member.github_url %}
-                            <li> <a href="{{ team_member.github_url }}" target="_blank" data-original-title="github" class="github"></a></li>
-                        {% endif %}
-                        {% if team_member.google_url %}
-                            <li> <a href="{{ team_member.google_url }}" target="_blank" data-original-title="Goole Plus" class="googleplus"></a></li>
-                        {% endif %}
-                        {% if team_member.email and team_member.show_email%}
-                           <li>  <a href="{{ "mailto:" | obfuscate }}{{ team_member.email | obfuscate }}" target="_blank" data-original-title="email" class="email"></a></li>
+                        {% if team_member.personal_website %}
+                            <li> <a href="{{ team_member.personal_website }}" target="_blank" data-original-title="Website" class="person"></a></li>
                         {% endif %}
                         {% if team_member.facebook_url %}
                             <li> <a href="{{ team_member.facebook_url }}" target="_blank" data-original-title="Facebook" class="facebook"></a></li>
                         {% endif %}
-                        {% if team_member.personal_website %}
-                            <li> <a href="{{ team_member.personal_website }}" target="_blank" data-original-title="Website" class="person"></a></li>
+                        {% if team_member.google_url %}
+                            <li> <a href="{{ team_member.google_url }}" target="_blank" data-original-title="Goole Plus" class="googleplus"></a></li>
+                        {% endif %}
+                        {% if team_member.picasa %}
+                            <li> <a href="{{ team_member.picasa }}" target="_blank" data-original-title="Picasa" class="picasa"></a></li>
+                        {% endif %}
+                         {% if team_member.pinterest %}
+                            <li> <a href="{{ team_member.pinterest }}" target="_blank" data-original-title="Pinterest" class="pintrest"></a></li>
+                        {% endif %}
+                        {% if team_member.tumblr_url %}
+                            <li> <a href="{{ team_member.tumblr_url }}" target="_blank" data-original-title="tumblr" class="tumblr"></a></li>
                         {% endif %}
                         {% if team_member.yahoo %}
                             <li> <a href="{{ team_member.yahoo }}" target="_blank" data-original-title="Yahoo" class="yahoo"></a></li>
@@ -68,12 +74,6 @@
                         {% endif %}
                         {% if team_member.wordpress %}
                             <li> <a href="{{ team_member.wordpress }}" target="_blank" data-original-title="Wordpress" class="wordpress"></a></li>
-                        {% endif %}
-                        {% if team_member.picasa %}
-                            <li> <a href="{{ team_member.picasa }}" target="_blank" data-original-title="Picasa" class="picasa"></a></li>
-                        {% endif %}
-                         {% if team_member.pinterest %}
-                            <li> <a href="{{ team_member.pinterest }}" target="_blank" data-original-title="Pinterest" class="pintrest"></a></li>
                         {% endif %}
                     </ul>
                 </div>
@@ -92,8 +92,14 @@
                     <h3>{{ team_member.name }}
                     <small>{{ team_member.position }}</small></h3>
                     <ul class="social-icons social-icons-color" >
+                        {% if team_member.email and team_member.show_email%}
+                           <li>  <a href="{{ "mailto:" | obfuscate }}{{ team_member.email | obfuscate }}" target="_blank" data-original-title="email" class="email"></a></li>
+                        {% endif %}
                         {% if team_member.OSF_url %}
                             <li> <a href="{{ team_member.OSF_url }}" target="_blank" data-original-title="osf" class="osf"></a></li>
+                        {% endif %}
+                        {% if team_member.github_url %}
+                            <li> <a href="{{ team_member.github_url }}" target="_blank" data-original-title="github" class="github"></a></li>
                         {% endif %}
                         {% if team_member.linkedin_url %}
                             <li> <a href="{{ team_member.linkedin_url }}" target="_blank" data-original-title="Linkedin" class="linkedin"></a> </li>
@@ -101,23 +107,23 @@
                         {% if team_member.twitter_url %}
                             <li> <a href="{{ team_member.twitter_url }}" target="_blank" data-original-title="twitter" class="twitter"></a></li>
                         {% endif %}
-                        {% if team_member.tumblr_url %}
-                            <li> <a href="{{ team_member.tumblr_url }}" target="_blank" data-original-title="tumblr" class="tumblr"></a></li>
-                        {% endif %}
-                        {% if team_member.github_url %}
-                            <li> <a href="{{ team_member.github_url }}" target="_blank" data-original-title="github" class="github"></a></li>
-                        {% endif %}
-                        {% if team_member.google_url %}
-                            <li> <a href="{{ team_member.google_url }}" target="_blank" data-original-title="Goole Plus" class="googleplus"></a></li>
-                        {% endif %}
-                        {% if team_member.email and team_member.show_email%}
-                           <li>  <a href="{{ "mailto:" | obfuscate }}{{ team_member.email | obfuscate }}" target="_blank" data-original-title="email" class="email"></a></li>
+                        {% if team_member.personal_website %}
+                            <li> <a href="{{ team_member.personal_website }}" target="_blank" data-original-title="Website" class="person"></a></li>
                         {% endif %}
                         {% if team_member.facebook_url %}
                             <li> <a href="{{ team_member.facebook_url }}" target="_blank" data-original-title="Facebook" class="facebook"></a></li>
                         {% endif %}
-                        {% if team_member.personal_website %}
-                            <li> <a href="{{ team_member.personal_website }}" target="_blank" data-original-title="Website" class="person"></a></li>
+                        {% if team_member.google_url %}
+                            <li> <a href="{{ team_member.google_url }}" target="_blank" data-original-title="Goole Plus" class="googleplus"></a></li>
+                        {% endif %}
+                        {% if team_member.picasa %}
+                            <li> <a href="{{ team_member.picasa }}" target="_blank" data-original-title="Picasa" class="picasa"></a></li>
+                        {% endif %}
+                         {% if team_member.pinterest %}
+                            <li> <a href="{{ team_member.pinterest }}" target="_blank" data-original-title="Pinterest" class="pintrest"></a></li>
+                        {% endif %}
+                        {% if team_member.tumblr_url %}
+                            <li> <a href="{{ team_member.tumblr_url }}" target="_blank" data-original-title="tumblr" class="tumblr"></a></li>
                         {% endif %}
                         {% if team_member.yahoo %}
                             <li> <a href="{{ team_member.yahoo }}" target="_blank" data-original-title="Yahoo" class="yahoo"></a></li>
@@ -128,12 +134,7 @@
                         {% if team_member.wordpress %}
                             <li> <a href="{{ team_member.wordpress }}" target="_blank" data-original-title="Wordpress" class="wordpress"></a></li>
                         {% endif %}
-                        {% if team_member.picasa %}
-                            <li> <a href="{{ team_member.picasa }}" target="_blank" data-original-title="Picasa" class="picasa"></a></li>
-                        {% endif %}
-                         {% if team_member.pinterest %}
-                            <li> <a href="{{ team_member.pinterest }}" target="_blank" data-original-title="Pinterest" class="pintrest"></a></li>
-                        {% endif %}
+
                     </ul>
                 </div>
             </li>

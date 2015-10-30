@@ -27,15 +27,15 @@
             <div id="Developer" class="panel-group">
                 <div class="panel panel-info">
                     <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
-                        <h4 class="panel-title" >
+                        <h4 class="panel-title">
                             <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                            <a data-parent="#Developer" >
+                            <a data-parent="#Developer">
                                 {{ jobs.title }}
                             </a>
                         </h4>
                     </div>
                     <div id="Developer" class="panel-collapse collapse">
-                        <div class="panel-body" >
+                        <div class="panel-body">
                             <dl class="dl-horizontal">
                             {% for entry in jobs.entries.all %}
                                     <dt>{{ entry.section | safe}}</dt>
