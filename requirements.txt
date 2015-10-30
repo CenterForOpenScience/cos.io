@@ -17,7 +17,6 @@ django-orderable==3.1.0
 django-robots==1.1
 django-security==0.1.12
 django-suit==0.2.13
-django-test-pep8==0.1
 django-twitter-feed==0.2
 easy-thumbnails==2.2
 filebrowser-safe==0.3.8

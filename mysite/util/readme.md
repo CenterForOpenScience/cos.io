@@ -1,37 +1,40 @@
 List of tables in our database
 ==============================
 ```
-ambassadors_ambassadors              easy_thumbnails_thumbnail          
-auth_group                           easy_thumbnails_thumbnaildimensions
-auth_group_permissions               forms_field                        
-auth_permission                      forms_fieldentry                   
-auth_user                            forms_form                         
-auth_user_groups                     forms_formentry                    
-auth_user_user_permissions           galleries_gallery                  
-blog_blogcategory                    galleries_galleryimage             
-blog_blogpost                        generic_assignedkeyword            
-blog_blogpost_categories             generic_keyword                    
-blog_blogpost_related_posts          generic_rating                     
-conf_setting                         generic_threadedcomment            
-core_sitepermission                  jobs_anchor                        
-core_sitepermission_sites            jobs_entry                         
-django_admin_log                     jobs_listentry                     
-django_comment_flags                 jobs_section                       
-django_comments                      main_pages                         
-django_content_type                  news_news                          
-django_extlog_extlog                 pages_link                         
-django_migrations                    pages_page                         
-django_redirect                      pages_richtextpage                 
-django_session                       team_team                          
-django_site                          twitter_query                      
-easy_thumbnails_source               twitter_tweet
+ambassadors_ambassadors                 forms_field
+auth_group                              forms_fieldentry
+auth_group_permissions                  forms_form
+auth_permission                         forms_formentry
+auth_user                               galleries_gallery
+auth_user_groups                        galleries_galleryimage
+auth_user_user_permissions              generic_assignedkeyword
+blog_blogcategory                       generic_keyword
+blog_blogpost                           generic_rating
+blog_blogpost_categories                generic_threadedcomment
+blog_blogpost_related_posts             jobs_anchor
+conf_setting                            jobs_entry
+core_sitepermission                     jobs_listentry
+core_sitepermission_sites               jobs_section
+django_admin_log                        main_pages
+django_comment_flags                    mailing_list_credentialsmodel
+django_comments                         mailing_list_mailinglist
+django_content_typ                      news_news
+django_extlog_ext                       pages_link
+django_migrations                       pages_page
+django_redirect                         pages_richtextpage
+django_session                          team_team
+django_site                             team_team_mailing_lists
+easy_thumbnails_source                  twitter_query
+easy_thumbnails_thumbnail               twitter_tweet
+easy_thumbnails_thumbnaildimensions
+
 ```
 
 
 Importing and Exporting
 =======================
 Used to backup or load entries between the database and .csv files.
-Most tables will be created automatically if the database needs to be recreated, but the ones for ambassadors, jobs, news, and team will not. These should be backed up frequently.
+Most tables can will be created automatically if the database needs to be recreated, but the ones for ambassadors, jobs, news, and team will not. These should be backed up frequently.
 
 In order to export info to specific files type:
 ```bash
@@ -58,11 +61,3 @@ Do the same thing when you import:
 $ python import.py -t jobs_section -i jobs.csv -o dev.db
 $ python import.py -t jobs_entry -i jobs1.csv -o dev.db
 ```
-
-$ Pep8 test
-python manage.py test
-
-
-$ flake8 test
-  chmod +x linters.sh
-  ./linters.sh

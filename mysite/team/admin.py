@@ -13,20 +13,19 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
     def get_form(self, request, obj=None, **kwargs):
         if not obj:
             kwargs['fields'] = [
-                'name', 'position', 'alumni', 'original_image_width', 'original_image_height',
-                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
-                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
-                'pinterest', 'image', 'show_email', 'mailing_lists', 'creator'
+                'name', 'position', 'alumni', 'original_image_width', 'original_image_height','image',
+                 'mailing_lists', 'creator', 'email', 'show_email', 'OSF_url', 'github_url', 'linkedin_url',
+                 'twitter_url', 'personal_website', 'facebook_url', 'google_url', 'picasa', 'pinterest',
+                'tumblr_url', 'yahoo', 'youtube', 'wordpress'
             ]
 
             kwargs['exclude'] = ['image_url', 'thumb_url', ]
         else:
             kwargs['fields'] = [
-                'name', 'position', 'alumni' , 'original_image_width', 'original_image_height',
-                'facebook_url', 'twitter_url', 'google_url', 'tumblr_url', 'github_url', 'OSF_url',
-                'linkedin_url', 'email', 'personal_website', 'yahoo', 'youtube', 'wordpress', 'picasa',
-                'pinterest', 'image', 'thumb_image_width','thumb_image_height', 'mini_image',
-                'image_url', 'thumb_url', 'show_email', 'mailing_lists', 'creator'
+                'name', 'position', 'alumni', 'original_image_width', 'original_image_height', 'thumb_image_width',
+                'thumb_image_height','image', 'mini_image', 'image_url', 'thumb_url', 'mailing_lists', 'creator', 'email',
+                'show_email', 'OSF_url', 'github_url', 'linkedin_url', 'twitter_url', 'personal_website',
+                 'facebook_url','google_url', 'picasa', 'pinterest', 'tumblr_url', 'yahoo', 'youtube', 'wordpress'
             ]
 
         return super(TeamAdmin, self).get_form(request, obj, **kwargs)

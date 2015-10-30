@@ -2543,3 +2543,7 @@ li [class*=" fa-"].icon-large {
 .checkboxes{
   width:100%;
 }
+
+.panel-group{
+  margin-bottom:0!important;
+}
