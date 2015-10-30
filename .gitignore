@@ -12,6 +12,7 @@ migrations
 !/static/media/.gitkeep
 *.diff
 .idea
+*.idea/
 **/bower_components
 local_settings.py
 
