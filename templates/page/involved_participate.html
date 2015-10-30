@@ -66,7 +66,7 @@
                                     <div class="col-md-12">
                                         <h3><strong>Ambassadors</strong></h3>
                                         {% for image in ambassadors %}
-                                            <center><div class="col-md-3">
+                                            <center><div class="col-md-4">
                                                 <a href="{{ image.link }}" target="_blank"><br/>
                                                     <div class="circular" style="background: url({% cropped_thumbnail image "mini_image" max_size=image.get_thumb_max_size %}); width: {{ image.thumb_image_width }}px; height: {{ image.thumb_image_height }}px"></div></a>
                                                 <h4>{{ image.name }}</h4>
