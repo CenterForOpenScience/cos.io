@@ -13,3 +13,4 @@ local_settings.py
 .local_settings.pyc
 env/
 util
+*.idea

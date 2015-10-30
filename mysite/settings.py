@@ -192,14 +192,18 @@ import os
 
 # Full filesystem path to the project.
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+TEST_PEP8_DIRS = [os.path.dirname(PROJECT_ROOT), ]
+
 
 # Name of the directory for the project.
 PROJECT_DIRNAME = PROJECT_ROOT.split(os.sep)[-1]
 
+
 # Every cache key will get prefixed with this value - here we set it to
-# the name of the directory the project is in to try and use something
+# the name of the directory the pr  oject is in to try and use something
 # project specific.
 CACHE_MIDDLEWARE_KEY_PREFIX = PROJECT_DIRNAME
+
 
 # URL prefix for static files.
 # Example: 'http://media.lawrence.com/static/'
@@ -275,6 +279,7 @@ INSTALLED_APPS = (
     'django_extlog',
     'django_extensions',
     'email_obfuscator',
+    'test_pep8',
 )
 
 

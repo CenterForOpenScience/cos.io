@@ -31,7 +31,7 @@ easy_thumbnails_source               twitter_tweet
 Importing and Exporting
 =======================
 Used to backup or load entries between the database and .csv files.
-Most tables can will be created automatically if the database needs to be recreated, but the ones for ambassadors, jobs, news, and team will not. These should be backed up frequently.
+Most tables will be created automatically if the database needs to be recreated, but the ones for ambassadors, jobs, news, and team will not. These should be backed up frequently.
 
 In order to export info to specific files type:
 ```bash
@@ -58,3 +58,11 @@ Do the same thing when you import:
 $ python import.py -t jobs_section -i jobs.csv -o dev.db
 $ python import.py -t jobs_entry -i jobs1.csv -o dev.db
 ```
+
+$ Pep8 test
+python manage.py test
+
+
+$ flake8 test
+  chmod +x linters.sh
+  ./linters.sh
