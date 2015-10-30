@@ -23,7 +23,7 @@ class TeamAdmin(ImageCroppingMixin, admin.ModelAdmin):
         else:
             kwargs['fields'] = [
                 'name', 'position', 'alumni', 'original_image_width', 'original_image_height', 'thumb_image_width',
-                'thumb_image_height','image', 'image_url', 'thumb_url', 'mailing_lists', 'creator', 'email',
+                'thumb_image_height','image', 'mini_image', 'image_url', 'thumb_url', 'mailing_lists', 'creator', 'email',
                 'show_email', 'OSF_url', 'github_url', 'linkedin_url', 'twitter_url', 'personal_website',
                  'facebook_url','google_url', 'picasa', 'pinterest', 'tumblr_url', 'yahoo', 'youtube', 'wordpress'
             ]
