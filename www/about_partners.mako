@@ -65,8 +65,15 @@
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="http://elifesciences.org"><img src="../static/img/icons/elife.jpg" alt="eLife"></a></td>
-                    <td><span class="med-font"><strong>elife Sciences Publications</strong></span><br>
+                    <td><span class="med-font"><strong>eLife Sciences Publications</strong></span><br>
                         eLife has partnered with COS and Science Exchange to be the publisher for the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>. Each paper that will be replicated for the metascience project will undergo peer review at eLife using the Registered Report format with the results of these experiments published in a <a href="http://elifesciences.org/collections/reproducibility-project-cancer-biology">Replication Study.</a>
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://earthsciencefoundation.org"><img src="../static/img/icons/fes.png" alt="Foundation for Earth Science"></a></td>
+                    <td><span class="med-font"><strong>Foundation for Earth Science</strong></span><br>
+                        The Foundation for Earth Science has partnered with COS on the use of the OSF to support ESIP Testbed projects, the Technology Evaluation Framework (TEF), and ESIP Federation meetings.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
