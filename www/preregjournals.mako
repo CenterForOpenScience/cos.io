@@ -41,8 +41,9 @@
                                         <tr>
                                             <th data-field="Journal Title" data-sortable="true" class="col-md-4">Journal Title</th>
                                             <th data-field="Publisher" data-sortable="true" class="col-md-2">Publisher</th>
-                                            <th data-field="Association" data-sortable="true" class="col-md-2">Society/Association Affiliation</th>
+                                            <th data-field="Association" data-sortable="true" class="col-md-2">Society Affiliation</th>
                                             <th data-field="Subject Area" data-sortable="true" class="col-md-2">Subject Area</th>
+                                            
                                         </tr>
                                     </thead>
                                 </table>
