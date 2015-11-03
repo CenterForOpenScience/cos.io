@@ -159,6 +159,15 @@ class PrPageView(generic.TemplateView):
         return render_to_response(os.path.join('page', 'pr', item) + '.html')
 
 
+class PreregPageView(generic.TemplateView):
+    template_name = 'page/prereg.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(PreregPageView, self).get_context_data(**kwargs)
+        context['page'] = Pages.objects.all()
+        return context
+
+
 class ServicePageView(generic.TemplateView):
     template_name = 'page/service.html'
 
