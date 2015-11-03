@@ -151,7 +151,7 @@
             <tr>
                 <td class="ambassador-img">
                     <a href="https://osf.io/vn74s/" target="_blank">
-                        <img src="/static/img/people/ambassadors/robinson.jpg" alt="Danielle Robinson">
+                        <img src="/static/img/people/ambassadors/Robinson.jpg" alt="Danielle Robinson">
                     </a>
                 </td>
             </tr>
