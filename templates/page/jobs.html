@@ -149,18 +149,33 @@
             App.init();
             ContactUs.init();
 
-            $('.panel-heading').on('click', function(){
+            $('.panel-heading').click(function(){
                 var el = $(this);
-                if(el.parents('.panel').find('.panel-collapse').hasClass('collapse')){
-                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>');
-                    el.siblings('.panel-collapse').collapse('show');
-                } else {
+                if(el.parents('.panel').find('.panel-collapse').hasClass('in')){
                     el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>');
                     el.siblings('.panel-collapse').collapse('hide');
+                }
+                else {
+                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>');
+                    el.siblings('.panel-collapse').collapse('show');
                 }
             });
         });
     </script>
+{#    <script type="text/javascript">#}
+{#        function collapsingPanel()#}
+{#        {#}
+{#          var el = $(this);#}
+{#                if(el.parents('.panel').find('.panel-collapse').hasClass('collapse')){#}
+{#                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>');#}
+{#                    el.siblings('.panel-collapse').collapse('show');#}
+{#                }#}
+{#                else {#}
+{#                    el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>');#}
+{#                    el.siblings('.panel-collapse').collapse('hide');#}
+{#                }  #}
+{#        }#}
+{#    </script>#}
     <script type="text/javascript">
         $(document).ready(function () {
             location.hash && $(location.hash + '.collapse').collapse('show');
