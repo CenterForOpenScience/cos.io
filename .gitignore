@@ -3,13 +3,6 @@
 *.so
 */__pycache__/*
 # DB / Migrations
-db.sqlite3
-dev.db
-migrations
-/static/*
-!/static/media/
-/static/media/*
-!/static/media/.gitkeep
 *.diff
 .idea/
 *.idea/
@@ -20,3 +13,4 @@ local_settings.py
 local_settings.py
 .local_settings.pyc
 env/
+.csv
