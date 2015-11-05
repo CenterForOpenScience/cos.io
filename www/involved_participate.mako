@@ -792,13 +792,10 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>3. Pre-register your studies</strong></h4>
-        <p>Pre-registration on the OSF takes a snapshot of projects with time stamps to facilitate their discovery whether
-            they end up being published or not. Pre-registration with analysis plans facilitates strong confirmatory research designs.
-            Use the <a href="https://osf.io" target="_blank">OSF to register</a> and learn more about <a href="https://osf.io/47uq9/"
-                                                                                                         target="_blank">pre-registration</a> and <a href="http://www.columbia.edu/~mh2245/papers1/PA_2012b.pdf" target="_blank">
-                confirmatory analysis</a>.</p>
-
+        <h4><strong>3. Preregister your studies</strong></h4>
+        <p>Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed 
+        and reported. For the <a href=“https://cos.io/prereg” target=“_blank”>Preregistration Challenge</a>, 
+        one thousand researchers will win $1,000 each for publishing results of preregistered research. </p>
         </p>
     </div>
 
