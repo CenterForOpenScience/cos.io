@@ -121,6 +121,13 @@
                        UCR has partnered with COS on a campus-wide interdisciplinary project, Institutional Re-engineering Ethical Discourse in STEM (iREDS), to use the OSF in a randomized control trial (RCT) studying the effects of interventions in standard ethics training.
                     </td>
                 </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://earthsciencefoundation.org"><img src="../static/img/icons/fes_logo.jpg" alt="FES"></a></td>
+                    <td><span class="med-font"><strong>Foundation for Earth Science</strong></span><br>
+                       FES has partnered with COS on to support greater access to Earth and environmental science data. COS and FES will work together to integrate the <a href="https://osf.io">Open Science Framework</a> with Earth Science Information Partners (ESIP Federation) Testbed projects and support the Technology Evaluation Framework (TEF), a project for coordinating independent testing of technology projects within the Earth science community.
+                    </td>
+                </tr>
             </table>
         <div class="row front-partners">
             <p>At times, COS makes grants to individuals and organizations in support of open science initiatives.  For COS grants of $50,000 or less, no overhead costs are permitted.  For COS grants larger than $50,000, overhead costs may not exceed 15% of direct project costs.</p>
