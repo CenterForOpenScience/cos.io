@@ -457,6 +457,31 @@
         </table>
     </td>
 
+     <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/95e86/" target="_blank">
+                        <img src="../static/img/people/ambassadors/michaelson.jpg" alt="Laura Michaelson">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Laura Michaelson
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Colorado, Boulder
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -478,8 +503,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -524,6 +548,9 @@
             </tr>
         </table>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -547,8 +574,7 @@
     </td>
 
     </td>
-</tr>
-<tr>   
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -591,7 +617,10 @@
             </tr>
         </table>
     </td>
-  
+ 
+ </tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -613,8 +642,7 @@
             </tr>
         </table>
     </td>
- </tr>
-<tr>    
+   
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -658,6 +686,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -679,8 +710,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>  
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
