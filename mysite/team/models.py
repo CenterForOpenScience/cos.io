@@ -12,6 +12,7 @@ from mysite.mailing_list.models import MailingList
 
 
 class Team(models.Model):
+    creator = models.ForeignKey(User, blank=True)
     name = models.CharField(max_length=255, unique=True)
     position = models.CharField(max_length=255)
     alumni = models.BooleanField(default=False)
@@ -41,7 +42,7 @@ class Team(models.Model):
     personal_website = models.CharField(max_length=255, null=True, blank=True)
 
     mailing_lists = models.ManyToManyField(MailingList, null=True, blank=True)
-    creator = models.ForeignKey(User, blank=True)
+
 
     def __unicode__(self):
         return self.name
