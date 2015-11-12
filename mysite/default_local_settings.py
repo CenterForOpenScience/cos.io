@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 DEBUG = True
 
 # Make these unique, and don't share it with anybody.
-SECRET_KEY = "8011174d-c38f-452e-a0bc-526a8c7e387573ec96c2-dacc-425f-953f-8f2892f1a09db1c345ca-1a45-4112-8c60-8a7f72da4330"
-NEVERCACHE_KEY = "2edac67f-4088-4b6c-8ef7-dc010dbd83efd722a17d-9e2b-4cce-b341-07ad8568070ab5bf66f2-c9db-4c38-8fb6-206e82359ae6"
+SECRET_KEY = ""
+NEVERCACHE_KEY = ""
 
 DATABASES = {
     "default": {
