@@ -614,21 +614,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
-            <h3>
-                Lyndsy Simon
-                <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lynd<span style="display:none;">null</span>sy@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ylaqfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/amvr6/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/kidwell.JPG" alt="Mallory Kidwell">
@@ -1383,6 +1368,21 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/leela-1" data-original-title="GitHub" class="github"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
+            <h3>
+                Lyndsy Simon
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lynd<span style="display:none;">null</span>sy@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ylaqfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/amvr6/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
