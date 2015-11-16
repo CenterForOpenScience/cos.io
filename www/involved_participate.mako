@@ -389,6 +389,26 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <img src="../static/img/people/ambassadors/Lurquin.JPG" alt="John Lurquin">
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    John Lurquin
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Colorado, Bouder
+                </td>
+            </tr>
+        </table>
+    </td>
    
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -664,6 +684,29 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/t85bu/" target="_blank">
+                        <img src="../static/img/people/ambassadors/sievert.jpg" alt="Scott Sievert">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Scott Sievert
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Wisconsin, Madison
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
