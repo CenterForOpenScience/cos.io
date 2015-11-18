@@ -145,7 +145,7 @@
         </table>
     </td>
 </tr>
-<tr>  
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -212,7 +212,7 @@
         </table>
     </td>
  </tr>
-<tr>   
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -280,7 +280,7 @@
     </td>
 
 </tr>
-<tr>    
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -409,7 +409,7 @@
             </tr>
         </table>
     </td>
-   
+
 </tr>
 <tr>
 
@@ -642,7 +642,7 @@
             </tr>
         </table>
     </td>
- 
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -664,7 +664,7 @@
             </tr>
         </table>
     </td>
-   
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -871,8 +871,8 @@
 
     <div class="col-md-8">
         <h4><strong>3. Preregister your studies</strong></h4>
-        <p>Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed 
-        and reported. For the <a href="/prereg/">Preregistration Challenge</a>, 
+        <p>Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed
+        and reported. For the <a href="/prereg" target=“_blank”>Preregistration Challenge</a>,
         one thousand researchers will win $1,000 each for publishing results of preregistered research. </p>
         </p>
     </div>

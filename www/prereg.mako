@@ -7,10 +7,6 @@
 </%def>
 
 <%def name="stylesheets()">
-
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_signup{
             background:#e7f5fc;
@@ -60,8 +56,6 @@
             margin-bottom: 0px !important;
         }
     </style>
-    <!-- END PAGE LEVEL PLUGIN STYLES -->
-
 </%def>
 
 
@@ -71,10 +65,10 @@
     <!-- BEGIN CONTAINER -->
     <div class="container min-height margin-top-50 col-md-12">
         <div class="center" >
-            <h1>The $1,000,000 Preregistration Challenge</h1><p>
-            <h2>Coming Soon</h2>
+        <h1>The $1,000,000 Preregistration Challenge</h1><p>
+        <h2>Coming Soon</h2>
         </div>
-        
+
         <div class="col-md-8 margin-top-50  margin-bottom-30">
             <h2><strong>Plan. Test. Discover.</strong></h2>
             <p>We have $1 million to give away. One thousand researchers will win $1,000 each for publishing research whose study and analysis plans were preregistered on the Open Science Framework. Learn more about the Challenge <a href="https://osf.io/x5w7h/wiki/home/" target="_blank">here</a>. Subscribe to the list to stay informed about the launch.</p>
@@ -134,17 +128,11 @@
     </div>
 </div>
 
-<!-- END PAGE CONTAINER -->
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 <%def name="javascript_bottom()">
-
-
-    <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="assets/scripts/app.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();
         });
     </script>
-    <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
