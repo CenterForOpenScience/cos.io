@@ -7,10 +7,6 @@
 </%def>
 
 <%def name="stylesheets()">
-
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_signup{
             background:#e7f5fc;
@@ -60,8 +56,6 @@
             margin-bottom: 0px !important;
         }
     </style>
-    <!-- END PAGE LEVEL PLUGIN STYLES -->
-
 </%def>
 
 
@@ -134,17 +128,11 @@
     </div>
 </div>
 
-<!-- END PAGE CONTAINER -->
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 <%def name="javascript_bottom()">
-
-
-    <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="assets/scripts/app.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();
         });
     </script>
-    <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>

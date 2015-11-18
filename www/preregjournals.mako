@@ -7,12 +7,7 @@
 </%def>
 
 <%def name="stylesheets()">
-
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
-    <!-- END PAGE LEVEL PLUGIN STYLES -->
-
 </%def>
 
 
@@ -57,12 +52,7 @@
     </div>
     <!-- END PAGE CONTAINER -->
 
-    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-    <%def name="javascript_bottom()">
-
-            <script type="text/javascript" src="../static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-            <script src="../static/plugins/jquery.mixitup.min.js"></script>
-            <script src="/static/scripts/bootstrap-table.js"></script>
-
-    </%def>
-    <!-- END PAGE LEVEL JAVASCRIPTS -->
+<%def name="javascript_bottom()">
+    <script src="../static/plugins/jquery.mixitup.min.js"></script>
+    <script src="/static/scripts/bootstrap-table.js"></script>
+</%def>
