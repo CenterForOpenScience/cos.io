@@ -872,7 +872,7 @@
     <div class="col-md-8">
         <h4><strong>3. Preregister your studies</strong></h4>
         <p>Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed 
-        and reported. For the <a href=“https://cos.io/prereg” target=“_blank”>Preregistration Challenge</a>, 
+        and reported. For the <a href="/prereg/">Preregistration Challenge</a>, 
         one thousand researchers will win $1,000 each for publishing results of preregistered research. </p>
         </p>
     </div>
