@@ -37,6 +37,39 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2015-11-05"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science and Time-Sharing Experiments for the Social Sciences Announce Partnership</h2>
+
+                    <p class="text-left">November 05, 2015 | The Center for Open Science (COS) is pleased to announce that it has partnered with Time-Sharing for the Social Sciences (TESS), an organization that funds research and performs data collection, to use COS’s free web platform, the Open Science Framework (OSF), for hosting publicly archived TESS research studies.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-10-27"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science and Foundation for Earth Science Announce Partnership to Support Scientific Research</h2>
+
+                    <p class="text-left">October 28, 2015 | The Center for Open Science (COS) and the Foundation for Earth Science (FES) are pleased to announce a multi-year partnership to support greater access to Earth and environmental science data.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-10-21"><img src="../static/img/icons/share.png"
+                    width="125">
+
+                    <h2 class="text-left">IMLS, Sloan Foundation Jointly Award ARL Grant to Expand and Enhance SHARE</h2>
+
+                    <p class="text-left">October 21, 2015 | The Association of Research Libraries (ARL) has been awarded a joint $1.2 million grant from the Institute of Museum and Library Services (IMLS) and the Alfred P. Sloan Foundation to expand and enhance SHARE’s open data set of research and scholarly activities across their life cycle. 
+                     </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2015-09-29"><img src="../static/img/icons/cos_logo.png"
                     width="125">
 

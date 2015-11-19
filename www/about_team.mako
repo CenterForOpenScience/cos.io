@@ -475,42 +475,14 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/rhee.jpg" alt="Gene Rhee">
-            <h3>
-                Gene Rhee
-                <small>Developer Volunteer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/gkr6sy" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/629w8/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/chen2.jpg" alt="Haoyu Chen">
             <h3>
                 Haoyu Chen
                 <small>Web Design Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/chenhaoyu1992" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://github.com/haoyuchen1992" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/7du32/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/rybacki.jpg" alt="Harry Rybacki">
-            <h3>
-                Harry Rybacki
-                <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">har<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:uneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/HarryRybacki" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/uycv3/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -587,23 +559,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/cohoon.jpg" alt="Johanna Cohoon">
-            <h3>
-                Johanna Cohoon
-                <small>Project Coordinator | Metascience</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">johan<span style="display:none;">null</span>na@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbunaan@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/edb8y/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://twitter.com/jlcohoon" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/esposito.jpg" alt="Jolene Esposito">
             <h3>
                 Jolene Esposito
@@ -656,21 +611,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/leb2dg" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/4mct9/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
-            <h3>
-                Lyndsy Simon
-                <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lynd<span style="display:none;">null</span>sy@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ylaqfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/amvr6/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1158,6 +1098,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/rhee.jpg" alt="Gene Rhee">
+            <h3>
+                Gene Rhee
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/gkr6sy" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/629w8/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/vuu.jpg" alt="Gina Vuu">
             <h3>
                 Gina Vuu
@@ -1193,6 +1146,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/harrismendell" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/6r2an/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/rybacki.jpg" alt="Harry Rybacki">
+            <h3>
+                Harry Rybacki
+                <small>Developer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/HarryRybacki" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/uycv3/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1274,7 +1240,20 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/jeg3tw" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/e4zsq/" data-original-title="osf" class="osf"></a></li>
-
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/cohoon.jpg" alt="Johanna Cohoon">
+            <h3>
+                Johanna Cohoon
+                <small>Project Coordinator | Metascience</small>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
+                <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/edb8y/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/jlcohoon" data-original-title="Twitter" class="twitter"></a></li>
             </ul>
         </div>
     </li>
@@ -1352,8 +1331,6 @@
             </ul>
         </div>
     </li>
-
-
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/jungersen.jpg" alt="Kurtis Jungersen">
@@ -1396,6 +1373,21 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/simon.jpg" alt="Lyndsy Simon">
+            <h3>
+                Lyndsy Simon
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lynd<span style="display:none;">null</span>sy@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ylaqfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/amvr6/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/kelly.jpg" alt="Megan Kelly">
             <h3>
                 Megan Kelly
@@ -1412,7 +1404,7 @@
             <img src="../static/img/people/lewis.jpg" alt="Melissa Lewis">
             <h3>
                 Melissa Lewis
-                <small>Developer | Infrastructure</small>
+                <small>Project Coordinator | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/meli-lewis" data-original-title="GitHub" class="github"></a></li>

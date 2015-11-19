@@ -1,0 +1,84 @@
+<%inherit file="_pr.mako"/>
+
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+
+<!-- BEGIN CONTAINER -->
+<div class="container min-height margin-top-50">
+    <div class="row">
+        <!--BEGIN CONTENT CONTAINER -->
+        <div class="col-md-9 blog-item margin-bottom-40 ">
+            <!--BEGIN DESCRIPTION -->
+
+            <div style="padding-bottom: 10px">
+                <div style=" padding-bottom: 10px">
+                    <h1><strong>IMLS, Sloan Foundation Jointly Award ARL Grant to Expand and Enhance SHARE </strong></h1><br>
+                </div>
+            </div>
+            <!--END DESCRIPTION-->
+            <!--BEGIN CONTENT-->
+            <div style="padding-bottom: 50px;">
+                <p>21 October 2015</p>
+                <br>
+                <p>The Association of Research Libraries (ARL) has been awarded a joint $1.2 million grant from the Institute of Museum and Library Services (IMLS) and the Alfred P. Sloan Foundation to expand and enhance SHARE’s open data set of research and scholarly activities across their life cycle. SHARE is an initiative of the Association of Research Libraries carried out in collaboration with the Association of American Universities (AAU), the Association of Public and Land-grant Universities (APLU), and the Center for Open Science (COS)</a>.
+</p>
+<br>
+                <p>
+                    SHARE is an open source project to maximize research impact by making a comprehensive inventory of research widely accessible, discoverable, and reusable. The initiative is accomplishing its mission by collecting data that describes and links to research outputs from many digital sources, and by providing a feed, a search box, and a common application programming interface (API) for people to access the research in real time. SHARE includes data about research grant awards, publications, reports, data sets, data management plans, software code, and more.</p> 
+
+                    <br><p>John Vaughn, senior fellow, Association of American Universities, said, “This generous commitment by the Sloan Foundation and the Institute of Museum and Library Services will help SHARE give university and other researchers something they’ve never had before—an easily accessible, comprehensive inventory of university research that enables them to more quickly identify and access relevant research and scholarship as it emerges. This will be an enormous benefit to their research and will strengthen the research enterprise more broadly.”</p>
+                     <br><p>In a print-based publishing system, information about research activity is largely restricted to publications in journals and books, which are late-stage expressions of research. On the web, nearly every step of the scholarly research process is now born-digital, documenting incremental research activity. SHARE facilitates access to such research activity as it happens.</p>
+                     <br><p>SHARE Notify, funded by IMLS and Sloan and developed over the past year and a half, already provides this timely data stream from nearly 60 sources and supplies links to more than two million outputs from researchers around the globe. The SHARE Notify architecture is built on COS’s Open Science Framework, a free, open source, web platform designed to support researchers’ entire work flow from project planning, organization, and execution to archiving and sharing.</p>
+                     <br><p>“The SHARE project will provide fundamental infrastructure to allow researchers and the public to have convenient and comprehensive information on research products and gain full benefit from available publications,” said APLU chief academic officer R. Michael Tanner. “This next phase will elucidate how SHARE can interface with universities to simplify the process of capturing high-quality information on research outputs and ultimately make SHARE an indispensable research tool. We are delighted that the Sloan Foundation and the IMLS have again decided to support the development of SHARE.”</p> 
+                     <br><p>There are two primary elements of SHARE’s Phase II, which will run through early 2017. First, the project team will conduct investigations with several research universities about the value and challenges of tracking and reporting their research activities. At the same time, the team will increase the quantity of sources coming into the SHARE data set, and add or impute missing elements (e.g., author identifier, institution, funding agency) to improve the quality of the data set.</p>
+                     <br><p>“This is an important data set to make freely and openly available. It will allow for innovation in domains in which only a few groups currently have exclusive access. We look forward to Phase II, which will focus on enhancing the quality and consistency of the data we gather as well as linking related research objects,” said Jeffrey Spies, chief technology officer at the Center for Open Science.</p>
+                     <br><p>SHARE founding director Tyler Walters said, “With the expansion and enhancement of the SHARE data set in this next phase, universities will be able to use SHARE to better understand their own researchers’ activity and where the institution is positioned within a larger research landscape. Many campus units are responsible for identifying researcher activity and SHARE will help bring common infrastructure to these institution-wide challenges.”</p>
+                     <br><p>Many people and organizations benefit from a timely, connected data set of research events—including universities, researchers, funding agencies, libraries, repositories, publishers, and the public. Making the data set open for reuse means that anyone can use it to address a multitude of needs, from tracking the outputs of particular projects to sharing research more widely to innovating and collaborating.</p>
+                     <br><p>“The Association of Research Libraries—with its partners the Association of American Universities, Association of Public and Land-grant Universities, and Center for Open Science—is poised to take the next steps in the development of SHARE with university piloting collaborators,” said IMLS deputy director for library services Maura Marx. “We are proud of our part in supporting SHARE and helping to make research across disciplines discoverable to a range of stakeholders.”</p>
+                     <br><p>Josh Greenberg, director of the Alfred P. Sloan Foundation’s Digital Information Technology program, said, “The Sloan Foundation’s Scholarly Communication program funds new approaches to the discovery, review, aggregation, and curation of academic research. SHARE is building essential data infrastructure for such innovation, and we are pleased to support this next phase of work.”</p>
+                     <br><p>For more information about the project, visit the <a href="http://www.share-research.org">SHARE website</a> and follow SHARE on <a href="https://twitter.com/SHARE_research">Twitter</a> and <a href="https://www.facebook.com/SHARE.research">Facebook.</a></p>
+
+
+                   
+
+</p>
+<br>
+                
+                <br>
+                <h4><strong>About the Association of Research Libraries</strong></h4>
+                <p>The <a href="http://www.arl.org/"> Association of Research Libraries</a> (ARL) is a nonprofit organization of 124 research libraries in the US and Canada. ARL’s mission is to influence the changing environment of scholarly communication and the public policies that affect research libraries and the diverse communities they serve. ARL pursues this mission by advancing the goals of its member research libraries, providing leadership in public and information policy to the scholarly and higher education communities, fostering the exchange of ideas and expertise, facilitating the emergence of new roles for research libraries, and shaping a future environment that leverages its interests with those of allied organizations. ARL is on the web at <a href="http://www.arl.org/">www.arl.org</a>.
+                <br>
+                <br><h4><strong>About the Association of American Universities </strong></h4>
+                <p><a href="http://aau.edu/"> AAU </a>is a nonprofit organization of 62 leading public and private research universities in the United States and Canada. Its primary missions are to maintain the productive partnership between research universities and the US government and to advance university research and higher education. Learn more at <a href="http://www.aau.edu/">http://www.aau.edu</a>.
+                <br>
+                <br><h4><strong>About the Association of Public and Land-grant Universities </strong></h4>
+                <p><a href="http://www.aplu.org/"> The Association of Public and Land-grant Universities</a> (APLU) is a research, policy, and advocacy organization dedicated to strengthening and advancing the work of public universities in the US, Canada, and Mexico. With a membership of 237 public research universities, land-grant institutions, state university systems, and affiliated organizations, APLU's agenda is built on the three pillars of increasing degree completion and academic success, advancing scientific research, and expanding engagement. APLU is on the web at <a href="http://www.aplu.org/"> http://www.aplu.org/</a>.
+                <br>   
+                <br><h4><strong>About the Center for Open Science</strong></h4>
+                <p>The <a href="http://cos.io">Center for Open Science</a> (COS) is a non-profit technology startup founded in 2013 with a mission to increase openness, integrity, and reproducibility of scientific research. COS pursues this mission by building communities around open science practices, supporting metascience research, and developing and maintaining free, open source software tools. The<a href="http://osf.io"> Open Science Framework</a> (OSF), COS’s flagship product, is a web application that connects and supports the research workflow, enabling scientists to increase the efficiency and effectiveness of their research. Researchers can use the OSF to collaborate, document, archive, share, and register research projects, materials, and data. Learn more at <a href="http://cos.io">cos.io</a> and <a href="http://osf.io">osf.io</a>, or follow us on Twitter <a href="http://twitter.com/osframework">@OSFramework</a>.
+                <br>
+                <br><h4><strong>About the Institute of Museum and Library Services</strong></h4>
+                <p>The <a href="https://www.imls.gov/"> Institute of Museum and Library Services</a> is the primary source of federal support for the nation’s <a href="http://www.ala.org/tools/libfactsheets/alalibraryfactsheet01">123,000 libraries</a> and <a href="https://www.imls.gov/research-evaluation/data-collection/museum-universe-data-file"> 35,000 museums</a>. Our mission is to inspire libraries and museums to advance innovation, lifelong learning, and cultural and civic engagement. Our grant making, policy development, and research help libraries and museums deliver valuable services that make it possible for communities and individuals to thrive. To learn more, visit <a href="https://www.imls.gov/">https://www.imls.gov/</a> and follow us on <a href="http://www.facebook.com/USIMLS"> Facebook</a> and <a href="http://www.twitter.com/us_imls">Twitter</a>.
+                <br>
+                <br><h4><strong>About the Alfred P. Sloan Foundation</strong></h4>
+                <p>The <a href="http://www.sloan.org/"> Alfred P. Sloan Foundation</a> is a philanthropic, not-for-profit grant making institution based in New York City. Established in 1934 by Alfred Pritchard Sloan Jr., then President and Chief Executive Officer of the General Motors Corporation, the Foundation makes grants in support of original research and education in science, technology, engineering, mathematics, and economics. The Foundation is on the web at <a href="http://www.sloan.org/">http://www.sloan.org/</a>.
+
+            </div>
+            <!--END CONTENT-->
+        </DIV>
+        <!--END CONTENT CONTAINER -->
+
+        <!-- BEGIN RIGHT SIDEBAR -->
+        <div class="col-md-3 blog-sidebar" style="padding-left: 55px">
+
+
+                       <%include file="../newsitem.mako"/>
+
+
+</div>
+        </div>
+        <!-- END RIGHT SIDEBAR -->
+    </div>
+</div>
+<!-- END PAGE CONTAINER -->
+

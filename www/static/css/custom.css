@@ -101,6 +101,7 @@ body {
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
     background-size: 250px;
+    margin: auto;
 }
 .WhatWeDo{
     padding: 20px;
