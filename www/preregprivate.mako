@@ -74,7 +74,7 @@
                                     </p>
                                     <h3>The Preregistration Challenge</h3>
                                     <p>
-                                        Preregistration is an unfamiliar practice in many areas of science. We will give 1,000 awards of $1,000 each to promote education and experience with preregistration.  Award winners will have completed a preregistration using the Open Science Framework, a free scholarly commons,  and published the results in an eligible journal. Read through the the <a data-tab-destination="tab-2">steps to earn a prize</a>.
+                                        Preregistration is an unfamiliar practice in many areas of science. We will give 1,000 awards of $1,000 each to promote education and experience with preregistration.  Award winners will have completed a preregistration using the Open Science Framework, a free scholarly commons,  and published the results in an eligible journal. Read through the <a data-tab-destination="tab-2">steps to earn a prize</a>.
                                     </p>
                                     <center><img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="450px" class="margin-top-10"></center>
                                 </td>
@@ -298,7 +298,7 @@
                                             </div>
                                             <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                                                 <div class="panel-body">
-                                                    <p><a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> are a particular publication format in which the preregistered plan undergoes peer review in advance of observing the research outcomes. However, in the case of Registered Reports, that review is about the substance of the research and is conducted by a journal editorial staff.  Research designs that pass peer review are offered ‘in principle acceptance’ (IPA) ensuring that the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Registered Reports are offered at 20 journals.</p>
+                                                    <p><a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> are a particular publication format in which the preregistered plan undergoes peer review in advance of observing the research outcomes. However, in the case of Registered Reports, that review is about the substance of the research and is overseen by journal editors. Research designs that pass peer review are offered ‘in principle acceptance’ (IPA) ensuring that the results are guaranteed to be published regardless of findings, as long as the methodology is carried out as described. Registered Reports are currently offered at 23 journals.</p>
                                                     <p>Participants in the Prereg Challenge are welcome and encouraged to submit their preregistered designs to the Registered Reports mechanism at their preferred journal.  We recommend undergoing peer review at the journal first and preregistering for the Prereg Challenge after obtaining in-principle acceptance.  That way, the registered Prereg Challenge will not need to be revised following substantive peer review at the journal.</p>
                                                 </div>
                                             </div>
