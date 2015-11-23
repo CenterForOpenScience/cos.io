@@ -248,7 +248,7 @@
             <ul class="social-icons social-icons-color">
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:pnfrl.xhtyre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="http://linkedin.com/in/ckugler" data-original-title="LinkedIn" class="linkedin"></a></li>
-                <li><a href="https://osf.io/b6dn2/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://osf.io/d68e4/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/CaseyWithCOS" data-original-title="Twitter" class="twitter"></a></li>
                 
             </ul>
