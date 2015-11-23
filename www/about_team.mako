@@ -777,19 +777,6 @@
             </ul>
         </div>
     </li>
-     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/hernandez.jpg" alt="Reina Hernandez">
-            <h3>
-                Reina Hernandez
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/reinaH" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/3gs4f/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
@@ -1500,6 +1487,19 @@
                     <li><a href="https://github.com/pjfan" data-original-title="GitHub" class="github"></a></li>
                     <li><a href="https://osf.io/7nz2x/" data-original-title="osf" class="osf"></a></li>
                 </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/hernandez.jpg" alt="Reina Hernandez">
+            <h3>
+                Reina Hernandez
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/reinaH" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/3gs4f/" data-original-title="osf" class="osf"></a></li>
+            </ul>
         </div>
     </li>
     ## <li class="col-md-3 space-mobile">
