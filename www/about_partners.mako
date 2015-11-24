@@ -97,6 +97,13 @@
                        Prometheus Research has partnered with COS on use of the OSF and its application programming interface (API), to connect with their open source, integrated <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments. This will enable OSF users to easily utilize EDC instruments within their OSF projects</a>.
                     </td>
                 </tr>
+                 <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://www.retractionwatch.com/"><img src="../static/img/icons/retraction_watch.jpg" alt="retraction_watch"></a></td>
+                    <td><span class="med-font"><strong>Retraction Watch</strong></span><br>
+                       The Center For Scientific Integrity (CSI), the parent organization of Retraction Watch, has partnered with COS to create a database of retractions on the Open Science Framework.</a>
+                    </td>
+                </tr>
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="https://www.scienceexchange.com/"><img src="../static/img/icons/SE_Logo.png" alt="Science
