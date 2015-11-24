@@ -62,8 +62,8 @@
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>.</p>
 <a id="signatories"></a>
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (510)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (50)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (536)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (56)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
@@ -100,7 +100,7 @@
                             <li><a href="http://www.dartstatement.org/">DA-RT: Data Access and Research Transparency</a></li>
                             <li><a href="http://www.nih.gov/about/reporting-preclinical-research.htm">NIH Principles and Guidelines for Reporting Preclinical Research</a></li>
                             <li><a href="https://osf.io">The Open Science Framework</a></li>
-                            <li><a href="http://centerforopenscience.org/prereg/">The Pre-reg Prize</a></li>
+                            <li><a href="http://centerforopenscience.org/prereg/">The Pre-reg Challenge</a></li>
                             <li><a href="https://osf.io/8mpji/wiki/home/">Registered Reports</a></li>
                         </ul>
                   

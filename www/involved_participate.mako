@@ -83,6 +83,50 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/z7mt6/" target="_blank">
+                        <img src="../static/img/people/ambassadors/allison.jpg" alt="Anne Allison">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Anne Allison
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Piedmont Virginia Community College
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/7gzsb/" target="_blank">
+                        <img src="../static/img/people/ambassadors/lortie.jpg" alt="Chris Lortie">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Chris Lortie
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    National Center for Ecological Analysis and Synthesis
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/pct7w/" target="_blank">
                         <img src="../static/img/people/ambassadors/lakens.png" alt="Daniel Lakens">
                     </a>
@@ -100,6 +144,30 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/vn74s/" target="_blank">
+                        <img src="/static/img/people/ambassadors/Robinson.jpg" alt="Danielle Robinson">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Danielle Robinson
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Oregon Health and Science University
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -121,6 +189,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -142,8 +211,9 @@
             </tr>
         </table>
     </td>
-</tr>
+ </tr>
 <tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -186,6 +256,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -207,6 +278,7 @@
             </tr>
         </table>
     </td>
+
 </tr>
 <tr>
     <td class="ambassador-data">
@@ -251,6 +323,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -316,6 +389,30 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <img src="../static/img/people/ambassadors/Lurquin.JPG" alt="John Lurquin">
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    John Lurquin
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Colorado, Bouder
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -337,8 +434,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -360,6 +456,54 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/ph9rr/" target="_blank">
+                        <img src="../static/img/people/ambassadors/corker.png" alt="Katie Corker">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Katie Corker
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Kenyon College
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+     <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/95e86/" target="_blank">
+                        <img src="../static/img/people/ambassadors/michaelson.jpg" alt="Laura Michaelson">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Laura Michaelson
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Colorado, Boulder
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -381,6 +525,33 @@
             </tr>
         </table>
     </td>
+
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/" target="_blank">
+                        <img src="../static/img/people/ambassadors/ellison.jpg" alt="Melissa McAdam Ellison">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Melissa McAdam Ellison
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Center for Naval Analyses
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -402,8 +573,29 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>    
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/a45nu/" target="_blank">
+                        <img src="../static/img/people/ambassadors/meyers.jpg" alt="Natalie Meyers">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Natalie Meyers
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Notre Dame
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -425,6 +617,10 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -446,6 +642,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -467,8 +664,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -490,6 +686,32 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/t85bu/" target="_blank">
+                        <img src="../static/img/people/ambassadors/sievert.jpg" alt="Scott Sievert">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Scott Sievert
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Wisconsin, Madison
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -511,6 +733,32 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/afp8u/" target="_blank">
+                        <img src="../static/img/people/ambassadors/shaw.jpg" alt="Stacy Shaw">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Stacy Shaw
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    UCLA
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -532,8 +780,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -623,13 +870,10 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>3. Pre-register your studies</strong></h4>
-        <p>Pre-registration on the OSF takes a snapshot of projects with time stamps to facilitate their discovery whether
-            they end up being published or not. Pre-registration with analysis plans facilitates strong confirmatory research designs.
-            Use the <a href="https://osf.io" target="_blank">OSF to register</a> and learn more about <a href="https://osf.io/47uq9/"
-                                                                                                         target="_blank">pre-registration</a> and <a href="http://www.columbia.edu/~mh2245/papers1/PA_2012b.pdf" target="_blank">
-                confirmatory analysis</a>.</p>
-
+        <h4><strong>3. Preregister your studies</strong></h4>
+        <p>Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed
+        and reported. For the <a href="/prereg" target=“_blank”>Preregistration Challenge</a>,
+        one thousand researchers will win $1,000 each for publishing results of preregistered research. </p>
         </p>
     </div>
 

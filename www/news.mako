@@ -34,6 +34,74 @@
             </div>
 
             <div class="margin-bottom-20 grid" style="display:none">
+                
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-11-05"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science and Time-Sharing Experiments for the Social Sciences Announce Partnership</h2>
+
+                    <p class="text-left">November 05, 2015 | The Center for Open Science (COS) is pleased to announce that it has partnered with Time-Sharing for the Social Sciences (TESS), an organization that funds research and performs data collection, to use COS’s free web platform, the Open Science Framework (OSF), for hosting publicly archived TESS research studies.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-10-27"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science and Foundation for Earth Science Announce Partnership to Support Scientific Research</h2>
+
+                    <p class="text-left">October 28, 2015 | The Center for Open Science (COS) and the Foundation for Earth Science (FES) are pleased to announce a multi-year partnership to support greater access to Earth and environmental science data.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-10-21"><img src="../static/img/icons/share.png"
+                    width="125">
+
+                    <h2 class="text-left">IMLS, Sloan Foundation Jointly Award ARL Grant to Expand and Enhance SHARE</h2>
+
+                    <p class="text-left">October 21, 2015 | The Association of Research Libraries (ARL) has been awarded a joint $1.2 million grant from the Institute of Museum and Library Services (IMLS) and the Alfred P. Sloan Foundation to expand and enhance SHARE’s open data set of research and scholarly activities across their life cycle. 
+                     </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-09-29"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Reproducibility Project: Psychology Press Summary</h2>
+
+                    <p class="text-left">September 29, 2015 | The Reproducibility Project: Psychology was a collaborative effort of 270 contributors to replicate 100 important findings in the psychology literature. After the results were published, people from around the world engaged in conversations about the impact of this study on reproducibility and transparency.
+                        Find out more about the project through these news stories.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-09-24"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science issues 29 grants to develop open tools and services to support scientific research</h2>
+
+                    <p class="text-left">September 24, 2015 | The Center for Open Science is pleased to announce 29 grants totalling nearly $300,000 for advancing openness, integrity, and reproducibility in science.  All tools and services developed with these grant funds will have open licenses to maximize collaboration, reuse, and community support, and many will integrate with the growing Open Science Framework (OSF) ecosystem.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://us9.campaign-archive1.com/?u=4ea2d63bcf7c2776e53a62167&id=12890836b5">
+                    <img src="../static/img/icons/cos_logo.png" width="125">
+
+                    <h2 class="text-left">COS: Quarterly Update</h2>
+
+                    <p class="text-left">September 8, 2015 | This is a summary
+                    report of progress during our June to August 2015 quarter and
+                    highlights of our plans for September to November 2015.</p></a>
+                </div>
+
+
                 <div class="service-box-v1">
                     <a href=
                     "../pr/2015-08-27"><img src="../static/img/icons/cos_logo.png"
@@ -66,11 +134,7 @@
                     <h2 class="text-left">OSF now a recommended repository for
                     Nature Publishing Group's journal Scientific Data</h2>
 
-                    <p class="text-left">August 2015 | Studies are finding that
-                    many groundbreaking published results with implications for
-                    human health and disease cannot be replicated. Sarah Webb
-                    explores how reproducibility issues in basic science are
-                    creating bumps on the road to the clinic.</p></a>
+                    <p class="text-left">August 12, 2015 | The Center for Open Science (COS) is pleased to announce that the Open Science Framework (OSF) is now listed as a recommended repository for the Nature Publishing Group’s Scientific Data journal.</p></a>
                 </div>
 
                 <div class="service-box-v1">
