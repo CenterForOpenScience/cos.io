@@ -37,6 +37,17 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2015-11-23"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science and The Center for Scientific Integrity Announce Partnership</h2>
+
+                    <p class="text-left">November 24, 2015 | The Center for Open Science (COS) and The Center For Scientific Integrity (CSI), the parent organization of Retraction Watch, announce a technology partnership to collaborate on creating a database of retractions on the Open Science Framework.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2015-11-05"><img src="../static/img/icons/cos_logo.png"
                     width="125">
 

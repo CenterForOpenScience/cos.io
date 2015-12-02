@@ -7,61 +7,6 @@
 </%def>
 
 <%def name="stylesheets()">
-
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup{
-            background:#e7f5fc;
-            clear:left;
-            font:14px 'Open Sans';
-            margin-bottom: 30px;
-        }
-        #mc_embed_signup form {
-            padding: 5px;
-        }
-
-        #mc_embed_signup_scroll .prereg-sign-up {
-            padding: 15px;
-            background-color: #2f89af;
-            padding: 15px;
-            color: white;
-        }
-
-        #mc_embed_signup h2 {
-
-            color: white;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            font-weight: 400;
-            font-size: 21px;
-        }
-
-        div.mc-field-group {
-            background-color: white;
-            padding: 3%;
-            margin-top: 2px;
-            margin-bottom: 2px;
-            width: 100% !important;
-        }
-
-        #mc_embed_signup input {
-            border: none;
-        }
-
-        #mc_embed_signup .button {
-            background-color: #2f89af;
-            display: block;
-            margin: 5px auto;
-        }
-
-        #mc_embed_signup div .mce_inline_error {
-            margin-bottom: 0px !important;
-        }
-    </style>
-    <!-- END PAGE LEVEL PLUGIN STYLES -->
-
 </%def>
 
 
@@ -101,17 +46,5 @@
     </div>
 </div>
 
-<!-- END PAGE CONTAINER -->
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 <%def name="javascript_bottom()">
-
-
-    <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="assets/scripts/app.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            App.init();
-        });
-    </script>
-    <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>

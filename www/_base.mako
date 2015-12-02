@@ -90,17 +90,17 @@
     ${self.stylesheets()}
     <!-- END THEME STYLES -->
 
-   <!-- BEGIN FLICKR STYLES --> 
+   <!-- BEGIN FLICKR STYLES -->
    <!-- uses jflickrfeed plugin http://www.newmediacampaigns.com/blog/a-jquery-flickr-feed-plugin -->
-        <link href="/static/plugins/jflickrfeed/style.css" rel="stylesheet" type="text/css" media="all" /> 
-        <link href="/static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
+        <link href="/static/plugins/jflickrfeed/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" />
     <!-- END FLICKR STYLES -->
 
 
 <script type="text/javascript">
     var mailto = function(encrypted) {
         return encrypted.replace(
-            /[a-zA-Z]/g, 
+            /[a-zA-Z]/g,
             function(c) {
                 return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);
             }
@@ -154,7 +154,7 @@ ${self.body()}
                 <!-- BEGIN ABOUT -->
                 <h2>About</h2>
                 <p class="margin-bottom-30">The Center for Open Science fosters openness, integrity, and reproducibility of scientific research.</p>
-                <p><a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/TERMS_OF_USE.md">Terms</a>&nbsp;|&nbsp;<a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/PRIVACY_POLICY.md">Privacy</a></p> 
+                <p><a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/TERMS_OF_USE.md">Terms</a>&nbsp;|&nbsp;<a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/PRIVACY_POLICY.md">Privacy</a></p>
                 <div class="clearfix"></div>
                 <!-- END ABOUT -->
 
@@ -194,7 +194,7 @@ ${self.body()}
                 <!-- BEGIN BLOG PHOTOS STREAM -->
                 <div class="blog-photo-stream margin-bottom-30">
                     <ul id="cbox" class="list-unstyled thumbs">
-                        
+
                     </ul>
                 </div>
                 <!-- END BLOG PHOTOS STREAM -->
