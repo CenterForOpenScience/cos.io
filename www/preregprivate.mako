@@ -522,10 +522,6 @@
 
 <%def name="javascript_bottom()">
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-    ##Redirects to cos.io/prereg once the private launch period is over, in case there are any old links coming to cos.io/preregprivate
-    ##<script>
-    ##  window.location = "https://cos.io/prereg";
-    ##</script>
     <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="assets/scripts/app.js"></script>
     <script src="../static/plugins/jquery.mixitup.min.js"></script>
