@@ -35,6 +35,17 @@
 
             <div class="margin-bottom-20 grid" style="display:none">
                 
+                 <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-12-03"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science and protocols.io Announce Collaboration</h2>
+
+                    <p class="text-left">December 03, 2015 | The Center for Open Science (COS) and protocols.io announce a collaborative partnership to collectively promote transparency and reproducibility in life sciences research. The collaboration will allow both organizations to provide long-term preservation and access to life science research protocols.
+                    </p></a>
+                </div>
+
                 <div class="service-box-v1">
                     <a href=
                     "../pr/2015-11-23"><img src="../static/img/icons/cos_logo.png"
