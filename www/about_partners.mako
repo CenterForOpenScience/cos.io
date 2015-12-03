@@ -91,6 +91,15 @@
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
+                
+                <tr>
+                    <td class="sponsor-center"><a href="https://protocols.io/"><img src="../static/img/icons/protocolsio_logo.jpg" alt="prometheus_research"></a></td>
+                    <td><span class="med-font"><strong>protocols.io</strong></span><br>
+                       Protocols.io has partnered with COS on using the <a href="https://osf.io">Open Science Framework </a> to host and archive past and future life sciences research protocols found on <a href="https://protocols.io">protocols.io</a>.
+                    </td>
+                </tr>
+                 <tr class="spacer"></tr>
+
                 <tr>
                     <td class="sponsor-center"><a href="http://www.prometheusresearch.com/"><img src="../static/img/icons/prometheus.jpg" alt="prometheus_research"></a></td>
                     <td><span class="med-font"><strong>Prometheus Research</strong></span><br>
