@@ -35,6 +35,17 @@
 
             <div class="margin-bottom-20 grid" style="display:none">
                 
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://discovermagazine.com/2016/janfeb/8-psychologys-inner-demons"><img src="../static/img/icons/dsc_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Psychology’s Inner Demons </h2>
+
+                    <p class="text-left">December 2015 | Discover Magazine's Top 100 Stories of 2015, #8: Results from the field’s biggest replication study yet make it clear psychology has room for improvement. </p></a>
+                </div>
+
                  <div class="service-box-v1">
                     <a href=
                     "../pr/2015-12-03"><img src="../static/img/icons/cos_logo.png"
@@ -44,6 +55,26 @@
 
                     <p class="text-left">December 03, 2015 | The Center for Open Science (COS) and protocols.io announce a collaborative partnership to collectively promote transparency and reproducibility in life sciences research. The collaboration will allow both organizations to provide long-term preservation and access to life science research protocols.
                     </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://www.nature.com/news/the-week-in-science-27-november-3-december-2015-1.18919"><img src="../static/img/icons/nature.png"
+                    width="125">
+
+                    <h2 class="text-left">The week in science: 27 November–3 December 2015</h2>
+
+                    <p class="text-left">December 2, 2015 | A searchable database should soon allow systematic identification of retracted publications. Posts and article identifiers from the blog Retraction Watch will be incorporated into a web application maintained by Center for Open Science in Charlottesville, Virginia, that already tracks research activities such as posting preprints or depositing data sets.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://www.nature.com/news/annotating-the-scholarly-web-1.18900?WT.mc_id=TWT_NatureNews"><img src="../static/img/icons/nature.png"
+                    width="125">
+
+                    <h2 class="text-left">Annotating the scholarly web</h2>
+
+                    <p class="text-left">December 1, 2015 | Would researchers scrawl notes, critiques and comments across online research papers if software made the annotation easy for them? Dan Whaley, founder of the non-profit organization Hypothes.is, certainly thinks so. On 1 December, Hypothes.is announced partnerships with more than 40 publishers, technology firms and scholarly websites</p></a>
                 </div>
 
                 <div class="service-box-v1">
