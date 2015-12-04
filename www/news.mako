@@ -35,6 +35,8 @@
 
             <div class="margin-bottom-20 grid" style="display:none">
                 
+<<<<<<< HEAD
+=======
 
                 <div class="service-box-v1">
                     <a href=
@@ -88,6 +90,7 @@
                     </p></a>
                 </div>
 
+>>>>>>> b391a8baa4a8027304433d8c05d82fbdba88c276
                 <div class="service-box-v1">
                     <a href=
                     "../pr/2015-11-05"><img src="../static/img/icons/cos_logo.png"

@@ -3750,6 +3750,8 @@
     "Association":"Federation of European Neuroscience Societies",
     "Subject Area":"Neuroscience",
     "FIELD5":""
+<<<<<<< HEAD
+=======
   },
   {
     "Journal Title":"Sciencematters",
@@ -3764,5 +3766,6 @@
     "Association":"",
     "Subject Area":"Psychology",
     "FIELD5":""
+>>>>>>> b391a8baa4a8027304433d8c05d82fbdba88c276
   }
 ]

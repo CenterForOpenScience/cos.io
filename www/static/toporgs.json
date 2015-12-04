@@ -166,9 +166,12 @@
   },
     {
     "Organization":"Committee on Publication Ethics (COPE)"
+<<<<<<< HEAD
+=======
   },
     {
     "Organization":"Zenodo"
+>>>>>>> b391a8baa4a8027304433d8c05d82fbdba88c276
   }
 
 ]
