@@ -491,9 +491,11 @@
             <img src="../static/img/people/moco.jpg" alt="Henrique Moco">
             <h3>
                 Henrique Moco
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer| Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">henri<span style="display:none;">null</span>que@co<span style="display:none;">null</span>s.io</small></span></noscript> 
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:uraevdhr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/hmoco" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/y24tr/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -513,7 +515,7 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3">
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/spies.jpg" alt="Jeff Spies">
             <h3>
@@ -748,19 +750,6 @@
                 <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/jantrania.jpg" alt="Nirali Jantrania">
-            <h3>
-                Nirali Jantrania 
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/njantrania" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/ctnk8/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1439,7 +1428,19 @@
             </ul>
         </div>
     </li>
-
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/jantrania.jpg" alt="Nirali Jantrania">
+            <h3>
+                Nirali Jantrania 
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/njantrania" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ctnk8/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/muggill.jpg" alt="Patrick Muggill">
