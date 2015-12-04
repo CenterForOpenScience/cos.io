@@ -853,6 +853,21 @@
     </li>
     <li class="col-md-3">
         <div class="thumbnail">
+            <img src="../static/img/people/williams.jpg" alt="Stephen Williams">
+            <h3>
+                Stephen Williams
+                <small>Research Scientist | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">steph<span style="display:none;">null</span>en@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:fgrcura@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/pub/stephen-williams/b6/6bb/549" data-original-title="LinkedIn" class="linkedin"></a></li>
+                <li><a href="https://osf.io/srw6v/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3">
+        <div class="thumbnail">
             <img src="../static/img/people/errington.jpg" alt="Tim Errington">
             <h3>
                 Tim Errington
@@ -1502,19 +1517,18 @@
             </ul>
         </div>
     </li>
-    ## <li class="col-md-3 space-mobile">
-    ##     <div class="thumbnail">
-    ##         <img src="../static/img/people/kolli.jpg" alt="Revanth Kolli">
-    ##         <h3>
-    ##             Revanth Kolli
-    ##             <small>Developer Intern | Infrastructure</small>
-    ##         </h3>
-    ##         <ul class="social-icons social-icons-color">
-    ##             <li><a href="https://github.com/revnathkolli" data-original-title="GitHub" class="github"></a></li>
-
-    ##         </ul>
-    ##     </div>
-    ## </li>
+     <li class="col-md-3 space-mobile">
+         <div class="thumbnail">
+             <img src="../static/img/people/kolli.jpg" alt="Revanth Kolli">
+             <h3>
+                 Revanth Kolli
+                 <small>Developer Intern | Infrastructure</small>
+             </h3>
+             <ul class="social-icons social-icons-color">
+                 <li><a href="https://github.com/revnathkolli" data-original-title="GitHub" class="github"></a></li>
+             </ul>
+         </div>
+     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/amanfu.jpg" alt="Robert Amanfu">
