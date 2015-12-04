@@ -23,7 +23,11 @@
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
         <h1>The $1,000,000 Preregistration Challenge</h1>
+<<<<<<< HEAD
         <h2>Private Preview, expected launch December 3, 2015</h2>
+=======
+        <h2>(Currently in Private Launch Period)</h2>
+>>>>>>> b391a8baa4a8027304433d8c05d82fbdba88c276
     </div>
 </div>
 <div class="container min-hight margin-top-40">
@@ -39,7 +43,11 @@
                     <li><a id="tab-5" href="#five" data-toggle="tab">Eligible Journals</a></li>
                     <li><a id="tab-6" href="#six" data-toggle="tab">Review Process</a></li>
                 </ul>
+<<<<<<< HEAD
                 <a href="https://staging2.osf.io/login/?c=prereg" target="_blank">
+=======
+                <a href="https://osf.io/login/?campaign=prereg" target="_blank">
+>>>>>>> b391a8baa4a8027304433d8c05d82fbdba88c276
                     <button width="170px" class="beginprereg">Begin a Preregistration</button>
                 </a>
             </div>
@@ -90,7 +98,11 @@
                                     <h3>How to Earn the Prize</p></h3>
                                     <ol>
                                         <li><p>
+<<<<<<< HEAD
                                             <strong>Plan your study and analyses</strong><p>Design your study and how you will analyze the data.  The <a href="https://staging2.osf.io/login/?c=prereg" target="_blank">Preregistration workflow</a> on the Open Science Framework (OSF) will guide you through study design and analysis planning. You can save your progress and return later to continue.  <p>Alternatively, if you prefer to design off-line or in a collaborative editor, you can use this <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a> and move the content to the OSF Preregistration workflow later.
+=======
+                                            <strong>Plan your study and analyses</strong><p>Design your study and how you will analyze the data.  The <a href="https://osf.io/login/?campaign=prereg" target="_blank">Preregistration workflow</a> on the Open Science Framework (OSF) will guide you through study design and analysis planning. You can save your progress and return later to continue.  <p>Alternatively, if you prefer to design off-line or in a collaborative editor, you can use this <a href="https://drive.google.com/previewtemplate?id=1T25vXrpsHS8NzRsvNhqIPK1LgYYtoN8jFF_iyLedM-s&mode=public" target="blank">Google doc template</a> or <a href="https://osf.io/jea94/" target="_blank">this Word template</a> and move the content to the OSF Preregistration workflow later.
+>>>>>>> b391a8baa4a8027304433d8c05d82fbdba88c276
                                         </p></li>
                                         <li>
                                             <strong>Submit your plan on the Open Science Framework</strong>

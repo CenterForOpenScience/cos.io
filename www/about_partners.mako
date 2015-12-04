@@ -91,10 +91,26 @@
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
+                
+                <tr>
+                    <td class="sponsor-center"><a href="https://protocols.io/"><img src="../static/img/icons/protocolsio_logo.jpg" alt="prometheus_research"></a></td>
+                    <td><span class="med-font"><strong>protocols.io</strong></span><br>
+                       Protocols.io has partnered with COS on using the <a href="https://osf.io">Open Science Framework </a> to host and archive past and future life sciences research protocols found on <a href="https://protocols.io">protocols.io</a>.
+                    </td>
+                </tr>
+                 <tr class="spacer"></tr>
+
                 <tr>
                     <td class="sponsor-center"><a href="http://www.prometheusresearch.com/"><img src="../static/img/icons/prometheus.jpg" alt="prometheus_research"></a></td>
                     <td><span class="med-font"><strong>Prometheus Research</strong></span><br>
                        Prometheus Research has partnered with COS on use of the OSF and its application programming interface (API), to connect with their open source, integrated <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments. This will enable OSF users to easily utilize EDC instruments within their OSF projects</a>.
+                    </td>
+                </tr>
+                 <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://www.retractionwatch.com/"><img src="../static/img/icons/retraction_watch.jpg" alt="retraction_watch"></a></td>
+                    <td><span class="med-font"><strong>Retraction Watch</strong></span><br>
+                       The Center For Scientific Integrity (CSI), the parent organization of Retraction Watch, has partnered with COS to create a database of retractions on the Open Science Framework.</a>
                     </td>
                 </tr>
                 <tr class="spacer"></tr>

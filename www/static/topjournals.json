@@ -3750,5 +3750,22 @@
     "Association":"Federation of European Neuroscience Societies",
     "Subject Area":"Neuroscience",
     "FIELD5":""
+<<<<<<< HEAD
+=======
+  },
+  {
+    "Journal Title":"Sciencematters",
+    "Publisher":"Sciencematters",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Chemistry | Medicine",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Journal of Social Psychology",
+    "Publisher":"Taylor and Francis",
+    "Association":"",
+    "Subject Area":"Psychology",
+    "FIELD5":""
+>>>>>>> b391a8baa4a8027304433d8c05d82fbdba88c276
   }
 ]
