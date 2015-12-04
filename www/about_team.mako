@@ -1502,19 +1502,18 @@
             </ul>
         </div>
     </li>
-    ## <li class="col-md-3 space-mobile">
-    ##     <div class="thumbnail">
-    ##         <img src="../static/img/people/kolli.jpg" alt="Revanth Kolli">
-    ##         <h3>
-    ##             Revanth Kolli
-    ##             <small>Developer Intern | Infrastructure</small>
-    ##         </h3>
-    ##         <ul class="social-icons social-icons-color">
-    ##             <li><a href="https://github.com/revnathkolli" data-original-title="GitHub" class="github"></a></li>
-
-    ##         </ul>
-    ##     </div>
-    ## </li>
+     <li class="col-md-3 space-mobile">
+         <div class="thumbnail">
+             <img src="../static/img/people/kolli.jpg" alt="Revanth Kolli">
+             <h3>
+                 Revanth Kolli
+                 <small>Developer Intern | Infrastructure</small>
+             </h3>
+             <ul class="social-icons social-icons-color">
+                 <li><a href="https://github.com/revnathkolli" data-original-title="GitHub" class="github"></a></li>
+             </ul>
+         </div>
+     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/amanfu.jpg" alt="Robert Amanfu">
