@@ -100,7 +100,7 @@
                             <li><a href="http://www.dartstatement.org/">DA-RT: Data Access and Research Transparency</a></li>
                             <li><a href="http://www.nih.gov/about/reporting-preclinical-research.htm">NIH Principles and Guidelines for Reporting Preclinical Research</a></li>
                             <li><a href="https://osf.io">The Open Science Framework</a></li>
-                            <li><a href="http://centerforopenscience.org/prereg/">The Pre-reg Challenge</a></li>
+                            <li><a href="http://centerforopenscience.org/prereg/">The Preregistration Challenge</a></li>
                             <li><a href="https://osf.io/8mpji/wiki/home/">Registered Reports</a></li>
                         </ul>
                   
