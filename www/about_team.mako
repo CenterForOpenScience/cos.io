@@ -475,22 +475,9 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/chen2.jpg" alt="Haoyu Chen">
+            <img src="../static/img/people/moco.jpg" alt="Henrique Harman">
             <h3>
-                Haoyu Chen
-                <small>Web Design Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/haoyuchen1992" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/7du32/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/moco.jpg" alt="Henrique Moco">
-            <h3>
-                Henrique Moco
+                Henrique Harman
                 <small>Developer| Infrastructure</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">henri<span style="display:none;">null</span>que@co<span style="display:none;">null</span>s.io</small></span></noscript> 
             </h3>
@@ -498,20 +485,6 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:uraevdhr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/hmoco" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/y24tr/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/ojha.jpg" alt="Himanshu Ojha">
-            <h3>
-                Himanshu Ojha
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/himanshuo" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/in/himanshuo" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/dvsn9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -703,7 +676,6 @@
                     <li><a href="https://www.linkedin.com/pub/michael-haselton/2/b61/227" data-original-title="linkedin" class="linkedin"></a></li>
                     <li><a href="https://osf.io/ashx3/" data-original-title="osf" class="osf"></a></li>
                     <li><a href="https://twitter.com/icereval" data-original-title="Twitter" class="twitter"></a></li>
-
                 </ul>
         </div>
     </li>
@@ -1129,6 +1101,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/chen2.jpg" alt="Haoyu Chen">
+            <h3>
+                Haoyu Chen
+                <small>Web Design Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/haoyuchen1992" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/7du32/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/mendell.jpg" alt="Himanshu Ojha">
             <h3>
                 Harris Mendell
@@ -1153,6 +1138,20 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/ojha.jpg" alt="Himanshu Ojha">
+            <h3>
+                Himanshu Ojha
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/himanshuo" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/himanshuo" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/dvsn9/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>s
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/kumar.jpg" alt="Himica Kumar">
