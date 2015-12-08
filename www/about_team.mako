@@ -784,18 +784,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/Taylor.jpg" alt="Sara Taylor">
-            <h3>
-                Sara Taylor
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/65hkd/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/loria.jpg" alt="Steve Loria">
@@ -1151,7 +1139,7 @@
                 <li><a href="https://osf.io/dvsn9/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
-    </li>s
+    </li>ss
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/kumar.jpg" alt="Himica Kumar">
@@ -1578,6 +1566,18 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/SamPortnow" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/curz2/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/Taylor.jpg" alt="Sara Taylor">
+            <h3>
+                Sara Taylor
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/65hkd/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
