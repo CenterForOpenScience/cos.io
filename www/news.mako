@@ -35,6 +35,16 @@
 
             <div class="margin-bottom-20 grid" style="display:none">
                 
+                 <div class="service-box-v1">
+                    <a href=
+                    "../pr/2015-12-10"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Center for Open Science Announces Partnership with Virginia Tech's Laboratory for Interdisciplinary Statistical Analysis to Improve Research Practices in Africa</h2>
+
+                    <p class="text-left">December 10, 2015 | The Center for Open Science and the Laboratory for Interdisciplinary Statistical Analysis at Virginia Tech today announce they are partnering on an initiative to enhance the quality and impact of research conducted in Africa by training researchers from African institutions to become collaborative statisticians with greater global influence through transparent and reproducible research practices.
+                    </p></a>
+                </div>
 
                 <div class="service-box-v1">
                     <a href=

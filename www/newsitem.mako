@@ -4,6 +4,13 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2015-12-03/">
+                Center for Open Science and protocols.io Announce Collaboration</a></h3>
+        </div>
+    </div>
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2015-11-23/">
                 Center for Open Science and The Center for Scientific Integrity Announce Partnership</a></h3>
         </div>
@@ -23,11 +30,7 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2015-10-21/">IMLS, Sloan Foundation Jointly Award ARL Grant to Expand and Enhance SHARE </a></h3>
-        </div>
-    </div>
+
 
 
     
