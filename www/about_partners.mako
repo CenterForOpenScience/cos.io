@@ -78,6 +78,13 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
+                    <td class="sponsor-center"><a href="http://www.lisa.stat.vt.edu/"><img src="../static/img/icons/lisa_logo.jpg" alt="LISA"></a></td>
+                    <td><span class="med-font"><strong>Laboratory for Interdisciplinary Statistical Analysis (LISA)</strong></span><br>
+                        LISA and COS have partnered on an initiative to enhance the quality and impact of research conducted at institutions in African countries by training researchers to become collaborative statisticians through transparent and reproducible research practices.</a>
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
                     <td class="sponsor-center"><a href="https://lookit.mit.edu"><img src="../static/img/icons/lookitlogo.png" alt="Lookit"></a></td>
                     <td><span class="med-font"><strong>MIT’s Early Childhood Cognition Laboratory (ECCL) Lookit Project</strong></span><br>
                         ECCL has partnered with COS on development of an open-source environment for running developmental studies online.</a>
@@ -93,7 +100,7 @@
                 <tr class="spacer"></tr>
                 
                 <tr>
-                    <td class="sponsor-center"><a href="https://protocols.io/"><img src="../static/img/icons/protocolsio_logo.jpg" alt="prometheus_research"></a></td>
+                    <td class="sponsor-center"><a href="https://protocols.io/"><img src="../static/img/icons/protocolsio_logo.jpg" alt="protocols.io"></a></td>
                     <td><span class="med-font"><strong>protocols.io</strong></span><br>
                        Protocols.io has partnered with COS on using the <a href="https://osf.io">Open Science Framework </a> to host and archive past and future life sciences research protocols found on <a href="https://protocols.io">protocols.io</a>.
                     </td>
