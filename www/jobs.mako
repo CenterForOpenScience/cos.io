@@ -573,7 +573,7 @@
                      <dd>
                          <p>Ideally, the selected candidate will possess the following: knowledge of scientific research practices and workflows, a strong collaborative personality, an ability to work across diverse teams, a commitment to delivering quality products, involvement with developing and maintaining processes with the team, experience establishing and meeting timelines and milestones.</p>
 
-                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+                         <p>We are flexible on the work schedule, but expect 40 hours per week on-site.</p>
                      </dd>
                      <dt>Location</dt>
                      <dd>
@@ -618,7 +618,7 @@
                      <dd>
                          <p>Educational background in either computer science, engineering, or the sciences, ideally also with knowledge of scientific research practices and workflows; Strong collaborative personality and ability to work across diverse teams; Commitment to delivering quality products; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization; Attention to detail.</p>
 
-                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.</p>
+                         <p>We are flexible on the work schedule, but expect 40 hours per week on-site.</p>
                      </dd>
                      <dt>Location</dt>
                      <dd>
