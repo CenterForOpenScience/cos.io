@@ -37,6 +37,17 @@
                 
                  <div class="service-box-v1">
                     <a href=
+                    "http://www.altmetric.com/top100/2015/#numbers"><img src="../static/img/icons/altmetric.jpeg"
+                    width="125">
+
+                    <h2 class="text-left">Altmetric Top 100 Articles of 2015</h2>
+
+                    <p class="text-left">December 14, 2015 | Altmetric released its Top 100 list, highlighting academic articles receiving the most attention from social networks, blogs, traditional media, and post-publication peer-review forums. The results of the Reproducibility Project: Psychology, published as "Estimating the Reproducibility of Psychological Science" in Science in June, is #5 on the list. 
+                    </p></a>
+                </div>
+
+                 <div class="service-box-v1">
+                    <a href=
                     "../pr/2015-12-10"><img src="../static/img/icons/cos_logo.png"
                     width="125">
 
