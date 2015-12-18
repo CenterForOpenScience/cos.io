@@ -35,6 +35,50 @@
 
             <div class="margin-bottom-20 grid" style="display:none">
                 
+                <div class="service-box-v1">
+                    <a href=
+                    "http://www.nature.com/news/365-days-the-science-events-that-shaped-2015-1.19016"><img src="../static/img/icons/nature.png"
+                    width="125">
+
+                    <h2 class="text-left">365 days: The science events that shaped 2015</h2>
+
+                    <p class="text-left">December 17, 2015 | Debate about how to boost the reproducibility of research results shifted from handwringing to analysis and action in 2015. Researchers in an array of fields struggle to independently reproduce published results for many reasons, ranging from poorly described methods to flawed data analysis.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://news.sciencemag.org/scientific-community/2015/12/and-science-s-breakthrough-year"><img src="../static/img/icons/science.gif"
+                    width="125">
+
+                    <h2 class="text-left">And Science’s Breakthrough of the Year is …</h2>
+
+                    <p class="text-left">December 17, 2015 | Every December, the staff of Science singles out a significant development or achievement as the Breakthrough of the Year. Visitors to Science's website voted on Breakthrough finalists, ranking the Reproducibility Project: Psychology number 5. 
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://www.nature.com/news/365-days-nature-s-10-1.19018"><img src="../static/img/icons/nature.png"
+                    width="125">
+
+                    <h2 class="text-left">365 days: Nature’s 10 People Who Mattered This Year</h2>
+
+                    <p class="text-left">December 17, 2015 | Rounding out this years list is COS Executive Director Brian Nosek, a psychologist pledged to improve reproducibility in science.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "https://www.sciencenews.org/node/191203?mode=pick&context=166"><img src="../static/img/icons/sciencenews.jpg"
+                    width="125">
+
+                    <h2 class="text-left">Top stories of 2015: Pluto, gene editing, a new hominid and more</h2>
+
+                    <p class="text-left">December 15, 2015 | In ScienceNews' Top 25 Science Stories of 2015, The Reproducibility Project: Psychology ranks number 6. 
+                    </p></a>
+                </div>
+
                  <div class="service-box-v1">
                     <a href=
                     "http://www.altmetric.com/top100/2015/#numbers"><img src="../static/img/icons/altmetric.jpeg"
@@ -42,7 +86,7 @@
 
                     <h2 class="text-left">Altmetric Top 100 Articles of 2015</h2>
 
-                    <p class="text-left">December 14, 2015 | Altmetric released its Top 100 list, highlighting academic articles receiving the most attention from social networks, blogs, traditional media, and post-publication peer-review forums. The results of the Reproducibility Project: Psychology, published as "Estimating the Reproducibility of Psychological Science" in Science in June, is #5 on the list. 
+                    <p class="text-left">December 14, 2015 | Altmetric released its Top 100 list, highlighting academic articles receiving the most attention from social networks, blogs, traditional media, and post-publication peer-review forums. The results of the Reproducibility Project: Psychology, published as "Estimating the Reproducibility of Psychological Science" in Science in June, is number 5 on the list. 
                     </p></a>
                 </div>
 
