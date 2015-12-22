@@ -59,7 +59,7 @@
                             </tr>
                         </table>
                         <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3" id="twitter_message">
+                            <div class="col-sm-6" id="twitter_message">
                                 <a href="https://twitter.com/share?url=cos.io&via=OSFramework&text="
                                    onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
                                    target="_blank" title="Share on Twitter">
