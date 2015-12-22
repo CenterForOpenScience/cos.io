@@ -770,3 +770,8 @@ body {
     font-size: 21px;
     font-weight: 300;
 }
+
+.twitter_button {
+    max-width:360px;
+    max-height:115px;
+}
