@@ -55,8 +55,7 @@
                                         Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. Watch the intro video, <a data-tab-destination="tab-1">explore the background information</a>, and click “Begin a Preregistration” to launch the guided tutorial to plan your next study! </p>
                                     <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe></p>
                                     <p>
-                                    <a href="https://twitter.com/intent/tweet?button_hashtag=OpenScience&text=I'm%20taking%20the%20%23PreRegChallenge" class="twitter-hashtag-button" data-size="large" data-related="EvoMellor" data-url="https://cos.io/prereg" data-dnt="true">Tweet #PreRegChallenge</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                                    
                                 </td>
                             </tr>
                         </table>
