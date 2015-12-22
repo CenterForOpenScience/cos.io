@@ -23,6 +23,11 @@
             <div class="center margin-top-20">
                     <h1>Eligible Journals for the $1,000,000 Preregistration Challenge</h1>
             </div>
+            <div class="margin-top-50  margin-bottom-50">
+              <p>Entrants to the <a href="/prereg" target="_blank">Preregistration Challenge</a> must publish their eligible preregistered study in a journal listed below to be eligible for an award.  Note that the Preregistration Challenge is administered independently from any editorial, peer review, or publication process in these journals.</p>
+              <h3>Is Your Favorite Journal Not Yet Eligible?</h3>
+              <p>If a journal relevant to your research does not appear on this list, you can assist in helping it become an eligible journal by encouraging the publisher or editor to take concrete steps to improve transparency and reproducibility such as signing the <a href="/top" target="_blank">TOP Guidelines</a>, making <a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> a submission option, and adopting <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">badges to acknowledge open practices</a>. </p>Here is more information on <a href="/getlisted" target="_blank">efforts to expand the list of eligible journals</a>.</p>
+            </dv>
             <div class="col-md-12 space-mobile">
 
                   ##  <ul class="nav nav-tabs">
@@ -38,7 +43,7 @@
                                             <th data-field="Publisher" data-sortable="true" class="col-md-2">Publisher</th>
                                             <th data-field="Association" data-sortable="true" class="col-md-2">Society Affiliation</th>
                                             <th data-field="Subject Area" data-sortable="true" class="col-md-2">Subject Area</th>
-                                            
+
                                         </tr>
                                     </thead>
                                 </table>

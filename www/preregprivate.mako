@@ -53,7 +53,9 @@
                                 <td>
                                     <p style="text-align:justify">
                                         Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. Watch the intro video, <a data-tab-destination="tab-1">explore the background information</a>, and click “Begin a Preregistration” to launch the guided tutorial to plan your next study! </p>
-                                    <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe>
+                                    <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe></p>
+                                    <p>
+                                    
                                 </td>
                             </tr>
                         </table>
@@ -143,13 +145,16 @@
                                     <p>
                                         <p>There is a detailed description of the <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> for the Preregistration Challenge to meet legal requirements and maximize the fair administration of the process.  Here are highlights of key items:<p>
                                         <ol>
-                                            <li>Residents of countries on the U.S. State Department's <a href="http://www.pmddtc.state.gov/embargoed_countries/" target="_blank">list of embargoed countries</a> may not participate in the Preregistration Challenge.</li>
                                             <li>Articles must be published in an <a data-tab-destination="tab-5">eligible journal</a>.</li>
+                                            <li>Submissions for the Challenge will be reviewed by administrators and designated external reviewers for adherence to eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
+                                            <li>The published article must be submitted, reviewed, and approved for meeting eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
+
+                                            <li>U.S. law restricts eligibility of contests like this one from being administered within the <a href="http://www.pmddtc.state.gov/embargoed_countries/" target="_blank">U.S. State Department's list</a> of embargoed <a href="#" data-toggle="tooltip" title="Afghanistan, Belarus, Burma, Central African Republic, China (PR), Cote d'Ivoire, Cuba, Cyprus, Democratic Republic of the Congo, Eritrea, Haiti, Iran, Iraq, Kyrgyzstan, Lebanon, Liberia, Libya, North Korea, Russia, Somalia, Sri Lanka, Sudan, Syria, Venezuela, Vietnam, Zimbabwe">countries</a>. Therefore, residents of those countries may not participate in the Preregistration Challenge.</li>
+
                                             <li>The use of pre-existing data may make your registration ineligible for the Preregistration Challenge. (see <a data-tab-destination="tab-4">FAQ</a>)</li>
                                             <li>When awarded, one prize is given per published article to the article author that submitted the preregistration that was approved by the Challenge administrators.</li>
                                             <li>Awardees can earn only one prize each, but can enter as many times as they wish and can be co-authors on other awarded entries.</li>
-                                            <li>Submissions for the Challenge will be reviewed by administrators and designated external reviewers for adherence to eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
-                                            <li>The published article must be submitted, reviewed, and approved for meeting eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
+
                                             <li>Prizes will be awarded at pre-determined dates to eligible entrants. If more eligible entrants exist than available prizes, entrants will be ranked based on the date of registration. (see <a data-tab-destination="tab-2">How to Earn the Prize</a>)</li>
                                             <li>Entering the Preregistration Challenge requires that you agree to all of its <a href="https://osf.io/4uxbj/" target="_blank">terms</a>. If you do not agree to the terms you may still continue, use the form, and register your research study without entering the Challenge.</li>
                                         </ol>
@@ -424,9 +429,10 @@
                         <table>
                             <tr>
                                 <td>
-                                    <h3>Eligible Journals</h3>
-                                    <p>Entrants must publish their eligible preregistered study in a journal listed here to be eligible for a Preregistration Challenge award.  Note that the Preregistration Challenge is administered independently from administration, peer review, and publication in these journals.</p>
-                                    <p>If a journal relevant to your research area does not appear on this list, you can assist in helping it become an eligible journal by encouraging the publisher or editor to take concrete steps to improve transparency and reproducibility such as signing the <a href="/top" target="_blank">TOP Guidelines</a>, making <a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> a submission option, and adopting <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">badges to acknowledge open practices</a>. Here is more information on <a href="/getlisted" target="_blank">efforts to expand the list of eligible journals</a>.</p>
+                                    <h2>Eligible Journals</h2>
+                                    <p>Entrants must publish their eligible preregistered study in a journal listed here to be eligible for a Preregistration Challenge award.  Note that the Preregistration Challenge is administered independently from any editorial, peer review, or publication process in these journals.</p>
+                                    <h2>Is Your Favorite Journal Not Yet Eligible?</h2>
+                                    <p>If a journal relevant to your research area does not appear on this list, you can assist in helping it become an eligible journal by encouraging the publisher or editor to take concrete steps to improve transparency and reproducibility such as signing the <a href="/top" target="_blank">TOP Guidelines</a>, making <a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> a submission option, and adopting <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">badges</a> to acknowledge open practices.</p>Here is more information on <a href="/getlisted" target="_blank">efforts to expand the list of eligible journals</a>.</p>
                                 </td>
                             </tr>
                         </table>
@@ -531,6 +537,14 @@
         $("#"+tab).click();
       });
     </script>
+
+    ##The following script is to allow tool tips##
+    <script>
+      $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
     <script src="/static/scripts/bootstrap-table.js"></script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
