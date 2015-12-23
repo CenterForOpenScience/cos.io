@@ -55,10 +55,18 @@
                                         Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. Watch the intro video, <a data-tab-destination="tab-1">explore the background information</a>, and click “Begin a Preregistration” to launch the guided tutorial to plan your next study! </p>
                                     <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe></p>
                                     <p>
-                                    
                                 </td>
                             </tr>
                         </table>
+                        <div class="row">
+                            <div class="col-sm-4 col-sm-offset-3" id="twitter_message">
+                                <a href="https://twitter.com/share?url=cos.io&via=OSFramework&text="
+                                   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                                   target="_blank" title="Share on Twitter">
+                                    <img src="../static/img/tweet_prereg.png" class="twitter_button">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
@@ -541,10 +549,22 @@
     ##The following script is to allow tool tips##
     <script>
       $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="tooltip"]').tooltip();
+
+        var messages = [
+            "I'm taking the %23PreRegChallenge on the @OSFramework https://cos.io/prereg %23OpenScience",
+            "I'm going for the %23PreRegChallenge by registering on the @OSFramework https://cos.io/prereg %23OpenData",
+            "Are you up for the %23PreRegChallenge on the @OSFramework? https://cos.io/prereg %23OpenScience"
+        ]
+        var choice = Math.floor(Math.random() * messages.length);
+        $('#twitter_message a').each(function(){
+            this.href += messages[choice];
+            console.log(choice);
+        })
       });
     </script>
 
     <script src="/static/scripts/bootstrap-table.js"></script>
+
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>

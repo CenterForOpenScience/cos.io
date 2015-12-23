@@ -770,3 +770,9 @@ body {
     font-size: 21px;
     font-weight: 300;
 }
+
+.twitter_button {
+    margin-top: 15px;
+    margin-left: 55px;
+    max-width:250px;
+}
