@@ -65,8 +65,12 @@
                                    target="_blank" title="Share on Twitter">
                                     <img src="../static/img/tweet_prereg.png" class="twitter_button">
                                 </a>
-                            </div>
-                        </div>
+                                </div>
+                                </div>
+                                <br><center>
+                                 See our <a href="https://www.google.com/calendar/embed?src=cos.io_e6filuk7e6nsgcble2ia9h86l4%40group.calendar.google.com&ctz=America/New_York" target="_blank">calendar</a> of regularly scheduled webinars, which will be held at <a href="https://cos.clickmeeting.com/prereg" target="_blank">cos.clickmeeting.com/prereg</a></center>
+
+
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
