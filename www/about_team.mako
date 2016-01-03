@@ -696,21 +696,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/welcher.jpg" alt="Natasha Welcher">
-            <h3>
-                Natasha Welcher
-                <small>Software Quality Engineer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/NatashaRichter" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/pfeiffer.jpg" alt="Nicole Pfeiffer">
             <h3>
                 Nicole Pfeiffer
@@ -722,19 +707,6 @@
                 <li><a href="https://github.com/nicipfeiffer" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/pub/nicole-pfeiffer/84/1a2/b21" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/nsx26/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/tickle.jpg" alt="Pierce Tickle">
-            <h3>
-                Pierce Tickle
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/ticklemepierce" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/bdgrh/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1415,6 +1387,21 @@
             </ul>
         </div>
     </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/welcher.jpg" alt="Natasha Welcher">
+            <h3>
+                Natasha Welcher
+                <small>Software Quality Engineer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/NatashaRichter" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/jantrania.jpg" alt="Nirali Jantrania">
@@ -1490,6 +1477,19 @@
                     <li><a href="https://github.com/pjfan" data-original-title="GitHub" class="github"></a></li>
                     <li><a href="https://osf.io/7nz2x/" data-original-title="osf" class="osf"></a></li>
                 </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/tickle.jpg" alt="Pierce Tickle">
+            <h3>
+                Pierce Tickle
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ticklemepierce" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/bdgrh/" data-original-title="osf" class="osf"></a></li>
+            </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
