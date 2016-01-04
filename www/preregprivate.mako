@@ -553,8 +553,8 @@
 
         var messages = [
             "I'm taking the %23PreRegChallenge on the @OSFramework https://cos.io/prereg %23OpenScience",
-            "I'm going for the %23PreRegChallenge by registering on the @OSFramework https://cos.io/prereg %23OpenData",
-            "Are you up for the %23PreRegChallenge on the @OSFramework? https://cos.io/prereg %23OpenScience"
+            "I'm going for the %23PreRegChallenge by registering on the @OSFramework https://cos.io/prereg %23OpenScience",
+            "Are you up for the %23PreRegChallenge on the @OSFramework? https://youtu.be/SWkqdNppL-s %23OpenScience"
         ]
         var choice = Math.floor(Math.random() * messages.length);
         $('#twitter_message a').each(function(){
