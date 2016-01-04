@@ -37,6 +37,17 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "http://www.statnews.com/2015/12/18/clinical-trial-reporting/"><img src="../static/img/icons/statnews.svg"
+                    width="125">
+
+                    <h2 class="text-left">'Science Works Best in the Open': Experts Weigh in on Trial Data Reporting</h2>
+
+                    <p class="text-left">December 18, 2015 | Hospitals, medical schools, businesses, and even the National Institutes of Health are routinely violating a federal law requiring clinical trials to be reported to the public, a STAT investigation recently found. In response, we asked experts to offer their thoughts on why low rates of clinical trial reporting is a problem, and what can be done about it.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "http://www.nature.com/news/365-days-the-science-events-that-shaped-2015-1.19016"><img src="../static/img/icons/nature.png"
                     width="125">
 
