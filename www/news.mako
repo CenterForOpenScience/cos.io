@@ -37,7 +37,7 @@
                 
                 <div class="service-box-v1">
                     <a href=
-                    "http://www.statnews.com/2015/12/18/clinical-trial-reporting/"><img src="../static/img/icons/statnews.svg"
+                    "http://www.statnews.com/2015/12/18/clinical-trial-reporting/"><img src="../static/img/icons/statnews.png"
                     width="125">
 
                     <h2 class="text-left">'Science Works Best in the Open': Experts Weigh in on Trial Data Reporting</h2>
