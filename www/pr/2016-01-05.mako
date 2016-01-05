@@ -20,7 +20,7 @@
             <div style="padding-bottom: 50px;">
                 <p>5 January 2016 | Charlottesville, VA</p>
                 <br>
-                <p>The <a href="/prereg">Preregistration Challenge</a>, a new competition announced today by the <a href="/">Center for Open Science</a> (COS), incentivizes transparent research by awarding 1,000 researchers with $1,000 for publishing the results of their preregistered studies. today announce they are partnering on an initiative to enhance the quality and impact of research conducted in Africa by training researchers from African institutions to become collaborative statisticians with greater global influence through transparent and reproducible research practices.</p>
+                <p>The <a href="/prereg">Preregistration Challenge</a>, a new competition announced today by the <a href="/">Center for Open Science</a> (COS), incentivizes transparent research by awarding 1,000 researchers with $1,000 for publishing the results of their preregistered studies.</p>
                 <br>
                 <p>
                 “Scientists value objectivity and transparency in the practice of science,” says David Mellor, project manager at the Center for Open Science. “However, we are rewarded at nearly every step for making results both cleaner and more surprising. Preregistration helps keep our motivated reasoning in check when analyzing data and presenting our results.”</p>
