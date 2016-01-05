@@ -23,7 +23,6 @@
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
         <h1>The $1,000,000 Preregistration Challenge</h1>
-        <h2>(Currently in Private Launch Period)</h2>
     </div>
 </div>
 <div class="container min-hight margin-top-40">
@@ -158,9 +157,8 @@
                                         <p>There is a detailed description of the <a href="https://osf.io/4uxbj/" target="_blank">terms and conditions</a> for the Preregistration Challenge to meet legal requirements and maximize the fair administration of the process.  Here are highlights of key items:<p>
                                         <ol>
                                             <li>Articles must be published in an <a data-tab-destination="tab-5">eligible journal</a>.</li>
-                                            <li>Submissions for the Challenge will be reviewed by administrators and designated external reviewers for adherence to eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
-                                            <li>The published article must be submitted, reviewed, and approved for meeting eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
-
+                                            <li>Before becoming a preregistration, submissions to the Challenge must be reviewed for adherence to the eligibility criteria. Once accepted, submissions become a static, time stamped preregistration.<strong> Please do not begin your study until it is registered.</strong> Reviews will take no longer than 10 business days. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
+                                            <li>The published article must also be reviewed and approved for meeting eligibility criteria. (see "<a data-tab-destination="tab-6">Review Process</a>")</li>
                                             <li>U.S. law restricts eligibility of contests like this one from being administered within the <a href="http://www.pmddtc.state.gov/embargoed_countries/" target="_blank">U.S. State Department's list</a> of embargoed <a href="#" data-toggle="tooltip" title="Afghanistan, Belarus, Burma, Central African Republic, China (PR), Cote d'Ivoire, Cuba, Cyprus, Democratic Republic of the Congo, Eritrea, Haiti, Iran, Iraq, Kyrgyzstan, Lebanon, Liberia, Libya, North Korea, Russia, Somalia, Sri Lanka, Sudan, Syria, Venezuela, Vietnam, Zimbabwe">countries</a>. Therefore, residents of those countries may not participate in the Preregistration Challenge.</li>
 
                                             <li>The use of pre-existing data may make your registration ineligible for the Preregistration Challenge. (see <a data-tab-destination="tab-4">FAQ</a>)</li>
@@ -557,7 +555,7 @@
 
         var messages = [
             "I'm taking the %23PreRegChallenge on the @OSFramework https://cos.io/prereg %23OpenScience",
-            "I'm going for the %23PreRegChallenge by registering on the @OSFramework https://cos.io/prereg %23OpenData",
+            "I'm going for the %23PreRegChallenge by registering on the @OSFramework https://cos.io/prereg %23OpenScience",
             "Are you up for the %23PreRegChallenge on the @OSFramework? https://cos.io/prereg %23OpenScience"
         ]
         var choice = Math.floor(Math.random() * messages.length);
