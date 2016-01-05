@@ -562,22 +562,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/banner.jpg" alt="Larry Banner">
-            <h3>
-                Larry Banner
-                <small>Technical Project Manager | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lar<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:yneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/lbanner" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/ygsav/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://twitter.com/lbanner" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/barker.jpg" alt="Lauren Barker">
             <h3>
                 Lauren Barker
@@ -851,20 +835,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/zkraime" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/sna7i/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/alijan.jpg" alt="Zobair Alijan">
-            <h3>
-                Zobair Alijan
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://www.facebook.com/zobair.chs" data-original-title="Facebook" class="facebook"></a></li>
-                <li><a href="https://github.com/ZobairAlijan" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/3hqpd/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1297,6 +1267,22 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/banner.jpg" alt="Larry Banner">
+            <h3>
+                Larry Banner
+                <small>Technical Project Manager | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lar<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:yneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/lbanner" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ygsav/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/lbanner" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
             <h3>
                 Lauren Revere
@@ -1638,6 +1624,20 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/trwjd/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/alijan.jpg" alt="Zobair Alijan">
+            <h3>
+                Zobair Alijan
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.facebook.com/zobair.chs" data-original-title="Facebook" class="facebook"></a></li>
+                <li><a href="https://github.com/ZobairAlijan" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/3hqpd/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
