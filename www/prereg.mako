@@ -454,7 +454,7 @@
                                             </div>
                                         <div class="fixed-table-body">
                                         <div class="fixed-table-loading" style="top: 41px; display: none;">Loading, please wait...</div>
-                                            <table data-toggle="table" data-url="/static/preregjournals.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true" class="table table-hover" style="margin-top: -40px;">
+                                            <table data-toggle="table" data-url="/static/preregjournals.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true" class="table table-hover" style="margin-top: -40px;">
                                                 <thead>
                                                     <tr>
                                                         <th class="col-md-4" style="" data-field="Journal Title" data-sortable="true">Journal Title</th>
