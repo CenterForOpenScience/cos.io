@@ -57,7 +57,7 @@
         </br>
             <p>Proposals will be accepted on a rolling basis, but no later than August 12, 2015 at Midnight EDT.  Decisions will be made quickly so that teams can receive funding and initiate their work.</p>
             <div class="center">
-                <p><a href="https://docs.google.com/forms/d/1h2T_So_f52nGpA8SH2RnywgztoOyca533O9sf9K42HQ/viewform">Apply now</a></p>
+                <p>Proposals are no longer being accepted.</p>
         </br>
             </div>
             
