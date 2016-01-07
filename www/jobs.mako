@@ -76,6 +76,61 @@
 ##         </div>
 ##     </div>
 ## </div>
+<div id="BackEndDeveloper" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#BackEndDeveloper_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#BackEndDeveloper" >
+                    Back End Developer
+                </a>
+            </h4>
+        </div>
+        <div id="BackEndDeveloper" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Develop exclusively free, open source software in the name of open science.</p>
+                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Core Technologies</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Python</li>
+                            <li>Python web frameworks(e.g., Flask,Tornado,Django)</li>
+                            <li>Git</li>
+                            <li>Javascript</li>
+                            <li>Javascript frameworks(Kockout,Ember,Angular</li>
+                            <li>NoSQL databases</li>
+                            <li>REST API development</li>
+                        </ul>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="cos.io/jobs/#benefits">Discover more about our office perks.</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume detailing your experience through our <a href="https://jobs.lever.co/cos/e0f6993e-e608-4418-b9d1-a57b5b33e3d6">application portal</a>.</p> 
+                    </dd>
+                    <dt>Referrals</dt>
+                    <dd>
+                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
+                        <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
+                        <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
+                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 ##<div id="Community Manager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -127,17 +182,17 @@
  ##       </div>
  ##   </div>
 ##</div>
-<div id="Developer" class="panel-group">
+<div id="FrontEndDeveloper" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#FrontEndDeveloper_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#Developer" >
-                    Developer
+                <a  data-parent="#FrontEndDeveloper" >
+                    Front End Developer
                 </a>
             </h4>
         </div>
-        <div id="Developer" class="panel-collapse collapse">
+        <div id="FrontEndDeveloper" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -145,31 +200,36 @@
                         <p>Develop exclusively free, open source software in the name of open science.</p>
                         <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
                     </dd>
-                    <dt>Core Technologies</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Python</li>
-                            <li>Micro-frameworks (e.g., Flask)</li>
-                            <li>Git</li>
-                            <li>Javascript</li>
-                            <li>Javascript Frameworks (e.g., Knockout)</li>
-                            <li>No-SQL Databases (e.g., MongoDB)</li>
-                            <li>API development</li>
-                        </ul>
-                        <p>We are much more concerned about collaboration, passion, and ability than the actual technologies you use. We believe that a great developer should be a great developer in any language. We focus on Python in that Python developers typically value readability and community, and we are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
-                    </dd>
                     <dt>Location</dt>
                     <dd>
                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
                     </dd>
+                    <dt>Core Technologies</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Javascript</li>
+                            <li>Javascript Frameworks(e.g., Knockout,React,Ember,Angular)</li>
+                            <li>Web technologies like REST,HTTP,JSON</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </dd>
+                    <dt>Experience We Need</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Architecting quick running and and reusable front-ends that drive complex web applications</li>
+                            <li>Understanding of browswer compatibility issues and debugging browswer problems</li>
+                            <li>Engineering scalable web applications with a strong UI focus</li>
+                            <li>An eye for design and usability</li>
+                        </ul>
+                    </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="cos.io/jobs/#benefits">Discover more about our office perks.</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                        <p>Please submit a resume detailing your experience through our <a href="https://jobs.lever.co/cos/e0f6993e-e608-4418-b9d1-a57b5b33e3d6">application portal"</a>.</p> 
                     </dd>
                     <dt>Referrals</dt>
                     <dd>
