@@ -4,6 +4,13 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2015-12-10/">
+                Center for Open Science Announces Partnership with VA Tech's Laboratory for Interdisciplinary Statistical Analysis</a></h3>
+        </div>
+    </div>
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2015-12-03/">
                 Center for Open Science and protocols.io Announce Collaboration</a></h3>
         </div>
@@ -23,19 +30,7 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2015-10-27/">
-                Center for Open Science and Foundation for Earth Science Announce Partnership to Support Scientific Research</a></h3>
-        </div>
-    </div>
 
-
-
-
-    
-    
-   
    
 
     <div class="row margin-bottom-10">

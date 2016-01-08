@@ -37,6 +37,28 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "http://news.sciencemag.org/scientific-community/2016/01/cashing-transparency-science"><img src="../static/img/icons/Science.gif"
+                    width="125">
+
+                    <h2 class="text-left">Cashing in on transparency in science</h2>
+
+                    <p class="text-left">January 7, 2015 | This week Nosek’s Center for Open Science (COS) went a step further, offering $1000 to every scientist who preregisters their protocol with COS. The payment is meant to be a carrot leading to greater transparency and accountability in research.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2016-01-05"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">The Center for Open Science Announces the Launch of the $1,000,000 Preregistration Challenge</h2>
+
+                    <p class="text-left">January 5, 2015 | The Preregistration Challenge, a new competition announced today by the Center for Open Science (COS), incentivizes transparent research by awarding 1,000 researchers with $1,000 for publishing the results of their preregistered studies.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "http://www.statnews.com/2015/12/18/clinical-trial-reporting/"><img src="../static/img/icons/statnews.png"
                     width="125">
 

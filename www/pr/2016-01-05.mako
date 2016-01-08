@@ -12,7 +12,7 @@
 
             <div style="padding-bottom: 10px">
                 <div style=" padding-bottom: 10px">
-                    <h1><strong><center>The Center for Open Science <br>Announces the Launch of the <br>$1,000,000 Preregistration Challenge</strong></center></h1><br>
+                    <h1><strong>The Center for Open Science Announces the Launch of the $1,000,000 Preregistration Challenge</strong></h1><br>
                 </div>
             </div>
             <!--END DESCRIPTION-->
