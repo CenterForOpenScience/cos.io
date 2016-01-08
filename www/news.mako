@@ -59,7 +59,7 @@
 
                 <div class="service-box-v1">
                     <a href=
-                    "http://news.sciencemag.org/scientific-community/2015/12/and-science-s-breakthrough-year"><img src="../static/img/icons/science.gif"
+                    "http://news.sciencemag.org/scientific-community/2015/12/and-science-s-breakthrough-year"><img src="../static/img/icons/Science.gif"
                     width="125">
 
                     <h2 class="text-left">And Science’s Breakthrough of the Year is …</h2>
