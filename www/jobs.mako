@@ -76,6 +76,7 @@
 ##         </div>
 ##     </div>
 ## </div>
+<<<<<<< HEAD
 ##<div id="Community Manager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -127,17 +128,17 @@
  ##       </div>
  ##   </div>
 ##</div>
-<div id="Developer" class="panel-group">
+<div id="BackEndDeveloper" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Developer_heading">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#BackEndDeveloper_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#Developer" >
-                    Developer
+                <a  data-parent="#BackEndDeveloper" >
+                    Back End Developer
                 </a>
             </h4>
         </div>
-        <div id="Developer" class="panel-collapse collapse">
+        <div id="BackEndDeveloper" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
@@ -145,31 +146,30 @@
                         <p>Develop exclusively free, open source software in the name of open science.</p>
                         <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
                     </dd>
-                    <dt>Core Technologies</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Python</li>
-                            <li>Micro-frameworks (e.g., Flask)</li>
-                            <li>Git</li>
-                            <li>Javascript</li>
-                            <li>Javascript Frameworks (e.g., Knockout)</li>
-                            <li>No-SQL Databases (e.g., MongoDB)</li>
-                            <li>API development</li>
-                        </ul>
-                        <p>We are much more concerned about collaboration, passion, and ability than the actual technologies you use. We believe that a great developer should be a great developer in any language. We focus on Python in that Python developers typically value readability and community, and we are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
-                    </dd>
                     <dt>Location</dt>
                     <dd>
                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
                     </dd>
+                    <dt>Core Technologies</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Python</li>
+                            <li>Python web frameworks(e.g., Flask,Tornado,Django)</li>
+                            <li>Git</li>
+                            <li>Javascript</li>
+                            <li>Javascript frameworks(Kockout,Ember,Angular</li>
+                            <li>NoSQL databases</li>
+                            <li>REST API development</li>
+                        </ul>
+                    </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="cos.io/jobs/#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
+                        <p>Please submit a resume detailing your experience through our <a href="https://jobs.lever.co/cos/93b64d65-08ce-476f-b1ea-feb4d442f5dc">application portal</a>.</p> 
                     </dd>
                     <dt>Referrals</dt>
                     <dd>
@@ -183,6 +183,57 @@
         </div>
     </div>
 </div>
+##<div id="Community Manager" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading">
+##            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#Community Manager_heading">
+##               <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a data-parent="#Communitymanager">
+##                   Community Manager
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="Community Manager" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt><dd><p>Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research.  The Center for Open Science (COS) will add a strategically-oriented community and partnerships manager. COS produces entirely free and open products and services with minimal branding to promote wide adoption and non-competition.  This manager will facilitate the strategy, marketing, adoption, collaboration, and partnership growth around COS products and services - a sales team leader.  The role is entirely mission-driven: How can COS best promote and support the adoption of scientific values in daily scientific practices?</dd></p>
+##                    <dt>Location</dt>
+##                    <dd>
+##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                     </dd>
+##                     <dt>Responsibilities</dt>
+##                     <dd>
+##                         <p>Lead the COS Community team to build and execute collaboration and partnership strategies within higher education, non-profit, technology, funder, and scientific communities.</p>
+##                        <p>Develop and grow relationships and collaborations with partner organizations across the entire research lifecycle, across all scientific domains, and across all stakeholder communities.  Stakeholder areas include: higher-education institutions, publishers, funders, societies, non-profits, government agencies, science and technology companies.</p>
+##                         <p>Position and market COS products and services to meet needs of organizations and the user community to maximize research transparency and reproducibility.  Overcome challenges, and inspire them to act.</p>
+ ##                        <p>Operational management of scientific and technical teams focused on high-performance delivery, adoption, and scaling of products and services.</p>
+ ##                        <p>“Client success” expert: Use Salesforce to track the pipeline of prospects and partners, and guide team toward achieving assertive goals with sprints and rapid feedback on effective success metrics.</p>
+ ##                    </dd>
+ ##                    <dt>Other Activities</dt>
+ ##                    <dd>
+ ##                       <ul>
+ ##                        <li>Work closely with the COS Community team to develop new feature proposals based on partner feedback.</li>
+ ##                        <li>Keep up to date on issues within the scientific community and scholarly workflow across the entire research lifecycle.</li>
+ ##                        </ul>
+ ##                    </dd>
+ ##                    <dt>Skills</dt>
+ ##                    <dd>
+ ##                        <p>Strong sense of strategy, politics, impressions, brand, reputation; Extremely high social and communication skills; Self-starter and industrious; Team-oriented; Very strong work ethic; Adaptivity to rapidly changing demands in a high performance workplace; Fluent in social media; Market research skills; Presentation skills; Attention to detail and timing; Values transparency and collaboration; Experience with science and technology sectors; Flexibility and ability to manage multiple simultaneous priorities; Strong familiarity or depth experience in some or many sectors of the scholarly workflow: publishing, libraries, scientific technology, university administration, technology companies, funding organizations, scientific societies; Resourcing/support-based management style.</p>
+ ##                    <dt>Notes</dt>
+ ##                    <dd>
+ ##                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+ ##                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>
+ ##                    <dt>Benefits</dt>
+ ##                    <dd>
+ ##                        <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities.</p>
+ ##                    </dd>
+ ##                   <dt>Applying</dt><dd>
+ ##                   <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="http://careers.jobscore.com/jobs2/centerforopenscience/community-manager/dHNViSE-4r5zLVeMg-44q7">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+ ##               </dl>
+ ##           </div>
+ ##       </div>
+ ##   </div>
+##</div>
 <div id="DeveloperIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
@@ -208,7 +259,7 @@
                     </dd>
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p></dd>
+                    <p>Please send a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/b50ccb99-e5b8-40cf-abc2-b0aecf440789" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p></dd>
                 </dl>
             </div>
         </div>
@@ -316,7 +367,68 @@
                          <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
                     </dd>
                     <dt>Applying</dt><dd>
-                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="http://careers.jobscore.com/jobs2/centerforopenscience/executive-assistant/a--IFoE_ar5zLVeMg-44q7">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="https://jobs.lever.co/cos/1d5eca20-50b1-4cbd-b979-16fd730c5377">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="FrontEndDeveloper" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#FrontEndDeveloper_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#FrontEndDeveloper" >
+                    Front End Developer
+                </a>
+            </h4>
+        </div>
+        <div id="FrontEndDeveloper" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Develop exclusively free, open source software in the name of open science.</p>
+                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Core Technologies</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Javascript</li>
+                            <li>Javascript Frameworks(e.g., Knockout,React,Ember,Angular)</li>
+                            <li>Web technologies like REST,HTTP,JSON</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </dd>
+                    <dt>Experience We Need</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Architecting quick running and and reusable front-ends that drive complex web applications</li>
+                            <li>Understanding of browswer compatibility issues and debugging browswer problems</li>
+                            <li>Engineering scalable web applications with a strong UI focus</li>
+                            <li>An eye for design and usability</li>
+                        </ul>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="cos.io/jobs/#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume detailing your experience through our <a href="https://jobs.lever.co/cos/e0f6993e-e608-4418-b9d1-a57b5b33e3d6">application portal</a>.</p> 
+                    </dd>
+                    <dt>Referrals</dt>
+                    <dd>
+                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
+                        <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
+                        <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
+                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply.</p>
+                    </dd>
                 </dl>
             </div>
         </div>
@@ -544,17 +656,17 @@
 ##        </div>
 ##    </div>
 ##</div>
-<div id="QATestEngineer" class="panel-group">
+<div id="QualityAssuranceEngineer" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineer_heading">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceEngineer_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#QATestEngineer" >
-                    QC/QA/Test Engineer 
+                    Quality Assurance Engineer 
                 </a>
             </h4>
         </div>
-         <div id="QATestEngineer" class="panel-collapse collapse">
+         <div id="Quality Assurance Engineer" class="panel-collapse collapse">
              <div class="panel-body">
                  <dl class="dl-horizontal">
                      <dt>Background</dt>
@@ -563,11 +675,7 @@
                      </dd>
                      <dt>Responsibilities</dt>
                      <dd>
-                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process. Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback. The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing.  These goals will be accomplished by working closely with developers, technical architects, technical managers, and the product team.  
-
-                        The selected candidate will work in conjunction with the programmatic testing done by the development team and ensures that only high-quality software is released. This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.
-
-                        See our other open positions to learn more about the desired qualities of COS developers and the product team. Also, see more on GitHub. Educational background in either computer science, engineering, or the sciences.   <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
+                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process. Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback. The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing. These goals will be accomplished by working closely with developers, technical architects, technical managers, and the product team. The selected candidate will work in conjunction with the programmatic testing done by the development team and ensures that only high-quality software is released. This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies. See our other open positions to learn more about the desired qualities of COS developers and the product team. Also, see more on GitHub. Educational background in either computer science, engineering, or the sciences.  
                      </dd>
                      <dt>Skills</dt>
                      <dd>
@@ -586,115 +694,63 @@
                      <dt>Applying</dt>
                      <dd>
                          <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/0db3d94d-51e6-426a-93b4-e0894f4f3b95" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                      </dd>
                  </dl>
              </div>         
              </div>
     </div>
  </div>
-<div id="QATestEngineerIntern" class="panel-group">
+<div id="QualityAssuranceIntern" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QATestEngineerIntern_heading">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceIntern_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#QATestEngineerIntern" >
-                    QC/QA/Test Engineer Intern
+                    Quality Assurance Intern
                 </a>
             </h4>
         </div>
-         <div id="QATestEngineerIntern" class="panel-collapse collapse">
+         <div id="QualityAssuranceIntern" class="panel-collapse collapse">
              <div class="panel-body">
                  <dl class="dl-horizontal">
                      <dt>Background</dt>
                     <dd>
                          <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="osf.io">Open Science Framework.</a></p>
                      </dd>
+                     <dd>
+                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing.</a></p>
+                     </dd>
+                     <dd>
+                         <p>These goals will be accomplished by working closely with developers, technical architects, technical managers, and the product team. The selected candidate will work in conjunction with the programmatic testing done by the development team and ensures that only high-quality software is released. This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.</a></p>
+                     </dd>
                      <dt>Responsibilities</dt>
-                     <dd>
-                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  Interns will develop rigorous product QC, QA, and testing skills by working closely with developers, technical architects, technical managers, and the product team. Interns will work in conjunction with the programmatic testing done by the development team and helps a ensure that only high-quality software is released.  This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.  See our other open positions to learn more about the desired qualities of COS developers and the product team.  Also, see more on <a href="https://github.com/CenterForOpenScience/">GitHub.</a></p>
-                     </dd>
-                     <dt>Skills</dt>
-                     <dd>
-                         <p>Educational background in either computer science, engineering, or the sciences, ideally also with knowledge of scientific research practices and workflows; Strong collaborative personality and ability to work across diverse teams; Commitment to delivering quality products; Action-orientation; Developing and maintaining processes with the team; Establishing and meeting timelines and milestones; Organization; Attention to detail.</p>
-
-                         <p>We are flexible on the work schedule, but expect 40 hours per week on-site.</p>
-                     </dd>
+                    <dd>
+                        <ul class="indent">
+                            <li>Communicate: the candidate will be responsible for maintaining solid communication within the QA team to facilitate continual feedback and insight around prioritization and progress of team tasks.</li>
+                            <li>Feedback: the candidate will be responsible for delivering effective and timely test outcome knowledge with developers, managers and team leads about the testing to determine obstacles, blockers and forecasting.</li>
+                            <li>Engineer: the candidate will be responsible for working with the management team, developers and the product team to gather requirements for establishing comprehensive testing plans.</li>
+                            <li>Test: the candidate will be responsible for assisting the QA team in developing acceptance criteria for testing new features and fixes</li>
+                        </ul>
+                    </dd>
                      <dt>Location</dt>
                      <dd>
                          <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
                      </dd>
                      <dt>Benefits</dt>
                      <dd>
-                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. Discover more about our office perks <a href="https://cos.io/jobs/#benefits">amenities</a>.</p>
                      </dd>
                      <dt>Applying</dt>
                      <dd>
                          <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/a67b74d7-1f70-4230-805e-e72fe9382342" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                      </dd>
                  </dl>
              </div>         
              </div>
     </div>
  </div>
-<div id="SeniorDeveloper" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDeveloper_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#SeniorDeveloper" >
-                    Senior Developer
-                </a>
-            </h4>
-        </div>
-        <div id="SeniorDeveloper" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>Develop exclusively free, open source software to support open science.</p>
-                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS senior developers, with 10+ years of professional software development experience, who are passionate about modern web and API practices, love science, and posses expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to science. Everything we develop is exclusively free and open source.</p>
-                        <p>See more on <a href="https://github.com/CenterForOpenScience/">Github</a>.</p>
-                    </dd>
-                    <dt>Core Technologies</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Python</li>
-                            <li>Micro-frameworks (e.g., Flask)</li>
-                            <li>Git</li>
-                            <li>Javascript</li>
-                            <li>Javascript Frameworks (e.g., Knockout)</li>
-                            <li>No-SQL Databases (e.g., MongoDB)</li>
-                            <li>API development</li>
-                        </ul>
-                        <p>We are much more concerned about collaboration, passion, and ability than the actual technologies you use. We believe that a great developer should be a great developer in any language. We focus on Python in that Python developers typically value readability and community, and we are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>. You can also see more on <a href="https://github.com/centerforopenscience">GitHub</a>.</p>
-                    </dd>
-                    <dt>Referrals</dt>
-                    <dd>
-                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
-                        <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
-                        <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
-                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
 ## <div id="StatsConsultant" class="panel-group">
 ##   <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -864,7 +920,7 @@
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
                     <dd>
-                        <p>Focus on the visual design, identity, and user experience of the Center for Open Science’s (COS) free and open source products and services. Be part of an enthusiastic and motivated team that is helping science become more open and reproducible. The Web Designer Intern will employ leading edge design and user experience methods to create a professional, accessible, polished style for COS products, services, and web presence. This role requires expert understanding of UI/UX fundamentals and design trends, an uncanny sense of style, color, layout, and typography; and someone who wants to contribute to a mission-driven, non-profit startup. See more on GitHub.</p>
+                        <p>Focus on the visual design, identity, and user experience of the Center for Open Science’s (COS) free and open source products and services. Be part of an enthusiastic and motivated team that is helping science become more open and reproducible. The Web Designer Intern will employ leading edge design and user experience methods to create a professional, accessible, polished style for COS products, services, and web presence. This role requires expert understanding of UI/UX fundamentals and design trends, an uncanny sense of style, color, layout, and typography; and someone who wants to contribute to a mission-driven, non-profit startup. See more on <a href="https://github.com/centerforopenscience">Github</a>.</p>
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
@@ -883,7 +939,7 @@
                     <dt>Applying</dt>
                     <dd>
                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+                        <p>Please send a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/62465f94-0585-40de-a423-947b75d524ee" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
                     </dd>
                 </dl>
             </div>

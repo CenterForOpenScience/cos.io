@@ -36,7 +36,7 @@
 
                     <div class="tab-content">
                         <div id="journals" class="tab-pane fade in active">
-                                <table data-toggle="table" data-url="/static/preregjournals.json" data-height="799" data-sort-name="name" data-sort-order="asc" data-search="true">
+                                <table data-toggle="table" data-url="/static/preregjournals.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
                                     <thead>
                                         <tr>
                                             <th data-field="Journal Title" data-sortable="true" class="col-md-4">Journal Title</th>
