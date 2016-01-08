@@ -76,7 +76,6 @@
 ##         </div>
 ##     </div>
 ## </div>
-<<<<<<< HEAD
 ##<div id="Community Manager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading">
