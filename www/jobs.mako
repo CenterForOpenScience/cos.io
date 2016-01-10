@@ -76,6 +76,57 @@
 ##         </div>
 ##     </div>
 ## </div>
+##<div id="Community Manager" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading">
+##            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#Community Manager_heading">
+##               <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a data-parent="#Communitymanager">
+##                   Community Manager
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="Community Manager" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt><dd><p>Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research.  The Center for Open Science (COS) will add a strategically-oriented community and partnerships manager. COS produces entirely free and open products and services with minimal branding to promote wide adoption and non-competition.  This manager will facilitate the strategy, marketing, adoption, collaboration, and partnership growth around COS products and services - a sales team leader.  The role is entirely mission-driven: How can COS best promote and support the adoption of scientific values in daily scientific practices?</dd></p>
+##                    <dt>Location</dt>
+##                    <dd>
+##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                     </dd>
+##                     <dt>Responsibilities</dt>
+##                     <dd>
+##                         <p>Lead the COS Community team to build and execute collaboration and partnership strategies within higher education, non-profit, technology, funder, and scientific communities.</p>
+##                        <p>Develop and grow relationships and collaborations with partner organizations across the entire research lifecycle, across all scientific domains, and across all stakeholder communities.  Stakeholder areas include: higher-education institutions, publishers, funders, societies, non-profits, government agencies, science and technology companies.</p>
+##                         <p>Position and market COS products and services to meet needs of organizations and the user community to maximize research transparency and reproducibility.  Overcome challenges, and inspire them to act.</p>
+ ##                        <p>Operational management of scientific and technical teams focused on high-performance delivery, adoption, and scaling of products and services.</p>
+ ##                        <p>“Client success” expert: Use Salesforce to track the pipeline of prospects and partners, and guide team toward achieving assertive goals with sprints and rapid feedback on effective success metrics.</p>
+ ##                    </dd>
+ ##                    <dt>Other Activities</dt>
+ ##                    <dd>
+ ##                       <ul>
+ ##                        <li>Work closely with the COS Community team to develop new feature proposals based on partner feedback.</li>
+ ##                        <li>Keep up to date on issues within the scientific community and scholarly workflow across the entire research lifecycle.</li>
+ ##                        </ul>
+ ##                    </dd>
+ ##                    <dt>Skills</dt>
+ ##                    <dd>
+ ##                        <p>Strong sense of strategy, politics, impressions, brand, reputation; Extremely high social and communication skills; Self-starter and industrious; Team-oriented; Very strong work ethic; Adaptivity to rapidly changing demands in a high performance workplace; Fluent in social media; Market research skills; Presentation skills; Attention to detail and timing; Values transparency and collaboration; Experience with science and technology sectors; Flexibility and ability to manage multiple simultaneous priorities; Strong familiarity or depth experience in some or many sectors of the scholarly workflow: publishing, libraries, scientific technology, university administration, technology companies, funding organizations, scientific societies; Resourcing/support-based management style.</p>
+ ##                    <dt>Notes</dt>
+ ##                    <dd>
+ ##                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+ ##                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>
+ ##                    <dt>Benefits</dt>
+ ##                    <dd>
+ ##                        <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities.</p>
+ ##                    </dd>
+ ##                   <dt>Applying</dt><dd>
+ ##                   <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="http://careers.jobscore.com/jobs2/centerforopenscience/community-manager/dHNViSE-4r5zLVeMg-44q7">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:casey.kugler@cos.io">casey.kugler@cos.io</a>.</p>
+ ##               </dl>
+ ##           </div>
+ ##       </div>
+ ##   </div>
+##</div>
 <div id="BackEndDeveloper" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#BackEndDeveloper_heading">
