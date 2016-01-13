@@ -415,21 +415,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/vonfeilitzsch.jpg" alt="Fabian von Feilitzsch">
-            <h3>
-                Fabian von Feilitzsch
-                <small>Developer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:snovna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/fabianvf" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/profile/view?id=230618636" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/nz6xq/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/elliott.jpg" alt="Fitzhugh Elliott">
@@ -973,6 +958,21 @@
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/vonfeilitzsch.jpg" alt="Fabian von Feilitzsch">
+            <h3>
+                Fabian von Feilitzsch
+                <small>Developer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:snovna@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/fabianvf" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/profile/view?id=230618636" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/nz6xq/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
