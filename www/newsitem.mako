@@ -4,6 +4,13 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2016-01-05/">
+                The Center for Open Science Announces the Launch of the $1,000,000 Preregistration Challenge</a></h3>
+        </div>
+    </div>
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2015-12-10/">
                 Center for Open Science Announces Partnership with VA Tech's Laboratory for Interdisciplinary Statistical Analysis</a></h3>
         </div>
@@ -23,12 +30,7 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2015-11-05/">
-                Center for Open Science and Time-Sharing Experiments for the Social Sciences Announce Partnership</a></h3>
-        </div>
-    </div>
+
 
 
    

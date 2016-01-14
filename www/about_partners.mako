@@ -54,12 +54,19 @@
                         libraries across the United States. ARL is working in conjunction with COS to create the <a href="/pr/2014-06-02/">
                         SHARE notification service</a> to connect scientists with relevant research.
                     </td>
-                </tr>
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="http://cega.berkeley.edu/programs/BITSS/"><img src="../static/img/icons/bitss.jpg" alt="BITSS"></a></td>
                     <td><span class="med-font"><strong>Berkeley Initiative for Transparency in the Social Sciences</strong></span><br>
                         BITSS works with COS to increase reproducibility and transparency in social sciences. BITSS provides workshops and training for social scientists, including instruction on using the <a href="https://osf.io">Open Science Framework</a>.
+                    </td>
+                </tr>    
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://www.busaracenter.org/"><img src="../static/img/icons/busara_center.png" alt="Busara Center for Behavioral Economics"></a></td>
+                    <td><span class="med-font"><strong>Busara Center for Behavioral Economics</strong></span><br>
+                        COS will support the Busara Center for Behavioral Economics research project, <a href="https://osf.io/yvhp2/">The Deliberative Lives Project</a>, on the <a href="http://osf.io">Open Science Framework </a>(OSF).
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
