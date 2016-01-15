@@ -51,9 +51,10 @@
                             <tr>
                                 <td>
                                     <p style="text-align:justify">
-                                        Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. Watch the intro video, <a data-tab-destination="tab-1">explore the background information</a>, and click “Begin a Preregistration” to launch the guided tutorial to plan your next study! </p>
+                                        Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research.
+                                        <br>
+                                          <p>Share <a href="https://osf.io/peut2/" target="_blank">this handout</a> for a brief overview and links to more information, and <a href="https://osf.io/login/?campaign=prereg" target="_blank">begin your preregistration today</a>!
                                     <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe></p>
-                                    <p>
                                 </td>
                             </tr>
                         </table>
@@ -66,10 +67,8 @@
                                 </a>
                                 </div>
                                 </div>
-                                <br><center>
-                                 See our <a href="https://www.google.com/calendar/embed?src=cos.io_e6filuk7e6nsgcble2ia9h86l4%40group.calendar.google.com&ctz=America/New_York" target="_blank">calendar</a> of regularly scheduled webinars, which will be held at <a href="https://cos.clickmeeting.com/prereg" target="_blank">cos.clickmeeting.com/prereg</a></center>
-
-
+                                <br>
+                        <p><center>See our <a href="https://www.google.com/calendar/embed?src=cos.io_e6filuk7e6nsgcble2ia9h86l4%40group.calendar.google.com&ctz=America/New_York" target="_blank">calendar</a> of regularly scheduled <a href="https://cos.clickmeeting.com/prereg" target="_blank">webinars</a>.</center>
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
