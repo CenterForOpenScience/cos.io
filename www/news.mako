@@ -37,6 +37,17 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2016-01-15"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">The Center for Open Science Announces Collaboration with the Busara Center for Behavioral Economics</h2>
+
+                    <p class="text-left">January 15, 2015 | The Center for Open Science (COS), a non-profit science and technology company, today announced a new collaboration with the Busara Center for Behavioral Economics (Busara), a behavioral economics research center located in Nairobi, Kenya. 
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "http://news.sciencemag.org/scientific-community/2016/01/cashing-transparency-science"><img src="../static/img/icons/Science.gif"
                     width="125">
 
