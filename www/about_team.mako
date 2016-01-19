@@ -239,23 +239,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/kugler.jpg" alt="Casey Kugler">
-            <h3>
-                Casey Kugler
-                <small>Recruiter | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">casey.ku<span style="display:none;">null</span>gler@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:pnfrl.xhtyre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://linkedin.com/in/ckugler" data-original-title="LinkedIn" class="linkedin"></a></li>
-                <li><a href="https://osf.io/d68e4/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://twitter.com/CaseyWithCOS" data-original-title="Twitter" class="twitter"></a></li>
-                
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/rollins.jpg" alt="Casey Rollins">
             <h3>
                 Casey Rollins
@@ -886,6 +869,23 @@
            </ul>
        </div>
    </li>
+   <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kugler.jpg" alt="Casey Kugler">
+            <h3>
+                Casey Kugler
+                <small>Recruiter | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">casey.ku<span style="display:none;">null</span>gler@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:pnfrl.xhtyre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="http://linkedin.com/in/ckugler" data-original-title="LinkedIn" class="linkedin"></a></li>
+                <li><a href="https://osf.io/d68e4/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://twitter.com/CaseyWithCOS" data-original-title="Twitter" class="twitter"></a></li>
+                
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/gineste.jpg" alt="Catherine Gineste">
