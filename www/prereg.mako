@@ -244,12 +244,15 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFive">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Will you review my submissions?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What is the difference between exploratory and confirmatory tests?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                 <div class="panel-body">
-                                                    Yes, we will review your research plans and your final, published article for completeness and adherence to Preregistration Challenge <a data-tab-destination="tab-3">eligibility requirements</a>. However, <strong>this is not peer review of the content or quality of your research</strong>.  Passing the Preregistration Challenge review process has no bearing on acceptance of your article at any journal. You can read more about the <a data-tab-destination="tab-6">review process here</a>.
+                                                    Exploratory and confirmatory research are both crucial to the process of science. In exploratory work, the researcher is looking for potential relationships within a dataset, effects of a candidate drug, or differences between two groups. The researcher wants to minimize the chance of making a Type II error, or a false negative, because finding something new and unexpected could be an important new discovery.</p>
+                                                    <p>In confirmatory work, the researcher is rigorously testing a predicted effect. The specific hypothesis is very clear, and she has specified one way to test that hypothesis. The goal of confirmatory research is to minimize the Type I error rate, or false positives.
+                                                    <p>The purpose of preregistration is to make sure the distinction between these two processes are very clear. Once a researcher begins to slightly change the way to test the hypothesis, the work should be considered exploratory. </p>
+                                                    <p>At least one confirmatory test must be specified in each preregistration.
                                                 </div>
                                             </div>
                                         </div>
