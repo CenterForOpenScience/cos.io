@@ -244,7 +244,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingFive">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What is the difference between exploratory and confirmatory tests?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What is the difference between exploratory and confirmatory research?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
