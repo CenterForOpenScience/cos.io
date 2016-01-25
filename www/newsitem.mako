@@ -4,6 +4,13 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2016-01-15/">
+                The Center for Open Science Announces Collaboration with the Busara Center for Behavioral Economics</a></h3>
+        </div>
+    </div>
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2016-01-05/">
                 The Center for Open Science Announces the Launch of the $1,000,000 Preregistration Challenge</a></h3>
         </div>
@@ -23,12 +30,7 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2015-11-23/">
-                Center for Open Science and The Center for Scientific Integrity Announce Partnership</a></h3>
-        </div>
-    </div>
+
 
 
 
