@@ -129,7 +129,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/chitakudige ramachandra.jpg" alt="Arpita Chitakudige Ramachandra">
+            <img src="../static/img/people/ramachandra.jpg" alt="Arpita Chitakudige Ramachandra">
             <h3>
                 Arpita Chitakudige Ramachandra
                 <small>Developer Intern | Infrastructure</small>
