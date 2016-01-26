@@ -151,6 +151,13 @@
                        UCR has partnered with COS on a campus-wide interdisciplinary project, Institutional Re-engineering Ethical Discourse in STEM (iREDS), to use the OSF in a randomized control trial (RCT) studying the effects of interventions in standard ethics training.
                     </td>
                 </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://research.nd.edu/"><img src="../static/img/icons/notredame_logo.jpg" alt="University of Notre Dame"></a></td>
+                    <td><span class="med-font"><strong>University of Notre Dame</strong></span><br>
+                        The University of Notre Dame and COS have partnered to advance open science initiatives by integrating Notre Dame services with the Open Science Framework (OSF). Notre Dame will adopt the OSF at the instutional level, OSF for Institutions. </a>
+                    </td>
+                </tr>
                 
             </table>
         <div class="row front-partners">

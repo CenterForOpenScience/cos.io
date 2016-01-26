@@ -37,6 +37,17 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2016-01-26"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">The Center for Open Science and the University of Notre Dame Partner to Advance Technologies That Support Long-Term Solutions for Open Science Initiatives</h2>
+
+                    <p class="text-left">January 26, 2016 | The Center for Open Science is pleased to announce a multi-year partnership with the University of Notre Dame to support long-term solutions for open science by integrating Notre Dame services with COS’s free, open source web application, the Open Science Framework (OSF).
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2016-01-15"><img src="../static/img/icons/cos_logo.png"
                     width="125">
 
