@@ -916,7 +916,7 @@
     </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/chitakudige ramachandra.jpg" alt="Arpita Chitakudige Ramachandra">
+            <img src="../static/img/people/ramachandra.jpg" alt="Arpita Chitakudige Ramachandra">
             <h3>
                 Arpita Chitakudige Ramachandra
                 <small>Developer Intern | Infrastructure</small>
@@ -1382,10 +1382,8 @@
             <h3>
                 Larry Banner
                 <small>Technical Project Manager | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lar<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:yneel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/lbanner" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/ygsav/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/lbanner" data-original-title="Twitter" class="twitter"></a></li>
@@ -1424,10 +1422,8 @@
             <h3>
                 Lyndsy Simon
                 <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">lynd<span style="display:none;">null</span>sy@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ylaqfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/amvr6/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -1503,10 +1499,8 @@
             <h3>
                 Natasha Welcher
                 <small>Software Quality Engineer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">nwelch<span style="display:none;">null</span>er@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ajrypure@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/NatashaRichter" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/dx56w/" data-original-title="osf" class="osf"></a></li>
             </ul>
