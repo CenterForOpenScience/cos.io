@@ -902,6 +902,74 @@
 ##        </div>
 ##    </div>
 ##</div>
+<div id="UXDesigner/Developer" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner/Developer_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#UX Designer/Developer" >
+                    UX Designer/Developer
+                </a>
+            </h4>
+        </div>
+        <div id="UX Designer/Developer" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The ideal candidate can work seamlessly with developers, product managers, and external partners to design and implement intuitive, and workable designs. You should have experience with responsive web design. Experience or interest in big data and data visualization is a big plus!.</p>
+                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Product design, code, and web pages</li>
+                            <li>Work closely with product to understand goals and metrics to improve product quality</li>
+                            <li>Iterate and refine UI and UX concepts for COS’s core products</li>
+                            <li>Take designs from conception to implementation with fellow developers</li>
+                            <li>Do rapid prototyping of new features</li>
+                            <li>Build high quality interfaces quickly and flexibly</li>
+                            <li>Write production ready CSS, HTML, and JavaScript</li>
+                            <li>Coordinate with API team to provide features needed</li>
+                            <li>Use APIs to connect to existing services and data</li>
+                            <li>Help fix bugs and continually improve our software</li>
+                        </ul>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Expertise in wireframing and prototyping techniques</li>
+                            <li>Expertise in hand-coded HTML, CSS and JavaScript</li>
+                            <li>Responsive design techniques</li>
+                            </ul>
+                    </dd>
+                    <dt>Preferred Skills</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Working knowledge of a server-side language </li>
+                            <li>Working with JavaScript SPA frameworks (e.g., Ember, React, Angular)</li>
+                            <li>Excellent time management skills</li>
+                            <li>Clear communication skills</li>
+                            <li>Big data visualization</li>
+                            </ul>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities.<a href="cos.io/jobs/#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position here. Questions about the position and COS are welcome and can be directed to jobs@cos.io. </a>.</p> 
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="WebDesignIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
