@@ -37,6 +37,17 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "https://www.timeshighereducation.com/news/scientists-offered-1-million-dollars-in-prizes-to-pre-register-experiments"><img src="../static/img/icons/THE.png"
+                    width="125">
+
+                    <h2 class="text-left">Scientists offered $1 million in prizes to pre-register experiments</h2>
+
+                    <p class="text-left">January 27, 2016 | Center for Open Science hopes initiative will make results more reproducible
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2016-01-26"><img src="../static/img/icons/cos_logo.png"
                     width="125">
 
