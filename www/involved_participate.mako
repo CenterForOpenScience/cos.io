@@ -105,6 +105,53 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/my3rx/" target="_blank">
+                        <img src="../static/img/people/ambassadors/callaghan.jpg" alt="Cameron Callaghan">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Cameron Callaghan
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Tulane School of Medicine
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/5fukm/" target="_blank">
+                        <img src="../static/img/people/ambassadors/Hartgerink.JPG" alt="Chris Hartgerink">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Chris Hartgerink
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Tilburg University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/7gzsb/" target="_blank">
                         <img src="../static/img/people/ambassadors/lortie.jpg" alt="Chris Lortie">
                     </a>
@@ -144,8 +191,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -163,6 +209,31 @@
             <tr>
                 <td class="ambassador-instit">
                     Oregon Health and Science University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/za8m3/" target="_blank">
+                        <img src="/static/img/people/ambassadors/castro.png" alt="Eleni Castro">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Eleni Castro
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Harvard University
                 </td>
             </tr>
         </table>
@@ -211,7 +282,7 @@
             </tr>
         </table>
     </td>
- </tr>
+</tr>
 <tr>
 
     <td class="ambassador-data">
@@ -461,6 +532,31 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/mztq9/" target="_blank">
+                        <img src="../static/img/people/ambassadors/tonsfeldt.jpg" alt="Karen Tonsfeldt">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Karen Tonsfeldt
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of California, San Diego
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/ph9rr/" target="_blank">
                         <img src="../static/img/people/ambassadors/corker.png" alt="Katie Corker">
                     </a>
@@ -478,9 +574,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
      <td class="ambassador-data">
         <table class="ambassador-box">
@@ -526,6 +619,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -548,9 +643,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -596,6 +688,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -617,9 +712,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -665,6 +757,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -686,9 +781,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -734,6 +826,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -755,9 +850,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
