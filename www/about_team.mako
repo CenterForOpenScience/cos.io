@@ -129,19 +129,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/ramachandra.jpg" alt="Arpita Chitakudige Ramachandra">
-            <h3>
-                Arpita Chitakudige Ramachandra
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/13687447" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/j9vqn/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/ferronato.jpg" alt="Betsy Ferronato">
             <h3>
                 Betsy Ferronato
@@ -924,6 +911,19 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/gxe9a/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/ramachandra.jpg" alt="Arpita Chitakudige Ramachandra">
+            <h3>
+                Arpita Chitakudige Ramachandra
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/13687447" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/j9vqn/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
