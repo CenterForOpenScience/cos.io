@@ -659,12 +659,12 @@
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceEngineer_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#QATestEngineer" >
+                <a  data-parent="#QualityAssuranceEngineer" >
                     Quality Assurance Engineer 
                 </a>
             </h4>
         </div>
-         <div id="Quality Assurance Engineer" class="panel-collapse collapse">
+         <div id="QualityAssuranceEngineer" class="panel-collapse collapse">
              <div class="panel-body">
                  <dl class="dl-horizontal">
                      <dt>Background</dt>
@@ -704,7 +704,7 @@
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceIntern_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#QATestEngineerIntern" >
+                <a  data-parent="#QualityAssuranceIntern" >
                     Quality Assurance Intern
                 </a>
             </h4>
@@ -902,17 +902,17 @@
 ##        </div>
 ##    </div>
 ##</div>
-<div id="UXDesigner/Developer" class="panel-group">
+<div id="UXDesigner" class="panel-group">
     <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner/Developer_heading">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner_heading">
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#UX Designer/Developer" >
+                <a data-parent="#UXDesigner" >
                     UX Designer/Developer
                 </a>
             </h4>
         </div>
-        <div id="UX Designer/Developer" class="panel-collapse collapse">
+        <div id="UXDesigner" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
