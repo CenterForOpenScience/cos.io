@@ -164,6 +164,34 @@ Fix grid offset used for reponsive layout handling(refer app.js=>handleResponsiv
 /***
 Misc tools
 ***/
+.beginprereg {
+    display:block;
+    width:100%;
+	white-space: normal;
+	margin-top: 40px;
+	font-size: 13px;
+	padding:7px 14px;
+	border-radius: 5px;
+	box-shadow: none !important;
+	outline: none !important;
+	text-shadow: none;
+	display: inline-block;
+	font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-bottom: 0;
+	background-color: #449d44;
+	border: 1px solid;
+	border-color:#398439;
+	color: white;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
 .clearfix {
   clear: both;
 }
