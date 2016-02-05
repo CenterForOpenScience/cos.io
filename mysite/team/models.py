@@ -80,10 +80,10 @@ class Team(models.Model):
         create = service.members().delete(groupKey=mail, memberKey=self.email)
         return create.execute()
 
-    def delete(self, using=None):
-        for group in self.mailing_lists.all():
-            self.remove_from_group(group)
-        return super(Team, self).delete()
+    # def delete(self, using=None):
+    #     for group in self.mailing_lists.all():
+    #         self.remove_from_group(group)
+    #     return super(Team, self).delete()
 
     def save(self, *args, **kwargs):
         found_id = self.id
@@ -93,9 +93,9 @@ class Team(models.Model):
                 'size': (self.original_image_width, self.original_image_height)
             }).name
         super(Team, self).save(*args, **kwargs)
-        all_emails = self.mailing_lists.all()
-        for email in all_emails:
-            self.add_to_group(email)
+        # all_emails = self.mailing_lists.all()
+        # for email in all_emails:
+        #     self.add_to_group(email)
         return None
 
     class Meta:
