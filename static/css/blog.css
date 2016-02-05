@@ -1,0 +1,85 @@
+.link{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.link:hover{
+    text-decoration:none;
+}
+
+.picture img{
+    max-width:100px;
+    max-height:100px;
+}
+
+.right{
+    float:right;
+}
+
+.holder{
+    margin-top:50px;
+}
+
+.rowPost{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.postContent{
+    padding-top:5px;
+}
+
+.blogContent{
+    padding-top:25px;
+    padding-bottom:50px;
+}
+
+.btn-sm{
+    float:right;
+    margin-top:75px;
+}
+
+.panel-default{
+    border:none;
+}
+
+.title{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.main-container{
+    margin-bottom:40px;
+}
+
+#comments{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.comments{
+    margin-top:10px;
+    margin-bottom:10px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-left:5px;
+    padding-bottom:20px;
+}
+
+form{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.form-group{
+    max-width:400px;
+}
+
+.blogButton{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.no-border{
+    border:none;
+}
