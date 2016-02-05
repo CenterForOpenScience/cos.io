@@ -10,19 +10,19 @@
 
 {% block content %}
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container pre-reg">
+<div class="page-container pre-reg" style="height:1451px;">
 
     <!-- BEGIN CONTAINER -->
     <div class="container min-height margin-top-50 col-md-12">
         <div class="center" >
         <h1>Journal Engagement with the Preregistration Challenge</h1><p>
         <h2>A community effort to increase transparency in scientific research.</h2>
-<img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="500px" class="margin-top-40">
+        <img src="/static/img/pics/pre-reg-flow-bold.png" alt="preregistration workflow" width="500px" class="margin-top-40">
         </div>
 
         <div class=" margin-top-30  margin-bottom-30">
-            <h2><strong>Journal eligibility for the <a href="{% url 'prereg' %}">Preregistration Challenge</a></strong></h2>
-            <p>One thousand researchers will <a href="{% url 'prereg' %}">win $1,000</a> each for publishing the results of preregistered research in an eligible journal. Authors conduct the preregistration and meet eligibility criteria independently of the journal and journal review process.  There is no additional work for journal staff.  However, to receive a prize, authors must publish in an <a href="/preregjournals" target="_blank">eligible journal</a>, as determined by the prize administrators at the Center for Open Science.  Eligible journals demonstrate commitments to open, transparent science and maintain rigorous peer review processes for publication.</p>
+            <h2><strong>Journal eligibility for the <a href="/prereg">Preregistration Challenge</a></strong></h2>
+            <p>One thousand researchers will <a href="/prereg">win $1,000</a> each for publishing the results of preregistered research in an eligible journal. Authors conduct the preregistration and meet eligibility criteria independently of the journal and journal review process.  There is no additional work for journal staff.  However, to receive a prize, authors must publish in an <a href="/preregjournals" target="_blank">eligible journal</a>, as determined by the prize administrators at the Center for Open Science.  Eligible journals demonstrate commitments to open, transparent science and maintain rigorous peer review processes for publication.</p>
 
             <p><h2><strong>Criteria for becoming an eligible journal</strong></h2></p>
 
@@ -44,7 +44,9 @@
 
     </div>
 </div>
+    </div>
 
 {% endblock %}
 
 {% block javascript_bottom %}{% endblock %}
+
