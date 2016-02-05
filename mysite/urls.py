@@ -9,7 +9,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from mysite.main.views import (AboutBoardPageView, AboutPageView, MissionPageView, PartnersPageView,
                                ServicePageView, GetInvolvedPageView, ApsPageView, CommunitiesPageView,
                                InvolvedParticipatesPageView, SponsorsPageView, StatsPageView, PrPageView,
-                               PreregPageView, TeamPageView, JobsPageView, NewsPageView, OsfPageView,
+                               PreregPageView, PreRegJournalsPageView, TeamPageView, JobsPageView, NewsPageView, OsfPageView,
                                TopPageView, JournalPageView)
 
 admin.autodiscover()
@@ -47,6 +47,7 @@ urlpatterns += patterns('',
     url(r'^(?i)involved_participate$', InvolvedParticipatesPageView.as_view(), name='involved_participate'),
     url(r'^(?i)journals$', JournalPageView.as_view(), name ='journals'),
     url(r'^(?i)prereg$', PreregPageView.as_view(), name ='prereg'),
+    url(r'^(?i)preregjournals$', PreRegJournalsPageView.as_view(), name ='preregjournals'),
     # Urls for authenticating with Oauth2
     (r'^accounts/login/$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
     (r'^accounts/confirm/$', 'mysite.mailing_list.views.index'),

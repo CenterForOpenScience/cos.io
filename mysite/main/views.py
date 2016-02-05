@@ -168,6 +168,15 @@ class PreregPageView(generic.TemplateView):
         return context
 
 
+class PreRegJournalsPageView(generic.TemplateView):
+    template_name = 'page/preregjournals.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(PreRegJournalsPageView, self).get_context_data(**kwargs)
+        context['page'] = Pages.objects.filter(slug=u'preregjournals')
+        return context
+
+
 class ServicePageView(generic.TemplateView):
     template_name = 'page/service.html'
 
