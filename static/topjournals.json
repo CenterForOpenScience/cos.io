@@ -813,15 +813,15 @@
   },
   {
     "Journal Title":"Weather and Forecasting",
-    "Publisher":"American Meteorlogical Society",
-    "Association":"American Meteorlogical Society",
+    "Publisher":"American Meteorological Society",
+    "Association":"American Meteorological Society",
     "Subject Area":"Earth and Planetary Sciences",
     "FIELD5":""
   },
   {
     "Journal Title":"Weather, Climate, and Society",
-    "Publisher":"American Meteorlogical Society",
-    "Association":"American Meteorlogical Society",
+    "Publisher":"American Meteorological Society",
+    "Association":"American Meteorological Society",
     "Subject Area":"Earth and Planetary Sciences | Environmental Science | Social Sciences",
     "FIELD5":""
   },
@@ -3679,6 +3679,90 @@
     "Publisher":"Pensoft Publishers",
     "Association":"",
     "Subject Area":"Multidisciplinary",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Proceedings of the Royal Society A: Mathematical, Physical, and Engineering Sciences",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Engineering | Mathematics | Physics and Astronomy",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Proceedings of the Royal Society B: Biological Sciences",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Immunology and Microbiology | Agricultural and Biological Sciences | Environmental Science | Medicine | Biochemistry, Genetics and Molecular Biology",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Philosophical Transactions of the Royal Society A: Mathematical, Physical & Engineering Sciences",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Engineering | Mathematics | Physics and Astronomy",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Journal of the Royal Society Interface",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Engineering | Biochemistry, Genetics and Molecular Biology | Materials Science | Chemical Engineering",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Biology Letters",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Open Biology",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Immunology and Microbiology | Neuroscience",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Royal Society Open Science",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Multidisciplinary",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Interface Focus",
+    "Publisher":"The Royal Society",
+    "Association":"",
+    "Subject Area":"Biochemistry, Genetics and Molecular Biology | Engineering | Materials Science | Chemical Engineering",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"European Journal of Neuroscience",
+    "Publisher":"Wiley",
+    "Association":"Federation of European Neuroscience Societies",
+    "Subject Area":"Neuroscience",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Sciencematters",
+    "Publisher":"Sciencematters",
+    "Association":"",
+    "Subject Area":"Agricultural and Biological Sciences | Biochemistry, Genetics and Molecular Biology | Chemistry | Medicine",
+    "FIELD5":""
+  },
+  {
+    "Journal Title":"Journal of Social Psychology",
+    "Publisher":"Taylor and Francis",
+    "Association":"",
+    "Subject Area":"Psychology",
     "FIELD5":""
   }
 ]
