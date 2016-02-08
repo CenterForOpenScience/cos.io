@@ -40,7 +40,7 @@
                     <li><a id="tab-6" href="#six" data-toggle="tab">Review Process</a></li>
                 </ul>
                 <a href="https://osf.io/login/?campaign=prereg" target="_blank">
-                    <button width="170px" class="beginprereg">Begin a Preregistration</button>
+                    <button width="170px" class="beginprereg" style=" width:100%; white-space:normal;  margin-top:40px; font-size:13px; padding:7px 14px; box-shadow: none !important; outline: none !important; text-shadow: none; display: inline-block; font-weight: normal; line-height: 1.428571429; text-align: center; vertical-align: middle; cursor: pointer; margin-bottom: 0; background-color: #449d44; border: 1px solid;  border-color:#398439; color: white; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none;">Begin a Preregistration</button>
                 </a>
             </div>
             <div class="col-sm-8 col-sm-offset-1 ">
@@ -64,7 +64,7 @@
                                 <a href="https://twitter.com/share?url=cos.io&via=OSFramework&text="
                                    onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
                                    target="_blank" title="Share on Twitter">
-                                    <img src="{% static 'img/tweet_prereg.png' %}" class="twitter_button">
+                                    <img src="static/img/tweet_prereg.png" class="twitter_button" style="margin-top: 15px; margin-left: 55px; max-width: 250px;">
                                 </a>
                                 </div>
                                 </div>
@@ -139,7 +139,7 @@
                                     <h3>See the whole process in this guided tour:</p></h3>
                                         <div style="text-align: center;">
                                             <a href="https://prezi.com/hhyxxh0w4d8e/the-pre-reg-challenge/" target="_blank">
-                                            <img src="{% static 'img/pics/preregchallengeprezi.png' %}" alt="preregistration workflow" width="600px">
+                                            <img src="static/img/pics/preregchallengeprezi.png" alt="preregistration workflow" width="600px">
                                             </a>
                                         </div>
                                 </td>
@@ -567,6 +567,6 @@
         })
       });
     </script>
-    <script src="{% static 'scripts/bootstrap-table.js' %}"></script>
+    <script src="static/scripts/bootstrap-table.js"></script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 {% endblock %}
