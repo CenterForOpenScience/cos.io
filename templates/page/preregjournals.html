@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block title %}Preregistration Challenge Journals{% endblock %}
 {% block description %} Journals eligible for the Preregistration Challenge{% endblock %}
-
 {% block navlinks %}{% with 'service' as nav %}
         {{ block.super }}
 {% endwith %}{% endblock %}
 
 {% block stylesheets %}
-    <link href="{% static 'css/bootstrap-table.css' %}" rel="stylesheet" >
+    <link href="static/css/bootstrap-table.css" rel="stylesheet" >
 {% endblock %}
 
 {% block content %}
@@ -28,10 +28,6 @@
               <p>If a journal relevant to your research does not appear on this list, you can assist in helping it become an eligible journal by encouraging the publisher or editor to take concrete steps to improve transparency and reproducibility such as signing the <a href="/top" target="_blank">TOP Guidelines</a>, making <a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> a submission option, and adopting <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">badges to acknowledge open practices</a>. </p>Here is more information on <a href="/getlisted" target="_blank">efforts to expand the list of eligible journals</a>.</p>
             </div>
             <div class="col-md-12 space-mobile">
-
-                  ##  <ul class="nav nav-tabs">
-                  ##      <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (510)</b></a></li>
-                  ##  </ul>
 
                     <div class="tab-content">
                         <div id="journals" class="tab-pane fade in active">
