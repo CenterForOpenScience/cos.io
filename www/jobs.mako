@@ -153,10 +153,10 @@
                     <dd>
                         <ul class="indent">
                             <li>Python</li>
-                            <li>Python web frameworks(e.g., Flask,Tornado,Django)</li>
+                            <li>Python web frameworks(e.g., Flask, Tornado, Django)</li>
                             <li>Git</li>
                             <li>Javascript</li>
-                            <li>Javascript frameworks(Kockout,Ember,Angular</li>
+                            <li>Javascript frameworks(Knockout, Ember, Angular)</li>
                             <li>NoSQL databases</li>
                             <li>REST API development</li>
                         </ul>
