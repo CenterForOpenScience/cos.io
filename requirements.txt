@@ -49,3 +49,4 @@ tweepy==3.4.0
 tzlocal==1.2
 uritemplate==0.6
 wheel==0.24.0
+gevent==1.0.2
