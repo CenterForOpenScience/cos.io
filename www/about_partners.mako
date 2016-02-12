@@ -101,7 +101,7 @@
                 <tr>
                     <td class="sponsor-center"><a href="https://okfn.org/"><img src="../static/img/icons/openknowledge.jpg" alt="OKFN"></a></td>
                     <td><span class="med-font"><strong>Open Knowledge</strong></span><br>
-                        Open Knowledge has partnered with COS on the development of <a href="http://okfnlabs.org/opentrials/">Open Trials</a>, an online database of the world's clinical research trials. This project will utilize the <a href="https://osf.io">Open Science Framework</a> infrastructure to advance transparency and public access to clinical research trials information.
+                        Open Knowledge has partnered with COS on the development of <a href="http://opentrials.net/">Open Trials</a>, an online database of the world's clinical research trials. This project will utilize the <a href="https://osf.io">Open Science Framework</a> infrastructure to advance transparency and public access to clinical research trials information.
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
