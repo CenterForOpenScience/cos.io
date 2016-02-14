@@ -142,6 +142,22 @@
                                                 Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
                                                 </td>
                                             </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center" ></td>
+                                                <td><span class="med-font"><strong>Grimm-Huang Charitable Fund</strong></span><br>
+                                                <strong>$18,000</strong><br>
+                                                The Grimm-Huang Charitable Fund gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center" ><a href="http://www.psichi.org/"><img src="/static/img/icons/psichi.png"></a></td>
+                                                <td><span class="med-font"><strong>Psi Chi</strong></span><br>
+                                                <strong>$12,000</strong><br>
+                                                The Psi Chi International Honor Society in Psychology gave funds to support student participation in the Collaborative Replication and Education Project.</a><br>
+                                                </td>
+                                            </tr>
                                         </table>
                                         <div id="in-kind" class="margin-top-100">
                                             <h3><strong>In-Kind Donations</strong></h3>
@@ -356,6 +372,13 @@
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"></td>
+                                                <td><span class="med-font"><strong>The National Philanthropic Trust</strong></span><br>
+                                                <strong>$5,000</strong><br>
+                                                The National Philanthropic Trust made an unrestricted donation to support COS initiatives.<br>
+                                                </td>
+                                            </tr>
                                         </table>
                                         <div id="in-kind" class="margin-top-100">
                                             <h3><strong>In-Kind Donations</strong></h3>
