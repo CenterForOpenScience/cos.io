@@ -128,10 +128,10 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
-                                                <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
+                                                <td class="sponsor-center" ><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a><a href="http://www.imls.gov/"><img src="/static/img/icons/imls.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation and the Institute of Museum and Library Services</strong></span><br>
                                                 <strong>$152,386</strong><br>
-                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
+                                                The Alfred P. Sloan Foundation and the Institute of Museum and Library Services awarded COS a subcontract via the Association of Research Libraries to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -325,10 +325,10 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
-                                                <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br/>
-                                                <strong>$386,233</strong><br/>
-                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br/>
+                                                <td class="sponsor-center" ><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a><a href="http://www.imls.gov/"><img src="/static/img/icons/imls.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation and the Institute of Museum and Library Services</strong></span><br>
+                                                <strong>$386,233</strong><br>
+                                                The Alfred P. Sloan Foundation and the Institute of Museum and Library Services awarded COS a subcontract to partner with the Association of Research Libraries to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -465,10 +465,10 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
-                                                <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br/>
-                                                <strong>$660,953</strong><br/>
-                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br/>
+                                                <td class="sponsor-center" ><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a><a href="http://www.imls.gov/"><img src="/static/img/icons/imls.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation and the Institute of Museum and Library Services</strong></span><br>
+                                                <strong>$660,953</strong><br>
+                                                The Alfred P. Sloan Foundation and the Institute of Museum and Library Services awarded COS a subcontract to partner with the Association of Research Libraries to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
