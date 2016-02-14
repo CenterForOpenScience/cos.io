@@ -515,7 +515,7 @@
                                                 <td class="sponsor-center"><a href="http://www.nsf.gov"><img src="/static/img/icons/nsf.jpg"></a></td>
                                                 <td><span class="med-font"><strong>National Science Foundation</strong></span><br>
                                                 <strong>$230,438</strong><br>
-                                                The National Science Foundation awarded subcontracts via the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online, and from <a href="https://www.whitman.edu/">Whitman College</a> to collaborate on a two-day meeting at COS for development of editorial and funding policies to improve inference in evolutionary biology and ecology. <br>
+                                                The National Science Foundation awarded subcontracts via the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
