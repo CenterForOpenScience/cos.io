@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 DEBUG = True
 
 # Make these unique, and don't share it with anybody.
-SECRET_KEY = ""
-NEVERCACHE_KEY = ""
+SECRET_KEY = "changeme"
+NEVERCACHE_KEY = "changeme"
 
 DATABASES = {
     "default": {
