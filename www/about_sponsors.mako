@@ -37,6 +37,10 @@
                             <div class="portlet-tabs">
                                 <ul class="nav nav-tabs">
                                     <li class="active">
+                                        <a href="#year_2016" data-toggle="tab">
+                                        2016 </a>
+                                    </li>
+                                    <li>
                                         <a href="#year_2015" data-toggle="tab">
                                         2015 </a>
                                     </li>
@@ -55,7 +59,7 @@
                                             <tr>
                                                 <td class="sponsor-center"><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$2,166,125</strong><br>
+                                                <strong>$2,532,767</strong><br>
                                                 The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             <tr class="spacer"></tr>
@@ -94,7 +98,7 @@
                                             <tr>
                                                 <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$2,174,625</strong><br>
+                                                <strong>$2,262,712</strong><br>
                                                 The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             </tr>
@@ -124,10 +128,10 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
-                                                <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br>
+                                                <td class="sponsor-center" ><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a><a href="http://www.imls.gov/"><img src="/static/img/icons/imls.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation and the Institute of Museum and Library Services</strong></span><br>
                                                 <strong>$152,386</strong><br>
-                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
+                                                The Alfred P. Sloan Foundation and the Institute of Museum and Library Services awarded COS a subcontract via the Association of Research Libraries to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -136,6 +140,22 @@
                                                 <td><span class="med-font"><strong>Science Exchange</strong></span><br>
                                                 <strong>$35,000</strong><br>
                                                 Science Exchange gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center" ></td>
+                                                <td><span class="med-font"><strong>Grimm-Huang Charitable Fund</strong></span><br>
+                                                <strong>$18,000</strong><br>
+                                                The Grimm-Huang Charitable Fund gave funds to support the <a href="https://osf.io/e81xl/">Reproducibility Project: Cancer Biology.</a><br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center" ><a href="http://www.psichi.org/"><img src="/static/img/icons/psichi.png"></a></td>
+                                                <td><span class="med-font"><strong>Psi Chi</strong></span><br>
+                                                <strong>$12,000</strong><br>
+                                                The Psi Chi International Honor Society in Psychology gave funds to support student participation in the Collaborative Replication and Education Project.</a><br>
                                                 </td>
                                             </tr>
                                         </table>
@@ -299,12 +319,10 @@
                                                     Use of recruitment services for developers and statistical consultants<br>
                                                     </td>
                                                 </tr>
-
                                             </table>
-
                                         </div>
                                     </div>
-                                    <div class="tab-pane active" id="year_2015">
+                                    <div class="tab-pane" id="year_2015">
                                         <table>
                                             <tr>
                                                 <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
@@ -323,26 +341,26 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center" ><a href="http://www.arl.org/"><img src="/static/img/icons/arl2.jpg"></a></td>
-                                                <td><span class="med-font"><strong>Association of Research Libraries</strong></span><br/>
-                                                <strong>$386,233</strong><br/>
-                                                The Association of Research Libraries selected COS to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br/>
+                                                <td class="sponsor-center" ><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a><a href="http://www.imls.gov/"><img src="/static/img/icons/imls.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation and the Institute of Museum and Library Services</strong></span><br>
+                                                <strong>$386,233</strong><br>
+                                                The Alfred P. Sloan Foundation and the Institute of Museum and Library Services awarded COS a subcontract to partner with the Association of Research Libraries to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center"><a href="http://www.nia.nih.gov/"><img src="/static/img/icons/nia.gif"></a></td>
-                                                <td><span class="med-font"><strong>National Institute on Aging</strong></span><br>
-                                                <strong>$215,148</strong><br>
-                                                The National Institute on Aging awarded COS a grant to focus on adoption of practices and incentives for the aging community.<br>
+                                                <td class="sponsor-center"><a href="http://www.nih.gov/"><img src="/static/img/icons/nih.png"></a></td>
+                                                <td><span class="med-font"><strong>National Institutes of Health</strong></span><br>
+                                                <strong>$244,489</strong><br>
+                                                The National Institute on Aging awarded COS a grant to focus on adoption of practices and incentives for the aging community, and the National Institute on Mental Health awarded a subcontract via <a href="http://www.prometheusresearch.com/">Prometheus Research</a> to collaborate on the integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
                                                 <td class="sponsor-center"><a href="http://www.nsf.gov"><img src="/static/img/icons/nsf.jpg"></a></td>
                                                 <td><span class="med-font"><strong>National Science Foundation</strong></span><br>
-                                                <strong>$100,150</strong><br>
-                                                Subcontract from the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online.<br>
+                                                <strong>$133,456</strong><br>
+                                                The National Science Foundation awarded subcontracts via the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online, and from <a href="https://www.whitman.edu/">Whitman College</a> to collaborate on a two-day meeting at COS for development of editorial and funding policies to improve inference in evolutionary biology and ecology. <br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -355,18 +373,149 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center"><a href="http://www.nsf.gov"><img src="/static/img/icons/nsf.jpg"></a></td>
-                                                <td><span class="med-font"><strong>National Science Foundation</strong></span><br>
-                                                <strong>$29,973</strong><br>
-                                                Subcontract from <a href="https://www.whitman.edu/">Whitman College</a> to collaborate on a two-day meeting at COS for development of editorial and funding policies to improve inference in evolutionary biology and ecology.<br>
+                                                <td class="sponsor-center"></td>
+                                                <td><span class="med-font"><strong>The National Philanthropic Trust</strong></span><br>
+                                                <strong>$5,000</strong><br>
+                                                The National Philanthropic Trust made an unrestricted donation to support COS initiatives.<br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div id="in-kind" class="margin-top-100">
+                                            <h3><strong>In-Kind Donations</strong></h3>
+                                            <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
+                                            <table  class="margin-top-50 donation-table">
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.atcc.org/"><img src="/static/img/icons/atcc.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>ATCC</strong></span><br>
+                                                    Reagents for Reproducibility Project: Cancer Biology
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="buffer"><a href="http://www.bufferapp.com/"><img src="/static/img/icons/buffer.png"></a></td>
+                                                    <td><span class="med-font"><strong>Buffer</strong></span><br>Discount for social media scheduling services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" ><a href="http://www.dreamhost.com/"><img src="/static/img/icons/dreamhost.png"></a></td>
+                                                    <td><span class="med-font"><strong>Dreamhost</strong></span><br>
+                                                    Free <a href="http://wiki.dreamhost.com/Non-profit_Discount">services for non-profits</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="square"><a href="https://www.flowdock.com/"><img src="/static/img/icons/flowdock-logo.png"></a></td>
+                                                    <td><span class="med-font"><strong>Flowdock</strong></span><br>
+                                                    Free access to their <a href="http://flowdock.com">team chat and collaboration</a> application<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="google"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
+                                                    <td><span class="med-font"><strong>Github</strong></span><br>
+                                                    Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="google"><a href="http://www.google.com"><img src="/static/img/icons/google2.png"></a></td>
+                                                    <td><span class="med-font"><strong>Google</strong></span><br>
+                                                    <a href="http://www.google.com/nonprofits/products/">Google Apps for non-profits</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer-small"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>JetBrains</strong></span><br>
+                                                    Professional editions of <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> and <a href="http://www.jetbrains.com/webstorm/">Webstorm</a> via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="mailchimp"><a href="http://www.mailchimp.com/"><img src="/static/img/icons/mailchimp.png"></a></td>
+                                                    <td><span class="med-font"><strong>Mailchimp</strong></span><br>Discount for email list subscription services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="rackspace"><a href="http://www.rackspace.com/"><img src="/static/img/icons/rackspace.png"></a></td>
+                                                    <td><span class="med-font"><strong>Rackspace</strong></span><br>Monthly credit for cloud services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="runscope"><a href="http://www.runscope.com/"><img src="/static/img/icons/runscope.png"></a></td>
+                                                    <td><span class="med-font"><strong>Runscope</strong></span><br>Monthly credit for use of API<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="http://www.salesforce.com/desk/overview/"><img src="/static/img/icons/salesforce-desk.png"></a></td>
+                                                    <td><span class="med-font"><strong>Salesforce</strong></span><br>Non-profit discount for <a href="http://www.desk.com/">desk.com</a> through the Salesforce.com Foundation's <a href="http://www.salesforcefoundation.org/power-of-us/">Power of Us program</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="https://www.sigmaaldrich.com"><img src="/static/img/icons/sigma-aldrich.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>Sigma-Aldrich</strong></span><br>
+                                                   Reagents for Reproducibility Project: Cancer Biology<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="spanning"><a href="http://www.spanning.com/"><img src="/static/img/icons/spanning.png"></a></td>
+                                                    <td><span class="med-font"><strong>Spanning</strong></span><br>Non-profit discount on "Backup For Google Apps"<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="https://teamgantt.com/"><img src="/static/img/icons/teamgantt.jpg"></a></td>
+                                                    <td><span class="med-font"><strong>TeamGantt</strong></span><br>
+                                                   Expansion of plan to accommodate more team members<br>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane active" id="year_2016">
+                                        <table>
+                                            <tr>
+                                                <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
+                                                <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
+                                                <strong>$2,632,703</strong><br>
+                                                The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
-                                                <td class="sponsor-center"><a href="http://www.nimh.nih.gov/index.shtml"><img src="/static/img/icons/nimh.gif"></a></td>
-                                                <td><span class="med-font"><strong>National Institute of Mental Health</strong></span><br>
-                                                <strong>$29,341</strong><br>
-                                                Subcontract from <a href="http://www.prometheusresearch.com/">Prometheus Research</a> to collaborate on the integration of the OSF and the <a href='http://www.rexdb.org/'>Research Exchange Database</a> to create a library of Electronic Data Capture (EDC) instruments.<br>
+                                                <td class="sponsor-center" ><a href="http://www.sloan.org/"><img src="/static/img/sloan.png"></a><a href="http://www.imls.gov/"><img src="/static/img/icons/imls.png"></a></td>
+                                                <td><span class="med-font"><strong>Alfred P. Sloan Foundation and the Institute of Museum and Library Services</strong></span><br>
+                                                <strong>$660,953</strong><br>
+                                                The Alfred P. Sloan Foundation and the Institute of Museum and Library Services awarded COS a subcontract to partner with the Association of Research Libraries to build the SHARE notification system, which will use the OSF to provide notice that research is available to the public.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://www.templeton.org/"><img src="/static/img/templeton.png"></a></td>
+                                                <td><span class="med-font"><strong>John Templeton Foundation</strong></span><br>
+                                                <strong>$379,774</strong><br>
+                                                The John Templeton Foundation awarded COS a grant to increase scientific openness and integrity and to dramatically expand the features and connectivity of the OSF.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://www.nih.gov/"><img src="/static/img/icons/nih.png"></a></td>
+                                                <td><span class="med-font"><strong>National Institutes of Health</strong></span><br>
+                                                <strong>$235,728</strong><br>
+                                                The National Institute on Aging awarded COS a grant to focus on adoption of practices and incentives for the aging community.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                           <tr>
+                                                <td class="sponsor-center"><a href="http://www.nsf.gov"><img src="/static/img/icons/nsf.jpg"></a></td>
+                                                <td><span class="med-font"><strong>National Science Foundation</strong></span><br>
+                                                <strong>$230,438</strong><br>
+                                                The National Science Foundation awarded subcontracts via the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -446,7 +595,6 @@
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
-                                                <tr class="spacer"></tr>
                                                 <tr>
                                                     <td class="sponsor-center"><a href="https://www.sigmaaldrich.com"><img src="/static/img/icons/sigma-aldrich.jpg"></a></td>
                                                     <td><span class="med-font"><strong>Sigma-Aldrich</strong></span><br>
@@ -454,17 +602,9 @@
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
-                                                <tr class="spacer"></tr>
                                                 <tr>
                                                     <td class="sponsor-center" id="spanning"><a href="http://www.spanning.com/"><img src="/static/img/icons/spanning.png"></a></td>
                                                     <td><span class="med-font"><strong>Spanning</strong></span><br>Non-profit discount on "Backup For Google Apps"<br>
-                                                    </td>
-                                                </tr>
-                                                <tr class="spacer"></tr>
-                                                <tr>
-                                                    <td class="sponsor-center"><a href="https://teamgantt.com/"><img src="/static/img/icons/teamgantt.jpg"></a></td>
-                                                    <td><span class="med-font"><strong>TeamGantt</strong></span><br>
-                                                   Expansion of plan to accommodate more team members<br>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -474,7 +614,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div id="donations" class="margin-top-100">
                     <h3><strong>Want to make a donation?</strong></h3>
