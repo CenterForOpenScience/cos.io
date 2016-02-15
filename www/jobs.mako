@@ -254,7 +254,7 @@
                      <dt>Benefits</dt>
                      <dd>
                          <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
-                         <p>COS interns who have to relocate to Charlottesville will be eligible for reimbursement up to $250 for pre-approved travel costs (including rental car, taxi, plane, train, hotel, or mileage if using a personal vehicle). COS will assist interns with locating temporary housing in the area as well. Please refer to this relocation document for helpful tips on moving to Charlottesville for the summer.</p>
+                         <p>COS interns who have to relocate to Charlottesville will be eligible for reimbursement up to $250 for pre-approved travel costs (including rental car, taxi, plane, train, hotel, or mileage if using a personal vehicle). COS will assist interns with locating temporary housing in the area as well. Please refer to this <a href="https://docs.google.com/document/d/15Is2UYippPBTJLZ4iCu5bADDMA93w1ssGwz55QzBJaY/edit">relocation document</a> for helpful tips on moving to Charlottesville for the summer.</p>
                     </dd>
                     <dt>Applying</dt><dd>
                     <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
