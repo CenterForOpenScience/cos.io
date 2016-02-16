@@ -310,7 +310,7 @@
                                 Joshua M. Greenberg<br>
                                 <small><b>Director, Alfred P. Sloan Foundation's Digital Information Technology Program</b></small>
                             </h3>
-                            <h5>Term: 2013-2016</h5>
+                            <h5>Term: 2013-2016, <i>ex officio</i></h5>
 
                             <div class="row-fluid summary">
                                 <div class="span21">
