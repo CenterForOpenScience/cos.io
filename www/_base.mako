@@ -42,9 +42,10 @@
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/involved_participate#tab_1">Ambassadors</a></li>
-                        <li><a href="/involved_participate#tab_2">Scientists</a></li>
-                        <li><a href="/involved_participate#tab_4">Developers</a></li>
+                        <li><a href="/involved_participate#tab_1">Research Institutions</a></li>
+                        <li><a href="/involved_participate#tab_2">Ambassadors</a></li>
+                        <li><a href="/involved_participate#tab_4">Scientists</a></li>
+                        <li><a href="/involved_participate#tab_5">Developers</a></li>
                         <li><a href="/jobs">Jobs</a></li>
                     </ul>
                 </li>
