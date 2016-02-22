@@ -98,6 +98,7 @@
                 </div>
                 <p>COS empowers scientists to make their work more accessible and reproducible, and includes researchers in communities studying, training, or changing research practices. <a href="/involved_participate/#tab_2">Explore simple steps toward open science.</a></p>
             </div>
+            </div>
             <div class="col-md-6 col-sm-6">
                 <div class="service-box-heading">
                     <i class="fa fa-book blue"></i><br>
