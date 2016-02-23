@@ -163,7 +163,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="cos.io/jobs/#benefits">Discover more about our office perks</a>.</p>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -398,8 +398,8 @@
                     <dd>
                         <ul class="indent">
                             <li>Javascript</li>
-                            <li>Javascript Frameworks(e.g., Knockout,React,Ember,Angular)</li>
-                            <li>Web technologies like REST,HTTP,JSON</li>
+                            <li>Javascript Frameworks(e.g., Knockout, React, Ember, Angular)</li>
+                            <li>Web technologies like REST, HTTP, JSON</li>
                             <li>HTML/CSS</li>
                         </ul>
                     </dd>
@@ -414,7 +414,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="cos.io/jobs/#benefits">Discover more about our office perks</a>.</p>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -714,7 +714,7 @@
                  <dl class="dl-horizontal">
                      <dt>Background</dt>
                     <dd>
-                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="osf.io">Open Science Framework.</a></p>
+                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="http://osf.io">Open Science Framework</a>.</p>
                      </dd>
                      <dd>
                          <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing.</a></p>
@@ -959,12 +959,11 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities.<a href="cos.io/jobs/#benefits">Discover more about our office perks</a>.</p>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
-                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/ace26dc6-1afa-4c22-b93a-98760faf4a27">here</a>. Questions about the position and COS are welcome and can be directed to jobs@cos.io. </a>.</p> 
-                    </dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/ace26dc6-1afa-4c22-b93a-98760faf4a27">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
                 </dl>
             </div>
         </div>
