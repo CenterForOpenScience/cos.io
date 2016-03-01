@@ -68,7 +68,7 @@
                                 </div>
                                 </div>
                                 <br>
-                        <p><center>See our <a href="https://www.google.com/calendar/embed?src=cos.io_e6filuk7e6nsgcble2ia9h86l4%40group.calendar.google.com&ctz=America/New_York" target="_blank">calendar</a> of regularly scheduled <a href="https://cos.clickmeeting.com/prereg" target="_blank">webinars</a>.</center>
+                      ##  <p><center>See our <a href="https://www.google.com/calendar/embed?src=cos.io_e6filuk7e6nsgcble2ia9h86l4%40group.calendar.google.com&ctz=America/New_York" target="_blank">calendar</a> of regularly scheduled <a href="https://cos.clickmeeting.com/prereg" target="_blank">webinars</a>.</center>
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
