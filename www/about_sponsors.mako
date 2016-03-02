@@ -607,6 +607,13 @@
                                                     <td><span class="med-font"><strong>Spanning</strong></span><br>Non-profit discount on "Backup For Google Apps"<br>
                                                     </td>
                                                 </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center"><a href="https://tenable.com/"><img src="/static/img/icons/tenable.png"></a></td>
+                                                    <td><span class="med-font"><strong>Tenable</strong></span><br>
+                                                   Complimentary Nessus <a href="http://www.tenable.com/about-tenable/tenable-in-the-community/tenable-charitable-organization-subscription-program">subscription for qualified organizations</a><br>
+                                                    </td>
+                                                </tr>
                                             </table>
                                         </div>
                                     </div>
