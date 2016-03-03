@@ -7,7 +7,7 @@ Our mission is to increase the openness, integrity, and reproducibility of scien
 
 In this document, we use "you" to refer to researchers and other users of our Websites and Services.  We do not collect any personally identifiable information about you when you visit our Websites unless you choose to provide us with that information.  We do not collect information from you for commercial marketing or any other purpose unrelated to our purpose.
 
-Our goal is to provide you with a personalized online experience that provides you with the information, resources, and services that are most relevant and helpful to you. This Privacy Policy has been written to describe the conditions under which our Websites and Services are made available to you.  Our Privacy Policy discusses, among other things, how data obtained during your visits to our Websites may be collected and used. Our Privacy Policy also discusses important limitations tothe way you may use materials and services you find on the site.  Read the Privacy Policy carefully. By using this site, you will be deemed to have accepted the terms of this Policy.  If you do not agree to accept the terms of the Privacy Policy, you are directed to discontinue accessing or otherwise using the site or any materials obtained from it. 
+Our goal is to provide you with a personalized online experience that provides you with the information, resources, and services that are most relevant and helpful to you. This Privacy Policy has been written to describe the conditions under which our Websites and Services are made available to you.  Our Privacy Policy discusses, among other things, how data obtained during your visits to our Websites may be collected and used. Our Privacy Policy also discusses important limitations to the way you may use materials and services you find on the site.  Read the Privacy Policy carefully. By using this site, you will be deemed to have accepted the terms of this Policy.  If you do not agree to accept the terms of the Privacy Policy, you are directed to discontinue accessing or otherwise using the site or any materials obtained from it. 
 
 We protect your personal information using industry-standard safeguards. We may share your information with your consent or as required by law as detailed in this policy, and we will let you know when we make changes to this Privacy Policy by posting changes to the site.
 
@@ -17,7 +17,7 @@ We protect your personal information using industry-standard safeguards. We may 
 
 2. **SITES COVERED BY THIS PRIVACY POLICY**
 
-  This Privacy Policy applies to the COS Websites located at [centerforopenscience.org](http://centerforopenscience.org) and [osf.io.](http://www.osf.io) Our privacy practices are based on twothree levels of openness and privacy, which are set by the Administrator of each Project, namely, public , limited access, and private access. These levels of privacy are described in Section 11 of this Policy.  
+  This Privacy Policy applies to the COS Websites located at [centerforopenscience.org](http://centerforopenscience.org) and [osf.io.](http://www.osf.io) Our privacy practices are based on two three levels of openness and privacy, which are set by the Administrator of each Project, namely, public , limited access, and private access. These levels of privacy are described in Section 11 of this Policy.  
 
 3. **CHANGES TO THIS PRIVACY POLICY**
 
