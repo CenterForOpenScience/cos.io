@@ -23,11 +23,8 @@
         <div class="community-content">
             <div class="row">
                 <div class="col-sm-12 margin-top-20">
-                    <h1><strong>COS Communities</strong></h1>
-                    <p class="lead">COS Communities blur the boundary between COS and the many individual and organizational
-                    contributors to improving scientific practices. COS Communities form around particular products or services
-                    to define specifications, maximize applicability, promote adoption, and facilitate evaluation and improvement.
-                    Click below to learn more about each COS Community to use their work or get involved.</p>
+                    <h1><strong>Contact Us</strong></h1>
+                    <p class="lead">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
                 </div>
             </div>
 
