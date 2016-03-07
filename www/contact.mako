@@ -84,6 +84,56 @@
                                         <input type="text" name="title">
                                     </td>
                                 </tr>
+
+                                <tr>
+                                    <td><br>
+                                        <h5>I'm interested in (pick all that apply):</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
+                                    </td>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="osf"> OSF</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="devprojects"> Development Projets</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="meetings"> OSF for Meetings</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p><input type="checkbox" name="interest" value="other"> Other</p>
+                                    </td>
+                                </tr>
                                 </form>
                             </table>
                         </div>
