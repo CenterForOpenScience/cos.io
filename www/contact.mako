@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-sm-12 margin-top-20">
                     <h1><strong>Contact Us</strong></h1>
-                    <p class="lead">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
+                    <p>Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
                 </div>
             </div>
 
@@ -43,43 +43,48 @@
                         <!-- START TAB 1 -->
                         <div class="tab-pane active" id="tab_1">
                             <table>
+                                <form action="contact_info">
                                 <tr>
-                                    <td class="community-badge">
-                                        <img src="../static/img/icons/open_data.gif">
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p>First Name  <p>
                                     </td>
                                     <td>
-                                        <h3>Badges to Acknowledge Open Practices</h3>
-                                        <p>Badges incentivize open research by rewarding authors with visual acknowledgements on published manuscripts. Currently, badges can be earned for three distinct practices: open data, open materials, and preregistration. Badges appear directly on publications along with information regarding where the relevant data, materials, or registration can be found.  The badges and their criteria are developed and maintained as a community-driven initiative of the Center for Open Science.</p>
-                                        <a href="https://osf.io/tvyxz/wiki/home/" target="_blank" class="btn blue">
-                                            <i class="fa fa-search"></i> Learn more
-                                        </a>
+                                        <input type="text" name="fname">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="community-badge">
-                                        <img src="../static/img/icons/Registrations.png">
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p>Last Name  </p>
                                     </td>
                                     <td>
-                                        <h3>Registered Reports</h3>
-                                        <p>Registered Reports offer journals an alternative structure to the current publishing format to promote transparency and reproducibility in scientific research. In this model, peer review occurs twice. Each study procedure and analysis plan are evaluated prior to data collection for in-principle acceptance; if accepted, the final manuscript is essentially guaranteed publication regardless of the reported outcome, with a second peer review to ensure the accepted methodology was conducted.</p>
-                                        <a href="https://osf.io/8mpji/wiki/home/" target="_blank" class="btn blue">
-                                            <i class="fa fa-search"></i> Learn more
-                                        </a>
+                                        <input type="text" name="lname">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="community-badge">
-                                        <img src="../static/img/icons/list.png">
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p>Email  </p>
                                     </td>
                                     <td>
-                                        <h3>Transparency and Openness Promotion (TOP) Guidelines</h3>
-                                        <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice. Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards, each with three levels of increasing stringency. Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards. These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
-                                        <a href="../top" class="btn blue">
-                                            <i class="fa fa-search"></i> Learn more
-                                        </a>
+                                        <input type="text" name="email">
                                     </td>
                                 </tr>
-
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p>Organization  </p>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="org">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p>Title  </p>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="title">
+                                    </td>
+                                </tr>
+                                </form>
                             </table>
                         </div>
                         <!-- END TAB 1 -->
