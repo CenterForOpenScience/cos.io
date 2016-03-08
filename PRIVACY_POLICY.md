@@ -17,7 +17,7 @@ We protect your personal information using industry-standard safeguards. We may 
 
 2. **SITES COVERED BY THIS PRIVACY POLICY**
 
-  This Privacy Policy applies to the COS Websites located at [centerforopenscience.org](http://centerforopenscience.org) and [osf.io.](http://www.osf.io) Our privacy practices are based on two three levels of openness and privacy, which are set by the Administrator of each Project, namely, public , limited access, and private access. These levels of privacy are described in Section 11 of this Policy.  
+  This Privacy Policy applies to the COS Websites located at [centerforopenscience.org](http://centerforopenscience.org) and [osf.io.](http://www.osf.io) Our privacy practices are based on three levels of openness and privacy, which are set by the Administrator of each Project, namely, public , limited access, and private access. These levels of privacy are described in Section 11 of this Policy.  
 
 3. **CHANGES TO THIS PRIVACY POLICY**
 
