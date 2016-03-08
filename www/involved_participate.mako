@@ -23,7 +23,7 @@
 <div class="row community-content">
 <div>
 <h1><strong>Participate in Open Science</strong></h1>
-<p class="lead">COS collaborates with and produces tools for scientists, research institutions, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
+<p class="lead">COS collaborates with and produces tools for scientists, research institutions, journals, societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 <div class="col-md-3 col-sm-3 community-tab-list">
@@ -41,12 +41,12 @@
 <div class="tab-pane" id="tab_1">
     <div class="col-md-12">
         <h2><strong>Facilitate Open Science and Research Efficiency at Your Institution</strong></h2>
-        <p>COS offers tools and services to communities of researchers and their affiliated institutions to make research more efficient, more discoverable, and more reproducible.</p>
+        <p>COS offers tools and services to academic institutions and their communities of researchers to make research more efficient, discoverable, and reproducible.</p>
     </div>
 
     <div class="col-md-8">
         <h4><strong>1. Set up OSF for Institutions</strong></h4>
-        <p>The Open Science Framework (OSF) is a free, secure web application for project management, collaboration, registration, and archiving. It provides visibility for research projects, improves collaboration, and integrates with the tools researchers already use (e.g., Dropbox, GitHub, Figshare, Dataverse, Mendeley, Zotero). Learn More.<a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
+        <p>The Open Science Framework (OSF) is a free, open source web application built to help researchers manage projects, collaborate, and share and archive data. It provides visibility for research projects, improves collaboration, and integrates with the tools researchers already use (e.g., Dropbox, GitHub, and Figshare). <a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
                 more</a>.</p>
     </div>
 
@@ -61,7 +61,7 @@
 
     <div class="col-md-8">
         <h4><strong>2. Affiliate ongoing research at your institution</strong></h4>
-        <p>With single sign-on (SSO) authentication, project administrators can affiliate projects with your institution to create a central hub for all affiliated and ongoing and completed research projects. <a href="/stats_consulting/">Read more.</a></p>
+        <p>With single sign-on (SSO) authentication, your researchers can affiliate their OSF projects with your institution, creating a central hub for all ongoing and completed research projects. <a href="/stats_consulting/">Read more.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -75,7 +75,7 @@
 
     <div class="col-md-8">
         <h4><strong>3. Promote the Open Science Framework</strong></h4>
-        <p>Use internal communication tools and websites to invite current OSF users and new ones from your research community to take advantage of affiliating their projects and having them be discoverable on a customized and branded OSF landing page.</p>
+        <p>Invite your researchers, both current OSF users and new ones, to affiliate their projects, making them discoverable on a customized and branded OSF landing page.</p>
         </p>
     </div>
 
@@ -90,7 +90,7 @@
 
     <div class="col-md-8">
         <h4><strong>4. Train your research community</strong></h4>
-        <p>Establish best practices on research data management and use the OSF as a common platform across disciplines to make data curation and archival easy. COS will provide ambassador web-based training for representatives from your institution and offers free statistical and methodological consulting workshops.</p>
+        <p>Establish best practices on research data management within your community, using the OSF as a common platform across disciplines. The OSF makes data curation and archival easy. COS provides free web-based OSF training as well as statistical and methodological workshops.</p>
     </div>
     <div class="col-md-4 action-link margin-top-50">
         <a href="/stats_consulting/" target="_blank">
