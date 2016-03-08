@@ -30,7 +30,7 @@
                     <form>
                     <tr>
                         <td class="col-md-8 col-sm-12 ">
-                            <h4>First Name  </h4>
+                            <h4 align="right">First Name  </h4>
                         </td>
                         <td>
                             <input type="text" name="fname">
@@ -38,7 +38,7 @@
                     </tr>
                     <tr>
                         <td class="col-md-8 col-sm-12 ">
-                            <h4>Last Name  </h4>
+                            <h4 align="right">Last Name  </h4>
                         </td>
                         <td>
                             <input type="text" name="lname">
@@ -46,7 +46,7 @@
                     </tr>
                     <tr>
                         <td class="col-md-8 col-sm-12 ">
-                            <h4>Email  </h4>
+                            <h4 align="right">Email  </h4>
                         </td>
                         <td>
                             <input type="text" name="email">
@@ -54,7 +54,7 @@
                     </tr>
                     <tr>
                         <td class="col-md-8 col-sm-12 ">
-                            <h4>Organization  </h4>
+                            <h4 align="right">Organization  </h4>
                         </td>
                         <td>
                             <input type="text" name="org">
@@ -62,7 +62,7 @@
                     </tr>
                     <tr>
                         <td class="col-md-8 col-sm-12 ">
-                            <h4>Title  </h4>
+                            <h4 align="right">Title  </h4>
                         </td>
                         <td>
                             <input type="text" name="title">
@@ -133,16 +133,10 @@
                     <input type="submit" value="Send">
                 </div>
                 </form>
-
-
+                
             </div>
 
-
-
-
-
         </div>
-
         <!-- END CONTENT -->
     </div>
     <!-- END CONTAINER -->
