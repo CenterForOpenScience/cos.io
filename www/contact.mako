@@ -134,6 +134,11 @@
                                         <p><input type="checkbox" name="interest" value="other"> Other</p>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td class="col-md-8 col-sm-12 ">
+                                        <p>Message  <textarea rows="8" cols="50"></textarea></p>
+                                    </td>
+                                </tr>
                                 </form>
                             </table>
                         </div>
