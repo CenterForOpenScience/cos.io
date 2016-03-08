@@ -51,7 +51,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:scontact@cos.io?subject=OSF for Institutions demo">
+        <a href="mailto:contact@cos.io?subject=OSF for Institutions demo">
             <div class="action-box">
                 <i class="fa fa-laptop"></i>
                 <p>Contact us for a demo</p>
