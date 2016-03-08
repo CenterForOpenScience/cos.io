@@ -27,12 +27,12 @@
 
             </div>
             <div class="col-sm-8 col-sm-offset-1 ">
-                <div class="tab-pane active" id="tab_1">
+                <div class="tab-pane" >
                     <table>
-                        <form action="contact_info">
+                        <form>
                         <tr>
                             <td class="col-md-8 col-sm-12 ">
-                                <p>First Name  <p>
+                                <h4>First Name  </h4>
                             </td>
                             <td>
                                 <input type="text" name="fname">
@@ -40,7 +40,7 @@
                         </tr>
                         <tr>
                             <td class="col-md-8 col-sm-12 ">
-                                <p>Last Name  </p>
+                                <h4>Last Name  </h4>
                             </td>
                             <td>
                                 <input type="text" name="lname">
@@ -48,7 +48,7 @@
                         </tr>
                         <tr>
                             <td class="col-md-8 col-sm-12 ">
-                                <p>Email  </p>
+                                <h4>Email  </h4>
                             </td>
                             <td>
                                 <input type="text" name="email">
@@ -56,7 +56,7 @@
                         </tr>
                         <tr>
                             <td class="col-md-8 col-sm-12 ">
-                                <p>Organization  </p>
+                                <h4>Organization  </h4>
                             </td>
                             <td>
                                 <input type="text" name="org">
@@ -64,7 +64,7 @@
                         </tr>
                         <tr>
                             <td class="col-md-8 col-sm-12 ">
-                                <p>Title  </p>
+                                <h4>Title  </h4>
                             </td>
                             <td>
                                 <input type="text" name="title">
@@ -102,7 +102,7 @@
                         </tr>
                         <tr>
                             <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="devprojects"> Development Projets</p>
+                                <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
                             </td>
                         </tr>
                         <tr>
