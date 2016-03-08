@@ -17,129 +17,127 @@
 <div class="page-container">
 
     <!-- BEGIN CONTAINER -->
-    <div class="container min-hight margin-top-50">
+    <div class="container min-height margin-top-50">
 
         <!-- BEGIN CONTENT -->
         <div class="community-content">
             <div class="margin-top-20">
                 <h1><strong>Contact Us</strong></h1>
                 <p>Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
-
             </div>
-            <div class="col-sm-8 col-sm-offset-1 ">
-                <div class="tab-pane" >
-                    <table>
-                        <form>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <h4>First Name  </h4>
-                            </td>
-                            <td>
-                                <input type="text" name="fname">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <h4>Last Name  </h4>
-                            </td>
-                            <td>
-                                <input type="text" name="lname">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <h4>Email  </h4>
-                            </td>
-                            <td>
-                                <input type="text" name="email">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <h4>Organization  </h4>
-                            </td>
-                            <td>
-                                <input type="text" name="org">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <h4>Title  </h4>
-                            </td>
-                            <td>
-                                <input type="text" name="title">
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td><br>
-                                <h5>I'm interested in (pick all that apply):</h5>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
-                            </td>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="osf"> OSF</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="meetings"> OSF for Meetings</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p><input type="checkbox" name="interest" value="other"> Other</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="message">Message: </label>
-
-                            </td>
-                            <td>
-                                <textarea id="message" rows="8" cols="50"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="margin-bottom-50">
-                                <input type="submit" value="Send">
-                            </td>
-                        </tr>
-                        </form>
-                    </table>
-
+            <div class="tab-pane center" >
+                <table class= "center">
+                    <form>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <h4>First Name  </h4>
+                        </td>
+                        <td>
+                            <input type="text" name="fname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <h4>Last Name  </h4>
+                        </td>
+                        <td>
+                            <input type="text" name="lname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <h4>Email  </h4>
+                        </td>
+                        <td>
+                            <input type="text" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <h4>Organization  </h4>
+                        </td>
+                        <td>
+                            <input type="text" name="org">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <h4>Title  </h4>
+                        </td>
+                        <td>
+                            <input type="text" name="title">
+                        </td>
+                    </tr>
+                    </form>
+                </table>
+                <table>
+                    <form>
+                    <tr>
+                        <td><br>
+                            <h5>I'm interested in (pick all that apply):</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
+                        </td>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="osf"> OSF</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="meetings"> OSF for Meetings</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-8 col-sm-12 ">
+                            <p><input type="checkbox" name="interest" value="other"> Other</p>
+                            <br>
+                        </td>
+                    </tr>
+                </form>
+                </table>
+                <form>
+                <div class="col-sm-12 ">
+                    <label for="message"><h4>Message:  </h4></label>
+                    <textarea id="message" rows="8" cols="50"></textarea>
                 </div>
+                <div class="col-sm-12 ">
+                    <input type="submit" value="Send">
+                </div>
+                </form>
+
 
             </div>
+
+
 
 
 
