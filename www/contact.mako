@@ -20,7 +20,7 @@
     <div class="container min-height margin-top-50">
 
         <!-- BEGIN CONTENT -->
-        <div class="community-content">
+        <div class="community-content center">
             <div class="margin-top-20">
                 <h1><strong>Contact Us</strong></h1>
                 <p>Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
@@ -133,7 +133,7 @@
                     <input type="submit" value="Send">
                 </div>
                 </form>
-                
+
             </div>
 
         </div>
