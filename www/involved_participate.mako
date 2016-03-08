@@ -131,7 +131,7 @@
 </div>
 <!-- END TAB 1 -->
 <!-- START TAB 2 -->
-<div class="tab-pane active" id="tab_2">
+<div class="tab-pane" id="tab_2">
 <div class="container">
     <h2><strong>Promote Open Science in Your Community</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
