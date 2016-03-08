@@ -20,41 +20,41 @@
     <div class="container min-height margin-top-50">
 
         <!-- BEGIN CONTENT -->
-        <div class="community-content center">
+        <div class="community-content">
             <div class="margin-top-20">
                 <h1><strong>Contact Us</strong></h1>
                 <p>Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
             </div>
-            <div class="col-sm-8 col-sm-offset-1">
+            <div>
                 <form>
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="fname">First Name</label>
-                            <div>
+                            <label for="fname" class="col-sm-4 control-label">First Name</label>
+                            <div class="col-sm-4">
                                 <input type="text" class="form-control" id="fname" placeholder="Name">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="lname">Last Name</label>
-                            <div>
+                            <label for="lname" class="col-sm-4 control-label">Last Name</label>
+                            <div class="col-sm-4">
                                 <input type="text" class="form-control" id="lname" placeholder="Last Name">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email address</label>
-                            <div>
+                            <label for="email" class="col-sm-4 control-label">Email address</label>
+                            <div class="col-sm-4">
                                 <input type="email" class="form-control" id="email" placeholder="Email">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="organization">Organization</label>
-                            <div>
+                            <label for="organization" class="col-sm-4 control-label">Organization</label>
+                            <div class="col-sm-4">
                                 <input type="text" class="form-control" id="organization" placeholder="Organization">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="Title">Title</label>
-                            <div>
+                            <label for="Title" class="col-sm-4 control-label">Title</label>
+                            <div class="col-sm-4">
                                 <input type="text" class="form-control" id="title" placeholder="Title">
                             </div>
                         </div>
