@@ -121,15 +121,24 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="col-md-8 col-sm-12 ">
-                                <p>Message  <textarea rows="8" cols="50"></textarea></p>
+                            <td>
+                                <label for="message">Message: </label>
+
+                            </td>
+                            <td>
+                                <textarea id="message" rows="8" cols="50"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="margin-bottom-50">
+                                <input type="submit" value="Send">
                             </td>
                         </tr>
                         </form>
                     </table>
 
                 </div>
-                <!-- END TAB CONTENT -->
+
             </div>
 
 
