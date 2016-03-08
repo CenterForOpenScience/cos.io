@@ -116,8 +116,8 @@
     </div>
 
     <div class="col-md-8">
-        <h4><strong>6. Expand the reach of the research community</strong></h4>
-        <p>Greater transparency means that more questions can be answered with existing data. With adoption of OSF for Institutions, more datasets will be discoverable. Extend the reach of research by also using OSF for Meetings to share conference presentations. This free tool provides a central space to broaden the impact of your work,  share supporting materials, and explore research from conferences. Encourage conference organizers to have it set up, or request it yourself.</p>
+        <h4><strong>6. Share the outputs of conferences and meetings</strong></h4>
+        <p>Your researchers work hard on conference presentations and posters -- why do they end up gathering dust in a poster tube? OSF for Meetings enables you to share slides or posters before or after a conference. Encourage your conference organizer to have it set up, or request it yourself. See examples of <a href="https://osf.io/meetings">OSF for Meetings in action.</a></p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
