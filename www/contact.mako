@@ -25,113 +25,98 @@
                 <h1><strong>Contact Us</strong></h1>
                 <p>Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
             </div>
-            <div class="tab-pane center" >
-                <table class= "center">
-                    <form>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <h4 align="right">First Name  </h4>
-                        </td>
-                        <td>
-                            <input type="text" name="fname">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <h4 align="right">Last Name  </h4>
-                        </td>
-                        <td>
-                            <input type="text" name="lname">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <h4 align="right">Email  </h4>
-                        </td>
-                        <td>
-                            <input type="text" name="email">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <h4 align="right">Organization  </h4>
-                        </td>
-                        <td>
-                            <input type="text" name="org">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <h4 align="right">Title  </h4>
-                        </td>
-                        <td>
-                            <input type="text" name="title">
-                        </td>
-                    </tr>
-                    </form>
-                </table>
-                <table>
-                    <form>
-                    <tr>
-                        <td><br>
-                            <h5>I'm interested in (pick all that apply):</h5>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
-                        </td>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="osf"> OSF</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="meetings"> OSF for Meetings</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-8 col-sm-12 ">
-                            <p><input type="checkbox" name="interest" value="other"> Other</p>
-                            <br>
-                        </td>
-                    </tr>
-                </form>
-                </table>
+            <div class="col-sm-8 col-sm-offset-1">
                 <form>
-                <div class="col-sm-12 ">
-                    <label for="message"><h4>Message:  </h4></label>
-                    <textarea id="message" rows="8" cols="50"></textarea>
-                </div>
-                <div class="col-sm-12 ">
-                    <input type="submit" value="Send">
-                </div>
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <div>
+                                <input type="text" class="form-control" id="fname" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <div>
+                                <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <div>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="organization">Organization</label>
+                            <div>
+                                <input type="text" class="form-control" id="organization" placeholder="Organization">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Title">Title</label>
+                            <div>
+                                <input type="text" class="form-control" id="title" placeholder="Title">
+                            </div>
+                        </div>
+
+                        <div>
+                            <h5>I'm interested in (pick all that apply):</h5>
+                            <div class="checkbox">
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="osf"> OSF</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="meetings"> OSF for Meetings</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <p><input type="checkbox" name="interest" value="other"> Other</p>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 ">
+                            <label for="message"><h4>Message:  </h4></label>
+                            <textarea class="form-control" id="message" rows="8" cols="50"></textarea>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <input type="submit" value="Send">
+                        </div>
+
+                    </div>
                 </form>
 
             </div>
