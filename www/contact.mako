@@ -29,14 +29,7 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-3 community-tab-list">
-                    <ul class="tabbable community-tabbable">
-                        <li class="active"><a href="#tab_1" data-toggle="tab">Publishing Initiatives</a></li>
-                        <li><a href="#tab_2" data-toggle="tab">Metascience</a></li>
-                        <li><a href="#tab_3" data-toggle="tab">Infrastructure</a></li>
-                        <li><a href="#tab_4" data-toggle="tab">Interest Groups</a></li>
-                    </ul>
-                </div>
+                
                 <div class="col-sm-8 col-sm-offset-1 ">
                     <!-- START TAB CONTENT -->
                     <div class="tab-content">
@@ -317,24 +310,6 @@
                     <!-- END TAB CONTENT -->
                 </div>
 
-            </div>
-
-            <div class="row">
-                <div class="conversation col-sm-12">
-                    <table>
-                        <tr>
-                            <td id="speechbubble"><img src="../static/img/icons/speech.gif"></td>
-                            <td>
-                                <h2>Join the conversation!</h2>
-                                <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
-                                    transparency, and reproducbility in the OSC Google Group.</p>
-                                <a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank" class="btn blue">
-                                    <i class="fa fa-pencil-square-o"></i> Sign up today
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
             </div>
 
         </div>
