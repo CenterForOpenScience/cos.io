@@ -90,7 +90,7 @@
 
     <div class="col-md-8">
         <h4><strong>4. Train your research community</strong></h4>
-        <p>Establish best practices on research data management within your community, using the OSF as a common platform across disciplines. The OSF makes data curation and archival easy. COS provides free web-based OSF training as well as statistical and methodological workshops.</p>
+        <p>Establish best practices on research data management within your community, using the OSF as a common platform across disciplines. The OSF makes data curation and archival easy. COS provides free web-based OSF training as well as statistical and methodological workshops to help you.</p>
     </div>
     <div class="col-md-4 action-link margin-top-50">
         <a href="/stats_consulting/" target="_blank">
@@ -103,7 +103,7 @@
 
      <div class="col-md-8">
         <h4><strong>5. See the impact of research</strong></h4>
-        <p>Use the OSF for Institutions page to view project metadata and analytics on individual projects beyond publication and citation, including downloads, page views and referring sites.</p>
+        <p>Use the OSF for Institutions page to understand more about how many outside researchers are viewing and downloading work from your institution, and how they got there. Gain insight into the impact your researchers' projects are having beyond your institution, who else is building on the work, and spark new collaborations.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
