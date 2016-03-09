@@ -26,8 +26,8 @@
                 <p class="lead">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
             </div>
             <div>
-                <form>
-                    <div class="form-horizontal">
+                <div class="form-horizontal">
+                    <form>
                         <div class="form-group">
                             <label for="fname" class="col-sm-4 control-label">First Name</label>
                             <div class="col-sm-4">
@@ -60,11 +60,11 @@
                         </div>
 
                         <div>
-                            <div class="col-sm-4"></div>
+                            <div class="col-sm-8 col-sm-offset-4">
                             <h5>I'm interested in (pick all that apply):</h5>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-8 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
