@@ -23,7 +23,7 @@
         <div class="community-content">
             <div class="margin-top-20">
                 <h1><strong>Contact Us</strong></h1>
-                <p>Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
+                <p class="lead">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
             </div>
             <div>
                 <form>
@@ -108,12 +108,12 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-12 ">
-                            <label for="message"><h4>Message:  </h4></label>
-                            <textarea class="form-control" id="message" rows="8" cols="50"></textarea>
+                        <div class="form-horizontal">
+                            <h5><label for="message" class="col-sm-4 control-label">Message:  </label></h5>
+                            <textarea class="col-sm-8" id="message" rows="8"></textarea>
                         </div>
-                        <div class="col-sm-12 ">
-                            <input type="submit" value="Send">
+                        <div class="form-horizontal margin-bottom-50">
+                            <input class="btn btn-default" type="submit" value="Send">
                         </div>
 
                     </div>
