@@ -60,12 +60,12 @@
                         </div>
 
                         <div>
-                            <div class="col-sm-8 col-sm-offset-3">
+                            <div class="col-sm-8 col-sm-offset-4">
                             <h4>I'm interested in (pick all that apply):</h4>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
                                         </label>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
                                         </label>
@@ -83,7 +83,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
                                         </label>
@@ -92,7 +92,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="osf"> OSF</p>
                                         </label>
@@ -101,7 +101,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
                                         </label>
@@ -110,7 +110,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
                                         </label>
@@ -119,7 +119,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" va    lue="meetings"> OSF for Meetings</p>
                                         </label>
@@ -128,7 +128,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
                                         </label>
@@ -137,7 +137,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-4">
-                                    <div class="checkbox">
+                                    <div class="checkbox col-sm-offset-2">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="other"> Other</p>
                                         </label>
