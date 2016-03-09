@@ -23,21 +23,115 @@
 <div class="row community-content">
 <div>
 <h1><strong>Participate in Open Science</strong></h1>
-<p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
+<p class="lead">COS collaborates with and produces tools for scientists, research institutions, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 <div class="col-md-3 col-sm-3 community-tab-list">
     <ul class="tabbable community-tabbable">
-        <li class="active"><a href="#tab_1" data-toggle="tab">Ambassadors</a></li>
-        <li><a href="#tab_2" data-toggle="tab">Scientists</a></li>
+        <li class="active"><a href="#tab_1" data-toggle="tab">Research Institutions</a></li>
+        <li><a href="#tab_2" data-toggle="tab">Ambassadors</a></li>
 ##        <li><a href="#tab_3" data-toggle="tab">Journals and Societies</a></li>
-        <li><a href="#tab_4" data-toggle="tab">Developers</a></li>
+        <li><a href="#tab_4" data-toggle="tab">Scientists</a></li>
+        <li><a href="#tab_5" data-toggle="tab">Developers</a></li>
     </ul>
 </div>
 <div class="col-md-9 col-sm-9">
 <div class="tab-content ">
 <!-- START TAB 1 -->
-<div class="tab-pane active" id="tab_1">
+<div class="tab-pane" id="tab_1">
+    <div class="col-md-12">
+        <h2><strong>Facilitate Open Science and Research Efficiency at Your Institution</strong></h2>
+        <p>COS offers tools and services to communities of researchers and their affiliated institutions to make research more efficient, more discoverable, and more reproducible.</p>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>1. Set up OSF for Institutions</strong></h4>
+        <p>The Open Science Framework (OSF) is a free, secure web application for project management, collaboration, registration, and archiving. It provides visibility for research projects, improves collaboration, and integrates with the tools researchers already use (e.g., Dropbox, GitHub, Figshare, Dataverse, Mendeley, Zotero). Learn More.<a href="https://osf.io/svje2/wiki/home/" target="_blank">Learn
+                more</a>.</p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="mailto:scontact@cos.io?subject=OSF for Institutions demo">
+            <div class="action-box">
+                <i class="fa fa-laptop"></i>
+                <p>Contact us for a demo</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>2. Affiliate ongoing research at your institution</strong></h4>
+        <p>With single sign-on (SSO) authentication, project administrators can affiliate projects with your institution to create a central hub for all affiliated and ongoing and completed research projects. <a href="/stats_consulting/">Read more.</a></p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="mailto:stats-consulting@cos.io?subject=Stats Consultation">
+            <div class="action-box">
+                <i class="fa fa-shield"></i>
+                <p>See an example</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>3. Promote the Open Science Framework</strong></h4>
+        <p>Use internal communication tools and websites to invite current OSF users and new ones from your research community to take advantage of affiliating their projects and having them be discoverable on a customized and branded OSF landing page.</p>
+        </p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://osf.io/scayl/" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-file-text-o "></i>
+                <p>See how</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>4. Train your research community</strong></h4>
+        <p>Establish best practices on research data management and use the OSF as a common platform across disciplines to make data curation and archival easy. COS will provide ambassador web-based training for representatives from your institution and offers free statistical and methodological consulting workshops.</p>
+    </div>
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="/stats_consulting/" target="_blank">
+            <div class="action-box">
+                <i class="fa fa-pencil"></i>
+                <p>Learn more about workshops</p>
+            </div>
+        </a>
+    </div>
+
+     <div class="col-md-8">
+        <h4><strong>5. See the impact of research</strong></h4>
+        <p>Use the OSF for Institutions page to view project metadata and analytics on individual projects beyond publication and citation, including downloads, page views and referring sites.</p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://osf.io/ezcuj/analytics/">
+            <div class="action-box">
+                <i class="fa fa-bar-chart"></i>
+                <p>See an example</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>6. Expand the reach of the research community</strong></h4>
+        <p>Greater transparency means that more questions can be answered with existing data. With adoption of OSF for Institutions, more datasets will be discoverable. Extend the reach of research by also using OSF for Meetings to share conference presentations. This free tool provides a central space to broaden the impact of your work,  share supporting materials, and explore research from conferences. Encourage conference organizers to have it set up, or request it yourself.</p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://osf.io/meetings/">
+            <div class="action-box">
+                <i class="fa fa-folder-open"></i>
+                <p>Click to get started</p>
+            </div>
+        </a>
+    </div>
+</div>
+<!-- END TAB 1 -->
+<!-- START TAB 2 -->
+<div class="tab-pane active" id="tab_2">
 <div class="container">
     <h2><strong>Promote Open Science in Your Community</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
@@ -920,9 +1014,9 @@
 
 </div>
 </div>
-<!-- END TAB 1 -->
-<!-- START TAB 2 -->
-<div class="tab-pane" id="tab_2">
+<!-- END TAB 2 -->
+<!-- START TAB 3 -->
+<div class="tab-pane" id="tab_4">
     <div class="col-md-12">
         <h2><strong>Take Steps Towards Transparency</strong></h2>
         <p>COS offers researchers tools and services to make your research better, more efficient, and more reproducible.</p>
@@ -1011,8 +1105,8 @@
         </a>
     </div>
 </div>
-<!-- END TAB 2 -->
-## <!-- START TAB 3 -->
+<!-- END TAB 3 -->
+## <!-- START TAB 4 -->
 ## <div class="tab-pane" id="tab_3">
 ##    <div class="col-md-12">
 ##        <h2><strong>Nudge Incentives Towards Openness</strong></h2>
@@ -1096,9 +1190,9 @@
 
 
 ##</div>
-##<!-- END TAB 3 -->
-<!-- START TAB 4 -->
-<div class="tab-pane" id="tab_4">
+##<!-- END TAB 4 -->
+<!-- START TAB 5 -->
+<div class="tab-pane" id="tab_5">
     <div class="col-md-12">
         <h2><strong>Join Our Open Source Community</strong></h2>
         <p>A natural parallel to open scientific practices is open source software. COS is a Python-based, open source development shop. You can join our mission to bring the core philosophy of open source development to science.</p>
@@ -1166,8 +1260,8 @@
 
 
 </div>
-<!-- END TAB 4 -->
-    ##<!-- BEGIN TAB 5 -->
+<!-- END TAB 5 -->
+    ##<!-- BEGIN TAB 6 -->
     ##<div class="tab-pane" id="tab_5">
     ##    <div class="col-md-12">
     ##        <h2>Respond to a Call for Proposals</h2>
@@ -1191,7 +1285,7 @@
     ##
     ##    </div>
     ##</div>
-    ##<!-- END TAB 5 -->
+    ##<!-- END TAB 6 -->
     </div>
 </div>
 </div>
