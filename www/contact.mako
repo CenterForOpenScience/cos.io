@@ -64,7 +64,7 @@
                             <h4>I'm interested in (pick all that apply):</h4>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
@@ -82,7 +82,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
@@ -91,7 +91,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="osf"> OSF</p>
@@ -100,7 +100,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
@@ -118,7 +118,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" va    lue="meetings"> OSF for Meetings</p>
@@ -127,7 +127,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
@@ -136,7 +136,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-2 col-sm-offset-4">
+                                <div class="col-sm-4 col-sm-offset-4">
                                     <div class="checkbox">
                                         <label>
                                             <p><input type="checkbox" name="interest" value="other"> Other</p>
@@ -145,12 +145,14 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="form-group">
                             <div class="form-horizontal">
                                 <label for="message" class="col-sm-4 control-label">Message  </label>
                                 <textarea class="col-sm-4" id="message" rows="8"></textarea>
                             </div>
                         </div>
+
                         <div class="form-group">
                             <div class="form-horizontal margin-bottom-50 col-sm-8 col-sm-offset-4">
                                 <input class="btn btn-default" type="submit" value="Send">
