@@ -60,51 +60,89 @@
                         </div>
 
                         <div>
+                            <div class="col-sm-4"></div>
                             <h5>I'm interested in (pick all that apply):</h5>
-                            <div class="checkbox">
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
-                                </label>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="institution"> OSF for Institutions</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="stats"> Stats Consulting or Workshops</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="osf"> OSF</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="guidelines"> TOP Guidelines</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="osf"> OSF</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="prereg"> Preregistration Challenge</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="meetings"> OSF for Meetings</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="devprojects"> Development Projects</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="meetings"> OSF for Meetings</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <label>
-                                    <p><input type="checkbox" name="interest" value="other"> Other</p>
-                                </label>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="funding"> Funding COS</p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <div class="checkbox">
+                                        <label>
+                                            <p><input type="checkbox" name="interest" value="other"> Other</p>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
