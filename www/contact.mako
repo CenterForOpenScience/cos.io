@@ -1,9 +1,9 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Open Science Communities</%def>
-<%def name="description()">The Center for Open Science leads a variety of open source and metascience community projects, which you can find here.</%def>
+<%def name="title()">Center for Open Science Contact Form</%def>
+<%def name="description()">The form to contact the Center for Open Sciences with any questions or comments.</%def>
 
 <%def name="navigation()">
-    ${self.navlinks('communities')}
+    ${self.navlinks('contact')}
 </%def>
 
 <%def name="stylesheets()">
@@ -23,7 +23,7 @@
         <div class="community-content">
             <div class="margin-top-20">
                 <h1><strong>Contact Us</strong></h1>
-                <p class="lead">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest</p>
+                <p class="lead">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest!</p>
             </div>
             <div>
                 <div class="form-horizontal">
