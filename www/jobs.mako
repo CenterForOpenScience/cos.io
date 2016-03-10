@@ -521,52 +521,52 @@
 ##        </div>
 ##    </div>
 ##</div>
-## <div id="ProjectCoordinator" class="panel-group">
-##     <div class="panel panel-info">
-##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectCoordinator_heading">
-##                         <h4 class="panel-title">
-##                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                 <a  data-parent="#ProjectCoordinator" >
-##                     Project Coordinator
-##                 </a>
-##             </h4>
-##         </div>
-##        <div id="ProjectCoordinator" class="panel-collapse collapse">
-##           <div class="panel-body">
-##                <dl class="dl-horizontal">
-##                    <dt>Background</dt>
-##                    <dd>
-##                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a hfref="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  COS is now hiring a Project Coordinator to support a new, major preregistration initiative that draws on products and services across the entire company.  We seek a Project Coordinator with extremely strong social and organizational skills to contribute to community and metascience efforts. This position is highly appropriate for recent or soon-to-be graduates from university that are highly motivated, passionate about science, and looking for full-time opportunities to contribute to improving scientific practices.  </p>
-##                    </dd>
-##                    <dt>Responsibilities</dt>
-##                    <dd>
-##                    <p>The key responsibilities for the Project Coordinator position include fostering and connections with the scientific community, providing consulting support to researchers about COS initiatives, maintaining project and funding documentation, implementing and supporting the preregistration documentation and review process, promoting COS initiatives to new groups, operating a major preregistration incentives program, and tracking progress on project timelines and goals. COS is a start-up with a large portfolio of activities.  As such, this position is likely to evolve over time with new, challenging initiatives to increase openness, integrity, and reproducibility of research.</p>
-##                   </dd>
-##                    <dt>Skills</dt>
-##                    <dd>
-##                        <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; background in scientific methodology (B.A. level at least); effective writing skills.  Skills in programming, web development, and data analysis are a plus.</p>
-##                    </dd>
-##                    <dt>Notes</dt>
-##                    <dd>
-##                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  Operating as a non-profit, technology start-up, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness.  Started in 2013, COS presently supports a staff of almost 50 and has acquired grants of >$14 million from multiple donors.  Get more information about COS elsewhere on this website and in papers articulating its motivating vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.VJCQ0GTF95x">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
-##                    </dd>
-##                    <dt>Location</dt>
-##                    <dd>
-##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                    </dd>
-##                    <dt>Benefits</dt>
-##                    <dd>
-##                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-##                    </dd>
-##                    <dt>Applying</dt>
-##                    <dd>
-##                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="http://www.jobscore.com/jobs/centerforopenscience" target="_blank">here</a>.</p>
-##                    </dd>
-##                </dl>
-##            </div>
-##        </div>
-##   </div>
-##</div>
+ <div id="ProjectCoordinator" class="panel-group">
+     <div class="panel panel-info">
+         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectCoordinator_heading">
+                         <h4 class="panel-title">
+                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#ProjectCoordinator" >
+                     Project Coordinator
+                 </a>
+             </h4>
+         </div>
+        <div id="ProjectCoordinator" class="panel-collapse collapse">
+           <div class="panel-body">
+               <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a hfref="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We seek a Project Coordinator with extremely strong social and organizational skills to contribute to community and metascience efforts, and to help facilitate open science practices more broadly within scholarly publishing. This position is highly appropriate for individuals that are looking for full-time experience prior to attending graduate school in a scientific field.  </p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                    <p>The key responsibilities for the coordinator position include communicating about COS initiatives, maintaining project documentation, and tracking progress on project timelines and goals. Key initiatives include incentive programs designed for adoption by the scholarly publishing community and authors to promote openness and transparency in research. Outreach and support efforts will include  <a href="https://osf.io/9f6gx/">TOP</a> guidelines to enhance transparency in the science that journals publish, <a href="https://osf.io/tvyxz/">Badges</a> for journals to acknowledge open practices, and the <a href="https://cos.io/prereg/">Pregreg Challenge </a> to increase the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. The project coordinator will foster and manage connections with the scientific community on these initiatives.</p>
+                   </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Experience in scientific research, methodology, and publishing; Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in programming, web development, and data analysis are a plus.</p>
+                    </dd>
+                    <dt>Notes</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit science and technology organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  The COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, is highly collaborative, is high energy, and is dedicated to openness.  COS has three primary activities: (1) <a href="https://osf.io/">infrastructure development</a> to support the scientific workflow- documentation, archiving, sharing, and registration - and connect with other open technologies, (2) community building among open-source developers, open science researchers, and the broader scientific community, and (3) metascience, research on scientific practices.  Get more information about COS at its <a href="https://cos.io/">Website</a>. 
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/514c0e09-c40e-4457-ba6f-b8ff994b4574" target="_blank">here</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+   </div>
+</div>
 ##<div id="ProjectManager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectManager_heading">
