@@ -37,12 +37,33 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "http://www.nature.com/news/web-widget-nudges-scientists-to-share-their-data-1.19542"><img src="../static/img/icons/nature.png"
+                    width="125">
+
+                    <h2 class="text-left">Web widget nudges scientists to share their data</h2>
+
+                    <p class="text-left">March 10, 2016 | Open Data Button launched to encourage public sharing of data sets.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "https://opensource.com/life/16/3/contribute-open-science-internship"><img src="../static/img/icons/Opensource.com_logo.png"
+                    width="125">
+
+                    <h2 class="text-left">Help us integrate GitLab and the Open Science Framework</h2>
+
+                    <p class="text-left">March 09, 2016 | The Center for Open Science is funding the development of an integration between GitLab and the Open Science Framework (OSF), and is seeking interested members of the open source community to contribute to this effort.
+                    </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "https://www.timeshighereducation.com/news/scientists-offered-1-million-dollars-in-prizes-to-pre-register-experiments"><img src="../static/img/icons/THE.png"
                     width="125">
 
                     <h2 class="text-left">Scientists offered $1 million in prizes to pre-register experiments</h2>
 
-                    <p class="text-left">January 27, 2016 | Center for Open Science hopes initiative will make results more reproducible
+                    <p class="text-left">January 27, 2016 | Center for Open Science hopes initiative will make results more reproducible.
                     </p></a>
                 </div>
 
