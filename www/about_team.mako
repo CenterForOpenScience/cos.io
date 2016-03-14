@@ -679,6 +679,20 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/benjamin.jpg" alt="Melanie Benjamin">
+            <h3>
+                Melanie Benjamin
+                <small>Donor and Funder Relations Lead | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mel<span style="display:none;">null</span>anie@cos<span style="display:none;">null</span>.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+            <li><script type="text/javascript">document.write("<n uers=\"znvygb:zrynavr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/in/melanie-benjamin-64047841" data-original-title="Linkedin" class="linkedin"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/Zhang.jpg" alt="Merlin Zhang">
             <h3>
                 Merlin Zhang
@@ -843,16 +857,31 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
+    <li class="col-md-3">
         <div class="thumbnail">
-            <img src="../static/img/people/dyce.jpg" alt="Vanessa Dyce">
+            <img src="../static/img/people/sacco.jpg" alt="Todd Sacco">
             <h3>
-                Vanessa Dyce
+                Todd Sacco
+                <small>Quality Assurance Specialist | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">to<span style="display:none;">null</span>dd@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:gbqq@pbf.vb\" ery=\"absbyybj\"qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/in/todd-sacco-69b39258" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/ey2w6/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/baxter.jpg" alt="Tom Baxter">
+            <h3>
+                Tom Baxter
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/ved4ef" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/ws5ba/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://github.com/TomBaxter" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/fzdpu/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
