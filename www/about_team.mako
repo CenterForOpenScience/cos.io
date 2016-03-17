@@ -240,7 +240,7 @@
             <img src="../static/img/people/fitzgerald.jpg" alt="Cailey Fitzgerald">
             <h3>
                 Cailey Fitzgerald
-                <small>Developer Intern | Infrastructure</small>
+                <small>Software Quality Engineer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/caileyfitz" data-original-title="GitHub" class="github"></a> </li>
@@ -874,7 +874,7 @@
             <img src="../static/img/people/sacco.jpg" alt="Todd Sacco">
             <h3>
                 Todd Sacco
-                <small>Quality Assurance Specialist | Infrastructure</small>
+                <small>Quality Assurance Associate | Infrastructure</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">to<span style="display:none;">null</span>dd@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
