@@ -460,7 +460,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -511,7 +511,7 @@
 ##                     </dd>
 ##                     <dt>Benefits</dt>
 ##                     <dd>
-##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
 ##                     </dd>
 ##                     <dt>Applying</dt>
 ##                     <dd>
@@ -556,7 +556,7 @@
 ##                    </dd>
 ##                    <dt>Benefits</dt>
 ##                    <dd>
-##                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
 ##                    </dd>
 ##                    <dt>Applying</dt>
 ##                    <dd>
@@ -733,7 +733,7 @@
 ##                     </dd>
 ##                     <dt>Benefits</dt>
 ##                     <dd>
-##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
 ##                     </dd>
 ##                     <dt>Applying</dt>
 ##                     <dd>
@@ -783,7 +783,7 @@
 ##                     </dd>
 ##                     <dt>Benefits</dt>
 ##                     <dd>
-##                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. Discover more about our office perks <a href="https://cos.io/jobs/#benefits">amenities</a>.</p>
+##                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. Discover more about our office perks <a href="https://cos.io/jobs/#benefits">amenities</a>.</p>
 ##                     </dd>
 ##                     <dt>Applying</dt>
 ##                     <dd>
@@ -1109,7 +1109,7 @@
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Computer.png);"></div></a>
                 <div>
                     <center><h3>Get a Mac.</h3></center>
-                    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27” screen.</p>
+                    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27" screen.</p>
                 </div>
             </li>
             <li class="col-md-3 space-mobile">
@@ -1122,7 +1122,7 @@
             <li class="col-md-3 space-mobile">
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/View.jpg);"></div></a>
                 <div class="whatWeDo-perks">
-                    <center><h3>Enjoy the view.</h3></div></center>
+                    <center><h3>Enjoy the view.</h3></center></div>
                     <p>The modern and stylish COS offices are located in the <strong>heart of Charlottesville</strong> on the downtown pedestrian mall. Central Virginia and the Shenandoah mountains are right outside!</p>
                 </div>
             </li>
