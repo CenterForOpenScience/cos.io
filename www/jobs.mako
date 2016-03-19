@@ -444,7 +444,7 @@
                     <dd>
                         <ul class="indent">
                             <li>Javascript</li>
-                            <li>Javascript Frameworks(e.g., Knockout, React, Ember, Angular)</li>
+                            <li>Javascript Frameworks (e.g., Knockout, React, Ember, Angular)</li>
                             <li>Web technologies like REST, HTTP, JSON</li>
                             <li>HTML/CSS</li>
                         </ul>
@@ -452,8 +452,8 @@
                     <dt>Experience We Need</dt>
                     <dd>
                         <ul class="indent">
-                            <li>Architecting quick running and and reusable front-ends that drive complex web applications</li>
-                            <li>Understanding of browswer compatibility issues and debugging browswer problems</li>
+                            <li>Architecting quick running and reusable front-ends that drive complex web applications</li>
+                            <li>Understanding of browser compatibility issues and debugging browser problems</li>
                             <li>Engineering scalable web applications with a strong UI focus</li>
                             <li>An eye for design and usability</li>
                         </ul>
@@ -586,7 +586,7 @@
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
-                    <p>The key responsibilities for the coordinator position include communicating about COS initiatives, maintaining project documentation, and tracking progress on project timelines and goals. Key initiatives include incentive programs designed for adoption by the scholarly publishing community and authors to promote openness and transparency in research. Outreach and support efforts will include  <a href="https://osf.io/9f6gx/">TOP</a> guidelines to enhance transparency in the science that journals publish, <a href="https://osf.io/tvyxz/">Badges</a> for journals to acknowledge open practices, and the <a href="https://cos.io/prereg/">Pregreg Challenge </a> to increase the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. The project coordinator will foster and manage connections with the scientific community on these initiatives.</p>
+                    <p>The key responsibilities for the coordinator position include communicating about COS initiatives, maintaining project documentation, and tracking progress on project timelines and goals. Key initiatives include incentive programs designed for adoption by the scholarly publishing community and authors to promote openness and transparency in research. Outreach and support efforts will include  <a href="https://osf.io/9f6gx/">TOP</a> guidelines to enhance transparency in the science that journals publish, <a href="https://osf.io/tvyxz/">Badges</a> for journals to acknowledge open practices, and the <a href="https://cos.io/prereg/">Prereg Challenge</a> to increase the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. The project coordinator will foster and manage connections with the scientific community on these initiatives.</p>
                    </dd>
                     <dt>Skills</dt>
                     <dd>
