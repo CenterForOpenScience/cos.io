@@ -62,8 +62,7 @@
                         <p><h4><strong>What you'll get</strong></h4>
                         <ul><li>Service designation for your CV for being a member of the Reproducibility Review Panel</li>
                         <li>Recognition on the RP:CB website as a Reproducibility Review Panel member <i>(Optional)</i></li>
-                        <li>An interesting, engaging experience in evaluating the reproducibility of research</li>
-                        <li>After completion of a survey, both COS and Science Exchange will have some great giveaways for you</li></ul>
+                        <li>An interesting, engaging experience in evaluating the reproducibility of research</li></ul>
 
                         <p><br>If you are interested please see the registration form below. If you have questions please email us at <a href="mailto: contact@cos.io">contact@cos.io</a>
                     
