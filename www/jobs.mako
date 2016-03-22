@@ -182,6 +182,52 @@
         </div>
     </div>
 </div>
+ <div id="CommunityIntern" class="panel-group">
+     <div class="panel panel-info">
+         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#CommunityIntern_heading">
+                         <h4 class="panel-title">
+                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#CommunityIntern" >
+                     Community Intern
+                 </a>
+             </h4>
+         </div>
+        <div id="CommunityIntern" class="panel-collapse collapse">
+           <div class="panel-body">
+               <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a hfref="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We seek an intern with extremely strong social and organizational skills to contribute to community efforts, and to help facilitate open science practices more broadly within the scientific research community. </p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                    <p>The key responsibilities of the Community Intern will be to assist in a number of on-going projects and gain experience using key business support software platforms like Salesforce.com, Desk.com, and JIRA. Tasks may include monitoring and responding to user support requests via email and directing users to available resources, contributing to the knowledge base by creating and updating user documentation for product releases, maintaining a database of published research citing the OSF, and contributing qualified contacts and accounts to the Salesforce.com database for future engagement..</p>
+                   </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Experience with web communication and documentation software; Team-oriented; Very strong work ethic; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in email marketing, customer service, and business development are a plus.</p>
+                    </dd>
+                    <dt>Notes</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit science and technology organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  The COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, is highly collaborative, is high energy, and is dedicated to openness.  COS has three primary activities: (1) <a href="https://osf.io/">infrastructure development</a> to support the scientific workflow- documentation, archiving, sharing, and registration - and connect with other open technologies, (2) community building among open-source developers, open science researchers, and the broader scientific community, and (3) metascience, research on scientific practices.  Get more information about COS at its <a href="https://cos.io/">Website</a>. 
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/99265826-ee99-44d4-bf73-29a6d4996804" target="_blank">here</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+   </div>
+</div>
 ##<div id="Community Manager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -398,7 +444,7 @@
                     <dd>
                         <ul class="indent">
                             <li>Javascript</li>
-                            <li>Javascript Frameworks(e.g., Knockout, React, Ember, Angular)</li>
+                            <li>Javascript Frameworks (e.g., Knockout, React, Ember, Angular)</li>
                             <li>Web technologies like REST, HTTP, JSON</li>
                             <li>HTML/CSS</li>
                         </ul>
@@ -406,15 +452,15 @@
                     <dt>Experience We Need</dt>
                     <dd>
                         <ul class="indent">
-                            <li>Architecting quick running and and reusable front-ends that drive complex web applications</li>
-                            <li>Understanding of browswer compatibility issues and debugging browswer problems</li>
+                            <li>Architecting quick running and reusable front-ends that drive complex web applications</li>
+                            <li>Understanding of browser compatibility issues and debugging browser problems</li>
                             <li>Engineering scalable web applications with a strong UI focus</li>
                             <li>An eye for design and usability</li>
                         </ul>
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -433,50 +479,50 @@
         </div>
     </div>
 </div>
-<div id="HumanResourcesIntern" class="panel-group">
-     <div class="panel panel-info">
-         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern_heading">
-             <h4 class="panel-title">
-                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                 <a  data-parent="#HumanResourcesIntern" >
-                     Human Resources Intern
-                 </a>
-             </h4>
-         </div>
-         <div id="HumanResourcesIntern" class="panel-collapse collapse">
-             <div class="panel-body">
-                 <dl class="dl-horizontal">
-                     <dt>Background</dt>
-                     <dd>
-                         <p>The Center for Open Science (COS) seeks a highly-motivated and entrepreneurially-minded individual who wants to build experience in human resources and team development.  COS operates as an energetic and fast-paced technology start-up, already employing 37 full-time team members and many software development interns after just under 3 years of operation.  The team continues to grow quickly, and is presently working to add another 10 software developers, 20+ software development interns, 3+ quality assurance team members, and various other roles.    Building a productive and fast-paced team, with specialized skills in a number of areas, is a significant challenge, and something that requires great attention to a broad assortment of details.  We are pleased to invite applicants for the role of Human Resources Intern.</p>                     </dd>
-                     <dt> Responsibilities</dt>
-                     <dd>
-                         <p>Promotion of job and internship opportunities, initial organization and screening of candidates, coordination of interview and on-site visit activities, use of the Lever system, and integration of new team members into the COS culture.  This individual will work very closely with senior COS team members to accomplish the critical mission of building and growing the team.  As a non-profit organization with deep roots in the academic environment, we can promise a positive mentoring environment and great foundation for future opportunities with technology companies, start-ups, or academic administration.</p>
-                     </dd>
-                     <dt>Skills</dt>
-                     <dd>
-                         <p>Extremely high social and communication skills; exceptional organization and attention to detail; ability to use web communication and documentation software effectively; team-oriented; very strong work ethic; multi-tasking; self-starter and industrious; adaptivity to rapidly changing demands in a high performance workplace; demonstrated interest in science, technology, non-profits, or entrepreneurship; effective writing skills; evident interest in building teams and helping others succeed.</p>
-
-                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.  </p>
-                     </dd>
-                     <dt>Location</dt>
-                     <dd>
-                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                     </dd>
-                     <dt>Benefits</dt>
-                     <dd>
-                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
-                     </dd>
-                     <dt>Applying</dt>
-                     <dd>
-                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/5ad2a6e9-44a0-46c8-a5d8-daee8e094b4f" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-                     </dd>
-                 </dl>
-             </div>
-         </div>
-     </div>
- </div>
+##<div id="HumanResourcesIntern" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern_heading">
+##             <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                 <a  data-parent="#HumanResourcesIntern" >
+##                     Human Resources Intern
+##                 </a>
+##             </h4>
+##         </div>
+##         <div id="HumanResourcesIntern" class="panel-collapse collapse">
+##             <div class="panel-body">
+##                 <dl class="dl-horizontal">
+##                     <dt>Background</dt>
+##                     <dd>
+##                         <p>The Center for Open Science (COS) seeks a highly-motivated and entrepreneurially-minded individual who wants to build experience in human resources and team development.  COS operates as an energetic and fast-paced technology start-up, already employing 37 full-time team members and many software development interns after just under 3 years of operation.  The team continues to grow quickly, and is presently working to add another 10 software developers, 20+ software development interns, 3+ quality assurance team members, and various other roles.    Building a productive and fast-paced team, with specialized skills in a number of areas, is a significant challenge, and something that requires great attention to a broad assortment of details.  We are pleased to invite applicants for the role of Human Resources Intern.</p>                     </dd>
+##                     <dt> Responsibilities</dt>
+##                     <dd>
+##                         <p>Promotion of job and internship opportunities, initial organization and screening of candidates, coordination of interview and on-site visit activities, use of the Lever system, and integration of new team members into the COS culture.  This individual will work very closely with senior COS team members to accomplish the critical mission of building and growing the team.  As a non-profit organization with deep roots in the academic environment, we can promise a positive mentoring environment and great foundation for future opportunities with technology companies, start-ups, or academic administration.</p>
+##                     </dd>
+##                     <dt>Skills</dt>
+##                     <dd>
+##                         <p>Extremely high social and communication skills; exceptional organization and attention to detail; ability to use web communication and documentation software effectively; team-oriented; very strong work ethic; multi-tasking; self-starter and industrious; adaptivity to rapidly changing demands in a high performance workplace; demonstrated interest in science, technology, non-profits, or entrepreneurship; effective writing skills; evident interest in building teams and helping others succeed.</p>
+##
+##                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.  </p>
+##                     </dd>
+##                     <dt>Location</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                     </dd>
+##                     <dt>Benefits</dt>
+##                     <dd>
+##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                     </dd>
+##                     <dt>Applying</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+##                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/5ad2a6e9-44a0-46c8-a5d8-daee8e094b4f" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+##                     </dd>
+##                 </dl>
+##             </div>
+##         </div>
+##     </div>
+## </div>
 ##<div id="ITIntern" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
@@ -510,7 +556,7 @@
 ##                    </dd>
 ##                    <dt>Benefits</dt>
 ##                    <dd>
-##                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                        <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
 ##                    </dd>
 ##                    <dt>Applying</dt>
 ##                    <dd>
@@ -540,7 +586,7 @@
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
-                    <p>The key responsibilities for the coordinator position include communicating about COS initiatives, maintaining project documentation, and tracking progress on project timelines and goals. Key initiatives include incentive programs designed for adoption by the scholarly publishing community and authors to promote openness and transparency in research. Outreach and support efforts will include  <a href="https://osf.io/9f6gx/">TOP</a> guidelines to enhance transparency in the science that journals publish, <a href="https://osf.io/tvyxz/">Badges</a> for journals to acknowledge open practices, and the <a href="https://cos.io/prereg/">Pregreg Challenge </a> to increase the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. The project coordinator will foster and manage connections with the scientific community on these initiatives.</p>
+                    <p>The key responsibilities for the coordinator position include communicating about COS initiatives, maintaining project documentation, and tracking progress on project timelines and goals. Key initiatives include incentive programs designed for adoption by the scholarly publishing community and authors to promote openness and transparency in research. Outreach and support efforts will include  <a href="https://osf.io/9f6gx/">TOP</a> guidelines to enhance transparency in the science that journals publish, <a href="https://osf.io/tvyxz/">Badges</a> for journals to acknowledge open practices, and the <a href="https://cos.io/prereg/">Prereg Challenge</a> to increase the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. The project coordinator will foster and manage connections with the scientific community on these initiatives.</p>
                    </dd>
                     <dt>Skills</dt>
                     <dd>
@@ -687,7 +733,7 @@
 ##                     </dd>
 ##                     <dt>Benefits</dt>
 ##                     <dd>
-##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
 ##                     </dd>
 ##                     <dt>Applying</dt>
 ##                     <dd>
@@ -699,56 +745,56 @@
 ##             </div>
 ##    </div>
 ##</div>
-<div id="QualityAssuranceIntern" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceIntern_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#QualityAssuranceIntern" >
-                    Quality Assurance Intern
-                </a>
-            </h4>
-        </div>
-         <div id="QualityAssuranceIntern" class="panel-collapse collapse">
-             <div class="panel-body">
-                 <dl class="dl-horizontal">
-                     <dt>Background</dt>
-                    <dd>
-                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="http://osf.io">Open Science Framework</a>.</p>
-                     </dd>
-                     <dd>
-                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing.</a></p>
-                     </dd>
-                     <dd>
-                         <p>These goals will be accomplished by working closely with developers, technical architects, technical managers, and the product team. The selected candidate will work in conjunction with the programmatic testing done by the development team and ensures that only high-quality software is released. This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.</a></p>
-                     </dd>
-                     <dt>Responsibilities</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Communicate: the candidate will be responsible for maintaining solid communication within the QA team to facilitate continual feedback and insight around prioritization and progress of team tasks.</li>
-                            <li>Feedback: the candidate will be responsible for delivering effective and timely test outcome knowledge with developers, managers and team leads about the testing to determine obstacles, blockers and forecasting.</li>
-                            <li>Engineer: the candidate will be responsible for working with the management team, developers and the product team to gather requirements for establishing comprehensive testing plans.</li>
-                            <li>Test: the candidate will be responsible for assisting the QA team in developing acceptance criteria for testing new features and fixes</li>
-                        </ul>
-                    </dd>
-                     <dt>Location</dt>
-                     <dd>
-                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                     </dd>
-                     <dt>Benefits</dt>
-                     <dd>
-                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. Discover more about our office perks <a href="https://cos.io/jobs/#benefits">amenities</a>.</p>
-                     </dd>
-                     <dt>Applying</dt>
-                     <dd>
-                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/a67b74d7-1f70-4230-805e-e72fe9382342" target="_blank">here</a>.</p>
-                     </dd>
-                 </dl>
-             </div>         
-             </div>
-    </div>
- </div>
+##<div id="QualityAssuranceIntern" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceIntern_heading">
+##            <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#QualityAssuranceIntern" >
+##                    Quality Assurance Intern
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="QualityAssuranceIntern" class="panel-collapse collapse">
+##             <div class="panel-body">
+##                 <dl class="dl-horizontal">
+##                     <dt>Background</dt>
+##                    <dd>
+##                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="http://osf.io">Open Science Framework</a>.</p>
+##                     </dd>
+##                     <dd>
+##                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing.</a></p>
+##                     </dd>
+##                     <dd>
+##                         <p>These goals will be accomplished by working closely with developers, technical architects, technical managers, and the product team. The selected candidate will work in conjunction with the programmatic testing done by the development team and ensures that only high-quality software is released. This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.</a></p>
+##                     </dd>
+##                     <dt>Responsibilities</dt>
+##                    <dd>
+##                        <ul class="indent">
+##                            <li>Communicate: the candidate will be responsible for maintaining solid communication within the QA team to facilitate continual feedback and insight around prioritization and progress of team tasks.</li>
+##                            <li>Feedback: the candidate will be responsible for delivering effective and timely test outcome knowledge with developers, managers and team leads about the testing to determine obstacles, blockers and forecasting.</li>
+##                            <li>Engineer: the candidate will be responsible for working with the management team, developers and the product team to gather requirements for establishing comprehensive testing plans.</li>
+##                            <li>Test: the candidate will be responsible for assisting the QA team in developing acceptance criteria for testing new features and fixes</li>
+##                        </ul>
+##                    </dd>
+##                     <dt>Location</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                     </dd>
+##                     <dt>Benefits</dt>
+##                     <dd>
+##                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. Discover more about our office perks <a href="https://cos.io/jobs/#benefits">amenities</a>.</p>
+##                     </dd>
+##                     <dt>Applying</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+##                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/a67b74d7-1f70-4230-805e-e72fe9382342" target="_blank">here</a>.</p>
+##                     </dd>
+##                 </dl>
+##             </div>         
+##             </div>
+##    </div>
+## </div>
 ## <div id="StatsConsultant" class="panel-group">
 ##   <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -1063,7 +1109,7 @@
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Computer.png);"></div></a>
                 <div>
                     <center><h3>Get a Mac.</h3></center>
-                    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27” screen.</p>
+                    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27" screen.</p>
                 </div>
             </li>
             <li class="col-md-3 space-mobile">
@@ -1076,7 +1122,7 @@
             <li class="col-md-3 space-mobile">
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/View.jpg);"></div></a>
                 <div class="whatWeDo-perks">
-                    <center><h3>Enjoy the view.</h3></div></center>
+                    <center><h3>Enjoy the view.</h3></center></div>
                     <p>The modern and stylish COS offices are located in the <strong>heart of Charlottesville</strong> on the downtown pedestrian mall. Central Virginia and the Shenandoah mountains are right outside!</p>
                 </div>
             </li>
