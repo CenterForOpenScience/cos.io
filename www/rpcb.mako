@@ -3,7 +3,7 @@
 <%def name="description()"> Reproducibility Project: Cancer Biology</%def>
 
 <%def name="navigation()">
-    ${self.navlinks('TOP')}
+    ${self.navlinks('RPCB')}
 </%def>
 
 <%def name="stylesheets()">
@@ -28,15 +28,7 @@
             <div class="col-md-12 space-mobile">
                 <h1><strong>Reproducibility Project: Cancer Biology (RP:CB)</strong></h1>
                 <h3><strong>Reproducibility Review Panel</strong></h3>
-
                 <br>
-
-                    ##<div class="col-md-3">
-                     ##<img src="/static/img/pics/top-pen.png">
-                    ##</div>
-                    
-
-                    
                     <p> Reproducibility of research is of significant interest across the scientific community. Simultaneously, there is little systematic data available estimating the rate and predictors of reproducibility. <a href ="https://osf.io/e81xl/wiki/home/">The Reproducibility Project: Cancer Biology (RP:CB)</a> is conducting direct replications of a subset of experiments from a sample of high-impact cancer biology studies to obtain some empirical evidence about reproducibility in that field.  We would like to invite you to participate as a panel member to review the reproducibility of these studies.</p>        
                     <br>
                     <p><h4><strong>Who you are</strong></h4>
@@ -73,28 +65,14 @@
                     <br>The Center for Open Science and Science Exchange
                     <br>
                     <br>
-                    
-
-                  <a href="http://cos.io"><img src="../static/img/cos_rpcb.png" alt="COS"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                  <a href="https://www.scienceexchange.com/"><img src="../static/img/scienceexchange_rpcb.png" alt="Science Exchange"></a>
-                  <br>         
-                        
-                        
+                  <a href="http://cos.io"><img src="../static/img/cos_logo.png" alt="COS" style="height:75px"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                  <a href="https://www.scienceexchange.com/"><img src="../static/img/icons/SE_Logo.png" alt="Science Exchange" style="height:100px"></a>
+                  <br>            
                 <hr>
                 <h2><strong>Take the Survey</strong></h2>
 
                 <iframe src="https://docs.google.com/forms/d/1JxZdSbK_mPfrIdNq1rO561YHP7Tpk47ag0ijT0Odk9Q/viewform?embedded=true" width="760" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                
-                      
-                        
-                         
-
-
-   
-                <hr>
-              
-                  
-                
+                <hr> 
                 <!-- END INFO BLOCK -->
             </div>
         </div>
@@ -104,10 +82,5 @@
 
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
     <%def name="javascript_bottom()">
-
-            <script type="text/javascript" src="../static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-            <script src="../static/plugins/jquery.mixitup.min.js"></script>
-            <script src="/static/scripts/bootstrap-table.js"></script>
-
     </%def>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
