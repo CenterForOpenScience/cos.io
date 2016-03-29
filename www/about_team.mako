@@ -429,21 +429,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/mayhood.jpg" alt="Erin Mayhood">
-            <h3>
-                Erin Mayhood
-                <small>Product Manager | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">er<span style="display:none;">null</span>in@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:reva.znlubbq@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/erinmayhood" data-original-title="github" class="github"></a></li>
-                <li><a href="https://osf.io/a2s3r/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
         <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/elliott.jpg" alt="Fitzhugh Elliott">
@@ -1115,6 +1100,21 @@
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/mayhood.jpg" alt="Erin Mayhood">
+            <h3>
+                Erin Mayhood
+                <small>Product Manager | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">er<span style="display:none;">null</span>in@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:reva.znlubbq@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/erinmayhood" data-original-title="github" class="github"></a></li>
+                <li><a href="https://osf.io/a2s3r/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
