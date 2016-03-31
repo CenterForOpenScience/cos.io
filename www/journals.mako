@@ -106,7 +106,7 @@
     </div>
     <div class="col-md-8">
         <h4><strong>5. Use the OSF to Support Your Authors' Data and Materials Sharing</strong></h4>
-        <p>The <a href="https://osf.io">Open Science Framework</a> is a free, open source web application built to manage the entire research workflow. The OSF provides an easy solution for editors and publishers seeking to provide their authors with a free platform for data and materials sharing. The OSF can also be used to handle parts of the publishing workflow. To learn more about strategies for using the OSF as a back end for your journal, <a href="mailto:contact@cos.io?subject=Journal_Services"send us an email</a>.
+        <p>The <a href="https://osf.io">Open Science Framework</a> is a free, open source web application built to manage the entire research workflow. The OSF provides an easy solution for editors and publishers seeking to provide their authors with a free platform for data and materials sharing. The OSF can also be used to handle parts of the publishing workflow. To learn more about strategies for using the OSF as a back end for your journal, <a href="mailto:contact@cos.io?subject=Journal_Services">send us an email</a>.
 
         </p></div>
 
