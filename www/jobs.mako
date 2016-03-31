@@ -175,7 +175,75 @@
                         <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
                         <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
                         <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
-                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply.</p>
+                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Bookkeeper" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Bookkeeper_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#Bookkeeper" >
+                    Bookkeeper
+                </a>
+            </h4>
+        </div>
+<div id="Bookkeeper" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p> Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research. The Center for Open Science (COS) is seeking a driven, outgoing, and self-starting individual who is looking to build their experience in financial administration while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. The Bookkeeper candidate will support the Operations team to help ensure the efficiency and integrity of financial records and related tasks. This is a 20 hour per week, part-time position.</a>.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <p>Work with Financial Operations team on daily bookkeeping functions to include the following:
+                        <ul class="indent">
+                    <dt>General Ledger
+                    <dd>
+                            <li>Post transactions to Quickbooks general ledger following established cost coding model.</li>
+                            <li>Reconcile bank and credit card accounts</li>
+                    <dt>Accounts Payable   
+                    <dd>    <li>Managing vendor invoices</li>
+                            <li>Ensure AP process is followed at all times</li>
+                            <li>Ensure timely payment of vendor invoices</li>
+                            <li>Maintain physical and digital records of vendor invoices</li>
+                            <li>Creates expense reports for staff reimbursements through Expensify software</li>
+                    <dt>Accounts Receivable
+                    <dd>
+                            <li>Assist with invoicing and overdue balance follow-up as needed</li>
+                            <li>Receives and deposits checks following AR process</li>
+                    <dt>Reporting
+                    <dd>
+                            <li>Assist in the preparation of monthly internal financial statements</li>
+                            <li>Assists in the preparation of reports for external stakeholders</li>
+                    <dt>Recordkeeping
+                    <dd>
+                            <li>Maintain digital financial records using Google Drive</li>
+                            <li>Ensure all transactions are well-documented</li>
+                        </ul>
+                    </dd>
+                    <dt>Qualifications<dt>
+                    <dd>
+                        <p>Exceptional organizational skills and attention to detail; ability to multi-task; self-starter and driven; extremely personable; strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; ability to use web communication and documentation software effectively; team-oriented; Demonstrated interest in administrative tasks. 
+                        </dd><dt>Preferred</dt>
+                        <dd>
+                        <p>Some bookkeeping experience, familiarity with Quickbooks Online or similar bookkeeping software; Excel proficiency</a>.</p> 
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/61ef2974-5b23-4f96-a25a-f56e41abccaa" target="_blank">here</a>.</p>
                     </dd>
                 </dl>
             </div>
