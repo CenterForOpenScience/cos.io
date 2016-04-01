@@ -269,7 +269,7 @@
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
-                    <p>The key responsibilities of the Community Intern will be to assist in a number of on-going projects and gain experience using key business support software platforms like Salesforce.com, Desk.com, and JIRA. Tasks may include monitoring and responding to user support requests via email and directing users to available resources, contributing to the knowledge base by creating and updating user documentation for product releases, maintaining a database of published research citing the OSF, and contributing qualified contacts and accounts to the Salesforce.com database for future engagement..</p>
+                    <p>The key responsibilities of the Community Intern will be to assist in a number of on-going projects and gain experience using key business support software platforms like Salesforce.com, Desk.com, and JIRA. Tasks may include monitoring and responding to user support requests via email and directing users to available resources, contributing to the knowledge base by creating and updating user documentation for product releases, maintaining a database of published research citing the OSF, and contributing qualified contacts and accounts to the Salesforce.com database for future engagement.</p>
                    </dd>
                     <dt>Skills</dt>
                     <dd>
