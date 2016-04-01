@@ -71,6 +71,13 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
+                    <td class="sponsor-center"><a href="https://www.datacite.org"><img src="../static/img/icons/datacite.png" alt="DataCite"></a></td>
+                    <td><span class="med-font"><strong>DataCite</strong></span><br>
+                        DataCite and COS are partnering to explore and support activities related to <a href="www.re3data.org">re3data</a>, an open global registry of research data repositories, and the <a href="https://osf.io">Open Science Framework</a>. Ideas include developing proofs-of-concept to design new features and functionality through integration, testing these ideas with user communities, and creating complementary user services that will benefit the scientific community.
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
                     <td class="sponsor-center"><a href="http://elifesciences.org"><img src="../static/img/icons/elife.jpg" alt="eLife"></a></td>
                     <td><span class="med-font"><strong>eLife Sciences Publications</strong></span><br>
                         eLife has partnered with COS and Science Exchange to be the publisher for the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>. Each paper that will be replicated for the metascience project will undergo peer review at eLife using the Registered Report format with the results of these experiments published in a <a href="http://elifesciences.org/collections/reproducibility-project-cancer-biology">Replication Study.</a>
