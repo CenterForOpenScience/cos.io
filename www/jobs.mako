@@ -205,30 +205,44 @@
                     </dd>
                     <dt>Responsibilities</dt>
                     <dd>
-                        <p>Work with Financial Operations team on daily bookkeeping functions to include the following:
+                        Work with Financial Operations team on daily bookkeeping functions to include the following:
                         <ul class="indent">
-                    <dt>General Ledger
-                    <dd>
-                            <li>Post transactions to Quickbooks general ledger following established cost coding model.</li>
-                            <li>Reconcile bank and credit card accounts</li>
-                    <dt>Accounts Payable   
-                    <dd>    <li>Managing vendor invoices</li>
-                            <li>Ensure AP process is followed at all times</li>
-                            <li>Ensure timely payment of vendor invoices</li>
-                            <li>Maintain physical and digital records of vendor invoices</li>
-                            <li>Creates expense reports for staff reimbursements through Expensify software</li>
-                    <dt>Accounts Receivable
-                    <dd>
-                            <li>Assist with invoicing and overdue balance follow-up as needed</li>
-                            <li>Receives and deposits checks following AR process</li>
-                    <dt>Reporting
-                    <dd>
-                            <li>Assist in the preparation of monthly internal financial statements</li>
-                            <li>Assists in the preparation of reports for external stakeholders</li>
-                    <dt>Recordkeeping
-                    <dd>
-                            <li>Maintain digital financial records using Google Drive</li>
-                            <li>Ensure all transactions are well-documented</li>
+                            <li>General Ledger</li>         
+                            <ul>
+                                <li>Post transactions to Quickbooks general ledger following established cost coding model.</li>
+                                <li>Reconcile bank and credit card accounts</li>
+                            </ul>
+                        </ul>
+                        <ul class="indent">
+                            <li>Accounts Payable</li>   
+                            <ul>
+                                <li>Managing vendor invoices</li>
+                                <li>Ensure AP process is followed at all times</li>
+                                <li>Ensure timely payment of vendor invoices</li>
+                                <li>Maintain physical and digital records of vendor invoices</li>
+                                <li>Creates expense reports for staff reimbursements through Expensify software</li>
+                            </ul>
+                        </ul>
+                        <ul class="indent">
+                            <li>Accounts Receivable</li>
+                                <ul>
+                                <li>Assist with invoicing and overdue balance follow-up as needed</li>
+                                <li>Receives and deposits checks following AR process</li>
+                                </ul>
+                            </ul>
+                        <ul class="indent">
+                            <li>Reporting</li>
+                            <ul>
+                                <li>Assist in the preparation of monthly internal financial statements</li>
+                                <li>Assists in the preparation of reports for external stakeholders</li>
+                            </ul>
+                        </ul>
+                        <ul class="indent">
+                            <li>Recordkeeping</li>
+                            <ul>
+                                <li>Maintain digital financial records using Google Drive</li>
+                                <li>Ensure all transactions are well-documented</li>
+                            </ul>
                         </ul>
                     </dd>
                     <dt>Qualifications<dt>
