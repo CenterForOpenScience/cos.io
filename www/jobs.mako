@@ -197,7 +197,7 @@
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
                     <dd>
-                        <p> Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research. The Center for Open Science (COS) is seeking a driven, outgoing, and self-starting individual who is looking to build their experience in financial administration while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. The Bookkeeper candidate will support the Operations team to help ensure the efficiency and integrity of financial records and related tasks. This is a 20 hour per week, part-time position.</a>.</p>
+                        <p> Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research. The Center for Open Science (COS) is seeking a driven, outgoing, and self-starting individual who is looking to build their experience in financial administration while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. The Bookkeeper candidate will support the Operations team to help ensure the efficiency and integrity of financial records and related tasks. This is a 20 hour per week, part-time position.</p>
                     </dd>
                     <dt>Location</dt>
                     <dd>
