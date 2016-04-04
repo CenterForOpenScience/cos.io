@@ -297,10 +297,6 @@
                     <dd>
                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
                     </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
-                    </dd>
                     <dt>Applying</dt>
                     <dd>
                         <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/99265826-ee99-44d4-bf73-29a6d4996804" target="_blank">here</a>.</p>
