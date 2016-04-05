@@ -69,7 +69,7 @@
                   <a href="https://www.scienceexchange.com/"><img src="../static/img/icons/SE_Logo.png" alt="Science Exchange" style="height:100px"></a>
                   <br>            
                 <hr>
-                <h2><strong>Take the Survey</strong></h2>
+                <h2><strong>Register</strong></h2>
 
                 <iframe src="https://docs.google.com/forms/d/1JxZdSbK_mPfrIdNq1rO561YHP7Tpk47ag0ijT0Odk9Q/viewform?embedded=true" width="760" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                 <hr> 
