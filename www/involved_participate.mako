@@ -83,6 +83,28 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/rmn56/" target="_blank">
+                        <img src="../static/img/people/ambassadors/fedorov.jpeg" alt="Andrey Fedorov">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Andrey Fedorov
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Harvard Medical School and Brigham and Women's Hospital
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/z7mt6/" target="_blank">
                         <img src="../static/img/people/ambassadors/allison.jpg" alt="Anne Allison">
                     </a>
@@ -123,6 +145,9 @@
         </table>
     </td>
 
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -144,9 +169,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -192,6 +214,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -214,8 +239,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -261,6 +284,9 @@
         </table>
     </td>
 
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -282,8 +308,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -328,6 +352,9 @@
         </table>
     </td>
 
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -350,8 +377,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -395,6 +420,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -416,8 +444,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -439,6 +466,32 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                <a href="https://osf.io/nm5gx/" target="_blank">
+                    <img src="../static/img/people/ambassadors/simon.jpg" alt="Jeremy Simon">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Jeremy Simon
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Brandeis University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -481,9 +534,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -506,6 +556,31 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/ftk25/" target="_blank">
+                        <img src="../static/img/people/ambassadors/werner.jpeg" alt="Kaitlyn Werner">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Kaitlyn Werner
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Carleton University
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -522,7 +597,7 @@
             </tr>
             <tr>
                 <td class="ambassador-instit-padding">
-                    National Center for Ecological Analysis and Synthesis
+                    University of Washington
                 </td>
             </tr>
         </table>
@@ -855,6 +930,28 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/sfcrn/" target="_blank">
+                        <img src="../static/img/people/ambassadors/zawada.jpeg" alt="Stephanie Zawada">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Stephanie Zawada
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Arizona
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/acfnb/" target="_blank">
                         <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
                     </a>
@@ -872,6 +969,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
