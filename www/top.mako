@@ -59,7 +59,7 @@
                             <li>Expressing their support of the principles of openness, transparency, and reproducibility</li>
                             <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                         </ol>
-                         <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:sara@cos.io">Sara Bowman</a>.</p>
+                         <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:david@cos.io">David Mellor</a>.</p>
 <a id="signatories"></a>
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (538)</b></a></li>
