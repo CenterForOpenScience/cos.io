@@ -482,7 +482,7 @@
                                             <tr>
                                                 <td class="sponsor-center" ><a href="http://www.arnoldfoundation.org/"><img src="/static/img/ljaf.gif"></a></td>
                                                 <td><span class="med-font"><strong>Laura and John Arnold Foundation</strong></span><br>
-                                                <strong>$2,632,703</strong><br>
+                                                <strong>$6,132,703</strong><br>
                                                 The Laura and John Arnold Foundation supports the Center for Open Science and its efforts to foster open, reliable, and rigorous scientific research.<br>
                                                 </td>
                                             </tr>
@@ -515,7 +515,7 @@
                                                 <td class="sponsor-center"><a href="http://www.nsf.gov"><img src="/static/img/icons/nsf.jpg"></a></td>
                                                 <td><span class="med-font"><strong>National Science Foundation</strong></span><br>
                                                 <strong>$230,438</strong><br>
-                                                The National Science Foundation awarded subcontracts via the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online.<br>
+                                                The National Science Foundation awarded subcontracts via the <a href="https://mcgovern.mit.edu/technology/neurotechnology-program">McGovern Institute for Brain Research at MIT</a> and the <a href="https://lookit.mit.edu/">LookIt</a> project to colloborate on an open-source environment for running developmental studies online, subcontracts via the University of California - Riverside for the <a href="http://rap.ucr.edu/ISP.html">International Situations Project</a> and the iREDS project, and a subcontract via Whitman College for the Improving Inference in Evolutionary Biology and Ecology workshop.<br>
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
