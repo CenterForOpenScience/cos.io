@@ -85,6 +85,13 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
+                    <td class="sponsor-center"><a href="https://www.elsevier.com"><img src="../static/img/icons/elsevier.jpg" alt="Elsevier"></a></td>
+                    <td><span class="med-font"><strong>Elsevier</strong></span><br>
+                        COS and Elsevier will increase the use and discoverability of scientific research through dataset and article linking. Research articles found on <a href="http://www.sciencedirect.com">ScienceDirect</a>, a database operated by Elsevier containing abstracts and full-text articles from thousands of peer-reviewed journals, will be linked with their respective datasets on the <a href="http://osf.io">Open Science Framework</a>.
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
                     <td class="sponsor-center"><a href="http://earthsciencefoundation.org"><img src="../static/img/icons/fes.png" alt="Foundation for Earth Science"></a></td>
                     <td><span class="med-font"><strong>Foundation for Earth Science</strong></span><br>
                         The Foundation for Earth Science has partnered with COS on the use of the OSF to support ESIP Testbed projects, the Technology Evaluation Framework (TEF), and ESIP Federation meetings.
