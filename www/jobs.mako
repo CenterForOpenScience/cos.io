@@ -645,6 +645,76 @@
 ##        </div>
 ##    </div>
 ##</div>
+<div id="MarketingProgramsManager" class="panel-group">
+     <div class="panel panel-info">
+         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#MarketingProgramsManager_heading">
+                         <h4 class="panel-title">
+                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#MarketingProgramsManager" >
+                     Marketing Programs Manager
+                 </a>
+             </h4>
+         </div>
+        <div id="MarketingProgramsManager" class="panel-collapse collapse">
+           <div class="panel-body">
+               <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Join a non-profit technology company with a mission to increase openness, integrity, and reproducibility of scientific research.  COS will add a Marketing Programs Manager to increase the quality of communication about COS products, services, and mission.  COS products and services are free and open-source to promote wide adoption and non-competition.  Success in this role is defined by meeting the mission - improving research efficiency, transparency, and reproducibility - in service of the public good.</p>
+                        <p>As a multi-product marketing manager, you will be a leader responsible for telling the world (and our organization) the story of our products, services, organization, and mission. You will be our chief advocate for the value and benefit of our offerings and maximize their impact with effective messaging. You will craft the communication and marketing strategy for existing services, new launches, and the organization.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                    <p>Primary areas of focus:
+                        <ul class="indent">
+                                <li>Develop and maintain mission-focused marketing strategy.</li>
+                                <li>Develop and manage the COS brand identity.</li>
+                                <li>Collaborate with the leadership team and project managers on managing existing products and developing new products to meet the mission.</li>
+                                <li>Research potential collaborators and user communities across science and technology.</li>
+                                <li>Maintain the COS website to convey the mission and identity of the organization with specific calls-to-action for a variety of stakeholders.</li>
+                                <li>Create product content (e.g. sales enablement documentation, case studies, product videos, website copy, blog posts, email campaigns, press releases) to articulate the benefits of our products to the world.</li>
+                                <li>Measure and optimize the user journey as it relates to product feature adoption and usage.</li>
+                                <li>Establish and maintain scalable processes that ensure best practices in campaign and lead management.</li>
+                                <li>Create and maintain metric reports on marketing activities, effectiveness, and business impact.</li>
+                                <li>Analyze marketing and sales data to develop insights and make recommendations on areas for optimization.</li>
+                        </ul>
+                    </p>
+
+                    <p>Other areas of responsibility:
+                        <ul class="indent">
+                                <li>Manage communications across a variety of platforms such as Twitter, Facebook, LinkedIn, YouTube, COS website, and Reddit.</li>
+                                <li>Lead SEO efforts in collaboration with the development team.</li>
+                                <li>Evaluate barriers to meeting the COS mission in collaboration with other team members.</li>
+                        </ul>
+                    </p>
+                   </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Strong sense of strategy, politics, impressions, brand, reputation; Extremely high social and communication skills; Self-starter and industrious; Team-oriented; Very strong work ethic; Adaptivity to rapidly changing demands in a high performance workplace; Fluent in social media; Market research skills; Presentation skills; Attention to detail and timing; Values transparency and collaboration; Experience with science and technology sectors; Flexibility and ability to manage multiple simultaneous priorities.</p>
+                    </dd>
+                    <dt>Notes</dt>
+                    <dd>
+                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (<a href="http://osf.io/">http://osf.io/</a>) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: <a href="https://osf.io/tvyxz/">badges</a> to acknowledge open practices, and <a href="https://osf.io/8mpji/wiki/home/">Registered Reports</a>; and (3) metascience, research on scientific practices, example projects: <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>, <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project: Psychology</a>, and <a href="https://osf.io/ebmf8/">Many Labs</a>.  COS promotes inclusivity and serves a global audience of researchers across all domains.  
+
+                        COS is dedicated to improving the alignment between scientific values and scientific practices.  The COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its <a href="http://centerforopenscience.org/news/">news</a> section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>    
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>The Center for Open Science offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and <a href="#benefits">other amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="https://jobs.lever.co/cos/6ec9da06-1143-4a52-aa23-a0a553d45c4b" target="_blank">here</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+   </div>
+</div>
  <div id="ProjectCoordinator" class="panel-group">
      <div class="panel panel-info">
          <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectCoordinator_heading">
