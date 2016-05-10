@@ -34,17 +34,33 @@
             <div class="row">
                 <div class="col-sm-3 community-tab-list">
                     <ul class="tabbable community-tabbable">
-                        <li class="active"><a href="#tab_1" data-toggle="tab">Publishing Initiatives</a></li>
-                        <li><a href="#tab_2" data-toggle="tab">Metascience</a></li>
-                        <li><a href="#tab_3" data-toggle="tab">Infrastructure</a></li>
-                        <li><a href="#tab_4" data-toggle="tab">Interest Groups</a></li>
+                        <li class="active"><a href="#tab_1" data-toggle="tab">Research Institutions</a></li>
+                        <li><a href="#tab_2" data-toggle="tab">Publishing Initiatives</a></li>
+                        <li><a href="#tab_3" data-toggle="tab">Metascience</a></li>
+                        <li><a href="#tab_4" data-toggle="tab">Infrastructure</a></li>
+                        <li><a href="#tab_5" data-toggle="tab">Interest Groups</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-8 col-sm-offset-1 ">
                     <!-- START TAB CONTENT -->
                     <div class="tab-content">
-                        <!-- START TAB 1 -->
+                      <!-- START TAB 1 -->
                         <div class="tab-pane active" id="tab_1">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h3>OSF for Institutions</h3>
+                                        <p>OSF for Institutions acts as a central hub for affiliated research, provides easier data curation through connections with institutional repositories, and increases the visibility of research at both the researcher and institutional level. The Center for Open Science is partnering with universities to integrate authentication for simplified login and a branded, custom OSF landing page.</p>
+                                        <a href="https://osf.io/ba3dy"_blank" class="btn blue">
+                                            <i class="fa fa-university"></i> Learn more
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!-- END TAB 1 -->
+                        <!-- START TAB 2 -->
+                        <div class="tab-pane active" id="tab_2">
                             <table>
                                 <tr>
                                     <td class="community-badge">
@@ -85,9 +101,9 @@
 
                             </table>
                         </div>
-                        <!-- END TAB 1 -->
-                        <!-- START TAB 2 -->
-                        <div class="tab-pane" id="tab_2">
+                        <!-- END TAB 2 -->
+                        <!-- START TAB 3 -->
+                        <div class="tab-pane" id="tab_3">
                             <table>
                                 <tr>
                                     <td class="community-badge">
@@ -207,9 +223,9 @@
 
                             </table>
                         </div>
-                        <!-- END TAB 2 -->
-                        <!-- START TAB 3 -->
-                        <div class="tab-pane" id="tab_3">
+                        <!-- END TAB 3 -->
+                        <!-- START TAB 4 -->
+                        <div class="tab-pane" id="tab_4">
                             <table>
                                 <tr>
                                     <td class="community-badge">
@@ -225,9 +241,9 @@
                                 </tr>
                             </table>
                         </div>
-                        <!-- END TAB 3 -->
-                        <!-- START TAB 4 -->
-                        <div class="tab-pane" id="tab_4">
+                        <!-- END TAB 4 -->
+                        <!-- START TAB 5 -->
+                        <div class="tab-pane" id="tab_5">
                             <table>
                                 <tr>
                                     <td class="community-badge">
@@ -270,7 +286,7 @@
                             <td>
                                 <h2>Join the conversation!</h2>
                                 <p>The Open Science Collaboration invites any interested scientist to join the discussion on openness,
-                                    transparency, and reproducibility in the OSC Google Group.</p>
+                                    transparency, and reproducbility in the OSC Google Group.</p>
                                 <a href="http://groups.google.com/forum/#!forum/openscienceframework" target="_blank" class="btn blue">
                                     <i class="fa fa-pencil-square-o"></i> Sign up today
                                 </a>

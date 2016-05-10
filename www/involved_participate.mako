@@ -23,21 +23,22 @@
 <div class="row community-content">
 <div>
 <h1><strong>Participate in Open Science</strong></h1>
-<p class="lead">COS collaborates with and produces tools for scientists, journals and societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
+<p class="lead">COS collaborates with and produces tools for scientists, research institutions, journals, societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 <div class="col-md-3 col-sm-3 community-tab-list">
     <ul class="tabbable community-tabbable">
         <li class="active"><a href="#tab_1" data-toggle="tab">Ambassadors</a></li>
-        <li><a href="#tab_2" data-toggle="tab">Scientists</a></li>
+        <li><a href="#tab_2" data-toggle="tab">Research Institutions</a></li>
 ##        <li><a href="#tab_3" data-toggle="tab">Journals and Societies</a></li>
-        <li><a href="#tab_4" data-toggle="tab">Developers</a></li>
+        <li><a href="#tab_4" data-toggle="tab">Scientists</a></li>
+        <li><a href="#tab_5" data-toggle="tab">Developers</a></li>
     </ul>
 </div>
 <div class="col-md-9 col-sm-9">
 <div class="tab-content ">
 <!-- START TAB 1 -->
-<div class="tab-pane active" id="tab_1">
+<div class="tab-pane" id="tab_1">
 <div class="container">
     <h2><strong>Promote Open Science in Your Community</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
@@ -83,28 +84,6 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/rmn56/" target="_blank">
-                        <img src="../static/img/people/ambassadors/fedorov.jpeg" alt="Andrey Fedorov">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-name">
-                    Andrey Fedorov
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-instit">
-                    Harvard Medical School and Brigham and Women's Hospital
-                </td>
-            </tr>
-        </table>
-    </td>
-
-    <td class="ambassador-data">
-        <table class="ambassador-box">
-            <tr>
-                <td class="ambassador-img">
                     <a href="https://osf.io/z7mt6/" target="_blank">
                         <img src="../static/img/people/ambassadors/allison.jpg" alt="Anne Allison">
                     </a>
@@ -145,9 +124,6 @@
         </table>
     </td>
 
-</tr>
-<tr>    
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -169,6 +145,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -214,9 +193,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -239,6 +215,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -284,9 +262,6 @@
         </table>
     </td>
 
-</tr>
-<tr>    
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -308,6 +283,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -352,9 +329,6 @@
         </table>
     </td>
 
-</tr>
-<tr>    
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -377,6 +351,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -420,9 +396,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -444,7 +417,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -466,32 +440,6 @@
             </tr>
         </table>
     </td>
-
-    <td class="ambassador-data">
-        <table class="ambassador-box">
-            <tr>
-                <td class="ambassador-img">
-                <a href="https://osf.io/nm5gx/" target="_blank">
-                    <img src="../static/img/people/ambassadors/simon.jpg" alt="Jeremy Simon">
-                </a>
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-name">
-                    Jeremy Simon
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-instit-padding">
-                    Brandeis University
-                </td>
-            </tr>
-        </table>
-    </td>
-
-</tr>
-<tr>    
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -534,6 +482,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -556,53 +507,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
-    <td class="ambassador-data">
-        <table class="ambassador-box">
-            <tr>
-                <td class="ambassador-img">
-                    <a href="https://osf.io/r8dsa/" target="_blank">
-                        <img src="../static/img/people/ambassadors/ruttenberg.jpg" alt="Judy Ruttenberg">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-name">
-                    Judy Ruttenberg
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-instit-padding">
-                    Association of Research Libraries
-                </td>
-            </tr>
-        </table>
-    </td>
-
-    <td class="ambassador-data">
-        <table class="ambassador-box">
-            <tr>
-                <td class="ambassador-img">
-                    <a href="https://osf.io/ftk25/" target="_blank">
-                        <img src="../static/img/people/ambassadors/werner.jpeg" alt="Kaitlyn Werner">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-name">
-                    Kaitlyn Werner
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-instit-padding">
-                    Carleton University
-                </td>
-            </tr>
-        </table>
-    </td>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -619,15 +523,11 @@
             </tr>
             <tr>
                 <td class="ambassador-instit-padding">
-                    University of Washington
+                    National Center for Ecological Analysis and Synthesis
                 </td>
             </tr>
         </table>
     </td>
-
-
-</tr>
-<tr>    
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -650,6 +550,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -695,10 +598,6 @@
         </table>
     </td>
 
-
-</tr>
-<tr>    
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -720,6 +619,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -765,9 +667,6 @@
         </table>
     </td>
 
-</tr>
-<tr>    
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -789,6 +688,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -834,9 +736,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -858,6 +757,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -903,9 +805,6 @@
         </table>
     </td>
 
-</tr>
-<tr>    
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -928,6 +827,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -949,31 +851,6 @@
             </tr>
         </table>
     </td>
-
-    <td class="ambassador-data">
-        <table class="ambassador-box">
-            <tr>
-                <td class="ambassador-img">
-                    <a href="https://osf.io/sfcrn/" target="_blank">
-                        <img src="../static/img/people/ambassadors/zawada.jpeg" alt="Stephanie Zawada">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-name">
-                    Stephanie Zawada
-                </td>
-            </tr>
-            <tr>
-                <td class="ambassador-instit-padding">
-                    University of Arizona
-                </td>
-            </tr>
-        </table>
-    </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1047,6 +924,98 @@
 <!-- END TAB 1 -->
 <!-- START TAB 2 -->
 <div class="tab-pane" id="tab_2">
+    <div class="col-md-12">
+        <h2><strong>Facilitate Open Science and Research Efficiency at Your Institution</strong></h2>
+        <p>COS offers free tools and services to communities of researchers and their affiliated institutions to make research more efficient, discoverable, and reproducible.</p>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>1. Set up OSF for Institutions</strong></h4>
+        <p>The Open Science Framework (OSF) is a free, secure web app that supports scientists’ research workflow from study planning and data collection, through long term preservation and sharing. OSF for Institutions expands on these features by making it easy to affiliate your research with your institution and discover other affiliated research. <a href="https://osf.io/ba3dy/" target="_blank">Learn more</a>.</p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="mailto:contact@cos.io?subject=OSF for Institutions demo">
+            <div class="action-box">
+                <i class="fa fa-laptop"></i>
+                <p>Contact us for a demo</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>2. Affiliate ongoing research at your institution</strong></h4>
+        <p>Single-sign on (SSO) authentication between the OSF and your institution makes it easy to log in and affiliate projects. A branded, dedicated landing page for your institution acts as a central hub for all ongoing and completed research.</p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://osf.io/institutions">
+            <div class="action-box">
+                <i class="fa fa-shield"></i>
+                <p>See an example</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>3. Promote the Open Science Framework</strong></h4>
+        <p>Use internal communications to invite current and new OSF users to your branded, OSF landing page. Work with us to set up email blasts, webinars, and trainings promoting open and reproducible tools, methodologies, and workflows.</p>
+        </p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://osf.io/ba3dy/">
+            <div class="action-box">
+                <i class="fa fa-file-text-o "></i>
+                <p>See how</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>4. Train your research community</strong></h4>
+        <p>Work with us to establish best practices on data management and how to integrate the OSF efficiently into your current workflow. We provide statistical and methodology consulting on topics related to reproducible research and good statistical practices.</p>
+    </div>
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://cos.io/stats_consulting/">
+            <div class="action-box">
+                <i class="fa fa-pencil"></i>
+                <p>Learn more about workshops</p>
+            </div>
+        </a>
+    </div>
+
+     <div class="col-md-8">
+        <h4><strong>5. See the impact of research</strong></h4>
+        <p>View project analytics on individual projects to measure impact beyond publication and citations. The OSF provides data on downloads, page views, and referring sites.</p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://osf.io/ezcuj/analytics/">
+            <div class="action-box">
+                <i class="fa fa-bar-chart"></i>
+                <p>See an example</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-8">
+        <h4><strong>6. Share the outputs of conferences and meetings</strong></h4>
+        <p>Your researchers work hard on conference presentations and posters. OSF for Meetings enables easy sharing of slides or posters before or after a conference. Encourage your conference organizers to have it set up, or request it yourself.</p>
+    </div>
+
+    <div class="col-md-4 action-link margin-top-50">
+        <a href="https://osf.io/meetings/">
+            <div class="action-box">
+                <i class="fa fa-folder-open"></i>
+                <p>Click to get started</p>
+            </div>
+        </a>
+    </div>
+</div>
+<!-- END TAB 2 -->
+<!-- START TAB 3 -->
+<div class="tab-pane" id="tab_4">
     <div class="col-md-12">
         <h2><strong>Take Steps Towards Transparency</strong></h2>
         <p>COS offers researchers tools and services to make your research better, more efficient, and more reproducible.</p>
@@ -1135,8 +1104,8 @@
         </a>
     </div>
 </div>
-<!-- END TAB 2 -->
-## <!-- START TAB 3 -->
+<!-- END TAB 3 -->
+## <!-- START TAB 4 -->
 ## <div class="tab-pane" id="tab_3">
 ##    <div class="col-md-12">
 ##        <h2><strong>Nudge Incentives Towards Openness</strong></h2>
@@ -1220,9 +1189,9 @@
 
 
 ##</div>
-##<!-- END TAB 3 -->
-<!-- START TAB 4 -->
-<div class="tab-pane" id="tab_4">
+##<!-- END TAB 4 -->
+<!-- START TAB 5 -->
+<div class="tab-pane" id="tab_5">
     <div class="col-md-12">
         <h2><strong>Join Our Open Source Community</strong></h2>
         <p>A natural parallel to open scientific practices is open source software. COS is a Python-based, open source development shop. You can join our mission to bring the core philosophy of open source development to science.</p>
@@ -1290,8 +1259,8 @@
 
 
 </div>
-<!-- END TAB 4 -->
-    ##<!-- BEGIN TAB 5 -->
+<!-- END TAB 5 -->
+    ##<!-- BEGIN TAB 6 -->
     ##<div class="tab-pane" id="tab_5">
     ##    <div class="col-md-12">
     ##        <h2>Respond to a Call for Proposals</h2>
@@ -1315,7 +1284,7 @@
     ##
     ##    </div>
     ##</div>
-    ##<!-- END TAB 5 -->
+    ##<!-- END TAB 6 -->
     </div>
 </div>
 </div>
