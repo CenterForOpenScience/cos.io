@@ -846,19 +846,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3">
-        <div class="thumbnail">
-            <img src="../static/img/people/paudel.jpg" alt="Wisher Paudel">
-            <h3>
-                Wisher Paudel
-                <small>QA Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/hwzg7/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://www.linkedin.com/pub/wisher-paudel/97/614/b8" data-original-title="LinkedIn" class="linkedin"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/Liu2.jpg" alt="Yuhuai Liu">
@@ -1776,6 +1763,19 @@
                 <small> QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3">
+        <div class="thumbnail">
+            <img src="../static/img/people/paudel.jpg" alt="Wisher Paudel">
+            <h3>
+                Wisher Paudel
+                <small>QA Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/hwzg7/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://www.linkedin.com/pub/wisher-paudel/97/614/b8" data-original-title="LinkedIn" class="linkedin"></a></li>
             </ul>
         </div>
     </li>
