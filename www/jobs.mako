@@ -264,48 +264,48 @@
         </div>
     </div>
 </div>
- <div id="CommunityIntern" class="panel-group">
-     <div class="panel panel-info">
-         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#CommunityIntern_heading">
-                         <h4 class="panel-title">
-                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                 <a  data-parent="#CommunityIntern" >
-                     Community Intern
-                 </a>
-             </h4>
-         </div>
-        <div id="CommunityIntern" class="panel-collapse collapse">
-           <div class="panel-body">
-               <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a hfref="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We seek an intern with extremely strong social and organizational skills to contribute to community efforts, and to help facilitate open science practices more broadly within the scientific research community. </p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                    <p>The key responsibilities of the Community Intern will be to assist in a number of on-going projects and gain experience using key business support software platforms like Salesforce.com, Desk.com, and JIRA. Tasks may include monitoring and responding to user support requests via email and directing users to available resources, contributing to the knowledge base by creating and updating user documentation for product releases, maintaining a database of published research citing the OSF, and contributing qualified contacts and accounts to the Salesforce.com database for future engagement.</p>
-                   </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Experience with web communication and documentation software; Team-oriented; Very strong work ethic; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in email marketing, customer service, and business development are a plus.</p>
-                    </dd>
-                    <dt>Notes</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit science and technology organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  The COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, is highly collaborative, is high energy, and is dedicated to openness.  COS has three primary activities: (1) <a href="https://osf.io/">infrastructure development</a> to support the scientific workflow- documentation, archiving, sharing, and registration - and connect with other open technologies, (2) community building among open-source developers, open science researchers, and the broader scientific community, and (3) metascience, research on scientific practices.  Get more information about COS at its <a href="https://cos.io/">Website</a>. 
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/99265826-ee99-44d4-bf73-29a6d4996804" target="_blank">here</a>.</p>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-   </div>
-</div>
+## <div id="CommunityIntern" class="panel-group">
+##    <div class="panel panel-info">
+##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#CommunityIntern_heading">
+##                         <h4 class="panel-title">
+##                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                 <a  data-parent="#CommunityIntern" >
+##                     Community Intern
+##                 </a>
+##             </h4>
+##         </div>
+##        <div id="CommunityIntern" class="panel-collapse collapse">
+##          <div class="panel-body">
+##               <dl class="dl-horizontal">
+##                    <dt>Background</dt>
+##                    <dd>
+##                       <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a hfref="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We seek an intern with extremely strong social and organizational skills to contribute to community efforts, and to help facilitate open science practices more broadly within the scientific research community. </p>
+##                    </dd>
+##                    <dt>Responsibilities</dt>
+##                    <dd>
+##                   <p>The key responsibilities of the Community Intern will be to assist in a number of on-going projects and gain experience using key business support software platforms like Salesforce.com, Desk.com, and JIRA. Tasks may include monitoring and responding to user support requests via email and directing users to available resources, contributing to the knowledge base by creating and updating user documentation for product releases, maintaining a database of published research citing the OSF, and contributing qualified contacts and accounts to the Salesforce.com database for future engagement.</p>
+##                   </dd>
+##                    <dt>Skills</dt>
+##                    <dd>
+##                        <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Experience with web communication and documentation software; Team-oriented; Very strong work ethic; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in email marketing, customer service, and business development are a plus.</p>
+##                    </dd>
+##                    <dt>Notes</dt>
+##                   <dd>
+##                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit science and technology organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  The COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, is highly collaborative, is high energy, and is dedicated to openness.  COS has three primary activities: (1) <a href="https://osf.io/">infrastructure development</a> to support the scientific workflow- documentation, archiving, sharing, and registration - and connect with other open technologies, (2) community building among open-source developers, open science researchers, and the broader scientific community, and (3) metascience, research on scientific practices.  Get more information about COS at its <a href="https://cos.io/">Website</a>. 
+##                   </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/99265826-ee99-44d4-bf73-29a6d4996804" target="_blank">here</a>.</p>
+##                    </dd>
+##                </dl>
+##            </div>
+##        </div>
+##   </div>
+##</div>
 ##<div id="Community Manager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading">
