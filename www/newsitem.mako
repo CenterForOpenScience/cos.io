@@ -4,6 +4,13 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2016-01-26/">
+                The Center for Open Science and the University of Notre Dame Partner to Advance Technologies That Support Long-Term Solutions for Open Science Initiatives</a></h3>
+        </div>
+    </div>
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2016-01-15/">
                 The Center for Open Science Announces Collaboration with the Busara Center for Behavioral Economics</a></h3>
         </div>
@@ -23,12 +30,7 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2015-12-03/">
-                Center for Open Science and protocols.io Announce Collaboration</a></h3>
-        </div>
-    </div>
+
 
 
 
