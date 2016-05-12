@@ -949,7 +949,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="https://osf.io/institutions">
+        <a href="https://osf.io/search/?q=institutions&filter=institution&page=1">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
                 <p>See an example</p>

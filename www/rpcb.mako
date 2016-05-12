@@ -46,13 +46,13 @@
                             <li>Part 1: Read the original paper and the replication methodology, and answer a few survey questions on your beliefs about the findings and their likelihood of replicating.</li>
                             <ul>
                                 <li>View active projects<a href="http://elifesciences.org/collections/reproducibility-project-cancer-biology"> here</a></li></ul>
-                            <li>Part 2: Read the Replication Study containing the results and answer a few survey questions about the outcomes. <i>(Note: The surveys are independent of peer review and have no impact on the Replication Study’s publication.)</i></li></ul>
+                            <li>Part 2: Read the Replication Study containing the results and answer a few survey questions about the outcomes. <i>(Note: The surveys are anonymous and independent of peer review and have no impact on the Replication Study’s publication.)</i></li></ul>
                            <li><strong>When you will take the surveys:</strong></li>
                            <ul><li>For now, we are collecting a list of interested scientists and will contact you when a survey becomes available. It might be in a few weeks, months, or sometime next year.</li>
                            <li>A survey becomes available after acceptance of a Replication Study, but before the results are made public. At that time you can decide if you have the time to commit to it.</li></ul>
                        </ul>
                         <p><h4><strong>What you'll get</strong></h4>
-                        <ul><li>Service designation for your CV for being a member of the Reproducibility Review Panel</li>
+                        <ul><li>Service designation for your CV for being a member of the Reproducibility Review Panel <i>(Optional)</i></li>
                         <li>Recognition on the RP:CB website as a Reproducibility Review Panel member <i>(Optional)</i></li>
                         <li>An interesting, engaging experience in evaluating the reproducibility of research</li></ul>
 
