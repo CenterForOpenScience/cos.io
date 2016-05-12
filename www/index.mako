@@ -66,7 +66,7 @@
                     <i class="fa fa-group blue"></i><br>
                     <span>Community</span>
                 </div>
-                <p>COS fosters open science communities of researchers, developers, and leaders. Check out <a href="/communities">COS Communities</a> to learn more.</p>
+                <p>COS fosters open science communities of researchers and scientists, their affiliated institutions, their funders, and the publishers of research outcomes. Check out <a href="/communities">COS Communities</a> to learn more.</p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
@@ -84,14 +84,22 @@
     <!-- BEGIN SERVICE BOX -->
     <div class="service-box margin-bottom-40">
         <div class="row">
-             <div class="col-md-4 col-sm-4">
+        <div class="col-md-6 col-sm-6">
+                <div class="service-box-heading">
+                    <i class="fa fa-sitemap blue"></i><br>
+                    <span>Research Institutions</span>
+                </div>
+                <p>COS works with institutions to enhance transparency, foster collaboration, and increase the visibility of research at the institutional level. <a href="/involved_participate/#tab_2">Learn how to get your institution connected.</a></p>
+            </div>
+             <div class="col-md-6 col-sm-6">
                 <div class="service-box-heading">
                     <i class="fa fa-user blue"></i><br>
                     <span>Scientists</span>
                 </div>
                 <p>COS empowers scientists to make their work more accessible and reproducible, and includes researchers in communities studying, training, or changing research practices. <a href="/involved_participate/#tab_2">Explore simple steps toward open science.</a></p>
             </div>
-            <div class="col-md-4 col-sm-4">
+            </div>
+            <div class="col-md-6 col-sm-6">
                 <div class="service-box-heading">
                     <i class="fa fa-book blue"></i><br>
                     <span>Publishers &amp; Societies</span>
@@ -99,7 +107,7 @@
                 <p>COS maintains free, easy-to-adopt tools and services for journals, societies, and funders to incentivize openness and preregistration. <a href="/involved_participate/#tab_3">Read more about how COS can assist you.</a></p>
 
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-6 col-sm-6">
                 <div class="service-box-heading">
                     <i class="fa fa-download blue"></i><br>
                     <span>Developers</span>
