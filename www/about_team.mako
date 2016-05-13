@@ -321,21 +321,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/holman.jpg" alt="Denise Holman">
-            <h3>
-                Denise Holman
-                <small>Office Manager & Events Coordinator | Operations </small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">deni<span style="display:none;">null</span>se@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qravfr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
                 Erin Braswell
@@ -362,19 +347,6 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:svgm@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/felliott" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/jmc78/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/gaskins.jpg" alt="Gage Gaskins">
-            <h3>
-                Gage Gaskins
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/gagegaskins" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/ia9kv/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -506,23 +478,7 @@
                 <li><a href="https://osf.io/9Y8V6/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
-    </li>
-        <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/kidwell.JPG" alt="Mallory Kidwell">
-            <h3>
-                Mallory Kidwell
-                <small>Project Coordinator | Metascience</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mallo<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-                <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:znyybel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-
-                    <li><a href="https://www.linkedin.com/profile/view?id=203460462" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/z2u9w/" data-original-title="osf" class="osf"></a></li>
-                </ul>
-        </div>
-    </li>
+    </li>f
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/clark.jpg" alt="Matt Clark">
@@ -999,6 +955,21 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/holman.jpg" alt="Denise Holman">
+            <h3>
+                Denise Holman
+                <small>Office Manager & Events Coordinator | Operations </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">deni<span style="display:none;">null</span>se@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:qravfr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="http://www.linkedin.com/profile/view?id=86936535&trk=nav_responsive_tab_profile_pic" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/f9xpl/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/carter.jpg" alt="Dejah Carter">
@@ -1091,6 +1062,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/fh9cp" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/zkaeq/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gaskins.jpg" alt="Gage Gaskins">
+            <h3>
+                Gage Gaskins
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/gagegaskins" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/ia9kv/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1447,6 +1431,22 @@
                 <li><a href="https://github.com/lyndsysimon" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/amvr6/" data-original-title="osf" class="osf"></a></li>
             </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kidwell.JPG" alt="Mallory Kidwell">
+            <h3>
+                Mallory Kidwell
+                <small>Project Coordinator | Metascience</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mallo<span style="display:none;">null</span>ry@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+                <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:znyybel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+
+                    <li><a href="https://www.linkedin.com/profile/view?id=203460462" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/z2u9w/" data-original-title="osf" class="osf"></a></li>
+                </ul>
         </div>
     </li>
     <li class="col-md-3 space-mobile">
