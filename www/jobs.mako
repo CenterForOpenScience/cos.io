@@ -182,16 +182,16 @@
         </div>
     </div>
 </div>
-<div id="Bookkeeper" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Bookkeeper_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#Bookkeeper" >
-                    Bookkeeper
-                </a>
-            </h4>
-        </div>
+##<div id="Bookkeeper" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Bookkeeper_heading">
+##            <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#Bookkeeper" >
+##                    Bookkeeper
+##                </a>
+##            </h4>
+##        </div>
 ##<div id="Bookkeeper" class="panel-collapse collapse">
 ##            <div class="panel-body">
 ##                <dl class="dl-horizontal">
