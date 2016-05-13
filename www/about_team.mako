@@ -29,19 +29,6 @@
 <ul class="list-unstyled" id="whoWeAre">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/gupta2.jpg" alt="Abhishek Gupta">
-            <h3>
-                Abhishek Gupta
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/ag4ml" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/57ebh/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/schiller.jpg" alt="Alex Schiller">
             <h3>
                 Alex Schiller
@@ -109,19 +96,6 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:nobhtug@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/abought" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/tgzc5/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/Sanfilippo.jpg" alt="Anna Sanfilippo">
-            <h3>
-                Anna Sanfilippo
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/asanfilippo7" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/vfwjb/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -362,19 +336,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/barbour.jpg" alt="Eric Barbour">
-            <h3>
-                Eric Barbour
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/barbour-em" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/632w7/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/braswell.JPG" alt="Erin Braswell">
             <h3>
                 Erin Braswell
@@ -504,19 +465,6 @@
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbyrar@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/jolene-esposito" data-original-title="Github" class="github"></a></li>
                 <li><a href="https://osf.io/wmp4n/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/hewett.jpg" alt="Kelsey Hewett">
-            <h3>
-                Kelsey Hewett
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/kch8qx" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/32utm/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -868,6 +816,19 @@
 <h1><strong>Alumni<br><br></strong></h1>
 <br>
 <ul class="list-unstyled" id="whoWeAre">
+<li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gupta2.jpg" alt="Abhishek Gupta">
+            <h3>
+                Abhishek Gupta
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ag4ml" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/57ebh/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/ferguson.jpg" alt="Alexander Ferguson">
@@ -877,6 +838,19 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/gxe9a/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/Sanfilippo.jpg" alt="Anna Sanfilippo">
+            <h3>
+                Anna Sanfilippo
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/asanfilippo7" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/vfwjb/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1061,6 +1035,19 @@
                 <li><a href="https://github.com/ericanbaranski" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/gqx2h/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="http://ericanbaranski.wix.com/ericanbaranski" data-original-title="person" class="person"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/barbour.jpg" alt="Eric Barbour">
+            <h3>
+                Eric Barbour
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/barbour-em" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/632w7/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1364,6 +1351,19 @@
                 <li><a href="https://github.com/kdavydova13" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://www.linkedin.com/profile/view?id=200774365" data-original-title="linkedin" class="linkedin"></a></li>
                 <li><a href="http://osf.io/tfj5b" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/hewett.jpg" alt="Kelsey Hewett">
+            <h3>
+                Kelsey Hewett
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/kch8qx" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/32utm/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
