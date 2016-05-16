@@ -37,6 +37,14 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2016-05-16"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+                    <h2 class="text-left">The Center for Open Science receives $7.5 million in additional funding from the Laura and John Arnold Foundation</h2>
+                    <p class="text-left">May 16, 2016 | The Center for Open Science has been awarded an additional $7.5 million in funding from the Laura and John Arnold Foundation. This two-year grant provides operating support to COS as it continues its mission to increase the transparency, reproducibility, and inclusivity of scientific research.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2016-05-12"><img src="../static/img/icons/cos_logo.png"
                     width="125">
                     <h2 class="text-left">Badges acknowledging open practices dramatically increase data sharing</h2>
