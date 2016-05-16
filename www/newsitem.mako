@@ -4,6 +4,13 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2016-05-12/">
+                Badges acknowledging open practices dramatically increase data sharing</a></h3>
+        </div>
+    </div>
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2016-01-26/">
                 The Center for Open Science and the University of Notre Dame Partner to Advance Technologies That Support Long-Term Solutions for Open Science Initiatives</a></h3>
         </div>
@@ -23,12 +30,7 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2015-12-10/">
-                Center for Open Science Announces Partnership with VA Tech's Laboratory for Interdisciplinary Statistical Analysis</a></h3>
-        </div>
-    </div>
+
 
 
 
