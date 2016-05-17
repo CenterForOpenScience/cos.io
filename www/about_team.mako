@@ -478,7 +478,7 @@
                 <li><a href="https://osf.io/9Y8V6/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
-    </li>f
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/clark.jpg" alt="Matt Clark">
