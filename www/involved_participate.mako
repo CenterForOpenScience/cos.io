@@ -43,7 +43,7 @@
     <h2><strong>Promote Open Science in Your Community</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
         materials to help you advocate for open science. United, we can increase openness,
-        integrity, and reproducibility across scientific domains.</p>
+        integrity, and reproducibility across scientific domains. <a href="https://osf.io/bs23x/">Learn more.</a></p>
 
     <div class="col-md-8">
         <h4><b>What Ambassadors Do</b></h4>
