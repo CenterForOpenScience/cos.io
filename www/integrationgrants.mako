@@ -36,7 +36,7 @@
                 <ls>
                     <li>Vitals of the individual or team that will do the work</li>
                     <li>Why this is the right team for the job</li>
-                    <li>An assessment of the APIs for the selected tool(s)/service(s) and the <a href="https://staging2.osf.io/api/v2/docs/">v2 Open Science Framework API</a>, and how these would interact</li>
+                    <li>An assessment of the APIs for the selected tool(s)/service(s) and the <a href="https://api.osf.io/v2/docs/">v2 Open Science Framework API</a>, and how these would interact</li>
                     <li>Description of project plan and milestones over approximately 3 months development cycle</li>
                 </ls>
             </p>
