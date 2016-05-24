@@ -578,6 +578,20 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
+            <h3>
+                Lauren Revere
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/3t5vu/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/chen3.jpg" alt="Longze Chen">
             <h3>
                 Longze Chen
@@ -1507,6 +1521,7 @@
             <h3>
                 Johanna Cohoon
                 <small>Project Coordinator | Metascience</small>
+            </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/jlcohoon" data-original-title="Github" class="github"></a></li>
                 <li><a href="http://www.linkedin.com/pub/johanna-cohoon/3b/a90/ab7" data-original-title="Linkedin" class="linkedin"></a></li>
@@ -1640,20 +1655,6 @@
                 <li><a href="https://github.com/lbanner" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/ygsav/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/lbanner" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/revere.jpg" alt="Lauren Revere">
-            <h3>
-                Lauren Revere
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/geeksnglitter" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/pub/lauren-revere/75/9ab/826" data-original-title="linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/3t5vu/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
