@@ -37,6 +37,14 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "http://arstechnica.com/science/2016/05/achievement-unlocked-badges-induce-scientists-to-share-data/"><img src="../static/img/icons/ars_technica.png"
+                    width="125">
+                    <h2 class="text-left">Simple badge incentive could help eliminate bad science</h2>
+                    <p class="text-left">May 20, 2016 | Researchers share their data more when they can earn a badge for transparency.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2016-05-16"><img src="../static/img/icons/cos_logo.png"
                     width="125">
                     <h2 class="text-left">The Center for Open Science receives $7.5 million in additional funding from the Laura and John Arnold Foundation</h2>
