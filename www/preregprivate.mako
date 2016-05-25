@@ -1,3 +1,4 @@
+
 <%inherit file="_base.mako"/>
 <%def name="title()">Preregistration Challenge</%def>
 <%def name="description()">Information about the Preregistration Challenge.</%def>
