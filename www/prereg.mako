@@ -51,7 +51,7 @@
                             <tr>
                                 <td>
                                     <p style="text-align:justify">
-                                        Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research.
+                                        Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. All it takes is a single experiment and its analysis to be eligible. 
                                         <br>
                                           <p>Share <a href="https://osf.io/peut2/" target="_blank">this handout</a> for a brief overview and links to more information, and <a href="https://osf.io/login/?campaign=prereg" target="_blank">begin your preregistration today</a>!
                                     <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe></p>
