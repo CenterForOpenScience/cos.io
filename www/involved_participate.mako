@@ -1194,7 +1194,7 @@
 <div class="tab-pane" id="tab_5">
     <div class="col-md-12">
         <h2><strong>Join Our Open Source Community</strong></h2>
-        <p>A natural parallel to open scientific practices is open source software. COS is a Python-based, open source development shop. You can join our mission to bring the core philosophy of open source development to science.</p>
+        <p> A natural parallel to open scientific practices is open source software. COS is a Python-based, open source development shop. You can join our mission to bring the core philosophy of open source development to science.</p>
     </div>
 
     <div class="col-md-8">
