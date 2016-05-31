@@ -70,6 +70,9 @@
                   <br>            
                 <hr>
                 <h2><strong>Register</strong></h2>
+                Can't view the form? <a href ="https://docs.google.com/a/cos.io/forms/d/1JxZdSbK_mPfrIdNq1rO561YHP7Tpk47ag0ijT0Odk9Q/viewform">Click here</a>.
+                <br>
+                <br>
 
                 <iframe src="https://docs.google.com/forms/d/1JxZdSbK_mPfrIdNq1rO561YHP7Tpk47ag0ijT0Odk9Q/viewform?embedded=true" width="760" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                 <hr> 
