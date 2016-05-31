@@ -442,60 +442,60 @@
 ##        </div>
 ##    </div>
 ##</div>
-##<div id="ExecutiveAssistant" class="panel-group">
-##    <div class="panel panel-info">
-##        <div class="panel-heading">
-##            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ExecutiveAssistant_heading">
-##               <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                <a data-parent="#ExecutiveAssistant">
-##                    Executive Assistant
-##                </a>
-##            </h4>
-##        </div>
-##        <div id="ExecutiveAssistant" class="panel-collapse collapse">
-##            <div class="panel-body">
-##                <dl class="dl-horizontal">
-##                    <dt>Background</dt><dd><p>Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research.  The Center for Open Science (COS) will add an operations-focused Executive Assistant.  The Executive Assistant will provide comprehensive organization, coordination, and communication support for the Executive Director and the Chief Technology Officer.  The Assistant’s flexibility, outstanding organizational skills and thoughtfulness will enhance the executive's effectiveness by providing information management support and representing the executive to others as well as anticipating issues before they become problems. COS is a fast-paced, rapidly growing company that is providing mission-driven services to the scientific community.  You will have a deep interest in technology and will thrive in a high-velocity, unstructured start-up environment.  </p></dd>
-##                     <dt>Location</dt>
-##                     <dd>
-##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                     </dd>
-##                    <dt>Responsibilities</dt>
-##                     <dd>
-##                         <p>Maintains executives’ appointment schedule by planning and scheduling meetings, conferences, teleconferences, and travel.</p>
-##                         <p>Managing e-mail and other correspondence for executives.</p>
-##                         <p>Point-of-contact for coordination with other organizations for executive-level meetings and negotiations.</p>
-##                         <p>Identifying and anticipating organization and executives’ priorities to support prioritization of tasks and events, and identification of alternative courses of action with risks and opportunities of each.</p>
-##                        <p>Creatively assessing tasks and identifying mechanisms to free up time on executives’ schedule to maintain focus on top priorities and efficient decision-making.</p>
-##                         <p>Providing critical feedback to executives for when NOT to spend time on activities that can be completed by others.</p>
-##                         <p>Comprehensive understanding of the organization and team members, and development of their trust to be an extension of the executive team.</p>
-##                         <p>Provide effective, respected conduit of information between executives and entire staff.</p>
-##                         <p>Conserves executives’ time by reading, researching, and routing correspondence; drafting letters, documents, and presentations; collecting and analyzing information; initiating communications; managing technology.</p>
-##                     </dd>
-##                     <dt>Other Activities</dt>
-##                     <dd> 
-##                        <ul>
-##                             <li>Supporting Operations Team.</li>
-##                             <li>Manage special projects and assignments.</li>
-##                             <li>Represents the executive by attending meetings in the executive's absence.</li>
-##                             <li>Provides historical reference by recording meeting discussions and results.</li>
-##                        </ul>
-##                     </dd>
-##                     <dt>Notes</dt>
-##                     <dd>
-##                         <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
-##                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>    
-##                     <dt>Benefits</dt>
-##                     <dd>
-##                         <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
-##                    </dd>
-##                    <dt>Applying</dt><dd>
-##                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="https://jobs.lever.co/cos/1d5eca20-50b1-4cbd-b979-16fd730c5377">here</a>.</p>
-##                </dl>
-##            </div>
-##        </div>
-##    </div>
-##</div>
+<div id="ExecutiveAssistant" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title" class="accordion-toggle" data-toggle="collapse" href="#ExecutiveAssistant_heading">
+               <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#ExecutiveAssistant">
+                    Executive Assistant
+                </a>
+            </h4>
+        </div>
+        <div id="ExecutiveAssistant" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt><dd><p>Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research.  The Center for Open Science (COS) will add an operations-focused Executive Assistant.  The Executive Assistant will provide comprehensive organization, coordination, and communication support for the Executive Director and the Chief Technology Officer.  The Assistant’s flexibility, outstanding organizational skills and thoughtfulness will enhance the executive's effectiveness by providing information management support and representing the executive to others as well as anticipating issues before they become problems. COS is a fast-paced, rapidly growing company that is providing mission-driven services to the scientific community.  You will have a deep interest in technology and will thrive in a high-velocity, unstructured start-up environment.  </p></dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                    <dt>Responsibilities</dt>
+                     <dd>
+                         <p>Maintains executives’ appointment schedule by planning and scheduling meetings, conferences, teleconferences, and travel.</p>
+                         <p>Managing e-mail and other correspondence for executives.</p>
+                         <p>Point-of-contact for coordination with other organizations for executive-level meetings and negotiations.</p>
+                         <p>Identifying and anticipating organization and executives’ priorities to support prioritization of tasks and events, and identification of alternative courses of action with risks and opportunities of each.</p>
+                        <p>Creatively assessing tasks and identifying mechanisms to free up time on executives’ schedule to maintain focus on top priorities and efficient decision-making.</p>
+                         <p>Providing critical feedback to executives for when NOT to spend time on activities that can be completed by others.</p>
+                         <p>Comprehensive understanding of the organization and team members, and development of their trust to be an extension of the executive team.</p>
+                        <p>Provide effective, respected conduit of information between executives and entire staff.</p>
+                         <p>Conserves executives’ time by reading, researching, and routing correspondence; drafting letters, documents, and presentations; collecting and analyzing information; initiating communications; managing technology.</p>
+                     </dd>
+                     <dt>Other Activities</dt>
+                     <dd> 
+                       <ul>
+                             <li>Supporting Operations Team.</li>
+                             <li>Manage special projects and assignments.</li>
+                             <li>Represents the executive by attending meetings in the executive's absence.</li>
+                             <li>Provides historical reference by recording meeting discussions and results.</li>
+                        </ul>
+                     </dd>
+                     <dt>Notes</dt>           
+                     <dd>
+                         <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>    
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. See more about <a href="#benefits">amenities</a>.</p>
+                    </dd>
+                    <dt>Applying</dt><dd>
+                    <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  Please submit a resume, cover letter, and digital portfolio of work showcasing your background and interest in the position <a href="https://jobs.lever.co/cos/1d5eca20-50b1-4cbd-b979-16fd730c5377">here</a>.</p>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="FrontEndDeveloper" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#FrontEndDeveloper_heading">
