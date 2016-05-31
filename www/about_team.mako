@@ -320,7 +320,7 @@
             <img src="../static/img/people/rollins.jpg" alt="Casey Rollins">
             <h3>
                 Casey Rollins
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/cmr3rm" data-original-title="GitHub" class="github"></a></li>
@@ -594,7 +594,7 @@
             <img src="../static/img/people/barker.jpg" alt="Lauren Barker">
             <h3>
                 Lauren Barker
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/leb2dg" data-original-title="GitHub" class="github"></a></li>
