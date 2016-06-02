@@ -80,6 +80,29 @@
 <h3><strong>Ambassadors</strong></h3>
 <table>
 <tr>
+    
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/kqt5v/" target="_blank">
+                        <img src="../static/img/people/ambassadors/montealegre.jpg" alt="Andrés Montealegre">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Andrés Montealegre
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Universidad de los Andes
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -102,6 +125,29 @@
         </table>
     </td>
 
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/mw4ax/" target="_blank">
+                        <img src="../static/img/people/ambassadors/marshall.jpg" alt="Brianna Marshall">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Brianna Marshall
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of Wisconsin
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -146,8 +192,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -170,7 +214,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -215,8 +260,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -239,7 +282,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -283,8 +327,6 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -307,6 +349,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -351,8 +395,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -374,6 +416,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -417,8 +461,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -440,6 +483,8 @@
             </tr>
         </table>
     </td>
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -482,8 +527,7 @@
         </table>
     </td>
 
-</tr>
-<tr>
+
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -506,7 +550,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -551,8 +596,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -575,7 +618,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
      <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -620,8 +664,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -644,7 +686,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -689,8 +732,7 @@
         </table>
     </td>
 
-</tr>
-<tr>
+
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -713,7 +755,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -758,8 +801,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -782,7 +823,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -827,8 +869,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -851,7 +891,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
