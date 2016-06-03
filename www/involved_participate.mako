@@ -107,6 +107,28 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/rmn56/" target="_blank">
+                        <img src="../static/img/people/ambassadors/fedorov.jpeg" alt="Andrey Fedorov">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Andrey Fedorov
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Harvard Medical School and Brigham and Women's Hospital
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/z7mt6/" target="_blank">
                         <img src="../static/img/people/ambassadors/allison.jpg" alt="Anne Allison">
                     </a>
