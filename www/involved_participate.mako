@@ -506,6 +506,29 @@
         </table>
     </td>
 </tr>
+
+    <td class="ambassador-data">       
+         <table class="ambassador-box">        
+             <tr>      
+                 <td class="ambassador-img">       
+                 <a href="https://osf.io/nm5gx/" target="_blank">      
+                     <img src="../static/img/people/ambassadors/simon.jpg" alt="Jeremy Simon">     
+                 </a>      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-name">      
+                     Jeremy Simon      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-instit-padding">        
+                     Brandeis University       
+                 </td>     
+             </tr>     
+         </table>      
+     </td>      
+
 <tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
