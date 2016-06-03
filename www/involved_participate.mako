@@ -984,6 +984,32 @@
     </td>
 </tr>
 <tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/sfcrn/" target="_blank">        
+                         <img src="../static/img/people/ambassadors/zawada.jpeg" alt="Stephanie Zawada">       
+                     </a>      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-name">      
+                     Stephanie Zawada      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-instit-padding">        
+                     University of Arizona     
+                 </td>     
+             </tr>     
+         </table>      
+     </td>     
+       
+ -</tr>     
+ -<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
