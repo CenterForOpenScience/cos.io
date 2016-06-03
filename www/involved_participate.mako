@@ -659,7 +659,7 @@
             </tr>
             <tr>
                 <td class="ambassador-instit-padding">
-                    National Center for Ecological Analysis and Synthesis
+                    University of Washington
                 </td>
             </tr>
         </table>
