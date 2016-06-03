@@ -38,7 +38,7 @@
 <div class="col-md-9 col-sm-9">
 <div class="tab-content ">
 <!-- START TAB 1 -->
-<div class="tab-pane" id="tab_1">
+<div class="tab-pane active" id="tab_1">
 <div class="container">
     <h2><strong>Promote Open Science in Your Community</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
