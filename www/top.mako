@@ -32,22 +32,23 @@
                     ##<div class="col-md-3">
                      ##<img src="/static/img/pics/top-pen.png">
                     ##</div>
-                    
 
-                    
-                        <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines.  TOP includes eight modular standards, each with three levels of increasing stringency.   Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>                    
-                        
+
+
+                        <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines.  TOP includes eight modular standards, each with three levels of increasing stringency.   Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
+
                         <ul>
                             <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
+                            <li>Editorial on how Science will implement each standard: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
                             <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
                             <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
                             <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
-                            <li><a href="#signatories">Signatories</a></li>
+                            ##<li><a href="#signatories">Signatories</a></li>
                         </ul>
-                        
+
                 <hr>
                 <h1><strong>Signatories</strong></h1>
-                
+
                         <p class="margin-top-20">Journals, publishers, societies, repositories, and other organizations with a stake in science are encouraged to join as signatories of the TOP Guidelines.</p>
                         <p class="margin-top-20"><b>Journal signatories are:</b></p>
                         <ol>
@@ -77,7 +78,7 @@
                                             <th data-field="Subject Area" data-sortable="true" class="col-md-2">Subject Area</th>
                                         </tr>
                                     </thead>
-                                </table>   
+                                </table>
                         </div>
                         <div id="Organizations" class="tab-pane fade">
                                 <table data-toggle="table" data-url="/static/toporgs.json" data-height="799" data-sort-name="Organization" data-sort-order="asc" data-search="true">
@@ -86,10 +87,10 @@
                                             <th data-field="Organization" data-sortable="true">Organization</th>
                                         </tr>
                                     </thead>
-                                </table>   
+                                </table>
                         </div>
-                    </div>  
-   
+                    </div>
+
                 <hr>
                 <h1><strong>Related Efforts</strong></h1>
                     <p class="margin-top-20">The guidelines are the output of a meeting held in November 2014, organized by the <a href="http://bitss.org/">Berkeley Initiative for Transparency in the Social Sciences</a>, <a href="http://www.sciencemag.org"><em>Science</em> Magazine</a>, and the <a href="http://cos.io">Center for Open Science</a>.  TOP Guidelines are one of a family of efforts aiming to increase openness, integrity, and reproducibility of scientific research.  Explore and join these related efforts:</p>
@@ -103,8 +104,8 @@
                             <li><a href="http://centerforopenscience.org/prereg/">The Preregistration Challenge</a></li>
                             <li><a href="https://osf.io/8mpji/wiki/home/">Registered Reports</a></li>
                         </ul>
-                  
-                
+
+
                 <!-- END INFO BLOCK -->
             </div>
         </div>
