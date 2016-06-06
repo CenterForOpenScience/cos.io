@@ -38,7 +38,7 @@
 <div class="col-md-9 col-sm-9">
 <div class="tab-content ">
 <!-- START TAB 1 -->
-<div class="tab-pane" id="tab_1">
+<div class="tab-pane active" id="tab_1">
 <div class="container">
     <h2><strong>Promote Open Science in Your Community</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
@@ -80,6 +80,51 @@
 <h3><strong>Ambassadors</strong></h3>
 <table>
 <tr>
+    
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/kqt5v/" target="_blank">
+                        <img src="../static/img/people/ambassadors/montealegre.jpg" alt="Andrés Montealegre">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Andrés Montealegre
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Universidad de los Andes
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/rmn56/" target="_blank">
+                        <img src="../static/img/people/ambassadors/fedorov.jpeg" alt="Andrey Fedorov">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Andrey Fedorov
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Harvard Medical School and Brigham and Women's Hospital
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -97,6 +142,30 @@
             <tr>
                 <td class="ambassador-instit">
                     Piedmont Virginia Community College
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/mw4ax/" target="_blank">
+                        <img src="../static/img/people/ambassadors/marshall.jpg" alt="Brianna Marshall">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Brianna Marshall
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of Wisconsin
                 </td>
             </tr>
         </table>
@@ -283,6 +352,7 @@
             </tr>
         </table>
     </td>
+
 </tr>
 <tr>
 
@@ -307,6 +377,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -353,6 +424,7 @@
 
 </tr>
 <tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -374,6 +446,7 @@
             </tr>
         </table>
     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -417,8 +490,10 @@
             </tr>
         </table>
     </td>
+
 </tr>
 <tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -440,6 +515,29 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">       
+         <table class="ambassador-box">        
+             <tr>      
+                 <td class="ambassador-img">       
+                 <a href="https://osf.io/nm5gx/" target="_blank">      
+                     <img src="../static/img/people/ambassadors/simon.jpg" alt="Jeremy Simon">     
+                 </a>      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-name">      
+                     Jeremy Simon      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-instit-padding">        
+                     Brandeis University       
+                 </td>     
+             </tr>     
+         </table>      
+     </td>      
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -462,6 +560,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -482,8 +583,7 @@
         </table>
     </td>
 
-</tr>
-<tr>
+
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -507,6 +607,53 @@
         </table>
     </td>
 
+    <td class="ambassador-data">        
+         <table class="ambassador-box">        
+             <tr>      
+                 <td class="ambassador-img">       
+                     <a href="https://osf.io/r8dsa/" target="_blank">      
+                         <img src="../static/img/people/ambassadors/ruttenberg.jpg" alt="Judy Ruttenberg">     
+                     </a>      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-name">      
+                     Judy Ruttenberg       
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-instit-padding">        
+                     Association of Research Libraries     
+                 </td>     
+             </tr>     
+         </table>      
+     </td>     
+
+</tr>
+<tr>       
+
+     <td class="ambassador-data">      
+         <table class="ambassador-box">        
+            <tr>      
+                <td class="ambassador-img">       
+                    <a href="https://osf.io/ftk25/" target="_blank">      
+                        <img src="../static/img/people/ambassadors/werner.jpeg" alt="Kaitlyn Werner">     
+                    </a>      
+                </td>     
+            </tr>     
+            <tr>      
+                <td class="ambassador-name">      
+                    Kaitlyn Werner        
+                </td>     
+            </tr>     
+            <tr>      
+                <td class="ambassador-instit-padding">        
+                    Carleton University       
+                </td>     
+            </tr>     
+        </table>      
+     </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -523,7 +670,7 @@
             </tr>
             <tr>
                 <td class="ambassador-instit-padding">
-                    National Center for Ecological Analysis and Synthesis
+                    University of Washington
                 </td>
             </tr>
         </table>
@@ -856,6 +1003,28 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/sfcrn/" target="_blank">        
+                         <img src="../static/img/people/ambassadors/zawada.jpeg" alt="Stephanie Zawada">       
+                     </a>      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-name">      
+                     Stephanie Zawada      
+                 </td>     
+             </tr>     
+             <tr>      
+                 <td class="ambassador-instit-padding">        
+                     University of Arizona     
+                 </td>     
+             </tr>     
+         </table>      
+     </td>     
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/acfnb/" target="_blank">
                         <img src="../static/img/people/ambassadors/fiedler.JPG" alt="Susann Fiedler">
                     </a>
@@ -873,6 +1042,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">

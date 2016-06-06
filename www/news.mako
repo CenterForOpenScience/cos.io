@@ -37,6 +37,22 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "http://mobile.nytimes.com/2016/05/29/opinion/sunday/why-do-so-many-studies-fail-to-replicate.html?_r=0&referer=https://www.google.com/"><img src="../static/img/icons/nyt.png"
+                    width="125">
+                    <h2 class="text-left">Why Do So Many Studies Fail to Replicate?</h2>
+                    <p class="text-left">May 27, 2016</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://blog.sourced.tech/post/100-awesome-women-in-the-open-source-community-you-should-know/"><img src="../static/img/icons/sourced.png"
+                    width="125">
+                    <h2 class="text-left">100 Awesome Women In The Open-Source Community You Should Know</h2>
+                    <p class="text-left">May 25, 2016</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "http://arstechnica.com/science/2016/05/achievement-unlocked-badges-induce-scientists-to-share-data/"><img src="../static/img/icons/ars_technica.png"
                     width="125">
                     <h2 class="text-left">Simple badge incentive could help eliminate bad science</h2>

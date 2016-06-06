@@ -469,19 +469,31 @@
                         <p>Creatively assessing tasks and identifying mechanisms to free up time on executives’ schedule to maintain focus on top priorities and efficient decision-making.</p>
                          <p>Providing critical feedback to executives for when NOT to spend time on activities that can be completed by others.</p>
                          <p>Comprehensive understanding of the organization and team members, and development of their trust to be an extension of the executive team.</p>
+<<<<<<< HEAD
                         <p>Provide effective, respected conduit of information between executives and entire staff.</p>
+=======
+                         <p>Provide effective, respected conduit of information between executives and entire staff.</p>
+>>>>>>> 0cf9bfebd220f8c881b1ffd541b3eef83fdb0dc6
                          <p>Conserves executives’ time by reading, researching, and routing correspondence; drafting letters, documents, and presentations; collecting and analyzing information; initiating communications; managing technology.</p>
                      </dd>
                      <dt>Other Activities</dt>
                      <dd> 
+<<<<<<< HEAD
                        <ul>
+=======
+                        <ul>
+>>>>>>> 0cf9bfebd220f8c881b1ffd541b3eef83fdb0dc6
                              <li>Supporting Operations Team.</li>
                              <li>Manage special projects and assignments.</li>
                              <li>Represents the executive by attending meetings in the executive's absence.</li>
                              <li>Provides historical reference by recording meeting discussions and results.</li>
                         </ul>
                      </dd>
+<<<<<<< HEAD
                      <dt>Notes</dt>           
+=======
+                     <dt>Notes</dt>
+>>>>>>> 0cf9bfebd220f8c881b1ffd541b3eef83fdb0dc6
                      <dd>
                          <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
                         <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its website, and in its news section, and in papers articulating a vision for “Scientific Utopia” for scientific communication and scientific practices.</p>    
