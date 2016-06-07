@@ -37,6 +37,22 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "http://blogs.biomedcentral.com/bmcblog/2016/06/03/recruiting-participants-evaluate-reproducibility/"><img src="../static/img/icons/biomedcentral.png"
+                    width="125">
+                    <h2 class="text-left">Recruiting participants to evaluate reproducibility</h2>
+                    <p class="text-left">June 03, 2016 | There has been a lot of discussion and attention on reproducibility in science. To try and overcome this issue, particularly for cancer research, the Reproducibility Project: Cancer Biology was announced and those working on the project talk more about it in this blog.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "http://science.sciencemag.org/content/352/6290/1147.full"><img src="../static/img/icons/Science.gif"
+                    width="125">
+                    <h2 class="text-left">Taking up TOP</h2>
+                    <p class="text-left">June 03, 2016 | Nearly 1 year ago, a group of researchers boldly suggested that the standards for research quality, transparency, and trustworthiness could be improved if journals banded together to adopt eight standards called TOP (Transparency and Openness Promotion). Since that time, more than 500 journals have been working toward their implementation of TOP. </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "http://mobile.nytimes.com/2016/05/29/opinion/sunday/why-do-so-many-studies-fail-to-replicate.html?_r=0&referer=https://www.google.com/"><img src="../static/img/icons/nyt.png"
                     width="125">
                     <h2 class="text-left">Why Do So Many Studies Fail to Replicate?</h2>
