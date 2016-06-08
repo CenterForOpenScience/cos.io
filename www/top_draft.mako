@@ -185,6 +185,10 @@
                         <table>
                             <tr>
                                 <td>
+                            ##    <iframe src="https://mfr.osf.io/render?url=https://osf.io/2cz65/?action=download%26mode=render" width="100%" scrolling="yes" height="1070px" marginheight="0" frameborder="0" allowfullscreen webkitallowfullscreen>
+
+
+
                                     <h3>Information for journals</h3>
                                     <p>
                                 <br>
@@ -273,7 +277,7 @@
                                             </div>
                                         </div>
                                         <!-- End FAQ 5 -->
-                                        
+
                                     </div>
                                 </td>
                             </tr>
