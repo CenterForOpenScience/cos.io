@@ -317,7 +317,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/stewart.jpg" alt="Carolyn Stewart">
+            <img src="../static/img/people/Stewart.jpg" alt="Carolyn Stewart">
             <h3>
                 Carolyn Stewart 
                 <small>Developer Intern | Infrastructure</small>
