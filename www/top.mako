@@ -63,7 +63,7 @@
                          <p class="margin-top-20">For questions, comments, or to join as a signatory, contact <a href="mailto:top@cos.io">top@cos.io</a> or <a href="mailto:david@cos.io">David Mellor</a>.</p>
 <a id="signatories"></a>
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (544)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (545)</b></a></li>
                         <li><a data-toggle="tab" href="#Organizations"><b>Organizations (59)</b></a></li>
                     </ul>
 
