@@ -207,24 +207,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/hunt.jpg" alt="Billy Hunt">
-            <h3>
-                Billy Hunt
-                <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bil<span style="display:none;">null</span>ly@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ovyyl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://www.linkedin.com/profile/view?id=285397262" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://github.com/billyhunt" data-original-title="Github" class="github"></a></li>
-                <li><a href="https://osf.io/e5c7r/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://billyhunt.com/" data-original-title="Person" class="person"></a></li>
-                <li><a href="https://twitter.com/billyhunt" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/geiger.jpg" alt="Brian Geiger">
             <h3>
                 Brian Geiger
@@ -735,6 +717,19 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/keitelman.jpg" alt="Matthew Keitelman">
+            <h3>
+                Matthew Keitelman
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/zamattiac" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/c7vbx/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/spitzer.jpg" alt="Matt Spitzer">
@@ -804,19 +799,6 @@
             <ul class="social-icons social-icons-color">
             <li><script type="text/javascript">document.write("<n uers=\"znvygb:zrynavr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://www.linkedin.com/in/melanie-benjamin-64047841" data-original-title="Linkedin" class="linkedin"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/keitelman.jpg" alt="Matthew Keitelman">
-            <h3>
-                Matthew Keitelman
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/zamattiac" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/c7vbx/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1261,6 +1243,24 @@
            </ul>
        </div>
    </li>
+   <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/hunt.jpg" alt="Billy Hunt">
+            <h3>
+                Billy Hunt
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bil<span style="display:none;">null</span>ly@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:ovyyl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/profile/view?id=285397262" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://github.com/billyhunt" data-original-title="Github" class="github"></a></li>
+                <li><a href="https://osf.io/e5c7r/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="http://billyhunt.com/" data-original-title="Person" class="person"></a></li>
+                <li><a href="https://twitter.com/billyhunt" data-original-title="Twitter" class="twitter"></a></li>
+            </ul>
+        </div>
+    </li>
    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/purvis.jpg" alt="Brandon Purvis">
