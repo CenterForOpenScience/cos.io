@@ -737,22 +737,6 @@
             </ul>
         </div>
     </li>
-     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/spitzer.jpg" alt="Matt Spitzer">
-            <h3>
-                Matt Spitzer
-                <small>Community Manager | Community </small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">matt.sp<span style="display:none;">null</span>itzer@cos<span style="display:none;">null</span>.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:zngg.fcvgmre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/mattspitzer" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://www.linkedin.com/in/matthew-spitzer-bb22499" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/8kcwm/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/frazier.jpg" alt="Matthew Frazier">
