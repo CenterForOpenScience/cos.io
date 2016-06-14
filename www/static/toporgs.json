@@ -154,7 +154,7 @@
   },
     {
     "Organization":"Pensoft Publishers"
-  },  
+  },
     {
     "Organization":"Research Data Alliance"
   },
@@ -172,6 +172,9 @@
   },
       {
     "Organization":"Sense About Science USA"
+  },
+  {
+  "Organization":"SciCrunch"
   },
     {
     "Organization":"NeCTAR (National eResearch Collaboration Tools and Resources)"
