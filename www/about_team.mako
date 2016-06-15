@@ -1111,7 +1111,7 @@
             <img src="../static/img/people/wissinger.jpg" alt="Whitney Wissinger">
             <h3>
                 Whitney Wissinger
-                <small>Executive Assistant | Operations</small>
+                <small>Events and Facilities Coordinator | Operations</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">whit<span style="display:none;">null</span>ney@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
