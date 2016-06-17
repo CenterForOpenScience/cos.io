@@ -625,7 +625,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/walker (1).jpg" alt="Karley Walker">
+            <img src="../static/img/people/walker.jpg" alt="Karley Walker">
             <h3>
                 Karley Walker
                 <small>Developer Intern | Infrastructure</small>
@@ -772,23 +772,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-<<<<<<< HEAD
-        <div class="thumbnail">
-            <img src="../static/img/people/keitelman.jpg" alt="Matthew Keitelman">
-            <h3>
-                Matthew Keitelman
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/zamattiac" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/c7vbx/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-     <li class="col-md-3 space-mobile">
-=======
->>>>>>> 940aa2c729d0e8c990821b4b9e3458dd6f97e49e
         <div class="thumbnail">
             <img src="../static/img/people/keitelman.jpg" alt="Matthew Keitelman">
             <h3>
@@ -857,11 +840,7 @@
             </ul>
         </div>
     </li>
-<<<<<<< HEAD
         <li class="col-md-3 space-mobile">
-=======
-    <li class="col-md-3 space-mobile">
->>>>>>> 940aa2c729d0e8c990821b4b9e3458dd6f97e49e
         <div class="thumbnail">
             <img src="../static/img/people/haselton.jpg" alt="Michael Haselton">
             <h3>
