@@ -39,15 +39,20 @@
 
                         <ul>
                             <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
-                            <li>Editorial on how Science will implement each standard: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
+                            ##<li>Editorial on how Science will implement each standard: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
+                            ##<li>Editorial on how Ecology Letters will implement each standard: <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters, and Transparency and Openness Promotion (TOP) guidelines</a></li>
                             <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
                             <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
                             <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
                             ##<li><a href="#signatories">Signatories</a></li>
                         </ul>
-
+                        <hr>
+                        <h2><strong>Implementing TOP</strong></h2>
+                        <p>Read how Science and Ecology Letters will be implementing the TOP Guidelines.</p>
+                        Science: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></p>
+                        Ecology Letters: <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters, and Transparency and Openness Promotion (TOP) guidelines</a>
                 <hr>
-                <h1><strong>Signatories</strong></h1>
+                <h2><strong>Signatories</strong></h2>
 
                         <p class="margin-top-20">Journals, publishers, societies, repositories, and other organizations with a stake in science are encouraged to join as signatories of the TOP Guidelines.</p>
                         <p class="margin-top-20"><b>Journal signatories are:</b></p>
