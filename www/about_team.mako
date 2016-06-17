@@ -79,6 +79,19 @@
     </li>
     <li class="col-md-3">
         <div class="thumbnail">
+            <img src="../static/img/people/dehaven.jpg" alt="Alexander DeHaven">
+            <h3>
+                Alexander DeHaven
+                <small>Research Coordinator | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">alex.de<span style="display:none;">null</span>haven@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:nyrk.qrunira@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3">
+        <div class="thumbnail">
             <img src="../static/img/people/denis.jpg" alt="Alexandria Denis">
             <h3>
                 Alexandria Denis
@@ -299,7 +312,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/stewart.jpg" alt="Carolyn Stewart">
+            <img src="../static/img/people/Stewart.jpg" alt="Carolyn Stewart">
             <h3>
                 Carolyn Stewart 
                 <small>Developer Intern | Infrastructure</small>
@@ -356,6 +369,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/fairchild.jpg" alt="Cole Fairchild">
+            <h3>
+                Cole Fairchild 
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ccfair" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/6me9f/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 Courtney Soderberg
@@ -366,6 +392,19 @@
 
                 <li><script type="text/javascript">document.write("<n uers=\"znvygb:pbhegarl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://osf.io/hsey5/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/brown.jpg" alt="Daniel Brown">
+            <h3>
+                Daniel Brown 
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/dsb9ef" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/xn7u6/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -586,7 +625,7 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/walker.jpg" alt="Karley Walker">
+            <img src="../static/img/people/walker (1).jpg" alt="Karley Walker">
             <h3>
                 Karley Walker
                 <small>Developer Intern | Infrastructure</small>
@@ -703,6 +742,22 @@
             </ul>
         </div>
     </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/spitzer.jpg" alt="Matt Spitzer">
+            <h3>
+                Matt Spitzer
+                <small>Community Manager | Community </small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">matt.sp<span style="display:none;">null</span>itzer@cos<span style="display:none;">null</span>.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:zngg.fcvgmre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/mattspitzer" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://www.linkedin.com/in/matthew-spitzer-bb22499" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/8kcwm/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/frazier.jpg" alt="Matthew Frazier">
@@ -718,6 +773,7 @@
         </div>
     </li>
     <li class="col-md-3 space-mobile">
+<<<<<<< HEAD
         <div class="thumbnail">
             <img src="../static/img/people/keitelman.jpg" alt="Matthew Keitelman">
             <h3>
@@ -731,18 +787,17 @@
         </div>
     </li>
      <li class="col-md-3 space-mobile">
+=======
+>>>>>>> 940aa2c729d0e8c990821b4b9e3458dd6f97e49e
         <div class="thumbnail">
-            <img src="../static/img/people/spitzer.jpg" alt="Matt Spitzer">
+            <img src="../static/img/people/keitelman.jpg" alt="Matthew Keitelman">
             <h3>
-                Matt Spitzer
-                <small>Community Manager | Community </small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">matt.sp<span style="display:none;">null</span>itzer@cos<span style="display:none;">null</span>.io</small></span></noscript>
+                Matthew Keitelman
+                <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:zngg.fcvgmre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/mattspitzer" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://www.linkedin.com/in/matthew-spitzer-bb22499" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/8kcwm/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://github.com/zamattiac" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/c7vbx/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -802,7 +857,11 @@
             </ul>
         </div>
     </li>
+<<<<<<< HEAD
         <li class="col-md-3 space-mobile">
+=======
+    <li class="col-md-3 space-mobile">
+>>>>>>> 940aa2c729d0e8c990821b4b9e3458dd6f97e49e
         <div class="thumbnail">
             <img src="../static/img/people/haselton.jpg" alt="Michael Haselton">
             <h3>
@@ -875,19 +934,6 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/pgcft/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/wang.jpg" alt="Roman Wang">
-            <h3>
-                Roman Wang
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/romanzwang" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/w3mnt/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1093,7 +1139,7 @@
             <img src="../static/img/people/wissinger.jpg" alt="Whitney Wissinger">
             <h3>
                 Whitney Wissinger
-                <small>Executive Assistant | Operations</small>
+                <small>Events and Facilities Coordinator | Operations</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">whit<span style="display:none;">null</span>ney@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
@@ -1112,19 +1158,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/adlius" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/m2fur/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/janicki.jpg" alt="Zach Janicki">
-            <h3>
-                Zach Janicki
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/zachjanicki" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/xvt8n/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -2104,6 +2137,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/wang.jpg" alt="Roman Wang">
+            <h3>
+                Roman Wang
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/romanzwang" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/w3mnt/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/portnow.jpg" alt="Sam Portnow">
             <h3>
                 Sam Portnow
@@ -2210,6 +2256,19 @@
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/trwjd/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/janicki.jpg" alt="Zach Janicki">
+            <h3>
+                Zach Janicki
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/zachjanicki" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/xvt8n/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>

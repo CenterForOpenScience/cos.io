@@ -519,6 +519,14 @@
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"></td>
+                                                <td><span class="med-font"><strong>Quantitative Investment Management Fund</strong></span><br>
+                                                <strong>$2,500</strong><br>
+                                                The Quantitative Investment Management Fund made an unrestricted donation to support COS initiatives.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
                                         </table>
                                         <div id="in-kind" class="margin-top-100">
                                             <h3><strong>In-Kind Donations</strong></h3>
