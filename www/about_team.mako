@@ -67,9 +67,9 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/bowers.jpg" alt="Allison Bowers">
+            <img src="../static/img/people/bowers.jpg" alt="Allison Schiller">
             <h3>
-                Allison Bowers
+                Allison Schiller
                 <small>QA Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
