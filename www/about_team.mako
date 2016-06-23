@@ -382,6 +382,18 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/spinelli.jpg" alt="Cooper Spinelli">
+            <h3>
+                Cooper Spinelli 
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/phy37/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/soderberg.jpg" alt="Courtney Soderberg">
             <h3>
                 Courtney Soderberg
