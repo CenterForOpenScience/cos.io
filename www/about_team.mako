@@ -772,6 +772,7 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/keitelman.jpg" alt="Matthew Keitelman">
             <h3>
