@@ -70,7 +70,7 @@
             <img src="../static/img/people/bowers.jpg" alt="Allison Bowers">
             <h3>
                 Allison Bowers
-                <small>QA Intern | Infrastructure</small>
+                <small>Quality Assurance Associate | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/4h3mn/" data-original-title="osf" class="osf"></a></li>
