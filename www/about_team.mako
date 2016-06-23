@@ -67,10 +67,10 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/bowers.jpg" alt="Allison Schiller">
+            <img src="../static/img/people/schiller2.jpg" alt="Allison Schiller">
             <h3>
                 Allison Schiller
-                <small>QA Intern | Infrastructure</small>
+                <small>Quality Assurance Associate | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
                 <li><a href="https://osf.io/4h3mn/" data-original-title="osf" class="osf"></a></li>
@@ -82,7 +82,7 @@
             <img src="../static/img/people/dehaven.jpg" alt="Alexander DeHaven">
             <h3>
                 Alexander DeHaven
-                <small>Research Coordinator | Community</small>
+                <small>Project Coordinator | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">alex.de<span style="display:none;">null</span>haven@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
