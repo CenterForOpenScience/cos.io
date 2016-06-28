@@ -59,7 +59,7 @@
                     <span>Metascience</span>
                 </div>
                 <p>COS supports research on scientific practices. These efforts can inform best practices
-                    and serve as platforms to demonstrate reproducible research methods. <a href="/communities/#tab_2">See some examples</a>.</p>
+                    and serve as platforms to demonstrate reproducible research methods. <a href="/communities/#tab_3">See some examples</a>.</p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
