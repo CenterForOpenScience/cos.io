@@ -1,6 +1,6 @@
 <%inherit file="_base.mako"/>
-<%def name="title()">Preregistration Challenge</%def>
-<%def name="description()">Information about the Preregistration Challenge.</%def>
+<%def name="title()">TOP</%def>
+<%def name="description()">Information about the TOP Guidelines</%def>
 <%def name="navigation()">
     ${self.navlinks('communities')}
 </%def>
@@ -60,16 +60,16 @@
             <div class="col-sm-2 community-tab-list">
                 <ul class="tabbable community-tabbable" id="">
                     <li class="active"><a id="tab-0" href="#zero" data-toggle="tab">TOP</a></li>
-                    <li><a id="tab-1" href="#one" data-toggle="tab">The Guidelines</a></li>
+                    <li><a id="tab-1" href="#one" data-toggle="tab">Summary Table</a></li>
                     <li><a id="tab-2" href="#two" data-toggle="tab">Become a Signatory</a></li>
-                    <li><a id="tab-3" href="#three" data-toggle="tab">Implementing the Guidelines</a></li>
-                    <li><a id="tab-4" href="#four" data-toggle="tab">FAQ</a></li>
+                    ##<li><a id="tab-3" href="#three" data-toggle="tab">Implementing the Guidelines</a></li>
+                    ##<li><a id="tab-4" href="#four" data-toggle="tab">FAQ</a></li>
                     <li><a id="tab-5" href="#five" data-toggle="tab">List of Signatories</a></li>
-                    ##<li><a id="tab-6" href="#six" data-toggle="tab">Review Process</a></li>
+                    ##<li><a id="tab-6" href="#six" data-toggle="tab">Journal Scores</a></li>
                 </ul>
             </div>
           ##  <div class="col-sm-9 col-sm-offset-1 ">
-            <div class="col-sm-9  ">
+            <div class="col-sm-10  ">
             <!-- START TAB CONTENT -->
                 <div class="tab-content">
                     <!-- START TAB 0 -->
@@ -79,20 +79,28 @@
                                 <td>
                                     <p style="text-align:justify">
                                       Transparency, open sharing, and reproducibility are core values of science, but not always part of daily practice. Journals, funders, and scholarly societies can increase the transparency and reproducibility of research by adopting the TOP Guidelines.
-
                                       <br><br>
                                       TOP includes eight modular standards, each with three levels of increasing stringency. Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for each standard. These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
                                       <hr>
-                                      <h3>Resources</h3>
+                                      <h3>Implementing TOP</h3>
+                                      <p>Read how Science and Ecology Letters will be implementing the TOP Guidelines.</p>
                                       <ul>
-                                          <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
-                                          <li>Editorial on how Science Magazine will implement each standard: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
-                                          <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
-                                          <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
-                                          <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
-                                          ##<li><a href="#signatories">Signatories</a></li>
+                                        <li>Science: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
+                                        <li>Ecology Letters: <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters, and Transparency and Openness Promotion (TOP) guidelines</a></li>
                                       </ul>
-
+                                      <hr>
+                                      <h3>Resources</h3>
+                                        <ul>
+                                            <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
+                                            <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
+                                            <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
+                                            <li><a href="https://osf.io/ud578/">Download the TOP Guidelines</a></li>
+                                            <li>Share this <a target="_blank"  href="https://osf.io/pvf56/">one pager</a> with colleagues.</li>
+                                            ##<li><a href="#signatories">Signatories</a></li>
+                                        </ul>
+                                      <hr>
+                                      <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
+                                      547 Journals and 60 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
                                 </td>
                             </tr>
                         </table>
@@ -107,7 +115,8 @@
                     <div class="tab-pane fade" id="one">
                       <center><h3>Eight Standards at Three Levels</h3></center>
                         <br>
-                          <table id="t01">
+                        ##  <table id="t01">
+                        <table class="table table-striped">
                               <tr>
                                 <th></th>
                                 <th>Level 0</th>
@@ -287,8 +296,8 @@
                     <!-- START TAB 5 -->
                     <div class="tab-pane fade" id="five">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (538)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (58)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (547)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (60)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
@@ -316,6 +325,31 @@
                     </div>
                             </div>
                             <!-- END TAB 5 -->
+                            <!-- START TAB 6 -->
+                            <div class="tab-pane fade" id="six">
+                            <div class="tab-content">
+                                <div id="journals" class="tab-pane fade in active">
+                                    <table class="table table-sm-1" data-toggle="table" data-url="/static/convertcsv.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
+                                        <thead>
+                                            <tr>
+                                                    <th data-field="Journal Title" data-sortable="true" class="col-sm-1.5" >Journal</th>
+                                                    <th data-field="Citation" data-sortable="true">I</th>
+                                                    <th data-field="Data" data-sortable="true" >II</th>
+                                                    <th data-field="Materials" data-sortable="true" >III</th>
+                                                    <th data-field="Methods" data-sortable="true" >IV</th>
+                                                    <th data-field="Design" data-sortable="true" >V</th>
+                                                    <th data-field="Study Preregistration" data-sortable="true" >VI</th>
+                                                    <th data-field="Analysis Preregistration" data-sortable="true" >VII</th>
+                                                    <th data-field="Replication" data-sortable="true" >VIII</th>
+                                                    <th data-field="Mean" data-sortable="true" >Mean</th>
+                                              </tr>
+                                          </thead>
+                                    </table>
+                                </div>
+
+                            </div>
+                                    </div>
+                                    <!-- END TAB 6 -->
                             <!-- END TAB CONTENT -->
                         </div>
                     </div>
