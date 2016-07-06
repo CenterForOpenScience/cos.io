@@ -100,7 +100,7 @@
                                         </ul>
                                       <hr>
                                       <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
-                                      547 Journals and 60 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
+                                      547 Journals and 61 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
                                 </td>
                             </tr>
                         </table>
@@ -297,7 +297,7 @@
                     <div class="tab-pane fade" id="five">
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (547)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (60)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (61)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
