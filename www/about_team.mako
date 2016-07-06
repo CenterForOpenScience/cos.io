@@ -548,6 +548,7 @@
             </h3>
             <ul class="social-icons social-icons-color">
             <li><script type="text/javascript">document.write("<n uers=\"znvygb:wnfba@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://www.linkedin.com/in/jasonsurma" data-original-title="linkedin" class="linkedin"></a></li>           
                 <li><a href="https://osf.io/2thze/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
@@ -706,9 +707,11 @@
             <img src="../static/img/people/chen3.jpg" alt="Longze Chen">
             <h3>
                 Longze Chen
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">long<span style="display:none;">null</span>ze@cos<span style="display:none;">null</span>.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+            <li><script type="text/javascript">document.write("<n uers=\"znvygb:ybatmr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/cslzchen" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/9Y8V6/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -962,7 +965,6 @@
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/sheriefvt" data-original-title="GitHub" class="github"></a> </li>
             </ul>
         </div>
     </li>
