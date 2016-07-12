@@ -30,13 +30,13 @@
         <div class="row">
             <div class="col-sm-2 community-tab-list">
                 <ul class="tabbable community-tabbable" id="">
-                    <li class="active"><a id="tab-0" href="#zero" data-toggle="tab">The Big Picture</a></li>
-                    <li><a id="tab-1" href="#one" data-toggle="tab">The Challenge</a></li>
-                    <li><a id="tab-2" href="#two" data-toggle="tab">How to Earn the Prize</a></li>
-                    <li><a id="tab-3" href="#three" data-toggle="tab">Eligibility Criteria</a></li>
-                    <li><a id="tab-4" href="#four" data-toggle="tab">FAQ</a></li>
-                    <li><a id="tab-5" href="#five" data-toggle="tab">Eligible Journals</a></li>
-                    <li><a id="tab-6" href="#six" data-toggle="tab">Review Process</a></li>
+                    <li><a id="tab-0" href="#theBigPicture" data-toggle="tab">The Big Picture</a></li>
+                    <li><a id="tab-1" href="#theChallenge" data-toggle="tab">The Challenge</a></li>
+                    <li><a id="tab-2" href="#howToEarnthePrize" data-toggle="tab">How to Earn the Prize</a></li>
+                    <li><a id="tab-3" href="#eligibilityCriteria" data-toggle="tab">Eligibility Criteria</a></li>
+                    <li><a id="tab-4" href="#FAQ" data-toggle="tab">FAQ</a></li>
+                    <li><a id="tab-5" href="#eligibleJournals" data-toggle="tab">Eligible Journals</a></li>
+                    <li><a id="tab-6" href="#reviewProcess" data-toggle="tab">Review Process</a></li>
                 </ul>
                 <a href="https://osf.io/login/?campaign=prereg" target="_blank">
                     <button width="170px" class="beginprereg">Begin a Preregistration</button>
@@ -46,7 +46,7 @@
             <!-- START TAB CONTENT -->
                 <div class="tab-content">
                     <!-- START TAB 0 -->
-                    <div class="tab-pane fade in active" id="zero">
+                    <div class="tab-pane fade" id="theBigPicture">
                         <table>
                             <tr>
                                 <td>
@@ -72,7 +72,7 @@
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
-                    <div class="tab-pane fade" id="one">
+                    <div class="tab-pane fade" id="theChallenge">
                         <table>
                             <tr>
                                 <td>
@@ -95,7 +95,7 @@
                     </div>
                     <!-- END TAB 1 -->
                     <!-- START TAB 2 -->
-                    <div class="tab-pane fade" id="two">
+                    <div class="tab-pane fade" id="howToEarnthePrize">
                         <table>
                             <tr>
                                 <td>
@@ -147,7 +147,7 @@
                     </div>
                     <!-- END TAB 2 -->
                     <!-- START TAB 3 -->
-                    <div class="tab-pane fade" id="three">
+                    <div class="tab-pane fade" id="eligibilityCriteria">
                         <table>
                             <tr>
                                 <td>
@@ -176,7 +176,7 @@
                     </div>
                     <!-- END TAB 3 -->
                     <!-- START TAB 4 -->
-                    <div class="tab-pane fade" id="four">
+                    <div class="tab-pane fade" id="FAQ">
                         <table>
                             <tr>
                                 <td>
@@ -437,13 +437,13 @@
                     </div>
                     <!-- END TAB 4 -->
                     <!-- START TAB 5 -->
-                    <div class="tab-pane fade" id="five">
+                    <div class="tab-pane fade" id="eligibleJournals">
                         <table>
                             <tr>
                                 <td>
-                                    <h2>Eligible Journals</h2>
+                                    <h3>Eligible Journals</h3>
                                     <p>Entrants must publish their eligible preregistered study in a journal listed here to be eligible for a Preregistration Challenge award.  Note that the Preregistration Challenge is administered independently from any editorial, peer review, or publication process in these journals.</p>
-                                    <h2>Is Your Favorite Journal Not Yet Eligible?</h2>
+                                    <h3>Is Your Favorite Journal Not Yet Eligible?</h3>
                                     <p>If a journal relevant to your research area does not appear on this list, you can assist in helping it become an eligible journal by encouraging the publisher or editor to take concrete steps to improve transparency and reproducibility such as signing the <a href="/top" target="_blank">TOP Guidelines</a>, making <a href="https://osf.io/8mpji/wiki/home/" target="_blank">Registered Reports</a> a submission option, and adopting <a href="https://osf.io/tvyxz/wiki/home/" target="_blank">badges</a> to acknowledge open practices.</p>Here is more information on <a href="/getlisted" target="_blank">efforts to expand the list of eligible journals</a>.</p>
                                 </td>
                             </tr>
@@ -476,7 +476,7 @@
                             </div>
                             <!-- END TAB 5 -->
                             <!-- START TAB 6 -->
-                            <div class="tab-pane" id="six">
+                            <div class="tab-pane fade" id="reviewProcess">
                                 <table>
                                     <tr>
                                         <td>
@@ -500,7 +500,7 @@
                             </div>
                             <!-- END TAB 6 -->
                             <!-- START TAB 7
-                            <div class="tab-pane" id="seven">
+                            <div class="tab-pane fade" id="seven">
                                 <table>
                                     <tr>
                                         <td>
@@ -544,10 +544,25 @@
     <script src="assets/scripts/app.js"></script>
     <script src="../static/plugins/jquery.mixitup.min.js"></script>
     <script>
-      $("a[data-tab-destination]").on('click', function() {
+    // When the page loads, check the url and activate the tab that matches the url
+    $(document).ready(function(){
+        var href = window.location.hash;
+        if(href === ''){
+            href = '#theBigPicture';
+        }
+        var str = href.slice(1);
+        $('a[href="'+href+'"]').closest('li').addClass('active');
+        $('div[id="'+str+'"]').addClass('in active');
+    });
+    // On click, change the URL to match the href of the 'li a' being clicked
+    $('li').on('click', function(){
+        var href = $(this).find('a').attr('href');
+        window.location.hash = href;
+    });
+    $("a[data-tab-destination]").on('click', function() {
         var tab = $(this).attr('data-tab-destination');
         $("#"+tab).click();
-      });
+    });
     </script>
 
     ##The following script is to allow tool tips##
@@ -563,7 +578,6 @@
         var choice = Math.floor(Math.random() * messages.length);
         $('#twitter_message a').each(function(){
             this.href += messages[choice];
-            console.log(choice);
         })
       });
     </script>
