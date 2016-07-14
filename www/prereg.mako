@@ -555,7 +555,7 @@
         $('div[id="'+str+'"]').addClass('in active');
     });
     // On click, change the URL to match the href of the 'li a' being clicked
-    $('li').on('click', function(){
+    $('.community-tabbable li').on('click', function(){
         var href = $(this).find('a').attr('href');
         window.location.hash = href;
     });
