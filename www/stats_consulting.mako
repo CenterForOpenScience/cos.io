@@ -47,7 +47,6 @@
                         </tr>
                     </table>
                     <br>
-                    <p class="lead">This service is provided in partnership with the <a href="https://bitss.org">Berkeley Initiative for Transparency in the Social Sciences (BITSS)</a></p>
                 </div>
 
 
