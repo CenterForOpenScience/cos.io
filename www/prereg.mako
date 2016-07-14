@@ -29,7 +29,7 @@
     <div class="community-content">
         <div class="row">
             <div class="col-sm-2 community-tab-list">
-                <ul class="tabbable community-tabbable" id="">
+                <ul class="tabbable community-tabbable change-url-tabbable" id="">
                     <li><a id="tab-0" href="#theBigPicture" data-toggle="tab">The Big Picture</a></li>
                     <li><a id="tab-1" href="#theChallenge" data-toggle="tab">The Challenge</a></li>
                     <li><a id="tab-2" href="#howToEarnthePrize" data-toggle="tab">How to Earn the Prize</a></li>
@@ -555,7 +555,7 @@
         $('div[id="'+str+'"]').addClass('in active');
     });
     // On click, change the URL to match the href of the 'li a' being clicked
-    $('.community-tabbable li').on('click', function(){
+    $('.change-url-tabbable li').on('click', function(){
         var href = $(this).find('a').attr('href');
         window.location.hash = href;
     });
