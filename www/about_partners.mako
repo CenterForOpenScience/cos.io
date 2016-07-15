@@ -78,6 +78,15 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
+                    <td class="sponsor-center"><a href="http://www.electrochem.org"><img src="../static/img/icons/electrochemicalsociety.jpg" alt="Electrochemical Society"></a></td>
+                    <td><span class="med-font"><strong>Electrochemical Society</strong></span><br>
+                        The Electrochemical Society (ECS) has partnered with COS to adopt COS's free, open science tools and incentive programs. Both groups will also explore publishing platform needs as ECS transitions to an Open Access publications model.
+
+                    </td>
+                </tr>
+
+                <tr class="spacer"></tr>
+                <tr>
                     <td class="sponsor-center"><a href="http://elifesciences.org"><img src="../static/img/icons/elife.jpg" alt="eLife"></a></td>
                     <td><span class="med-font"><strong>eLife Sciences Publications</strong></span><br>
                         eLife has partnered with COS and Science Exchange to be the publisher for the <a href="https://osf.io/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a>. Each paper that will be replicated for the metascience project will undergo peer review at eLife using the Registered Report format with the results of these experiments published in a <a href="http://elifesciences.org/collections/reproducibility-project-cancer-biology">Replication Study.</a>
@@ -147,10 +156,17 @@
                     Exchange"></a></td>
                     <td><span class="med-font"><strong>Science Exchange</strong></span><br>
                        Science Exchange has partnered with COS to conduct the <a href="https://osf.io/e81xl/wiki/home/">
-                       Reproducibility Project: Cancer Biology</a>. Science Exchange organizes providers and connects research labs
-                       with the metascience effort.
+                       Reproducibility Project: Cancer Biology</a>. Science Exchange organizes providers and connects research labs with the metascience effort.
                     </td>
                 </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://socarxiv.org"><img src="../static/img/icons/soc_arxiv.jpg" alt="SocArXiv"></a></td>
+                    <td><span class="med-font"><strong>SocArXiv</strong></span><br>
+                       SocArXiv and COS have partnered to develop a free, open access, open source archive for social science research. This initiative will help facilitate faster, more open sharing of research on an open access platform for the social sciences. 
+                    </td>
+                </tr>
+
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="http://www.tessexperiments.org/"><img src="../static/img/icons/TESSLogo.jpg" alt="TESS"></a></td>
