@@ -46,7 +46,9 @@
             <!-- START TAB CONTENT -->
                 <div class="tab-content">
                     <!-- START TAB 0 -->
-                    <div class="tab-pane fade" id="theBigPicture">
+                    <div class="tab-pane fade" id="theBigPicture" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
+
                         <table>
                             <tr>
                                 <td>
@@ -72,7 +74,9 @@
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
-                    <div class="tab-pane fade" id="theChallenge">
+                    <div class="tab-pane fade" id="theChallenge" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
+
                         <table>
                             <tr>
                                 <td>
@@ -95,7 +99,9 @@
                     </div>
                     <!-- END TAB 1 -->
                     <!-- START TAB 2 -->
-                    <div class="tab-pane fade" id="howToEarnthePrize">
+                    <div class="tab-pane fade" id="howToEarnthePrize" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
+
                         <table>
                             <tr>
                                 <td>
@@ -147,7 +153,9 @@
                     </div>
                     <!-- END TAB 2 -->
                     <!-- START TAB 3 -->
-                    <div class="tab-pane fade" id="eligibilityCriteria">
+                    <div class="tab-pane fade" id="eligibilityCriteria" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
+
                         <table>
                             <tr>
                                 <td>
@@ -176,7 +184,9 @@
                     </div>
                     <!-- END TAB 3 -->
                     <!-- START TAB 4 -->
-                    <div class="tab-pane fade" id="FAQ">
+                    <div class="tab-pane fade" id="FAQ" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
+
                         <table>
                             <tr>
                                 <td>
@@ -437,7 +447,9 @@
                     </div>
                     <!-- END TAB 4 -->
                     <!-- START TAB 5 -->
-                    <div class="tab-pane fade" id="eligibleJournals">
+                    <div class="tab-pane fade" id="eligibleJournals" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
+
                         <table>
                             <tr>
                                 <td>
@@ -476,7 +488,9 @@
                             </div>
                             <!-- END TAB 5 -->
                             <!-- START TAB 6 -->
-                            <div class="tab-pane fade" id="reviewProcess">
+                            <div class="tab-pane fade" id="reviewProcess" style="margin-top:-200px">
+                            <div style="height: 200px;">&nbsp;</div>
+
                                 <table>
                                     <tr>
                                         <td>
