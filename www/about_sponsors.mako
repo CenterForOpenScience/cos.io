@@ -233,8 +233,15 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" id="google"><a href="https://ghostinspector.com/"><img src="/static/img/icons/ghost_inspector.png"></a></td>
+                                                    <td><span class="med-font"><strong>Ghost Inspector</strong></span><br>
+                                                    Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="google"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
-                                                    <td><span class="med-font"><strong>Github</strong></span><br>
+                                                    <td><span class="med-font"><strong>Gib</strong></span><br>
                                                     Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
                                                     </td>
                                                 </tr>
@@ -560,7 +567,14 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
-                                                    <td class="sponsor-center" id="google"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
+                                                    <td class="sponsor-center" id="Ghost Inspector"><a href="https://ghostinspector.com/"><img src="/static/img/icons/ghost_inspector.png"></a></td>
+                                                    <td><span class="med-font"><strong>Ghost Inspector</strong></span><br>
+                                                    Discount for automated testing services<br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
+                                                    <td class="sponsor-center" id="Github"><a href="https://github.com/"><img src="/static/img/icons/octocat.png"></a></td>
                                                     <td><span class="med-font"><strong>Github</strong></span><br>
                                                     Bronze Plan via <a href="https://github.com/nonprofit">GitHub for Good</a><br>
                                                     </td>
