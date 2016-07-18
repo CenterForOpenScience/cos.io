@@ -37,12 +37,19 @@
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
+                    <td class="sponsor-center"><a href="http://www.apsanet.org/"><img src="../static/img/icons/apsa.png" alt="APSA"></a></td>
+                    <td><span class="med-font"><strong>American Political Science Association</strong></span><br>
+                       The Experimental Research Section of the American Political Science Association (APSA) currently uses the <a href="http://egap.org/content/registration">EGAP Registry</a>. The EGAP Registry will be integrated with the Open Science Framework to increase the registry’s visibility within the social science community. 
+
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
                     <td class="sponsor-center"><a href="http://www.psychologicalscience.org/"><img src="../static/img/icons/aps.jpg" alt="APS"></a></td>
                     <td><span class="med-font"><strong>Association for Psychological Science</strong></span><br>
                        The Association for Psychological Science journal, <i>Psychological Science</i>, has adopted <a href="https://osf.io/tvyxz/wiki/home" target="_blank">badges</a>
                        to recognize researchers who follow open practices. And, the journal, Perspectives on Psychological Science,
                        adopted Registered <a href="https://osf.io/hj6da/" target="_blank">Replication Reports</a> with a grant for replications from COS.
-
                     </td>
                 </tr>
                 <tr class="spacer"></tr>
@@ -99,6 +106,14 @@
                         COS and Elsevier will increase the use and discoverability of scientific research through dataset and article linking. Research articles found on <a href="http://www.sciencedirect.com">ScienceDirect</a>, a database operated by Elsevier containing abstracts and full-text articles from thousands of peer-reviewed journals, will be linked with their respective datasets on the <a href="http://osf.io">Open Science Framework</a>.
                     </td>
                 </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                    <td class="sponsor-center"><a href="http://egap.org/"><img src="../static/img/icons/egap.jpg" alt="EGAP"></a></td>
+                    <td><span class="med-font"><strong>Evidence in Governance and Politics</strong></span><br>
+                        Evidence in Governance and Politics (EGAP) has partnered with COS to integrate the <a href="http://egap.org/content/registration"> EGAP Registry</a> with the Open Science Framework. 
+                    </td>
+                </tr>
+
                 <tr class="spacer"></tr>
                 <tr>
                     <td class="sponsor-center"><a href="http://earthsciencefoundation.org"><img src="../static/img/icons/fes.png" alt="Foundation for Earth Science"></a></td>
