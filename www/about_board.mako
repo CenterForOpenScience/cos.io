@@ -48,13 +48,13 @@
                         <div class="col-md-7">
                             <h3>
                                 Alan G. Kraut<br>
-                                <small><b>Executive Director, Association for Psychological Science</b></small>
+                                <small><b>Executive Director, Psychological Clinical Science Accreditation System</b></small>
                             </h3>
                             <h5>Term: 2016-2018</h5>
 
                             <div class="row-fluid summary">
                                 <div class="span11">
-                                      <p>Alan Kraut is the founding Executive Director of the Association for Psychological Science (APS), the major organization devoted solely to the interests of research and academic psychology and its contributions to the public interest. Kraut was APS’s first employee and has taken APS from an initial membership of a few hundred in 1989 to an organization that today has 27,000 members, five leading journals with Psychological Science now the most cited empirical journal among 300 in behavioral science, a premier convention and a reputation as the most effective national (and now very much international) voice for behavioral and psychological science.</p>
+                                      <p>Alan Kraut is the Executive Director of the Psychological Clinical Science Accreditation System (PCSAS). PCSAS began with one program in 2009 and now has accredited 30 of the best clinical programs in the United States and Canada.  Kraut, who served as Executive Director of the Association for Psychological Science (APS) helped create PCSAS beginning in 1992 when APS organized Summit on the Future of Accreditation and first raised the possibility of a new accreditation system. Kraut and APS supported the Academy of Psychological Clinical Science (APCS) — an alliance that then directly created PCSAS.</p>
                                 </div>
                                 <div class="more">
                                     <a class="button" data-toggle="collapse" data-target="#more1">more</a>
@@ -62,11 +62,13 @@
                             </div>
                             <div class="row-fluid summary">
                                 <div id="more1" class="collapse">
+                                    <p>Prior leading PCSAS, Kraut served for 27 years as the founding Executive Director of the Association for Psychological Science (APS) the major organization devoted solely to the interests of research and academic psychology and its contributions to the public interest. Kraut was APS’s first employee and took APS from an initial membership of a few hundred in 1989 to an organization that today has 27,000 members, five leading journals with Psychological Science now the most cited empirical journal among 300 in behavioral science, a premier convention and a reputation as the most effective national (and now very much international) voice for behavioral and psychological science.</p>
+
                                     <p>Kraut has more than 30 years of experience as a science and research administrator, advocate, and opinion leader. He is recognized in Washington for his effectiveness in shaping national policy and he often is quoted both in the science press and more general media on science policy.</p>
 
                                     <p>It was APS efforts through Kraut that created OppNet, a $120+ mil basic behavioral science research initiative at NIH; a behavioral science directorate at NSF; and established eligibility for scientific clinical psychology in NSF's Graduate Research Fellowship Program. In addition, APS generated articles/stories/columns/blogs are regularly featured in print and online at Newsweek, Time, Huffington Post, Scientific American, New York Times, Wall St. Journal, etc.</p>
 
-                                    <p>Kraut received his Ph.D. in Developmental Psychology from Syracuse University in 1977.  From 1977-80, he was on the psychology faculty of Virginia Polytechnic Institute and State University in Blacksburg, VA.  Before establishing APS, Kraut directed various science and policy programs at the American Psychological Association and was APA’s founding Executive Director for Science.</p>
+                                    <p>Kraut received his Ph.D. in Developmental Psychology from Syracuse University in 1977. From 1977-80, he was on the psychology faculty of Virginia Polytechnic Institute and State University in Blacksburg, VA. Before establishing APS, Kraut directed various science and policy programs at the American Psychological Association and was APA’s founding Executive Director for Science.</p>
                                     <div class="less">
                                         <a class="button" data-toggle="collapse" data-target="#more1">less</a>
                                     </div>
