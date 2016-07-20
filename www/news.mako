@@ -37,6 +37,14 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "http://www.vox.com/2016/7/14/12016710/science-challeges-research-funding-peer-review-process"><img src="../static/img/icons/vox.png"
+                    width="125">
+                    <h2 class="text-left">The 7 biggest problems facing science, according to 270 scientists</h2>
+                    <p class="text-left">July 14, 2016 | Science is in big trouble. Or so we’re told.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "http://blogs.biomedcentral.com/bmcblog/2016/06/03/recruiting-participants-evaluate-reproducibility/"><img src="../static/img/icons/biomedcentral.png"
                     width="125">
                     <h2 class="text-left">Recruiting participants to evaluate reproducibility</h2>
