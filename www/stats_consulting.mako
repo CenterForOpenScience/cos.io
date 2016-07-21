@@ -1,7 +1,7 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Statistical and Methodological Consulting</%def>
+<%def name="title()">Reproducible Research and Statistics Training and Consulting</%def>
 <%def name="description()">The Center for Open Science offers totally free statistical and methodological consulting services so that you can make your science better.</%def>
 
 <%def name="navigation()">
