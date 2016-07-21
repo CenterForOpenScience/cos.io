@@ -1,7 +1,7 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Reproducible Research and Statistics Training and Consulting</%def>
+<%def name="title()">Reproducible Research and Statistics Training</%def>
 <%def name="description()">The Center for Open Science offers totally free statistical and methodological consulting services so that you can make your science better.</%def>
 
 <%def name="navigation()">
@@ -27,7 +27,7 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="stats-intro space-mobile">
-                <h1><strong>Reproducible Research and Statistics Training and Consulting</strong></h1>
+                <h1><strong>Reproducible Research and Statistics Training</strong></h1>
     </div>
 </div>
 
@@ -38,9 +38,10 @@
                 <ul class="tabbable community-tabbable" id="">
                     <li class="active"><a id="tab-0" href="#zero" data-toggle="tab">Training Services</a></li>
                     <li><a id="tab-1" href="#one" data-toggle="tab">Statistical Consulting</a></li>
-                    <li><a id="tab-2" href="#two" data-toggle="tab">Reproducible Research Workshops</a></li>
-                    <li><a id="tab-3" href="#three" data-toggle="tab">Webinars and Video Tutorials</a></li>
-                    <li><a id="tab-4" href="#four" data-toggle="tab">FAQs</a></li>
+                    <li><a id="tab-2" href="#two" data-toggle="tab">Webinars and Video Tutorials</a></li>
+                    <li><a id="tab-3" href="#three" data-toggle="tab">Reproducible Research Workshops</a></li>
+		     <li><a id="tab-4” href="#four" data-toggle="tab">Teaching Resources</a></li>
+                    <li><a id="tab-5” href="#four" data-toggle="tab">FAQs</a></li>
                 </ul>
             </div>
           ##  <div class="col-sm-9 col-sm-offset-1 ">
@@ -52,10 +53,9 @@
                         <table>
                             <tr>
                                 <td>
-                <div class="row col-md-8">
-
-                    <p class="lead">Scientists can improve the replicability of their own work through careful documentation, adherence to standards, and the use of open tools.
-                    We answer questions and provide training on open and reproducible tools, methodologies, and workflows. Some examples:</p>
+				      <p style="text-align:justify">
+                    			Researchers can improve the reproducibility and replicability of their own work through careful documentation, adherence to standards and best statistical practices, and the use of open tools.
+                    We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help scientists enact these practices. We offer free:</p>
                     <table class="col-md-12 col-md-offset-1">
                         <tr>
                             <td><i class="fa fa-check"></i>Using R</td>
