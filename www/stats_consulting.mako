@@ -27,7 +27,31 @@
 
             <!-- BEGIN INFO BLOCK -->
             <div class="stats-intro space-mobile">
-                <h1><strong>Statistical & Methodological Consulting</strong></h1>
+                <h1><strong>Reproducible Research and Statistics Training and Consulting</strong></h1>
+    </div>
+</div>
+
+<div class="container min-hight margin-top-20">
+    <div class="community-content">
+        <div class="row">
+            <div class="col-sm-2 community-tab-list">
+                <ul class="tabbable community-tabbable" id="">
+                    <li class="active"><a id="tab-0" href="#zero" data-toggle="tab">Training Services</a></li>
+                    <li><a id="tab-1" href="#one" data-toggle="tab">Statistical Consulting</a></li>
+                    <li><a id="tab-2" href="#two" data-toggle="tab">Reproducible Research Workshops</a></li>
+                    <li><a id="tab-3" href="#three" data-toggle="tab">Webinars and Video Tutorials</a></li>
+                    <li><a id="tab-4" href="#four" data-toggle="tab">FAQs</a></li>
+                </ul>
+            </div>
+          ##  <div class="col-sm-9 col-sm-offset-1 ">
+            <div class="col-sm-10  ">
+            <!-- START TAB CONTENT -->
+                <div class="tab-content">
+                    <!-- START TAB 0 -->
+                    <div class="tab-pane fade in active" id="zero">
+                        <table>
+                            <tr>
+                                <td>
                 <div class="row col-md-8">
 
                     <p class="lead">Scientists can improve the replicability of their own work through careful documentation, adherence to standards, and the use of open tools.
