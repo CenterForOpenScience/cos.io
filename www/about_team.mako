@@ -497,22 +497,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/kriebel.jpg" alt="Gary Kriebel">
-            <h3>
-                Gary Kriebel
-                <small>Technical Project Manager | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">gar<span style="display:none;">null</span>y@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:tnel@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://www.linkedin.com/in/garykriebel/" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/njkr6/" data-original-title="osf" class="osf"></a></li>
-                <li><a href="http://odpllc.com" data-original-title="Person" class="person"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/moco.jpg" alt="Henrique Harman">
             <h3>
                 Henrique Harman
@@ -1496,6 +1480,20 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/gagegaskins" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/ia9kv/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/kriebel.jpg" alt="Gary Kriebel">
+            <h3>
+                Gary Kriebel
+                <small>Technical Project Manager | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">gar<span style="display:none;">null</span>y@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://www.linkedin.com/in/garykriebel/" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/njkr6/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
