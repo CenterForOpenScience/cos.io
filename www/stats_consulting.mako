@@ -111,32 +111,16 @@
                         </div>		
                     </div>
                 <!-- END TAB 2 -->
-<!-- START TAB 3 -->
+                <!-- START TAB 3 -->
                     <div class="tab-pane" id="tab_3">
                         <div class="container">
                             <h2><strong>Webinars and Online Tutorials</strong></h2>
-                            <p> </p>
+                            <p>We offer a series of free, regularly scheduled webinars on topics related to open, reproducible research. See our calendar to RSVP for upcoming webinbars. Webinars vary in length from 30-60 minutes depending on the subject. Misses a webinar? All our webinars are recorded and posted to our youtube channel. </p>
                         </div>		
                     </div>
 
-<!-- END TAB 3 -->
-<!-- START TAB 4 -->
-<div class="tab-pane" id="tab_4”>
-<div class=“container”>
-
+                <!-- END TAB 3 -->
 </div>
-</div>
-<!-- END TAB 4 -->
-<!-- START TAB 5 -->
-<div class="tab-pane" id="tab_5”>
-<div class=“container”>
-
-</div>
-</div>
-<!-- END TAB 5 -->
-
-
-
 
 <!-- END TABS -->
 </div>
