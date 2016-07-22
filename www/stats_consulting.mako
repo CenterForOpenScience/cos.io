@@ -9,28 +9,55 @@
 </%def>
 
 <%def name="stylesheets()">
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        a {
+            cursor:pointer;
+        }
+    </style>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    table {
+        width:100%;
+    }
+    table, th, td {
+        border: 0px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+        text-align: left;
+    }
+    table#t01 tr:nth-child(even) {
+        background-color: #eee;
+    }
+    table#t01 tr:nth-child(odd) {
+       background-color:#fff;
+    }
+    table#t01 th {
+        background-color: white;
+        color: black;
+    }
+    </style>
+    </head>
+    <body>
 
-    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <!-- <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" /> -->
-    <!-- END PAGE LEVEL PLUGIN STYLES -->
-
+<!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
-
-    <!-- BEGIN CONTAINER -->
-    <div class="container min-hight margin-top-50">
-        <!-- BEGIN ABOUT INFO -->
-        <div class="row col-md-12 margin-bottom-30">
-
-            <!-- BEGIN INFO BLOCK -->
-            <div class="stats-intro space-mobile">
-                <h1><strong>Reproducible Research and Statistics Training</strong></h1>
+<!-- BEGIN CONTAINER -->
+    <div class="center margin-top-20">
+        <h1>Reproducible Research and Statistics Training</h1>
     </div>
 </div>
-
 <div class="container min-hight margin-top-20">
     <div class="community-content">
         <div class="row">
