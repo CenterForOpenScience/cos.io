@@ -86,7 +86,7 @@
                     <p>This service is provided in partnership with the <a href="http://www.bitss.org">Berkeley Initiative for Transparency in the Social Sciences (BITSS)</a></p>
                             <hr>
                             <h2><strong>Stats Consulting FAQ</strong></h2>
-                                <h4><strong>What can we do?</strong><h4>
+                                <h4><strong>What can we do?</strong></h4>
                                 <p>We handle a variety of statistical and methodological questions related to reproducible practices, research designs, data analysis, and data management. We can:</p>
                                     <ul>
                                         <li>Help you integrate reproducible research practices into your workflow</li>
@@ -101,9 +101,13 @@
 					  <li>I want to start using the OSF, but I’m not sure quite where to start. Can you give suggestions on how to get started?</li>
 					  <li>How do I calculate confidence intervals for my effect size?</li>
                                     </ul>
-                                <h4><strong>What can’t we do?</strong><h4>
-
-
+                                <h4><strong>What can’t we do?</strong></h4>
+				      <ul>
+				           <li>Write programs to perform your data analyses for you: We can suggest resources, show you example code or code outlines, and help you work through coding bugs when you get stuck, but we cannot write the programs for you.</li>
+                                         <li>Perform or write up your data analyses for you: We are happy to provide support and suggestions for data analysis and interpretation, but we cannot actually perform these analyses or write them up for you.</li>
+                                         <li>Turn back time to meet urgent deadlines.</li>
+                                         <li>Help you complete your coursework.</li>
+				      </ul>
                         </div>		
                     </div>
 <!-- END TAB 2 -->
