@@ -28,7 +28,6 @@
 <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
-
 <div class="col-md-3 col-sm-3 community-tab-list">
     <ul class="tabbable community-tabbable">
         <li class="active"><a href="#tab_1" data-toggle="tab">Training Services</a></li>
@@ -59,21 +58,32 @@
 
     <div class="col-md-8">
     <br>
-    <p> Check our calendar to RSVP for upcoming events, talks, and webinars </p>
+    <h4><b>Check our calendar to RSVP for upcoming events</b></h4>
     <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
 </div>
 </div>
-</div>
-
 <!-- END TAB 1 -->
-
 <!-- START TAB 2 -->
 <div class="tab-pane" id="tab_2”>
-<div class="container">
+<div class=“container”>
     <h2><strong>Statistical and Methodological Consulting</strong></h2>
     <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable.</p>
 </div>		
+</div>
+<!-- END TAB 2 -->
+<!-- START TAB 3 -->
+<div class="tab-pane" id="tab_2”>
+<div class=“container”>
+
+</div>
+</div>
+
+<!-- END TAB 3 -->
+<!-- START TAB 4 -->
+<!-- END TAB 4 -->
+<!-- START TAB 5 -->
+<!-- END TAB 5 -->
 
 
 
@@ -81,12 +91,7 @@
 <!-- END TABS -->
 </div>
 </div>
-<!-- END COS COMMUNITIES -->
 
-<div>
-
-
-</div>
 <!-- END CONTENT -->
 
 
