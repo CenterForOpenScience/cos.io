@@ -25,7 +25,7 @@
 <div class="row community-content">
 <div>
 <h1><strong>Reproducible Research and Statistics Training</strong></h1>
-<p class="lead">Researchers can improve the reproducibility and replicability of their own work through careful documentation, adherence to standards and best statistical practices, and the use of open tools. We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help scientists enact these practices.</p>
+<p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 <div class="col-md-3 col-sm-3 community-tab-list">
@@ -39,24 +39,29 @@
 </div>
 <div class="col-md-9 col-sm-9">
 <div class="tab-content ">
-    
-                   <!-- START TAB CONTENT -->
-                <div class="tab-content">
-                    <!-- START TAB 0 -->
-                    <div class="tab-pane fade in active" id="zero">
-                        <table>
-                            <tr>
-                                <td>
 
- 					<div class="col-md-8">
-        				    <h4><b>We offer free:</b></h4>
-        				    <ul>
-            					<li>Statistical and Methodological Consulting</li>
-            					<li>Webinars and Online Tutorials</li>
-            					<li>Workshops on Reproducible Research Practices</li>
-            					<li>Teaching Resources</li>
-        					</ul>
-    					</div>
+<!-- START TAB 1 -->
+<div class="tab-pane active" id="tab_1">
+<div class="container">
+    <h2><strong>Training and Consulting Resources</strong></h2>
+    <p> Researchers can increase the reproducibility and replicability of their own work through careful documentation, adherence to standards, and the use of open.</p>
+
+    <div class=“col-md-8”>
+        <h4><b>We offer free:</b></h4>
+        <ul>
+            <li>Statistical and Methodological Consulting</li>
+            <li>Webinars and Online Tutorials</li>
+            <li>Workshops on Reproducible Research Practices</li>
+            <li>Teaching Resources</li>
+        </ul>
+    </div>
+    <br>
+    <p> Check our calendar to RSVP for upcoming events, talks, and webinars </p>
+    <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+
+               
 <!-- START TAB 2 -->
 <div class="tab-pane" id="tab_1”>
     <div class="col-md-12">
