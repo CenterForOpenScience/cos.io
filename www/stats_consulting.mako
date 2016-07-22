@@ -58,7 +58,7 @@
                     <div class="col-md-8">
                     <br>
                         <h4><b>Check our calendar to RSVP for upcoming events</b></h4>
-                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="350" frameborder="0" scrolling="no"></iframe>
                     </div>
                     </div>
                     </div>
@@ -67,16 +67,53 @@
                     <div class="tab-pane" id="tab_2">
                         <div class="container">
                             <h2><strong>Statistical and Methodological Consulting</strong></h2>
-                            <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable.</p>
+                            <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. Some examples of what we can help with: </p>
+                            <table class="col-md-12 col-md-offset-1">
+                        <tr>
+                            <td><i class="fa fa-check"></i>Using R</td>
+                            <td><i class="fa fa-check"></i>Learning Github</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-check"></i>Conducting power analyses</td>
+                            <td><i class="fa fa-check"></i>Conducting meta-analyses</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-check"></i>Using the OSF</td>
+                            <td><i class="fa fa-check"></i>Preregistering analysis plans</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p>This service is provided in partnership with the <a href="http://www.bitss.org">Berkeley Initiative for Transparency in the Social Sciences (BITSS)</a></p>
+                            <hr>
+                            <h2><strong>Stats Consulting FAQ</strong></h2>
+                                <h4><strong>What can we do?</strong><h4>
+                                <p>We handle a variety of statistical and methodological questions related to reproducible practices, research designs, data analysis, and data management. We can:</p>
+                                    <ul>
+                                        <li>Help you integrate reproducible research practices into your workflow</li>
+					  <li>Consult on the choice and application of statistical methods</li>
+					  <li>Introduce tools (e.g. the OSF) to streamline your workflow</li>
+					  <li>Aid in understanding and interpreting statistical analysis</li>
+					  <li>Help you implement new trends in methods and practices (e.g. cumulative meta-analyses and confidence intervals)</li>
+				      </ul>
+				  <p>Example Questions:</p>
+				      <ul>
+				          <li>I’m starting a new line of research, so I’m unsure about what the effect size for my studies will be. How would I do a power analysis to inform my planned sample size?</li>
+					  <li>I want to start using the OSF, but I’m not sure quite where to start. Can you give suggestions on how to get started?</li>
+					  <li>How do I calculate confidence intervals for my effect size?</li>
+                                    </ul>
+                                <h4><strong>What can’t we do?</strong><h4>
+
+
                         </div>		
                     </div>
 <!-- END TAB 2 -->
 <!-- START TAB 3 -->
-<div class="tab-pane" id="tab_3">
-<div class="container">
-
-</div>
-</div>
+                    <div class="tab-pane" id="tab_3”>
+                        <div class="container">
+                            <h2><strong>Webinars and Online Tutorials</strong></h2>
+                            <p> </p>
+                        </div>		
+                    </div>
 
 <!-- END TAB 3 -->
 <!-- START TAB 4 -->
