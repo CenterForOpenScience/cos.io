@@ -18,27 +18,27 @@
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container" id=“training”>
 
-<!-- BEGIN CONTAINER -->
-<div class="container min-hight margin-top-50">
+    <!-- BEGIN CONTAINER -->
+    <div class="container min-hight margin-top-50">
 
-<!—- BEGIN CONTENT —->
-<div class="row community-content">
-<div>
-<h1><strong>Reproducible Research and Statistics Training</strong></h1>
-<p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
-<!-- BEGIN TABS -->
-<div class="margin-top-20">
-<div class="col-md-3 col-sm-3 community-tab-list">
-    <ul class="tabbable community-tabbable">
-        <li class="active"><a href="#tab_1" data-toggle="tab">Training Services</a></li>
-        <li><a href="#tab_2" data-toggle="tab">Statistical Consulting</a></li>
-        <li><a href="#tab_3" data-toggle="tab">Webinars and Video Tutorials</a></li>
-        <li><a href="#tab_4" data-toggle="tab">Reproducible Research Workshops</a></li>
-        <li><a href="#tab_5" data-toggle="tab">FAQ</a></li>
-    </ul>
-</div>
-<div class="col-md-9 col-sm-9">
-<div class="tab-content ">
+        <!—- BEGIN CONTENT —->
+        <div class="row community-content">
+        <div>
+            <h1><strong>Reproducible Research and Statistics Training</strong></h1>
+            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help researchers    improve the reproducibility and rigor of their work.</p>
+            <!-- BEGIN TABS -->
+            <div class="margin-top-20">
+            <div class="col-md-3 col-sm-3 community-tab-list">
+                <ul class="tabbable community-tabbable">
+                    <li class="active"><a href="#tab_1" data-toggle="tab">Training Services</a></li>
+                    <li><a href="#tab_2" data-toggle="tab">Statistical Consulting</a></li>
+                    <li><a href="#tab_3" data-toggle="tab">Webinars and Video Tutorials</a></li>
+                    <li><a href="#tab_4" data-toggle="tab">Reproducible Research Workshops</a></li>
+                    <li><a href="#tab_5" data-toggle="tab">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9 col-sm-9">
+            <div class="tab-content ">
 <!-- START TAB 1 -->
 
 <div class="tab-pane active" id="tab_1">
