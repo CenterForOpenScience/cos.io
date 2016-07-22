@@ -369,19 +369,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/fairchild.jpg" alt="Cole Fairchild">
-            <h3>
-                Cole Fairchild 
-                <small>Developer Volunteer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/ccfair" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/6me9f/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/spinelli.jpg" alt="Cooper Spinelli">
             <h3>
                 Cooper Spinelli 
@@ -1373,6 +1360,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/cnelsoniii" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/bxcty/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/fairchild.jpg" alt="Cole Fairchild">
+            <h3>
+                Cole Fairchild 
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/ccfair" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/6me9f/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
