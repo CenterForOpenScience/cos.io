@@ -9,80 +9,67 @@
 </%def>
 
 <%def name="stylesheets()">
-<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        a {
-            cursor:pointer;
-        }
-    </style>
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-    table {
-        width:100%;
-    }
-    table, th, td {
-        border: 0px solid black;
-        border-collapse: collapse;
-    }
-    th, td {
-        padding: 5px;
-        text-align: left;
-    }
-    table#t01 tr:nth-child(even) {
-        background-color: #eee;
-    }
-    table#t01 tr:nth-child(odd) {
-       background-color:#fff;
-    }
-    table#t01 th {
-        background-color: white;
-        color: black;
-    }
-    </style>
-    </head>
-    <body>
-
-<!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
 
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container">
+<div class="page-container" id=“participate”>
+
 <!-- BEGIN CONTAINER -->
-    <div class="center margin-top-20">
-        <h1>Reproducible Research and Statistics Training</h1>
-    </div>
+<div class="container min-hight margin-top-50">
+
+<!—BEGIN CONTENT—>
+<div class="row community-content">
+<div>
+<h1><strong>Reproducible Research and Statistics Training</strong></h1>
+<p class="lead">Researchers can improve the reproducibility and replicability of their own work through careful documentation, adherence to standards and best statistical practices, and the use of open tools. We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help scientists enact these practices.</p>
+<!-- BEGIN TABS -->
+<div class="margin-top-20">
+<div class="col-md-3 col-sm-3 community-tab-list">
+    <ul class="tabbable community-tabbable">
+	<li class="active"><a href="#tab_1" data-toggle="tab">Training Services</a></li>
+	<li><a href="#tab_2" data-toggle="tab">Statistical Consulting</a></li>
+	<li><a href="#tab_3” data-toggle="tab">Webinars and Video Tutorials</a></li>
+	<li><a href="#tab_4” data-toggle="tab">Reproducible Research Workshops</a></li>
+	<li><a href="#tab_5” data-toggle="tab">FAQ</a></li>
+    </ul>
 </div>
-<div class="container min-hight margin-top-20">
-    <div class="community-content">
-        <div class="row">
-            <div class="col-sm-2 community-tab-list">
-                <ul class="tabbable community-tabbable" id="">
-                    <li class="active"><a id="tab-0" href="#zero" data-toggle="tab">Training Services</a></li>
-                    <li><a id="tab-1" href="#one" data-toggle="tab">Statistical Consulting</a></li>
-                    <li><a id="tab-2" href="#two" data-toggle="tab">Webinars and Video Tutorials</a></li>
-                    <li><a id="tab-3" href="#three" data-toggle="tab">Reproducible Research Workshops</a></li>
-		     <li><a id="tab-4” href="#four" data-toggle="tab">Teaching Resources</a></li>
-                    <li><a id="tab-5” href="#four" data-toggle="tab">FAQs</a></li>
-                </ul>
-            </div>
-          ##  <div class="col-sm-9 col-sm-offset-1 ">
-            <div class="col-sm-10  ">
-            <!-- START TAB CONTENT -->
+<div class="col-md-9 col-sm-9">
+<div class="tab-content ">
+    
+                   <!-- START TAB CONTENT -->
                 <div class="tab-content">
                     <!-- START TAB 0 -->
                     <div class="tab-pane fade in active" id="zero">
                         <table>
                             <tr>
                                 <td>
-				      <p style="text-align:justify">
-                    			Researchers can improve the reproducibility and replicability of their own work through careful documentation, adherence to standards and best statistical practices, and the use of open tools.
-                    We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help scientists enact these practices. We offer free:</p>
+
+ 					<div class="col-md-8">
+        				    <h4><b>We offer free:</b></h4>
+        				    <ul>
+            					<li>Statistical and Methodological Consulting</li>
+            					<li>Webinars and Online Tutorials</li>
+            					<li>Workshops on Reproducible Research Practices</li>
+            					<li>Teaching Resources</li>
+        					</ul>
+    					</div>
+<!-- START TAB 2 -->
+<div class="tab-pane" id="tab_1”>
+    <div class="col-md-12">
+	<h2><strong>Statistical and Methodological Consulting</strong></h2>
+   <div>			
+
+
+
+
+
+
+
+
                     <table class="col-md-12 col-md-offset-1">
                         <tr>
                             <td><i class="fa fa-check"></i>Using R</td>
