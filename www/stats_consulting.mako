@@ -21,7 +21,7 @@
 <!-- BEGIN CONTAINER -->
 <div class="container min-hight margin-top-50">
 
-<!—BEGIN CONTENT—>
+<!—- BEGIN CONTENT —->
 <div class="row community-content">
 <div>
 <h1><strong>Reproducible Research and Statistics Training</strong></h1>
@@ -73,7 +73,7 @@
 </div>
 <!-- END TAB 2 -->
 <!-- START TAB 3 -->
-<div class="tab-pane" id="tab_2”>
+<div class="tab-pane" id="tab_3”>
 <div class=“container”>
 
 </div>
@@ -81,8 +81,18 @@
 
 <!-- END TAB 3 -->
 <!-- START TAB 4 -->
+<div class="tab-pane" id="tab_4”>
+<div class=“container”>
+
+</div>
+</div>
 <!-- END TAB 4 -->
 <!-- START TAB 5 -->
+<div class="tab-pane" id="tab_5”>
+<div class=“container”>
+
+</div>
+</div>
 <!-- END TAB 5 -->
 
 
