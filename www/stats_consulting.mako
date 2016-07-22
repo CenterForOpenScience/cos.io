@@ -25,7 +25,7 @@
         <div class="row community-content">
         <div>
             <h1><strong>Reproducible Research and Statistics Training</strong></h1>
-            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help researchers    improve the reproducibility and rigor of their work.</p>
+            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
             <!-- BEGIN TABS -->
             <div class="margin-top-20">
             <div class="col-md-3 col-sm-3 community-tab-list">
@@ -39,42 +39,41 @@
             </div>
             <div class="col-md-9 col-sm-9">
             <div class="tab-content ">
-<!-- START TAB 1 -->
+                <!-- START TAB 1 -->
+                    <div class="tab-pane active" id="tab_1">
+                    <div class="container">
+                        <h2><strong>Training and Consulting Resources</strong></h2>
+                        <p>Researchers can increase the reproducibility and replicability of their own work through careful documentation, adherence to standards, and the use of open.</p>
 
-<div class="tab-pane active" id="tab_1">
-<div class="container">
-    <h2><strong>Training and Consulting Resources</strong></h2>
-    <p>Researchers can increase the reproducibility and replicability of their own work through careful documentation, adherence to standards, and the use of open.</p>
+                    <div class="col-md-8">
+                        <h4><b>We offer free:</b></h4>
+                            <ul>
+                                <li>Statistical and Methodological Consulting</li>
+                                <li>Webinars and Online Tutorials</li>
+                                <li>Workshops on Reproducible Research Practices</li>
+                                <li>Teaching Resources</li>
+                            </ul>
+                    </div>
 
-    <div class="col-md-8">
-        <h4><b>We offer free:</b></h4>
-        <ul>
-            <li>Statistical and Methodological Consulting</li>
-            <li>Webinars and Online Tutorials</li>
-            <li>Workshops on Reproducible Research Practices</li>
-            <li>Teaching Resources</li>
-        </ul>
-    </div>
-
-    <div class="col-md-8">
-    <br>
-    <h4><b>Check our calendar to RSVP for upcoming events</b></h4>
-    <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
-</div>
-</div>
-<!-- END TAB 1 -->
-<!-- START TAB 2 -->
-<div class="tab-pane" id="tab_2”>
-<div class=“container”>
-    <h2><strong>Statistical and Methodological Consulting</strong></h2>
-    <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable.</p>
-</div>		
-</div>
+                    <div class="col-md-8">
+                    <br>
+                        <h4><b>Check our calendar to RSVP for upcoming events</b></h4>
+                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                    </div>
+                    </div>
+                <!-- END TAB 1 -->
+                <!-- START TAB 2 -->
+                    <div class="tab-pane" id="tab_2">
+                        <div class="container">
+                            <h2><strong>Statistical and Methodological Consulting</strong></h2>
+                            <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable.</p>
+                        </div>		
+                    </div>
 <!-- END TAB 2 -->
 <!-- START TAB 3 -->
-<div class="tab-pane" id="tab_3”>
-<div class=“container”>
+<div class="tab-pane" id="tab_3">
+<div class="container">
 
 </div>
 </div>
