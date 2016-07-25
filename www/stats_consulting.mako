@@ -115,7 +115,7 @@
                     <div class="tab-pane" id="tab_3">
                         <div class="container">
                             <h2><strong>Webinars and Online Tutorials</strong></h2>
-                            <p>We offer a series of free, regularly scheduled webinars on topics related to open, reproducible research. See our calendar to RSVP for upcoming webinbars. Webinars vary in length from 30-60 minutes depending on the subject. Misses a webinar? All our webinars are recorded and posted to our youtube channel. </p>
+                            <p>We offer a series of free, regularly scheduled webinars on topics related to open, reproducible research. See our calendar below to check out the current topics and schedule, and to RSVP for upcoming webinbars. Webinars vary in length from 30-60 minutes depending on the subject, and the calendar is updated regularly as we add topics. Missed a webinar? All our webinars are recorded and posted to our youtube channel. </p>
                         </div>		
                     </div>
 
