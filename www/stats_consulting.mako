@@ -25,7 +25,7 @@
         <div class="row community-content">
         <div>
             <h1><strong>Reproducible Research and Statistics Training</strong></h1>
-            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
+            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, statisitics, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
             <!-- BEGIN TABS -->
             <div class="margin-top-20">
             <div class="col-md-3 col-sm-3 community-tab-list">
@@ -48,10 +48,10 @@
                     <div class="col-md-8">
                         <h4><b>We offer free:</b></h4>
                             <ul>
-                                <li>Statistical and Methodological Consulting</li>
-                                <li>Webinars and Online Tutorials</li>
-                                <li>Workshops on Reproducible Research Practices</li>
-                                <li>Teaching Resources</li>
+                                <li> <a href="https://cos.io/stats_consulting/#tab_2">Statistical and Methodological Consulting</a> </li>
+                                <li> <a href="https://cos.io/stats_consulting/#tab_3">Webinars and Online Tutorials</a> </li>
+                                <li> <a href="https://cos.io/stats_consulting/#tab_4">Workshops on Reproducible Research Practices</a> </li>
+                                ##<li>Teaching Resources</li>
                             </ul>
                     </div>
 
@@ -70,16 +70,16 @@
                             <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. Some examples of what we can help with: </p>
                             <table class="col-md-12 col-md-offset-1">
                                 <tr>
-                                    <td><i class="fa fa-check"></i>Using R</td>
-                                    <td><i class="fa fa-check"></i>Learning Github</td>
-                                </tr>
-                                <tr>
                                     <td><i class="fa fa-check"></i>Conducting power analyses</td>
                                     <td><i class="fa fa-check"></i>Conducting meta-analyses</td>
                                 </tr>
                                 <tr>
+                                    <td><i class="fa fa-check"></i>Using R</td>
                                     <td><i class="fa fa-check"></i>Using the OSF</td>
-                                    <td><i class="fa fa-check"></i>Preregistering analysis plans</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check"></i>Prergistering analysis plans</td>
+                                    <td><i class="fa fa-check"></i>Creating lab workflows to increase transparency</td>
                                 </tr>
                             </table>
                             <br>
@@ -135,7 +135,7 @@
                                     <li>Using the Open Science Framwork</li>
                                     <li>Potential benefits to researchers for engaging in open practices</li>
                                 </ul>
-                            <p> Workshops can be geared towards a general research audience, or towards a particular discipline, e.g. biomedical researchers. You can see a list of previous institutions where we have given workshops, as well as example promotional materials and workshop slidedecks on <a href="https://osf.io/d5aqs/">our OSF page</a> <p>. 
+                            <p> Workshops can be geared towards a general research audience, or towards a particular discipline, e.g. biomedical researchers. You can see a list of previous institutions where we have given workshops, as well as example promotional materials and workshop slidedecks on <a href="https://osf.io/d5aqs/">our OSF page.</a> <p> 
                             <p>Interested in having a workshop at your institution or organization? Email us at <a href='mailto:contact@cos.io?  subject=workshop inquiry'>contact@cos.io</a> </p>
                         </div>
                     </div>
