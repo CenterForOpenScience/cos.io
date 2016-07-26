@@ -137,6 +137,69 @@
                                 </ul>
                             <p> Workshops can be geared towards a general research audience, or towards a particular discipline, e.g. biomedical researchers. You can see a list of previous institutions where we have given workshops, as well as example promotional materials and workshop slidedecks on <a href="https://osf.io/d5aqs/">our OSF page.</a> <p> 
                             <p>Interested in having a workshop at your institution or organization? Email us at <a href='mailto:contact@cos.io?  subject=workshop inquiry'>contact@cos.io</a> </p>
+                            <h2><strong>FAQ</strong></h2>
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <!-- Begin FAQ 1 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Are workshops really free?</a></h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <p>Yes, workshops are really free. We set a minimum number of RSVPs that is tied to <i> our </i> travel costs, but there are no costs to your institution or organization for workshops. A grant from the Laura and John Arnold Foundation pays all travel costs associated with workshops.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 1 -->
+                                <!-- Begin FAQ 2 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Is there a maximum number of participants for workshops?</a></h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <p>Because the workshop is hands-on, we generally try to keep the number of people in workshops to 30-40 people to make sure that participants can get individual attention. If there is a higher demand, we are happy to give multiple workshops to accomodate more participants.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 2 -->
+                                <!-- Begin FAQ 3 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Is there a minimum number of participants for a workshops</a></h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                <p>We will come up with a minimum RSVP for each institution individually, based on a combination of the costs associated with travel and our past experience with attendance rates compared to RSVP numbers. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 3 -->
+                                <!-- Begin FAQ 4 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFour">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Who are workshops geared towards?</a></h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div class="panel-body">
+                                                <p>Workshops are generally geared towards any scholars who are engaged in quantitative research, though we can give workshops that are geared towards one particular discipline, e.g. psychology, if there is demand for that. Our general audience is a combination of graduate students and faculty, and we also often have members of the library staff and research staff in attendance. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 4 -->
+                                <!-- Begin FAQ 5 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFive">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Do you allow recording of workshops?</a></h4>
+                                        </div>
+                                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <div class="panel-body">
+                                                <p>Yes, it is fine to record a workshop and make it available later for reseachers who were unable to attend the workshops. However, we do not currently allow workshops to be live-streamed.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 5 -->
+                            </div>
                         </div>
                     </div>
                 <!-- END TAB 4 -->
