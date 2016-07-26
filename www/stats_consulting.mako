@@ -34,7 +34,7 @@
                     <li><a href="#tab_2" data-toggle="tab">Statistical Consulting</a></li>
                     <li><a href="#tab_3" data-toggle="tab">Webinars and Video Tutorials</a></li>
                     <li><a href="#tab_4" data-toggle="tab">Reproducible Research Workshops</a></li>
-                    <li><a href="#tab_5" data-toggle="tab">Teaching Resources</a></li>
+                    ## <li><a href="#tab_5" data-toggle="tab">Teaching Resources</a></li>
                 </ul>
             </div>
             <div class="col-md-9 col-sm-9">
@@ -123,6 +123,23 @@
                     </div>
 
                 <!-- END TAB 3 -->
+                <!-- START TAB 4 -->
+                    <div class="tab-pane" id="tab_4">
+                        <div class = "container">
+                            <h2><strong>Workshops</strong></h2>
+                            <p> The Center offers free, hands-on workshops to teach researchers practical steps to increase the reproducibility and transparency of their work. The typical workshop lasts 3 hours and covers topics including:
+                                <ul>
+                                    <li>Project documentation</li>
+                                    <li>Employing version control</li>
+                                    <li>Creating pre-analysis plans</li>
+                                    <li>Using the Open Science Framwork</li>
+                                    <li>Potential benefits to researchers for engaging in open practices</li>
+                                </ul>
+                            <p> Workshops can be geared towards a general research audience, or towards a particular discipline, e.g. biomedical researchers. You can see a list of previous institutions where we have given workshops, as well as example promotional materials and workshop slidedecks on <a href="https://osf.io/d5aqs/">our OSF page</a> <p>. 
+                            <p>Interested in having a workshop at your institution or organization? Email us at <a href='mailto:contact@cos.io?  subject=workshop inquiry'>contact@cos.io</a> </p>
+                        </div>
+                    </div>
+                <!-- END TAB 4 -->
 </div>
 
 <!-- END TABS -->
