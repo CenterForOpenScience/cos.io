@@ -166,7 +166,7 @@
                                 <!-- Begin FAQ 3 --->
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingThree">
-                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Is there a minimum number of participants for a workshops</a></h4>
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Is there a minimum number of participants for a workshops?</a></h4>
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="panel-body">
