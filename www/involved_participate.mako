@@ -129,6 +129,31 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/ygsje/" target="_blank">
+                        <img src="../static/img/people/ambassadors/eerland.jpg" alt="Anita Eerland">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Anita Eerland
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Utrecht University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/z7mt6/" target="_blank">
                         <img src="../static/img/people/ambassadors/allison.jpg" alt="Anne Allison">
                     </a>
@@ -146,8 +171,7 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -193,6 +217,9 @@
         </table>
     </td>
 
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -214,9 +241,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -262,6 +286,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -283,9 +310,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -331,6 +355,9 @@
         </table>
     </td>
 
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -352,9 +379,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -400,6 +424,9 @@
         </table>
     </td>
 
+</tr>
+<tr>    
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -422,9 +449,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -446,6 +470,31 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/9avrs/" target="_blank">
+                        <img src="../static/img/people/ambassadors/binion.jpeg" alt="Grace Binion">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Grace Binion
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Oregon
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -491,9 +540,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -511,6 +557,31 @@
             <tr>
                 <td class="ambassador-instit-padding">
                     National Autonomous University of Mexico
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                <a href="https://osf.io/yzwgp/" target="_blank">
+                    <img src="../static/img/people/ambassadors/field.jpg" alt="Jamie Field">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Jamie Field
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Virginia Commonwealth University
                 </td>
             </tr>
         </table>
@@ -583,7 +654,27 @@
         </table>
     </td>
 
-
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/jfsbe/" target="_blank">
+                        <img src="../static/img/people/ambassadors/sakaluk.jpg" alt="John Sakaluk">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    John Sakaluk
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Victoria
+                </td>
+            </tr>
+        </table>
+    </td>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -607,6 +698,9 @@
         </table>
     </td>
 
+</tr>
+<tr> 
+
     <td class="ambassador-data">        
          <table class="ambassador-box">        
              <tr>      
@@ -628,9 +722,7 @@
              </tr>     
          </table>      
      </td>     
-
-</tr>
-<tr>       
+     
 
      <td class="ambassador-data">      
          <table class="ambassador-box">        
@@ -676,6 +768,10 @@
         </table>
     </td>
 
+
+</tr>
+<tr> 
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -697,9 +793,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -745,6 +838,9 @@
         </table>
     </td>
 
+</tr>
+<tr> 
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -766,9 +862,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -814,6 +907,9 @@
         </table>
     </td>
 
+</tr>
+<tr> 
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -835,9 +931,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -883,6 +976,9 @@
         </table>
     </td>
 
+</tr>
+<tr> 
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -904,9 +1000,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -934,6 +1027,31 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/gs9mg/" target="_blank">
+                        <img src="../static/img/people/ambassadors/zwaan.jpg" alt="Rolf Zwaan">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Rolf Zwaan
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Erasmus University Rotterdam
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr> 
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/t85bu/" target="_blank">
                         <img src="../static/img/people/ambassadors/sievert.jpg" alt="Scott Sievert">
                     </a>
@@ -947,6 +1065,28 @@
             <tr>
                 <td class="ambassador-instit-padding">
                     University of Wisconsin, Madison
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/u4pmj/" target="_blank">
+                        <img src="../static/img/people/ambassadors/rife.jpg" alt="Sean Rife">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Sean Rife
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Murray State Univerity
                 </td>
             </tr>
         </table>
