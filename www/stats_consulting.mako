@@ -114,8 +114,11 @@
                 <!-- START TAB 3 -->
                     <div class="tab-pane" id="tab_3">
                         <div class="container">
-                            <h2><strong>Webinars and Online Tutorials</strong></h2>
-                            <p>We offer a series of free, regularly scheduled webinars on topics related to open, reproducible research. See our calendar below to check out the current topics and schedule, and to RSVP for upcoming webinbars. Webinars vary in length from 30-60 minutes depending on the subject, and the calendar is updated regularly as we add topics. Missed a webinar? All our webinars are recorded and posted to our youtube channel. </p>
+                            <h2><strong>Webinars</strong></h2>
+                            <p>We offer a series of free, regularly scheduled webinars on topics related to open, reproducible research. See our calendar below to check out the current topics and schedule, and to RSVP for upcoming webinbars. Webinars vary in length from 30-60 minutes depending on the subject, and the calendar is updated regularly as we add topics. Past webinars can be viewed on <a href="https://www.youtube.com/channel/UCGPlVf8FsQ23BehDLFrQa-g">our youtube channel.</a> </p>
+                            <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+                            <h2><strong>Online Tutorials and Resources</h2></strong>
+                            <p>Along with webinars, we also have short tutorial videos on commonly asked questions from our webinars, workshops, and statistical consulting. You can find the videos, as well as powerpoint slides and examples, on <a href="https://osf.io/7gqsi/">our OSF project.</a> </p>
                         </div>		
                     </div>
 
