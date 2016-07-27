@@ -182,130 +182,130 @@
         </div>
     </div>
 </div>
-##<div id="Bookkeeper" class="panel-group">
-##    <div class="panel panel-info">
-##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Bookkeeper_heading">
-##            <h4 class="panel-title">
-##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                <a  data-parent="#Bookkeeper" >
-##                    Bookkeeper
-##                </a>
-##            </h4>
-##        </div>
-##<div id="Bookkeeper" class="panel-collapse collapse">
-##            <div class="panel-body">
-##                <dl class="dl-horizontal">
-##                    <dt>Background</dt>
-##                    <dd>
-##                        <p> Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research. The Center for Open Science (COS) is seeking a driven, outgoing, and self-starting individual who is looking to build their experience in financial administration while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. The Bookkeeper candidate will support the Operations team to help ensure the efficiency and integrity of financial records and related tasks. This is a 20 hour per week, part-time position.</p>
-##                    </dd>
-##                    <dt>Location</dt>
-##                    <dd>
-##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                    </dd>
-##                    <dt>Responsibilities</dt>
-##                    <dd>
-##                        Work with Financial Operations team on daily bookkeeping functions to include the following:
-##                        <ul class="indent">
-##                            <li>General Ledger</li>         
-##                            <ul>
-##                                <li>Post transactions to Quickbooks general ledger following established cost coding model.</li>
-##                                <li>Reconcile bank and credit card accounts</li>
-##                            </ul>
-##                        </ul>
-##                        <ul class="indent">
-##                            <li>Accounts Payable</li>   
-##                            <ul>
-##                                <li>Managing vendor invoices</li>
-##                                <li>Ensure AP process is followed at all times</li>
-##                                <li>Ensure timely payment of vendor invoices</li>
-##                                <li>Maintain physical and digital records of vendor invoices</li>
-##                                <li>Creates expense reports for staff reimbursements through Expensify software</li>
-##                            </ul>
-##                        </ul>
-##                        <ul class="indent">
-##                            <li>Accounts Receivable</li>
-##                                <ul>
-##                                <li>Assist with invoicing and overdue balance follow-up as needed</li>
-##                                <li>Receives and deposits checks following AR process</li>
-##                                </ul>
-##                            </ul>
-##                        <ul class="indent">
-##                            <li>Reporting</li>
-##                            <ul>
-##                                <li>Assist in the preparation of monthly internal financial statements</li>
-##                                <li>Assists in the preparation of reports for external stakeholders</li>
-##                            </ul>
-##                        </ul>
-##                        <ul class="indent">
-##                            <li>Recordkeeping</li>
-##                            <ul>
-##                                <li>Maintain digital financial records using Google Drive</li>
-##                                <li>Ensure all transactions are well-documented</li>
-##                            </ul>
-##                        </ul>
-##                    </dd>
-##                    <dt>Qualifications<dt>
-##                    <dd>
-##                        <p>Exceptional organizational skills and attention to detail; ability to multi-task; self-starter and driven; extremely personable; strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; ability to use web communication and documentation software effectively; team-oriented; Demonstrated interest in administrative tasks. 
-##                        </dd><dt>Preferred</dt>
-##                        <dd>
-##                        <p>Some bookkeeping experience, familiarity with Quickbooks Online or similar bookkeeping software; Excel proficiency</a>.</p> 
-##                    <dt>Benefits</dt>
-##                    <dd>
-##                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
-##                    </dd>
-##                    <dt>Applying</dt>
-##                    <dd>
-##                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/61ef2974-5b23-4f96-a25a-f56e41abccaa" target="_blank">here</a>.</p>
-##                    </dd>
-##                </dl>
-##            </div>
-##        </div>
-##    </div>
-##</div>
-## <div id="CommunityIntern" class="panel-group">
-##    <div class="panel panel-info">
-##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#CommunityIntern_heading">
-##                         <h4 class="panel-title">
-##                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                 <a  data-parent="#CommunityIntern" >
-##                     Community Intern
-##                 </a>
-##             </h4>
-##         </div>
-##        <div id="CommunityIntern" class="panel-collapse collapse">
-##          <div class="panel-body">
-##               <dl class="dl-horizontal">
-##                    <dt>Background</dt>
-##                    <dd>
-##                       <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a hfref="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We seek an intern with extremely strong social and organizational skills to contribute to community efforts, and to help facilitate open science practices more broadly within the scientific research community. </p>
-##                    </dd>
-##                    <dt>Responsibilities</dt>
-##                    <dd>
-##                   <p>The key responsibilities of the Community Intern will be to assist in a number of on-going projects and gain experience using key business support software platforms like Salesforce.com, Desk.com, and JIRA. Tasks may include monitoring and responding to user support requests via email and directing users to available resources, contributing to the knowledge base by creating and updating user documentation for product releases, maintaining a database of published research citing the OSF, and contributing qualified contacts and accounts to the Salesforce.com database for future engagement.</p>
-##                   </dd>
-##                    <dt>Skills</dt>
-##                    <dd>
-##                        <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Experience with web communication and documentation software; Team-oriented; Very strong work ethic; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in email marketing, customer service, and business development are a plus.</p>
-##                    </dd>
-##                    <dt>Notes</dt>
-##                   <dd>
-##                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit science and technology organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  The COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, is highly collaborative, is high energy, and is dedicated to openness.  COS has three primary activities: (1) <a href="https://osf.io/">infrastructure development</a> to support the scientific workflow- documentation, archiving, sharing, and registration - and connect with other open technologies, (2) community building among open-source developers, open science researchers, and the broader scientific community, and (3) metascience, research on scientific practices.  Get more information about COS at its <a href="https://cos.io/">Website</a>. 
-##                   </dd>
-##                    <dt>Location</dt>
-##                    <dd>
-##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                    </dd>
-##                    <dt>Applying</dt>
-##                    <dd>
-##                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/99265826-ee99-44d4-bf73-29a6d4996804" target="_blank">here</a>.</p>
-##                    </dd>
-##                </dl>
-##            </div>
-##        </div>
-##   </div>
-##</div>
+<div id="Bookkeeper" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Bookkeeper_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#Bookkeeper" >
+                    Bookkeeper
+                </a>
+            </h4>
+        </div>
+<div id="Bookkeeper" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p> Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research. The Center for Open Science (COS) is seeking a driven, outgoing, and self-starting individual who is looking to build their experience in financial administration while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. The Bookkeeper candidate will support the Operations team to help ensure the efficiency and integrity of financial records and related tasks. This is a 20 hour per week, part-time position.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        Work with Financial Operations team on daily bookkeeping functions to include the following:
+                        <ul class="indent">
+                            <li>General Ledger</li>         
+                            <ul>
+                                <li>Post transactions to Quickbooks general ledger following established cost coding model.</li>
+                                <li>Reconcile bank and credit card accounts</li>
+                            </ul>
+                        </ul>
+                        <ul class="indent">
+                            <li>Accounts Payable</li>   
+                            <ul>
+                                <li>Managing vendor invoices</li>
+                                <li>Ensure AP process is followed at all times</li>
+                                <li>Ensure timely payment of vendor invoices</li>
+                                <li>Maintain physical and digital records of vendor invoices</li>
+                                <li>Creates expense reports for staff reimbursements through Expensify software</li>
+                            </ul>
+                        </ul>
+                        <ul class="indent">
+                            <li>Accounts Receivable</li>
+                                <ul>
+                                <li>Assist with invoicing and overdue balance follow-up as needed</li>
+                                <li>Receives and deposits checks following AR process</li>
+                                </ul>
+                            </ul>
+                        <ul class="indent">
+                            <li>Reporting</li>
+                            <ul>
+                                <li>Assist in the preparation of monthly internal financial statements</li>
+                                <li>Assists in the preparation of reports for external stakeholders</li>
+                            </ul>
+                        </ul>
+                        <ul class="indent">
+                            <li>Recordkeeping</li>
+                            <ul>
+                                <li>Maintain digital financial records using Google Drive</li>
+                                <li>Ensure all transactions are well-documented</li>
+                            </ul>
+                        </ul>
+                    </dd>
+                    <dt>Qualifications<dt>
+                    <dd>
+                        <p>Exceptional organizational skills and attention to detail; ability to multi-task; self-starter and driven; extremely personable; strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; ability to use web communication and documentation software effectively; team-oriented; Demonstrated interest in administrative tasks. 
+                        </dd><dt>Preferred</dt>
+                        <dd>
+                        <p>Some bookkeeping experience, familiarity with Quickbooks Online or similar bookkeeping software; Excel proficiency</a>.</p> 
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/61ef2974-5b23-4f96-a25a-f56e41abccaa" target="_blank">here</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="CommunityIntern" class="panel-group">
+    <div class="panel panel-info">
+         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#CommunityIntern_heading">
+                         <h4 class="panel-title">
+                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#CommunityIntern" >
+                     Community Intern
+                 </a>
+             </h4>
+         </div>
+        <div id="CommunityIntern" class="panel-collapse collapse">
+          <div class="panel-body">
+               <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                       <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a hfref="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We seek an intern with extremely strong social and organizational skills to contribute to community efforts, and to help facilitate open science practices more broadly within the scientific research community. </p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                   <p>The key responsibilities of the Community Intern will be to assist in a number of on-going projects and gain experience using key business support software platforms like Salesforce.com, Desk.com, and JIRA. Tasks may include monitoring and responding to user support requests via email and directing users to available resources, contributing to the knowledge base by creating and updating user documentation for product releases, maintaining a database of published research citing the OSF, and contributing qualified contacts and accounts to the Salesforce.com database for future engagement.</p>
+                   </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Extremely high social and communication skills; Exceptional organization and attention to detail; Experience with web communication and documentation software; Team-oriented; Very strong work ethic; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace; Very strong writing skills.  Skills in email marketing, customer service, and business development are a plus.</p>
+                    </dd>
+                    <dt>Notes</dt>
+                   <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages plications from members of groups underrepresented in science and technology industries.  The Center for Open Science (COS) is a non-profit science and technology organization based in Charlottesville, Virginia dedicated to improving the alignment between scientific values and scientific practices.  The COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, is highly collaborative, is high energy, and is dedicated to openness.  COS has three primary activities: (1) <a href="https://osf.io/">infrastructure development</a> to support the scientific workflow- documentation, archiving, sharing, and registration - and connect with other open technologies, (2) community building among open-source developers, open science researchers, and the broader scientific community, and (3) metascience, research on scientific practices.  Get more information about COS at its <a href="https://cos.io/">Website</a>. 
+                   </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer committed to diversity, equity, and inclusiveness, and encourages applications from women and minorities.  Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/99265826-ee99-44d4-bf73-29a6d4996804" target="_blank">here</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+   </div>
+</div>
 ##<div id="Community Manager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -557,50 +557,50 @@
         </div>
     </div>
 </div>
-##<div id="HumanResourcesIntern" class="panel-group">
-##    <div class="panel panel-info">
-##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern_heading">
-##             <h4 class="panel-title">
-##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                 <a  data-parent="#HumanResourcesIntern" >
-##                     Human Resources Intern
-##                 </a>
-##             </h4>
-##         </div>
-##         <div id="HumanResourcesIntern" class="panel-collapse collapse">
-##             <div class="panel-body">
-##                 <dl class="dl-horizontal">
-##                     <dt>Background</dt>
-##                     <dd>
-##                         <p>The Center for Open Science (COS) seeks a highly-motivated and entrepreneurially-minded individual who wants to build experience in human resources and team development.  COS operates as an energetic and fast-paced technology start-up, already employing 37 full-time team members and many software development interns after just under 3 years of operation.  The team continues to grow quickly, and is presently working to add another 10 software developers, 20+ software development interns, 3+ quality assurance team members, and various other roles.    Building a productive and fast-paced team, with specialized skills in a number of areas, is a significant challenge, and something that requires great attention to a broad assortment of details.  We are pleased to invite applicants for the role of Human Resources Intern.</p>                     </dd>
-##                     <dt> Responsibilities</dt>
-##                     <dd>
-##                         <p>Promotion of job and internship opportunities, initial organization and screening of candidates, coordination of interview and on-site visit activities, use of the Lever system, and integration of new team members into the COS culture.  This individual will work very closely with senior COS team members to accomplish the critical mission of building and growing the team.  As a non-profit organization with deep roots in the academic environment, we can promise a positive mentoring environment and great foundation for future opportunities with technology companies, start-ups, or academic administration.</p>
-##                     </dd>
-##                     <dt>Skills</dt>
-##                     <dd>
-##                         <p>Extremely high social and communication skills; exceptional organization and attention to detail; ability to use web communication and documentation software effectively; team-oriented; very strong work ethic; multi-tasking; self-starter and industrious; adaptivity to rapidly changing demands in a high performance workplace; demonstrated interest in science, technology, non-profits, or entrepreneurship; effective writing skills; evident interest in building teams and helping others succeed.</p>
-##
-##                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.  </p>
-##                     </dd>
-##                     <dt>Location</dt>
-##                     <dd>
-##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                     </dd>
-##                     <dt>Benefits</dt>
-##                     <dd>
-##                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
-##                     </dd>
-##                     <dt>Applying</dt>
-##                     <dd>
-##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-##                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/5ad2a6e9-44a0-46c8-a5d8-daee8e094b4f" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-##                     </dd>
-##                 </dl>
-##             </div>
-##         </div>
-##     </div>
-## </div>
+<div id="HumanResourcesIntern" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#HumanResourcesIntern_heading">
+             <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#HumanResourcesIntern" >
+                     Human Resources Intern
+                 </a>
+             </h4>
+         </div>
+         <div id="HumanResourcesIntern" class="panel-collapse collapse">
+             <div class="panel-body">
+                 <dl class="dl-horizontal">
+                     <dt>Background</dt>
+                     <dd>
+                         <p>The Center for Open Science (COS) seeks a highly-motivated and entrepreneurially-minded individual who wants to build experience in human resources and team development.  COS operates as an energetic and fast-paced technology start-up, already employing 37 full-time team members and many software development interns after just under 3 years of operation.  The team continues to grow quickly, and is presently working to add another 10 software developers, 20+ software development interns, 3+ quality assurance team members, and various other roles.    Building a productive and fast-paced team, with specialized skills in a number of areas, is a significant challenge, and something that requires great attention to a broad assortment of details.  We are pleased to invite applicants for the role of Human Resources Intern.</p>                     </dd>
+                     <dt> Responsibilities</dt>
+                     <dd>
+                         <p>Promotion of job and internship opportunities, initial organization and screening of candidates, coordination of interview and on-site visit activities, use of the Lever system, and integration of new team members into the COS culture.  This individual will work very closely with senior COS team members to accomplish the critical mission of building and growing the team.  As a non-profit organization with deep roots in the academic environment, we can promise a positive mentoring environment and great foundation for future opportunities with technology companies, start-ups, or academic administration.</p>
+                     </dd>
+                     <dt>Skills</dt>
+                     <dd>
+                         <p>Extremely high social and communication skills; exceptional organization and attention to detail; ability to use web communication and documentation software effectively; team-oriented; very strong work ethic; multi-tasking; self-starter and industrious; adaptivity to rapidly changing demands in a high performance workplace; demonstrated interest in science, technology, non-profits, or entrepreneurship; effective writing skills; evident interest in building teams and helping others succeed.</p>
+
+                         <p>We are flexible on the exact work schedule, but expect between 10-20 hours per week on-site.  </p>
+                     </dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>You’ll be able to quickly try a lot of what Charlottesville has to offer as the Center has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors in an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. See more about <a href="#benefits">amenities</a>.</p>
+                     </dd>
+                     <dt>Applying</dt>
+                     <dd>
+                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/5ad2a6e9-44a0-46c8-a5d8-daee8e094b4f" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                     </dd>
+                 </dl>
+             </div>
+         </div>
+     </div>
+</div>
 ##<div id="ITIntern" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
