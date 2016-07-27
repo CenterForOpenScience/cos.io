@@ -54,6 +54,8 @@
                 </li>
                 <li class="dropdown ${ 'active' if page == 'news' else ''}">
                     <a href="/news/">News </a>
+                <li class="dropdown ${ 'active' if page == 'contact' else ''}">
+                    <a href="/contact/">Contact Us </a>
                 </li>
                 <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
             </ul>
