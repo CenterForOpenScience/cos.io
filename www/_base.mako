@@ -4,7 +4,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <%def name='navlinks(page)'>
         <!-- BEGIN TOP NAVIGATION MENU -->
-        <div class="navbar-collapse collapse col-md-7 col-md-offset-1" >
+        <div class="navbar-collapse collapse col-md-7 col-md-offset-1 navbar-list" >
             <ul class="nav navbar-nav">
                 <li class="dropdown ${ 'active' if page.startswith('about') else ''}">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="/about_mission">
@@ -55,6 +55,9 @@
                 <li class="dropdown ${ 'active' if page == 'news' else ''}">
                     <a href="/news/">News </a>
                 </li>
+                <li class="dropdown ${ 'active' if page == 'contact' else ''}">
+                    <a href="/contact/">Contact Us </a>
+                </li>
                 <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
             </ul>
         </div>
@@ -75,6 +78,8 @@
     <meta content="${self.description()}" name="description" />
     <meta content="Johanna Cohoon" name="author" />
     <meta property="og:image" content="http://centerforopenscience.org/static/img/cos_center_logo_small.png"/>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
     <link href="/static/favicon.ico" rel="shortcut icon">
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->

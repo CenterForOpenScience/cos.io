@@ -18,7 +18,7 @@ Import fonts
 
 /* General body settings */
 body {
-  color: #000; 
+  color: #000;
   font-size:13px;
   direction: ltr;
   margin: 0 !important;
@@ -28,7 +28,7 @@ body {
 }
 
 /*********************
- GENERAL UI COLORS 
+ GENERAL UI COLORS
 *********************/
 
 /***
@@ -46,11 +46,11 @@ Colors
 .color-light-green { color: #78df1d;}
 
 /*********************
- GENERAL RESET & SETUP 
+ GENERAL RESET & SETUP
 *********************/
 
 /***
-General typography 
+General typography
 ***/
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
@@ -75,7 +75,7 @@ h2 a:hover {
   transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;        
+  -webkit-transition: all 0.5s ease;
  }
 
 h3 {
@@ -87,8 +87,8 @@ Apply fix for font awesome icons.
 ***/
 [class^="fa-"],
 [class*=" fa-"],
-[class^="fa-"]:hover, 
-[class*=" fa-"]:hover { 
+[class^="fa-"]:hover,
+[class*=" fa-"]:hover {
   background: none !important;
 }
 
@@ -438,6 +438,60 @@ Top Bar
 
 .front-topbar li i.topbar-info-icon {
 	margin-right: 3px;
+}
+
+.header .navbar-nav li a {
+    color: #333 !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    text-shadow: none !important;
+    position: relative !important;
+    padding: 26px 16px 27px !important;
+    border-top: solid 2px #fff !important;
+    transition: padding 0.3s ease-in-out !important;
+}
+
+.navbar-list {
+	margin-left: 0px !important;
+}
+
+.navbar-default {
+	background-color: #ffffff !important;
+	border-color: none !important;
+}
+
+.navbar {
+	border: none !important;
+}
+
+#lead_source {
+	margin-left: 15px;
+}
+
+.btn-group-container {
+	text-align: center;
+}
+
+#btn-submit {
+	display: block;
+	margin: 0 auto;
+}
+
+.required .control-label:after {
+	content: "*";
+	color: #a94442;
+}
+
+.error-message {
+	color: #A10303;
+}
+
+.error-field {
+	border-color: #a94442;
+}
+
+.error-label {
+	color: #a94442;
 }
 
 /*Social Icons*/
@@ -1805,7 +1859,21 @@ Blog Item
 
 /*contact*/
 .form-group [class*="col-"] {
-	padding-left:0;
+/*	padding-left:0; */
+}
+
+.form-group .checkbox {
+	margin-left: 15px;
+}
+
+.form-group textarea {
+	border: 1px solid #ccc;
+	color: #555;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-group textarea:focus {
+  border-color: rgba(82, 168, 236, 0.8) !important;
 }
 
 /***
@@ -2357,7 +2425,7 @@ Demo Utils
   padding-top: 16px;
 }
 
-.form-bordered .form-group > div {  
+.form-bordered .form-group > div {
   padding: 10px;
   border-left: 1px solid #efefef;
 }
@@ -2460,7 +2528,7 @@ a.btn-transparent:hover {
   transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;      
+  -webkit-transition: all 0.5s ease;
 }
 
 .panel-primary .panel-title {

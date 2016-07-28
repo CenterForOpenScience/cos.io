@@ -1477,7 +1477,22 @@
 
 
 
-
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+      <h1>Thank you!</h1>
+      Your form has been submitted.  Feel free to take a look at some other ways you can learn more!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 <!-- END PAGE CONTAINER -->
 
@@ -1492,13 +1507,18 @@
             var tab = location.hash.slice(1,6);
             var availableTabs = ['tab_1', 'tab_2', 'tab_3', 'tab_4', 'tab_5'];
             if(tab && availableTabs.indexOf(tab) !== -1){
-            ## remove active classes from tabs
+            // remove active classes from tabs
             $(".tabbable > li").removeClass("active");
                 $(".tab-pane").removeClass("active");
 
-            ## add active class to appropriate tab
+            // add active class to appropriate tab
             $("a[href='#"+tab+"']").parent().addClass("active");
                 $("#"+tab).addClass("active");
+            }
+
+            // check url to see if coming from submission form
+            if(window.location.hash === '#tab_1&s=t'){
+                $('#myModal').modal('show');
             }
 
         });
