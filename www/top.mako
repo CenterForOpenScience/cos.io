@@ -38,12 +38,10 @@
                         <p>Transparency, open sharing, and reproducibility are core features of science, but not always part of daily practice.  Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines.  TOP includes eight modular standards, each with three levels of increasing stringency.   Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for the selected standards.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
 
                         <ul>
-                            <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
-                            ##<li>Editorial on how Science will implement each standard: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
-                            ##<li>Editorial on how Ecology Letters will implement each standard: <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters, and Transparency and Openness Promotion (TOP) guidelines</a></li>
-                            <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
-                            <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
-                            <li><a href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
+                            <li>Article introducing the TOP Guidelines, <a target="_blank" href="http://science.sciencemag.org/content/348/6242/1422.full">Science</a></li>
+                            <li><a target="_blank" href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
+                            <li><a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
+                            <li><a target="_blank" href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
                             ##<li><a href="#signatories">Signatories</a></li>
                         </ul>
                         <hr>
