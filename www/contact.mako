@@ -35,7 +35,7 @@
                 <div class="form-horizontal">
 					<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="contact-form">
 						<input type=hidden name="oid" value="00Dj0000001p7Or">
-						<input type=hidden name="retURL" value="http://127.0.0.1:4000/involved_participate/#tab_1&s=t">
+						<input type=hidden name="retURL" value="https://cos.io/involved_participate/#tab_1&s=t">
 						<!--   ----------------------------------------------------------------------   -->
 						<!--   NOTE: These fields are optional debugging elements. Please uncomment     -->
 						<!--   these lines if you wish to test in debug mode.                           -->
