@@ -91,12 +91,12 @@
                                       <hr>
                                       <h3>Resources</h3>
                                         <ul>
-                                            <li>Article introducing the TOP Guidelines, <i>Science</i> : <a href ="http://www.sciencemag.org/cgi/content/full/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Full Text</a> | <a href ="http://www.sciencemag.org/content/348/6242/1422.summary?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">Summary</a> | <a href ="http://www.sciencemag.org/cgi/rapidpdf/348/6242/1422?ijkey=ha1o5D9wvW4ZQ&keytype=ref&siteid=sci">pdf</a></li>
-                                            <li><a href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
-                                            <li><a href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
-                                            <li><a href="https://osf.io/ud578/">Download the TOP Guidelines</a></li>
-                                            <li>Share this <a target="_blank"  href="https://osf.io/pvf56/">one pager</a> with colleagues.</li>
-                                            ##<li><a href="#signatories">Signatories</a></li>
+                                          <li>Article introducing the TOP Guidelines, <a target="_blank" href="http://science.sciencemag.org/content/348/6242/1422.full">Science</a></li>
+                                          <li><a target="_blank" href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
+                                          <li><a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
+                                          <li><a target="_blank" href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
+                                          <li>Share this <a target="_blank"  href="https://osf.io/pvf56/">one pager</a> with colleagues.</li>
+                                          ##<li><a href="#signatories">Signatories</a></li>
                                         </ul>
                                       <hr>
                                       <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
