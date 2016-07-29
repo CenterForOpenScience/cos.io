@@ -440,28 +440,8 @@ Top Bar
 	margin-right: 3px;
 }
 
-.header .navbar-nav li a {
-    color: #333 !important;
-    font-size: 15px !important;
-    font-weight: 400 !important;
-    text-shadow: none !important;
-    position: relative !important;
-    padding: 26px 16px 27px !important;
-    border-top: solid 2px #fff !important;
-    transition: padding 0.3s ease-in-out !important;
-}
-
 .navbar-list {
 	margin-left: 0px !important;
-}
-
-.navbar-default {
-	background-color: #ffffff !important;
-	border-color: none !important;
-}
-
-.navbar {
-	border: none !important;
 }
 
 #lead_source {
