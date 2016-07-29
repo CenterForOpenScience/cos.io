@@ -1,7 +1,7 @@
 
 
 <%inherit file="_base.mako"/>
-<%def name="title()">Statistical and Methodological Consulting</%def>
+<%def name="title()">Reproducible Research and Statistics Training</%def>
 <%def name="description()">The Center for Open Science offers totally free statistical and methodological consulting services so that you can make your science better.</%def>
 
 <%def name="navigation()">
@@ -9,147 +9,239 @@
 </%def>
 
 <%def name="stylesheets()">
-
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <!-- <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" /> -->
+    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
-
 </%def>
 
 
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container">
+<div class="page-container" id=“training”>
 
     <!-- BEGIN CONTAINER -->
     <div class="container min-hight margin-top-50">
-        <!-- BEGIN ABOUT INFO -->
-        <div class="row col-md-12 margin-bottom-30">
 
-            <!-- BEGIN INFO BLOCK -->
-            <div class="stats-intro space-mobile">
-                <h1><strong>Statistical & Methodological Consulting</strong></h1>
-                <div class="row col-md-8">
-
-                    <p class="lead">Scientists can improve the replicability of their own work through careful documentation, adherence to standards, and the use of open tools.
-                    We answer questions and provide training on open and reproducible tools, methodologies, and workflows. Some examples:</p>
-                    <table class="col-md-12 col-md-offset-1">
-                        <tr>
-                            <td><i class="fa fa-check"></i>Using R</td>
-                            <td><i class="fa fa-check"></i>Learning Github</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fa fa-check"></i>Conducting power analyses</td>
-                            <td><i class="fa fa-check"></i>Conducting meta-analyses</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fa fa-check"></i>Using the OSF</td>
-                            <td><i class="fa fa-check"></i>Preregistering analysis plans</td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="lead">This service is provided in partnership with the <a href="http://www.bitss.org">Berkeley Initiative for Transparency in the Social Sciences (BITSS)</a></p>
-                </div>
-
-
-                <div  class="col-md-3 col-md-offset-1">
-                    <a href="mailto:stats-consulting@cos.io?subject=Request a Consultation">
-                        <div class="action-box" id="stats-consult">
-                            <i class="fa fa-pencil"></i>
-                            <p>Request a Consultation</p>
-                        </div>
-                    </a>
-                    <a href="mailto:stats-consulting@cos.io?subject=Request a Workshop">
-                        <div class="action-box">
-                            <i class="fa fa-share-square-o"></i>
-                            <p>Request a Workshop</p>
-                        </div>
-                    </a>
-                    <a href="http://eepurl.com/2kghn" target="_blank">
-                        <div class="action-box">
-                            <i class="fa fa-envelope-o"></i>
-                            <p>Receive Updates<br>on our Services</p>
-                        </div>
-                    </a>
-                </div>
+        <!—- BEGIN CONTENT —->
+        <div class="row community-content">
+        <div>
+            <h1><strong>Reproducible Research and Statistics Training</strong></h1>
+            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, statisitics, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
+            <!-- BEGIN TABS -->
+            <div class="margin-top-20">
+            <div class="col-md-3 col-sm-3 community-tab-list">
+                <ul class="tabbable community-tabbable">
+                    <li class="active"><a href="#tab_1" data-toggle="tab">Training Services</a></li>
+                    <li><a href="#tab_2" data-toggle="tab">Statistical Consulting</a></li>
+                    <li><a href="#tab_3" data-toggle="tab">Webinars and Video Tutorials</a></li>
+                    <li><a href="#tab_4" data-toggle="tab">Reproducible Research Workshops</a></li>
+                    ## <li><a href="#tab_5" data-toggle="tab">Teaching Resources</a></li>
+                </ul>
             </div>
-            <div class="space-mobile">
-                <h2><strong>Free One-on-One Consulting Services</strong></h2>
+            <div class="col-md-9 col-sm-9">
+            <div class="tab-content ">
+                <!-- START TAB 1 -->
+                    <div class="tab-pane active" id="tab_1">
+                    <div class="container">
+                        <h2><strong>Training and Consulting Resources</strong></h2>
+                        <p>Researchers can increase the reproducibility and replicability of their own work through careful documentation, adherence to standards, and the use of open.</p>
 
-                <hr>
-                <p><strong>Email Consulting</strong></p>
-                <p>Email <a href='mailto:stats-consulting@cos.io?subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable.</p>
-                <br>
-                <p><strong>Online consulting by appointment</strong></p>
-                <p>Want to talk through your problem in real time? <a href="https://www.google.com/calendar/embed?src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&ctz=America/New_York">Check our calendar</a>  to see when our consultants are available and then  <a href="mailto:stats-consulting@cos.io?subject=Request a Google Hangout Appointment">email us</a> to request a Google Hangout appointment. In your email, please include a short description of your question, as well as data, syntax, and output files, when applicable. If you don’t see any times that work for you, email us and we will try to set up a special time outside our normal consulting hours. Initial consultations are up to 30 minutes. More complex problems will be handled through follow-up consultations.</p>
-                <br>
-                <h2><strong>Free Training</strong></h2>
-                <hr>
-                <div style="float:right; margin-left:20px;">
-                    <iframe src="https://www.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border:solid 1px #777 " width="400" height="300" frameborder="0" scrolling="no"></iframe>
-                </div>
-                <p><strong>Online Workshops</strong></p>
-                <p>We offer online workshops on topics related to reproducible research and good statistical practices. Recordings of workshops and related materials are available on the <a href="https://osf.io/djrig/">Stats Consulting OSF Project.</a></p> 
-                <br>
-                <p><strong>On-site Workshops</strong></p>
-                <p>Want a more in-depth, hands-on experience for your lab, department, or organization? We offer free, on-site workshops on topics related to reproducible research and will work with you to tailor the topic to your particular interests/needs. Email <a href='mailto:stats-consulting@cos.io?subject=Request a COS Workshop'>stats-consulting@cos.io</a>. Go <a href="https://osf.io/d5aqs/wiki/Past%20Workshops/">here</a> to see past workshop locations.</p> 
-                <br>
-                <h2><strong>FAQ</strong></h2>
-                <hr>
-                <p><strong>What can we do?</strong></p>
-                <br>
-                <p>We handle a variety of statistical and methodological questions related to reproducible practices, research design, data analysis, and data management. We can:</p>
-                <ul>
-                    <li>Help you integrate reproducible practices into your workflow</li>
-                    <br>
-                    <li>Consult on the choice and application of statistical methods</li>
-                    <br>
-                    <li>Introduce tools (e.g. the <a href="https://osf.io" target="_blank">OSF</a>) to streamline your workflow</li>
-                    <br>
-                    <li>Aid in understanding and interpreting statistical analyses</li>
-                    <br>
-                    <li>Help you implement new trends in methods and practices (e.g. cumulative meta-analyses and effect size and confidence intervals)</li>
-                </ul>
-                <br>
-                <p>Example questions:</p>
-                <ul>
-                    <li>I’m starting a new line of research, so I’m unsure about what the effect size for my studies will be. How would I do a power analysis to inform my planned sample?</li>
-                    <br>
-                    <li>I want to start using the <a href="https://osf.io" target="_blank">OSF</a>, but I’m not sure quite where to start. Can you give suggestions on how to get started?</li>
-                    <br>
-                    <li>How do I calculate confidence intervals for my effect size?</li>
-                </ul>
-                <br>
-                <p><strong>What can't we do?</strong></p>
-                <br>
-                <ul>
-                    <li>Write programs to perform your data analyses for you: We can suggest resources, show you example code or code outlines, and help you work through coding bugs when you get stuck, but we cannot write the programs for you.</li>
-                    <br>
-                    <li>Perform or write up your data analyses for you: We are happy to provide support and suggestions for data analysis and interpretation, but we cannot actually perform these analyses or write them up for you.</li>
-                    <br>
-                    <li>Turn back time to meet urgent deadlines.</li>
-                    <br>
-                    <li>Help you complete your coursework.</li>
-                </ul>
-                <br>
-                <p><strong>What is reproducible research?</strong></p>
-                Reproducible research is research in which the materials, procedure, and statistical analyses can be reproduced by the original or independent researchers. Some methods and statistical practices that contribute to the reproducibility of research and results are: high powered studies, study registration, analysis plans that distinguish confirmatory and exploratory analyses, saving and annotating analysis scripts, and archiving and sharing materials and data. <a href="https://osf.io/nte3j/" target="_blank">See a good example review of reproducible practices</a>.</p>
+                    <div class="col-md-8">
+                        <h4><b>We offer free:</b></h4>
+                            <ul>
+                                <li> <a href="https://cos.io/stats_consulting/#tab_2">Statistical and Methodological Consulting</a> </li>
+                                <li> <a href="https://cos.io/stats_consulting/#tab_3">Webinars and Online Tutorials</a> </li>
+                                <li> <a href="https://cos.io/stats_consulting/#tab_4">Workshops on Reproducible Research Practices</a> </li>
+                                ##<li>Teaching Resources</li>
+                            </ul>
+                    </div>
 
-                <p><strong>Are your services really free?</p></strong>
-                <p>Yep. The Center for Open Science is a non-profit organization committed to helping the scientific community align values and practices. To that end, all of our products and services are free and open source. This is made possible by the generous donations of our sponsors.</p>
-                <p><strong>How can I acknowledge your services?</strong></p>
-                <p>Tell your friends about our services! Acknowledgement is not required, but is appreciated for spreading the word.</p>
+                    <div class="col-md-8">
+                    <br>
+                        <h4><b>Check our calendar to RSVP for upcoming events</b></h4>
+                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="350" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                    </div>
+                    </div>
+                <!-- END TAB 1 -->
+                <!-- START TAB 2 -->
+                    <div class="tab-pane" id="tab_2">
+                        <div class="container">
+                            <h2><strong>Statistical and Methodological Consulting</strong></h2>
+                            <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. Some examples of what we can help with: </p>
+                            <table class="col-md-12 col-md-offset-1">
+                                <tr>
+                                    <td><i class="fa fa-check"></i>Conducting power analyses</td>
+                                    <td><i class="fa fa-check"></i>Conducting meta-analyses</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check"></i>Using R</td>
+                                    <td><i class="fa fa-check"></i>Using the OSF</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check"></i>Prergistering analysis plans</td>
+                                    <td><i class="fa fa-check"></i>Creating lab workflows to increase transparency</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <p>This service is provided in partnership with the <a href="http://www.bitss.org">Berkeley Initiative for Transparency in the Social Sciences (BITSS)</a></p>
+                                    <hr>
+                                    <h2><strong>Stats Consulting FAQ</strong></h2>
+                                        <h4><strong>What can we do?</strong></h4>
+                                        <p>We handle a variety of statistical and methodological questions related to reproducible practices, research designs, data analysis, and data management. We can:</p>
+                                            <ul>
+                                                <li>Help you integrate reproducible research practices into your workflow</li>
+        					                    <li>Consult on the choice and application of statistical methods</li>
+                            					<li>Introduce tools (e.g. the OSF) to streamline your workflow</li>
+                            					<li>Aid in understanding and interpreting statistical analysis</li>
+                            					<li>Help you implement new trends in methods and practices (e.g. cumulative meta-analyses and confidence intervals)</li>
+        				                    </ul>
+                        				<p>Example Questions:</p>
+                        				     <ul>
+                        				        <li>I’m starting a new line of research, so I’m unsure about what the effect size for my studies will be. How would I do a power analysis to inform my planned sample size?</li>
+                        					    <li>I want to start using the OSF, but I’m not sure quite where to start. Can you give suggestions on how to get started?</li>
+                        					    <li>How do I calculate confidence intervals for my effect size?</li>
+                                             </ul>
+                                        <h4><strong>What can’t we do?</strong></h4>
+                        				     <ul>
+                        				        <li>Write programs to perform your data analyses for you: We can suggest resources, show you example code or code outlines, and help you work through coding bugs when you get stuck, but we cannot write the programs for you.</li>
+                                                <li>Perform or write up your data analyses for you: We are happy to provide support and suggestions for data analysis and interpretation, but we cannot actually perform these analyses or write them up for you.</li>
+                                                <li>Turn back time to meet urgent deadlines.</li>
+                                                <li>Help you complete your coursework.</li>
+                                             </ul>
+                        </div>		
+                    </div>
+                <!-- END TAB 2 -->
+                <!-- START TAB 3 -->
+                    <div class="tab-pane" id="tab_3">
+                        <div class="container">
+                            <h2><strong>Webinars</strong></h2>
+                            <p>We offer a series of free, regularly scheduled webinars on topics related to open, reproducible research. See our calendar below to check out the current topics and schedule, and to RSVP for upcoming webinbars. Webinars vary in length from 30-60 minutes depending on the subject, and the calendar is updated regularly as we add topics. Past webinars can be viewed on <a href="https://www.youtube.com/channel/UCGPlVf8FsQ23BehDLFrQa-g">our youtube channel.</a> </p>
+                            <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+                            <h2><strong>Online Tutorials and Resources</h2></strong>
+                            <p>Along with webinars, we also have short tutorial videos on commonly asked questions from our webinars, workshops, and statistical consulting. You can find the videos, as well as powerpoint slides and examples, on <a href="https://osf.io/7gqsi/">our OSF project.</a> </p>
+                        </div>		
+                    </div>
 
-                <!-- END INFO BLOCK -->
-            </div>
-        </div>
-        <!--End About Info-->
-    </div>
+                <!-- END TAB 3 -->
+                <!-- START TAB 4 -->
+                    <div class="tab-pane" id="tab_4">
+                        <div class = "container">
+                            <h2><strong>Workshops</strong></h2>
+                            <p> The Center offers free, hands-on workshops to teach researchers practical steps to increase the reproducibility and transparency of their work. The typical workshop lasts 3 hours and covers topics including:
+                                <ul>
+                                    <li>Project documentation</li>
+                                    <li>Employing version control</li>
+                                    <li>Creating pre-analysis plans</li>
+                                    <li>Using the Open Science Framwork</li>
+                                    <li>Potential benefits to researchers for engaging in open practices</li>
+                                </ul>
+                            <p> Workshops can be geared towards a general research audience, or towards a particular discipline, e.g. biomedical researchers. You can see a list of previous institutions where we have given workshops, as well as example promotional materials and workshop slidedecks on <a href="https://osf.io/d5aqs/">our OSF page.</a> <p> 
+                            <p>Interested in having a workshop at your institution or organization? Email us at <a href='mailto:contact@cos.io?  subject=workshop inquiry'>contact@cos.io</a> </p>
+                            <h2><strong>FAQ</strong></h2>
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <!-- Begin FAQ 1 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Are workshops really free?</a></h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <p>Yes, workshops are really free. We set a minimum number of RSVPs that is tied to <i> our </i> travel costs, but there are no costs to your institution or organization for workshops. A grant from the Laura and John Arnold Foundation pays all travel costs associated with workshops.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 1 -->
+                                <!-- Begin FAQ 2 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Is there a maximum number of participants for workshops?</a></h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <p>Because the workshop is hands-on, we generally try to keep the number of people in workshops to 30-40 people to make sure that participants can get individual attention. If there is a higher demand, we are happy to give multiple workshops to accomodate more participants.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 2 -->
+                                <!-- Begin FAQ 3 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Is there a minimum number of participants for a workshops?</a></h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                <p>We will come up with a minimum RSVP for each institution individually, based on a combination of the costs associated with travel and our past experience with attendance rates compared to RSVP numbers. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 3 -->
+                                <!-- Begin FAQ 4 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFour">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Who are workshops geared towards?</a></h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div class="panel-body">
+                                                <p>Workshops are generally geared towards any scholars who are engaged in quantitative research, though we can give workshops that are geared towards one particular discipline, e.g. psychology, if there is demand for that. Our general audience is a combination of graduate students and faculty, and we also often have members of the library staff and research staff in attendance. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 4 -->
+                                <!-- Begin FAQ 5 --->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFive">
+                                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Do you allow recording of workshops?</a></h4>
+                                        </div>
+                                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <div class="panel-body">
+                                                <p>Yes, it is fine to record a workshop and make it available later for reseachers who were unable to attend the workshops. However, we do not currently allow workshops to be live-streamed.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- END FAQ 5 -->
+                            </div>
+                        </div>
+                    </div>
+                <!-- END TAB 4 -->
+</div>
 
-    <!--End Container-->
+<!-- END TABS -->
+</div>
+</div>
+
+<!-- END CONTENT -->
+
+
+</div>
+<!-- END CONTAINER -->
+
+
+
+
 </div>
 <!-- END PAGE CONTAINER -->
-<!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-<%def name="javascript_bottom()">
 
+
+
+<%def name="javascript_bottom()">
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="assets/scripts/app.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            var tab = location.hash.slice(1,6);
+            var availableTabs = ['tab_1', 'tab_2', 'tab_3', 'tab_4', 'tab_5'];
+            if(tab && availableTabs.indexOf(tab) !== -1){
+            ## remove active classes from tabs
+            $(".tabbable > li").removeClass("active");
+                $(".tab-pane").removeClass("active");
+
+            ## add active class to appropriate tab
+            $("a[href='#"+tab+"']").parent().addClass("active");
+                $("#"+tab).addClass("active");
+            }
+
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
-<!-- END PAGE LEVEL JAVASCRIPTS -->
