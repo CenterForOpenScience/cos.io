@@ -225,8 +225,8 @@
 
 <%def name="javascript_bottom()">
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-    <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="assets/scripts/app.js"></script>
+    <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/static/scripts/app.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             var tab = location.hash.slice(1,6);
