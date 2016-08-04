@@ -136,7 +136,7 @@
                                     <li>Potential benefits to researchers for engaging in open practices</li>
                                 </ul>
                             <p> Workshops can be geared towards a general research audience, or towards a particular discipline, e.g. biomedical researchers. You can see a list of previous institutions where we have given workshops, as well as example promotional materials and workshop slidedecks on <a href="https://osf.io/d5aqs/">our OSF page.</a> <p> 
-                            <p>Interested in having a workshop at your institution or organization? Email us at <a href='mailto:contact@cos.io?  subject=workshop inquiry'>contact@cos.io</a> </p>
+                            <p>Interested in having a workshop at your institution or organization? Contact us <a href="https://cos.io/contact/">here</a>. </p>
                             <h2><strong>FAQ</strong></h2>
                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 <!-- Begin FAQ 1 --->

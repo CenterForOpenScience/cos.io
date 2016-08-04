@@ -34,7 +34,7 @@
     <div class="col-md-8">
         <h4><strong>1. Adopt the Transparency and Openness Promotion (TOP) Guidelines</strong></h4>
         <p>Journals can increase transparency and reproducibility of research by adopting the TOP Guidelines. TOP includes eight modular standards that can be implemented in whole or in part. Each standard has three levels of increasing expectation for transparency.  These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards. </p>
-        <p><a href="https://cos.io/top">Read the Guidelines</a>, <a href="http://cos.io/top">see the list of signatories</a>, or <a href="mailto:top@cos.io?subject=TOP Guidelines">email us</a> with questions, comments, or to join as a signatory.
+        <p><a href="https://cos.io/top">Read the Guidelines</a>, <a href="http://cos.io/top">see the list of signatories</a>, or <a href="https://cos.io/contact/">email us</a> with questions, comments, or to join as a signatory.
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -55,7 +55,7 @@
             normative changes in practice.</p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Badges">
+        <a href="https://cos.io/contact/">
             <div class="action-box">
                 <i class="fa fa-shield"></i>
                 <p>Ask about using badges</p>
@@ -68,11 +68,11 @@
         <p>COS offers a <strong>free</strong> document archiving service for conferences. Any organization can request a specially
             dedicated web page to display all uploaded talks or posters. Conference presenters simply submit their files through
             email and will receive a permanent, persistent URL that links to their work. Download counts and visits to each
-            uploaded poster will be recorded. <a href="https://osf.io/view/spsp2015/" target="_blank">See how the 2015 SPSP meeting used this service</a> to share over 300 talks and posters.
+            uploaded poster will be recorded. <a href="https://osf.io/view/spsp2016/" target="_blank">See how the 2016 Society for Personality and Social Psychology meeting used this service</a> to share over 450 talks and posters.
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=OSF for Meetings Request">
+        <a href="https://cos.io/contact/">
             <div class="action-box">
                 <i class="fa fa-bar-chart"></i>
                 <p>Request OSF for Meetings</p>
@@ -106,15 +106,15 @@
     </div>
     <div class="col-md-8">
         <h4><strong>5. Use the OSF to Support Your Authors' Data and Materials Sharing</strong></h4>
-        <p>The <a href="https://osf.io">Open Science Framework</a> is a free, open source web application built to manage the entire research workflow. The OSF provides an easy solution for editors and publishers seeking to provide their authors with a free platform for data and materials sharing. The OSF can also be used to handle parts of the publishing workflow. To learn more about strategies for using the OSF as a back end for your journal, <a href="mailto:contact@cos.io?subject=Journal_Services">send us an email</a>.
+        <p>The <a href="https://osf.io">Open Science Framework</a> is a free, open source web application built to manage the entire research workflow. The OSF provides an easy solution for editors and publishers seeking to provide their authors with a free platform for data and materials sharing. The OSF can also be used to handle parts of the publishing workflow. To learn more about strategies for using the OSF as a back end for your journal, <a href="https://cos.io/contact/">contact us</a>.
 
         </p></div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Journal_Services">
+        <a href="https://cos.io/contact/">
             <div class="action-box">
                 <i class="fa fa-laptop"></i>
-                <p>Learn more about OSF for Journals</p>
+                <p>Ask about using OSF for Journals</p>
             </div>
         </a>
     </div>
