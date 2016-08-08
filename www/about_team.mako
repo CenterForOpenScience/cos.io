@@ -120,18 +120,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/myrick.jpg" alt="Amanda Myrick">
-            <h3>
-                Amanda Myrick
-                <small>Human Resources Intern | Operations</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://osf.io/wum3f/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/shi.jpg" alt="Amy Shi">
             <h3>
                 Amy Shi
@@ -188,17 +176,6 @@
                 <li><a href="https://github.com/aprilcs" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/in/april-clyburne-sherin-30231383" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/ajiyt/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/swenson.jpg" alt="Baylee Swenson">
-            <h3>
-                Baylee Swenson
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
             </ul>
         </div>
     </li>
@@ -614,9 +591,11 @@
             <img src="../static/img/people/bird.jpg" alt="Joshua Bird">
             <h3>
                 Joshua Bird
-                <small>Developer Intern | Infrastructure</small>
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">jo<span style="display:none;">null</span>sh@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:wbfu@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/HalcyonChimera" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/ac2gj/" data-original-title="osf" class="osf"></a></li>
             </ul>
@@ -1201,6 +1180,18 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/myrick.jpg" alt="Amanda Myrick">
+            <h3>
+                Amanda Myrick
+                <small>Human Resources Intern | Operations</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://osf.io/wum3f/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/Sanfilippo.jpg" alt="Anna Sanfilippo">
             <h3>
                 Anna Sanfilippo
@@ -1251,6 +1242,17 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/asmacdo" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/4nw7z/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/swenson.jpg" alt="Baylee Swenson">
+            <h3>
+                Baylee Swenson
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
             </ul>
         </div>
     </li>
