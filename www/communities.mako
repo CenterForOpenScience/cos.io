@@ -131,7 +131,7 @@
                                         The project anticipates learning more about predictors of reproducibility, common obstacles to conducting replications,
                                         and how the current scientific incentive structure affects research practices by estimating the rate of reproducibility
                                         in a sample of published cancer biology literature. The RP:CB is a collaborative effort between the Center for
-                                        Open Science and network provider Science Exchange.</p>
+                                        Open Science and network provider Science Exchange. Are you interested in becoming a panel member to review the reproducibility of these studies? <a href="http://cos.io/rpcb"> Learn more or register here</a>.</p>
                                         <a href="https://osf.io/e81xl/wiki/home/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>

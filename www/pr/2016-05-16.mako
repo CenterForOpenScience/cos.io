@@ -47,7 +47,7 @@ Laura and John Arnold Foundation </strong></h1><br>
                 <p>Center for Open Science
                 <br> Melanie Benjamin   
                 <br>Donor and Funder Relations Lead  
-                <br><a href="mailto:badges@cos.io">melanie@cos.io</a>
+                <br><a href="mailto:melanie@cos.io">melanie@cos.io</a>
                
 
 

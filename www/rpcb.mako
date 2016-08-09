@@ -56,7 +56,7 @@
                         <li>Recognition on the RP:CB website as a Reproducibility Review Panel member <i>(Optional)</i></li>
                         <li>An interesting, engaging experience in evaluating the reproducibility of research</li></ul>
 
-                        <p><br>If you are interested please see the registration form below. If you have questions please email us at <a href="mailto: contact@cos.io">contact@cos.io</a>
+                        <p><br>If you are interested please see the registration form below. If you have questions please email us at <a href="mailto: contact+rpcb@cos.io">contact@cos.io</a>
                     
                     <br>Thank you very much for your support of the Reproducibility Project: Cancer Biology.  
                     <br>
