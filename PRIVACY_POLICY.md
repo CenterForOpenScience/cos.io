@@ -60,7 +60,7 @@ We protect your personal information using industry-standard safeguards. We may 
 
   We may collect information from the devices and networks that you use to visit the Websites in order to help improve the services we provide.  Every time you request or download a file from the site, COS may store data about these events and your IP address in a log file.  We may use this information to analyze trends, administer the site, track users' movements, and gather broad demographic information for aggregate use or for other business purposes.  When you access or leave our Websites by clicking on a hyperlink, we receive the URL from the site from which you last visited or the one to which you're directed.  We may receive the Internet Protocol ("IP") address of your computer or proxy server used to access the site, your operating system, the type of browser you used, and the type of device and/or operating system you use, the Application Programming Interface ("API") you use, or your mobile device carrier or your ISP.  We also may receive location data passed to us from third-party services or GPS-enabled devices that you have set up in order to customize your experience based on location information. 
 
-  ###### <a name="cookies"></a>(f) Cookies.  
+  (f) Cookies.  
 
   We use cookies and similar technologies, including mobile device identifiers, to help us recognize you when you log into our Websites and Services.  By accessing our Websites, you are consenting to the placement of cookies and other similar technologies in your browser in accordance with this Privacy Policy and our Terms of Use.  
 
