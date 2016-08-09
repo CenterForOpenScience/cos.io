@@ -15,35 +15,6 @@
             cursor:pointer;
         }
     </style>
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-    table {
-        width:100%;
-    }
-    table, th, td {
-        border: 0px solid black;
-        border-collapse: collapse;
-    }
-    th, td {
-        padding: 5px;
-        text-align: left;
-    }
-    table#t01 tr:nth-child(even) {
-        background-color: #eee;
-    }
-    table#t01 tr:nth-child(odd) {
-       background-color:#fff;
-    }
-    table#t01 th {
-        background-color: white;
-        color: black;
-    }
-    </style>
-    </head>
-    <body>
-
 <!-- END PAGE LEVEL PLUGIN STYLES -->
 </%def>
 
@@ -58,14 +29,14 @@
     <div class="community-content">
         <div class="row">
             <div class="col-sm-2 community-tab-list">
-                <ul class="tabbable community-tabbable" id="">
-                    <li class="active"><a id="tab-0" href="#zero" data-toggle="tab">TOP</a></li>
-                    <li><a id="tab-1" href="#one" data-toggle="tab">Summary Table</a></li>
-                    <li><a id="tab-2" href="#two" data-toggle="tab">Become a Signatory</a></li>
-                    ##<li><a id="tab-3" href="#three" data-toggle="tab">Implementing the Guidelines</a></li>
-                    ##<li><a id="tab-4" href="#four" data-toggle="tab">FAQ</a></li>
-                    <li><a id="tab-5" href="#five" data-toggle="tab">List of Signatories</a></li>
-                    ##<li><a id="tab-6" href="#six" data-toggle="tab">Journal Scores</a></li>
+                <ul class="tabbable community-tabbable change-url-tabbable" id="">
+                    <li><a id="tab-0" href="#TOP" data-toggle="tab">TOP</a></li>
+                    <li><a id="tab-1" href="#summary" data-toggle="tab">Summary Table</a></li>
+                    <li><a id="tab-2" href="#sign" data-toggle="tab">Become a Signatory</a></li>
+                    <li><a id="tab-3" href="#implement" data-toggle="tab">Implementing the Guidelines</a></li>
+                    ##<li><a id="tab-4" href="#FAQ" data-toggle="tab">FAQ</a></li>
+                    <li><a id="tab-5" href="#list" data-toggle="tab">List of Signatories</a></li>
+                    ##<li><a id="tab-6" href="#scores" data-toggle="tab">Journal Scores</a></li>
                 </ul>
             </div>
           ##  <div class="col-sm-9 col-sm-offset-1 ">
@@ -73,7 +44,8 @@
             <!-- START TAB CONTENT -->
                 <div class="tab-content">
                     <!-- START TAB 0 -->
-                    <div class="tab-pane fade in active" id="zero">
+                    <div class="tab-pane fade" id="TOP" style="margin-top:-200px">
+                     <div style="height: 200px;">&nbsp;</div>
                         <table>
                             <tr>
                                 <td>
@@ -83,7 +55,7 @@
                                       TOP includes eight modular standards, each with three levels of increasing stringency. Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for each standard. These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
                                       <hr>
                                       <h3>Implementing TOP</h3>
-                                      <p>Read how Science and Ecology Letters will be implementing the TOP Guidelines.</p>
+                                      <p><a data-tab-destination="tab-3">Follow these steps</a> to implementing the TOP Guidelines, or read how Science and Ecology Letters will be implementing the TOP Guidelines.</p>
                                       <ul>
                                         <li>Science: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
                                         <li>Ecology Letters: <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters, and Transparency and Openness Promotion (TOP) guidelines</a></li>
@@ -92,7 +64,7 @@
                                       <h3>Resources</h3>
                                         <ul>
                                           <li>Article introducing the TOP Guidelines, <a target="_blank" href="http://science.sciencemag.org/content/348/6242/1422.full">Science</a></li>
-                                          <li><a target="_blank" href="https://osf.io/2cz65/">Summary worksheet of the TOP Guidelines</a></li>
+                                          <li><a data-tab-destination="tab-1">Summary table of the TOP Guidelines</a></li>
                                           <li><a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/"> The TOP Guidelines wiki</a></li>
                                           <li><a target="_blank" href="https://osf.io/ud578/">The TOP Guidelines pdf for download</a></li>
                                           <li>Share this <a target="_blank"  href="https://osf.io/pvf56/">one pager</a> with colleagues.</li>
@@ -100,7 +72,7 @@
                                         </ul>
                                       <hr>
                                       <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
-                                      547 Journals and 61 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
+                                      714 Journals and 62 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
                                 </td>
                             </tr>
                         </table>
@@ -112,7 +84,8 @@
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
-                    <div class="tab-pane fade" id="one">
+                    <div class="tab-pane fade" id="summary" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
                       <center><h3>Eight Standards at Three Levels</h3></center>
                         <br>
                         ##  <table id="t01">
@@ -185,32 +158,32 @@
                     </div>
                     <!-- END TAB 1 -->
                     <!-- START TAB 2 -->
-                    <div class="tab-pane fade" id="two">
+                    <div class="tab-pane fade" id="sign" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
                       <iframe src="https://docs.google.com/forms/d/11g24YXrY9wlT-ncVH-dmtR-Sst65HIE5cHF3Tkw6AEQ/viewform?embedded=true" width="850" height="1900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                     </div>
                     <!-- END TAB 2 -->
                     <!-- START TAB 3 -->
-                    <div class="tab-pane fade" id="three">
-                        <table>
-                            <tr>
-                                <td>
-                            ##    <iframe src="https://mfr.osf.io/render?url=https://osf.io/2cz65/?action=download%26mode=render" width="100%" scrolling="yes" height="1070px" marginheight="0" frameborder="0" allowfullscreen webkitallowfullscreen>
-
-
-
-                                    <h3>Information for journals</h3>
-                                    <p>
-                                <br>
-                                    </p>
-                                    <h3>Information for funders</h3><br>
-                                    <h3>Information for societies</h3>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+                      <div class="tab-pane fade" id="implement">
+                        <tr>
+                            <td>
+                              <h3>Implementing the TOP Guidelines</h3>
+                                <ul>
+                                    <li>Compare your current author or grantee guidelines to the three levels of each of the eight standards in the TOP Guidelines. Email top@cos.io for support or feedback on this evaluation.</li>
+                                    <li>Review the language on these sample implementations for <a target="blank" href="https://osf.io/edtxm/">journals</a> or <a target="blank" href="https://osf.io/dbtzw/">funding agencies</a>.
+                                    <li>Discuss the changes that would be required to implement Level I, II, or III for each standard.</li>
+                                    <li>Update your journal policies and practices and plan a strategy to implement. Consider using a piloting period, special issue, special RFP, or apply the standards to all incoming articles.</li>
+                                    <li>Consider making an announcement about your implementation through an editorial, blog post, or other outreach. </li>
+                                  </ul>
+                                <h3>TOP Implementors</h3>
+                                See how <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Science</a>, <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters</a>, and <a target="_blank" href="http://econtent.hogrefe.com/doi/10.1027/1618-3169/a000317">Experimental Psychology</a> are implementing TOP.
+                              </td>
+                          </tr>
+                      </div>
                     <!-- END TAB 3 -->
                     <!-- START TAB 4 -->
-                    <div class="tab-pane fade" id="four">
+                    <div class="tab-pane fade" id="FAQ" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
                         <table>
                             <tr>
                                 <td>
@@ -240,7 +213,9 @@
                                                 </h4>
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                                <div class="panel-body">Answer 2</div>
+                                                <div class="panel-body">
+                                                  <p>Answer 2</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- End FAQ 2 --->
@@ -253,7 +228,7 @@
                                             </div>
                                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div class="panel-body">
-                                                    <p>answer</p>
+                                                    <p>Answer 3</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -267,7 +242,7 @@
                                             </div>
                                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                 <div class="panel-body">
-                                                    <p>No. Preregistration distinguishes confirmatory and exploratory analyses (<a href="http://orca.cf.ac.uk/59475/" target="_blank">Chambers et. al, 2014</a>).  Exploratory analysis is very important for discovery and hypothesis generation.  Simultaneously, results from exploratory analyses are more tentative, p-values are less diagnostic, and additional data is required to subject an exploratory result to a confirmatory test.  Making the distinction between exploratory and confirmatory analysis more transparent increases credibility of reports and helps the reader to fairly evaluate the evidence presented (<a href="http://pps.sagepub.com/content/7/6/632.abstract" target="_blank">Wagenmakers et al., 2012</a>).</p>
+                                                    <p>Answer 4</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -281,7 +256,7 @@
                                             </div>
                                             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                                                 <div class="panel-body">
-                                                  answer
+                                                  <p>Answer 5 </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -294,9 +269,11 @@
                     </div>
                     <!-- END TAB 4 -->
                     <!-- START TAB 5 -->
-                    <div class="tab-pane fade" id="five">
+
+                    <div class="tab-pane fade" id="list" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (713)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (714)</b></a></li>
                         <li><a data-toggle="tab" href="#Organizations"><b>Organizations (62)</b></a></li>
                     </ul>
 
@@ -326,7 +303,8 @@
                             </div>
                             <!-- END TAB 5 -->
                             <!-- START TAB 6 -->
-                            <div class="tab-pane fade" id="six">
+                            <div class="tab-pane fade" id="scores" style="margin-top:-200px">
+                            <div style="height: 200px;">&nbsp;</div>
                             <div class="tab-content">
                                 <div id="journals" class="tab-pane fade in active">
                                     <table class="table table-sm-1" data-toggle="table" data-url="/static/convertcsv.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
@@ -366,7 +344,22 @@
             <script src="assets/scripts/app.js"></script>
             <script src="../static/plugins/jquery.mixitup.min.js"></script>
             <script>
-              $("a[data-tab-destination]").on('click', function() {
+            // When the page loads, check the url and activate the tab that matches the url
+            $(document).ready(function(){
+            var href = window.location.hash;
+            if(href === ''){
+            href = '#TOP';
+            }
+            var str = href.slice(1);
+            $('a[href="'+href+'"]').closest('li').addClass('active');
+            $('div[id="'+str+'"]').addClass('in active');
+            });
+            // On click, change the URL to match the href of the 'li a' being clicked
+            $('.change-url-tabbable li').on('click', function(){
+            var href = $(this).find('a').attr('href');
+            window.location.hash = href;
+            });
+            $("a[data-tab-destination]").on('click', function() {
                 var tab = $(this).attr('data-tab-destination');
                 $("#"+tab).click();
               });
@@ -385,7 +378,7 @@
                 var choice = Math.floor(Math.random() * messages.length);
                 $('#twitter_message a').each(function(){
                     this.href += messages[choice];
-                    console.log(choice);
+
                 })
               });
             </script>
