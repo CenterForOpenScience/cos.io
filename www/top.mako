@@ -168,7 +168,7 @@
                               <h3>Implementing the TOP Guidelines</h3>
                                 <ul>
                                     <li>Compare your current author or grantee guidelines to the three levels of each of the eight standards in the TOP Guidelines. Email top@cos.io for support or feedback on this evaluation.</li>
-                                    <li>Review the language on these sample implementations for <a target="blank" href="https://osf.io/edtxm/">journals</a> or <a target="blank" href="https://osf.io/dbtzw/">funding agencies</a>.
+                                    <li>Review the language on these sample implementations for <a target="_blank" href="https://osf.io/edtxm/">journals</a> or <a target="_blank" href="https://osf.io/dbtzw/">funding agencies</a>.
                                     <li>Discuss the changes that would be required to implement Level I, II, or III for each standard.</li>
                                     <li>Update your journal policies and practices and plan a strategy to implement. Consider using a piloting period, special issue, special RFP, or apply the standards to all incoming articles.</li>
                                     <li>Consider making an announcement about your implementation through an editorial, blog post, or other outreach. </li>
@@ -179,8 +179,8 @@
                                 <hr>
                                 <h3> Resources </h3>
                                 <ul>
-                                  <li>Use this <a target-"_blank" href="https://osf.io/87v93/">checklist</a> when developing your own implementation.</li>
-                                  <li>See the variety of sample implementations for <a target="_blank" hgref="https://osf.io/dbtzw/">funders</a> and <a target="_blank" hgref="https://osf.io/edtxm/">journals</a></li>
+                                  <li>Use this <a target="_blank" href="https://osf.io/87v93/">checklist</a> when developing your own implementation.</li>
+                                  <li>See the variety of sample implementations for <a target="_blank" href="https://osf.io/dbtzw/">funders</a> and <a target="_blank" href="https://osf.io/edtxm/">journals</a></li>
                                   <li>Read the complete TOP Guidelines <a target="_blank" href="https://osf.io/ud578/">PDF</a> or <a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/">wiki</a></li>
                               </td>
                           </tr>
