@@ -43,7 +43,7 @@
     <h2><strong>Promote Open Science in Your Community</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
         materials to help you advocate for open science. United, we can increase openness,
-        integrity, and reproducibility across scientific domains. <a href="https://osf.io/bs23x/">Learn more</a> or <a href="mailto:contact@cos.io"> contact us </a> to become an ambassador.</p>
+        integrity, and reproducibility across scientific domains. <a href="https://osf.io/bs23x/">Learn more</a> or <a href="https://cos.io/contact/"> contact us </a> to become an ambassador.</p>
 
     <div class="col-md-8">
         <h4><b>What Ambassadors Do</b></h4>
@@ -1247,7 +1247,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=OSF for Institutions demo">
+        <a href="https://cos.io/contact/">
             <div class="action-box">
                 <i class="fa fa-laptop"></i>
                 <p>Contact us for a demo</p>
@@ -1354,7 +1354,7 @@
         <h4><strong>2. Conduct Reproducible Analyses</strong></h4>
         <p>COS offers free statistical consulting to improve reproducible practices. Get email help on power analysis
             and calculating confidence intervals, individualized hangouts for learning R and GitHub, or schedule a group to
-            be trained on OSF. <a href="/stats_consulting/">Read more.</a></p>
+            be trained on OSF. <a href="/stats_consulting/">Read more</a>.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
@@ -1404,11 +1404,11 @@
             available datasets can be found on the <a href="https://osf.io">Open Science Framework</a>; the
             <a href="https://osf.io/ezcuj/">Reproducibility Project: Psychology</a>, for example, has made its data public.
             You can make yours public via the <a href="https://osf.io">OSF</a>. <a href="https://osf.io/meetings">OSF for Meetings</a> enables you to share slides
-            or posters before or after a conference. Encourage your conference organizer to have it set up, or <a href="mailto:contact@cos.io?subject=Meetings">request it yourself</a>.</p>
+            or posters before or after a conference. Encourage your conference organizer to have it set up, or <a href="https://cos.io/contact/">contact us</a>.</p>
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Meetings">
+        <a href="https://cos.io/contact/">
             <div class="action-box">
                 <i class="fa fa-bar-chart"></i>
                 <p>Request OSF for Meetings</p>
@@ -1541,7 +1541,7 @@
     </div>
 
     <div class="col-md-4 action-link margin-top-50">
-        <a href="mailto:contact@cos.io?subject=Supporting Open Source Development">
+        <a href="https://cos.io/contact/">
             <div class="action-box">
                 <i class="fa fa-comments"></i>
                 <p>Find out how to contribute</p>
