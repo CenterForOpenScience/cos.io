@@ -72,6 +72,8 @@
                                 </td>
                             </tr>
                         </table>
+                        <hr>
+                        For inquiries, please contact <a href="mailto:david@cos.io">David Mellor</a> or email <a href="mailto:top@cos.io">top@cos.io</a>. 
                         <div class="row">
 
                                 </div>
