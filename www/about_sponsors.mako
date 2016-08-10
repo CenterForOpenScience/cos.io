@@ -547,6 +547,13 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                 <tr>
+                                                    <td class="sponsor-center" id="atlassian"><a href="http://www.atlassian.com/"><img src="/static/img/icons/atlassian.png"></a></td>
+                                                    <td><span class="med-font"><strong>Atlassian</strong></span><br>
+                                                    Free services for non-profits
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                <tr>
                                                     <td class="sponsor-center" id="buffer"><a href="http://www.bufferapp.com/"><img src="/static/img/icons/buffer.png"></a></td>
                                                     <td><span class="med-font"><strong>Buffer</strong></span><br>Discount for social media scheduling services<br>
                                                     </td>
@@ -590,6 +597,13 @@
                                                     <td class="sponsor-center" id="jetbrains"><a href="http://www.jetbrains.com/"><img src="/static/img/icons/jetbrains.jpg"></a></td>
                                                     <td><span class="med-font"><strong>JetBrains</strong></span><br>
                                                     Professional editions of <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> and <a href="http://www.jetbrains.com/webstorm/">Webstorm</a> via their <a href="http://www.jetbrains.com/pycharm/buy/buy.jsp#openSource">open source license</a><br>
+                                                    </td>
+                                                </tr>
+                                                <tr class="spacer"></tr>
+                                                  <tr>
+                                                    <td class="sponsor-center" id="keen"><a href="http://keen.io/"><img src="/static/img/icons/keen.svg"></a></td>
+                                                    <td><span class="med-font"><strong>Keen</strong></span><br>
+                                                    Non-profit discount for <a href="http://keen.io/">Keen</a><br>
                                                     </td>
                                                 </tr>
                                                 <tr class="spacer"></tr>
