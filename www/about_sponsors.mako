@@ -601,7 +601,7 @@
                                                 </tr>
                                                 <tr class="spacer"></tr>
                                                   <tr>
-                                                    <td class="sponsor-center" id="keen"><a href="http://keen.io/"><img src="/static/img/icons/keen.svg"></a></td>
+                                                    <td class="sponsor-center" id="keen"><a href="http://keen.io/"><img style="width: 225px;" src="/static/img/icons/keen.svg"></a></td>
                                                     <td><span class="med-font"><strong>Keen</strong></span><br>
                                                     Non-profit discount for <a href="http://keen.io/">Keen</a><br>
                                                     </td>
