@@ -67,13 +67,13 @@
 
 
                                         <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
-                                      715 Journals and 62 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
+                                      716 Journals and 62 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
 
                                 </td>
                             </tr>
                         </table>
                         <hr>
-                        For inquiries, please contact <a href="mailto:david@cos.io">David Mellor</a> or email <a href="mailto:top@cos.io">top@cos.io</a>. 
+                        For inquiries, please contact <a href="mailto:david@cos.io">David Mellor</a> or email <a href="mailto:top@cos.io">top@cos.io</a>.
                         <div class="row">
 
                                 </div>
@@ -291,7 +291,7 @@
                                                 <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                                             </ol>
                                                     <br>
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (715)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (716)</b></a></li>
                         <li><a data-toggle="tab" href="#Organizations"><b>Organizations (62)</b></a></li>
                     </ul>
 
@@ -400,6 +400,8 @@
                 })
               });
             </script>
+
+
 
             <script src="/static/scripts/bootstrap-table.js"></script>
 
