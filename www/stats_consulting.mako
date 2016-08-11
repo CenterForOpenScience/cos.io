@@ -25,7 +25,7 @@
         <div class="row community-content">
         <div>
             <h1><strong>Reproducible Research and Statistics Training</strong></h1>
-            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, statisitics, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
+            <p class="lead">We answer questions and provide training on open and reproducible tools, methodologies, statistics, and workflows to help researchers improve the reproducibility and rigor of their work.</p>
             <!-- BEGIN TABS -->
             <div class="margin-top-20">
             <div class="col-md-3 col-sm-3 community-tab-list">
@@ -48,9 +48,9 @@
                     <div class="col-md-8">
                         <h4><b>We offer free:</b></h4>
                             <ul>
-                                <li> <a href="https://cos.io/stats_consulting/#tab_2">Statistical and Methodological Consulting</a> </li>
-                                <li> <a href="https://cos.io/stats_consulting/#tab_3">Webinars and Online Tutorials</a> </li>
-                                <li> <a href="https://cos.io/stats_consulting/#tab_4">Workshops on Reproducible Research Practices</a> </li>
+                                <li> Statistical and Methodological Consulting</li>
+                                <li> Webinars and Online Tutorials</li>
+                                <li> Workshops on Reproducible Research Practices</li>
                                 ##<li>Teaching Resources</li>
                             </ul>
                     </div>
