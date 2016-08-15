@@ -81,6 +81,7 @@
 <table>
 <tr>
     
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -259,6 +260,75 @@
             <tr>
                 <td class="ambassador-instit">
                     National Center for Ecological Analysis and Synthesis
+                </td>
+            </tr>
+        </table>
+    </td>
+
+     <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/kqt5v/" target="_blank">
+                        <img src="../static/img/people/ambassadors/franklund.jpg" alt="Clifton Franklund">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Clifton Franklund
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Ferris State University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/kqt5v/" target="_blank">
+                        <img src="../static/img/people/ambassadors/leisegang_cody.jpeg" alt="Cody Leisegang">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Cody Leisegang
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of Cape Town
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/kqt5v/" target="_blank">
+                        <img src="../static/img/people/ambassadors/baciu.JPG" alt="Cristina Baciu">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Cristina Baciu
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Arizona State University 
                 </td>
             </tr>
         </table>
@@ -544,6 +614,30 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/3hsfj/" target="_blank">
+                        <img src="../static/img/people/ambassadors/kuchma.jpg" alt="Iryna Kuchma">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Iryna Kuchma
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    EIFL
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                 <a href="https://osf.io/zm6tg/" target="_blank">
                     <img src="../static/img/people/ambassadors/mario.png" alt="J. Mario Siqueiros-García">
                 </a>
@@ -562,8 +656,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -608,7 +700,8 @@
              </tr>     
          </table>      
      </td>      
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -631,8 +724,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -675,7 +766,8 @@
             </tr>
         </table>
     </td>
-
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -698,8 +790,6 @@
         </table>
     </td>
 
-</tr>
-<tr> 
 
     <td class="ambassador-data">        
          <table class="ambassador-box">        
@@ -746,6 +836,9 @@
         </table>      
      </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -768,9 +861,6 @@
         </table>
     </td>
 
-
-</tr>
-<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -811,6 +901,53 @@
             <tr>
                 <td class="ambassador-instit-padding">
                     Kenyon College
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
+
+     <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/95e86/" target="_blank">
+                        <img src="../static/img/people/ambassadors/omala_kizito.jpg" alt="Kizito Omala">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Kizito Omala
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    National Examinations Board, Uganda
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/95e86/" target="_blank">
+                        <img src="../static/img/people/ambassadors/harp.png" alt="Kyle Harp">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Kyle Harp
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of California, Riverside
                 </td>
             </tr>
         </table>
@@ -896,7 +1033,7 @@
             </tr>
             <tr>
                 <td class="ambassador-name">
-                    Nassar Saleh
+                    Nasser Saleh
                 </td>
             </tr>
             <tr>
@@ -958,6 +1095,31 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/rg9e3/" target="_blank">
+                        <img src="../static/img/people/ambassadors/dhlamini.jpg" alt="Nodumo Dhlamini">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Nodumo Dhlamini
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Association of African Universities
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr> 
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/c8p6s/" target="_blank">
                         <img src="../static/img/people/ambassadors/norm.jpg" alt="Norm Medeiros">
                     </a>
@@ -976,8 +1138,74 @@
         </table>
     </td>
 
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/c8p6s/" target="_blank">
+                        <img src="../static/img/people/ambassadors/olubusoye.jpg" alt="Olusanya Elisa Olubusoye">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Olusanya Elisa Olubusoye
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Ibadan, Nigeria 
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/c8p6s/" target="_blank">
+                        <img src="../static/img/people/ambassadors/cohen_phil_n.jpg" alt="Philip N. Cohen">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Philip N. Cohen
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Maryland 
+                </td>
+            </tr>
+        </table>
+    </td>
+
 </tr>
 <tr> 
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/jdstq/" target="_blank">
+                        <img src="../static/img/people/ambassadors/batista.jpg" alt="Rafael Batista">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Rafael Batista
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Busara Center for Behavioral Economics
+                </td>
+            </tr>
+        </table>
+    </td>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1023,6 +1251,31 @@
         </table>
     </td>
 
+</tr>
+<tr> 
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/gs9mg/" target="_blank">
+                        <img src="../static/img/people/ambassadors/lenne_richie.jpg" alt="Richie Lenne">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Richie Lenne
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Minnesota 
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1045,8 +1298,6 @@
         </table>
     </td>
 
-</tr>
-<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1069,6 +1320,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1114,8 +1368,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1138,6 +1390,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1183,8 +1438,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
