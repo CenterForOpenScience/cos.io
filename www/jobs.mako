@@ -197,7 +197,8 @@
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
                     <dd>
-                        <p> Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research. The Center for Open Science (COS) is seeking a driven, outgoing, and self-starting individual who is looking to build their experience in financial administration while working for a fun, energetic, non-profit, tech start-up. Opened in March of 2013, COS is growing and is highly active in science and tech communities. The Bookkeeper candidate will support the Operations team to help ensure the efficiency and integrity of financial records and related tasks. This is a 20 hour per week, part-time position.</p>
+                        <p> Join a mission-driven, non-profit tech company that is promoting openness, integrity, and reproducibility of scientific research. The Center for Open Science (COS) is seeking a driven, outgoing, and self-starting individual who is looking to build their experience in financial administration while working for a fun, energetic, non-profit, tech start-up. Founded in 2013, COS is growing and is highly active in science and tech communities. The Bookkeeper candidate will support the Operations team to help ensure the efficiency and integrity of financial records and related tasks.</p>
+                        <p>This is a 20 hour per week, part-time position, with health, dental, and 401(k) benefits. This position will pay hourly at $15/hr.</p>
                     </dd>
                     <dt>Location</dt>
                     <dd>
@@ -601,6 +602,66 @@
 ##         </div>
 ##     </div>
 ##</div>
+<div id="Housekeeper" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Housekeeper_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#Housekeeper" >
+                    Housekeeper/Courier
+                </a>
+            </h4>
+        </div>
+        <div id="Housekeeper" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science is looking for a Housekeeper/Courier to be responsible for cleaning and maintenance duties as well as providing weekly courier service on a part-time basis. The position would entail office, kitchen, bathroom cleaning, and trash removal. In addition, the position will also collect orders from various vendors including but not limited to: wholesale and local grocery stores. This position will also be responsible for organizing and stocking goods received. The ideal candidate must be flexible and able to work with the team as there may be some overlapping shift requirements.</p>
+                        <p>This is a 20 hour per week, part-time position, with health, dental, and 401(k) benefits. This position will pay hourly at $11/hr.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Responsibilities:</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Clean and supply designated facility areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, restroom cleaning etc).</li>
+                            <li>Trash removal (to off-site location).</li>
+                            <li>Carry out heavy cleansing tasks and special projects.</li>
+                            <li>Notify management of occurring deficiencies or needs for repairs.</li>
+                            <li>Make adjustments and minor repairs such as changing light bulbs.</li>
+                            <li>Stock and maintain supply rooms and kitchens.</li>
+                            <li>Work well with other team members.</li>
+                            <li>Follow all health and safety regulations.</li>
+                            <li>Use of personal vehicle for weekly courier activities.</li>
+                        </ul>
+                    </dd>
+                    <dt>Requirements:</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Experience in cleaning a office space, store-room, or residential housing is essential.</li>
+                            <li>Exceptional organizational skills and attention to detail; service orientation; ability to multi-task; self-starter and driven; very strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; basic math skills; team-oriented; effective writing skills; evident interest in administrative tasks.</li>
+                            <li>Must be able to pass a background check.</li>
+                            <li>Must possess a valid driver’s license.</li>
+                        </ul>
+                        <p>Successful candidates will care deeply about contributing to the success of the team by providing outstanding services that support a clean and healthy work environment for all members of the Center for Open Science team.  Those who are energetic and organized will thrive. A passion for service culture, high-quality cleanliness, organization, and attention to detail is essential. Experience with store-room management, stocking, and inventory procedures is preferred.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                        <p>Please submit a resume detailing your experience through our <a href="https://jobs.lever.co/cos/89a29fb4-4154-4b6b-afa4-fff1b6827582">application portal</a>.</p> 
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 ##<div id="ITIntern" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
@@ -1096,6 +1157,63 @@
 ##        </div>
 ##    </div>
 ##</div>
+<div id="SeniorDevTeamLead" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorDevTeamLead_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#SeniorDevTeamLead" >
+                    Senior Developer Team Lead
+                </a>
+            </h4>
+        </div>
+        <div id="SeniorDevTeamLead" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Develop exclusively free, open source software to support open science.  The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS senior developers, with 10+ years of professional software development experience, experience leading teams, and who are passionate about modern web and API practices, love science, and possess expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to science. Everything we develop is exclusively free and open source.   Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Python</li>
+                            <li>Micro-frameworks (e.g., Django Flask, Tornado)</li>
+                            <li>Git</li>
+                            <li>Javascript</li>
+                            <li>Javascript frameworks (e.g. Knockout, Ember, React, Angular)</li>
+                            <li>No-SQL databases (e.g. MongoDB)</li>
+                            <li>Web technologies like REST, HTTP, JSON</li>
+                            <li>API development</li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <p>We are much more concerned about collaboration, passion, and ability than the actual technologies you use.  A great developer will be a great developer in any language.  We focus on Python in that Python development values readability and community.  A great team lead will be organized, have strong planning, estimation, and communication skills, and be driven by helping their team be successful. We are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/1c1cedc2-3c09-4cb9-8eaa-b9681d91809b">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                    <dt>Referrals</dt>
+                    <dd>
+                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
+                        <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
+                        <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
+                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="UXDesigner" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner_heading">
