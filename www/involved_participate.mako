@@ -740,7 +740,7 @@
             </tr>
             <tr>
                 <td class="ambassador-instit-padding">
-                    University of Colorado, Bouder
+                    University of Colorado, Boulder
                 </td>
             </tr>
         </table>
