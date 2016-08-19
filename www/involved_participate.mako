@@ -269,7 +269,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/kqt5v/" target="_blank">
+                    <a href="https://osf.io/wbngx/" target="_blank">
                         <img src="../static/img/people/ambassadors/franklund.jpg" alt="Clifton Franklund">
                     </a>
                 </td>
@@ -294,7 +294,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/kqt5v/" target="_blank">
+                    <a href="https://osf.io/w4nmd/" target="_blank">
                         <img src="../static/img/people/ambassadors/leisegang_cody.jpeg" alt="Cody Leisegang">
                     </a>
                 </td>
@@ -316,7 +316,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/kqt5v/" target="_blank">
+                    <a href="https://osf.io/2xtev/" target="_blank">
                         <img src="../static/img/people/ambassadors/baciu.JPG" alt="Cristina Baciu">
                     </a>
                 </td>
@@ -614,7 +614,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/3hsfj/" target="_blank">
+                    <a href="https://osf.io/h8avm/" target="_blank">
                         <img src="../static/img/people/ambassadors/kuchma.jpg" alt="Iryna Kuchma">
                     </a>
                 </td>
@@ -638,7 +638,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                <a href="https://osf.io/zm6tg/" target="_blank">
+                <a href="https://osf.io/gr7a2/" target="_blank">
                     <img src="../static/img/people/ambassadors/mario.png" alt="J. Mario Siqueiros-García">
                 </a>
                 </td>
@@ -729,6 +729,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                <a href="https://osf.io/cqn6s/" target="_blank">
                     <img src="../static/img/people/ambassadors/Lurquin.JPG" alt="John Lurquin">
                 </td>
             </tr>
@@ -913,7 +914,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/95e86/" target="_blank">
+                    <a href="https://osf.io/xgf7u/" target="_blank">
                         <img src="../static/img/people/ambassadors/omala_kizito.jpg" alt="Kizito Omala">
                     </a>
                 </td>
@@ -935,14 +936,14 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/95e86/" target="_blank">
-                        <img src="../static/img/people/ambassadors/harp.png" alt="Kyle Harp">
+                    <a href="https://osf.io/rfhp3/" target="_blank">
+                        <img src="../static/img/people/ambassadors/harp.png" alt="Kyle Harp-Rushing">
                     </a>
                 </td>
             </tr>
             <tr>
                 <td class="ambassador-name">
-                    Kyle Harp
+                    Kyle Harp-Rushing
                 </td>
             </tr>
             <tr>
@@ -1004,7 +1005,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/" target="_blank">
+                    <a href="https://osf.io/dc3jm/" target="_blank">
                         <img src="../static/img/people/ambassadors/ellison.jpg" alt="Melissa McAdam Ellison">
                     </a>
                 </td>
@@ -1095,7 +1096,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/rg9e3/" target="_blank">
+                    <a href="https://osf.io/8ze4w/" target="_blank">
                         <img src="../static/img/people/ambassadors/dhlamini.jpg" alt="Nodumo Dhlamini">
                     </a>
                 </td>
@@ -1142,7 +1143,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/c8p6s/" target="_blank">
+                    <a href="https://osf.io/kczj4/" target="_blank">
                         <img src="../static/img/people/ambassadors/olubusoye.jpg" alt="Olusanya Elisa Olubusoye">
                     </a>
                 </td>
@@ -1164,7 +1165,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/c8p6s/" target="_blank">
+                    <a href="https://osf.io/2u4tf/" target="_blank">
                         <img src="../static/img/people/ambassadors/cohen_phil_n.jpg" alt="Philip N. Cohen">
                     </a>
                 </td>
@@ -1189,7 +1190,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/jdstq/" target="_blank">
+                    <a href="https://osf.io/kpt3j/" target="_blank">
                         <img src="../static/img/people/ambassadors/batista.jpg" alt="Rafael Batista">
                     </a>
                 </td>
@@ -1258,7 +1259,7 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
-                    <a href="https://osf.io/gs9mg/" target="_blank">
+                    <a href="https://osf.io/h5tve/" target="_blank">
                         <img src="../static/img/people/ambassadors/lenne_richie.jpg" alt="Richie Lenne">
                     </a>
                 </td>
