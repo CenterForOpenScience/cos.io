@@ -936,13 +936,13 @@
             <tr>
                 <td class="ambassador-img">
                     <a href="https://osf.io/95e86/" target="_blank">
-                        <img src="../static/img/people/ambassadors/harp.png" alt="Kyle Harp">
+                        <img src="../static/img/people/ambassadors/harp.png" alt="Kyle Harp-Rushing">
                     </a>
                 </td>
             </tr>
             <tr>
                 <td class="ambassador-name">
-                    Kyle Harp
+                    Kyle Harp-Rushing
                 </td>
             </tr>
             <tr>
