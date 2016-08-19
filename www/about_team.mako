@@ -231,20 +231,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/fitzgerald.jpg" alt="Cailey Fitzgerald">
-            <h3>
-                Cailey Fitzgerald
-                <small>Software Quality Engineer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/caileyfitz" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="http://www.linkedin.com/profile/view?id=119639528&trk=nav_responsive_tab_profile_pic" data-original-title="LinkedIn" class="linkedin"></a></li>
-                <li><a href="https://osf.io/rgc49/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/blandford.jpg" alt="Cameron Blandford">
             <h3>
                 Cameron Blandford
@@ -1134,6 +1120,20 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/brandonPurvis" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/dbjhp/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/fitzgerald.jpg" alt="Cailey Fitzgerald">
+            <h3>
+                Cailey Fitzgerald
+                <small>Software Quality Engineer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/caileyfitz" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="http://www.linkedin.com/profile/view?id=119639528&trk=nav_responsive_tab_profile_pic" data-original-title="LinkedIn" class="linkedin"></a></li>
+                <li><a href="https://osf.io/rgc49/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
