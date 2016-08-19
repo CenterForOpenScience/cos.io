@@ -260,18 +260,6 @@
             </ul>
         </div>
     </li>
-     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/chheath.jpg" alt="Carolyn Chheath">
-            <h3>
-                Carolyn Chheath
-                <small>Developer Volunteer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/cchheath" data-original-title="GitHub" class="github"></a> </li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/rollins.jpg" alt="Casey Rollins">
@@ -1134,6 +1122,18 @@
                 <li><a href="https://github.com/caileyfitz" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="http://www.linkedin.com/profile/view?id=119639528&trk=nav_responsive_tab_profile_pic" data-original-title="LinkedIn" class="linkedin"></a></li>
                 <li><a href="https://osf.io/rgc49/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/chheath.jpg" alt="Carolyn Chheath">
+            <h3>
+                Carolyn Chheath
+                <small>Developer Volunteer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/cchheath" data-original-title="GitHub" class="github"></a> </li>
             </ul>
         </div>
     </li>
