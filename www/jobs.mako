@@ -27,7 +27,7 @@
 
 <!--BEGIN OPPORTUNITIES -->
 <h1><strong>Open Positions</strong></h1>
-<p class="lead">COS is looking for open science enthusiasts to join our team. Openness means inclusivity: the Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+<p class="lead">At the Center for Open Science, we believe that transparent and reproducible research is better research, leading to better outcomes. Our mission is to make that a reality throughout the world of scholarly investigation. We also believe in a fantastic work environment, awesome work-life balance, killer technology, and empowering our people to grow as professionals and people. Sound like you? Join us!</p>
 
 ## <div id="AdminstrativeAssistantIntern" class="panel-group">
 ##     <div class="panel panel-info">
@@ -1399,7 +1399,7 @@
 
 <div id = "location"></div>
 <h3><strong>Where we live</strong></h3>
-<p>From hikes and rides atop the peaks of the Blue Ridge Mountains, to navigating the taps of the BrewRidge Trail, Charlottesville boasts both urban culture and rural adventure. The pedestrian mall downtown offers local shopping, a range of restaurants from French fine dining to sushi rolls to take-away crepes, weekend farmer’s markets, and a music scene to suit tastes for both jazz piano and garage rock.</p>
+<p>We’re located in beautiful Charlottesville, VA, home to the University of Virginia, Thomas Jefferson, and a lot of really great after-work activities. Epic wineries, breweries and farm-to-table restaurants sit side by side with a fantastic music scene and unlimited camping, hiking, biking and college sports. </p>
 <p>Steeped with history, Charlottesville and the surrounding area offers many landmarks of its own. To branch out beyond the local without leaving the city, however, there are museums like the Kluge-Ruhe Aboriginal Art Museum and the Special Collections Library at UVA. And, if you want to get out of town, DC is just two hours away and the state capital, Richmond, is a mere one-hour drive.</p>
 <p>See why the <a href="http://travel.nytimes.com/2008/10/26/travel/26hours.html?pagewanted=all">New York Times loves Charlottesville!</a> Read this <a href="http://www.theguardian.com/world/2014/jul/27/happiness-place-called-charlottesville-virginia">article in The Guardian</a> about Charlottesville's great community. Or, check out the <a href="http://www.c-ville.com/events/">local events calendar.</a></p>
 </div>
