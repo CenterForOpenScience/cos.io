@@ -1328,10 +1328,10 @@
 <p>Check out our <a href="https://github.com/CenterForOpenScience/Employee-Manual">Employee Manual</a> and <a href="https://github.com/CenterForOpenScience/Policies-and-Procedures">Policies and Procedures</a> for more information.</p>
 
 <div id="benefits">
-<h3><br><strong>What we do</strong></h3><br><br>
+<h3><br><strong>What We Do</strong></h3><br><br>
 <div style="text-align:center"><iframe width="750" height="500" src="https://www.youtube.com/embed/LJDOr5LIB38" frameborder="0" allowfullscreen></iframe></div>
 
-<table><tr><td width="14%"></td><td width="72%"><p><strong>We work on the cutting edge of open source software. We are mission driven </strong>-- increasing openness and reproducibility in scientific research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure. Read an <a href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html" target="_blank">article in the Washington Post</a> about us!</p></td><td width="14%"></td></tr></table> 
+<table><tr><td width="14%"></td><td width="72%"><p><strong>We believe that tranparent and reproducible research is better research.</strong> We work on the cutting edge of open source software--increasing openness and reproducibility in scientific research by building tools, forming community projects, and conducting open, crowdsourced research. We are facilitating positive changes to the scientific culture and reward structure. Read an <a href="http://www.washingtonpost.com/national/health-science/the-new-scientific-revolution-reproducibility-at-last/2015/01/27/ed5f2076-9546-11e4-927a-4fa2638cd1b0_story.html" target="_blank">article in the Washington Post</a> about us!</p></td><td width="14%"></td></tr></table> 
 <br>
 
 <div class="row">
@@ -1341,28 +1341,28 @@
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/collaborate.png);"></div></a>
                 <div>
                     <center><h3>Collaborate.</h3></center>
-                    <p>The Center places a high value on developing skills and partnerships. <strong>Teamwork</strong>, pair programming, collaboration internally and externally are <strong>daily practice</strong>.</p>
+                    <p>The Center places a high value on developing communication skills and forming partnerships. <strong>Teamwork</strong>, pair programming, collaboration internally and externally are <strong>daily practice</strong>.</p>
                 </div>
             </li>
             <li class="col-md-3 space-mobile">
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Food.png);"></div></a>
                 <div>
-                    <center><h3>Eat well.</h3></center>
-                    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen. Enjoy catered lunches from local restaurants twice a week.</p>
+                    <center><h3>Eat Well.</h3></center>
+                    <p><strong>Keep your energy up</strong> with your favorite drinks and snacks from the fully stocked kitchen. Enjoy catered lunches from local restaurants twice a week. It's fantastic.</p>
                 </div>
             </li>
             <li class="col-md-3 space-mobile">
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/GetFit.png);"></div></a>
                 <div>
-                    <center><h3>Get fit.</h3></center>
-                    <p>All full-time employees receive health, dental, and vision insurance. We promote our own<strong> health and well-being</strong> with stand-up and exercise desks, access to an on-site gym, and the great biking and hiking access in the community.</p>
+                    <center><h3>Get Fit.</h3></center>
+                    <p>All full-time employees receive health, dental, and vision insurance. <strong>We promote our own health and well-being</strong> with stand-up and exercise desks, access to an on-site gym, and great biking and hiking access throughout the community.</p>
                 </div>
             </li>
             <li class="col-md-3 space-mobile">
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Comfortable.png);"></div></a>
                 <div>
-                    <center><h3>Keep comfortable.</h3></center>
-                    <p>We take our work seriously, and work best in a casual environment - casual dress,<strong> bean bag chairs</strong>, high-quality workspaces, and an open, non-hierarchical floor plan.</p>
+                    <center><h3>Keep Comfortable.</h3></center>
+                    <p>We take our work seriously, and work best in a casual environment--casual dress,<strong> spaces that encourage creativity</strong>, high-quality workspaces, and an open, accessible floor plan.</p>
                 </div>
             </li>
         </ul>
@@ -1375,20 +1375,20 @@
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Computer.png);"></div></a>
                 <div>
                     <center><h3>Get a Mac.</h3></center>
-                    <p>All full-time employees receive an <strong>Apple laptop</strong> of their choice and a workstation with 27" screen.</p>
+                    <p>All full-time employees receive an <strong>Apple laptop of their choice</strong> and a workstation with 27" screen. It's awesome.</p>
                 </div>
             </li>
             <li class="col-md-3 space-mobile">
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/Plan.png);"></div></a>
                 <div>
-                    <center><h3>Plan for the future.</h3></center>
-                    <p>We’ll help you set up your 401k, and <strong>COS contributes up to 4% matches.</strong></p>
+                    <center><h3>Plan for the Future.</h3></center>
+                    <p>We’ll help you set up your 401k, and <strong>COS matches contributions up to 4%.</strong></p>
                 </div>
             </li>
             <li class="col-md-3 space-mobile">
                 <a><div class="photoSwitch" style="background-image: url(../static/img/photos/Hover_Photos/View.jpg);"></div></a>
                 <div class="whatWeDo-perks">
-                    <center><h3>Enjoy the view.</h3></center></div>
+                    <center><h3>Enjoy the View.</h3></center></div>
                     <p>The modern and stylish COS offices are located in the <strong>heart of Charlottesville</strong> on the downtown pedestrian mall. Central Virginia and the Shenandoah mountains are right outside!</p>
                 </div>
             </li>
