@@ -22,7 +22,7 @@
 <!-- BEGIN CONTENT -->
 <div class="row community-content">
 <div>
-<h1><strong>Participate in Open Science</strong></h1>
+<h1><strong>Help Us Grow the Open Science Community</strong></h1>
 <p class="lead">If you are interested in promoting COS or open science within your research community, we'd love to work with you. COS has a vvaiety of tools for scientists, research institutions, journals, societies, and developers to spread the word.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
@@ -40,7 +40,7 @@
 <!-- START TAB 1 -->
 <div class="tab-pane active" id="tab_1">
 <div class="container">
-    <h2><strong>Promote Open Science in Your Community, Become a COS Ambassador.</strong></h2>
+    <h2><strong>Promote Open Science in Your Community. Become a COS Ambassador.</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
         materials to help you advocate for our open science. United, we can increase openness,
         integrity, and reproducibility across scientific domains. <a href="https://osf.io/bs23x/">Learn more</a> or <a href="https://cos.io/contact/"> contact us </a> to become an ambassador.</p>
