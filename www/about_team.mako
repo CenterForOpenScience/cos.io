@@ -712,6 +712,19 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/negm.jpg" alt="Maggie Negm">
+            <h3>
+                Maggie Negm
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/mhn94" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/p3ajd/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/clark.jpg" alt="Matt Clark">
             <h3>
                 Matt Clark
