@@ -22,8 +22,8 @@
 <!-- BEGIN CONTENT -->
 <div class="row community-content">
 <div>
-<h1><strong>Participate in Open Science</strong></h1>
-<p class="lead">COS collaborates with and produces tools for scientists, research institutions, journals, societies, and developers. Below, explore ways to use our free services or collaborate on promoting open science.</p>
+<h1><strong>Help Us Grow the Open Science Community</strong></h1>
+<p class="lead">If you are interested in promoting COS or open science within your research community, we'd love to work with you. COS has a vvaiety of tools for scientists, research institutions, journals, societies, and developers to spread the word.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 <div class="col-md-3 col-sm-3 community-tab-list">
@@ -40,9 +40,9 @@
 <!-- START TAB 1 -->
 <div class="tab-pane active" id="tab_1">
 <div class="container">
-    <h2><strong>Promote Open Science in Your Community</strong></h2>
+    <h2><strong>Promote Open Science in Your Community. Become a COS Ambassador.</strong></h2>
     <p>Researchers in any field can become COS Ambassadors. Sign up to receive information and
-        materials to help you advocate for open science. United, we can increase openness,
+        materials to help you advocate for our open science. United, we can increase openness,
         integrity, and reproducibility across scientific domains. <a href="https://osf.io/bs23x/">Learn more</a> or <a href="https://cos.io/contact/"> contact us </a> to become an ambassador.</p>
 
     <div class="col-md-8">
@@ -50,9 +50,9 @@
         <ul>
             <li>Act as local information resource about COS, the OSF, transparency, and reproducible practices</li>
             <li>Represent COS at conferences and meetings</li>
-            <li>Grow the open science community</li>
-            <li>Blog experiences and join in the online conversation</li>
-            <li>Provide training on OSF and reproducible practices</li>
+            <li>Grow the open science community through collaboration and information sharing</li>
+            <li>Blog experiences and join in the online conversation about open science</li>
+            <li>Help provide training on the OSF and reproducible practices</li>
             <li>Model COS swag!</li>
         </ul>
     </div>
