@@ -37,6 +37,22 @@
                 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2016-08-31"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+                    <h2 class="text-left">Center for Open Science Announces Technology Collaboration with Overleaf</h2>
+                    <p class="text-left">August 31, 2016 | The Center for Open Science, a non-profit science and technology company, today announced a new collaboration with Overleaf, a leading online Rich Text and LaTeX collaborative writing and publishing tool.  </p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2016-08-30"><img src="../static/img/icons/erpc2016.png"
+                    width="125">
+                    <h2 class="text-left">New research contest announced to study the 2016 election</h2>
+                    <p class="text-left">August 30, 2016 | How can scholars study politics most effectively? The Election Research Preacceptance Competition is an innovative initiative that will test a new approach to conducting and publishing political science research during the 2016 election.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "http://www.vox.com/2016/7/14/12016710/science-challeges-research-funding-peer-review-process"><img src="../static/img/icons/vox.png"
                     width="125">
                     <h2 class="text-left">The 7 biggest problems facing science, according to 270 scientists</h2>
