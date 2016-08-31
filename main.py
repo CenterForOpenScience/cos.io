@@ -1,5 +1,6 @@
 import wysiweb
 import shutil
+import os
 
 try:
     shutil.rmtree('./frozen')
