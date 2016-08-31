@@ -35,7 +35,7 @@
                     <li><a id="tab-2" href="#sign" data-toggle="tab">Become a Signatory</a></li>
                     <li><a id="tab-3" href="#implement" data-toggle="tab">Implementing the Guidelines</a></li>
                     ##<li><a id="tab-4" href="#FAQ" data-toggle="tab">FAQ</a></li>
-                    <li><a id="tab-5" href="#list" data-toggle="tab">List of Signatories</a></li>
+                    <li><a id="tab-5" href="#list" data-toggle="tab">747 Signatories</a></li>
                     ##<li><a id="tab-6" href="#scores" data-toggle="tab">Journal Scores</a></li>
 
                 </ul>
@@ -54,20 +54,21 @@
                                       Transparency, open sharing, and reproducibility are core values of science, but not always part of daily practice. Journals, funders, and scholarly societies can increase the transparency and reproducibility of research by adopting the TOP Guidelines.
                                       <br><br>
                                       Published in <a target="_blank" href="http://science.sciencemag.org/content/348/6242/1422.full">Science in 2015</a>, TOP includes eight modular standards, each with three levels of increasing stringency. Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for each standard. These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
-
-                                      <p>Read the complete TOP Guidelines <a target="_blank" href="https://osf.io/ud578/">PDF</a> or <a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/">wiki</a>
                                       <hr>
-                                      <h3>Implementing TOP</h3>
-                                      <p><a data-tab-destination="tab-3">Follow these steps</a> to implementing the TOP Guidelines, or read how Science and Ecology Letters will be implementing the TOP Guidelines.</p>
-                                      <ul>
-                                        <li>Science: <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a></li>
-                                        <li>Ecology Letters: <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters, and Transparency and Openness Promotion (TOP) guidelines</a></li>
-                                      </ul>
+                                      <h3>Resources</h3>
+                                      <p>
+                                        <ul>
+                                          <li>One page <a target="_blank" href="https://osf.io/pvf56/">handout</a></li>
+                                          <li><a target="_blank" href="https://osf.io/xd6gr/">Introductory article</a></li>
+                                          <li>Read the complete TOP Guidelines: <a target="_blank" href="https://osf.io/ud578/">PDF</a> or <a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/">HTML</a></li>
+                                          <li>Read how Science will be <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a> and how <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters</a> will implement the TOP Guidelines.</li>
+                                          <li><a data-tab-destination="tab-3">Follow these steps</a> to implement TOP at your journal or agency.</li>
+                                    </ul>
                                       <hr>
 
 
                                         <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
-                                      716 Journals and 62 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
+                                      747 Journals and 62 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
 
                                 </td>
                             </tr>
@@ -169,7 +170,7 @@
                             <td>
                               <h3>Implementing the TOP Guidelines</h3>
                                 <ul>
-                                    <li>Compare your current author or grantee guidelines to the three levels of each of the eight standards in the TOP Guidelines. Email top@cos.io for support or feedback on this evaluation.</li>
+                                    <li>Compare your current author or grantee guidelines to the three levels of each of the eight standards in the TOP Guidelines. Email <a href="mailto:top@cos.io">top@cos.io</a> for support or feedback on this evaluation.</li>
                                     <li>Review the language on these sample implementations for <a target="_blank" href="https://osf.io/edtxm/">journals</a> or <a target="_blank" href="https://osf.io/dbtzw/">funding agencies</a>.
                                     <li>Discuss the changes that would be required to implement Level I, II, or III for each standard.</li>
                                     <li>Update your journal policies and practices and plan a strategy to implement. Consider using a piloting period, special issue, special RFP, or apply the standards to all incoming articles.</li>
@@ -177,7 +178,13 @@
                                   </ul>
                                   <hr>
                                 <h3>TOP Implementors</h3>
-                                See how <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Science</a>, <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters</a>, and <a target="_blank" href="http://econtent.hogrefe.com/doi/10.1027/1618-3169/a000317">Experimental Psychology</a> are implementing TOP.
+                                <p>The following journals have made concrete steps toward implementing one or more of the standards listed in the TOP Guidelines. If you would like to be listed on this page, please contact <a href="mailto:david@cos.io">David Mellor</a> or email <a href="mailto:top@cos.io">top@cos.io</a>.</p>
+                                <ul>
+                                  <li><a target="_blank"href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Science</a></li>
+                                  <li><a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters</a></li>
+                                  <li><a target="_blank" href="http://econtent.hogrefe.com/doi/10.1027/1618-3169/a000317">Experimental Psychology</a></li>
+                                  <li><a target="_blank" href="https://ojs.ub.uni-konstanz.de/srm/article/view/6256/5679">Survey Research Methods</a></li>
+                                </ul>
                                 <hr>
                                 <h3> Resources </h3>
                                 <ul>
@@ -291,7 +298,7 @@
                                                 <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                                             </ol>
                                                     <br>
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (716)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (747)</b></a></li>
                         <li><a data-toggle="tab" href="#Organizations"><b>Organizations (62)</b></a></li>
                     </ul>
 
