@@ -21,9 +21,7 @@ app = w.app # Needed if you want to serve with, say, nginx
 
 
 if __name__ == "__main__":
-    # app.run(port=4000, debug=True) # Ready to serve Flask app from the templates in www
-
-    # or
-
-    static_app = w.freeze('./frozen')
-    #static_app.run(port=5000, debug=False) # Ready to serve Flask app that mimics a static server
+    if os.getenv('ENV', "development") == "production":
+        static_app = w.freeze('./frozen')
+    else:
+        app.run(port=4000, debug=True) # Ready to serve Flask app from the templates in www
