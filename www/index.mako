@@ -85,11 +85,11 @@
     <div class="service-box margin-bottom-40">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                    <div class="service-box-heading">
-                        <i class="fa fa-sitemap blue"></i><br>
-                        <span>Research Institutions</span>
-                    </div>
-                    <p>COS works with institutions to enhance transparency, foster collaboration, and increase the visibility of research at the institutional level. <a href="/involved_participate/#tab_2">Learn how to get your institution connected.</a></p>
+                <div class="service-box-heading">
+                    <i class="fa fa-sitemap blue"></i><br>
+                    <span>Research Institutions</span>
+                </div>
+                <p>COS works with institutions to enhance transparency, foster collaboration, and increase the visibility of research at the institutional level. <a href="/involved_participate/#tab_2">Learn how to get your institution connected.</a></p>
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="service-box-heading">
@@ -106,7 +106,6 @@
                     <span>Publishers &amp; Societies</span>
                 </div>
                 <p>COS maintains free, easy-to-adopt tools and services for journals, societies, and funders to incentivize openness and preregistration. <a href="/involved_participate/#tab_3">Read more about how COS can assist you.</a></p>
-
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="service-box-heading">
