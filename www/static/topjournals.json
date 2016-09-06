@@ -3782,7 +3782,7 @@
  {
    "Journal Title": "Ecology and Evolution",
    "Publisher": "Wiley",
-   "Association": "British Ecological Society",
+   "Association": "British Ecological Society, European Society for Evolutionary Biology, and the Society for the Study of Evolution",
    "Subject Area": "Agricultural and Biological Sciences | Environmental Science | Ecology | Evolution | Behavior | Systematics | Nature and Landscape Conservation",
    "FIELD5": ""
  },
@@ -5194,6 +5194,13 @@
   "FIELD5": ""
 },
 {
+  "Journal Title": "Nature Structural and Molecular Biology",
+  "Publisher": "Nature Publishing Group",
+  "Association": "",
+  "Subject Area": "Biochemistry | Genetics | Molecular Biology",
+  "FIELD5": ""
+},
+{
   "Journal Title": "Scientific Reports",
   "Publisher": "Nature Publishing Group",
   "Association": "",
@@ -5219,6 +5226,13 @@
   "Publisher": "",
   "Association": "Botanical Society of America Inc.",
   "Subject Area": "Ecology | Evolution | Behavior | Systematics | Plant Science",
+  "FIELD5": ""
+},
+{
+  "Journal Title": "Biotropica",
+  "Publisher": "Wiley",
+  "Association": "Association for Tropical Biology and Conservation",
+  "Subject Area": "Ecology | Evolution | Behavior | Systematics",
   "FIELD5": ""
 },
 {
