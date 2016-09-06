@@ -1,0 +1,36 @@
+{% load i18n mezzanine_tags comment_tags rating_tags %}
+
+{% for comment in comments_for_thread %}
+    <div class="row">
+        <div class="col-md-7 comments">
+            <div id="comment-{{ comment.id }}"
+             class="comment media{% if comment.by_author %} comment-author{% endif %}">
+             {% if not comment.is_removed and comment.is_public or request.user.is_staff %}
+                 {% if comment.url %}
+                        <div class="media-body">
+                        <h4 class="media-heading"><a href="{{ comment.url }}">{{ comment.user_name }}</a>
+                 {% else %}
+                     <div class="media-body">
+                     <h4 class="media-heading">{{ comment.user_name }}
+                 {% endif %}
+                 <small class="timespan">
+                     {% blocktrans with sometime=comment.submit_date|timesince %}{{ sometime }} ago{% endblocktrans %}
+                 </small>
+                 </h4>
+                 <p>{{ comment.comment|comment_filter }}</p>
+             {% endif %}
+                {% comment_thread comment %}
+                {% if not comment.is_removed and comment.is_public or request.user.is_staff %}</div>{% endif %}
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+{% if no_comments %}
+<div class="row">
+    <div class="col-md-12">
+     <p>{% trans "There are currently no comments" %}</p>
+    </div>
+</div>
+{% endif %}
+
