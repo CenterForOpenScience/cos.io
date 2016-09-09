@@ -23,7 +23,7 @@
 <div class="row community-content">
 <div>
 <h1><strong>Help Us Grow the Open Science Community</strong></h1>
-<p class="lead">If you are interested in promoting COS or open science within your research community, we'd love to work with you. COS has a vvaiety of tools for scientists, research institutions, journals, societies, and developers to spread the word.</p>
+<p class="lead">If you are interested in promoting COS or open science within your research community, we'd love to work with you. COS has a variety of tools for scientists, research institutions, journals, societies, and developers to spread the word.</p>
 <!-- BEGIN TABS -->
 <div class="margin-top-20">
 <div class="col-md-3 col-sm-3 community-tab-list">

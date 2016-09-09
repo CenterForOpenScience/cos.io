@@ -1214,6 +1214,98 @@
         </div>
     </div>
 </div>
+<div id="TrainingCoordinator" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#TrainingCoordinator_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#TrainingCoordinator" >
+                    Transparency and Openness Training Coordinator
+                </a>
+            </h4>
+        </div>
+        <div id="TrainingCoordinator" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science (COS) develops free, open source tools to support the scientific workflow (i.e., <a href="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  We will hire a passionate trainer with experience in open and transparent research practices to train, support, and foster open, reproducible research practices across the sciences. The coordinator will help support the Center’s efforts towards increasing OSF adoption by individual researchers and universities, as well as help current users take advantage of the full suite of OSF features for openness and reproducibility. All training and created materials are free and openly licensed.The training coordinator must have strong social and organizational skills, as well as the ability to communicate with researchers from a broad range of scientific domains.  This position is appropriate for recent or past Master’s students with past experience in curriculum development and training.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <p>The training coordinator will provide active, hands-on consultation for open, transparent, and reproducible best practices in tools and research workflows. This includes short-term visits to universities, departments, and laboratories; lectures and training at conferences; virtual consulting and webinars; and development and maintenance of education materials and practical guides for distribution. Trainings will include open science, reproducibility practices, and open source research tools. The training coordinator will assist in forming and maintaining COS’s best practices for reproducible research, coordinate and grow our onsite and virtual training offerings, and collaborate with the whole COS team in making its infrastructure and products accessible, useful, and applicable to scientists across research disciplines.</p> 
+                        <p>This position will involve approximately 25-50% travel time, or an average of two trips per month.</p>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Passion for reproducible research and open tools; Experience in scientific research practices; Experience training on software tool and/or workflow methodologies; Extremely high social and communication skills; Exceptional organization and attention to detail; Service-oriented mindset; Diverse experience with technologies for data collection and analysis; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing skills.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/e64431c4-676d-45f5-a077-5313db19efe8">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="UserSupport" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UserSupport_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#UserSupport" >
+                    User Support/Documentation Specialist
+                </a>
+            </h4>
+        </div>
+        <div id="UserSupport" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices. We seek a User Support Specialist with extremely strong social and organizational skills to provide technical support to our community of users, as well as facilitate open science practices more broadly within the scientific research community. Our users are researchers, funders, librarians, and data scientists. You’ll be tasked with helping them solve research challenges by enabling successful use of our growing suite of free open-source tools.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <p>The User Support Specialist will be tasked with providing front-line support to the growing Open Science Framework (OSF) user community. This individual will:
+                            <ul class="indent">
+                                <li>Monitor and respond to support requests.</li>
+                                <li>Walk users through the problem solving process and direct them to user-facing resources.</li>
+                                <li>Coordinate with other community team members to provide additional training or product implementation assistance, as well as identify potential COS ambassadors or other champions.</li>
+                                <li>Coordinate with infrastructure and quality assurance teams to ensure prompt resolution to issues and communication of feature requests.</li>
+                                <li>Contribute to the knowledge base by creating and updating user documentation for product releases.</li>
+                                <li>Recommend process improvements to increase efficiency and scalability of user support services.</li>
+                            </ul>
+                        </p> 
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <p>Experience in a customer-facing role working via email and web meetings. Extremely high social and communication skills; Exceptional organization and attention to detail; Experience using  CRM tools, help desk platforms, web communication and documentation software; Experience with technical writing; Experience within research or scientific environment helpful; Strong writing skills; Team-oriented; Very strong work ethic and a passion for customer engagement; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/8121193f-6fff-4682-92e0-581089da291f">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="UXDesigner" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner_heading">
