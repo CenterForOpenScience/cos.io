@@ -6,8 +6,12 @@
 - `python manage.py makemigrations`
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
+- `python manage.py runserver 127.0.0.1:4200`
+- The application should now be running at `http://localhost:5000/` 
+
+## To run on Heroku
 - Install Heroku CLI
 - Configure the remote to use the heroku remote in addition to the gihub remote, if desired.
 - `heroku local web`
-- The application should now be running at `http://localhost:5000/` 
+- The application should now be running at `http://localhost:4200/` 
 
