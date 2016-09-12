@@ -4,12 +4,12 @@
 - add `export DJANGO_SETTINGS_MODULE=website.settings.dev` to your virtual environment's `bin/activate.sh`
 - `pip install -r requirements`
 - install postgres, and set your local settings to connect to it
->   - `brew install postgres`
->   - `brew service postgres start`
->   - `createdb `whoami`
->   - the name of the database will your username
->   - you should have all priviledges granted
->   - your database's password will be the same as your user account's
+    - `brew install postgres`
+    - `brew service postgres start`
+    - `createdb `whoami`
+    - the name of the database will your username
+    - you should have all priviledges granted
+    - your database's password will be the same as your user account's
 - `python manage.py makemigrations`
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
