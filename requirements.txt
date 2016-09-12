@@ -29,4 +29,5 @@ traitlets==4.3.0
 Unidecode==0.4.19
 wagtail==1.6.2
 wcwidth==0.1.7
+whitenoise==3.2.1
 Willow==0.3.1
