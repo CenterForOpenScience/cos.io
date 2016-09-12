@@ -1,14 +1,17 @@
 ## Setup:
-- Clone this repository
-- create a virual environment using python3.4
-- add `export DJANGO_SETTINGS_MODULE=website.settings.dev` to your virtual environment's `bin/activate.sh`
+*Note that theses instructions were developed on OSX El Capitan.*
+*For other operating systems, your mileage may vary*
+
+- Clone this repository.
+- Create a virual environment using python3.4.
+- Add the line `export DJANGO_SETTINGS_MODULE=website.settings.dev` to the end of your new virtual environment's `bin/activate.sh` script.
 - `pip install -r requirements.txt`
 - install postgres, and set your local settings to connect to it
     - `brew install postgres`
     - `brew service postgres start`
     - ``createdb `whoami` ``
     - the name of the database will your username
-    - you should have all priviledges granted
+    - you should have all privileges granted
     - your database's password will be the same as your user account's
 - `python manage.py makemigrations`
 - `python manage.py migrate`
