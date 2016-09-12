@@ -6,6 +6,7 @@
 {% block body_class %} homepage {% endblock %} 
 
 {% block content %}
+        {% header %}
         <div class='content'>{% for b in page.content %}
                 {% if b.block_type == 'heading' %}
                         <h1 class='caps'>{{ b.value }}</h1>

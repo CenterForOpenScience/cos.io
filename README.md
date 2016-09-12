@@ -24,5 +24,19 @@
 - Install Heroku CLI
 - Configure the remote to use the heroku remote in addition to the github remote, if desired.
 - `heroku local web`
-- The application should now be running at `http://localhost:4200/` 
+- The application should now be running at `http://localhost:4200/`
 
+## Editing
+- Access http://localhost:4200/admin and log in using the credentials you set up when you ran `python manage.py createsuperuser`.
+- First, we'll replace the default site with our own. Click on Explorer > Welcome to your new wagtail site!.
+- In the top left of the teal bar, click the home icon. This is where root pages to the site live.
+- Lets add a child page. We'll pick `Home Page`
+- Add some content and click publish at the bottom of the window.\*
+- We also need to ad a footer. The page won't render properly without something to put there.
+- In the menu, click Snippets, and then on Footers.
+- In the top right hand corner, you'll see a button to add a new footer.
+- There must be one footer with the 'active' checkbox marked checked. If you check active on a different footer, it will deactivate all other footers.
+- At the bottom of the window, press save.
+- Your new page should be ready to view.
+
+*\*When developing new pages on a live site, one should preview the page first.* 
