@@ -137,8 +137,6 @@ STATIC_URL = 'https://cdn.rawgit.com/HalcyonChimera/cos.io/master/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
 # Wagtail settings
 
 WAGTAIL_SITE_NAME = "cos"
