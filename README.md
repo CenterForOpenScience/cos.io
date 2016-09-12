@@ -39,4 +39,4 @@
 - At the bottom of the window, press save.
 - Your new page should be ready to view.
 
-*\*When developing new pages on a live site, one should preview the page first.* 
+*&ast;When developing new pages on a live site, one should preview the page first.* 
