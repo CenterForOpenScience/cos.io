@@ -3,7 +3,10 @@ from __future__ import absolute_import, unicode_literals
 import dj_database_url
 from .base import *
 
-#DEBUG = False
+ALLOWED_HOSTS = ['*']
+DEBUG=FALSE
+ 
+
 DATABASES['default'] = dj_database_url.config()
 
 SECRET_KEY = os.environ['SECRET_KEY']
@@ -21,6 +24,7 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 try:
     from .local import *
