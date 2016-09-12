@@ -42,7 +42,7 @@ class ThreeColumnBlock(blocks.StructBlock):
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
-        template = 'yourapp/blocks/three_column_block.html'
+        template = 'blocks/three_column_block.html'
         icon = 'placeholder'
         label = 'Three Columns'
 
@@ -64,7 +64,7 @@ class TwoColumnBlock(blocks.StructBlock):
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
-        template = 'yourapp/blocks/two_column_block.html'
+        template = 'blocks/two_column_block.html'
         icon = 'placeholder'
         label = 'Two Columns'
 

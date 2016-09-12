@@ -25,6 +25,8 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 
 INSTALLED_APPS = [
 
+    'common',
+    
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
     'wagtail.wagtailembeds',
@@ -49,7 +51,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'blocks',
-    'common',
     'search',
 ]
 
