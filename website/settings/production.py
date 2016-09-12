@@ -6,6 +6,8 @@ from .base import *
 DEBUG = False
 DATABASES['default'] = dj_database_url.config()
 
+SECRET_KEY = os.environ['SECRET_KEY']
+
 try:
     from .local import *
 except ImportError:
