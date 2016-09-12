@@ -8,6 +8,8 @@ DATABASES['default'] = dj_database_url.config()
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
+ALLOWED_HOSTS = ['cosio.herokuapp.com']
+
 try:
     from .local import *
 except ImportError:
