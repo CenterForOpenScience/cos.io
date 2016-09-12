@@ -16,6 +16,36 @@ COLOUR_CHOICES = [
     ('blue', 'Blue'),
 ]
 
+
+class ThreeColumnBlock(blocks.StructBlock):
+ 
+    background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
+    left_column = blocks.StreamBlock([
+            ('heading', blocks.CharBlock(classname="full title")),
+            ('paragraph', blocks.RichTextBlock()),
+            ('image', ImageChooserBlock()),
+            ('embedded_video', EmbedBlock()),
+        ], icon='arrow-left', label='Left column content', classname='col4')
+ 
+    center_column = blocks.StreamBlock([
+            ('heading', blocks.CharBlock(classname="full title")),
+            ('paragraph', blocks.RichTextBlock()),
+            ('image', ImageChooserBlock()),
+            ('embedded_video', EmbedBlock()),
+        ], icon='arrow-right', label='Center column content', classname='col4')
+    
+    right_column = blocks.StreamBlock([
+            ('heading', blocks.CharBlock(classname="full title")),
+            ('paragraph', blocks.RichTextBlock()),
+            ('image', ImageChooserBlock()),
+            ('embedded_video', EmbedBlock()),
+        ], icon='arrow-right', label='Right column content', classname='col4')
+ 
+    class Meta:
+        template = 'yourapp/blocks/three_column_block.html'
+        icon = 'placeholder'
+        label = 'Three Columns'
+
 class TwoColumnBlock(blocks.StructBlock):
  
     background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
@@ -24,14 +54,14 @@ class TwoColumnBlock(blocks.StructBlock):
             ('paragraph', blocks.RichTextBlock()),
             ('image', ImageChooserBlock()),
             ('embedded_video', EmbedBlock()),
-        ], icon='arrow-left', label='Left column content')
+        ], icon='arrow-left', label='Left column content', classname='col4')
  
     right_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
             ('image', ImageChooserBlock()),
             ('embedded_video', EmbedBlock()),
-        ], icon='arrow-right', label='Right column content')
+        ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
         template = 'yourapp/blocks/two_column_block.html'
