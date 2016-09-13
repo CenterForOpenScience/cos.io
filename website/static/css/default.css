@@ -68,3 +68,12 @@ body {
 .header ul li:hover {
     color: #166586;
 }
+
+.contain {
+    overflow: hidden;
+}
+
+.contain > .column {
+    float: left;
+    width: 50%;
+}
