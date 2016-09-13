@@ -5,7 +5,7 @@ import dj_database_url
 from .base import *
 
 ALLOWED_HOSTS = ['*']
-DEBUG=False
+DEBUG=True
  
 
 DATABASES['default'] = dj_database_url.config()
