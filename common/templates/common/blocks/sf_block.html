@@ -1,11 +1,11 @@
 {% load wagtailcore_tags wagtailimages_tags %}
 
-{% if blocks %}
-    {% for block in blocks %}
+{% if column %}
+    {% for block in column %}
         {% if block.block_type == 'heading' %}
             <h1>{{ block.value }}</h1>
         {% elif block.block_type == 'image' %}
-            <img src='{{ block.value.url }}' alt='{{ block.value.alt }}' />
+            <img src='{{ block.value.src }}' alt='{{ block.alt }}' />
         {% else %}
             <section class="block-{{ block.block_type }}">
                 {{ block }}

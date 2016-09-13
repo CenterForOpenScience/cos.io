@@ -39,14 +39,14 @@ class ThreeColumnBlock(blocks.StructBlock):
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock()),
+            ('image', ImageChooserBlock(template='common/blocks/image.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     center_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock()),
+            ('image', ImageChooserBlock(template='common/blocks/image.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-right', label='Center column content', classname='col4')
     
@@ -58,7 +58,7 @@ class ThreeColumnBlock(blocks.StructBlock):
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
-        template = 'blocks/three_column_block.html'
+        template = 'common/blocks/three_column_block.html'
         icon = 'placeholder'
         label = 'Three Columns'
 
@@ -68,19 +68,19 @@ class TwoColumnBlock(blocks.StructBlock):
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock()),
+            ('image', ImageChooserBlock(template='common/blocks/image.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     right_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock()),
+            ('image', ImageChooserBlock(template='common/blocks/image.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
-        template = 'blocks/two_column_block.html'
+        template = 'common/blocks/two_column_block.html'
         icon = 'placeholder'
         label = 'Two Columns'
  
