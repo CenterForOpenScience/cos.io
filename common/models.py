@@ -124,13 +124,6 @@ class Person(ClusterableModel, index.Indexed):
         StreamFieldPanel('other_info')
     ]
     
-    def save(self, *args, **kwargs):
-        for footer in Footer.objects.filter(active=True):
-            footer.active = False
-            footer.save()
-            
-        return super(Footer, self).save(*args, **kwargs)
-
     def __str__(self):
         return '{self.last_name}, {self.first_name}'.format(self=self)
 
