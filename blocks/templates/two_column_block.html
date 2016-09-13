@@ -5,7 +5,7 @@
         {% if block.block_type == 'heading' %}
             <h1>{{ block.value }}</h1>
         {% elif block.block_type == 'image' %}
-            {% image block.value width-900 class="img-responsive" %}
+            <img src='{{ block.value.url }}' alt='{{ block.value.alt }}' />
         {% else %}
             <section class="block-{{ block.block_type }}">
                 {{ block }}
