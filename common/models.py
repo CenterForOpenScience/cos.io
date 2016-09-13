@@ -41,6 +41,20 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
             ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('appeal', blocks.StructBlock([
+                    ('icon', blocks.ChoiceBlock(required=True, choices=[
+                        ('none', 'none'),
+                        ('flask', 'flask'),
+                        ('group', 'group'),
+                        ('laptop', 'laptop'),
+                        ('sitemap', 'sitemap'),
+                        ('user', 'user'),
+                        ('book', 'book'),
+                        ('download', 'download'),
+                    ])),
+                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('content', blocks.TextBlock(required=True, max_length=255)),
+            ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
@@ -48,6 +62,20 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
             ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('appeal', blocks.StructBlock([
+                    ('icon', blocks.ChoiceBlock(required=True, choices=[
+                        ('none', 'none'),
+                        ('flask', 'flask'),
+                        ('group', 'group'),
+                        ('laptop', 'laptop'),
+                        ('sitemap', 'sitemap'),
+                        ('user', 'user'),
+                        ('book', 'book'),
+                        ('download', 'download'),
+                    ])),
+                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('content', blocks.TextBlock(required=True, max_length=255)),
+            ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-right', label='Center column content', classname='col4')
     
@@ -55,6 +83,20 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
             ('image', ImageChooserBlock()),
+            ('appeal', blocks.StructBlock([
+                    ('icon', blocks.ChoiceBlock(required=True, choices=[
+                        ('none', 'none'),
+                        ('flask', 'flask'),
+                        ('group', 'group'),
+                        ('laptop', 'laptop'),
+                        ('sitemap', 'sitemap'),
+                        ('user', 'user'),
+                        ('book', 'book'),
+                        ('download', 'download'),
+                    ])),
+                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('content', blocks.TextBlock(required=True, max_length=255)),
+            ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
@@ -70,6 +112,20 @@ class TwoColumnBlock(blocks.StructBlock):
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
             ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('appeal', blocks.StructBlock([
+                    ('icon', blocks.ChoiceBlock(required=True, choices=[
+                        ('none', 'none'),
+                        ('flask', 'flask'),
+                        ('group', 'group'),
+                        ('laptop', 'laptop'),
+                        ('sitemap', 'sitemap'),
+                        ('user', 'user'),
+                        ('book', 'book'),
+                        ('download', 'download'),
+                    ])),
+                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('content', blocks.TextBlock(required=True, max_length=255)),
+            ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
@@ -77,6 +133,20 @@ class TwoColumnBlock(blocks.StructBlock):
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
             ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('appeal', blocks.StructBlock([
+                    ('icon', blocks.ChoiceBlock(required=True, choices=[
+                        ('none', 'none'),
+                        ('flask', 'flask'),
+                        ('group', 'group'),
+                        ('laptop', 'laptop'),
+                        ('sitemap', 'sitemap'),
+                        ('user', 'user'),
+                        ('book', 'book'),
+                        ('download', 'download'),
+                    ])),
+                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('content', blocks.TextBlock(required=True, max_length=255)),
+            ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
@@ -144,6 +214,7 @@ class Footer(models.Model):
         ('paragraph', blocks.RichTextBlock()),
         ('image', ImageChooserBlock()),
         ('twocolumn', TwoColumnBlock()),
+        ('threecolumn', ThreeColumnBlock()),
     ], null=True, blank=True)
 
     class Meta:
@@ -192,7 +263,17 @@ class PeoplePage(Page):
 class HomePage(Page):
 
     content = StreamField([
-        ('appeal', blocks.StructBlock([
+         ('appeal', blocks.StructBlock([
+                    ('icon', blocks.ChoiceBlock(required=True, choices=[
+                        ('none', 'none'),
+                        ('flask', 'flask'),
+                        ('group', 'group'),
+                        ('laptop', 'laptop'),
+                        ('sitemap', 'sitemap'),
+                        ('user', 'user'),
+                        ('book', 'book'),
+                        ('download', 'download'),
+                    ])),
             ('topic', blocks.CharBlock(required=True, max_length=30)),
             ('content', blocks.TextBlock(required=True, max_length=255)),
         ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
