@@ -1,5 +1,6 @@
 
 from django.db import models
+from django.shortcuts import render
 
 from wagtail.wagtailcore.models import Page
 from wagtail.wagtailimages.models import Image
@@ -122,6 +123,13 @@ class Person(ClusterableModel, index.Indexed):
         ImageChooserPanel('photo'),
         StreamFieldPanel('other_info')
     ]
+    
+    def save(self, *args, **kwargs):
+        for footer in Footer.objects.filter(active=True):
+            footer.active = False
+            footer.save()
+            
+        return super(Footer, self).save(*args, **kwargs)
 
     def __str__(self):
         return '{self.last_name}, {self.first_name}'.format(self=self)
@@ -184,9 +192,8 @@ class PeoplePage(Page):
     def serve(self, request):
         return render(request, self.template, {
             'page': self,
-            'people': Person.objects.filter(tags__name=self.tags)
+            'people': Person.objects.filter(tags__name=self.available_tags)
         })
-
 
 
 class HomePage(Page):

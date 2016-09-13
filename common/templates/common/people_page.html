@@ -1,0 +1,14 @@
+{% extends "base.html" %} 
+
+{% load wagtailcore_tags %} 
+{% load wagtailcore_tags snippets %}
+
+{% block body_class %} homepage {% endblock %} 
+
+{% block content %}
+        {% header %}
+        <div class='content'>{% for person in people %}
+                <div>{{ person.last_name }}, {{ person.first_name }}</div>
+        {% endfor %}</div>
+        {% footer %}
+{% endblock %}
