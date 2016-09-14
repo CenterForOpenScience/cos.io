@@ -9,7 +9,7 @@
 
 {% block content %}
         {% header %}
-        <div class='content'><ul>{% for person in people %}
+        <div class='content'><ul class='list-unstyled'>{% for person in people %}
 
 
     <li class="col-md-3 space-mobile">
@@ -24,7 +24,7 @@
                 {{ person.first_name }} {{ person.last_name }}
                 {% if person.title %}<small>{{ person.title }}</small>{% endif %}
             </h3>
-            <ul class="social-icons social-icons-color">
+            <ul class=" social-icons social-icons-color">
                 <li><a href="https://github.com/alexanderkim" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/8wcq9/" data-original-title="osf" class="osf"></a></li>
             </ul>
