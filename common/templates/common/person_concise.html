@@ -1,0 +1,26 @@
+{% load wagtailimages_tags %}
+{% load static %}
+
+
+<li class="col-md-3 space-mobile">
+<div class="thumbnail">
+    {% if person.photo %}
+        {% image person.photo original as photo %}
+        <img src="{% static photo.url %}" alt="{{ person.first_name }} {{ person.last_name }}">
+    {% else %}
+        <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}">
+    {% endif %}
+    <h3>
+        {{ person.first_name }} {{ person.last_name }}
+        {% for b in person.other_info %}
+            {% if b.block_type == 'title' %}}}
+                {% if b.value %}<small>{{ b.value }}</small>{% endif %}
+            {% endif %}
+        {% endfor %}
+    </h3>
+    <ul class="social-icons social-icons-color">
+        <li><a href="https://github.com/alexanderkim" data-original-title="GitHub" class="github"></a> </li>
+        <li><a href="https://osf.io/8wcq9/" data-original-title="osf" class="osf"></a></li>
+    </ul>
+</div>
+</li>

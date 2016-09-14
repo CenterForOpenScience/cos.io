@@ -7,12 +7,12 @@
 
 {% block content %}
         {% header %}
-        {% for b in page.content %}
+        <div class='content'>{% for b in page.content %}
                 {% if b.block_type == 'heading' %}
                         <h1 class='caps'>{{ b.value }}</h1>
                 {% else %}
                         {% include_block b %}
                 {% endif %}
-        {% endfor %}
+        {% endfor %}</div>
         {% footer %}
 {% endblock %}
