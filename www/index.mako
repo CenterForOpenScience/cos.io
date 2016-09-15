@@ -35,7 +35,7 @@
     <div class="row margin-bottom-10">
         <!-- BEGIN INFO BLOCK -->
         <div class="lead col-xs-12">
-            <p>Our mission is to provide expertise, tools, and training to help researchers create and promote open science within their teams and insitutions. Promoting these practices within the research funding and publishing communities acclerates scientific progress. Join us!</p>
+            <p>Our mission is to provide expertise, tools, and training to help researchers create and promote open science within their teams and institutions. Promoting these practices within the research funding and publishing communities accelerates scientific progress. Join us!</p>
         </div>
         <!-- END INFO BLOCK -->
     </div>
@@ -64,14 +64,14 @@
                     <i class="fa fa-group blue"></i><br>
                     <span>Community</span>
                 </div>
-                <p>COS helps connect and build open science communities of researchers and scientists, their affiliated institutions, their funders, and the publishers of research outcomes. Check out <a href="/communities">COS Communities</a> to learn more.</p>
+                <p>COS helps connect and build open science communities of researchers, their affiliated institutions, their funders, and the publishers of research outcomes. Check out <a href="/communities">COS Communities</a> to learn more.</p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <div class="service-box-heading">
                     <i class="fa fa-laptop blue"></i><br>
-                    <span>Rsearch Tools and Infrastructure</span>
+                    <span>Research Tools and Infrastructure</span>
                 </div>
-                <p>COS has developed a variety of software tools based on their free <a href="http://osf.io" target="_blank">Open Science Framework</a> to help researchers manage and archive their research, privately or publicly. <a href="https://osf.io/getting-started/">Take a tour</a> to learn more.</p>
+                <p>COS has developed a variety of software tools and workflows based on their free <a href="http://osf.io" target="_blank">Open Science Framework</a> to help researchers manage and archive their research, privately or publicly. <a href="https://osf.io/getting-started/">Take a tour</a> to learn more.</p>
             </div>
         </div>
     </div>
@@ -103,7 +103,7 @@
                     <i class="fa fa-book blue"></i><br>
                     <span>Publishers &amp; Societies</span>
                 </div>
-                <p>COS maintains a variety of intgegrated, powerful tools and services for journals, societies, and funders to minimize complexity and incentivize openness and preregistration. <a href="/involved_participate/#tab_3">Read more about how COS can assist you.</a></p>
+                <p>COS maintains a variety of integrated, powerful tools and services for journals, societies, and funders to minimize complexity and encourage openness and preregistration. <a href="/involved_participate/#tab_3">Read more about how COS can assist you.</a></p>
 
             </div>
             <div class="col-md-6 col-sm-6">
