@@ -102,7 +102,7 @@
                     <i class="fa fa-book blue"></i><br>
                     <span>Publishers &amp; Societies</span>
                 </div>
-                <p>COS maintains a variety of intgegrated, powerful tools and services for journals, societies, and funders to minimize complexity and incentivize openness and preregistration. <a href="/involved_participate/#tab_3">Read more about how COS can assist you.</a></p>
+                <p>COS maintains a variety of integrated, powerful tools and services for journals, societies, and funders to minimize complexity and incentivize openness and preregistration. <a href="/involved_participate/#tab_3">Read more about how COS can assist you.</a></p>
 
             </div>
             <div class="col-md-6 col-sm-6">
