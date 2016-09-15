@@ -35,7 +35,7 @@
     <div class="row margin-bottom-10">
         <!-- BEGIN INFO BLOCK -->
         <div class="lead col-xs-12">
-            <p>Our mission is to provide expertise, tools, and training to help researchers create and promote open science within their teams and institutions. Promoting these practices within the research funding and publishing communities acclerates scientific progress. Join us!</p>
+            <p>Our mission is to provide expertise, tools, and training to help researchers create and promote open science within their teams and institutions. Promoting these practices within the research funding and publishing communities accelerates scientific progress. Join us!</p>
         </div>
         <!-- END INFO BLOCK -->
     </div>
