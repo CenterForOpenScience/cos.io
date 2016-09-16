@@ -1,4 +1,3 @@
-.
 <%inherit file="_base.mako"/>
 <%def name="title()">About Our Team </%def>
 <%def name="description()">The Center for Open Science team is diverse in background and skills, all devoted to increasing the Openness, Reproducibility, and Integrity in science. </%def>
