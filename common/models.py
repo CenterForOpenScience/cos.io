@@ -7,6 +7,7 @@ from wagtail.wagtailimages.models import Image
 from wagtail.wagtailsnippets.models import register_snippet
 
 from wagtail.wagtailcore.fields import StreamField
+from wagtail.wagtailcore.fields import RichTextField
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailembeds.blocks import EmbedBlock
@@ -161,7 +162,7 @@ class Person(ClusterableModel, index.Indexed):
     first_name = models.CharField(max_length=255)
     middle_name = models.CharField(max_length=255, null=True, blank=True)
     last_name = models.CharField(max_length=255)
-    bio = models.CharField(max_length=2000, null=True, blank=True)
+    bio = RichTextField(blank=True)
 
     photo = models.ForeignKey(
         'wagtailimages.Image',

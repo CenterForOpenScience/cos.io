@@ -1,6 +1,4 @@
-db.sqlite3
 .env
 *.pyc
 website/settings/local.py
-latest.dump
-
+.DS_Store
