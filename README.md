@@ -8,7 +8,7 @@
 - `pip install -r requirements.txt`
 - install postgres, and set your local settings to connect to it
     - `brew install postgres`
-    - `brew service postgres start`
+    - `brew services start postgres`
     - ``createdb `whoami` ``
     - the name of the database will your username
     - you should have all privileges granted
