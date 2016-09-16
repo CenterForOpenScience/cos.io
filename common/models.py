@@ -33,6 +33,32 @@ COLOUR_CHOICES = [
     ('blue', 'Blue'),
 ]
 
+class GoogleMapBlock(blocks.StructBlock):
+    address = blocks.CharBlock(required=True,max_length=255)
+    map_zoom_level = blocks.CharBlock(default=14,required=True,max_length=3)
+
+    class Meta:
+        template = 'common/blocks/google_map.html'
+        icon = 'cogs'
+        label = 'Google Map'
+
+
+class COSPhotoStreamBlock(blocks.StructBlock):
+
+    class Meta:
+        template = 'common/blocks/flickr.html'
+        icon = 'image'
+        label = 'Photo Stream'
+
+
+class TwitterBlock(blocks.StructBlock):
+    username = blocks.CharBlock(required=True)
+
+    class Meta:
+        template = 'common/blocks/twitter.html'
+        icon = 'placeholder'
+        label = 'Twitter Stream'
+
 
 class ThreeColumnBlock(blocks.StructBlock):
  
@@ -56,6 +82,9 @@ class ThreeColumnBlock(blocks.StructBlock):
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
+            ('google_map', GoogleMapBlock()),
+            ('twitter_feed', TwitterBlock()),
+            ('photo_stream', COSPhotoStreamBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     center_column = blocks.StreamBlock([
@@ -77,6 +106,9 @@ class ThreeColumnBlock(blocks.StructBlock):
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
+            ('google_map', GoogleMapBlock()),
+            ('twitter_feed', TwitterBlock()),
+            ('photo_stream', COSPhotoStreamBlock()),
         ], icon='arrow-right', label='Center column content', classname='col4')
     
     right_column = blocks.StreamBlock([
@@ -98,6 +130,9 @@ class ThreeColumnBlock(blocks.StructBlock):
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
+            ('google_map', GoogleMapBlock()),
+            ('twitter_feed', TwitterBlock()),
+            ('photo_stream', COSPhotoStreamBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -127,6 +162,8 @@ class TwoColumnBlock(blocks.StructBlock):
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
+            ('google_map', GoogleMapBlock()),
+            ('twitter_feed', TwitterBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     right_column = blocks.StreamBlock([
@@ -148,6 +185,8 @@ class TwoColumnBlock(blocks.StructBlock):
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
+            ('google_map', GoogleMapBlock()),
+            ('twitter_feed', TwitterBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -216,6 +255,9 @@ class Footer(models.Model):
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+        ('google_map', GoogleMapBlock()),
+        ('twitter_feed', TwitterBlock()),
+        ('photo_stream', COSPhotoStreamBlock()),
     ], null=True, blank=True)
 
     class Meta:
