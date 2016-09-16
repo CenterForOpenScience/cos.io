@@ -3,24 +3,41 @@
 
 
 <li class="col-md-3 space-mobile">
-<div class="thumbnail">
+  <div class="thumbnail">
     {% if person.photo %}
         {% image person.photo original as photo %}
-        <img src="{% static photo.url %}" alt="{{ person.first_name }} {{ person.last_name }}">
+        <img src="{{ photo.url }}" alt="{{ person.first_name }} {{ person.last_name }}">
     {% else %}
         <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}">
     {% endif %}
-    <h3>
-        {{ person.first_name }} {{ person.last_name }}
-        {% for b in person.other_info %}
-            {% if b.block_type == 'title' %}}}
-                {% if b.value %}<small>{{ b.value }}</small>{% endif %}
-            {% endif %}
+        {%for block in person.other_info%}
+        {% if block.block_type == 'position' %}
+        <h3>
+          {{ person.first_name }} {{ person.last_name }} <br/>
+          <small>{{ block.value }}</small>
+        </h3>
+        {% endif %}
         {% endfor %}
-    </h3>
-    <ul class="social-icons social-icons-color">
-        <li><a href="https://github.com/alexanderkim" data-original-title="GitHub" class="github"></a> </li>
-        <li><a href="https://osf.io/8wcq9/" data-original-title="osf" class="osf"></a></li>
-    </ul>
-</div>
+        <ul class="social-icons social-icons-color">
+          {%for block in person.other_info%}
+          {% if block.block_type == 'email_address'%}
+          <li><a href="{{block.value}}" data-original-title="email" class="email"></a></li>
+          {% endif %}
+          {% if block.block_type == 'osf_profile'%}
+          <li><a href="{{block.value}}" data-original-title="osf" class="osf"></a></li>
+          {% endif %}
+          {% if block.block_type == 'linked_in'%}
+          <li><a href="{{block.value}}" data-original-title="Linkedin" class="linkedin"></a></li>
+          {% endif %}
+          {%endfor%}
+        </ul>
+  </div>
 </li>
+<style>
+ .thumbnail {
+   border: none;
+ }
+ .thumbnail > img {
+   border-radius: 256px !important;
+ }
+</style>
