@@ -22,11 +22,12 @@
 <div class="page-container">
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
-        <h1>The $1,000,000 Preregistration Challenge</h1>
-    </div>
+      </div>
 </div>
-<div class="container min-hight margin-top-40">
+<div class="container min-hight margin-top-20">
     <div class="community-content">
+      <h1><strong>The $1,000,000 Preregistration Challenge</strong></h1>
+      <p class="lead">Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. </p>
         <div class="row">
             <div class="col-sm-2 community-tab-list">
                 <ul class="tabbable community-tabbable change-url-tabbable" id="">
@@ -53,7 +54,7 @@
                             <tr>
                                 <td>
                                     <p style="text-align:justify">
-                                        Preregistration increases the credibility of hypothesis testing by confirming in advance what will be analyzed and reported. For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. All it takes is a single experiment and its analysis to be eligible. 
+                                        For the Preregistration Challenge, one thousand researchers will win $1,000 each for publishing results of preregistered research. All it takes is a single experiment and its analysis to be eligible.
                                         <br>
                                           <p>Share <a href="https://osf.io/peut2/" target="_blank">this handout</a> for a brief overview and links to more information, and <a href="https://osf.io/login/?campaign=prereg" target="_blank">begin your preregistration today</a>!
                                     <p><br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/SWkqdNppL-s" frameborder="0" allowfullscreen></iframe></p>

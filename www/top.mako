@@ -22,11 +22,13 @@
 <div class="page-container">
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
-        <h1>The Transparency and Openness Promotion Guidelines</h1>
+
     </div>
 </div>
 <div class="container min-hight margin-top-20">
     <div class="community-content">
+      <h1><strong>The Transparency and Openness Promotion Guidelines</strong></h1>
+      <p class="lead">Transparency, open sharing, and reproducibility are core values of science, but not always part of daily practice. Journals, funders, and scholarly societies can increase reproducibility of research by adopting the TOP Guidelines. </p>
         <div class="row">
             <div class="col-sm-2 community-tab-list">
                 <ul class="tabbable community-tabbable change-url-tabbable" id="">
@@ -50,9 +52,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <p style="text-align:justify">
-                                      Transparency, open sharing, and reproducibility are core values of science, but not always part of daily practice. Journals, funders, and scholarly societies can increase the transparency and reproducibility of research by adopting the TOP Guidelines.
-                                      <br><br>
+                                  ##  <p style="text-align:justify">Transparency, open sharing, and reproducibility are core values of science, but not always part of daily practice. Journals, funders, and scholarly societies can increase the transparency and reproducibility of research by adopting the TOP Guidelines.
                                       Published in <a target="_blank" href="http://science.sciencemag.org/content/348/6242/1422.full">Science in 2015</a>, TOP includes eight modular standards, each with three levels of increasing stringency. Journals select which of the eight transparency standards they wish to adopt for their journal, and select a level of implementation for each standard. These features provide flexibility for adoption depending on disciplinary variation, but simultaneously establish community standards.</p>
                                       <hr>
                                       <h3>Resources</h3>
@@ -68,7 +68,7 @@
 
 
                                         <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
-                                      749 Journals and 62 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
+                                      749 Journals and 63 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
 
                                 </td>
                             </tr>
@@ -178,9 +178,10 @@
                                   </ul>
                                   <hr>
                                 <h3>TOP Implementors</h3>
-                                <p>The following journals have made concrete steps toward implementing one or more of the standards listed in the TOP Guidelines. If you would like to be listed on this page, please contact <a href="mailto:david@cos.io">David Mellor</a> or email <a href="mailto:top@cos.io">top@cos.io</a>.</p>
+                                <p>The following journals have made concrete steps toward implementing one or more of the standards listed in the TOP Guidelines.</p>
                                 <ul>
                                   <li><a target="_blank"href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Science</a></li>
+                                  <li><a target="_blank"href="http://www.apa.org/pubs/journals/cdp/?tab=4">Cultural Diversity & Ethnic Minority Studies</a></li>
                                   <li><a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters</a></li>
                                   <li><a target="_blank" href="http://econtent.hogrefe.com/doi/10.1027/1618-3169/a000317">Experimental Psychology</a></li>
                                   <li><a target="_blank" href="https://ojs.ub.uni-konstanz.de/srm/article/view/6256/5679">Survey Research Methods</a></li>
@@ -299,7 +300,7 @@
                                             </ol>
                                                     <br>
                         <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (749)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (62)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (63)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
@@ -332,7 +333,7 @@
                             <div style="height: 200px;">&nbsp;</div>
                             <div class="tab-content">
                                 <div id="journals" class="tab-pane fade in active">
-                                    <table class="table table-sm-1" data-toggle="table" data-url="/static/convertcsv.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
+                                    <table class="table table-sm-1" data-toggle="table" data-url="/static/topjournals.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
                                         <thead>
                                             <tr>
                                                     <th data-field="Journal Title" data-sortable="true" class="col-sm-1.5" >Journal</th>
