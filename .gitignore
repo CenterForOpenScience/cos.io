@@ -3,4 +3,4 @@
 website/settings/local.py
 .DS_Store
 latest.dump
-db.sqlite
+db.sqlite3
