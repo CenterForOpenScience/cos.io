@@ -215,6 +215,7 @@ class Footer(models.Model):
         ('image', ImageChooserBlock()),
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
+        ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
     ], null=True, blank=True)
 
     class Meta:
