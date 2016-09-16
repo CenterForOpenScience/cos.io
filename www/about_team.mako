@@ -148,7 +148,7 @@
             <img src="../static/img/people/sallans.jpg" alt="Andrew Sallans">
             <h3>
                 Andrew Sallans
-                <small>Partnerships, Collaborations, & Funding Manager | Community </small>
+                <small>Director of Operations | Operations</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">andre<span style="display:none;">null</span>w@cos<span style="display:none;">null</span>.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
