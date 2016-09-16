@@ -14,7 +14,11 @@
        zoom: 17,
        mapTypeId:google.maps.MapTypeId.ROADMAP
      };
-     var map=new google.maps.Map(document.getElementById('googleMap-{{self.address}}'), mapProp);
+     var map = new google.maps.Map(document.getElementById('googleMap-{{self.address}}'), mapProp);
+     var marker = new google.maps.Marker({
+       position: {lat: latitude, lng: longitude},
+       map: map
+     });
    });
  }
  google.maps.event.addDomListener(window, 'load', init);
