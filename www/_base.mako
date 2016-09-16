@@ -28,11 +28,12 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
-                        <li><a href="/journals">For Journals and Societies</a></li>
-                        <li><a href="/top">TOP Guidelines</a></li>
-                        <li><a href="/stats_consulting/">Training Services</a></li>
                         <li><a href="http://osf.io/meetings" target="_blank">OSF for Meetings</a></li>
+                        <li><a href="/stats_consulting/">Training Services</a></li>
                         <li><a href="/prereg">Preregistration Challenge</a></li>
+                        <li><a href="/top">TOP Guidelines</a></li>
+                        <li><a href="/rr">Registered Reports</a></li>
+                        <li><a target="_blank" href="https://osf.io/tvyxz/wiki/home/">Open Practice Badges</a></li>
                     </ul>
                 </li>
                  <li class="dropdown ${ 'active' if page.startswith('involved') else ''}
@@ -46,6 +47,7 @@
                         <li><a href="/involved_participate#tab_2">Research Institutions</a></li>
                         <li><a href="/involved_participate#tab_4">Scientists</a></li>
                         <li><a href="/involved_participate#tab_5">Developers</a></li>
+                        <li><a href="/journals">For Journals and Societies</a></li>
                         <li><a href="/jobs">Jobs</a></li>
                     </ul>
                 </li>
