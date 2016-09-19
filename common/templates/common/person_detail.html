@@ -1,0 +1,37 @@
+{% load wagtailimages_tags %}
+{% load static %}
+
+<hr>
+<div class="row detailrow margin-bottom-30" id="{{ person.first_name }}{{ person.last_name }}">
+    <div class="col-md-5">
+        <div class="board-thumbnail">
+            {% if person.photo %}
+                {% image person.photo original as photo %}
+                <img src="{% static photo.url %}" alt="{{ person.first_name }} {{ person.last_name }}">
+            {% else %}
+                <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}">
+            {% endif %}
+        </div>
+    </div>
+    <div class="col-md-7">
+        <h3>
+            <div class = "name"> {{ person.first_name }} {{ person.middle_name }} {{ person.last_name }} </div>
+            <br>
+            {% for b in person.other_info %}
+                {% if b.block_type == 'title' %}
+                    {% if b.value %}<small>{{ b.value }}</small>{% endif %}
+                {% endif %}
+            {% endfor %}
+        </h3>
+        {% for b in person.other_info %}
+            {% if b.block_type == 'term' %}
+                {% if b.value %}<h5>Term: {{ b.value }}</h5>{% endif %}
+            {% endif %}
+        {% endfor %}
+        <div class="row-fluid summary">
+            <div class="more">
+                {{ person.bio}}
+            </div>
+        </div>
+    </div>
+</div>

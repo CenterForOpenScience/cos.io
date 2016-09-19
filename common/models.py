@@ -7,6 +7,7 @@ from wagtail.wagtailimages.models import Image
 from wagtail.wagtailsnippets.models import register_snippet
 
 from wagtail.wagtailcore.fields import StreamField
+from wagtail.wagtailcore.fields import RichTextField
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailembeds.blocks import EmbedBlock
@@ -200,7 +201,8 @@ class Person(ClusterableModel, index.Indexed):
     first_name = models.CharField(max_length=255)
     middle_name = models.CharField(max_length=255, null=True, blank=True)
     last_name = models.CharField(max_length=255)
-    
+    bio = RichTextField(blank=True)
+
     photo = models.ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -211,6 +213,7 @@ class Person(ClusterableModel, index.Indexed):
 
     other_info = StreamField([
         ('position', blocks.TextBlock(max_legnth=140)),
+        ('term', blocks.TextBlock(max_length=9)),
         ('linked_in', blocks.URLBlock()),
         ('blog', blocks.PageChooserBlock()),
         ('osf_profile', blocks.URLBlock()),
@@ -227,6 +230,7 @@ class Person(ClusterableModel, index.Indexed):
             FieldPanel('first_name'),
             FieldPanel('middle_name'),
             FieldPanel('last_name'),
+            FieldPanel('bio'),
             FieldPanel('tags'),
         ], heading='Basic Information'),
         ImageChooserPanel('photo'),
@@ -291,10 +295,18 @@ class PeoplePage(Page):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    
+
+    subtitle = models.CharField(default='untitled', max_length=30)
+    statement = models.CharField(max_length=1000)
+    display_style = models.CharField(verbose_name='display style', max_length=16,
+                                     choices=(('concise', 'Concise Style'), ('detail', 'Detailed Style')))
+
     content_panels = Page.content_panels + [
-        FieldPanel('available_tags')
-    ]    
+        FieldPanel('subtitle'),
+        FieldPanel('statement'),
+        FieldPanel('available_tags'),
+        FieldPanel('display_style')
+    ]
 
     def serve(self, request):
         return render(request, self.template, {
