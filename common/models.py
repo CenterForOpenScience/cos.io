@@ -61,6 +61,15 @@ class TwitterBlock(blocks.StructBlock):
         label = 'Twitter Stream'
 
 
+class CenteredTextBlock(blocks.StructBlock):
+    text = blocks.RichTextBlock()
+
+    class Meta:
+        template = 'common/blocks/centered_text.html'
+        icon = 'openquote'
+        label = 'Centered Text Block'
+
+
 class ThreeColumnBlock(blocks.StructBlock):
  
     background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
@@ -86,6 +95,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     center_column = blocks.StreamBlock([
@@ -110,6 +120,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-right', label='Center column content', classname='col4')
     
     right_column = blocks.StreamBlock([
@@ -134,6 +145,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -165,6 +177,7 @@ class TwoColumnBlock(blocks.StructBlock):
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     right_column = blocks.StreamBlock([
@@ -188,6 +201,7 @@ class TwoColumnBlock(blocks.StructBlock):
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -262,6 +276,7 @@ class Footer(models.Model):
         ('google_map', GoogleMapBlock()),
         ('twitter_feed', TwitterBlock()),
         ('photo_stream', COSPhotoStreamBlock()),
+        ('centered_text', CenteredTextBlock()),
     ], null=True, blank=True)
 
     class Meta:
@@ -337,6 +352,7 @@ class HomePage(Page):
         ('image', ImageChooserBlock()),
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
+        ('centered_text', CenteredTextBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!'))
     ], null=True, blank=True)
 
