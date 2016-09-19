@@ -6,7 +6,7 @@
 <div class="thumbnail">
     {% if person.photo %}
         {% image person.photo original as photo %}
-        <img src="{% static photo.url %}" alt="{{ person.first_name }} {{ person.last_name }}">
+        <img src="{% static 'photo.url' %}" alt="{{ person.first_name }} {{ person.last_name }}">
     {% else %}
         <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}">
     {% endif %}
