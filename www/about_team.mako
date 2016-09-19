@@ -827,7 +827,7 @@
             <img src="../static/img/people/haselton.jpg" alt="Michael Haselton">
             <h3>
                 Michael Haselton
-                <small>Developer | Infrastructure</small>
+                <small>Technical Manager | Infrastructure</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">mich<span style="display:none;">null</span>ael@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
                 <ul class="social-icons social-icons-color">
