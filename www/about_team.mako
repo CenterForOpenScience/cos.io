@@ -954,19 +954,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
-            <h3>
-                Sam Chrisinger
-                <small>Developer | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/samchrisinger" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/4ur7b/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/ehsan.jpg" alt="Saman Ehsan">
             <h3>
                 Saman Ehsan
@@ -2308,6 +2295,19 @@
                 <small>Developer Intern | Infrastructure</small>
             </h3>
             <ul class="social-icons social-icons-color">
+            </ul>
+        </div>
+    </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/chrisinger.jpg" alt="Sam Chrisinger">
+            <h3>
+                Sam Chrisinger
+                <small>Developer | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/samchrisinger" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/4ur7b/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
