@@ -888,7 +888,7 @@
             <img src="../static/img/people/pfeiffer.jpg" alt="Nicole Pfeiffer">
             <h3>
                 Nicole Pfeiffer
-                <small>Software Quality Engineer | Infrastructure</small>
+                <small>Product Manager | Infrastructure</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">ni<span style="display:none;">null</span>ci@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
@@ -917,7 +917,7 @@
             <img src="../static/img/people/speidel.jpg" alt="Rusty Speidel">
             <h3>
                 Rusty Speidel
-                <small>Marketing Programs Manager | Community</small>
+                <small>Marketing Manager | Community</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">rus<span style="display:none;">null</span>ty@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
@@ -1022,7 +1022,7 @@
             <img src="../static/img/people/errington.jpg" alt="Tim Errington">
             <h3>
                 Tim Errington
-                <small>Project Manager | Metascience</small>
+                <small>Metascience Manager | Metascience</small>
                 <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">t<span style="display:none;">null</span>im@co<span style="display:none;">null</span>s.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
