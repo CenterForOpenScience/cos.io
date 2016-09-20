@@ -60,29 +60,28 @@
                             <tr>
                                 <td>
                                     <p style="text-align:justify">
-                                      <strong>Why Should You Attend?</strong>
+                                      Make plans to attend this free, two-day meeting, to share knowledge, discuss increasing transparency and reproducibility of research, promote community standards to maximize the impact of research dollars, and advance the social good.
+                                      <br>
+                                      <strong><h2>Why should you attend?</h2></strong>
+                                      
+                                      What does it mean to have impact? For researchers it means pursuing knowledge, wherever it leads. For funders it means supporting research projects that advance knowledge and meet their institutional mission. <strong>Both are under pressure to deliver game-changing research to justify investments.</strong>
                                       <br>
                                       <br>
-                                      What does it mean to have impact? For researchers it means pursuing knowledge, wherever it leads. For funders it means supporting research projects that advance knowledge and meet their institutional mission. <strong>Both are under pressure to deliver game-changing research to justify investments</strong>.
+                                      Emerging good practices are providing opportunities for funders to improve research efficiency and nudge the incentives toward a more open, reproducible research culture.
                                       <br>
                                       <br>
-                                      At the same time, there is growing evidence that <strong>supporting open and transparent research leads to faster outcomes</strong>. Join with other leading research funders to learn how these practices maximize the impact of research funding and advance social good.
-                                      <br>
-                                      <br>
+                                      <strong>Meeting Goals</strong>
                                       <ul>
-                                        <li> Maximize return on funding decisions by promoting innovation and reproducibility</li>
-                                        <li>Learn about new resources for funders to enhance their policies and practices regarding open research</li>
+                                        <li>Examine ways funders may enhance their policies and practices to promote transparent and reproducible research</li>
                                         <li>Share experiences, networking and good practices among funders and researchers</li>
-                                        <li>Nurture collaborations and partnerships with mission-aligned stakeholders, such as other funders, institutions and journals/publishers</li>
                                         <li>Discuss methods for streamlining grants management and reporting by integrating with researchers' workflow</li>
-                                        <li>Review processes to maximize rigor and reproducibility of funded projects and how preregistration can be used by funders</li>
-                                        <li>Develop partnerships between journals and funders to address publication bias</li>
+                                        <li>Explore mission-aligned opportunities between funders and journals/publishers</li>
                                         <li>Learn about training methods for grantees on transparency and reproducibility</li>
                                       </ul>
                                       <br>
-                                      <br>
-                                      If you are funding research and want to share good practices and/or learn about what leading edge funding organizations are doing to encourage reproducibility and transparency in the research community, please join us. <strong>There is no fee to attend</strong>.
-                                      <br><br></p>
+                                      If you are funding research and want to share good practices and/or learn about what leading edge funding organizations are doing to encourage reproducibility and transparency in the research community, please join us.</p>
+                                      
+                               
                                      
                                 </td>
                             </tr>
