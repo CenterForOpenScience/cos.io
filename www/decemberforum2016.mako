@@ -96,44 +96,7 @@
                     <div style="height: 200px;">&nbsp;</div>
                       <center><h3><strong>Agenda</h3></strong></center>
                         <br>
-                        ## <strong>The Challenge:</strong>
-                        ## <br>
-                        ## What does it mean to have impact? For researchers it means advancing knowledge, wherever it leads. For funders it means supporting research to advance knowledge and meet their institutional mission. The pressure to deliver game-changing research to justify investments has never been greater. The funder communities’ return on research investment is challenged by dysfunctional incentives for researchers, dependence on outdated methods of scientific communication, lack of infrastructure to connect and support the entire research lifecycle, and lack of standards in policies and practices for promoting research transparency and reproducibility.  
-                        ## <br>
-                        ## <br>
-                        ## <strong>The Opportunity:</strong>
-                        ## <br>
-                        ## There is growing evidence that open and transparent research leads to better outcomes. Emerging best practices and tools are providing opportunities for funders to improve research efficiency and nudge incentives toward a more open, reproducible research culture.  This meeting will gather representatives from leading research funding organizations and other stakeholders to share knowledge and to promote open and reproducible frameworks for maximizing the impact of research funding to advance the social good.
-                        ## <br>
-                        ## <br>
-                        ## <strong>Who Should Attend:</strong>
-                        ## <br>
-                        ## If you are funding research and want to share good practices and/or learn about what leading edge funding organizations are doing to encourage reproducibility and transparency in the research community, please join us. Meeting topics will be highly suitable for representatives of funders with responsibilities for grantee policies and procedures, grant managers, program officers, and senior executives.
-                        ## <br>
-                        ## <br>
-                        ## <strong>Why You Should Attend:</strong>
-                        ## <ol>
-                        ##   <li>Help establish new expectations among funders for what impact means</li>
-                        ##   <li>Learn about new resources for funders to update their policies and practices </li>
-                        ##   <li>Share experiences, networking and good practices among funders and researchers</li>
-                        ##   <li>Nurture collaborations and partnerships with mission-aligned stakeholders, such as other funders, institutions and journals/publishers</li>
-                        ##   <li>Explore innovative strategies and emerging trends for research transparency and reproducibility </li>
-                        ## </ol>
-                        ## <br>
-                        ## <strong>What You’ll Learn:</strong>
-                        ## <ol>
-                        ##   <li>How funders may maximize their efficiency of funding decisions by promoting innovation and reproducibility</li>
-                        ##   <li>Ways to draft grant agreements and policies that require sharing data, materials, and code</li>
-                        ##   <li>Review processes to maximize rigor and reproducibility of funded projects and how preregistration can be used by funders</li>
-                        ##   <li>Methods for streamlining grants management and reporting by integrating with researchers' workflow</li>
-                        ##   <li>Enforcement and audit ideas for meeting transparency and reproducibility requirements</li>
-                        ##   <li>How to develop partnerships between journals and funders to address publication bias</li>
-                        ##   <li>Training methods for grantees on transparency and reproducibility</li>
-                        ##   <li>University and researcher perspectives on open science</li>
-                        ##   <li>Collective action by funders to change publisher/journal policies for publishing negative results, preregistered research, and requiring open data and open materials with consideration for barriers to adoption and solutions</li>
-                        ## </ol>
-                        ## <br>
-                        ## <h4>Draft Agenda and Meeting Schedule</h4>
+
                         <h2>Day 1 - Monday, December 5th, 2016</h2>
 
 
@@ -407,55 +370,8 @@
                                     <br>
 
 
-
-
-
-
-                                    ##   <td><strong>Analytic Methods (Code) Transparency</strong></td>
-                                    ##   <td>Journal encourages code sharing, or says nothing</td>
-                                    ##   <td>Article states whether code is available, and, if so, where to access it.</td>
-                                    ##   <td>Code must be posted to a trusted repository. Exceptions must be identified at article submission.</td>
-                                    ##   <td>Code must be posted to a trusted repository, and reported analyses will be reproduced independently prior to publication.</td>
-                                    ## </tr>
-                                    ## <tr>
-                                    ##   <td><strong>Research Materials Transparency</strong></td>
-                                    ##   <td>Journal encourages materials sharing, or says nothing</td>
-                                    ##   <td>Article states whether materials are available, and, if so, where to access them.</td>
-                                    ##   <td>Materials must be posted to a trusted repository. Exceptions must be identified at article submission.</td>
-                                    ##   <td>Materials must be posted to a trusted repository, and reported analyses will be reproduced independently prior to publication.</td>
-                                    ## </tr>
-                                    ## <tr>
-                                    ##   <td><strong>Design and Analysis Transparency</strong></td>
-                                    ##   <td>Journal encourages design and analysis transparency, or says nothing</td>
-                                    ##   <td>Journal articulates design transparency standards</td>
-                                    ##   <td>Journal requires adherence to design transparency standards for review and publication</td>
-                                    ##   <td>Journal requires and enforces adherence to design transparency standards for review and publication</td>
-                                    ## </tr>
-                                    ## <tr>
-                                    ##   <td><strong>Study Preregistration</strong></td>
-                                    ##   <td>Journal says nothing</td>
-                                    ##   <td>Journal encourages preregistration of studies and provides link in article to preregistration if it exists</td>
-                                    ##   <td>Journal encourages preregistration of studies and provides link in article and certification of meeting preregistration badge requirements</td>
-                                    ##   <td>Journal requires preregistration of studies and provides link and badge in article to meeting requirements.</td>
-                                    ## </tr>
-                                    ## <tr>
-                                    ##   <td><strong>Analysis Plan Preregistration</strong></td>
-                                    ##   <td>Journal says nothing</td>
-                                    ##   <td>Journal encourages preanalysis plans and provides link in article to registered analysis plan if it exists</td>
-                                    ##   <td>Journal encourages preanalysis plans and provides link in article and certification of meeting registered analysis plan badge requirements</td>
-                                    ##   <td>Journal requires preregistration of studies with analysis plans and provides link and badge in article to meeting requirements.</td>
-                                    ## </tr>
-                                    ## <tr>
-                                    ##   <td><strong>Replication</strong></td>
-                                    ##   <td>Journal discourages submission of replication studies, or says nothing</td>
-                                    ##   <td>Journal encourages submission of replication studies</td>
-                                    ##   <td>Journal encourages submission of replication studies and conducts results blind review</td>
-                                    ##   <td>Journal uses Registered Reports as a submission option for replication studies with peer review prior to observing the study outcomes.</td>
-                                    ## </tr>
                                     </table>
-                                    ## <hr>
-                                    ## <p>Read the complete TOP Guidelines <a target="_blank" href="https://osf.io/ud578/">PDF</a> or <a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/">wiki</a>
-
+              
                     </div>
                     <!-- END TAB 1 -->
                     <!-- START TAB 2 -->
