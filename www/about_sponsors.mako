@@ -527,6 +527,16 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr>
+                                                <td class="sponsor-center"><a href="http://www.rj.se/en"><img src="/static/img/icons/sfhss.png"></a></td>
+                                                <td><span class="med-font"><strong>The Swedish Foundation for Humanities and Social Sciences</strong></span><br>
+                                                <strong>$67,000</strong><br>
+                                                The Swedish Foundation for Humanities and Social Sciences awarded COS a subcontract via the Stockholm School of Economics for "The Reproducibility of Social Science" project.<br>
+                                                </td>
+                                            </tr>
+
+
+                                            <tr class="spacer"></tr>
+                                            <tr>
                                                 <td class="sponsor-center"></td>
                                                 <td><span class="med-font"><strong>Quantitative Investment Management Fund</strong></span><br>
                                                 <strong>$2,500</strong><br>
