@@ -22,8 +22,8 @@
 <div class="page-container">
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
-        <h1><strong>Maximizing Your Mission</strong></h1> 
-        <h3><strong>How Transparency and Reproducibility Enhance Research Impact</strong></h3>
+        <h1><strong>Maximizing Research Impact:</strong></h1> 
+        <h3><strong>How Promoting Open and Reproducible Research Helps Funding Organizations Meet Their Mission</strong></h3>
         <h4>December 5 - 6, 2016</h4>
         <h4>Charlottesville, Virginia</h4>
         <h5>Hosted by:</h5>
