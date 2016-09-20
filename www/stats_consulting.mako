@@ -132,7 +132,7 @@
                                     <li>Project documentation</li>
                                     <li>Employing version control</li>
                                     <li>Creating pre-analysis plans</li>
-                                    <li>Using the Open Science Framwork</li>
+                                    <li>Using the Open Science Framework</li>
                                     <li>Potential benefits to researchers for engaging in open practices</li>
                                 </ul>
                             <p> Workshops can be geared towards a general research audience, or towards a particular discipline, e.g. biomedical researchers. You can see a list of previous institutions where we have given workshops, as well as example promotional materials and workshop slidedecks on <a href="https://osf.io/d5aqs/">our OSF page.</a> <p> 
