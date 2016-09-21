@@ -203,17 +203,16 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/clyburne-sherin.jpg" alt="April Clyburne-Sherin">
+            <img src="../static/img/people/harber.jpg" alt="Barrett Harber">
             <h3>
-                April Clyburne-Sherin
-                <small>Reproducible Research Evangelist | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">apr<span style="display:none;">null</span>il@cos<span style="display:none;">null</span>.io</small></span></noscript>
+                Barrett Harber
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">barr<span style="display:none;">null</span>ett@cos<span style="display:none;">null</span>.io</small></span></noscript>
             </h3>
             <ul class="social-icons social-icons-color">
-            <li><script type="text/javascript">document.write("<n uers=\"znvygb:Ncevy@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/aprilcs" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/in/april-clyburne-sherin-30231383" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/ajiyt/" data-original-title="osf" class="osf"></a></li>
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:oneergg@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/binoculars" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/srwz7/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1184,6 +1183,22 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/amyshi188" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/tszbu/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/clyburne-sherin.jpg" alt="April Clyburne-Sherin">
+            <h3>
+                April Clyburne-Sherin
+                <small>Reproducible Research Evangelist | Community</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">apr<span style="display:none;">null</span>il@cos<span style="display:none;">null</span>.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+            <li><script type="text/javascript">document.write("<n uers=\"znvygb:Ncevy@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/aprilcs" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/april-clyburne-sherin-30231383" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/ajiyt/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
