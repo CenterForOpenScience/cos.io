@@ -43,7 +43,7 @@
                     <div class="tab-pane active" id="tab_1">
                     <div class="container">
                         <h2><strong>Training and Consulting Resources</strong></h2>
-                        <p>Researchers can increase the reproducibility and replicability of their own work through careful documentation, adherence to standards, and the use of open.</p>
+                        <p>Researchers can increase the reproducibility and replicability of their own work through careful documentation, adherence to standards, and the use of open practices.</p>
 
                     <div class="col-md-8">
                         <h4><b>We offer free:</b></h4>
@@ -58,7 +58,7 @@
                     <div class="col-md-8">
                     <br>
                         <h4><b>Check our calendar to RSVP for upcoming events</b></h4>
-                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="350" frameborder="0" scrolling="no"></iframe>
+                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="350" frameborder="0" scrolling="no"></iframe> practi 
                     </div>
                     </div>
                     </div>
