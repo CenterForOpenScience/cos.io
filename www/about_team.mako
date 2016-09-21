@@ -1191,11 +1191,9 @@
             <img src="../static/img/people/clyburne-sherin.jpg" alt="April Clyburne-Sherin">
             <h3>
                 April Clyburne-Sherin
-                <small>Reproducible Research Evangelist | Community</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">apr<span style="display:none;">null</span>il@cos<span style="display:none;">null</span>.io</small></span></noscript>
+                <small>Reproducible Research Evangelist | Community</small 
             </h3>
             <ul class="social-icons social-icons-color">
-            <li><script type="text/javascript">document.write("<n uers=\"znvygb:Ncevy@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
                 <li><a href="https://github.com/aprilcs" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://www.linkedin.com/in/april-clyburne-sherin-30231383" data-original-title="Linkedin" class="linkedin"></a></li>
                 <li><a href="https://osf.io/ajiyt/" data-original-title="osf" class="osf"></a></li>
