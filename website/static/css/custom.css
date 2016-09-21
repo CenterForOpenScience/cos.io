@@ -776,3 +776,11 @@ body {
     margin-left: 55px;
     max-width:250px;
 }
+
+img {
+    height: auto;
+    display: block;
+    margin: auto auto;
+    max-width:80%;
+    max-height:80%;
+}

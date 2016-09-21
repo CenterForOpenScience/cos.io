@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
+{% load wagtailimages_tags %}
+{% load static %}
+
+{% block body_class %} newsarticlepage {% endblock %}
+
+{% block content %}
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date }}</p>
+
+    {% if page.main_image %}
+      {% image page.main_image width-400 %}
+    {% endif %}
+
+    <div class="intro">{{ page.intro }}</div>
+
+    {{ page.body|richtext }}
+{% endblock %}

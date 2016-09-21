@@ -29,10 +29,3 @@ def person_concise(person):
     return {
         'person': person,
     }
-
-
-def sub(value, arg):
-    """subtraction operation"""
-    return int(value) - int(arg)
-
-register.filter('sub', sub)

@@ -35,9 +35,19 @@ COLOUR_CHOICES = [
 ]
 
 COLUMN_CHOICES = [
-    ('6', 'half'),
-    ('4', 'third'),
-    ('3', 'quarter'),
+    ('12', '12/12'),
+    ('11', '11/12'),
+    ('10', '10/12'),
+    ('9', '9/12'),
+    ('8', '8/12'),
+    ('7', '7/12'),
+    ('6', '6/12'),
+    ('5', '5/12'),
+    ('4', '4/12'),
+    ('3', '3/12'),
+    ('2', '2/12'),
+    ('1', '1/12'),
+    ('0', '0/12'),
 ]
 
 class GoogleMapBlock(blocks.StructBlock):
@@ -151,6 +161,7 @@ class TwoColumnBlock(blocks.StructBlock):
     
     background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
     left_column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES,default="6")
+    right_column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES, default="6")
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
@@ -350,4 +361,41 @@ class HomePage(Page):
     content_panels = Page.content_panels + [
         StreamFieldPanel('content'),
     ]
+
+
+class NewsArticle(Page):
+    main_image = models.ForeignKey(
+        'wagtailimages.Image',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+    news_title = models.CharField(max_length=255)
+    date = models.DateField("Post date")
+    intro = models.CharField(max_length=255)
+    body = RichTextField(blank=True)
+
+    search_fields = Page.search_fields + (
+        index.SearchField('title'),
+        index.SearchField('intro'),
+        index.SearchField('body'),
+    )
+
+    content_panels = Page.content_panels + [
+        FieldPanel('news_title'),
+        FieldPanel('date'),
+        ImageChooserPanel('main_image'),
+        FieldPanel('intro'),
+        FieldPanel('body'),
+    ]
+
+
+class NewsIndexPage(Page):
+    intro = RichTextField(blank=True)
+
+    content_panels = Page.content_panels + [
+        FieldPanel('intro', classname="full")
+    ]
+
 
