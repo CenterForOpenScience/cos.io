@@ -34,6 +34,12 @@ COLOUR_CHOICES = [
     ('blue', 'Blue'),
 ]
 
+COLUMN_CHOICES = [
+    ('6', 'half'),
+    ('4', 'third'),
+    ('3', 'quarter'),
+]
+
 class GoogleMapBlock(blocks.StructBlock):
     address = blocks.CharBlock(required=True,max_length=255)
     map_zoom_level = blocks.CharBlock(default=14,required=True,max_length=3)
@@ -144,6 +150,7 @@ class ThreeColumnBlock(blocks.StructBlock):
 class TwoColumnBlock(blocks.StructBlock):
     
     background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
+    left_column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES,default="6")
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),

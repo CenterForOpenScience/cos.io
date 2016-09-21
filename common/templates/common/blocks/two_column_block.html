@@ -1,6 +1,7 @@
-{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
 
-<div class='contain row'>
-    <div class='col-md-4'>{{ value.left_column }}</div>
-    <div class='col-md-8'>{{ value.right_column }}</div>
+<div class='row'>
+    <div class='col-md-{{ value.left_column_size }}' ><div style="width : 90%">{{ value.left_column }}</div></div>
+    <div class='col-md-{{ "12"|sub:value.left_column_size }}' >{{ value.right_column }}</div>
 </div>
+</br>
