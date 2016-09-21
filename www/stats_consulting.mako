@@ -30,17 +30,17 @@
             <div class="margin-top-20">
             <div class="col-md-3 col-sm-3 community-tab-list">
                 <ul class="tabbable community-tabbable">
-                    <li class="active"><a href="#tab_1" data-toggle="tab">Training Services</a></li>
-                    <li><a href="#tab_2" data-toggle="tab">Statistical Consulting</a></li>
-                    <li><a href="#tab_3" data-toggle="tab">Webinars and Video Tutorials</a></li>
-                    <li><a href="#tab_4" data-toggle="tab">Reproducible Research Workshops</a></li>
+                    <li class="active"><a id = "tab_1" href="#Training" data-toggle="tab">Training Services</a></li>
+                    <li><a id = "tab_2" href="#Stats_Consulting" data-toggle="tab">Statistical Consulting</a></li>
+                    <li><a id = "tab_3" href="#Webinars" data-toggle="tab">Webinars and Video Tutorials</a></li>
+                    <li><a id = "tab_4" href="#Workshops" data-toggle="tab">Reproducible Research Workshops</a></li>
                     ## <li><a href="#tab_5" data-toggle="tab">Teaching Resources</a></li>
                 </ul>
             </div>
             <div class="col-md-9 col-sm-9">
             <div class="tab-content ">
                 <!-- START TAB 1 -->
-                    <div class="tab-pane active" id="tab_1">
+                    <div class="tab-pane active" id="Training">
                     <div class="container">
                         <h2><strong>Training and Consulting Resources</strong></h2>
                         <p>Researchers can increase the reproducibility and replicability of their own work through careful documentation, adherence to standards, and the use of open practices.</p>
@@ -48,9 +48,9 @@
                     <div class="col-md-8">
                         <h4><b>We offer free:</b></h4>
                             <ul>
-                                <li> Statistical and Methodological Consulting</li>
-                                <li> Webinars and Online Tutorials</li>
-                                <li> Workshops on Reproducible Research Practices</li>
+                                <li><a data-tab-destination="tab_2">Statistical and Methodological Consulting</a></li>
+                                <li><a data-tab-destination="tab_3">Webinars and Online Tutorials</a></li>
+                                <li><a data-tab-destination="tab_4">Workshops on Reproducible Research Practices</a></li>
                                 ##<li>Teaching Resources</li>
                             </ul>
                     </div>
@@ -64,7 +64,7 @@
                     </div>
                 <!-- END TAB 1 -->
                 <!-- START TAB 2 -->
-                    <div class="tab-pane" id="tab_2">
+                    <div class="tab-pane" id="Stats_Consulting">
                         <div class="container">
                             <h2><strong>Statistical and Methodological Consulting</strong></h2>
                             <p>COS offers free statistical and methodological consulting to researchers to help them increase the reproducibility and replicability of their work. Consults are done over email and/or google hangouts. Email <a href='mailto:stats-consulting@cos.io?  subject=Statistics Questions'>stats-consulting@cos.io</a> with your questions. We aim to respond within 1-2 business days. Please include data, syntax, and output files, when applicable. Some examples of what we can help with: </p>
@@ -112,7 +112,7 @@
                     </div>
                 <!-- END TAB 2 -->
                 <!-- START TAB 3 -->
-                    <div class="tab-pane" id="tab_3">
+                    <div class="tab-pane" id="Webinars">
                         <div class="container">
                             <h2><strong>Webinars</strong></h2>
                             <p>We offer a series of free, regularly scheduled webinars on topics related to open, reproducible research. See our calendar below to check out the current topics and schedule, and to RSVP for upcoming webinbars. Webinars vary in length from 30-60 minutes depending on the subject, and the calendar is updated regularly as we add topics. Past webinars can be viewed on <a href="https://www.youtube.com/channel/UCGPlVf8FsQ23BehDLFrQa-g">our youtube channel.</a> </p>
@@ -124,7 +124,7 @@
 
                 <!-- END TAB 3 -->
                 <!-- START TAB 4 -->
-                    <div class="tab-pane" id="tab_4">
+                    <div class="tab-pane" id="Workshops">
                         <div class = "container">
                             <h2><strong>Workshops</strong></h2>
                             <p> The Center offers free, hands-on workshops to teach researchers practical steps to increase the reproducibility and transparency of their work. The typical workshop lasts 3 hours and covers topics including:
@@ -242,6 +242,27 @@
             }
 
         });
+    </script>
+    <script>
+    // When the page loads, check the url and activate the tab that matches the url
+    $(document).ready(function(){
+        var href = window.location.hash;
+        if(href === ''){
+            href = '#theBigPicture';
+        }
+        var str = href.slice(1);
+        $('a[href="'+href+'"]').closest('li').addClass('active');
+        $('div[id="'+str+'"]').addClass('in active');
+    });
+    // On click, change the URL to match the href of the 'li a' being clicked
+    $('.change-url-tabbable li').on('click', function(){
+        var href = $(this).find('a').attr('href');
+        window.location.hash = href;
+    });
+    $("a[data-tab-destination]").on('click', function() {
+        var tab = $(this).attr('data-tab-destination');
+        $("#"+tab).click();
+    });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
