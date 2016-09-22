@@ -371,31 +371,38 @@ class NewsArticle(Page):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    news_title = models.CharField(max_length=255)
-    date = models.DateField("Post date")
-    intro = models.CharField(max_length=255)
-    body = RichTextField(blank=True)
 
-    search_fields = Page.search_fields + (
-        index.SearchField('title'),
-        index.SearchField('intro'),
-        index.SearchField('body'),
-    )
+    date = models.DateField("Post date")
+    intro = models.CharField(max_length=1000, blank=True)
+    body = RichTextField(blank=True)
+    external_link = models.CharField("External Article Link",max_length=255,blank=True)
 
     content_panels = Page.content_panels + [
-        FieldPanel('news_title'),
         FieldPanel('date'),
         ImageChooserPanel('main_image'),
         FieldPanel('intro'),
         FieldPanel('body'),
+        FieldPanel('external_link'),
     ]
+
+    def serve(self, request):
+        return render(request, self.template, {
+            'page':self,
+            'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
+        })
 
 
 class NewsIndexPage(Page):
-    intro = RichTextField(blank=True)
+    statement = models.CharField(blank=True, max_length=1000)
 
     content_panels = Page.content_panels + [
-        FieldPanel('intro', classname="full")
+        FieldPanel('statement', classname="full")
     ]
+
+    def serve(self, request):
+        return render(request, self.template, {
+            'page': self,
+            'newsArticles': NewsArticle.objects.all()
+        })
 
 
