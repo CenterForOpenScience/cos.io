@@ -50,6 +50,13 @@ COLUMN_CHOICES = [
     ('0', '0/12'),
 ]
 
+IMAGE_STYLE_CHOICES = [
+    ('max-width:225px;max-height:145px', 'small display'),
+    ('max_width:250px;max-height:250px', 'middle display'),
+    ('max_width:250px;max-height:250px;padding-top:20px', 'middle + padding display'),
+    ('height:auto', 'auto display'),
+]
+
 class GoogleMapBlock(blocks.StructBlock):
     address = blocks.CharBlock(required=True,max_length=255)
     map_zoom_level = blocks.CharBlock(default=14,required=True,max_length=3)
@@ -75,6 +82,17 @@ class TwitterBlock(blocks.StructBlock):
         template = 'common/blocks/twitter.html'
         icon = 'placeholder'
         label = 'Twitter Stream'
+
+
+class ImageCustomBlock(blocks.StructBlock):
+    main_image = ImageChooserBlock()
+    style = blocks.ChoiceBlock(choices=IMAGE_STYLE_CHOICES,default="(height:Auto)")
+    url = blocks.CharBlock(max_length=250, required=False)
+
+    class Meta:
+        template = 'common/blocks/image_custom_block.html'
+        icon = 'image'
+        label = 'Customed Image'
 
 
 class ThreeColumnBlock(blocks.StructBlock):
@@ -165,7 +183,8 @@ class TwoColumnBlock(blocks.StructBlock):
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('image', ImageChooserBlock()),
+            ('customed_image', ImageCustomBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -188,7 +207,8 @@ class TwoColumnBlock(blocks.StructBlock):
     right_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('image', ImageChooserBlock()),
+            ('customed_image', ImageCustomBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -385,6 +405,7 @@ class HomePage(Page):
         ('threecolumn', ThreeColumnBlock()),
         ('tab_index', TabIndexBlock()),
         ('tabcontainerblock', TabContainerBlock()),
+        ('customedimage', ImageCustomBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!'))
     ], null=True, blank=True)
 
