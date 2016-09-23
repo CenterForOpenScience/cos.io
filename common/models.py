@@ -212,7 +212,35 @@ class TwoColumnBlock(blocks.StructBlock):
         template = 'common/blocks/two_column_block.html'
         icon = 'placeholder'
         label = 'Two Columns'
- 
+
+
+class TabBlock(blocks.StructBlock):
+    id = blocks.CharBlock(required=True)
+    isActive = blocks.BooleanBlock(default=False, required=False)
+    container = blocks.StreamBlock([('two_column_block', TwoColumnBlock()), ('paragraph', blocks.RichTextBlock())])
+    class Meta:
+        template = 'common/blocks/tab_block.html'
+        icon = 'plus'
+        label = 'Tab'
+
+
+class TabContainerBlock(blocks.StructBlock):
+    tabs = blocks.StreamBlock([('tab', TabBlock())])
+    class Meta:
+        template = 'common/blocks/tabs_container_block.html'
+        icon = 'placeholder'
+        label = 'Tab Container'
+
+
+class TabIndexBlock(blocks.StructBlock):
+    tabsIndexes = blocks.StreamBlock([('tab_id', blocks.TextBlock(max_length=25))])
+
+    class Meta:
+        template = 'common/blocks/tab_index_block.html'
+        icon = 'list-ul'
+        label = "Tab index"
+
+
 @register_snippet
 class Person(ClusterableModel, index.Indexed):
     
@@ -355,6 +383,8 @@ class HomePage(Page):
         ('image', ImageChooserBlock()),
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
+        ('tab_index', TabIndexBlock()),
+        ('tabcontainerblock', TabContainerBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!'))
     ], null=True, blank=True)
 
