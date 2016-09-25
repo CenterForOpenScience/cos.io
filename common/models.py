@@ -57,6 +57,11 @@ IMAGE_STYLE_CHOICES = [
     ('height:auto', 'auto display'),
 ]
 
+PEOPLE_DISPLAY_CHOICES = [
+    ('concise', 'concise'),
+    ('detailed', 'detailed'),
+]
+
 class GoogleMapBlock(blocks.StructBlock):
     address = blocks.CharBlock(required=True,max_length=255)
     map_zoom_level = blocks.CharBlock(default=14,required=True,max_length=3)
@@ -86,13 +91,22 @@ class TwitterBlock(blocks.StructBlock):
 
 class ImageCustomBlock(blocks.StructBlock):
     main_image = ImageChooserBlock()
-    style = blocks.ChoiceBlock(choices=IMAGE_STYLE_CHOICES,default="(height:Auto)")
+    style = blocks.ChoiceBlock(choices=IMAGE_STYLE_CHOICES,default="height:auto")
     url = blocks.CharBlock(max_length=250, required=False)
 
     class Meta:
         template = 'common/blocks/image_custom_block.html'
         icon = 'image'
         label = 'Customed Image'
+
+class PeopleBlock(blocks.StructBlock):
+    displayStyle = blocks.ChoiceBlock(choices=PEOPLE_DISPLAY_CHOICES,default="concise")
+    tag = blocks.CharBlock(max_length=20)
+
+    class Meta:
+        template = 'common/blocks/people_block.html'
+        icon = 'group'
+        label = "PeopleBlock"
 
 
 class ThreeColumnBlock(blocks.StructBlock):
@@ -277,17 +291,15 @@ class Person(ClusterableModel, index.Indexed):
         related_name='+'
     )
 
-    other_info = StreamField([
-        ('position', blocks.TextBlock(max_legnth=140)),
-        ('term', blocks.TextBlock(max_length=9)),
-        ('linked_in', blocks.URLBlock()),
-        ('blog', blocks.PageChooserBlock()),
-        ('osf_profile', blocks.URLBlock()),
-        ('phone_number', blocks.IntegerBlock(min_value=0000000000, max_value=9999999999)),
-        ('email_address', blocks.EmailBlock()),
-        ('title', blocks.TextBlock(max_length=140)),
-        ('fave_food', blocks.TextBlock(max_length=45))
-    ])
+    title = models.CharField(max_length=140, blank=True)
+    position = models.CharField(max_length=140, blank=True)
+    term = models.CharField(blank=True, max_length=9)
+    linked_in = models.URLField(blank=True)
+    blog_url = models.URLField(blank=True)
+    osf_profile = models.URLField(blank=True)
+    phone_number = models.CharField(max_length=10, blank=True)
+    email_address = models.EmailField(blank=True)
+    favorite_food = models.CharField(max_length=140, blank=True)
 
     tags = TaggableManager(through='common.PersonTag', blank=True)
 
@@ -298,9 +310,17 @@ class Person(ClusterableModel, index.Indexed):
             FieldPanel('last_name'),
             FieldPanel('bio'),
             FieldPanel('tags'),
+            FieldPanel('title'),
+            FieldPanel('position'),
+            FieldPanel('term'),
+            FieldPanel('linked_in'),
+            FieldPanel('blog_url'),
+            FieldPanel('osf_profile'),
+            FieldPanel('phone_number'),
+            FieldPanel('email_address'),
+            FieldPanel('favorite_food'),
         ], heading='Basic Information'),
         ImageChooserPanel('photo'),
-        StreamFieldPanel('other_info')
     ]
     
     def __str__(self):
@@ -352,35 +372,6 @@ class Footer(models.Model):
         return super(Footer, self).save(*args, **kwargs)
 
 
-class PeoplePage(Page):
-
-    available_tags = models.ForeignKey(
-        'taggit.Tag',
-        null=True,
-        blank=True,
-        on_delete=models.SET_NULL,
-        related_name='+'
-    )
-
-    subtitle = models.CharField(default='untitled', max_length=30)
-    statement = models.CharField(max_length=1000)
-    display_style = models.CharField(verbose_name='display style', max_length=16,
-                                     choices=(('concise', 'Concise Style'), ('detail', 'Detailed Style')))
-
-    content_panels = Page.content_panels + [
-        FieldPanel('subtitle'),
-        FieldPanel('statement'),
-        FieldPanel('available_tags'),
-        FieldPanel('display_style')
-    ]
-
-    def serve(self, request):
-        return render(request, self.template, {
-            'page': self,
-            'people': Person.objects.filter(tags__name=self.available_tags)
-        })
-
-
 class HomePage(Page):
 
     content = StreamField([
@@ -406,12 +397,19 @@ class HomePage(Page):
         ('tab_index', TabIndexBlock()),
         ('tabcontainerblock', TabContainerBlock()),
         ('customedimage', ImageCustomBlock()),
-        ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!'))
+        ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+        ('people_block', PeopleBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
         StreamFieldPanel('content'),
     ]
+
+    def serve(self, request):
+        return render(request, self.template, {
+            'page': self,
+            'people': Person.objects.all().order_by('last_name'),
+        })
 
 
 class NewsArticle(Page):
