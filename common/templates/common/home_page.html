@@ -16,6 +16,8 @@
                         {% for b in page.content %}
                             {% if b.block_type == 'heading' %}
                                 <h1><strong>{{ b.value }}</strong></h1>
+                            {% elif b.block_type == 'statement' %}
+                                <p class="lead">{{ b.value}}</p>
                             {% else %}
                                 {% include_block b %}
                             {% endif %}
