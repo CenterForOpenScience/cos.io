@@ -1,0 +1,19 @@
+{% load wagtailimages_tags %}
+{% load static %}
+
+<div class="service-box-v1">
+    {% image article.main_image original as main_image%}
+        {% if article.body %}
+            <a href="..{{ article.url }}">
+        {% else %}
+            <a href="{{article.external_link}}">
+        {% endif %}
+        <img src={{ main_image.url }} width="125">
+    <h2 class="text-left">{{ article.title }}</h2>
+    {% if article.intro %}
+        <p class="text-left">{{ article.date }} | {{ article.intro }}</p>
+    {% else %}
+        <p class="text-left">{{ article.date }} </p>
+    {% endif %}
+    </a>
+</div>

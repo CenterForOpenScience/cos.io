@@ -776,3 +776,9 @@ body {
     margin-left: 55px;
     max-width:250px;
 }
+
+img {
+    height: auto;
+    display: block;
+    margin: auto auto;
+}

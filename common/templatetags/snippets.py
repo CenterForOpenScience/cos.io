@@ -29,3 +29,9 @@ def person_concise(person):
     return {
         'person': person,
     }
+
+@register.inclusion_tag('common/news_article_box.html')
+def news_article_box(article):
+    return {
+        'article': article,
+    }

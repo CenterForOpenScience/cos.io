@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
+{% load wagtailimages_tags %}
+{% load static %}
+
+{% block body_class %} newsarticlepage {% endblock %}
+
+{% block content %}
+    {% header %}
+    <div class="page-container">
+        <!-- BEGIN CONTAINER -->
+            <div class="container min-height margin-top-50">
+                <div class="col-md-9">
+                    <br>
+                    <h1><strong>{{ page.title }}</strong></h1>
+                    <br>
+                    <p class="meta">{{ page.date }}</p>
+                    <br>
+                    {{ page.body|richtext }}
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-3" id="otherNews">
+                    <h3>Recent News</h3>
+                    {% for article in recent_articles %}
+                        {% if article.external_link %}
+                            <a href="{{ article.external_link}}">{{ article.title }}
+                        {% else %}
+                            <a href="{{ article.full_url }}">{{ article.title }}
+                        {% endif %}
+                        </a>
+                        <br><br>
+                    {% endfor %}
+                </div>
+            </div>
+    </div>
+    {% footer %}
+{% endblock %}

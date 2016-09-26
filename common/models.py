@@ -34,6 +34,34 @@ COLOUR_CHOICES = [
     ('blue', 'Blue'),
 ]
 
+COLUMN_CHOICES = [
+    ('12', '12/12'),
+    ('11', '11/12'),
+    ('10', '10/12'),
+    ('9', '9/12'),
+    ('8', '8/12'),
+    ('7', '7/12'),
+    ('6', '6/12'),
+    ('5', '5/12'),
+    ('4', '4/12'),
+    ('3', '3/12'),
+    ('2', '2/12'),
+    ('1', '1/12'),
+    ('0', '0/12'),
+]
+
+IMAGE_STYLE_CHOICES = [
+    ('max-width:225px;max-height:145px', 'small display'),
+    ('max_width:250px;max-height:250px', 'middle display'),
+    ('max_width:250px;max-height:250px;padding-top:20px', 'middle + padding display'),
+    ('height:auto', 'auto display'),
+]
+
+PEOPLE_DISPLAY_CHOICES = [
+    ('concise', 'concise'),
+    ('detailed', 'detailed'),
+]
+
 class GoogleMapBlock(blocks.StructBlock):
     address = blocks.CharBlock(required=True,max_length=255)
     map_zoom_level = blocks.CharBlock(default=14,required=True,max_length=3)
@@ -59,6 +87,27 @@ class TwitterBlock(blocks.StructBlock):
         template = 'common/blocks/twitter.html'
         icon = 'placeholder'
         label = 'Twitter Stream'
+
+
+class ImageCustomBlock(blocks.StructBlock):
+    main_image = ImageChooserBlock()
+    style = blocks.ChoiceBlock(choices=IMAGE_STYLE_CHOICES,default="height:auto")
+    url = blocks.CharBlock(max_length=250, required=False)
+
+    class Meta:
+        template = 'common/blocks/image_custom_block.html'
+        icon = 'image'
+        label = 'Customed Image'
+
+
+class PeopleBlock(blocks.StructBlock):
+    displayStyle = blocks.ChoiceBlock(choices=PEOPLE_DISPLAY_CHOICES,default="concise")
+    tag = blocks.CharBlock(max_length=20)
+
+    class Meta:
+        template = 'common/blocks/people_block.html'
+        icon = 'group'
+        label = "PeopleBlock"
 
 
 class CenteredTextBlock(blocks.StructBlock):
@@ -156,10 +205,13 @@ class ThreeColumnBlock(blocks.StructBlock):
 class TwoColumnBlock(blocks.StructBlock):
     
     background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
+    left_column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES,default="6")
+    right_column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES, default="6")
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('image', ImageChooserBlock()),
+            ('customed_image', ImageCustomBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -183,7 +235,8 @@ class TwoColumnBlock(blocks.StructBlock):
     right_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock(template='common/blocks/image.html')),
+            ('image', ImageChooserBlock()),
+            ('customed_image', ImageCustomBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -208,7 +261,35 @@ class TwoColumnBlock(blocks.StructBlock):
         template = 'common/blocks/two_column_block.html'
         icon = 'placeholder'
         label = 'Two Columns'
- 
+
+
+class TabBlock(blocks.StructBlock):
+    id = blocks.CharBlock(required=True)
+    isActive = blocks.BooleanBlock(default=False, required=False)
+    container = blocks.StreamBlock([('two_column_block', TwoColumnBlock()), ('paragraph', blocks.RichTextBlock())])
+    class Meta:
+        template = 'common/blocks/tab_block.html'
+        icon = 'plus'
+        label = 'Tab'
+
+
+class TabContainerBlock(blocks.StructBlock):
+    tabs = blocks.StreamBlock([('tab', TabBlock())])
+    class Meta:
+        template = 'common/blocks/tabs_container_block.html'
+        icon = 'placeholder'
+        label = 'Tab Container'
+
+
+class TabIndexBlock(blocks.StructBlock):
+    tabsIndexes = blocks.StreamBlock([('tab_id', blocks.TextBlock(max_length=25))])
+
+    class Meta:
+        template = 'common/blocks/tab_index_block.html'
+        icon = 'list-ul'
+        label = "Tab index"
+
+
 @register_snippet
 class Person(ClusterableModel, index.Indexed):
     
@@ -225,17 +306,15 @@ class Person(ClusterableModel, index.Indexed):
         related_name='+'
     )
 
-    other_info = StreamField([
-        ('position', blocks.TextBlock(max_legnth=140)),
-        ('term', blocks.TextBlock(max_length=9)),
-        ('linked_in', blocks.URLBlock()),
-        ('blog', blocks.PageChooserBlock()),
-        ('osf_profile', blocks.URLBlock()),
-        ('phone_number', blocks.IntegerBlock(min_value=0000000000, max_value=9999999999)),
-        ('email_address', blocks.EmailBlock()),
-        ('title', blocks.TextBlock(max_length=140)),
-        ('fave_food', blocks.TextBlock(max_length=45))
-    ])
+    title = models.CharField(max_length=140, blank=True)
+    position = models.CharField(max_length=140, blank=True)
+    term = models.CharField(blank=True, max_length=9, help_text="Format:YYYY-YYYY")
+    linked_in = models.URLField(blank=True)
+    blog_url = models.URLField(blank=True)
+    osf_profile = models.URLField(blank=True)
+    phone_number = models.CharField(max_length=12, blank=True, help_text="Format:XXX-XXX-XXXX")
+    email_address = models.EmailField(blank=True)
+    favorite_food = models.CharField(max_length=140, blank=True)
 
     tags = TaggableManager(through='common.PersonTag', blank=True)
 
@@ -246,9 +325,17 @@ class Person(ClusterableModel, index.Indexed):
             FieldPanel('last_name'),
             FieldPanel('bio'),
             FieldPanel('tags'),
+            FieldPanel('title'),
+            FieldPanel('position'),
+            FieldPanel('term'),
+            FieldPanel('linked_in'),
+            FieldPanel('blog_url'),
+            FieldPanel('osf_profile'),
+            FieldPanel('phone_number'),
+            FieldPanel('email_address'),
+            FieldPanel('favorite_food'),
         ], heading='Basic Information'),
         ImageChooserPanel('photo'),
-        StreamFieldPanel('other_info')
     ]
     
     def __str__(self):
@@ -301,35 +388,6 @@ class Footer(models.Model):
         return super(Footer, self).save(*args, **kwargs)
 
 
-class PeoplePage(Page):
-
-    available_tags = models.ForeignKey(
-        'taggit.Tag',
-        null=True,
-        blank=True,
-        on_delete=models.SET_NULL,
-        related_name='+'
-    )
-
-    subtitle = models.CharField(default='untitled', max_length=30)
-    statement = models.CharField(max_length=1000)
-    display_style = models.CharField(verbose_name='display style', max_length=16,
-                                     choices=(('concise', 'Concise Style'), ('detail', 'Detailed Style')))
-
-    content_panels = Page.content_panels + [
-        FieldPanel('subtitle'),
-        FieldPanel('statement'),
-        FieldPanel('available_tags'),
-        FieldPanel('display_style')
-    ]
-
-    def serve(self, request):
-        return render(request, self.template, {
-            'page': self,
-            'people': Person.objects.filter(tags__name=self.available_tags)
-        })
-
-
 class HomePage(Page):
 
     content = StreamField([
@@ -352,11 +410,65 @@ class HomePage(Page):
         ('image', ImageChooserBlock()),
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
+        ('tab_index', TabIndexBlock()),
+        ('tabcontainerblock', TabContainerBlock()),
+        ('customedimage', ImageCustomBlock()),
+        ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+        ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
-        ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!'))
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
         StreamFieldPanel('content'),
     ]
+
+    def serve(self, request):
+        return render(request, self.template, {
+            'page': self,
+            'people': Person.objects.all().order_by('last_name'),
+        })
+
+
+class NewsArticle(Page):
+    main_image = models.ForeignKey(
+        'wagtailimages.Image',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+
+    date = models.DateField("Post date")
+    intro = models.CharField(max_length=1000, blank=True)
+    body = RichTextField(blank=True)
+    external_link = models.CharField("External Article Link",max_length=255,blank=True)
+
+    content_panels = Page.content_panels + [
+        FieldPanel('date'),
+        ImageChooserPanel('main_image'),
+        FieldPanel('intro'),
+        FieldPanel('body'),
+        FieldPanel('external_link'),
+    ]
+
+    def serve(self, request):
+        return render(request, self.template, {
+            'page':self,
+            'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
+        })
+
+
+class NewsIndexPage(Page):
+    statement = models.CharField(blank=True, max_length=1000)
+
+    content_panels = Page.content_panels + [
+        FieldPanel('statement', classname="full")
+    ]
+
+    def serve(self, request):
+        return render(request, self.template, {
+            'page': self,
+            'newsArticles': NewsArticle.objects.all()
+        })
+
 

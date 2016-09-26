@@ -1,0 +1,11 @@
+<ul class = 'nav nav-tabs'>
+    {% for index in value.tabsIndexes %}
+        {% if forloop.counter == 1 %}
+            <li class="active">
+        {% else %}
+        <li class>
+        {% endif %}
+        <a href="#{{ index }}" data-toggle="tab">{{ index }}</a>
+    </li>
+    {% endfor %}
+</ul>

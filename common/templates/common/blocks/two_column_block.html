@@ -1,6 +1,7 @@
-{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
 
-<div class='contain row'>
-    <div class='col-md-6'>{{ value.left_column }}</div>
-    <div class='col-md-6'>{{ value.right_column }}</div>
+<div class='row img-row'>
+    <div class='col-md-{{ value.left_column_size }}' >{{ value.left_column }}</div>
+    <div class='col-md-{{ value.right_column_size }}'>{{ value.right_column }}</div>
 </div>
+</br>
