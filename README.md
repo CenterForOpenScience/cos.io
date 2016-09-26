@@ -10,6 +10,8 @@
     - `brew install postgres`
     - `brew services start postgres`
     - ``createdb `whoami` ``
+    - You'll need to create a `website/settings/local.py` to instruct django on how to connect to this postgres database.
+    - Theres is an example of how the `DATABASES` setting would look in website/settings/base.py
     - the name of the database will your username
     - you should have all privileges granted
     - your database's password will be the same as your user account's

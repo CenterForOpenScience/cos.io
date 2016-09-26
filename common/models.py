@@ -99,6 +99,7 @@ class ImageCustomBlock(blocks.StructBlock):
         icon = 'image'
         label = 'Customed Image'
 
+
 class PeopleBlock(blocks.StructBlock):
     displayStyle = blocks.ChoiceBlock(choices=PEOPLE_DISPLAY_CHOICES,default="concise")
     tag = blocks.CharBlock(max_length=20)
@@ -107,6 +108,15 @@ class PeopleBlock(blocks.StructBlock):
         template = 'common/blocks/people_block.html'
         icon = 'group'
         label = "PeopleBlock"
+
+
+class CenteredTextBlock(blocks.StructBlock):
+    text = blocks.RichTextBlock()
+
+    class Meta:
+        template = 'common/blocks/centered_text.html'
+        icon = 'openquote'
+        label = 'Centered Text Block'
 
 
 class ThreeColumnBlock(blocks.StructBlock):
@@ -127,13 +137,14 @@ class ThreeColumnBlock(blocks.StructBlock):
                         ('book', 'book'),
                         ('download', 'download'),
                     ])),
-                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('topic', blocks.CharBlock(required=True, max_length=35)),
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     center_column = blocks.StreamBlock([
@@ -151,13 +162,14 @@ class ThreeColumnBlock(blocks.StructBlock):
                         ('book', 'book'),
                         ('download', 'download'),
                     ])),
-                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('topic', blocks.CharBlock(required=True, max_length=35)),
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-right', label='Center column content', classname='col4')
     
     right_column = blocks.StreamBlock([
@@ -175,13 +187,14 @@ class ThreeColumnBlock(blocks.StructBlock):
                         ('book', 'book'),
                         ('download', 'download'),
                     ])),
-                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('topic', blocks.CharBlock(required=True, max_length=35)),
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -210,12 +223,13 @@ class TwoColumnBlock(blocks.StructBlock):
                         ('book', 'book'),
                         ('download', 'download'),
                     ])),
-                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('topic', blocks.CharBlock(required=True, max_length=35)),
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     right_column = blocks.StreamBlock([
@@ -234,12 +248,13 @@ class TwoColumnBlock(blocks.StructBlock):
                         ('book', 'book'),
                         ('download', 'download'),
                     ])),
-                    ('topic', blocks.CharBlock(required=True, max_length=30)),
+                    ('topic', blocks.CharBlock(required=True, max_length=35)),
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
+            ('centered_text', CenteredTextBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -293,11 +308,11 @@ class Person(ClusterableModel, index.Indexed):
 
     title = models.CharField(max_length=140, blank=True)
     position = models.CharField(max_length=140, blank=True)
-    term = models.CharField(blank=True, max_length=9)
+    term = models.CharField(blank=True, max_length=9, help_text="Format:YYYY-YYYY")
     linked_in = models.URLField(blank=True)
     blog_url = models.URLField(blank=True)
     osf_profile = models.URLField(blank=True)
-    phone_number = models.CharField(max_length=10, blank=True)
+    phone_number = models.CharField(max_length=12, blank=True, help_text="Format:XXX-XXX-XXXX")
     email_address = models.EmailField(blank=True)
     favorite_food = models.CharField(max_length=140, blank=True)
 
@@ -348,6 +363,7 @@ class Footer(models.Model):
         ('google_map', GoogleMapBlock()),
         ('twitter_feed', TwitterBlock()),
         ('photo_stream', COSPhotoStreamBlock()),
+        ('centered_text', CenteredTextBlock()),
     ], null=True, blank=True)
 
     class Meta:
@@ -386,7 +402,7 @@ class HomePage(Page):
                         ('book', 'book'),
                         ('download', 'download'),
                     ])),
-            ('topic', blocks.CharBlock(required=True, max_length=30)),
+            ('topic', blocks.CharBlock(required=True, max_length=35)),
             ('content', blocks.TextBlock(required=True, max_length=255)),
         ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
         ('heading', blocks.CharBlock(classname="full title")),
@@ -399,6 +415,7 @@ class HomePage(Page):
         ('customedimage', ImageCustomBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
+        ('centered_text', CenteredTextBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
