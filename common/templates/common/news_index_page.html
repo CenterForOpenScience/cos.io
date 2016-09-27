@@ -15,11 +15,11 @@
                 <h1><strong>{{ page.title }}</strong></h1>
                 <p class="lead">{{ page.statement }}</p>
                 <div class="loading-msg text-center">
-                    <img alt="spinner" src="https://cosio.s3.amazonaws.com/images/spinner.original.png">
+                    <img alt="spinner" src="/static/img/spinner.gif">
 
                     <p>Loading news</p>
                 </div>
-                <div class="margin-bottom-20 grid" style="display:none">
+                <div class="margin-bottom-20 grid" style="display: none">
                     {% for article in newsArticles %}
                         {% news_article_box article %}
                     {% endfor %}
@@ -42,6 +42,7 @@
     <script type="text/javascript">
             jQuery(document).ready(function() {
                 App.init();
+
             });
             jQuery(window).on('load', function(){
                 $('.loading-msg').hide();
