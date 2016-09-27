@@ -27,6 +27,7 @@ from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 from modelcluster.contrib.taggit import ClusterTaggableManager
 
+import pdb
 
 COLOUR_CHOICES = [
     ('white', 'White'),
@@ -58,7 +59,8 @@ IMAGE_STYLE_CHOICES = [
 ]
 
 PEOPLE_DISPLAY_CHOICES = [
-    ('concise', 'concise'),
+    ('concise-team', 'concise-team'),
+    ('concise-ambassador', 'concise-ambassador'),
     ('detailed', 'detailed'),
 ]
 
@@ -202,6 +204,51 @@ class ThreeColumnBlock(blocks.StructBlock):
         icon = 'placeholder'
         label = 'Three Columns'
 
+
+class TabBlockInColumn(blocks.StructBlock):
+    id = blocks.CharBlock(required=True)
+    isActive = blocks.BooleanBlock(default=False, required=False)
+    container = blocks.StreamBlock([
+        ('paragraph', blocks.RichTextBlock()),
+        ('people_block', PeopleBlock()),
+    ])
+
+    class Meta:
+        template = 'common/blocks/tab_block.html'
+        icon = 'plus'
+        label = 'Tab'
+
+
+class TabContainerBlockInColumn(blocks.StructBlock):
+    tabs = blocks.StreamBlock([('tab', TabBlockInColumn())])
+    class Meta:
+        template = 'common/blocks/tabs_container_block.html'
+        icon = 'placeholder'
+        label = 'Tab Container'
+
+
+class TabIndexEntryBlock(blocks.StructBlock):
+    id = blocks.TextBlock(max_length=25, required=True)
+    display = blocks.TextBlock(max_length=40, required=True)
+
+    class Meta:
+        icon = 'arrow-right'
+        label = 'Tab Entry'
+
+
+class TabIndexBlock(blocks.StructBlock):
+    display_style = blocks.ChoiceBlock(required=True, choices=[
+                        ('vertical', 'vertical'),
+                        ('horizontal', 'horizontal')])
+    tabsIndexes = blocks.StreamBlock([('tab', TabIndexEntryBlock()),
+                                      ])
+
+    class Meta:
+        template = 'common/blocks/tab_index_block.html'
+        icon = 'list-ul'
+        label = "Tab Indexing"
+
+
 class TwoColumnBlock(blocks.StructBlock):
     
     background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
@@ -229,7 +276,10 @@ class TwoColumnBlock(blocks.StructBlock):
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
+            ('tab_index', TabIndexBlock()),
             ('centered_text', CenteredTextBlock()),
+            ('raw_html', blocks.RawHTMLBlock(
+                    help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     right_column = blocks.StreamBlock([
@@ -254,7 +304,10 @@ class TwoColumnBlock(blocks.StructBlock):
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
+            ('embedded_tab_container', TabContainerBlockInColumn()),
             ('centered_text', CenteredTextBlock()),
+            ('raw_html', blocks.RawHTMLBlock(
+                help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -266,7 +319,11 @@ class TwoColumnBlock(blocks.StructBlock):
 class TabBlock(blocks.StructBlock):
     id = blocks.CharBlock(required=True)
     isActive = blocks.BooleanBlock(default=False, required=False)
-    container = blocks.StreamBlock([('two_column_block', TwoColumnBlock()), ('paragraph', blocks.RichTextBlock())])
+    container = blocks.StreamBlock([
+        ('two_column_block', TwoColumnBlock()),
+        ('paragraph', blocks.RichTextBlock()),
+        ('people_block', PeopleBlock()),
+    ])
     class Meta:
         template = 'common/blocks/tab_block.html'
         icon = 'plus'
@@ -279,15 +336,6 @@ class TabContainerBlock(blocks.StructBlock):
         template = 'common/blocks/tabs_container_block.html'
         icon = 'placeholder'
         label = 'Tab Container'
-
-
-class TabIndexBlock(blocks.StructBlock):
-    tabsIndexes = blocks.StreamBlock([('tab_id', blocks.TextBlock(max_length=25))])
-
-    class Meta:
-        template = 'common/blocks/tab_index_block.html'
-        icon = 'list-ul'
-        label = "Tab index"
 
 
 @register_snippet
@@ -337,7 +385,10 @@ class Person(ClusterableModel, index.Indexed):
         ], heading='Basic Information'),
         ImageChooserPanel('photo'),
     ]
-    
+
+    class Meta:
+        ordering = ['last_name']
+
     def __str__(self):
         return '{self.last_name}, {self.first_name}'.format(self=self)
 
@@ -406,6 +457,7 @@ class HomePage(Page):
             ('content', blocks.TextBlock(required=True, max_length=255)),
         ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
         ('heading', blocks.CharBlock(classname="full title")),
+        ('statement', blocks.CharBlock()),
         ('paragraph', blocks.RichTextBlock()),
         ('image', ImageChooserBlock()),
         ('twocolumn', TwoColumnBlock()),
@@ -425,7 +477,7 @@ class HomePage(Page):
     def serve(self, request):
         return render(request, self.template, {
             'page': self,
-            'people': Person.objects.all().order_by('last_name'),
+            'people': Person.objects.all(),
         })
 
 

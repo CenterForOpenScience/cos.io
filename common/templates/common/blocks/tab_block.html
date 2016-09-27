@@ -5,5 +5,5 @@
 {% else %}
     <div class="tab-pane" id="{{ self.id }}">
 {% endif %}
-        {{ self.container }}
+        {% include_block self.container %}
     </div>

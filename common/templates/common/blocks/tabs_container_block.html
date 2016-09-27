@@ -2,7 +2,7 @@
 
 <div class="tab-content">
     {% for tab in value.tabs %}
-    {{ tab }}
+    {% include_block tab %}
     {% endfor %}
 </div>
 </br>

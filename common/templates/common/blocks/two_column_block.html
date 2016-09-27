@@ -1,7 +1,7 @@
 {% load wagtailcore_tags snippets %}
 
 <div class='row img-row'>
-    <div class='col-md-{{ value.left_column_size }}' >{{ value.left_column }}</div>
-    <div class='col-md-{{ value.right_column_size }}'>{{ value.right_column }}</div>
+    <div class='col-md-{{ value.left_column_size }}' >{% include_block  value.left_column %}</div>
+    <div class='col-md-{{ value.right_column_size }}'>{% include_block value.right_column %} </div>
 </div>
 </br>
