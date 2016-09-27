@@ -211,6 +211,9 @@ class TabBlockInColumn(blocks.StructBlock):
     container = blocks.StreamBlock([
         ('paragraph', blocks.RichTextBlock()),
         ('people_block', PeopleBlock()),
+        ('raw_html', blocks.RawHTMLBlock(
+            help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+
     ])
 
     class Meta:
