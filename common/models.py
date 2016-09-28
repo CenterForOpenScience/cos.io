@@ -27,41 +27,6 @@ from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 from modelcluster.contrib.taggit import ClusterTaggableManager
 
-# test
-
-from django.http import HttpResponse
-
-from wagtail.wagtailcore import hooks
-
-from wagtail.wagtailadmin import widgets as wagtailadmin_widgets
-
-@hooks.register('register_page_listing_buttons')
-def page_listing_buttons(page, page_perms, is_parent=False):
-    yield wagtailadmin_widgets.PageListingButton(
-        'A page listing button',
-        '/goes/to/a/url/',
-        priority=10
-    )
-
-@hooks.register('register_page_listing_buttons')
-def page_listing_buttons(page, page_perms, is_parent=False):
-    yield wagtailadmin_widgets.PageListingButton(
-        'A page listing button',
-        '/goes/to/a/url/',
-        priority=10
-    )
-
-
-class UserbarPuppyLinkItem(object):
-    def render(self, request):
-        return '<li><a href="http://cuteoverload.com/tag/puppehs/" ' \
-            + 'target="_parent" class="action icon icon-wagtail">Puppies!</a></li>'
-
-@hooks.register('construct_wagtail_userbar')
-def add_puppy_link_item(request, items):
-    return items.append( UserbarPuppyLinkItem() )
-
-#test
 
 COLOUR_CHOICES = [
     ('white', 'White'),
