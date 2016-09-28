@@ -67,4 +67,22 @@ $(document).ready(function () {
         $(this).parent().prev().toggle();
         return false;
     });
+
+    $('.panel-heading').on('click', function(){
+            var el = $(this);
+            if(el.parents('.panel').find('.panel-collapse').hasClass('collapse')){
+                el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-down"></span>');
+                el.siblings('.panel-collapse').collapse('show');
+            } else {
+                el.find('.chevron').html('<span class="glyphicon glyphicon-chevron-right"></span>');
+                el.siblings('.panel-collapse').collapse('hide');
+            }
+    });
+
+    $(document).ready(function () {
+        location.hash && $(location.hash + '.collapse').collapse('show');
+    });
+
+
 })
+
