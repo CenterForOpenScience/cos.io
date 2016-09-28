@@ -28,7 +28,8 @@
 </head>
 
 
-<body class="{% block body_class %}{% endblock %}">
+<body class="{% block body_class %}
+{% endblock %}">
         {% wagtailuserbar %}
         {% block content %}{% endblock %}
         {# Global javascript #}<script type="text/javascript" src="{% static 'js/cosio.js' %}"></script>
