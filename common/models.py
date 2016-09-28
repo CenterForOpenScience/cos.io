@@ -64,6 +64,17 @@ PEOPLE_DISPLAY_CHOICES = [
     ('detailed', 'detailed'),
 ]
 
+
+class HeroBlock(blocks.StructBlock):
+    image = ImageChooserBlock(required=True)
+    description = blocks.RichTextBlock(required=True)
+
+    class Meta:
+        template = 'common/blocks/hero_block.html'
+        icon = 'image'
+        label = 'Hero Block'
+
+
 class GoogleMapBlock(blocks.StructBlock):
     address = blocks.CharBlock(required=True,max_length=255)
     map_zoom_level = blocks.CharBlock(default=14,required=True,max_length=3)
@@ -471,6 +482,7 @@ class HomePage(Page):
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
+        ('hero_block', HeroBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
