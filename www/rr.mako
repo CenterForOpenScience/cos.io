@@ -90,17 +90,18 @@
                                         <li><a href="http://www.tandfonline.com/action/authorSubmission?journalCode=rrsp20&page=instructions#.VEgaB-cdUU8">Comprehensive Results in Social Psychology</a></li>
                                         <li><a href="http://cdn.elsevier.com/promis_misc/PROMIS%20pub_idt_CORTEX%20Guidelines_RR_29_04_2013.pdf">Cortex</a> (<a href="https://dl.dropboxusercontent.com/u/15691907/Chambers_2013b_Cortex.pdf">Editorial</a>)</li>
                                         <li><a href="http://cdn.elsevier.com/promis_misc/DAD_RR_GL_final.pdf">Drug and Alcohol Dependence</a> (<a href="https://dl.dropboxusercontent.com/u/15691907/DAD_RegisteredReports_Editorial.pdf">Editorial</a>)</li>
-                                        <li>European Journal of Neuroscience (<a target="_blank" href="https://twitter.com/JohnnyFoxe/status/656789554481991680">Announcement</a>) --Details to follow--</li>
+                                        <li>European Journal of Neuroscience (<a target="_blank" href="https://twitter.com/JohnnyFoxe/status/656789554481991680">Announcement</a>) <i>Details to follow</i></li>
                                         <li><a target="_blank" href="https://us.hogrefe.com/fileadmin/user_upload/global/journals/Hogrefe_Publishing/Experimental_Psychology/Zea_INstructions_extended_final.pdf">Experimental Psychology</a></li>
                                         <li><a href="http://cdn.elsevier.com/promis_misc/Guidelines_Registered_Reports_HMS.pdf">Human Movement Science</a> (<a href="https://dl.dropboxusercontent.com/u/15691907/1-s2.0-S0167945715001414-main.pdf">Editorial</a>)</li>
                                         <li><a href="http://cdn.elsevier.com/promis_misc/Guidelines_IJP.docx">International Journal of Psychophysiology</a> (<a href="http://www.sciencedirect.com/science/article/pii/S0167876016300381">Editorial</a>)</li>
                                         <li><a href="http://research.chicagobooth.edu/arc/journal-of-accounting-research/call-for-papers#simple2">Journal of Accounting Research</a> (<a href="https://research.chicagobooth.edu/~/media/9130C8D2A8D54E1598D704C8D9BF922E.pdf">Detailed Author Guidelines</a>)</li>
                                         <li><a target="_blank" href="https://osf.io/ep2hs/">Journal of Business and Psychology</a></li>
                                         <li><a href="http://jeps.efpsa.org/about/submissions/#Registered%20Reports">Journal of European Psychology Students</a> (<a href="http://jeps.efpsa.org/articles/10.5334/jeps.401/">Editorial</a>)</li>
-                                        <li>Journal of Experimental Political Science (<a href="https://dl.dropboxusercontent.com/u/15691907/10.1017%40XPS.2016.1.pdf">Editorial</a>) --Details to follow--</li>
+                                        <li>Journal of Experimental Political Science (<a href="https://dl.dropboxusercontent.com/u/15691907/10.1017%40XPS.2016.1.pdf">Editorial</a>) <i>Details to follow</i></li>
                                         <li><a target="_blank" href="https://us.hogrefe.com/fileadmin/user_upload/global/journals/Hogrefe_Publishing/Journal_of_Personnel_Psychology/pps_author_instructions_RegisteredReports_2016-01.pdf">Journal of Personnel Psychology</a> (<a target="_blank" href="http://econtent.hogrefe.com/doi/abs/10.1027/1866-5888/a000140">Editorial</a>)</li>
                                         <li><a href="https://us.hogrefe.com/fileadmin/user_upload/global/journals/Hogrefe_Publishing/Journal_of_Media_Psychology/zmp_author_instructions_general_2016-05-06.pdf">Journal of Media Psychology</a> (<a href="https://dl.dropboxusercontent.com/u/15691907/JMP_2015_editorial.pdf">Editorial</a>)</li>
-                                        <li>Nature Human Behaviour --<a href="https://twitter.com/chrisdc77/status/743814766225928192">launching in 2017</a>, details to follow--</li>
+                                        <li>The Leadership Quarterly (<a target="_blank" href="http://www.journals.elsevier.com/the-leadership-quarterly/news/john-antonakis-looks-forward-to-taking-the-reins-in-2017">Announcement</a>)  <i>Details to follow</i></li>
+                                        <li>Nature Human Behaviour (<a href="https://twitter.com/chrisdc77/status/743814766225928192">Launching in 2017</a>) <i>Details to follow</i></li>
                                         <li><a href="https://m.ntr.oxfordjournals.org/content/early/2016/02/11/ntr.ntw031.full.pdf">Nicotine & Tobacco Research</a> <sup>†</sup></li>
                                         <li><a href="http://cdn.elsevier.com/promis_misc/NFS_Reviewer_Guidelines.pdf">NFS Journal</a> (<a href="http://www.journals.elsevier.com/nfs-journal/news/introducing-new-nfs-journal/">Announcement</a>)</li>
                                         <li><a href="http://www.psychologicalscience.org/index.php/replication">Perspectives on Psychological Science</a> <sup>†</sup></li>
@@ -210,7 +211,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="1">
                                                 <h4 class="panel-title">
-                                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    <a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                         <strong>1</strong> How do Registered Reports differ from clinical trial registration?
                                                     </a>
                                                 </h4>
@@ -226,7 +227,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="2">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>2</strong> Why are Registered Reports needed for grant-funded research? Isn’t the process of grant assessment in itself a form of pre-registration?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>2</strong> Why are Registered Reports needed for grant-funded research? Isn’t the process of grant assessment in itself a form of pre-registration?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="2">
@@ -241,7 +242,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="3">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>3</strong> The Registered Reports model is based on a naïve conceptualisation of the scientific method.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>3</strong> The Registered Reports model is based on a naïve conceptualisation of the scientific method.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="3">
@@ -255,7 +256,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="4">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><strong>4</strong> Registered Reports may not apply to my specific field therefore it is not a useful solution.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><strong>4</strong> Registered Reports may not apply to my specific field therefore it is not a useful solution.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="4">
@@ -270,7 +271,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="5">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><strong>5</strong> Where authors are unable to predict the likely effect size for an experiment, how can they report a power analysis as part of a Stage 1 submission?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><strong>5</strong> Where authors are unable to predict the likely effect size for an experiment, how can they report a power analysis as part of a Stage 1 submission?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="5">
@@ -284,7 +285,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="6">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><strong>6</strong> Setting a requirement of 90% for statistical power is unrealistic for expensive methods and would require impossibly large sample sizes. The Registered Reports format therefore disadvantages researchers who work with expensive techniques or who have limited resources.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><strong>6</strong> Setting a requirement of 90% for statistical power is unrealistic for expensive methods and would require impossibly large sample sizes. The Registered Reports format therefore disadvantages researchers who work with expensive techniques or who have limited resources.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="6">
@@ -298,7 +299,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="7">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><strong>7</strong> Some of my analyses will depend on the results, so how can I pre-register each step in detail?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><strong>7</strong> Some of my analyses will depend on the results, so how can I pre-register each step in detail?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="7">
@@ -312,7 +313,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="8">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><strong>8</strong> My aim is to publish a series of experiments but the design of the later experiments is contingent upon the outcomes of the earlier ones. Isn’t Registered Reports limited to single experiments?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><strong>8</strong> My aim is to publish a series of experiments but the design of the later experiments is contingent upon the outcomes of the earlier ones. Isn’t Registered Reports limited to single experiments?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="8">
@@ -327,7 +328,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="9">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><strong>9</strong> Much of my research stems from student projects or other brief grants, which operate over too short a time scale to be suitable for Registered Reports.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><strong>9</strong> Much of my research stems from student projects or other brief grants, which operate over too short a time scale to be suitable for Registered Reports.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="9">
@@ -341,7 +342,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="10">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><strong>10</strong> I have access to an existing data set that I have not yet analysed. Can I submit this proposed analysis as a Registered Report?.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><strong>10</strong> I have access to an existing data set that I have not yet analysed. Can I submit this proposed analysis as a Registered Report?.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="10">
@@ -356,7 +357,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="11">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"><strong>11</strong> Won’t Registered Reports limit data exploration and the reporting of unexpected results?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"><strong>11</strong> Won’t Registered Reports limit data exploration and the reporting of unexpected results?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="11">
@@ -370,7 +371,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="12">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve"><strong>12</strong> Registered Reports may become seen as the gold standard for scientific publishing, which would unfairly disadvantage exploratory or observational studies that cannot be pre-registered.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve"><strong>12</strong> Registered Reports may become seen as the gold standard for scientific publishing, which would unfairly disadvantage exploratory or observational studies that cannot be pre-registered.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="12">
@@ -385,7 +386,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="13">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen"><strong>13</strong> How will RRs incentivise direct replications?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen"><strong>13</strong> How will RRs incentivise direct replications?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="13">
@@ -399,7 +400,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="14">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen"><strong>14</strong> As a junior researcher, I need to publish in high-impact journals. Until the most prestigious journals in my field offer Registered Reports, why would I settle for publishing in a specialist journal?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen"><strong>14</strong> As a junior researcher, I need to publish in high-impact journals. Until the most prestigious journals in my field offer Registered Reports, why would I settle for publishing in a specialist journal?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="14">
@@ -412,7 +413,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="15">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen"><strong>15</strong> How will Registered Reports avoid becoming a dumping ground for negative or ambiguous findings that have little impact?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen"><strong>15</strong> How will Registered Reports avoid becoming a dumping ground for negative or ambiguous findings that have little impact?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseFifteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="15">
@@ -424,7 +425,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="16">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen"><strong>16</strong> If reviewers have only the proposed design and methods to assess, won’t they rely more on the reputation of the authors in judging study protocols? This could make life harder for scientists who are more junior or less influential.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen"><strong>16</strong> If reviewers have only the proposed design and methods to assess, won’t they rely more on the reputation of the authors in judging study protocols? This could make life harder for scientists who are more junior or less influential.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseSixteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="16">
@@ -436,7 +437,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="17">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen"><strong>17</strong> Sometimes a design is sound, but the data are uninterpretable because researchers run the experiment poorly. How will Registered Reports distinguish negative findings and unexpected results arising from poor practice from those that are genuine?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen"><strong>17</strong> Sometimes a design is sound, but the data are uninterpretable because researchers run the experiment poorly. How will Registered Reports distinguish negative findings and unexpected results arising from poor practice from those that are genuine?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseSeventeen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="17">
@@ -449,7 +450,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="18">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEighteen" aria-expanded="false" aria-controls="collapseEigheen"><strong>18</strong> The peer review process for Registered Reports includes two phases. Won’t this create too much additional work for reviewers?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEigheen"><strong>18</strong> The peer review process for Registered Reports includes two phases. Won’t this create too much additional work for reviewers?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseEighteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="18">
@@ -461,7 +462,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="19">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen"><strong>19</strong> Pre-registration of hypotheses and analysis plans is too arduous to be feasible for authors.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen"><strong>19</strong> Pre-registration of hypotheses and analysis plans is too arduous to be feasible for authors.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseNineteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="19">
@@ -473,7 +474,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="20">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="false" aria-controls="collapse20"><strong>20</strong> Stage 1 submissions must have institutional ethical approval to be considered for in-principle acceptance, and such ethical approval can be highly specific. This means that if a researcher has to change anything about their study design to obtain in-principle acceptance, the ethics application would need to be amended and resubmitted to the ethics committee. This back-and-forth will be too time-consuming and bureaucratic for many researchers.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20"><strong>20</strong> Stage 1 submissions must have institutional ethical approval to be considered for in-principle acceptance, and such ethical approval can be highly specific. This means that if a researcher has to change anything about their study design to obtain in-principle acceptance, the ethics application would need to be amended and resubmitted to the ethics committee. This back-and-forth will be too time-consuming and bureaucratic for many researchers.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="20">
@@ -486,7 +487,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="21">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="false" aria-controls="collapse21"><strong>21</strong> Can’t authors cheat the Registered Reports model by ‘pre-registering’ a protocol for a study they have already completed? </a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21"><strong>21</strong> Can’t authors cheat the Registered Reports model by ‘pre-registering’ a protocol for a study they have already completed? </a>
                                                 </h4>
                                             </div>
                                             <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="21">
@@ -498,7 +499,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="22">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22"><strong>22</strong> If publication is guaranteed in advance, why would researchers bother running their experiments carefully? This scheme could incentivize false negatives arising from sloppy research practices.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22"><strong>22</strong> If publication is guaranteed in advance, why would researchers bother running their experiments carefully? This scheme could incentivize false negatives arising from sloppy research practices.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="22">
@@ -510,7 +511,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="23">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="false" aria-controls="collapse23"><strong>23</strong> How will you prevent pre-registrations for studies that have no funding or approvals and will never actually happen?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23"><strong>23</strong> How will you prevent pre-registrations for studies that have no funding or approvals and will never actually happen?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="23">
@@ -522,7 +523,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="24">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour"><strong>24</strong> What is to stop authors with in-principle acceptance withdrawing their manuscript after getting striking results and resubmitting it to a higher impact journal?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour"><strong>24</strong> What is to stop authors with in-principle acceptance withdrawing their manuscript after getting striking results and resubmitting it to a higher impact journal?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwentyfour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="24">
@@ -534,7 +535,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="25">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyfive" aria-expanded="false" aria-controls="collapseTwentyfive"><strong>25</strong> Reviewers could steal my ideas at the pre-registration stage and scoop me.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwentyfive" aria-expanded="false" aria-controls="collapseTwentyfive"><strong>25</strong> Reviewers could steal my ideas at the pre-registration stage and scoop me.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwentyfive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="25">
@@ -547,7 +548,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="26">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentysix" aria-expanded="false" aria-controls="collapseTwentysix"><strong>26</strong> Are Registered Reports appropriate for my scientific discipline?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwentysix" aria-expanded="false" aria-controls="collapseTwentysix"><strong>26</strong> Are Registered Reports appropriate for my scientific discipline?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwentysix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="26">
@@ -559,7 +560,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="27">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyseven" aria-expanded="false" aria-controls="collapseTwentyseven"><strong>27</strong> Are you suggesting Registered Reports as a replacement for existing article formats?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwentyseven" aria-expanded="false" aria-controls="collapseTwentyseven"><strong>27</strong> Are you suggesting Registered Reports as a replacement for existing article formats?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwentyseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="27">
@@ -571,7 +572,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="28">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyeight" aria-expanded="false" aria-controls="collapseTwentyeight"><strong>28</strong> Some members of my editorial board are skeptical (or likely to be skeptical) of Registered Reports. How can I convince them?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwentyeight" aria-expanded="false" aria-controls="collapseTwentyeight"><strong>28</strong> Some members of my editorial board are skeptical (or likely to be skeptical) of Registered Reports. How can I convince them?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwentyeight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="28">
@@ -583,7 +584,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="29">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentynine" aria-expanded="false" aria-controls="collapseTwentynine"><strong>29</strong> Are Registered Reports suitable only for replication studies?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwentynine" aria-expanded="false" aria-controls="collapseTwentynine"><strong>29</strong> Are Registered Reports suitable only for replication studies?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwentynine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="29">
@@ -595,7 +596,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="30">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty"><strong>30</strong> I am concerned that Registered Reports may lower my journal's impact factor.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty"><strong>30</strong> I am concerned that Registered Reports may lower my journal's impact factor.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThirty" class="panel-collapse collapse" role="tabpanel" aria-labelledby="30">
@@ -607,7 +608,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="31">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtyone" aria-expanded="false" aria-controls="collapseThirtyone"><strong>31</strong> My publisher is concerned that Registered Reports will spend a long time in the editorial system and so inflate the statistics on handling times.</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirtyone" aria-expanded="false" aria-controls="collapseThirtyone"><strong>31</strong> My publisher is concerned that Registered Reports will spend a long time in the editorial system and so inflate the statistics on handling times.</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThirtyone" class="panel-collapse collapse" role="tabpanel" aria-labelledby="31">
@@ -619,7 +620,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="32">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtytwo" aria-expanded="false" aria-controls="collapseThirtytwo"><strong>32</strong> My publisher is unable to alter our manuscript handling software. How can I introduce Registered Reports using our existing systems?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirtytwo" aria-expanded="false" aria-controls="collapseThirtytwo"><strong>32</strong> My publisher is unable to alter our manuscript handling software. How can I introduce Registered Reports using our existing systems?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThirtytwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="32">
@@ -631,7 +632,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="33">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtythree" aria-expanded="false" aria-controls="collapseThirtythree"><strong>33</strong> How complicated and arduous is the implementation of Registered Reports?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirtythree" aria-expanded="false" aria-controls="collapseThirtythree"><strong>33</strong> How complicated and arduous is the implementation of Registered Reports?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThirtythree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="33">
@@ -643,7 +644,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="34">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtyfour" aria-expanded="false" aria-controls="collapseThirtyfour"><strong>34</strong> How should I triage initial submissions?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirtyfour" aria-expanded="false" aria-controls="collapseThirtyfour"><strong>34</strong> How should I triage initial submissions?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThirtyfour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="34">
@@ -656,7 +657,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="35">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtyfive" aria-expanded="false" aria-controls="collapseThirtyfive"><strong>35</strong> How many journals are currently offering Registered Reports?</a>
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirtyfive" aria-expanded="false" aria-controls="collapseThirtyfive"><strong>35</strong> How many journals are currently offering Registered Reports?</a>
                                                 </h4>
                                             </div>
                                             <div id="collapseThirtyfive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="35">
