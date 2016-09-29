@@ -29,6 +29,54 @@
 <h1><strong>Open Positions</strong></h1>
 <p class="lead">At the Center for Open Science, we believe that transparent and reproducible research is better research, leading to better outcomes. Our mission is to make that a reality throughout the world of scholarly investigation. We also believe in a fantastic work environment, awesome work-life balance, killer technology, and empowering our people to grow as professionals and people. Sound like you? Join us!</p>
 
+<div id="AccountingManager" class="panel-group">
+     <div class="panel panel-info">
+         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AccountingManager_heading">
+             <h4 class="panel-title">
+                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#AccountingManager" >
+                     Accounting Manager
+                 </a>
+             </h4>
+         </div>
+         <div id="AccountingManager" class="panel-collapse collapse">
+             <div class="panel-body">
+                 <dl class="dl-horizontal">
+                     <dt>Background</dt>
+                     <dd>
+                         <p>The Center for Open Science (COS) is seeking an experienced, detail-oriented, and self-starting individual to serve as the Accounting Manager for an energetic, non-profit, technology company. Opened in March of 2013, COS is a team of 70 and has raised nearly $26M in funding. The Accounting Manager will be responsible for managing all organizational accounting activities for COS, including the accounts for an annual operating budget of around $6 million and revenue streams from private foundations, government grants, and service contracts. This role will include oversight of all general ledger activity, budgeting, financial reporting, policy and systems development. This is a critical role on the team and requires attention to detail along with an ability to see the big picture.</p>
+                     </dd>
+                     <dt> Responsibilities</dt>
+                     <dd>
+                         <p>The Accounting Manager will be responsible for managing all organizational accounting activities for COS. This individual will be responsible for maintenance and oversight of general ledger activity posted by bookkeeping staff, processing payroll, and serving as the primary contact for all financial audits. The Accounting Manager will support the broader COS mission by providing consistent and timely monthly financial statements to the Leadership Team, maintaining and implementing the annual budget, coordinating with other team members on effort reporting, and by developing and maintaining procedures to comply with legal and regulatory requirements. This individual may supervise other financial operations staff and will work regularly with other team members on all financial aspects of pre and post award grant management. The Accounting Manager will ensure organizational effectiveness and compliance as well as help set relevant policies and provide technical assistance as required. They will be a vital connector for the financial and grants operations of our organization; therefore, s/he must possess the ability to see and understand all points of view.</p>
+                     </dd>
+                     <dt>Skills</dt>
+                     <dd>
+                         <p>Extensive knowledge of accounting and finance. A bachelor’s or master’s degree in accounting or finance are required, along with 5-7 years of experience. Experience with non-profit, grants-based accounting, federal award management, and A-133 single audits is preferred. Demonstrated knowledge of not for profit GAAP. Ability to synthesize information and provide advice to researchers, administrators, faculty, and business managers. Ability to communicate and interact with staff and sponsors. Advanced proficiency with spreadsheets and financial math. Ability to access and present information to COS employees, sponsors and senior leaders. Understand the role of research funding in supporting the COS educational mission and strategic aims. </p>
+                     </dd>
+                      <dt>Notes</dt>
+                     <dd>
+                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its news section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                     </dd>
+                     <dt>Applying</dt>
+                     <dd>
+                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/8e984e85-cf42-4227-aef1-3e8ad9957aff" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                     </dd>
+                 </dl>
+             </div>
+         </div>
+     </div>
+</div>
+
 ## <div id="AdminstrativeAssistantIntern" class="panel-group">
 ##     <div class="panel panel-info">
 ##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AdminstrativeAssistantIntern_heading">
@@ -163,7 +211,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27'' monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -539,7 +587,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+                        <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -822,6 +870,55 @@
 ##        </div>
 ##   </div>
 ##</div>
+
+<div id="ProjectManagerDARPA" class="panel-group">
+     <div class="panel panel-info">
+         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectManagerDARPA_heading">
+             <h4 class="panel-title">
+                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#ProjectManagerDARPA" >
+                     Project Manager
+                 </a>
+             </h4>
+         </div>
+         <div id="ProjectManagerDARPA" class="panel-collapse collapse">
+             <div class="panel-body">
+                 <dl class="dl-horizontal">
+                     <dt>Background</dt>
+                     <dd>
+                         <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., Open Science Framework), fosters community standards for open practices, and conducts metascience research - science on scientific practices.  COS is now hiring a Project Manager to support an upcoming, major project under the <a href="http://www.darpa.mil/news-events/2016-03-04">Defense Advanced Research Projects Agency (DARPA) Next Generation Social Science (NGS2)</a> program. We are seeking a quantitatively-oriented post-doctoral Project Manager to manage the overall NGS2 project, ensure achievement of all milestones, manage timelines, support activities of the distributed teams, coordinate activities with the Technical Point of Contact, and collaborate with others to assess the overall impact of the approach. This individual should bring substantial training in research methodology, extremely strong social and organizational skills, action-orientation, and ability to identify and implement practical steps toward principled ideals.  This position is highly appropriate for recent or graduating PhD’s seeking to stay involved in scientific research and improve scientific practices.</p>
+                     </dd>
+                     <dt> Responsibilities</dt>
+                     <dd>
+                         <p>The Project Manager will manage COS’ efforts for the DARPA NGS2 project over the next 3.5 years. This project will entail working with many internal and external stakeholders to test and evaluate strategies for greater reproducibility. The Project Manager will work closely with many members of the COS team and be the point-of-contact for this project with DARPA program officers and other project teams.  COS is a start-up with a large portfolio of activities.  As such, this position is likely to evolve over time with new, challenging initiatives to increase openness, integrity, and reproducibility of research.</p>
+                     </dd>
+                     <dt>Skills</dt>
+                     <dd>
+                         <p>Substantial training and experience in scientific research and methodology; Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing and data analysis skills.  Skills in programming and web development are a plus.</p>
+                     </dd>
+                      <dt>Notes</dt>
+                     <dd>
+                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its news section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                     </dd>
+                     <dt>Applying</dt>
+                     <dd>
+                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/90ddd053-861c-4742-a35b-d62abe5c407c" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                     </dd>
+                 </dl>
+             </div>
+         </div>
+     </div>
+</div>
+
 ##<div id="ProjectManager" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectManager_heading">
@@ -1055,6 +1152,55 @@
 ##        </div>
 ##    </div>
 ##</div>
+
+<div id="ReproducibleTrainer" class="panel-group">
+     <div class="panel panel-info">
+         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ReproducibleTrainer_heading">
+             <h4 class="panel-title">
+                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                 <a  data-parent="#ReproducibleTrainer" >
+                     Reproducible and Open Practices Trainer
+                 </a>
+             </h4>
+         </div>
+         <div id="ReproducibleTrainer" class="panel-collapse collapse">
+             <div class="panel-body">
+                 <dl class="dl-horizontal">
+                     <dt>Background</dt>
+                     <dd>
+                         <p>The Center for Open Science (COS) develops free, open source tools to support the scientific workflow (i.e., <a href="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices.  COS is now hiring a Reproducible and Open Practices Trainer to support an upcoming, major project under the <a href="http://www.darpa.mil/news-events/2016-03-04">Defense Advanced Research Projects Agency (DARPA) Next Generation Social Science (NGS2)</a> program. We are seeking a quantitatively-oriented, passionate trainer with experience in open and transparent research practices to train, support, and foster open, reproducible research practices across the sciences. The trainer will work with project teams on use of the OSF in support of the NGS2 program objectives, and when time allows, will work with other COS training staff to support the Center’s efforts towards increasing OSF adoption by individual researchers and universities, as well as help current users take advantage of the full suite of OSF features for openness and reproducibility. All training and created materials are free and openly licensed. The trainer must have strong social and organizational skills, as well as the ability to communicate with researchers from a broad range of scientific domains.  This position is appropriate for recent or past Master’s students with past experience in curriculum development and training.</p>
+                     </dd>
+                     <dt> Responsibilities</dt>
+                     <dd>
+                         <p>The Reproducible and Open Practices Trainer will support COS’ training efforts for the DARPA NGS2 project over the next 3.5 years. This project will entail working with many internal and external stakeholders to test and evaluate strategies for greater reproducibility. The trainer will work closely with many members of the COS team and be the primary trainer for this project, working frequently with DARPA program officers and other project teams.  The trainer will provide active, hands-on consultation for open, transparent, and reproducible best practices in tools and research workflows. Training strategies might include short-term visits to project sites; lectures and training at conferences; virtual consulting and webinars; and development and maintenance of education materials and practical guides for distribution. Trainings will include open science, reproducibility practices, and open source research tools. The trainer will assist in forming and maintaining COS’s best practices for reproducible research, coordinate and grow our onsite and virtual training offerings, and collaborate with the whole COS team in making its infrastructure and products accessible, useful, and applicable to scientists across research disciplines.  </p>
+                     </dd>
+                     <dt>Skills</dt>
+                     <dd>
+                         <p>Passion for reproducible research and open tools; Experience in scientific research practices; Experience training on software tool and/or workflow methodologies; Extremely high social and communication skills; Exceptional organization and attention to detail; Service-oriented mindset; Diverse experience with technologies for data collection and analysis; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing skills. </p>
+                     </dd>
+                      <dt>Notes</dt>
+                     <dd>
+                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its news section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                     </dd>
+                     <dt>Applying</dt>
+                     <dd>
+                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/5d0c19f7-c31e-4136-ae95-ab96e04d6bb6" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                     </dd>
+                 </dl>
+             </div>
+         </div>
+     </div>
+</div>
+
 ## <div id="ReproducibleResearchEvangelist" class="panel-group">
 ##     <div class="panel panel-info">
 ##         <div class="panel-heading">
@@ -1246,7 +1392,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                        <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -1296,7 +1442,7 @@
                     </dd>
                     <dt>Benefits</dt>
                     <dd>
-                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                        <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
                     </dd>
                     <dt>Applying</dt>
                     <dd>
@@ -1306,73 +1452,73 @@
         </div>
     </div>
 </div>
-<div id="UXDesigner" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a data-parent="#UXDesigner" >
-                    UX Designer/Developer
-                </a>
-            </h4>
-        </div>
-        <div id="UXDesigner" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>The ideal candidate can work seamlessly with developers, product managers, and external partners to design and implement intuitive, and workable designs. You should have experience with responsive web design. Experience or interest in big data and data visualization is a big plus!.</p>
-                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Responsibilities</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Product design, code, and web pages</li>
-                            <li>Work closely with product to understand goals and metrics to improve product quality</li>
-                            <li>Iterate and refine UI and UX concepts for COS’s core products</li>
-                            <li>Take designs from conception to implementation with fellow developers</li>
-                            <li>Do rapid prototyping of new features</li>
-                            <li>Build high quality interfaces quickly and flexibly</li>
-                            <li>Write production ready CSS, HTML, and JavaScript</li>
-                            <li>Coordinate with API team to provide features needed</li>
-                            <li>Use APIs to connect to existing services and data</li>
-                            <li>Help fix bugs and continually improve our software</li>
-                        </ul>
-                    </dd>
-                    <dt>Skills</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Expertise in wireframing and prototyping techniques</li>
-                            <li>Expertise in hand-coded HTML, CSS and JavaScript</li>
-                            <li>Responsive design techniques</li>
-                            </ul>
-                    </dd>
-                    <dt>Preferred Skills</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Working knowledge of a server-side language </li>
-                            <li>Working with JavaScript SPA frameworks (e.g., Ember, React, Angular)</li>
-                            <li>Excellent time management skills</li>
-                            <li>Clear communication skills</li>
-                            <li>Big data visualization</li>
-                            </ul>
-                    </dd>
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/ace26dc6-1afa-4c22-b93a-98760faf4a27">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
+##<div id="UXDesigner" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner_heading">
+##            <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a data-parent="#UXDesigner" >
+##                    UX Designer/Developer
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="UXDesigner" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt>
+##                    <dd>
+##                        <p>The ideal candidate can work seamlessly with developers, product managers, and external partners to design and implement intuitive, and workable designs. You should have experience with responsive web design. Experience or interest in big data and data visualization is a big plus!.</p>
+##                        <p>The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS developers who are passionate about modern web and API practices (and, ideally, science) with expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to the sciences. Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
+##                    </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                    </dd>
+##                    <dt>Responsibilities</dt>
+##                    <dd>
+##                        <ul class="indent">
+##                            <li>Product design, code, and web pages</li>
+##                            <li>Work closely with product to understand goals and metrics to improve product quality</li>
+##                            <li>Iterate and refine UI and UX concepts for COS’s core products</li>
+##                            <li>Take designs from conception to implementation with fellow developers</li>
+##                            <li>Do rapid prototyping of new features</li>
+##                            <li>Build high quality interfaces quickly and flexibly</li>
+##                            <li>Write production ready CSS, HTML, and JavaScript</li>
+##                            <li>Coordinate with API team to provide features needed</li>
+##                            <li>Use APIs to connect to existing services and data</li>
+##                            <li>Help fix bugs and continually improve our software</li>
+##                        </ul>
+##                    </dd>
+##                    <dt>Skills</dt>
+##                    <dd>
+##                        <ul class="indent">
+##                            <li>Expertise in wireframing and prototyping techniques</li>
+##                            <li>Expertise in hand-coded HTML, CSS and JavaScript</li>
+##                            <li>Responsive design techniques</li>
+##                            </ul>
+##                    </dd>
+##                    <dt>Preferred Skills</dt>
+##                    <dd>
+##                        <ul class="indent">
+##                            <li>Working knowledge of a server-side language </li>
+##                            <li>Working with JavaScript SPA frameworks (e.g., Ember, React, Angular)</li>
+##                            <li>Excellent time management skills</li>
+##                            <li>Clear communication skills</li>
+##                            <li>Big data visualization</li>
+##                            </ul>
+##                    </dd>
+##                    <dt>Benefits</dt>
+##                    <dd>
+##                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/ace26dc6-1afa-4c22-b93a-98760faf4a27">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+##                </dl>
+##            </div>
+##        </div>
+##    </div>
+##</div>
 <div id="WebDesignIntern" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading">
