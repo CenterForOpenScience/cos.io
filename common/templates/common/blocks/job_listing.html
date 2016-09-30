@@ -1,0 +1,19 @@
+<div id="{{ self.job_title }}" class="panel-group">
+     <div class="panel panel-info">
+         <div class="panel-heading" data-toggle="collapse" href="#{{ self.job_title }}_heading">
+             <h4 class="panel-title">
+                 <span class="chevron"><span class="glyphicon glyphicon-chevron-right"></span></span>
+                 <a data-parent="#{{ self.job_title }}">
+                   {{ self.job_title }}
+                 </a>
+             </h4>
+         </div>
+         <div id="{{ self.job_title }}" class="panel-collapse collapse" style="height: 0px;">
+             <div class="panel-body">
+               <dl class="dl-horizontal">
+                 {{ self.description }}
+               </dl>
+             </div>
+         </div>
+     </div>
+</div>
