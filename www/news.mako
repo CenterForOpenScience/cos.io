@@ -35,6 +35,16 @@
 
             <div class="margin-bottom-20 grid" style="display:none">
                 
+                
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2016-09-14"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+                    <h2 class="text-left">Center for Open Science Internship Program Leads to Eight New Hires</h2>
+                    <p class="text-left">September 14, 2016 | The 2016 Summer Internship program produced eight new full-time hires who will join COS. These accomplished individuals will continue to help us expand our free products and services in support of the openness, integrity, and reproducibility of scientific research.  </p></a>
+                </div>
+
+
                 <div class="service-box-v1">
                     <a href=
                     "../pr/2016-08-31"><img src="../static/img/icons/cos_logo.png"
