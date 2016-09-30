@@ -1,0 +1,163 @@
+[
+    {
+        "id": 0,
+        "name": "<a href='http://www.datadryad.org'>Dryad</a>", 
+        "stage": "Data Repository",
+        "docs": "<a href='http://wiki.datadryad.org/Data_Access'>Data Access</a>",
+        "amount": "$8,000-$10,000"
+    },
+    {
+        "id": 1,
+        "name": "<a href='http://www.bitbucket.org/'>Bitbucket</a>", 
+        "stage": "Code Repository",
+        "docs": "<a href='https://confluence.atlassian.com/display/BITBUCKET/Use+the+Bitbucket+REST+APIs'>Use the Bitbucket REST APIs</a>",
+        "amount": "$8,000-$10,000"
+    },    
+    {
+        "id": 2,
+        "name": "<a href='http://www.zenodo.org/'>Zenodo</a>", 
+        "stage": "Data Repository",
+        "docs": "<a href='https://zenodo.org/dev'>API Documentation for Developers</a>",
+        "amount": "$8,000-$10,000"
+    },
+    {
+        "id": 3,
+        "name": "<a href='http://www.surveymonkey.com/'>Survey Monkey</a>", 
+        "stage": "Survey",
+        "docs": "<a href='https://developer.surveymonkey.com/'>Developer Getting Started</a>",
+        "amount": "Propose Amount"
+    },
+    {
+        "id": 4,
+        "name": "<a href='http://www.qualtrics.com/'>Qualtrics</a>", 
+        "stage": "Survey",
+        "docs": "<a href='http://www.qualtrics.com/university/researchsuite/developer-tools/api-integration/qualtrics-rest-api/'>Qualtrics REST API</a>",
+        "amount": "Propose Amount"
+    },
+    {
+        "id": 5,
+        "name": "<a href='http://www.dmptool.org/'>DMPTool</a>", 
+        "stage": "Data Management Planning",
+        "docs": "<a href='https://github.com/CDLUC3/dmptool/wiki/API'>DMPTool API</a>",
+        "amount": "Propose Amount"
+    },
+    {
+        "id": 6,
+        "name": "<a href='http://www.azure.microsoft.com/'>Azure</a>", 
+        "stage": "Computation",
+        "docs": "<a href='https://msdn.microsoft.com/en-us/library/azure/ee460799.aspx'>Service Management REST API Reference</a>",
+        "amount": "Propose Amount"
+    },
+        {
+        "id": 7,
+        "name": "<a href='http://www.onedrive.live.com/'>OneDrive</a>", 
+        "stage": "Storage",
+        "docs": "<a href='https://dev.onedrive.com/'>OneDrive API</a>",
+        "amount": "Propose Amount"
+    },
+    {
+        "id": 8,
+        "name": "<a href='http://www.mturk.com/'>Mturk</a>", 
+        "stage": "Data Collection",
+        "docs": "<a href='http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/Welcome.html'>Amazon Mechanical Turk API Reference</a>",
+        "amount": "Propose Amount"
+    },
+    {
+        "id": 9,
+        "name": "<a href='http://www.evernote.com/'>Evernote</a>", 
+        "stage": "Documentation",
+        "docs": "<a href='https://dev.evernote.com/doc/'>Evernote Developer Documentation</a>",
+        "amount": "Propose Amount"
+    },
+    {
+        "id": 10,
+        "name": "<a href='http://www.dataone.org/'>DataONE</a>", 
+        "stage": "Data Repository",
+        "docs": "<a href='http://jenkins-1.dataone.org/jenkins/job/API%20Documentation%20-%20trunk/ws/api-documentation/build/html/apis/'>API Documentation</a>",
+        "amount": "Propose Amount"
+    },
+    {
+        "id": 11,
+        "name": "<a href='http://www.altmetric.com/'>Altmetric</a>", 
+        "stage": "Metrics",
+        "docs": "<a href='http://api.altmetric.com/'>Altmetric API Reference</a>",
+        "amount": "Propose Amount"
+    },
+        {
+        "id": 12,
+        "name": "<a href='http://www.refworks.com/'>RefWorks</a>", 
+        "stage": "Reference Management",
+        "docs": "<a href='http://www.refworks.com/rwapireference/'>RefWorks REST Interface</a>",
+        "amount": "Propose Amount"
+    },
+        {
+        "id": 13,
+        "name": "<a href='http://www.irbshare.org/'>IRBshare</a>", 
+        "stage": "IRB",
+        "docs": "Documentation unknown",
+        "amount": "Propose Amount"
+    },
+        {
+        "id": 14,
+        "name": "<a href='http://www.owncloud.org'>ownCloud</a>", 
+        "stage": "Storage",
+        "docs": "<a href='https://doc.owncloud.org/server/7.0/developer_manual/app/api.html'>RESTful API</a>",
+        "amount": "Propose Amount"
+    },
+            {
+        "id": 15,
+        "name": "<a href='http://www.ipython.org/'>IPython</a>", 
+        "stage": "Analysis",
+        "docs": "<a href='https://ipython.org/ipython-doc/3/api/index.html'>The IPython API</a>",
+        "amount": "Propose Amount"
+    },
+            {
+        "id": 16,
+        "name": "<a href='http://www.ni.com/labview/'>NI LabView</a>", 
+        "stage": "Data Collection",
+        "docs": "<a href='http://www.ni.com/example/31466/en/'>File System Web Service LabVIEW API</a>",
+        "amount": "Propose Amount"
+    },
+            {
+        "id": 17,
+        "name": "<a href='http://www.grants.gov/'>Grants.gov</a>", 
+        "stage": "Grant Administration",
+        "docs": "<a href='http://www.grants.gov/web/grants/s2s/applicant/web-services.html'>Applicant Web Services</a>",
+        "amount": "Propose Amount"
+    },
+            {
+        "id": 18,
+        "name": "<a href='http://www.highwire.com/'>Highwire Press</a>", 
+        "stage": "Publishing",
+        "docs": "<a href='http://docs.highwire.com/apiv2/'>API Documentation</a>",
+        "amount": "Propose Amount"
+    },
+            {
+        "id": 19,
+        "name": "<a href='http://www.editorialmanager.com/'>Editorial Manager</a>", 
+        "stage": "Publishing",
+        "docs": "EM Ingest API - documentation unknown",
+        "amount": "Propose Amount"
+    },
+                {
+        "id": 20,
+        "name": "<a href='http://www.overleaf.com/'>Overleaf</a>", 
+        "stage": "Authoring",
+        "docs": "<a href='https://www.overleaf.com/devs'>Overleaf API</a>",
+        "amount": "Propose Amount"
+    },
+                    {
+        "id": 21,
+        "name": "<a href='http://www.oicweave.org/'>OIC Weave</a>", 
+        "stage": "Analysis",
+        "docs": "<a href='http://info.oicweave.org/projects/weave/wiki/JavaScript_API'>Weave Javascript API</a>",
+        "amount": "Propose Amount"
+    },
+                        {
+        "id": 22,
+        "name": "<a href='http://www.agaveapi.co/'>Agave Platform</a>", 
+        "stage": "Infrastructure",
+        "docs": "<a href='http://preview.agaveapi.co/documentation/'>REST API</a>",
+        "amount": "Propose Amount"
+    }
+]

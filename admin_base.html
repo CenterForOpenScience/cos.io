@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="{% static 'wagtailadmin/css/core.css' %}" type="text/css" />
     {% hook_output 'insert_global_admin_css' %}
 
-    {% block extra_css %}{% endblock %}
+
+    {% block extra_css %}
+    {% endblock %}
 {% endblock %}
 
 {% block branding_favicon %}
@@ -15,6 +17,13 @@
 {% endblock %}
 
 {% block js %}
+
+    <style>
+    .stream-menu li {
+        width: 100px;
+    }
+    </style>
+
     <script src="{% static 'wagtailadmin/js/vendor/jquery-2.2.1.js' %}"></script>
     <script src="{% static 'wagtailadmin/js/vendor/jquery-ui-1.10.3.js' %}"></script>
     <script src="{% static 'wagtailadmin/js/vendor/jquery.datetimepicker.js' %}"></script>
@@ -33,6 +42,8 @@
         <script type="text/javascript">
 
         $(document).ready(function () {
+
+
             
             $('#id_external_link').parent().parent().parent().parent().parent().parent().parent().css('display', "None");
             
@@ -53,6 +64,7 @@
                     $('#id_body').parent().parent().parent().parent().parent().parent().parent().css('display', "None");
                 }
             });
+
 
         })
 
