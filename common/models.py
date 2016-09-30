@@ -62,6 +62,18 @@ PEOPLE_DISPLAY_CHOICES = [
     ('concise-ambassador', 'concise-ambassador'),
     ('detailed', 'detailed'),
 ]
+
+
+class EmbedBlock(blocks.StructBlock):
+    url = blocks.CharBlock(required=True, max_length=255)
+    height = blocks.IntegerBlock(default=500)
+    width = blocks.IntegerBlock(default=750)
+
+    class Meta:
+        template = 'common/blocks/embed_block.html'
+        icon = 'image'
+        label = 'Embed Youtube Video'
+
 class SpotlightBubbleBlock(blocks.StructBlock):
     image = ImageChooserBlock()
     title = blocks.CharBlock(required=True, max_length=35)
@@ -176,6 +188,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
             ('centered_text', CenteredTextBlock()),
+            ('embed_block', EmbedBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
     center_column = blocks.StreamBlock([
@@ -201,6 +214,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
             ('centered_text', CenteredTextBlock()),
+            ('embed_block', EmbedBlock()),
         ], icon='arrow-right', label='Center column content', classname='col4')
     
     right_column = blocks.StreamBlock([
@@ -226,6 +240,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
             ('centered_text', CenteredTextBlock()),
+            ('embed_block', EmbedBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -306,6 +321,7 @@ class TwoColumnBlock(blocks.StructBlock):
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('tab_index', TabIndexBlock()),
             ('centered_text', CenteredTextBlock()),
+            ('embed_block', EmbedBlock()),
             ('raw_html', blocks.RawHTMLBlock(
                     help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ], icon='arrow-left', label='Left column content', classname='col4')
@@ -333,6 +349,7 @@ class TwoColumnBlock(blocks.StructBlock):
             ('twitter_feed', TwitterBlock()),
             ('embedded_tab_container', TabContainerBlockInColumn()),
             ('centered_text', CenteredTextBlock()),
+            ('embed_block', EmbedBlock()),
             ('raw_html', blocks.RawHTMLBlock(
                 help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ], icon='arrow-right', label='Right column content', classname='col4')
@@ -532,6 +549,7 @@ class HomePage(Page):
         ('hero_block', HeroBlock()),
         ('spotlight_block', SpotlightBlock()),
         ('job_block', JobsBlock()),
+        ('embed_block', EmbedBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
