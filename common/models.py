@@ -27,7 +27,6 @@ from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 from modelcluster.contrib.taggit import ClusterTaggableManager
 
-import pdb
 
 COLOUR_CHOICES = [
     ('white', 'White'),
@@ -271,8 +270,7 @@ class TwoColumnBlock(blocks.StructBlock):
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock()),
-            ('customed_image', ImageCustomBlock()),
+            ('customized_image', ImageCustomBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -287,9 +285,6 @@ class TwoColumnBlock(blocks.StructBlock):
                     ('topic', blocks.CharBlock(required=True, max_length=35)),
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
-            ('embedded_video', EmbedBlock()),
-            ('google_map', GoogleMapBlock()),
-            ('twitter_feed', TwitterBlock()),
             ('tab_index', TabIndexBlock()),
             ('centered_text', CenteredTextBlock()),
             ('raw_html', blocks.RawHTMLBlock(
@@ -299,8 +294,7 @@ class TwoColumnBlock(blocks.StructBlock):
     right_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock()),
-            ('customed_image', ImageCustomBlock()),
+            ('customized_image', ImageCustomBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -478,7 +472,7 @@ class HomePage(Page):
         ('threecolumn', ThreeColumnBlock()),
         ('tab_index', TabIndexBlock()),
         ('tabcontainerblock', TabContainerBlock()),
-        ('customedimage', ImageCustomBlock()),
+        ('customizedimage', ImageCustomBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
@@ -507,8 +501,8 @@ class NewsArticle(Page):
 
     date = models.DateField("Post date")
     intro = models.CharField(max_length=1000, blank=True)
-    body = RichTextField(blank=True)
-    external_link = models.CharField("External Article Link",max_length=255,blank=True)
+    body = RichTextField(blank=True, help_text='Fill this if the article is from COS')
+    external_link = models.CharField("External Article Link",help_text="Fill this if the article is NOT from COS", max_length=255,blank=True)
 
     content_panels = Page.content_panels + [
         FieldPanel('date'),
