@@ -354,18 +354,18 @@ body {
 
 /*Team Blocks*/
 
-.front-concise {
+.front-team {
     margin: 0px 0px !important;
 }
-.front-concise .thumbnail {
+.front-team .thumbnail {
     border: none;
     height: 380px !important;
 }
-.front-concise .thumbnail img {
+.front-team .thumbnail img {
     border-radius: 256px !important;
     max-height: 250px;
 }
-.front-concise h3 {
+.front-team h3 {
     margin:10px 0 12px;
     line-height:30px !important;
 }
@@ -775,10 +775,4 @@ body {
     margin-top: 15px;
     margin-left: 55px;
     max-width:250px;
-}
-
-img {
-    height: auto;
-    display: block;
-    margin: auto auto;
 }

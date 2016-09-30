@@ -17,6 +17,21 @@ body {
     padding: 35px;
 }
 
+.appeal .topic {
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.appeal .content {
+    text-align: justify;
+}
+
+.caps {
+    font-family: 'Raleway', sans-serif;
+}
 /*
 .header {
     padding: 0;
