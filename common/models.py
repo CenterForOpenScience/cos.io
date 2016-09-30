@@ -62,6 +62,25 @@ PEOPLE_DISPLAY_CHOICES = [
     ('concise-ambassador', 'concise-ambassador'),
     ('detailed', 'detailed'),
 ]
+class SpotlightBubbleBlock(blocks.StructBlock):
+    image = ImageChooserBlock()
+    title = blocks.CharBlock(required=True, max_length=35)
+    description = blocks.RichTextBlock(required=True)
+
+    class Meta:
+        template = 'common/blocks/spotlight_bubble_block.html'
+        icon = 'image'
+        label = 'Spotlight Bubble Block'
+
+class SpotlightBlock(blocks.StructBlock):
+    bubbles = blocks.StreamBlock([
+        ('bubble_block', SpotlightBubbleBlock()),
+    ])
+
+    class Meta:
+        template = 'common/blocks/spotlight_block.html'
+        icon = 'image'
+        label = 'Spotlight Block'
 
 
 class HeroBlock(blocks.StructBlock):
@@ -447,6 +466,40 @@ class Footer(models.Model):
         return super(Footer, self).save(*args, **kwargs)
 
 
+
+class JobBlurb(blocks.StructBlock):
+    title = blocks.CharBlock(required=True, max_length=255)
+    description = blocks.RichTextBlock()
+
+    class Meta:
+        template = 'common/blocks/job_blurb.html'
+        icon = 'placeholder'
+        label = 'Job Blurb Box'
+
+
+class JobListing(blocks.StructBlock):
+    job_title = blocks.CharBlock(required=True, max_length=255)
+    description = blocks.StreamBlock([
+        ('blurb', JobBlurb()),
+    ])
+
+    class Meta:
+        template = 'common/blocks/job_listing.html'
+        icon = 'placeholder'
+        label = 'Job listing'
+
+
+class JobsBlock(blocks.StructBlock):
+    jobs = blocks.StreamBlock([
+        ('job_listing', JobListing()),
+    ])
+
+    class Meta:
+        template = 'common/blocks/jobs_block.html'
+        icon = 'placeholder'
+        label = 'Jobs Block'
+
+
 class HomePage(Page):
 
     content = StreamField([
@@ -477,6 +530,8 @@ class HomePage(Page):
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
         ('hero_block', HeroBlock()),
+        ('spotlight_block', SpotlightBlock()),
+        ('job_block', JobsBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
@@ -531,5 +586,3 @@ class NewsIndexPage(Page):
             'page': self,
             'newsArticles': NewsArticle.objects.all()
         })
-
-
