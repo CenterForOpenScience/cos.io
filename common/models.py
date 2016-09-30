@@ -62,6 +62,25 @@ PEOPLE_DISPLAY_CHOICES = [
     ('concise-ambassador', 'concise-ambassador'),
     ('detailed', 'detailed'),
 ]
+class SpotlightBubbleBlock(blocks.StructBlock):
+    image = ImageChooserBlock()
+    title = blocks.CharBlock(required=True, max_length=35)
+    description = blocks.RichTextBlock(required=True)
+
+    class Meta:
+        template = 'common/blocks/spotlight_bubble_block.html'
+        icon = 'image'
+        label = 'Spotlight Bubble Block'
+
+class SpotlightBlock(blocks.StructBlock):
+    bubbles = blocks.StreamBlock([
+        ('bubble_block', SpotlightBubbleBlock()),
+    ])
+
+    class Meta:
+        template = 'common/blocks/spotlight_block.html'
+        icon = 'image'
+        label = 'Spotlight Block'
 
 
 class HeroBlock(blocks.StructBlock):
@@ -477,6 +496,7 @@ class HomePage(Page):
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
         ('hero_block', HeroBlock()),
+        ('spotlight_block', SpotlightBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
