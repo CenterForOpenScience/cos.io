@@ -43,4 +43,5 @@
 
 *&ast;When developing new pages on a live site, one should preview the page first.* 
 
-..
+## Addtional Note
+- admin_base.html is the base template for the admin page. It has been modified to customize the admin page. It does not belong to this directory. One MUST move it to the lib/python3.4/site-packages/wagtail/wagtailadmin/templates/wagtailadmin directory in the virtual environment and replace the original one with this modified one to show the change in the admin page.

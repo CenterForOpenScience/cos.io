@@ -270,7 +270,6 @@ class TwoColumnBlock(blocks.StructBlock):
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('image', ImageChooserBlock(template='common/blocks/image.html')),
             ('customized_image', ImageCustomBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
