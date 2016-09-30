@@ -64,6 +64,15 @@ PEOPLE_DISPLAY_CHOICES = [
 ]
 
 
+class ClearfixBlock(blocks.StructBlock):
+    class Meta:
+        template = 'common/blocks/clearfix_block.html'
+        icon = 'placeholder'
+        label = 'Clearfix Block'
+        help_text = ('When you need to make sure that your next element(s) is on a new line from '
+                     'the previous elements, use this little helper block.')
+
+
 class EmbedBlock(blocks.StructBlock):
     url = blocks.CharBlock(required=True, max_length=255)
     height = blocks.IntegerBlock(default=500)
@@ -188,6 +197,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('twitter_feed', TwitterBlock()),
             ('photo_stream', COSPhotoStreamBlock()),
             ('centered_text', CenteredTextBlock()),
+            ('clear_fixblock', ClearfixBlock()),
             ('embed_block', EmbedBlock()),
         ], icon='arrow-left', label='Left column content', classname='col4')
  
@@ -215,6 +225,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('photo_stream', COSPhotoStreamBlock()),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
+            ('clear_fixblock', ClearfixBlock()),
         ], icon='arrow-right', label='Center column content', classname='col4')
     
     right_column = blocks.StreamBlock([
@@ -241,6 +252,7 @@ class ThreeColumnBlock(blocks.StructBlock):
             ('photo_stream', COSPhotoStreamBlock()),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
+            ('clear_fixblock', ClearfixBlock()),
         ], icon='arrow-right', label='Right column content', classname='col4')
  
     class Meta:
@@ -322,6 +334,7 @@ class TwoColumnBlock(blocks.StructBlock):
             ('tab_index', TabIndexBlock()),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
+            ('clear_fixblock', ClearfixBlock()),
             ('raw_html', blocks.RawHTMLBlock(
                     help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ], icon='arrow-left', label='Left column content', classname='col4')
@@ -350,6 +363,7 @@ class TwoColumnBlock(blocks.StructBlock):
             ('embedded_tab_container', TabContainerBlockInColumn()),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
+            ('clear_fixblock', ClearfixBlock()),
             ('raw_html', blocks.RawHTMLBlock(
                 help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ], icon='arrow-right', label='Right column content', classname='col4')
@@ -550,6 +564,7 @@ class HomePage(Page):
         ('spotlight_block', SpotlightBlock()),
         ('job_block', JobsBlock()),
         ('embed_block', EmbedBlock()),
+        ('clear_fixblock', ClearfixBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
