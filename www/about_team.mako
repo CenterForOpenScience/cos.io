@@ -117,6 +117,21 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/schiller.jpg" alt="Alex Schiller">
+            <h3>
+                Alex Schiller
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">alexsc<span style="display:none;">null</span>hiller@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+              <li><script type="text/javascript">document.write("<n uers=\"znvygb:nyrkfpuvyyre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/alexschiller" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://osf.io/rnizy/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/Liscouski.jpg" alt="Amanda Liscouski">
             <h3>
                 Amanda Liscouski
@@ -261,21 +276,6 @@
                 <li><a href="https://github.com/bnosek" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/cdi38/" data-original-title="osf" class="osf"></a></li>
                 <li><a href="https://twitter.com/briannosek" data-original-title="Twitter" class="twitter"></a></li>
-            </ul>
-        </div>
-    </li>
-      <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/gorges.jpg" alt="Bryan Gorges">
-            <h3>
-                Bryan Gorges
-                <small>Developer | Infrastructure</small>
-                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bgor<span style="display:none;">null</span>ges@co<span style="display:none;">null</span>s.io</small></span></noscript>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><script type="text/javascript">document.write("<n uers=\"znvygb:otbetrf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="http://osf.io/3n6eh" data-original-title="osf" class="osf"></a></li>
-                <li><a href="https://github.com/ghalko" data-original-title="GitHub" class="github"></a> </li>
             </ul>
         </div>
     </li>
@@ -1150,19 +1150,6 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
-            <img src="../static/img/people/schiller.jpg" alt="Alex Schiller">
-            <h3>
-                Alex Schiller
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/alexschiller" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://osf.io/rnizy/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
             <img src="../static/img/people/myrick.jpg" alt="Amanda Myrick">
             <h3>
                 Amanda Myrick
@@ -1292,6 +1279,21 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/brandonPurvis" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/dbjhp/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+       <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/gorges.jpg" alt="Bryan Gorges">
+            <h3>
+                Bryan Gorges
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bgor<span style="display:none;">null</span>ges@co<span style="display:none;">null</span>s.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><script type="text/javascript">document.write("<n uers=\"znvygb:otbetrf@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="http://osf.io/3n6eh" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://github.com/ghalko" data-original-title="GitHub" class="github"></a> </li>
             </ul>
         </div>
     </li>
