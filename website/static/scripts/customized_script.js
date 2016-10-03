@@ -79,9 +79,19 @@ $(document).ready(function () {
             }
     });
 
-    $(document).ready(function () {
-        location.hash && $(location.hash + '.collapse').collapse('show');
+    $("#searchIcon").click(function () {
+        if($('#searchBar').attr('class')=='active'){
+            $('#searchBar').css('display',"none");
+            $('#searchBar').attr('class', '');
+        }
+        else{
+            $('#searchBar').css('display',"block");
+            $('#searchBar').attr('class', 'active');
+        }
+
     });
+
+    location.hash && $(location.hash + '.collapse').collapse('show');
 
 
 })

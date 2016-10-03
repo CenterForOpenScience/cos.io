@@ -12,11 +12,16 @@
             <!-- END RESPONSIVE MENU TOGGLER -->
             <!-- BEGIN LOGO (you can use logo image instead of text)-->
             <a class="navbar-brand logo-v1" href="/">
-                <img src="http://cos.io/static/img/icons/cos_wide.png" id="logoimg" alt="COS logo">
+                <img src="/media/images/cos_wide.original.png" id="logoimg" alt="COS logo">
             </a>
             <!-- END LOGO -->
         </div>
-    
+
+        <span class="visible-xs" data-bind="click : toggleSearch, css: searchCSS">
+          <a class="osf-xs-search pull-right" style="padding-top: 12px">
+            <span rel="tooltip" data-placement="bottom" title="Search OSF" class="fa fa-search fa-lg fa-inverse"></span>
+          </a>
+      </span>
     
         <!-- BEGIN TOP NAVIGATION MENU -->
         <div class="navbar-collapse collapse col-md-7 col-md-offset-1 navbar-list" >
@@ -34,9 +39,7 @@
                         <li><a href="/about_partners/">Our Partners</a></li>
                     </ul>
                 </li>
-                <li class="dropdown 
-                                    
-                                    ">
+                <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         Services
                         <i class="fa fa-angle-down"></i>
@@ -70,18 +73,27 @@
                 <li class="dropdown ">
                     <a href="/news/">News </a>
                 </li>
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="/contact/">Contact Us </a>
                 </li>
                 <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
+
+                <li >
+                    <a id="searchIcon">
+                        <span class="fa fa-search fa-lg"></span>
+                    </a>
+                </li>
             </ul>
         </div>
-
-        <!-- BEGIN TOP NAVIGATION MENU -->
-
-
-
+    </div>
+    <div id="searchBar" style="display:none;">
+        {% block search_box %}
+            {% include "common/blocks/search_box.html" only %}
+        {% endblock %}
     </div>
 </div>
+<script>
+
+</script>
 </div>
 <!-- END HEADER -->
