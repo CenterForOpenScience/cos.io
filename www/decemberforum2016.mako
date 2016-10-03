@@ -41,9 +41,10 @@
                 <ul class="tabbable community-tabbable change-url-tabbable" id="">
                     <li><a id="tab-0" href="#overview" data-toggle="tab">Overview</a></li>
                     <li><a id="tab-1" href="#agenda" data-toggle="tab">Agenda</a></li>
-                    <li><a id="tab-2" href="#directions" data-toggle="tab">Directions</a></li>
+                    <li><a id="tab-2" href="#directions" data-toggle="tab">Directions &amp Lodging</a></li>
+                    <li><a id="tab-4" href="#committee" data-toggle="tab">Host Committee</a></li>
                     <li><a id="tab-3" href="#register" data-toggle="tab">Register Now</a></li>
-                    ##<li><a id="tab-4" href="#FAQ" data-toggle="tab">FAQ</a></li>
+                    
                     ##<li><a id="tab-5" href="#list" data-toggle="tab">749 Signatories</a></li>
                     ##<li><a id="tab-6" href="#scores" data-toggle="tab">Journal Scores</a></li>
 
@@ -344,29 +345,7 @@
                                     <br>
                                     The Health Research Alliance (HRA) is a network of more than 70 organizations represent a variety of nongovernmental funders of health research, including voluntary health agencies, private foundations, and operating foundations. All of these organizations share a common interest in speeding the translation of biomedical science discoveries into applications that improve health, and in identifying and adopting best practices in funding health research.
                                     <br>
-                                    <br>
-                                    <strong>Host Committee</strong>
-                                    <br>
-                                    Brian Nosek - Center for Open Science
-                                    <br>
-                                    Maryrose Franko - Health Research Alliance
-                                    <br>
-                                    Annette Huetter - Health Research Alliance
-                                    <br>
-                                    Shannon Gallagher - American Association for Cancer Research
-                                    <br>
-                                    Meredith McPhail - Laura and John Arnold Foundation
-                                    <br>
-                                    Stuart Buck - Laura and John Arnold Foundation
-                                    <br>
-                                    Sindy Escobar Alvarez - Doris Duke Charitable Foundation
-                                    <br>
-                                    Amy Laster - Foundation for Fighting Blindness
-                                    <br>
-                                    Melanie Benjamin - Center for Open Science
-                                    <br>
-                                    Jason Gerson - Patient-Centered Outcomes Research Institute (PCORI)
-                                    <br>
+
 
 
                                     </table>
@@ -390,7 +369,32 @@
                         <br>
                         <br>
                         <strong>DIRECTIONS FROM THE SOUTH – VIA ROUTE 29 NORTH</strong>
-                        <br>Take Route 29 North to Route 250 Bypass East (29 North turns into 250 Bypass East). Drive 2 miles East on 250 Bypass, and turn right onto McIntire Road. Go through the second stop light and the Center for Open Science is located on the left in the Omni Hotel Business Center.     
+                        <br>Take Route 29 North to Route 250 Bypass East (29 North turns into 250 Bypass East). Drive 2 miles East on 250 Bypass, and turn right onto McIntire Road. Go through the second stop light and the Center for Open Science is located on the left in the Omni Hotel Business Center.  
+                        <br>
+
+                        <br><strong><h3>Lodging Information</strong></h3>
+                        <br><strong><h4>Nearby Hotels</strong></h4>
+                        <strong>Omni Charlottesville Hotel - ROOM BLOCK UNTIL 10/20/16</strong>
+                        <br>212 Ridge McIntire Road, Charlottesville, VA 22903
+                        <br>Phone Number: 1-800-843-6664  *please reference this conference so you will get the discount rate
+                        <br> <a href="https://www.omnihotels.com/hotels/charlottesville/meetings/center-for-open-science">https://www.omnihotels.com/hotels/charlottesville/meetings/center-for-open-science</a>
+                        <br>
+                        <br><strong>Residence Inn Marriott Hotel - Downtown - NO ROOM BLOCK</strong>
+                        <br>315 West Main Street, Charlottesville, VA 22903
+                        <br>Phone Number: 434- 220- 0075
+                        <br>Reservations: <a href="http://www.marriott.com/hotels/travel/chowr-residence-inn-charlottesville-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">http://www.marriott.com/hotels/travel/chowr-residence-inn-charlottesville-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2</a> 
+                        <br>
+                        <br><strong><h4>Airports</strong></h4>
+                        CHO - 10 miles 
+                        <br>RIC - 79 miles 
+                        <br>IAD - 102 miles 
+                        <br>DCA - 118 miles 
+                        <br>
+                        <br><strong><h4>Charlottesville Union Station</strong></h4>
+                        Amtrak - 2 miles (infrequent routes) 
+                        <br><a href="https://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=CVS"> https://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=CVS</a>
+
+   
                     </div>
                     <!-- END TAB 2 -->
                     <!-- START TAB 3 -->
@@ -399,6 +403,61 @@
                       <h4>Can't view the form? <a href="https://docs.google.com/a/cos.io/forms/d/e/1FAIpQLSfaH8q1KFno-Ih6SmOAxPubIvtSkuTK_RhfEf5JQqUIcOzkPA/viewform">Click here.</a></h4>
                       <br>
                       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfaH8q1KFno-Ih6SmOAxPubIvtSkuTK_RhfEf5JQqUIcOzkPA/viewform?embedded=true" width="760" height="2600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>      
+
+                    </div>
+
+                    <div class="tab-pane fade" id="committee" style="margin-top:-200px">
+                     <div style="height: 200px;">&nbsp;</div>
+                     <strong><h3>Host Committee Contacts</strong></h3>
+                     <br>
+                     <strong>Sindy Escobar-Alvarez</strong>
+                     <br>Senior Program Officer for Medical Research, Doris Duke Charitable Foundation 
+                     <br><a href="mailto:sescobar@ddcf.org">sescobar@ddcf.org</a>
+                     <br>
+                     <br><strong>Stuart Buck</strong>
+                     <br>VP of Research Integrity, Laura and John Arnold Foundation
+                     <br><a href="mailto:sbuck@arnoldfoundation.org">sbuck@arnoldfoundation.org</a>
+                     <br>
+                     <br><strong>Shannon Gallagher-Colombo</strong>
+                     <br>Program Administrator, American Association for Cancer Research 
+                     <br><a href="shannon.gallagher@aacr.org">shannon.gallagher@aacr.org</a>
+                     <br>
+                     <br><strong>Maryrose Franko</strong>
+                     <br>Executive Director, Health Research Alliance 
+                     <br><a href="maryrose@healthra.org">maryrose@healthra.org</a>
+                     <br>
+                     <br><strong>Jason Gerson</strong>
+                     <br>Senior Program Officer, Patient-Centered Outcomes Research Institute 
+                     <br><a href="jgerson@pcori.org">jgerson@pcori.org</a>
+                     <br>
+                     <br><strong>Annette Huetter</strong>
+                     <br>Director of Operations, Health Research Alliance
+                     <br><a href="annette@healthra.org">annette@healthra.org</a>
+                     <br>
+                     <br><strong>Amy Laster</strong>
+                     <br>Director of Grants and Award Programs, Foundation for Fighting Blindness 
+                     <br><a href="alaster@blindness.org">alaster@blindness.org</a>
+                     <br>
+                     <br><strong>Meredith McPhail</strong>
+                     <br>Research Integrity Manager, Laura and John Arnold Foundation
+                     <br><a href="mmcphail@arnoldfoundation.org">mmcphail@arnoldfoundation.org</a>
+                     <br>
+                     <br><strong>Brian Nosek</strong>
+                     <br>Executive Director, Center for Open Science
+                     <br><a href="nosek@cos.io">nosek@cos.io</a>
+                     <br>
+                     <br><strong>Melanie Benjamin</strong>
+                     <br>Donor and Funder Relations Lead, Center for Open Science
+                     <br><a href="melanie@cos.io">melanie@cos.io</a>
+                     <br>434/987-9807
+                     <br>
+                     <br><strong>Whitney Wissinger</strong>
+                     <br>Events and Facilities Coordinator, Center for Open Science 
+                     <br><a href="whitney@cos.io">whitney@cos.io</a>
+                     <br>703/980-6118
+                     <br>
+                        
+
 
                     </div>
 
