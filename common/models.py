@@ -2,7 +2,6 @@ from django.db import models
 from django.shortcuts import render
 
 from wagtail.wagtailcore.models import Page
-from wagtail.wagtailimages.models import Image
 from wagtail.wagtailsnippets.models import register_snippet
 
 from wagtail.wagtailcore.fields import StreamField
@@ -11,20 +10,16 @@ from wagtail.wagtailcore import blocks
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailembeds.blocks import EmbedBlock
 
-from wagtail.wagtailsnippets.edit_handlers import SnippetChooserPanel
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
 from wagtail.wagtailadmin.edit_handlers import MultiFieldPanel
 from wagtail.wagtailadmin.edit_handlers import FieldPanel
-from wagtail.wagtailadmin.edit_handlers import FieldRowPanel
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
-from wagtail.wagtailadmin.edit_handlers import PageChooserPanel
 from wagtail.wagtailsearch import index
 
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
-from modelcluster.contrib.taggit import ClusterTaggableManager
 
 from blocks.models import (
     ImageCustomBlock, GoogleMapBlock, HeroBlock, JobsBlock, PeopleBlock,
