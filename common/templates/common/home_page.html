@@ -6,7 +6,6 @@
 {% block body_class %} homepage {% endblock %}
 
 {% block content %}
-    {% header %}
     <!-- If there is a hero, include it first -->
     {% for b in page.content %}
         {% if b.block_type == 'hero_block' %}
