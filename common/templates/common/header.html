@@ -16,8 +16,8 @@
             </a>
             <!-- END LOGO -->
         </div>
-    
-    
+
+
         <!-- BEGIN TOP NAVIGATION MENU -->
         <div class="navbar-collapse collapse col-md-7 col-md-offset-1 navbar-list" >
             <ul class="nav navbar-nav">
@@ -27,16 +27,14 @@
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/about_mission/">Our Mission</a></li>
-                        <li><a href="/about_team/">Our Team</a></li>
-                        <li><a href="/about_sponsors/">Our Sponsors</a></li>
-                        <li><a href="/about_board/">Our Board</a></li>
-                        <li><a href="/about_partners/">Our Partners</a></li>
+                        <li><a href="/about/mission/">Our Mission</a></li>
+                        <li><a href="/about/team/">Our Team</a></li>
+                        <li><a href="/about/sponsors/">Our Sponsors</a></li>
+                        <li><a href="/about/board/">Our Board</a></li>
+                        <li><a href="/about/partners/">Our Partners</a></li>
                     </ul>
                 </li>
-                <li class="dropdown 
-                                    
-                                    ">
+                <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         Services
                         <i class="fa fa-angle-down"></i>
@@ -50,8 +48,7 @@
                         <li><a href="/prereg">Preregistration Challenge</a></li>
                     </ul>
                 </li>
-                 <li class="dropdown 
-                                     ">
+                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.html">
                         Get Involved
                         <i class="fa fa-angle-down"></i>
@@ -74,13 +71,19 @@
                     <a href="/contact/">Contact Us </a>
                 </li>
                 <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
+
+                <li >
+                    <a id="searchIcon">
+                        <span class="fa fa-search fa-lg"></span>
+                    </a>
+                </li>
             </ul>
         </div>
-
-        <!-- BEGIN TOP NAVIGATION MENU -->
-
-
-
+    </div>
+    <div id="searchBar" style="display:none;">
+        {% block search_box %}
+            {% include "common/blocks/search_box.html" only %}
+        {% endblock %}
     </div>
 </div>
 </div>

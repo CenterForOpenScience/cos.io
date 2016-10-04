@@ -991,3 +991,7 @@ img {
                             -4px;
   }
 }
+
+.header .navbar-nav li a {
+    padding: 26px 13px 27px;
+}
