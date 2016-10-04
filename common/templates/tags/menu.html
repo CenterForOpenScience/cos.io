@@ -26,7 +26,17 @@
           {% endif %}
         </li>
         {% endfor %}
+        <li >
+          <a id="searchIcon">
+            <span class="fa fa-search fa-lg"></span>
+          </a>
+        </li>
       </ul>
+    </div>
+    <div id="searchBar" style="display:none;">
+      {% block search_box %}
+      {% include "common/blocks/search_box.html" only %}
+      {% endblock %}
     </div>
   </div>
 </div>
