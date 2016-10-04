@@ -25,7 +25,7 @@ from blocks.models import (
     ImageCustomBlock, GoogleMapBlock, HeroBlock, JobsBlock, PeopleBlock,
     COSPhotoStreamBlock, SpotlightBlock, TwitterBlock, CenteredTextBlock,
     TabIndexBlock, TabContainerBlock, TabContainerBlockInColumn, TwoColumnBlock,
-    ThreeColumnBlock
+    ThreeColumnBlock, ClearfixBlock
 )
 
 
