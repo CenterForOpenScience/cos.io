@@ -29,7 +29,6 @@ from blocks.models import (
 )
 
 
-@register_snippet
 class Person(ClusterableModel, index.Indexed):
 
     first_name = models.CharField(max_length=255)
