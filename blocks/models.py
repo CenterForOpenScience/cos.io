@@ -1,4 +1,5 @@
 from .centered_text import CenteredTextBlock
+from .clearfix import ClearfixBlock
 from .custom_image import ImageCustomBlock
 from .google_map import GoogleMapBlock
 from .hero import HeroBlock
