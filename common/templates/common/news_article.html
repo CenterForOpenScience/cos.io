@@ -19,7 +19,9 @@
                     <br>
                     {{ page.body|richtext }}
                     <br>
+                    {% if page.external_link %}
                     <a href="{{page.external_link}}">External Link: {{ page.external_link|richtext }}</a>
+                    {% endif %}
                     <br>
                     <br>
                 </div>

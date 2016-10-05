@@ -219,7 +219,11 @@ class NewsIndexPage(Page):
     ]
 
     def serve(self, request):
+        page_template='common/news_article_box.html'
+        if request.is_ajax():
+            self.template = page_template
         return render(request, self.template, {
             'page': self,
-            'newsArticles': NewsArticle.objects.all()
+            'newsArticles': NewsArticle.objects.all().order_by('-date'),
+            'page_template':page_template,
         })

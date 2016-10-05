@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     
     'blocks',
     'search',
+    'el_pagination',
 ]
 
 MIDDLEWARE = [
@@ -142,3 +143,5 @@ WAGTAIL_SITE_NAME = "cos"
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+
+EL_PAGINATION_PER_PAGE=5
