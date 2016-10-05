@@ -22,9 +22,3 @@ def people(context):
     return {
         'people': Person.objects.all().order_by('last_name'),
     }
-
-@register.inclusion_tag('common/news_article_box.html')
-def news_article_box(article):
-    return {
-        'article': article,
-    }

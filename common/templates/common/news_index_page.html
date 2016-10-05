@@ -18,11 +18,13 @@
 
                     <p>Loading news</p>
                 </div>
+
                 <div class="margin-bottom-20 grid" style="display: none">
-                    {% for article in newsArticles %}
-                        {% news_article_box article %}
-                    {% endfor %}
+                    {% include page_template %}
                 </div>
+                <div class="pagination">
+                </div>
+
             </div>
     </div>
     {% footer %}
@@ -30,27 +32,37 @@
 
 {% block extra_js %}
 <!-- END CORE PLUGINS -->
-   <!-- BEGIN FLICKR JS  -->
-        <script src="/static/plugins/jflickrfeed/colorbox/jquery.colorbox-min.js"></script>
-        <script src="/static/plugins/jflickrfeed/jflickrfeed.min.js"></script>
-        <script src="/static/plugins/jflickrfeed/setup.js"></script>
-    <!-- END FLICKR JS -->
-    <script type="text/javascript" src="/static/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="/static/scripts/app.js"></script>
-    <script src="/static/plugins/masonry.pkgd.min.js"></script>
-    <script type="text/javascript">
-            jQuery(document).ready(function() {
-                App.init();
 
-            });
-            jQuery(window).on('load', function(){
+    <script type="text/javascript">
+            jQuery(window).on('load', function() {
                 $('.loading-msg').hide();
                 $('.grid').show().masonry({
-                  itemSelector: '.service-box-v1',
-                  columnWidth: '.service-box-v1',
-                  percentPosition : true
+                    itemSelector: '.service-box-v1',
+                    columnWidth: '.service-box-v1',
+                    percentPosition: true
                 });
             });
+    </script>
 
-        </script>
+
+    <script>
+        $.endlessPaginate({
+            paginateOnScroll: true, paginateOnScrollChunkSize: 10, paginateOnScrollMargin: 200,
+            onCompleted: function(){
+                var masonry = $('.grid').data('masonry');
+                if (masonry !== undefined) {
+                    masonry.reloadItems();
+                    masonry.layout();
+                }
+            }
+        })
+    </script>
+    <style>
+    .endless_container{
+        position: absolute;
+        bottom: 0;
+    }
+    </style>
+
+
 {% endblock %}

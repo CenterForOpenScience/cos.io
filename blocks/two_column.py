@@ -13,7 +13,6 @@ from .centered_text import CenteredTextBlock
 
 class TwoColumnBlock(blocks.StructBlock):
 
-    background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
     left_column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES,default="6")
     right_column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES, default="6")
     left_column = blocks.StreamBlock([
