@@ -21,12 +21,54 @@ from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
+from django.contrib.auth.models import User, Group, Permission
+
 from blocks.models import (
     ImageCustomBlock, GoogleMapBlock, HeroBlock, JobsBlock, PeopleBlock,
     COSPhotoStreamBlock, SpotlightBlock, TwitterBlock, CenteredTextBlock,
     TabIndexBlock, TabContainerBlock, TabContainerBlockInColumn, TwoColumnBlock,
     ThreeColumnBlock, ClearfixBlock
 )
+
+class Job(ClusterableModel, index.Indexed):
+    title = models.CharField(max_length=255)
+    background = RichTextField(blank=True)
+    responsibilities = RichTextField(blank=True)
+    skills = RichTextField(blank=True)
+    notes = RichTextField(blank=True)
+    location = RichTextField(blank=True)
+    benefits = RichTextField(blank=True)
+    applying = RichTextField(blank=True)
+    core_technologies = RichTextField(blank=True)
+    referrals = RichTextField(blank=True)
+    preferred = RichTextField(blank=True)
+    qualifications = RichTextField(blank=True)
+    experience_we_need = RichTextField(blank=True)
+
+    panels = [
+        MultiFieldPanel([
+            FieldPanel('title'),
+            FieldPanel('background'),
+            FieldPanel('responsibilities'),
+            FieldPanel('skills'),
+            FieldPanel('notes'),
+            FieldPanel('location'),
+            FieldPanel('benefits'),
+            FieldPanel('applying'),
+            FieldPanel('core_technologies'),
+            FieldPanel('referrals'),
+            FieldPanel('preferred'),
+            FieldPanel('qualifications'),
+            FieldPanel('experience_we_need'),
+
+        ]),
+    ]
+
+    class Meta:
+        ordering = ['title']
+
+    def __str__(self):
+        return '{self.title}'.format(self=self)
 
 
 class Person(ClusterableModel, index.Indexed):
