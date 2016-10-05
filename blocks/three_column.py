@@ -12,7 +12,6 @@ from .centered_text import CenteredTextBlock
 
 class ThreeColumnBlock(blocks.StructBlock):
 
-    background = blocks.ChoiceBlock(choices=COLOUR_CHOICES,default="white")
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
