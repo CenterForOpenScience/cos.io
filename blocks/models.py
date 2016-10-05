@@ -3,7 +3,7 @@ from .clearfix import ClearfixBlock
 from .custom_image import ImageCustomBlock
 from .google_map import GoogleMapBlock
 from .hero import HeroBlock
-from .job import JobsBlock
+from .jobs import JobsWholeBlock
 from .people import PeopleBlock
 from .photo_stream import COSPhotoStreamBlock
 from .spotlight import SpotlightBlock

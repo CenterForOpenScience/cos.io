@@ -24,10 +24,10 @@ from taggit.managers import TaggableManager
 from django.contrib.auth.models import User, Group, Permission
 
 from blocks.models import (
-    ImageCustomBlock, GoogleMapBlock, HeroBlock, JobsBlock, PeopleBlock,
+    ImageCustomBlock, GoogleMapBlock, HeroBlock, PeopleBlock,
     COSPhotoStreamBlock, SpotlightBlock, TwitterBlock, CenteredTextBlock,
     TabIndexBlock, TabContainerBlock, TabContainerBlockInColumn, TwoColumnBlock,
-    ThreeColumnBlock, ClearfixBlock
+    ThreeColumnBlock, ClearfixBlock, JobsWholeBlock
 )
 
 class Job(ClusterableModel, index.Indexed):
@@ -53,14 +53,13 @@ class Job(ClusterableModel, index.Indexed):
             FieldPanel('skills'),
             FieldPanel('notes'),
             FieldPanel('location'),
-            FieldPanel('benefits'),
-            FieldPanel('applying'),
             FieldPanel('core_technologies'),
-            FieldPanel('referrals'),
-            FieldPanel('preferred'),
             FieldPanel('qualifications'),
             FieldPanel('experience_we_need'),
-
+            FieldPanel('preferred'),
+            FieldPanel('referrals'),
+            FieldPanel('benefits'),
+            FieldPanel('applying'),
         ]),
     ]
 
@@ -208,7 +207,7 @@ class HomePage(Page):
         ('centered_text', CenteredTextBlock()),
         ('hero_block', HeroBlock()),
         ('spotlight_block', SpotlightBlock()),
-        ('job_block', JobsBlock()),
+        ('job_whole_block', JobsWholeBlock()),
         ('embed_block', EmbedBlock()),
         ('clear_fixblock', ClearfixBlock()),
     ], null=True, blank=True)
@@ -221,6 +220,7 @@ class HomePage(Page):
         return render(request, self.template, {
             'page': self,
             'people': Person.objects.all(),
+            'jobs': Job.objects.all(),
         })
 
 
