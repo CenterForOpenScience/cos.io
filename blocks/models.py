@@ -9,5 +9,6 @@ from .photo_stream import COSPhotoStreamBlock
 from .spotlight import SpotlightBlock
 from .tab import TabIndexBlock, TabContainerBlockInColumn, TabBlock, TabContainerBlock
 from .twitter import TwitterBlock
+from .column import ColumnBlock
 from .two_column import TwoColumnBlock
 from .three_column import ThreeColumnBlock

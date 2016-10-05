@@ -25,7 +25,7 @@ from blocks.models import (
     ImageCustomBlock, GoogleMapBlock, HeroBlock, JobsBlock, PeopleBlock,
     COSPhotoStreamBlock, SpotlightBlock, TwitterBlock, CenteredTextBlock,
     TabIndexBlock, TabContainerBlock, TabContainerBlockInColumn, TwoColumnBlock,
-    ThreeColumnBlock, ClearfixBlock
+    ThreeColumnBlock, ClearfixBlock, ColumnBlock
 )
 
 
@@ -135,7 +135,7 @@ class Footer(models.Model):
         return super(Footer, self).save(*args, **kwargs)
 
 
-class HomePage(Page):
+class OSFPage(Page):
 
     content = StreamField([
          ('appeal', blocks.StructBlock([
@@ -156,6 +156,7 @@ class HomePage(Page):
         ('statement', blocks.CharBlock()),
         ('paragraph', blocks.RichTextBlock()),
         ('image', ImageChooserBlock()),
+        ('column', ColumnBlock()),
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
         ('tab_index', TabIndexBlock()),

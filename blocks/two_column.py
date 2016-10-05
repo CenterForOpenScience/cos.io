@@ -1,3 +1,5 @@
+
+
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailembeds.blocks import EmbedBlock
 
@@ -7,6 +9,7 @@ from .google_map import GoogleMapBlock
 from .twitter import TwitterBlock
 from .custom_image import ImageCustomBlock
 from .centered_text import CenteredTextBlock
+
 
 class TwoColumnBlock(blocks.StructBlock):
 
@@ -68,3 +71,5 @@ class TwoColumnBlock(blocks.StructBlock):
         template = 'common/blocks/two_column_block.html'
         icon = 'placeholder'
         label = 'Two Columns'
+
+
