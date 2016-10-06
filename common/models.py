@@ -217,6 +217,8 @@ class OSFPage(Page):
         StreamFieldPanel('content'),
     ]
 
+    parent_page_types = ['common.OSFPage']
+
     def serve(self, request):
         return render(request, self.template, {
             'page': self,
@@ -224,6 +226,24 @@ class OSFPage(Page):
             'jobs': Job.objects.all(),
         })
 
+class NewsIndexPage(Page):
+    statement = models.CharField(blank=True, max_length=1000)
+
+    content_panels = Page.content_panels + [
+        FieldPanel('statement', classname="full")
+    ]
+
+    parent_page_types = ['common.OSFPage']
+
+    def serve(self, request):
+        page_template='common/news_article_box.html'
+        if request.is_ajax():
+            self.template = page_template
+        return render(request, self.template, {
+            'page': self,
+            'newsArticles': NewsArticle.objects.all().order_by('-date'),
+            'page_template':page_template,
+        })
 
 class NewsArticle(Page):
     main_image = models.ForeignKey(
@@ -247,26 +267,11 @@ class NewsArticle(Page):
         FieldPanel('external_link'),
     ]
 
+    parent_page_types = ['common.NewsIndexPage']
+
     def serve(self, request):
         return render(request, self.template, {
             'page':self,
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
 
-
-class NewsIndexPage(Page):
-    statement = models.CharField(blank=True, max_length=1000)
-
-    content_panels = Page.content_panels + [
-        FieldPanel('statement', classname="full")
-    ]
-
-    def serve(self, request):
-        page_template='common/news_article_box.html'
-        if request.is_ajax():
-            self.template = page_template
-        return render(request, self.template, {
-            'page': self,
-            'newsArticles': NewsArticle.objects.all().order_by('-date'),
-            'page_template':page_template,
-        })
