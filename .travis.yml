@@ -8,8 +8,5 @@ script:
 before_deploy:
     - echo 'getting ready to deploy'
 deploy:
-    provider: deis
-    controller: deis.mechanysm.com
-    username: $DEIS_USERNAME
-    password: $DEIS_PASSWORD
-    app: cos
+    provider: script
+    script: scripts/deploy.sh
