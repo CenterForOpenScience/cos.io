@@ -4,6 +4,9 @@ curl -sSL http://deis.io/deis-cli/install-v2.sh | bash
 
 yes | ./deis login https://deis.mechanysm.com/ --username $DEIS_USERNAME --password $DEIS_PASSWORD
 ssh-keygen -t rsa -N "" -f ~/.ssh/id_deis > /dev/null
+chmod go-w ~/
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
 ./deis keys:add ~/.ssh/id_deis.pub
 ./deis git:remote -a $DEIS_APP_NAME
 ./deis config:set \
