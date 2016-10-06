@@ -8,7 +8,21 @@ ALLOWED_HOSTS = ['*']
 DEBUG=True
  
 
-DATABASES['default'] = dj_database_url.config()
+
+if os.environ.get('DEIS'):
+    DATABASES = {
+        'default': {
+            'ENGINE': os.environ.get('DATABASE_ENGINE'),
+            'NAME': os.environ.get('DATABASE_NAME'),
+            'USER': os.environ.get('DATABASE_USER'),
+            'PASSWORD': os.environ.get('DATABASE_PASSWORD'),
+            'HOST': os.environ.get('DATABASE_HOST'),
+            'PORT': os.environ.get('DATABASE_PORT'),
+        }
+    }
+else:
+    DATABASES['default'] = dj_database_url.config()
+
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
