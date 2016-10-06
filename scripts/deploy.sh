@@ -38,7 +38,7 @@ cat .git/config
     DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE SECRET_KEY=$DJANGO_SETTINGS_MODULE  > /dev/null
 
 expect <<LFDS
-spawn git push deis master
+spawn git push deis master -v
 expect "*(yes/no)?"
 send -- "yes\r"
 expect eof
