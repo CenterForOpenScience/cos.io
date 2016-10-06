@@ -9,4 +9,4 @@ before_deploy:
     - echo 'getting ready to deploy'
 deploy:
     provider: script
-    script: scripts/deploy.sh
+    script: './scripts/deploy.sh'
