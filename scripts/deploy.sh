@@ -1,7 +1,6 @@
 #! /bin/sh
 
 echo $SSH_KEY > ~/.ssh/id_rsa.pub
-echo "$(whoami)@$(hostname)"
 echo "$(hostname --long)"
 
 curl -sSL http://deis.io/deis-cli/install-v2.sh | bash
@@ -24,7 +23,8 @@ curl -sSL http://deis.io/deis-cli/install-v2.sh | bash
         DEIS=True \
         DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE \
         SECRET_KEY=$DJANGO_SETTINGS_MODULE 
-    #git push deis master
 } &> /dev/null
+#travis_wait git push deis master
+./deis keys:remove $(whoami)@$(hostname)
 
 
