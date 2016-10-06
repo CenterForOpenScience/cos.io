@@ -1,6 +1,6 @@
 from wagtail.contrib.modeladmin.options import (
     ModelAdmin, modeladmin_register)
-from .models import Person, Job
+from .models import Person, Job, NewsArticle
 
 
 class PersonModelAdmin(ModelAdmin):
@@ -21,7 +21,17 @@ class JobModelAdmin(ModelAdmin):
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
     list_display = ('title', 'background')
 
+class ArticleModelAdmin(ModelAdmin):
+    model = NewsArticle
+    menu_label = 'News Articles' # ditch this to use verbose_name_plural from model
+    menu_icon = 'folder-open-inverse' # change as required
+    menu_order = 400 # will put in 3rd place (000 being 1st, 100 2nd)
+    add_to_settings_menu = False # or True to add your model to the Settings sub-menu
+    list_display = ('title', 'date')
+    search_fields = ('date', 'title', 'intro')
+
 # Now you just need to register your customised ModelAdmin class with Wagtail
 modeladmin_register(PersonModelAdmin)
 modeladmin_register(JobModelAdmin)
+modeladmin_register(ArticleModelAdmin)
 
