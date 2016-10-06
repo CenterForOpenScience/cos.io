@@ -7,7 +7,14 @@ eval "$(ssh-agent -s)"
 ssh-keygen -t rsa -N "" -f ~/.ssh/id_deis > /dev/null
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_deis.pub
-ssh-add ~/.ssh/id_deis.pub
+
+expect <<LFDS
+spawn ssh-add ~/.ssh/id_deis
+expect "Enter passphrase for /home/travis/.ssh/id_deis:"
+send "";
+expect eof
+LFDS
+
 ./deis keys:add ~/.ssh/id_deis.pub
 ./deis git:remote -a $DEIS_APP_NAME
 ./deis config:set \
