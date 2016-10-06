@@ -4,27 +4,28 @@ curl -sSL http://deis.io/deis-cli/install-v2.sh | bash
 
 yes | ./deis login https://deis.mechanysm.com/ --username $DEIS_USERNAME --password $DEIS_PASSWORD
 eval "$(ssh-agent -s)"
-ssh-keygen -t rsa -N "" -f .travis/id_deis > /dev/null
+#ssh-keygen -t rsa -N "" -f .travis/id_deis > /dev/null
+echo $DEIS_PRIVATE_KEY > .travis/id_rsa
+echo $DEIS_PUBLIC_KEY > .travis/id_rsa.pub
 chmod 600 .travis/id_deis
 chmod 600 .travis/id_deis.pub
 
 expect <<LFDS
-spawn ssh-add .travis/id_deis
-expect "Enter passphrase for /home/travis/.travis/id_deis:"
+spawn ssh-add .travis/id_rsa
+expect "Enter passphrase for /home/travis/.travis/id_rsa:"
 send "";
 expect eof
 LFDS
 
 expect <<LFDS
-spawn ssh-add .travis/id_deis.pub
-expect "Enter passphrase for /home/travis/.travis/id_deis.pub:"
+spawn ssh-add .travis/id_rsa.pub
+expect "Enter passphrase for /home/travis/.travis/id_rsa.pub:"
 send "";
 expect eof
 LFDS
 
 ./deis git:remote -a $DEIS_APP_NAME
-./deis keys:add .travis.id_deis.pub
-cat .git/config
+#./deis keys:add .travis/id_rsa.pub
 ./deis config:set \
     AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
     AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
@@ -44,6 +45,6 @@ send -- "yes\r"
 expect eof
 LFDS
 
-./deis keys:remove $(whoami)@$(hostname)
+#./deis keys:remove $(whoami)@$(hostname)
 
 
