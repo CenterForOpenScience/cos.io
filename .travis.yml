@@ -3,4 +3,7 @@ python:
     - "3.5"
 install:
     - pip install -r requirements.txt
-    - echo TEST
+    - echo $TEST
+script:
+    - echo 'hello'
+
