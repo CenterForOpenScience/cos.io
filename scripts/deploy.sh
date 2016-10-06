@@ -9,7 +9,6 @@ ls -la ~/.ssh/
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_deis
 chmod 600 ~/.ssh/id_deis.pub
-cat .git//config
 
 expect <<LFDS
 spawn ssh-add ~/.ssh/id_deis
@@ -18,8 +17,9 @@ send "";
 expect eof
 LFDS
 
-./deis keys:add ~/.ssh/id_deis.pub
 ./deis git:remote -a $DEIS_APP_NAME
+./deis keys:add ~/.ssh/id_deis.pub
+cat .git//config
 ./deis config:set \
     AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
     AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
