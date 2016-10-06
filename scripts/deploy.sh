@@ -3,7 +3,7 @@
 curl -sSL http://deis.io/deis-cli/install-v2.sh | bash
 
 yes | ./deis login https://deis.mechanysm.com/ --username $DEIS_USERNAME --password $DEIS_PASSWORD
-ssh-keygen -t rsa -N "" -f ~/.ssh/id_deis
+ssh-keygen -t rsa -N "" -f ~/.ssh/id_deis > /dev/null
 ./deis keys:add ~/.ssh/id_deis.pub
 ./deis git:remote -a $DEIS_APP_NAME
 ./deis config:set \
@@ -17,7 +17,7 @@ ssh-keygen -t rsa -N "" -f ~/.ssh/id_deis
     DATABASE_USER=$DATABASE_USER \
     DEIS=True \
     DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE SECRET_KEY=$DJANGO_SETTINGS_MODULE  > /dev/null
-#travis_wait git push deis master
+travis_wait git push deis master
 ./deis keys:remove $(whoami)@$(hostname)
 
 
