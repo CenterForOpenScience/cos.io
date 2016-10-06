@@ -1,19 +1,7 @@
 language: python
 python: 
     - "3.5"
-env:
-    DEIS: True
-    DEIS_APP_NAME: cos
-    DJANGO_SETTINGS_MODULE: website.settings.production
-    DATABASE_ENGINE: django.db.backends.postgresql_psycopg2
-before_install:
-    - sudo apt-get install -y expect
 install:
     - pip install -r requirements.txt
 script:
     - echo 'tests run here'
-before_deploy:
-    - echo 'getting ready to deploy'
-deploy:
-    provider: script
-    script: './scripts/deploy.sh'
