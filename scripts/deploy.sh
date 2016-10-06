@@ -17,7 +17,7 @@ ssh-keygen -t rsa -N "" -f ~/.ssh/id_deis > /dev/null
     DATABASE_USER=$DATABASE_USER \
     DEIS=True \
     DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE SECRET_KEY=$DJANGO_SETTINGS_MODULE  > /dev/null
-travis_wait git push deis master
+git push deis master
 ./deis keys:remove $(whoami)@$(hostname)
 
 
