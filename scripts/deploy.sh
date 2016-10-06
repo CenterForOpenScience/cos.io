@@ -1,5 +1,6 @@
 #! /bin/sh
 
+apt-get install -y expect
 curl -sSL http://deis.io/deis-cli/install-v2.sh | bash
 
 yes | ./deis login https://deis.mechanysm.com/ --username $DEIS_USERNAME --password $DEIS_PASSWORD
@@ -18,7 +19,14 @@ ssh-keyscan [deis-builder.mechanysm].com:2222 >> ~/.ssh/known_hosts
     DATABASE_USER=$DATABASE_USER \
     DEIS=True \
     DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE SECRET_KEY=$DJANGO_SETTINGS_MODULE  > /dev/null
-yes | git push deis master
+
+expect <<LFDS
+spawn git push deis master
+expect "*(yes/no)?"
+send -- "yes\r"
+expect eof
+LFDS
+
 ./deis keys:remove $(whoami)@$(hostname)
 
 
