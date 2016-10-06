@@ -72,6 +72,7 @@ class Job(ClusterableModel, index.Indexed):
 
 class Person(ClusterableModel, index.Indexed):
 
+    user = models.ForeignKey('auth.User', null=True, blank=True, on_delete=models.SET_NULL,related_name='+')
     first_name = models.CharField(max_length=255)
     middle_name = models.CharField(max_length=255, null=True, blank=True)
     last_name = models.CharField(max_length=255)
@@ -105,6 +106,7 @@ class Person(ClusterableModel, index.Indexed):
 
     panels = [
         MultiFieldPanel([
+            FieldPanel('user'),
             FieldPanel('first_name'),
             FieldPanel('middle_name'),
             FieldPanel('last_name'),
