@@ -2389,7 +2389,7 @@
     "FIELD5":""
   },
   {
-    "Journal Title":"Clincal Psychological Science",
+    "Journal Title":"Clinical Psychological Science",
     "Publisher":"Sage",
     "Association":"Association for Psychological Science",
     "Subject Area":"Psychology",
@@ -4802,6 +4802,20 @@
   "Publisher": "Wiley",
   "Association": "Society for the Study of Evolution",
   "Subject Area": "Evolutionary Biology | Ecology | Genetics & Heredity",
+  "FIELD5": ""
+},
+{
+  "Journal Title": "Journal of Neurochemistry",
+  "Publisher": "Wiley",
+  "Association": "International Society for Neurochemistry",
+  "Subject Area": "Biochemistry | Genetics | Molecular Biology | Neuroscience",
+  "FIELD5": ""
+},
+{
+  "Journal Title": "Medical Decision Making",
+  "Publisher": "Sage",
+  "Association": "International Society for Neurochemistry",
+  "Subject Area": "Medicine | Health Policy | Medical Informatics",
   "FIELD5": ""
 },
 {
