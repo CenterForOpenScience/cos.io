@@ -1,6 +1,5 @@
 #! /bin/sh
 
-apt-get install -y expect
 curl -sSL http://deis.io/deis-cli/install-v2.sh | bash
 
 yes | ./deis login https://deis.mechanysm.com/ --username $DEIS_USERNAME --password $DEIS_PASSWORD
