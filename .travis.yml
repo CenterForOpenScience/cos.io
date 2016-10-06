@@ -3,7 +3,13 @@ python:
     - "3.5"
 install:
     - pip install -r requirements.txt
-    - echo $TEST
 script:
-    - echo 'hello'
-
+    - echo 'tests run here'
+before_deploy:
+    - echo 'getting ready to deploy'
+deploy:
+    provider: deis
+    controller: deis.mechanysm.com
+    username: $DEIS_USERNAME
+    password: $DEIS_PASSWORD
+    app: cos
