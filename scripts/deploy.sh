@@ -1,3 +1,5 @@
-#! /bin/sh
+#! /usr/bin/sh
 
-echo 'hello'
+git deis push master
+return 1
+
