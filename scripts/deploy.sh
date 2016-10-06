@@ -7,7 +7,9 @@ eval "$(ssh-agent -s)"
 ssh-keygen -t rsa -N "" -f ~/.ssh/id_deis > /dev/null
 ls -la ~/.ssh/
 chmod 700 ~/.ssh
+chmod 600 ~/.ssh/id_deis
 chmod 600 ~/.ssh/id_deis.pub
+cat .git//config
 
 expect <<LFDS
 spawn ssh-add ~/.ssh/id_deis
