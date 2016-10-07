@@ -239,10 +239,19 @@ class OSFPage(Page):
         })
 
 class NewsIndexPage(Page):
+    footer = models.ForeignKey(
+        'common.Footer',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+
     statement = models.CharField(blank=True, max_length=1000)
 
     content_panels = Page.content_panels + [
-        FieldPanel('statement', classname="full")
+        FieldPanel('statement', classname="full"),
+        SnippetChooserPanel('footer'),
     ]
 
     parent_page_types = ['common.OSFPage']
@@ -258,6 +267,14 @@ class NewsIndexPage(Page):
         })
 
 class NewsArticle(Page):
+    footer = models.ForeignKey(
+        'common.Footer',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+
     main_image = models.ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -277,6 +294,7 @@ class NewsArticle(Page):
         FieldPanel('intro'),
         FieldPanel('body'),
         FieldPanel('external_link'),
+        SnippetChooserPanel('footer'),
     ]
 
     parent_page_types = ['common.NewsIndexPage']
