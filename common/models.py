@@ -27,8 +27,10 @@ from blocks.models import (
     ImageCustomBlock, GoogleMapBlock, HeroBlock, PeopleBlock,
     COSPhotoStreamBlock, SpotlightBlock, TwitterBlock, CenteredTextBlock,
     TabIndexBlock, TabContainerBlock, TabContainerBlockInColumn, TwoColumnBlock,
-    ThreeColumnBlock, ClearfixBlock, ColumnBlock, JobsWholeBlock
+    ThreeColumnBlock, ClearfixBlock, ColumnsBlock, JobsWholeBlock
 )
+
+
 
 class Job(ClusterableModel, index.Indexed):
     title = models.CharField(max_length=255)
@@ -199,7 +201,7 @@ class OSFPage(Page):
         ('statement', blocks.CharBlock()),
         ('paragraph', blocks.RichTextBlock()),
         ('image', ImageChooserBlock()),
-        ('column', ColumnBlock()),
+        ('column', ColumnsBlock()),
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
         ('tab_index', TabIndexBlock()),

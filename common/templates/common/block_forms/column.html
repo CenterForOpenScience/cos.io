@@ -18,7 +18,6 @@
 
 .column-size-chooser-wrapper {
     width: 180px;
-    float: right;
 }
 
 .column-block select {
@@ -30,11 +29,24 @@
     line-height: 1.58em;
 }
 
+.column-content-stream-wrapper {
+    margin-top: 35px;
+}
+
+.column-content-stream-wrapper > .sequence-container > .sequence-container-inner ul > li > .sequence-member-inner {
+    padding:5px 10px;
+    width: auto;
+}
+
+.column-content-stream-wrapper .stream-menu {
+    margin: 0 10px;
+    border-radius:5px;
+}
+
 </style>
+
 <div class="column-block">
     <div class="column-block-header">
-
-        <h1 style='float: left;'>Column</h1>
         {% if help_text %}
             <div class="object-help help">{{ help_text }}</div>
         {% endif %}
