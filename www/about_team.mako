@@ -454,6 +454,19 @@
             </ul>
         </div>
     </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/svenson.jpg" alt="Elena Svenson">
+            <h3>
+                Elena Svenson
+                <small>Community Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/esvenson" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ecs83/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/barbour.jpg" alt="Eric Barbour">
