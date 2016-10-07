@@ -39,5 +39,13 @@
                 </div>
             </div>
     </div>
-    {% footer %}
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          {# Have to specify content or it will just display the name of the footer #}
+          {{ page.footer.content }}
+        </div>
+      </div>
+    </div>
+
 {% endblock %}
