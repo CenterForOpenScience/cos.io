@@ -5,7 +5,7 @@ from .models import Person, Job, NewsArticle
 
 class PersonModelAdmin(ModelAdmin):
     model = Person
-    menu_label = 'Persons' # ditch this to use verbose_name_plural from model
+    menu_label = 'People' # ditch this to use verbose_name_plural from model
     menu_icon = 'group' # change as required
     menu_order = 400 # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
