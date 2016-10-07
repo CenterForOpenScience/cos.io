@@ -145,8 +145,6 @@ class Footer(models.Model):
 
     title = models.CharField(default='untitled', max_length=255)
 
-    active = models.BooleanField(default=False)
-
     content = StreamField([
         ('heading', blocks.CharBlock(classname="full title")),
         ('paragraph', blocks.RichTextBlock()),
