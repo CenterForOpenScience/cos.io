@@ -14,6 +14,7 @@ from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
 from wagtail.wagtailadmin.edit_handlers import MultiFieldPanel
 from wagtail.wagtailadmin.edit_handlers import FieldPanel
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
+from wagtail.wagtailsnippets.edit_handlers import SnippetChooserPanel
 from wagtail.wagtailsearch import index
 
 from modelcluster.fields import ParentalKey
@@ -181,6 +182,13 @@ class Footer(models.Model):
 
 
 class OSFPage(Page):
+    footer = models.ForeignKey(
+        'common.Footer',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
 
     content = StreamField([
          ('appeal', blocks.StructBlock([
@@ -219,6 +227,7 @@ class OSFPage(Page):
 
     content_panels = Page.content_panels + [
         StreamFieldPanel('content'),
+        SnippetChooserPanel('footer'),
     ]
 
     parent_page_types = ['common.OSFPage']
