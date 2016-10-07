@@ -72,7 +72,7 @@ class Job(ClusterableModel, index.Indexed):
 
 class Person(ClusterableModel, index.Indexed):
 
-    user = models.ForeignKey('auth.User', null=True, blank=True, on_delete=models.SET_NULL,related_name='+')
+    user = models.OneToOneField('auth.User', null=True, blank=True, on_delete=models.SET_NULL,related_name='profile')
     first_name = models.CharField(max_length=255)
     middle_name = models.CharField(max_length=255, null=True, blank=True)
     last_name = models.CharField(max_length=255)
@@ -126,6 +126,7 @@ class Person(ClusterableModel, index.Indexed):
     ]
 
     class Meta:
+        verbose_name_plural = "People"
         ordering = ['last_name']
 
     def __str__(self):
