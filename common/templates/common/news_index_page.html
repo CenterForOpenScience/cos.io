@@ -27,7 +27,15 @@
 
             </div>
     </div>
-    {% footer %}
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          {# Have to specify content or it will just display the name of the footer #}
+          {{ page.footer.content }}
+        </div>
+      </div>
+    </div>
+
 {% endblock %}
 
 {% block extra_js %}
@@ -47,7 +55,7 @@
 
     <script>
         $.endlessPaginate({
-            paginateOnScroll: true, paginateOnScrollChunkSize: 10, paginateOnScrollMargin: 200,
+            paginateOnScroll: true, paginateOnScrollChunkSize: 10, paginateOnScrollMargin: 400,
             onCompleted: function(){
                 var masonry = $('.grid').data('masonry');
                 if (masonry !== undefined) {

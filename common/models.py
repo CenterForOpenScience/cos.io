@@ -173,8 +173,6 @@ class Footer(Model):
 
     title = CharField(default='untitled', max_length=255)
 
-    active = BooleanField(default=False)
-
     content = StreamField([
         ('heading', blocks.CharBlock(classname="full title")),
         ('paragraph', blocks.RichTextBlock()),
@@ -269,10 +267,23 @@ class OSFPage(Page):
         })
 
 class NewsIndexPage(Page):
+<<<<<<< HEAD
     statement = CharField(blank=True, max_length=1000)
+=======
+    footer = models.ForeignKey(
+        'common.Footer',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+
+    statement = models.CharField(blank=True, max_length=1000)
+>>>>>>> 559c53efc9d504e13302c78b5280e3a661d0781b
 
     content_panels = Page.content_panels + [
-        FieldPanel('statement', classname="full")
+        FieldPanel('statement', classname="full"),
+        SnippetChooserPanel('footer'),
     ]
 
     parent_page_types = ['common.OSFPage']
@@ -288,7 +299,19 @@ class NewsIndexPage(Page):
         })
 
 class NewsArticle(Page):
+<<<<<<< HEAD
     main_image = ForeignKey(
+=======
+    footer = models.ForeignKey(
+        'common.Footer',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+
+    main_image = models.ForeignKey(
+>>>>>>> 559c53efc9d504e13302c78b5280e3a661d0781b
         'wagtailimages.Image',
         null=True,
         blank=True,
@@ -307,6 +330,7 @@ class NewsArticle(Page):
         FieldPanel('intro'),
         FieldPanel('body'),
         FieldPanel('external_link'),
+        SnippetChooserPanel('footer'),
     ]
 
     parent_page_types = ['common.NewsIndexPage']
