@@ -22,6 +22,7 @@ INSTALLED_APPS = [
 
     
     'common',
+    'cos',
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
     'wagtail.wagtailembeds',
@@ -47,7 +48,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'wagtail.contrib.modeladmin',
     
-    'blocks',
     'search',
     'el_pagination',
 ]

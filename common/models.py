@@ -1,40 +1,68 @@
-from django.db import models
+# -*- coding: utf-8 -*-
+"""Common page types for Wagtail CMS
+
+This module implements several common types of pages to be used in concert
+with the Wagtail CMS.
+"""
+
+
+# Base Models & Utilities
+from django.contrib.auth.models import User, Group, Permission
+from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
 
-from wagtail.wagtailcore.models import Page
-from wagtail.wagtailsnippets.models import register_snippet
-
+# Database Fields
+from django.db.models import CharField
+from django.db.models import OneToOneField
+from django.db.models import ForeignKey
+from django.db.models import SET_NULL
+from django.db.models import URLField
+from django.db.models import DateField
+from django.db.models import EmailField
+from django.db.models import BooleanField
+from django.db.models import Model
 from wagtail.wagtailcore.fields import StreamField
 from wagtail.wagtailcore.fields import RichTextField
+
+# StreamField Blocks
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailembeds.blocks import EmbedBlock
+from common.blocks.hero import HeroBlock
+from common.blocks.people import PeopleBlock
+from common.blocks.spotlight import SpotlightBlock
+from common.blocks.jobs import JobsWholeBlock
+from common.blocks.centered_text import CenteredTextBlock
+from common.blocks.columns import ColumnsBlock
+from common.blocks.columns import TwoColumnBlock
+from common.blocks.columns import ThreeColumnBlock
+from common.blocks.maps import GoogleMapBlock
+from common.blocks.twitter import TwitterBlock
+from common.blocks.images import ImageBlock
+from common.blocks.images import COSPhotoStreamBlock
+from common.blocks.clearfix import ClearfixBlock
+from common.blocks.tabs import TabIndexBlock
+from common.blocks.tabs import TabContainerBlock
+from common.blocks.tabs import TabContainerInColumnBlock
 
+# Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
 from wagtail.wagtailadmin.edit_handlers import MultiFieldPanel
 from wagtail.wagtailadmin.edit_handlers import FieldPanel
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
+from wagtail.wagtailsnippets.models import register_snippet
 from wagtail.wagtailsnippets.edit_handlers import SnippetChooserPanel
-from wagtail.wagtailsearch import index
 
+# Tagging & Search
+from wagtail.wagtailsearch import index
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
-from django.contrib.auth.models import User, Group, Permission
-
-from blocks.models import (
-    ImageCustomBlock, GoogleMapBlock, HeroBlock, PeopleBlock,
-    COSPhotoStreamBlock, SpotlightBlock, TwitterBlock, CenteredTextBlock,
-    TabIndexBlock, TabContainerBlock, TabContainerBlockInColumn, TwoColumnBlock,
-    ThreeColumnBlock, ClearfixBlock, ColumnsBlock, JobsWholeBlock
-)
-
-
 
 class Job(ClusterableModel, index.Indexed):
-    title = models.CharField(max_length=255)
+    title = CharField(max_length=255)
     background = RichTextField(blank=True)
     responsibilities = RichTextField(blank=True)
     skills = RichTextField(blank=True)
@@ -75,29 +103,29 @@ class Job(ClusterableModel, index.Indexed):
 
 class Person(ClusterableModel, index.Indexed):
 
-    user = models.OneToOneField('auth.User', null=True, blank=True, on_delete=models.SET_NULL,related_name='profile')
-    first_name = models.CharField(max_length=255)
-    middle_name = models.CharField(max_length=255, null=True, blank=True)
-    last_name = models.CharField(max_length=255)
+    user = OneToOneField('auth.User', null=True, blank=True, on_delete=SET_NULL,related_name='profile')
+    first_name = CharField(max_length=255)
+    middle_name = CharField(max_length=255, null=True, blank=True)
+    last_name = CharField(max_length=255)
     bio = RichTextField(blank=True)
 
-    photo = models.ForeignKey(
+    photo = ForeignKey(
         'wagtailimages.Image',
         null=True,
         blank=True,
-        on_delete=models.SET_NULL,
+        on_delete=SET_NULL,
         related_name='+'
     )
 
-    title = models.CharField(max_length=140, blank=True)
-    position = models.CharField(max_length=140, blank=True)
-    term = models.CharField(blank=True, max_length=9, help_text="Format:YYYY-YYYY")
-    linked_in = models.URLField(blank=True)
-    blog_url = models.URLField(blank=True)
-    osf_profile = models.URLField(blank=True)
-    phone_number = models.CharField(max_length=12, blank=True, help_text="Format:XXX-XXX-XXXX")
-    email_address = models.EmailField(blank=True)
-    favorite_food = models.CharField(max_length=140, blank=True)
+    title = CharField(max_length=140, blank=True)
+    position = CharField(max_length=140, blank=True)
+    term = CharField(blank=True, max_length=9, help_text="Format:YYYY-YYYY")
+    linked_in = URLField(blank=True)
+    blog_url = URLField(blank=True)
+    osf_profile = URLField(blank=True)
+    phone_number = CharField(max_length=12, blank=True, help_text="Format:XXX-XXX-XXXX")
+    email_address = EmailField(blank=True)
+    favorite_food = CharField(max_length=140, blank=True)
 
     tags = TaggableManager(through='common.PersonTag', blank=True)
 
@@ -141,11 +169,11 @@ class PersonTag(TaggedItemBase):
 
 
 @register_snippet
-class Footer(models.Model):
+class Footer(Model):
 
-    title = models.CharField(default='untitled', max_length=255)
+    title = CharField(default='untitled', max_length=255)
 
-    active = models.BooleanField(default=False)
+    active = BooleanField(default=False)
 
     content = StreamField([
         ('heading', blocks.CharBlock(classname="full title")),
@@ -183,11 +211,11 @@ class Footer(models.Model):
 
 
 class OSFPage(Page):
-    footer = models.ForeignKey(
+    footer = ForeignKey(
         'common.Footer',
         null=True,
         blank=True,
-        on_delete=models.SET_NULL,
+        on_delete=SET_NULL,
         related_name='+'
     )
 
@@ -209,13 +237,13 @@ class OSFPage(Page):
         ('heading', blocks.CharBlock(classname="full title")),
         ('statement', blocks.CharBlock()),
         ('paragraph', blocks.RichTextBlock()),
-        ('image', ImageChooserBlock()),
+        ('imagechooser', ImageChooserBlock()),
         ('column', ColumnsBlock()),
         ('twocolumn', TwoColumnBlock()),
         ('threecolumn', ThreeColumnBlock()),
         ('tab_index', TabIndexBlock()),
         ('tabcontainerblock', TabContainerBlock()),
-        ('customizedimage', ImageCustomBlock()),
+        ('image', ImageBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
@@ -241,7 +269,7 @@ class OSFPage(Page):
         })
 
 class NewsIndexPage(Page):
-    statement = models.CharField(blank=True, max_length=1000)
+    statement = CharField(blank=True, max_length=1000)
 
     content_panels = Page.content_panels + [
         FieldPanel('statement', classname="full")
@@ -260,18 +288,18 @@ class NewsIndexPage(Page):
         })
 
 class NewsArticle(Page):
-    main_image = models.ForeignKey(
+    main_image = ForeignKey(
         'wagtailimages.Image',
         null=True,
         blank=True,
-        on_delete=models.SET_NULL,
+        on_delete=SET_NULL,
         related_name='+'
     )
 
-    date = models.DateField("Post date")
-    intro = models.CharField(max_length=1000, blank=True)
+    date = DateField("Post date")
+    intro = CharField(max_length=1000, blank=True)
     body = RichTextField(blank=True, help_text='Fill this if the article is from COS')
-    external_link = models.CharField("External Article Link",help_text="Fill this if the article is NOT from COS", max_length=255,blank=True)
+    external_link = CharField("External Article Link",help_text="Fill this if the article is NOT from COS", max_length=255,blank=True)
 
     content_panels = Page.content_panels + [
         FieldPanel('date'),
