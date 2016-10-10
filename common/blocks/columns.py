@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Common StreamField blocks
+"""Columns StreamField block
 
-This module provides common blocks for use with the wagtail StreamField
+This module provides a columns block for use with the wagtail StreamField
 class.
+
+TODO:
+* Limit the row to a maximum of 100% width
 """
 
 from django import forms
@@ -17,10 +20,9 @@ from wagtail.wagtailembeds.blocks import EmbedBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 
 from common.blocks import COLOUR_CHOICES, COLUMN_CHOICES
-from common.blocks.tabs import TabIndexBlock, TabContainerBlockInColumn, TabContainerBlock
-from common.blocks.google_map import GoogleMapBlock
+from common.blocks.maps import GoogleMapBlock
 from common.blocks.twitter import TwitterBlock
-from common.blocks.custom_image import ImageCustomBlock
+from common.blocks.images import ImageBlock
 from common.blocks.centered_text import CenteredTextBlock
 from common.blocks.images import COSPhotoStreamBlock
 
@@ -114,7 +116,7 @@ class TwoColumnBlock(blocks.StructBlock):
     left_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('customized_image', ImageCustomBlock()),
+            ('customized_image', ImageBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -129,7 +131,6 @@ class TwoColumnBlock(blocks.StructBlock):
                     ('topic', blocks.CharBlock(required=True, max_length=35)),
                     ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
-            ('tab_index', TabIndexBlock()),
             ('centered_text', CenteredTextBlock()),
             ('raw_html', blocks.RawHTMLBlock(
                     help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
@@ -138,7 +139,7 @@ class TwoColumnBlock(blocks.StructBlock):
     right_column = blocks.StreamBlock([
             ('heading', blocks.CharBlock(classname="full title")),
             ('paragraph', blocks.RichTextBlock()),
-            ('customized_image', ImageCustomBlock()),
+            ('customized_image', ImageBlock()),
             ('appeal', blocks.StructBlock([
                     ('icon', blocks.ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
@@ -156,7 +157,6 @@ class TwoColumnBlock(blocks.StructBlock):
             ('embedded_video', EmbedBlock()),
             ('google_map', GoogleMapBlock()),
             ('twitter_feed', TwitterBlock()),
-            ('embedded_tab_container', TabContainerBlockInColumn()),
             ('centered_text', CenteredTextBlock()),
             ('raw_html', blocks.RawHTMLBlock(
                 help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
@@ -191,7 +191,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('statement', blocks.CharBlock()),
             ('rich_text', blocks.RichTextBlock()),
             ('paragraph', blocks.TextBlock()),
-            ('customizedimage', ImageCustomBlock()),
+            ('customizedimage', ImageBlock()),
             ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),

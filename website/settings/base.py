@@ -20,9 +20,20 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 
 INSTALLED_APPS = [
 
+    'django_comments',
+    'django_comments_xtd',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.sites',    
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
     
     'common',
     'cos',
+    
+    'wagtail.contrib.modeladmin',
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
     'wagtail.wagtailembeds',
@@ -39,17 +50,11 @@ INSTALLED_APPS = [
     'taggit',
     'storages',
 
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    #'django.contrib.sites',    
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'wagtail.contrib.modeladmin',
+
     
     'search',
     'el_pagination',
+    'blog',
 ]
 
 MIDDLEWARE = [

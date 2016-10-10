@@ -1,6 +1,7 @@
 from wagtail.wagtailcore import blocks
 
-from .people import PeopleBlock
+from common.blocks.people import PeopleBlock
+from common.blocks.columns import TwoColumnBlock
 
 class TabBlockInColumn(blocks.StructBlock):
     id = blocks.CharBlock(required=True)
@@ -51,7 +52,6 @@ class TabIndexBlock(blocks.StructBlock):
 
 class TabBlock(blocks.StructBlock):
     # avoid circular import
-    from .two_column import TwoColumnBlock
 
     id = blocks.CharBlock(required=True)
     isActive = blocks.BooleanBlock(default=False, required=False)

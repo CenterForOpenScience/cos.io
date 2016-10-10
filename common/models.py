@@ -208,7 +208,7 @@ class Footer(Model):
         return super(Footer, self).save(*args, **kwargs)
 
 
-class OSFPage(Page):
+class CustomPage(Page):
     footer = ForeignKey(
         'common.Footer',
         null=True,
@@ -257,8 +257,6 @@ class OSFPage(Page):
         SnippetChooserPanel('footer'),
     ]
 
-    parent_page_types = ['common.OSFPage']
-
     def serve(self, request):
         return render(request, self.template, {
             'page': self,
@@ -281,8 +279,6 @@ class NewsIndexPage(Page):
         FieldPanel('statement', classname="full"),
         SnippetChooserPanel('footer'),
     ]
-
-    parent_page_types = ['common.OSFPage']
 
     def serve(self, request):
         page_template='common/news_article_box.html'
