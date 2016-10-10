@@ -1,7 +1,7 @@
 from wagtail.contrib.modeladmin.options import (
-    ModelAdmin, modeladmin_register)
+    ModelAdmin, ModelAdminGroup, modeladmin_register)
 from .models import Person, Job, NewsArticle
-
+from blog.models import BlogPage
 
 class PersonModelAdmin(ModelAdmin):
     model = Person
@@ -21,17 +21,32 @@ class JobModelAdmin(ModelAdmin):
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
     list_display = ('title', 'background')
 
-class ArticleModelAdmin(ModelAdmin):
+class NewsModelAdmin(ModelAdmin):
     model = NewsArticle
-    menu_label = 'News Articles' # ditch this to use verbose_name_plural from model
-    menu_icon = 'folder-open-inverse' # change as required
-    menu_order = 400 # will put in 3rd place (000 being 1st, 100 2nd)
+    menu_label = 'News' # ditch this to use verbose_name_plural from model
+    menu_icon = 'site' # change as required
+    menu_order = 100 # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
     list_display = ('title', 'date')
     search_fields = ('date', 'title', 'intro')
 
+class BlogModelAdmin(ModelAdmin):
+    model = BlogPage
+    menu_label = 'Blogs' # ditch this to use verbose_name_plural from model
+    menu_icon = 'doc-full' # change as required
+    menu_order = 100 # will put in 3rd place (000 being 1st, 100 2nd)
+    add_to_settings_menu = False # or True to add your model to the Settings sub-menu
+    list_display = ('title', 'date', 'categories')
+    search_fields = ('date', 'title')
+
+class ArticlesModelAdminGroup(ModelAdminGroup):
+    menu_label = 'Articles'
+    menu_icon = 'folder-open-inverse'
+    menu_order = 400
+    items = (NewsModelAdmin, BlogModelAdmin)
+
 # Now you just need to register your customised ModelAdmin class with Wagtail
 modeladmin_register(PersonModelAdmin)
 modeladmin_register(JobModelAdmin)
-modeladmin_register(ArticleModelAdmin)
+modeladmin_register(ArticlesModelAdminGroup)
 
