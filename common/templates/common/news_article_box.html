@@ -3,13 +3,16 @@
 {% lazy_paginate newsArticles %}
     {% for article in newsArticles %}
         <div class="service-box-v1">
-        {% image article.main_image original as main_image%}
+
             {% if article.body %}
                 <a href="..{{ article.url }}">
             {% else %}
                 <a href="{{article.external_link}}">
             {% endif %}
+        {% if article.main_image %}
+            {% image article.main_image original as main_image%}
             <img src={{ main_image.url }} width="125">
+        {% endif %}
         <h2 class="text-left">{{ article.title }}</h2>
         {% if article.intro %}
             <p class="text-left">{{ article.date }} | {{ article.intro }}</p>

@@ -995,3 +995,14 @@ img {
 .header .navbar-nav li a {
     padding: 26px 13px 27px;
 }
+
+a:visited
+{
+color: #821d9c
+}
+
+.right_aligned_span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
