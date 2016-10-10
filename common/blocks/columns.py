@@ -17,7 +17,7 @@ from wagtail.wagtailembeds.blocks import EmbedBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 
 from common.blocks import COLOUR_CHOICES, COLUMN_CHOICES
-from common.blocks.tab import TabIndexBlock, TabContainerBlockInColumn, TabContainerBlock
+from common.blocks.tabs import TabIndexBlock, TabContainerBlockInColumn, TabContainerBlock
 from common.blocks.google_map import GoogleMapBlock
 from common.blocks.twitter import TwitterBlock
 from common.blocks.custom_image import ImageCustomBlock
