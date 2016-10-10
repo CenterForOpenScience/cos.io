@@ -1,7 +1,7 @@
 from wagtail.wagtailcore import blocks
 
 from common.blocks.people import PeopleBlock
-from common.blocks.columns import TwoColumnBlock
+from common.blocks.columns import ColumnsBlock
 
 class TabBlockInColumn(blocks.StructBlock):
     id = blocks.CharBlock(required=True)
@@ -56,7 +56,7 @@ class TabBlock(blocks.StructBlock):
     id = blocks.CharBlock(required=True)
     isActive = blocks.BooleanBlock(default=False, required=False)
     container = blocks.StreamBlock([
-        ('two_column_block', TwoColumnBlock()),
+        ('two_column_block', ColumnsBlock()),
         ('paragraph', blocks.RichTextBlock()),
         ('people_block', PeopleBlock()),
     ])

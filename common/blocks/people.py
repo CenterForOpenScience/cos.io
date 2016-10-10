@@ -6,7 +6,6 @@ PEOPLE_DISPLAY_CHOICES = [
     ('detailed', 'detailed'),
 ]
 
-
 class PeopleBlock(blocks.StructBlock):
     displayStyle = blocks.ChoiceBlock(choices=PEOPLE_DISPLAY_CHOICES,default="concise")
     tag = blocks.CharBlock(max_length=20)
