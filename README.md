@@ -2,6 +2,7 @@ centerforopenscience.org
 ========================
 
 This is the code for the site available at http://centerforopenscience.org.
+There is also a staging site that follows the master branch here: https://staging-legacy.cos.io/
 
 To install and build.
 
