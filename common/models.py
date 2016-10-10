@@ -175,7 +175,7 @@ class Footer(Model):
         ('heading', blocks.CharBlock(classname="full title")),
         ('paragraph', blocks.RichTextBlock()),
         ('image', ImageChooserBlock()),
-        ('threecolumn', ColumnsBlock()),
+        ('columns', ColumnsBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('google_map', GoogleMapBlock()),
         ('twitter_feed', TwitterBlock()),
