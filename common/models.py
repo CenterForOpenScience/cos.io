@@ -127,11 +127,11 @@ class Person(ClusterableModel, index.Indexed):
 
     tags = TaggableManager(through='common.PersonTag', blank=True)
 
-    search_fields = (
+    search_fields = [
         index.SearchField('first_name', partial_match=True),
         index.SearchField('last_name', partial_match=True),
         index.SearchField('middle_name', partial_match=True),
-    )
+    ]
 
     panels = [
         MultiFieldPanel([

@@ -48,3 +48,4 @@
 - el-pagination has been installed to enable the lazy load of articles. Current version of endless-pagination is not 100% compatible with the django version we use. So there are some modifications that we need to do after installaztion.
 	- pip install django-el-pagination
 	- add 'el_pagination' to installed_apps in the setting
+- rename blog_models.py to models.py and move it to ...python/lib/python3.4/site-packages/blog/ and replace the old models.py file. This is to avoid the warning of tuple being deprciated in the search field.
