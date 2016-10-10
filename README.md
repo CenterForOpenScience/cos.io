@@ -20,7 +20,7 @@
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 - `python manage.py runserver 127.0.0.1:4200`
-- The application should now be running at `http://localhost:4200/` 
+- The application should now be running at `http://localhost:4200/`
 
 ## To run on Heroku:
 - Set up a Heroku account if you have not already.
@@ -41,11 +41,11 @@
     - At the bottom of the window, press save.
 - Your new page should be ready to view.
 
-*&ast;When developing new pages on a live site, one should preview the page first.* 
+*&ast;When developing new pages on a live site, one should preview the page first.*
 
 ## Addtional Note
 - admin_base.html is the base template for the admin page. It has been modified to customize the admin page. It does not belong to this directory. One MUST move it to the lib/python3.4/site-packages/wagtail/wagtailadmin/templates/wagtailadmin directory in the virtual environment and replace the original one with this modified one to show the change in the admin page.
 - el-pagination has been installed to enable the lazy load of articles. Current version of endless-pagination is not 100% compatible with the django version we use. So there are some modifications that we need to do after installaztion.
 	- pip install django-el-pagination
 	- add 'el_pagination' to installed_apps in the setting
-- rename blog_models.py to models.py and move it to ...python/lib/python3.4/site-packages/blog/ and replace the old models.py file. This is to avoid the warning of tuple being deprciated in the search field.
+- rename blog_models.py to models.py and move it to ...python/lib/python3.4/site-packages/blog/ and replace the old models.py file. This is to avoid the warning of tuple being depreciated in the search field.
