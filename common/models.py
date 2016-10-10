@@ -192,7 +192,6 @@ class Footer(Model):
 
     panels = [
         FieldPanel('title'),
-        FieldPanel('active'),
         StreamFieldPanel('content'),
     ]
 
