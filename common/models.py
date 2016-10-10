@@ -267,19 +267,15 @@ class OSFPage(Page):
         })
 
 class NewsIndexPage(Page):
-<<<<<<< HEAD
-    statement = CharField(blank=True, max_length=1000)
-=======
-    footer = models.ForeignKey(
+    footer = ForeignKey(
         'common.Footer',
         null=True,
         blank=True,
-        on_delete=models.SET_NULL,
+        on_delete=SET_NULL,
         related_name='+'
     )
 
-    statement = models.CharField(blank=True, max_length=1000)
->>>>>>> 559c53efc9d504e13302c78b5280e3a661d0781b
+    statement = CharField(blank=True, max_length=1000)
 
     content_panels = Page.content_panels + [
         FieldPanel('statement', classname="full"),
@@ -299,19 +295,15 @@ class NewsIndexPage(Page):
         })
 
 class NewsArticle(Page):
-<<<<<<< HEAD
-    main_image = ForeignKey(
-=======
-    footer = models.ForeignKey(
+    footer = ForeignKey(
         'common.Footer',
         null=True,
         blank=True,
-        on_delete=models.SET_NULL,
+        on_delete=SET_NULL,
         related_name='+'
     )
 
-    main_image = models.ForeignKey(
->>>>>>> 559c53efc9d504e13302c78b5280e3a661d0781b
+    main_image = ForeignKey(
         'wagtailimages.Image',
         null=True,
         blank=True,
