@@ -196,14 +196,6 @@ class Footer(Model):
     def __str__(self):
         return self.title
 
-    def save(self, *args, **kwargs):
-        if self.active:
-            for footer in Footer.objects.filter(active=True):
-                footer.active = False
-                footer.save()
-
-        return super(Footer, self).save(*args, **kwargs)
-
 
 class CustomPage(Page):
     footer = ForeignKey(
