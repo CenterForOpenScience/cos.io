@@ -1,7 +1,55 @@
-from wagtail.wagtailcore import blocks
+# -*- coding: utf-8 -*-
+"""
+"""
 
+
+from django.template.loader import render_to_string
+
+from wagtail.wagtailcore import blocks
+from wagtail.wagtailcore.blocks import ListBlock
+from wagtail.wagtailcore.blocks import CharBlock
+from wagtail.wagtailcore.blocks import StructBlock
 from common.blocks.people import PeopleBlock
 from common.blocks.columns import ColumnsBlock
+from common.blocks.columns import GenericContentStreamBlock
+
+
+class TabBlock(StructBlock):
+    tab_name = CharBlock()
+    tab_content = GenericContentStreamBlock()
+
+
+class TabbedBlock(blocks.ListBlock):
+
+    class Meta:
+        template = 'common/blocks/tabbed_block.html'
+        label = 'Tabbed Block'
+    
+    def __init__(self, **kwargs):
+        return super(TabbedBlock, self).__init__(TabBlock(), **kwargs)
+
+    def render_form(self, value, prefix='', errors=None):
+        if errors:
+            if len(errors) > 1:
+                # We rely on ListBlock.clean throwing a single ValidationError with a specially crafted
+                # 'params' attribute that we can pull apart and distribute to the child blocks
+                raise TypeError('ListBlock.render_form unexpectedly received multiple errors')
+            error_list = errors.as_data()[0].params
+        else:
+            error_list = None
+
+        list_members_html = [
+            self.render_list_member(child_val, "%s-%d" % (prefix, i), i,
+                                    errors=error_list[i] if error_list else None)
+            for (i, child_val) in enumerate(value)
+        ]
+
+        return render_to_string('common/block_forms/tabs.html', {
+            'help_text': getattr(self.meta, 'help_text', None),
+            'prefix': prefix,
+            'list_members_html': list_members_html,
+        })
+
 
 class TabBlockInColumn(blocks.StructBlock):
     id = blocks.CharBlock(required=True)
@@ -16,7 +64,7 @@ class TabBlockInColumn(blocks.StructBlock):
 
     class Meta:
         template = 'common/blocks/tab_block.html'
-        icon = 'plus'
+        icon = 'folder-inverse'
         label = 'Tab'
 
 
@@ -48,22 +96,6 @@ class TabIndexBlock(blocks.StructBlock):
         template = 'common/blocks/tab_index_block.html'
         icon = 'list-ul'
         label = "Tab Indexing"
-
-
-class TabBlock(blocks.StructBlock):
-    # avoid circular import
-
-    id = blocks.CharBlock(required=True)
-    isActive = blocks.BooleanBlock(default=False, required=False)
-    container = blocks.StreamBlock([
-        ('two_column_block', ColumnsBlock()),
-        ('paragraph', blocks.RichTextBlock()),
-        ('people_block', PeopleBlock()),
-    ])
-    class Meta:
-        template = 'common/blocks/tab_block.html'
-        icon = 'plus'
-        label = 'Tab'
 
 
 class TabContainerBlock(blocks.StructBlock):

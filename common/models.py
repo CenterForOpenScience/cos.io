@@ -41,6 +41,7 @@ from common.blocks.images import COSPhotoStreamBlock
 from common.blocks.clearfix import ClearfixBlock
 from common.blocks.tabs import TabIndexBlock
 from common.blocks.tabs import TabContainerBlock
+from common.blocks.tabs import TabbedBlock
 from common.blocks.tabs import TabContainerInColumnBlock
 
 # Edit Panels
@@ -233,7 +234,7 @@ class CustomPage(Page):
         ('paragraph', blocks.RichTextBlock()),
         ('imagechooser', ImageChooserBlock()),
         ('column', ColumnsBlock()),
-        ('tab_index', TabIndexBlock()),
+        ('tabbed_block', TabbedBlock()),
         ('tabcontainerblock', TabContainerBlock()),
         ('image', ImageBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
