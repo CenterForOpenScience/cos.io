@@ -656,7 +656,7 @@
             <h4 class="panel-title">
                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
                 <a  data-parent="#Housekeeper" >
-                    Housekeeper/Courier
+                    Housekeeper
                 </a>
             </h4>
         </div>
@@ -665,8 +665,8 @@
                 <dl class="dl-horizontal">
                     <dt>Background</dt>
                     <dd>
-                        <p>The Center for Open Science is looking for a Housekeeper/Courier to be responsible for cleaning and maintenance duties as well as providing weekly courier service on a part-time basis. The position would entail office, kitchen, bathroom cleaning, and trash removal. In addition, the position will also collect orders from various vendors including but not limited to: wholesale and local grocery stores. This position will also be responsible for organizing and stocking goods received. The ideal candidate must be flexible and able to work with the team as there may be some overlapping shift requirements.</p>
-                        <p>This is a 20 hour per week, part-time position, with health, dental, and 401(k) benefits. This position will pay hourly at $11/hr.</p>
+                        <p>The Center for Open Science is looking for a housekeeper to take care of our office space by carrying out cleaning and maintenance duties. The role will entail office, kitchen, bathroom cleaning, and trash removal. This position will also be responsible for organizing and stocking goods received. The ideal candidate must be flexible and able to work with the team as there may be some overlapping shift requirements.</p>
+                        <p>This is a 10-15 hour per week, part-time position, with health, dental, and 401(k) benefits. This position will pay hourly at $11/hr.</p>
                     </dd>
                     <dt>Location</dt>
                     <dd>
@@ -677,25 +677,27 @@
                         <ul class="indent">
                             <li>Clean and supply designated facility areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, restroom cleaning etc).</li>
                             <li>Trash removal (to off-site location).</li>
-                            <li>Carry out heavy cleansing tasks and special projects.</li>
-                            <li>Notify management of occurring deficiencies or needs for repairs.</li>
+                            <li>Perform and document routine inspection and maintenance activities.</li>
+                            <li>Carry out heavy cleansing tasks and special projects as needed (e.g. deep cleaning of storage room, ovens).</li>
+                            <li>Notify management of issues or needs for repairs.</li>
                             <li>Make adjustments and minor repairs such as changing light bulbs.</li>
                             <li>Stock and maintain supply rooms and kitchens.</li>
                             <li>Work well with other team members.</li>
                             <li>Follow all health and safety regulations.</li>
-                            <li>Use of personal vehicle for weekly courier activities.</li>
                         </ul>
                     </dd>
                     <dt>Requirements:</dt>
                     <dd>
                         <ul class="indent">
-                            <li>Experience in cleaning a office space, store-room, or residential housing is essential.</li>
-                            <li>Exceptional organizational skills and attention to detail; service orientation; ability to multi-task; self-starter and driven; very strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; basic math skills; team-oriented; effective writing skills; evident interest in administrative tasks.</li>
-                            <li>Must be able to pass a background check.</li>
-                            <li>Must possess a valid driver’s license.</li>
+                            <li>Lift and carry at least 15 pounds.</li>
+                            <li>Possess a high School Diploma or GED.</li>
                         </ul>
                         <p>Successful candidates will care deeply about contributing to the success of the team by providing outstanding services that support a clean and healthy work environment for all members of the Center for Open Science team.  Those who are energetic and organized will thrive. A passion for service culture, high-quality cleanliness, organization, and attention to detail is essential. Experience with store-room management, stocking, and inventory procedures is preferred.</p>
                     </dd>
+                    <dt>Skills:</dt>
+                    <dd>
+                        <p>Experience in cleaning an office space, store-room, or residential housing is essential. Exceptional organizational skills and attention to detail; service orientation; ability to multi-task; self-starter and driven; very strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; basic math skills; team-oriented; effective writing skills; evident interest in administrative tasks; must be able to pass a background check.</p> 
+                    </dd> 
                     <dt>Benefits</dt>
                     <dd>
                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
