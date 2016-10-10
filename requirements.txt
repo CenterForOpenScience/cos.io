@@ -1,5 +1,6 @@
 appnope==0.1.0
 beautifulsoup4==4.5.1
+boto==2.42.0
 boto3==1.4.0
 botocore==1.4.53
 decorator==4.0.10
