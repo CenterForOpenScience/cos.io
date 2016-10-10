@@ -1,7 +1,0 @@
-{% for b in blocks %}
-        {% if b.block_type == 'heading' %}
-                <h1 class='caps'>{{ b.value }}</h1>
-        {% else %}
-                {% include_block b %}
-        {% endif %}
-{% endfor %}

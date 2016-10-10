@@ -12,7 +12,7 @@
                 prefix: elementPrefix,
                 onInitializeMember: function(sequenceMember) {
                     /* initialize child block's JS behaviour */
-                    sequenceMember.container[0].style.width = '100%';
+                        sequenceMember.container[0].style.width = Number(sequenceMember.container[0].querySelector('.column-size-chooser-wrapper select').value) / .12 + '%';
                     if (opts.childInitializer) {
                         opts.childInitializer(sequenceMember.prefix + '-value');
                     }
