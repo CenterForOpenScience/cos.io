@@ -2,7 +2,7 @@
 
 
 
-<style>
+<!--<style>
 .sequence-type-columns > div > .sequence {
     overflow: hidden;
 }
@@ -21,7 +21,7 @@
     clear: both;
     float: right;
 }
-</style>
+</style>-->
 
 <div class="sequence-container sequence-type-columns">
     <input type="hidden" name="{{ prefix }}-count" id="{{ prefix }}-count" value="{{ list_members_html|length }}">
@@ -38,11 +38,12 @@
 
 
     <div class="sequence-container-inner">
+    <ul id='{{ prefix }}-tab-selector'></ul>
+    <button type="button" id="{{ prefix }}-add" class="button bicolor icon icon-plus">{% trans "Add a Column" %}</button>
         <ul id="{{ prefix }}-list" class="sequence">
             {% for list_member_html in list_members_html %}
                 {{ list_member_html }}
             {% endfor %}
         </ul>
-    <button type="button" id="{{ prefix }}-add" class="button bicolor icon icon-plus">{% trans "Add a Column" %}</button>
     </div>
 </div>
