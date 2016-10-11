@@ -2,9 +2,11 @@
 """
 """
 
-
+from django import forms
 from django.template.loader import render_to_string
+from django.contrib.staticfiles.templatetags.staticfiles import static
 
+from wagtail.wagtailcore.blocks.utils import js_dict
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailcore.blocks import ListBlock
 from wagtail.wagtailcore.blocks import CharBlock
@@ -29,9 +31,17 @@ class TabbedBlock(blocks.ListBlock):
         template = 'common/blocks/tabbed_block.html'
         label = 'Tabbed Block'
     
+    @property
+    def media(self):
+        return forms.Media(js=[
+            static('wagtailadmin/js/blocks/sequence.js'),
+            static('wagtailadmin/js/blocks/list.js'),
+            static('common/js/blocks/tabs.js')
+        ])
+    
     def __init__(self, **kwargs):
         return super(TabbedBlock, self).__init__(TabBlock(), **kwargs)
-
+    
     def render_form(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:
@@ -53,6 +63,12 @@ class TabbedBlock(blocks.ListBlock):
             'prefix': prefix,
             'list_members_html': list_members_html,
         })
+
+    def js_initializer(self):
+        opts = {'definitionPrefix': "'%s'" % self.definition_prefix}
+        if self.child_js_initializer:
+            opts['childInitializer'] = self.child_js_initializer
+        return "TabbedBlock(%s)" % js_dict(opts)
 
 
 class TabBlockInColumn(blocks.StructBlock):

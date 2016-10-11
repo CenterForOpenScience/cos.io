@@ -1,11 +1,11 @@
-v class="column-block">
+<div class="column-block">
     <div class="column-block-header">
         {% if help_text %}
             <div class="object-help help">{{ help_text }}</div>
         {% endif %}
 
-        <div class='column-size-chooser-wrapper'>
-            <span class='column-label'>Tab Name</span>
+        <div class='tab-name-wrapper'>
+            <span class='tabs-label'>Tab Name</span>
             {{ children.name.render_form }}
         </div>
 

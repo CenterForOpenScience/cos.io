@@ -1,8 +1,6 @@
 {% load i18n %}
-
-
-
-<!--<style>
+<style>
+/*
 .sequence-type-columns > div > .sequence {
     overflow: hidden;
 }
@@ -13,15 +11,52 @@
     border-radius: 15px;
     background-color: rgba(250,250,250,0.4);
 }
+*/
 .sequence-type-columns .sequence > li > .sequence-member-inner {
     padding: 0px;
     width: 100%;
+    clear: both;
+}
+#{{ prefix }}-heading {
+    overflow: hidden;
+}
+#{{ prefix }}-heading:after {
+    clear: both;
+}
+
+#{{ prefix }}-tabs {
+    overflow: hidden;
+    float: left;       
+}
+#{{ prefix }}-tabs li {
+    float: left;
+}
+
+#{{ prefix }}-tabs li .button {
+    padding: 10px 15px;
+    -webkit-box-shadow: inset 0px -21px 17px -19px rgba(0,0,0,0.29);
+    -moz-box-shadow: inset 0px -21px 17px -19px rgba(0,0,0,0.29);
+    box-shadow: inset 0px -21px 17px -19px rgba(0,0,0,0.29);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-bottom: inset 0px solid #000000;
+    border-radius: 4px 4px 0px 0px;
+}
+#{{ prefix }}-tabs li .button.button-active {
+    -webkit-box-shadow: inset 0px -21px 17px -19px rgba(0,0,0,0);
+    -moz-box-shadow: inset 0px -21px 17px -19px rgba(0,0,0,0);
+    box-shadow: inset 0px -21px 17px -19px rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: none;
+    background-color: rgba(0,0,0,0);
+    color: #777777;
 }
 #{{ prefix }}-add {
-    clear: both;
     float: right;
 }
-</style>-->
+
+
+</style>
+
 
 <div class="sequence-container sequence-type-columns">
     <input type="hidden" name="{{ prefix }}-count" id="{{ prefix }}-count" value="{{ list_members_html|length }}">
@@ -36,10 +71,12 @@
         {% endfor %}
     {% endif %}
 
+        <div id='{{ prefix }}-heading'>
+            <ul id='{{ prefix }}-tabs'></ul>
+            <button type="button" id="{{ prefix }}-add" class="button bicolor icon icon-plus">{% trans "Add a Tab" %}</button>
+        </div>
 
-    <div class="sequence-container-inner">
-    <ul id='{{ prefix }}-tab-selector'></ul>
-    <button type="button" id="{{ prefix }}-add" class="button bicolor icon icon-plus">{% trans "Add a Column" %}</button>
+    <div id='{{ prefix}}-sequence-continer-inner' class="sequence-container-inner">
         <ul id="{{ prefix }}-list" class="sequence">
             {% for list_member_html in list_members_html %}
                 {{ list_member_html }}
