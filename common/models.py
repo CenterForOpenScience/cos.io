@@ -32,7 +32,12 @@ from wagtail.wagtailcore.fields import RichTextField
 
 # StreamField Blocks
 from wagtail.wagtailcore import blocks
+from wagtail.wagtailcore.blocks import TextBlock
 from wagtail.wagtailcore.blocks import RichTextBlock
+from wagtail.wagtailcore.blocks import StructBlock
+from wagtail.wagtailcore.blocks import ChoiceBlock
+from wagtail.wagtailcore.blocks import CharBlock
+from wagtail.wagtailcore.blocks import RawHTMLBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailembeds.blocks import EmbedBlock
 from common.blocks.hero import HeroBlock
@@ -183,10 +188,10 @@ class Footer(Model):
 
     content = StreamField([
         ('heading', blocks.CharBlock(classname="full title")),
-        ('paragraph', blocks.RichTextBlock()),
+        ('paragraph', RichTextBlock()),
         ('image', ImageChooserBlock()),
         ('columns', ColumnsBlock()),
-        ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+        ('raw_html', RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('google_map', GoogleMapBlock()),
         ('twitter_feed', TwitterBlock()),
         ('photo_stream', COSPhotoStreamBlock()),
@@ -216,8 +221,8 @@ class CustomPage(Page):
     )
 
     content = StreamField([
-         ('appeal', blocks.StructBlock([
-                    ('icon', blocks.ChoiceBlock(required=True, choices=[
+         ('appeal', StructBlock([
+                    ('icon', ChoiceBlock(required=True, choices=[
                         ('none', 'none'),
                         ('flask', 'flask'),
                         ('group', 'group'),
@@ -227,18 +232,18 @@ class CustomPage(Page):
                         ('book', 'book'),
                         ('download', 'download'),
                     ])),
-            ('topic', blocks.CharBlock(required=True, max_length=35)),
-            ('content', blocks.TextBlock(required=True, max_length=255)),
+            ('topic', CharBlock(required=True, max_length=35)),
+            ('content', TextBlock(required=True, max_length=255)),
         ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
-        ('heading', blocks.CharBlock(classname="full title")),
-        ('statement', blocks.CharBlock()),
-        ('paragraph', blocks.RichTextBlock()),
+        ('heading', CharBlock(classname="full title")),
+        ('statement', CharBlock()),
+        ('paragraph', RichTextBlock()),
         ('imagechooser', ImageChooserBlock()),
         ('column', ColumnsBlock()),
         ('tabbed_block', TabbedBlock()),
         ('image', ImageBlock()),
-        ('rich_text', RichTextBlock())
-        ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+        ('rich_text', RichTextBlock()),
+        ('raw_html', RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
         ('hero_block', HeroBlock()),
