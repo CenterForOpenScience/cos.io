@@ -32,6 +32,7 @@ from wagtail.wagtailcore.fields import RichTextField
 
 # StreamField Blocks
 from wagtail.wagtailcore import blocks
+from wagtail.wagtailcore.blocks import RichTextBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailembeds.blocks import EmbedBlock
 from common.blocks.hero import HeroBlock
@@ -64,6 +65,8 @@ from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
+
+logger = logging.getLogger('wagtail.core')
 
 
 class Job(ClusterableModel, index.Indexed):
@@ -234,6 +237,7 @@ class CustomPage(Page):
         ('column', ColumnsBlock()),
         ('tabbed_block', TabbedBlock()),
         ('image', ImageBlock()),
+        ('rich_text', RichTextBlock())
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),

@@ -48,14 +48,17 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('heading', blocks.CharBlock(classname="full title")),
             ('statement', blocks.CharBlock()),
+            ('twitter', TwitterBlock()),
+            ('photo_stream', blocks.COSPhotoStreamBlock()),
             ('rich_text', blocks.RichTextBlock()),
             ('paragraph', blocks.TextBlock()),
+            ('map', GoogleMapBlock()),
             ('customizedimage', ImageBlock()),
             ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
         ]
-        
+
         if local_blocks:
             default_blocks = default_blocks + local_blocks
 
@@ -91,7 +94,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             'header_menu_prefix': '%s-before' % prefix,
             'block_errors': error_dict.get(NON_FIELD_ERRORS),
         })
-        
+
     class Meta:
         icon = 'arrow-left'
         label = 'Content'
@@ -117,14 +120,14 @@ class ColumnsBlock(blocks.ListBlock):
         form_template = 'common/block_forms/columns.html'
         icon = 'placeholder'
         label = 'Columns'
-    
+
     @property
     def media(self):
         return forms.Media(js=[static('wagtailadmin/js/blocks/sequence.js'), static('wagtailadmin/js/blocks/list.js'), static('common/js/blocks/columns.js')])
-    
+
     def __init__(self, **kwargs):
         return super(ColumnsBlock, self).__init__(ColumnBlock(), **kwargs)
-    
+
     def render_basic(self, value, context=None):
         children = format_html_join(
             '\n', '{0}',
