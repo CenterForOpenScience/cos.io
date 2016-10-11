@@ -322,7 +322,7 @@ class CustomPage(Page):
 
 class PageAlias(Page):
 
-    alias_for_page =  ForeignKey('wagtailcore.Page', related_name='aliases')
+    alias_for_page = ForeignKey('wagtailcore.Page', related_name='aliases')
 
     def serve(self, request):
         return redirect(self.alias_for_page.url, permanent=False)
@@ -398,4 +398,3 @@ class NewsArticle(Page):
             'page':self,
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
-
