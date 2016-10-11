@@ -237,7 +237,7 @@ class CustomPage(Page):
         ('column', ColumnsBlock()),
         ('tabbed_block', TabbedBlock()),
         ('image', ImageBlock()),
-        ('rich_text', RichTextBlock())
+        ('rich_text', RichTextBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),

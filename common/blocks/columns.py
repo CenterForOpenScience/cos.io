@@ -49,7 +49,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('heading', blocks.CharBlock(classname="full title")),
             ('statement', blocks.CharBlock()),
             ('twitter', TwitterBlock()),
-            ('photo_stream', blocks.COSPhotoStreamBlock()),
+            ('photo_stream', COSPhotoStreamBlock()),
             ('rich_text', blocks.RichTextBlock()),
             ('paragraph', blocks.TextBlock()),
             ('map', GoogleMapBlock()),
