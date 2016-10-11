@@ -25,4 +25,4 @@ class ImageBlock(StructBlock):
     class Meta:
         template = 'common/blocks/image_custom_block.html'
         icon = 'image'
-        label = 'Customed Image'
+        label = 'Image'

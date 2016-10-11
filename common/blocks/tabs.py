@@ -29,8 +29,8 @@ class TabbedBlock(blocks.ListBlock):
 
     class Meta:
         template = 'common/blocks/tabbed_block.html'
-        label = 'Tabbed Block'
-    
+        label = 'Tabs'
+
     @property
     def media(self):
         return forms.Media(js=[
@@ -38,10 +38,10 @@ class TabbedBlock(blocks.ListBlock):
             static('wagtailadmin/js/blocks/list.js'),
             static('common/js/blocks/tabs.js')
         ])
-    
+
     def __init__(self, **kwargs):
         return super(TabbedBlock, self).__init__(TabBlock(), **kwargs)
-    
+
     def render_form(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:

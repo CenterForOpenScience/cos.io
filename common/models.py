@@ -10,6 +10,7 @@ with the Wagtail CMS.
 from django.contrib.auth.models import User, Group, Permission
 from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
+from django.shortcuts import redirect
 
 # Database Fields
 from django.db.models import CharField
@@ -58,6 +59,8 @@ from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
+
+
 
 
 class Job(ClusterableModel, index.Indexed):
@@ -227,7 +230,6 @@ class CustomPage(Page):
         ('imagechooser', ImageChooserBlock()),
         ('column', ColumnsBlock()),
         ('tabbed_block', TabbedBlock()),
-        ('tabcontainerblock', TabContainerBlock()),
         ('image', ImageBlock()),
         ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
@@ -244,12 +246,75 @@ class CustomPage(Page):
         SnippetChooserPanel('footer'),
     ]
 
+    custom_url = CharField(max_length=256)
+    promote_panels = Page.promote_panels + [
+        FieldPanel('custom_url')
+    ]
+
     def serve(self, request):
         return render(request, self.template, {
             'page': self,
             'people': Person.objects.all(),
             'jobs': Job.objects.all(),
         })
+
+    @transaction.atomic
+    # ensure that changes are only committed when we have updated all descendant URL paths, to preserve consistency
+    def save(self, *args, **kwargs):
+        self.full_clean()
+
+        update_descendant_url_paths = False
+        is_new = self.id is None
+
+        if is_new:
+            # we are creating a record. If we're doing things properly, this should happen
+            # through a treebeard method like add_child, in which case the 'path' field
+            # has been set and so we can safely call get_parent
+            self.set_url_path(self.get_parent())
+        else:
+            # Check that we are committing the slug to the database
+            # Basically: If update_fields has been specified, and slug is not included, skip this step
+            if not ('update_fields' in kwargs and 'slug' not in kwargs['update_fields']):
+                # see if the slug has changed from the record in the db, in which case we need to
+                # update url_path of self and all descendants
+                old_record = Page.objects.get(id=self.id)
+                if old_record.slug != self.slug:
+                    self.set_url_path(self.get_parent())
+                    update_descendant_url_paths = True
+                    old_url_path = old_record.url_path
+                    new_url_path = self.url_path
+
+        result = super(Page, self).save(*args, **kwargs)
+
+        if update_descendant_url_paths:
+            self._update_descendant_url_paths(old_url_path, new_url_path)
+
+        # Check if this is a root page of any sites and clear the 'wagtail_site_root_paths' key if so
+        if Site.objects.filter(root_page=self).exists():
+            cache.delete('wagtail_site_root_paths')
+
+        # Log
+        if is_new:
+            cls = type(self)
+            logger.info(
+                "Page created: \"%s\" id=%d content_type=%s.%s path=%s",
+                self.title,
+                self.id,
+                cls._meta.app_label,
+                cls.__name__,
+                self.url_path
+            )
+
+        return result
+
+
+class PageAlias(Page):
+
+    alias_for_page = models.ForeignKey(’wagtailcore.Page’, related_name=’aliases’)
+
+    def serve(self, request):
+        return redirect(self.alias_for_page.url, permanent=False)
+
 
 class NewsIndexPage(Page):
     footer = ForeignKey(
@@ -286,6 +351,7 @@ class NewsArticle(Page):
         related_name='+'
     )
 
+
     main_image = ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -298,6 +364,11 @@ class NewsArticle(Page):
     intro = CharField(max_length=1000, blank=True)
     body = RichTextField(blank=True, help_text='Fill this if the article is from COS')
     external_link = CharField("External Article Link",help_text="Fill this if the article is NOT from COS", max_length=255,blank=True)
+
+    custom_url = CharField(max_length=256)
+    promote_panels = Page.promote_panels + [
+        FieldPanel('custom_url')
+    ]
 
     content_panels = Page.content_panels + [
         FieldPanel('date'),
