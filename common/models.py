@@ -247,7 +247,7 @@ class CustomPage(Page):
         SnippetChooserPanel('footer'),
     ]
 
-    custom_url = CharField(max_length=256)
+    custom_url = CharField(max_length=256, default='')
     promote_panels = Page.promote_panels + [
         FieldPanel('custom_url')
     ]
@@ -366,7 +366,7 @@ class NewsArticle(Page):
     body = RichTextField(blank=True, help_text='Fill this if the article is from COS')
     external_link = CharField("External Article Link",help_text="Fill this if the article is NOT from COS", max_length=255,blank=True)
 
-    custom_url = CharField(max_length=256)
+    custom_url = CharField(max_length=256, default='')
     promote_panels = Page.promote_panels + [
         FieldPanel('custom_url')
     ]
