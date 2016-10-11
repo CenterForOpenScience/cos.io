@@ -11,8 +11,12 @@ from django.contrib.auth.models import User, Group, Permission
 from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
 from django.shortcuts import redirect
-from django.db import transaction
+from django.db import transactiot n
 from wagtail.wagtailcore.models import Site
+from django.core.cache import cache
+import logging
+
+
 # Database Fields
 from django.db.models import CharField
 from django.db.models import OneToOneField
@@ -61,7 +65,7 @@ from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
-
+logger = logging.getLogger('wagtail.core')
 
 
 class Job(ClusterableModel, index.Indexed):
