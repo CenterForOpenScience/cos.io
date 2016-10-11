@@ -12,7 +12,7 @@ from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
 from django.shortcuts import redirect
 from django.db import transaction
-
+from wagtail.wagtailcore.models import Site
 # Database Fields
 from django.db.models import CharField
 from django.db.models import OneToOneField
