@@ -11,7 +11,7 @@ from django.contrib.auth.models import User, Group, Permission
 from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
 from django.shortcuts import redirect
-from django.db import transactiot n
+from django.db import transaction
 from wagtail.wagtailcore.models import Site
 from django.core.cache import cache
 import logging
