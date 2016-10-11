@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',    
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
+    'blog',
     'common',
     'cos',
     
@@ -54,7 +55,6 @@ INSTALLED_APPS = [
     
     'search',
     'el_pagination',
-    'blog',
 ]
 
 MIDDLEWARE_CLASSES = [

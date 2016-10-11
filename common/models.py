@@ -12,6 +12,10 @@ from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
 from django.shortcuts import redirect
 from django.db import transaction
+from wagtail.wagtailcore.models import Site
+from django.core.cache import cache
+import logging
+
 
 # Database Fields
 from django.db.models import CharField
@@ -60,8 +64,6 @@ from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
-
-
 
 
 class Job(ClusterableModel, index.Indexed):
@@ -387,4 +389,3 @@ class NewsArticle(Page):
             'page':self,
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
-
