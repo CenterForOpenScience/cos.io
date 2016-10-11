@@ -11,6 +11,7 @@ from django.contrib.auth.models import User, Group, Permission
 from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
 from django.shortcuts import redirect
+from django.db import transaction
 
 # Database Fields
 from django.db.models import CharField
@@ -310,7 +311,7 @@ class CustomPage(Page):
 
 class PageAlias(Page):
 
-    alias_for_page = models.ForeignKey(’wagtailcore.Page’, related_name=’aliases’)
+    alias_for_page = ForeignKey('wagtailcore.Page', related_name='aliases')
 
     def serve(self, request):
         return redirect(self.alias_for_page.url, permanent=False)
