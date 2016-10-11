@@ -48,7 +48,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('heading', blocks.CharBlock(classname="full title")),
             ('statement', blocks.CharBlock()),
-            ('twitter', blocks.TwitterBlock()),
+            ('twitter', TwitterBlock()),
             ('photo_stream', blocks.COSPhotoStreamBlock()),
             ('rich_text', blocks.RichTextBlock()),
             ('paragraph', blocks.TextBlock()),
