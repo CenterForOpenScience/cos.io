@@ -209,7 +209,7 @@ class BlogPage(Page):
     )
     author = models.ManyToManyField(
         Person,
-        blank=True, null=True,
+        blank=True,
        # limit_choices_to=limit_author_choices,
         verbose_name=_('Author'),
         related_name='author_pages',
