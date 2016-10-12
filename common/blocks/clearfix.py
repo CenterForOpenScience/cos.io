@@ -20,7 +20,7 @@ class ClearfixBlock(StructBlock):
 
 class WhitespaceBlock(StructBlock):
 
-    height = IntegerField()
+    height = IntegerBlock()
 
 
 
