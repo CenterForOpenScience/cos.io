@@ -322,7 +322,7 @@ class CustomPage(Page):
 
 class PageAlias(Page):
 
-    alias_for_page = ForeignKey('wagtailcore.Page', related_name='aliases')
+    alias_for_page = ForeignKey('wagtailcore.Page', null=True, on_delete=SET_NULL, related_name='aliases')
 
     def serve(self, request):
         return redirect(self.alias_for_page.url, permanent=False)
