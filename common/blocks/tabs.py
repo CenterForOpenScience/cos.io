@@ -18,7 +18,7 @@ from common.blocks.columns import GenericContentStreamBlock
 
 class TabBlock(StructBlock):
     name = CharBlock()
-    content = GenericContentStreamBlock()
+    content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
 
     class Meta:
         form_template = 'common/block_forms/tab.html'
