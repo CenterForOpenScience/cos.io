@@ -50,6 +50,7 @@ from common.blocks.maps import GoogleMapBlock
 from common.blocks.twitter import TwitterBlock
 from common.blocks.images import ImageBlock
 from common.blocks.images import COSPhotoStreamBlock
+from common.blocks.clearfix import WhitespaceBlock
 from common.blocks.clearfix import ClearfixBlock
 from common.blocks.tabs import TabIndexBlock
 from common.blocks.tabs import TabContainerBlock
@@ -250,6 +251,7 @@ class CustomPage(Page):
         ('spotlight_block', SpotlightBlock()),
         ('job_whole_block', JobsWholeBlock()),
         ('embed_block', EmbedBlock()),
+        ('whitespaceblock', WhitespaceBlock()),
         ('clear_fixblock', ClearfixBlock()),
     ], null=True, blank=True)
 
