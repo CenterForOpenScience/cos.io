@@ -3,6 +3,7 @@
 """
 
 from django import forms
+from django.db.models.fields import CharField
 from django.template.loader import render_to_string
 from django.contrib.staticfiles.templatetags.staticfiles import static
 
@@ -21,12 +22,12 @@ def randomword(length):
 
 class TabBlock(StructBlock):
     name = CharBlock()
-    css_name = CharBlock()
+    css_name = CharField(max_length=25, default='')
     content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
 
     def save(self, *args, **kwargs):
         self.css_name = randomword(25)
-        super(TabBlock).save(args, **kwargs)
+        super(TabBlock).save(*args, **kwargs)
 
     class Meta:
         form_template = 'common/block_forms/tab.html'
@@ -57,8 +58,8 @@ class TabbedBlock(blocks.ListBlock):
                 for child_value in value
             ]
         )
-        return format_html("<div class='row'>{0}</div>", children) 
-    
+        return format_html("<div class='row'>{0}</div>", children)
+
     def render_form(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:
