@@ -189,6 +189,7 @@ def limit_author_choices():
 
 
 class BlogPage(Page):
+
     body = RichTextField(verbose_name=_('body'), blank=True)
     additional = models.CharField(max_length = 220, blank=True)
     tags = ClusterTaggableManager(through=BlogPageTag, blank=True)
@@ -197,6 +198,7 @@ class BlogPage(Page):
         help_text=_("This date may be displayed on the blog post. It is not "
                     "used to schedule posts to go live at a later date.")
     )
+
     header_image = models.ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -205,18 +207,19 @@ class BlogPage(Page):
         related_name='+',
         verbose_name=_('Header image')
     )
-    author = models.ForeignKey(
+
+    author = models.ManyToManyField(
         settings.AUTH_USER_MODEL,
         blank=True, null=True,
-        limit_choices_to=limit_author_choices,
         verbose_name=_('Author'),
-        on_delete=models.SET_NULL,
+        on_delete=models.PROTECT,
         related_name='author_pages',
     )
 
     search_fields = Page.search_fields + [
         index.SearchField('body'),
     ]
+
     blog_categories = models.ManyToManyField(
         BlogCategory, through=BlogCategoryBlogPage, blank=True)
 
