@@ -215,7 +215,6 @@ class BlogPage(Page):
         blank=True,
         #blank=True, null=True,
         verbose_name=_('Author'),
-        on_delete=models.PROTECT,
         related_name='author_pages',
     )
 
