@@ -20,9 +20,9 @@
 
     {% for tab in value %}
         {% if forloop.last %}
-            #s{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label {
+            #s{{ tab.name }}-tab-state:checked ~ .tabs #s{{ tab.name }}-tab-label {
         {% else %}
-            #s{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label, 
+            #s{{ tab.name }}-tab-state:checked ~ .tabs #s{{ tab.name }}-tab-label, 
         {% endif %}
     {% endfor %}
         border: 1px solid rgba(0,0,0,0.3);
@@ -40,9 +40,9 @@
 
     {% for tab in value %}
         {% if forloop.last %}
-            #s{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label {
+            #s{{ tab.name }}-tab-state:checked ~ .tabs #s{{ tab.name }}-tab-label {
         {% else %}
-            #s{{ tab.name }}-tab-state:checked ~ .panels #{{ tab.name }}-tab-panel, 
+            #s{{ tab.name }}-tab-state:checked ~ .panels #s{{ tab.name }}-tab-panel, 
         {% endif %}
     {% endfor %}
         display: block;
@@ -51,11 +51,11 @@
 </style>
 <div>
     {% for tab in value %}
-        <input id='s{{ tab.name }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='{{tab.name}}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
+        <input id='s{{ tab.name }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='s{{tab.name}}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
     {% endfor %}
     
     <div class='tabs'>{% for tab in value %}
-        <label id='s{{ tab.name }}-tab-label' for='{{ tab.name }}-tab-state' class='tab'>{{ tab.name }}</label>
+        <label id='s{{ tab.name }}-tab-label' for='s{{ tab.name }}-tab-state' class='tab'>{{ tab.name }}</label>
     {% endfor %}</div>
     
     <div class='panels'>{% for tab in value %}
