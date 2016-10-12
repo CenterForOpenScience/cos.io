@@ -22,6 +22,7 @@ from django.db.models import CharField
 from django.db.models import OneToOneField
 from django.db.models import ForeignKey
 from django.db.models import SET_NULL
+from django.db.models import PROTECT
 from django.db.models import URLField
 from django.db.models import DateField
 from django.db.models import EmailField
@@ -117,7 +118,7 @@ class Job(ClusterableModel, index.Indexed):
 
 class Person(ClusterableModel, index.Indexed):
 
-    user = OneToOneField('auth.User', null=True, blank=True, on_delete=SET_NULL,related_name='profile')
+    user = OneToOneField('auth.User', null=True, blank=True, on_delete=PROTECT, related_name='profile')
     first_name = CharField(max_length=255)
     middle_name = CharField(max_length=255, null=True, blank=True)
     last_name = CharField(max_length=255)
