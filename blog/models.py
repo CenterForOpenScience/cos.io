@@ -18,6 +18,8 @@ from taggit.models import TaggedItemBase, Tag
 from modelcluster.tags import ClusterTaggableManager
 from modelcluster.fields import ParentalKey
 import datetime
+from common.models import Person
+from django import forms
 
 
 COMMENTS_APP = getattr(settings, 'COMMENTS_APP', None)
@@ -205,12 +207,11 @@ class BlogPage(Page):
         related_name='+',
         verbose_name=_('Header image')
     )
-    author = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
+    author = models.ManyToManyField(
+        Person,
         blank=True, null=True,
-        limit_choices_to=limit_author_choices,
+       # limit_choices_to=limit_author_choices,
         verbose_name=_('Author'),
-        on_delete=models.SET_NULL,
         related_name='author_pages',
     )
 
@@ -228,7 +229,7 @@ class BlogPage(Page):
             ], classname="label-above"),
         ], 'Scheduled publishing', classname="publishing"),
         FieldPanel('date'),
-        FieldPanel('author'),
+        FieldPanel('author', widget=forms.CheckboxSelectMultiple),
     ]
 
     def save_revision(self, *args, **kwargs):
