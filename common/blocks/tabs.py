@@ -15,10 +15,18 @@ from common.blocks.people import PeopleBlock
 from common.blocks.columns import ColumnsBlock
 from common.blocks.columns import GenericContentStreamBlock
 
+import random, string
+def randomword(length):
+   return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
 
 class TabBlock(StructBlock):
     name = CharBlock()
+    css_name = CharBlock()
     content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
+
+    def save(self, *args, **kwargs):
+        self.css_name = randomword(25)
+        super(TabBlock).save(args, **kwargs)
 
     class Meta:
         form_template = 'common/block_forms/tab.html'
