@@ -269,6 +269,29 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/327ev/" target="_blank">
+                        <img src="../static/img/people/ambassadors/chuanpeng_hu.jpg" alt="Chuan-Peng Hu">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Chuan-Peng Hu
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Tsinghua University
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+     <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/wbngx/" target="_blank">
                         <img src="../static/img/people/ambassadors/franklund.jpg" alt="Clifton Franklund">
                     </a>
@@ -286,9 +309,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -334,6 +354,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -355,9 +377,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -403,6 +422,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -424,9 +446,7 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>    
+   
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -472,6 +492,31 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
+        <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                <a href="https://osf.io/yp98w/" target="_blank">
+                    <img src="../static/img/people/ambassadors/erwin_dasapta.jpg" alt="Dasapta Erwin Irawan">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Dasapta Erwin Irawan
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Bandung Institute of Technology
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -492,10 +537,7 @@
                 </td>
             </tr>
         </table>
-    </td>
-
-</tr>
-<tr>    
+    </td>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -518,6 +560,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -563,9 +608,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
-
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -587,6 +629,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -632,8 +677,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -656,6 +699,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -700,8 +745,7 @@
              </tr>     
          </table>      
      </td>      
-</tr>
-<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -724,6 +768,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -767,8 +813,8 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -790,6 +836,33 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/udf43/" target="_blank">
+                        <img src="../static/img/people/ambassadors/josh_guilfoyle.png" alt="Joshua Guilfoyle">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Joshua Guilfoyle
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    York University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+
 
 
     <td class="ambassador-data">        
@@ -1212,6 +1285,28 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/39bsp/" target="_blank">
+                        <img src="../static/img/people/ambassadors/reid_boehm.JPG" alt="Reid Boehm">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Reid Boehm
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Johns Hopkins University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/jdstq/" target="_blank">
                         <img src="../static/img/people/ambassadors/richard.jpg" alt="Richard Ball">
                     </a>
@@ -1229,6 +1324,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1252,8 +1350,7 @@
         </table>
     </td>
 
-</tr>
-<tr> 
+
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1299,6 +1396,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1321,9 +1420,7 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr> 
+ 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1346,6 +1443,32 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/sqp7x/" target="_blank">
+                        <img src="../static/img/people/ambassadors/sebastian_sauer.jpg" alt="Sebastian Sauer">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Sebastian Sauer
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    FOM University of Applied Sciences
+                </td>
+            </tr>
+        </table>
+    </td>
+
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1392,8 +1515,6 @@
         </table>
     </td>
 
-</tr>
-<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1417,6 +1538,9 @@
          </table>      
      </td>     
 
+
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1461,6 +1585,29 @@
             </tr>
         </table>
     </td>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/q96ny/" target="_blank">
+                        <img src="../static/img/people/ambassadors/wojciech_francuzik.jpg" alt="Wojciech Francuzik">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Wojciech Francuzik
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Charité - Universitätsmedizin Berlin
+                </td>
+            </tr>
+        </table>
+    </td>
+
 </tr>
     ## <tr>
             ##     <td>
