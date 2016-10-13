@@ -48,7 +48,7 @@ from common.blocks.people import PeopleBlock
 from common.blocks.spotlight import SpotlightBlock
 from common.blocks.jobs import JobsWholeBlock
 from common.blocks.centered_text import CenteredTextBlock
-from common.blocks.columns import ColumnsBlock
+from common.blocks.columns import RowBlock
 from common.blocks.maps import GoogleMapBlock
 from common.blocks.twitter import TwitterBlock
 from common.blocks.images import ImageBlock
@@ -214,7 +214,7 @@ class Footer(Model):
         ('heading', blocks.CharBlock(classname="full title")),
         ('paragraph', RichTextBlock()),
         ('image', ImageChooserBlock()),
-        ('columns', ColumnsBlock()),
+        ('columns', RowBlock()),
         ('raw_html', RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('google_map', GoogleMapBlock()),
         ('twitter_feed', TwitterBlock()),
@@ -263,7 +263,7 @@ class CustomPage(Page):
         ('statement', CharBlock()),
         ('paragraph', RichTextBlock()),
         ('imagechooser', ImageChooserBlock()),
-        ('column', ColumnsBlock()),
+        ('column', RowBlock()),
         ('tabbed_block', TabbedBlock()),
         ('image', ImageBlock()),
         ('rich_text', RichTextBlock()),

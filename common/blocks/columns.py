@@ -116,19 +116,19 @@ class ColumnBlock(blocks.StructBlock):
         label = 'Column'
 
 
-class ColumnsBlock(blocks.ListBlock):
+class RowBlock(blocks.ListBlock):
 
     class Meta:
         form_template = 'common/block_forms/columns.html'
         icon = 'placeholder'
-        label = 'Columns'
+        label = 'Row'
 
     @property
     def media(self):
         return forms.Media(js=[static('wagtailadmin/js/blocks/sequence.js'), static('wagtailadmin/js/blocks/list.js'), static('common/js/blocks/columns.js')])
 
     def __init__(self, **kwargs):
-        return super(ColumnsBlock, self).__init__(ColumnBlock(), **kwargs)
+        return super(RowBlock, self).__init__(ColumnBlock(), **kwargs)
 
     def render_basic(self, value, context=None):
         children = format_html_join(
