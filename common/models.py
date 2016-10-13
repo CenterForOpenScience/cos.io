@@ -18,6 +18,8 @@ import logging
 
 
 # Database Fields
+from django.conf import settings
+from django.db.models import CASCADE
 from django.db.models import CharField
 from django.db.models import OneToOneField
 from django.db.models import ForeignKey
@@ -116,7 +118,7 @@ class Job(ClusterableModel, index.Indexed):
 
 class Person(ClusterableModel, index.Indexed):
 
-    user = OneToOneField('auth.User', null=True, blank=True, on_delete=SET_NULL,related_name='profile')
+    user = OneToOneField(User, null=True, blank=True, on_delete=CASCADE,related_name='profile')
     first_name = CharField(max_length=255)
     middle_name = CharField(max_length=255, null=True, blank=True)
     last_name = CharField(max_length=255)

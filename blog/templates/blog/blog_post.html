@@ -7,7 +7,7 @@
     {% if blog.date %}
     <span class="meta date right_aligned_span">
         {{ blog.date|date:"F jS, Y"}},
-        {% for a in blog.author.all %}
+        {% for a in blog.blog_authors.all %}
             {% if forloop.last %}
                 {{ a.first_name }}
                 {{ a.last_name }}
@@ -55,7 +55,7 @@
             <h2><strong>{{ blog.title }}</strong></h2>
             <p class="meta">
                 {{ blog.date|date:"F jS, Y" }},
-                {% for a in blog.author.all %}
+                {% for a in blog.blog_authors.all %}
                     {% if forloop.last %}
                         {{ a.first_name }}
                         {{ a.last_name }}

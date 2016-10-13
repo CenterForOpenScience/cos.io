@@ -3,12 +3,12 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.db import models
-from django.db.models import Count, Q
+from django.db.models import Count, Q, PROTECT
 from django.shortcuts import get_object_or_404
 from django.template.defaultfilters import slugify
 from django.utils.translation import ugettext_lazy as _
 from wagtail.wagtailcore.fields import RichTextField
-from wagtail.wagtailcore.models import Page
+from wagtail.wagtailcore.models import Page, Orderable
 from wagtail.wagtailadmin.edit_handlers import (
     FieldPanel, InlinePanel, MultiFieldPanel, FieldRowPanel)
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
@@ -162,6 +162,12 @@ class BlogCategoryBlogPage(models.Model):
         FieldPanel('category'),
     ]
 
+class BlogPagePerson(Orderable, models.Model):
+    author = models.ForeignKey(Person, related_name='+')
+    page = ParentalKey('BlogPage', related_name='authors')
+    panels = [
+        FieldPanel('author')
+    ]
 
 class BlogPageTag(TaggedItemBase):
     content_object = ParentalKey('BlogPage', related_name='tagged_items')
@@ -191,6 +197,7 @@ def limit_author_choices():
 
 
 class BlogPage(Page):
+
     body = RichTextField(verbose_name=_('body'), blank=True)
     additional = models.CharField(max_length = 220, blank=True)
     tags = ClusterTaggableManager(through=BlogPageTag, blank=True)
@@ -199,6 +206,7 @@ class BlogPage(Page):
         help_text=_("This date may be displayed on the blog post. It is not "
                     "used to schedule posts to go live at a later date.")
     )
+
     header_image = models.ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -207,17 +215,18 @@ class BlogPage(Page):
         related_name='+',
         verbose_name=_('Header image')
     )
-    author = models.ManyToManyField(
+
+    blog_authors = models.ManyToManyField(
         Person,
         blank=True,
-       # limit_choices_to=limit_author_choices,
-        verbose_name=_('Author'),
-        related_name='author_pages',
+        through=BlogPagePerson,
+        #blank=True, null=True,
     )
 
     search_fields = Page.search_fields + [
         index.SearchField('body'),
     ]
+
     blog_categories = models.ManyToManyField(
         BlogCategory, through=BlogCategoryBlogPage, blank=True)
 
@@ -229,12 +238,14 @@ class BlogPage(Page):
             ], classname="label-above"),
         ], 'Scheduled publishing', classname="publishing"),
         FieldPanel('date'),
-        FieldPanel('author', widget=forms.CheckboxSelectMultiple),
+        #FieldPanel('authors', widget=forms.CheckboxSelectMultiple),
+        InlinePanel('authors', label=_("Authors"))
     ]
 
     def save_revision(self, *args, **kwargs):
-        if not self.author:
-            self.author = self.owner
+        if not self.blog_authors:
+            self.blog_authors = [Person.objects.get(user_id=self.owner.id)]
+            print(self.blog_authors)
         return super(BlogPage, self).save_revision(*args, **kwargs)
 
     def get_absolute_url(self):

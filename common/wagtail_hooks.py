@@ -36,7 +36,7 @@ class BlogModelAdmin(ModelAdmin):
     menu_icon = 'doc-full' # change as required
     menu_order = 100 # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
-    list_display = ('title', 'date', 'categories')
+    list_display = ('title', 'date', 'blog_authors')
     search_fields = ('date', 'title')
 
 class ArticlesModelAdminGroup(ModelAdminGroup):
