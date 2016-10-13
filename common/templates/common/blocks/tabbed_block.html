@@ -4,13 +4,13 @@
         display: none;
     }
 
-    .tabs {
+    .horizontal-tabs {
         margin-top: 40px;
         overflow:hidden;
         margin-bottom: 30px;
     }
 
-    .tabs > label {
+    .horizontal-tabs > label {
         float:left;
         display: block;
         padding: 8px 20px;
@@ -19,11 +19,40 @@
         border-bottom: 1px solid rgba(0,0,0,0.3);
     }
 
+
     {% for tab in value %}
         {% if forloop.last %}
-            #s{{ forloop.counter }}-tab-state:checked ~ .tabs #s{{ forloop.counter }}-tab-label {
+            #s{{ forloop.counter }}-tab-state:checked ~ .horizontal-tabs #s{{ forloop.counter }}-tab-label {
         {% else %}
-            #s{{ forloop.counter }}-tab-state:checked ~ .tabs #s{{ forloop.counter }}-tab-label, 
+            #s{{ forloop.counter }}-tab-state:checked ~ .horizontal-tabs #s{{ forloop.counter }}-tab-label, 
+        {% endif %}
+    {% endfor %}
+        border: 1px solid rgba(0,0,0,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0);
+    }
+
+
+    .vertical-tabs {
+        margin-top: 40px;
+        overflow:hidden;
+        margin-bottom: 30px;
+    }
+
+    .vertical-tabs > label {
+        float:left;
+        display: block;
+        padding: 8px 20px;
+        border-radius: 5px 5px 0px 0px;
+        border: 1px solid rgba(0,0,0,0);
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+    }
+
+
+    {% for tab in value %}
+        {% if forloop.last %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label {
+        {% else %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label, 
         {% endif %}
     {% endfor %}
         border: 1px solid rgba(0,0,0,0.3);
@@ -55,7 +84,7 @@
         <input id='s{{ forloop.counter }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='s{{ forloop.counter }}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
     {% endfor %}
     
-    <div class='tabs'>{% for tab in value %}
+    <div class='{{ value.tab_style }}-tabs'>{% for tab in value %}
         <label id='s{{ forloop.counter }}-tab-label' for='s{{ forloop.counter }}-tab-state' class='tab'>{{ tab.name }}</label>
     {% endfor %}</div>
     

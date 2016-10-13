@@ -13,7 +13,7 @@ from wagtail.wagtailcore.blocks import ListBlock
 from wagtail.wagtailcore.blocks import CharBlock
 from wagtail.wagtailcore.blocks import StructBlock
 from common.blocks.people import PeopleBlock
-from common.blocks.columns import ColumnsBlock
+from common.blocks.columns import RowBlock
 from common.blocks.columns import GenericContentStreamBlock
 
 import random, string
@@ -23,7 +23,7 @@ def randomword(length):
 class TabBlock(StructBlock):
 
     name = CharBlock()
-    content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
+    content = GenericContentStreamBlock(local_blocks=[('columns', RowBlock())])
 
     #def get_prep_value(self, value):
     #    value.pop('css_name', None)
