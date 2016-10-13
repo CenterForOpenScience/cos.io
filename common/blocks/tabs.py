@@ -49,6 +49,11 @@ class TabBlock(StructBlock):
 
 class TabbedBlock(blocks.ListBlock):
 
+    tabs_style = ChoiceBlock(choices=[
+        ('vertical', 'Vertical'),
+        ('horizontal', 'Horizontal'),
+    ], default='horizontal')
+
     class Meta:
         template = 'common/blocks/tabbed_block.html'
         label = 'Tabs'

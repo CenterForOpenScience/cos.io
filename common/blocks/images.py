@@ -4,10 +4,10 @@ from wagtail.wagtailcore.blocks import StructBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 
 IMAGE_STYLE_CHOICES = [
-    ('max-width:225px;max-height:145px', 'small display'),
-    ('max_width:250px;max-height:250px', 'middle display'),
-    ('max_width:250px;max-height:250px;padding-top:20px', 'middle + padding display'),
-    ('height:auto', 'auto display'),
+    ('max-width:225px;max-height:145px', 'Small'),
+    ('max_width:250px;max-height:250px', 'Medium'),
+    ('max_width:250px;max-height:250px;padding-top:20px', 'Medium Pushed Down 20px'),
+    ('height:auto', 'Shrink to Fit'),
 ]
 
 class COSPhotoStreamBlock(StructBlock):
