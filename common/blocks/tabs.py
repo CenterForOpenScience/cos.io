@@ -25,16 +25,16 @@ class TabBlock(StructBlock):
     name = CharBlock()
     content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
 
-    def get_prep_value(self, value):
-        value.pop('css_name', None)
-        value = super(TabBlock, self).get_prep_value(value)
-        return
-        
+    #def get_prep_value(self, value):
+    #    value.pop('css_name', None)
+    #    value = super(TabBlock, self).get_prep_value(value)
+    #    return
+    #    
 
-    def to_python(self, value):
-        value = super(TabBlock, self).to_python(value)
-        value['css_name'] = randomword(25)
-        return value
+    #def to_python(self, value):
+    #    value = super(TabBlock, self).to_python(value)
+    #    value['css_name'] = randomword(25)
+    #    return value
 
     #@property
     #def css_name(self):
