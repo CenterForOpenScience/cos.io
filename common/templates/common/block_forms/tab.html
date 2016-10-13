@@ -1,3 +1,17 @@
+<style>
+
+.tab-name-wrapper {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.tab-content-stream-wrapper {
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+</style>
+
 <div class="column-block">
     <div class="column-block-header">
         {% if help_text %}
@@ -11,7 +25,7 @@
 
 
     </div>
-    <div class='column-content-stream-wrapper'>
+    <div class='column-content-stream-wrapper tab-content-stream-wrapper'>
         {{ children.content.render_form  }}
     </div>
 </div>

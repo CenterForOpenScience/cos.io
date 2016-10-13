@@ -222,7 +222,7 @@ class BlogPage(Page):
         through=BlogPagePerson,
         #blank=True, null=True,
     )
-    
+
     search_fields = Page.search_fields + [
         index.SearchField('body'),
     ]
@@ -242,11 +242,11 @@ class BlogPage(Page):
         InlinePanel('authors', label=_("Authors"))
     ]
 
-    def save_revision(self, *args, **kwargs):
-        if not self.blog_authors:
-            self.blog_authors = [Person.objects.get(user_id=self.owner.id)]
-            print(self.blog_authors)
-        return super(BlogPage, self).save_revision(*args, **kwargs)
+    def get_author(self):
+        blog_author_default = Person.objects.filter(user_id=self.owner.id)
+        if not blog_author_default:
+            return 'Center for Open Science'
+        return blog_author_default[0].first_name + " " + blog_author_default[0].last_name
 
     def get_absolute_url(self):
         return self.url
