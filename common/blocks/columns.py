@@ -18,7 +18,7 @@ from wagtail.wagtailcore.blocks.utils import js_dict
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailembeds.blocks import EmbedBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
-from wagtail.contrib.table_block import TableBlock
+from wagtail.contrib.table_block.blocks import TableBlock
 
 from common.blocks import COLOUR_CHOICES, COLUMN_CHOICES
 from common.blocks.maps import GoogleMapBlock
