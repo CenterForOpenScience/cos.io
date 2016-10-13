@@ -154,7 +154,6 @@ class Person(ClusterableModel, index.Indexed):
         related_name='+'
     )
 
-    title = CharField(max_length=140, blank=True)
     position = CharField(max_length=140, blank=True)
     term = CharField(blank=True, max_length=9, help_text="Format:YYYY-YYYY")
     linked_in = URLField(blank=True)
