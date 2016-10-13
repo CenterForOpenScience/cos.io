@@ -138,7 +138,7 @@ class ColumnsBlock(blocks.ListBlock):
                 for child_value in value
             ]
         )
-        return format_html("<div class='row'>{0}</div>", children) 
+        return format_html("<div class='row margin-bottom-30'>{0}</div>", children) 
     
     def render_form(self, value, prefix='', errors=None):
         if errors:
