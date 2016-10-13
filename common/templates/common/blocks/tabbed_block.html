@@ -55,7 +55,7 @@
     {% endfor %}
     
     <div class='tabs'>{% for tab in value %}
-        <label id='s{{ forloop.counter }}-tab-label' for='s{{ forloop.counter }}-tab-state' class='tab'>{{ value.name }}</label>
+        <label id='s{{ forloop.counter }}-tab-label' for='s{{ forloop.counter }}-tab-state' class='tab'>{{ tab.name }}</label>
     {% endfor %}</div>
     
     <div class='panels'>{% for tab in value %}
