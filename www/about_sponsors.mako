@@ -544,6 +544,14 @@
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
+                                            <tr>
+                                                <td class="sponsor-center"><a href="http://barbarplots.github.io/"><img src="/static/img/icons/barbarplots.png"></a></td>
+                                                <td><span class="med-font"><strong>#barbarplot Campaign</strong></span><br>
+                                                <strong>$300.30</strong><br>
+                                                The #barbarplots Campaign made an unrestricted donation to support COS initiatives.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
                                         </table>
                                         <div id="in-kind" class="margin-top-100">
                                             <h3><strong>In-Kind Donations</strong></h3>
