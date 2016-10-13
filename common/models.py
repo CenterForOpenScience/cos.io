@@ -181,7 +181,6 @@ class Person(ClusterableModel, index.Indexed):
             FieldPanel('last_name'),
             FieldPanel('bio'),
             FieldPanel('tags'),
-            FieldPanel('title'),
             FieldPanel('position'),
             FieldPanel('term'),
             FieldPanel('linked_in'),

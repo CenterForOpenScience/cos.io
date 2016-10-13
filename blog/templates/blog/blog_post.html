@@ -7,15 +7,19 @@
     {% if blog.date %}
     <span class="meta date right_aligned_span">
         {{ blog.date|date:"F jS, Y"}},
-        {% for a in blog.blog_authors.all %}
-            {% if forloop.last %}
-                {{ a.first_name }}
-                {{ a.last_name }}
-            {% else %}
-                {{ a.first_name }}
-                {{ a.last_name }},
-            {% endif %}
-        {% endfor %}
+        {% if not blog.blog_authors.all %}
+            {{  blog.get_author }}
+        {% else %}
+            {% for a in blog.blog_authors.all %}
+                {% if forloop.last %}
+                    {{ a.first_name }}
+                    {{ a.last_name }}
+                {% else %}
+                    {{ a.first_name }}
+                    {{ a.last_name }},
+                {% endif %}
+            {% endfor %}
+        {% endif %}
     </span>
     {% endif %}
 </div>
