@@ -20,9 +20,9 @@
 
     {% for tab in value %}
         {% if forloop.last %}
-            #{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label {
+            #s{{ forloop.counter }}-tab-state:checked ~ .tabs #s{{ forloop.counter }}-tab-label {
         {% else %}
-            #{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label, 
+            #s{{ forloop.counter }}-tab-state:checked ~ .tabs #s{{ forloop.counter }}-tab-label, 
         {% endif %}
     {% endfor %}
         border: 1px solid rgba(0,0,0,0.3);
@@ -40,9 +40,9 @@
 
     {% for tab in value %}
         {% if forloop.last %}
-            #{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label {
+            #s{{ forloop.counter }}-tab-state:checked ~ .panels #s{{ forloop.counter }}-tab-panel {
         {% else %}
-            #{{ tab.name }}-tab-state:checked ~ .panels #{{ tab.name }}-tab-panel, 
+            #s{{ forloop.counter }}-tab-state:checked ~ .panels #s{{ forloop.counter }}-tab-panel, 
         {% endif %}
     {% endfor %}
         display: block;
@@ -51,15 +51,15 @@
 </style>
 <div>
     {% for tab in value %}
-        <input id='{{ tab.name }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='{{tab.name}}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
+        <input id='s{{ forloop.counter }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='s{{ forloop.counter }}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
     {% endfor %}
     
     <div class='tabs'>{% for tab in value %}
-        <label id='{{ tab.name }}-tab-label' for='{{ tab.name }}-tab-state' class='tab'>{{ tab.name }}</label>
+        <label id='s{{ forloop.counter }}-tab-label' for='s{{ forloop.counter }}-tab-state' class='tab'>{{ tab.name }}</label>
     {% endfor %}</div>
     
     <div class='panels'>{% for tab in value %}
-        <div class='tab-panel' id='{{tab.name}}-tab-panel'>{{ tab.content }}</div>
+        <div class='tab-panel' id='s{{ forloop.counter }}-tab-panel'>{{ tab.content }}</div>
     {% endfor %}</div>
     
 </div>

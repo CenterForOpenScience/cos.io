@@ -99,6 +99,47 @@
             //ContactUs.init();
         });
     </script>
+    <script src="{% static 'scripts/bootstrap-table.js' %}"></script>
+            <script>
+            // When the page loads, check the url and activate the tab that matches the url
+            $(document).ready(function(){
+            var href = window.location.hash;
+            if(href === ''){
+            href = '#TOP';
+            }
+            var str = href.slice(1);
+            $('a[href="'+href+'"]').closest('li').addClass('active');
+            $('div[id="'+str+'"]').addClass('in active');
+            });
+            // On click, change the URL to match the href of the 'li a' being clicked
+            $('.change-url-tabbable li').on('click', function(){
+            var href = $(this).find('a').attr('href');
+            window.location.hash = href;
+            });
+            $("a[data-tab-destination]").on('click', function() {
+                var tab = $(this).attr('data-tab-destination');
+                $("#"+tab).click();
+              });
+            </script>
+
+            <script>
+              $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+
+                var messages = [
+                    "I'm taking the %23PreRegChallenge on the @OSFramework https://cos.io/prereg %23OpenScience",
+                    "I'm going for the %23PreRegChallenge by registering on the @OSFramework https://cos.io/prereg %23OpenScience",
+                    "Are you up for the %23PreRegChallenge on the @OSFramework? https://cos.io/prereg %23OpenScience"
+                ]
+                var choice = Math.floor(Math.random() * messages.length);
+                $('#twitter_message a').each(function(){
+                    this.href += messages[choice];
+
+                })
+              });
+            </script>
+
+
 
 {% block extra_js %}{# Override this in templates to add extra javascript #}{% endblock %}
 

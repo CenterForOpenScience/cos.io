@@ -3,6 +3,7 @@
 """
 
 from django import forms
+from django.db.models.fields import CharField
 from django.template.loader import render_to_string
 from django.contrib.staticfiles.templatetags.staticfiles import static
 
@@ -15,13 +16,35 @@ from common.blocks.people import PeopleBlock
 from common.blocks.columns import ColumnsBlock
 from common.blocks.columns import GenericContentStreamBlock
 
+import random, string
+def randomword(length):
+   return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
 
 class TabBlock(StructBlock):
+
     name = CharBlock()
     content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
 
+    #def get_prep_value(self, value):
+    #    value.pop('css_name', None)
+    #    value = super(TabBlock, self).get_prep_value(value)
+    #    return
+    #    
+
+    #def to_python(self, value):
+    #    value = super(TabBlock, self).to_python(value)
+    #    value['css_name'] = randomword(25)
+    #    return value
+
+    #@property
+    #def css_name(self):
+    #    if not self._css_name:
+    #        self._css_name = randomword(25)
+    #    return self._css_name
+
     class Meta:
         form_template = 'common/block_forms/tab.html'
+        _css_name = CharField(max_length=25, default='')
 
 
 class TabbedBlock(blocks.ListBlock):
@@ -49,8 +72,8 @@ class TabbedBlock(blocks.ListBlock):
                 for child_value in value
             ]
         )
-        return format_html("<div class='row'>{0}</div>", children) 
-    
+        return format_html("<div class='row'>{0}</div>", children)
+
     def render_form(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:

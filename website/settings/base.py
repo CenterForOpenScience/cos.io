@@ -33,7 +33,8 @@ INSTALLED_APPS = [
     'blog',
     'common',
     'cos',
-    
+
+    "wagtail.contrib.table_block",
     'wagtail.contrib.modeladmin',
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
@@ -51,8 +52,6 @@ INSTALLED_APPS = [
     'taggit',
     'storages',
 
-
-    
     'search',
     'el_pagination',
 ]
