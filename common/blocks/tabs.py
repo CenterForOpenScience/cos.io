@@ -12,6 +12,7 @@ from wagtail.wagtailcore import blocks
 from wagtail.wagtailcore.blocks import ListBlock
 from wagtail.wagtailcore.blocks import CharBlock
 from wagtail.wagtailcore.blocks import StructBlock
+from wagtail.wagtailcore.blocks import ChoiceBlock
 from common.blocks.people import PeopleBlock
 from common.blocks.columns import RowBlock
 from common.blocks.columns import GenericContentStreamBlock
