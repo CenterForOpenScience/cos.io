@@ -222,7 +222,7 @@ class BlogPage(Page):
         through=BlogPagePerson,
         #blank=True, null=True,
     )
-
+    
     search_fields = Page.search_fields + [
         index.SearchField('body'),
     ]

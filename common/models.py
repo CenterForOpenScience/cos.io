@@ -24,6 +24,7 @@ from django.db.models import CharField
 from django.db.models import OneToOneField
 from django.db.models import ForeignKey
 from django.db.models import SET_NULL
+from django.db.models import PROTECT
 from django.db.models import URLField
 from django.db.models import DateField
 from django.db.models import EmailField
@@ -52,6 +53,7 @@ from common.blocks.maps import GoogleMapBlock
 from common.blocks.twitter import TwitterBlock
 from common.blocks.images import ImageBlock
 from common.blocks.images import COSPhotoStreamBlock
+from common.blocks.clearfix import WhitespaceBlock
 from common.blocks.clearfix import ClearfixBlock
 from common.blocks.tabs import TabIndexBlock
 from common.blocks.tabs import TabContainerBlock
@@ -252,6 +254,7 @@ class CustomPage(Page):
         ('spotlight_block', SpotlightBlock()),
         ('job_whole_block', JobsWholeBlock()),
         ('embed_block', EmbedBlock()),
+        ('whitespaceblock', WhitespaceBlock()),
         ('clear_fixblock', ClearfixBlock()),
     ], null=True, blank=True)
 

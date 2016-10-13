@@ -1,0 +1,65 @@
+<style>
+
+    .tabs-state {
+        display: none;
+    }
+
+    .tabs {
+        margin-top: 20px;
+        overflow:hidden;
+    }
+
+    .tabs > label {
+        float:left;
+        display: block;
+        padding: 8px 20px;
+        border-radius: 5px 5px 0px 0px;
+        border: 1px solid rgba(0,0,0,0);
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+    }
+
+    {% for tab in value %}
+        {% if forloop.last %}
+            #{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label {
+        {% else %}
+            #{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label, 
+        {% endif %}
+    {% endfor %}
+        border: 1px solid rgba(0,0,0,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0);
+    }
+
+    .panels {
+        margin-bottom: 20px;
+    }
+
+    .panels .tab-panel {
+        display: none;
+        border-top: none;
+    }
+
+    {% for tab in value %}
+        {% if forloop.last %}
+            #{{ tab.name }}-tab-state:checked ~ .tabs #{{ tab.name }}-tab-label {
+        {% else %}
+            #{{ tab.name }}-tab-state:checked ~ .panels #{{ tab.name }}-tab-panel, 
+        {% endif %}
+    {% endfor %}
+        display: block;
+    }
+
+</style>
+<div>
+    {% for tab in value %}
+        <input id='{{ tab.name }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='{{tab.name}}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
+    {% endfor %}
+    
+    <div class='tabs'>{% for tab in value %}
+        <label id='{{ tab.name }}-tab-label' for='{{ tab.name }}-tab-state' class='tab'>{{ tab.name }}</label>
+    {% endfor %}</div>
+    
+    <div class='panels'>{% for tab in value %}
+        <div class='tab-panel' id='{{tab.name}}-tab-panel'>{{ tab.content }}</div>
+    {% endfor %}</div>
+    
+</div>

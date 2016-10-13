@@ -18,11 +18,10 @@ from common.blocks.columns import GenericContentStreamBlock
 
 class TabBlock(StructBlock):
     name = CharBlock()
-    content = GenericContentStreamBlock()
+    content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
 
     class Meta:
         form_template = 'common/block_forms/tab.html'
-        template = 'common/blocks/tab.html'
 
 
 class TabbedBlock(blocks.ListBlock):
@@ -42,6 +41,16 @@ class TabbedBlock(blocks.ListBlock):
     def __init__(self, **kwargs):
         return super(TabbedBlock, self).__init__(TabBlock(), **kwargs)
 
+    def render_basic(self, value, context=None):
+        children = format_html_join(
+            '\n', '{0}',
+            [
+                (self.child_block._render_with_context(child_value, context=context),)
+                for child_value in value
+            ]
+        )
+        return format_html("<div class='row'>{0}</div>", children) 
+    
     def render_form(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:
