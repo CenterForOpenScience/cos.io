@@ -21,16 +21,24 @@ def randomword(length):
    return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
 
 class TabBlock(StructBlock):
+
     name = CharBlock()
-    css_name = CharField(max_length=25, default='')
     content = GenericContentStreamBlock(local_blocks=[('columns', ColumnsBlock())])
 
-    def save(self, *args, **kwargs):
-        self.css_name = randomword(25)
-        super(TabBlock).save(*args, **kwargs)
+    def to_python(self, value):
+        value = super(TabBlock, self).to_python(value)
+        value['css_name'] = randomword(25)
+        return value
+
+    #@property
+    #def css_name(self):
+    #    if not self._css_name:
+    #        self._css_name = randomword(25)
+    #    return self._css_name
 
     class Meta:
         form_template = 'common/block_forms/tab.html'
+        _css_name = CharField(max_length=25, default='')
 
 
 class TabbedBlock(blocks.ListBlock):
