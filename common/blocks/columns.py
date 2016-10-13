@@ -18,6 +18,7 @@ from wagtail.wagtailcore.blocks.utils import js_dict
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailembeds.blocks import EmbedBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
+from wagtail.contrib.table_block import TableBlock
 
 from common.blocks import COLOUR_CHOICES, COLUMN_CHOICES
 from common.blocks.maps import GoogleMapBlock
@@ -57,6 +58,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
+            ('table_block', TableBlock())
         ]
 
         if local_blocks:

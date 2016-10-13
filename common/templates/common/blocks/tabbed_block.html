@@ -40,7 +40,7 @@
 
     {% for tab in value %}
         {% if forloop.last %}
-            #s{{ forloop.counter }}-tab-state:checked ~ .tabs #s{{ forloop.counter }}-tab-label {
+            #s{{ forloop.counter }}-tab-state:checked ~ .panels #s{{ forloop.counter }}-tab-panel {
         {% else %}
             #s{{ forloop.counter }}-tab-state:checked ~ .panels #s{{ forloop.counter }}-tab-panel, 
         {% endif %}

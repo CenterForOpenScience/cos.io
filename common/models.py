@@ -62,9 +62,11 @@ from common.blocks.tabs import TabContainerInColumnBlock
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
 from wagtail.wagtailadmin.edit_handlers import MultiFieldPanel
 from wagtail.wagtailadmin.edit_handlers import FieldPanel
+from wagtail.wagtailadmin.edit_handlers import InlinePanel
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
 from wagtail.wagtailsnippets.models import register_snippet
 from wagtail.wagtailsnippets.edit_handlers import SnippetChooserPanel
+from wagtail.wagtailforms.models import AbstractEmailForm, AbstractFormField
 
 # Tagging & Search
 from wagtail.wagtailsearch import index
@@ -75,6 +77,25 @@ from taggit.managers import TaggableManager
 
 logger = logging.getLogger('wagtail.core')
 
+class FormField(AbstractFormField):
+    page = ParentalKey('FormPage', related_name='form_fields')
+
+class FormPage(AbstractEmailForm):
+    intro = RichTextField(blank=True)
+    thank_you_text = RichTextField(blank=True)
+
+    content_panels = AbstractEmailForm.content_panels + [
+        FieldPanel('intro', classname="full"),
+        InlinePanel('form_fields', label="Form fields"),
+        FieldPanel('thank_you_text', classname="full"),
+        MultiFieldPanel([
+            FieldRowPanel([
+                FieldPanel('from_address', classname="col6"),
+                FieldPanel('to_address', classname="col6"),
+            ]),
+            FieldPanel('subject'),
+        ], "Email"),
+    ]
 
 class Job(ClusterableModel, index.Indexed):
     title = CharField(max_length=255)
