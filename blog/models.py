@@ -19,7 +19,6 @@ from modelcluster.tags import ClusterTaggableManager
 from modelcluster.fields import ParentalKey
 import datetime
 from common.models import Person
-from django import forms
 
 
 COMMENTS_APP = getattr(settings, 'COMMENTS_APP', None)
