@@ -88,7 +88,7 @@ DEFAULT_FOOTER_ID = 1
 @register_setting
 class UpImagePath(BaseSetting):
     upImagePath = CharField(
-        max_length=255, help_text='Up image path')
+        max_length=255, help_text='Up image path', default='https://cosio.s3.amazonaws.com/images/up.original.png')
 
 class FormField(AbstractFormField):
     page = ParentalKey('FormPage', related_name='form_fields')
