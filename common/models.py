@@ -60,6 +60,7 @@ from common.blocks.tabs import TabContainerBlock
 from common.blocks.tabs import TabbedBlock
 from common.blocks.tabs import TabContainerInColumnBlock
 from common.blocks.codes import CodeBlock
+from common.blocks.googlecalendar import GoogleCalendarBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -285,6 +286,7 @@ class CustomPage(Page):
         ('whitespaceblock', WhitespaceBlock()),
         ('clear_fixblock', ClearfixBlock()),
         ('code_block', CodeBlock()),
+        ('calender_blog', GoogleCalendarBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
