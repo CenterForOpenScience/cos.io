@@ -79,6 +79,8 @@ from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
 logger = logging.getLogger('wagtail.core')
+DEFAULT_FOOTER_ID = 1
+
 
 class FormField(AbstractFormField):
     page = ParentalKey('FormPage', related_name='form_fields')
@@ -238,6 +240,7 @@ class Footer(Model):
 class CustomPage(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
@@ -356,6 +359,7 @@ class PageAlias(Page):
 class NewsIndexPage(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
@@ -382,6 +386,7 @@ class NewsIndexPage(Page):
 class NewsArticle(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
