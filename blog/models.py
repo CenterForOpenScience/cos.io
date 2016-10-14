@@ -7,16 +7,18 @@ from django.db.models import Count, Q, PROTECT
 from django.shortcuts import get_object_or_404
 from django.template.defaultfilters import slugify
 from django.utils.translation import ugettext_lazy as _
-from wagtail.wagtailcore.fields import RichTextField
+from wagtail.wagtailcore.fields import RichTextField, StreamField
 from wagtail.wagtailcore.models import Page, Orderable
 from wagtail.wagtailadmin.edit_handlers import (
-    FieldPanel, InlinePanel, MultiFieldPanel, FieldRowPanel)
+    FieldPanel, InlinePanel, MultiFieldPanel, FieldRowPanel, StreamFieldPanel)
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
 from wagtail.wagtailsnippets.models import register_snippet
 from wagtail.wagtailsearch import index
 from taggit.models import TaggedItemBase, Tag
 from modelcluster.tags import ClusterTaggableManager
 from modelcluster.fields import ParentalKey
+from common.blocks.codes import CodeBlock
+from wagtail.wagtailcore.blocks import RichTextBlock
 import datetime
 from common.models import Person
 
@@ -197,8 +199,12 @@ def limit_author_choices():
 
 class BlogPage(Page):
 
-    body = RichTextField(verbose_name=_('body'), blank=True)
-    additional = models.CharField(max_length = 220, blank=True)
+    intro = models.CharField(blank=True, max_length=1000)
+    content = StreamField([
+        ('rich_text', RichTextBlock()),
+        ('code_block', CodeBlock()),
+    ], null=True, blank=True)
+
     tags = ClusterTaggableManager(through=BlogPageTag, blank=True)
     date = models.DateField(
         _("Post date"), default=datetime.datetime.today,
@@ -223,7 +229,7 @@ class BlogPage(Page):
     )
 
     search_fields = Page.search_fields + [
-        index.SearchField('body'),
+        index.SearchField('content'),
     ]
 
     blog_categories = models.ManyToManyField(
@@ -273,6 +279,6 @@ class BlogPage(Page):
             InlinePanel('categories', label=_("Categories")),
         ], heading="Tags and Categories"),
         ImageChooserPanel('header_image'),
-        FieldPanel('body', classname="full"),
-        FieldPanel('additional'),
+        FieldPanel('intro'),
+        StreamFieldPanel('content'),
     ]
