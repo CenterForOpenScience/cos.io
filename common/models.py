@@ -83,6 +83,8 @@ from taggit.managers import TaggableManager
 from wagtail.contrib.settings.models import BaseSetting, register_setting
 
 logger = logging.getLogger('wagtail.core')
+DEFAULT_FOOTER_ID = 1
+
 
 @register_setting
 class UpImagePath(BaseSetting):
@@ -247,6 +249,7 @@ class Footer(Model):
 class CustomPage(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
@@ -367,6 +370,7 @@ class PageAlias(Page):
 class NewsIndexPage(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
@@ -393,6 +397,7 @@ class NewsIndexPage(Page):
 class NewsArticle(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
