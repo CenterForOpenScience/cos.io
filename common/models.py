@@ -59,6 +59,7 @@ from common.blocks.tabs import TabIndexBlock
 from common.blocks.tabs import TabContainerBlock
 from common.blocks.tabs import TabbedBlock
 from common.blocks.tabs import TabContainerInColumnBlock
+from common.blocks.codes import CodeBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -276,6 +277,7 @@ class CustomPage(Page):
         ('embed_block', EmbedBlock()),
         ('whitespaceblock', WhitespaceBlock()),
         ('clear_fixblock', ClearfixBlock()),
+        ('code_block', CodeBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
