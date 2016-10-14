@@ -19,6 +19,7 @@ from modelcluster.tags import ClusterTaggableManager
 from modelcluster.fields import ParentalKey
 from common.blocks.codes import CodeBlock
 from wagtail.wagtailcore.blocks import RichTextBlock
+from common.blocks.googlecalendar import GoogleCalendarBlock
 import datetime
 from common.models import Person
 
@@ -203,6 +204,7 @@ class BlogPage(Page):
     content = StreamField([
         ('rich_text', RichTextBlock()),
         ('code_block', CodeBlock()),
+        ('google_calendar', GoogleCalendarBlock()),
     ], null=True, blank=True)
 
     tags = ClusterTaggableManager(through=BlogPageTag, blank=True)
@@ -244,7 +246,7 @@ class BlogPage(Page):
         ], 'Scheduled publishing', classname="publishing"),
         FieldPanel('date'),
         #FieldPanel('authors', widget=forms.CheckboxSelectMultiple),
-        InlinePanel('authors', label=_("Authors"))
+        InlinePanel('authors', label=_("Authors")),
     ]
 
     def get_author(self):
