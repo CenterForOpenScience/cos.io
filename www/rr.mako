@@ -75,7 +75,57 @@
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB a -->
+
                     <div class="tab-pane fade" id="journals" style="margin-top:-200px">
+                      <div style="height: 200px;">&nbsp;</div>
+                        <ul class="nav nav-tabs">
+
+                            <p style="text-align:justify">
+                              Below is the list of journals currently offering Registered Reports as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or journals that do not provide Registered Reports but which offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://osf.io/8mpji/wiki/2.%20Journal%20Comparison/">table</a> that compares the specific features of Registered Reports at different outlets.
+                            </p>
+                            <br>
+                              <li class="active"><a data-toggle="tab" href="#rrjournals"><b>Journals that have adopted Registered Reports</b></a></li>
+                              <li><a data-toggle="tab" href="#specialissues"><b>Special Issues</b></a></li>
+                              <li><a data-toggle="tab" href="#some"><b>Some Features</b></a></li>
+                          </ul>
+
+
+                          <div class="tab-content">
+                            <div id="rrjournals" class="tab-pane fade in active">
+                            <table  data-toggle="table" data-url="/static/rrjournals.json" data-height="1099" data-sort-name="" data-sort-order="" data-search="false" data-classes="table table-hover table-no-bordered">
+                              <thead>
+                                <tr>
+                                  <th data-field="Journal" data-sortable="false" class="col-md-7" >Journal</th>
+                                  <th data-field="Notes" data-sortable="false" class="col-md-5">Notes</th>
+                                  ##<th data-field="Guidelines" data-sortable="false">Guidelines</th>
+                                  ##<th data-field="Notes" data-sortable="false">Notes</th>
+                                </tr>
+                              </thead>
+                            </table>
+                          </div>
+                          <div id="specialissues" class="tab-pane fade">
+                            <table data-toggle="table" data-url="/static/rrjournalsspecial.json" data-height="799" data-sort-name="" data-sort-order="" data-search="false" data-classes="table table-hover table-no-bordered">
+                                <thead>
+                                    <tr>
+                                      <th data-field="Journal" data-sortable="false" class="col-md-7" >Journal</th>
+                                      <th data-field="Notes" data-sortable="false" class="col-md-5">Notes</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                          </div>
+                          <div id="some" class="tab-pane fade">
+                            <table data-toggle="table" data-url="/static/rrjournalssome.json" data-height="799" data-sort-name="" data-sort-order="" data-search="false" data-classes="table table-hover table-no-bordered">
+                                <thead>
+                                    <tr>
+                                      <th data-field="Journal" data-sortable="false" class="col-md-7" >Journal</th>
+                                      <th data-field="Notes" data-sortable="false" class="col-md-5">Notes</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                            <!--
                      <div style="height: 200px;">&nbsp;</div>
                         <table>
                             <tr>
@@ -149,6 +199,7 @@
 
 
                     </div>
+                    -->
                     <!-- END TAB a -->
                     <!-- START TAB 1 -->
                     <div class="tab-pane fade" id="details" style="margin-top:-200px">
@@ -763,23 +814,6 @@
                 $("#"+tab).click();
               });
             </script>
-
-            <script src="/static/plugins/masonry.pkgd.min.js"></script>
-            <script type="text/javascript">
-                    jQuery(document).ready(function() {
-                        App.init();
-
-                    });
-                    jQuery(window).on('load', function(){
-                        $('.loading-msg').hide();
-                        $('.grid').show().masonry({
-                          itemSelector: '.service-box-v1',
-                          columnWidth: '.service-box-v1',
-                          percentPosition : true
-                        });
-                    });
-
-                </script>
 
 
             <script src="/static/scripts/bootstrap-table.js"></script>
