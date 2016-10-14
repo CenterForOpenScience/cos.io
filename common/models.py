@@ -79,9 +79,16 @@ from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
+from wagtail.contrib.settings.models import BaseSetting, register_setting
+
 logger = logging.getLogger('wagtail.core')
 DEFAULT_FOOTER_ID = 1
 
+
+@register_setting
+class UpImagePath(BaseSetting):
+    upImagePath = CharField(
+        max_length=255, help_text='Up image path')
 
 class FormField(AbstractFormField):
     page = ParentalKey('FormPage', related_name='form_fields')
