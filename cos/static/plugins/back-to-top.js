@@ -48,10 +48,9 @@ var scrolltotop={
 		}
 	},
 	
-	init:function(pathString){
+	init:function(){
 		jQuery(document).ready(function($){
 			var mainobj=scrolltotop
-			mainobj.controlHTML=pathString
 			var iebrws=document.all
 			mainobj.cssfixedsupport=!iebrws || iebrws && document.compatMode=="CSS1Compat" && window.XMLHttpRequest //not IE or IE7+ browsers in standards mode
 			mainobj.$body=(window.opera)? (document.compatMode=="CSS1Compat"? $('html') : $('body')) : $('html,body')
