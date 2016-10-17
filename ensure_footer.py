@@ -39,7 +39,7 @@ def migrate(dry=True):
     try:
         footer = common.models.Footer.objects.get(id=DEFAULT_FOOTER_ID)
     except:
-        footer = common.models.Footer(name='Main')
+        footer = common.models.Footer(title='Main')
 
     footer.content = raw_json
     if not dry:
