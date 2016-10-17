@@ -1,4 +1,5 @@
 from django.core.exceptions import ValidationError
+from django.db.models import SET_NULL
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.conf import settings
 from django.contrib.auth import get_user_model
@@ -11,6 +12,7 @@ from wagtail.wagtailcore.fields import RichTextField, StreamField
 from wagtail.wagtailcore.models import Page, Orderable
 from wagtail.wagtailadmin.edit_handlers import (
     FieldPanel, InlinePanel, MultiFieldPanel, FieldRowPanel, StreamFieldPanel)
+from wagtail.wagtailsnippets.edit_handlers import SnippetChooserPanel
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
 from wagtail.wagtailsnippets.models import register_snippet
 from wagtail.wagtailsearch import index
@@ -22,7 +24,7 @@ from wagtail.wagtailcore.blocks import RichTextBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
 import datetime
 from common.models import Person
-
+from website.settings.base import DEFAULT_FOOTER_ID
 
 COMMENTS_APP = getattr(settings, 'COMMENTS_APP', None)
 
@@ -44,6 +46,19 @@ def get_blog_context(context):
 
 
 class BlogIndexPage(Page):
+    footer = models.ForeignKey(
+        'common.Footer',
+        default=DEFAULT_FOOTER_ID,
+        null=True,
+        blank=True,
+        on_delete=SET_NULL,
+        related_name='+'
+    )
+
+    content_panels = Page.content_panels + [
+        SnippetChooserPanel('footer'),
+    ]
+
     @property
     def blogs(self):
         # Get list of blog pages that are descendants of this page
@@ -223,6 +238,15 @@ class BlogPage(Page):
         verbose_name=_('Header image')
     )
 
+    footer = models.ForeignKey(
+        'common.Footer',
+        default=DEFAULT_FOOTER_ID,
+        null=True,
+        blank=True,
+        on_delete=SET_NULL,
+        related_name='+'
+    )
+
     blog_authors = models.ManyToManyField(
         Person,
         blank=True,
@@ -283,4 +307,5 @@ class BlogPage(Page):
         ImageChooserPanel('header_image'),
         FieldPanel('intro'),
         StreamFieldPanel('content'),
+        SnippetChooserPanel('footer'),
     ]

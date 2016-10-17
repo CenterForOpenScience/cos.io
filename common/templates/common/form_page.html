@@ -1,8 +1,9 @@
-
 {% extends "base.html" %}
 
 {% load wagtailcore_tags %}
 {% load wagtailcore_tags snippets %}
+
+{% load bootstrap_tags %}
 
 {% block body_class %} homepage {% endblock %}
 
@@ -17,13 +18,21 @@
     <div class="page-container">
         <!-- BEGIN CONTAINER -->
         <div class="container margin-bottom-30 margin-top-50">
-            <h1>{{ page.title }}</h1>
-            {{ page.intro|richtext }}
-            <form action="{% pageurl page %}" method="POST">
-                {% csrf_token %}
-                {{ form.as_p }}
-                <input type="submit">
-            </form>
+            <center>
+                <h1>{{ page.title }}</h1>
+                {{ page.intro|richtext }}
+                <hr/>
+          </center>
+            <div class="form-horizontal">
+                <form action="{% if self.action %} {{ self.action }} {% else %}{% pageurl page %}{% endif %}" method="POST">
+                    {% csrf_token %}
+                    {{ form|as_bootstrap_horizontal }}
+                    {{ form.non_field_errors }}
+                    <div class="btn-group-container form-actions">
+                        <input type="submit" class="btn btn-success" id="btn-submit" name="submit"></button>
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="footer">
           <div class="container">
