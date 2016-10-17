@@ -38,7 +38,7 @@
                     <li><a id="tab-3" href="#implement" data-toggle="tab">Implementing the Guidelines</a></li>
                     ##<li><a id="tab-4" href="#FAQ" data-toggle="tab">FAQ</a></li>
                     <li><a id="tab-5" href="#list" data-toggle="tab">753 Signatories</a></li>
-                    ##<li><a id="tab-6" href="#scores" data-toggle="tab">Journal Scores</a></li>
+                    <li><a id="tab-6" href="#committee" data-toggle="tab">Coordinating Committee</a></li>
 
                 </ul>
             </div>
@@ -284,7 +284,6 @@
                     </div>
                     <!-- END TAB 4 -->
                     <!-- START TAB 5 -->
-
                     <div class="tab-pane fade" id="list" style="margin-top:-200px">
                     <div style="height: 200px;">&nbsp;</div>
                     <ul class="nav nav-tabs">
@@ -329,31 +328,425 @@
                             </div>
                             <!-- END TAB 5 -->
                             <!-- START TAB 6 -->
-                            <div class="tab-pane fade" id="scores" style="margin-top:-200px">
+                            <div class="tab-pane fade" id="committee" style="margin-top:-200px">
                             <div style="height: 200px;">&nbsp;</div>
-                            <div class="tab-content">
-                                <div id="journals" class="tab-pane fade in active">
-                                    <table class="table table-sm-1" data-toggle="table" data-url="/static/topjournals.json" data-height="799" data-sort-name="Journal Title" data-sort-order="asc" data-search="true">
-                                        <thead>
-                                            <tr>
-                                                    <th data-field="Journal Title" data-sortable="true" class="col-sm-1.5" >Journal</th>
-                                                    <th data-field="Citation" data-sortable="true">I</th>
-                                                    <th data-field="Data" data-sortable="true" >II</th>
-                                                    <th data-field="Materials" data-sortable="true" >III</th>
-                                                    <th data-field="Methods" data-sortable="true" >IV</th>
-                                                    <th data-field="Design" data-sortable="true" >V</th>
-                                                    <th data-field="Study Preregistration" data-sortable="true" >VI</th>
-                                                    <th data-field="Analysis Preregistration" data-sortable="true" >VII</th>
-                                                    <th data-field="Replication" data-sortable="true" >VIII</th>
-                                                    <th data-field="Mean" data-sortable="true" >Mean</th>
-                                              </tr>
-                                          </thead>
-                                    </table>
-                                </div>
+                            <ul class="nav nav-tabs">
+                            ##<p class="margin-top-20">
+                                  <div class="container">
+                                  <h3><strong> Coordinating Committee</strong></h3>
+                                  <p>The TOP Guidelines are a community-driven and evolving effort, changing to meet the needs of the community while pursuing the most transparent practices. The TOP Coordinating Committee is charged with the ongoing maintenance and outreach for the Guidelines. The TOP Coordinating Committee encourages adoption and implementation of the Guidelines through education, communication, and outreach. The Committee will evaluate adoption and effectiveness of the Guidelines and use this information, along with feedback from the stakeholder community, to improve them.</p>
 
+
+                                  </div>
+                                <div class="col-md-8">
+                                  <h3><strong>Commmittee Members</strong></h3>
+                                  <table>
+                                    <tr>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://publicationethics.org/about/council/virginia-barbour" target="_blank">
+                                              <img src="../static/img/people/TOP/Barbour.jpg" alt="Virginia	Barbour"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Virginia	Barbour
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Committee on Publication Ethics | Australasian Open Access Strategy Group
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://www.arnoldfoundation.org/team/" target="_blank">
+                                              <img src="../static/img/people/TOP/Buck.jpg" alt="Stuart	Buck"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Stuart	Buck
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Laura and John Arnold Foundation
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://www.niso.org/about/directory/staff/" target="_blank">
+                                              <img src="../static/img/people/TOP/Carpenter.gif" alt="Todd	Carpenter"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Todd	Carpenter
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            National Information Standards Organization
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                    </tr>
+                                      ##Every 3 images, insert a new tr row tag
+
+                                    <tr>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://www.jhsph.edu/faculty/directory/profile/1695/kay-dickersin" target="_blank">
+                                              <img src="../static/img/people/TOP/Dickersin.jpg" alt="Kay	Dickersin"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Kay	Dickersin
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Johns Hopkins Bloomberg School of Public Health
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+
+
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="https://www.maxwell.syr.edu/psc/Elman,_Colin/" target="_blank">
+                                              <img src="../static/img/people/TOP/Elman.jpg" alt="Colin	Elman"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Colin	Elman
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Syracuse University
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="https://www.linkedin.com/in/brooks-hanson-80818525" target="_blank">
+                                              <img src="../static/img/people/TOP/Hanson.jpg" alt="Brooks	Hanson"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Brooks	Hanson
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            American Geophysical Union
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                    </tr>
+
+                                    ##Every 3 images, insert a new tr row tag
+
+                                    <tr>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://faculty.washington.edu/c3/" target="_blank">
+                                              <img src="../static/img/people/TOP/Lee.png" alt="Carole	Lee"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Carole	Lee
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            University of Washington
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+
+
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://www.arthurlupia.com/" target="_blank">
+                                              <img src="../static/img/people/TOP/Lupia.jpg" alt="Arthur Lupia"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Arthur Lupia
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            University of Michigan
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="https://healthsciences.ucsd.edu/education/neurograd/faculty/Pages/maryann-martone.aspx" target="_blank">
+                                              <img src="../static/img/people/TOP/Martone.jpg" alt="Maryann	Martone"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Maryann	Martone
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            American Geophysical Union
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                    </tr>
+
+                                    ##Every 3 images, insert a new tr row tag
+
+                                    <tr>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://www.jhsph.edu/faculty/directory/profile/3040/evan-mayo-wilson" target="_blank">
+                                              <img src="../static/img/people/TOP/Mayo-Wilson.jpg" alt="Evan	Mayo-Wilson"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Evan	Mayo-Wilson
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Johns Hopkins Bloomberg School of Public Health
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+
+
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://www.equator-network.org/about-us/canadian-equator-centre/" target="_blank">
+                                              <img src="../static/img/people/TOP/Moher.jpg" alt="David	Moher"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            David	Moher
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            University of Ottawa
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://people.whitman.edu/~parkerth/" target="_blank">
+                                              <img src="../static/img/people/TOP/Parker.jpg" alt="Tim	Parker"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Tim	Parker
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Whitman College
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                    </tr>
+                                    ##Every 3 images, insert a new tr row tag
+
+                                    <tr>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="https://rd-alliance.org/users/mark-parsons" target="_blank">
+                                              <img src="../static/img/people/TOP/Parsons.jpg" alt="Mark	Parsons"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Mark	Parsons
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Rensselaer Polytechnic Institute
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+
+
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://hesiglobal.org/hesi-staff/" target="_blank">
+                                              <img src="../static/img/people/TOP/Pettit.jpg" alt="Syril	Pettit"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Syril	Pettit
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Health and Environmental Sciences Institute
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://people.virginia.edu/~bas6g/" target="_blank">
+                                              <img src="../static/img/people/TOP/Spellman.jpg" alt="Barbara Spellman"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Barbara Spellman
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            University of Virginia
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                    </tr>
+                                    ##Every 3 images, insert a new tr row tag
+
+                                    <tr>
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="https://ischool.illinois.edu/people/faculty/vcs" target="_blank">
+                                              <img src="../static/img/people/TOP/Stodden.jpg" alt="Victoria	Stodden"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Victoria	Stodden
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            University of Illinois, School of Information Sciences
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+
+
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="https://www.liverpool.ac.uk/translational-medicine/staff/paula-williamson/" target="_blank">
+                                              <img src="../static/img/people/TOP/Williamson.jpg" alt="Paula	Williamson"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Paula	Williamson
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            University of Liverpool
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                      <!--
+                                      <td class="ambassador-data">
+                                      <table class="ambassador-box">
+                                        <tr>
+                                          <td class="ambassador-img">
+                                            <a href="http://people.whitman.edu/~parkerth/" target="_blank">
+                                              <img src="../static/img/people/TOP/Parker.jpg" alt="Tim	Parker"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-name">
+                                            Tim	Parker
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="ambassador-instit">
+                                            Whitman College
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      </td>
+                                    -->
+                                    </tr>
+
+
+                                  </table>
+                                </div>
+                              </div>
                             </div>
-                                    </div>
+                          </div>
                                     <!-- END TAB 6 -->
+
                             <!-- END TAB CONTENT -->
                         </div>
                     </div>
