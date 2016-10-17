@@ -25,7 +25,9 @@
 </div>
 
 <div class="blog-intro">
-    <p><a href="{% pageurl blog %}">{{ blog.body|richtext|truncatewords_html:70 }}</a></p>
+    <p><a href="{% pageurl blog %}">
+        {{ blog.intro|truncatewords_html:70 }}
+    </a></p>
 </div>
 <div class="tags">
     {% if blog.tags.all %}
@@ -109,9 +111,9 @@
                 </div>
             </div>
             <br>
-            <p>{{ blog.body|richtext }}</p>
-            <br>
-            <p>{{ blog.additional }}</p>
+            {% for b in page.content %}
+                {% include_block b %}
+            {% endfor %}
         </div>
         <div class="col-md-3">
             <h3>Recent Blogs</h3>

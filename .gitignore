@@ -6,5 +6,4 @@ latest.dump
 db.sqlite3
 .idea
 media
-static
 log

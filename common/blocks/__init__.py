@@ -18,3 +18,13 @@ COLUMN_CHOICES = [
     ('2', '1/6'),
     ('1', '1/12'),
 ]
+
+LANGUAGE_CHOICES =[
+    ('python', 'python'),
+    ('css', 'css'),
+    ('sql', 'sql'),
+    ('javascript', 'javascript'),
+    ('clike', 'clike'),
+    ('markup', 'markup'),
+    ('java', 'java'),
+]

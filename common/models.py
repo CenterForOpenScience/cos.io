@@ -59,6 +59,8 @@ from common.blocks.tabs import TabIndexBlock
 from common.blocks.tabs import TabContainerBlock
 from common.blocks.tabs import TabbedBlock
 from common.blocks.tabs import TabContainerInColumnBlock
+from common.blocks.codes import CodeBlock
+from common.blocks.googlecalendar import GoogleCalendarBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -78,7 +80,16 @@ from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
+from wagtail.contrib.settings.models import BaseSetting, register_setting
+
+from website.settings.base import DEFAULT_FOOTER_ID
 logger = logging.getLogger('wagtail.core')
+
+
+@register_setting
+class UpImagePath(BaseSetting):
+    upImagePath = CharField(
+        max_length=255, help_text='Up image path', default='https://cosio.s3.amazonaws.com/images/up.original.png')
 
 class FormField(AbstractFormField):
     page = ParentalKey('FormPage', related_name='form_fields')
@@ -238,6 +249,7 @@ class Footer(Model):
 class CustomPage(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
@@ -276,6 +288,8 @@ class CustomPage(Page):
         ('embed_block', EmbedBlock()),
         ('whitespaceblock', WhitespaceBlock()),
         ('clear_fixblock', ClearfixBlock()),
+        ('code_block', CodeBlock()),
+        ('calender_blog', GoogleCalendarBlock()),
     ], null=True, blank=True)
 
     content_panels = Page.content_panels + [
@@ -356,6 +370,7 @@ class PageAlias(Page):
 class NewsIndexPage(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
@@ -382,6 +397,7 @@ class NewsIndexPage(Page):
 class NewsArticle(Page):
     footer = ForeignKey(
         'common.Footer',
+        default=DEFAULT_FOOTER_ID,
         null=True,
         blank=True,
         on_delete=SET_NULL,
