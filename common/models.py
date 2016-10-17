@@ -84,6 +84,8 @@ from wagtail.contrib.settings.models import BaseSetting, register_setting
 
 from website.settings.base import DEFAULT_FOOTER_ID
 logger = logging.getLogger('wagtail.core')
+DEFAULT_FOOTER_ID = 1
+
 
 
 @register_setting
