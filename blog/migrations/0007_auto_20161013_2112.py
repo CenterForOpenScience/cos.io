@@ -27,10 +27,6 @@ class Migration(migrations.Migration):
                 'abstract': False,
             },
         ),
-        migrations.RemoveField(
-            model_name='blogpage',
-            name='author',
-        ),
         migrations.AddField(
             model_name='blogpageperson',
             name='page',
