@@ -1,0 +1,5 @@
+{% load wagtailcore_tags %}
+{% load wagtailimages_tags %}
+
+{% image value original as value %}
+<img src='{{ value.url }}' alt='{{ value.alt }}' />

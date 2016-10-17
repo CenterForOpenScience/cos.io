@@ -1,0 +1,8 @@
+{% load wagtailcore_tags snippets %}
+
+<div class="tab-content">
+    {% for tab in value.tabs %}
+    {% include_block tab %}
+    {% endfor %}
+</div>
+</br>

@@ -1,17 +1,25 @@
-# Python
-*.py[cod]
-*.so
-*/__pycache__/*
-# DB / Migrations
-*.diff
-.idea/
-*.idea/
-**/bower_components
-local_settings.py
 
 !.gitkeep
-local_settings.py
-.local_settings.pyc
-env/
+# DB / Migrations
+# Python
+**/bower_components
+*.diff
+*.idea/
+*.py[cod]
+*.pyc
+*.so
+*/__pycache__/*
+.DS_Store
 .csv
+.env
+.idea
+.idea/
+.local_settings.pyc
+db.sqlite3
+env/
+latest.dump
+local_settings.py
+log
+media
+website/settings/local.py
 ~Envs/
