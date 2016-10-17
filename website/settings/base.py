@@ -20,8 +20,23 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 
 INSTALLED_APPS = [
 
+    'django_comments',
+    'django_comments_xtd',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+
+    'blog',
     'common',
-    
+    'cos',
+
+    "wagtail.contrib.table_block",
+    'wagtail.contrib.modeladmin',
+    'wagtail.contrib.settings',
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
     'wagtail.wagtailembeds',
@@ -38,19 +53,11 @@ INSTALLED_APPS = [
     'taggit',
     'storages',
 
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    #'django.contrib.sites',    
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    
-    'blocks',
     'search',
+    'el_pagination',
 ]
 
-MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -79,13 +86,14 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'wagtail.contrib.settings.context_processors.settings',
             ],
         },
     },
 ]
 
 WSGI_APPLICATION = 'website.wsgi.application'
-
+SITE_ID = 3
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
@@ -141,3 +149,5 @@ WAGTAIL_SITE_NAME = "cos"
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+
+EL_PAGINATION_PER_PAGE=10

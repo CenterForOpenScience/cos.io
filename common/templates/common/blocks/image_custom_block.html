@@ -1,0 +1,11 @@
+{% load wagtailcore_tags %}
+{% load wagtailimages_tags %}
+
+{% image self.main_image original as pic%}
+{% if self.url %}
+<a href="{{ self.url }}">
+    <img src="{{ pic.url }}" style='{{ self.style }}'>
+</a>
+{% else %}
+<img src="{{ pic.url }}" style='{{ self.style }}'>
+{% endif %}

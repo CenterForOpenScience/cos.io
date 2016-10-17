@@ -4,3 +4,6 @@ website/settings/local.py
 .DS_Store
 latest.dump
 db.sqlite3
+.idea
+media
+log
