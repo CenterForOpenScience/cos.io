@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 
     'search',
     'el_pagination',
+    'django_forms_bootstrap',
 ]
 
 MIDDLEWARE_CLASSES = [

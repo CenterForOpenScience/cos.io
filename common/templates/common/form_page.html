@@ -3,6 +3,8 @@
 {% load wagtailcore_tags %}
 {% load wagtailcore_tags snippets %}
 
+{% load bootstrap_tags %}
+
 {% block body_class %} homepage {% endblock %}
 
 {% block content %}
@@ -20,26 +22,17 @@
                 <h1>{{ page.title }}</h1>
                 {{ page.intro|richtext }}
                 <hr/>
+          </center>
             <div class="form-horizontal">
-                <form action="{% pageurl page %}" method="POST">
-                    {{ form.non_field_errors }}
+                <form action="{% if self.action %} {{ self.action }} {% else %}{% pageurl page %}{% endif %}" method="POST">
                     {% csrf_token %}
-                    {% for field in form %}
-                    <div class="form-group {% if field.required %}required{% endif %}">
-                        {{ field.errors }}
-                        {{ field.label_tag }}
-                        {{ field }}
-                        {% if field.help_text %}
-                            <p class="help-block">{{ field.help_text|safe }}</p>
-                        {% endif %}
-                    </div>
-                    {% endfor %}
-                    <div class="btn-group-container">
+                    {{ form|as_bootstrap_horizontal }}
+                    {{ form.non_field_errors }}
+                    <div class="btn-group-container form-actions">
                         <input type="submit" class="btn btn-success" id="btn-submit" name="submit"></button>
                     </div>
                 </form>
             </div>
-          </center>
         </div>
         <div class="footer">
           <div class="container">
