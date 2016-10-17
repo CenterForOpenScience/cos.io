@@ -10,7 +10,7 @@ import wagtail.wagtailcore.fields
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('blog', '0007_auto_20161013_2009'),
+        ('blog', '0007_auto_20161013_2112'),
     ]
 
     operations = [
