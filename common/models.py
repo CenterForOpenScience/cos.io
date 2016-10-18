@@ -82,14 +82,8 @@ from taggit.managers import TaggableManager
 
 from wagtail.contrib.settings.models import BaseSetting, register_setting
 
+from website.settings.base import DEFAULT_FOOTER_ID
 logger = logging.getLogger('wagtail.core')
-DEFAULT_FOOTER_ID = 1
-
-
-@register_setting
-class UpImagePath(BaseSetting):
-    upImagePath = CharField(
-        max_length=255, help_text='Up image path', default='https://cosio.s3.amazonaws.com/images/up.original.png')
 
 class FormField(AbstractFormField):
     page = ParentalKey('FormPage', related_name='form_fields')
@@ -97,6 +91,12 @@ class FormField(AbstractFormField):
 class FormPage(AbstractEmailForm):
     intro = RichTextField(blank=True)
     thank_you_text = RichTextField(blank=True)
+
+    action = CharField(
+        max_length=1000,
+        blank=True,
+        help_text='Optional action for the form. This will default to the slug.'
+    )
 
     content_panels = AbstractEmailForm.content_panels + [
         FieldPanel('intro', classname="full"),
@@ -109,6 +109,10 @@ class FormPage(AbstractEmailForm):
             ]),
             FieldPanel('subject'),
         ], "Email"),
+    ]
+
+    settings_panels = [
+        FieldPanel('action')
     ]
 
 class Job(ClusterableModel, index.Indexed):

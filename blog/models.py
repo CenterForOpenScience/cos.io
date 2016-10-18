@@ -24,10 +24,9 @@ from wagtail.wagtailcore.blocks import RichTextBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
 import datetime
 from common.models import Person
-
+from website.settings.base import DEFAULT_FOOTER_ID
 
 COMMENTS_APP = getattr(settings, 'COMMENTS_APP', None)
-DEFAULT_FOOTER_ID = 1
 
 def get_blog_context(context):
     """ Get context data useful on all blog related pages """
