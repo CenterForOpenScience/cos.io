@@ -49,6 +49,22 @@
         margin: 0;
     }
 
+    {% for tab in value.tab_list %}
+        {% if forloop.last %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label:after {
+        {% else %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label:after, 
+        {% endif %}
+    {% endfor %}
+        content: '';
+        display: inline-block;
+        border-bottom: 6px solid transparent;
+        border-top: 6px solid transparent;
+        border-left: 6px solid #0da3e2;
+        position: absolute;
+        top: 16px;
+        right: -5px;
+    }
 
     .vertical-tabs > label:hover {
          background-color: #0da3e2;
@@ -62,6 +78,8 @@
             #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label, 
         {% endif %}
     {% endfor %}
+         background-color: #0da3e2;
+         color: #ffffff;
     }
 
     .panels {
