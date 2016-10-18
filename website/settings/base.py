@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 
     'search',
     'el_pagination',
+    'django_forms_bootstrap',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -85,8 +86,6 @@ TEMPLATES = [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-                'wagtail.contrib.settings.context_processors.settings',
             ],
         },
     },

@@ -50,3 +50,4 @@
 	- pip install django-el-pagination
 	- add 'el_pagination' to installed_apps in the setting
 - rename blog_models.py to models.py and move it to ...python/lib/python3.4/site-packages/blog/ and replace the old models.py file. This is to avoid the warning of tuple being depreciated in the search field.
+- to use Gunicorn, instead of typing 'python manage.py runserver 17.0.0.1:4200' type 'gunicorn website.wsgi'
