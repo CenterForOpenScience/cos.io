@@ -531,7 +531,7 @@
                                         </tr>
                                         <tr>
                                           <td class="ambassador-instit">
-                                            American Geophysical Union
+                                            University of California San Diego
                                           </td>
                                         </tr>
                                       </table>
