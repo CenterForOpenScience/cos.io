@@ -55,10 +55,7 @@ from common.blocks.images import ImageBlock
 from common.blocks.images import COSPhotoStreamBlock
 from common.blocks.clearfix import WhitespaceBlock
 from common.blocks.clearfix import ClearfixBlock
-from common.blocks.tabs import TabIndexBlock
-from common.blocks.tabs import TabContainerBlock
-from common.blocks.tabs import TabbedBlock
-from common.blocks.tabs import TabContainerInColumnBlock
+from common.blocks.tabs import TabsBlock
 from common.blocks.codes import CodeBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
 
@@ -278,7 +275,7 @@ class CustomPage(Page):
         ('paragraph', RichTextBlock()),
         ('imagechooser', ImageChooserBlock()),
         ('column', RowBlock()),
-        ('tabbed_block', TabbedBlock()),
+        ('tabs', TabsBlock()),
         ('image', ImageBlock()),
         ('rich_text', RichTextBlock()),
         ('raw_html', RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
