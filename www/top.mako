@@ -339,7 +339,7 @@
 
                                   </div>
                                 <div class="col-md-8">
-                                  <h3><strong>Commmittee Members</strong></h3>
+                                  <h3><strong>Committee Members</strong></h3>
                                   <table>
                                     <tr>
                                       <td class="ambassador-data">
