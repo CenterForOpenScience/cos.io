@@ -51,3 +51,4 @@
 	- add 'el_pagination' to installed_apps in the setting
 - rename blog_models.py to models.py and move it to ...python/lib/python3.4/site-packages/blog/ and replace the old models.py file. This is to avoid the warning of tuple being depreciated in the search field.
 - to use Gunicorn, instead of typing 'python manage.py runserver 17.0.0.1:4200' type 'gunicorn website.wsgi'
+- when a new page is published, a message will be sent to flowdock to inform admins. Set the flow token in local.py. The format is: FLOWDOCKTOKEN = 'the_flow_token_from_flowdock'
