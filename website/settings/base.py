@@ -108,9 +108,9 @@ DATABASES = {
     }
 }
 
-import urlparse
+from urllib.parse impor urlparse
 
-redis_url = urlparse.urlparse(os.environ.get('REDIS_URL'))
+redis_url = urlparse(os.environ.get('REDIS_URL'))
 CACHES = {
     "default": {
          "BACKEND": "redis_cache.RedisCache",
