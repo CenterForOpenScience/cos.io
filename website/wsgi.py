@@ -8,6 +8,10 @@ https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/
 """
 
 from __future__ import absolute_import, unicode_literals
+
+#from cos import patches
+#patches.apply()
+
 from django.core.wsgi import get_wsgi_application
 
 application = get_wsgi_application()

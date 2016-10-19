@@ -9,7 +9,6 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('blog', '0014_auto_20161017_1849'),
-        ('blog', '0014_remove_blogpage_author'),
     ]
 
     operations = [

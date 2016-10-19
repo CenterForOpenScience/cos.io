@@ -84,6 +84,33 @@ logger = logging.getLogger('wagtail.core')
 DEFAULT_FOOTER_ID = 1
 
 
+from wagtail.wagtailredirects.models import Redirect
+from django.utils.translation import ugettext_lazy as _
+from wagtail.wagtailredirects.models import Redirect
+from modelcluster.fields import ParentalKey
+from django.db.models import CASCADE
+
+
+
+class VersionedRedirect(Redirect):
+    versioned_redirect_page = ParentalKey(
+        'wagtailcore.Page',
+        verbose_name=_("redirect to a page"),
+        related_name='versioned_redirects',
+        null=True, blank=True,
+        on_delete=CASCADE
+    )
+
+    panels= [
+        FieldPanel('old_path'),
+        FieldPanel('is_permanent')
+    ]
+
+    def save(self, *args, **kwargs):
+        self.redirect_page = self.versioned_redirect_page
+        super(VersionedRedirect, self).save(*args, **kwargs)
+
+
 class FormField(AbstractFormField):
     page = ParentalKey('FormPage', related_name='form_fields')
 
@@ -295,14 +322,16 @@ class CustomPage(Page):
         ('calender_blog', GoogleCalendarBlock()),
     ], null=True, blank=True)
 
+    custom_url = CharField(max_length=256, default='', null=True, blank=True)
+
     content_panels = Page.content_panels + [
         StreamFieldPanel('content'),
         SnippetChooserPanel('footer'),
     ]
 
-    custom_url = CharField(max_length=256, default='')
     promote_panels = Page.promote_panels + [
-        FieldPanel('custom_url')
+        FieldPanel('custom_url'),
+        InlinePanel('versioned_redirects', label='URL Versioning'),
     ]
 
     def serve(self, request):
@@ -311,6 +340,30 @@ class CustomPage(Page):
             'people': Person.objects.all(),
             'jobs': Job.objects.all(),
         })
+
+    @transaction.atomic  # only commit when all descendants are properly updated
+    def move(self, target, pos=None):
+        """
+        Extension to the treebeard 'move' method to ensure that url_path is updated too.
+        """
+        old_url_path = Page.objects.get(id=self.id).url_path
+        super(Page, self).move(target, pos=pos)
+        # treebeard's move method doesn't actually update the in-memory instance, so we need to work
+        # with a freshly loaded one now
+        new_self = Page.objects.get(id=self.id)
+        new_url_path = new_self.set_url_path(new_self.get_parent())
+        new_self.save()
+        new_self._update_descendant_url_paths(old_url_path, new_url_path)
+        new_redirect = new_self.versioned_redirects.create()
+        redirect_url = ('/'+'/'.join(old_url_path.split('/')[2:]))[:-1]
+        new_redirect.old_path = redirect_url
+        new_redirect.redirect_page = new_self
+        new_redirect.site = new_self.get_site()
+        new_redirect.save()
+        new_self.redirect_set.add(new_redirect)
+
+        # Log
+        logger.info("Page moved: \"%s\" id=%d path=%s", self.title, self.id, new_url_path)
 
     @transaction.atomic
     # ensure that changes are only committed when we have updated all descendant URL paths, to preserve consistency
@@ -337,6 +390,19 @@ class CustomPage(Page):
                     update_descendant_url_paths = True
                     old_url_path = old_record.url_path
                     new_url_path = self.url_path
+                    new_redirect = self.versioned_redirects.create()
+                    redirect_url = ('/'+'/'.join(old_url_path.split('/')[2:]))[:-1]
+                    new_redirect.old_path = redirect_url
+                    new_redirect.redirect_page = self
+                    new_redirect.site = self.get_site()
+                    new_redirect.save()
+                    self.redirect_set.add(new_redirect)
+
+
+        for redirect in self.versioned_redirects.all():
+            redirect.versioned_redirect_page = self
+            redirect.redirect_page = self
+            redirect.save()
 
         result = super(Page, self).save(*args, **kwargs)
 
