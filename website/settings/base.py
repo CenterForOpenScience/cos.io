@@ -108,7 +108,7 @@ DATABASES = {
     }
 }
 
-from urllib.parse impor urlparse
+from urllib.parse import urlparse
 
 redis_url = urlparse(os.environ.get('REDIS_URL'))
 CACHES = {
