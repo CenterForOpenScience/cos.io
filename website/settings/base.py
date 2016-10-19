@@ -92,7 +92,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'website.wsgi.application'
-SITE_ID = os.environ.get('SITE_ID'),
+SITE_ID = os.environ.get('SITE_ID')
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
