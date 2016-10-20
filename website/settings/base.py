@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'common',
     'cos',
 
+    'haystack',
     "wagtail.contrib.table_block",
     'wagtail.contrib.modeladmin',
     'wagtail.contrib.settings',
@@ -71,6 +72,16 @@ MIDDLEWARE_CLASSES = [
     'wagtail.wagtailcore.middleware.SiteMiddleware',
     'wagtail.wagtailredirects.middleware.RedirectMiddleware',
 ]
+
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': '127.0.0.1:9200/',
+        'INDEX_NAME': 'haystack',
+    },
+}
+
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
 ROOT_URLCONF = 'website.urls'
 

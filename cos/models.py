@@ -42,7 +42,7 @@ def send_to_flowdock(sender, **kwargs):
             headers={"content-type": "application/json"},
             data=json.dumps(values)
         )
-        logger.info('%s published to Slack, status %s', instance.title, r.status_code)  # noqa
+        logger.info('%s published to Flowdock, status %s', instance.title, r.status_code)  # noqa
     except RequestException as e:
         logger.error(e)
 
