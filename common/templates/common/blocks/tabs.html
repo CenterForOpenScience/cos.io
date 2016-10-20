@@ -36,17 +36,17 @@
         margin: 0;
         overflow:hidden;
         float:left;
-        width: 20%;
         background: #f4f4f4;
         color: #7C858E;
     }
 
     .vertical-tabs > label {
         display: block;
-        padding: 8px 20px;
+        padding: 12px 10px 11px 8px;
         border: 1px solid rgba(0,0,0,0);
         border-left: 1px solid #0da3e2;
         margin: 0;
+        width: 100%;
     }
 
     {% for tab in value.tab_list %}
@@ -107,11 +107,11 @@
         <input id='s{{ forloop.counter }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='s{{ forloop.counter }}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
     {% endfor %}
     
-    <div class='{{ value.tabs_style }}-tab{% if value.tabs_style == "vertical-tabs" %} col-sm-2{% %}s'>{% for tab in value.tab_list %}
+    <div class='{{ value.tabs_style }}-tabs{% if value.tabs_style == "vertical" %} col-sm-2{% endif %}'>{% for tab in value.tab_list %}
         <label id='s{{ forloop.counter }}-tab-label' for='s{{ forloop.counter }}-tab-state' class='tab'>{{ tab.name }}</label>
     {% endfor %}</div>
     
-    <div class='panels{% if value.tabs_style == "vertical-tabs" %} col-sm-10{% endif%}'>{% for tab in value.tab_list %}
+    <div class='panels{% if value.tabs_style == 'vertical' %} col-sm-10{% endif %}'>{% for tab in value.tab_list %}
         <div class='tab-panel' id='s{{ forloop.counter }}-tab-panel'>{{ tab.content }}</div>
     {% endfor %}</div>
     
