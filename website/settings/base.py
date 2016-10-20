@@ -139,10 +139,6 @@ CACHES = {
     }
 }
 
-es_url = os.environ.get('SEARCHBOX_URL') or 'http://127.0.0.1:9200/'
-es = urlparse(es_url)
-port = es.port or 80
-
 #WAGTAILSEARCH_BACKENDS = {
 #    'default': {
 #        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch2',
