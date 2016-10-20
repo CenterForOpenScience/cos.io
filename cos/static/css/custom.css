@@ -1006,3 +1006,7 @@ color: #821d9c
     bottom: 0;
     right: 0;
 }
+
+.highlighted {
+    background-color: yellow;
+}

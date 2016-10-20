@@ -24,24 +24,43 @@
 
             {% if query %}
                 <h3>Results</h3>
-
                 {% for result in page.object_list %}
+                    <hr>
                     {%  if result.object.first_name %}
-                    <p>
-                        {{ result.object.first_name }} {{ result.object.last_name }}
-                    </p>
+                        <p>
+                            {% highlight result.object.first_name with query %} {% highlight result.object.last_name with query %}
+                        </p>
                     {% elif not result.object.url%}
-                        {{ result.object.title }}
+                        <p>
+                        {% highlight result.object.title with query max_length 50 %}
+                        </p>
+                        <p>
+                        {% highlight result.object.skills with query max_length 50 %}
+                        </p>
+                        <p>
+                        {% highlight result.object.benefits with query max_length 50 %}
+                        </p>
                     {% else %}
-                    <p>
-                        <a href="{{ result.object.url }}">{{ result.object.title }}</a>
-                    </p>
+                        <p>
+                            <a href="{{ result.object.url }}">{% highlight result.object.title with query %}</a>
+                        </p>
+                        <p>
+                        {% highlight result.intro with query max_length 50 %}
+                        </p>
+                        <p>
+                            {% highlight result.body with query max_length 50 %}
+                        </p>
+                        <p>
+                            {% highlight result.content with query max_length 50 %}
+                        </p>
                     {% endif %}
-                <br>
+
+
+
                 {% empty %}
                     <p>No results found.</p>
                 {% endfor %}
-
+                <hr>
                 {% if page.has_previous or page.has_next %}
                     <div>
                         {% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>{% endif %}

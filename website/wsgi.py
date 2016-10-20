@@ -10,4 +10,8 @@ https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/
 from __future__ import absolute_import, unicode_literals
 from django.core.wsgi import get_wsgi_application
 
+from cos import patches
+patches.highlightingapply()
+
+
 application = get_wsgi_application()
