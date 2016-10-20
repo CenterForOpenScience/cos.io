@@ -181,11 +181,6 @@ class Job(ClusterableModel, index.Indexed):
         return '{self.title}'.format(self=self)
 
 
-class Journal(ClusterableModel, index.Indexed):
-
-    
-
-
 class Person(ClusterableModel, index.Indexed):
 
     user = OneToOneField(User, null=True, blank=True, on_delete=CASCADE,related_name='profile')
