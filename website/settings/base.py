@@ -141,7 +141,7 @@ CACHES = {
 
 WAGTAILSEARCH_BACKENDS = {
     'default': {
-        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch2',
+        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch',
         'URLS': [ES_URL],
         'INDEX': 'wagtail',
         'TIMEOUT': 5
