@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 from __future__ import absolute_import, unicode_literals
+from urllib.parse import urlparse
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
@@ -73,13 +74,18 @@ MIDDLEWARE_CLASSES = [
     'wagtail.wagtailredirects.middleware.RedirectMiddleware',
 ]
 
+ES_URL = urlparse(os.environ.get('BONSAI_URL') or 'http://127.0.0.1:9200/')
+
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
-        'URL': '127.0.0.1:9200/',
+        'URL': ES_URL.scheme + '://' + ES_URL.hostname + ':80',
         'INDEX_NAME': 'haystack',
     },
 }
+
+if ES_URL.username:
+    HAYSTACK_CONNECTIONS['default']['KWARGS'] = {"http_auth": ES_URL.username + ':' + ES_URL.password}
 
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
