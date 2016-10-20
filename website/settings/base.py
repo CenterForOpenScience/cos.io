@@ -139,14 +139,14 @@ CACHES = {
     }
 }
 
-#WAGTAILSEARCH_BACKENDS = {
-#    'default': {
-#        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch2',
-#        'URLS': es_url,
-#        'INDEX': 'wagtail',
-#        'TIMEOUT': 5
-#    }
-#}
+WAGTAILSEARCH_BACKENDS = {
+    'default': {
+        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch2',
+        'URLS': ES_URL,
+        'INDEX': 'wagtail',
+        'TIMEOUT': 5
+    }
+}
 
 LANGUAGE_CODE = 'en-us'
 
