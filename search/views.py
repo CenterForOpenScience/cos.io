@@ -7,7 +7,7 @@ from django.core.paginator import InvalidPage, Paginator
 from django.http import Http404
 from django.shortcuts import render
 
-from haystack.forms import FacetedSearchForm, ModelSearchForm, SearchForm
+from haystack.forms import FacetedSearchForm, ModelSearchForm, SearchForm, HighlightedModelSearchForm, HighlightedSearchForm
 from haystack.query import EmptySearchQuerySet
 
 RESULTS_PER_PAGE = getattr(settings, 'HAYSTACK_SEARCH_RESULTS_PER_PAGE', 20)
@@ -28,7 +28,7 @@ class SearchView(object):
         self.searchqueryset = searchqueryset
 
         if form_class is None:
-            self.form_class = ModelSearchForm
+            self.form_class = HighlightedSearchForm
 
         if not results_per_page is None:
             self.results_per_page = results_per_page
@@ -129,10 +129,11 @@ class SearchView(object):
 
         context = {
             'query': self.query,
-            'form': SearchForm,
+            'form': self.form,
             'page': page,
             'paginator': paginator,
             'suggestion': None,
+            'request':self.request,
         }
 
         if self.results and hasattr(self.results, 'query') and self.results.query.backend.include_spelling:

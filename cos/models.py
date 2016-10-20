@@ -5,6 +5,7 @@ from django.conf import settings
 from requests.exceptions import RequestException
 import json
 import hashlib
+import os
 
 logger = logging.getLogger('django')
 
@@ -15,7 +16,7 @@ def send_to_flowdock(sender, **kwargs):
 
     iconMd5 = hashlib.md5(instance.owner.email.encode('utf-8')).hexdigest()
     values = {
-        "flow_token": settings.FLOWDOCKTOKEN,
+        "flow_token": os.environ.get('FLOWDOCKTOKEN'),
           "event": "activity",
           "author": {
             "name": instance.owner.username,
