@@ -122,6 +122,29 @@ CACHES = {
     }
 }
 
+es_url = os.environ.get('SEARCHBOX_URL') or 'http://127.0.0.1:9200/'
+es = urlparse(es_url)
+port = es.port or 80
+
+#HAYSTACK_CONNECTIONS = {
+#    'default': {
+#        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+#        'URL': es.scheme + '://' + es.hostname + ':' + str(port),
+#        'INDEX_NAME': 'documents',
+#    },
+#}
+
+WAGTAILSEARCH_BACKENDS = {
+    'default': {
+        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch2',
+        'URLS': es_url,
+        'INDEX': 'wagtail',
+        'TIMEOUT': 5
+    }
+}
+
+#if es.username:
+#    HAYSTACK_CONNECTIONS['default']['KWARGS'] = {"http_auth": es.username + ':' + es.password}
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
