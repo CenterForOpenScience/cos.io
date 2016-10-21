@@ -11,6 +11,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('wagtailcore', '0029_unicode_slugfield_dj19'),
+        ('wagtailredirects', '0005_capitalizeverbose'),
         ('common', '0025_auto_20161018_2101'),
     ]
 
@@ -21,5 +22,11 @@ class Migration(migrations.Migration):
                 ('versioned_redirect_page', modelcluster.fields.ParentalKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='versioned_redirects', to='wagtailcore.Page', verbose_name='redirect to a page')),
             ],
             bases=('wagtailredirects.redirect',),
+        ),
+        migrations.AddField(
+            model_name='versionedredirect',
+            name='redirect_ptr',
+            field=models.OneToOneField(auto_created=True, default=1, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailredirects.Redirect'),
+            preserve_default=False,
         ),
     ]
