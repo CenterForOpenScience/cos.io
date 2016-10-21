@@ -79,7 +79,7 @@ ES_URL = urlparse(os.environ.get('BONSAI_URL') or 'http://127.0.0.1:9200/')
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
-        'URL': ES_URL.scheme + '://' + ES_URL.hostname + ':80',
+        'URL': ES_URL.scheme + '://' + ES_URL.hostname + ':9200',
         'INDEX_NAME': 'haystack',
     },
 }
@@ -125,9 +125,7 @@ DATABASES = {
     }
 }
 
-from urllib.parse import urlparse
-
-redis_url = urlparse(os.environ.get('REDIS_URL'))
+redis_url = urlparse(os.environ.get('REDIS_URL') or 'http://127.0.0.1:6379')
 CACHES = {
     "default": {
          "BACKEND": "redis_cache.RedisCache",

@@ -276,7 +276,7 @@ class Footer(Model):
         return self.title
 
 
-class CustomPage(Page):
+class CustomPage(Page, index.Indexed):
     footer = ForeignKey(
         'common.Footer',
         default=DEFAULT_FOOTER_ID,
@@ -323,6 +323,10 @@ class CustomPage(Page):
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
+
+    search_fields = [
+        index.SearchField('content', partial_match=True),
+    ]
 
     content_panels = Page.content_panels + [
         StreamFieldPanel('content'),
@@ -463,7 +467,7 @@ class NewsIndexPage(Page):
             'page_template':page_template,
         })
 
-class NewsArticle(Page):
+class NewsArticle(Page, index.Indexed):
     footer = ForeignKey(
         'common.Footer',
         default=DEFAULT_FOOTER_ID,
@@ -488,6 +492,12 @@ class NewsArticle(Page):
     external_link = CharField("External Article Link",help_text="Fill this if the article is NOT from COS", max_length=255,blank=True)
 
     custom_url = CharField(max_length=256, default='')
+
+    search_fields = [
+        index.SearchField('intro', partial_match=True),
+        index.SearchField('body', partial_match=True)
+    ]
+
     promote_panels = Page.promote_panels + [
         FieldPanel('custom_url')
     ]
