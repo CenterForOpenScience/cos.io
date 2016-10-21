@@ -1322,10 +1322,6 @@
                     <dd>
                         <p>Develop exclusively free, open source software to support open science.  The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for OSS senior developers, with 10+ years of professional software development experience, experience leading teams, and who are passionate about modern web and API practices, love science, and possess expertise across the web development stack. Open source has changed how software development works, and we want to apply the same principles to science. Everything we develop is exclusively free and open source.   Everything we develop is exclusively <a href="http://github.com/CenterForOpenScience">free and open source</a>.</p>
                     </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
                     <dt>Responsibilities</dt>
                     <dd>
                         <ul class="indent">
@@ -1341,6 +1337,96 @@
                     </dd>
                     <dd>
                         <p>We are much more concerned about collaboration, passion, and ability than the actual technologies you use.  A great developer will be a great developer in any language.  We focus on Python in that Python development values readability and community.  A great team lead will be organized, have strong planning, estimation, and communication skills, and be driven by helping their team be successful. We are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/1c1cedc2-3c09-4cb9-8eaa-b9681d91809b">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                    <dt>Referrals</dt>
+                    <dd>
+                        <p>COS offers $1,000 hiring bounty for full-time Developer positions.  The Center for Open Science has a unique work environment for extremely talented developers: [1] we develop exclusively free, open source software; [2] we are a well-resourced, mission-driven, non-profit tech start-up; and, [3] we serve and support the open source and open science communities.</p>
+                        <p>This is a great job for many and a perfect job for a few. The perfect candidate is the person already doing open source in their free time while wishing that they could make a living doing it all the time.  We need to find these people; you can help. COS encourages women and members of underrepresented groups in technology and science to apply.</p>
+                        <p>If you know someone who lives and breathes open source and is passionate about collaboration, sharing, science, and making a difference, then encourage them to apply.  If we hire that person as a full-time developer, we will send you a check for $1,000.</p>
+                        <p>This is not an invitation to spam others on our behalf. Reach out to developers you know personally, or tweet and post our link to your social communities. We will ask applicants how they found about the position when they apply</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="SeniorSiteReliabilityEngineer" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorSiteReliabilityEngineer_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#SeniorSiteReliabilityEngineer" >
+                    Senior Site Reliability Engineer
+                </a>
+            </h4>
+        </div>
+        <div id="SeniorSiteReliabilityEngineer" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Support exclusively free, open source software to support open science. The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit startup looking for experienced engineers interested in supporting OSS. Ideal candidates will bring 6+ years of professional experience leading teams to help us operate, troubleshoot, and improve our cloud-based systems. COS infrastructure is software developed in Python and Javascript, using modern web tools like Django and Ember.js. Open source and cloud systems have changed how software development works, and we want to apply the same principles to science. Everything we develop is exclusively free and open source. Everything we develop is exclusively free and open source. See more on <a href="http://github.com/CenterForOpenScience">GitHub</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Troubleshoot application deployments, recreate customer issues</li>
+                            <li>Analyze and eliminate actual and potential threats to security, availability, and performance</li>
+                            <li>Anticipate security risks and work to continually improve mitigation practices</li>
+                            <li>Apply advanced troubleshooting techniques to provide unique solutions to our customers' individual needs</li>
+                            <li>Management of "infrastructure as code" – design, deploy, and test platform operations</li>
+                            <li>Ability to implement production ready highly available systems using the latest technologies: Kubernetes, Docker, Service Discovery, Autoscaling</li>
+                            <li>Solve difficult infrastructure problems directly and by mentoring others</li>
+                            <li>Receive and respond to system issues that come in via the helpdesk</li>
+                            <li>Document technical environment layout and practices</li>
+                            <li>Embrace and promote an open and transparent team culture</li>
+                            <li>Manage the DevOps team</li>
+                        </ul>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Excellent systems administration skills (Linux)</li>
+                            <li>Efficient technical troubleshooting</li>
+                            <li>Excellent oral and written communication skills</li>
+                            <li>Understand the complete deployment lifecycle from design, build, test, deploy</li>
+                            <li>Experience using continuous integration platforms such as Jenkins</li>
+                            <li>Experience with a configuration management system such as Chef, Puppet, Ansible, Salt or CloudFormation</li>
+                            <li>Experience with relational and nonrelational database technologies such as PostgreSQL, MySQL and Mongo</li>
+                            <li>Experience with caching technologies such as Redis or Varnish</li>
+                            <li>Experience with immutable infrastructure and 12-factor architecture is preferred</li>
+                            <li>Experience with enterprise security is a plus</li>
+                            <li>Networking (DNS, TCP/IP, HTTP, SSL, Load Balancing)</li>
+                            <li>Coding ability (Java/Tomcat, .NET, Ruby, Python, Node.js, PHP)</li>
+                            <li>Familiarity with one or more version control systems (SVN, Perforce, TFVC, Git, MS Team Foundation)</li>
+                            <li>Successful candidates are collaborative, self-managing, and experienced in general development, deployment, and operation of modern API-powered web applications using continuous delivery and Git in a Unix/Linux environment</li>
+                            <li>Experience leading, mentoring, and managing teams (hiring, managing, performance reviews)</li>
+                            <li>Experience with project management</li>
+                            <li>Organization skills and ability to work on multiple projects and/or assignments simultaneously</li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <p>We value collaboration, passion, and ability more than the actual technologies you use.  A great developer will be a great developer in any language.  We focus on Python in that Python development values readability and community.  A great team lead will be organized, have strong planning, estimation, and communication skills, and be driven by helping their team be successful. We are missioned with connecting and educating the open science and open source communities. The Python community represents what an effective community should look like and has strong ties to the sciences. As long as your values are aligned with those, we want to hear from you.</p>
+                    </dd>
+                    <dd>
+                        <p>
+                        </p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
                     </dd>
                     <dt>Benefits</dt>
                     <dd>

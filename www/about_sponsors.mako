@@ -526,6 +526,14 @@
                                                 </td>
                                             </tr>
                                             <tr class="spacer"></tr>
+                                           <tr>
+                                                <td class="sponsor-center"><a href="http://www.darpa.mil"><img src="/static/img/icons/darpa.jpg"></a></td>
+                                                <td><span class="med-font"><strong>Defense Advanced Research Projects Agency</strong></span><br>
+                                                <strong>$129,171</strong><br>
+                                                The Defense Advanced Research Projects Agency awarded COS a cooperative agreement to serve as the Testing and Evaluation performer in the Next Generation of Social Science (NGS2) program. COS will use the Open Science Framework (OSF), its flagship web application, to assist other program researchers to collect, support, and share their data among collaborators and, as appropriate, with the broader research community.  OSF will support researchers managing their experimental work flow, pre-registering their experimental design, and archiving their research data and outcomes.<br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
                                             <tr>
                                                 <td class="sponsor-center"><a href="http://www.rj.se/en"><img src="/static/img/icons/sfhss.png"></a></td>
                                                 <td><span class="med-font"><strong>The Swedish Foundation for Humanities and Social Sciences</strong></span><br>
