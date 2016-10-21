@@ -173,7 +173,52 @@
         </table>
     </td>
 
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/mrqta/" target="_blank">
+                        <img src="../static/img/people/ambassadors/brown_benjamin.jpg" alt="Benjamin Brown">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Benjamin Brown
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Georgia Gwinnett College
+                </td>
+            </tr>
+        </table>
+    </td>
 
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="" target="_blank">
+                        <img src="../static/img/people/ambassadors/devezer_b.jpg" alt="Berna Devezer">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Berna Devezer 
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of Idaho
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -216,10 +261,7 @@
                 </td>
             </tr>
         </table>
-    </td>
-
-</tr>
-<tr>    
+    </td>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -242,6 +284,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -286,8 +331,8 @@
             </tr>
         </table>
     </td>
-</tr>
-<tr>
+
+
      <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -309,6 +354,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -354,8 +402,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -377,6 +423,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -422,8 +471,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -447,6 +494,9 @@
         </table>
     </td>
    
+
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -492,10 +542,8 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
-        <td class="ambassador-data">
+    <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
@@ -516,6 +564,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -561,8 +612,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -585,6 +634,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -630,8 +682,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -654,6 +704,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -699,8 +752,31 @@
         </table>
     </td>
 
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                <a href="https://osf.io/5u9sx/" target="_blank">
+                    <img src="../static/img/people/ambassadors/ivory_james.jpg" alt="James Ivory">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    James Ivory
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Virginia Tech
+                </td>
+            </tr>
+        </table>
+    </td>
+
 </tr>
-<tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1074,6 +1150,30 @@
         </table>
     </td>
 
+
+<td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/e9tg8/" target="_blank">
+                        <img src="../static/img/people/ambassadors/mathur_maya.jpg" alt="Maya Mathur">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Maya Mathur
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Stanford University, Harvard University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1095,6 +1195,9 @@
             </tr>
         </table>
     </td>
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1118,8 +1221,6 @@
         </table>
     </td>
 
-</tr>
-<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1165,6 +1266,9 @@
         </table>
     </td>
 
+</tr>
+<tr>  
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1187,8 +1291,6 @@
         </table>
     </td>
 
-</tr>
-<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1234,6 +1336,9 @@
         </table>
     </td>
 
+</tr>
+<tr>  
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1255,9 +1360,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1303,6 +1405,9 @@
         </table>
     </td>
 
+</tr>
+<tr>  
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1325,8 +1430,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1374,6 +1477,9 @@
         </table>
     </td>
 
+</tr>
+<tr>  
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1396,8 +1502,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1444,6 +1548,9 @@
         </table>
     </td>
 
+</tr>
+<tr>  
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1466,9 +1573,6 @@
         </table>
     </td>
 
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1515,6 +1619,8 @@
         </table>
     </td>
 
+</tr>
+<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1539,8 +1645,6 @@
      </td>     
 
 
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1586,6 +1690,32 @@
         </table>
     </td>
 
+</tr>
+<tr>  
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/7mj2q/" target="_blank">
+                        <img src="../static/img/people/ambassadors/steeves_vicky.jpg" alt="Vicky Steeves">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Vicky Steeves
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    New York University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1603,6 +1733,54 @@
             <tr>
                 <td class="ambassador-instit-padding">
                     Charité - Universitätsmedizin Berlin
+                </td>
+            </tr>
+        </table>
+    </td>
+
+
+     <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/ru67z/" target="_blank">
+                        <img src="../static/img/people/ambassadors/xschmalz.png" alt="Xenia Schmalz">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Xenia Schmalz
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Università degli Studi di Padov
+                </td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<tr>  
+    
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/5brdi/" target="_blank">
+                        <img src="../static/img/people/ambassadors/shorish_yasmeen.jpg" alt="Yasmeen Shorish">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Yasmeen Shorish
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    James Madison University 
                 </td>
             </tr>
         </table>
