@@ -10,7 +10,7 @@ import modelcluster.fields
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('common', '0015_auto_20161013_1746'),
+        ('common', '0016_auto_20161013_2111'),
         ('blog', '0006_auto_20161012_1555'),
     ]
 
@@ -26,10 +26,6 @@ class Migration(migrations.Migration):
                 'abstract': False,
                 'ordering': ['sort_order'],
             },
-        ),
-        migrations.RemoveField(
-            model_name='blogpage',
-            name='author',
         ),
         migrations.AddField(
             model_name='blogpageperson',
