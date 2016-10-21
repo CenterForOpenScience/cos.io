@@ -14,6 +14,7 @@ urlpatterns = [
     url(r'^admin/', include(wagtailadmin_urls)),
     url(r'^documents/', include(wagtaildocs_urls)),
     url(r'^search/', search_views.SearchView(), name='search'),
+    url(r'^blog/', include('blog.urls', namespace="blog")),
     url(r'^comments/', include('django_comments_xtd.urls')),
     url(r'', include(wagtail_urls)),
 ]
