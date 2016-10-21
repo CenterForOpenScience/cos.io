@@ -374,7 +374,7 @@
 
                         <br><strong><h3>Lodging Information</strong></h3>
                         <br><strong><h4>Nearby Hotels</strong></h4>
-                        <strong>Omni Charlottesville Hotel - ROOM BLOCK UNTIL 10/20/16</strong>
+                        <strong>Omni Charlottesville Hotel - ROOM BLOCK UNTIL 11/02/16</strong>
                         <br>212 Ridge McIntire Road, Charlottesville, VA 22903
                         <br>Phone Number: 1-800-843-6664  *please reference this conference so you will get the discount rate
                         <br> <a href="https://www.omnihotels.com/hotels/charlottesville/meetings/center-for-open-science">https://www.omnihotels.com/hotels/charlottesville/meetings/center-for-open-science</a>
