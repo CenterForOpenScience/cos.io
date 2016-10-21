@@ -1,9 +1,26 @@
-.env
+
+!.gitkeep
+# DB / Migrations
+# Python
+**/bower_components
+*.diff
+*.idea/
+*.py[cod]
 *.pyc
-website/settings/local.py
+*.so
+*/__pycache__/*
 .DS_Store
-latest.dump
-db.sqlite3
+.csv
+.env
 .idea
-media
+.idea/
+.local_settings.pyc
+db.sqlite3
+env/
+latest.dump
+local_settings.py
 log
+media
+website/settings/local.py
+static/
+~Envs/

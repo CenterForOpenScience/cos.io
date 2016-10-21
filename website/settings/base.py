@@ -109,7 +109,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'website.wsgi.application'
-SITE_ID = 3
+SITE_ID = os.environ.get('SITE_ID')
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
@@ -125,9 +125,28 @@ DATABASES = {
     }
 }
 
+from urllib.parse import urlparse
 
-# Internationalization
-# https://docs.djangoproject.com/en/1.10/topics/i18n/
+redis_url = urlparse(os.environ.get('REDIS_URL'))
+CACHES = {
+    "default": {
+         "BACKEND": "redis_cache.RedisCache",
+         "LOCATION": "{0}:{1}".format(redis_url.hostname, redis_url.port),
+         "OPTIONS": {
+             "PASSWORD": redis_url.password,
+             "DB": 0,
+         }
+    }
+}
+
+#WAGTAILSEARCH_BACKENDS = {
+#    'default': {
+#        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch',
+#        'URLS': [ES_URL],
+#        'INDEX': 'wagtail',
+#        'TIMEOUT': 5
+#    }
+#}
 
 LANGUAGE_CODE = 'en-us'
 
@@ -167,5 +186,5 @@ WAGTAIL_SITE_NAME = "cos"
 BASE_URL = 'http://example.com'
 
 EL_PAGINATION_PER_PAGE=10
-
+DATA_UPLOAD_MAX_NUMBER_FIELDS=10000
 DEFAULT_FOOTER_ID = 1

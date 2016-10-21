@@ -1,0 +1,272 @@
+{% extends "base.html" %}
+{% load i18n future mezzanine_tags blog_tags keyword_tags disqus_tags %}
+{% load staticfiles %}
+
+
+
+
+{% block stylesheets %}
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link href="{% static 'plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+<link href="{% static 'plugins/bxslider/jquery.bxslider.css'  %}" rel="stylesheet" />
+<link href="{% static 'css/animate.css' %}" rel="stylesheet" />
+<link href="{% static 'css/blog.css' %}" rel="stylesheet" />
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+{% endblock %}
+
+<!-- Meta Data -->
+{% block meta_title %}COS Blog{% endblock %}
+
+{% block meta_keywords %}{% metablock %}
+{% keywords_for page as keywords %}
+{% for keyword in keywords %}
+    {% if not forloop.first %}, {% endif %}
+    {{ keyword }}
+{% endfor %}
+{% endmetablock %}{% endblock %}
+
+{% block meta_description %}{% metablock %}
+{{ page.description }}
+{% endmetablock %}{% endblock %}
+<!-- Page Title -->
+{% block title %}Blog{% endblock %}
+<!-- Content Block-->
+{% block content %}
+<div class="clearfix"></div>
+
+<!-- Main Container-->
+<div class="container main-container margin-top-50 margin-bottom-100">
+    <h1><strong>Blog</strong></h1>
+    <p class="lead">Welcome to the COS blog. Have a look around and get updates from us and the rest of the world of Open Source Science.</p>
+    <div class="row padding-bottom-10 holder">
+        <div class="col-md-5 col-md-offset-1">
+        <!-- Blog Post List-->
+            {% for blog_post in blog_posts.object_list %}
+                <!-- Post Title/Link-->
+                <div class="row rowPost">
+                    <div class="clearfix"></div>
+                        <div class="col-md-2 picture">
+                             <!-- Shows Blog's featured image- currently set on-->
+                            {% if settings.BLOG_USE_FEATURED_IMAGE and blog_post.featured_image %}
+                                    <a href="{{ blog_post.get_absolute_url }}">
+                                        <img class="img-thumbnail pull-left thumb" src="{{ MEDIA_URL }}{% thumbnail blog_post.featured_image 90 90 %}">
+                                    </a>
+                            {% else %}
+                                <a href="{{ blog_post.get_absolute_url }}">
+                                    <img class="img-thumbnail pull-left thumb no-border" src="{% static 'img/cos_center_logo_small.png' %}"/>
+                                </a>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-9 col-md-offset-1 right">
+                            {% block blog_post_list_post_title %}
+                                    <h1 class="link">
+                                        <a href="{{ blog_post.get_absolute_url }}">{{ blog_post.title }}</a>
+                                    </h1>
+                            {% endblock %}
+                            <!-- Blog Post Information-->
+                            {% block blog_post_list_post_metainfo %}
+                                    <h6 class="post-meta">
+                                        <!-- Allows you to have the user's name who wrote the blog post showing-->
+                                        {#           {% trans "Posted by" %}:#}
+                                        {#            {% with blog_post.user as author %}#}
+                                        {#            <a href="{% url "blog_post_list_author" author %}">{{ author.get_full_name|default:author.username }}</a>#}
+                                        {#            {% endwith %}#}
+                                        {% with blog_post.categories.all as categories %}
+                                            {% if categories %}
+                                            {% trans "in" %}
+                                                {% for category in categories %}
+                                                    <a href="{% url "blog_post_list_category" category.slug %}">{{ category }}</a>{% if not forloop.last %}, {% endif %}
+                                                {% endfor %}
+                                            {% endif %}
+                                        {% endwith %}
+                                        {% blocktrans with sometime=blog_post.publish_date|timesince %}{{ sometime }} ago{% endblocktrans %}
+                                    </h6>
+                            {% endblock %}
+                            <!-- Beginning of content-->
+                            <div class="postContent">
+                                {% block blog_post_list_post_content %}
+                                        {{ blog_post.description_from_content|safe }}
+                                {% endblock %}
+                            </div>
+                            <!-- Comment List and Tags-->
+                            {% block blog_post_list_post_links %}
+                                <div class="blog-list-detail">
+                                    {% keywords_for blog_post as tags %}
+                                    {% if tags %}
+                                        <ul class="list-inline tags">
+                                            {% trans "Tags" %}:
+                                            {% spaceless %}
+                                                {% for tag in tags %}
+                                                    <li><a href="{% url "blog_post_list_tag" tag.slug %}" class="tag">{{ tag }}</a></li>
+                                                {% endfor %}
+                                            {% endspaceless %}
+                                        </ul>
+                                    {% endif %}
+
+                                    <p>
+                                        <a href="{{ blog_post.get_absolute_url }}">{% trans "read more" %}</a>
+                                        {% if blog_post.allow_comments %}
+                                            /
+                                            {% if settings.COMMENTS_DISQUS_SHORTNAME %}
+                                                <a href="{{ blog_post.get_absolute_url }}#disqus_thread"
+                                                    data-disqus-identifier="{% disqus_id_for blog_post %}">
+                                                    {% trans "Comments" %}
+                                                </a>
+                                            {% else %}
+                                                <a href="{{ blog_post.get_absolute_url }}#comments">
+                                                    {% blocktrans count comments_count=blog_post.comments_count %}{{ comments_count }} comment{% plural %}{{ comments_count }} comments{% endblocktrans %}
+                                                </a>
+                                            {% endif %}
+                                        {% endif %}
+                                    </p>
+                                </div>
+                            {% endblock %}
+                        </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-3 col-md-offset-2">
+            <div class="row padding-bottom-10">
+                <div class="col-md-12">
+                    <!--Sorts by Keyword-->
+                    {% block blog_keywords %}
+                        {% keywords_for blog.blogpost as tags %}
+                        {% if tags %}
+                            <h3>{% trans "Tags" %}</h3>
+                            <ul class="list-inline tag-cloud">
+                                {% for tag in tags %}
+                                    <li>
+                                        <a href="{% url "blog_post_list_tag" tag.slug %}"
+                                            class="tag-weight-{{ tag.weight }}">{{ tag }}</a>
+                                        ({{ tag.item_count }})
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    {% endblock %}
+                </div>
+            </div>
+            <div class="row padding-bottom-10">
+                <div class="col-md-12">
+                     <!--Shows categories-->
+                    {% block blog_categories %}
+                        {% blog_categories as categories %}
+                        {% if categories %}
+                            <h3>{% trans "Categories" %}</h3>
+                            <ul class="list-unstyled">
+                                {% for category in categories %}
+                                    <li><a href="{% url "blog_post_list_category" category.slug %}">{{ category }}</a> ({{ category.post_count }})</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    {% endblock %}
+                </div>
+            </div>
+            <div class="row padding-bottom-10">
+                <div class="col-md-12">
+                    <!--Sorts by Month-->
+                    {% block blog_months %}
+                        {% blog_months as months %}
+                        {% if months %}
+                            <h3>{% trans "Archive" %}</h3>
+                            {% for month in months %}
+                                {% ifchanged month.date.year %}
+                                    {% if not forloop.first %}</ul>{% endif %}
+                                    <h6>{{ month.date.year }}</h6>
+                                    <ul class="list-unstyled">
+                                {% endifchanged %}
+                                <li><a href="{% url "blog_post_list_month" year=month.date.year month=month.date.month %}">{{ month.date|date:"F" }}</a> ({{ month.post_count }})</li>
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
+                    {% endblock %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <!--Shows blog feeds-->
+                    {% block blog_feeds %}
+                        <h3>{% trans "Feeds" %}</h3>
+                        {% if tag %}
+                            <a href="{% url "blog_post_feed_tag" tag.slug "rss" %}">{% trans "RSS" %}</a> /
+                            <a href="{% url "blog_post_feed_tag" tag.slug "atom" %}">{% trans "Atom" %}</a>
+                        {% endif %}
+                        {% if category %}
+                            <a href="{% url "blog_post_feed_category" category.slug "rss" %}">{% trans "RSS" %}</a> /
+                            <a href="{% url "blog_post_feed_category" category.slug "atom" %}">{% trans "Atom" %}</a>
+                        {% endif %}
+{#                        {% if author %}#}
+{#                            <a href="{% url "blog_post_feed_author" author.username "rss" %}">{% trans "RSS" %}</a> /#}
+{#                            <a href="{% url "blog_post_feed_author" author.username "atom" %}">{% trans "Atom" %}</a>#}
+{#                        {% endif %}#}
+                        {% if not tag and not category and not author %}
+                            <a href="{% url "blog_post_feed" "rss" %}">{% trans "RSS" %}</a> /
+                            <a href="{% url "blog_post_feed" "atom" %}">{% trans "Atom" %}</a>
+                        {% endif %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row padding-bottom-10">
+        <div class="col-md-6 col-md-offset-4">
+            <!-- Pagination-->
+            {% pagination_for blog_posts %}
+            {% if settings.COMMENTS_DISQUS_SHORTNAME %}
+                {% include "generic/includes/disqus_counts.html" %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{#        <!-- Sorting-->#}
+{#    {% if tag or category or year or month or author %}#}
+{#        {% block blog_post_list_filterinfo %}#}
+{#            <p>#}
+{#                {% if tag %}#}
+{#                    {% trans "Viewing posts tagged" %} {{ tag }}#}
+{#                {% else %}{% if category %}#}
+{#                    {% trans "Viewing posts for the category" %} {{ category }}#}
+{#                {% else %}{% if year or month %}#}
+{#                    {% trans "Viewing posts from" %} {% if month %}{{ month }}, {% endif %}#}
+{#                    {{ year }}#}
+{#                {% else %}{% if author %}#}
+{#                    {% trans "Viewing posts by" %}#}
+{#                    {{ author.get_full_name|default:author.username}}#}
+{#                {% endif %}{% endif %}{% endif %}{% endif %}#}
+{#            </p>#}
+{#        {% endblock %}#}
+{#            {% else %}#}
+{#                {% if page %}#}
+{#                {% block blog_post_list_pagecontent %}#}
+{#                {% if page.get_content_model.content %}#}
+{#                    {% editable page.get_content_model.content %}#}
+{#                    {{ page.get_content_model.content|richtext_filters|safe }}#}
+{#                    {% endeditable %}#}
+{#                {% endif %}#}
+{#                {% endblock %}#}
+{#                {% endif %}#}
+{#            {% endif %}#}
+
+
+{% block javascript_bottom%}
+    <script type="text/javascript" src="{% static 'plugins/bxslider/jquery.bxslider.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/text-resize.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/back-to-top.js' %}"></script>
+    <script src="{% static 'scripts/index.js' %}"></script>
+    <script src="{% static 'plugins/jquery.mixitup.min.js' %}"></script>
+    <script src="{% static 'scripts/app.js' %}"></script>
+    <script src="{% static 'scripts/portfolio.js' %}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+            App.initBxSlider();
+            Portfolio.init();
+            $('.resize-text').resizeText();
+        });
+    </script>
+<!-- END PAGE LEVEL JAVASCRIPTS -->
+{% endblock %}

@@ -5,6 +5,7 @@ from wagtail.wagtailimages.blocks import ImageChooserBlock
 
 IMAGE_STYLE_CHOICES = [
     ('max-width:225px;max-height:145px', 'Small'),
+    ('max-width:225px;max-height:145px;padding-top:20px', 'Small Pushed Down 20px'),
     ('max_width:250px;max-height:250px', 'Medium'),
     ('max_width:250px;max-height:250px;padding-top:20px', 'Medium Pushed Down 20px'),
     ('height:auto', 'Shrink to Fit'),

@@ -1,0 +1,119 @@
+<style>
+
+    .tabs-state {
+        display: none;
+    }
+
+    .horizontal-tabs {
+        margin-top: 40px;
+        overflow:hidden;
+        margin-bottom: 30px;
+    }
+
+    .horizontal-tabs > label {
+        float:left;
+        display: block;
+        padding: 8px 20px;
+        border-radius: 5px 5px 0px 0px;
+        border: 1px solid rgba(0,0,0,0);
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+    }
+
+
+    {% for tab in value.tab_list %}
+        {% if forloop.last %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .horizontal-tabs #s{{ forloop.counter }}-tab-label {
+        {% else %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .horizontal-tabs #s{{ forloop.counter }}-tab-label, 
+        {% endif %}
+    {% endfor %}
+        border: 1px solid rgba(0,0,0,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0);
+    }
+
+
+    .vertical-tabs {
+        margin: 0;
+        overflow:hidden;
+        float:left;
+        padding: 0;
+        background: #f4f4f4;
+        color: #7C858E;
+    }
+
+    .vertical-tabs > label {
+        display: block;
+        padding: 12px 10px 11px 8px;
+        border: 1px solid rgba(0,0,0,0);
+        border-left: 1px solid #0da3e2;
+        margin: 0;
+        width: 100%;
+    }
+
+    {% for tab in value.tab_list %}
+        {% if forloop.last %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label:after {
+        {% else %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label:after, 
+        {% endif %}
+    {% endfor %}
+        content: '';
+        display: inline-block;
+        border-bottom: 6px solid transparent;
+        border-top: 6px solid transparent;
+        border-left: 6px solid #0da3e2;
+        position: absolute;
+        top: 16px;
+        right: -5px;
+    }
+
+    .vertical-tabs > label:hover {
+         background-color: #0da3e2;
+         color: #ffffff;
+    }
+
+    {% for tab in value.tab_list %}
+        {% if forloop.last %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label {
+        {% else %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .vertical-tabs #s{{ forloop.counter }}-tab-label, 
+        {% endif %}
+    {% endfor %}
+         background-color: #0da3e2;
+         color: #ffffff;
+    }
+
+    .panels {
+        margin-bottom: 20px;
+    }
+
+    .panels .tab-panel {
+        display: none;
+        border-top: none;
+    }
+
+    {% for tab in value.tab_list %}
+        {% if forloop.last %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .panels #s{{ forloop.counter }}-tab-panel {
+        {% else %}
+            #s{{ forloop.counter }}-tab-state:checked ~ .panels #s{{ forloop.counter }}-tab-panel, 
+        {% endif %}
+    {% endfor %}
+        display: block;
+    }
+
+</style>
+<div>
+    {% for tab in value.tab_list %}
+        <input id='s{{ forloop.counter }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='s{{ forloop.counter }}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
+    {% endfor %}
+    
+    <div class='{{ value.tabs_style }}-tabs{% if value.tabs_style == "vertical" %} col-sm-2{% endif %}'>{% for tab in value.tab_list %}
+        <label id='s{{ forloop.counter }}-tab-label' for='s{{ forloop.counter }}-tab-state' class='tab'>{{ tab.name }}</label>
+    {% endfor %}</div>
+    
+    <div class='panels{% if value.tabs_style == 'vertical' %} col-sm-10{% endif %}'>{% for tab in value.tab_list %}
+        <div class='tab-panel' id='s{{ forloop.counter }}-tab-panel'>{{ tab.content }}</div>
+    {% endfor %}</div>
+    
+</div>

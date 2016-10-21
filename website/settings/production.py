@@ -29,14 +29,14 @@ SECRET_KEY = os.environ['SECRET_KEY']
 #ALLOWED_HOSTS = ['cosio.herokuapp.com']
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-WAGTAILSEARCH_BACKENDS = {
-    'default': {
-        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch.ElasticSearch',
-        'URLS': ['http://localhost:9200'],
-        'INDEX': 'wagtail',
-        'TIMEOUT': 5,
-    }
-}
+#WAGTAILSEARCH_BACKENDS = {
+#    'default': {
+#        'BACKEND': 'wagtail.wagtailsearch.backends.elasticsearch.ElasticSearch',
+#        'URLS': ['http://localhost:9200'],
+#        'INDEX': 'wagtail',
+#        'TIMEOUT': 5,
+#    }
+#}
 
 
 # Static files (CSS, JavaScript, Images)
