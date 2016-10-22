@@ -144,7 +144,7 @@ class RowBlock(blocks.ListBlock):
         children = format_html_join(
             '\n', '{0}',
             [
-                (self.child_block.render(child_value, context=context),)
+                (self.child_block._render_with_context(child_value, context=context),)
                 for child_value in value
             ]
         )
