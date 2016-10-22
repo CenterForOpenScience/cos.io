@@ -14,13 +14,13 @@ from django.shortcuts import redirect
 from django.db import transaction
 from wagtail.wagtailcore.models import Site
 from django.core.cache import cache
-import logging
 
 
 # Database Fields
 from django.conf import settings
 from django.db.models import CASCADE
 from django.db.models import CharField
+from django.db.models import BooleanField
 from django.db.models import OneToOneField
 from django.db.models import ForeignKey
 from django.db.models import SET_NULL
@@ -58,6 +58,7 @@ from common.blocks.clearfix import ClearfixBlock
 from common.blocks.tabs import TabsBlock
 from common.blocks.codes import CodeBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
+from common.blocks.journal import JournalsTabBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -80,7 +81,6 @@ from taggit.managers import TaggableManager
 from wagtail.contrib.settings.models import BaseSetting, register_setting
 
 from website.settings.base import DEFAULT_FOOTER_ID
-logger = logging.getLogger('wagtail.core')
 DEFAULT_FOOTER_ID = 1
 
 
@@ -90,7 +90,8 @@ from wagtail.wagtailredirects.models import Redirect
 from modelcluster.fields import ParentalKey
 from django.db.models import CASCADE
 
-
+import logging
+logger = logging.getLogger('django')
 
 class VersionedRedirect(Redirect):
     versioned_redirect_page = ParentalKey(
@@ -320,6 +321,7 @@ class CustomPage(Page, index.Indexed):
         ('clear_fixblock', ClearfixBlock()),
         ('code_block', CodeBlock()),
         ('calender_blog', GoogleCalendarBlock()),
+        ('journal_block', JournalsTabBlock()),
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
@@ -342,6 +344,7 @@ class CustomPage(Page, index.Indexed):
         return render(request, self.template, {
             'page': self,
             'people': Person.objects.all(),
+            'journals': Journal.objects.all(),
             'jobs': Job.objects.all(),
         })
 
@@ -518,3 +521,41 @@ class NewsArticle(Page, index.Indexed):
             'page':self,
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
+
+
+class Journal(ClusterableModel, index.Indexed):
+
+    title = CharField(max_length=255)
+
+    have_adopted = BooleanField(blank=True, help_text="whether it has adopted registered reports")
+    have_issues = BooleanField(blank=True, help_text='whether it has special issues')
+    have_features = BooleanField(blank=True, help_text='whether it has features')
+
+    publisher = CharField(max_length=255, blank=True)
+    society = CharField(max_length=255, blank=True)
+    area = CharField(max_length=255, blank=True)
+    note = RichTextField(blank=True)
+
+    search_fields = [
+        index.SearchField('title', partial_match=True),
+    ]
+
+    panels = [
+        FieldPanel('title'),
+        MultiFieldPanel([
+            FieldPanel('have_adopted'),
+            FieldPanel('have_issues'),
+            FieldPanel('have_features')
+        ], heading='Tab Information'),
+        FieldPanel('publisher'),
+        FieldPanel('society'),
+        FieldPanel('area'),
+        FieldPanel('note')
+    ]
+
+    class Meta:
+        ordering = ['title']
+
+
+    def __str__(self):
+        return '{self.title}'.format(self=self)

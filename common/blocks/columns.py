@@ -13,6 +13,7 @@ from django.template.loader import render_to_string
 from django.core.exceptions import NON_FIELD_ERRORS
 from django.contrib.staticfiles.templatetags.staticfiles import static
 from django.utils.html import format_html, format_html_join
+from django.utils.safestring import mark_safe
 
 from wagtail.wagtailcore.blocks.utils import js_dict
 from wagtail.wagtailcore import blocks
@@ -26,7 +27,12 @@ from common.blocks.twitter import TwitterBlock
 from common.blocks.images import ImageBlock
 from common.blocks.centered_text import CenteredTextBlock
 from common.blocks.images import COSPhotoStreamBlock
+from common.blocks.journal import JournalsTabBlock
+from common.blocks.jobs import JobsWholeBlock
+from common.blocks.people import PeopleBlock
 
+import logging
+logger = logging.getLogger('django')
 
 class GenericContentStreamBlock(blocks.StreamBlock):
 
@@ -58,13 +64,17 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
-            ('table_block', TableBlock())
+            ('table_block', TableBlock()),
+            ('journal_tab_block', JournalsTabBlock()),
+            ('job_whole_block', JobsWholeBlock()),
+            ('people_block', PeopleBlock()),
         ]
 
         if local_blocks:
             default_blocks = default_blocks + local_blocks
 
         super(GenericContentStreamBlock, self).__init__(local_blocks=default_blocks, **kwargs)
+
 
     def render_form(self, value, prefix='', errors=None):
         error_dict = {}
@@ -134,12 +144,13 @@ class RowBlock(blocks.ListBlock):
         children = format_html_join(
             '\n', '{0}',
             [
-                (self.child_block._render_with_context(child_value, context=context),)
+                (self.child_block.render(child_value, context=context),)
                 for child_value in value
             ]
         )
-        return format_html("<div class='row margin-bottom-30'>{0}</div>", children) 
-    
+
+        return format_html("<div class='row margin-bottom-30'>{0}</div>", children)
+
     def render_form(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:
