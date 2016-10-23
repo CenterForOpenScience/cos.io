@@ -12,8 +12,6 @@ from wagtail.wagtailcore import blocks
 from common.blocks.jobs import JobsWholeBlock
 
 class ClearfixBlock(StructBlock):
-    content = blocks.StreamBlock([
-            ('jobs', JobsWholeBlock(classname="job")),])
 
     class Meta:
         template = 'common/blocks/clearfix_block.html'

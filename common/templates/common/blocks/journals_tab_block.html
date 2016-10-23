@@ -1,6 +1,37 @@
-<ul>
-    {{ journals }}
-    {% for journal in journals %}
-    <li>{{ journal.title }}</li>
-    {% endfor %}
+{% load wagtailcore_tags %}
+<ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#rrjournals"><b>Journals that have adopted Registered Reports</b></a></li>
+      <li><a data-toggle="tab" href="#specialissues"><b>Special Issues</b></a></li>
+      <li><a data-toggle="tab" href="#some"><b>Some Features</b></a></li>
 </ul>
+
+<div class="tab-content">
+<div id="rrjournals" class="tab-pane fade active in">
+        <table data-toggle="table" data-url="/static/rrjournals.json">
+            <thead>
+                <th class="col-md-7" style="" data-field="Journal">
+                    <div class="th-inner ">Journal</div>
+                </th>
+                <th class="col-md-5" style="" data-field="Notes">
+                    <div class="th-inner ">Notes</div>
+                </th>
+            </thead>
+            <tbody>
+            {% for journal in journals %}
+            <tr>
+                <td class="col-md-7" style="">
+                    <a href={{ journal.journal_url }} target="_blank">{{ journal.title }}</a>
+                </td>
+                <td class="col-md-5" style="">
+                    {{ journal.note|richtext }}
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div id="specialissues" class="tab-pane fade">
+    </div>
+    <div id="some" class="tab-pane fade">
+    </div>
+</div>

@@ -526,7 +526,7 @@ class NewsArticle(Page, index.Indexed):
 class Journal(ClusterableModel, index.Indexed):
 
     title = CharField(max_length=255)
-
+    journal_url = URLField(blank=True)
     have_adopted = BooleanField(blank=True, help_text="whether it has adopted registered reports")
     have_issues = BooleanField(blank=True, help_text='whether it has special issues')
     have_features = BooleanField(blank=True, help_text='whether it has features')
@@ -542,6 +542,7 @@ class Journal(ClusterableModel, index.Indexed):
 
     panels = [
         FieldPanel('title'),
+        FieldPanel('journal_url'),
         MultiFieldPanel([
             FieldPanel('have_adopted'),
             FieldPanel('have_issues'),
