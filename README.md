@@ -4,7 +4,7 @@
 *For other operating systems, your mileage may vary*
 
 - Clone this repository.
-- Create a virual environment using python3.4.
+- Create a virtual environment using python3.4.
 - Add the line `export DJANGO_SETTINGS_MODULE=website.settings.dev` to the end of your new virtual environment's `bin/activate.sh` script.
 - `pip install -r requirements.txt`
 - install postgres, and set your local settings to connect to it
@@ -17,13 +17,13 @@
     - you should have all privileges granted
     - your database's password will be the same as your user account's
 - install elasticsearch and turn it on
-    - 'brew install elasticsearch'
-    - 'elasticsearch'
+    - `brew install elasticsearch`
+    - `elasticsearch`
 - `python manage.py makemigrations`
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 - `python ensure_footer.py`
-- 'python manage.py rebuild_index'
+- `python manage.py rebuild_index`
 - `python manage.py runserver 127.0.0.1:4200`
 - The application should now be running at `http://localhost:4200/`
 
