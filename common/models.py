@@ -522,36 +522,38 @@ class NewsArticle(Page, index.Indexed):
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
 
-
 class Journal(ClusterableModel, index.Indexed):
 
     title = CharField(max_length=255)
-    journal_url = URLField(blank=True)
-    have_adopted = BooleanField(blank=True, help_text="whether it has adopted registered reports")
-    have_issues = BooleanField(blank=True, help_text='whether it has special issues')
-    have_features = BooleanField(blank=True, help_text='whether it has features')
 
-    publisher = CharField(max_length=255, blank=True)
-    society = CharField(max_length=255, blank=True)
-    area = CharField(max_length=255, blank=True)
-    note = RichTextField(blank=True)
+    JOURNAL_CLASS_CHOICES = [
+        ('rrjournals', 'rrjournals'),
+        ('rrjournalssome', 'rrjournalssome'),
+        ('rrjournalsspecial', 'rrjournalsspecial'),
+        ('topjournals', 'topjournals'),
+        ('preregjournals', 'preregjournals'),
+    ]
+
+    class_choice = CharField(max_length=20, choices=JOURNAL_CLASS_CHOICES)
 
     search_fields = [
         index.SearchField('title', partial_match=True),
     ]
 
+    additional = StreamField([
+
+        ('publisher', CharBlock()),
+        ('association', CharBlock()),
+        ('area', CharBlock()),
+        ('field5', CharBlock()),
+        ('journal', RawHTMLBlock()),
+        ('note', RawHTMLBlock()),
+    ], null=True, blank=True)
+
     panels = [
         FieldPanel('title'),
-        FieldPanel('journal_url'),
-        MultiFieldPanel([
-            FieldPanel('have_adopted'),
-            FieldPanel('have_issues'),
-            FieldPanel('have_features')
-        ], heading='Tab Information'),
-        FieldPanel('publisher'),
-        FieldPanel('society'),
-        FieldPanel('area'),
-        FieldPanel('note')
+        FieldPanel('class_choice'),
+        StreamFieldPanel('additional'),
     ]
 
     class Meta:
@@ -560,3 +562,64 @@ class Journal(ClusterableModel, index.Indexed):
 
     def __str__(self):
         return '{self.title}'.format(self=self)
+
+
+# read .json file into the database
+import json
+
+if Journal.objects.count() < 8:
+    # first json file
+    with open('./cos/static/rrjournals.json') as data_file:
+        data = json.load(data_file)
+
+        for i in data:
+            x = Journal.objects.create()
+            x.class_choice = 'rrjournals'
+            x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
+            x.save()
+
+    # second json file
+    with open('./cos/static/rrjournalssome.json') as data_file:
+        data = json.load(data_file)
+
+        for i in data:
+            x = Journal.objects.create()
+            x.class_choice = 'rrjournalssome'
+            x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
+            x.save()
+
+    # third json file
+    with open('./cos/static/rrjournalsspecial.json') as data_file:
+        data = json.load(data_file)
+
+        for i in data:
+            x = Journal.objects.create()
+            x.class_choice = 'rrjournalsspecial'
+            x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
+            x.save()
+
+    # fourth json file
+    with open('./cos/static/preregjournals.json') as data_file:
+        data = json.load(data_file)
+
+        for i in data:
+            x = Journal.objects.create()
+            x.class_choice = 'preregjournals'
+            x.title = i["Journal Title"]
+            x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
+                            ('area', i['Subject Area']), ('field5', i['FIELD5'])]
+            x.save()
+
+    # fifth json file
+    with open('./cos/static/topjournals.json') as data_file:
+        data = json.load(data_file)
+
+        for i in data:
+            x = Journal.objects.create()
+            x.class_choice = 'topjournals'
+            x.title = i["Journal Title"]
+            x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
+                            ('area', i['Subject Area']), ('field5', i['FIELD5'])]
+            x.save()
+
+print("Done loading json!")
