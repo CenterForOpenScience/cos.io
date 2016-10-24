@@ -90,6 +90,9 @@ from wagtail.wagtailredirects.models import Redirect
 from modelcluster.fields import ParentalKey
 from django.db.models import CASCADE
 
+# we need to read and write json
+import json
+
 import logging
 logger = logging.getLogger('django')
 
@@ -563,9 +566,27 @@ class Journal(ClusterableModel, index.Indexed):
     def __str__(self):
         return '{self.title}'.format(self=self)
 
+    def save(self, *args, **kwargs):
+        super(Journal, self).save(*args, **kwargs)
 
-# read .json file into the database
-import json
+        if self.class_choice == 'rrjournals':
+            journal_text = ''
+            note_text = ''
+            for i in self.additional:
+                if i.block_type == 'journal':
+                    journal_text = str(i)
+                if i.block_type == 'note':
+                    note_text = str(i)
+
+            x = {'Journal': journal_text, 'Notes': note_text}
+
+            with open('./cos/static/rrjournals.json') as feedsjson:
+                feeds = json.load(feedsjson)
+
+            feeds.append(x)
+            with open('./cos/static/rrjournals.json', mode='w') as f:
+                f.write(json.dumps(feeds, indent=2))
+
 
 if Journal.objects.count() < 8:
     # first json file
