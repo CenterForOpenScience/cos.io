@@ -24,14 +24,10 @@
             </div>
             <tbody class='tbody-content' style="display:none">
             {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournals' %}
+                {% if journal.is_registered_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
+                            {{ journal.title }}
                         </td>
                         <td class="col-md-5" style="">
                             {% for x in journal.additional %}
@@ -61,16 +57,12 @@
 
                     <p>Loading</p>
             </div>
-            <tbody class='tbody-content' style="display:none">
+            <tbody class='tbody-content'>
             {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournalssome' %}
+                {% if journal.is_special_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
+                            {{ journal.title }}
                         </td>
                         <td class="col-md-5" style="">
                             {% for x in journal.additional %}
@@ -100,16 +92,12 @@
 
                     <p>Loading</p>
             </div>
-            <tbody class='tbody-content' style="display:none">
+            <tbody class='tbody-content'>
              {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournalsspecial' %}
+                {% if journal.is_featured_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
+                            {{ journal.title }}
                         </td>
                         <td class="col-md-5" style="">
                             {% for x in journal.additional %}
@@ -143,7 +131,7 @@
         </div>
         <tbody class='tbody-content' style="display:none">
         {% for journal in journals %}
-            {% if journal.class_choice == 'preregjournals' %}
+            {% if journal.is_preregistered_journal %}
                 <tr>
                     <td class="col-md-4" style="">
                         {{ journal.title }}
@@ -195,7 +183,7 @@
             </div>
             <tbody class='tbody-content' style="display:none">
                  {% for journal in journals %}
-                    {% if journal.class_choice == 'topjournals' %}
+                    {% if journal.is_top_journal %}
                         <tr>
                             <td class="col-md-4" style="">
                                 {{ journal.title }}
@@ -234,7 +222,7 @@
                     <th data-field="Organization" data-sortable="true">Organization</th>
                 </tr>
             </thead>
-            <div class="loading-msgss text-center">
+            <div class="loading-msgs text-center">
                     <div id="loader"></div>
 
                     <p>Loading</p>

@@ -27,9 +27,8 @@ class JournalModelAdmin(ModelAdmin):
     menu_icon = 'doc-full-inverse'
     menu_order = 400  # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_setting_menu = False
-    list_display = ('title','class_choice')
-    list_filter = ('class_choice',)
-    search_field = ('title','class_choice')
+    list_display = ('title',)
+    search_field = ('title',)
 
 class NewsModelAdmin(ModelAdmin):
     model = NewsArticle

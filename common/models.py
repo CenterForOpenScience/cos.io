@@ -28,7 +28,7 @@ from django.db.models import PROTECT
 from django.db.models import URLField
 from django.db.models import DateField
 from django.db.models import EmailField
-from django.db.models import BooleanField
+from django.db.models import NullBooleanField
 from django.db.models import Model
 from wagtail.wagtailcore.fields import StreamField
 from wagtail.wagtailcore.fields import RichTextField
@@ -549,15 +549,12 @@ class Journal(ClusterableModel, index.Indexed):
 
     title = CharField(max_length=255)
 
-    JOURNAL_CLASS_CHOICES = [
-        ('rrjournals', 'rrjournals'),
-        ('rrjournalssome', 'rrjournalssome'),
-        ('rrjournalsspecial', 'rrjournalsspecial'),
-        ('topjournals', 'topjournals'),
-        ('preregjournals', 'preregjournals'),
-    ]
+    is_registered_journal = BooleanField(blank=True, default=False)
+    is_special_journal = BooleanField(blank=True, default=False)
+    is_featured_journal = BooleanField(blank=True, default=False)
+    is_preregistered_journal = BooleanField(blank=True, default=False)
+    is_top_journal = BooleanField(blank=True, default=False)
 
-    class_choice = CharField(max_length=20, choices=JOURNAL_CLASS_CHOICES)
 
     search_fields = [
         index.SearchField('title', partial_match=True),
@@ -568,14 +565,19 @@ class Journal(ClusterableModel, index.Indexed):
         ('publisher', CharBlock()),
         ('association', CharBlock()),
         ('area', CharBlock()),
-        ('field5', CharBlock()),
         ('journal', RawHTMLBlock()),
         ('note', RawHTMLBlock()),
     ], null=True, blank=True)
 
     panels = [
         FieldPanel('title'),
-        FieldPanel('class_choice'),
+        MultiFieldPanel([
+            FieldPanel('is_registered_journal'),
+            FieldPanel('is_special_journal'),
+            FieldPanel('is_featured_journal'),
+            FieldPanel('is_preregistered_journal'),
+            FieldPanel('is_eligible_journal'),
+        ], heading='Tab Information'),
         StreamFieldPanel('additional'),
     ]
 
