@@ -7,7 +7,7 @@
 </ul>
 <div class="tab-content">
     <div id="rrjournals" class="tab-pane fade active in">
-        <table data-toggle="table">
+        <table data-toggle="table" data-url="/static/rrjournals.json" >
             <thead>
                 <th class="col-md-7" style="" data-field="Journal">
                     <div class="th-inner ">Journal</div>
@@ -16,32 +16,10 @@
                     <div class="th-inner ">Notes</div>
                 </th>
             </thead>
-            <tbody>
-            {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournals' %}
-                    <tr>
-                        <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
-                        </td>
-                        <td class="col-md-5" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'note' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
-                        </td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-            </tbody>
         </table>
     </div>
     <div id="specialissues" class="tab-pane fade">
-        <table data-toggle="table">
+        <table data-toggle="table" data-url="/static/rrjournalsspecial.json">
             <thead>
                 <th class="col-md-7" style="" data-field="Journal">
                     <div class="th-inner ">Journal</div>
@@ -50,32 +28,10 @@
                     <div class="th-inner ">Notes</div>
                 </th>
             </thead>
-            <tbody>
-            {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournalssome' %}
-                    <tr>
-                        <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
-                        </td>
-                        <td class="col-md-5" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'note' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
-                        </td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-            </tbody>
         </table>
     </div>
     <div id="some" class="tab-pane fade">
-        <table data-toggle="table">
+        <table data-toggle="table" data-url="/static/rrjournalssome.json">
             <thead>
                 <th class="col-md-7" style="" data-field="Journal">
                     <div class="th-inner ">Journal</div>
@@ -84,28 +40,6 @@
                     <div class="th-inner ">Notes</div>
                 </th>
             </thead>
-            <tbody>
-             {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournalsspecial' %}
-                    <tr>
-                        <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
-                        </td>
-                        <td class="col-md-5" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'note' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
-                        </td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-            </tbody>
         </table>
     </div>
 </div>
@@ -117,63 +51,28 @@
 </ul>
 <div class="tab-content">
     <div id="journals" class="tab-pane fade in active">
-        <table data-toggle="table" data-height="799" data-search="true">
+        <table data-toggle="table" data-url="/static/topjournals.json" data-height="799" data-search="true">
             <thead>
                 <th data-field="Journal Title" data-sortable="true" class="col-md-4">Journal Title</th>
                 <th data-field="Publisher" data-sortable="true" class="col-md-2">Publisher</th>
                 <th data-field="Association" data-sortable="true" class="col-md-2">Society/Association Affiliation</th>
                 <th data-field="Subject Area" data-sortable="true" class="col-md-2">Subject Area</th>
             </thead>
-            <tbody>
-                 {% for journal in journals %}
-                    {% if journal.class_choice == 'topjournals' %}
-                        <tr>
-                            <td class="col-md-4" style="">
-                                {{ journal.title }}
-                            </td>
-                            <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'publisher' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
-                            </td>
-                            <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'association' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
-                            </td>
-                            <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'area' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
-                            </td>
-                        </tr>
-                    {% endif %}
-                {% endfor %}
-            </tbody>
         </table>
     </div>
     <div id="organizations" class="tab-pane fade">
-        <table data-toggle="table" data-height="799" data-sort-name="Organization" data-sort-order="asc" data-search="true">
+        <table data-toggle="table" data-url="/static/togorgs.json" data-height="799" data-sort-order="asc" data-search="true">
             <thead>
                 <tr>
                     <th data-field="Organization" data-sortable="true">Organization</th>
                 </tr>
             </thead>
-            <tbody>
-
-            </tbody>
         </table>
     </div>
 </div>
 
 {% else %}
-    <table data-toggle="table" data-search="true" class="table table-hover" style="margin-top: -40px;">
+    <table data-toggle="table" data-url="/static/preregjournals.json" data-height="799" data-search="true" class="table table-hover" style="margin-top: -40px;">
         <thead>
             <tr>
                 <th class="col-md-4" style="" data-field="Journal Title" data-sortable="true">Journal Title</th>
@@ -183,36 +82,6 @@
             </tr>
         </thead>
         <tbody>
-        {% for journal in journals %}
-            {% if journal.class_choice == 'preregjournals' %}
-                <tr>
-                    <td class="col-md-4" style="">
-                        {{ journal.title }}
-                    </td>
-                    <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'publisher' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                    <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'association' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                    <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'area' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                </tr>
-            {% endif %}
-        {% endfor %}
         </tbody>
     </table>
 

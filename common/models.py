@@ -347,7 +347,6 @@ class CustomPage(Page, index.Indexed):
         return render(request, self.template, {
             'page': self,
             'people': Person.objects.all(),
-            'journals': Journal.objects.all(),
             'jobs': Job.objects.all(),
         })
 
@@ -525,6 +524,45 @@ class NewsArticle(Page, index.Indexed):
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
 
+class Organization(ClusterableModel, index.Indexed):
+    name = CharField(max_length=255)
+
+    search_fields = [
+        index.SearchField('name', partial_match=True),
+    ]
+
+    panels = [
+        FieldPanel('name'),
+    ]
+
+    class Meta:
+        ordering = ['name']
+
+    def __str__(self):
+        return '{self.name}'.format(self=self)
+
+    def save_monkey(self, *args, **kwargs):
+        super(Organization, self).save(*args, **kwargs)
+
+    def save_to_json(self):
+        bulk = []
+        entries = Organization.objects.all()
+        for e in entries:
+            x = {'Organization': e.name}
+            bulk.append(x)
+        jsonPath = './cos/static/toporgs.json'
+        with open(jsonPath, 'w') as f:
+            json.dump(bulk, f, indent=1)
+
+    def save(self, *args, **kwargs):
+        super(Organization, self).save(*args, **kwargs)
+        self.save_to_json()
+
+    def delete(self, *args, **kwargs):
+        super(Organization, self).delete(*args, **kwargs)
+        self.save_to_json()
+
+
 class Journal(ClusterableModel, index.Indexed):
 
     title = CharField(max_length=255)
@@ -566,81 +604,31 @@ class Journal(ClusterableModel, index.Indexed):
     def __str__(self):
         return '{self.title}'.format(self=self)
 
-    def save(self, *args, **kwargs):
+    def save_monkey(self, *args, **kwargs):
         super(Journal, self).save(*args, **kwargs)
 
-        if self.class_choice == 'rrjournals':
+    def save_to_json(self):
+        bulk = []
+        entries = Journal.objects.filter(class_choice=self.class_choice)
+        for e in entries:
             journal_text = ''
             note_text = ''
-            for i in self.additional:
+            for i in e.additional:
                 if i.block_type == 'journal':
                     journal_text = str(i)
                 if i.block_type == 'note':
                     note_text = str(i)
-
             x = {'Journal': journal_text, 'Notes': note_text}
+            bulk.append(x)
 
-            with open('./cos/static/rrjournals.json') as feedsjson:
-                feeds = json.load(feedsjson)
+        jsonPath = './cos/static/' + self.class_choice + '.json'
+        with open(jsonPath, 'w') as f:
+            json.dump(bulk, f, indent=1)
 
-            feeds.append(x)
-            with open('./cos/static/rrjournals.json', mode='w') as f:
-                f.write(json.dumps(feeds, indent=2))
+    def save(self, *args, **kwargs):
+        super(Journal, self).save(*args, **kwargs)
+        self.save_to_json()
 
-
-if Journal.objects.count() < 8:
-    # first json file
-    with open('./cos/static/rrjournals.json') as data_file:
-        data = json.load(data_file)
-
-        for i in data:
-            x = Journal.objects.create()
-            x.class_choice = 'rrjournals'
-            x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
-            x.save()
-
-    # second json file
-    with open('./cos/static/rrjournalssome.json') as data_file:
-        data = json.load(data_file)
-
-        for i in data:
-            x = Journal.objects.create()
-            x.class_choice = 'rrjournalssome'
-            x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
-            x.save()
-
-    # third json file
-    with open('./cos/static/rrjournalsspecial.json') as data_file:
-        data = json.load(data_file)
-
-        for i in data:
-            x = Journal.objects.create()
-            x.class_choice = 'rrjournalsspecial'
-            x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
-            x.save()
-
-    # fourth json file
-    with open('./cos/static/preregjournals.json') as data_file:
-        data = json.load(data_file)
-
-        for i in data:
-            x = Journal.objects.create()
-            x.class_choice = 'preregjournals'
-            x.title = i["Journal Title"]
-            x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
-                            ('area', i['Subject Area']), ('field5', i['FIELD5'])]
-            x.save()
-
-    # fifth json file
-    with open('./cos/static/topjournals.json') as data_file:
-        data = json.load(data_file)
-
-        for i in data:
-            x = Journal.objects.create()
-            x.class_choice = 'topjournals'
-            x.title = i["Journal Title"]
-            x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
-                            ('area', i['Subject Area']), ('field5', i['FIELD5'])]
-            x.save()
-
-print("Done loading json!")
+    def delete(self, *args, **kwargs):
+        super(Journal, self).delete(*args, **kwargs)
+        self.save_to_json()

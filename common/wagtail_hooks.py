@@ -1,6 +1,6 @@
 from wagtail.contrib.modeladmin.options import (
     ModelAdmin, ModelAdminGroup, modeladmin_register)
-from .models import Person, Job, NewsArticle, Journal
+from .models import Person, Job, NewsArticle, Journal, Organization
 from blog.models import BlogPage
 
 class PersonModelAdmin(ModelAdmin):
@@ -27,9 +27,9 @@ class JournalModelAdmin(ModelAdmin):
     menu_icon = 'doc-full-inverse'
     menu_order = 400  # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_setting_menu = False
-    list_display = ('title',)
-    list_filter = ('title',)
-    search_field = ('title',)
+    list_display = ('title','class_choice')
+    list_filter = ('class_choice',)
+    search_field = ('title','class_choice')
 
 class NewsModelAdmin(ModelAdmin):
     model = NewsArticle
@@ -54,6 +54,8 @@ class ArticlesModelAdminGroup(ModelAdminGroup):
     menu_icon = 'folder-open-inverse'
     menu_order = 400
     items = (NewsModelAdmin, BlogModelAdmin)
+
+
 
 # Now you just need to register your customised ModelAdmin class with Wagtail
 modeladmin_register(PersonModelAdmin)
