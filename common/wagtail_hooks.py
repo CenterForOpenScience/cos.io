@@ -2,6 +2,7 @@ from wagtail.contrib.modeladmin.options import (
     ModelAdmin, ModelAdminGroup, modeladmin_register)
 from .models import Person, Job, NewsArticle, Journal, Organization
 from blog.models import BlogPage
+from django.utils.html import format_html
 from wagtail.wagtailcore import hooks
 
 @hooks.register('insert_global_admin_css')
