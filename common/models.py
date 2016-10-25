@@ -14,13 +14,13 @@ from django.shortcuts import redirect
 from django.db import transaction
 from wagtail.wagtailcore.models import Site
 from django.core.cache import cache
-import logging
 
 
 # Database Fields
 from django.conf import settings
 from django.db.models import CASCADE
 from django.db.models import CharField
+from django.db.models import BooleanField
 from django.db.models import OneToOneField
 from django.db.models import ForeignKey
 from django.db.models import SET_NULL
@@ -58,6 +58,7 @@ from common.blocks.clearfix import ClearfixBlock
 from common.blocks.tabs import TabsBlock
 from common.blocks.codes import CodeBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
+from common.blocks.journal import JournalsTabBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -80,7 +81,6 @@ from taggit.managers import TaggableManager
 from wagtail.contrib.settings.models import BaseSetting, register_setting
 
 from website.settings.base import DEFAULT_FOOTER_ID
-logger = logging.getLogger('wagtail.core')
 DEFAULT_FOOTER_ID = 1
 
 
@@ -90,7 +90,11 @@ from wagtail.wagtailredirects.models import Redirect
 from modelcluster.fields import ParentalKey
 from django.db.models import CASCADE
 
+# we need to read and write json
+import json
 
+import logging
+logger = logging.getLogger('django')
 
 class VersionedRedirect(Redirect):
     versioned_redirect_page = ParentalKey(
@@ -320,6 +324,7 @@ class CustomPage(Page, index.Indexed):
         ('clear_fixblock', ClearfixBlock()),
         ('code_block', CodeBlock()),
         ('calender_blog', GoogleCalendarBlock()),
+        ('journal_block', JournalsTabBlock()),
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
@@ -343,6 +348,7 @@ class CustomPage(Page, index.Indexed):
             'page': self,
             'people': Person.objects.all(),
             'jobs': Job.objects.all(),
+            'journals': Journal.objects.all(),
         })
 
     @transaction.atomic  # only commit when all descendants are properly updated
@@ -520,7 +526,6 @@ class NewsArticle(Page, index.Indexed):
         })
 
 
-
 class Donation(ClusterableModel, index.Indexed):
 
     organization = ParentalKey(
@@ -544,3 +549,61 @@ class Donation(ClusterableModel, index.Indexed):
     class Meta:
         ordering = ['date']
 
+class Organization(ClusterableModel, index.Indexed):
+    name = CharField(max_length=255)
+
+    search_fields = [
+        index.SearchField('name', partial_match=True),
+    ]
+
+    panels = [
+        FieldPanel('name'),
+    ]
+
+    class Meta:
+        ordering = ['name']
+
+    def __str__(self):
+        return '{self.name}'.format(self=self)
+
+
+class Journal(ClusterableModel, index.Indexed):
+
+    title = CharField(max_length=255)
+
+    JOURNAL_CLASS_CHOICES = [
+        ('rrjournals', 'rrjournals'),
+        ('rrjournalssome', 'rrjournalssome'),
+        ('rrjournalsspecial', 'rrjournalsspecial'),
+        ('topjournals', 'topjournals'),
+        ('preregjournals', 'preregjournals'),
+    ]
+
+    class_choice = CharField(max_length=20, choices=JOURNAL_CLASS_CHOICES)
+
+    search_fields = [
+        index.SearchField('title', partial_match=True),
+    ]
+
+    additional = StreamField([
+
+        ('publisher', CharBlock()),
+        ('association', CharBlock()),
+        ('area', CharBlock()),
+        ('field5', CharBlock()),
+        ('journal', RawHTMLBlock()),
+        ('note', RawHTMLBlock()),
+    ], null=True, blank=True)
+
+    panels = [
+        FieldPanel('title'),
+        FieldPanel('class_choice'),
+        StreamFieldPanel('additional'),
+    ]
+
+    class Meta:
+        ordering = ['title']
+
+
+    def __str__(self):
+        return '{self.title}'.format(self=self)

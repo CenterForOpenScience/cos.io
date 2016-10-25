@@ -8,9 +8,11 @@ A block to provide a clearfix element for Wagtail's StreamField.
 from wagtail.wagtailcore.blocks import IntegerBlock
 from wagtail.wagtailcore.blocks import StructBlock
 from django.db.models import IntegerField
-
+from wagtail.wagtailcore import blocks
+from common.blocks.jobs import JobsWholeBlock
 
 class ClearfixBlock(StructBlock):
+
     class Meta:
         template = 'common/blocks/clearfix_block.html'
         icon = 'placeholder'
