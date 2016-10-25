@@ -4,10 +4,7 @@ import os
 import sys
 
 import django
-<<<<<<< HEAD
 from website.settings.base import DEFAULT_FOOTER_ID
-=======
->>>>>>> aad88a0da423b62dad0f8e42306058603b73302e
 
 # must come before we import common.models
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
@@ -40,11 +37,7 @@ def migrate(dry=True):
     raw_json = json.dumps([{'type': 'raw_html', 'value': html}])
 
     try:
-<<<<<<< HEAD
         footer = common.models.Footer.objects.get(id=DEFAULT_FOOTER_ID)
-=======
-        footer = common.models.Footer.objects.get(id=1)
->>>>>>> aad88a0da423b62dad0f8e42306058603b73302e
     except:
         footer = common.models.Footer(title='Main')
 

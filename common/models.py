@@ -59,6 +59,7 @@ from common.blocks.tabs import TabsBlock
 from common.blocks.codes import CodeBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
 from common.blocks.journal import JournalsTabBlock
+from common.blocks.mfr import MfrBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -82,7 +83,7 @@ from wagtail.contrib.settings.models import BaseSetting, register_setting
 
 from website.settings.base import DEFAULT_FOOTER_ID
 DEFAULT_FOOTER_ID = 1
-
+logger = logging.getLogger('wagtail.core')
 
 from wagtail.wagtailredirects.models import Redirect
 from django.utils.translation import ugettext_lazy as _
@@ -325,6 +326,7 @@ class CustomPage(Page, index.Indexed):
         ('code_block', CodeBlock()),
         ('calender_blog', GoogleCalendarBlock()),
         ('journal_block', JournalsTabBlock()),
+        ('render_file', MfrBlock()),
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
