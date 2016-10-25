@@ -70,7 +70,7 @@ class OrganizationAdmin(ModelAdmin):
     menu_order = 400
     add_to_setting_menu = False
     list_display = ('name',)
-    search_field('name',)
+    search_field = ('name',)
 
 
 # Now you just need to register your customised ModelAdmin class with Wagtail
