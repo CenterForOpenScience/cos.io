@@ -542,7 +542,7 @@ class Donation(ClusterableModel, index.Indexed):
     thank_you_message = TextField()
 
     panels = [
-        FieldPanel('organization')
+        FieldPanel('organization'),
         FieldPanel('date'),
         FieldPanel('amount'),
         FieldPanel('thank_you_message')
