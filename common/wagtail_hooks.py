@@ -80,4 +80,5 @@ modeladmin_register(PersonModelAdmin)
 modeladmin_register(JobModelAdmin)
 modeladmin_register(JournalModelAdmin)
 modeladmin_register(ArticlesModelAdminGroup)
+modeladmin_register(OrganizationAdmin)
 
