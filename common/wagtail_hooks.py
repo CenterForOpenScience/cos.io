@@ -3,6 +3,14 @@ from wagtail.contrib.modeladmin.options import (
 from .models import Person, Job, NewsArticle, Journal, Organization
 from blog.models import BlogPage
 
+
+@hooks.register('insert_global_admin_css')
+def global_admin_css():
+    return format_html(
+        '<link rel="stylesheet" href="{}">',
+        static('plugins/font-awesome/css/font-awesome.min.css')
+    )
+
 class PersonModelAdmin(ModelAdmin):
     model = Person
     menu_label = 'People' # ditch this to use verbose_name_plural from model
@@ -55,6 +63,14 @@ class ArticlesModelAdminGroup(ModelAdminGroup):
     menu_order = 400
     items = (NewsModelAdmin, BlogModelAdmin)
 
+class OrganizationAdmin(ModelAdmin):
+    model = Organization
+    menu_label = 'Organizations'
+    menu_icon = 'fa-building'
+    menu_order = 400
+    add_to_setting_menu = False
+    list_display = ('name',)
+    search_field('name',)
 
 
 # Now you just need to register your customised ModelAdmin class with Wagtail
