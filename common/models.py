@@ -83,7 +83,6 @@ from wagtail.contrib.settings.models import BaseSetting, register_setting
 
 from website.settings.base import DEFAULT_FOOTER_ID
 DEFAULT_FOOTER_ID = 1
-logger = logging.getLogger('wagtail.core')
 
 from wagtail.wagtailredirects.models import Redirect
 from django.utils.translation import ugettext_lazy as _
@@ -95,6 +94,7 @@ from django.db.models import CASCADE
 import json
 
 import logging
+logger = logging.getLogger('wagtail.core')
 logger = logging.getLogger('django')
 
 class VersionedRedirect(Redirect):
