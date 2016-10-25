@@ -23,6 +23,7 @@
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 - `python ensure_footer.py`
+- `python import_json.py`
 - `python manage.py rebuild_index`
 - `python manage.py runserver 127.0.0.1:4200`
 - The application should now be running at `http://localhost:4200/`
