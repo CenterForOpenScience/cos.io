@@ -28,6 +28,7 @@ from django.db.models import PROTECT
 from django.db.models import URLField
 from django.db.models import DateField
 from django.db.models import EmailField
+from django.db.models import TextField
 from django.db.models import IntegerField
 from django.db.models import BooleanField
 from django.db.models import Model
