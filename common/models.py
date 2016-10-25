@@ -349,6 +349,7 @@ class CustomPage(Page, index.Indexed):
             'people': Person.objects.all(),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
+            'organizations': Organization.objects.all(),
         })
 
     @transaction.atomic  # only commit when all descendants are properly updated
