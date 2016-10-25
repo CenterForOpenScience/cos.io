@@ -1,185 +1,191 @@
 [
- {
-  "Organization": "AAAS"
- },
- {
-  "Organization": "Alfred P. Sloan Foundation"
- },
- {
-  "Organization": "American Geophysical Union"
- },
- {
-  "Organization": "American Meteorological Society"
- },
- {
-  "Organization": "American Society for Cell Biology"
- },
- {
-  "Organization": "Association for Psychological Science"
- },
- {
-  "Organization": "Association for Research in Personality"
- },
- {
-  "Organization": "Association of Research Libraries"
- },
- {
-  "Organization": "Astrophysics Source Code Library"
- },
- {
-  "Organization": "Authorea"
- },
- {
-  "Organization": "Behavioral Science & Policy Association"
- },
- {
-  "Organization": "Berkeley Initiative for Transparency in the Social Sciences"
- },
- {
-  "Organization": "Bio, Tech and Beyond"
- },
- {
-  "Organization": "Busara Center for Economics"
- },
- {
-  "Organization": "Carnegie Mellon University"
- },
- {
-  "Organization": "Center for Open Science"
- },
- {
-  "Organization": "Committee on Publication Ethics (COPE)"
- },
- {
-  "Organization": "DataONE"
- },
- {
-  "Organization": "Databrary"
- },
- {
-  "Organization": "Dataverse"
- },
- {
-  "Organization": "Dryad"
- },
- {
-  "Organization": "EGAP"
- },
- {
-  "Organization": "F1000"
- },
- {
-  "Organization": "Figshare"
- },
- {
-  "Organization": "Foundation for Earth Science"
- },
- {
-  "Organization": "Frontiers"
- },
- {
-  "Organization": "Global Biological Standards Institute"
- },
- {
-  "Organization": "ICPSR"
- },
- {
-  "Organization": "Innovations for Poverty Action"
- },
- {
-  "Organization": "International Association for Relationship Research"
- },
- {
-  "Organization": "Laura and John Arnold Foundation"
- },
- {
-  "Organization": "MDPI (Multidisciplinary Digital Publishing Institute)"
- },
- {
-  "Organization": "Milestones Research, LLC"
- },
- {
-  "Organization": "Mozilla Science Lab"
- },
- {
-  "Organization": "NeCTAR (National eResearch Collaboration Tools and Resources)"
- },
- {
-  "Organization": "Open Atmospheric Society"
- },
- {
-  "Organization": "Open Context"
- },
- {
-  "Organization": "Open Therapuetics"
- },
- {
-  "Organization": "OpenfMRI"
- },
- {
-  "Organization": "Overleaf"
- },
- {
-  "Organization": "Paperity"
- },
- {
-  "Organization": "PeerJ"
- },
- {
-  "Organization": "Pensoft Publishers"
- },
- {
-  "Organization": "Prometheus Research"
- },
- {
-  "Organization": "Public Library of Science"
- },
- {
-  "Organization": "Research Data Alliance"
- },
- {
-  "Organization": "Riffyn"
- },
- {
-  "Organization": "SPARC"
- },
- {
-  "Organization": "SciCrunch"
- },
- {
-  "Organization": "Sense About Science USA"
- },
- {
-  "Organization": "Society for Personality and Social Psychology"
- },
- {
-  "Organization": "Society for a Science of Clinical Psychology"
- },
- {
-  "Organization": "Society of Australasian Social Psychologists"
- },
- {
-  "Organization": "Software Sustainability Institute"
- },
- {
-  "Organization": "Sunlight Foundation"
- },
- {
-  "Organization": "The Odum Institute for Research in the Social Sciences"
- },
- {
-  "Organization": "Time-series Experiments in Social Sciences"
- },
- {
-  "Organization": "Ubiquity Press"
- },
- {
-  "Organization": "Wiley"
- },
- {
-  "Organization": "Zenodo"
- },
- {
-  "Organization": "rOpenSci"
- }
+  {
+    "Organization":"AAAS"
+  },
+  {
+    "Organization":"Alfred P. Sloan Foundation"
+  },
+  {
+    "Organization":"American Geophysical Union"
+  },
+  {
+    "Organization":"American Meteorological Society"
+  },
+  {
+    "Organization":"American Society for Cell Biology"
+  },
+  {
+    "Organization":"Association for Psychological Science"
+  },
+  {
+    "Organization":"Association for Research in Personality"
+  },
+  {
+    "Organization":"Association of Research Libraries"
+  },
+  {
+    "Organization":"Astrophysics Source Code Library"
+  },
+  {
+    "Organization":"Authorea"
+  },
+  {
+    "Organization":"Behavioral Science & Policy Association"
+  },
+  {
+    "Organization":"Berkeley Initiative for Transparency in the Social Sciences"
+  },
+  {
+    "Organization":"Bio, Tech and Beyond"
+  },
+  {
+    "Organization":"Busara Center for Economics"
+  },
+  {
+    "Organization":"Carnegie Mellon University"
+  },
+  {
+    "Organization":"Center for Open Science"
+  },
+  {
+    "Organization":"Databrary"
+  },
+  {
+    "Organization":"DataONE"
+  },
+  {
+    "Organization":"Dataverse"
+  },
+  {
+    "Organization":"Dryad"
+  },
+  {
+    "Organization":"EGAP"
+  },
+  {
+    "Organization":"F1000"
+  },
+  {
+    "Organization":"Figshare"
+  },
+  {
+    "Organization":"Frontiers"
+  },
+  {
+    "Organization":"Global Biological Standards Institute"
+  },
+  {
+    "Organization":"ICPSR"
+  },
+  {
+    "Organization":"Innovations for Poverty Action"
+  },
+  {
+    "Organization":"International Association for Relationship Research"
+  },
+  {
+    "Organization":"Laura and John Arnold Foundation"
+  },
+  {
+    "Organization":"Mozilla Science Lab"
+  },
+  {
+    "Organization":"Open Atmospheric Society"
+  },
+  {
+    "Organization":"Open Context"
+  },
+  {
+    "Organization":"Open Therapuetics"
+  },
+  {
+    "Organization":"OpenfMRI"
+  },
+  {
+    "Organization":"Paperity"
+  },
+  {
+    "Organization":"Prometheus Research"
+  },
+  {
+    "Organization":"Public Library of Science"
+  },
+  {
+    "Organization":"Riffyn"
+  },
+  {
+    "Organization":"rOpenSci"
+  },
+  {
+    "Organization":"Society for a Science of Clinical Psychology"
+  },
+  {
+    "Organization":"Society of Australasian Social Psychologists"
+  },
+  {
+    "Organization":"SPARC"
+  },
+  {
+    "Organization":"Sunlight Foundation"
+  },
+  {
+    "Organization":"Time-series Experiments in Social Sciences"
+  },
+  {
+    "Organization":"Ubiquity Press"
+  },
+  {
+    "Organization":"Software Sustainability Institute"
+  },
+  {
+    "Organization":"Overleaf"
+  },
+  {
+    "Organization":"PeerJ"
+  },
+  {
+    "Organization":"Society for Personality and Social Psychology"
+  },
+  {
+    "Organization":"Foundation for Earth Science"
+  },
+    {
+    "Organization":"Wiley"
+  },
+    {
+    "Organization":"Pensoft Publishers"
+  },
+    {
+    "Organization":"Research Data Alliance"
+  },
+    {
+    "Organization":"Milestones Research, LLC"
+  },
+    {
+    "Organization":"The Odum Institute for Research in the Social Sciences"
+  },
+    {
+    "Organization":"Committee on Publication Ethics (COPE)"
+  },
+    {
+    "Organization":"Zenodo"
+  },
+      {
+    "Organization":"Sense About Science USA"
+  },
+  {
+  "Organization":"SciCrunch"
+  },
+  {
+  "Organization":"MDPI (Multidisciplinary Digital Publishing Institute)"
+  },
+    {
+    "Organization":"NeCTAR (National eResearch Collaboration Tools and Resources)"
+  },
+  {
+  "Organization":"Society for Personality Assessment (SPA)"
+  },
+  {
+  "Organization":"ECS 鈥� The Electrochemical Society"
+}
 ]

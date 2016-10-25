@@ -33,6 +33,7 @@
         <link href="{% static 'plugins/jflickrfeed/colorbox/colorbox.css' %}" rel="stylesheet" type="text/css" media="screen"/>
         {% block extra_css %}{# Override this in templates to add extra stylesheets #}{% endblock %}
         <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCvuAERNLWJBDDaUkuT9cZaTKLtyGXmIiI"></script>
+        <script src="{% static 'scripts/bootstrap-table.js' %}"></script>
 </head>
 
 
@@ -102,7 +103,6 @@
             //ContactUs.init();
         });
     </script>
-    <script src="{% static 'scripts/bootstrap-table.js' %}"></script>
             <script>
             // When the page loads, check the url and activate the tab that matches the url
             $(document).ready(function(){

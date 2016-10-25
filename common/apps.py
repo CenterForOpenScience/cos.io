@@ -17,7 +17,7 @@ class CommonConfig(AppConfig):
                 for i in data:
                     x = Organization.objects.create()
                     x.name = i['Organization']
-                    x.save_monkey()
+                    x.save()
 
         if Journal.objects.count() == 0:
             # first json file
@@ -29,7 +29,7 @@ class CommonConfig(AppConfig):
                     x.class_choice = 'rrjournals'
                     x.title = i['Journal'].split('>')[1]
                     x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
-                    x.save_monkey()
+                    x.save()
 
             # second json file
             with open('./cos/static/rrjournalssome.json') as data_file:
@@ -40,7 +40,7 @@ class CommonConfig(AppConfig):
                     x.class_choice = 'rrjournalssome'
                     x.title = i['Journal'].split('>')[1]
                     x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
-                    x.save_monkey()
+                    x.save()
 
             # third json file
             with open('./cos/static/rrjournalsspecial.json') as data_file:
@@ -51,7 +51,7 @@ class CommonConfig(AppConfig):
                     x.class_choice = 'rrjournalsspecial'
                     x.title = i['Journal'].split('>')[1]
                     x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
-                    x.save_monkey()
+                    x.save()
 
             # fourth json file
             with open('./cos/static/preregjournals.json') as data_file:
@@ -63,7 +63,7 @@ class CommonConfig(AppConfig):
                     x.title = i["Journal Title"]
                     x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
                                     ('area', i['Subject Area']), ('field5', i['FIELD5'])]
-                    x.save_monkey()
+                    x.save()
 
             # fifth json file
             with open('./cos/static/topjournals.json') as data_file:
@@ -75,6 +75,6 @@ class CommonConfig(AppConfig):
                     x.title = i["Journal Title"]
                     x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
                                     ('area', i['Subject Area']), ('field5', i['FIELD5'])]
-                    x.save_monkey()
+                    x.save()
 
         print("Completed loading json")
