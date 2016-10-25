@@ -1,2 +1,2 @@
 {% load wagtailcore_tags snippets %}
-<div class='col-md-{{ value.column_size }}' >{{ value.content }}</div>
+<div class='col-md-{{ value.column_size }}' >{% include_block value.content %}</div>
