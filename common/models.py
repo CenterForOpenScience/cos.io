@@ -555,13 +555,21 @@ class Donation(ClusterableModel, index.Indexed):
 
 class Organization(ClusterableModel, index.Indexed):
     name = CharField(max_length=255)
-
+    logo = ForeignKey(
+        'wagtailimages.Image',
+        null=True,
+        blank=True,
+        on_delete=SET_NULL,
+        related_name='+'
+    )
     search_fields = [
         index.SearchField('name', partial_match=True),
     ]
 
     panels = [
         FieldPanel('name'),
+        ImageChooserPanel('logo'),
+        InlinePanel('donations', label='Donations'),
     ]
 
     class Meta:
