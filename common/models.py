@@ -533,8 +533,8 @@ class NewsArticle(Page, index.Indexed):
 class Donation(ClusterableModel, index.Indexed):
 
     organization = ParentalKey(
-        'common.Organisation',
-        verbose_name='Organisation',
+        'common.Organization',
+        verbose_name='Organization',
         related_name='donations',
         null=True, blank=True,
         on_delete=CASCADE
