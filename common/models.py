@@ -518,3 +518,29 @@ class NewsArticle(Page, index.Indexed):
             'page':self,
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
+
+
+
+class Donation(ClusterableModel, index.Indexed):
+
+    organization = ParentalKey(
+        'common.Organisation',
+        verbose_name='Organisation',
+        related_name='donations',
+        null=True, blank=True,
+        on_delete=CASCADE
+    )
+    date = DateField()
+    amount = IntegerField(blank=True, null=True)
+    thank_you_message = TextField()
+
+    panels = [
+        FieldPanel('organization')
+        FieldPanel('date'),
+        FieldPanel('amount'),
+        FieldPanel('thank_you_message')
+    ]
+
+    class Meta:
+        ordering = ['date']
+
