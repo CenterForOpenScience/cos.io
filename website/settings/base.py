@@ -8,6 +8,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
+ADMINS = [('Joshua Bird', 'josh.bird@cos.io')]
+
 from __future__ import absolute_import, unicode_literals
 from urllib.parse import urlparse
 
@@ -55,7 +57,7 @@ INSTALLED_APPS = [
     'taggit',
     'storages',
 
-    'wagtailfontawesome',
+    'wagtailfontawesome'
     'search',
     'el_pagination',
     'django_forms_bootstrap',
