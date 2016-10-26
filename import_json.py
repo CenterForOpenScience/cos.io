@@ -7,17 +7,17 @@ from common.models import Journal, Organization
 def import_json():
 
     print('Loading json')
-    # organization json file
-    # with open('./cos/static/toporgs.json') as data_file:
-    #     data = json.load(data_file)
-    #
-    #     for i in data:
-    #         name = i['Organization']
-    #         try:
-    #             x = Organization.objects.get(name=name)
-    #         except ObjectDoesNotExist:
-    #             x = Organization.objects.create(name=name)
-    #         x.save()
+    organization json file
+    with open('./cos/static/toporgs.json') as data_file:
+        data = json.load(data_file)
+    
+        for i in data:
+            name = i['Organization']
+            try:
+                x = Organization.objects.get(name=name)
+            except ObjectDoesNotExist:
+                x = Organization.objects.create(name=name)
+            x.save()
 
     print('Finished loading toporgs.json')
     print('Start loading journal json files')
