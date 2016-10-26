@@ -20,6 +20,12 @@ import os
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
 
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = os.environ.get('SENDGRID_USERNAME')
+EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_PASSWORD')
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -174,7 +180,7 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_URL = '/static/'
+STATIC_URL = '/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -185,7 +191,7 @@ WAGTAIL_SITE_NAME = "cos"
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
-BASE_URL = 'http://example.com'
+BASE_URL = 'http://cos.io'
 
 EL_PAGINATION_PER_PAGE=10
 DATA_UPLOAD_MAX_NUMBER_FIELDS=10000

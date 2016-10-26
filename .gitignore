@@ -22,4 +22,5 @@ log
 media
 website/settings/local.py
 static/
+cos/static/images
 ~Envs/
