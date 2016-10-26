@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'taggit',
     'storages',
 
-    'wagtailfontawesome'
+    'wagtailfontawesome',
     'search',
     'el_pagination',
     'django_forms_bootstrap',
