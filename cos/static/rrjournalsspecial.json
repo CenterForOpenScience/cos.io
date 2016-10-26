@@ -1,58 +1,54 @@
 [
-  {
-    "Journal":"<a href =\"https://ajps.org/\" target=\"_blank\">American Journal of Political Science",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://www.apsanet.org/apsr\" target=\"_blank\">American Political Science Review",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://apr.sagepub.com/\" target=\"_blank\">American Politics Research",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://pan.oxfordjournals.org/\" target=\"_blank\">Political Analysis",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://link.springer.com/journal/11109\" target=\"_blank\">Political Behavior",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://www.psqonline.org/\" target=\"_blank\">Political Science Quarterly",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://journals.cambridge.org/action/displayJournal?jid=RAM\" target=\"_blank\">Political Science Research and Methods",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://poq.oxfordjournals.org/\" target=\"_blank\">Public Opinion Quarterly",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://spa.sagepub.com/\" target=\"_blank\">State Politics and Policy Quarterly",
-    "Notes":"<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>"
-  },
-  {
-    "Journal":"<a href =\"http://cps.sagepub.com/\" target=\"_blank\">Comparative Political Studies",
-    "Notes":"<a href =\"http://www.ipdutexas.org/cps-transparency-special-issue.html\" target=\"_blank\">Announcement</a>"
-  },
-  {
-    "Journal":"<a href =\"https://elifesciences.org/\" target=\"_blank\">eLife",
-    "Notes":"<a href =\"https://elifesciences.org/elife-news/elife-center-open-science-and-science-exchange-partner-assess-reproducibility-cancer\" target=\"_blank\">Reproducibility Project, Cancer Biology</a> | <a href =\"https://osf.io/e81xl/wiki/home/\" target=\"_blank\">OSF Project</a>"
-  },
-  {
-    "Journal":"<a href =\"https://www.dropbox.com/s/gj5xmbstrfvttsk/IPA%20Subsection%20March%2012.docx\" target=\"_blank\">Frontiers in Cognition",
-    "Notes":"Mechanisms of self-soothing"
-  },
-  {
-    "Journal":"<a href =\"http://www.frontiersin.org/cognition/researchtopics/replication_attempts_of_import/1461\" target=\"_blank\">Frontiers in Cognition",
-    "Notes":"Replication Attempts of Important Results in the Study of Cognition"
-  },
-  {
-    "Journal":"<a href =\"http://econtent.hogrefe.com/loi/zsp\" target=\"_blank\">Social Psychology",
-    "Notes":"<a href =\"http://econtent.hogrefe.com/toc/zsp/45/3\" target=\"_blank\">Regsitered Reports Issue</a>"
-  }
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"https://ajps.org/\" target=\"_blank\">American Journal of Political Science"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://www.apsanet.org/apsr\" target=\"_blank\">American Political Science Review"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://apr.sagepub.com/\" target=\"_blank\">American Politics Research"
+ },
+ {
+  "Notes": "<a href =\"http://www.ipdutexas.org/cps-transparency-special-issue.html\" target=\"_blank\">Announcement</a>",
+  "Journal": "<a href =\"http://cps.sagepub.com/\" target=\"_blank\">Comparative Political Studies"
+ },
+ {
+  "Notes": "Mechanisms of self-soothing | Replication Attempts of Important Results in the Study of Cognition",
+  "Journal": "<a href =\"https://www.dropbox.com/s/gj5xmbstrfvttsk/IPA%20Subsection%20March%2012.docx\" target=\"_blank\">Frontiers in Cognition"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://pan.oxfordjournals.org/\" target=\"_blank\">Political Analysis"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://link.springer.com/journal/11109\" target=\"_blank\">Political Behavior"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://www.psqonline.org/\" target=\"_blank\">Political Science Quarterly"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://journals.cambridge.org/action/displayJournal?jid=RAM\" target=\"_blank\">Political Science Research and Methods"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://poq.oxfordjournals.org/\" target=\"_blank\">Public Opinion Quarterly"
+ },
+ {
+  "Notes": "<a href =\"http://econtent.hogrefe.com/toc/zsp/45/3\" target=\"_blank\">Regsitered Reports Issue</a>",
+  "Journal": "<a href =\"http://econtent.hogrefe.com/loi/zsp\" target=\"_blank\">Social Psychology"
+ },
+ {
+  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
+  "Journal": "<a href =\"http://spa.sagepub.com/\" target=\"_blank\">State Politics and Policy Quarterly"
+ },
+ {
+  "Notes": "<a href =\"https://elifesciences.org/elife-news/elife-center-open-science-and-science-exchange-partner-assess-reproducibility-cancer\" target=\"_blank\">Reproducibility Project, Cancer Biology</a> | <a href =\"https://osf.io/e81xl/wiki/home/\" target=\"_blank\">OSF Project</a>",
+  "Journal": "<a href =\"https://elifesciences.org/\" target=\"_blank\">eLife"
+ }
 ]
