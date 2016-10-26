@@ -8,10 +8,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
-ADMINS = [('Joshua Bird', 'josh.bird@cos.io')]
 
 from __future__ import absolute_import, unicode_literals
 from urllib.parse import urlparse
+
+ADMINS = [('Joshua Bird', 'josh.bird@cos.io')]
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
