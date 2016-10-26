@@ -2,6 +2,16 @@ from wagtail.contrib.modeladmin.options import (
     ModelAdmin, ModelAdminGroup, modeladmin_register)
 from .models import Person, Job, NewsArticle, Journal, Organization
 from blog.models import BlogPage
+from django.utils.html import format_html
+from django.contrib.staticfiles.templatetags.staticfiles import static
+from wagtail.wagtailcore import hooks
+
+#@hooks.register('insert_global_admin_css')
+#def global_admin_css():
+#    return format_html(
+#        '<link rel="stylesheet" href="{}">',
+#        static('plugins/font-awesome/css/font-awesome.min.css')
+#    )
 
 class PersonModelAdmin(ModelAdmin):
     model = Person
@@ -54,6 +64,14 @@ class ArticlesModelAdminGroup(ModelAdminGroup):
     menu_order = 400
     items = (NewsModelAdmin, BlogModelAdmin)
 
+class OrganizationAdmin(ModelAdmin):
+    model = Organization
+    menu_label = 'Organizations'
+    menu_icon = 'fa-building'
+    menu_order = 400
+    add_to_setting_menu = False
+    list_display = ('name',)
+    search_field = ('name',)
 
 
 # Now you just need to register your customised ModelAdmin class with Wagtail
@@ -61,4 +79,5 @@ modeladmin_register(PersonModelAdmin)
 modeladmin_register(JobModelAdmin)
 modeladmin_register(JournalModelAdmin)
 modeladmin_register(ArticlesModelAdminGroup)
+modeladmin_register(OrganizationAdmin)
 

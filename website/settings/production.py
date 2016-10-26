@@ -5,9 +5,7 @@ import dj_database_url
 from .base import *
 
 ALLOWED_HOSTS = ['*']
-DEBUG=True
- 
-
+DEBUG=False
 
 if os.environ.get('DEIS'):
     DATABASES = {
@@ -63,8 +61,8 @@ STATICFILES_STORAGE = 'website.s3utils.S3BotoStorage'
 STATIC_DIRECTORY = 'static/'
 MEDIA_DIRECTORY = 'media/'
 
-STATIC_URL = 'http://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/' + STATIC_DIRECTORY
-MEDIA_URL = 'http://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/' + MEDIA_DIRECTORY
+STATIC_URL = 'https://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/' + STATIC_DIRECTORY
+MEDIA_URL = 'https://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/' + MEDIA_DIRECTORY
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
 try:

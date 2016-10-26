@@ -28,6 +28,8 @@ from django.db.models import PROTECT
 from django.db.models import URLField
 from django.db.models import DateField
 from django.db.models import EmailField
+from django.db.models import TextField
+from django.db.models import IntegerField
 from django.db.models import BooleanField
 from django.db.models import Model
 from wagtail.wagtailcore.fields import StreamField
@@ -59,6 +61,7 @@ from common.blocks.tabs import TabsBlock
 from common.blocks.codes import CodeBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
 from common.blocks.journal import JournalsTabBlock
+from common.blocks.mfr import MfrBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -83,7 +86,6 @@ from wagtail.contrib.settings.models import BaseSetting, register_setting
 from website.settings.base import DEFAULT_FOOTER_ID
 DEFAULT_FOOTER_ID = 1
 
-
 from wagtail.wagtailredirects.models import Redirect
 from django.utils.translation import ugettext_lazy as _
 from wagtail.wagtailredirects.models import Redirect
@@ -94,6 +96,7 @@ from django.db.models import CASCADE
 import json
 
 import logging
+logger = logging.getLogger('wagtail.core')
 logger = logging.getLogger('django')
 
 class VersionedRedirect(Redirect):
@@ -325,6 +328,7 @@ class CustomPage(Page, index.Indexed):
         ('code_block', CodeBlock()),
         ('calender_blog', GoogleCalendarBlock()),
         ('journal_block', JournalsTabBlock()),
+        ('render_file', MfrBlock()),
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
@@ -527,15 +531,45 @@ class NewsArticle(Page, index.Indexed):
         })
 
 
+class Donation(ClusterableModel, index.Indexed):
+
+    organization = ParentalKey(
+        'common.Organization',
+        verbose_name='Organization',
+        related_name='donations',
+        null=True, blank=True,
+        on_delete=CASCADE
+    )
+    date = DateField()
+    amount = IntegerField(blank=True, null=True)
+    thank_you_message = TextField()
+
+    panels = [
+        FieldPanel('date'),
+        FieldPanel('amount'),
+        FieldPanel('thank_you_message')
+    ]
+
+    class Meta:
+        ordering = ['date']
+
 class Organization(ClusterableModel, index.Indexed):
     name = CharField(max_length=255)
-
+    logo = ForeignKey(
+        'wagtailimages.Image',
+        null=True,
+        blank=True,
+        on_delete=SET_NULL,
+        related_name='+'
+    )
     search_fields = [
         index.SearchField('name', partial_match=True),
     ]
 
     panels = [
         FieldPanel('name'),
+        ImageChooserPanel('logo'),
+        InlinePanel('donations', label='Donations'),
     ]
 
     class Meta:
