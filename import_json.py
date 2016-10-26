@@ -76,8 +76,11 @@ def import_json():
                 x = Journal.objects.get(title=title)
             except ObjectDoesNotExist:
                 x = Journal.objects.create(title=title)
-                x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
-                                ('area', i['Subject Area'])]
+
+            x.publisher = i['Publisher']
+            x.association = i['Association']
+            x.area = i['Subject Area']
+
             x.is_preregistered_journal = True
             x.save()
 
@@ -91,8 +94,11 @@ def import_json():
                 x = Journal.objects.get(title=title)
             except ObjectDoesNotExist:
                 x = Journal.objects.create(title=title)
-                x.additional = [('publisher', i['Publisher']), ('association', i['Association']),
-                                ('area', i['Subject Area'])]
+
+            x.publisher = i['Publisher']
+            x.association = i['Association']
+            x.area = i['Subject Area']
+
             x.is_top_journal = True
             x.save()
 

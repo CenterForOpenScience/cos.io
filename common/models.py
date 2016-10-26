@@ -555,16 +555,15 @@ class Journal(ClusterableModel, index.Indexed):
     is_preregistered_journal = BooleanField(blank=True, default=False)
     is_top_journal = BooleanField(blank=True, default=False)
 
+    publisher = CharField(max_length=255, blank=True)
+    association = CharField(max_length=255, blank=True)
+    area = CharField(max_length=255, blank=True)
 
     search_fields = [
         index.SearchField('title', partial_match=True),
     ]
 
     additional = StreamField([
-
-        ('publisher', CharBlock()),
-        ('association', CharBlock()),
-        ('area', CharBlock()),
         ('journal', RawHTMLBlock()),
         ('note', RawHTMLBlock()),
     ], null=True, blank=True)
@@ -578,6 +577,9 @@ class Journal(ClusterableModel, index.Indexed):
             FieldPanel('is_preregistered_journal'),
             FieldPanel('is_eligible_journal'),
         ], heading='Tab Information'),
+        FieldPanel('publisher'),
+        FieldPanel('association'),
+        FieldPanel('area'),
         StreamFieldPanel('additional'),
     ]
 

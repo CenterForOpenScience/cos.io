@@ -137,25 +137,13 @@
                         {{ journal.title }}
                     </td>
                     <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'publisher' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
+                        {{ journal.publisher }}
                     </td>
                     <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'association' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
+                        {{ journal.association }}
                     </td>
                     <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'area' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
+                        {{ journal.area }}
                     </td>
                 </tr>
             {% endif %}
@@ -189,25 +177,13 @@
                                 {{ journal.title }}
                             </td>
                             <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'publisher' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
+                                {{ journal.publisher }}
                             </td>
                             <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'association' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
+                                {{ journal.association }}
                             </td>
                             <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'area' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
+                                {{ journal.area }}
                             </td>
                         </tr>
                     {% endif %}
