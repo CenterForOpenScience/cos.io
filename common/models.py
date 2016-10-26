@@ -609,7 +609,7 @@ class Journal(ClusterableModel, index.Indexed):
             FieldPanel('is_special_journal'),
             FieldPanel('is_featured_journal'),
             FieldPanel('is_preregistered_journal'),
-            FieldPanel('is_eligible_journal'),
+            FieldPanel('is_top_journal'),
         ], heading='Tab Information'),
         FieldPanel('publisher'),
         FieldPanel('association'),
