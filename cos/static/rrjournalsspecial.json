@@ -1,54 +1,140 @@
 [
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"https://ajps.org/\" target=\"_blank\">American Journal of Political Science"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "https://ajps.org/",
+  "Title": "American Journal of Political Science"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://www.apsanet.org/apsr\" target=\"_blank\">American Political Science Review"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://www.apsanet.org/apsr",
+  "Title": "American Political Science Review"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://apr.sagepub.com/\" target=\"_blank\">American Politics Research"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://apr.sagepub.com/",
+  "Title": "American Politics Research"
  },
  {
-  "Notes": "<a href =\"http://www.ipdutexas.org/cps-transparency-special-issue.html\" target=\"_blank\">Announcement</a>",
-  "Journal": "<a href =\"http://cps.sagepub.com/\" target=\"_blank\">Comparative Political Studies"
+  "Notes": [
+   {
+    "Link": "http://www.ipdutexas.org/cps-transparency-special-issue.html",
+    "Description": "Announcement"
+   }
+  ],
+  "URL": "http://cps.sagepub.com/",
+  "Title": "Comparative Political Studies"
  },
  {
-  "Notes": "Mechanisms of self-soothing | Replication Attempts of Important Results in the Study of Cognition",
-  "Journal": "<a href =\"https://www.dropbox.com/s/gj5xmbstrfvttsk/IPA%20Subsection%20March%2012.docx\" target=\"_blank\">Frontiers in Cognition"
+  "Notes": [
+   {
+    "Link": "",
+    "Description": "Mechanisms of self-soothing "
+   },
+   {
+    "Link": "",
+    "Description": " Replication Attempts of Important Results in the Study of Cognition"
+   }
+  ],
+  "URL": "https://www.dropbox.com/s/gj5xmbstrfvttsk/IPA%20Subsection%20March%2012.docx",
+  "Title": "Frontiers in Cognition"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://pan.oxfordjournals.org/\" target=\"_blank\">Political Analysis"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://pan.oxfordjournals.org/",
+  "Title": "Political Analysis"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://link.springer.com/journal/11109\" target=\"_blank\">Political Behavior"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://link.springer.com/journal/11109",
+  "Title": "Political Behavior"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://www.psqonline.org/\" target=\"_blank\">Political Science Quarterly"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://www.psqonline.org/",
+  "Title": "Political Science Quarterly"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://journals.cambridge.org/action/displayJournal?jid=RAM\" target=\"_blank\">Political Science Research and Methods"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://journals.cambridge.org/action/displayJournal?jid=RAM",
+  "Title": "Political Science Research and Methods"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://poq.oxfordjournals.org/\" target=\"_blank\">Public Opinion Quarterly"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://poq.oxfordjournals.org/",
+  "Title": "Public Opinion Quarterly"
  },
  {
-  "Notes": "<a href =\"http://econtent.hogrefe.com/toc/zsp/45/3\" target=\"_blank\">Regsitered Reports Issue</a>",
-  "Journal": "<a href =\"http://econtent.hogrefe.com/loi/zsp\" target=\"_blank\">Social Psychology"
+  "Notes": [
+   {
+    "Link": "http://econtent.hogrefe.com/toc/zsp/45/3",
+    "Description": "Regsitered Reports Issue"
+   }
+  ],
+  "URL": "http://econtent.hogrefe.com/loi/zsp",
+  "Title": "Social Psychology"
  },
  {
-  "Notes": "<a href =\"http://www.erpc2016.com/\" target=\"_blank\">Election Research Preaccetpance Competition</a></a>",
-  "Journal": "<a href =\"http://spa.sagepub.com/\" target=\"_blank\">State Politics and Policy Quarterly"
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ],
+  "URL": "http://spa.sagepub.com/",
+  "Title": "State Politics and Policy Quarterly"
  },
  {
-  "Notes": "<a href =\"https://elifesciences.org/elife-news/elife-center-open-science-and-science-exchange-partner-assess-reproducibility-cancer\" target=\"_blank\">Reproducibility Project, Cancer Biology</a> | <a href =\"https://osf.io/e81xl/wiki/home/\" target=\"_blank\">OSF Project</a>",
-  "Journal": "<a href =\"https://elifesciences.org/\" target=\"_blank\">eLife"
+  "Notes": [
+   {
+    "Link": "https://elifesciences.org/elife-news/elife-center-open-science-and-science-exchange-partner-assess-reproducibility-cancer",
+    "Description": "Reproducibility Project, Cancer Biology"
+   },
+   {
+    "Link": "https://osf.io/e81xl/wiki/home/",
+    "Description": "OSF Project"
+   }
+  ],
+  "URL": "https://elifesciences.org/",
+  "Title": "eLife"
  }
 ]

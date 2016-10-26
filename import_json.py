@@ -8,31 +8,35 @@ def import_json():
 
     print('Loading json')
     # organization json file
-    with open('./cos/static/toporgs.json') as data_file:
-        data = json.load(data_file)
-
-        for i in data:
-            name = i['Organization']
-            try:
-                x = Organization.objects.get(name=name)
-            except ObjectDoesNotExist:
-                x = Organization.objects.create(name=name)
-            x.save()
+    # with open('./cos/static/toporgs.json') as data_file:
+    #     data = json.load(data_file)
+    #
+    #     for i in data:
+    #         name = i['Organization']
+    #         try:
+    #             x = Organization.objects.get(name=name)
+    #         except ObjectDoesNotExist:
+    #             x = Organization.objects.create(name=name)
+    #         x.save()
 
     print('Finished loading toporgs.json')
-
+    print('Start loading journal json files')
     # journal first json file
     with open('./cos/static/rrjournals.json') as data_file:
         data = json.load(data_file)
 
         for i in data:
-            title = i['Journal'].split('>')[1]
+            title = i['Title']
 
             try:
                 x = Journal.objects.get(title=title)
             except ObjectDoesNotExist:
                 x = Journal.objects.create(title = title)
-                x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
+                x.url_link = i['URL']
+                notes = []
+                for note in i['Notes']:
+                    notes.append(('note', {'description': note['Description'], 'link': note['Link']}))
+                x.notes = notes
             x.is_registered_journal = True
             x.save()
 
@@ -41,13 +45,17 @@ def import_json():
         data = json.load(data_file)
 
         for i in data:
-            title = i['Journal'].split('>')[1]
+            title = i['Title']
 
             try:
                 x = Journal.objects.get(title=title)
             except ObjectDoesNotExist:
                 x = Journal.objects.create(title = title)
-                x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
+                x.url_link = i['URL']
+                notes = []
+                for note in i['Notes']:
+                    notes.append(('note', {'description': note['Description'], 'link': note['Link']}))
+                x.notes = notes
             x.is_featured_journal = True
             x.save()
 
@@ -56,22 +64,27 @@ def import_json():
         data = json.load(data_file)
 
         for i in data:
-            title = i['Journal'].split('>')[1]
+            title = i['Title']
 
             try:
                 x = Journal.objects.get(title=title)
             except ObjectDoesNotExist:
                 x = Journal.objects.create(title = title)
-                x.additional = [('journal', i['Journal']), ('note', i['Notes'])]
+                x.url_link = i['URL']
+                notes = []
+                for note in i['Notes']:
+                    notes.append(('note', {'description': note['Description'], 'link': note['Link']}))
+                x.notes = notes
             x.is_special_journal = True
             x.save()
+
 
     # fourth json file
     with open('./cos/static/preregjournals.json') as data_file:
         data = json.load(data_file)
 
         for i in data:
-            title = i["Journal Title"]
+            title = i['Title']
             try:
                 x = Journal.objects.get(title=title)
             except ObjectDoesNotExist:
@@ -89,7 +102,7 @@ def import_json():
         data = json.load(data_file)
 
         for i in data:
-            title = i["Journal Title"]
+            title = i["Title"]
             try:
                 x = Journal.objects.get(title=title)
             except ObjectDoesNotExist:

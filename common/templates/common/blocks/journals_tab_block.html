@@ -27,12 +27,17 @@
                 {% if journal.is_registered_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {{ journal.title }}
+                            <a href = {{ journal.url_link }}> {{ journal.title }} </a>
                         </td>
                         <td class="col-md-5" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'note' %}
-                                    {{ x }}
+                            {% for x in journal.notes.stream_data %}
+                                {% if not forloop.first %}
+                                    |
+                                {% endif %}
+                                {% if x.value.link %}
+                                    <a href = {{ x.value.link }}>{{ x.value.description }}</a>
+                                {% else %}
+                                    {{ x.value.description }}
                                 {% endif %}
                             {% endfor %}
                         </td>
@@ -62,12 +67,17 @@
                 {% if journal.is_special_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {{ journal.title }}
+                            <a href = {{ journal.url_link }}> {{ journal.title }} </a>
                         </td>
                         <td class="col-md-5" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'note' %}
-                                    {{ x }}
+                            {% for x in journal.notes.stream_data %}
+                                {% if not forloop.first %}
+                                    |
+                                {% endif %}
+                                {% if x.value.link %}
+                                    <a href = {{ x.value.link }}>{{ x.value.description }}</a>
+                                {% else %}
+                                    {{ x.value.description }}
                                 {% endif %}
                             {% endfor %}
                         </td>
@@ -97,12 +107,17 @@
                 {% if journal.is_featured_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {{ journal.title }}
+                            <a href = {{ journal.url_link }}> {{ journal.title }} </a>
                         </td>
                         <td class="col-md-5" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'note' %}
-                                    {{ x }}
+                            {% for x in journal.notes.stream_data %}
+                                {% if not forloop.first %}
+                                    |
+                                {% endif %}
+                                {% if x.value.link %}
+                                    <a href = {{ x.value.link }}>{{ x.value.description }}</a>
+                                {% else %}
+                                    {{ x.value.description }}
                                 {% endif %}
                             {% endfor %}
                         </td>

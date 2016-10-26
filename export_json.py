@@ -23,14 +23,12 @@ def export_json():
     bulk = []
     entries = Journal.objects.filter(is_registered_journal=True)
     for e in entries:
-        journal_text = ''
-        note_text = ''
-        for i in e.additional:
-            if i.block_type == 'journal':
-                journal_text = str(i)
-            if i.block_type == 'note':
-                note_text = str(i)
-        x = {'Journal': journal_text, 'Notes': note_text}
+        title = e.title
+        url = e.url_link
+        notes = []
+        for i in e.notes.stream_data:
+            notes.append({'Link': i['value']['link'], 'Description': i['value']['description']})
+        x = {'Title': title, 'URL': url, 'Notes': notes}
         bulk.append(x)
     with open('./cos/static/rrjournals.json', 'w') as data_file:
         json.dump(bulk, data_file, indent=1)
@@ -39,14 +37,12 @@ def export_json():
     bulk = []
     entries = Journal.objects.filter(is_featured_journal=True)
     for e in entries:
-        journal_text = ''
-        note_text = ''
-        for i in e.additional:
-            if i.block_type == 'journal':
-                journal_text = str(i)
-            if i.block_type == 'note':
-                note_text = str(i)
-        x = {'Journal': journal_text, 'Notes': note_text}
+        title = e.title
+        url = e.url_link
+        notes = []
+        for i in e.notes.stream_data:
+            notes.append({'Link': i['value']['link'], 'Description': i['value']['description']})
+        x = {'Title': title, 'URL': url, 'Notes': notes}
         bulk.append(x)
     with open('./cos/static/rrjournalssome.json', 'w') as data_file:
         json.dump(bulk, data_file, indent=1)
@@ -55,14 +51,12 @@ def export_json():
     bulk = []
     entries = Journal.objects.filter(is_special_journal=True)
     for e in entries:
-        journal_text = ''
-        note_text = ''
-        for i in e.additional:
-            if i.block_type == 'journal':
-                journal_text = str(i)
-            if i.block_type == 'note':
-                note_text = str(i)
-        x = {'Journal': journal_text, 'Notes': note_text}
+        title = e.title
+        url = e.url_link
+        notes = []
+        for i in e.notes.stream_data:
+            notes.append({'Link': i['value']['link'], 'Description': i['value']['description']})
+        x = {'Title': title, 'URL': url, 'Notes': notes}
         bulk.append(x)
     with open('./cos/static/rrjournalsspecial.json', 'w') as data_file:
         json.dump(bulk, data_file, indent=1)
@@ -71,7 +65,7 @@ def export_json():
     bulk = []
     entries = Journal.objects.filter(is_preregistered_journal=True)
     for e in entries:
-        x = {"Journal Title": e.title, "Publisher": e.publisher, "Association": e.association, "Subject Area": e.area}
+        x = {"Title": e.title, "Publisher": e.publisher, "Association": e.association, "Subject Area": e.area}
         bulk.append(x)
     with open('./cos/static/preregjournals.json', 'w') as data_file:
         json.dump(bulk, data_file, indent=1)
@@ -80,7 +74,7 @@ def export_json():
     bulk = []
     entries = Journal.objects.filter(is_top_journal=True)
     for e in entries:
-        x = {"Journal Title": e.title, "Publisher": e.publisher, "Association": e.association, "Subject Area": e.area}
+        x = {"Title": e.title, "Publisher": e.publisher, "Association": e.association, "Subject Area": e.area}
         bulk.append(x)
     with open('./cos/static/topjournals.json', 'w') as data_file:
         json.dump(bulk, data_file, indent=1)
