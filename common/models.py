@@ -555,7 +555,7 @@ class Donation(ClusterableModel, index.Indexed):
 
 class Organization(ClusterableModel, index.Indexed):
     name = CharField(max_length=255)
-    pattern = BooleanField(blank=True, default=False)
+    partner = BooleanField(blank=True, default=False)
     logo = ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -569,6 +569,7 @@ class Organization(ClusterableModel, index.Indexed):
 
     panels = [
         FieldPanel('name'),
+        FieldPanel('partner'),
         ImageChooserPanel('logo'),
         InlinePanel('donations', label='Donations'),
     ]
