@@ -7,5 +7,5 @@ class HeroBlock(blocks.StructBlock):
 
     class Meta:
         template = 'common/blocks/hero_block.html'
-        icon = 'image'
+        icon = 'fa-star'
         label = 'Hero Block'

@@ -26,7 +26,7 @@ class PersonModelAdmin(ModelAdmin):
 class JobModelAdmin(ModelAdmin):
     model = Job
     menu_label = 'Jobs' # ditch this to use verbose_name_plural from model
-    menu_icon = 'success' # change as required
+    menu_icon = 'fa-id-badge' # change as required
     menu_order = 400 # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
     list_display = ('title', 'background')
@@ -34,7 +34,7 @@ class JobModelAdmin(ModelAdmin):
 class JournalModelAdmin(ModelAdmin):
     model = Journal
     menu_label = 'Journals'
-    menu_icon = 'doc-full-inverse'
+    menu_icon = 'fa-book'
     menu_order = 400  # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_setting_menu = False
     list_display = ('title',)
@@ -43,7 +43,7 @@ class JournalModelAdmin(ModelAdmin):
 class NewsModelAdmin(ModelAdmin):
     model = NewsArticle
     menu_label = 'News' # ditch this to use verbose_name_plural from model
-    menu_icon = 'site' # change as required
+    menu_icon = 'fa-newspaper-o' # change as required
     menu_order = 100 # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
     list_display = ('title', 'date')
@@ -52,7 +52,7 @@ class NewsModelAdmin(ModelAdmin):
 class BlogModelAdmin(ModelAdmin):
     model = BlogPage
     menu_label = 'Blogs' # ditch this to use verbose_name_plural from model
-    menu_icon = 'doc-full' # change as required
+    menu_icon = 'fa-rss' # change as required
     menu_order = 100 # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
     list_display = ('title', 'date', 'blog_authors')
@@ -60,7 +60,7 @@ class BlogModelAdmin(ModelAdmin):
 
 class ArticlesModelAdminGroup(ModelAdminGroup):
     menu_label = 'Articles'
-    menu_icon = 'folder-open-inverse'
+    menu_icon = 'fa-file'
     menu_order = 400
     items = (NewsModelAdmin, BlogModelAdmin)
 
