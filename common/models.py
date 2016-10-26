@@ -555,6 +555,7 @@ class Donation(ClusterableModel, index.Indexed):
 
 class Organization(ClusterableModel, index.Indexed):
     name = CharField(max_length=255)
+    pattern = BooleanField(blank=True, default=False)
     logo = ForeignKey(
         'wagtailimages.Image',
         null=True,
