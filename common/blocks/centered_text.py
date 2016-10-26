@@ -6,5 +6,5 @@ class CenteredTextBlock(blocks.StructBlock):
 
     class Meta:
         template = 'common/blocks/centered_text.html'
-        icon = 'openquote'
+        icon = 'fa-align-center'
         label = 'Centered Text Block'

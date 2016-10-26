@@ -130,7 +130,7 @@ class RowBlock(blocks.ListBlock):
 
     class Meta:
         form_template = 'common/block_forms/columns.html'
-        icon = 'placeholder'
+        icon = 'fa-columns'
         label = 'Row'
 
     @property
