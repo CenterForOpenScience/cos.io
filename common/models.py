@@ -584,6 +584,7 @@ class Organization(ClusterableModel, index.Indexed):
 class Journal(ClusterableModel, index.Indexed):
 
     title = CharField(max_length=255)
+    url_link = URLField(blank=True)
 
     is_registered_journal = BooleanField(blank=True, default=False)
     is_special_journal = BooleanField(blank=True, default=False)
@@ -599,10 +600,10 @@ class Journal(ClusterableModel, index.Indexed):
         index.SearchField('title', partial_match=True),
     ]
 
-    additional = StreamField([
-        ('journal', RawHTMLBlock()),
-        ('note', RawHTMLBlock()),
-    ], null=True, blank=True)
+    notes = StreamField([('note',blocks.StructBlock([
+        ('description', blocks.CharBlock(required=False, max_length=255)),
+        ('link', blocks.URLBlock(required=False)),
+    ]))], blank=True)
 
     panels = [
         FieldPanel('title'),
@@ -616,7 +617,7 @@ class Journal(ClusterableModel, index.Indexed):
         FieldPanel('publisher'),
         FieldPanel('association'),
         FieldPanel('area'),
-        StreamFieldPanel('additional'),
+        StreamFieldPanel('notes'),
     ]
 
     class Meta:

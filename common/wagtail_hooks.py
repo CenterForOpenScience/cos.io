@@ -37,7 +37,8 @@ class JournalModelAdmin(ModelAdmin):
     menu_icon = 'fa-book'
     menu_order = 400  # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_setting_menu = False
-    list_display = ('title',)
+    list_display = ('title','is_registered_journal', 'is_featured_journal', 'is_special_journal', 'is_preregistered_journal', 'is_top_journal')
+    list_filter = ('is_registered_journal', 'is_featured_journal', 'is_special_journal', 'is_preregistered_journal', 'is_top_journal')
     search_field = ('title',)
 
 class NewsModelAdmin(ModelAdmin):
