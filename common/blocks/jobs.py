@@ -4,5 +4,5 @@ class JobsWholeBlock(blocks.StructBlock):
 
     class Meta:
         template = 'common/blocks/jobs_whole_block.html'
-        icon = 'fa-id-card'
+        icon = 'fa-suitcase
         label = 'Jobs Block'

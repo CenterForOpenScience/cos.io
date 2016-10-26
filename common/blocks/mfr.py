@@ -5,4 +5,5 @@ class MfrBlock(blocks.StructBlock):
 
     class Meta:
         template = 'common/blocks/mfr.html'
+        icon = 'fa-cube'
         label = 'Render OSF File'
