@@ -1,4 +1,5 @@
 {% load wagtailcore_tags %}
+
 {% if value.displayStyle == 'participating journals' %}
 <ul class="nav nav-tabs">
       <li class="active"><a data-toggle="tab" href="#rrjournals"><b>Journals that have adopted Registered Reports</b></a></li>
@@ -16,16 +17,17 @@
                     <div class="th-inner ">Notes</div>
                 </th>
             </thead>
-            <tbody>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content' style="display:none">
             {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournals' %}
+                {% if journal.is_registered_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
+                            {{ journal.title }}
                         </td>
                         <td class="col-md-5" style="">
                             {% for x in journal.additional %}
@@ -50,16 +52,17 @@
                     <div class="th-inner ">Notes</div>
                 </th>
             </thead>
-            <tbody>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content'>
             {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournalssome' %}
+                {% if journal.is_special_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
+                            {{ journal.title }}
                         </td>
                         <td class="col-md-5" style="">
                             {% for x in journal.additional %}
@@ -84,16 +87,17 @@
                     <div class="th-inner ">Notes</div>
                 </th>
             </thead>
-            <tbody>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content'>
              {% for journal in journals %}
-                {% if journal.class_choice == 'rrjournalsspecial' %}
+                {% if journal.is_featured_journal %}
                     <tr>
                         <td class="col-md-7" style="">
-                            {% for x in journal.additional %}
-                                {% if x.block_type == 'journal' %}
-                                    {{ x }}
-                                {% endif %}
-                            {% endfor %}
+                            {{ journal.title }}
                         </td>
                         <td class="col-md-5" style="">
                             {% for x in journal.additional %}
@@ -110,7 +114,43 @@
     </div>
 </div>
 
-{% elif value.displayStyle == 'journals signatory' %}
+{% elif value.displayStyle == 'eligible journals' %}
+    <table data-toggle="table" data-height="799" data-search="true" class="table table-hover" style="margin-top: -40px;">
+        <thead>
+            <tr>
+                <th class="col-md-4" style="" data-field="Journal Title" data-sortable="true">Journal Title</th>
+                <th class="col-md-2" style="" data-field="Publisher" data-sortable="true">Publisher</th>
+                <th class="col-md-2" style="" data-field="Association" data-sortable="true">Society Affiliation</th>
+                <th class="col-md-2" style="" data-field="Subject Area" data-sortable="true">Subject Area</th>
+            </tr>
+        </thead>
+        <div class="loading-msgs text-center">
+                <div id="loader"></div>
+
+                <p>Loading</p>
+        </div>
+        <tbody class='tbody-content' style="display:none">
+        {% for journal in journals %}
+            {% if journal.is_preregistered_journal %}
+                <tr>
+                    <td class="col-md-4" style="">
+                        {{ journal.title }}
+                    </td>
+                    <td class="col-md-2" style="">
+                        {{ journal.publisher }}
+                    </td>
+                    <td class="col-md-2" style="">
+                        {{ journal.association }}
+                    </td>
+                    <td class="col-md-2" style="">
+                        {{ journal.area }}
+                    </td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+{% else %}
 <ul class="nav nav-tabs">
       <li class="active"><a data-toggle="tab" href="#journals"><b>Journals</b></a></li>
       <li><a data-toggle="tab" href="#organizations"><b>Organizations</b></a></li>
@@ -124,33 +164,26 @@
                 <th data-field="Association" data-sortable="true" class="col-md-2">Society/Association Affiliation</th>
                 <th data-field="Subject Area" data-sortable="true" class="col-md-2">Subject Area</th>
             </thead>
-            <tbody>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content' style="display:none">
                  {% for journal in journals %}
-                    {% if journal.class_choice == 'topjournals' %}
+                    {% if journal.is_top_journal %}
                         <tr>
                             <td class="col-md-4" style="">
                                 {{ journal.title }}
                             </td>
                             <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'publisher' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
+                                {{ journal.publisher }}
                             </td>
                             <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'association' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
+                                {{ journal.association }}
                             </td>
                             <td class="col-md-2" style="">
-                                {% for x in journal.additional %}
-                                    {% if x.block_type == 'area' %}
-                                        {{ x }}
-                                    {% endif %}
-                                {% endfor %}
+                                {{ journal.area }}
                             </td>
                         </tr>
                     {% endif %}
@@ -165,55 +198,21 @@
                     <th data-field="Organization" data-sortable="true">Organization</th>
                 </tr>
             </thead>
-            <tbody>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
 
-            </tbody>
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content' style="display:none">
+                {% for org in organizations %}
+                    <tr>
+                        <td style="">
+                            {{ org.name }}
+                        </td>
+                    </tr>
+                {% endfor %}
+        </tbody>
         </table>
     </div>
 </div>
-
-{% else %}
-    <table data-toggle="table" data-search="true" class="table table-hover" style="margin-top: -40px;">
-        <thead>
-            <tr>
-                <th class="col-md-4" style="" data-field="Journal Title" data-sortable="true">Journal Title</th>
-                <th class="col-md-2" style="" data-field="Publisher" data-sortable="true">Publisher</th>
-                <th class="col-md-2" style="" data-field="Association" data-sortable="true">Society Affiliation</th>
-                <th class="col-md-2" style="" data-field="Subject Area" data-sortable="true">Subject Area</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for journal in journals %}
-            {% if journal.class_choice == 'preregjournals' %}
-                <tr>
-                    <td class="col-md-4" style="">
-                        {{ journal.title }}
-                    </td>
-                    <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'publisher' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                    <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'association' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                    <td class="col-md-2" style="">
-                        {% for x in journal.additional %}
-                            {% if x.block_type == 'area' %}
-                                {{ x }}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                </tr>
-            {% endif %}
-        {% endfor %}
-        </tbody>
-    </table>
-
 {% endif %}

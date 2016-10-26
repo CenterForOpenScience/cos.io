@@ -23,6 +23,7 @@
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 - `python ensure_footer.py`
+- `python import_json.py`
 - `python manage.py rebuild_index`
 - `python manage.py runserver 127.0.0.1:4200`
 - The application should now be running at `http://localhost:4200/`
@@ -57,3 +58,4 @@
     - Turn on redis server by typing 'reids-server' in terminal
     - Set CACHES in local.py
 - when a new page is published, a message will be sent to flowdock to inform admins. Set the flow token in local.py. The format is: FLOWDOCKTOKEN = 'the_flow_token_from_flowdock'
+- If need to export the Journal and Organization entries saved in database, run `python export_json.py`

@@ -353,6 +353,7 @@ class CustomPage(Page, index.Indexed):
             'people': Person.objects.all(),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
+            'organizations': Organization.objects.all(),
         })
 
     @transaction.atomic  # only commit when all descendants are properly updated
@@ -582,33 +583,37 @@ class Journal(ClusterableModel, index.Indexed):
 
     title = CharField(max_length=255)
 
-    JOURNAL_CLASS_CHOICES = [
-        ('rrjournals', 'rrjournals'),
-        ('rrjournalssome', 'rrjournalssome'),
-        ('rrjournalsspecial', 'rrjournalsspecial'),
-        ('topjournals', 'topjournals'),
-        ('preregjournals', 'preregjournals'),
-    ]
+    is_registered_journal = BooleanField(blank=True, default=False)
+    is_special_journal = BooleanField(blank=True, default=False)
+    is_featured_journal = BooleanField(blank=True, default=False)
+    is_preregistered_journal = BooleanField(blank=True, default=False)
+    is_top_journal = BooleanField(blank=True, default=False)
 
-    class_choice = CharField(max_length=20, choices=JOURNAL_CLASS_CHOICES)
+    publisher = CharField(max_length=255, blank=True)
+    association = CharField(max_length=255, blank=True)
+    area = CharField(max_length=255, blank=True)
 
     search_fields = [
         index.SearchField('title', partial_match=True),
     ]
 
     additional = StreamField([
-
-        ('publisher', CharBlock()),
-        ('association', CharBlock()),
-        ('area', CharBlock()),
-        ('field5', CharBlock()),
         ('journal', RawHTMLBlock()),
         ('note', RawHTMLBlock()),
     ], null=True, blank=True)
 
     panels = [
         FieldPanel('title'),
-        FieldPanel('class_choice'),
+        MultiFieldPanel([
+            FieldPanel('is_registered_journal'),
+            FieldPanel('is_special_journal'),
+            FieldPanel('is_featured_journal'),
+            FieldPanel('is_preregistered_journal'),
+            FieldPanel('is_eligible_journal'),
+        ], heading='Tab Information'),
+        FieldPanel('publisher'),
+        FieldPanel('association'),
+        FieldPanel('area'),
         StreamFieldPanel('additional'),
     ]
 
