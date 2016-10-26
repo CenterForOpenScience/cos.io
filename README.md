@@ -58,4 +58,4 @@
     - Turn on redis server by typing 'reids-server' in terminal
     - Set CACHES in local.py
 - when a new page is published, a message will be sent to flowdock to inform admins. Set the flow token in local.py. The format is: FLOWDOCKTOKEN = 'the_flow_token_from_flowdock'
-- If you want to export the Journal and Organization entries saved in database, run `python export_json.py`
+- If need to export the Journal and Organization entries saved in database, run `python export_json.py`
