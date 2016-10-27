@@ -50,12 +50,9 @@
 *&ast;When developing new pages on a live site, one should preview the page first.*
 
 ## Addtional Note
-- el-pagination has been installed to enable the lazy load of articles. Current version of endless-pagination is not 100% compatible with the django version we use. So there are some modifications that we need to do after installaztion.
-	- pip install django-el-pagination
-	- add 'el_pagination' to installed_apps in the setting
 - to use Gunicorn, instead of typing 'python manage.py runserver 17.0.0.1:4200' type 'gunicorn website.wsgi'
 - to use readis
-    - Turn on redis server by typing 'reids-server' in terminal
+    - Turn on redis server by typing `reids-server` in terminal
     - Set CACHES in local.py
 - when a new page is published, a message will be sent to flowdock to inform admins. Set the flow token in local.py. The format is: FLOWDOCKTOKEN = 'the_flow_token_from_flowdock'
 - If need to export the Journal and Organization entries saved in database, run `python export_json.py`
