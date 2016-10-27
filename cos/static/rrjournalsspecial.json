@@ -1,45 +1,47 @@
 [
  {
-  "Notes": [
-   {
-    "Link": "http://www.erpc2016.com/",
-    "Description": "Election Research Preaccetpance Competition"
-   }
-  ],
+  "Title": "American Journal of Political Science",
   "URL": "https://ajps.org/",
-  "Title": "American Journal of Political Science"
- },
- {
   "Notes": [
    {
     "Link": "http://www.erpc2016.com/",
     "Description": "Election Research Preaccetpance Competition"
    }
-  ],
+  ]
+ },
+ {
+  "Title": "American Political Science Review",
   "URL": "http://www.apsanet.org/apsr",
-  "Title": "American Political Science Review"
- },
- {
   "Notes": [
    {
     "Link": "http://www.erpc2016.com/",
     "Description": "Election Research Preaccetpance Competition"
    }
-  ],
-  "URL": "http://apr.sagepub.com/",
-  "Title": "American Politics Research"
+  ]
  },
  {
+  "Title": "American Politics Research",
+  "URL": "http://apr.sagepub.com/",
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ]
+ },
+ {
+  "Title": "Comparative Political Studies",
+  "URL": "http://cps.sagepub.com/",
   "Notes": [
    {
     "Link": "http://www.ipdutexas.org/cps-transparency-special-issue.html",
     "Description": "Announcement"
    }
-  ],
-  "URL": "http://cps.sagepub.com/",
-  "Title": "Comparative Political Studies"
+  ]
  },
  {
+  "Title": "Frontiers in Cognition",
+  "URL": "https://www.dropbox.com/s/gj5xmbstrfvttsk/IPA%20Subsection%20March%2012.docx",
   "Notes": [
    {
     "Link": "",
@@ -49,81 +51,81 @@
     "Link": "",
     "Description": " Replication Attempts of Important Results in the Study of Cognition"
    }
-  ],
-  "URL": "https://www.dropbox.com/s/gj5xmbstrfvttsk/IPA%20Subsection%20March%2012.docx",
-  "Title": "Frontiers in Cognition"
+  ]
  },
  {
-  "Notes": [
-   {
-    "Link": "http://www.erpc2016.com/",
-    "Description": "Election Research Preaccetpance Competition"
-   }
-  ],
+  "Title": "Political Analysis",
   "URL": "http://pan.oxfordjournals.org/",
-  "Title": "Political Analysis"
- },
- {
   "Notes": [
    {
     "Link": "http://www.erpc2016.com/",
     "Description": "Election Research Preaccetpance Competition"
    }
-  ],
+  ]
+ },
+ {
+  "Title": "Political Behavior",
   "URL": "http://link.springer.com/journal/11109",
-  "Title": "Political Behavior"
- },
- {
   "Notes": [
    {
     "Link": "http://www.erpc2016.com/",
     "Description": "Election Research Preaccetpance Competition"
    }
-  ],
+  ]
+ },
+ {
+  "Title": "Political Science Quarterly",
   "URL": "http://www.psqonline.org/",
-  "Title": "Political Science Quarterly"
- },
- {
   "Notes": [
    {
     "Link": "http://www.erpc2016.com/",
     "Description": "Election Research Preaccetpance Competition"
    }
-  ],
+  ]
+ },
+ {
+  "Title": "Political Science Research and Methods",
   "URL": "http://journals.cambridge.org/action/displayJournal?jid=RAM",
-  "Title": "Political Science Research and Methods"
- },
- {
   "Notes": [
    {
     "Link": "http://www.erpc2016.com/",
     "Description": "Election Research Preaccetpance Competition"
    }
-  ],
-  "URL": "http://poq.oxfordjournals.org/",
-  "Title": "Public Opinion Quarterly"
+  ]
  },
  {
+  "Title": "Public Opinion Quarterly",
+  "URL": "http://poq.oxfordjournals.org/",
+  "Notes": [
+   {
+    "Link": "http://www.erpc2016.com/",
+    "Description": "Election Research Preaccetpance Competition"
+   }
+  ]
+ },
+ {
+  "Title": "Social Psychology",
+  "URL": "http://econtent.hogrefe.com/loi/zsp",
   "Notes": [
    {
     "Link": "http://econtent.hogrefe.com/toc/zsp/45/3",
     "Description": "Regsitered Reports Issue"
    }
-  ],
-  "URL": "http://econtent.hogrefe.com/loi/zsp",
-  "Title": "Social Psychology"
+  ]
  },
  {
+  "Title": "State Politics and Policy Quarterly",
+  "URL": "http://spa.sagepub.com/",
   "Notes": [
    {
     "Link": "http://www.erpc2016.com/",
     "Description": "Election Research Preaccetpance Competition"
    }
-  ],
-  "URL": "http://spa.sagepub.com/",
-  "Title": "State Politics and Policy Quarterly"
+  ]
  },
  {
+  "Title": "eLife",
+  "URL": "https://elifesciences.org/",
   "Notes": [
    {
     "Link": "https://elifesciences.org/elife-news/elife-center-open-science-and-science-exchange-partner-assess-reproducibility-cancer",
@@ -133,8 +135,6 @@
     "Link": "https://osf.io/e81xl/wiki/home/",
     "Description": "OSF Project"
    }
-  ],
-  "URL": "https://elifesciences.org/",
-  "Title": "eLife"
+  ]
  }
 ]
