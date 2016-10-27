@@ -1,5 +1,7 @@
 [
  {
+  "Title": "AIMS Neuroscience",
+  "URL": "http://www.aimspress.com/news/160.html",
   "Notes": [
    {
     "Link": "http://orca.cf.ac.uk/59475/1/AN2.pdf",
@@ -9,21 +11,21 @@
     "Link": "http://orca.cf.ac.uk/59475/1/AN2.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.aimspress.com/news/160.html",
-  "Title": "AIMS Neuroscience"
+  ]
  },
  {
+  "Title": "Attention, Perception, and Psychophysics",
+  "URL": "http://www.springer.com/psychology/cognitive+psychology/journal/13414",
   "Notes": [
    {
     "Link": "http://link.springer.com/content/pdf/10.3758%2Fs13414-013-0502-5.pdf",
     "Description": "Editorial"
    }
-  ],
-  "URL": "http://www.springer.com/psychology/cognitive+psychology/journal/13414",
-  "Title": "Attention, Perception, and Psychophysics"
+  ]
  },
  {
+  "Title": "Cognition and Emotion",
+  "URL": "http://www.tandfonline.com/toc/pcem20/current",
   "Notes": [
    {
     "Link": "http://www.tandfonline.com/doi/full/10.1080/02699931.2015.1026223",
@@ -33,11 +35,11 @@
     "Link": "http://explore.tandfonline.com/page/beh/pcem-registered-reports-of-replication-studies/",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.tandfonline.com/toc/pcem20/current",
-  "Title": "Cognition and Emotion"
+  ]
  },
  {
+  "Title": "Cognitive Research: Principles and Implications",
+  "URL": "http://cognitiveresearchjournal.springeropen.com/",
   "Notes": [
    {
     "Link": "http://link.springer.com/article/10.3758/s13414-013-0502-5/fulltext.html",
@@ -47,11 +49,11 @@
     "Link": "http://cognitiveresearchjournal.springeropen.com/submission-guidelines/preparing-your-manuscript/registered-reports-and-replications",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://cognitiveresearchjournal.springeropen.com/",
-  "Title": "Cognitive Research: Principles and Implications"
+  ]
  },
  {
+  "Title": "Comprehensive Results in Social Psychology",
+  "URL": "http://www.tandfonline.com/loi/rrsp20",
   "Notes": [
    {
     "Link": "http://www.tandfonline.com/doi/full/10.1080/23743603.2015.1070611",
@@ -61,11 +63,11 @@
     "Link": "http://www.tandf.co.uk/journals/authors/rrsp-submission-guidelines.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.tandfonline.com/loi/rrsp20",
-  "Title": "Comprehensive Results in Social Psychology"
+  ]
  },
  {
+  "Title": "Cortex",
+  "URL": "http://www.journals.elsevier.com/cortex",
   "Notes": [
    {
     "Link": "https://dl.dropboxusercontent.com/u/15691907/Chambers_2013b_Cortex.pdf",
@@ -75,11 +77,11 @@
     "Link": "http://cdn.elsevier.com/promis_misc/PROMIS%20pub_idt_CORTEX%20Guidelines_RR_29_04_2013.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.journals.elsevier.com/cortex",
-  "Title": "Cortex"
+  ]
  },
  {
+  "Title": "Drug and Alcohol Dependence",
+  "URL": "http://www.journals.elsevier.com/drug-and-alcohol-dependence",
   "Notes": [
    {
     "Link": "https://dl.dropboxusercontent.com/u/15691907/DAD_RegisteredReports_Editorial.pdf",
@@ -89,11 +91,11 @@
     "Link": "http://cdn.elsevier.com/promis_misc/DAD_RR_GL_final.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.journals.elsevier.com/drug-and-alcohol-dependence",
-  "Title": "Drug and Alcohol Dependence"
+  ]
  },
  {
+  "Title": "European Journal of Neuroscience",
+  "URL": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1460-9568",
   "Notes": [
    {
     "Link": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1460-9568/homepage/ForAuthors.html#Index_2_Types_of_Manuscripts",
@@ -103,21 +105,21 @@
     "Link": "http://onlinelibrary.wiley.com/store/10.1111/(ISSN)1460-9568/asset/homepages/Registered_Report_author_guide.pdf?v=1&s=5cddc7d3d6ff7938552942c6bf4b35fab38edec3&isAguDoi=false",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1460-9568",
-  "Title": "European Journal of Neuroscience"
+  ]
  },
  {
+  "Title": "Experimental Psychology",
+  "URL": "https://us.hogrefe.com/products/journals/exppsy",
   "Notes": [
    {
     "Link": "https://us.hogrefe.com/fileadmin/user_upload/global/journals/Hogrefe_Publishing/Experimental_Psychology/Zea_INstructions_extended_final.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "https://us.hogrefe.com/products/journals/exppsy",
-  "Title": "Experimental Psychology"
+  ]
  },
  {
+  "Title": "Human Movement Science",
+  "URL": "http://www.journals.elsevier.com/human-movement-science/",
   "Notes": [
    {
     "Link": "https://dl.dropboxusercontent.com/u/15691907/1-s2.0-S0167945715001414-main.pdf",
@@ -127,11 +129,11 @@
     "Link": "http://cdn.elsevier.com/promis_misc/Guidelines_Registered_Reports_HMS.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.journals.elsevier.com/human-movement-science/",
-  "Title": "Human Movement Science"
+  ]
  },
  {
+  "Title": "International Journal of Psychophysiology",
+  "URL": "http://www.journals.elsevier.com/international-journal-of-psychophysiology",
   "Notes": [
    {
     "Link": "http://www.sciencedirect.com/science/article/pii/S0167876016300381",
@@ -141,11 +143,11 @@
     "Link": "http://cdn.elsevier.com/promis_misc/Guidelines_Registered_Reports_HMS.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.journals.elsevier.com/international-journal-of-psychophysiology",
-  "Title": "International Journal of Psychophysiology"
+  ]
  },
  {
+  "Title": "Journal of Accounting Research",
+  "URL": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1475-679X",
   "Notes": [
    {
     "Link": "https://research.chicagobooth.edu/arc/journal-of-accounting-research/call-for-papers#simple2",
@@ -155,31 +157,31 @@
     "Link": "https://research.chicagobooth.edu/~/media/9130C8D2A8D54E1598D704C8D9BF922E.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1475-679X",
-  "Title": "Journal of Accounting Research"
+  ]
  },
  {
+  "Title": "Journal of Business and Psychology",
+  "URL": "http://link.springer.com/journal/10869",
   "Notes": [
    {
     "Link": "https://osf.io/ep2hs/",
     "Description": "Editorial"
    }
-  ],
-  "URL": "http://link.springer.com/journal/10869",
-  "Title": "Journal of Business and Psychology"
+  ]
  },
  {
+  "Title": "Journal of Cognitive Enhancement",
+  "URL": "http://www.springer.com/psychology/cognitive+psychology/journal/41465",
   "Notes": [
    {
     "Link": "",
     "Description": ""
    }
-  ],
-  "URL": "http://www.springer.com/psychology/cognitive+psychology/journal/41465",
-  "Title": "Journal of Cognitive Enhancement"
+  ]
  },
  {
+  "Title": "Journal of European Psychology Students ",
+  "URL": "http://jeps.efpsa.org/",
   "Notes": [
    {
     "Link": "http://jeps.efpsa.org/articles/10.5334/jeps.401/",
@@ -189,11 +191,11 @@
     "Link": "http://jeps.efpsa.org/about/submissions/#Registered%20Reports",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://jeps.efpsa.org/",
-  "Title": "Journal of European Psychology Students "
+  ]
  },
  {
+  "Title": "Journal of Experimental Political Science",
+  "URL": "https://www.cambridge.org/core/journals/journal-of-experimental-political-science",
   "Notes": [
    {
     "Link": "https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/continuity-and-change-at-the-journal-of-experimental-political-science/6006305AB40826371D36DE286A518693/core-reader",
@@ -203,11 +205,11 @@
     "Link": "",
     "Description": " Details to Follow"
    }
-  ],
-  "URL": "https://www.cambridge.org/core/journals/journal-of-experimental-political-science",
-  "Title": "Journal of Experimental Political Science"
+  ]
  },
  {
+  "Title": "Journal of Media Psychology",
+  "URL": "https://us.hogrefe.com/products/journals/jmp",
   "Notes": [
    {
     "Link": "https://dl.dropboxusercontent.com/u/15691907/JMP_2015_editorial.pdf",
@@ -217,11 +219,11 @@
     "Link": "https://us.hogrefe.com/fileadmin/user_upload/global/journals/Hogrefe_Publishing/Journal_of_Media_Psychology/zmp_author_instructions_general_2016-05-06.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "https://us.hogrefe.com/products/journals/jmp",
-  "Title": "Journal of Media Psychology"
+  ]
  },
  {
+  "Title": "Journal of Personnel Psychology",
+  "URL": "https://us.hogrefe.com/products/journals/jpp",
   "Notes": [
    {
     "Link": "http://econtent.hogrefe.com/doi/abs/10.1027/1866-5888/a000140",
@@ -231,11 +233,11 @@
     "Link": "https://us.hogrefe.com/fileadmin/user_upload/global/journals/Hogrefe_Publishing/Journal_of_Personnel_Psychology/pps_author_instructions_RegisteredReports_2016-01.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "https://us.hogrefe.com/products/journals/jpp",
-  "Title": "Journal of Personnel Psychology"
+  ]
  },
  {
+  "Title": "NFS Journal",
+  "URL": "http://www.journals.elsevier.com/nfs-journal/",
   "Notes": [
    {
     "Link": "http://www.journals.elsevier.com/nfs-journal/news/introducing-new-nfs-journal/",
@@ -245,11 +247,11 @@
     "Link": "http://cdn.elsevier.com/promis_misc/NFS_Reviewer_Guidelines.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://www.journals.elsevier.com/nfs-journal/",
-  "Title": "NFS Journal"
+  ]
  },
  {
+  "Title": "Nature Human Behaviour",
+  "URL": "http://www.nature.com/nathumbehav/",
   "Notes": [
    {
     "Link": "https://twitter.com/chrisdc77/status/743814766225928192",
@@ -259,31 +261,31 @@
     "Link": "",
     "Description": " Details to Follow"
    }
-  ],
-  "URL": "http://www.nature.com/nathumbehav/",
-  "Title": "Nature Human Behaviour"
+  ]
  },
  {
+  "Title": "Nicotine & Tobacco Research",
+  "URL": "http://ntr.oxfordjournals.org/",
   "Notes": [
    {
     "Link": "https://m.ntr.oxfordjournals.org/content/early/2016/02/11/ntr.ntw031.full.pdf",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://ntr.oxfordjournals.org/",
-  "Title": "Nicotine & Tobacco Research"
+  ]
  },
  {
+  "Title": "Perspectives on Psychological Science",
+  "URL": "http://pps.sagepub.com/",
   "Notes": [
    {
     "Link": "http://www.psychologicalscience.org/index.php/replication",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://pps.sagepub.com/",
-  "Title": "Perspectives on Psychological Science"
+  ]
  },
  {
+  "Title": "Royal Society Open Science",
+  "URL": "http://rsos.royalsocietypublishing.org/",
   "Notes": [
    {
     "Link": "https://blogs.royalsociety.org/publishing/registered-reports/",
@@ -293,11 +295,11 @@
     "Link": "http://rsos.royalsocietypublishing.org/content/registered-reports",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://rsos.royalsocietypublishing.org/",
-  "Title": "Royal Society Open Science"
+  ]
  },
  {
+  "Title": "Stress and Health",
+  "URL": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-2998",
   "Notes": [
    {
     "Link": "http://onlinelibrary.wiley.com/doi/10.1002/smi.2645/full",
@@ -307,11 +309,11 @@
     "Link": "http://onlinelibrary.wiley.com/store/10.1002/%28ISSN%291532-2998/asset/homepages/Author_Submission_Guidelines_for_Registered_Reports.pdf?v=1&s=e7fa5a44425ff03c92bc5fc28714fb580ee86e7a",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-2998",
-  "Title": "Stress and Health"
+  ]
  },
  {
+  "Title": "The Leadership Quarterly",
+  "URL": "http://www.journals.elsevier.com/the-leadership-quarterly",
   "Notes": [
    {
     "Link": "http://www.journals.elsevier.com/the-leadership-quarterly/news/john-antonakis-looks-forward-to-taking-the-reins-in-2017",
@@ -321,18 +323,16 @@
     "Link": "",
     "Description": " Details to Follow"
    }
-  ],
-  "URL": "http://www.journals.elsevier.com/the-leadership-quarterly",
-  "Title": "The Leadership Quarterly"
+  ]
  },
  {
+  "Title": "Work, Aging and Retirement",
+  "URL": "http://workar.oxfordjournals.org/",
   "Notes": [
    {
     "Link": "http://workar.oxfordjournals.org/about",
     "Description": "Guidelines"
    }
-  ],
-  "URL": "http://workar.oxfordjournals.org/",
-  "Title": "Work, Aging and Retirement"
+  ]
  }
 ]
