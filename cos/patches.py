@@ -1,4 +1,6 @@
 from django.utils.html import strip_tags
+from django.template.loader import render_to_string
+from django import forms
 
 def highlightingapply():
 
@@ -19,6 +21,59 @@ def highlightingapply():
         else:
             return self.render_html(highlight_locations, 0, 50)
 
+
     from haystack.utils.highlighting import Highlighter
 
     Highlighter.highlight = highlight
+
+
+def stream_block_form_apply():
+
+    def render_list_member(self, block_type_name, value, prefix, index, errors=None):
+        """
+        Render the HTML for a single list item. This consists of an <li> wrapper, hidden fields
+        to manage ID/deleted state/type, delete/reorder buttons, and the child block's own HTML.
+        """
+        child_block = self.child_blocks[block_type_name]
+        child = child_block.bind(value, prefix="%s-value" % prefix, errors=errors)
+        return render_to_string('wagtailadmin/stream_member.html', {
+            'child_blocks': self.child_blocks.values(),
+            'block_type_name': block_type_name,
+            'prefix': prefix,
+            'child': child,
+            'index': index,
+        })
+
+    @property
+    def media(self):
+        return forms.Media(
+            js=['js/sequence.js', 'js/stream.js'])
+
+    from wagtail.wagtailcore.blocks import BaseStreamBlock
+
+    BaseStreamBlock.render_list_member = render_list_member
+    BaseStreamBlock.media = media
+
+def list_block_form_apply():
+
+    def render_list_member(self, value, prefix, index, errors=None):
+        """
+        Render the HTML for a single list item in the form. This consists of an <li> wrapper, hidden fields
+        to manage ID/deleted state, delete/reorder buttons, and the child block's own form HTML.
+        """
+        child = self.child_block.bind(value, prefix="%s-value" % prefix, errors=errors)
+        return render_to_string('wagtailadmin/list_member.html', {
+            'prefix': prefix,
+            'child': child,
+            'index': index,
+        })
+
+    @property
+    def media(self):
+        return forms.Media(
+            js=['js/sequence.js', 'js/list.js'])
+
+    from wagtail.wagtailcore.blocks import ListBlock
+
+    ListBlock.render_list_member = render_list_member
+    ListBlock.media = media
