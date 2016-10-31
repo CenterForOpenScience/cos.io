@@ -8,30 +8,25 @@
 
         {% for child in children.values %}
             {% if child.block.label == 'Css style' %}
-                <li id="css-style-{{ prefix }}" style="display: Block;">
+                <li id="css-style-{{ prefix }}" style="display: none;">
                     <div class="col-md-3">
-                        <label>CSS Style</label>
+                        {% if child.block.label %}
+                        <label{% if child.id_for_label %} for="{{ child.id_for_label }}"{% endif %}>{{ child.block.label }}:</label>
+                    {% endif %}
                     </div>
                     <div class="col-md-9">
-                        <form action="">
+                        <div>
                             <div class="input_fields_wrap">
-                                <button class="add_field_button">Add More Fields</button>
-                                <div>
-                                    <div style="display: inline-block;">
-                                        <input type="text" class="key_text[]">
-                                    </div>
-                                    <span>  :  </span>
-                                    <div style="display: inline-block;">
-                                        <input type="text", class="value_text[]">
-                                    </div>
-                                </div>
+                                <button class="add_field_button" style="height:50px;">Add More Fields</button>
+                                <br>
                             </div>
                             <br>
                             <div>
-                                <input type="submit" value="STYLE IT!" style="width:auto;">
+                                <button class= "submit_style" style="height:50px;width:auto;">Style It!</button>
                             </div>
-                        </form>
+                        </div>
                     </div>
+                    {{ child.render_form }}
                 </li>
             {% else %}
                 <li{% if child.block.required %} class="required"{% endif %}>

@@ -47,7 +47,7 @@ def stream_block_form_apply():
     @property
     def media(self):
         return forms.Media(
-            js=['js/sequence.js', 'js/stream.js', 'js/add_more_fields.js'], css={'all':('plugins/bootstrap/css/bootstrap.min.css',)})
+            js=['js/sequence.js', 'js/stream.js'], css={'all':('plugins/bootstrap/css/bootstrap.min.css',)})
 
     from wagtail.wagtailcore.blocks import BaseStreamBlock
 
