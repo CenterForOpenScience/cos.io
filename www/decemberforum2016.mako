@@ -43,7 +43,9 @@
                     <li><a id="tab-1" href="#agenda" data-toggle="tab">Agenda</a></li>
                     <li><a id="tab-2" href="#directions" data-toggle="tab">Directions &amp Lodging</a></li>
                     <li><a id="tab-4" href="#committee" data-toggle="tab">Host Committee</a></li>
+                    <li><a id="tab-5" href="#speakers" data-toggle="tab">Speakers</a></li>
                     <li><a id="tab-3" href="#register" data-toggle="tab">Register Now</a></li>
+
                     
                     ##<li><a id="tab-5" href="#list" data-toggle="tab">749 Signatories</a></li>
                     ##<li><a id="tab-6" href="#scores" data-toggle="tab">Journal Scores</a></li>
@@ -457,13 +459,236 @@
                      <br>703/980-6118
                      <br>
                         
-
-
                     </div>
-
-                            <!-- END TAB CONTENT -->
+                    <!-- END TAB CONTENT -->
+                    <!-- SPEAKERS TAB-->
+                    <div class="tab-pane fade" id="speakers" style="margin-top:-200px">
+                    <div class="container">
+                     <div style="height: 200px;">&nbsp;</div>
+                    <div class="row margin-bottom-30" id="LawrenceTabak">
+                        <div class="col-md-7-offset-5">
+                            <h3>Lawrence A. Tabak, D.D.S., Ph.D.<br>
+                                <small><b>Senior Investigator - National Institute of Dental and Craniofacial Research Principal Deputy Director - National Institutes of Health</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span11">
+                                      <p>Dr. Tabak was appointed as the principal deputy director of the NIH on August 23, 2010. Previously he served as acting principal deputy director of the NIH from November 13, 2008 through August 14, 2009. Named as the director of the National Institute of Dental and Craniofacial Research (NIDCR) in September 2000, he held that post through August 2010. Prior to joining NIH, Dr. Tabak served as the senior associate dean for research and professor of dentistry and biochemistry and biophysics in the School of Medicine and Dentistry at the University of Rochester in New York. A former NIH MERIT recipient, Dr. Tabak has received several honors and awards for his work including being elected as a member of the Institute of Medicine of the National Academies. He has also received teaching awards for his work with both graduate and medical students.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="MaryroseFranko">
+                        <div class="col-md-7-offset-5">
+                            <h3>Maryrose Franko, Ph.D.<br>
+                                <small><b>Executive Director - Health Resource Alliance (HRA)</b></small>
+                            </h3>
+
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Dr. Franko received her PhD in molecular genetics from University of Southern California and did a post-doctoral fellowship at the National Institutes of Health before joining Howard Hughes Medical Institute (HHMI). Her collaboration to produce Making the Right Moves: A Practical Guide to Scientific Management for Postdocs and New Faculty, which was a joint effort of HHMI and Burroughs Wellcome Fund, contributed to the collaborative efforts that led to the creation of HRA. Franko was a founding board member of HRA, serving from 1995 to 2012.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="StuartBuck">
+                        <div class="col-md-7-offset-5">
+                            <h3>Stuart Buck, Ph.D. J.D.<br>
+                                <small><b>Vice President of Research Integrity - Laura and John Arnold Foundation</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Stuart holds a Ph.D. in education policy from the University of Arkansas, where he studied econometrics, statistics, and program evaluation; a J.D. with honors from Harvard Law School, where he was an editor of the Harvard Law Review; and bachelor’s and master’s degrees in music performance from the University of Georgia.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more3">more</a>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid summary">
+                                <div id="more3" class="collapse">
+                                  <p>Stuart leads the Foundation’s Research Integrity initiative, which seeks to improve the quality and reliability of scientific research in fields ranging from economics to cancer cell biology. In addition, he helps ensure that research supported by LJAF is as rigorous as possible, and that the Foundation’s major investments are themselves evaluated by independent experts.</p>
+                                  <div class="less">
+                                      <a class="button" data-toggle="collapse" data-target="#more3">less</a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>                 
+                    <div class="row margin-bottom-30" id="HeatherJoseph">
+                        <div class="col-md-7-offset-5">
+                            <h3>Sindy Escobar-Alvarez, Ph.D.<br>
+                                <small><b>Program Officer for Medical Research - Doris Duke Charitable Foundation</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Dr. Escobar-Alvarez received her doctoral training at the Pharmacology Department of Cornell University Weill Graduate School. Her graduate and post-doctoral research at Sloan-Kettering Institute was aimed at understanding the structure and function of human peptide deformylase in cancer mitochondria, and was awarded funding by the Geoffrey Beene Cancer Research Center. During her time at Cornell University she also participated in technology evaluation at the Cornell Center for Technology Enterprise and Commercialization. </p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more4">more</a>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid summary">
+                                <div id="more4" class="collapse">
+                                  <p>Prior to her doctoral training, she conducted research in kinase drug discovery at ActivX Biosciences. Escobar-Alvarez earned a degree in biochemistry from the Universidad del Valle de Guatemala, where she received multiple academic awards. Her research has been published in peer-reviewed journal.</p>
+
+                                  <div class="less">
+                                      <a class="button" data-toggle="collapse" data-target="#more4">less</a>
+                                  </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="JohnIoannidis">
+                        <div class="col-md-7-offset-5">
+                            <h3>Jason Gerson, Ph.D.<br>
+                                <small><b>Senior Program Officer, CER Methods - Patient Centered Outcomes Research Institute</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Jason Gerson, PhD, is Senior Program Officer for the Comparative Effectiveness Research (CER) Methods team at the Patient-Centered Outcomes Research Institute (PCORI). He is responsible for providing intellectual and organizational leadership in designing and implementing new CER methods initiatives, evaluating proposals, and monitoring programs and grants.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more5">more</a>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid summary">
+                                <div id="more5" class="collapse">
+                                <p>Before joining PCORI, Gerson was a senior officer at The Pew Charitable Trusts, where he led research activities on a number of drug safety and innovation issues. Before that, he was a commissioner’s Fellow at the Food and Drug Administration (FDA), working in the Office of Pediatric Therapeutics on regulatory science, policy, and ethical issues related to pediatric medical product development. Prior to joining the FDA, Gerson was a faculty member in the Department of Epidemiology at the Johns Hopkins Bloomberg School of Public Health. During that time, he served as a co-investigator on a project assessing how evidence about the biological mechanisms underlying therapeutic interventions (drugs and devices) is incorporated into the broader evidence base for those interventions.</p>
+
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more5">less</a>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="WilliamRegli">
+                        <div class="col-md-7-offset-5">
+                            <h3>William Regli, Ph.D.<br>
+                                <small><b>Deputy Director, Defense Sciences Offices - Defense Advanced Research Projects Agency</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Dr. William Regli joined DARPA as the Deputy Director of the Defense Sciences Office in September 2014. Dr. Regli is a computer scientist with a passion for addressing interdisciplinary and use-inspired problems using knowledge representation, physics-based modeling and other computational techniques. His most recent activities have focused on deploying cyber-infrastructure systems to capture and curate engineering and science data, and ensure the long-term sustainability of data. Dr. Regli’s current interests include computational tools to exploit the properties of advanced materials, additive manufacturing systems and enabling new paradigms for design and production.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more_william">more</a>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="more_william" class="collapse">
+                                  <p>Dr. Regli has published more than 250 technical articles, including those in leading venues for research in computer graphics, artificial intelligence, robotics, wireless networking, tissue engineering, and engineering design and manufacturing. His research has spawned two start-up technology companies (one focused on mobile communications for public safety, the other on information management in edge networks) and resulted in five U.S. Patents.</p>
+                                  <div class="less">
+                                      <a class="button" data-toggle="collapse" data-target="#more_william">less</a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="SimonNoble">
+                        <div class="col-md-7-offset-5">
+                            <h3>Simon Noble, Ph.D. <br>
+                                <small><b>Director, Scientific Communications - Cure Huntington’s Disease Initiative (CHDI)</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Simon Noble has a diverse scientific communications background, beginning in scientific publishing as an editor at Nature Medicine where he managed the peer review process for all immunology and infectious disease manuscripts. Most recently he was Senior Director for Scientific Communications at the International AIDS Vaccine Initiative (IAVI), a non-profit research, development, and advocacy organization committed to ensuring the development of an effective AIDS vaccine.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more6">more</a>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="more6" class="collapse">
+                                <p>He was also the editor of IAVI Report, that organization’s publication detailing scientific progress and challenges. Prior to this he pursued a transatlantic research career that included a PhD and postdoctoral fellowships focused on virology and immunology (including H1N1 swine influenza virus) at the Universities of Warwick and Wisconsin-Madison. He joined CHDI in 2009.</p>
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more6">less</a>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="Michelle Meyer">
+                        <div class="col-md-7-offset-5">
+                            <h3>Michelle Meyer, Ph.D., JD<br>
+                                <small><b>Associate Director Research Ethics - Geisinger Health System
+                                <p>Investigator I - Geisinger Health System</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Michelle N. Meyer, PhD, JD, is Investigator I (Assistant Professor) and Associate Director, Research Ethics, in the Center for Translational Bioethics and Health Care Policy at Geisinger Health System where, in addition to pursuing her own research, she is responsible for helping to enhance institutional infrastructure and capacity for the ethical design, conduct, evaluation, and oversight of Geisinger's research and other learning activities. </p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more_michelle">more</a>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="more_michelle" class="collapse">
+                                <p>Immediately before joining the faculty at Geisinger, Michelle was an Assistant Professor and Director of Bioethics Policy in the Clarkson University–Icahn School of Medicine at Mount Sinai School of Medicine Bioethics Program and Adjunct Faculty at Albany Law School, where she taught Law and Bioethics, Public Health Ethics, Advanced Bioethics Policy: Philosophical, Economic, and Psychological Foundations, and a survey of contemporary policy issues in the biosciences. Previously, she was an Academic Fellow at the Petrie-Flom Center for Health Law Policy, Biotechnology, and Bioethics at Harvard Law School, a Greenwall Fellow in Bioethics and Health Policy at The Johns Hopkins and Georgetown Universities, and a Research Fellow at the John F. Kennedy School of Government at Harvard.</p>
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more_michelle">less</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="MeredithMcPhail">
+                        <div class="col-md-7-offset-5">
+                            <h3>Meredith McPhail<br>
+                                <small><b>Research Integrity Manager - Laura and John Arnold Foundation</b></small>
+                            </h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Meredith helps manage the Foundation’s Research Integrity portfolio. Before joining the Foundation, she served as a decision science analyst at a major financial service provider. In that role, she helped departments use analytical methods to solve internal problems, mitigate risks, and achieve their objectives. She also previously worked as an analyst for a global economic consulting firm in Washington, D.C., where she researched the potential impacts of proposed energy and environmental regulations for clients.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more_meredith">more</a>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="more_meredith" class="collapse">
+                                <p>Meredith served as a research assistant in the economics department at the Massachusetts Institute of Technology, assisting in evaluations related to development and spatial economics and trade theories. She holds a master’s in economics from Duke University and graduated magna cum laude with a bachelor’s in economics and Spanish from Trinity University.</p>
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more_meredith">less</a>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margin-bottom-30" id="ChrisChambers">
+                        <div class="col-md-7-offset-5">
+                            <h3>
+                                Chris Chambers, Ph.D.<br>
+                                <small><b>Professor of Cognitive Neuroscience - Cardiff University
+                                <p>Head of Brain Stimulation - Cardiff University</b></small>
+                            </h3>
+
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Dr. Chris Chambers earned his PhD in Experimental Psychology, from Monash University in 2002. Dr. Chambers principal research interests include the use of brain stimulation (TMS, TES) and brain imaging techniques (fMRI, MRS, MEG) to understand cognitive control, attention and awareness in the human brain. Dr. Chambers is especially interested in translational applications of cognitive neuroscience in the domain of obesity and behaviour change. His group is also working on the simultaneous combination of TMS and MRI, as well as technical advances in TMS methods to improve the precision and reliability of cortical stimulation.</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                        </div>
+                    </div>
+                  </div>
                 </div>
                 <!-- END CONTENT -->
             </div>
@@ -498,8 +723,23 @@
               });
             </script>
 
+            <script type="text/javascript">
+                jQuery(document).ready(function() {
+                    // location.hash && $(location.hash + ' .collapse').collapse('show');
 
+                    // $('.btn-group').click(function(){
+                    //     $(location.hash + ' .collapse').collapse('show');
+                    // });
 
+                    $( '.more').click(function() {
+                      $( '.more').hide();
+                    });
+
+                    $( '.less').click(function() {
+                      $( '.more').show();
+                    });
+                });
+            </script>
 
             <script src="/static/scripts/bootstrap-table.js"></script>
 
