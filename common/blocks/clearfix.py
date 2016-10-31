@@ -10,8 +10,9 @@ from wagtail.wagtailcore.blocks import StructBlock
 from django.db.models import IntegerField
 from wagtail.wagtailcore import blocks
 from common.blocks.jobs import JobsWholeBlock
+from .StructBlockWithStyle import StructBlockWithStyle
 
-class ClearfixBlock(StructBlock):
+class ClearfixBlock(StructBlockWithStyle):
 
     class Meta:
         template = 'common/blocks/clearfix_block.html'
@@ -20,7 +21,7 @@ class ClearfixBlock(StructBlock):
         help_text = ('When you need to make sure that your next element(s) is on a new line from '
                      'the previous elements, use this little helper block.')
 
-class WhitespaceBlock(StructBlock):
+class WhitespaceBlock(StructBlockWithStyle):
 
     height = IntegerBlock()
 

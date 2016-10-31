@@ -47,12 +47,13 @@ def stream_block_form_apply():
     @property
     def media(self):
         return forms.Media(
-            js=['js/sequence.js', 'js/stream.js'], css={'all':('plugins/bootstrap/css/bootstrap.min.css',)})
+            js=['js/stream.js',], css={'all':('plugins/bootstrap/css/bootstrap.min.css',)})
 
     from wagtail.wagtailcore.blocks import BaseStreamBlock
 
     BaseStreamBlock.render_list_member = render_list_member
     BaseStreamBlock.media = media
+
 
 def list_block_form_apply():
 
@@ -71,7 +72,7 @@ def list_block_form_apply():
     @property
     def media(self):
         return forms.Media(
-            js=['js/sequence.js', 'js/list.js'], css=['plugins/bootstrap/css/boostrap.min.css'])
+            js=['js/list.js',], css={'all':('plugins/bootstrap/css/bootstrap.min.css',)})
 
     from wagtail.wagtailcore.blocks import ListBlock
 
