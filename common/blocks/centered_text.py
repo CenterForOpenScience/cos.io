@@ -1,7 +1,8 @@
+from .StructBlockWithStyle import StructBlockWithStyle
 from wagtail.wagtailcore import blocks
 
 
-class CenteredTextBlock(blocks.StructBlock):
+class CenteredTextBlock(StructBlockWithStyle):
     text = blocks.RichTextBlock()
 
     class Meta:

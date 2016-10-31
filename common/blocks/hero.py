@@ -1,7 +1,8 @@
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailimages.blocks import ImageChooserBlock
+from .StructBlockWithStyle import StructBlockWithStyle
 
-class HeroBlock(blocks.StructBlock):
+class HeroBlock(StructBlockWithStyle):
     image = ImageChooserBlock(required=True)
     description = blocks.RichTextBlock(required=True)
 

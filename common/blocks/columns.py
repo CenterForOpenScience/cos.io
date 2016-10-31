@@ -30,6 +30,7 @@ from common.blocks.images import COSPhotoStreamBlock
 from common.blocks.journal import JournalsTabBlock
 from common.blocks.jobs import JobsWholeBlock
 from common.blocks.people import PeopleBlock
+from common.blocks.codes import CodeBlock
 
 import logging
 logger = logging.getLogger('django')
@@ -64,6 +65,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
+            ('code_block', CodeBlock()),
             ('table_block', TableBlock()),
             ('journal_tab_block', JournalsTabBlock()),
             ('job_whole_block', JobsWholeBlock()),

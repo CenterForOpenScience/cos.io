@@ -1,6 +1,7 @@
 from wagtail.wagtailcore import blocks
+from .StructBlockWithStyle import StructBlockWithStyle
 
-class GoogleMapBlock(blocks.StructBlock):
+class GoogleMapBlock(StructBlockWithStyle):
     address = blocks.CharBlock(required=True,max_length=255)
     map_zoom_level = blocks.CharBlock(default=14,required=True,max_length=3)
 

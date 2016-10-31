@@ -1,0 +1,40 @@
+
+<div class="{{ classname }}">
+    {% if help_text %}
+        <div class="object-help help">{{ help_text }}</div>
+    {% endif %}
+
+    <ul class="fields">
+
+        {% for child in children.values %}
+            {% if child.block.label == 'Css style' %}
+                <li id="css-style-{{ prefix }}" style="display: none;">
+                    <div class="col-md-3">
+                        {% if child.block.label %}
+                        <label{% if child.id_for_label %} for="{{ child.id_for_label }}"{% endif %}>{{ child.block.label }}:</label>
+                    {% endif %}
+                    </div>
+                    <div class="col-md-9">
+                        <div>
+                            <div class="input_fields_wrap">
+
+                            </div>
+                            <a href="#" style="margin-left: 142px"><i class="add_field_button icon icon-fa-plus-circle icon-fa-2x"></i></a>
+                            <br>
+                        </div>
+                    </div>
+                    <div style="display: none;">
+                    {{ child.render_form }}
+                    </div>
+                </li>
+            {% else %}
+                <li{% if child.block.required %} class="required"{% endif %}>
+                    {% if child.block.label %}
+                        <label{% if child.id_for_label %} for="{{ child.id_for_label }}"{% endif %}>{{ child.block.label }}:</label>
+                    {% endif %}
+                    {{ child.render_form }}
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
