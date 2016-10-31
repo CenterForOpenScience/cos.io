@@ -26,7 +26,7 @@ class PersonModelAdmin(ModelAdmin):
 class JobModelAdmin(ModelAdmin):
     model = Job
     menu_label = 'Jobs' # ditch this to use verbose_name_plural from model
-    menu_icon = 'fa-id-badge' # change as required
+    menu_icon = 'fa-suitcase' # change as required
     menu_order = 400 # will put in 3rd place (000 being 1st, 100 2nd)
     add_to_settings_menu = False # or True to add your model to the Settings sub-menu
     list_display = ('title', 'background')
