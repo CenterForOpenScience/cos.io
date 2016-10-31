@@ -3,7 +3,7 @@ from common.blocks import LANGUAGE_CHOICES
 
 class CodeBlock(blocks.StructBlock):
 
-    css_style = blocks.TextBlock(required=False)
+    css_style = blocks.CharBlock(required=False)
     language = blocks.ChoiceBlock(choices=LANGUAGE_CHOICES, default="python")
     codes = blocks.TextBlock()
 
