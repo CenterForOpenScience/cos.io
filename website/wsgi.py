@@ -16,8 +16,8 @@ from django.core.wsgi import get_wsgi_application
 
 from cos import patches
 patches.highlightingapply()
-patches.stream_block_form_apply()
-patches.list_block_form_apply()
+#patches.stream_block_form_apply()
+#patches.list_block_form_apply()
 
 
 application = get_wsgi_application()
