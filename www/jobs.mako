@@ -1434,7 +1434,7 @@
                     </dd>
                     <dt>Applying</dt>
                     <dd>
-                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/1c1cedc2-3c09-4cb9-8eaa-b9681d91809b">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/2c9f846b-f484-487c-911f-c0af68f7e0f9">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
                     </dd>
                     <dt>Referrals</dt>
                     <dd>
