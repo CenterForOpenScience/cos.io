@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """Columns StreamField block
-
 This module provides a columns block for use with the wagtail StreamField
 class.
-
 TODO:
 * Limit the row to a maximum of 100% width
 """
@@ -33,24 +31,25 @@ from common.blocks.people import PeopleBlock
 from common.blocks.codes import CodeBlock
 
 import logging
+
 logger = logging.getLogger('django')
 
-class GenericContentStreamBlock(blocks.StreamBlock):
 
+class GenericContentStreamBlock(blocks.StreamBlock):
     def __init__(self, local_blocks=None, **kwargs):
 
         default_blocks = [
             ('appeal', blocks.StructBlock([
-                        ('icon', blocks.ChoiceBlock(required=True, choices=[
-                            ('none', 'none'),
-                            ('flask', 'flask'),
-                            ('group', 'group'),
-                            ('laptop', 'laptop'),
-                            ('sitemap', 'sitemap'),
-                            ('user', 'user'),
-                            ('book', 'book'),
-                            ('download', 'download'),
-                        ])),
+                ('icon', blocks.ChoiceBlock(required=True, choices=[
+                    ('none', 'none'),
+                    ('flask', 'flask'),
+                    ('group', 'group'),
+                    ('laptop', 'laptop'),
+                    ('sitemap', 'sitemap'),
+                    ('user', 'user'),
+                    ('book', 'book'),
+                    ('download', 'download'),
+                ])),
                 ('topic', blocks.CharBlock(required=True, max_length=35)),
                 ('content', blocks.TextBlock(required=True, max_length=255)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
@@ -62,7 +61,8 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('paragraph', blocks.TextBlock()),
             ('map', GoogleMapBlock()),
             ('customizedimage', ImageBlock()),
-            ('raw_html', blocks.RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+            ('raw_html', blocks.RawHTMLBlock(
+                help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
             ('code_block', CodeBlock()),
@@ -76,7 +76,6 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             default_blocks = default_blocks + local_blocks
 
         super(GenericContentStreamBlock, self).__init__(local_blocks=default_blocks, **kwargs)
-
 
     def render_form(self, value, prefix='', errors=None):
         error_dict = {}
@@ -99,7 +98,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             self.render_list_member(child.block_type, child.value, "%s-%d" % (prefix, i), i,
                                     errors=error_dict.get(i))
             for (i, child) in enumerate(valid_children)
-        ]
+            ]
 
         return render_to_string('common/block_forms/column_content.html', {
             'prefix': prefix,
@@ -117,7 +116,6 @@ class GenericContentStreamBlock(blocks.StreamBlock):
 
 
 class ColumnBlock(blocks.StructBlock):
-
     column_size = blocks.ChoiceBlock(choices=COLUMN_CHOICES, default="12")
     content = GenericContentStreamBlock()
 
@@ -129,7 +127,6 @@ class ColumnBlock(blocks.StructBlock):
 
 
 class RowBlock(blocks.ListBlock):
-
     class Meta:
         form_template = 'common/block_forms/columns.html'
         icon = 'fa-columns'
@@ -137,7 +134,8 @@ class RowBlock(blocks.ListBlock):
 
     @property
     def media(self):
-        return forms.Media(js=[static('wagtailadmin/js/blocks/sequence.js'), static('wagtailadmin/js/blocks/list.js'), static('common/js/blocks/columns.js')])
+        return forms.Media(js=[static('wagtailadmin/js/blocks/sequence.js'), static('wagtailadmin/js/blocks/list.js'),
+                               static('common/js/blocks/columns.js')])
 
     def __init__(self, **kwargs):
         return super(RowBlock, self).__init__(ColumnBlock(), **kwargs)
@@ -148,7 +146,7 @@ class RowBlock(blocks.ListBlock):
             [
                 (self.child_block._render_with_context(child_value, context=context),)
                 for child_value in value
-            ]
+                ]
         )
 
         return format_html("<div class='row margin-bottom-30'>{0}</div>", children)
@@ -167,19 +165,16 @@ class RowBlock(blocks.ListBlock):
             self.render_list_member(child_val, "%s-%d" % (prefix, i), i,
                                     errors=error_list[i] if error_list else None)
             for (i, child_val) in enumerate(value)
-        ]
+            ]
 
         return render_to_string('common/block_forms/columns.html', {
             'help_text': getattr(self.meta, 'help_text', None),
             'prefix': prefix,
             'list_members_html': list_members_html,
         })
-    
+
     def js_initializer(self):
         opts = {'definitionPrefix': "'%s'" % self.definition_prefix}
         if self.child_js_initializer:
             opts['childInitializer'] = self.child_js_initializer
         return "ColumnsBlock(%s)" % js_dict(opts)
-
-
-

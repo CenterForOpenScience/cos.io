@@ -9,17 +9,18 @@
         {% for child in children.values %}
             {% if child.block.label == 'Css style' %}
                 <li id="css-style-{{ prefix }}" style="display: none;">
-                    <div class="col-md-3">
+                    <div style="display: block;">
                         {% if child.block.label %}
                         <label{% if child.id_for_label %} for="{{ child.id_for_label }}"{% endif %}>{{ child.block.label }}:</label>
                     {% endif %}
                     </div>
-                    <div class="col-md-9">
+                    <div style="display: inline-block;">
                         <div>
                             <div class="input_fields_wrap">
 
                             </div>
-                            <a href="#" style="margin-left: 142px"><i class="add_field_button icon icon-fa-plus-circle icon-fa-2x"></i></a>
+                            <br>
+                            <a href="#" style="margin-left: 201px"><i class="add_field_button icon icon-fa-plus-circle icon-fa-2x"></i></a>
                             <br>
                         </div>
                     </div>

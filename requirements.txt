@@ -53,7 +53,6 @@ traitlets==4.3.0
 Unidecode==0.4.19
 urllib3==1.18
 wagtail==1.7
-wagtail-blog==1.6.8
 wagtailfontawesome==1.0.5
 wcwidth==0.1.7
 webencodings==0.5

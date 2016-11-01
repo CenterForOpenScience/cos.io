@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """Common page types for Wagtail CMS
-
 This module implements several common types of pages to be used in concert
 with the Wagtail CMS.
 """
