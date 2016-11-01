@@ -33,69 +33,70 @@
                         var form = $('#' + "css-style-" + sequenceMember.prefix + '-value');
                         form.toggle();
 
-                        var wrapper         = form.find(".input_fields_wrap"); //Fields wrapper
-                        var add_button      = form.find(".add_field_button"); //Add button ID
-                        var style_input     = form.find('#' + sequenceMember.prefix + '-value-css_style')
-                        var OK_button       = form.find(".submit_style");
+                        var add_button = form.find(".add_field_button"); //Add button ID
+                        if(form.is(':visible')) {
 
-                        $(wrapper).empty();
-                        var inputed_style_text = style_input.val();
-                        if(inputed_style_text.length>0){
-                            var text_arrays = inputed_style_text.split(";");
-                            for(var i = 0; i < text_arrays.length - 1; i++){
-                                var text_parts = text_arrays[i].split(":");
-                                var key = text_parts[0];
-                                var value = text_parts[1];
-                                var html_text = '<div class="row"><br><div style="display: inline-block;"><input type="text" class="input_text key_text" value="' + key + '"></div><span>  :  </span><div style="display: inline-block;"><input type="text", class="input_text value_text" value="'
-                                    + value + '"></div><a href="#" class="remove_field">&nbsp&nbsp<i class="icon icon-fa-times"></i></a></div>';
-                                $(wrapper).append(html_text);
-                            }
-                        }
+                            var wrapper = form.find(".input_fields_wrap"); //Fields wrapper
+                            var style_input = form.find('#' + sequenceMember.prefix + '-value-css_style')
 
-
-                        function fill_style_field() {
-                            var style_text = ""
-                            form.find(".row").each(
-                                function () {
-                                    var key = $(this).find(".key_text").val();
-                                    var value = $(this).find(".value_text").val();
-                                    style_text = style_text + key + ":" + value + ";";
+                            $(wrapper).empty();
+                            var inputed_style_text = style_input.val();
+                            if (inputed_style_text.length > 0) {
+                                var text_arrays = inputed_style_text.split(";");
+                                for (var i = 0; i < text_arrays.length - 1; i++) {
+                                    var text_parts = text_arrays[i].split(":");
+                                    var key = text_parts[0];
+                                    var value = text_parts[1];
+                                    var html_text = '<div class="row"><br><div style="display: inline-block;"><input type="text" class="input_text key_text" value="' + key + '"></div><span>  :  </span><div style="display: inline-block;"><input type="text", class="input_text value_text" value="'
+                                        + value + '"></div><a href="#" class="remove_field">&nbsp&nbsp&nbsp<i class="icon icon-fa-times icon-fa-2x"></i></a></div>';
+                                    $(wrapper).append(html_text);
                                 }
-                            )
-                            style_input.val(style_text);
-                        }
+                            }
 
-                        function refresh_inputs_listener(){
-                            var text_inputs = form.find(".input_text");
-                            $(text_inputs).change(function (e) {
-                                fill_style_field();
-                            });
-                        }
+                            function fill_style_field() {
+                                var style_text = ""
+                                form.find(".row").each(
+                                    function () {
+                                        var key = $(this).find(".key_text").val();
+                                        var value = $(this).find(".value_text").val();
+                                        style_text = style_text + key + ":" + value + ";";
+                                    }
+                                )
+                                style_input.val(style_text);
+                            }
 
-                        fill_style_field();
-                        refresh_inputs_listener();
-
-                        var max_fields = 100;
-                        var x= 1;
-                        $(add_button).click(function(e){ //on add input button click
-                            e.preventDefault();
-                            x++;
-                            if(x < max_fields) {
-                                $(wrapper).append('<div class="row"><br><div style="display: inline-block;"><input type="text" class="input_text key_text"></div><span>  :  </span><div style="display: inline-block;"><input type="text", class="input_text value_text"></div><a href="#" class="remove_field">&nbsp&nbsp<i class="icon icon-fa-times"></i></a></div>'); //add input box
+                            function refresh_inputs_listener() {
+                                var text_inputs = form.find(".input_text");
+                                $(text_inputs).change(function (e) {
+                                    e.preventDefault();
+                                    fill_style_field();
+                                });
                             }
 
                             fill_style_field();
                             refresh_inputs_listener();
 
-                        });
 
-                        $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-                            e.preventDefault();
-                            $(this).parent('div').remove();
-                            fill_style_field();
-                            refresh_inputs_listener();
-                            x--;
-                        })
+                            $(add_button).on('click',function (e) { //on add input button click
+                                e.preventDefault();
+
+                                $(wrapper).append('<div class="row"><br><div style="display: inline-block;"><input type="text" class="input_text key_text"></div><span>  :  </span><div style="display: inline-block;"><input type="text", class="input_text value_text"></div><a href="#" class="remove_field">&nbsp&nbsp&nbsp<i class="icon icon-fa-times icon-fa-2x"></i></a></div>'); //add input box
+
+                                fill_style_field();
+                                refresh_inputs_listener();
+
+                            });
+
+                            $(wrapper).on("click", ".remove_field", function (e) { //user click on remove text
+                                e.preventDefault();
+                                $(this).parent('div').remove();
+                                fill_style_field();
+                                refresh_inputs_listener();
+                            })
+                        }
+                        else{
+                            $(add_button).off();
+                        }
                     });
 
                     /* Set up the 'append a block' menu that appears after the block */
