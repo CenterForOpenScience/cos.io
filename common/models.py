@@ -208,8 +208,12 @@ class Person(ClusterableModel, index.Indexed):
     linked_in = URLField(blank=True)
     blog_url = URLField(blank=True)
     osf_profile = URLField(blank=True)
+    google_plus = URLField(blank=True)
+    github = URLField(blank=True)
+    twitter = URLField(blank=True)
     phone_number = CharField(max_length=12, blank=True, help_text="Format:XXX-XXX-XXXX")
     email_address = EmailField(blank=True)
+
     favorite_food = CharField(max_length=140, blank=True)
 
     tags = TaggableManager(through='common.PersonTag', blank=True)
@@ -233,6 +237,9 @@ class Person(ClusterableModel, index.Indexed):
             FieldPanel('linked_in'),
             FieldPanel('blog_url'),
             FieldPanel('osf_profile'),
+            FieldPanel('google_plus'),
+            FieldPanel('github'),
+            FieldPanel('twitter'),
             FieldPanel('phone_number'),
             FieldPanel('email_address'),
             FieldPanel('favorite_food'),
