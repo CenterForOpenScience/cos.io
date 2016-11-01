@@ -16,7 +16,6 @@
 .local_settings.pyc
 db.sqlite3
 env/
-static/
 static
 latest.dump
 local_settings.py
