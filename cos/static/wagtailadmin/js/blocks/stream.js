@@ -111,7 +111,6 @@
                         var wrapper         = form.find(".input_fields_wrap"); //Fields wrapper
                         var add_button      = form.find(".add_field_button"); //Add button ID
                         var style_input     = form.find('#' + sequenceMember.prefix + '-value-css_style')
-                        var OK_button       = form.find(".submit_style");
 
                         $(wrapper).empty();
                         var inputed_style_text = style_input.val();
