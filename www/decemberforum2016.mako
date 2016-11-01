@@ -466,7 +466,12 @@
                     <div class="container">
                      <div style="height: 200px;">&nbsp;</div>
                     <div class="row margin-bottom-30" id="LawrenceTabak">
-                        <div class="col-md-7-offset-5">
+                      <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/tabak.png" alt="Lawrence A. Tabak">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Lawrence A. Tabak, D.D.S., Ph.D.<br>
                                 <small><b>Senior Investigator - National Institute of Dental and Craniofacial Research Principal Deputy Director - National Institutes of Health</b></small>
                             </h3>
@@ -479,7 +484,12 @@
                     </div>
                     <hr>
                     <div class="row margin-bottom-30" id="MaryroseFranko">
-                        <div class="col-md-7-offset-5">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/franco.png" alt="Maryrose Franko">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Maryrose Franko, Ph.D.<br>
                                 <small><b>Executive Director - Health Resource Alliance (HRA)</b></small>
                             </h3>
@@ -493,7 +503,12 @@
                     </div>
                     <hr>
                     <div class="row margin-bottom-30" id="StuartBuck">
-                        <div class="col-md-7-offset-5">
+                      <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/buck.png" alt="Stuart Buck">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Stuart Buck, Ph.D. J.D.<br>
                                 <small><b>Vice President of Research Integrity - Laura and John Arnold Foundation</b></small>
                             </h3>
@@ -517,8 +532,13 @@
                         </div>
                     </div>
                     <hr>                 
-                    <div class="row margin-bottom-30" id="HeatherJoseph">
-                        <div class="col-md-7-offset-5">
+                    <div class="row margin-bottom-30" id="">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/alvarez.png" alt="Sindy Escobar-Alvarez">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Sindy Escobar-Alvarez, Ph.D.<br>
                                 <small><b>Program Officer for Medical Research - Doris Duke Charitable Foundation</b></small>
                             </h3>
@@ -544,8 +564,13 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="row margin-bottom-30" id="JohnIoannidis">
-                        <div class="col-md-7-offset-5">
+                    <div class="row margin-bottom-30" id="">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/gerson.png" alt="Jason Gerson">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Jason Gerson, Ph.D.<br>
                                 <small><b>Senior Program Officer, CER Methods - Patient Centered Outcomes Research Institute</b></small>
                             </h3>
@@ -572,7 +597,12 @@
                     </div>
                     <hr>
                     <div class="row margin-bottom-30" id="WilliamRegli">
-                        <div class="col-md-7-offset-5">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/regli.png" alt="William Regli">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>William Regli, Ph.D.<br>
                                 <small><b>Deputy Director, Defense Sciences Offices - Defense Advanced Research Projects Agency</b></small>
                             </h3>
@@ -596,7 +626,12 @@
                     </div>
                     <hr>
                     <div class="row margin-bottom-30" id="SimonNoble">
-                        <div class="col-md-7-offset-5">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/noble.png" alt="Simon Noble">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Simon Noble, Ph.D. <br>
                                 <small><b>Director, Scientific Communications - Cure Huntington’s Disease Initiative (CHDI)</b></small>
                             </h3>
@@ -619,9 +654,14 @@
 
                         </div>
                     </div>
-                    <hr>
+                  <hr>
                     <div class="row margin-bottom-30" id="Michelle Meyer">
-                        <div class="col-md-7-offset-5">
+                      <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/meyer.png" alt="Michelle Meyer">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Michelle Meyer, Ph.D., JD<br>
                                 <small><b>Associate Director Research Ethics - Geisinger Health System
                                 <p>Investigator I - Geisinger Health System</b></small>
@@ -646,7 +686,12 @@
                     </div>
                     <hr>
                     <div class="row margin-bottom-30" id="MeredithMcPhail">
-                        <div class="col-md-7-offset-5">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/mcphail.png" alt="Meredith McPhail">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
                             <h3>Meredith McPhail<br>
                                 <small><b>Research Integrity Manager - Laura and John Arnold Foundation</b></small>
                             </h3>
@@ -671,9 +716,13 @@
                     </div>
                     <hr>
                     <div class="row margin-bottom-30" id="ChrisChambers">
-                        <div class="col-md-7-offset-5">
-                            <h3>
-                                Chris Chambers, Ph.D.<br>
+                       <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/chambers.png" alt="Chris Chambers">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3>Chris Chambers, Ph.D.<br>
                                 <small><b>Professor of Cognitive Neuroscience - Cardiff University
                                 <p>Head of Brain Stimulation - Cardiff University</b></small>
                             </h3>
@@ -685,6 +734,35 @@
                             </div>
                         </div>
                       </div>
+                      <hr>
+                      <div class="row margin-bottom-30" id="">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/larosa.png" alt="Salvatore La Rosa">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3>Salvatore La Rosa, Ph. D. <br>
+                                <small><b>Vice President, Research and Development - Children’s Tumor Foundation</b></small></h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>At CTF, Dr. La Rosa is responsible for the implementation of the Foundation’s business strategy into research projects. He manages the foundation’s research activities, providing scientific and knowledgeable review of discovery, preclinical and early development programs in the field of Neurofibromatosis (NF). Dr. La Rosa is responsible for the development and management of novel partnerships and initiatives with academic research groups and biotech/pharma companies which could address unmet needs in the field.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more_larosa">more</a>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="more_larosa" class="collapse">
+                                <p>Besides the activities of compound scouting and grants management, he is involved in ad-hoc collaborative research programs, CRO selection and management, as well as preclinical testing consortia. Dr. La Rosa’s team acts as project manager for the Synodos program, a $8M in three years investment, totaling 4 highly integrated projects, more than 30 Principal Investigators and 20 different institutions. In the past, he served as Group Leader and Project Leader for Siena Biotech (Italy), Nikem Research (Italy) and Evotec (UK). He holds a PhD in Medicinal Chemistry from the University of Strathclyde in Glasgow (Scotland, UK) and MSc in Organic Chemistry from the University of Messina (Italy).</p>
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more_larosa">less</a>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                     </div>
                         </div>
                     </div>
