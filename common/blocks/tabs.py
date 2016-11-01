@@ -38,9 +38,6 @@ class TabBlock(StructBlock):
         form_template = 'common/block_forms/tab.html'
 
 
-
-
-
 class TabListBlock(blocks.ListBlock):
 
     class Meta:

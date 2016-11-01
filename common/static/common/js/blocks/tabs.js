@@ -11,6 +11,9 @@
                 prefix: elementPrefix,
                 onInitializeMember: function(sequenceMember) {
                     /* initialize child block's JS behaviour */
+
+                    $('#' + sequenceMember.prefix + '-setting').remove();
+
                     if (opts.childInitializer) {
                         opts.childInitializer(sequenceMember.prefix + '-value');
                     }
