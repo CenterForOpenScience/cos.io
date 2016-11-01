@@ -379,6 +379,16 @@ body {
     min-width: 400px;
 }
 
+/*Decforum Blocks*/
+
+.decforum-thumbnail img {
+    max-height: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    display:block;
+    margin:auto;
+}
+
 /*Partner Blocks*/
 
 .front-partners {
