@@ -1,0 +1,132 @@
+{% load humanize %}
+{% load wagtailimages_tags %}
+{% load wagtailcore_tags %}
+
+{% if value.displayChoice == 'sponsors' %}
+    {% regroup donations|dictsortreversed:"date.year" by date.year as donations_year %}
+    {% regroup inkinddonations by date.year as inkinddonations_year %}
+    <div class="portlet box tabbable margin-top-50">
+        <div class="portlet-body">
+            <div class="portlet-tabs">
+                <ul class="nav nav-tabs">
+                    {% for do_year in donations_year %}
+                        {% if forloop.first %}
+                            <li class = "active"><a href="#year_{{ do_year.grouper }}" data-toggle="tab">{{ do_year.grouper }}</a></li>
+                        {% else %}
+                            <li class><a href="#year_{{ do_year.grouper }}" data-toggle="tab">{{ do_year.grouper }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <div class="tab-content">
+                    {% for do_year in donations_year %}
+                        {% if forloop.first %}
+                            <div class = "tab-pane active" id = "year_{{ do_year.grouper }}">
+                                <table>
+                                    <tbody>
+                                        {% for do in do_year.list|dictsortreversed:'amount' %}
+                                            <tr>
+                                                <td class="sponsor-center">
+                                                    <a href="{{ do.organization.url }}">{% image do.organization.logo original %}</a>
+                                                </td>
+                                                <td>
+                                                    <span class="med-font"><strong>{{ do.organization.name }}</strong></span><br>
+                                                    <strong>${{ do.amount|intcomma }}</strong><br>
+                                                    {{ do.thank_you_message|richtext }}
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                                <div id="in-kind" class="margin-top-100">
+                                    <h3><strong>In-Kind Donations</strong></h3>
+                                    <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
+                                    {% for indo_year in inkinddonations_year %}
+                                        {% if indo_year.grouper == do_year.grouper %}
+                                            {% for indo in indo_year.list %}
+                                                <table class="margin-top-50 donation-table">
+                                                    <tbody><tr>
+                                                        <td class="sponsor-center" id="jetbrains"><a href="{{ indo.organization.url }}">{% image indo.organization.logo original %}</a></td>
+                                                        <td>
+                                                            <span class="med-font">
+                                                                <strong>{{ indo.organization.name }}</strong>
+                                                            </span><br>
+                                                            {{ indo.thank_you_message|richtext }}
+                                                            <br>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="spacer"></tr>
+                                                </tbody></table>
+                                            {% endfor %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% else %}
+                            <div class = "tab-pane" id = "year_{{ do_year.grouper }}">
+                                <table>
+                                    <tbody>
+                                        {% for do in do_year.list|dictsortreversed:'amount' %}
+                                            <tr>
+                                                <td class="sponsor-center">
+                                                    <a href="{{ do.organization.url }}">{% image do.organization.logo original %}</a>
+                                                </td>
+                                                <td>
+                                                    <span class="med-font"><strong>{{ do.organization.name }}</strong></span><br>
+                                                    <strong>${{ do.amount|intcomma }}</strong><br>
+                                                    {{ do.thank_you_message|richtext }}
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                                <div id="in-kind" class="margin-top-100">
+                                    <h3><strong>In-Kind Donations</strong></h3>
+                                    <p>These organizations helped us out by providing in-kind donations of goods and services.</p>
+                                    {% for indo_year in inkinddonations_year %}
+                                        {% if indo_year.grouper == do_year.grouper %}
+                                            {% for indo in indo_year.list %}
+                                                <table class="margin-top-50 donation-table">
+                                                    <tbody><tr>
+                                                        <td class="sponsor-center" id="jetbrains"><a href="{{ indo.organization.url }}">{% image indo.organization.logo original %}</a></td>
+                                                        <td>
+                                                            <span class="med-font">
+                                                                <strong>{{ indo.organization.name }}</strong>
+                                                            </span><br>
+                                                            {{ indo.thank_you_message|richtext }}
+                                                            <br>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="spacer"></tr>
+                                                </tbody></table>
+                                            {% endfor %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <table class="margin-bottom-50">
+        <tbody>
+        {% for org in organizations %}
+            {% if org.partner %}
+                <tr>
+                    <td class="sponsor-center"><a href="{{ org.url }}">{% image org.logo original %}</a></td>
+                    <td><span class="med-font"><strong>{{ org.name }}</strong></span><br>
+                        {{ org.introduction|richtext }}
+                    </td>
+                </tr>
+                <tr class="spacer"></tr>
+            {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
