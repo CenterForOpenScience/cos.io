@@ -103,6 +103,7 @@
     }
 
 </style>
+{% load wagtailcore_tags %}
 <div>
     {% for tab in value.tab_list %}
         <input id='s{{ forloop.counter }}-tab-state' class='tabs-state' type='radio' name='tabs-state' title='s{{ forloop.counter }}-tab' {% if forloop.first %}checked='checked' {% endif %}/>
@@ -113,7 +114,7 @@
     {% endfor %}</div>
     
     <div class='panels{% if value.tabs_style == 'vertical' %} col-sm-10{% endif %}'>{% for tab in value.tab_list %}
-        <div class='tab-panel' id='s{{ forloop.counter }}-tab-panel'>{{ tab.content }}</div>
+        <div class='tab-panel' id='s{{ forloop.counter }}-tab-panel'>{% include_block tab.content %}</div>
     {% endfor %}</div>
     
 </div>
