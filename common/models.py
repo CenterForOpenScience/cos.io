@@ -61,6 +61,7 @@ from common.blocks.codes import CodeBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
 from common.blocks.journal import JournalsTabBlock
 from common.blocks.mfr import MfrBlock
+from common.blocks.sponsors_partner import SponsorPartnerBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -335,6 +336,7 @@ class CustomPage(Page, index.Indexed):
         ('calender_blog', GoogleCalendarBlock()),
         ('journal_block', JournalsTabBlock()),
         ('render_file', MfrBlock()),
+        ('sponsor_partner_block', SponsorPartnerBlock()),
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
@@ -360,6 +362,8 @@ class CustomPage(Page, index.Indexed):
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
             'organizations': Organization.objects.all(),
+            'donations': Donation.objects.all(),
+            'inkinddonations': InkindDonation.objects.all(),
         })
 
     @transaction.atomic  # only commit when all descendants are properly updated
@@ -548,7 +552,7 @@ class Donation(ClusterableModel, index.Indexed):
     )
     date = DateField()
     amount = IntegerField(blank=True, null=True)
-    thank_you_message = TextField()
+    thank_you_message = RichTextField(blank=True)
 
     panels = [
         FieldPanel('date'),
@@ -559,9 +563,33 @@ class Donation(ClusterableModel, index.Indexed):
     class Meta:
         ordering = ['date']
 
+class InkindDonation(ClusterableModel, index.Indexed):
+
+    organization = ParentalKey(
+        'common.Organization',
+        verbose_name='Organization',
+        related_name='inkind_donations',
+        null=True, blank=True,
+        on_delete=CASCADE
+    )
+
+    date = DateField()
+    thank_you_message = RichTextField(blank=True)
+
+    panels = [
+        FieldPanel('date'),
+        FieldPanel('thank_you_message')
+    ]
+
+    class Meta:
+        ordering = ['date']
+
 class Organization(ClusterableModel, index.Indexed):
     name = CharField(max_length=255)
     partner = BooleanField(blank=True, default=False)
+    introduction = RichTextField(blank=True)
+    url = URLField(blank=True)
+
     logo = ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -576,8 +604,11 @@ class Organization(ClusterableModel, index.Indexed):
     panels = [
         FieldPanel('name'),
         FieldPanel('partner'),
+        FieldPanel('introduction'),
         ImageChooserPanel('logo'),
+        FieldPanel('url'),
         InlinePanel('donations', label='Donations'),
+        InlinePanel('inkind_donations', label="In-kind Donations"),
     ]
 
     class Meta:
