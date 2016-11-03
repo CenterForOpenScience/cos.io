@@ -1,4 +1,4 @@
-{% load menu wagtailcore_tags %}
+{% load static menu wagtailcore_tags %}
 {% get_site_root as site_root %}
 
 <div class="header navbar navbar-default navbar-default-top" id="blue-nav">
@@ -11,7 +11,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand logo-v1" href="{% pageurl site_root %}">
-        <img src="http://cos.io/static/img/icons/cos_wide.png" id="logoimg" alt="COS logo">
+        <img src="{% static 'images/cos_wide.png' %}" id="logoimg" alt="COS logo">
       </a>
     </div>
     <div class="navbar-collapse collapse">
