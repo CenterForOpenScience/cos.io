@@ -42,7 +42,7 @@
                     "../pr/2016-11-03"><img src="../static/img/icons/cos_logo.png"
                     width="125">
                     <h2 class="text-left">The Center for Open Science Receives Grant from DARPA to Support Its Next Generation Social Science (NGS2) Program</h2>
-                    <p class="text-left">November 03, 2016 | The Center for Open Science is pleased to announce that it has received a $1.8M grant in support of a Defense Advanced Research Projects Agency (DARPA) initiative on the Next Generation Social Sciences 16-32, entitled “A comprehensive research content and workflow pipeline to increase openness, reproducibility, and prediction in social science research.” </p></a>
+                    <p class="text-left">November 03, 2016 | The Center for Open Science is pleased to announce that it has received a $1.8M grant in support of a Defense Advanced Research Projects Agency (DARPA) initiative on the Next Generation Social Sciences 16-32, entitled “A comprehensive research content and workflow pipeline to increase openness, reproducibility, and prediction in social science research.”</p></a>
                 </div>
 
 
