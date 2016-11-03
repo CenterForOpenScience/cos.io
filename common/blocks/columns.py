@@ -17,7 +17,7 @@ from wagtail.wagtailcore.blocks.utils import js_dict
 from wagtail.wagtailcore import blocks
 from wagtail.wagtailembeds.blocks import EmbedBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
-from wagtail.contrib.table_block.blocks import TableBlock
+# from wagtail.contrib.table_block.blocks import TableBlock
 
 from common.blocks import COLOUR_CHOICES, COLUMN_CHOICES
 from common.blocks.maps import GoogleMapBlock
@@ -29,6 +29,7 @@ from common.blocks.journal import JournalsTabBlock
 from common.blocks.jobs import JobsWholeBlock
 from common.blocks.people import PeopleBlock
 from common.blocks.codes import CodeBlock
+from common.blocks.table import CustomTableBlock
 
 import logging
 
@@ -66,7 +67,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('centered_text', CenteredTextBlock()),
             ('embed_block', EmbedBlock()),
             ('code_block', CodeBlock()),
-            ('table_block', TableBlock()),
+            ('table_block', CustomTableBlock()),
             ('journal_tab_block', JournalsTabBlock()),
             ('job_whole_block', JobsWholeBlock()),
             ('people_block', PeopleBlock()),
