@@ -62,6 +62,7 @@ from common.blocks.googlecalendar import GoogleCalendarBlock
 from common.blocks.journal import JournalsTabBlock
 from common.blocks.mfr import MfrBlock
 from common.blocks.sponsors_partner import SponsorPartnerBlock
+from common.blocks.table import CustomTableBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -333,6 +334,7 @@ class CustomPage(Page, index.Indexed):
         ('whitespaceblock', WhitespaceBlock()),
         ('clear_fixblock', ClearfixBlock()),
         ('code_block', CodeBlock()),
+        ('table_block', CustomTableBlock()),
         ('calender_blog', GoogleCalendarBlock()),
         ('journal_block', JournalsTabBlock()),
         ('render_file', MfrBlock()),
