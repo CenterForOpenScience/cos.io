@@ -4,6 +4,14 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2016-09-14/">
+                Center for Open Science Internship Program Leads to Eight New Hires</a></h3>
+        </div>
+    </div>
+
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2016-08-31/">
                 Center for Open Science Announces Technology Collaboration with Overleaf</a></h3>
         </div>
@@ -23,12 +31,7 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2016-01-26/">
-                The Center for Open Science and the University of Notre Dame Partner to Advance Technologies That Support Long-Term Solutions for Open Science Initiatives</a></h3>
-        </div>
-    </div>
+
 
 
 
