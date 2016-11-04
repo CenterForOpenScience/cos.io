@@ -30,6 +30,7 @@ from common.blocks.jobs import JobsWholeBlock
 from common.blocks.people import PeopleBlock
 from common.blocks.codes import CodeBlock
 from common.blocks.table import CustomTableBlock
+from common.blocks.collapsebox import CollapseBoxBlock
 
 import logging
 
@@ -71,6 +72,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('journal_tab_block', JournalsTabBlock()),
             ('job_whole_block', JobsWholeBlock()),
             ('people_block', PeopleBlock()),
+            ('collapse_block', CollapseBoxBlock()),
         ]
 
         if local_blocks:

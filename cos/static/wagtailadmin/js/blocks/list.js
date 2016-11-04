@@ -106,15 +106,6 @@
                         }
                     });
 
-                    /* Set up the 'append a block' menu that appears after the block */
-                    StreamBlockMenu({
-                        childBlocks: opts.childBlocks,
-                        id: sequenceMember.prefix + '-appendmenu',
-                        onChooseBlock: function(childBlock) {
-                            var template = listMemberTemplates[childBlock.name];
-                            sequenceMember.appendMember(template);
-                        }
-                    });
                 },
 
                 onEnableMoveUp: function(sequenceMember) {

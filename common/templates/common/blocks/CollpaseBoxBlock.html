@@ -1,0 +1,8 @@
+{% load wagtailcore_tags %}
+<h3>{{ self.title }}</h3>
+<div class='panel-group'>
+    {% for i in self.list %}
+        {% include_block i %}
+    {% endfor %}
+</div>
+
