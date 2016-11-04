@@ -22,7 +22,7 @@ from wagtail.wagtailimages.blocks import ImageChooserBlock
 from common.blocks import COLOUR_CHOICES, COLUMN_CHOICES
 from common.blocks.maps import GoogleMapBlock
 from common.blocks.twitter import TwitterBlock
-from common.blocks.images import ImageBlock
+from common.blocks.images import ImageBlock, CustomImageBlock
 from common.blocks.centered_text import CenteredTextBlock
 from common.blocks.images import COSPhotoStreamBlock
 from common.blocks.journal import JournalsTabBlock
@@ -62,7 +62,8 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('rich_text', blocks.RichTextBlock()),
             ('paragraph', blocks.TextBlock()),
             ('map', GoogleMapBlock()),
-            ('customizedimage', ImageBlock()),
+            ('image', ImageBlock()),
+            ('customImage', CustomImageBlock()),
             ('raw_html', blocks.RawHTMLBlock(
                 help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
             ('centered_text', CenteredTextBlock()),
