@@ -729,7 +729,7 @@
 
                             <div class="row-fluid summary">
                                 <div class="span21">
-                                    <p>Dr. Chris Chambers earned his PhD in Experimental Psychology, from Monash University in 2002. Dr. Chambers principal research interests include the use of brain stimulation (TMS, TES) and brain imaging techniques (fMRI, MRS, MEG) to understand cognitive control, attention and awareness in the human brain. Dr. Chambers is especially interested in translational applications of cognitive neuroscience in the domain of obesity and behaviour change. His group is also working on the simultaneous combination of TMS and MRI, as well as technical advances in TMS methods to improve the precision and reliability of cortical stimulation.</p>
+                                    <p>Chris Chambers is a professor of cognitive neuroscience at the School of Psychology, Cardiff University and a freelance contributor to the Guardian Science blog network. His work spans a range of disciplines, from the neuroscience of self-control, to the role of science in the media and public policy, to developing tools for open science including journal-based study pre-registration (Registered Reports). He is section editor of Registered Reports at several journals, including Cortex, Royal Society Open Science, and the European Journal of Neuroscience, and currently serves as chair of the Registered Reports Committee at the Center for Open Science.</p>
                                 </div>
                             </div>
                         </div>

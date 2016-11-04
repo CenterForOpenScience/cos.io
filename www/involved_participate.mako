@@ -800,6 +800,28 @@
         </table>
     </td>
 
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                <a href="https://osf.io/2h8c6/" target="_blank">
+                    <img src="../static/img/people/ambassadors/tusiime_jayne.JPG" alt="Jayne Tusiime">
+                </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Jayne Tusiime
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of California, Berkeley and Busitema University Faculty of Health Sciences
+                </td>
+            </tr>
+        </table>
+    </td>
+
     <td class="ambassador-data">       
          <table class="ambassador-box">        
              <tr>      
@@ -821,6 +843,9 @@
              </tr>     
          </table>      
      </td>      
+
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -844,8 +869,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -890,6 +913,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -913,8 +938,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -962,7 +985,9 @@
              </tr>     
          </table>      
      </td>     
-     
+ 
+ </tr>
+<tr>    
 
      <td class="ambassador-data">      
          <table class="ambassador-box">        
@@ -986,8 +1011,6 @@
         </table>      
      </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1034,6 +1057,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1056,8 +1082,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
      <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1103,6 +1127,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
      <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1125,8 +1152,6 @@
         </table>
     </td>
 
-</tr>
-<tr> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1173,6 +1198,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1196,8 +1223,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1244,6 +1269,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1266,8 +1294,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1314,6 +1340,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1336,8 +1365,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1383,6 +1410,9 @@
         </table>
     </td>
 
+</tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1405,8 +1435,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1453,7 +1481,8 @@
         </table>
     </td>
 
-
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1477,8 +1506,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1525,6 +1552,8 @@
         </table>
     </td>
  
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1548,8 +1577,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1596,6 +1623,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1619,8 +1648,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1667,6 +1694,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1690,8 +1719,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1738,6 +1765,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
      <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1761,8 +1790,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
     
     <td class="ambassador-data">
         <table class="ambassador-box">
