@@ -24,5 +24,5 @@ class CollapseBoxBlock(StructBlock):
     list = CollapseBoxListBlock()
 
     class Meta:
-        template = 'common/blocks/CollpaseBoxBlock.html'
+        template = 'common/blocks/collapse_box_block.html'
         icon = 'list-ul'
