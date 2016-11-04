@@ -2,41 +2,39 @@
 {% get_site_root as site_root %}
 
 <div class="header navbar navbar-default navbar-default-top" id="blue-nav">
-  <div class="container">
-    <div class="navbar-header">
-      <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand logo-v1" href="{% pageurl site_root %}">
-        <img src="{% static 'images/cos_wide.png' %}" id="logoimg" alt="COS logo">
-      </a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        {% for menuitem in menuitems %}
-        <li class="{% if menuitem.show_dropdown %}dropdown{% endif %}{% if menuitem.active %} active{% endif %}">
-          {% if menuitem.show_dropdown %}
-          <a data-toggle="dropdown" class="dropdown-toggle" href="#">{{ menuitem.title }} <b class="caret"></b></a>
-          {% top_menu_children parent=menuitem %}
-          {% else %}
-          <a href="{% pageurl menuitem %}">{{ menuitem.title }}</a>
-          {% endif %}
-        </li>
-        {% endfor %}
-       <li>
-          <a id="searchIcon">
-            <span class="fa fa-search fa-lg"></span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div id="searchBar" style="display:none;">
-      {% block search_box %}
-        {% include "common/blocks/search_box.html" only %}
-      {% endblock %}
-    </div>
+  <div class="navbar-header">
+    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand logo-v1" href="{% pageurl site_root %}">
+      <img src="{% static 'images/cos_wide.png' %}" id="logoimg" alt="COS logo">
+    </a>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      {% for menuitem in menuitems %}
+      <li class="{% if menuitem.show_dropdown %}dropdown{% endif %}{% if menuitem.active %} active{% endif %}">
+        {% if menuitem.show_dropdown %}
+        <a data-toggle="dropdown" class="dropdown-toggle" href="#">{{ menuitem.title }} <b class="caret"></b></a>
+        {% top_menu_children parent=menuitem %}
+        {% else %}
+        <a href="{% pageurl menuitem %}">{{ menuitem.title }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+      <li>
+        <a id="searchIcon">
+          <span class="fa fa-search fa-lg"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="searchBar" style="display:none;">
+    {% block search_box %}
+    {% include "common/blocks/search_box.html" only %}
+    {% endblock %}
   </div>
 </div>
