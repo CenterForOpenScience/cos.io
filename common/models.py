@@ -63,6 +63,7 @@ from common.blocks.journal import JournalsTabBlock
 from common.blocks.mfr import MfrBlock
 from common.blocks.sponsors_partner import SponsorPartnerBlock
 from common.blocks.table import CustomTableBlock
+from common.blocks.collapsebox import CollapseBoxBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -339,6 +340,7 @@ class CustomPage(Page, index.Indexed):
         ('journal_block', JournalsTabBlock()),
         ('render_file', MfrBlock()),
         ('sponsor_partner_block', SponsorPartnerBlock()),
+        ('collapse_block', CollapseBoxBlock()),
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
