@@ -2,6 +2,7 @@ from wagtail.wagtailcore.blocks import CharBlock
 from wagtail.wagtailcore.blocks import ChoiceBlock
 from wagtail.wagtailcore.blocks import StructBlock
 from wagtail.wagtailimages.blocks import ImageChooserBlock
+from .StructBlockWithStyle import StructBlockWithStyle
 
 IMAGE_STYLE_CHOICES = [
     ('max-width:225px;max-height:145px', 'Small'),
@@ -27,3 +28,13 @@ class ImageBlock(StructBlock):
         template = 'common/blocks/image_custom_block.html'
         icon = 'image'
         label = 'Image'
+
+class CustomImageBlock(StructBlockWithStyle):
+
+    main_image = ImageChooserBlock()
+    url = CharBlock(max_length=250, required=False)
+
+    class Meta:
+        template = 'common/blocks/image_free_custom_block.html'
+        icon = 'image'
+        label = 'CustomImage'

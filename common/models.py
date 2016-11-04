@@ -52,7 +52,7 @@ from common.blocks.centered_text import CenteredTextBlock
 from common.blocks.columns import RowBlock
 from common.blocks.maps import GoogleMapBlock
 from common.blocks.twitter import TwitterBlock
-from common.blocks.images import ImageBlock
+from common.blocks.images import ImageBlock, CustomImageBlock
 from common.blocks.images import COSPhotoStreamBlock
 from common.blocks.clearfix import WhitespaceBlock
 from common.blocks.clearfix import ClearfixBlock
@@ -324,6 +324,7 @@ class CustomPage(Page, index.Indexed):
         ('column', RowBlock()),
         ('tabs', TabsBlock()),
         ('image', ImageBlock()),
+        ('customImage', CustomImageBlock()),
         ('rich_text', RichTextBlock()),
         ('raw_html', RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),

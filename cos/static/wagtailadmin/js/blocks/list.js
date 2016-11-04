@@ -13,7 +13,7 @@
                     /* initialize child block's JS behaviour */
 
                     var blockTypeName = $('#' + sequenceMember.prefix + '-type').val();
-                    var available_block_types = ['centered_text','whitespaceblock','clear_fixblock','code_block','calender_blog','render_file','journal_block'];
+                    var available_block_types = ['centered_text','whitespaceblock','clear_fixblock','code_block','calender_blog','render_file','journal_block', 'customImage'];
                     if(!(available_block_types.includes(blockTypeName))){
                         $('#' + sequenceMember.prefix + '-setting').remove();
                     }
