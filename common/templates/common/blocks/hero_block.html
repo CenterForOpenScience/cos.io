@@ -5,18 +5,17 @@
 
 <div class = "slide-wrapper">
     <div class="container">
-        <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height:340px;">
-
-
+        <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height:auto;">
+            <div class="row tagline">
                <div class="col-md-12 main-cos-logo">
                   {% image self.image original as image%}
-                  <img src="{{ image.url }}" style="padding:28px 28px 28px 28px;">
+                  <img src="{{ image.url }}" style="padding:28px 28px 28px 28px"/>
                </div>
 
-              <div class="hp-slide-head col-md-12">
-                {{ self.description }}
-              </div>
-
+               <div class="hp-slide-head col-md-12">
+                   {{ self.description }}
+               </div>
+            </div>
         </div>
     </div>
 </div>
