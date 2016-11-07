@@ -11,6 +11,7 @@ for (i = 0; i < personList.length; i++) {
     individualBtn.type = "button";
     individualBtn.className = "btn btn-default";
     individualBtn.style.marginRight = '4px';
+    individualBtn.style.marginBotton = '4px';
     individualBtn.innerHTML = personList[i].getElementsByClassName('name')[0].textContent;
     individualLink.appendChild(individualBtn);
     linkContainer.appendChild(individualLink);
