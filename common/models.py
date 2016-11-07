@@ -337,7 +337,7 @@ class CustomPage(Page, index.Indexed):
         ('clear_fixblock', ClearfixBlock()),
         ('code_block', CodeBlock()),
         ('table_block', CustomTableBlock()),
-        ('calender_blog', GoogleCalendarBlock()),
+        ('calender_block', GoogleCalendarBlock()),
         ('journal_block', JournalsTabBlock()),
         ('render_file', MfrBlock()),
         ('sponsor_partner_block', SponsorPartnerBlock()),
