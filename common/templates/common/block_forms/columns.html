@@ -1,32 +1,27 @@
-
-
-
 {% load i18n %}
 
-
-
 <style>
-.sequence-type-columns > div > .sequence {
-    overflow: hidden;
+ .sequence-type-columns > div > .sequence {
+   overflow: hidden;
 
-}
-.sequence-type-columns > div > .sequence > li {
-    float:left;
-}
-.sequence-type-columns .sequence > li:hover {
-    border-radius: 15px;
-    background-color: rgba(250,250,250,0.4);
-}
+ }
+ .sequence-type-columns > div > .sequence > li {
+   float:left;
+ }
+ .sequence-type-columns .sequence > li:hover {
+   border-radius: 15px;
+   background-color: rgba(250,250,250,0.4);
+ }
 
-.sequence-type-columns .sequence > li > .sequence-member-inner {
-    padding: 0px;
-    width: 100%;
-}
+ .sequence-type-columns .sequence > li > .sequence-member-inner {
+   padding: 0px;
+   width: 100%;
+ }
 
-#{{ prefix }}-add {
-    clear: both;
-    float: right;
-}
+ #{{ prefix }}-add {
+   clear: both;
+   float: right;
+ }
 </style>
 
 <div class="sequence-container sequence-type-columns">
@@ -52,16 +47,3 @@
     <button type="button" id="{{ prefix }}-add" class="button bicolor icon icon-plus">{% trans "Add a Column" %}</button>
     </div>
 </div>
-
-
-<script>
-
-
-</script>
-
-
-
-
-
-
-

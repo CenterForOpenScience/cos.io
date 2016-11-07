@@ -7,14 +7,13 @@ import django
 from website.settings.base import DEFAULT_FOOTER_ID
 
 # must come before we import common.models
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'website.settings.dev')
 django.setup()
 
 import common.models
 
 def migrate(dry=True):
-    html = '''<div class='row margin-bottom-30'>
-    <div class='col-md-4' ><div class="block-rich_text"><div class="rich-text"><h4>About</h4><p>The Center for Open Science fosters openness, integrity, and reproducibility of scientific research</p></div></div></div>
+    html = '''<div class='col-md-4' ><div class="block-rich_text"><div class="rich-text"><h4>About</h4><p>The Center for Open Science fosters openness, integrity, and reproducibility of scientific research</p></div></div></div>
 
     <div class='col-md-4' ><div class="block-rich_text"><div class="rich-text"><h4>Contact Us</h4><p>Center for Open Science</p><p>210 Ridge McIntire Road</p><p>Suite 500</p><p>Charlottesville, VA 22903-5083</p><p>Email: contact@cos.io</p><p><br/></p></div></div>
     <div class="block-photo_stream"><h2>Photo Stream</h2>
@@ -30,7 +29,6 @@ def migrate(dry=True):
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
     </div></div>
-    </div>
     '''
 
     # First, convert the html to json, with the appropriate block type

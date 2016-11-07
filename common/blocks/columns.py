@@ -150,7 +150,7 @@ class RowBlock(blocks.ListBlock):
             [
                 (self.child_block._render_with_context(child_value, context=context),)
                 for child_value in value
-                ]
+            ]
         )
 
         return format_html("<div class='row margin-bottom-30'>{0}</div>", children)
