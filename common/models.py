@@ -64,6 +64,7 @@ from common.blocks.mfr import MfrBlock
 from common.blocks.sponsors_partner import SponsorPartnerBlock
 from common.blocks.table import CustomTableBlock
 from common.blocks.collapsebox import CollapseBoxBlock
+from common.blocks.button import ButtonBlock
 
 # Edit Panels
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
@@ -342,6 +343,7 @@ class CustomPage(Page, index.Indexed):
         ('render_file', MfrBlock()),
         ('sponsor_partner_block', SponsorPartnerBlock()),
         ('collapse_block', CollapseBoxBlock()),
+        ('button', ButtonBlock()),
     ], null=True, blank=True)
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
