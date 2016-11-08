@@ -763,6 +763,47 @@
 
                         </div>
                     </div>
+                    <hr>
+                    <h3><strong>Organizations Attending</h3></strong>
+                    <ul>
+                      <li>American Association for Cancer Research</li>
+                      <li>American Cancer Society</li>
+                      <li>American Heart Association</li>
+                      <li>Austrian Science Fund</li>
+                      <li>Autism Science Foundation</li>
+                      <li>Booz Allen Hamilton</li>
+                      <li>Burroughs Wellcome Fund</li>
+                      <li>Cancer Research Institute</li>
+                      <li>Cardiff University</li>
+                      <li>CHDI</li>
+                      <li>Children's Tumor Foundation</li>
+                      <li>Conquer Cancer Foundation of ASCO</li>
+                      <li>DARPA</li>
+                      <li>Donaghue Foundation</li>
+                      <li>Doris Duke Charitable Foundation</li>
+                      <li>Focused Ultrasound Foundation</li>
+                      <li>Foundation Fighting Blindness</li>
+                      <li>Foundation for Physical Therapy</li>
+                      <li>Health Research Alliance</li>
+                      <li>Hydrocephalus Association</li>
+                      <li>IARPA</li>
+                      <li>Institute of Museum and Library Services</li>
+                      <li>International Institution for Impact Evaluation</li>
+                      <li>John E. Fetzer Memorial Trust</li>
+                      <li>John Templeton Foundation</li>
+                      <li>Mind and Life Institute</li>
+                      <li>National Institute on Aging</li>
+                      <li>National Institutes of Health</li>
+                      <li>National Science Foundation</li>
+                      <li>National Center for Advancing Translational Sciences</li>
+                      <li>Pancreatic Cancer Action Network</li>
+                      <li>PCORI - Patient-Centered Outcomes Research Institute</li>
+                      <li>Rheumatology Research Foundation</li>
+                      <li>St. Baldrick's Foundation</li>
+                      <li>Templeton World Charity Foundation</li>
+                      <li>The Gerber Foundation</li>
+                      <li>University of Notre Dame</li>
+                    </ul>
                     </div>
                         </div>
                     </div>
