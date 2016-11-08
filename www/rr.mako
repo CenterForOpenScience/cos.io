@@ -81,7 +81,7 @@
                         <ul class="nav nav-tabs">
 
                             <p style="text-align:justify">
-                              Below is the list of journals currently offering Registered Reports as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or journals that do not provide Registered Reports but which offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://osf.io/8mpji/wiki/2.%20Journal%20Comparison/">table</a> that compares the specific features of Registered Reports at different outlets.
+                              Currently, 44 journals use the Registered Reports publishing format. Journals can offer the format  as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or can offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://osf.io/8mpji/wiki/2.%20Journal%20Comparison/">table</a> that compares the specific features of Registered Reports at different outlets.
                             </p>
                             <br>
                               <li class="active"><a data-toggle="tab" href="#rrjournals"><b>Journals that have adopted Registered Reports</b></a></li>
@@ -225,6 +225,7 @@
                         <li><a target="_blank" href="https://osf.io/5adi7/">Templates of reviewer invitation letters and author decision letters</a></li>
                         <li><a target="_blank" href="https://osf.io/2m4ct/">Implementation checklist</a></li>
                         <li><a data-tab-destination="tab-4">Frequently Asked Questions</a></li>
+                        <li>Find published Registered Reports in <a target="_blank" href="https://www.zotero.org/groups/osf/items/collectionKey/KEJP68G9">this collection</a>.</li>
                       </ul>
                     </div>
                     <!-- END TAB 2 -->
