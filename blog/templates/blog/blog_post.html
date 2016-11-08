@@ -1,5 +1,5 @@
 {% load wagtailcore_tags static %}
-
+{% load wagtailimages_tags %}
 
 {% if include_context == "index_page" %}
 <div style="position:relative">
@@ -111,6 +111,7 @@
                 </div>
             </div>
             <br>
+            {% image blog.header_image original %}
             {% for b in page.content %}
                 {% include_block b %}
             {% endfor %}
