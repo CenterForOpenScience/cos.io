@@ -2,29 +2,32 @@
 {% load wagtailimages_tags %}
 
 {% if include_context == "index_page" %}
-<div style="position:relative">
-    <span><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="display:inline;"><strong>{{ blog.title }}</strong></h2></a></span>
+<div>
+    <div class = 'col-md-7' style="padding:0 0 0 0"><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="display:inline;"><strong>{{ blog.title }}</strong></h2></a>
+    </div>
     {% if blog.date %}
-    <span class="meta date right_aligned_span">
-        {{ blog.date|date:"F jS, Y"}},
-        {% if not blog.blog_authors.all %}
-            {{  blog.get_author }}
-        {% else %}
-            {% for a in blog.blog_authors.all %}
-                {% if forloop.last %}
-                    {{ a.first_name }}
-                    {{ a.last_name }}
-                {% else %}
-                    {{ a.first_name }}
-                    {{ a.last_name }},
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    </span>
+    <div class='col-md-5' style="text-align:right;margin-top: 5px;">
+            {{ blog.date|date:"F jS, Y"}},
+            {% if not blog.blog_authors.all %}
+                {{  blog.get_author }}
+            {% else %}
+                {% for a in blog.blog_authors.all %}
+                    {% if forloop.last %}
+                        {{ a.first_name }}
+                        {{ a.last_name }}
+                    {% else %}
+                        {{ a.first_name }}
+                        {{ a.last_name }},
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+    </div>
     {% endif %}
+    <div id="clear" style="clear:both;"></div>
 </div>
 
-<div class="blog-intro">
+<div class="blog-intro" style="display: block" >
     <p><a href="{% pageurl blog %}">
         {{ blog.intro|truncatewords_html:70 }}
     </a></p>
