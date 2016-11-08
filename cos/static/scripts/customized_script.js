@@ -97,3 +97,34 @@ $(document).ready(function () {
 
 })
 
+
+var tabs = document.getElementsByClassName("vertical-tabs")[0];
+if(tabs){
+    var button_blocks = document.getElementsByClassName("block-button");
+    var row_list = [];
+    var div = document.createElement("div");
+    div.style.backgroundColor='white';
+    var sub_div = document.createElement("div");
+    sub_div.style.height="45px";
+    div.appendChild(sub_div);
+    tabs.appendChild(div);
+    for(var i = 0; i < button_blocks.length; i++){
+        if(button_blocks[i].parentElement.className == 'col-md-2' && button_blocks[i].parentElement.className != 'vertical-tabs'){
+            var row = button_blocks[i].parentElement
+            row_list.push(row);
+            var sub_div = document.createElement("div");
+            sub_div.style.height="3px";
+            div.appendChild(sub_div);
+            div.appendChild(button_blocks[i].getElementsByTagName('a')[0]);
+        }
+    }
+
+    for(var i=0; i < row_list.length; i++){
+        var row = row_list[i];
+        row.remove();
+    }
+
+}
+
+
+

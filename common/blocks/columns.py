@@ -32,6 +32,7 @@ from common.blocks.codes import CodeBlock
 from common.blocks.table import CustomTableBlock
 from common.blocks.collapsebox import CollapseBoxBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
+from common.blocks.button import ButtonBlock
 
 import logging
 
@@ -76,6 +77,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
             ('job_whole_block', JobsWholeBlock()),
             ('people_block', PeopleBlock()),
             ('collapse_block', CollapseBoxBlock()),
+            ('button', ButtonBlock()),
         ]
 
         if local_blocks:
