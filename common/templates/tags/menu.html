@@ -11,10 +11,10 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand logo-v1" href="{% pageurl site_root %}">
-        <img src="{% static 'images/cos_wide.png' %}" id="logoimg" alt="COS logo">
+        <img src="{% static 'images/cos_stack.png' %}" id="logoimg" alt="COS logo">
       </a>
     </div>
-    <div class="navbar-collapse collapse">
+    <div class="navbar-collapse collapse" style="padding-top: 30px; margin-right: 100px">
       <ul class="nav navbar-nav">
         {% for menuitem in menuitems %}
         <li class="{% if menuitem.show_dropdown %}dropdown{% endif %}{% if menuitem.active %} active{% endif %}">
