@@ -1,32 +1,37 @@
 [
  {
+  "Title": "Acdf",
+  "Notes": [],
+  "URL": ""
+ },
+ {
   "Title": "Communication Methods and Measures",
-  "URL": "http://www.tandfonline.com/toc/hcms20/current",
   "Notes": [
    {
-    "Link": "http://mass.icahdq.org/ohana/documents/?guid=C5CBC04F-0B45-4F94-B284-23456D568767",
-    "Description": "Special Issue - call closed"
+    "Description": "Special Issue - call closed",
+    "Link": "http://mass.icahdq.org/ohana/documents/?guid=C5CBC04F-0B45-4F94-B284-23456D568767"
    }
-  ]
+  ],
+  "URL": "http://www.tandfonline.com/toc/hcms20/current"
  },
  {
   "Title": "Journal of Experimental Psychology: General",
-  "URL": "http://www.apa.org/pubs/journals/xge/",
   "Notes": [
    {
-    "Link": "https://www.dropbox.com/s/bss5xc3nlfwnadw/Clarifications.pdf",
-    "Description": "Instructions"
+    "Description": "Instructions",
+    "Link": "https://www.dropbox.com/s/bss5xc3nlfwnadw/Clarifications.pdf"
    }
-  ]
+  ],
+  "URL": "http://www.apa.org/pubs/journals/xge/"
  },
  {
   "Title": "Journal of Experimental Social Psychology",
-  "URL": "http://www.journals.elsevier.com/journal-of-experimental-social-psychology/",
   "Notes": [
    {
-    "Link": "https://web.archive.org/web/20140616061609/http://www.journals.elsevier.com/journal-of-experimental-social-psychology/call-for-papers/call-for-submissions-special-issue-on-pre-registered-researc",
-    "Description": "Instructions"
+    "Description": "Instructions",
+    "Link": "https://web.archive.org/web/20140616061609/http://www.journals.elsevier.com/journal-of-experimental-social-psychology/call-for-papers/call-for-submissions-special-issue-on-pre-registered-researc"
    }
-  ]
+  ],
+  "URL": "http://www.journals.elsevier.com/journal-of-experimental-social-psychology/"
  }
 ]
