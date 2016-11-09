@@ -152,7 +152,7 @@ class FormPage(AbstractEmailForm):
     ]
 
 class Job(ClusterableModel, index.Indexed):
-    title = CharField(max_length=255)
+    title = CharField(max_length=255, unique=True)
     background = RichTextField(blank=True)
     responsibilities = RichTextField(blank=True)
     skills = RichTextField(blank=True)
@@ -592,7 +592,7 @@ class InkindDonation(ClusterableModel, index.Indexed):
         ordering = ['date']
 
 class Organization(ClusterableModel, index.Indexed):
-    name = CharField(max_length=255)
+    name = CharField(max_length=255, unique=True)
     partner = BooleanField(blank=True, default=False)
     introduction = RichTextField(blank=True)
     url = URLField(blank=True)
@@ -627,7 +627,7 @@ class Organization(ClusterableModel, index.Indexed):
 
 class Journal(ClusterableModel, index.Indexed):
 
-    title = CharField(max_length=255)
+    title = CharField(max_length=255, unique=True)
     url_link = URLField(blank=True)
 
     is_registered_journal = BooleanField(blank=True, default=False)
