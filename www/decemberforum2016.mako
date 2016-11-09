@@ -43,7 +43,8 @@
                     <li><a id="tab-1" href="#agenda" data-toggle="tab">Agenda</a></li>
                     <li><a id="tab-2" href="#directions" data-toggle="tab">Directions &amp Lodging</a></li>
                     <li><a id="tab-4" href="#committee" data-toggle="tab">Host Committee</a></li>
-                    <li><a id="tab-5" href="#speakers" data-toggle="tab">Speakers</a></li>
+                    <li><a id="tab-5" href="#speakers" data-toggle="tab">Speakers &amp Organizations Attending</a></li>
+                    <li><a id="tab-5" href="#awards" data-toggle="tab">Travel Awards</a></li>
                     <li><a id="tab-3" href="#register" data-toggle="tab">Register Now</a></li>
 
                     
@@ -65,6 +66,9 @@
                                     <p style="text-align:justify">
                                       Make plans to attend this free, two-day meeting, to share knowledge, discuss increasing transparency and reproducibility of research, promote community standards to maximize the impact of research dollars, and advance the social good.
                                       <br>
+                                      <br>
+                                      <p><strong><h4>The Doris Duke Charitable Foundation has generously provided funds to support a limited number of travel awards to cover a portion of meeting participants travel costs.  Apply <a href="http://cos.io/decemberforum2016/#awards">here</a>.</strong></h4>
+                                      <br>
                                       <strong><h2>Why should you attend?</h2></strong>
                                       
                                       What does it mean to have impact? For researchers it means pursuing knowledge, wherever it leads. For funders it means supporting research projects that advance knowledge and meet their institutional mission. <strong>Both are under pressure to deliver game-changing research to justify investments.</strong>
@@ -83,6 +87,8 @@
                                       </ul>
                                       <br>
                                       If you are funding research and want to share good practices and/or learn about what leading edge funding organizations are doing to encourage reproducibility and transparency in the research community, please join us.</p>
+                                      <br>
+                                     
                                       
                                
                                      
@@ -460,7 +466,21 @@
                      <br>
                         
                     </div>
-                    <!-- END TAB CONTENT -->
+
+                    <div class="tab-pane fade" id="awards" style="margin-top:-200px">
+                    <div style="height: 200px;">&nbsp;</div>
+                    <h4>Travel Awards</h4>
+                    <p>The Doris Duke Charitable Foundation has generously provided funds to support a limited number of travel awards to cover a portion of meeting participants travel costs.  Should limited travel and conference budgets hamper your ability to attend this meeting you may apply for one of 15 travel awards of up to $500 per individual.   We wish to support as many organizations as possible with this grant  and will distribute these funds with a preference to funding one award per organization. However, should funds allow, an organization may request and receive multiple travel awards. Travel awards will be reviewed and funded in the order they are received.</p>
+                    ## <a href="http://cos.io"><img src="../static/img/icons/dorisduke.jpg" alt="Doris Duke" style="height:80px"></a>
+                    <br>
+                    <h4>Can't view the form? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdk-wyAjx-fYVp0MQKRxhR-Iwo9WwGvhI0PqJrrbHNZlnXzOg/viewform">Click here.</a></h4>
+                    <br>
+
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdk-wyAjx-fYVp0MQKRxhR-Iwo9WwGvhI0PqJrrbHNZlnXzOg/viewform?embedded=true" width="760" height="1800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                        
+                       
+   
+                    </div>
                     <!-- SPEAKERS TAB-->
                     <div class="tab-pane fade" id="speakers" style="margin-top:-200px">
                     <div class="container">
@@ -784,6 +804,7 @@
                       <li>Focused Ultrasound Foundation</li>
                       <li>Foundation Fighting Blindness</li>
                       <li>Foundation for Physical Therapy</li>
+                      <li>Geisinger Health System</li> 
                       <li>Health Research Alliance</li>
                       <li>Hydrocephalus Association</li>
                       <li>IARPA</li>
