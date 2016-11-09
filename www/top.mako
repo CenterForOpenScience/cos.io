@@ -68,7 +68,7 @@
 
 
                                         <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
-                                      757 Journals and 63 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
+                                      757 Journals and 64 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
 
                                 </td>
                             </tr>
@@ -299,7 +299,7 @@
                                             </ol>
                                                     <br>
                         <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (757)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (63)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (64)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
