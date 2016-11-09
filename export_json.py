@@ -24,8 +24,8 @@ def save_to_journal_json(file_name, para_name, file_option):
             bulk.append(x)
 
     file_path = './cos/static/' + file_name + '.json'
-    with open(file_path, 'w') as data_file:
-        json.dump(bulk, data_file, indent=1)
+    with open(file_path, 'w', encoding='utf8') as data_file:
+        json.dump(bulk, data_file, indent=1, ensure_ascii=False)
 
 def export_json():
 
@@ -37,7 +37,7 @@ def export_json():
         x = {'Organization': e.name}
         bulk.append(x)
     with io.open('./cos/static/toporgs.json', 'w', encoding='utf8') as data_file:
-        json.dump(bulk, data_file, indent=1)
+        json.dump(bulk, data_file, indent=1, ensure_ascii=False)
 
     print('Finished exporting toporgs.json')
 
