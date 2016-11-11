@@ -131,8 +131,16 @@
                                         for Maximizing Research Impact Through Transparency, Rigor, and Reproducibility</strong> 
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>
-
+                                        <strong>Location</strong> - Omni Ballroom
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Maryrose Franko - Health Resource Alliance (Welcome and Moderator)</p>
+                                          <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
+                                          <p>Steve Kern - Bill and Melinda Gates Foundation</p>
+                                          <p>Larry Tabak - National Institutes of Health</p>
+                                        </div>
+                                      </td>
                                     </tr>
                                     <tr>
                                       <td>10:00AM</td>
@@ -143,11 +151,19 @@
 
                                     </tr>
                                     <tr>
-                                      <td>10:20AM</td>
+                                      <td>10:30AM</td>
                                       <td><strong>Grant Agreements - Policies for Requiring Sharing Data, Materials, and Code</strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>David Mellor - COS (Moderator)</p>
+                                          <p>Stuart Buck - Laura and John Arnold Foundation</p>
+                                          <p>Jason Gerson - PCORI</p>
+                                        </div>
+                                      </td>
 
                                     </tr>
                                     <tr>
@@ -157,42 +173,71 @@
                                     </tr>
                                     <tr>
                                       <td>12:00PM</td>
-                                      <td><strong>Lunch Presentation - Center for Open Science: Building a Social Good for Research Practices </strong>
+                                      <td><strong>Buffet Lunch and Lunch Presentation (noon) - Center for Open Science: Building a Social Good for Research Practices</strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Brian Nosek - COS</p>
+                                        </div>
+                                      </td>
 
                                     </tr>
                                     <tr>
-                                      <td>12:45PM</td>
+                                      <td>12:50PM</td>
                                       <td><strong>Panel Discussion -  Preregistration: Concept, Purpose, Approach and Building Partnerships Between Journals and Funders to Address Publication Bias </strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>                                        
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Brian Nosek - COS (Moderator)</p>
+                                          <p>Chris Chambers - Cardiff University, Journal for Open Science</p>
+                                          <p>Simon  Noble - CHDI</p>
+                                        </div>
+                                      </td>                                        
 
 
                                     <tr>
                                       <td>2:00PM</td>
-                                      <td><strong>Panel Discussion - Grant Review Processes to Maximize Rigor and
-                                        Reproducibility of Funded Projects </strong>
-                                        <br>
-                                        <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>    
-
-
-                                    <tr>
-                                      <td>3:15PM</td>
                                       <td><strong>Coffee Break</strong>
                                         <br>
                                         <br>
                                         <strong>Location</strong> - Omni Ballroom Lobby</td>  
 
                                     <tr>
+                                      <td>2:30PM</td>
+                                      <td><strong>Panel Discussion - Grant Review Processes to Maximize Rigor and
+                                        Reproducibility of Funded Projects </strong>
+                                        <br>
+                                        <br>
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Courtney Soderberg - COS (Moderator)</p>
+                                          <p>Salvatore LaRosa -  The Children’s Tumor Foundation </p>
+                                        </div>
+                                      </td>    
+
+                                    <tr>
                                       <td>3:35PM</td>
-                                      <td><strong>Panel Discussion - How Funders can Partner with Grantees to Meet Requirements for Meeting Transparency and Reproducibility  </strong>
+                                      <td><strong>Case Reviews of Researchers’ Adopting Transparency and Reproducible Research Practices
+                                      </strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom</td>  
+                                        <strong>Location</strong> - Omni Ballroom
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Tim Errington COS - Using the OSF for project management -RP: CB</p>
+                                          <p>Lily Hummer COS and University of Virginia - Preregistration: What does it look like?</p> 
+                                          <p>Charlie Ebersole University of Virginia - Becoming an open scientist (+ meetings, preprints) using OSF in your research career</p>
+                                        </div>
+                                      </td>  
 
 
 
@@ -201,7 +246,13 @@
                                       <td><strong>Wrap up Day 1 </strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom</td>  
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br> 
+                                        <div class="name_block">
+                                          <p>Amy Laster - Foundation for Fighting Blindness</p>
+                                        </div>
+                                      </td>
 
 
                                     <tr>
@@ -242,55 +293,79 @@
                                       <td><strong>Welcome and Review of Agenda</strong> 
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br> 
+                                        <div class="name_block">
+                                          <p>Brian Nosek - COS</p>
+                                        </div>
+                                      </td>
 
                                     </tr>
                                     <tr>
-                                      <td>8:45AM</td>
-                                      <td><strong>Panel Discussion and Case Review Supporting Transparency and Reproducible Research Practices Through Training and Tools</strong>
+                                      <td>8:40AM</td>
+                                      <td><strong>Panel Discussion - How Funders can Help Grantees Meet Requirements for Transparency and Reproducibility</strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Matt Spitzer - (Moderator)</p>
+                                          <p>Bill Regli - DARPA</p>
+                                          <p>Meredith McPhail - Laura and John Arnold Foundation</p>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+
+                                      <tr>
+                                      <td>9:45AM</td>
+                                      <td><strong>University Perspectives on Open Science</strong>
+                                        <br>
+                                        <br>
+                                        <strong>Location</strong> - Omni Ballroom 
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Michele Meyer - Geisinger Health System</p>
+                                        </div>
+                                      </td>
 
                                     </tr>
                                     <tr>
-                                      <td>10:15AM</td>
-                                      <td><strong>Moderated Forum Workshops</strong><i> Meeting attendees will have two opportunities to actively participate in one of five working groups with the aim to impact the power of research funding  (Meeting participants select 1 workshop to attend)</i>
+                                      <td>10:30AM</td>
+                                      <td><strong>Moderated Forum Workshops</strong><i> Meeting attendees will have two opportunities to
+                                        actively participate in two of five working groups with the aim to impact the power of research funding  (Meeting participants select 1 workshop to attend in AM and select another choice for PM)</i>
                                         <br>
                                         <br>
                                         <strong>Location</strong> - Omni Ballroom and COS Offices
                                         <br>
                                         <br>
                                         <ol>
-                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption - Moderated Group Work Moderator: Maryrose and others</li>
+                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption. Moderators: Maryrose Franko, Health Research Alliance and others</li>
                                           <br>
-                                          <li><strong>Grant Agreements</strong> - Creating and operationalizing grant agreements and policies that require sharing data, materials, and code - Moderated Group Work</li>
+                                          <li><strong>Grant Agreements</strong> - Creating and operationalizing grant agreements and policies that require sharing data, materials, and code. Moderators: Stuart Buck, Laura and John Arnold Foundation and David Mellor, COS</li>
                                           <br>
-                                          <li><strong>Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researchers' workflow, progress reporting - Using the OSF - Moderated Group Work</li>
+                                          <li><strong>Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researcher's workflow  - Using the OSF to gather progress reports Moderators: Matt Spitzer, COS and Natalie Meyers, COS</li>
                                           <br>
-                                          <li><strong>Understanding the Research Cycle</strong> - Demonstrations and training on the research cycle and using the OSF (show how to progress report) - Training (Soderberg)</li>
+                                          <li><strong>Understanding the capabilities of the OSF for research tracking and reporting
+                                          </strong> - Demonstrations and training on using the OSF to share various type of research information, managing workflow and collaboration (i.e. single pieces of data or to report progress). Moderators: Courtney Soderberg, COS and Tim Errington, COS</li>
                                           <br>
-                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials - Moderated Group Work (Chambers, Noble/Ware)</li>
+                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials. Moderators: Chris Chambers, Cardiff University and Simon Noble, CHDI</li>
 
                                       </td>
                                         
 
                                     </tr>
                                     <tr>
-                                      <td>11:45AM</td>
-                                      <td><strong>Break</strong>
-
-                                    </tr>
-                                    <tr>
                                       <td>12:00PM</td>
-                                      <td><strong>Lunch Buffet and Speaker - Researcher and University Perspectives on Open Science </strong>
-                                        <br>
-                                        <br>
-                                        <strong>Location</strong> - Omni Ballroom </td>
+                                      <td><strong>Working and Networking Lumch</strong>
 
                                     </tr>
+
                                     <tr>
-                                      <td>1:15PM</td>
+                                      <td>1:00PM</td>
                                       <td><strong>Moderated Forum Workshops</strong> <i>Meeting attendees will have two opportunities to actively participate in one of five working groups with the aim to impact the power of research funding  (Meeting participants select 1 workshop to attend)</i>
                                         <br>
                                         <br>
@@ -298,15 +373,16 @@
                                         <br>
                                         <br>
                                         <ol>
-                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption - Moderated Group Work Moderator: Maryrose and others</li>
+                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption. Moderators: Maryrose Franko, Health Research Alliance and others</li>
                                           <br>
-                                          <li><strong>Grant Agreements</strong> - Creating and operationalizing grant agreements and policies that require sharing data, materials, and code - Moderated Group Work</li>
+                                          <li><strong>Grant Agreements</strong> - Creating and operationalizing grant agreements and policies that require sharing data, materials, and code. Moderators: Stuart Buck, Laura and John Arnold Foundation and David Mellor, COS</li>
                                           <br>
-                                          <li><strong>Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researchers' workflow, progress reporting - Using the OSF - Moderated Group Work</li>
+                                          <li><strong>Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researcher's workflow  - Using the OSF to gather progress reports Moderators: Matt Spitzer, COS and Natalie Meyers, COS</li>
                                           <br>
-                                          <li><strong>Understanding the Research Cycle</strong> - Demonstrations and training on the research cycle and using the OSF (show how to progress report) - Training (Soderberg)</li>
+                                          <li><strong>Understanding the capabilities of the OSF for research tracking and reporting
+                                          </strong> - Demonstrations and training on using the OSF to share various type of research information, managing workflow and collaboration (i.e. single pieces of data or to report progress). Moderators: Courtney Soderberg, COS and Tim Errington, COS</li>
                                           <br>
-                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials - Moderated Group Work (Chambers, Noble/Ware)</li>
+                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials. Moderators: Chris Chambers, Cardiff University and Simon Noble, CHDI</li>
 
 
 
@@ -322,18 +398,25 @@
 
 
                                     <tr>
-                                      <td>3:15PM</td>
-                                      <td><strong>Coffee Break</strong>
-                                        <br>
-                                        <br>
-                                        <strong>Location</strong> - Omni Ballroom Lobby</td>  
-
-                                    <tr>
                                       <td>3:00PM</td>
                                       <td><strong>Workshop Presentation Summaries, Recap, and Next Steps</strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom</td>  
+                                        <strong>Location</strong> - Omni Ballroom
+                                        <br>
+                                        <br>
+                                        <div class="name_block">
+                                          <p>Brian Nosek (Moderator) - Workshop moderators report on takeaways</p>
+                                          <p>Maryrose Franko</p>
+                                          <p>David Mellor</p>
+                                          <p>Matt Spitzer</p>
+                                          <p>Natalie Meyers</p>
+                                          <p>Courtney Soderberg</p>
+                                          <p>Tim Errington</p>
+                                          <p>Chris Chambers</p>
+                                          <p>Simon Noble</p>
+                                        </div>
+                                      </td> 
 
 
 
@@ -346,14 +429,24 @@
                                     </table>
                                     <br>
                                     <br>
-                                    <strong>Hosts</strong>  
+                                    <strong><h4>Hosts</strong></h4>  
+                                    <strong>The Center for Open Science</strong> (COS) launched in early 2013 with a mission to increase openness, integrity, and reproducibility of scholarly research. COS is a non-profit science and technology company that creates exclusively free, open source tools and services to support the entire research lifecycle - from the generation of new ideas and funding to publication and dissemination to preservation and discovery.
                                     <br>
-                                    The Center for Open Science (COS) launched in early 2013 with a mission to increase openness, integrity, and reproducibility of scholarly research. COS is a non-profit science and technology company that creates exclusively free, open source tools and services to support the entire research lifecycle - from the generation of new ideas and funding to publication and dissemination to preservation and discovery.
+                                    <br>
+                                    <strong>The Health Research Alliance</strong> (HRA) is a network of more than 70 organizations represent a variety of nongovernmental funders of health research, including voluntary health agencies, private foundations, and operating foundations. All of these organizations share a common interest in speeding the translation of biomedical science discoveries into applications that improve health, and in identifying and adopting best practices in funding health research.
                                     <br>
                                     <br>
-                                    The Health Research Alliance (HRA) is a network of more than 70 organizations represent a variety of nongovernmental funders of health research, including voluntary health agencies, private foundations, and operating foundations. All of these organizations share a common interest in speeding the translation of biomedical science discoveries into applications that improve health, and in identifying and adopting best practices in funding health research.
-                                    <br>
-
+                                    <strong>Host Committee</strong>
+                                      <p>Brian Nosek - Center for Open Science</p>
+                                      <p>Maryrose Franko - Health Research Alliance</p>
+                                      <p>Annette Huetter - Health Research Alliance</p>
+                                      <p>Shannon Gallagher - American Association for Cancer Research</p>
+                                      <p>Meredith McPhail - Laura and John Arnold Foundation</p>
+                                      <p>Stuart Buck - Laura and John Arnold Foundation</p>
+                                      <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
+                                      <p>Amy Laster - Foundation for Fighting Blindness</p>
+                                      <p>Melanie Benjamin - Center for Open Science</p>
+                                      <p>Jason Gerson - Patient-Centered Outcomes Research Institute (PCORI)</p>
 
 
                                     </table>
@@ -683,8 +776,8 @@
                         </div>
                         <div class="col-md-7">
                             <h3>Michelle Meyer, Ph.D., JD<br>
-                                <small><b>Associate Director Research Ethics - Geisinger Health System
-                                <p>Investigator I - Geisinger Health System</b></small>
+                                <small><b>Assistant Professor - Center for Translational Bioethics
+                                <p>Health Care Policy - Geisinger Health System</b></small>
                             </h3>
                             <div class="row-fluid summary">
                                 <div class="span21">
