@@ -1490,56 +1490,56 @@
         </div>
     </div>
 </div>
-##<div id="UserSupport" class="panel-group">
-##    <div class="panel panel-info">
-##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UserSupport_heading">
-##            <h4 class="panel-title">
-##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                <a data-parent="#UserSupport" >
-##                    User Support/Documentation Specialist
-##                </a>
-##            </h4>
-##        </div>
-##        <div id="UserSupport" class="panel-collapse collapse">
-##            <div class="panel-body">
-##                <dl class="dl-horizontal">
-##                    <dt>Background</dt>
-##                    <dd>
-##                        <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices. We seek a User Support Specialist with extremely strong social and organizational skills to provide technical support to our community of users, as well as facilitate open science practices more broadly within the scientific research community. Our users are researchers, funders, librarians, and data scientists. You’ll be tasked with helping them solve research challenges by enabling successful use of our growing suite of free open-source tools.</p>
-##                    </dd>
-##                    <dt>Location</dt>
-##                    <dd>
-##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                    </dd>
-##                    <dt>Responsibilities</dt>
-##                    <dd>
-##                        <p>The User Support Specialist will be tasked with providing front-line support to the growing Open Science Framework (OSF) user community. This individual will:
-##                            <ul class="indent">
-##                                <li>Monitor and respond to support requests.</li>
-##                                <li>Walk users through the problem solving process and direct them to user-facing resources.</li>
-##                                <li>Coordinate with other community team members to provide additional training or product implementation assistance, as well as identify potential COS ambassadors or other champions.</li>
-##                                <li>Coordinate with infrastructure and quality assurance teams to ensure prompt resolution to issues and communication of feature requests.</li>
-##                                <li>Contribute to the knowledge base by creating and updating user documentation for product releases.</li>
-##                                <li>Recommend process improvements to increase efficiency and scalability of user support services.</li>
-##                            </ul>
-##                        </p> 
-##                    </dd>
-##                    <dt>Skills</dt>
-##                    <dd>
-##                        <p>Experience in a customer-facing role working via email and web meetings. Extremely high social and communication skills; Exceptional organization and attention to detail; Experience using  CRM tools, help desk platforms, web communication and documentation software; Experience with technical writing; Experience within research or scientific environment helpful; Strong writing skills; Team-oriented; Very strong work ethic and a passion for customer engagement; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace.</p>
-##                    </dd>
-##                    <dt>Benefits</dt>
-##                    <dd>
-##                        <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
-##                    </dd>
-##                    <dt>Applying</dt>
-##                    <dd>
-##                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/8121193f-6fff-4682-92e0-581089da291f">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-##                </dl>
-##            </div>
-##        </div>
-##    </div>
-##</div>
+<div id="UserSupport" class="panel-group">
+   <div class="panel panel-info">
+       <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UserSupport_heading">
+           <h4 class="panel-title">
+               <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+               <a data-parent="#UserSupport" >
+                   User Support/Documentation Specialist
+               </a>
+           </h4>
+       </div>
+       <div id="UserSupport" class="panel-collapse collapse">
+           <div class="panel-body">
+               <dl class="dl-horizontal">
+                   <dt>Background</dt>
+                   <dd>
+                       <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., <a href="http://osf.io">Open Science Framework</a>), fosters community standards and efforts for open practices, and conducts metascience research - science on scientific practices. We seek a User Support Specialist with extremely strong social and organizational skills to provide technical support to our community of users, as well as facilitate open science practices more broadly within the scientific research community. Our users are researchers, funders, librarians, and data scientists. You’ll be tasked with helping them solve research challenges by enabling successful use of our growing suite of free open-source tools.</p>
+                   </dd>
+                   <dt>Location</dt>
+                   <dd>
+                       <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                   </dd>
+                   <dt>Responsibilities</dt>
+                   <dd>
+                       <p>The User Support Specialist will be tasked with providing front-line support to the growing Open Science Framework (OSF) user community. This individual will:
+                           <ul class="indent">
+                               <li>Monitor and respond to support requests.</li>
+                               <li>Walk users through the problem solving process and direct them to user-facing resources.</li>
+                               <li>Coordinate with other community team members to provide additional training or product implementation assistance, as well as identify potential COS ambassadors or other champions.</li>
+                               <li>Coordinate with infrastructure and quality assurance teams to ensure prompt resolution to issues and communication of feature requests.</li>
+                               <li>Contribute to the knowledge base by creating and updating user documentation for product releases.</li>
+                               <li>Recommend process improvements to increase efficiency and scalability of user support services.</li>
+                           </ul>
+                       </p> 
+                   </dd>
+                   <dt>Skills</dt>
+                   <dd>
+                       <p>Experience in a customer-facing role working via email and web meetings. Extremely high social and communication skills; Exceptional organization and attention to detail; Experience using  CRM tools, help desk platforms, web communication and documentation software; Experience with technical writing; Experience within research or scientific environment helpful; Strong writing skills; Team-oriented; Very strong work ethic and a passion for customer engagement; Experienced multi-tasker; Self-starter and industrious; Adaptive to rapidly changing demands in a high performance workplace.</p>
+                   </dd>
+                   <dt>Benefits</dt>
+                   <dd>
+                       <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                   </dd>
+                   <dt>Applying</dt>
+                   <dd>
+                       <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/8121193f-6fff-4682-92e0-581089da291f">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+               </dl>
+           </div>
+       </div>
+   </div>
+</div>
 ##<div id="UXDesigner" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#UXDesigner_heading">
