@@ -221,7 +221,7 @@
                     <div style="height: 200px;">&nbsp;</div>
                     <h3>Resources for Editors</h3>
                       <ul>
-                        <li><a target="_blank" href="https://osf.io/jhy37/">Template guide to authors and reviewers</a></li>
+                        <li><a target="_blank" href="https://osf.io/b69gs/">Template guide to authors and reviewers</a></li>
                         <li><a target="_blank" href="https://osf.io/5adi7/">Templates of reviewer invitation letters and author decision letters</a></li>
                         <li><a target="_blank" href="https://osf.io/2m4ct/">Implementation checklist</a></li>
                         <li><a data-tab-destination="tab-4">Frequently Asked Questions</a></li>
