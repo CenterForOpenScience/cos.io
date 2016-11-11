@@ -134,7 +134,7 @@
                                         <strong>Location</strong> - Omni Ballroom
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Maryrose Franko - Health Resource Alliance (Welcome and Moderator)</p>
                                           <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
                                           <p>Steve Kern - Bill and Melinda Gates Foundation</p>
@@ -158,8 +158,8 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
-                                          <p>David Mellor - COS (Moderator)</P>
+                                        <div class="name_block">
+                                          <p>David Mellor - COS (Moderator)</p>
                                           <p>Stuart Buck - Laura and John Arnold Foundation</p>
                                           <p>Jason Gerson - PCORI</p>
                                         </div>
@@ -179,7 +179,7 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Brian Nosek - COS</p>
                                         </div>
                                       </td>
@@ -193,7 +193,7 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Brian Nosek - COS (Moderator)</p>
                                           <p>Chris Chambers - Cardiff University, Journal for Open Science</p>
                                           <p>Simon  Noble - CHDI</p>
@@ -217,7 +217,7 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Courtney Soderberg - COS (Moderator)</p>
                                           <p>Salvatore LaRosa -  The Children’s Tumor Foundation </p>
                                         </div>
@@ -232,7 +232,7 @@
                                         <strong>Location</strong> - Omni Ballroom
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Tim Errington COS - Using the OSF for project management -RP: CB</p>
                                           <p>Lily Hummer COS and University of Virginia - Preregistration: What does it look like?</p> 
                                           <p>Charlie Ebersole University of Virginia - Becoming an open scientist (+ meetings, preprints) using OSF in your research career</p>
@@ -249,7 +249,7 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br> 
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Amy Laster - Foundation for Fighting Blindness</p>
                                         </div>
                                       </td>
@@ -296,7 +296,7 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br> 
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Brian Nosek - COS</p>
                                         </div>
                                       </td>
@@ -310,7 +310,7 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Matt Spitzer - (Moderator)</p>
                                           <p>Bill Regli - DARPA</p>
                                           <p>Meredith McPhail - Laura and John Arnold Foundation</p>
@@ -327,7 +327,7 @@
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Michele Meyer - Geisinger Health System</p>
                                         </div>
                                       </td>
@@ -405,7 +405,7 @@
                                         <strong>Location</strong> - Omni Ballroom
                                         <br>
                                         <br>
-                                        <div class="name_block" style="margin-left: 25px;">
+                                        <div class="name_block">
                                           <p>Brian Nosek (Moderator) - Workshop moderators report on takeaways</p>
                                           <p>Maryrose Franko</p>
                                           <p>David Mellor</p>
