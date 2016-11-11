@@ -14,7 +14,7 @@
         <img src="{% static 'images/cos_stack.png' %}" id="logoimg" alt="COS logo">
       </a>
     </div>
-    <div class="navbar-collapse collapse" style="padding-top: 30px; margin-right: 100px">
+    <div class="navbar-collapse collapse" style="padding-top: 30px">
       <ul class="nav navbar-nav">
         {% for menuitem in menuitems %}
         <li class="{% if menuitem.show_dropdown %}dropdown{% endif %}{% if menuitem.active %} active{% endif %}">
