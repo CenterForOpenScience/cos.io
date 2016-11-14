@@ -39,6 +39,14 @@
 
                 <div class="service-box-v1">
                     <a href=
+                    "../pr/2016-11-14"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+                    <h2 class="text-left">Open Science Framework Added to Scientific Data’s List of Recommended Repositories</h2>
+                    <p class="text-left">November 14, 2016 | The Center for Open Science’s (COS) signature software tool, the Open Science Framework (OSF), has been added to Scientific Data’s list of recommended generalist repositories.</p></a>
+                </div>
+
+                <div class="service-box-v1">
+                    <a href=
                     "../pr/2016-11-03"><img src="../static/img/icons/cos_logo.png"
                     width="125">
                     <h2 class="text-left">The Center for Open Science Receives Grant from DARPA to Support Its Next Generation Social Science (NGS2) Program</h2>

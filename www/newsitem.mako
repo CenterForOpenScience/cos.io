@@ -4,6 +4,13 @@
     
     <div class="row margin-bottom-10">
         <div class="col-md-9 recent-news-inner">
+            <h3><a href="/pr/2016-11-03/">
+                The Center for Open Science Receives Grant from DARPA to Support Its Next Generation Social Science (NGS2) Program</a></h3>
+        </div>
+    </div>
+
+    <div class="row margin-bottom-10">
+        <div class="col-md-9 recent-news-inner">
             <h3><a href="/pr/2016-09-14/">
                 Center for Open Science Internship Program Leads to Eight New Hires</a></h3>
         </div>
@@ -24,12 +31,6 @@
         </div>
     </div>
 
-    <div class="row margin-bottom-10">
-        <div class="col-md-9 recent-news-inner">
-            <h3><a href="/pr/2016-05-12/">
-                Badges acknowledging open practices dramatically increase data sharing</a></h3>
-        </div>
-    </div>
 
 
 
