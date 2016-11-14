@@ -316,7 +316,7 @@ class CustomPage(Page, index.Indexed):
                         ('download', 'download'),
                     ])),
             ('topic', CharBlock(required=True, max_length=35)),
-            ('content', TextBlock(required=True, max_length=255)),
+            ('content', RichTextBlock(required=True)),
         ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
         ('heading', CharBlock(classname="full title")),
         ('statement', CharBlock()),
