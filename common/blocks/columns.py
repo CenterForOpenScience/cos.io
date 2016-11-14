@@ -55,7 +55,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
                     ('download', 'download'),
                 ])),
                 ('topic', blocks.CharBlock(required=True, max_length=35)),
-                ('content', blocks.RichTextBlock(required=True, max_length=255)),
+                ('content', blocks.RichTextBlock(required=True)),
             ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
             ('heading', blocks.CharBlock(classname="full title")),
             ('statement', blocks.CharBlock()),
