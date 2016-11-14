@@ -81,7 +81,7 @@
                         <ul class="nav nav-tabs">
 
                             <p style="text-align:justify">
-                              Currently, 44 journals use the Registered Reports publishing format. Journals can offer the format  as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or can offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://osf.io/8mpji/wiki/2.%20Journal%20Comparison/">table</a> that compares the specific features of Registered Reports at different outlets.
+                              Currently, 43 journals use the Registered Reports publishing format. Journals can offer the format  as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or can offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://osf.io/8mpji/wiki/2.%20Journal%20Comparison/">table</a> that compares the specific features of Registered Reports at different outlets.
                             </p>
                             <br>
                               <li class="active"><a data-toggle="tab" href="#rrjournals"><b>Journals that have adopted Registered Reports</b></a></li>
@@ -92,7 +92,7 @@
 
                           <div class="tab-content">
                             <div id="rrjournals" class="tab-pane fade in active">
-                            <table  data-toggle="table" data-url="/static/rrjournals.json" data-height="1099" data-sort-name="" data-sort-order="" data-search="false" data-classes="table table-hover table-no-bordered">
+                            <table  data-toggle="table" data-url="/static/rrjournals.json" data-height="1200" data-sort-name="" data-sort-order="" data-search="false" data-classes="table table-hover table-no-bordered">
                               <thead>
                                 <tr>
                                   <th data-field="Journal" data-sortable="false" class="col-md-7" >Journal</th>
