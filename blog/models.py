@@ -5,6 +5,7 @@ from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.db import models
 from django.db.models import Count, Q, PROTECT
+from django.db.models import IntegerField
 from django.shortcuts import get_object_or_404
 from django.template.defaultfilters import slugify
 from django.utils.translation import ugettext_lazy as _
@@ -54,6 +55,16 @@ class BlogIndexPage(Page):
         on_delete=SET_NULL,
         related_name='+'
     )
+
+    menu_order = IntegerField(blank=True, default = 1, help_text=(
+        'The order this page should appear in the menu. '
+        'The lower the number, the more left the page will appear. '
+        'This is required for all pages where "Show in menus" is checked.'
+    ))
+
+    promote_panels = Page.promote_panels + [
+        FieldPanel('menu_order'),
+    ]
 
     content_panels = Page.content_panels + [
         SnippetChooserPanel('footer'),
