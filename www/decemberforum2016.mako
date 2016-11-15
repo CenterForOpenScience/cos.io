@@ -776,8 +776,8 @@
                         </div>
                         <div class="col-md-7">
                             <h3>Michelle Meyer, Ph.D., JD<br>
-                                <small><b>Assistant Professor - Center for Translational Bioethics
-                                <p>Health Care Policy - Geisinger Health System</b></small>
+                                <small><b>Assistant Professor, Center for Translational Bioethics and Health Care Policy
+                                <p> Associate Director, Research Ethics - Geisinger Health System</b></small>
                             </h3>
                             <div class="row-fluid summary">
                                 <div class="span21">
@@ -881,6 +881,7 @@
                     <ul>
                       <li>American Association for Cancer Research</li>
                       <li>American Cancer Society</li>
+                      <li>American Diabetes Association</li>
                       <li>American Heart Association</li>
                       <li>Austrian Science Fund</li>
                       <li>Autism Science Foundation</li>
@@ -905,11 +906,15 @@
                       <li>International Institution for Impact Evaluation</li>
                       <li>John E. Fetzer Memorial Trust</li>
                       <li>John Templeton Foundation</li>
+                      <li>Laura and John Arnold Foundation</li>
                       <li>Mind and Life Institute</li>
+                      <li>National Academy of Sciences</li>
+                      <li>National Cancer Institute</li>
                       <li>National Institute on Aging</li>
                       <li>National Institutes of Health</li>
                       <li>National Science Foundation</li>
                       <li>National Center for Advancing Translational Sciences</li>
+                      <li>Open Knowledge International</li>
                       <li>Pancreatic Cancer Action Network</li>
                       <li>PCORI - Patient-Centered Outcomes Research Institute</li>
                       <li>Rheumatology Research Foundation</li>
