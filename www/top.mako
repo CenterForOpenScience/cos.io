@@ -63,6 +63,7 @@
                                           <li>Read the complete TOP Guidelines: <a target="_blank" href="https://osf.io/ud578/">PDF</a> or <a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/">HTML</a></li>
                                           <li>Read how Science will be <a target="_blank" href="http://science.sciencemag.org/content/352/6290/1147.full.pdf+html">Taking up TOP</a> and how <a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters</a> will implement the TOP Guidelines.</li>
                                           <li><a data-tab-destination="tab-3">Follow these steps</a> to implement TOP at your journal or agency.</li>
+                                          <li> See more <a target="_blank" href="https://osf.io/kgnva/wiki/home/">resources</a> for information on persistent identifiers, reporting guidelines, and data repositories. </li>
                                     </ul>
                                       <hr>
 
@@ -192,6 +193,7 @@
                                   <li>Use this <a target="_blank" href="https://osf.io/87v93/">checklist</a> when developing your own implementation.</li>
                                   <li>See the variety of sample implementations for <a target="_blank" href="https://osf.io/dbtzw/">funders</a> and <a target="_blank" href="https://osf.io/edtxm/">journals</a></li>
                                   <li>Read the complete TOP Guidelines <a target="_blank" href="https://osf.io/ud578/">PDF</a> or <a target="_blank" href="https://osf.io/9f6gx/wiki/Guidelines/">wiki</a></li>
+                                  <li>See more <a target="_blank" href="https://osf.io/kgnva/wiki/home/">resources</a> for information on persistent identifiers, reporting guidelines, and data repositories.</li>
                               </td>
                           </tr>
                       </div>
