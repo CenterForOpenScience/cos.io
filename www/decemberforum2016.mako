@@ -877,6 +877,37 @@
                         </div>
                     </div>
                     <hr>
+                      <div class="row margin-bottom-30" id="">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/hewitt.png" alt="Judith Hewitt">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3>Judith Hewitt, Ph. D.<br>
+                                <small><b>Chief, Research Resources Section - National Institutes of Health</b></small></h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Judy Hewitt is Chief of the Research Resources Section in the Office of Biodefense, Research Resources and Translational Research in the Division of Microbiology and Infectious Diseases at NIAID. Her group is responsible for several Division-wide resources that provide research reagents, animal models and screening services to facilitate the development of vaccines/therapeutics/diagnostics for infectious diseases other than AIDS. These programs build upon successful prior efforts dedicated to biodefense, broadened to provide capabilities for all pathogens of interest to DMID. Dr. Hewitt’s group has primary responsibility for biodefense animal model development and qualification efforts within DMID. Dr. Hewitt has been a recipient of several NIAID Merit awards and three NIH Director's Awards for efforts in advancing vaccines/therapeutics to support the HHS Public Health Emergency Medical Countermeasures Enterprise.</p>
+                                </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more_hewitt">more</a>
+                                </div>
+                            </div>
+                            <div class="row-fluid summary">
+                                <div id="more_hewitt" class="collapse">
+                                <p>She received the 2012 HHS Secretary’s Award for Distinguished Service, for her role in the first FDA Advisory Committee recommended approval of a drug using FDA’s Animal Efficacy Rule. In 2014-2015, Dr. Hewitt led the development and implementation of the NIH extramural policy on “Enhancing Reproducibility Through Rigor and Transparency” through a part-time detail in the Office of Extramural Research, Office of the Director.</p>
+
+                                <p>After receiving a BS in Biology from Albright College, Dr. Hewitt earned her Ph.D. in Biochemistry from Johns Hopkins University and completed post-doctoral fellowships at NICHD and the Cleveland Clinic Foundation before taking faculty-level positions at the University of Maryland and NIAID, where she ran transgenic and knockout mouse resources to develop models for immunological studies. She is married to a dedicated academic scientist, while their son and daughter are pursuing their own, non-science studies. She enjoys cooking and knitting, where her analytical skills come in handy, and is still looking for more time for exercise.</p>
+                                <div class="less">
+                                    <a class="button" data-toggle="collapse" data-target="#more_hewitt">less</a>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
                     <h3><strong>Organizations Attending</h3></strong>
                     <ul>
                       <li>American Association for Cancer Research</li>
