@@ -486,6 +486,10 @@ class PageAlias(Page):
          'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    content_panels = Page.content_panels + [
+        FieldPanel('alias_for_page'),
+    ]
+
     promote_panels = Page.promote_panels + [
         FieldPanel('menu_order'),
     ]
