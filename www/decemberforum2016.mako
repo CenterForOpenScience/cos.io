@@ -135,9 +135,8 @@
                                         <br>
                                         <br>
                                         <div class="name_block">
-                                          <p>Maryrose Franko - Health Resource Alliance (Welcome and Moderator)</p>
+                                          <p>Maryrose Franko - Health Research Alliance (Welcome and Moderator)</p>
                                           <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
-                                          <p>Steve Kern - Bill and Melinda Gates Foundation</p>
                                           <p>Larry Tabak - National Institutes of Health</p>
                                         </div>
                                       </td>
