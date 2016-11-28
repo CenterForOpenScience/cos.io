@@ -29,53 +29,53 @@
 <h1><strong>Open Positions</strong></h1>
 <p class="lead">At the Center for Open Science, we believe that transparent and reproducible research is better research, leading to better outcomes. Our mission is to make that a reality throughout the world of scholarly investigation. We also believe in a fantastic work environment, awesome work-life balance, killer technology, and empowering our people to grow as professionals and people. Sound like you? Join us!</p>
 
-<div id="AccountingManager" class="panel-group">
-     <div class="panel panel-info">
-         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AccountingManager_heading">
-             <h4 class="panel-title">
-                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                 <a  data-parent="#AccountingManager" >
-                     Accounting Manager
-                 </a>
-             </h4>
-         </div>
-         <div id="AccountingManager" class="panel-collapse collapse">
-             <div class="panel-body">
-                 <dl class="dl-horizontal">
-                     <dt>Background</dt>
-                     <dd>
-                         <p>The Center for Open Science (COS) is seeking an experienced, detail-oriented, and self-starting individual to serve as the Accounting Manager for an energetic, non-profit, technology company. Opened in March of 2013, COS is a team of 70 and has raised nearly $26M in funding. The Accounting Manager will be responsible for managing all organizational accounting activities for COS, including the accounts for an annual operating budget of around $6 million and revenue streams from private foundations, government grants, and service contracts. This role will include oversight of all general ledger activity, budgeting, financial reporting, policy and systems development. This is a critical role on the team and requires attention to detail along with an ability to see the big picture.</p>
-                     </dd>
-                     <dt> Responsibilities</dt>
-                     <dd>
-                         <p>The Accounting Manager will be responsible for managing all organizational accounting activities for COS. This individual will be responsible for maintenance and oversight of general ledger activity posted by bookkeeping staff, processing payroll, and serving as the primary contact for all financial audits. The Accounting Manager will support the broader COS mission by providing consistent and timely monthly financial statements to the Leadership Team, maintaining and implementing the annual budget, coordinating with other team members on effort reporting, and by developing and maintaining procedures to comply with legal and regulatory requirements. This individual may supervise other financial operations staff and will work regularly with other team members on all financial aspects of pre and post award grant management. The Accounting Manager will ensure organizational effectiveness and compliance as well as help set relevant policies and provide technical assistance as required. They will be a vital connector for the financial and grants operations of our organization; therefore, s/he must possess the ability to see and understand all points of view.</p>
-                     </dd>
-                     <dt>Skills</dt>
-                     <dd>
-                         <p>Extensive knowledge of accounting and finance. A bachelor’s or master’s degree in accounting or finance are required, along with 5-7 years of experience. Experience with non-profit, grants-based accounting, federal award management, and A-133 single audits is preferred. Demonstrated knowledge of not for profit GAAP. Ability to synthesize information and provide advice to researchers, administrators, faculty, and business managers. Ability to communicate and interact with staff and sponsors. Advanced proficiency with spreadsheets and financial math. Ability to access and present information to COS employees, sponsors and senior leaders. Understand the role of research funding in supporting the COS educational mission and strategic aims. </p>
-                     </dd>
-                      <dt>Notes</dt>
-                     <dd>
-                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
-                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its news section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
-                     <dt>Location</dt>
-                     <dd>
-                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                     </dd>
-                     <dt>Benefits</dt>
-                     <dd>
-                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
-                     </dd>
-                     <dt>Applying</dt>
-                     <dd>
-                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/8e984e85-cf42-4227-aef1-3e8ad9957aff" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-                     </dd>
-                 </dl>
-             </div>
-         </div>
-     </div>
-</div>
+##<div id="AccountingManager" class="panel-group">
+##     <div class="panel panel-info">
+##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#AccountingManager_heading">
+##             <h4 class="panel-title">
+##                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#AccountingManager" >
+##                     Accounting Manager
+##                 </a>
+##            </h4>
+##         </div>
+##         <div id="AccountingManager" class="panel-collapse collapse">
+##             <div class="panel-body">
+##                 <dl class="dl-horizontal">
+##                     <dt>Background</dt>
+##                     <dd>
+##                         <p>The Center for Open Science (COS) is seeking an experienced, detail-oriented, and self-starting individual to serve as the Accounting Manager for an energetic, non-profit, technology company. Opened in March of 2013, COS is a team of 70 and has raised nearly $26M in funding. The Accounting Manager will be responsible for managing all organizational accounting activities for COS, including the accounts for an annual operating budget of around $6 million and revenue streams from private foundations, government grants, and service contracts. This role will include oversight of all general ledger activity, budgeting, financial reporting, policy and systems development. This is a critical role on the team and requires attention to detail along with an ability to see the big picture.</p>
+##                   </dd>
+##                     <dt> Responsibilities</dt>
+##                     <dd>
+##                         <p>The Accounting Manager will be responsible for managing all organizational accounting activities for COS. This individual will be responsible for maintenance and oversight of general ledger activity posted by bookkeeping staff, processing payroll, and serving as the primary contact for all financial audits. The Accounting Manager will support the broader COS mission by providing consistent and timely monthly financial statements to the Leadership Team, maintaining and implementing the annual budget, coordinating with other team members on effort reporting, and by developing and maintaining procedures to comply with legal and regulatory requirements. This individual may supervise other financial operations staff and will work regularly with other team members on all financial aspects of pre and post award grant management. The Accounting Manager will ensure organizational effectiveness and compliance as well as help set relevant policies and provide technical assistance as required. They will be a vital connector for the financial and grants operations of our organization; therefore, s/he must possess the ability to see and understand all points of view.</p>
+##                     </dd>
+##                     <dt>Skills</dt>
+##                     <dd>
+##                         <p>Extensive knowledge of accounting and finance. A bachelor’s or master’s degree in accounting or finance are required, along with 5-7 years of experience. Experience with non-profit, grants-based accounting, federal award management, and A-133 single audits is preferred. Demonstrated knowledge of not for profit GAAP. Ability to synthesize information and provide advice to researchers, administrators, faculty, and business managers. Ability to communicate and interact with staff and sponsors. Advanced proficiency with spreadsheets and financial math. Ability to access and present information to COS employees, sponsors and senior leaders. Understand the role of research funding in supporting the COS educational mission and strategic aims. </p>
+##                     </dd>
+##                      <dt>Notes</dt>
+##                     <dd>
+##                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+##                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its news section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
+##                     <dt>Location</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                     </dd>
+##                     <dt>Benefits</dt>
+##                     <dd>
+##                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+##                     </dd>
+##                     <dt>Applying</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+##                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/8e984e85-cf42-4227-aef1-3e8ad9957aff" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+##                     </dd>
+##                 </dl>
+##             </div>
+##         </div>
+##     </div>
+##</div>
 
 ## <div id="AdminstrativeAssistantIntern" class="panel-group">
 ##     <div class="panel panel-info">
@@ -419,7 +419,7 @@
         <div id="DeveloperIntern" class="panel-collapse collapse">
             <div class="panel-body">
                 <dl class="dl-horizontal">
-                    <dt>Background</dt><dd><p>Same as above but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
+                    <dt>Background</dt><dd><p>Same focus as Back End and Front End Developer roles but in summer or part-time internship form; students will work with our developers and carve out their own open science project.</p></dd>
                      <dt>Location</dt>
                      <dd>
                          <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
@@ -650,68 +650,68 @@
 ##         </div>
 ##     </div>
 ##</div>
-<div id="Housekeeper" class="panel-group">
-    <div class="panel panel-info">
-        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Housekeeper_heading">
-            <h4 class="panel-title">
-                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                <a  data-parent="#Housekeeper" >
-                    Housekeeper
-                </a>
-            </h4>
-        </div>
-        <div id="Housekeeper" class="panel-collapse collapse">
-            <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Background</dt>
-                    <dd>
-                        <p>The Center for Open Science is looking for a housekeeper to take care of our office space by carrying out cleaning and maintenance duties. The role will entail office, kitchen, bathroom cleaning, and trash removal. This position will also be responsible for organizing and stocking goods received. The ideal candidate must be flexible and able to work with the team as there may be some overlapping shift requirements.</p>
-                        <p>This is a 10-15 hour per week, part-time position, with health, dental, and 401(k) benefits. This position will pay hourly at $11/hr.</p>
-                    </dd>
-                    <dt>Location</dt>
-                    <dd>
-                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                    </dd>
-                    <dt>Responsibilities:</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Clean and supply designated facility areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, restroom cleaning etc).</li>
-                            <li>Trash removal (to off-site location).</li>
-                            <li>Perform and document routine inspection and maintenance activities.</li>
-                            <li>Carry out heavy cleansing tasks and special projects as needed (e.g. deep cleaning of storage room, ovens).</li>
-                            <li>Notify management of issues or needs for repairs.</li>
-                            <li>Make adjustments and minor repairs such as changing light bulbs.</li>
-                            <li>Stock and maintain supply rooms and kitchens.</li>
-                            <li>Work well with other team members.</li>
-                            <li>Follow all health and safety regulations.</li>
-                        </ul>
-                    </dd>
-                    <dt>Requirements:</dt>
-                    <dd>
-                        <ul class="indent">
-                            <li>Lift and carry at least 15 pounds.</li>
-                            <li>Possess a high School Diploma or GED.</li>
-                        </ul>
-                        <p>Successful candidates will care deeply about contributing to the success of the team by providing outstanding services that support a clean and healthy work environment for all members of the Center for Open Science team.  Those who are energetic and organized will thrive. A passion for service culture, high-quality cleanliness, organization, and attention to detail is essential. Experience with store-room management, stocking, and inventory procedures is preferred.</p>
-                    </dd>
-                    <dt>Skills:</dt>
-                    <dd>
-                        <p>Experience in cleaning an office space, store-room, or residential housing is essential. Exceptional organizational skills and attention to detail; service orientation; ability to multi-task; self-starter and driven; very strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; basic math skills; team-oriented; effective writing skills; evident interest in administrative tasks; must be able to pass a background check.</p> 
-                    </dd> 
-                    <dt>Benefits</dt>
-                    <dd>
-                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
-                    </dd>
-                    <dt>Applying</dt>
-                    <dd>
-                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                        <p>Please submit a resume detailing your experience through our <a href="https://jobs.lever.co/cos/89a29fb4-4154-4b6b-afa4-fff1b6827582">application portal</a>.</p> 
-                    </dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</div>
+##<div id="Housekeeper" class="panel-group">
+##    <div class="panel panel-info">
+##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#Housekeeper_heading">
+##            <h4 class="panel-title">
+##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                <a  data-parent="#Housekeeper" >
+##                    Housekeeper
+##                </a>
+##            </h4>
+##        </div>
+##        <div id="Housekeeper" class="panel-collapse collapse">
+##            <div class="panel-body">
+##                <dl class="dl-horizontal">
+##                    <dt>Background</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is looking for a housekeeper to take care of our office space by carrying out cleaning and maintenance duties. The role will entail office, kitchen, bathroom cleaning, and trash removal. This position will also be responsible for organizing and stocking goods received. The ideal candidate must be flexible and able to work with the team as there may be some overlapping shift requirements.</p>
+##                        <p>This is a 10-15 hour per week, part-time position, with health, dental, and 401(k) benefits. This position will pay hourly at $11/hr.</p>
+##                    </dd>
+##                    <dt>Location</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                    </dd>
+##                    <dt>Responsibilities:</dt>
+##                    <dd>
+##                        <ul class="indent">
+##                            <li>Clean and supply designated facility areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, restroom cleaning etc).</li>
+##                            <li>Trash removal (to off-site location).</li>
+##                            <li>Perform and document routine inspection and maintenance activities.</li>
+##                            <li>Carry out heavy cleansing tasks and special projects as needed (e.g. deep cleaning of storage room, ovens).</li>
+##                            <li>Notify management of issues or needs for repairs.</li>
+##                            <li>Make adjustments and minor repairs such as changing light bulbs.</li>
+##                            <li>Stock and maintain supply rooms and kitchens.</li>
+##                            <li>Work well with other team members.</li>
+##                            <li>Follow all health and safety regulations.</li>
+##                        </ul>
+##                    </dd>
+##                    <dt>Requirements:</dt>
+##                    <dd>
+##                        <ul class="indent">
+##                            <li>Lift and carry at least 15 pounds.</li>
+##                            <li>Possess a high School Diploma or GED.</li>
+##                        </ul>
+##                        <p>Successful candidates will care deeply about contributing to the success of the team by providing outstanding services that support a clean and healthy work environment for all members of the Center for Open Science team.  Those who are energetic and organized will thrive. A passion for service culture, high-quality cleanliness, organization, and attention to detail is essential. Experience with store-room management, stocking, and inventory procedures is preferred.</p>
+##                    </dd>
+##                    <dt>Skills:</dt>
+##                    <dd>
+##                        <p>Experience in cleaning an office space, store-room, or residential housing is essential. Exceptional organizational skills and attention to detail; service orientation; ability to multi-task; self-starter and driven; very strong work ethic; adaptivity to rapidly changing demands in a high performance workplace; high level of professionalism; basic math skills; team-oriented; effective writing skills; evident interest in administrative tasks; must be able to pass a background check.</p> 
+##                    </dd> 
+##                    <dt>Benefits</dt>
+##                    <dd>
+##                        <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. <a href="#benefits">Discover more about our office perks</a>.</p>
+##                    </dd>
+##                    <dt>Applying</dt>
+##                    <dd>
+##                        <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+##                        <p>Please submit a resume detailing your experience through our <a href="https://jobs.lever.co/cos/89a29fb4-4154-4b6b-afa4-fff1b6827582">application portal</a>.</p> 
+##                    </dd>
+##                </dl>
+##            </div>
+##        </div>
+##    </div>
+##</div>
 ##<div id="ITIntern" class="panel-group">
 ##    <div class="panel panel-info">
 ##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ITIntern_heading">
@@ -1053,56 +1053,56 @@
 ##             </div>
 ##    </div>
 ##</div>
-##<div id="QualityAssuranceIntern" class="panel-group">
-##    <div class="panel panel-info">
-##        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceIntern_heading">
-##            <h4 class="panel-title">
-##                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-##                <a  data-parent="#QualityAssuranceIntern" >
-##                    Quality Assurance Intern
-##                </a>
-##            </h4>
-##        </div>
-##        <div id="QualityAssuranceIntern" class="panel-collapse collapse">
-##             <div class="panel-body">
-##                 <dl class="dl-horizontal">
-##                     <dt>Background</dt>
-##                    <dd>
-##                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="http://osf.io">Open Science Framework</a>.</p>
-##                     </dd>
-##                     <dd>
-##                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing.</a></p>
-##                     </dd>
-##                     <dd>
-##                         <p>These goals will be accomplished by working closely with developers, technical architects, technical managers, and the product team. The selected candidate will work in conjunction with the programmatic testing done by the development team and ensures that only high-quality software is released. This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.</a></p>
-##                     </dd>
-##                     <dt>Responsibilities</dt>
-##                    <dd>
-##                        <ul class="indent">
-##                            <li>Communicate: the candidate will be responsible for maintaining solid communication within the QA team to facilitate continual feedback and insight around prioritization and progress of team tasks.</li>
-##                            <li>Feedback: the candidate will be responsible for delivering effective and timely test outcome knowledge with developers, managers and team leads about the testing to determine obstacles, blockers and forecasting.</li>
-##                            <li>Engineer: the candidate will be responsible for working with the management team, developers and the product team to gather requirements for establishing comprehensive testing plans.</li>
-##                            <li>Test: the candidate will be responsible for assisting the QA team in developing acceptance criteria for testing new features and fixes</li>
-##                        </ul>
-##                    </dd>
-##                     <dt>Location</dt>
-##                     <dd>
-##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-##                     </dd>
-##                     <dt>Benefits</dt>
-##                     <dd>
-##                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. Discover more about our office perks <a href="https://cos.io/jobs/#benefits">amenities</a>.</p>
-##                     </dd>
-##                     <dt>Applying</dt>
-##                     <dd>
-##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-##                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/a67b74d7-1f70-4230-805e-e72fe9382342" target="_blank">here</a>.</p>
-##                     </dd>
-##                 </dl>
-##             </div>         
-##             </div>
-##    </div>
-## </div>
+<div id="QualityAssuranceIntern" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#QualityAssuranceIntern_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a  data-parent="#QualityAssuranceIntern" >
+                    Quality Assurance Intern
+                </a>
+            </h4>
+        </div>
+        <div id="QualityAssuranceIntern" class="panel-collapse collapse">
+             <div class="panel-body">
+                 <dl class="dl-horizontal">
+                     <dt>Background</dt>
+                    <dd>
+                         <p>Contribute to quality control, assurance and testing in support of exclusively free, open source software for open science. The Center for Open Science (COS) is a funded non-profit startup seeking highly-motivated individuals to join the team to expand our current product QA and testing efforts.  The team is mission-driven, passionate about science, users of modern web and API practices, and has expertise across the web development stack.  The focal point for this position is the flagship platform, <a href="http://osf.io">Open Science Framework</a>.</p>
+                     </dd>
+                     <dd>
+                         <p>The COS team is growing rapidly and pursues highly coordinated projects while encouraging project “ownership” and a distributed decision-making process.   Success with this model requires team alignment on goals, clear milestones, highly effective communication, and rapid feedback.  The ideal candidate will have experience developing acceptance criteria culminating in rigorous product QC, QA, and testing.</a></p>
+                     </dd>
+                     <dd>
+                         <p>These goals will be accomplished by working closely with developers, technical architects, technical managers, and the product team. The selected candidate will work in conjunction with the programmatic testing done by the development team and ensures that only high-quality software is released. This will require exceptional attention to detail and alignment of product features, requirements, user stories, development practices, and overall business strategies.</a></p>
+                     </dd>
+                     <dt>Responsibilities</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Communicate: the candidate will be responsible for maintaining solid communication within the QA team to facilitate continual feedback and insight around prioritization and progress of team tasks.</li>
+                            <li>Feedback: the candidate will be responsible for delivering effective and timely test outcome knowledge with developers, managers and team leads about the testing to determine obstacles, blockers and forecasting.</li>
+                            <li>Engineer: the candidate will be responsible for working with the management team, developers and the product team to gather requirements for establishing comprehensive testing plans.</li>
+                            <li>Test: the candidate will be responsible for assisting the QA team in developing acceptance criteria for testing new features and fixes.</li>
+                        </ul>
+                    </dd>
+                     <dt>Location</dt>
+                     <dd>
+                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                     </dd>
+                     <dt>Benefits</dt>
+                     <dd>
+                         <p>COS has prime office space downtown and caters two staff lunches per week. We have dedicated parking, 27" monitors, an open workspace with floor-to-ceiling windows (private offices are not assigned, but used as-needed), a stocked kitchen, and white-board walls. Discover more about our office perks <a href="https://cos.io/jobs/#benefits">amenities</a>.</p>
+                     </dd>
+                     <dt>Applying</dt>
+                     <dd>
+                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/a67b74d7-1f70-4230-805e-e72fe9382342" target="_blank">here</a>.</p>
+                     </dd>
+                 </dl>
+             </div>         
+             </div>
+    </div>
+ </div>
 ## <div id="StatsConsultant" class="panel-group">
 ##   <div class="panel panel-info">
 ##        <div class="panel-heading">
@@ -1326,7 +1326,7 @@
                     <dd>
                         <ul class="indent">
                             <li>Python</li>
-                            <li>Micro-frameworks (e.g., Django Flask, Tornado)</li>
+                            <li>Micro-frameworks (e.g., Django, Flask, Tornado)</li>
                             <li>Git</li>
                             <li>Javascript</li>
                             <li>Javascript frameworks (e.g. Knockout, Ember, React, Angular)</li>
