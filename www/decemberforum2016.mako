@@ -491,39 +491,30 @@
                      <br>
                      <strong>Sindy Escobar-Alvarez</strong>
                      <br>Senior Program Officer for Medical Research, Doris Duke Charitable Foundation 
-                     ## <br><a href="mailto:sescobar@ddcf.org">sescobar@ddcf.org</a>
                      <br>
                      <br><strong>Stuart Buck</strong>
                      <br>VP of Research Integrity, Laura and John Arnold Foundation
-                     ## <br><a href="mailto:sbuck@arnoldfoundation.org">sbuck@arnoldfoundation.org</a>
                      <br>
                      <br><strong>Shannon Gallagher-Colombo</strong>
                      <br>Program Administrator, American Association for Cancer Research 
-                     ## <br><a href="shannon.gallagher@aacr.org">shannon.gallagher@aacr.org</a>
                      <br>
                      <br><strong>Maryrose Franko</strong>
                      <br>Executive Director, Health Research Alliance 
-                     ## <br><a href="maryrose@healthra.org">maryrose@healthra.org</a>
                      <br>
                      <br><strong>Jason Gerson</strong>
                      <br>Senior Program Officer, Patient-Centered Outcomes Research Institute 
-                     ## <br><a href="jgerson@pcori.org">jgerson@pcori.org</a>
                      <br>
                      <br><strong>Annette Huetter</strong>
                      <br>Director of Operations, Health Research Alliance
-                     ## <br><a href="annette@healthra.org">annette@healthra.org</a>
                      <br>
                      <br><strong>Amy Laster</strong>
                      <br>Director of Grants and Award Programs, Foundation for Fighting Blindness 
-                     ## <br><a href="alaster@blindness.org">alaster@blindness.org</a>
                      <br>
                      <br><strong>Meredith McPhail</strong>
                      <br>Research Integrity Manager, Laura and John Arnold Foundation
-                     ## <br><a href="mmcphail@arnoldfoundation.org">mmcphail@arnoldfoundation.org</a>
                      <br>
                      <br><strong>Brian Nosek</strong>
                      <br>Executive Director, Center for Open Science
-                     ## <br><a href="nosek@cos.io">nosek@cos.io</a>
                      <br>
                      <br><strong>Melanie Benjamin</strong>
                      <br>Donor and Funder Relations Lead, Center for Open Science
