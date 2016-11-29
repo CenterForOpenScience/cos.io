@@ -60,6 +60,12 @@
                                       <br>
                                       <p>“Registered Reports eliminates the bias against negative results in publishing because the results are not known at the time of review” said Daniel Simons, Professor at University of Illinois, Urbana-Champaign and co-Editor of Registered Replication Reports at Perspectives on Psychological Science. Chris Chambers, Professor at Cardiff University, section editor at Cortex and Royal Society Open Science, and chair of the Registered Reports Committee supported by the Center for Open Science (COS) adds, “Because the study is accepted in advance, the incentives for authors change from producing the most beautiful story to producing the most accurate one.”</p>
                                       <hr>
+                                      For an article type to qualify as a registered report, the journal policy must include at least these features:
+                                        <ul>
+                                          <li>Peer review occurs prior to observing the outcomes of the research, and </li>
+                                          <li>Manuscripts that survive pre-study peer review receive an in-principle acceptance that will not be revoked based on the outcomes, but only on failings of quality assurance, following through on the registered protocol, or unresolvable problems in reporting clarity or style.</li>
+                                        </ul>
+                                        <hr>
                                       <p>Two articles provide an introduction to the Registered Reports concept: one is an introduction to a special issue of 15 Registered Reports in Social Psychology (<a target="_blank" href="https://osf.io/vwfk2/">Nosek & Lakens, 2014</a>), the other is an introduction to Registered Reports for AIMS Neuroscience including answers to 25 common questions about Registered Reports (<a target="_blank" href="http://orca.cf.ac.uk/59475/1/AN2.pdf">Chambers, Feredoes, Muthukumaraswamy, & Etchells, 2014</a>). Chris Chambers provides an update on how the Registered Reports initiative is making an impact in <a target="_blank" href="http://editorsupdate.elsevier.com/issue-46-march-2015/cortexs-registered-reports-initiative-making-reform-reality/"> this article</a> in Editors' Update.</p>
                                       <p>
                                         Find published Registered Reports in <a target="_blank" href="https://www.zotero.org/groups/osf/items/collectionKey/KEJP68G9">this collection</a>.
@@ -82,6 +88,13 @@
 
                             <p style="text-align:justify">
                               Currently, 43 journals use the Registered Reports publishing format. Journals can offer the format  as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or can offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://osf.io/8mpji/wiki/2.%20Journal%20Comparison/">table</a> that compares the specific features of Registered Reports at different outlets.
+                            </p><p>
+                              For an article type to qualify as a registered report, the journal policy must include at least these features:
+                                <ul>
+                                  <li>Peer review occurs prior to observing the outcomes of the research, and </li>
+                                  <li>Manuscripts that survive pre-study peer review receive an in-principle acceptance that will not be revoked based on the outcomes, but only on failings of quality assurance, following through on the registered protocol, or unresolvable problems in reporting clarity or style.</li>
+                                </ul>
+
                             </p>
                             <br>
                               <li class="active"><a data-toggle="tab" href="#rrjournals"><b>Journals that have adopted Registered Reports</b></a></li>
