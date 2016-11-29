@@ -115,11 +115,10 @@
                               <tr>
                                       <td>7:30AM</td>
                                       <td><strong>Registration and Breakfast</strong> 
-                                        <br>Meeting participants can check in at the Center for
-                                        Open Science (COS) offices and meet other participants while enjoying a continental breakfast before moving into the Omni Ballroom for the day. 
+                                        <br>Meeting participants can check in at Omni Ballroom - Connected to the Omni Hotel
                                         <br>
                                         <br>
-                                        <strong>Location</strong> -  Center for Open Science - The COS offices are located in the Downtown Business Center which is attached to the Omni Hotel and Conference Center
+                                        <strong>Location</strong> -  Omni Hotel and Conference Center - 212 Ridge McIntire Rd, Charlottesville, VA 22903
 
                                         </td>
 
@@ -137,7 +136,7 @@
                                         <div class="name_block">
                                           <p>Maryrose Franko - Health Research Alliance (Welcome and Moderator)</p>
                                           <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
-                                          <p>Larry Tabak - National Institutes of Health</p>
+                                          
                                         </div>
                                       </td>
                                     </tr>
@@ -232,9 +231,9 @@
                                         <br>
                                         <br>
                                         <div class="name_block">
-                                          <p>Tim Errington COS - Using the OSF for project management -RP: CB</p>
-                                          <p>Lily Hummer COS and University of Virginia - Preregistration: What does it look like?</p> 
-                                          <p>Charlie Ebersole University of Virginia - Becoming an open scientist (+ meetings, preprints) using OSF in your research career</p>
+                                          <p>Tim Errington - Center for Open Sciecne</p>
+                                          <p>Lily Hummer - Center for Open Science</p> 
+                                          <p>Charlie Ebersole - University of Virginia</p>
                                         </div>
                                       </td>  
 
@@ -259,7 +258,7 @@
                                       <td><strong>Cocktails and Dinner</strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - The Space</td>  
+                                        <strong>Location</strong> - The Space - 210 Water St W, Charlottesville, VA 22902</td>  
 
                                     </tr>
                           
@@ -393,7 +392,7 @@
                                       <td><strong>Coffee Break </strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - COS Offices </td>    
+                                        <strong>Location</strong> - Omni Ballroom Lobby</td>    
 
 
                                     <tr>
@@ -406,14 +405,6 @@
                                         <br>
                                         <div class="name_block">
                                           <p>Brian Nosek (Moderator) - Workshop moderators report on takeaways</p>
-                                          <p>Maryrose Franko</p>
-                                          <p>David Mellor</p>
-                                          <p>Matt Spitzer</p>
-                                          <p>Natalie Meyers</p>
-                                          <p>Courtney Soderberg</p>
-                                          <p>Tim Errington</p>
-                                          <p>Chris Chambers</p>
-                                          <p>Simon Noble</p>
                                         </div>
                                       </td> 
 
@@ -433,19 +424,7 @@
                                     <br>
                                     <br>
                                     <strong>The Health Research Alliance</strong> (HRA) is a network of more than 70 organizations represent a variety of nongovernmental funders of health research, including voluntary health agencies, private foundations, and operating foundations. All of these organizations share a common interest in speeding the translation of biomedical science discoveries into applications that improve health, and in identifying and adopting best practices in funding health research.
-                                    <br>
-                                    <br>
-                                    <strong>Host Committee</strong>
-                                      <p>Brian Nosek - Center for Open Science</p>
-                                      <p>Maryrose Franko - Health Research Alliance</p>
-                                      <p>Annette Huetter - Health Research Alliance</p>
-                                      <p>Shannon Gallagher - American Association for Cancer Research</p>
-                                      <p>Meredith McPhail - Laura and John Arnold Foundation</p>
-                                      <p>Stuart Buck - Laura and John Arnold Foundation</p>
-                                      <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
-                                      <p>Amy Laster - Foundation for Fighting Blindness</p>
-                                      <p>Melanie Benjamin - Center for Open Science</p>
-                                      <p>Jason Gerson - Patient-Centered Outcomes Research Institute (PCORI)</p>
+
 
 
                                     </table>
@@ -512,39 +491,39 @@
                      <br>
                      <strong>Sindy Escobar-Alvarez</strong>
                      <br>Senior Program Officer for Medical Research, Doris Duke Charitable Foundation 
-                     <br><a href="mailto:sescobar@ddcf.org">sescobar@ddcf.org</a>
+                     ## <br><a href="mailto:sescobar@ddcf.org">sescobar@ddcf.org</a>
                      <br>
                      <br><strong>Stuart Buck</strong>
                      <br>VP of Research Integrity, Laura and John Arnold Foundation
-                     <br><a href="mailto:sbuck@arnoldfoundation.org">sbuck@arnoldfoundation.org</a>
+                     ## <br><a href="mailto:sbuck@arnoldfoundation.org">sbuck@arnoldfoundation.org</a>
                      <br>
                      <br><strong>Shannon Gallagher-Colombo</strong>
                      <br>Program Administrator, American Association for Cancer Research 
-                     <br><a href="shannon.gallagher@aacr.org">shannon.gallagher@aacr.org</a>
+                     ## <br><a href="shannon.gallagher@aacr.org">shannon.gallagher@aacr.org</a>
                      <br>
                      <br><strong>Maryrose Franko</strong>
                      <br>Executive Director, Health Research Alliance 
-                     <br><a href="maryrose@healthra.org">maryrose@healthra.org</a>
+                     ## <br><a href="maryrose@healthra.org">maryrose@healthra.org</a>
                      <br>
                      <br><strong>Jason Gerson</strong>
                      <br>Senior Program Officer, Patient-Centered Outcomes Research Institute 
-                     <br><a href="jgerson@pcori.org">jgerson@pcori.org</a>
+                     ## <br><a href="jgerson@pcori.org">jgerson@pcori.org</a>
                      <br>
                      <br><strong>Annette Huetter</strong>
                      <br>Director of Operations, Health Research Alliance
-                     <br><a href="annette@healthra.org">annette@healthra.org</a>
+                     ## <br><a href="annette@healthra.org">annette@healthra.org</a>
                      <br>
                      <br><strong>Amy Laster</strong>
                      <br>Director of Grants and Award Programs, Foundation for Fighting Blindness 
-                     <br><a href="alaster@blindness.org">alaster@blindness.org</a>
+                     ## <br><a href="alaster@blindness.org">alaster@blindness.org</a>
                      <br>
                      <br><strong>Meredith McPhail</strong>
                      <br>Research Integrity Manager, Laura and John Arnold Foundation
-                     <br><a href="mmcphail@arnoldfoundation.org">mmcphail@arnoldfoundation.org</a>
+                     ## <br><a href="mmcphail@arnoldfoundation.org">mmcphail@arnoldfoundation.org</a>
                      <br>
                      <br><strong>Brian Nosek</strong>
                      <br>Executive Director, Center for Open Science
-                     <br><a href="nosek@cos.io">nosek@cos.io</a>
+                     ## <br><a href="nosek@cos.io">nosek@cos.io</a>
                      <br>
                      <br><strong>Melanie Benjamin</strong>
                      <br>Donor and Funder Relations Lead, Center for Open Science
@@ -577,20 +556,33 @@
                     <div class="tab-pane fade" id="speakers" style="margin-top:-200px">
                     <div class="container">
                      <div style="height: 200px;">&nbsp;</div>
-                    <div class="row margin-bottom-30" id="LawrenceTabak">
+                    <div class="row margin-bottom-30" id="TaraSchwetz">
                       <div class="col-md-5">
                             <div class="decforum-thumbnail">
-                                <img src="../static/img/people/decforum2016/tabak.png" alt="Lawrence A. Tabak">
+                                <img src="../static/img/people/decforum2016/schwetz.png" alt="Tara A. Schwetz">
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <h3>Lawrence A. Tabak, D.D.S., Ph.D.<br>
-                                <small><b>Senior Investigator - National Institute of Dental and Craniofacial Research Principal Deputy Director - National Institutes of Health</b></small>
+                            <h3>Tara A. Schwetz, Ph.D.<br>
+                                <small><b>Senior Advisor -  National Institutes of Health</b></small>
                             </h3>
                             <div class="row-fluid summary">
                                 <div class="span11">
-                                      <p>Dr. Tabak was appointed as the principal deputy director of the NIH on August 23, 2010. Previously he served as acting principal deputy director of the NIH from November 13, 2008 through August 14, 2009. Named as the director of the National Institute of Dental and Craniofacial Research (NIDCR) in September 2000, he held that post through August 2010. Prior to joining NIH, Dr. Tabak served as the senior associate dean for research and professor of dentistry and biochemistry and biophysics in the School of Medicine and Dentistry at the University of Rochester in New York. A former NIH MERIT recipient, Dr. Tabak has received several honors and awards for his work including being elected as a member of the Institute of Medicine of the National Academies. He has also received teaching awards for his work with both graduate and medical students.</p>
+                                      <p>Tara serves as the Senior Advisor to the Principal Deputy Director (DEPD) of the National Institutes of Health (NIH). She coordinates several efforts in this role, including the NIH’s preparation for the upcoming Presidential transition, the NIH rigor and reproducibility efforts, and the recently released NIH-Wide Strategic Plan. Previously, Tara served as the Special Assistant to the DEPD and the Interim Associate Program Director of the Environmental influences on Child Health Outcomes (ECHO) Program at NIH – a new seven-year program to understand the effects of environmental exposures on child health and development.</p>
                                 </div>
+                                <div class="more">
+                                    <a class="button" data-toggle="collapse" data-target="#more1">more</a>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid summary">
+                                <div id="more1" class="collapse">
+                                  <p>Prior to joining the NIH Office of the Director, Tara was a Health Science Policy Analyst in the Office of Pain Policy at the National Institute of Neurological Disorders and Stroke (NINDS), where she was instrumental in developing the National Pain Strategy – a comprehensive population health level strategy for pain. Tara started her career at NIH as an AAAS Science and Technology Policy Fellow in the Office of Science Policy and Legislation at the National Institute of Nursing Research (NINR), and later transferred her fellowship to NINDS. She has received several awards, including a National Research Service Award, five NIH Director’s Awards, and a NIH Office of the Director Honors Award. Tara received her BS in biochemistry with honors from Florida State University and her PhD in biophysics from the University of South Florida, followed by a postdoctoral fellowship at Vanderbilt University.</p>
+                                  <div class="less">
+                                      <a class="button" data-toggle="collapse" data-target="#more1">less</a>
+                                  </div>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -875,6 +867,25 @@
 
                         </div>
                     </div>
+                      <hr>
+                      <div class="row margin-bottom-30" id="">
+                        <div class="col-md-5">
+                            <div class="decforum-thumbnail">
+                                <img src="../static/img/people/decforum2016/page.png" alt="Louise Page">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3>Louise Page <br>
+                                <small><b>Publisher - Public Library of Science </b></small></h3>
+                            <div class="row-fluid summary">
+                                <div class="span21">
+                                    <p>Louise Page joined PLOS as Publisher in 2015 where she is a key leader in PLOS’ continued innovative drive to enable transparent, collaborative, and barrier-free scientific communication.  Over the past 25 years, Louise has held strategic planning, business development, editorial outreach, and pivotal leadership roles using transformative technology to advance scholarship at HighWire Press, John Wiley and Sons, and Oxford University Press. At Wiley, she launched their first online journal in 1995 and Wiley InterScience shortly afterwards. </p>
+                                </div>
+                               
+                            </div>
+
+                        </div>
+                    </div>                    
                     <hr>
                       <div class="row margin-bottom-30" id="">
                         <div class="col-md-5">
@@ -905,6 +916,7 @@
                             </div>
 
                         </div>
+
                     </div>
                     <hr>
                     <h3><strong>Organizations Attending</h3></strong>
