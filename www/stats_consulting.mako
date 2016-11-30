@@ -58,7 +58,7 @@
                     <div class="col-md-8">
                     <br>
                         <h4><b>Check our calendar to RSVP for upcoming events</b></h4>
-                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="350" frameborder="0" scrolling="no"></iframe> practi 
+                        <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cos.io_5kjimlkoolm157ghadublshbkg%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="350" frameborder="0" scrolling="no"></iframe>
                     </div>
                     </div>
                     </div>
