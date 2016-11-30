@@ -27,7 +27,7 @@
         <div class="community-content">
             <div class="margin-top-20 page-header">
                 <h1><center><b>Contact Us</b><br>
-                <small style="font-size:20px;">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interest!</small>
+                <small style="font-size:20px;">Want to find out more about getting involved?  We'd love to hear from you!</small>
             	</center>
             	</h1>
             </div>
@@ -96,7 +96,7 @@
                             <div class="col-sm-4 col-sm-offset-4">
                                 <div class="checkbox col-sm-offset-2">
                                     <label>
-                                        <input type="checkbox" name="interest" value="OSF4I"> OSF for Institutions
+                                        <input type="checkbox" name="interest" value="OSF4I"> OSF Institutions
                                     </label>
                                 </div>
                             </div>
@@ -105,7 +105,16 @@
                             <div class="col-sm-4 col-sm-offset-4">
                                 <div class="checkbox col-sm-offset-2">
                                     <label>
-                                        <input type="checkbox" name="interest" value="OSF for Meetings"> OSF for Meetings
+                                        <input type="checkbox" name="interest" value="OSF Preprints"> OSF Preprints
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-4">
+                                <div class="checkbox col-sm-offset-2">
+                                    <label>
+                                        <input type="checkbox" name="interest" value="OSF for Meetings"> OSF Meetings
                                     </label>
                                 </div>
                             </div>
@@ -205,6 +214,7 @@
                         <div class="form-group" style="display:none;">
 	                        <select id="00Nj000000B5oFV" multiple="multiple" name="00Nj000000B5oFV" title="Interest">
 	                        	<option value="OSF4I">OSF4I</option>
+                                <option value="OSF Preprints">OSF Preprints</option>
 	                        	<option value="COS Ambassador">COS Ambassador</option>
 								<option value="Training Services">Training Services</option>
 								<option value="TOP Guidelines">TOP Guidelines</option>
