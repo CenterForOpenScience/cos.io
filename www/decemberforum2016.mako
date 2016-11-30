@@ -134,8 +134,10 @@
                                         <br>
                                         <br>
                                         <div class="name_block">
-                                          <p>Maryrose Franko - Health Research Alliance (Welcome and Moderator)</p>
+                                          <p>Maryrose Franko - Health Research Alliance (Moderator)</p>
                                           <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
+                                          <p>Tara Schwetz - National Institutes of Health</p>
+
                                           
                                         </div>
                                       </td>
@@ -166,12 +168,7 @@
                                     </tr>
                                     <tr>
                                       <td>11:30AM</td>
-                                      <td><strong>Buffet Lunch</strong>
-
-                                    </tr>
-                                    <tr>
-                                      <td>12:00PM</td>
-                                      <td><strong>Buffet Lunch and Lunch Presentation (noon) - Center for Open Science: Building a Social Good for Research Practices</strong>
+                                      <td><strong>Buffet Lunch and Presentation - Center for Open Science: Building a Social Good for Research Practices</strong>
                                         <br>
                                         <br>
                                         <strong>Location</strong> - Omni Ballroom 
@@ -193,8 +190,9 @@
                                         <br>
                                         <div class="name_block">
                                           <p>Brian Nosek - COS (Moderator)</p>
-                                          <p>Chris Chambers - Cardiff University, Journal for Open Science</p>
+                                          <p>Chris Chambers - Cardiff University</p>
                                           <p>Simon  Noble - CHDI</p>
+                                          <p>Louise Page - PLOS</p>
                                         </div>
                                       </td>                                        
 
@@ -204,7 +202,7 @@
                                       <td><strong>Coffee Break</strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom Lobby</td>  
+                                        <strong>Location</strong> - Omni Ballroom</td>  
 
                                     <tr>
                                       <td>2:30PM</td>
@@ -218,6 +216,7 @@
                                         <div class="name_block">
                                           <p>Courtney Soderberg - COS (Moderator)</p>
                                           <p>Salvatore LaRosa -  The Children’s Tumor Foundation </p>
+                                          <o>Judith Hewitt - National Institutes of Health</p>
                                         </div>
                                       </td>    
 
@@ -231,8 +230,8 @@
                                         <br>
                                         <br>
                                         <div class="name_block">
-                                          <p>Tim Errington - Center for Open Sciecne</p>
-                                          <p>Lily Hummer - Center for Open Science</p> 
+                                          <p>Tim Errington - COS</p>
+                                          <p>Lily Hummer - COS</p> 
                                           <p>Charlie Ebersole - University of Virginia</p>
                                         </div>
                                       </td>  
@@ -281,7 +280,7 @@
                                       <td><strong>Breakfast and Networking</strong> 
                                         <br>
                                         <br>
-                                        <strong>Location</strong> -  Center for Open Science
+                                        <strong>Location</strong> -  Center for Open Science - 210 Ridge McIntire Rd #500, Charlottesville, VA 22903
                                         </td>
 
                                      
@@ -319,68 +318,95 @@
 
                                       <tr>
                                       <td>9:45AM</td>
-                                      <td><strong>University Perspectives on Open Science</strong>
+                                      <td><strong>IRBs, Ethics, and Data Sharing</strong>
                                         <br>
                                         <br>
                                         <strong>Location</strong> - Omni Ballroom 
                                         <br>
                                         <br>
                                         <div class="name_block">
-                                          <p>Michele Meyer - Geisinger Health System</p>
+                                          <p>Michelle Meyer - Geisinger Health System</p>
                                         </div>
                                       </td>
 
                                     </tr>
                                     <tr>
                                       <td>10:30AM</td>
-                                      <td><strong>Moderated Forum Workshops</strong><i> Meeting attendees will have two opportunities to
-                                        actively participate in two of five working groups with the aim to impact the power of research funding  (Meeting participants select 1 workshop to attend in AM and select another choice for PM)</i>
+                                      <td><strong>Moderated Forum Workshops</strong><i> Meeting attendees will have two opportunities to actively participate in two of five working groups with the aim to impact the power of research funding  (Meeting participants select 1 workshop to attend in AM and select another choice for PM)</i>
                                         <br>
                                         <br>
                                         <strong>Location</strong> - Omni Ballroom and COS Offices
                                         <br>
                                         <br>
                                         <ol>
-                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption. Moderators: Maryrose Franko, Health Research Alliance and others</li>
+                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption. 
+                                            <br>
+                                            <br>Moderators: Maryrose Franko, Health Research Alliance
+                                            <br>Location: Omni Ballroom (Right Side)</li>
                                           <br>
-                                          <li><strong>Grant Agreements</strong> - Creating and operationalizing grant agreements and policies that require sharing data, materials, and code. Moderators: Stuart Buck, Laura and John Arnold Foundation and David Mellor, COS</li>
+                                          <li><strong>Grant Agreements</strong> -  Creating and operationalizing grant agreements and policies that require sharing data, materials, and code.
+                                          <br> 
+                                          <br>Moderators: Stuart Buck, LJAF and David Mellor, COS
+                                          <br>Location: Aperi - COS</li>
                                           <br>
-                                          <li><strong>Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researcher's workflow  - Using the OSF to gather progress reports Moderators: Matt Spitzer, COS and Natalie Meyers, COS</li>
+                                          <li><strong>Funder Perspective: Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researcher's workflow.
                                           <br>
-                                          <li><strong>Understanding the capabilities of the OSF for research tracking and reporting
-                                          </strong> - Demonstrations and training on using the OSF to share various type of research information, managing workflow and collaboration (i.e. single pieces of data or to report progress). Moderators: Courtney Soderberg, COS and Tim Errington, COS</li>
+                                          <br>Moderators: Matt Spitzer, COS and Natalie Meyers, COS 
+                                          <br>Location: Omni Ballroom (Left Side)</li>
                                           <br>
-                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials. Moderators: Chris Chambers, Cardiff University and Simon Noble, CHDI</li>
-
+                                          <li><strong>Grantee Perspective: Understanding the capabilities of the OSF for research tracking and reporting</strong> - Demonstrations of how researchers use the OSF to share information, manage workflow, and data and collaborate.
+                                          <br>
+                                          <br>Moderators: Courtney Soderberg, COS and Tim Errington, COS
+                                          <br>Location: COS Large Conference Room</li>
+                                          <br>
+                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials.
+                                          <br>
+                                          <br> Moderators: TBD
+                                          <br>Location: Aberto - COS </li>
                                       </td>
                                         
 
                                     </tr>
                                     <tr>
                                       <td>12:00PM</td>
-                                      <td><strong>Working and Networking Lumch</strong>
+                                      <td><strong>Working and Networking Lunch</strong>
 
                                     </tr>
 
                                     <tr>
                                       <td>1:00PM</td>
-                                      <td><strong>Moderated Forum Workshops</strong> <i>Meeting attendees will have two opportunities to actively participate in one of five working groups with the aim to impact the power of research funding  (Meeting participants select 1 workshop to attend)</i>
+                                      <td><strong>Moderated Forum Workshops</strong> <i>Meeting attendees will have two opportunities to actively participate in one of five working groups with the aim to impact the power of research funding (Meeting participants select 1 workshop to attend).</i>
                                         <br>
                                         <br>
                                         <strong>Location</strong> - Omni Ballroom and COS Offices
                                         <br>
                                         <br>
                                         <ol>
-                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption. Moderators: Maryrose Franko, Health Research Alliance and others</li>
+                                          <li><strong>Evaluation Proposals</strong> - Capturing the needs for improving grant evaluation processes internally to address rigor and reproducibility, addressing barriers to adoption.
                                           <br>
-                                          <li><strong>Grant Agreements</strong> - Creating and operationalizing grant agreements and policies that require sharing data, materials, and code. Moderators: Stuart Buck, Laura and John Arnold Foundation and David Mellor, COS</li>
+                                          <br> Moderators: Maryrose Franko, Health Research Alliance
+                                          <br>Location: Omni Ballroom (Right Side)</li>
                                           <br>
-                                          <li><strong>Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researcher's workflow  - Using the OSF to gather progress reports Moderators: Matt Spitzer, COS and Natalie Meyers, COS</li>
+                                          <li><strong>Grant Agreements</strong> - Creating and operationalizing grant agreements and policies that require sharing data, materials, and code. 
                                           <br>
-                                          <li><strong>Understanding the capabilities of the OSF for research tracking and reporting
-                                          </strong> - Demonstrations and training on using the OSF to share various type of research information, managing workflow and collaboration (i.e. single pieces of data or to report progress). Moderators: Courtney Soderberg, COS and Tim Errington, COS</li>
+                                          <br>Moderators: Stuart Buck, Laura and John Arnold Foundation and David Mellor, COS
+                                          <br>Location: Aperi - COS </li>
                                           <br>
-                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials. Moderators: Chris Chambers, Cardiff University and Simon Noble, CHDI</li>
+                                          <li><strong>Funder Perspective: Managing Grants</strong> - Streamlining grants management and reporting by integrating with the researcher's workflow.
+                                          <br>
+                                          <br>Moderators: Matt Spitzer, COS and Natalie Meyers, COS
+                                          <br>Location: Omni Ballroom (Left Side)</li>
+                                          <br>
+                                          <li><strong>Grantee Perspective: Understanding the capabilities of the OSF for research tracking and reporting
+                                          </strong> - Demonstrations of how researchers use the OSF to share information, manage workflow, and data and collaborate. 
+                                          <br>
+                                          <br>Moderators: Courtney Soderberg, COS and Tim Errington, COS
+                                          <br>Location: COS Large Conference Room </li>
+                                          <br>
+                                          <li><strong>Creating Partnerships with Journals and Publishers</strong> - Influencing publisher policies for publishing negative results, preregistered research, and requiring open data and open materials. 
+                                          <br>
+                                          <br>Moderators: TBD
+                                          <br>Location: Aberto - COS</li>
 
 
 
@@ -392,7 +418,7 @@
                                       <td><strong>Coffee Break </strong>
                                         <br>
                                         <br>
-                                        <strong>Location</strong> - Omni Ballroom Lobby</td>    
+                                        <strong>Location</strong> - Omni Ballroom</td>    
 
 
                                     <tr>
@@ -411,7 +437,7 @@
 
 
                                     <tr>
-                                      <td>3:45PM</td>
+                                      <td>4:00PM</td>
                                       <td><strong>Forum Ends </strong> </td>   
 
                                     </tr>
