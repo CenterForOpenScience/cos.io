@@ -186,6 +186,7 @@
                                   <li><a target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12611/full">Ecology Letters</a></li>
                                   <li><a target="_blank" href="http://econtent.hogrefe.com/doi/10.1027/1618-3169/a000317">Experimental Psychology</a></li>
                                   <li><a target="_blank" href="https://ojs.ub.uni-konstanz.de/srm/article/view/6256/5679">Survey Research Methods</a></li>
+                                  <li><a target="_blank" href="http://link.springer.com/article/10.1007/s10764-016-9925-x">International Journal of Primatology</a></li>
                                 </ul>
                                 <hr>
                                 <h3> Resources </h3>
