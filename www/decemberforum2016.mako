@@ -137,7 +137,7 @@
                                           <p>Maryrose Franko - Health Research Alliance (Moderator)</p>
                                           <p>Sindy Escobar Alvarez - Doris Duke Charitable Foundation</p>
                                           <p>Tara Schwetz - National Institutes of Health</p>
-                                          <p>Ben Pierson - Bill &amp; Melinda Gate Foundation</p>  
+                                          <p>Ben Pierson - Bill &amp; Melinda Gates Foundation</p>  
 
                                           
                                         </div>
