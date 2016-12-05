@@ -37,6 +37,16 @@
                 
                 
 
+
+                <div class="service-box-v1">
+                    <a href=
+                    "../pr/2016-12-05"><img src="../static/img/icons/cos_logo.png"
+                    width="125">
+                    <h2 class="text-left">The Center for Open Science Releases a Comprehensive, Open Source Preprints Solution</h2>
+                    <p class="text-left">December 05, 2016 | The Center for Open Science is pleased to announce that it has extended the capabilities of its new open source preprints service, OSF Preprints to include branded service capabilities, and has launched three major new branded versions.</p></a>
+                </div>
+
+
                 <div class="service-box-v1">
                     <a href=
                     "../pr/2016-11-14"><img src="../static/img/icons/cos_logo.png"

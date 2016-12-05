@@ -945,6 +945,7 @@
                       <li>American Heart Association</li>
                       <li>Austrian Science Fund</li>
                       <li>Autism Science Foundation</li>
+                      <li>Bill and Melinda Gates Foundation</li>
                       <li>Booz Allen Hamilton</li>
                       <li>Burroughs Wellcome Fund</li>
                       <li>Cancer Research Institute</li>
@@ -975,13 +976,17 @@
                       <li>National Science Foundation</li>
                       <li>National Center for Advancing Translational Sciences</li>
                       <li>Open Knowledge International</li>
+                      <li>Open Philanthropy Project</li>
                       <li>Pancreatic Cancer Action Network</li>
                       <li>PCORI - Patient-Centered Outcomes Research Institute</li>
+                      <li>PLOS</li>
                       <li>Rheumatology Research Foundation</li>
                       <li>St. Baldrick's Foundation</li>
                       <li>Templeton World Charity Foundation</li>
                       <li>The Gerber Foundation</li>
+                      <li>The Electrochemical Society</li>
                       <li>University of Notre Dame</li>
+                      <li>University of Virginia</li>
                     </ul>
                     </div>
                         </div>
