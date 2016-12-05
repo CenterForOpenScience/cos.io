@@ -7,9 +7,6 @@
 
 <%def name="stylesheets()">
 <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="/static/css/bootstrap-table.css" rel="stylesheet" >
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         a {
             cursor:pointer;
@@ -23,10 +20,8 @@
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
       <a href="http://osf.io/preprints"><img src="../static/img/preprints_white_on_blue.png" alt="COS" style="height:90px"></a>
-        <h1><strong>Contribute and discover research as it happens. 
-        <p>Accelerate scholarly review and publishing.</strong></h1> 
-
-        
+        <h1><strong>Contribute and discover research as it happens.
+        <p>Accelerate scholarly review and publishing.</strong></h1>
         <hr>
     </div>
 </div>
@@ -38,12 +33,8 @@
                     <li><a id="tab-0" href="#overview" data-toggle="tab">Overview</a></li>
                     <li><a id="tab-1" href="#features" data-toggle="tab">Features</a></li>
                     <li><a id="tab-2" href="#branded" data-toggle="tab">Branded Institutional Solutions</a></li>
-
-
-
                 </ul>
             </div>
-          ##  <div class="col-sm-9 col-sm-offset-1 ">
             <div class="col-sm-10  ">
             <!-- START TAB CONTENT -->
                 <div class="tab-content">
@@ -122,10 +113,8 @@
                               <li>Preprint detail pages will be available at custom domain e.g., socarxiv.org/guid; osf.io/guid will forward to the appropriate branded domain.</li>
                               <li>Other pages after osf.io/preprints/ will be hosted at e.g., socarxiv.org/ROUTE and forward appropriately to the branded domain.</li>
                               <ul>
-                                <li>Any word used for preprints in ROUTE above cannot conflict with GUIDs</li><ul/>
-
-                                                   
-              
+                                <li>Any word used for preprints in ROUTE above cannot conflict with GUIDs</li>
+                              </ul>
                     </div>
                     <!-- END TAB 1 -->
                     <!-- START TAB 2 -->
@@ -171,17 +160,8 @@
                           <br>
 
                           <p><strong>Interested? Interested? Please contact our Community Manager, Matt Spitzer, at <a href="mailto:matt-spitzer@cos.io">matt.spitzer@cos.io</a>.
-
-
-
-
-
-   
                     </div>
                     <!-- END TAB 2 -->
-                                        
-
- 
                     </div>
                   </div>
                 </div>
@@ -193,9 +173,7 @@
 
         <%def name="javascript_bottom()">
             <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
-            <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
             <script src="assets/scripts/app.js"></script>
-            <script src="../static/plugins/jquery.mixitup.min.js"></script>
             <script>
             // When the page loads, check the url and activate the tab that matches the url
             $(document).ready(function(){
@@ -217,26 +195,5 @@
                 $("#"+tab).click();
               });
             </script>
-
-            <script type="text/javascript">
-                jQuery(document).ready(function() {
-                    // location.hash && $(location.hash + ' .collapse').collapse('show');
-
-                    // $('.btn-group').click(function(){
-                    //     $(location.hash + ' .collapse').collapse('show');
-                    // });
-
-                    $( '.more').click(function() {
-                      $( '.more').hide();
-                    });
-
-                    $( '.less').click(function() {
-                      $( '.more').show();
-                    });
-                });
-            </script>
-
-            <script src="/static/scripts/bootstrap-table.js"></script>
-
             <!-- END PAGE LEVEL JAVASCRIPTS -->
         </%def>
