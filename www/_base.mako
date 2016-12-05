@@ -28,8 +28,9 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="http://osf.io" target="_blank">Open Science Framework</a></li>
-                        <li><a href="http://osf.io/meetings" target="_blank">OSF for Meetings</a></li>
+                        <li><a href="http://osf.io/meetings" target="_blank">OSF Meetings</a></li>
                         <li><a href="/stats_consulting/">Training Services</a></li>
+                        <li><a href="/preprints/">Preprints</a></li>
                         <li><a href="/prereg">Preregistration Challenge</a></li>
                         <li><a href="/top">TOP Guidelines</a></li>
                         <li><a href="/rr">Registered Reports</a></li>
