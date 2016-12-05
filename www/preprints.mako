@@ -19,7 +19,7 @@
 <div class="page-container">
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
-      <a href="http://osf.io/preprints"><img src="../static/img/preprints_white_on_blue.png" alt="COS" style="height:90px"></a>
+      <a href="https://osf.io/preprints/"><img src="../static/img/preprints_white_on_blue.png" alt="COS" height="90"></a>
         <h1><strong>Contribute and discover research as it happens.
         <p>Accelerate scholarly review and publishing.</strong></h1>
         <hr>
@@ -45,7 +45,7 @@
                             <tr>
                                 <td>
                                     <p style="text-align:justify">
-                                     The launch of the OSF |<i>Preprints</i> branded services continues COS’s ongoing commitment to open and transparent research practices. The new preprints service is built on our flagship platform, the Open Science Framework (<a href="http://https://osf.io">https://osf.io</a>), which helps researchers design and manage their project workflow, data storage, DOI management, and collaboration. 
+                                     The launch of the OSF |<i>Preprints</i> branded services continues COS’s ongoing commitment to open and transparent research practices. The new preprints service is built on our flagship platform, the Open Science Framework (<a href="https://osf.io">https://osf.io</a>), which helps researchers design and manage their project workflow, data storage, DOI management, and collaboration. 
                                       <br>
                                       <br>
                                       <p>We developed OSF |<i>Preprints</i> to meet these major goals: 
@@ -65,8 +65,6 @@
                                 </td>
                             </tr>
                         </table>
-
-
                     </div>
                     <!-- END TAB 0 -->
                     <!-- START TAB 1 -->
