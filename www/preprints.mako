@@ -19,7 +19,7 @@
 <div class="page-container">
 <!-- BEGIN CONTAINER -->
     <div class="center margin-top-20">
-      <a href="https://osf.io/preprints/"><img src="../static/img/preprints_white_on_blue.png" alt="COS" height="90"></a>
+      <a href="https://osf.io/preprints/"><img src="../static/img/preprints_black.png" alt="COS" height="79"></a>
         <h1><strong>Contribute and discover research as it happens.
         <p>Accelerate scholarly review and publishing.</strong></h1>
         <hr>
@@ -60,7 +60,7 @@
                                       <p>Over a million preprints have been already indexed and can be accessed by selecting a subject of interest, entering specific search terms, or browsing the preprints most recently added to the service. Preprint contributors are also encouraged to include links to their research, if available. If the preprint is associated with an existing OSF project, that project can also be easily accessed and explored. OSF |<i>Preprints</i> uses SHARE to aggregate search results from a variety of other preprint providers like <a href="https://arxiv.org/">arXiv</a>, <a href="http://biorxiv.org/">bioRXiv</a>, <a href="https://peerj.com/">PeerJ</a>, <a href="http://cogprints.org/">CogPrints</a> and others into its archive.</p>
                                       <br>
                                       <p><h3>Branded Preprints Services</h3>
-                                      <p>We have also extended the capabilities of our preprints platform to include branded service capabilities, allowing any interested society or institution interested in their own preprints service a stable, flexible and very simple solution. The service can be configured to match each organization's brand, editorial focus, licensing requirements, and taxonomy. Once configured, a new service can be up and indexing new preprints in a matter of days. We have already launched three major new branded services--PsyArXiv, SocArXiv and engrXiv. These partnerships will provide free, open access, open source archives for psychology, social, and engineering science research and are in response to the growing need for faster, open sharing of research on truly open access platforms. 
+                                      <p>We have also extended the capabilities of our preprints platform to include branded service capabilities, allowing any interested society or institution interested in their own preprints service a stable, flexible and very simple solution. The service can be configured to match each organization's brand, editorial focus, licensing requirements, and taxonomy. Once configured, a new service can be up and indexing new preprints in a matter of days. We have already launched three major new branded services--<a href="https://osf.io/preprints/psyarxiv">PsyArXiv</a>, <a href="https://osf.io/preprints/socarxiv">SocArXiv</a>, and <a href="https://osf.io/preprints/engrxiv">engrXiv</a>. These partnerships will provide free, open access, open source archives for psychology, social, and engineering science research and are in response to the growing need for faster, open sharing of research on truly open access platforms. 
                                      
                                 </td>
                             </tr>
@@ -74,45 +74,48 @@
                         <br>
                         <p><strong>Share work</strong>. OSF Preprints makes sharing research in your community as easy as uploading a file. Researchers can post their work to one or many preprint services, solicit feedback, cite their work and tag categories in the Bepress taxonomy for others to find. Others in the community can easily make comments or engage authors on those tagged topics of interest.
                         <br>
+                        <br>
                         <p><strong>Connect the research</strong>. OSF Preprints integrates the OSF project infrastructure to allow researchers to include any supplemental data, materials, code or other information about their work. Any of these items can be stored and preserved on the OSF’s storage, or through one of the many connected services like Github, Dropbox, AmazonS3, Box, GoogleDrive, OwnCloud and others. Additionally, if researchers are already using the OSF for their project, they can easily identify the file in their project they wish to use for their preprint and connect it to the preprint service(s) of their choice. We also provide OSF and ORCID login support.
+                        <br>
                         <br>
                         <p><strong>Improve Discoverability</strong>. By using OSF Preprints for a branded preprint service,  preprints will be discoverable at osf.io/preprints which harvests data from most preprint platforms in use today. Using a keyword or subject taxonomy, visitors can find works uploaded to specific branded services or similar ones among the millions of preprints currently available through the OSF Preprints interface.
                         <br>
+                        <br>
                         <p><strong>Preserve for the future</strong>. OSF provides highly secure, redundant archiving services for confident preservation of research materials and data.
-                        <br>
-                        <br>
-                        <ul>
-                          <li>When users submit to a branded preprint service, that preprint is hosted by the OSF, but not simultaneously submitted to OSF Preprints (i.e., it does not get two new guids--one for OSF Preprints and one for SocArXiv)</li>
-                          <li>Branded pages are built as generic templates that can be reused for many preprint services and even other services</li>
-                          <li>Branded services are accessed at osf.io/preprints/socarxiv/</li>
-                          <li>Branded preprint detail pages are available at osf.io/guid, branded with the service that that unique guid is associated</li>
-                          <li>Branded services have branded landing, discovery, preprint detail, submission, and campaign register/login pages.</li>
-                          <ul>
-                            <li>Services can customize their look and feel using includes logos, colors, and font.</li>
-                            <li>Branded services choose their set of discipline schemas from a subset of Bepress to show up on browse, search/discovery page and submission</li>
-                            <li>Branded services specify a proper name (SocArXiv), short name or slug (socarxiv), header text (Sociology Preprint Server), advisory board information, social accounts, and email addresses.</li></ul></ul>
+                        ## <br>
+                        ## <br>
+                        ## <ul>
+                        ##   <li>When users submit to a branded preprint service, that preprint is hosted by the OSF, but not simultaneously submitted to OSF Preprints (i.e., it does not get two new guids--one for OSF Preprints and one for SocArXiv)</li>
+                        ##   <li>Branded pages are built as generic templates that can be reused for many preprint services and even other services</li>
+                        ##   <li>Branded services are accessed at osf.io/preprints/socarxiv/</li>
+                        ##   <li>Branded preprint detail pages are available at osf.io/guid, branded with the service that that unique guid is associated</li>
+                        ##   <li>Branded services have branded landing, discovery, preprint detail, submission, and campaign register/login pages.</li>
+                        ##   <ul>
+                        ##     <li>Services can customize their look and feel using includes logos, colors, and font.</li>
+                        ##     <li>Branded services choose their set of discipline schemas from a subset of Bepress to show up on browse, search/discovery page and submission</li>
+                        ##     <li>Branded services specify a proper name (SocArXiv), short name or slug (socarxiv), header text (Sociology Preprint Server), advisory board information, social accounts, and email addresses.</li></ul></ul>
 
-                        <ul>
-                          <li>Users should be able to login with OSF, SSO, and Orcid credentials on a branded form</li>
-                          <li>Users should be able to register with the OSF and Orcid credentials on a branded form</li>
-                          <li>Users expect to search the branded service’s preprints and not the aggregator, but may click on a link to “Search more providers”</li>
-                          <ul>
-                            <li>Users would not expect to see a facet for Provider in search because branded search is not an aggregator</li></ul></ul>
+                        ## <ul>
+                        ##   <li>Users should be able to login with OSF, SSO, and Orcid credentials on a branded form</li>
+                        ##   <li>Users should be able to register with the OSF and Orcid credentials on a branded form</li>
+                        ##   <li>Users expect to search the branded service’s preprints and not the aggregator, but may click on a link to “Search more providers”</li>
+                        ##   <ul>
+                        ##     <li>Users would not expect to see a facet for Provider in search because branded search is not an aggregator</li></ul></ul>
 
-                          <ul>
-                            <li>Search facets are limited to taxonomy for the branded service. If the Branded service is using only one top level category, that category will be hidden and the second tier will display as the top-level (e.g., if EngrXiv is only showing Engineering taxonomy, Engineering will not show as a checkbox. The second levels, mechanical engineering, chemical engineering, etc. will show at the top level).</li>
-                            <li>Branded services have APIs specific to their service</li></ul>
+                        ##   <ul>
+                        ##     <li>Search facets are limited to taxonomy for the branded service. If the Branded service is using only one top level category, that category will be hidden and the second tier will display as the top-level (e.g., if EngrXiv is only showing Engineering taxonomy, Engineering will not show as a checkbox. The second levels, mechanical engineering, chemical engineering, etc. will show at the top level).</li>
+                        ##     <li>Branded services have APIs specific to their service</li></ul>
 
-                          <br>
-                          <p><h4>Phase 2</h4>
-                            <p>
-                            <ul>
-                              <li>Branded services can have custom domain names e.g., socarxiv.org.</li>
-                              <li>Preprint detail pages will be available at custom domain e.g., socarxiv.org/guid; osf.io/guid will forward to the appropriate branded domain.</li>
-                              <li>Other pages after osf.io/preprints/ will be hosted at e.g., socarxiv.org/ROUTE and forward appropriately to the branded domain.</li>
-                              <ul>
-                                <li>Any word used for preprints in ROUTE above cannot conflict with GUIDs</li>
-                              </ul>
+                        ##   <br>
+                        ##   <p><h4>Phase 2</h4>
+                        ##     <p>
+                        ##     <ul>
+                        ##       <li>Branded services can have custom domain names e.g., socarxiv.org.</li>
+                        ##       <li>Preprint detail pages will be available at custom domain e.g., socarxiv.org/guid; osf.io/guid will forward to the appropriate branded domain.</li>
+                        ##       <li>Other pages after osf.io/preprints/ will be hosted at e.g., socarxiv.org/ROUTE and forward appropriately to the branded domain.</li>
+                        ##       <ul>
+                        ##         <li>Any word used for preprints in ROUTE above cannot conflict with GUIDs</li>
+                        ##       </ul>
                     </div>
                     <!-- END TAB 1 -->
                     <!-- START TAB 2 -->
@@ -157,7 +160,7 @@
                           <br>
                           <br>
 
-                          <p><strong>Interested? Interested? Please contact our Community Manager, Matt Spitzer, at <a href="mailto:matt-spitzer@cos.io">matt.spitzer@cos.io</a>.
+                          <p><strong>Interested? Please contact our Community Manager, Matt Spitzer, at <a href="mailto:matt-spitzer@cos.io">matt.spitzer@cos.io</a>.
                     </div>
                     <!-- END TAB 2 -->
                     </div>
