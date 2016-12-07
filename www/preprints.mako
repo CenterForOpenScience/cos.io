@@ -160,7 +160,7 @@
                           <br>
                           <br>
 
-                          <p><strong>Interested? Please contact our Community Manager, Matt Spitzer, at <a href="mailto:matt-spitzer@cos.io">matt.spitzer@cos.io</a>.
+                          <p><strong>Interested? Please contact our Community Manager, Matt Spitzer, at <script type="text/javascript">document.write("<n uers=\"znvygb:zngg.fcvgmre@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\">zngg.fcvgmre@pbf.vb</n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script><noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">matt.sp<span style="display:none;">null</span>itzer@cos<span style="display:none;">null</span>.io</small></span></noscript>.
                     </div>
                     <!-- END TAB 2 -->
                     </div>
