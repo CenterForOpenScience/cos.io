@@ -1375,6 +1375,17 @@
             </ul>
         </div>
     </li>
+        <img src="../static/img/people/godfrey.jpg" alt="Chantee Godfrey">
+            <h3>
+                Chantee Godfrey 
+                <small>Housekeeper | Operations</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+            </ul>
+            </div>
+        </li>
+    <li class="col-md-3 space-mobile">
+            <div class="thumbnail">
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/chandler.jpg" alt="Chelsea Chandler">
