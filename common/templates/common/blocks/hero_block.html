@@ -1,20 +1,38 @@
 {% load wagtailimages_tags %}
 {% load static %}
-
+{% image self.image original as image %}
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
-
-<div class = "slide-wrapper">
+{% if self.image_display_setting == 'background' %}
+    <style>
+        .slide-wrapper {
+            background-image: url('{{image.url}}');
+            background-repead: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        .hp-slide-head {
+            font-size: 28px;
+            margin-top: 250px;
+            margin-bottom: 120px;
+            color: {{ self.text_color }};
+            text-transform: none;
+            font-weight: 200;
+        }
+    </style>
+{% endif %}
+<div class="slide-wrapper">
     <div class="container">
         <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height:auto;">
             <div class="row tagline">
-               <div class="col-md-12 main-cos-logo">
-                  {% image self.image original as image%}
-                  <img src="{{ image.url }}" style="padding:28px 28px 28px 28px"/>
-               </div>
+                <div class="col-md-12 main-cos-logo">
+                    {% if value.image_display_setting == "icon" %}
+                        <img src="{{ image.url }}" style="padding:28px 28px 28px 28px"/>
+                    {% endif %}
+                </div>
 
-               <div class="hp-slide-head col-md-12">
-                   {{ self.description }}
-               </div>
+                <div class="hp-slide-head col-md-12">
+                    {{ self.description }}
+                </div>
             </div>
         </div>
     </div>
