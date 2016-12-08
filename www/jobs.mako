@@ -873,53 +873,53 @@
 ##   </div>
 ##</div>
 
-<div id="ProjectManagerDARPA" class="panel-group">
-     <div class="panel panel-info">
-         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectManagerDARPA_heading">
-             <h4 class="panel-title">
-                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
-                 <a  data-parent="#ProjectManagerDARPA" >
-                     Project Manager
-                 </a>
-             </h4>
-         </div>
-         <div id="ProjectManagerDARPA" class="panel-collapse collapse">
-             <div class="panel-body">
-                 <dl class="dl-horizontal">
-                     <dt>Background</dt>
-                     <dd>
-                         <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., Open Science Framework), fosters community standards for open practices, and conducts metascience research - science on scientific practices.  COS is now hiring a Project Manager to support an upcoming, major project under the <a href="http://www.darpa.mil/news-events/2016-03-04">Defense Advanced Research Projects Agency (DARPA) Next Generation Social Science (NGS2)</a> program. We are seeking a quantitatively-oriented post-doctoral Project Manager to manage the overall NGS2 project, ensure achievement of all milestones, manage timelines, support activities of the distributed teams, coordinate activities with the Technical Point of Contact, and collaborate with others to assess the overall impact of the approach. This individual should bring substantial training in research methodology, extremely strong social and organizational skills, action-orientation, and ability to identify and implement practical steps toward principled ideals.  This position is highly appropriate for recent or graduating PhD’s seeking to stay involved in scientific research and improve scientific practices.</p>
-                     </dd>
-                     <dt> Responsibilities</dt>
-                     <dd>
-                         <p>The Project Manager will manage COS’ efforts for the DARPA NGS2 project over the next 3.5 years. This project will entail working with many internal and external stakeholders to test and evaluate strategies for greater reproducibility. The Project Manager will work closely with many members of the COS team and be the point-of-contact for this project with DARPA program officers and other project teams.  COS is a start-up with a large portfolio of activities.  As such, this position is likely to evolve over time with new, challenging initiatives to increase openness, integrity, and reproducibility of research.</p>
-                     </dd>
-                     <dt>Skills</dt>
-                     <dd>
-                         <p>Substantial training and experience in scientific research and methodology; Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing and data analysis skills.  Skills in programming and web development are a plus.</p>
-                     </dd>
-                      <dt>Notes</dt>
-                     <dd>
-                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
-                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its news section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
-                     <dt>Location</dt>
-                     <dd>
-                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
-                     </dd>
-                     <dt>Benefits</dt>
-                     <dd>
-                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
-                     </dd>
-                     <dt>Applying</dt>
-                     <dd>
-                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
-                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/90ddd053-861c-4742-a35b-d62abe5c407c" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
-                     </dd>
-                 </dl>
-             </div>
-         </div>
-     </div>
-</div>
+##<div id="ProjectManagerDARPA" class="panel-group">
+##     <div class="panel panel-info">
+##         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#ProjectManagerDARPA_heading">
+##             <h4 class="panel-title">
+##                 <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+##                 <a  data-parent="#ProjectManagerDARPA" >
+##                     Project Manager
+##                 </a>
+##             </h4>
+##         </div>
+##         <div id="ProjectManagerDARPA" class="panel-collapse collapse">
+##             <div class="panel-body">
+##                 <dl class="dl-horizontal">
+##                     <dt>Background</dt>
+##                     <dd>
+##                         <p>The Center for Open Science (COS) develops tools to support the scientific workflow (i.e., Open Science Framework), fosters community standards for open practices, and conducts metascience research - science on scientific practices.  COS is now hiring a Project Manager to support an upcoming, major project under the <a href="http://www.darpa.mil/news-events/2016-03-04">Defense Advanced Research Projects Agency (DARPA) Next Generation Social Science (NGS2)</a> program. We are seeking a quantitatively-oriented post-doctoral Project Manager to manage the overall NGS2 project, ensure achievement of all milestones, manage timelines, support activities of the distributed teams, coordinate activities with the Technical Point of Contact, and collaborate with others to assess the overall impact of the approach. This individual should bring substantial training in research methodology, extremely strong social and organizational skills, action-orientation, and ability to identify and implement practical steps toward principled ideals.  This position is highly appropriate for recent or graduating PhD’s seeking to stay involved in scientific research and improve scientific practices.</p>
+##                     </dd>
+##                     <dt> Responsibilities</dt>
+##                     <dd>
+##                         <p>The Project Manager will manage COS’ efforts for the DARPA NGS2 project over the next 3.5 years. This project will entail working with many internal and external stakeholders to test and evaluate strategies for greater reproducibility. The Project Manager will work closely with many members of the COS team and be the point-of-contact for this project with DARPA program officers and other project teams.  COS is a start-up with a large portfolio of activities.  As such, this position is likely to evolve over time with new, challenging initiatives to increase openness, integrity, and reproducibility of research.</p>
+##                     </dd>
+##                     <dt>Skills</dt>
+##                     <dd>
+##                         <p>Substantial training and experience in scientific research and methodology; Extremely high social and communication skills; Exceptional organization and attention to detail; Ability to use web communication and documentation software effectively; Team-oriented; Very strong work ethic; Multi-tasking; Self-starter and industrious; Adaptivity to rapidly changing demands in a high performance workplace; Very strong writing and data analysis skills.  Skills in programming and web development are a plus.</p>
+##                     </dd>
+##                      <dt>Notes</dt>
+##                     <dd>
+##                        <p>COS has three primary activities: (1) infrastructure development to support the scientific workflow (http://osf.io/) - documentation, archiving, sharing, and registration - and connect with other open technologies; (2) community building among open-source developers, open science researchers, and the broader scientific community - example projects: badges to acknowledge open practices, and Registered Reports; and (3) metascience, research on scientific practices, example projects: Reproducibility Project: Cancer Biology, Reproducibility Project: Psychology, and Many Labs.  COS promotes inclusivity and serves a global audience of researchers and stakeholder organizations in science across all domains.</p>
+##                        <p>COS is dedicated to improving the alignment between scientific values and scientific practices.  Operating with an technology start-up atmosphere and mindset, the COS team moves quickly, identifies problems and creates solutions, encourages risk-taking, blends science and technology, is highly collaborative, is high energy, and is dedicated to openness. Get more information about COS at its <a href="http://cos.io/">website</a>, and in its news section, and in papers articulating a vision for “Scientific Utopia” for <a href="http://www.tandfonline.com/doi/abs/10.1080/1047840X.2012.692215#.UgK9bGTJHy0">scientific communication</a> and <a href="http://pps.sagepub.com/content/7/6/615.full">scientific practices</a>.</p>
+##                     <dt>Location</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+##                     </dd>
+##                     <dt>Benefits</dt>
+##                     <dd>
+##                         <p>COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+##                     </dd>
+##                     <dt>Applying</dt>
+##                     <dd>
+##                         <p>The Center for Open Science is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries.</p>
+##                         <p>Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/90ddd053-861c-4742-a35b-d62abe5c407c" target="_blank">here</a>.  Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+##                     </dd>
+##                 </dl>
+##             </div>
+##         </div>
+##     </div>
+##</div>
 
 ##<div id="ProjectManager" class="panel-group">
 ##    <div class="panel panel-info">
