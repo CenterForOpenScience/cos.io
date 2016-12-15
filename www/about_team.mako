@@ -203,19 +203,6 @@
             </ul>
         </div>
     </li>
-     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/chun.jpg" alt="Annette Chun">
-            <h3>
-                Annette Chun
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/annettechun256" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/wyp64/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/harber.jpg" alt="Barrett Harber">
@@ -1183,6 +1170,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/amyshi188" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/tszbu/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/chun.jpg" alt="Annette Chun">
+            <h3>
+                Annette Chun
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/annettechun256" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/wyp64/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
