@@ -1362,6 +1362,68 @@
         </div>
     </div>
 </div>
+<div id="SeniorPMEngineering" class="panel-group">
+    <div class="panel panel-info">
+        <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorPMEngineering_heading">
+            <h4 class="panel-title">
+                <span class="chevron"> <span class="glyphicon glyphicon-chevron-right"></span> </span>
+                <a data-parent="#SeniorPMEngineering" >
+                    Senior Project Manager, Engineering
+                </a>
+            </h4>
+        </div>
+        <div id="SeniorPMEngineering" class="panel-collapse collapse">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Background</dt>
+                    <dd>
+                        <p>Support developer team building exclusively free, open source software to enable open science. The <a href="http://cos.io">Center for Open Science</a> is a funded non-profit looking for experienced engineers interested in supporting OSS. Ideal candidates will bring 6+ years of professional experience leading and managing teams and projects to help us operate and improve our cloud-based systems. COS infrastructure is software developed in Python and Javascript, using modern web tools like Django and <a href="Ember.js">Ember.js</a>. Open source and cloud systems have changed how software development works, and we want to apply the same principles to science.  See more on <a href="https://github.com/CenterForOpenScience/">GitHub</a>.</p>
+                    </dd>
+                    <dt>Responsibilities</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Responsible for managing staff, providing leadership, and assessing project deadlines and financial expenditures for large-scale engineering projects.</li>
+							<li>Monitor projects' productivity, quality, and progress. Ensure project safety and remain within projects' cost constraints. Support and direct project managers, project engineers, and assistants in planning, scheduling, and implementation of designs and testing.</li>
+							<li>Report project status, progress, and predictions to stakeholders and make recommendations based on professional education and experience.</li>
+							<li>Must have strong technical writing skills for reports and project plans, and must work under time-sensitive deadlines.</li>
+							<li>Partner with the Technical Lead on project and resource planning for new efforts.</li>
+                        </ul>
+                    </dd>
+                    <dt>Skills</dt>
+                    <dd>
+                        <ul class="indent">
+                            <li>Deep expertise in project management, associated tools (e.g., JIRA), and agile development processes</li>
+							<li>Efficient technical troubleshooting</li>
+							<li>Strong technical insight to support resourcing, prediction, and management of software engineering team</li>
+							<li>Excellent oral and written communication skills</li>
+							<li>Collaborative, self-managing, and experienced in general development using continuous delivery and version control</li>
+							<li>Deep experience leading, mentoring, and managing teams (hiring, managing, performance reviews)</li>
+							<li>Organizational skills and ability to work on multiple projects and/or assignments simultaneously</li>
+							<li>Understand the deployment lifecycle from design, build, test, deploy</li>
+							<li>Preferred experience with API-powered web applications</li>
+							<li>Preferred PMP certification</li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <p>We value collaboration, passion, and ability more than the actual technologies you use. A great team lead will be organized, have strong planning, estimation, and communication skills, and be driven by helping their team be successful. We are missioned with connecting and educating the open science and open source communities. As long as your values are aligned with those, we want to hear from you.</p>
+                    </dd>
+                    <dt>Location</dt>
+                    <dd>
+                        <p>The Center for Open Science is <a href="#location">located in Charlottesville, Virginia</a>.</p>
+                    </dd>
+                    <dt>Benefits</dt>
+                    <dd>
+                        <p> COS offers full time employees 401(k), health/dental/vision insurance, and 15 days of paid time off, in addition to a modern office space and other amenities. <a href="#benefits">Discover more about our office perks</a>.</p>
+                    </dd>
+                    <dt>Applying</dt>
+                    <dd>
+                        <p>COS is an equal opportunity employer and strongly encourages applications from members of groups underrepresented in science and technology industries. Please submit a resume and cover letter explaining your background and interest in the position <a href="https://jobs.lever.co/cos/2b2e9aa8-cd66-4333-ad37-354863cfdd0b">here</a>. Questions about the position and COS are welcome and can be directed to <a href="mailto:jobs@cos.io">jobs@cos.io</a>.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="SeniorSiteReliabilityEngineer" class="panel-group">
     <div class="panel panel-info">
         <div class="panel-heading" class="accordion-toggle" data-toggle="collapse" href="#SeniorSiteReliabilityEngineer_heading">
