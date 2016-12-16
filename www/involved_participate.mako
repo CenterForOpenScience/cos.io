@@ -82,6 +82,31 @@
 <tr>
     
 
+
+
+<td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/2v3tq/" target="_blank">
+                        <img src="../static/img/people/ambassadors/abdallah_adel.jpg" alt="Adel Abdallah">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Adel M. Abdallah
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Utah State University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -126,6 +151,9 @@
         </table>
     </td>
 
+ </tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -147,9 +175,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -177,6 +202,31 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/cz3qd/" target="_blank">
+                        <img src="../static/img/people/ambassadors/chongo_beatriz.jpeg" alt="Beatriz Chongo">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Beatriz Chongo
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    Center for Coordination of Gender Matters, Mozambique 
+                </td>
+            </tr>
+        </table>
+    </td>
+
+ </tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/mrqta/" target="_blank">
                         <img src="../static/img/people/ambassadors/brown_benjamin.jpg" alt="Benjamin Brown">
                     </a>
@@ -194,6 +244,7 @@
             </tr>
         </table>
     </td>
+
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -217,8 +268,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -240,6 +289,9 @@
             </tr>
         </table>
     </td>
+
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -284,9 +336,7 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>  
+ 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -309,6 +359,9 @@
             </tr>
         </table>
     </td>
+
+ </tr>
+<tr>
 
      <td class="ambassador-data">
         <table class="ambassador-box">
@@ -353,10 +406,7 @@
                 </td>
             </tr>
         </table>
-    </td>
-
-</tr>
-<tr>  
+    </td> 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -379,6 +429,9 @@
             </tr>
         </table>
     </td>
+
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -423,9 +476,7 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>  
+ 
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -444,6 +495,31 @@
             <tr>
                 <td class="ambassador-instit">
                     Oregon Health and Science University
+                </td>
+            </tr>
+        </table>
+    </td>
+
+ </tr>
+<tr>
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/8ey9c/" target="_blank">
+                        <img src="/static/img/people/ambassadors/minor_david.png" alt="David Minor">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    David Minor
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of California - San Diego
                 </td>
             </tr>
         </table>
@@ -1630,6 +1706,30 @@
         <table class="ambassador-box">
             <tr>
                 <td class="ambassador-img">
+                    <a href="https://osf.io/wnyrk/" target="_blank">
+                        <img src="../static/img/people/ambassadors/nakagawa_shinichi.jpg" alt="Shinichi Nakagawa">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Shinichi Nakagawa
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of New South Wales
+                </td>
+            </tr>
+        </table>
+    </td>
+
+
+
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
                     <a href="https://osf.io/afp8u/" target="_blank">
                         <img src="../static/img/people/ambassadors/shaw.jpg" alt="Stacy Shaw">
                     </a>
@@ -1671,6 +1771,8 @@
          </table>      
      </td>     
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1694,8 +1796,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
     <td class="ambassador-data">
             <table class="ambassador-box">
                 <tr>
@@ -1741,6 +1841,8 @@
         </table>
     </td>
 
+</tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1764,8 +1866,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1812,7 +1912,9 @@
         </table>
     </td>
 
-    
+ </tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
