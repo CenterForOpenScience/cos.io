@@ -87,7 +87,7 @@
                         <ul class="nav nav-tabs">
 
                             <p style="text-align:justify">
-                              Currently, 43 journals use the Registered Reports publishing format. Journals can offer the format  as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or can offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit#gid=0">table</a> that compares the specific features of Registered Reports at different outlets.
+                              Currently, 44 journals use the Registered Reports publishing format. Journals can offer the format  as a <strong>regular submission option</strong>, as part of a single <strong>special issue</strong>, or can offer <strong>limited features</strong> of the format. This list will be updated regularly as new journals join the initiative. See also our <a target="_blank" href="https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit#gid=0">table</a> that compares the specific features of Registered Reports at different outlets.
                             </p><p>
                               For an article type to qualify as a registered report, the journal policy must include at least these features:
                                 <ul>
