@@ -37,7 +37,7 @@
                     <li><a id="tab-2" href="#sign" data-toggle="tab">Become a Signatory</a></li>
                     <li><a id="tab-3" href="#implement" data-toggle="tab">Implementing the Guidelines</a></li>
                     ##<li><a id="tab-4" href="#FAQ" data-toggle="tab">FAQ</a></li>
-                    <li><a id="tab-5" href="#list" data-toggle="tab">831 Signatories</a></li>
+                    <li><a id="tab-5" href="#list" data-toggle="tab">832 Signatories</a></li>
                     <li><a id="tab-6" href="#committee" data-toggle="tab">Coordinating Committee</a></li>
 
                 </ul>
@@ -306,7 +306,7 @@
                                             </ol>
                                                     <br>
                         <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (765)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (66)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (67)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
