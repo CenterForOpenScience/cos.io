@@ -37,7 +37,7 @@
                     <li><a id="tab-2" href="#sign" data-toggle="tab">Become a Signatory</a></li>
                     <li><a id="tab-3" href="#implement" data-toggle="tab">Implementing the Guidelines</a></li>
                     ##<li><a id="tab-4" href="#FAQ" data-toggle="tab">FAQ</a></li>
-                    <li><a id="tab-5" href="#list" data-toggle="tab">830 Signatories</a></li>
+                    <li><a id="tab-5" href="#list" data-toggle="tab">832 Signatories</a></li>
                     <li><a id="tab-6" href="#committee" data-toggle="tab">Coordinating Committee</a></li>
 
                 </ul>
@@ -69,7 +69,7 @@
 
 
                                         <h3><a data-tab-destination="tab-2">Become a signatory</a></h3>
-                                      764 Journals and 66 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
+                                      765 Journals and 66 organizations have already become <a data-tab-destination="tab-5">signatories</a> of the TOP Guidelines. Show your support of the principles behind the standards by <a data-tab-destination="tab-2">becoming a signatory today</a>. We'll reach out and help to implement the standards that are most appropriate the work that you fund or publish.
 
                                 </td>
                             </tr>
@@ -305,8 +305,8 @@
                                                 <li>If relevant, encouraging associated journals to conduct a review of the standards and levels for potential adoption.</li>
                                             </ol>
                                                     <br>
-                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (764)</b></a></li>
-                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (66)</b></a></li>
+                        <li class="active"><a data-toggle="tab" href="#journals"><b>Journals (765)</b></a></li>
+                        <li><a data-toggle="tab" href="#Organizations"><b>Organizations (67)</b></a></li>
                     </ul>
 
                     <div class="tab-content">
