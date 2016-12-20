@@ -81,7 +81,7 @@
                                     <td>
                                         <h3>Registered Reports</h3>
                                         <p>Registered Reports offer journals an alternative structure to the current publishing format to promote transparency and reproducibility in scientific research. In this model, peer review occurs twice. Each study procedure and analysis plan are evaluated prior to data collection for in-principle acceptance; if accepted, the final manuscript is essentially guaranteed publication regardless of the reported outcome, with a second peer review to ensure the accepted methodology was conducted.</p>
-                                        <a href="https://osf.io/8mpji/wiki/home/" target="_blank" class="btn blue">
+                                        <a href="../rr/" target="_blank" class="btn blue">
                                             <i class="fa fa-search"></i> Learn more
                                         </a>
                                     </td>
