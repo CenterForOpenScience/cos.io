@@ -477,6 +477,30 @@
         </table>
     </td>
  
+    <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/afsqg/" target="_blank">
+                        <img src="../static/img/people/ambassadors/noble_daniel.jpg" alt="Daniel Noble">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Daniel Noble
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit">
+                    University of New South Wales
+                </td>
+            </tr>
+        </table>
+    </td>
+
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -499,9 +523,6 @@
             </tr>
         </table>
     </td>
-
- </tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -547,6 +568,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -569,10 +592,7 @@
             </tr>
         </table>
     </td>
-   
-
-</tr>
-<tr>  
+    
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -618,6 +638,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -641,8 +663,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -687,7 +707,9 @@
             </tr>
         </table>
     </td>
-
+ 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -710,9 +732,6 @@
             </tr>
         </table>
     </td>
-
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -758,6 +777,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -781,8 +802,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -828,6 +847,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -851,8 +872,6 @@
         </table>
     </td>
 
-</tr>
-<tr>  
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -898,6 +917,9 @@
         </table>
     </td>
 
+ </tr>
+<tr>
+
     <td class="ambassador-data">       
          <table class="ambassador-box">        
              <tr>      
@@ -920,8 +942,6 @@
          </table>      
      </td>      
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -967,6 +987,9 @@
         </table>
     </td>
 
+ </tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -989,8 +1012,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1037,8 +1058,8 @@
         </table>
     </td>
 
-
-
+ </tr>
+<tr>
 
     <td class="ambassador-data">        
          <table class="ambassador-box">        
@@ -1061,9 +1082,7 @@
              </tr>     
          </table>      
      </td>     
- 
- </tr>
-<tr>    
+   
 
      <td class="ambassador-data">      
          <table class="ambassador-box">        
@@ -1111,6 +1130,9 @@
     </td>
 
 
+ </tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1133,8 +1155,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1181,6 +1201,9 @@
         </table>
     </td>
 
+ </tr>
+<tr>
+
     <td class="ambassador-data">
         <table class="ambassador-box">
             <tr>
@@ -1203,8 +1226,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
      <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1251,6 +1272,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
 <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1274,8 +1297,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1322,6 +1343,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1345,8 +1368,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1393,6 +1414,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1416,8 +1439,28 @@
         </table>
     </td>
 
-</tr>
-<tr>
+
+   <td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/z4qay/" target="_blank">
+                        <img src="../static/img/people/ambassadors/akintande_olalekan_joseph.jpg" alt="Olalekan Joseph Akintande">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Olalekan Joseph Akintande
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    University of Ibadan, Nigeria 
+                </td>
+            </tr>
+        </table>
+    </td>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1441,6 +1484,8 @@
         </table>
     </td>
 
+ </tr>
+<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1486,8 +1531,6 @@
         </table>
     </td>
 
-</tr>
-<tr>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
@@ -1511,6 +1554,30 @@
         </table>
     </td>
 
+ </tr>
+<tr>
+
+<td class="ambassador-data">
+        <table class="ambassador-box">
+            <tr>
+                <td class="ambassador-img">
+                    <a href="https://osf.io/uswv3/" target="_blank">
+                        <img src="../static/img/people/ambassadors/johnson_rick.jpeg" alt="Rick Johnson">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-name">
+                    Rick Johnson
+                </td>
+            </tr>
+            <tr>
+                <td class="ambassador-instit-padding">
+                    Notre Dame
+                </td>
+            </tr>
+        </table>
+    </td>
 
     <td class="ambassador-data">
         <table class="ambassador-box">
