@@ -1,294 +1,136 @@
-# CENTER FOR OPEN SCIENCE, INC.
-# BYLAWS OF THE CORPORATION
-# ADOPTED DECEMBER 4, 2012
+# BYLAWS OF THE CENTER FOR OPEN SCIENCE, INC.
+## As Adopted December 21, 2016
 
-## ARTICLE ONE
-## NAME, PURPOSES, LOCATION
+## ARTICLE I NAME, PURPOSE 
 
-### 1.1 Name and Purposes
+### Section 1
+The name of the organization shall be the Center for Open Science (COS).
+  
+### Section 2
+The Center for Open Science (hereafter referred to as “the organization”) is organized exclusively for charitable, scientific, and educational purposes. The mission of the organization is to increase openness, integrity, and reproducibility of research. More specifically the purposes of the organization are as follows: 
 
-The name and purposes of the corporation shall be as set forth in the Articles of Organization of the corporation.
+A. The organization will develop and deliver methods for conducting research transparently and openly. 
 
-### 1.2 Location
+B. The organization will promote and support good scientific practices.
 
-The principal office of the corporation in the State of Virginia shall initially be located at the place set forth in the Articles of Organization of the corporation. The Directors of the Corporation may change the location of the principal office in the State of Virginia upon the filing of a certificate with the Secretary of the State.
+C. The organization will advance scientific research.
 
-## ARTICLE TWO
-## MEMBERS OF THE CORPORATION
+D. The organization is organized exclusively for charitable, educational, and scientific purposes, including, for such purposes, the making of distributions to organizations that qualify as exempt organizations under section 501(c)(3) of the Internal Revenue Code or the corresponding section of any future federal tax code. 
 
-### 2.1 Number, Election and Qualifications
+## ARTICLE II BOARD OF DIRECTORS 
 
-The initial Members of the corporation shall be Dr. Brian A. Nosek and Mr. Jeffrey R. Spies (the “Founding Members”). The Members may, from time to time, appoint additional Members, all of which shall be either individuals or tax exempt, charitable organizations with such qualifications as the Members shall specify from time to time. Each corporate Member shall designate an individual to serve as its representative in any convening of or action by the Members. Such designation shall be made in a writing filed with the Clerk of the Corporation. Unless the Members otherwise designate, there shall be no qualifications for Members. No such designation shall disqualify a Member in office when the designation is made.
+### Section 1: Membership
+The organization board is responsible for the following:
 
-### 2.2 Powers and Rights
+A. Governance – always acting in the best interests of the mission; being objective, unselfish, responsible, honest, trustworthy, and efficient; meeting all legal obligations based on state law and the Bylaws of the board; hiring, supporting, and evaluating the best Executive Director (hereafter referred to as “ED”) as possible; documenting and justifying executive compensation; succession planning for the ED and board leadership; establishing and maintaining proper boundaries between board governance and staff leadership roles and responsibilities; ensuring a strategically composed, right-sized and engaged board 
 
-Members shall have such powers and rights as are vested in them by law, the Articles of Organization, or these Bylaws. Members shall have the sole authority to adopt and approve the bylaws and amendments to the articles of organization or bylaws. Members shall also elect the Board of Directors of the corporation.
+B. Fiduciary – maintaining financial transparency and accountability for the organization; serving as trustees of the organization’s assets, exercising due diligence, ensuring the financial management of the organization is sound; setting up and monitoring key financial indicators; approving the budget; ensuring adequate control mechanisms; overseeing the annual audit; ensuring adequate funding for the organization to carry out its mission, vision, and work
 
-### 2.3 Resignation
+C. Strategic Planning and Implementation – actively participating in the development of the vision for the organization (the societal impact it hopes to achieve in the next five to ten years); actively participating in strategic planning and implementation; creating and implementing, in concert with the ED, a strategic plan for board development
 
-A Member may resign by delivering his or her written resignation to the President, Treasurer, or Clerk of the corporation; to a meeting of the Members or directors; or to the Corporation at its principal office. Such resignation shall be effective upon receipt (unless specified to be effective at some other time), and acceptance thereof shall not be necessary to make it effective unless it so states.
+D. Oversight – ensuring the mission remains relevant, meeting the current and future needs of constituents and served communities; discussing and approving the vision; helping develop and behaving within the dictates of the organization’s stated values; monitoring progress against the goals of the strategic plan; monitoring and reporting on progress against goals of the strategic plan for board development; being aware of and in partnership with the staff, appropriately and actively supporting the implementation of department plans 
 
-### 2.4 Suspension or Removal
+E. Informed Ambassadors and Advocates – defending the organization when under fire; actively promoting the organization; publicly associating with the organization, cause, mission, vision and work; staying informed about the field, the work, the people and communities served; knowing the staff and stakeholders; in partnership with the staff, actively participating in advocacy work
 
-A Member may be suspended or removed for cause by a two-thirds vote of the Board of Directors, provided that in every such case the Member shall have been given reasonable notice of the grounds for suspension or removal and an opportunity to be heard.
+F. Investors and Supporters – giving generously; in partnership with the staff, actively participating in resource development and marketing and communications initiatives; identifying and inviting others to learn more and participate; bringing all their personal capital to bear for the good of the organization; making the organization a top philanthropic and volunteer priority during the years of service
 
-### 2.5 Annual Meeting
+### Section 2: Board Role, Size, Compensation
+A. The board is responsible for overall policy and direction of the organization and delegates responsibility for day-to-day operations to the ED and other members of the COS leadership team.
 
-a. The Annual Meeting of the Members shall be held within six (6) months of the end of the Corporation’s fiscal year. It shall be held at the executive office of the Corporation or such other place as the Members may determine. The Annual Meeting of the Members may also be held solely by means of remote communication, such as a conference call.
+B. The board shall have up to twenty (20) and not fewer than three (3) members.
 
-b. In lieu of any Annual Meeting, a special meeting of the Members may be held with the same effect as such Annual Meeting; and in such event all references in the Bylaws to the Annual Meeting shall refer to such special meeting.
+C. The board receives no compensation other than reasonable expenses; travel and related expenses are the responsibility of individual board members.
 
-### 2.6 Special Meetings
+### Section 3: Officers and Duties
 
-Special meetings of the Members may be held at any time and place within the United States, including by conference call, upon the call of the President or the Clerk.
+A. There shall be three (3) officers of the board consisting of a Chair, Vice Chair, and Treasurer. Their duties are as follows:
 
-### 2.7 Notices
+  1. The Chair shall convene regularly scheduled board meetings, shall preside or arrange for other members of the board to preside at each meeting in the following order: Vice-Chair, Treasurer, and Member at Large.
+  2. The Vice-Chair will preside over board meetings should the chair be unable to attend and manage special projects as designated by the board.
+  3. The Treasurer shall make a report at each board meeting and make financial information available to board members and the public.
 
-At least twenty-one (21) days before the date of every Annual Meeting or special meeting of the Members, notice of such meeting shall be mailed to the Members at their addresses last entered on the records of the Corporation. Such notice shall specify the time, place, and purposes of the meeting. Only business relating to the purposes so specified may be transacted at the meeting.
+B. Board Officer Qualities – Board officers should exemplify the qualities, beliefs, and behaviors desired in all board members including passion for the mission, belief in the organizational values, generosity and a belief in the power of philanthropy. Board officers must also have excellent facilitation skills, believe in the importance of the diversity of voices and opinions and therefore, encourage all to participate, hold board members accountable, and be transparent and fair.  
+C. Board officers must exercise leadership in four areas.
 
-### 2.8 Quorum
+  1. The relationship between the board chair and the ED
+  2. The relationship between the board chair and the chairs of the committees (the chair’s leadership team)
+  3. The relationship between the board chair and the all of the board members,
+  4. The relationship between the board chair and key stakeholders (influencers, donors, funders, constituents)
 
-At any meeting of the Members, the presence of at least a majority of the Members then in office shall constitute a quorum. Whether or not a quorum is present, any meeting of the Members may be adjourned by a majority of the votes cast upon the question; and, as so adjourned, the meeting may be held without further notice.
+### Section 4: Executive Director
+The ED reports to the board and serves until resignation or termination by the board. This position will have responsibility for setting the organization’s strategic direction, translating that strategic direction into operational priorities, running the day to day operations, and helping the organization with fundraising and other operational needs as directed by the board. The ED serves as an ex-officio, non-voting member of the board.
 
-### 2.9 Action by Vote
+### Section 5: Founders
+COS founders Brian Nosek and Jeffrey Spies serve as ex-officio, non-voting members of the board.
 
-Except as otherwise provided by law, the Articles of Organization, or these Bylaws, each Member shall have one vote. When a quorum is present at any meeting, a majority of the votes properly cast by Members present in person or duly represented shall decide any question, including election to any office, unless otherwise provided by law, the Articles of Organization, or these Bylaws.
+### Section 6: Meetings
+The board shall hold two (2) annual meetings at an agreed upon date, time, and place set by the board chair. Additional meetings will be scheduled as needed.
 
-### 2.10 Proxies
+### Section 7: Notice
+Annual board meeting dates are to be set three (3) months in advance. 
 
-Members may vote either in person or by written proxy dated not more than sixty (60) days before any meeting during which the proxy is to be exercised. No proxy shall be valid unless it is delivered to or on file with the Clerk of the Corporation or other person responsible for recording the Proceedings of any meeting. Unless otherwise specifically limited by its terms, a proxy shall entitle the holder thereof to vote at any meetings of the Members, or adjournments thereof, which take place within the valid period of the proxy. A “written proxy” may include a proxy contained in an appropriately signed e-mail or facsimile transmission. Throughout this document, references to written documents or mailed documents shall, unless the context otherwise requires, be deemed to include email and facsimile transmissions to the extent permitted by applicable law.
+### Section 8: Special Meetings
+Special meetings of the board shall be called upon the request of the Chair or one-third of the board. Notices of special meetings shall be sent to each board member ten (10) days in advance.
+ 
+### Section 9: Quorum
+A quorum must be attended by at least two-thirds percent of the voting board members before business can be transacted or motions made or passed.
 
-### 2.11 Action by Writing
+### Section 10: Terms
 
-Any action other than the election of directors to be taken at any meeting of the Members may be taken without a meeting if all of the Members consent to the action in writing and a written consent is filed with the records of the meetings of the Members. Any such consent shall be treated for all purposes as a vote at a meeting.
+A. Board members shall serve a term of three (3) years from the date of their election. A full three (3) year term shall be considered to have been served upon the passage of three (3) annual meetings. 
 
-### 2.12 Compensation
+B. Board members shall take office immediately following the close of the annual meeting at which they are elected. 
 
-Members shall be entitled to receive for their services such amount, if any, as the directors may determine, which may include expenses of attendance at meetings. Except as may be provided by law, the Articles of Organization, or these Bylaws, Members shall not be precluded from serving the corporation in any other capacity and receiving compensation for any such services.
+C. No board member shall serve more than two (2) consecutive three (3) year terms. Board members shall serve staggered terms to balance continuity with new perspective.
 
-## ARTICLE THREE
-## DIRECTORS: POWERS, MEETINGS
+D. The term for each Board officer shall be the one (1) year period commencing with the date of the annual meeting of the Board. No single individual may be elected for more than four (4) consecutive one (1) year terms in any single office. 
+ 
+### Section 11: Nominations and Board Elections
+A. The election of Officers shall be held at annual meetings of the Board immediately following the election of the Board members. 
 
-### 3.1 Number and Election
+B. The newly elected Officers shall take office immediately following the close of the meeting at which they are elected and the term of office shall be as close to one (1) year as possible, pending dates of annual meetings.  
 
-There shall be a minimum of two (2) and a maximum of fifteen (15) directors elected by vote of the Members.
+C. Election of new board members or election of current board members to a second term will occur as the first item of business at the annual meeting of the organization. Board members will be elected by a majority vote of the current board.
 
-### 3.2 Tenure; Vacancies
+D. When a vacancy on the board exists, nominations for new members may be received from present board members by the board Chair a minimum of two (2) weeks in advance of a board meeting. These nominations shall be sent out to board members to be voted upon at the next board meeting. 
+ 
+### Section 12: Resignation, Termination and Absences
 
-a. Each director shall hold office for a term of three (3) years and until his or her successor is elected and qualified, provided however, that of the initial directors appointed, one third shall be elected for a term of one (1) year and one third shall be elected for a term of two (2) years.
+A. Resignation from the board must be in writing and received by the Chair. 
 
-b. In the event of a vacancy among the directors, the Members shall select an individual to fill such vacancy or may vote to leave the vacancy unfilled if more than the minimum number of directors remain in office. A director appointed to fill such vacancy shall be appointed for the unexpired term of such director’s predecessor.
+B. A board member may be removed from the board if s/he has two (2) unexcused absences from board meetings in a year. An Officer, Director, or board member may be removed for other reasons at any time, for any reason, and without notice by a majority vote of the remaining board.
 
-### 3.3 Powers and Duties of the Directors
+## ARTICLE III COMMITTEES
 
-a. The affairs, funds, and other property of the Corporation shall be directed and managed by the directors who (except as otherwise provided by law, the Articles of Organization, or the Bylaws) shall have, exercise and discharge all powers and duties of the Corporation. The directors may make appropriate delegations of the authority to the officers.
+### Section 1: Creation of Committees
+The board may create committees as needed. The board Chair appoints all committee chairs.
+ 
+### Section 2: Executive Committee
+The three (3) officers serve as the members of the Executive Committee. Except for the power to amend the Articles of Incorporation and Bylaws, the Executive Committee shall have all of the powers and authority of the Board of Directors in the intervals between meetings of the Board of Directors, subject to the direction and control of the Board of Directors. The Executive Committee meets as needed.
 
-b. The directors shall annually review and approve the corporation’s operating budget and shall review performance under the budget not less frequently than quarterly. The corporation shall not make any expenditure or obligate itself to make any expenditure in excess of fifty thousand dollars ($50,000), including any fractional expenditures for related items totaling more than fifty thousand dollars ($50,000), without formal review by and approval of the directors.
+### Section 3: Finance Committee
+The Treasurer is chair of the Finance Committee. The Finance Committee is responsible for developing and reviewing fiscal procedures, the fundraising plan, and annual budget with staff and other Board members. The Finance Committee meets at least three (3) times per year.
 
-c. The directors shall maintain written records of all meetings, actions, and approvals. Where the Board acts in executive session, a written record shall be maintained of the subjects considered and actions taken at any such executive session. All minutes of meetings, findings, reviews and actions taken by the directors, in open or executive session, shall be reported promptly to the Members.
+A. The Board must approve the budget, and all expenditures must be within the budget. 
 
-d. The directors shall elect a Chair and a Clerk from among the Board members to serve for a term of one (1) year and until the next annual meeting. The Clerk shall serve as such to both the Members and the directors.
+B. Any major change in the budget must be approved by the Board or the Executive Committee. The fiscal year shall be the calendar year. 
 
-e. The directors shall elect and appoint a President, Treasurer, and such other officers as the Board may determine. These officers shall serve at the pleasure of the Board but may have employment contracts with terms not to exceed three (3) years.
+C. Annual reports are required to be submitted to the Board showing income, expenditures, and pending income. 
 
-f. The directors may by vote of a majority of the directors then in office, elect or appoint from their own number an Executive Committee, and may elect such other committees as they may from time to time determine necessary or advisable.  The Executive Committee shall have authority to act for the Board between meetings subject to ratification by the Board. Any other committee elected hereunder shall have authority to act within the scope of matters for which such committee shall have been formed, subject to ratification by the Board.
+D. The financial records of the organization that are public information shall be made available to the membership, Board members, and the public.
 
-g. The directors may, from time to time, propose amendments to the by-laws and Articles of Organization for consideration by the Members.
+## ARTICLE VI INDEMNIFICATION
+The organization shall indemnify each member of the Board of Directors, as described in Article II and each of its officers, for the defense of civil or criminal actions or proceedings as hereinafter provided and notwithstanding any provision in these Bylaws, in a manner and to the extent permitted by applicable law.
 
-### 3.4 Removal
+The organization shall indemnify each of its directors and officers from and against any and all judgments, fines, amounts paid in settlement, and reasonable expenses, including attorneys' fees, actually and necessarily incurred or imposed as a result of such action or proceeding or any appeal therein, imposed upon or asserted against him/her by reason of being or having been such a director or officer and acting within the scope of his or her official duties, but only when the determination shall have been made judicially or in the manner herein provided that he/she acted in good faith for a purpose which he/she reasonably believed to be in the best interests of the organization and, in the case of a criminal action or proceeding, in addition, had no reasonable cause to believe that his/her conduct was unlawful. 
 
-Any director or officer may be removed with or without cause by a two-thirds vote of the Members.
+This indemnification shall be made only if the organization shall be advised by its board acting: (1) by a quorum consisting of directors who are not parties to such action or proceeding upon a finding that; or (2) if a quorum under (1) is not obtainable with due diligence, upon the opinion in writing of legal counsel that, the director or officer has met the foregoing applicable standard of conduct. If the foregoing determination is to be made by the board, it may rely, as to all questions of law, on the advice of independent legal counsel
 
-### 3.5 Resignation
+## ARTICLE IV FISCAL YEAR
+The fiscal year of the organization shall commence on January 1 and terminate on December 31.
 
-A director may resign by delivering his or her written resignation to the President, Treasurer, or Clerk of the corporation; to a meeting of the Members or directors; or to the Corporation at its principal office. Such resignation shall be effective upon receipt (unless specified to be effective at some other time), and acceptance thereof shall not be necessary to make it effective unless it so states.
+## ARTICLE V CONFLICTS OF INTEREST
+All board members, officers, and directors are expected to comply with the organization’s Conflict of Interest Policy and will be required to re-affirm their compliance with the policy by signing a statement each year.
 
-### 3.6 Meetings
-
-a. Regular meetings of the Board of Directors shall be held on a quarterly basis at such time and place as are designated by the Chair of the Board.
-
-b. Special meetings of the directors may be held whenever called by the Chair of the Board, or by a majority of the directors who shall have filed their call in writing with the Clerk. Subject to proper notice, such meetings may be held at any time and place designated by the Chair of the Board.
-
-c. Whenever notice of a meeting is required, such notice need not be given to any director if a written waiver of notice, executed by him (or his attorney thereunto authorized) before or after the meeting, is filed with the records of the meeting, or to any director who attends the meeting without protesting prior thereto or at its commencement the lack of notice to him.
-
-### 3.7 Notices
-
-a. At least fourteen (14) days before the date of a special meeting of the directors, notice thereof shall be sent to each director at his or her address last entered on the records of the Corporation. Such notice shall specify the time, place, and purposes of the meeting. Only business relating to the purposes so specified may be transacted at the meeting.
-
-b. No call or notice shall be required for regular meetings of the directors.
-
-### 3.8 Quorum
-
-A quorum shall consist of a simple majority of directors. Whether or not a quorum is present, any meeting of the directors may be adjourned to a specific time and place by a majority of the votes cast upon the question in accordance with Article 3, Section 9 of these Bylaws. As so adjourned, the meeting may be held, provided that at least three (3) days before the date of the adjourned meeting written notice thereof shall be sent to each director at his address last entered on the records of the Corporation.
-
-### 3.9 Action by Vote
-
-Each director shall have one vote at every meeting of the directors. The affirmative vote of a simple majority of directors present at a meeting shall be required to decide every question, unless provided otherwise by law, the Articles of Organization, or these Bylaws. Members of the Board of Directors or any committee designated thereby may participate in a meeting of such Board or committee by telephone, and participation by such means shall constitute presence in person at a meeting.
-
-### 3.10 Action by Writing
-
-Any action required or permitted to be taken at any meeting of the directors may be taken by consent in writing, by telephone, or electronic transmission, to such action. The directors shall file their consents with the records of the directors’ meetings. Such consents shall be treated for all purposes as a vote at a meeting.
-
-### 3.11 Certain Votes Prohibited
-
-A director’s vote shall not be counted on any matter that might directly or indirectly result in a private inurement to the benefit of such director, and for the purposes of determining the number of votes necessary to decide such a matter, such director shall be deemed not to be present for a meeting or to be voting by written consent with respect to such vote. Each interested director shall make reasonable efforts to recuse himself or herself from any deliberations of the Board or relevant committee that relate to such a matter. By way of example, but not limitation, no director shall participate in a decision to purchase property or services from, or issue a grant of funds to, any organization at which such director is employed, even if such purchase or grant is consistent with the Corporation’s purposes.
-
-### 3.12 Compensation
-
-Directors shall be entitled to receive for their services such amount, if any, as the directors may reasonably determine, which may include expenses of attendance at meetings. Except as may be provided by law, the Articles of Organization, or these Bylaws, a director shall not be precluded from serving the corporation in any other capacity and receiving compensation for any such services.
-
-## ARTICLE FOUR
-## OFFICERS AND AGENTS
-
-### 4.1 Number and Qualifications
-
-a. The officers of the Corporation shall consist of a President, a Treasurer, a Clerk, and such other officers, if any, as the directors may determine.
-
-b. The Clerk shall be a resident of Virginia unless the Corporation has a resident agent duly appointed for the purpose of service of process.
-
-c. If required by the directors, any officer shall give the Corporation a bond for the faithful performance of duties in such amount and with such surety or sureties as shall be satisfactory to the directors.
-
-### 4.2 Election
-
-At the first meeting of the directors following the initial meeting of the Members, and thereafter at the first meeting of the directors following each Annual Meeting of the Members, the directors shall elect, according to the requirements for action by vote specified in Article 3, Section 9 of these Bylaws, the officers of the corporation.
-
-Thereafter, the directors shall elect officers of the corporation at the next meeting of directors following a vacancy among such officers. Except as may otherwise be provided in the Articles of Organization or these Bylaws, elected officers shall serve at the pleasure of the Board but may have employment contracts with terms not to exceed three (3) years.
-
-### 4.3 President and Vice Presidents
-
-a. The President shall serve as the chief executive officer of the Corporation, and shall exercise and discharge such other powers and duties as the Bylaws provide or as the Directors may assign at any time. The President shall preside at all meetings of the Members and, if no Chair of the Board is elected, at all meetings of the directors, except as the Members or directors may otherwise determine.
-
-b. The Vice President or Vice Presidents, if any, shall have such duties and powers as the directors shall determine. The Vice President, or first Vice President if there is more than one, shall have and may exercise all the powers and duties of the President during the absence of the President or in the event of his or her inability to act.
-
-### 4.4 Treasurer
-
-The treasurer shall be the chief financial officer and the chief accounting officer of the corporation. He or she shall be in charge of the corporation’s financial affairs, funds, securities and valuable papers and shall keep full and accurate records thereof. He or she shall have such other duties and powers as designated by the directors or the President.
-
-### 4.5 Clerk
-
-a. The Clerk shall serve as such to both the Members and the directors. He or she shall record and maintain records of all proceedings of the Members and directors in a book or series of books kept for such purpose. Every such book or series of books shall be open at all reasonable times to the inspection of the Members or any director, and contain the Bylaws in effect at the time being, the name of every director at the time being and his or her address last entered on the records of the Corporation. He or she shall have, exercise, and discharge such other powers and duties as the Bylaws or the directors may assign to him or her at any time.
-
-b. If the Clerk shall be absent from any meeting of the Members or directors, an assistant secretary or assistant clerk, if any, or a temporary secretary chosen at such meeting shall have, exercise, and discharge the powers and duties of the Clerk at the meeting.
-
-### 4.6 Vacancies
-
-In the event of death, resignation, removal, or disqualification of the officers, the directors, by vote as specified in under Article 3, Section 9 herein, shall elect another person from their number to hold such office for the unexpired term.
-
-### 4.7 Removal of Officers
-
-The directors may remove for cause or without cause any officer by the affirmative vote of two thirds of the directors, without considering the vote of a director who may also hold the office which is the subject of the vote. Election or appointment of an officer or agent shall not of itself create any contract rights.
-
-### 4.8 Resignation
-
-Any officer of the Corporation may resign by delivering his or her written resignation to the President, Treasurer, or Clerk of the corporation; to a meeting of the Members or directors; or to the Corporation at its principal office. Such resignation shall be effective upon receipt (unless specified to be effective at some other time), and acceptance thereof shall not be necessary to make it effective unless it so states.
-.
-## ARTICLE FIVE
-## EXECUTION OF PAPERS
-
-All deeds, leases, transfers, contracts, bonds, notes, checks, drafts and other obligations made, accepted or endorsed by the Corporation shall be signed by the President, by the Clerk, or by the Treasurer unless the Directors generally or in particular cases authorize the execution of such in some other manner.
-
-## ARTICLE SIX
-## MISCELLANEOUS
-
-### 6.1 Duty of Members, Directors, and Officers
-
-Every Member, every director and every officer of the Corporation shall exercise and discharge the powers and duties of his or her office in good faith with that degree of diligence, care, and skill which a prudent person in any like position would ordinarily apply in similar circumstances. In so acting, every such Member, director and officer may rely on every financial statement of the Corporation represented to him or her by the Treasurer to be correct or represented in any written report by any firm of public accountants to reflect fairly the subject matter of such statement.
-
-### 6.2 Corporate Debts
-
-The Members, directors and officers of the Corporation shall not be personally liable for any debt, liability or obligation of the Corporation. All persons, corporations or other entities extending credit to, contracting with, or having any claim against the Corporation, may look only to the funds and property of the Corporation for the payment of any such contract or claim, or for the payment of any debt, damages, judgment or decree, or of any money that may otherwise become due or payable to them from the Corporation.
-
-### 6.3 Indemnification
-
-a. To the extent permitted by law and consistent with the Corporation’s status as an organization qualified under Section 501(c)(3) of the Internal Revenue Code of 1986, as amended, and with the Employee Retirement Income Security Act of 1974, as amended, the Corporation shall indemnify every Member, director and officer of the Corporation, and may at any time indemnify any employee or agent of the Corporation (any person who, at the Corporation’s request, shall serve as a director, officer, employee or agent of any other entity in which the Corporation shall have any interest) against all liabilities and expenses (including amounts paid in satisfaction of judgments, in compromise or as fines and penalties, and counsel fees, reasonable incurred by him or her in connection with the defense or disposition of any action, suit, or other proceeding, whether civil or criminal, in which he or she, while so serving the Corporation or thereafter, may be involved or with which he or she may be threatened, by reason of being or having been such a Member, director, other officer, employee, or agent), excepting however, (1) any matter as to which he or she shall have been adjudicated in any proceeding not to have acted in good faith in the reasonable belief that his or her action was in the best interest of the Corporation and (2) as hereafter in this Section 6.3 further provided. (Every such Member, Director, other officer, employee, agent, or person is hereafter in this Section 6.3 sometimes referred to as the “Individual”).
-
-b. As to any matter disposed of by any compromise payment by the individual pursuant to any consent decree or otherwise, no indemnification either for the said payment or for any other expense or expenses shall be furnished unless such compromise, after notice that it shall involve such indemnification, shall have been approved as in the best interest of the Corporation by (1) a disinterested majority of the directors at the time being in office, (2) a majority of such disinterested directors, if they shall have obtained an opinion in writing of independent legal counsel to the effect that the Individual shall appear to have acted in good faith in the reasonable belief that his or her action was in the best interests of the Corporation, or (3) a majority of the disinterested Members of the Corporation.
-
-c. Expenses, including counsel fees, reasonable incurred by the Individual in connection with the defense or disposition of any such action, suit, or other proceeding may, in advance of the final disposition thereof, be paid from time to time by the Corporation upon receipt of an undertaking by the Individual to repay to the Corporation the amounts so paid if he or she shall be adjudicated to be not entitled to indemnification under Virginia law.
-
-d. The right to indemnification shall not be exclusive of or affect any other right or rights of the Individual; and nothing contained herein shall affect any right or rights to indemnification to which the Individual may be entitled by contract with the Corporation or otherwise under law.
-
-e. As used in this Section 6.3, “director”, “officer”, “employee”, and “agent” shall include the heirs, executors, and administrators of each.
-
-### 6.4 Insurance
-
-The Corporation shall have power to purchase and maintain insurance on behalf of any person who is or was a director, officer, employee or other agent of the Corporation, or is or was serving at the request of the Corporation as a director, officer, employee or other agent of another organization in which it has an interest, against any liability incurred by him or any such capacity, or arising out of his or her status as such, whether or not the Corporation would have the power to indemnify him against such liability. 
-
-### 6.5 Fiscal Year
-
-The fiscal year of the Corporation shall end on the thirtieth (30th) day of December in each year or on such other date as the directors may determine.
-
-## ARTICLE SEVEN
-## CONFLICTS OF INTEREST POLICY
-
-### 7.1 Purpose
-
-The purpose of the conflicts of interest policy is to protect the Corporation’s interest when it is contemplating entering into a transaction or arrangement that might benefit the private interest of an officer or director of the Corporation or might result in a possible excess benefit transaction.  This policy is intended to supplement but not replace any applicable state and federal laws governing conflicts of interest applicable to nonprofit and charitable organizations.
-
-### 7.2 Definitions
-
-a.	Interested Person.  Any director, principal officer, or member of a committee with Board-delegated powers who has a direct or indirect financial interest, as defined below, is an interested person.
-
-b.	Financial Interest.  A person has a financial interest if the person has, directly or indirectly, through business, investment or family:
-
-1.	an ownership or investment interest in any entity with which the Corporation has a transaction or arrangement,
-2.	a compensation arrangement with the Corporation or with any entity or individual with which the Corporation has a transaction or arrangement, or
-3.	a potential ownership or investment interest in, or compensation arrangement with, any entity or individual with which the Corporation is negotiating a transaction or arrangement.
-
-Compensation includes direct and indirect remuneration as well as gifts or favors that are not insubstantial.  A financial interest is not necessarily a conflict of interest.  A person who has a financial interest may have a conflict of interest only if the Board or appropriate committee decides that a conflict of interest exists.
-
-### 7.3 Procedures
-
-a.	Duty to Disclose.  In connection with any actual or possible conflicts of interest, an interested person must disclose the existence of his or her financial interest and must be given the opportunity to disclose all material facts to the directors and members of committees with Board-delegated powers considering the proposed transaction or arrangement.
-
-b.	Determining Whether a Conflict of Interest Exists.  After disclosure of the financial interest and all material facts, and after any discussion with the interested person, the interested person shall leave the Board or committee meeting while the determination of a conflict of interest is discussed and voted upon.  The remaining Board or committee members shall decide if a conflict of interest exists.
-
-c.	Procedures for Addressing the Conflict of Interest.
-
-1.	An interested person may make a presentation at the Board or committee meeting, but after such presentation, such person shall leave the meeting during the discussion of, and the vote on, the transaction or arrangement involving the possible conflict of interest.
-2.	The Board or committee shall determine by a majority vote of the disinterested directors whether the transaction or arrangement is in the Corporation’s best interest, for its own benefit, and whether it is fair and reasonable.  In conformity with the above determination it shall make its decision as to whether to enter into the transaction or arrangement.
-
-d.	Violations of the Conflicts of Interest Policy.
-
-1.	If the Board or committee has reasonable cause to believe that a member has failed to disclose actual or possible conflicts of interest, it shall inform the member of the basis for such belief and afford the member an opportunity to explain the alleged failure to disclose.
-2.	If, after hearing the response of the member and making such further investigation as may be warranted in the circumstances, the Board or committee determines that the member has in fact failed to disclose an actual or possible conflict of interest, it shall take appropriate disciplinary and corrective action.
-
-### 7.4  Records of Proceedings
-
-The minutes of the Board and all committees with Board-delegated powers shall contain:
-
-a.	the names of the persons who disclosed or otherwise were found to have a financial interest in connection with an actual or possible conflict of interest, the nature of the financial interest, any action taken to determine whether a conflict of interest was present, and the Board’s or committee’s decision as to whether a conflict of interest in fact existed; and
-
-b.	the names of the persons who were present for discussions and votes relating to the transaction or arrangement, the content of the discussion, including any alternatives to the proposed transaction or arrangement, and a record of any votes taken in connection therewith.
-
-### 7.5 Compensation Committees
-
-a.	A voting member of the Board of Directors who receives compensation, directly or indirectly, from the Corporation for services is precluded from voting on matters pertaining to that member’s compensation.
-
-b.	A voting member of any committee whose jurisdiction includes compensation matters and who receives compensation, directly or indirectly, from the Corporation for services is precluded from voting on matters pertaining to that member’s compensation.
-
-c.	No voting member of the Board or any committee whose jurisdiction includes compensation matters and who receives compensation, directly or indirectly, from the Corporation, either individually or collectively, is prohibited from providing information to any committee regarding compensation.
-
-### 7.6 Annual Statements
-
-Each director, principal officer and member of a committee with Board-delegated powers shall annually sign a statement affirming that such person:
-
-a.	has received a copy of the conflicts of interest policy,
-
-b.	has read and understands the policy,
-
-c.	has agreed to comply with the policy, and
-
-d.	understands that the Corporation is a charitable organization and that in order to maintain its federal tax exemption it must engage primarily in activities which accomplish one or more of its tax-exempt purposes.
-
-### 7.7 Periodic Reviews
-
-To ensure that the Corporation operates in a manner consistent with its charitable purposes and that it does not engage in activities that could jeopardize its status as an organization exempt from federal income tax, periodic reviews shall be conducted.  The periodic reviews shall, at a minimum, include the following subjects:
-
-a.	Whether compensation arrangements and benefits are reasonable, based on competent survey information, and the result of arm’s length bargaining.
-
-b.	Whether partnerships, joint ventures, and arrangements with management organizations conform to the Corporation’s written policies, are properly recorded, reflect reasonable investment or payments for goods and services, further charitable purposes and do not result in inurement, impermissible private benefit or in an excess benefit transaction.
-
-### 7.8 Use of Outside Experts
-
-In conducting the periodic reviews provided for in 7.7, the Corporation may, but need not, use outside advisors.  If outside experts are used their use shall not relieve the Board of its responsibility for ensuring that periodic reviews are conducted.
+## ARTICLE VII AMENDMENTS
+These bylaws may be amended when necessary by at least two-thirds of the Board of Directors. Proposed amendments must be submitted to the Chair to be sent out with regular board announcements. These bylaws were approved at a meeting of the Board of Directors of the Center for Open Science on December 21, 2016.
