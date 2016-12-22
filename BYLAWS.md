@@ -49,7 +49,8 @@ A. There shall be three (3) officers of the board consisting of a Chair, Vice Ch
   2. The Vice-Chair will preside over board meetings should the chair be unable to attend and manage special projects as designated by the board.
   3. The Treasurer shall make a report at each board meeting and make financial information available to board members and the public.
 
-B. Board Officer Qualities – Board officers should exemplify the qualities, beliefs, and behaviors desired in all board members including passion for the mission, belief in the organizational values, generosity and a belief in the power of philanthropy. Board officers must also have excellent facilitation skills, believe in the importance of the diversity of voices and opinions and therefore, encourage all to participate, hold board members accountable, and be transparent and fair.  
+B. Board Officer Qualities – Board officers should exemplify the qualities, beliefs, and behaviors desired in all board members including passion for the mission, belief in the organizational values, generosity and a belief in the power of philanthropy. Board officers must also have excellent facilitation skills, believe in the importance of the diversity of voices and opinions and therefore, encourage all to participate, hold board members accountable, and be transparent and fair. 
+
 C. Board officers must exercise leadership in four areas.
 
   1. The relationship between the board chair and the ED
