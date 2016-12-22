@@ -389,19 +389,6 @@
             </ul>
         </div>
     </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/svenson.jpg" alt="Elena Svenson">
-            <h3>
-                Elena Svenson
-                <small>Community Intern | Community</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/esvenson" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/ecs83/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
      <li class="col-md-3 space-mobile">
         <div class="thumbnail">
             <img src="../static/img/people/barbour.jpg" alt="Eric Barbour">
@@ -943,20 +930,7 @@
             </ul>
         </div>
     </li>
-     <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/zhou.jpg" alt="Tao Zhou">
-            <h3>
-                Tao Zhou
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
-                <li><a href="https://github.com/545zhou" data-original-title="GitHub" class="github"></a> </li>
-                <li><a href="https://osf.io/tz7kj/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3">
+        <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/sacco.jpg" alt="Todd Sacco">
             <h3>
@@ -1460,6 +1434,19 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/dmr5bq" data-original-title="GitHub" class="github"></a> </li>
                 <li><a href="https://osf.io/zbdek/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/svenson.jpg" alt="Elena Svenson">
+            <h3>
+                Elena Svenson
+                <small>Community Intern | Community</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/esvenson" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/ecs83/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -2428,6 +2415,20 @@
             </ul>
         </div>
     </li>
+     <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
+            <img src="../static/img/people/zhou.jpg" alt="Tao Zhou">
+            <h3>
+                Tao Zhou
+                <small>Developer Intern | Infrastructure</small>
+            </h3>
+            <ul class="social-icons social-icons-color">
+                <li><a href="https://github.com/545zhou" data-original-title="GitHub" class="github"></a> </li>
+                <li><a href="https://osf.io/tz7kj/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+
     <li class="col-md-3">
         <div class="thumbnail">
             <img src="../static/img/people/hudson.jpg" alt="Tanesha Hudson">
