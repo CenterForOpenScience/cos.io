@@ -690,8 +690,8 @@
                     <p>Currently, there are two ways to support the Center for Open Science:</p>
                     <table  class="margin-top-50 donation-table">
                         <tr>
-                            <td class="sponsor-center"><a href="https://www.givinglibrary.org/organizations/center-for-open-science"><img src="/static/img/icons/givinglibrary.png"></a></td>
-                            <td>Giving Library is a catalogue of non-profits where you can make a secure donation to COS.</td>
+                            <td class="sponsor-center"><a href="https://www.crowdrise.com/donate/charity/centerforopenscience"><img src="/static/img/icons/crowdrise.png"></a></td>
+                            <td>Crowdrise is a giving service where you can make a secure donation to COS.</td>
                         </tr>
                         <tr>
                             <td class="sponsor-center"><a href="http://smile.amazon.com/ch/46-1496217"><img src="/static/img/icons/amazon.jpg"></a></td>

@@ -61,7 +61,7 @@
                 <li class="dropdown ${ 'active' if page == 'contact' else ''}">
                     <a href="/contact/">Contact Us </a>
                 </li>
-                <li><a href="https://www.givinglibrary.org/organizations/center-for-open-science">Donate</a></li>
+                <li><a href="https://www.crowdrise.com/donate/charity/centerforopenscience">Donate</a></li>
             </ul>
         </div>
 
