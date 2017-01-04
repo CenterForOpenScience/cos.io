@@ -1,0 +1,15 @@
+{% if value.display_style == "horizontal" %}
+    <ul class = 'nav nav-tabs'>
+{% else %}
+    <ul class="tabbable community-tabbable">
+{% endif %}
+        {% for index in value.tabsIndexes %}
+            {% if forloop.counter == 1 %}
+                <li class="active">
+            {% else %}
+            <li class>
+            {% endif %}
+            <a href="#{{ index.value.id }}" data-toggle="tab">{{ index.value.display}}</a>
+        </li>
+        {% endfor %}
+    </ul>

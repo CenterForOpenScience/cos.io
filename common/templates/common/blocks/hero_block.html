@@ -1,0 +1,32 @@
+{% load wagtailimages_tags %}
+{% load static %}
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
+<div
+  style='
+         overflow: hidden;
+         height: 400px;
+         background: -webkit-radial-gradient(circle, #FAFFFF, #CEF3FF);
+         position: relative;
+         '>
+
+  {% image self.image original as image%}
+  <img src="{{ image.url }}"
+    style='
+           max-height:200px;
+           max-width: 200px;
+           display: block;
+           margin: 20px auto;
+           '/>
+
+  <div class='caps'
+    style='
+           width: 1200px;
+           font-size: 36px;
+           margin: auto;
+           padding-top: 40px;
+           text-align: center;
+           '>
+    {{ self.description }}
+  </div>
+</div>

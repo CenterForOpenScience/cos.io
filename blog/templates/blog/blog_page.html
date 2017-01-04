@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
+
+
+{% block content %}
+    <div class="page-container">
+        <!-- BEGIN CONTAINER -->
+        <div class="container">
+            {% include 'blog/blog_post.html' with blog=self %}
+            {% if COMMENTS_APP == 'django_comments_xtd' %}
+                {% include 'blog/blog_post_comments_xtd.html' with blog=self %}
+            {% endif %}
+        </div>
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              {# Have to specify content or it will just display the name of the footer #}
+              {{ self.footer.content }}
+            </div>
+          </div>
+        </div>
+    </div>
+{% endblock %}
