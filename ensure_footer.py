@@ -46,7 +46,7 @@ def migrate(dry=True):
         footer = common.models.Footer.objects.get(id=1)
 >>>>>>> aad88a0da423b62dad0f8e42306058603b73302e
     except:
-        footer = common.models.Footer(name='Main')
+        footer = common.models.Footer(title='Main')
 
     footer.content = raw_json
     if not dry:
