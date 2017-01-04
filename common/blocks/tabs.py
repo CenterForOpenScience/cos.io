@@ -17,10 +17,14 @@ from wagtail.wagtailcore.blocks import ChoiceBlock
 from common.blocks.people import PeopleBlock
 from common.blocks.columns import RowBlock
 from common.blocks.columns import GenericContentStreamBlock
+import logging
+logger = logging.getLogger('django')
+import pdb
 
 import random, string
 def randomword(length):
    return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
+
 
 class TabBlock(StructBlock):
 
@@ -176,4 +180,3 @@ class TabsBlock(StructBlock):
         form_template = 'common/block_forms/tabs.html'
         template = 'common/blocks/tabs.html'
         label = 'Tabs'
-

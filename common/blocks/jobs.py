@@ -1,8 +1,9 @@
 from wagtail.wagtailcore import blocks
+from .StructBlockWithStyle import StructBlockWithStyle
 
-class JobsWholeBlock(blocks.StructBlock):
+class JobsWholeBlock(StructBlockWithStyle):
 
     class Meta:
         template = 'common/blocks/jobs_whole_block.html'
-        icon = 'placeholder'
+        icon = 'fa-suitcase'
         label = 'Jobs Block'

@@ -1,6 +1,6 @@
 {% load wagtailcore_tags %}
 {% for job in jobs %}
-<div id="{{ job.title }}" class="panel-group">
+<div id="{{ job.title }}" class="panel-group" style="{{ value.css_style }}">
      <div class="panel panel-info">
          <div class="panel-heading" data-toggle="collapse" href="#{{ job.title }}_heading">
              <h4 class="panel-title">

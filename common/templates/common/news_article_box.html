@@ -3,9 +3,8 @@
 {% lazy_paginate newsArticles %}
     {% for article in newsArticles %}
         <div class="service-box-v1">
-
             {% if article.body %}
-                <a href="..{{ article.url }}">
+                <a href="{{ article.url }}">
             {% else %}
                 <a href="{{article.external_link}}">
             {% endif %}

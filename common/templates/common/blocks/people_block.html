@@ -34,6 +34,19 @@
                                 {% if person.linked_in %}
                                     <li><a href="{{ person.linked_in }}" data-original-title="Linkedin" class="linkedin"></a></li>
                                 {% endif %}
+                                {% if person.google_plus %}
+                                    <li><a href="{{ person.google_plus }}" data-original-title="Google Plus" class="googleplus"></a></li>
+                                {% endif %}
+                                {% if person.github %}
+                                    <li><a href="{{ person.github }}" data-original-title="GitHub" class="github"></a></li>
+                                {% endif %}
+                                {% if person.blog_url %}
+                                    <li><a href="{{ person.blog_url }}" data-original-title="person" class="person"></a></li>
+                                {% endif %}
+                                {% if person.twitter %}
+                                    <li><a href="{{ person.twitter }}" data-original-title="Twitter" class="twitter"></a></li>
+                                {% endif %}
+
                             </ul>
                         </div>
                     </li>
@@ -49,8 +62,8 @@
     .thumbnail > img {
         border-radius: 256px !important;
         display:block;
-        max-width:100%;
-        max-height:250px;
+        width:250px;
+        height:250px;
     }
     </style>
 {% elif value.displayStyle == 'concise-ambassador' %}
@@ -92,8 +105,8 @@
     .thumbnail > img {
         border-radius: 256px !important;
         display:block;
-        max-width:100%;
-        max-height:200px;
+        width:200px;
+        height:200px;
     }
     </style>
 {% else %}

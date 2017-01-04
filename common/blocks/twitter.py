@@ -1,6 +1,7 @@
 from wagtail.wagtailcore import blocks
+from .StructBlockWithStyle import StructBlockWithStyle
 
-class TwitterBlock(blocks.StructBlock):
+class TwitterBlock(StructBlockWithStyle):
     username = blocks.CharBlock(required=True)
 
     class Meta:

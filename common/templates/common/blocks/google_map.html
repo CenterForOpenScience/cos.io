@@ -1,3 +1,4 @@
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCvuAERNLWJBDDaUkuT9cZaTKLtyGXmIiI"></script>
 <script>
  function init() {
    var base = 'https://maps.google.com/maps/ms?msa=0&msid=212077150860196517022.0004eb13abe27b89316db&ie=UTF8&t=m&ll=LATLONG8&spn=0.04056,0.120163z=12&output=embed';
@@ -18,7 +19,7 @@
  google.maps.event.addDomListener(window, 'load', init);
 </script>
 
-<div class="row" id="footer-map">
+<div class="row" id="footer-map" style="{{ value.css_style }}">
   <iframe width="100%" height="240" frameborder="0" scrolling="no" src=""></iframe>
   <br />
   <small>View <a id="view-map" href=""> {{ self.address }}</a> in a larger map</small>
