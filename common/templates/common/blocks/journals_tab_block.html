@@ -1,0 +1,233 @@
+{% load wagtailcore_tags %}
+
+{% if value.displayStyle == 'participating journals' %}
+<ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#rrjournals"><b>Journals that have adopted Registered Reports</b></a></li>
+      <li><a data-toggle="tab" href="#specialissues"><b>Special Issues</b></a></li>
+      <li><a data-toggle="tab" href="#some"><b>Some Features</b></a></li>
+</ul>
+<div class="tab-content">
+    <div id="rrjournals" class="tab-pane fade active in">
+        <table data-toggle="table">
+            <thead>
+                <th class="col-md-7" style="" data-field="Journal">
+                    <div class="th-inner ">Journal</div>
+                </th>
+                <th class="col-md-5" style="" data-field="Notes">
+                    <div class="th-inner ">Notes</div>
+                </th>
+            </thead>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content' style="display:none">
+            {% for journal in journals %}
+                {% if journal.is_registered_journal %}
+                    <tr>
+                        <td class="col-md-7" style="">
+                            <a href = {{ journal.url_link }}> {{ journal.title }} </a>
+                        </td>
+                        <td class="col-md-5" style="">
+                            {% for x in journal.notes.stream_data %}
+                                {% if not forloop.first %}
+                                    |
+                                {% endif %}
+                                {% if x.value.link %}
+                                    <a href = {{ x.value.link }}>{{ x.value.description }}</a>
+                                {% else %}
+                                    {{ x.value.description }}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div id="specialissues" class="tab-pane fade">
+        <table data-toggle="table">
+            <thead>
+                <th class="col-md-7" style="" data-field="Journal">
+                    <div class="th-inner ">Journal</div>
+                </th>
+                <th class="col-md-5" style="" data-field="Notes">
+                    <div class="th-inner ">Notes</div>
+                </th>
+            </thead>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content'>
+            {% for journal in journals %}
+                {% if journal.is_special_journal %}
+                    <tr>
+                        <td class="col-md-7" style="">
+                            <a href = {{ journal.url_link }}> {{ journal.title }} </a>
+                        </td>
+                        <td class="col-md-5" style="">
+                            {% for x in journal.notes.stream_data %}
+                                {% if not forloop.first %}
+                                    |
+                                {% endif %}
+                                {% if x.value.link %}
+                                    <a href = {{ x.value.link }}>{{ x.value.description }}</a>
+                                {% else %}
+                                    {{ x.value.description }}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div id="some" class="tab-pane fade">
+        <table data-toggle="table">
+            <thead>
+                <th class="col-md-7" style="" data-field="Journal">
+                    <div class="th-inner ">Journal</div>
+                </th>
+                <th class="col-md-5" style="" data-field="Notes">
+                    <div class="th-inner ">Notes</div>
+                </th>
+            </thead>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content'>
+             {% for journal in journals %}
+                {% if journal.is_featured_journal %}
+                    <tr>
+                        <td class="col-md-7" style="">
+                            <a href = {{ journal.url_link }}> {{ journal.title }} </a>
+                        </td>
+                        <td class="col-md-5" style="">
+                            {% for x in journal.notes.stream_data %}
+                                {% if not forloop.first %}
+                                    |
+                                {% endif %}
+                                {% if x.value.link %}
+                                    <a href = {{ x.value.link }}>{{ x.value.description }}</a>
+                                {% else %}
+                                    {{ x.value.description }}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% elif value.displayStyle == 'eligible journals' %}
+    <table data-toggle="table" data-height="799" data-search="true" class="table table-hover" style="margin-top: -40px;">
+        <thead>
+            <tr>
+                <th class="col-md-4" style="" data-field="Journal Title" data-sortable="true">Journal Title</th>
+                <th class="col-md-2" style="" data-field="Publisher" data-sortable="true">Publisher</th>
+                <th class="col-md-2" style="" data-field="Association" data-sortable="true">Society Affiliation</th>
+                <th class="col-md-2" style="" data-field="Subject Area" data-sortable="true">Subject Area</th>
+            </tr>
+        </thead>
+        <div class="loading-msgs text-center">
+                <div id="loader"></div>
+
+                <p>Loading</p>
+        </div>
+        <tbody class='tbody-content' style="display:none">
+        {% for journal in journals %}
+            {% if journal.is_preregistered_journal %}
+                <tr>
+                    <td class="col-md-4" style="">
+                        {{ journal.title }}
+                    </td>
+                    <td class="col-md-2" style="">
+                        {{ journal.publisher }}
+                    </td>
+                    <td class="col-md-2" style="">
+                        {{ journal.association }}
+                    </td>
+                    <td class="col-md-2" style="">
+                        {{ journal.area }}
+                    </td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+<ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#journals"><b>Journals</b></a></li>
+      <li><a data-toggle="tab" href="#organizations"><b>Organizations</b></a></li>
+</ul>
+<div class="tab-content">
+    <div id="journals" class="tab-pane fade in active">
+        <table data-toggle="table" data-height="799" data-search="true">
+            <thead>
+                <th data-field="Journal Title" data-sortable="true" class="col-md-4">Journal Title</th>
+                <th data-field="Publisher" data-sortable="true" class="col-md-2">Publisher</th>
+                <th data-field="Association" data-sortable="true" class="col-md-2">Society/Association Affiliation</th>
+                <th data-field="Subject Area" data-sortable="true" class="col-md-2">Subject Area</th>
+            </thead>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content' style="display:none">
+                 {% for journal in journals %}
+                    {% if journal.is_top_journal %}
+                        <tr>
+                            <td class="col-md-4" style="">
+                                {{ journal.title }}
+                            </td>
+                            <td class="col-md-2" style="">
+                                {{ journal.publisher }}
+                            </td>
+                            <td class="col-md-2" style="">
+                                {{ journal.association }}
+                            </td>
+                            <td class="col-md-2" style="">
+                                {{ journal.area }}
+                            </td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div id="organizations" class="tab-pane fade">
+        <table data-toggle="table" data-height="799" data-sort-name="Organization" data-sort-order="asc" data-search="true">
+            <thead>
+                <tr>
+                    <th data-field="Organization" data-sortable="true">Organization</th>
+                </tr>
+            </thead>
+            <div class="loading-msgs text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading</p>
+            </div>
+            <tbody class='tbody-content' style="display:none">
+                {% for org in organizations %}
+                    <tr>
+                        <td style="">
+                            {{ org.name }}
+                        </td>
+                    </tr>
+                {% endfor %}
+        </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}

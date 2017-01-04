@@ -1,4 +1,6 @@
 from django.utils.html import strip_tags
+from django.template.loader import render_to_string
+from django import forms
 
 def highlightingapply():
 
@@ -18,6 +20,7 @@ def highlightingapply():
             return self.render_html(highlight_locations, start_offset - 20, end_offset)
         else:
             return self.render_html(highlight_locations, 0, 50)
+
 
     from haystack.utils.highlighting import Highlighter
 

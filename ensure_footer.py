@@ -4,20 +4,16 @@ import os
 import sys
 
 import django
-<<<<<<< HEAD
 from website.settings.base import DEFAULT_FOOTER_ID
-=======
->>>>>>> aad88a0da423b62dad0f8e42306058603b73302e
 
 # must come before we import common.models
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'website.settings.dev')
 django.setup()
 
 import common.models
 
 def migrate(dry=True):
-    html = '''<div class='row margin-bottom-30'>
-    <div class='col-md-4' ><div class="block-rich_text"><div class="rich-text"><h4>About</h4><p>The Center for Open Science fosters openness, integrity, and reproducibility of scientific research</p></div></div></div>
+    html = '''<div class='col-md-4' ><div class="block-rich_text"><div class="rich-text"><h4>About</h4><p>The Center for Open Science fosters openness, integrity, and reproducibility of scientific research</p></div></div></div>
 
     <div class='col-md-4' ><div class="block-rich_text"><div class="rich-text"><h4>Contact Us</h4><p>Center for Open Science</p><p>210 Ridge McIntire Road</p><p>Suite 500</p><p>Charlottesville, VA 22903-5083</p><p>Email: contact@cos.io</p><p><br/></p></div></div>
     <div class="block-photo_stream"><h2>Photo Stream</h2>
@@ -33,18 +29,13 @@ def migrate(dry=True):
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
     </div></div>
-    </div>
     '''
 
     # First, convert the html to json, with the appropriate block type
     raw_json = json.dumps([{'type': 'raw_html', 'value': html}])
 
     try:
-<<<<<<< HEAD
         footer = common.models.Footer.objects.get(id=DEFAULT_FOOTER_ID)
-=======
-        footer = common.models.Footer.objects.get(id=1)
->>>>>>> aad88a0da423b62dad0f8e42306058603b73302e
     except:
         footer = common.models.Footer(title='Main')
 
@@ -61,4 +52,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
