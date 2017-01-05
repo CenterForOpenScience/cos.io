@@ -207,6 +207,22 @@
     </li>
     <li class="col-md-3 space-mobile">
         <div class="thumbnail">
+            <img src="../static/img/people/swenson.jpg" alt="Baylee Swenson">
+            <h3>
+                Baylee Swenson
+                <small>Developer | Infrastructure</small>
+                <noscript><span class="obfuscated-email-noscript"><small style="padding-top: 5px;">bay<span style="display:none;">null</span>lee@cos<span style="display:none;">null</span>.io</small></span></noscript>
+            </h3>
+            <ul class="social-icons social-icons-color">
+            <li><script type="text/javascript">document.write("<n uers=\"znvygb:onlyrr@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
+                <li><a href="https://github.com/betsyferronato" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/pub/betsy-ferronato/1b/282/584" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/dvx4k/" data-original-title="osf" class="osf"></a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="col-md-3 space-mobile">
+        <div class="thumbnail">
             <img src="../static/img/people/ferronato.jpg" alt="Betsy Ferronato">
             <h3>
                 Betsy Ferronato
@@ -215,9 +231,9 @@
             </h3>
             <ul class="social-icons social-icons-color">
             <li><script type="text/javascript">document.write("<n uers=\"znvygb:orgfl@pbf.vb\" ery=\"absbyybj\" qngn-bevtvany-gvgyr=\"rznvy\" pynff=\"rznvy\"></n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script></li>
-                <li><a href="https://github.com/betsyferronato" data-original-title="GitHub" class="github"></a></li>
-                <li><a href="https://www.linkedin.com/pub/betsy-ferronato/1b/282/584" data-original-title="Linkedin" class="linkedin"></a></li>
-                <li><a href="https://osf.io/dvx4k/" data-original-title="osf" class="osf"></a></li>
+                <li><a href="https://github.com/baylee-d" data-original-title="GitHub" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/baylee-swenson-ab9468109" data-original-title="Linkedin" class="linkedin"></a></li>
+                <li><a href="https://osf.io/9j4sn/" data-original-title="osf" class="osf"></a></li>
             </ul>
         </div>
     </li>
@@ -1138,17 +1154,6 @@
             <ul class="social-icons social-icons-color">
                 <li><a href="https://github.com/asmacdo" data-original-title="GitHub" class="github"></a></li>
                 <li><a href="https://osf.io/4nw7z/" data-original-title="osf" class="osf"></a></li>
-            </ul>
-        </div>
-    </li>
-    <li class="col-md-3 space-mobile">
-        <div class="thumbnail">
-            <img src="../static/img/people/swenson.jpg" alt="Baylee Swenson">
-            <h3>
-                Baylee Swenson
-                <small>Developer Intern | Infrastructure</small>
-            </h3>
-            <ul class="social-icons social-icons-color">
             </ul>
         </div>
     </li>
