@@ -6,15 +6,11 @@
     
 </style>
     <div style="float: left">
-        {% image blog.header_image fill-120x120 %}
+        {% image blog.header_image fill-190x120 %}
     </div>
-    <div style="padding-left: 150px;">
+    <div style="padding-left: 210px;">
 <div style='overflow: hidden; padding-bottom: 14px;'>
-    <div style="padding:0 0 0 0; float: left;"><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="font-size: 30px;"><strong>{{ blog.title }}</strong></h2></a>
-    </div>
-    {% if blog.date %}
-    <div style="float: right; text-align: right;">
-            {{ blog.date|date:"F jS, Y"}},
+    <div style="padding:0 0 0 0; float: left; font-size: 12px;"><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="font-size: 30px; margin-top: 15px;"><strong>{{ blog.title }}</strong></h2></a>
             {% if not blog.blog_authors.all %}
                 {{  blog.get_author }}
             {% else %}
@@ -29,6 +25,10 @@
                 {% endfor %}
             {% endif %}
 
+    </div>
+    {% if blog.date %}
+    <div style="float: right; text-align: right;">
+            {{ blog.date|date:"F jS, Y"}}
     </div>
     {% endif %}
 </div>
