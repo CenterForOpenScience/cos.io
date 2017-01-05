@@ -2,11 +2,18 @@
 {% load wagtailimages_tags %}
 
 {% if include_context == "index_page" %}
-<div>
-    <div class = 'col-md-7' style="padding:0 0 0 0"><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="display:inline;"><strong>{{ blog.title }}</strong></h2></a>
+<style>
+    
+</style>
+    <div style="float: left">
+        {% image blog.header_image fill-120x120 %}
+    </div>
+    <div style="padding-left: 150px;">
+<div style='overflow: hidden; padding-bottom: 14px;'>
+    <div style="padding:0 0 0 0; float: left;"><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="font-size: 30px;"><strong>{{ blog.title }}</strong></h2></a>
     </div>
     {% if blog.date %}
-    <div class='col-md-5' style="text-align:right;margin-top: 5px;">
+    <div style="float: right; text-align: right;">
             {{ blog.date|date:"F jS, Y"}},
             {% if not blog.blog_authors.all %}
                 {{  blog.get_author }}
@@ -24,10 +31,9 @@
 
     </div>
     {% endif %}
-    <div id="clear" style="clear:both;"></div>
 </div>
 
-<div class="blog-intro" >
+<div class="blog-intro" style="">
     <p><a href="{% pageurl blog %}">
         {{ blog.intro|truncatewords_html:70 }}
     </a></p>
@@ -55,6 +61,7 @@
         <a href="{% pageurl blog %}#disqus_thread">No Comments</a>
     {% endif %}
     </div>
+</div>
 </div>
 {% else %}
 <div class="page-container">
