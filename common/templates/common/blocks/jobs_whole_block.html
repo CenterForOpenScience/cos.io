@@ -1,0 +1,69 @@
+{% load wagtailcore_tags %}
+{% for job in jobs %}
+<div id="{{ job.title }}" class="panel-group" style="{{ value.css_style }}">
+     <div class="panel panel-info">
+         <div class="panel-heading" data-toggle="collapse" href="#{{ job.title }}_heading">
+             <h4 class="panel-title">
+                 <span class="chevron"><span class="glyphicon glyphicon-chevron-right"></span></span>
+                 <a data-parent="#{{ job.title }}">
+                   {{ job.title }}
+                 </a>
+             </h4>
+         </div>
+         <div id="{{ self.job_title }}" class="panel-collapse collapse" style="height: 0px;">
+             <div class="panel-body">
+               <dl class="dl-horizontal">
+                 {% if job.background %}
+                   <dt>Background</dt>
+                   <dd>{{ job.background|richtext }}</dd>
+                 {% endif %}
+               {% if job.responsibilities %}
+                   <dt>Responsibilities</dt>
+                   <dd>{{ job.responsibilities|richtext }}</dd>
+                 {% endif %}
+               {% if job.qualifications %}
+                   <dt>Qualifications</dt>
+                   <dd>{{ job.qualifications|richtext }}</dd>
+                 {% endif %}
+               {% if job.skills %}
+                   <dt>Skills</dt>
+                   <dd>{{ job.skills|richtext }}</dd>
+                 {% endif %}
+               {% if job.core_technologies %}
+                   <dt>Core Technologies</dt>
+                   <dd>{{ job.core_technologies|richtext }}</dd>
+                 {% endif %}
+               {% if job.experience_we_need %}
+                   <dt>Experience We Need</dt>
+                   <dd>{{ job.experience_we_need|richtext }}</dd>
+                 {% endif %}
+               {% if job.notes %}
+                   <dt>Notes</dt>
+                   <dd>{{ job.notes|richtext }}</dd>
+                 {% endif %}
+               {% if job.location %}
+                   <dt>Location</dt>
+                   <dd>{{ job.location|richtext }}</dd>
+                 {% endif %}
+               {% if job.preferred %}
+                   <dt>Preferred</dt>
+                   <dd>{{ job.preferred|richtext }}</dd>
+                 {% endif %}
+               {% if job.referrals %}
+                   <dt>Referrals</dt>
+                   <dd>{{ job.referrals|richtext }}</dd>
+                 {% endif %}
+               {% if job.benefits %}
+                   <dt>Benefits</dt>
+                   <dd>{{ job.benefits|richtext }}</dd>
+                 {% endif %}
+               {% if job.applying %}
+                   <dt>Applying</dt>
+                   <dd>{{ job.applying|richtext }}</dd>
+                 {% endif %}
+               </dl>
+             </div>
+         </div>
+     </div>
+</div>
+{% endfor %}

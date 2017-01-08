@@ -1,0 +1,7 @@
+{% load wagtailcore_tags %}
+
+<div class='contain row'>
+    {% for column in columns %}
+        <div class='col-md-{{ column_size }}'>{{ column.content }}</div>
+    {% endfor %}
+</div>

@@ -1,43 +1,26 @@
-# OS generated files
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# R
-#######################
-.Rhistory
-
+!.gitkeep
+# DB / Migrations
 # Python
-#######################
+**/bower_components
+*.diff
+*.idea/
 *.py[cod]
+*.pyc
 *.so
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-__pycache__
-pip-log.txt
-.coverage
-.tox
-nosetests.xml
-*.mo
-.idea
-env
+*/__pycache__/*
+.DS_Store
+.csv
 .env
-# Python
-#######################
-frozen
+.idea
+.idea/
+.local_settings.pyc
+db.sqlite3
+dump.rdb
+env/
+static
+latest.dump
+local_settings.py
+log
+media
+website/settings/local.py
+~Envs/

@@ -1,0 +1,9 @@
+{% load wagtailimages_tags %}
+{% load static %}
+<li class="col-md-3 space-mobile" style="{{ value.css_style }}">
+  {% image self.image original as image%}
+  <a><div class="photoSwitch" style="background-image: url({{ image.url }});"></div></a>
+  <div>
+    <center><h3>{{ self.title }}</h3></center>
+    {{ self.description }}
+</li>

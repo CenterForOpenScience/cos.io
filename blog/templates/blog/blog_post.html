@@ -1,0 +1,138 @@
+{% load wagtailcore_tags static %}
+{% load wagtailimages_tags %}
+
+{% if include_context == "index_page" %}
+<style>
+    
+</style>
+    <div style="float: left">
+        {% image blog.header_image fill-190x120 %}
+    </div>
+    <div style="padding-left: 210px;">
+<div style='overflow: hidden; padding-bottom: 14px;'>
+    <div style="padding:0 0 0 0; float: left; font-size: 12px;"><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="font-size: 30px; margin-top: 15px;"><strong>{{ blog.title }}</strong></h2></a>
+            {% if not blog.blog_authors.all %}
+                {{  blog.get_author }}
+            {% else %}
+                {% for a in blog.blog_authors.all %}
+                    {% if forloop.last %}
+                        {{ a.first_name }}
+                        {{ a.last_name }}
+                    {% else %}
+                        {{ a.first_name }}
+                        {{ a.last_name }},
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+    </div>
+    {% if blog.date %}
+    <div style="float: right; text-align: right;">
+            {{ blog.date|date:"F jS, Y"}}
+    </div>
+    {% endif %}
+</div>
+
+<div class="blog-intro" style="">
+    <p><a href="{% pageurl blog %}">
+        {{ blog.intro|truncatewords_html:70 }}
+    </a></p>
+</div>
+<div class="tags">
+    {% if blog.tags.all %}
+        Tags:
+            {% for tag in blog.tags.all %}
+                <a href="{% url 'blog:tag' tag.slug %}/">{{ tag }}</a>{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+    {% endif %}
+</div>
+<div class="tags-and-comments">
+    {% if blog.categories.all %}
+        Posted in
+            {% for cat in blog.categories.all %}
+                <a href="{% url 'blog:category' cat.category.slug %}">{{ cat.category.name }}</a>{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+    {% endif %}
+
+    <div id="comments" class="comments">
+    {% if COMMENTS_APP == 'django_comments_xtd' %}
+        {% include 'blog/blog_post_comments_xtd_link.html' with blog=blog %}
+    {% elif False %}
+        <a href="{% pageurl blog %}#disqus_thread">No Comments</a>
+    {% endif %}
+    </div>
+</div>
+</div>
+{% else %}
+<div class="page-container">
+    <!-- BEGIN CONTAINER -->
+    <div class="container">
+        <div class="col-md-9">
+            <h2><strong>{{ blog.title }}</strong></h2>
+            <p class="meta">
+                {{ blog.date|date:"F jS, Y" }},
+                {% if not blog.blog_authors.all %}
+                    {{  blog.get_author }}
+                {% else %}
+                    {% for a in blog.blog_authors.all %}
+                        {% if forloop.last %}
+                            {{ a.first_name }}
+                            {{ a.last_name }}
+                        {% else %}
+                            {{ a.first_name }}
+                            {{ a.last_name }},
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </p>
+            <div class="share">
+                <span class="st_linkedin_large" st_title="{{ blog.title }}" st_url="{{ SITE_URL }}{% pageurl blog %}" displayText="LinkedIn"></span>
+                <span class="st_twitter_large" st_title="{{ blog.title }}" st_url="{{ SITE_URL }}{% pageurl blog %}" displayText="Tweet"></span>
+                <span class="st_facebook_large" st_title="{{ blog.title }}" st_url="{{ SITE_URL }}{% pageurl blog %}" displayText="Facebook"></span>
+                <span class="st_plusone_large" st_title="{{ blog.title }}" st_url="{{ SITE_URL }}{% pageurl blog %}" displayText="Google +1"></span>
+                <span class="st_email_large" st_title="{{ blog.title }}" st_url="{{ SITE_URL }}{% pageurl blog %}" displayText="Email"></span>
+                <span class="st_sharethis_large" st_title="{{ blog.title }}" st_url="{{ SITE_URL }}{% pageurl blog %}" displayText="ShareThis"></span>
+            </div>
+
+            <div class="meta">
+                <div class="tags">
+                    {% if blog.tags.all %}
+                        Tags:
+                            {% for tag in blog.tags.all %}
+                                <a href="{% url 'blog:tag' tag.slug %}/">{{ tag }}</a>{% if not forloop.last %}, {% endif %}
+                            {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="tags-and-comments">
+                    {% if blog.categories.all %}
+                        Posted in
+                            {% for cat in blog.categories.all %}
+                                <a href="{% url 'blog:category' cat.category.slug %}">{{ cat.category.name }}</a>{% if not forloop.last %}, {% endif %}
+                            {% endfor %}
+                    {% endif %}
+
+                    <div id="comments" class="comments">
+                    {% if COMMENTS_APP == 'django_comments_xtd' %}
+                        {% include 'blog/blog_post_comments_xtd_link.html' with blog=blog %}
+                    {% elif False %}
+                        <a href="{% pageurl blog %}#disqus_thread">No Comments</a>
+                    {% endif %}
+                    </div>
+                </div>
+            </div>
+            <br>
+            {% image blog.header_image original %}
+            {% for b in page.content %}
+                {% include_block b %}
+            {% endfor %}
+        </div>
+        <div class="col-md-3">
+            <h3>Recent Blogs</h3>
+            {% for iblog in blogs reversed%}
+                <a class="blog-post-link" href="{% pageurl iblog %}">{{ iblog.title }}</a>
+                <br><br>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}

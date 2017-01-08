@@ -1,0 +1,49 @@
+{% load i18n %}
+
+<style>
+ .sequence-type-columns > div > .sequence {
+   overflow: hidden;
+
+ }
+ .sequence-type-columns > div > .sequence > li {
+   float:left;
+ }
+ .sequence-type-columns .sequence > li:hover {
+   border-radius: 15px;
+   background-color: rgba(250,250,250,0.4);
+ }
+
+ .sequence-type-columns .sequence > li > .sequence-member-inner {
+   padding: 0px;
+   width: 100%;
+ }
+
+ #{{ prefix }}-add {
+   clear: both;
+   float: right;
+ }
+</style>
+
+<div class="sequence-container sequence-type-columns">
+    <input type="hidden" name="{{ prefix }}-count" id="{{ prefix }}-count" value="{{ list_members_html|length }}">
+
+
+    {% if help_text %}
+        <div class="object-help help">{{ help_text }}</div>
+    {% endif %}
+    {% if block_errors %}
+        {% for error in block_errors %}
+            <div class="help-block help-critical">{{ error }}</div>
+        {% endfor %}
+    {% endif %}
+
+
+    <div class="sequence-container-inner">
+        <ul id="{{ prefix }}-list" class="sequence">
+            {% for list_member_html in list_members_html %}
+                {{ list_member_html }}
+            {% endfor %}
+        </ul>
+    <button type="button" id="{{ prefix }}-add" class="button bicolor icon icon-plus">{% trans "Add a Column" %}</button>
+    </div>
+</div>

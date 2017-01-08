@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
+{% load highlight %}
+
+{% block body_class %}template-searchresults{% endblock %}
+
+{% block title %}Search{% endblock %}
+
+{% block content %}
+    <div class="page-container">
+    <div class="container min-hight margin-top-50">
+
+        <form method="get" action=".">
+            <table>
+                {{ form.as_table }}
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                        <input type="submit" value="Search">
+                    </td>
+                </tr>
+            </table>
+
+            {% if query %}
+                <h3>Results</h3>
+                {% for result in page.object_list %}
+                    <hr>
+                    {%  if result.object.first_name %}
+                        <p>
+                            {% highlight result.object.first_name with query %} {% highlight result.object.last_name with query %}
+                        </p>
+                    {% elif not result.object.url%}
+                        <p>
+                        {% highlight result.object.title with query max_length 50 %}
+                        </p>
+                        <p>
+                        {% highlight result.object.skills with query max_length 50 %}
+                        </p>
+                        <p>
+                        {% highlight result.object.benefits with query max_length 50 %}
+                        </p>
+                    {% else %}
+                        <p>
+                            <a href="{{ result.object.url }}">{% highlight result.object.title with query %}</a>
+                        </p>
+                        <p>
+                        {% highlight result.intro with query max_length 50 %}
+                        </p>
+                        <p>
+                            {% highlight result.body with query max_length 50 %}
+                        </p>
+                        <p>
+                            {% highlight result.content with query max_length 50 %}
+                        </p>
+                    {% endif %}
+
+
+
+                {% empty %}
+                    <p>No results found.</p>
+                {% endfor %}
+                <hr>
+                {% if page.has_previous or page.has_next %}
+                    <div>
+                        {% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>{% endif %}
+                        |
+                        {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;{% if page.has_next %}</a>{% endif %}
+                    </div>
+                {% endif %}
+            {% else %}
+                {# Show some example queries to run, maybe query syntax, something else? #}
+            {% endif %}
+        </form>
+    </div>
+    </div>
+    {% footer %}
+{% endblock %}

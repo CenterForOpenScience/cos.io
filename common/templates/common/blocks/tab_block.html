@@ -1,0 +1,9 @@
+{% load wagtailcore_tags snippets %}
+
+{% if self.isActive %}
+    <div class="tab-pane active" id="{{ self.id }}">
+{% else %}
+    <div class="tab-pane" id="{{ self.id }}">
+{% endif %}
+        {% include_block self.container %}
+    </div>

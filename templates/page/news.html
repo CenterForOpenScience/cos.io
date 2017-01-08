@@ -1,0 +1,68 @@
+{% extends "base.html" %}{% load staticfiles %}{% load thumbnail %}{% load cropping %}
+{% block title %}Center for Open Science News {% endblock %}
+{% block description %}The Center for Open Science's home for news and press updates.{% endblock %}
+{% block navlinks %}{% with 'news' as nav %}
+        {{ block.super }}
+    {% endwith %}{% endblock %}
+{% block stylesheets %}
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="{% static 'bower_components/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+{% endblock %}{% block content %}
+
+<!-- BEGIN PAGE CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN CONTAINER -->
+    <div class="container min-hight margin-top-50">
+        <!--BEGIN DESCRIPTION -->
+        <h1><strong>News</strong></h1>
+        <p class="lead">What's all the buzz about? Open science and transparency practices are hot topics in the
+            scientific community and in the media at large. Read about COS, our projects, and related news below.</p>
+        <br><br>
+        <!-- BEGIN BLOCKQUOTE AND VIDEO -->
+        <!-- BEGIN Press BLOCKS -->
+
+        <div class="loading-msg text-center">
+                <img alt="spinner" src="{% static 'img/spinner.gif' %}">
+                <p>Loading news</p>
+            </div>
+
+        <div class="margin-bottom-20 grid" style="display:none">
+            {% for news_item in news %}
+                <div class="service-box-v1">
+                    <a href="{{ news_item.link }}">
+                        <img src="{% cropped_thumbnail news_item "mini_image" max_size=news_item.get_thumb_max_size %}" />
+                        <h2 class="text-left">{{ news_item.title }}</h2>
+                        <p class="text-left">{{ news_item.author|date:'F j, Y'}} | {{ news_item.body }}</p>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+    <!-- END CONTAINER -->
+<!-- BEGIN PAGE CONTAINER -->
+{% endblock %}
+
+{% block javascript_bottom %}
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script type="text/javascript" src="{% static 'bower_components/fancybox/source/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/app.js' %}"></script>
+    <script type="text/javascript"  src="{% static 'plugins/masonry.pkgd.min.js' %}"></script>
+    <script type="text/javascript">
+            jQuery(document).ready(function() {
+                App.init();
+            });
+    </script>
+    <script type="text/javascript">
+            jQuery(window).on('load', function(){
+                $('.loading-msg').hide();
+                $('.grid').show().masonry({
+                    itemSelector: '.service-box-v1',
+                    columnWidth: '.service-box-v1',
+                    percentPosition : true
+                });
+            });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
+{% load wagtailimages_tags %}
+{% load static %}
+
+{% block body_class %}newsindexpage{% endblock %}
+
+{% block content %}
+    <div class="page-container">
+        <!-- BEGIN CONTAINER -->
+            <div class="container">
+                <h1><strong>{{ page.title }}</strong></h1>
+                <p class="lead">{{ page.statement }}</p>
+                <div class="loading-msg text-center">
+                    <div id="loader"></div>
+
+                    <p>Loading news</p>
+                </div>
+
+                <div class="margin-bottom-20 grid" style="display: none">
+                    {% include page_template %}
+                </div>
+                <div class="pagination">
+                </div>
+
+            </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          {# Have to specify content or it will just display the name of the footer #}
+          {{ page.footer.content }}
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
+
+{% block extra_js %}
+<!-- END CORE PLUGINS -->
+
+    <script type="text/javascript">
+            jQuery(window).on('load', function() {
+                $('.loading-msg').hide();
+                $('.grid').show().masonry({
+                    itemSelector: '.service-box-v1',
+                    columnWidth: '.service-box-v1',
+                    percentPosition: true
+                });
+            });
+    </script>
+
+    $(window).load(function(){   $('#content').masonry(); });
+
+
+    <script>
+        $.endlessPaginate({
+            paginateOnScroll: true, paginateOnScrollChunkSize: 10, paginateOnScrollMargin: 400,
+            onCompleted: function(){
+                var masonry = $('.grid').data('masonry');
+                setTimeout(function(){
+                    masonry.reloadItems();
+                    masonry.layout();
+                },200);
+            }
+        })
+    </script>
+    <style>
+    .endless_container{
+        position: absolute;
+        bottom: 0;
+    }
+    </style>
+
+
+{% endblock %}
