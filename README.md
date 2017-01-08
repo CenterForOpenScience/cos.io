@@ -53,3 +53,7 @@
 - When a new page is published, a message will be sent to Flowdock to inform admins. Set the Flowdock API token as an environment variable. 
 The format is: `export FLOWDOCKTOKEN='the_api_token_from_flowdock`
 - If need to export the Journal and Organization entries saved in database, run `python export_json.py`
+
+### COS is Hiring!
+
+Want to help save science? Want to get paid to develop free, open source software? [Check out our openings!](http://cos.io/jobs)
