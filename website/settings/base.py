@@ -201,8 +201,5 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS=10000
 DEFAULT_FOOTER_ID = 1
 
 RAVEN_CONFIG = {
-    'dsn': os.environ.get('RAVEN_DSN'),
-    # If you are using git, you can also automatically configure the
-    # release based on the git info.
-    'release': raven.fetch_git_sha(os.path.dirname(os.pardir)),
+    'dsn': os.environ.get('SENTRY_DSN'),
 }
