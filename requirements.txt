@@ -40,6 +40,7 @@ python-dateutil==2.5.3
 python-gnupg==0.3.9
 pytz==2016.7
 PyYAML==3.12
+raven==5.32.0
 redis==2.10.5
 requests==2.11.1
 s3transfer==0.1.3

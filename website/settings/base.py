@@ -16,6 +16,7 @@ ADMINS = [('Joshua Bird', 'josh.bird@cos.io')]
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import raven
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
@@ -69,6 +70,7 @@ INSTALLED_APPS = [
     'search',
     'el_pagination',
     'django_forms_bootstrap',
+    'raven.contrib.django.raven_compat',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -197,3 +199,10 @@ BASE_URL = 'http://cos.io'
 EL_PAGINATION_PER_PAGE=10
 DATA_UPLOAD_MAX_NUMBER_FIELDS=10000
 DEFAULT_FOOTER_ID = 1
+
+RAVEN_CONFIG = {
+    'dsn': os.environ.get('RAVEN_DSN'),
+    # If you are using git, you can also automatically configure the
+    # release based on the git info.
+    'release': raven.fetch_git_sha(os.path.dirname(os.pardir)),
+}
