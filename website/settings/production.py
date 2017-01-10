@@ -6,7 +6,7 @@ from .base import *
 
 
 INSTALLED_APPS = INSTALLED_APPS + [
-   "wagtail.contrib.wagtailfrontendcache",
+    'wagtail.contrib.wagtailfrontendcache',
 ]
 
 ALLOWED_HOSTS = ['*']
