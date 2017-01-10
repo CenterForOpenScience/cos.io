@@ -4,6 +4,11 @@ import os
 import dj_database_url
 from .base import *
 
+
+INSTALLED_APPS = INSTALLED_APPS + [
+   "wagtail.contrib.wagtailfrontendcache",
+]
+
 ALLOWED_HOSTS = ['*']
 DEBUG=False
 
@@ -54,6 +59,15 @@ AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
 AWS_QUERYSTRING_AUTH = False
+
+AWS_DISTRIBUTION_ID = os.environ.get('AWS_DISTRIBUTION_ID')
+if AWS_DISTRIBUTION_ID:
+    WAGTAILFRONTENDCACHE = {
+        'cloudfront': {
+            'BACKEND': 'wagtail.contrib.wagtailfrontendcache.backends.CloudfrontBackend',
+            'DISTRIBUTION_ID': AWS_DISTRIBUTION_ID,
+        },
+    }
 
 DEFAULT_FILE_STORAGE = 'website.s3utils.S3BotoStorage'
 STATICFILES_STORAGE = 'website.s3utils.S3BotoStorage'
