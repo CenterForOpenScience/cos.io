@@ -41,23 +41,13 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 #    }
 #}
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.9/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_URL = '/static/'
-# Extra places for collectstatic to find static files.
-STATICFILES_DIRS = [
-    os.path.join(PROJECT_DIR, 'static'),
-]
-
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 SECURE_SSL_REDIRECT = True
 
-AWS_S3_CUSTOM_DOMAIN = os.environ.get('AWS_S3_CUSTOM_DOMAIN')
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
+AWS_S3_CUSTOM_DOMAIN = os.environ.get('AWS_S3_CUSTOM_DOMAIN', '{}.s3.amazonaws.com'.format(AWS_STORAGE_BUCKET_NAME))
 AWS_QUERYSTRING_AUTH = False
 
 AWS_DISTRIBUTION_ID = os.environ.get('AWS_DISTRIBUTION_ID')
@@ -69,15 +59,13 @@ if AWS_DISTRIBUTION_ID:
         },
     }
 
-DEFAULT_FILE_STORAGE = 'website.s3utils.S3BotoStorage'
-STATICFILES_STORAGE = 'website.s3utils.S3BotoStorage'
+STATICFILES_LOCATION = 'static'
+STATICFILES_STORAGE = 'website.storages.StaticStorage'
+STATIC_URL = 'https://{}/{}/'.format(AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION)
 
-STATIC_DIRECTORY = 'static/'
-MEDIA_DIRECTORY = 'media/'
-
-STATIC_URL = 'https://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/' + STATIC_DIRECTORY
-MEDIA_URL = 'https://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/' + MEDIA_DIRECTORY
-ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
+MEDIAFILES_LOCATION = 'media'
+MEDIA_URL = 'https://{}/{}/'.format(AWS_S3_CUSTOM_DOMAIN, MEDIAFILES_LOCATION)
+DEFAULT_FILE_STORAGE = 'website.storages.MediaStorage'
 
 try:
     from .local import *
