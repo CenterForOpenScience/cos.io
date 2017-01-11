@@ -1,3 +1,4 @@
+{% load compress %}
 {% load static wagtailuserbar %}
 {% load menu %}
 <!DOCTYPE html>
@@ -16,6 +17,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {# Global stylesheets #}
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway" rel="stylesheet">
+        {% compress css %}
         <link rel="stylesheet" type="text/css" href="{% static 'css/default.css' %}">
 
         <link href="{% static 'plugins/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css"/>
@@ -31,6 +33,7 @@
         <link href="{% static 'plugins/jflickrfeed/style.css' %}" rel="stylesheet" type="text/css" media="all"/>
         <link href="{% static 'plugins/jflickrfeed/colorbox/colorbox.css' %}" rel="stylesheet" type="text/css" media="screen"/>
         {% block extra_css %}{# Override this in templates to add extra stylesheets #}{% endblock %}
+        {% endcompress %}
 </head>
 
 
@@ -43,7 +46,7 @@
     {% wagtailuserbar %}
     {% block content %}{% endblock %}
     {# Global javascript #}
-
+    {% compress js %}
     <script type="text/javascript" src="{% static 'js/cosio.js' %}"></script>
 
     <!-- Load javascripts at bottom, this will reduce page load time -->
@@ -147,7 +150,7 @@
 
 
 {% block extra_js %}{# Override this in templates to add extra javascript #}{% endblock %}
-
+{% endcompress %}
 </body>
 
 

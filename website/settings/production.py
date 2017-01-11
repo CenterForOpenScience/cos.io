@@ -1,9 +1,10 @@
 from __future__ import absolute_import, unicode_literals
 
 import os
-import dj_database_url
-from .base import *
 
+import dj_database_url
+
+from .base import *
 
 INSTALLED_APPS = INSTALLED_APPS + [
     'wagtail.contrib.wagtailfrontendcache',
@@ -66,6 +67,9 @@ STATIC_URL = 'https://{}/{}/'.format(AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION)
 MEDIAFILES_LOCATION = 'media'
 MEDIA_URL = 'https://{}/{}/'.format(AWS_S3_CUSTOM_DOMAIN, MEDIAFILES_LOCATION)
 DEFAULT_FILE_STORAGE = 'website.storages.MediaStorage'
+
+COMPRESS_ENABLED = True
+COMPRESS_OFFLINE = True
 
 try:
     from .local import *

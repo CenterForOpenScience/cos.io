@@ -1,19 +1,20 @@
 from __future__ import print_function, unicode_literals
-from future.builtins import input, open
 
 import os
 import re
 import sys
+from contextlib import contextmanager
 from functools import wraps
 from getpass import getpass, getuser
 from glob import glob
-from contextlib import contextmanager
 from posixpath import join
 
-from fabric.api import env, cd, prefix, sudo as _sudo, run as _run, hide, task
+from fabric.api import run as _run
+from fabric.api import sudo as _sudo
+from fabric.api import cd, env, hide, prefix, task
+from fabric.colors import blue, green, red, yellow
 from fabric.contrib.files import exists, upload_template
-from fabric.colors import yellow, green, blue, red
-
+from future.builtins import input, open
 
 ################
 # Config setup #
@@ -505,6 +506,7 @@ def deploy():
         with update_changed_requirements():
             run("git pull origin master -f" if git else "hg pull && hg up -C")
         manage("collectstatic -v 0 --noinput")
+        manage("compress")
         manage("syncdb --noinput")
         manage("migrate --noinput")
     restart()
