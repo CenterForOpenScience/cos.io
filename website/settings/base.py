@@ -10,10 +10,11 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 
 from __future__ import absolute_import, unicode_literals
-from urllib.parse import urlparse
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from urllib.parse import urlparse
+
 import raven
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'compressor',
+    'django_extensions',
 
     'blog',
     'common',
@@ -174,6 +177,7 @@ USE_TZ = True
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'compressor.finders.CompressorFinder'
 ]
 
 STATICFILES_DIRS = [
@@ -197,6 +201,11 @@ BASE_URL = 'http://cos.io'
 EL_PAGINATION_PER_PAGE=10
 DATA_UPLOAD_MAX_NUMBER_FIELDS=10000
 DEFAULT_FOOTER_ID = 1
+
+COMPRESS_CSS_FILTERS = [
+    'compressor.filters.css_default.CssAbsoluteFilter',
+    'compressor.filters.cssmin.rCSSMinFilter'
+]
 
 RAVEN_CONFIG = {
     'dsn': os.environ.get('SENTRY_DSN'),
