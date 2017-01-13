@@ -78,3 +78,13 @@ try:
     from .local import *
 except ImportError:
     pass
+
+# Base URL to use when referring to full URLs within the Wagtail admin backend -
+# e.g. in notification emails. Don't include '/admin' or a trailing slash
+BASE_URL = 'https://cos.io'
+
+# Used by common.middleware.URLRedirectMiddleware
+URL_REDIRECTS = (
+    (r'^(www\.)?centerforopenscience.org(.*)$', '{}\1'.format(BASE_URL)),
+    (r'^www\.cos\.io(.*)$', '{}\1'.format(BASE_URL)),
+)

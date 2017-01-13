@@ -75,6 +75,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE_CLASSES = [
+    'common.middleware.URLRedirectMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -210,3 +211,6 @@ COMPRESS_CSS_FILTERS = [
 RAVEN_CONFIG = {
     'dsn': os.environ.get('SENTRY_DSN'),
 }
+
+# Used by common.middleware.URLRedirectMiddleware
+URL_REDIRECTS = ()
