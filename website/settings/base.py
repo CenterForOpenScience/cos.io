@@ -213,7 +213,4 @@ RAVEN_CONFIG = {
 }
 
 # Used by common.middleware.URLRedirectMiddleware
-URL_REDIRECTS = (
-    (r'.*centerforopenscience.org(.*)', '{}\1'.format(BASE_URL)),
-    (r'www\.cos\.io(.*)', '{}\1'.format(BASE_URL)),
-)
+URL_REDIRECTS = ()
