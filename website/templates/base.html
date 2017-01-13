@@ -15,7 +15,7 @@
         <title>{% block title %}{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %}{% endblock %}{% block title_suffix %}{% endblock %}</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="{% static '/favicon.ico' %}"/>
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}"/>
         {# Global stylesheets #}
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway" rel="stylesheet">
         {% compress css %}
