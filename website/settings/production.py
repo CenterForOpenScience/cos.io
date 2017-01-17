@@ -85,6 +85,6 @@ BASE_URL = 'https://cos.io'
 
 # Used by common.middleware.URLRedirectMiddleware
 URL_REDIRECTS = (
-    (r'^(www\.)?centerforopenscience.org(.*)$', '{}\1'.format(BASE_URL)),
-    (r'^www\.cos\.io(.*)$', '{}\1'.format(BASE_URL)),
+    (r'^(www\.)?centerforopenscience.org(.*)$', r'{}\1'.format(BASE_URL)),
+    (r'^www\.cos\.io(.*)$', r'{}\1'.format(BASE_URL)),
 )
