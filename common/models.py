@@ -691,6 +691,7 @@ class Journal(ClusterableModel, index.Indexed):
 
     panels = [
         FieldPanel('title'),
+        FieldPanel('url_link'),
         MultiFieldPanel([
             FieldPanel('is_registered_journal'),
             FieldPanel('is_special_journal'),
