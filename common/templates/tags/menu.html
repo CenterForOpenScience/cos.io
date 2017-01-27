@@ -11,7 +11,11 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand logo-v1" href="{% pageurl site_root %}">
-        <img src="{% static 'images/cos_stack.png' %}" id="logoimg" alt="COS logo">
+        {% if site_root.title == "NGS2" %}
+          <img src="{% static 'images/NGS2-combo.png' %}" id="logoimg" alt="NGS2 logo">
+        {% else %}
+          <img src="{% static 'images/cos_stack.png' %}" id="logoimg" alt="COS logo">
+        {% endif %}
       </a>
     </div>
     <div class="navbar-collapse collapse" style="padding-top: 30px">
