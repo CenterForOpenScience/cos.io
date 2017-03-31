@@ -17,7 +17,6 @@
 db.sqlite3
 dump.rdb
 env/
-static
 latest.dump
 local_settings.py
 log
