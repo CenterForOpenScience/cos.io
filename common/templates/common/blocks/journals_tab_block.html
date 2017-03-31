@@ -220,11 +220,13 @@
             </div>
             <tbody class='tbody-content' style="display:none">
                 {% for org in organizations %}
-                    <tr>
-                        <td style="">
-                            {{ org.name }}
-                        </td>
-                    </tr>
+                    {% if org.is_top_signatory %}
+                        <tr>
+                            <td style="">
+                                {{ org.name }}
+                            </td>
+                        </tr>
+                    {% endif %}
                 {% endfor %}
         </tbody>
         </table>

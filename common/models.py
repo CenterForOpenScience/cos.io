@@ -636,6 +636,7 @@ class Organization(ClusterableModel, index.Indexed):
     partner = BooleanField(blank=True, default=False)
     introduction = RichTextField(blank=True)
     url = URLField(blank=True)
+    is_top_signatory = BooleanField(blank=True, default=False)
 
     logo = ForeignKey(
         'wagtailimages.Image',
@@ -652,6 +653,7 @@ class Organization(ClusterableModel, index.Indexed):
         FieldPanel('name'),
         FieldPanel('partner'),
         FieldPanel('introduction'),
+        FieldPanel('is_top_signatory'),
         ImageChooserPanel('logo'),
         FieldPanel('url'),
         InlinePanel('donations', label='Donations'),
