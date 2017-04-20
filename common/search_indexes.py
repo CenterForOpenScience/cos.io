@@ -1,4 +1,3 @@
-import datetime
 from haystack import indexes
 from common.models import Person, CustomPage, NewsArticle, Job
 
@@ -35,4 +34,3 @@ class JobIndex(indexes.SearchIndex, indexes.Indexable):
 
     def get_model(self):
         return Job
-

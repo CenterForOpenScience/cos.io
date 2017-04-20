@@ -4,12 +4,12 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.db import models
-from django.db.models import Count, Q, PROTECT
+from django.db.models import Count, Q
 from django.db.models import IntegerField
 from django.shortcuts import get_object_or_404
 from django.template.defaultfilters import slugify
 from django.utils.translation import ugettext_lazy as _
-from wagtail.wagtailcore.fields import RichTextField, StreamField
+from wagtail.wagtailcore.fields import StreamField
 from wagtail.wagtailcore.models import Page, Orderable
 from wagtail.wagtailadmin.edit_handlers import (
     FieldPanel, InlinePanel, MultiFieldPanel, FieldRowPanel, StreamFieldPanel)
@@ -28,6 +28,7 @@ from common.models import Person
 from website.settings.base import DEFAULT_FOOTER_ID
 
 COMMENTS_APP = getattr(settings, 'COMMENTS_APP', None)
+
 
 def get_blog_context(context):
     """ Get context data useful on all blog related pages """
@@ -56,7 +57,7 @@ class BlogIndexPage(Page):
         related_name='+'
     )
 
-    menu_order = IntegerField(blank=True, default = 1, help_text=(
+    menu_order = IntegerField(blank=True, default=1, help_text=(
         'The order this page should appear in the menu. '
         'The lower the number, the more left the page will appear. '
         'This is required for all pages where "Show in menus" is checked.'
@@ -190,12 +191,14 @@ class BlogCategoryBlogPage(models.Model):
         FieldPanel('category'),
     ]
 
+
 class BlogPagePerson(Orderable, models.Model):
     author = models.ForeignKey(Person, related_name='+')
     page = ParentalKey('BlogPage', related_name='authors')
     panels = [
         FieldPanel('author')
     ]
+
 
 class BlogPageTag(TaggedItemBase):
     content_object = ParentalKey('BlogPage', related_name='tagged_items')
@@ -209,7 +212,8 @@ class BlogTag(Tag):
 
 def limit_author_choices():
     """ Limit choices in blog author field based on config settings """
-    LIMIT_AUTHOR_CHOICES = getattr(settings, 'BLOG_LIMIT_AUTHOR_CHOICES_GROUP', None)
+    LIMIT_AUTHOR_CHOICES = getattr(settings,
+                                   'BLOG_LIMIT_AUTHOR_CHOICES_GROUP', None)
     if LIMIT_AUTHOR_CHOICES:
         if isinstance(LIMIT_AUTHOR_CHOICES, str):
             limit = Q(groups__name=LIMIT_AUTHOR_CHOICES)
@@ -262,7 +266,7 @@ class BlogPage(Page):
         Person,
         blank=True,
         through=BlogPagePerson,
-        #blank=True, null=True,
+        # blank=True, null=True,
     )
 
     search_fields = Page.search_fields + [
@@ -280,7 +284,7 @@ class BlogPage(Page):
             ], classname="label-above"),
         ], 'Scheduled publishing', classname="publishing"),
         FieldPanel('date'),
-        #FieldPanel('authors', widget=forms.CheckboxSelectMultiple),
+        # FieldPanel('authors', widget=forms.CheckboxSelectMultiple),
         InlinePanel('authors', label=_("Authors")),
     ]
 
@@ -288,7 +292,8 @@ class BlogPage(Page):
         blog_author_default = Person.objects.filter(user_id=self.owner.id)
         if not blog_author_default:
             return 'Center for Open Science'
-        return blog_author_default[0].first_name + " " + blog_author_default[0].last_name
+        return blog_author_default[0].\
+            first_name + " " + blog_author_default[0].last_name
 
     def get_absolute_url(self):
         return self.url

@@ -16,11 +16,12 @@ def load_journal_json(file_name, para_name, file_option):
                 try:
                     x = Journal.objects.get(title=title)
                 except ObjectDoesNotExist:
-                    x = Journal.objects.create(title = title)
+                    x = Journal.objects.create(title=title)
                 x.url_link = i['URL']
                 notes = []
                 for note in i['Notes']:
-                    notes.append(('note', {'description': note['Description'], 'link': note['Link']}))
+                    notes.append(('note', {'description': note['Description'],
+                                           'link': note['Link']}))
                 x.notes = notes
                 set_param = 'x.' + 'is_' + para_name + '_journal = True'
                 exec(set_param)
@@ -38,7 +39,6 @@ def load_journal_json(file_name, para_name, file_option):
                 set_param = 'x.' + 'is_' + para_name + '_journal = True'
                 exec (set_param)
                 x.save()
-
 
 
 def import_json():
@@ -71,6 +71,7 @@ def import_json():
 
     print('Finished loading journal json files')
     print("Completed loading json")
+
 
 def main():
     import_json()
