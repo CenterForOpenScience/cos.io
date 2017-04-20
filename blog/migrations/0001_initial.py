@@ -26,11 +26,23 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='BlogCategory',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=80, unique=True, verbose_name='Category Name')),
+                ('id', models.AutoField(auto_created=True, primary_key=True,
+                                        serialize=False, verbose_name='ID')),
+                ('name', models.CharField(max_length=80, unique=True,
+                                          verbose_name='Category Name')),
                 ('slug', models.SlugField(max_length=80, unique=True)),
                 ('description', models.CharField(blank=True, max_length=500)),
-                ('parent', models.ForeignKey(blank=True, help_text='Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional.', null=True, on_delete=django.db.models.deletion.CASCADE, related_name='children', to='blog.BlogCategory')),
+                ('parent',
+                 models.ForeignKey(
+                     blank=True,
+                     help_text='Categories, unlike tags, can have a hierarchy.'
+                               ' You might have a Jazz category, and under '
+                               'that have children categories for Bebop and '
+                               'Big Band. Totally optional.',
+                     null=True,
+                     on_delete=django.db.models.deletion.CASCADE,
+                     related_name='children',
+                     to='blog.BlogCategory')),
             ],
             options={
                 'verbose_name_plural': 'Blog Categories',
@@ -41,14 +53,25 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='BlogCategoryBlogPage',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('category', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='+', to='blog.BlogCategory', verbose_name='Category')),
+                ('id', models.AutoField(auto_created=True, primary_key=True,
+                                        serialize=False, verbose_name='ID')),
+                ('category', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE,
+                    related_name='+',
+                    to='blog.BlogCategory',
+                    verbose_name='Category')),
             ],
         ),
         migrations.CreateModel(
             name='BlogIndexPage',
             fields=[
-                ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.Page')),
+                ('page_ptr', models.OneToOneField(
+                    auto_created=True,
+                    on_delete=django.db.models.deletion.CASCADE,
+                    parent_link=True,
+                    primary_key=True,
+                    serialize=False,
+                    to='wagtailcore.Page')),
             ],
             options={
                 'verbose_name': 'Blog index',
@@ -58,13 +81,38 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='BlogPage',
             fields=[
-                ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.Page')),
-                ('body', wagtail.wagtailcore.fields.RichTextField(blank=True, verbose_name='body')),
+                ('page_ptr', models.OneToOneField(
+                    auto_created=True,
+                    on_delete=django.db.models.deletion.CASCADE,
+                    parent_link=True,
+                    primary_key=True,
+                    serialize=False,
+                    to='wagtailcore.Page')),
+                ('body', wagtail.wagtailcore.fields.RichTextField(
+                    blank=True, verbose_name='body')),
                 ('additional', models.CharField(blank=True, max_length=220)),
-                ('date', models.DateField(default=datetime.datetime.today, help_text='This date may be displayed on the blog post. It is not used to schedule posts to go live at a later date.', verbose_name='Post date')),
-                ('author', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='author_pages', to=settings.AUTH_USER_MODEL, verbose_name='Author')),
-                ('blog_categories', models.ManyToManyField(blank=True, through='blog.BlogCategoryBlogPage', to='blog.BlogCategory')),
-                ('header_image', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.Image', verbose_name='Header image')),
+                ('date', models.DateField(
+                    default=datetime.datetime.today,
+                    help_text='This date may be displayed on the blog post. '
+                              'It is not used to schedule posts to go live at '
+                              'a later date.',
+                    verbose_name='Post date')),
+                ('author', models.ForeignKey(
+                    blank=True, null=True,
+                    on_delete=django.db.models.deletion.SET_NULL,
+                    related_name='author_pages', to=settings.AUTH_USER_MODEL,
+                    verbose_name='Author')),
+                ('blog_categories', models.ManyToManyField(
+                    blank=True,
+                    through='blog.BlogCategoryBlogPage',
+                    to='blog.BlogCategory')),
+                ('header_image', models.ForeignKey(
+                    blank=True,
+                    null=True,
+                    on_delete=django.db.models.deletion.SET_NULL,
+                    related_name='+',
+                    to='wagtailimages.Image',
+                    verbose_name='Header image')),
             ],
             options={
                 'verbose_name_plural': 'Blog pages',
@@ -75,8 +123,12 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='BlogPageTag',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('content_object', modelcluster.fields.ParentalKey(on_delete=django.db.models.deletion.CASCADE, related_name='tagged_items', to='blog.BlogPage')),
+                ('id', models.AutoField(auto_created=True, primary_key=True,
+                                        serialize=False, verbose_name='ID')),
+                ('content_object', modelcluster.fields.ParentalKey(
+                    on_delete=django.db.models.deletion.CASCADE,
+                    related_name='tagged_items',
+                    to='blog.BlogPage')),
             ],
             options={
                 'abstract': False,
@@ -94,16 +146,27 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='blogpagetag',
             name='tag',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='blog_blogpagetag_items', to='taggit.Tag'),
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name='blog_blogpagetag_items',
+                to='taggit.Tag'),
         ),
         migrations.AddField(
             model_name='blogpage',
             name='tags',
-            field=modelcluster.contrib.taggit.ClusterTaggableManager(blank=True, help_text='A comma-separated list of tags.', through='blog.BlogPageTag', to='taggit.Tag', verbose_name='Tags'),
+            field=modelcluster.contrib.taggit.ClusterTaggableManager(
+                blank=True,
+                help_text='A comma-separated list of tags.',
+                through='blog.BlogPageTag',
+                to='taggit.Tag',
+                verbose_name='Tags'),
         ),
         migrations.AddField(
             model_name='blogcategoryblogpage',
             name='page',
-            field=modelcluster.fields.ParentalKey(on_delete=django.db.models.deletion.CASCADE, related_name='categories', to='blog.BlogPage'),
+            field=modelcluster.fields.ParentalKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name='categories',
+                to='blog.BlogPage'),
         ),
     ]

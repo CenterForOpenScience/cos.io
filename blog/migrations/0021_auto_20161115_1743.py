@@ -15,6 +15,12 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='blogindexpage',
             name='menu_order',
-            field=models.IntegerField(blank=True, default=1, help_text='The order this page should appear in the menu. The lower the number, the more left the page will appear. This is required for all pages where "Show in menus" is checked.'),
+            field=models.IntegerField(
+                blank=True,
+                default=1,
+                help_text='The order this page should appear in the menu. '
+                          'The lower the number, the more left the page will '
+                          'appear. This is required for all pages where '
+                          '"Show in menus" is checked.'),
         ),
     ]

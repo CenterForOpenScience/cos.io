@@ -18,9 +18,14 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='BlogPagePerson',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sort_order', models.IntegerField(blank=True, editable=False, null=True)),
-                ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='+', to='common.Person')),
+                ('id', models.AutoField(auto_created=True, primary_key=True,
+                                        serialize=False, verbose_name='ID')),
+                ('sort_order', models.IntegerField(blank=True, editable=False,
+                                                   null=True)),
+                ('author', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE,
+                    related_name='+',
+                    to='common.Person')),
             ],
             options={
                 'abstract': False,
@@ -30,11 +35,17 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='blogpageperson',
             name='page',
-            field=modelcluster.fields.ParentalKey(on_delete=django.db.models.deletion.CASCADE, related_name='authors', to='blog.BlogPage'),
+            field=modelcluster.fields.ParentalKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name='authors',
+                to='blog.BlogPage'),
         ),
         migrations.AddField(
             model_name='blogpage',
             name='blog_authors',
-            field=models.ManyToManyField(blank=True, through='blog.BlogPagePerson', to='common.Person'),
+            field=models.ManyToManyField(
+                blank=True,
+                through='blog.BlogPagePerson',
+                to='common.Person'),
         ),
     ]
