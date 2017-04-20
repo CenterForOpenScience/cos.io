@@ -4,7 +4,7 @@ import os
 
 import dj_database_url
 
-from .base import *
+from .base import *  # noqa
 
 INSTALLED_APPS = INSTALLED_APPS + [
     'wagtail.contrib.wagtailfrontendcache',
@@ -80,7 +80,7 @@ COMPRESS_ENABLED = True
 COMPRESS_OFFLINE = True
 
 try:
-    from .local import *
+    from .local import *  # noqa
 except ImportError:
     pass
 
