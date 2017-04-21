@@ -19,7 +19,7 @@ COLUMN_CHOICES = [
     ('1', '1/12'),
 ]
 
-LANGUAGE_CHOICES =[
+LANGUAGE_CHOICES = [
     ('python', 'python'),
     ('css', 'css'),
     ('sql', 'sql'),

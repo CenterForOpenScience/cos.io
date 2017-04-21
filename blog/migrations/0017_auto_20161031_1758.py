@@ -17,6 +17,33 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='blogpage',
             name='content',
-            field=wagtail.wagtailcore.fields.StreamField((('rich_text', wagtail.wagtailcore.blocks.RichTextBlock()), ('code_block', wagtail.wagtailcore.blocks.StructBlock((('css_style', wagtail.wagtailcore.blocks.CharBlock(required=False)), ('language', wagtail.wagtailcore.blocks.ChoiceBlock(choices=[('python', 'python'), ('css', 'css'), ('sql', 'sql'), ('javascript', 'javascript'), ('clike', 'clike'), ('markup', 'markup'), ('java', 'java')], default='python')), ('codes', wagtail.wagtailcore.blocks.TextBlock())))), ('google_calendar', wagtail.wagtailcore.blocks.StructBlock((('css_style', wagtail.wagtailcore.blocks.CharBlock(required=False)), ('source', wagtail.wagtailcore.blocks.CharBlock(help_text='Such as: calendar@cos.io', max_length=255, required=True)))))), blank=True, null=True),
+            field=wagtail.wagtailcore.
+            fields.StreamField(
+                (
+                    ('rich_text', wagtail.wagtailcore.blocks.RichTextBlock()),
+                    ('code_block', wagtail.wagtailcore.blocks.StructBlock(
+                        (('css_style', wagtail.wagtailcore.blocks.CharBlock(
+                            required=False)),
+                         ('language', wagtail.wagtailcore.blocks.ChoiceBlock(
+                             choices=[
+                                 ('python', 'python'),
+                                 ('css', 'css'),
+                                 ('sql', 'sql'),
+                                 ('javascript', 'javascript'),
+                                 ('clike', 'clike'),
+                                 ('markup', 'markup'),
+                                 ('java', 'java')],
+                             default='python')),
+                         ('codes', wagtail.wagtailcore.blocks.TextBlock())))),
+                    ('google_calendar', wagtail.wagtailcore.blocks.StructBlock(
+                        (
+                            ('css_style', wagtail.wagtailcore.blocks.CharBlock(
+                                required=False)),
+                            ('source', wagtail.wagtailcore.blocks.CharBlock(
+                                help_text='Such as: calendar@cos.io',
+                                max_length=255,
+                                required=True)))))),
+                blank=True,
+                null=True),
         ),
     ]

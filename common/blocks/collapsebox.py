@@ -1,5 +1,5 @@
-from wagtail.wagtailcore.blocks import RichTextBlock, CharBlock, ListBlock, StructBlock
-from django.utils.html import format_html, format_html_join
+from wagtail.wagtailcore.blocks import RichTextBlock, CharBlock, ListBlock, \
+    StructBlock
 
 
 class CollapseEntryBlock(StructBlock):
@@ -15,7 +15,8 @@ class CollapseEntryBlock(StructBlock):
 class CollapseBoxListBlock(ListBlock):
 
     def __init__(self, **kwargs):
-        return super(CollapseBoxListBlock, self).__init__(CollapseEntryBlock(), **kwargs)
+        return super(CollapseBoxListBlock, self).__init__(
+            CollapseEntryBlock(), **kwargs)
 
 
 class CollapseBoxBlock(StructBlock):

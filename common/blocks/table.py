@@ -1,5 +1,6 @@
 from wagtail.contrib.table_block.blocks import TableBlock
 
+
 class CustomTableBlock(TableBlock):
 
     class Meta:

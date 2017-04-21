@@ -1,13 +1,14 @@
 # encoding: utf-8
 
-from __future__ import absolute_import, division, print_function, unicode_literals
+from __future__ import absolute_import, division, print_function, \
+    unicode_literals
 
 from django.conf import settings
 from django.core.paginator import InvalidPage, Paginator
 from django.http import Http404
 from django.shortcuts import render
 
-from haystack.forms import FacetedSearchForm, ModelSearchForm, SearchForm, HighlightedModelSearchForm, HighlightedSearchForm
+from haystack.forms import HighlightedSearchForm
 from haystack.query import EmptySearchQuerySet
 
 RESULTS_PER_PAGE = getattr(settings, 'HAYSTACK_SEARCH_RESULTS_PER_PAGE', 20)
@@ -22,7 +23,8 @@ class SearchView(object):
     form = None
     results_per_page = RESULTS_PER_PAGE
 
-    def __init__(self, template=None, load_all=True, form_class=None, searchqueryset=None, results_per_page=None):
+    def __init__(self, template=None, load_all=True, form_class=None,
+                 searchqueryset=None, results_per_page=None):
         self.load_all = load_all
         self.form_class = form_class
         self.searchqueryset = searchqueryset
@@ -30,7 +32,7 @@ class SearchView(object):
         if form_class is None:
             self.form_class = HighlightedSearchForm
 
-        if not results_per_page is None:
+        if results_per_page is not None:
             self.results_per_page = results_per_page
 
         if template:
@@ -133,10 +135,11 @@ class SearchView(object):
             'page': page,
             'paginator': paginator,
             'suggestion': None,
-            'request':self.request,
+            'request': self.request,
         }
 
-        if self.results and hasattr(self.results, 'query') and self.results.query.backend.include_spelling:
+        if self.results and hasattr(self.results, 'query') and \
+                self.results.query.backend.include_spelling:
             context['suggestion'] = self.form.get_suggestion()
 
         context.update(self.extra_context())

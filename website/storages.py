@@ -11,7 +11,8 @@ class StaticStorage(S3BotoStorage):
 
     def __init__(self, *args, **kwargs):
         super(StaticStorage, self).__init__(*args, **kwargs)
-        self.local_storage = get_storage_class('compressor.storage.CompressorFileStorage')()
+        self.local_storage = get_storage_class(
+            'compressor.storage.CompressorFileStorage')()
 
     def save(self, name, content):
         self.local_storage._save(name, content)

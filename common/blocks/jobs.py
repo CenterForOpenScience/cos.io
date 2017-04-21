@@ -1,5 +1,5 @@
-from wagtail.wagtailcore import blocks
 from .StructBlockWithStyle import StructBlockWithStyle
+
 
 class JobsWholeBlock(StructBlockWithStyle):
 
