@@ -65,7 +65,7 @@ h2, h2 a {
   color: #444;
   font-size: 21px;
 
-  line-height: 26px;
+ /* line-height: 26px; */
   text-decoration: none;
 }
 
