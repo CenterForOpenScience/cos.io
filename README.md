@@ -1,7 +1,5 @@
 
 ## Setup:
-
-[![Join the chat at https://gitter.im/CenterForOpenScience/cos.io](https://badges.gitter.im/CenterForOpenScience/cos.io.svg)](https://gitter.im/CenterForOpenScience/cos.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 *Note that theses instructions were developed on OSX El Capitan.*
 *For other operating systems, your mileage may vary*
 
