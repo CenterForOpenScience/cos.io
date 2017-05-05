@@ -13,14 +13,14 @@ class JournalsTabBlockTest(TestCase):
     def test_render_template(self):
         """ Tests that the right template is called to render """
         template = self.block.meta.template
-        self.assertEqual(template, 'common/blocks/journals_tab_block.html')
+        self.assertEqual(template, 'common/blocks/journals_tab_block.html', 'Templates were not the same')
 
     def test_render_icon(self):
         """ Checks the icon """
         icon = self.block.meta.icon
-        self.assertEqual(icon, 'list-ul')
+        self.assertEqual(icon, 'list-ul', 'The icons did not match')
 
     def test_render_label(self):
         """ Checks the label """
         label = self.block.meta.label
-        self.assertEqual(label, 'JornalsTabBlock')
+        self.assertEqual(label, 'JornalsTabBlock', 'The labels were not the same')

@@ -13,17 +13,17 @@ class SpotlightBubbleBlockTest(TestCase):
     def test_render_template(self):
         """ Tests that the right template is called to render """
         template = self.block.meta.template
-        self.assertEqual(template, 'common/blocks/spotlight_bubble_block.html')
+        self.assertEqual(template, 'common/blocks/spotlight_bubble_block.html', 'The templates are not the same')
 
     def test_render_icon(self):
         """ Checks the icon """
         icon = self.block.meta.icon
-        self.assertEqual(icon, 'image')
+        self.assertEqual(icon, 'image', 'The icons do not match')
 
     def test_render_label(self):
         """ Checks the label """
         label = self.block.meta.label
-        self.assertEqual(label, 'Spotlight Bubble Block')
+        self.assertEqual(label, 'Spotlight Bubble Block', 'The labels are not the same')
 
 class SpotlightBlockTest(TestCase):
 
@@ -35,14 +35,14 @@ class SpotlightBlockTest(TestCase):
     def test_render_template(self):
         """ Tests that the right template is called to render """
         template = self.block.meta.template
-        self.assertEqual(template, 'common/blocks/spotlight_block.html')
+        self.assertEqual(template, 'common/blocks/spotlight_block.html', 'the templates are not the same')
 
     def test_render_icon(self):
         """ Checks the icon """
         icon = self.block.meta.icon
-        self.assertEqual(icon, 'image')
+        self.assertEqual(icon, 'image', 'The icons are not the same')
 
     def test_render_label(self):
         """ Checks the label """
         label = self.block.meta.label
-        self.assertEqual(label, 'Spotlight Block')
+        self.assertEqual(label, 'Spotlight Block', 'The labels do not match')

@@ -13,14 +13,14 @@ class ButtonBlockTest(TestCase):
     def test_render_template(self):
         """ Checks that the right template path was called """
         template = self.block.meta.template
-        self.assertEqual(template, 'common/blocks/button.html')
+        self.assertEqual(template, 'common/blocks/button.html', 'Templates did not match')
 
     def test_render_icon(self):
         """ Checks that the right icon was called """
         icon = self.block.meta.icon
-        self.assertEqual(icon, 'fa-hand-o-up')
+        self.assertEqual(icon, 'fa-hand-o-up', 'The icons did not match')
 
     def test_render_label(self):
         """ Tests that the label text is right """
         label = self.block.meta.label
-        self.assertEqual(label, 'Button')
+        self.assertEqual(label, 'Button', 'The labels were not the same')
