@@ -18,7 +18,7 @@ class PersonIndexTest(TestCase):
 
 class CustomPageIndexTest(TestCase):
 
-    def test_custom_page(self):
+    def test_custom_page(self):t
         """ Test the creation of a CustomPage() model """
         custom_model = CustomPage
         test_model = index.CustomPageIndex().get_model()
