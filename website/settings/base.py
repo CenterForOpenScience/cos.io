@@ -17,6 +17,7 @@ from urllib.parse import urlparse
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
+USER = os.environ.get('USER')
 
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = os.environ.get('SENDGRID_USERNAME')
@@ -133,7 +134,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'dbname',
-        'USER': 'dbuser',
+        'USER': USER,
         'PASSWORD': 'password',
         'HOST': '127.0.0.1',
         'PORT': '5432',
