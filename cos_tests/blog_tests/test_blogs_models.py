@@ -7,12 +7,11 @@ from django.contrib.auth.models import Permission
 
 from blog.models import BlogIndexPage
 from blog.models import BlogCategory
-from blog.models import BlogCategoryBlogPage
 from blog.models import BlogPage
 
 from common.models import Footer, Person
 
-from wagtail.tests.utils import WagtailTestUtils, WagtailPageTests
+from wagtail.tests.utils import WagtailTestUtils
 from wagtail.wagtailcore.models import Page
 
 
@@ -32,19 +31,14 @@ class BlogIndexPageTest(TestCase):
 
     def create_blog_index_page(self):
         """ Creates a blog index page """
-        #Page.objects.create(path='/blogpage/', depth=1, title='Blog Index', slug='BlogIndexPage', content_type='blogs', id=2)
-
-        #return BlogIndexPage.objects.create(path='/blogpage/', depth=1, title='IndexTitle', slug='IndexSlug')
+        footer = Footer.objects.create()
+        return BlogIndexPage.objects.create(path='/', depth=1, title='test title', slug='test_slug', footer=footer)
 
     def test_blog_index_page_blogs(self):
         """ Checks the blog index page object being returned for the right blogs """
-        #blog_index = self.create_blog_index_page()
+        blog_index = self.create_blog_index_page()
 
-        #self.assertTrue(isinstance(blog_index, BlogIndexPage))
-
-    def test_blog_index_page_context(self):
-        """ Checks the context ont he blog index page object being returned """
-
+        self.assertTrue(isinstance(blog_index, BlogIndexPage))
 
 class BlogCategoryTest(TestCase):
 
