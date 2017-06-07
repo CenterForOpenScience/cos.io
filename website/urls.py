@@ -3,6 +3,7 @@ from __future__ import absolute_import, unicode_literals
 from django.conf import settings
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.views.generic import TemplateView
 
 from search import views as search_views
 from wagtail.wagtailadmin import urls as wagtailadmin_urls
@@ -17,6 +18,7 @@ urlpatterns = [
     url(r'^blog/', include('blog.urls', namespace="blog")),
     url(r'^comments/', include('django_comments_xtd.urls')),
     url(r'', include(wagtail_urls)),
+    url(r'^robots\.txt$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain")),
 ]
 
 
