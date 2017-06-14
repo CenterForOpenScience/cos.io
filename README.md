@@ -1,5 +1,6 @@
 
-- Build Status: [![Build Status](https://travis-ci.org/CenterForOpenScience/cos.io.svg?branch=master)](https://travis-ci.org/CenterForOpenScience/cos.io)
+- Build Status (master): [![Build Status](https://travis-ci.org/CenterForOpenScience/cos.io.svg?branch=master)](https://travis-ci.org/CenterForOpenScience/cos.io)
+- Build Status (develop): [![Build Status](https://travis-ci.org/CenterForOpenScience/cos.io.svg?branch=develop)](https://travis-ci.org/CenterForOpenScience/cos.io)
 
 ## Setup:
 *Note that theses instructions were developed on OSX El Capitan.*
