@@ -5,6 +5,13 @@
  * @author Lea Verou
  */
 
+ body {
+	 min-width: 310px;
+	 width: auto !important;
+	 width: 310px;
+	 overflow-x: scroll !important;
+ }
+
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
