@@ -1,17 +1,10 @@
 language: "python"
 python:
     - "3.5"
-# command to install dependencies
-# os:
-#     - osx
 
 env:
     global:
         - DJANGO_SETTINGS_MODULE=website.settings.dev
-
-# before_install:
-#     - brew install postgres
-#     - brew services start postgres
 
 install:
     - pip install -r requirements.txt
@@ -20,6 +13,5 @@ install:
     - python manage.py migrate
     # - printf '\n\n' | python manage.py createsuperuser
 
-# command to run tests
 script:
   - py.test
