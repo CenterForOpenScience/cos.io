@@ -16,13 +16,13 @@ class PersonTest(TestCase):
         """ Creates a person object """
         return Person.objects.create(first_name=first_name, middle_name=middle_name, last_name=last_name)
 
-    # def test_person(self):
-    #     """ Checks the person being returned to have the right name """
-    #     person = self.create_person()
-    #     person_str = person.last_name + ', ' + person.first_name
-    #
-    #     self.assertTrue(isinstance(person, Person))
-    #     self.assertEqual(person.__str__(), person_str)
+    def test_person(self):
+        """ Checks the person being returned to have the right name """
+        person = self.create_person()
+        person_str = person.last_name + ', ' + person.first_name
+
+        self.assertTrue(isinstance(person, Person))
+        self.assertEqual(person.__str__(), person_str)
 
 class FooterTest(TestCase):
 
