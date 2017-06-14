@@ -16,8 +16,6 @@ env:
 install:
     - pip install -r requirements.txt
     - createdb dbname -U travis -w
-    - python manage.py makemigrations
-    - python manage.py migrate
     - printf '\n\n' | python manage.py createsuperuser
 
 # command to run tests
