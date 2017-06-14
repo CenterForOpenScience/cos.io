@@ -1,8 +1,20 @@
 language: "python"
 python:
     - "3.5"
-# command to install dependencies
-install: "pip install -r requirements.txt"
-# command to run tests
-script: 
-  - "echo 'pass'"
+
+env:
+    global:
+        - DJANGO_SETTINGS_MODULE=website.settings.dev
+
+services:
+    - elasticsearch
+
+install:
+    - pip install -r requirements.txt
+    - createdb dbname -U travis -w
+    - python manage.py makemigrations
+    - python manage.py migrate
+    # - printf '\n\n' | python manage.py createsuperuser
+
+script:
+  - py.test

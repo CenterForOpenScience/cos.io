@@ -81,23 +81,6 @@ class VariableValueTest(TestCase):
         site_id = base.SITE_ID
         self.assertEqual(site_id, test_site_id, 'the site ids were not equal')
 
-    def test_databases(self):
-        """ Checks that information for the databases is correct """
-
-        databases = {
-            'default': {
-                'ENGINE': 'django.db.backends.postgresql_psycopg2',
-                'NAME': 'dbname',
-                'USER': 'dbuser',
-                'PASSWORD': 'password',
-                'HOST': '127.0.0.1',
-                'PORT': '5432',
-            }
-        }
-
-        base_databases = base.DATABASES
-        self.assertEqual(base_databases, databases, 'database information was not equal')
-
     def test_redis_url(self):
         """ Checks the redis url """
         test_redis_url = urlparse(os.environ.get('REDIS_URL') or 'http://127.0.0.1:6379')
