@@ -1,4 +1,4 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.templatetags.snippets as common

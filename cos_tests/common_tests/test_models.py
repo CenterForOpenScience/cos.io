@@ -1,4 +1,4 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 
@@ -9,6 +9,7 @@ from common.models import Donation
 from common.models import InkindDonation
 from common.models import Journal
 from common.models import Organization
+
 
 class PersonTest(TestCase):
 
@@ -24,6 +25,7 @@ class PersonTest(TestCase):
         self.assertTrue(isinstance(person, Person))
         self.assertEqual(person.__str__(), person_str)
 
+
 class FooterTest(TestCase):
 
     def create_footer(self, title="Test Footer Title"):
@@ -37,6 +39,7 @@ class FooterTest(TestCase):
         self.assertTrue(isinstance(footer, Footer))
         self.assertEqual(footer.__str__(), footer.title)
 
+
 class NewsArticleTest(TestCase):
 
     def create_newsarticle(self, date):
@@ -48,6 +51,7 @@ class NewsArticleTest(TestCase):
 #        article = self.create_newsarticle("1995-12-05")
 
 #        self.assertTrue(isinstance(article, NewsArticle))
+
 
 class DonationTest(TestCase):
 
@@ -61,6 +65,7 @@ class DonationTest(TestCase):
 
         self.assertTrue(isinstance(donation, Donation))
 
+
 class InkindDonationTest(TestCase):
 
     def create_inkind(self, date="1995-12-05"):
@@ -72,6 +77,7 @@ class InkindDonationTest(TestCase):
         inkind = self.create_inkind()
 
         self.assertTrue(isinstance(inkind, InkindDonation))
+
 
 class OrganizationTest(TestCase):
 
@@ -85,6 +91,7 @@ class OrganizationTest(TestCase):
 
         self.assertTrue(isinstance(organization, Organization))
         self.assertEqual(organization.__str__(), organization.name)
+
 
 class JournalTest(TestCase):
 

@@ -1,7 +1,8 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.button as common
+
 
 class ButtonBlockTest(TestCase):
 

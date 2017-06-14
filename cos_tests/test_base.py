@@ -1,10 +1,11 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import website.settings.base as base
 
 import os
 from urllib.parse import urlparse
+
 
 class VariableValueTest(TestCase):
 

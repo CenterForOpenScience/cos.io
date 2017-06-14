@@ -1,4 +1,4 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 from django.utils.html import format_html, format_html_join
@@ -12,6 +12,7 @@ from django.core.exceptions import NON_FIELD_ERRORS
 from django.template.loader import render_to_string
 from common.blocks.centered_text import CenteredTextBlock
 from common.blocks.collapsebox import CollapseBoxBlock
+
 
 class GenericContentStreamBlockTest(TestCase):
 
@@ -69,6 +70,7 @@ class GenericContentStreamBlockTest(TestCase):
 
         actual_return = self.block.render_form(value=None, errors=None)
         self.assertEqual(actual_return, test_return, 'Returned values were not the same')
+
 
 class ColumnBlockTest(TestCase):
 

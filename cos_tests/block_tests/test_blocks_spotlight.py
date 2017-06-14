@@ -1,7 +1,8 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.spotlight as common
+
 
 class SpotlightBubbleBlockTest(TestCase):
 
@@ -24,6 +25,7 @@ class SpotlightBubbleBlockTest(TestCase):
         """ Checks the label """
         label = self.block.meta.label
         self.assertEqual(label, 'Spotlight Bubble Block', 'The labels are not the same')
+
 
 class SpotlightBlockTest(TestCase):
 
