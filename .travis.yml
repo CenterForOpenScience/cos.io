@@ -6,6 +6,9 @@ env:
     global:
         - DJANGO_SETTINGS_MODULE=website.settings.dev
 
+services:
+    - elasticsearch
+
 install:
     - pip install -r requirements.txt
     - createdb dbname -U travis -w

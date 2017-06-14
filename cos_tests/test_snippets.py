@@ -36,13 +36,13 @@ class SnippetsPeopleTest(TestCase):
         """ Creates a person object """
         return Person.objects.create(first_name=first_name, middle_name=middle_name, last_name=last_name)
 
-    # def test_people(self):
-    #     """ Creates people objects and tests the overall returned value """
-    #     person1 = self.create_person('Tester', 'T.', 'Test')
-    #     person2 = self.create_person('Albert', 'J.', 'Atest')
-    #
-    #     test_returned = {
-    #         'people': Person.objects.all().order_by('last_name'),
-    #     }
-    #
-    #     self.assertCountEqual(common.people(context=''), test_returned)
+    def test_people(self):
+        """ Creates people objects and tests the overall returned value """
+        person1 = self.create_person('Tester', 'T.', 'Test')
+        person2 = self.create_person('Albert', 'J.', 'Atest')
+
+        test_returned = {
+            'people': Person.objects.all().order_by('last_name'),
+        }
+
+        self.assertCountEqual(common.people(context=''), test_returned)
