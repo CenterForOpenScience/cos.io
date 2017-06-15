@@ -1,9 +1,10 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 
 import blog.search_indexes as search_indexes
 from blog.models import BlogPage
+
 
 class BlogPageIndexTest(TestCase):
 

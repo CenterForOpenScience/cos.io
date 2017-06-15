@@ -1,7 +1,8 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.hero as common
+
 
 class HeroBlockTest(TestCase):
 

@@ -1,7 +1,8 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.jobs as common
+
 
 class JobsWholeBlockTest(TestCase):
 

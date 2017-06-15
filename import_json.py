@@ -2,7 +2,7 @@ import json
 import django
 from django.core.exceptions import ObjectDoesNotExist
 django.setup()
-from common.models import Journal, Organization
+from common.models import Journal, Organization # NOQA
 
 
 def load_journal_json(file_name, para_name, file_option):
@@ -37,7 +37,7 @@ def load_journal_json(file_name, para_name, file_option):
                 x.association = i['Association']
                 x.area = i['Subject Area']
                 set_param = 'x.' + 'is_' + para_name + '_journal = True'
-                exec (set_param)
+                exec(set_param)
                 x.save()
 
 
@@ -75,6 +75,7 @@ def import_json():
 
 def main():
     import_json()
+
 
 if __name__ == '__main__':
     main()

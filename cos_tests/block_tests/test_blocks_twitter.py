@@ -1,14 +1,14 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.twitter as common
+
 
 class TwitterBlockTest(TestCase):
 
     def setUp(self):
         """ Establishes necessary variables """
         super(TwitterBlockTest, self).setUp()
-        username = 'tester12'
         self.block = common.TwitterBlock()
 
     def test_render_template(self):

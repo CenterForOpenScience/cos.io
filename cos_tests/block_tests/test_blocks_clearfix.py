@@ -1,7 +1,8 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.clearfix as common
+
 
 class ClearfixBlockTest(TestCase):
 
@@ -29,8 +30,9 @@ class ClearfixBlockTest(TestCase):
         """ Checks the help text """
         help_text = self.block.meta.help_text
         self.assertEqual(help_text, 'When you need to make sure that your next element(s) '
-                     'is on a new line from the previous elements, '
-                     'use this little helper block.', 'The help text was not the same')
+                                    'is on a new line from the previous elements, '
+                                    'use this little helper block.', 'The help text was not the same')
+
 
 class WhitespaceBlockTest(TestCase):
 
@@ -58,5 +60,5 @@ class WhitespaceBlockTest(TestCase):
         """ Checks the help text """
         help_text = self.block.meta.help_text
         self.assertEqual(help_text, 'When you need to make sure that your next element(s) '
-                     'is on a new line from the previous elements, '
-                     'use this little helper block.', 'The help text was not the same')
+                                    'is on a new line from the previous elements, '
+                                    'use this little helper block.', 'The help text was not the same')

@@ -404,7 +404,7 @@ class CustomPage(Page, index.Indexed):
         new_self.save()
         new_self._update_descendant_url_paths(old_url_path, new_url_path)
         new_redirect = new_self.versioned_redirects.create()
-        redirect_url = ('/'+'/'.join(old_url_path.split('/')[2:]))[:-1]
+        redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
         new_redirect.old_path = redirect_url
         new_redirect.redirect_page = new_self
         new_redirect.site = new_self.get_site()
@@ -434,8 +434,7 @@ class CustomPage(Page, index.Indexed):
             # Check that we are committing the slug to the database
             # Basically: If update_fields has been specified,
             # and slug is not included, skip this step
-            if not ('update_fields' in kwargs
-                    and 'slug' not in kwargs['update_fields']):
+            if not ('update_fields' in kwargs and 'slug' not in kwargs['update_fields']):
                 # see if the slug has changed from the record in the db,
                 # in which case we need to update url_path of self and all
                 # descendants
@@ -446,8 +445,7 @@ class CustomPage(Page, index.Indexed):
                     old_url_path = old_record.url_path
                     new_url_path = self.url_path
                     new_redirect = self.versioned_redirects.create()
-                    redirect_url = ('/'+'/'.join(
-                        old_url_path.split('/')[2:]))[:-1]
+                    redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
                     new_redirect.old_path = redirect_url
                     new_redirect.redirect_page = self
                     new_redirect.site = self.get_site()

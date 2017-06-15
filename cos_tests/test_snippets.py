@@ -1,10 +1,10 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.templatetags.snippets as common
 
-from django import template
 from common.models import Footer, Person
+
 
 class SnippetsHeaderTest(TestCase):
 
@@ -12,6 +12,7 @@ class SnippetsHeaderTest(TestCase):
         """ Tests that the header function returns the expected value """
         returned = common.header(context='')
         self.assertEqual(returned, {}, 'The returned values were not the same')
+
 
 class SnippetsFooterTest(TestCase):
 
@@ -21,14 +22,15 @@ class SnippetsFooterTest(TestCase):
 
     def test_footer(self):
         """ Creates footer objects and tests the overall returned value """
-        footer1 = self.create_footer('Test Footer 1')
-        footer2 = self.create_footer('Test Footer 2')
+        self.create_footer('Test Footer 1')
+        self.create_footer('Test Footer 2')
 
         test_returned = {
             'footer': Footer.objects.all()[0]
         }
 
         self.assertEqual(common.footer(context=''), test_returned, 'The returned footers were not the same')
+
 
 class SnippetsPeopleTest(TestCase):
 
@@ -38,8 +40,8 @@ class SnippetsPeopleTest(TestCase):
 
     def test_people(self):
         """ Creates people objects and tests the overall returned value """
-        person1 = self.create_person('Tester', 'T.', 'Test')
-        person2 = self.create_person('Albert', 'J.', 'Atest')
+        self.create_person('Tester', 'T.', 'Test')
+        self.create_person('Albert', 'J.', 'Atest')
 
         test_returned = {
             'people': Person.objects.all().order_by('last_name'),

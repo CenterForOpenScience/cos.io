@@ -1,11 +1,11 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 
 import common.search_indexes as index
 
 from common.models import Person, CustomPage, NewsArticle, Job
-from haystack import indexes
+
 
 class PersonIndexTest(TestCase):
 
@@ -16,6 +16,7 @@ class PersonIndexTest(TestCase):
 
         self.assertEqual(person_model, test_model, 'The returned models were not the same')
 
+
 class CustomPageIndexTest(TestCase):
 
     def test_custom_page(self):
@@ -25,6 +26,7 @@ class CustomPageIndexTest(TestCase):
 
         self.assertEqual(custom_model, test_model, 'The returned models were not the same')
 
+
 class NewsArticleIndexTest(TestCase):
 
     def test_custom_article(self):
@@ -33,6 +35,7 @@ class NewsArticleIndexTest(TestCase):
         test_model = index.NewsArticleIndex().get_model()
 
         self.assertEqual(article_model, test_model, 'The returned models were not the same')
+
 
 class JobIndexTest(TestCase):
 

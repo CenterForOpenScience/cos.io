@@ -1,12 +1,12 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import search.views as views
-from search import views as search_views
 
 from django.urls import reverse
 
 from haystack.forms import HighlightedSearchForm
+
 
 class SearchUrlTest(TestCase):
 
@@ -14,6 +14,7 @@ class SearchUrlTest(TestCase):
         """ Tests the tag url """
         url = reverse('search')
         self.assertEqual(url, '/search/')
+
 
 class SearchViewTest(TestCase):
 

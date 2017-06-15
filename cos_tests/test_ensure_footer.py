@@ -1,4 +1,4 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 
@@ -11,8 +11,8 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'website.settings.dev')
 django.setup()
 
 
-import common.models
-from website.settings.base import DEFAULT_FOOTER_ID
+import common.models # noqa
+
 
 class VariableValuesTest(TestCase):
 
@@ -60,7 +60,6 @@ class VariableValuesTest(TestCase):
 
         footer.content = raw_json
 
-        test_footer = print('Dry run, aborting with footer: {} and content: {}'.
-                      format(footer, footer.content))
+        test_footer = print('Dry run, aborting with footer: {} and content: {}'.format(footer, footer.content))
 
         self.assertEqual(actual_footer, test_footer, 'The html does not match')

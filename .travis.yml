@@ -17,4 +17,5 @@ install:
     # - printf '\n\n' | python manage.py createsuperuser
 
 script:
+  - flake8 . --ignore=E501,E731
   - py.test

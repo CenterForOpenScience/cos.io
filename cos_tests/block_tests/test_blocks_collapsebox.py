@@ -1,7 +1,8 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.collapsebox as common
+
 
 class CollapseEntryBlockTest(TestCase):
 
@@ -19,6 +20,7 @@ class CollapseEntryBlockTest(TestCase):
         """ Tests that the right template renders """
         template = self.block.meta.template
         self.assertEqual(template, 'common/blocks/collapse_entry.html', 'The templates were not the same')
+
 
 class CollapseBoxBlockTest(TestCase):
 

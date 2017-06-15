@@ -16,10 +16,11 @@ from wagtail.wagtailcore.blocks import ChoiceBlock
 from common.blocks.columns import RowBlock
 from common.blocks.columns import GenericContentStreamBlock
 import logging
-logger = logging.getLogger('django')
 
 import random
 import string
+
+logger = logging.getLogger('django')
 
 
 def randomword(length):

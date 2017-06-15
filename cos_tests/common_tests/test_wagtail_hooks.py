@@ -1,14 +1,16 @@
 from __future__ import absolute_import, unicode_literals
 
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 
 from wagtail.tests.utils import WagtailTestUtils
 from wagtail.wagtailcore import hooks
 
+
 def test_hook():
     pass
+
 
 class WagtailHookTest(TestCase, WagtailTestUtils):
 

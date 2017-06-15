@@ -1,8 +1,8 @@
 import json
 import django
 django.setup()
-from common.models import Organization
-import io
+from common.models import Organization # NOQA
+import io # NOQA
 
 
 def save_to_journal_json(file_name, para_name, file_option):
@@ -63,6 +63,7 @@ def export_json():
 
 def main():
     export_json()
+
 
 if __name__ == '__main__':
     main()

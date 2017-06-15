@@ -1,7 +1,8 @@
-import pytest
+import pytest # noqa
 
 from django.test import TestCase
 import common.blocks.images as common
+
 
 class COSPhotoStreamBlockTest(TestCase):
 
@@ -24,6 +25,7 @@ class COSPhotoStreamBlockTest(TestCase):
         """ Tests the label """
         label = self.block.meta.label
         self.assertEqual(label, 'Photo Stream', 'The labels do not match')
+
 
 class ImageBlockTest(TestCase):
 
