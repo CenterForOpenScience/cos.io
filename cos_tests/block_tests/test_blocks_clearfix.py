@@ -29,9 +29,12 @@ class ClearfixBlockTest(TestCase):
     def test_render_help_text(self):
         """ Checks the help text """
         help_text = self.block.meta.help_text
-        self.assertEqual(help_text, 'When you need to make sure that your next element(s) '
-                     'is on a new line from the previous elements, '
-                     'use this little helper block.', 'The help text was not the same')
+        self.assertEqual(help_text, '''
+            When you need to make sure that your next element(s)
+            is on a new line from the previous elements,
+            use this little helper block.
+        ''', 'The help text was not the same')
+
 
 class WhitespaceBlockTest(TestCase):
 
@@ -58,6 +61,8 @@ class WhitespaceBlockTest(TestCase):
     def test_render_help_text(self):
         """ Checks the help text """
         help_text = self.block.meta.help_text
-        self.assertEqual(help_text, 'When you need to make sure that your next element(s) '
-                     'is on a new line from the previous elements, '
-                     'use this little helper block.', 'The help text was not the same')
+        self.assertEqual(help_text, '''
+            When you need to make sure that your next element(s)
+            is on a new line from the previous elements,
+            use this little helper block.
+        ''', 'The help text was not the same')
