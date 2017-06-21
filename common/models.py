@@ -161,7 +161,12 @@ class Job(ClusterableModel, index.Indexed):
     notes = RichTextField(blank=True)
     location = RichTextField(blank=True)
     benefits = RichTextField(blank=True)
-    applying = RichTextField(blank=True)
+    applying = StreamField([
+        ('raw_html', RawHTMLBlock(
+            help_text='With great power comes great responsibility. '
+                      'This HTML is unescaped. Be careful!')),
+        ('rich_text', RichTextBlock()),
+    ], null=True, blank=True)
     core_technologies = RichTextField(blank=True)
     referrals = RichTextField(blank=True)
     preferred = RichTextField(blank=True)
@@ -182,7 +187,7 @@ class Job(ClusterableModel, index.Indexed):
             FieldPanel('preferred'),
             FieldPanel('referrals'),
             FieldPanel('benefits'),
-            FieldPanel('applying'),
+            StreamFieldPanel('applying'),
         ]),
     ]
 
@@ -421,7 +426,7 @@ class CustomPage(Page, index.Indexed):
         new_self.save()
         new_self._update_descendant_url_paths(old_url_path, new_url_path)
         new_redirect = new_self.versioned_redirects.create()
-        redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
+        redirect_url = ('/'+'/'.join(old_url_path.split('/')[2:]))[:-1]
         new_redirect.old_path = redirect_url
         new_redirect.redirect_page = new_self
         new_redirect.site = new_self.get_site()
