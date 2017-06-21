@@ -23,7 +23,7 @@ body {
     margin: 0;
     overflow: hidden;
     position: relative;
-    
+
 }
 
 .header img {
@@ -65,4 +65,21 @@ img {
     width: 50%;
 }
 
+.in-kind-donation {
+    margin-top: 150px;
+}
 
+.donator-image {
+    min-height: 100px !important;
+}
+
+@media (max-width: 991px) {
+    .in-kind-donation {
+        text-align: center;
+    }
+    .donator-info-block {
+        display: block;
+        text-align: center;
+        margin-bottom: -15px;
+    }
+}

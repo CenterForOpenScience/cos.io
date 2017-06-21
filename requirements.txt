@@ -24,6 +24,7 @@ django-treebeard==4.0.1
 djangorestframework==3.4.7
 docutils==0.12
 elasticsearch==1.2.0
+flake8==3.3.0
 gunicorn==19.6.0
 html5lib==0.999999
 jmespath==0.9.0

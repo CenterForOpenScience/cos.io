@@ -1,6 +1,7 @@
 from .StructBlockWithStyle import StructBlockWithStyle
 from wagtail.wagtailcore import blocks
 
+
 class ButtonBlock(StructBlockWithStyle):
 
     description = blocks.CharBlock(max_length=255, required=True)

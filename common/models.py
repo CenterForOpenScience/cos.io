@@ -6,7 +6,7 @@ with the Wagtail CMS.
 
 
 # Base Models & Utilities
-from django.contrib.auth.models import User, Group, Permission
+from django.contrib.auth.models import User
 from wagtail.wagtailcore.models import Page
 from django.shortcuts import render
 from django.shortcuts import redirect
@@ -16,27 +16,22 @@ from django.core.cache import cache
 
 
 # Database Fields
-from django.conf import settings
 from django.db.models import CASCADE
 from django.db.models import CharField
 from django.db.models import BooleanField
 from django.db.models import OneToOneField
 from django.db.models import ForeignKey
 from django.db.models import SET_NULL
-from django.db.models import PROTECT
 from django.db.models import URLField
 from django.db.models import DateField
 from django.db.models import EmailField
-from django.db.models import TextField
 from django.db.models import IntegerField
-from django.db.models import BooleanField
 from django.db.models import Model
 from wagtail.wagtailcore.fields import StreamField
 from wagtail.wagtailcore.fields import RichTextField
 
 # StreamField Blocks
 from wagtail.wagtailcore import blocks
-from wagtail.wagtailcore.blocks import TextBlock
 from wagtail.wagtailcore.blocks import RichTextBlock
 from wagtail.wagtailcore.blocks import StructBlock
 from wagtail.wagtailcore.blocks import ChoiceBlock
@@ -84,23 +79,17 @@ from modelcluster.models import ClusterableModel
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
-from wagtail.contrib.settings.models import BaseSetting, register_setting
-
 from website.settings.base import DEFAULT_FOOTER_ID
-DEFAULT_FOOTER_ID = 1
 
 from wagtail.wagtailredirects.models import Redirect
 from django.utils.translation import ugettext_lazy as _
-from wagtail.wagtailredirects.models import Redirect
-from modelcluster.fields import ParentalKey
-from django.db.models import CASCADE
 
 # we need to read and write json
-import json
 
 import logging
 logger = logging.getLogger('wagtail.core')
 logger = logging.getLogger('django')
+
 
 class VersionedRedirect(Redirect):
     versioned_redirect_page = ParentalKey(
@@ -111,7 +100,7 @@ class VersionedRedirect(Redirect):
         on_delete=CASCADE
     )
 
-    panels= [
+    panels = [
         FieldPanel('old_path'),
         FieldPanel('is_permanent')
     ]
@@ -124,6 +113,7 @@ class VersionedRedirect(Redirect):
 class FormField(AbstractFormField):
     page = ParentalKey('FormPage', related_name='form_fields')
 
+
 class FormPage(AbstractEmailForm):
     intro = RichTextField(blank=True)
     thank_you_text = RichTextField(blank=True)
@@ -131,17 +121,18 @@ class FormPage(AbstractEmailForm):
     action = CharField(
         max_length=1000,
         blank=True,
-        help_text='Optional action for the form. This will default to the slug.'
+        help_text='Optional action for the form. '
+                  'This will default to the slug.'
     )
 
-    menu_order = IntegerField(blank=True, default = 1, help_text=(
-         'The order this page should appear in the menu. '
-         'The lower the number, the more left the page will appear. '
-         'This is required for all pages where "Show in menus" is checked.'
+    menu_order = IntegerField(blank=True, default=1, help_text=(
+        'The order this page should appear in the menu. '
+        'The lower the number, the more left the page will appear. '
+        'This is required for all pages where "Show in menus" is checked.'
     ))
 
     promote_panels = Page.promote_panels + [
-         FieldPanel('menu_order'),
+        FieldPanel('menu_order'),
     ]
     content_panels = AbstractEmailForm.content_panels + [
         FieldPanel('intro', classname="full"),
@@ -159,6 +150,7 @@ class FormPage(AbstractEmailForm):
     settings_panels = [
         FieldPanel('action')
     ]
+
 
 class Job(ClusterableModel, index.Indexed):
     title = CharField(max_length=255, unique=True)
@@ -202,7 +194,8 @@ class Job(ClusterableModel, index.Indexed):
 
 class Person(ClusterableModel, index.Indexed):
 
-    user = OneToOneField(User, null=True, blank=True, on_delete=CASCADE,related_name='profile')
+    user = OneToOneField(User, null=True, blank=True,
+                         on_delete=CASCADE, related_name='profile')
     first_name = CharField(max_length=255)
     middle_name = CharField(max_length=255, null=True, blank=True)
     last_name = CharField(max_length=255)
@@ -224,7 +217,8 @@ class Person(ClusterableModel, index.Indexed):
     google_plus = URLField(blank=True)
     github = URLField(blank=True)
     twitter = URLField(blank=True)
-    phone_number = CharField(max_length=12, blank=True, help_text="Format:XXX-XXX-XXXX")
+    phone_number = CharField(max_length=12, blank=True,
+                             help_text="Format:XXX-XXX-XXXX")
     email_address = EmailField(blank=True)
 
     favorite_food = CharField(max_length=140, blank=True)
@@ -282,7 +276,9 @@ class Footer(Model):
         ('paragraph', RichTextBlock()),
         ('image', ImageChooserBlock()),
         ('columns', RowBlock()),
-        ('raw_html', RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+        ('raw_html', RawHTMLBlock(
+            help_text='With great power comes great responsibility. '
+                      'This HTML is unescaped. Be careful!')),
         ('google_map', GoogleMapBlock()),
         ('twitter_feed', TwitterBlock()),
         ('photo_stream', COSPhotoStreamBlock()),
@@ -313,20 +309,21 @@ class CustomPage(Page, index.Indexed):
     )
 
     content = StreamField([
-         ('appeal', StructBlock([
-                    ('icon', ChoiceBlock(required=True, choices=[
-                        ('none', 'none'),
-                        ('flask', 'flask'),
-                        ('group', 'group'),
-                        ('laptop', 'laptop'),
-                        ('sitemap', 'sitemap'),
-                        ('user', 'user'),
-                        ('book', 'book'),
-                        ('download', 'download'),
-                    ])),
+        ('appeal', StructBlock([
+            ('icon', ChoiceBlock(required=True, choices=[
+                ('none', 'none'),
+                ('flask', 'flask'),
+                ('group', 'group'),
+                ('laptop', 'laptop'),
+                ('sitemap', 'sitemap'),
+                ('user', 'user'),
+                ('book', 'book'),
+                ('download', 'download'),
+            ])),
             ('topic', CharBlock(required=True, max_length=35)),
             ('content', RichTextBlock(required=True)),
-        ], classname='appeal', icon='tick', template='common/blocks/appeal.html')),
+        ], classname='appeal', icon='tick',
+            template='common/blocks/appeal.html')),
         ('heading', CharBlock(classname="full title")),
         ('statement', CharBlock()),
         ('paragraph', RichTextBlock()),
@@ -336,7 +333,9 @@ class CustomPage(Page, index.Indexed):
         ('image', ImageBlock()),
         ('customImage', CustomImageBlock()),
         ('rich_text', RichTextBlock()),
-        ('raw_html', RawHTMLBlock(help_text='With great power comes great responsibility. This HTML is unescaped. Be careful!')),
+        ('raw_html', RawHTMLBlock(
+            help_text='With great power comes great responsibility. '
+                      'This HTML is unescaped. Be careful!')),
         ('people_block', PeopleBlock()),
         ('centered_text', CenteredTextBlock()),
         ('hero_block', HeroBlock()),
@@ -357,7 +356,7 @@ class CustomPage(Page, index.Indexed):
 
     custom_url = CharField(max_length=256, default='', null=True, blank=True)
 
-    menu_order = IntegerField(blank=True, default = 1, help_text=(
+    menu_order = IntegerField(blank=True, default=1, help_text=(
         'The order this page should appear in the menu. '
         'The lower the number, the more left the page will appear. '
         'This is required for all pages where "Show in menus" is checked.'
@@ -389,21 +388,23 @@ class CustomPage(Page, index.Indexed):
             'inkinddonations': InkindDonation.objects.all(),
         })
 
-    @transaction.atomic  # only commit when all descendants are properly updated
+    @transaction.atomic  # only commit when all
+    # descendants are properly updated
     def move(self, target, pos=None):
         """
-        Extension to the treebeard 'move' method to ensure that url_path is updated too.
+        Extension to the treebeard 'move' method to ensure that url_path is
+        updated too.
         """
         old_url_path = Page.objects.get(id=self.id).url_path
         super(Page, self).move(target, pos=pos)
-        # treebeard's move method doesn't actually update the in-memory instance, so we need to work
-        # with a freshly loaded one now
+        # treebeard's move method doesn't actually update the in-memory
+        # instance, so we need to work with a freshly loaded one now
         new_self = Page.objects.get(id=self.id)
         new_url_path = new_self.set_url_path(new_self.get_parent())
         new_self.save()
         new_self._update_descendant_url_paths(old_url_path, new_url_path)
         new_redirect = new_self.versioned_redirects.create()
-        redirect_url = ('/'+'/'.join(old_url_path.split('/')[2:]))[:-1]
+        redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
         new_redirect.old_path = redirect_url
         new_redirect.redirect_page = new_self
         new_redirect.site = new_self.get_site()
@@ -411,10 +412,12 @@ class CustomPage(Page, index.Indexed):
         new_self.redirect_set.add(new_redirect)
 
         # Log
-        logger.info("Page moved: \"%s\" id=%d path=%s", self.title, self.id, new_url_path)
+        logger.info("Page moved: \"%s\" id=%d path=%s", self.title, self.id,
+                    new_url_path)
 
     @transaction.atomic
-    # ensure that changes are only committed when we have updated all descendant URL paths, to preserve consistency
+    # ensure that changes are only committed when we have updated all
+    # descendant URL paths, to preserve consistency
     def save(self, *args, **kwargs):
         self.full_clean()
 
@@ -422,16 +425,19 @@ class CustomPage(Page, index.Indexed):
         is_new = self.id is None
 
         if is_new:
-            # we are creating a record. If we're doing things properly, this should happen
-            # through a treebeard method like add_child, in which case the 'path' field
-            # has been set and so we can safely call get_parent
+            # we are creating a record. If we're doing things properly, this
+            # should happen through a treebeard method like add_child, in which
+            # case the 'path' field has been set and so we can safely call
+            # get_parent
             self.set_url_path(self.get_parent())
         else:
             # Check that we are committing the slug to the database
-            # Basically: If update_fields has been specified, and slug is not included, skip this step
+            # Basically: If update_fields has been specified,
+            # and slug is not included, skip this step
             if not ('update_fields' in kwargs and 'slug' not in kwargs['update_fields']):
-                # see if the slug has changed from the record in the db, in which case we need to
-                # update url_path of self and all descendants
+                # see if the slug has changed from the record in the db,
+                # in which case we need to update url_path of self and all
+                # descendants
                 old_record = Page.objects.get(id=self.id)
                 if old_record.slug != self.slug:
                     self.set_url_path(self.get_parent())
@@ -439,25 +445,25 @@ class CustomPage(Page, index.Indexed):
                     old_url_path = old_record.url_path
                     new_url_path = self.url_path
                     new_redirect = self.versioned_redirects.create()
-                    redirect_url = ('/'+'/'.join(old_url_path.split('/')[2:]))[:-1]
+                    redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
                     new_redirect.old_path = redirect_url
                     new_redirect.redirect_page = self
                     new_redirect.site = self.get_site()
                     new_redirect.save()
                     self.redirect_set.add(new_redirect)
 
-
-        for redirect in self.versioned_redirects.all():
-            redirect.versioned_redirect_page = self
-            redirect.redirect_page = self
-            redirect.save()
+        for redirected in self.versioned_redirects.all():
+            redirected.versioned_redirect_page = self
+            redirected.redirect_page = self
+            redirected.save()
 
         result = super(Page, self).save(*args, **kwargs)
 
         if update_descendant_url_paths:
             self._update_descendant_url_paths(old_url_path, new_url_path)
 
-        # Check if this is a root page of any sites and clear the 'wagtail_site_root_paths' key if so
+        # Check if this is a root page of any sites and clear the
+        # 'wagtail_site_root_paths' key if so
         if Site.objects.filter(root_page=self).exists():
             cache.delete('wagtail_site_root_paths')
 
@@ -478,12 +484,13 @@ class CustomPage(Page, index.Indexed):
 
 class PageAlias(Page):
 
-    alias_for_page = ForeignKey('wagtailcore.Page', null=True, on_delete=SET_NULL, related_name='aliases')
+    alias_for_page = ForeignKey('wagtailcore.Page', null=True,
+                                on_delete=SET_NULL, related_name='aliases')
 
-    menu_order = IntegerField(blank=True, default = 1, help_text=(
-         'The order this page should appear in the menu. '
-         'The lower the number, the more left the page will appear. '
-         'This is required for all pages where "Show in menus" is checked.'
+    menu_order = IntegerField(blank=True, default=1, help_text=(
+        'The order this page should appear in the menu. '
+        'The lower the number, the more left the page will appear. '
+        'This is required for all pages where "Show in menus" is checked.'
     ))
 
     content_panels = Page.content_panels + [
@@ -510,10 +517,10 @@ class NewsIndexPage(Page):
 
     statement = CharField(blank=True, max_length=1000)
 
-    menu_order = IntegerField(blank=True, default = 1, help_text=(
-         'The order this page should appear in the menu. '
-         'The lower the number, the more left the page will appear. '
-         'This is required for all pages where "Show in menus" is checked.'
+    menu_order = IntegerField(blank=True, default=1, help_text=(
+        'The order this page should appear in the menu. '
+        'The lower the number, the more left the page will appear. '
+        'This is required for all pages where "Show in menus" is checked.'
     ))
 
     promote_panels = Page.promote_panels + [
@@ -526,14 +533,15 @@ class NewsIndexPage(Page):
     ]
 
     def serve(self, request):
-        page_template='common/news_article_box.html'
+        page_template = 'common/news_article_box.html'
         if request.is_ajax():
             self.template = page_template
         return render(request, self.template, {
             'page': self,
             'newsArticles': NewsArticle.objects.all().order_by('-date'),
-            'page_template':page_template,
+            'page_template': page_template,
         })
+
 
 class NewsArticle(Page, index.Indexed):
     footer = ForeignKey(
@@ -545,7 +553,6 @@ class NewsArticle(Page, index.Indexed):
         related_name='+'
     )
 
-
     main_image = ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -556,8 +563,12 @@ class NewsArticle(Page, index.Indexed):
 
     date = DateField("Post date")
     intro = CharField(max_length=1000, blank=True)
-    body = RichTextField(blank=True, help_text='Fill this if the article is from COS')
-    external_link = CharField("External Article Link",help_text="Fill this if the article is NOT from COS", max_length=255,blank=True)
+    body = RichTextField(blank=True,
+                         help_text='Fill this if the article is from COS')
+    external_link = CharField(
+        "External Article Link",
+        help_text="Fill this if the article is NOT from COS",
+        max_length=255, blank=True)
 
     custom_url = CharField(max_length=256, default='')
 
@@ -583,7 +594,7 @@ class NewsArticle(Page, index.Indexed):
 
     def serve(self, request):
         return render(request, self.template, {
-            'page':self,
+            'page': self,
             'recent_articles': NewsArticle.objects.all().order_by('-date')[0:5]
         })
 
@@ -610,6 +621,7 @@ class Donation(ClusterableModel, index.Indexed):
     class Meta:
         ordering = ['date']
 
+
 class InkindDonation(ClusterableModel, index.Indexed):
 
     organization = ParentalKey(
@@ -630,6 +642,7 @@ class InkindDonation(ClusterableModel, index.Indexed):
 
     class Meta:
         ordering = ['date']
+
 
 class Organization(ClusterableModel, index.Indexed):
     name = CharField(max_length=255, unique=True)
@@ -686,7 +699,7 @@ class Journal(ClusterableModel, index.Indexed):
         index.SearchField('title', partial_match=True),
     ]
 
-    notes = StreamField([('note',blocks.StructBlock([
+    notes = StreamField([('note', blocks.StructBlock([
         ('description', blocks.CharBlock(required=False, max_length=255)),
         ('link', blocks.URLBlock(required=False)),
     ]))], blank=True)
@@ -709,7 +722,6 @@ class Journal(ClusterableModel, index.Indexed):
 
     class Meta:
         ordering = ['title']
-
 
     def __str__(self):
         return '{self.title}'.format(self=self)

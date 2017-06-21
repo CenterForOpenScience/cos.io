@@ -15,6 +15,9 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='blogpage',
             name='author',
-            field=models.ManyToManyField(blank=True, related_name='author_pages', to='common.Person', verbose_name='Author'),
+            field=models.ManyToManyField(blank=True,
+                                         related_name='author_pages',
+                                         to='common.Person',
+                                         verbose_name='Author'),
         ),
     ]

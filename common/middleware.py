@@ -27,4 +27,5 @@ class URLRedirectMiddleware(object):
         host = request.META['HTTP_HOST'] + request.get_full_path()
         for needle, replacement in URL_REGEXES:
             if needle.match(host):
-                return HttpResponsePermanentRedirect(re.sub(needle, replacement, host))
+                return HttpResponsePermanentRedirect(re.sub(needle,
+                                                            replacement, host))

@@ -21,6 +21,10 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='blogpage',
             name='author',
-            field=models.ManyToManyField(blank=True, null=True, related_name='author_pages', to=settings.AUTH_USER_MODEL, verbose_name='Author'),
+            field=models.ManyToManyField(blank=True,
+                                         null=True,
+                                         related_name='author_pages',
+                                         to=settings.AUTH_USER_MODEL,
+                                         verbose_name='Author'),
         ),
     ]

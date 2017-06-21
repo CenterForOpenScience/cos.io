@@ -7,8 +7,10 @@ PEOPLE_DISPLAY_CHOICES = [
     ('detailed', 'detailed'),
 ]
 
+
 class PeopleBlock(StructBlockWithStyle):
-    displayStyle = blocks.ChoiceBlock(choices=PEOPLE_DISPLAY_CHOICES,default="concise-team")
+    displayStyle = blocks.ChoiceBlock(choices=PEOPLE_DISPLAY_CHOICES,
+                                      default="concise-team")
     tag = blocks.CharBlock(max_length=20)
 
     class Meta:

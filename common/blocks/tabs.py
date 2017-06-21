@@ -4,26 +4,28 @@
 
 import collections
 from django import forms
-from django.db.models.fields import CharField
 from django.template.loader import render_to_string
 from django.contrib.staticfiles.templatetags.staticfiles import static
+from django.utils.html import format_html, format_html_join
 
 from wagtail.wagtailcore.blocks.utils import js_dict
 from wagtail.wagtailcore import blocks
-from wagtail.wagtailcore.blocks import ListBlock
 from wagtail.wagtailcore.blocks import CharBlock
 from wagtail.wagtailcore.blocks import StructBlock
 from wagtail.wagtailcore.blocks import ChoiceBlock
-from common.blocks.people import PeopleBlock
 from common.blocks.columns import RowBlock
 from common.blocks.columns import GenericContentStreamBlock
 import logging
-logger = logging.getLogger('django')
-import pdb
 
-import random, string
+import random
+import string
+
+logger = logging.getLogger('django')
+
+
 def randomword(length):
-   return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
+    return ''.join(random.choice(
+        string.ascii_lowercase) for i in range(length))
 
 
 class TabBlock(StructBlock):
@@ -43,7 +45,7 @@ class TabListBlock(blocks.ListBlock):
 
     class Meta:
         label = 'Tabs'
-        #template = 'common/blocks/tabbed_block.html'
+        # template = 'common/blocks/tabbed_block.html'
 
     @property
     def media(self):
@@ -62,7 +64,8 @@ class TabListBlock(blocks.ListBlock):
         children = format_html_join(
             '\n', '{0}',
             [
-                (self.child_block._render_with_context(child_value, context=context),)
+                (self.child_block._render_with_context(child_value,
+                                                       context=context),)
                 for child_value in value
             ]
         )
@@ -71,9 +74,11 @@ class TabListBlock(blocks.ListBlock):
     def render_form(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:
-                # We rely on ListBlock.clean throwing a single ValidationError with a specially crafted
-                # 'params' attribute that we can pull apart and distribute to the child blocks
-                raise TypeError('TabListBlock.render_form unexpectedly received multiple errors')
+                # We rely on ListBlock.clean throwing a single ValidationError
+                # with a specially crafted 'params' attribute that we can pull
+                # apart and distribute to the child blocks
+                raise TypeError('TabListBlock.render_form unexpectedly '
+                                'received multiple errors')
             error_list = errors.as_data()[0].params
         else:
             error_list = None
@@ -83,9 +88,9 @@ class TabListBlock(blocks.ListBlock):
         for (i, child_val) in enumerate(value):
             err = error_list[i] if error_list else None
             member_prefix = "%s-%d" % (prefix, i)
-            rendered = self.render_list_member(child_val, member_prefix, i, errors=err)
+            rendered = self.render_list_member(child_val, member_prefix, i,
+                                               errors=err)
             list_members_html.append(rendered)
-
 
         return render_to_string('common/block_forms/tab_list.html', {
             'help_text': getattr(self.meta, 'help_text', None),
@@ -111,6 +116,7 @@ class TabsBlock(StructBlock):
         ],
         default='horizontal'
     )
+
     def render_form(self, value, prefix='', errors=None):
         context = self.get_form_context(value, prefix=prefix, errors=errors)
 
@@ -119,9 +125,11 @@ class TabsBlock(StructBlock):
 #    def render_form(self, value, prefix='', errors=None):
 #        if errors:
 #            if len(errors) > 1:
-#                # We rely on ListBlock.clean throwing a single ValidationError with a specially crafted
-#                # 'params' attribute that we can pull apart and distribute to the child blocks
-#                raise TypeError('TabListBlock.render_form unexpectedly received multiple errors')
+#                # We rely on ListBlock.clean throwing a single ValidationError
+#                # with a specially crafted 'params' attribute that we can pull
+#                # apart and distribute to the child blocks raise
+#                # TypeError('TabListBlock.render_form unexpectedly received
+#                # multiple errors')
 #            error_list = errors.as_data()[0].params
 #        else:
 #            error_list = None
@@ -140,9 +148,11 @@ class TabsBlock(StructBlock):
     def get_form_context(self, value, prefix='', errors=None):
         if errors:
             if len(errors) > 1:
-                # We rely on StructBlock.clean throwing a single ValidationError with a specially crafted
-                # 'params' attribute that we can pull apart and distribute to the child blocks
-                raise TypeError('StructBlock.render_form unexpectedly received multiple errors')
+                # We rely on StructBlock.clean throwing a single
+                # ValidationError with a specially crafted 'params' attribute
+                # that we can pull apart and distribute to the child blocks
+                raise TypeError('StructBlock.render_form unexpectedly '
+                                'received multiple errors')
             error_dict = errors.as_data()[0].params
         else:
             error_dict = {}
@@ -151,7 +161,8 @@ class TabsBlock(StructBlock):
             (
                 name,
                 block.bind(value.get(name, block.get_default()),
-                           prefix="%s-%s" % (prefix, name), errors=error_dict.get(name))
+                           prefix="%s-%s" % (prefix, name),
+                           errors=error_dict.get(name))
             )
             for name, block in self.child_blocks.items()
         ])
@@ -167,8 +178,9 @@ class TabsBlock(StructBlock):
 
 #    def get_context(self, value):
 #        """
-#        Return a dict of context variables (derived from the block value, or otherwise)
-#        to be added to the template context when rendering this value through a template.
+#        Return a dict of context variables (derived from the block value,
+#        or otherwise) to be added to the template context when rendering this
+#        value through a template.
 #        """
 #        return {
 #            'self': value,

@@ -24,7 +24,6 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   font-family: 'Open Sans' !important;
-  overflow-x: hidden;
 }
 
 /*********************
@@ -65,7 +64,7 @@ h2, h2 a {
   color: #444;
   font-size: 21px;
 
-  line-height: 26px;
+ /* line-height: 26px; */
   text-decoration: none;
 }
 
@@ -1551,6 +1550,10 @@ font-size: 18px;
 	border: none;
 }
 
+.front-team .thumbnail img {
+    width: 250px;
+    height: auto;
+}
 
 .front-team h3 {
 	margin:10px 0 12px;

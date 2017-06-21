@@ -3,12 +3,12 @@
 
 {% if include_context == "index_page" %}
 <style>
-    
+
 </style>
-    <div style="float: left">
-        {% image blog.header_image fill-190x120 %}
+    <div class="blog-image-container">
+        {% image blog.header_image original %}
     </div>
-    <div style="padding-left: 210px;">
+    <div class="blog-post-information">
 <div style='overflow: hidden; padding-bottom: 14px;'>
     <div style="padding:0 0 0 0; float: left; font-size: 12px;"><a class="blog-post-link" href="{% pageurl blog %}"><h2 style="font-size: 30px; margin-top: 15px;"><strong>{{ blog.title }}</strong></h2></a>
             {% if not blog.blog_authors.all %}

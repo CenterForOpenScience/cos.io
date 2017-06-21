@@ -1,6 +1,6 @@
 
 from django import template
-from common.models import *
+from common.models import Footer, Person
 
 register = template.Library()
 
