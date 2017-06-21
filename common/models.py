@@ -426,7 +426,7 @@ class CustomPage(Page, index.Indexed):
         new_self.save()
         new_self._update_descendant_url_paths(old_url_path, new_url_path)
         new_redirect = new_self.versioned_redirects.create()
-        redirect_url = ('/'+'/'.join(old_url_path.split('/')[2:]))[:-1]
+        redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
         new_redirect.old_path = redirect_url
         new_redirect.redirect_page = new_self
         new_redirect.site = new_self.get_site()
