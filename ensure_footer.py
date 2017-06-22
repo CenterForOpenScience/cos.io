@@ -10,7 +10,7 @@ from website.settings.base import DEFAULT_FOOTER_ID
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'website.settings.dev')
 django.setup()
 
-import common.models
+import common.models # NOQA
 
 
 def migrate(dry=True):
@@ -67,6 +67,7 @@ def migrate(dry=True):
 def main():
     dry = '--dry' in sys.argv
     migrate(dry=dry)
+
 
 if __name__ == '__main__':
     main()

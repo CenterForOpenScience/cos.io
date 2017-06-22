@@ -1,4 +1,7 @@
 
+- Build Status (master): [![Build Status](https://travis-ci.org/CenterForOpenScience/cos.io.svg?branch=master)](https://travis-ci.org/CenterForOpenScience/cos.io)
+- Build Status (develop): [![Build Status](https://travis-ci.org/CenterForOpenScience/cos.io.svg?branch=develop)](https://travis-ci.org/CenterForOpenScience/cos.io)
+
 ## Setup:
 *Note that theses instructions were developed on OSX El Capitan.*
 *For other operating systems, your mileage may vary*
@@ -59,7 +62,7 @@ To do this, you must first populate the database you created during setup with a
     - Turn on Redis server by running `redis-server`.
     - Set the `CACHES` dict in local.py according to [the Wagtail docs](http://docs.wagtail.io/en/v0.8.7/howto/performance.html#cache).
 - To use Gunicorn, instead of running the server with: `python manage.py runserver 17.0.0.1:4200`, use: `gunicorn website.wsgi`
-- When a new page is published, a message will be sent to Flowdock to inform admins. Set the Flowdock API token as an environment variable. 
+- When a new page is published, a message will be sent to Flowdock to inform admins. Set the Flowdock API token as an environment variable.
 The format is: `export FLOWDOCKTOKEN='the_api_token_from_flowdock`
 - If need to export the Journal and Organization entries saved in database, run `python export_json.py`
 

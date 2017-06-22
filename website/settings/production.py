@@ -6,7 +6,7 @@ import dj_database_url
 
 from .base import *  # noqa
 
-INSTALLED_APPS = INSTALLED_APPS + [
+INSTALLED_APPS = INSTALLED_APPS + [ # noqa
     'wagtail.contrib.wagtailfrontendcache',
 ]
 
@@ -73,7 +73,7 @@ MEDIAFILES_LOCATION = 'media'
 MEDIA_URL = 'https://{}/{}/'.format(AWS_S3_CUSTOM_DOMAIN, MEDIAFILES_LOCATION)
 DEFAULT_FILE_STORAGE = 'website.storages.MediaStorage'
 
-COMPRESS_ROOT = STATIC_ROOT
+COMPRESS_ROOT = STATIC_ROOT # noqa
 COMPRESS_URL = STATIC_URL
 COMPRESS_STORAGE = STATICFILES_STORAGE
 COMPRESS_ENABLED = True

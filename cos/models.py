@@ -47,5 +47,6 @@ def send_to_flowdock(sender, **kwargs):
     except RequestException as e:
         logger.error(e)
 
+
 # Register a receiver
 page_published.connect(send_to_flowdock)

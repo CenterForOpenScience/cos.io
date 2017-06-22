@@ -110,7 +110,7 @@ class GenericContentStreamBlock(blocks.StreamBlock):
                                     "%s-%d" % (prefix, i), i,
                                     errors=error_dict.get(i))
             for (i, child) in enumerate(valid_children)
-            ]
+        ]
 
         return render_to_string('common/block_forms/column_content.html', {
             'prefix': prefix,
@@ -183,7 +183,7 @@ class RowBlock(blocks.ListBlock):
                                     errors=error_list[i] if error_list
                                     else None)
             for (i, child_val) in enumerate(value)
-            ]
+        ]
 
         return render_to_string('common/block_forms/columns.html', {
             'help_text': getattr(self.meta, 'help_text', None),
