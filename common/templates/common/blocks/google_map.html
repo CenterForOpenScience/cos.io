@@ -1,26 +1,32 @@
 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCvuAERNLWJBDDaUkuT9cZaTKLtyGXmIiI"></script>
-<script>
- function init() {
-   var base = 'https://maps.google.com/maps/ms?msa=0&msid=212077150860196517022.0004eb13abe27b89316db&ie=UTF8&t=m&ll=LATLONG8&spn=0.04056,0.120163z=12&output=embed';
-   var geocoder = new google.maps.Geocoder();
-   var address = "{{ self.address }}";
-   geocoder.geocode( { 'address': address}, function(results, status) {
-
-     if (status == google.maps.GeocoderStatus.OK) {
-       var latitude = results[0].geometry.location.lat();
-       var longitude = results[0].geometry.location.lng();
-     }
-     var url = base.replace('LATLONG', latitude + ',' + longitude);
-     $('#footer-map').find('iframe').attr('src', url);
-     // allow user to view on regular site, not a giant embed
-     $('#view-map').attr('href', url.replace('output', 'source'));
-   });
- }
- google.maps.event.addDomListener(window, 'load', init);
-</script>
-
-<div class="row" id="footer-map" style="{{ value.css_style }}">
-  <iframe width="100%" height="240" frameborder="0" scrolling="no" src=""></iframe>
-  <br />
-  <small>View <a id="view-map" href=""> {{ self.address }}</a> in a larger map</small>
+<div class="row" id="footer-map" style="{{ value.css_style }} height:240px; width:100%;">
+    <div id="map-container" height="240px" width="100%"></div>
 </div>
+<br />
+<small>View <a id="view-map" href=""> {{ self.address }}</a> in a larger map</small>
+
+<script type="text/javascript">// <![(DATA[
+var mapOptions = {
+    zoom: 16,
+    center: new google.maps.LatLng(54.00, -3.00),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+
+var geocoder = new google.maps.Geocoder();
+
+var address = "{{ self.address }}";
+
+var url = "https://maps.google.com/?q=" + encodeURIComponent("{{ self.address }}");
+
+document.getElementById("view-map").setAttribute('href', url);
+
+geocoder.geocode({ 'address': address }, function(results, status) {
+    map.setCenter(results[0].geometry.location);
+    var marker = new google.maps.Marker({
+        map: map,
+        position: results[0].geometry.location
+    });
+});
+var map = new google.maps.Map(document.getElementById("footer-map"), mapOptions);
+
+// ]]></script>
