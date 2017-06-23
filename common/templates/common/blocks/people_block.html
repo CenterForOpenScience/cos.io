@@ -66,6 +66,20 @@
         height:250px;
     }
     </style>
+{% elif value.displayStyle == 'concise-alum' %}
+    <div class = "row back-team">
+        <ul class="list-unstyled" id="whoWeAre">
+        {% for person in people %}
+            {% if value.tag in person.tags.names %}
+                    <li class="col-md-3">
+                        <h4>
+                            {{ person.first_name }} {{ person.last_name }} <br/>
+                        </h4>
+                    </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
 {% elif value.displayStyle == 'concise-ambassador' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
