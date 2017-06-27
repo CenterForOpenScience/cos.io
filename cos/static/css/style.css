@@ -2622,3 +2622,40 @@ li [class*=" fa-"].icon-large {
 .login-signup-page .checkbox{
 	padding-left: 0;
 }
+
+/* banner styles */
+#banner-container {
+    height: 80px;
+    background-color: #D3EEEE;
+    color: black;
+    font-size: 140%;
+    font-weight: bold;
+}
+#banner-element {
+    padding-top: 20px;
+    text-align: center;
+}
+#banner-button {
+    background-color: #34BAEC;
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+    padding: 10px 15px;
+}
+
+@media(max-width: 621px) {
+    #banner-container {
+        height: auto;
+        min-height: 125px;
+        font-size: 120%;
+    }
+    #banner-button {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
