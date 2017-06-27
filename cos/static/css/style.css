@@ -2642,9 +2642,11 @@ li [class*=" fa-"].icon-large {
     border: 0px;
     font-size: 15px;
     font-weight: bold;
-    color: white;
     margin-left: 100px;
-    padding: 10px 15px;
+}
+#banner-button > a {
+    text-decoration: none;
+    color: white;
 }
 
 @media(max-width: 621px) {
