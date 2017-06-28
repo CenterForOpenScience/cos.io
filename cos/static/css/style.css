@@ -2624,18 +2624,18 @@ li [class*=" fa-"].icon-large {
 }
 
 /* banner styles */
-#banner-container {
+.banner-container {
     height: 80px;
     background-color: #D3EEEE;
     color: black;
     font-size: 140%;
     font-weight: bold;
 }
-#banner-element {
+.banner-element {
     padding-top: 20px;
     text-align: center;
 }
-#banner-button {
+.banner-button {
     background-color: #34BAEC;
     width: 160px;
     height: 40px;
@@ -2644,18 +2644,18 @@ li [class*=" fa-"].icon-large {
     font-weight: bold;
     margin-left: 100px;
 }
-#banner-button > a {
+.banner-button > a, .banner-button > a:visited {
     text-decoration: none;
     color: white;
 }
 
 @media(max-width: 621px) {
-    #banner-container {
+    .banner-container {
         height: auto;
         min-height: 125px;
         font-size: 120%;
     }
-    #banner-button {
+    .banner-button {
         display: block;
         margin: auto;
         margin-top: 15px;
