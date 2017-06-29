@@ -2635,7 +2635,7 @@ li [class*=" fa-"].icon-large {
     padding-top: 20px;
     text-align: center;
 }
-.banner-button {
+.banner-button, .banner-button:visited {
     background-color: #34BAEC;
     width: 160px;
     height: 40px;
@@ -2643,10 +2643,9 @@ li [class*=" fa-"].icon-large {
     font-size: 15px;
     font-weight: bold;
     margin-left: 100px;
-}
-.banner-button > a, .banner-button > a:visited {
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 
 @media(max-width: 621px) {
