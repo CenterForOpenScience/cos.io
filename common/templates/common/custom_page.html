@@ -6,6 +6,14 @@
 {% block body_class %} homepage {% endblock %}
 
 {% block content %}
+    {% if page.title != 'Donate' %}
+        <div class="banner-container">
+            <div class="banner-element">
+                Help support open science today.
+                <a href="/donate/" class="btn banner-button">Donate Now</a>
+            </div>
+        </div>
+    {% endif %}
     <!-- If there is a hero, include it first -->
     {% for b in page.content %}
         {% if b.block_type == 'hero_block' %}
@@ -36,5 +44,3 @@
         </div>
     </div>
 {% endblock %}
-
-
