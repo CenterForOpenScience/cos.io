@@ -387,6 +387,9 @@ class CustomPage(Page, index.Indexed):
         return render(request, self.template, {
             'page': self,
             'people': Person.objects.all(),
+            'team': Person.objects.filter(tags__name__in=['team']).order_by('last_name'),
+            'alumni': Person.objects.filter(tags__name__in=['alum']).order_by('last_name'),
+            'ambassadors': Person.objects.filter(tags__name__in=['Ambassador']).order_by('last_name'),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
             'organizations': Organization.objects.all(),

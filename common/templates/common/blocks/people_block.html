@@ -6,8 +6,8 @@
 {% if value.displayStyle == 'concise-team' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% for person in people %}
-            {% if value.tag in person.tags.names %}
+        {% if value.tag == 'team' %}
+            {% for person in team %}
                     <li class="col-md-3">
                         <div class="thumbnail">
                             {% if person.photo %}
@@ -50,8 +50,53 @@
                             </ul>
                         </div>
                     </li>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        {% elif value.tag == 'alum' %}
+            {% for person in alumni %}
+                    <li class="col-md-3">
+                        <div class="thumbnail">
+                            {% if person.photo %}
+                                {% image person.photo original as photo %}
+                                <img src="{{ photo.url }}" alt="{{ person.first_name }} {{ person.last_name }}">
+                            {% else %}
+                                <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}">
+                            {% endif %}
+                            <h3>
+                                {{ person.first_name }} {{ person.last_name }} <br/>
+                                <small>
+                                {% if person.position %}
+                                    {{ person.position }}
+                                {% endif %}
+                                </small>
+                            </h3>
+                            <ul class="social-icons social-icons-color">
+                                {% if person.email_address %}
+                                    <li><a href="mailto:{{ person.email_address }}" data-original-title="email" class="email"></a></li>
+                                {% endif %}
+                                {% if person.osf_profile %}
+                                    <li><a href="{{ person.osf_profile }}" data-original-title="osf" class="osf"></a></li>
+                                {% endif %}
+                                {% if person.linked_in %}
+                                    <li><a href="{{ person.linked_in }}" data-original-title="Linkedin" class="linkedin"></a></li>
+                                {% endif %}
+                                {% if person.google_plus %}
+                                    <li><a href="{{ person.google_plus }}" data-original-title="Google Plus" class="googleplus"></a></li>
+                                {% endif %}
+                                {% if person.github %}
+                                    <li><a href="{{ person.github }}" data-original-title="GitHub" class="github"></a></li>
+                                {% endif %}
+                                {% if person.blog_url %}
+                                    <li><a href="{{ person.blog_url }}" data-original-title="person" class="person"></a></li>
+                                {% endif %}
+                                {% if person.twitter %}
+                                    <li><a href="{{ person.twitter }}" data-original-title="Twitter" class="twitter"></a></li>
+                                {% endif %}
+
+                            </ul>
+                        </div>
+                    </li>
+            {% endfor %}
+        {% endif %}
         </ul>
     </div>
     <style>
@@ -83,8 +128,8 @@
 {% elif value.displayStyle == 'concise-ambassador' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% for person in people %}
-            {% if value.tag in person.tags.names %}
+        {% if value.tag == 'Ambassador' %}
+            {% for person in ambassadors %}
                     <li class="col-md-4">
                         <div class="thumbnail">
                             {% if person.photo %}
@@ -106,8 +151,8 @@
 
                         </div>
                     </li>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
         </ul>
     </div>
     <style>
