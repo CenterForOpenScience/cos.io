@@ -298,8 +298,10 @@ class Footer(Model):
     def __str__(self):
         return self.title
 
+
 class PageTag(TaggedItemBase):
     content_object = ParentalKey(Page, related_name='tagged_keywords')
+
 
 class CustomPage(Page, index.Indexed):
     footer = ForeignKey(
@@ -387,9 +389,15 @@ class CustomPage(Page, index.Indexed):
         return render(request, self.template, {
             'page': self,
             'people': Person.objects.all(),
-            'team': Person.objects.filter(tags__name__in=['team']).order_by('last_name'),
-            'alumni': Person.objects.filter(tags__name__in=['alum']).order_by('last_name'),
-            'ambassadors': Person.objects.filter(tags__name__in=['Ambassador']).order_by('last_name'),
+            'team': Person.objects.filter(
+                tags__name__in=['team']
+            ).order_by('last_name'),
+            'alumni': Person.objects.filter(
+                tags__name__in=['alum']
+            ).order_by('last_name'),
+            'ambassadors': Person.objects.filter(
+                tags__name__in=['Ambassador']
+            ).order_by('last_name'),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
             'organizations': Organization.objects.all(),
@@ -443,7 +451,10 @@ class CustomPage(Page, index.Indexed):
             # Check that we are committing the slug to the database
             # Basically: If update_fields has been specified,
             # and slug is not included, skip this step
-            if not ('update_fields' in kwargs and 'slug' not in kwargs['update_fields']):
+            if not (
+                'update_fields' in kwargs and 'slug'
+                not in kwargs['update_fields']
+            ):
                 # see if the slug has changed from the record in the db,
                 # in which case we need to update url_path of self and all
                 # descendants
@@ -454,7 +465,8 @@ class CustomPage(Page, index.Indexed):
                     old_url_path = old_record.url_path
                     new_url_path = self.url_path
                     new_redirect = self.versioned_redirects.create()
-                    redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
+                    redirect_url = ('/' + '/'.join(old_url_path
+                                    .split('/')[2:]))[:-1]
                     new_redirect.old_path = redirect_url
                     new_redirect.redirect_page = self
                     new_redirect.site = self.get_site()
