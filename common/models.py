@@ -76,6 +76,7 @@ from wagtail.wagtailforms.models import AbstractEmailForm, AbstractFormField
 from wagtail.wagtailsearch import index
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
+from modelcluster.contrib.taggit import ClusterTaggableManager
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
@@ -297,6 +298,8 @@ class Footer(Model):
     def __str__(self):
         return self.title
 
+class PageTag(TaggedItemBase):
+    content_object = ParentalKey(Page, related_name='tagged_keywords')
 
 class CustomPage(Page, index.Indexed):
     footer = ForeignKey(
@@ -362,6 +365,8 @@ class CustomPage(Page, index.Indexed):
         'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     search_fields = [
         index.SearchField('content', partial_match=True),
     ]
@@ -372,6 +377,7 @@ class CustomPage(Page, index.Indexed):
     ]
 
     promote_panels = Page.promote_panels + [
+        FieldPanel('tags'),
         FieldPanel('custom_url'),
         FieldPanel('menu_order'),
         InlinePanel('versioned_redirects', label='URL Versioning'),
@@ -493,12 +499,15 @@ class PageAlias(Page):
         'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     content_panels = Page.content_panels + [
         FieldPanel('alias_for_page'),
     ]
 
     promote_panels = Page.promote_panels + [
         FieldPanel('menu_order'),
+        FieldPanel('tags'),
     ]
 
     def serve(self, request):
@@ -523,8 +532,11 @@ class NewsIndexPage(Page):
         'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     promote_panels = Page.promote_panels + [
         FieldPanel('menu_order'),
+        FieldPanel('tags'),
     ]
 
     content_panels = Page.content_panels + [
@@ -572,6 +584,8 @@ class NewsArticle(Page, index.Indexed):
 
     custom_url = CharField(max_length=256, default='')
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     search_fields = [
         index.SearchField('intro', partial_match=True),
         index.SearchField('body', partial_match=True)
@@ -579,6 +593,7 @@ class NewsArticle(Page, index.Indexed):
 
     promote_panels = Page.promote_panels + [
         FieldPanel('custom_url'),
+        FieldPanel('tags'),
     ]
 
     content_panels = Page.content_panels + [

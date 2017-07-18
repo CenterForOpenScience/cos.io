@@ -24,7 +24,7 @@ from common.blocks.codes import CodeBlock
 from wagtail.wagtailcore.blocks import RichTextBlock
 from common.blocks.googlecalendar import GoogleCalendarBlock
 import datetime
-from common.models import Person
+from common.models import Person, PageTag
 from website.settings.base import DEFAULT_FOOTER_ID
 
 COMMENTS_APP = getattr(settings, 'COMMENTS_APP', None)
@@ -63,7 +63,10 @@ class BlogIndexPage(Page):
         'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     promote_panels = Page.promote_panels + [
+        FieldPanel('tags'),
         FieldPanel('menu_order'),
     ]
 
@@ -288,6 +291,10 @@ class BlogPage(Page):
         InlinePanel('authors', label=_("Authors")),
     ]
 
+    promote_panels = Page.promote_panels + [
+        FieldPanel('tags'),
+    ]
+
     def get_author(self):
         blog_author_default = Person.objects.filter(user_id=self.owner.id)
         if not blog_author_default:
@@ -316,10 +323,7 @@ class BlogPage(Page):
     parent_page_types = ['BlogIndexPage']
 
     content_panels = Page.content_panels + [
-        MultiFieldPanel([
-            FieldPanel('tags'),
-            InlinePanel('categories', label=_("Categories")),
-        ], heading="Tags and Categories"),
+        InlinePanel('categories', label="Categories"),
         ImageChooserPanel('header_image'),
         FieldPanel('intro'),
         StreamFieldPanel('content'),
