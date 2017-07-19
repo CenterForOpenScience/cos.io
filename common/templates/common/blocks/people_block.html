@@ -6,8 +6,8 @@
 {% if value.displayStyle == 'concise-team' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% for person in people %}
-            {% if value.tag in person.tags.names %}
+        {% if value.tag == 'team' %}
+            {% for person in team %}
                     <li class="col-md-3">
                         <div class="thumbnail">
                             {% if person.photo %}
@@ -46,12 +46,11 @@
                                 {% if person.twitter %}
                                     <li><a href="{{ person.twitter }}" data-original-title="Twitter" class="twitter"></a></li>
                                 {% endif %}
-
                             </ul>
                         </div>
                     </li>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
         </ul>
     </div>
     <style>
@@ -69,22 +68,22 @@
 {% elif value.displayStyle == 'concise-alum' %}
     <div class = "row back-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% for person in people %}
-            {% if value.tag in person.tags.names %}
+        {% if value.tag == 'alum' %}
+            {% for person in alumni %}
                     <li class="col-md-3">
                         <h4>
                             {{ person.first_name }} {{ person.last_name }} <br/>
                         </h4>
                     </li>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
         </ul>
     </div>
 {% elif value.displayStyle == 'concise-ambassador' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% for person in people %}
-            {% if value.tag in person.tags.names %}
+        {% if value.tag == 'Ambassador' %}
+            {% for person in ambassadors %}
                     <li class="col-md-4">
                         <div class="thumbnail">
                             {% if person.photo %}
@@ -106,8 +105,8 @@
 
                         </div>
                     </li>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
         </ul>
     </div>
     <style>
