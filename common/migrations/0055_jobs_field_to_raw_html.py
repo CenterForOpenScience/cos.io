@@ -33,7 +33,7 @@ def reverse_convert(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('common', '0053_auto_20170621_1340'),
+        ('common', '0054_auto_20170719_2002'),
     ]
 
     operations = [
