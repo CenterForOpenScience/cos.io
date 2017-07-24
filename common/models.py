@@ -161,7 +161,14 @@ class Job(ClusterableModel, index.Indexed):
     notes = RichTextField(blank=True)
     location = RichTextField(blank=True)
     benefits = RichTextField(blank=True)
-    applying = RichTextField(blank=True)
+    applying = StreamField([
+        ('raw_html', RawHTMLBlock(
+            help_text='To add Google Analytics to your link, use this template: '
+                      '<a href="www.example.com" onclick="trackOutboundLink("www.example.com"); return false;">link</a>.'
+                      '  With great power comes great responsibility. '
+                      'This HTML is unescaped. Be careful!')),
+        ('rich_text', RichTextBlock()),
+    ], null=True, blank=True)
     core_technologies = RichTextField(blank=True)
     referrals = RichTextField(blank=True)
     preferred = RichTextField(blank=True)
@@ -182,7 +189,7 @@ class Job(ClusterableModel, index.Indexed):
             FieldPanel('preferred'),
             FieldPanel('referrals'),
             FieldPanel('benefits'),
-            FieldPanel('applying'),
+            StreamFieldPanel('applying'),
         ]),
     ]
 
