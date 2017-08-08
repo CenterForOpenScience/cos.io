@@ -6,7 +6,7 @@
 {% block body_class %} homepage {% endblock %}
 
 {% block content %}
-    {% if page.slug != 'donate' %}
+    {% if 'donate' not in page.slug %}
         <div class="banner-container">
             <div class="banner-element">
                 Help support open science today.
