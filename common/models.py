@@ -76,6 +76,7 @@ from wagtail.wagtailforms.models import AbstractEmailForm, AbstractFormField
 from wagtail.wagtailsearch import index
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
+from modelcluster.contrib.taggit import ClusterTaggableManager
 from taggit.models import TaggedItemBase
 from taggit.managers import TaggableManager
 
@@ -160,7 +161,14 @@ class Job(ClusterableModel, index.Indexed):
     notes = RichTextField(blank=True)
     location = RichTextField(blank=True)
     benefits = RichTextField(blank=True)
-    applying = RichTextField(blank=True)
+    applying = StreamField([
+        ('raw_html', RawHTMLBlock(
+            help_text='To add Google Analytics to your link, use this template: '
+                      '<a href="www.example.com" onclick="trackOutboundLink("www.example.com"); return false;">link</a>.'
+                      '  With great power comes great responsibility. '
+                      'This HTML is unescaped. Be careful!')),
+        ('rich_text', RichTextBlock()),
+    ], null=True, blank=True)
     core_technologies = RichTextField(blank=True)
     referrals = RichTextField(blank=True)
     preferred = RichTextField(blank=True)
@@ -181,7 +189,7 @@ class Job(ClusterableModel, index.Indexed):
             FieldPanel('preferred'),
             FieldPanel('referrals'),
             FieldPanel('benefits'),
-            FieldPanel('applying'),
+            StreamFieldPanel('applying'),
         ]),
     ]
 
@@ -298,6 +306,10 @@ class Footer(Model):
         return self.title
 
 
+class PageTag(TaggedItemBase):
+    content_object = ParentalKey(Page, related_name='tagged_keywords')
+
+
 class CustomPage(Page, index.Indexed):
     footer = ForeignKey(
         'common.Footer',
@@ -362,6 +374,8 @@ class CustomPage(Page, index.Indexed):
         'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     search_fields = [
         index.SearchField('content', partial_match=True),
     ]
@@ -372,6 +386,7 @@ class CustomPage(Page, index.Indexed):
     ]
 
     promote_panels = Page.promote_panels + [
+        FieldPanel('tags'),
         FieldPanel('custom_url'),
         FieldPanel('menu_order'),
         InlinePanel('versioned_redirects', label='URL Versioning'),
@@ -381,6 +396,15 @@ class CustomPage(Page, index.Indexed):
         return render(request, self.template, {
             'page': self,
             'people': Person.objects.all(),
+            'team': Person.objects.filter(
+                tags__name__in=['team']
+            ).order_by('last_name'),
+            'alumni': Person.objects.filter(
+                tags__name__in=['alum']
+            ).order_by('last_name'),
+            'ambassadors': Person.objects.filter(
+                tags__name__in=['Ambassador']
+            ).order_by('last_name'),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
             'organizations': Organization.objects.all(),
@@ -434,7 +458,10 @@ class CustomPage(Page, index.Indexed):
             # Check that we are committing the slug to the database
             # Basically: If update_fields has been specified,
             # and slug is not included, skip this step
-            if not ('update_fields' in kwargs and 'slug' not in kwargs['update_fields']):
+            if not (
+                'update_fields' in kwargs and 'slug'
+                not in kwargs['update_fields']
+            ):
                 # see if the slug has changed from the record in the db,
                 # in which case we need to update url_path of self and all
                 # descendants
@@ -445,7 +472,8 @@ class CustomPage(Page, index.Indexed):
                     old_url_path = old_record.url_path
                     new_url_path = self.url_path
                     new_redirect = self.versioned_redirects.create()
-                    redirect_url = ('/' + '/'.join(old_url_path.split('/')[2:]))[:-1]
+                    redirect_url = ('/' + '/'.join(old_url_path
+                                    .split('/')[2:]))[:-1]
                     new_redirect.old_path = redirect_url
                     new_redirect.redirect_page = self
                     new_redirect.site = self.get_site()
@@ -493,12 +521,15 @@ class PageAlias(Page):
         'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     content_panels = Page.content_panels + [
         FieldPanel('alias_for_page'),
     ]
 
     promote_panels = Page.promote_panels + [
         FieldPanel('menu_order'),
+        FieldPanel('tags'),
     ]
 
     def serve(self, request):
@@ -523,8 +554,11 @@ class NewsIndexPage(Page):
         'This is required for all pages where "Show in menus" is checked.'
     ))
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     promote_panels = Page.promote_panels + [
         FieldPanel('menu_order'),
+        FieldPanel('tags'),
     ]
 
     content_panels = Page.content_panels + [
@@ -572,6 +606,8 @@ class NewsArticle(Page, index.Indexed):
 
     custom_url = CharField(max_length=256, default='')
 
+    tags = ClusterTaggableManager(through=PageTag, blank=True)
+
     search_fields = [
         index.SearchField('intro', partial_match=True),
         index.SearchField('body', partial_match=True)
@@ -579,6 +615,7 @@ class NewsArticle(Page, index.Indexed):
 
     promote_panels = Page.promote_panels + [
         FieldPanel('custom_url'),
+        FieldPanel('tags'),
     ]
 
     content_panels = Page.content_panels + [

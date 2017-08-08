@@ -3,6 +3,7 @@ from .StructBlockWithStyle import StructBlockWithStyle
 
 PEOPLE_DISPLAY_CHOICES = [
     ('concise-team', 'concise-team'),
+    ('concise-alum', 'concise-alum'),
     ('concise-ambassador', 'concise-ambassador'),
     ('detailed', 'detailed'),
 ]
