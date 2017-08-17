@@ -44,8 +44,7 @@ def remove_emerald_published_journals(*args, **kwargs):
         try:
             journal_to_remove = Journal.objects.get(
                 title=entry['title'],
-                publisher=entry.get('publisher', None),
-                association=entry.get('society', None)
+                publisher=entry.get('publisher', None)
             )
             journal_to_remove.delete()
             logger.info('The journal {} has been successfully deleted'.format(entry['title']))
