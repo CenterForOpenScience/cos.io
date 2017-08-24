@@ -405,6 +405,9 @@ class CustomPage(Page, index.Indexed):
             'ambassadors': Person.objects.filter(
                 tags__name__in=['Ambassador']
             ).order_by('last_name'),
+            'topcoordinators': Person.objects.filter(
+                tags__name__in=['TOP-coordinator']
+            ).order_by('last_name'),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
             'organizations': Organization.objects.all(),

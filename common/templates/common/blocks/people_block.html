@@ -122,6 +122,49 @@
         height:200px;
     }
     </style>
+{% elif value.displayStyle == 'concise-top' %}
+    <div class = "row front-team">
+        <ul class="list-unstyled" id="whoWeAre">
+        {% if value.tag == 'TOP-coordinator' %}
+            {% for person in topcoordinators %}
+                    <li class="col-md-4">
+                        <div class="thumbnail">
+                            {% if person.photo %}
+                                {% image person.photo original as photo %}
+                                <img src="{{ photo.url }}" alt="{{ person.first_name }} {{ person.last_name }}">
+                            {% else %}
+                                <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}">
+                            {% endif %}
+                            <br>
+                            <div align="center">
+                                {{ person.first_name }} {{ person.last_name }}
+
+                            </div>
+                            <div align="center">
+                                {% if person.position %}
+                                    {{ person.position }}
+                                {% endif %}
+                            </div>
+
+                        </div>
+                    </li>
+            {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
+    <style>
+    .thumbnail {
+        border: none;
+        height:340px;
+        max-width:220px;
+    }
+    .thumbnail > img {
+        border-radius: 256px !important;
+        display:block;
+        width:200px;
+        height:200px;
+    }
+    </style>
 {% else %}
     <div id="linktoperson" class = "btn-group" role = "group"></div>
     {% for person in people %}
