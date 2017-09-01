@@ -5,6 +5,7 @@ PEOPLE_DISPLAY_CHOICES = [
     ('concise-team', 'concise-team'),
     ('concise-alum', 'concise-alum'),
     ('concise-ambassador', 'concise-ambassador'),
+    ('concise-top', 'concise-top'),
     ('detailed', 'detailed'),
 ]
 
