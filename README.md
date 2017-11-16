@@ -27,9 +27,33 @@
 - `python manage.py createsuperuser`
 - `python ensure_footer.py`
 - `python import_json.py`
+- The cos.io application will be expecting to have a caching server set up. We can use Redis for that!
+    - To use Redis
+        - Turn on Redis by running `redis-server`
+        - Set the `CACHES` dict in local.py according to [the Wagtail docs](http://docs.wagtail.io/en/v0.8.7/howto/performance.html#cache).
 - `python manage.py rebuild_index`
 - `python manage.py runserver 127.0.0.1:4200`
 - The application should now be running at `http://localhost:4200/`
+
+## Quick starting cos.io
+*After installation you won't need to run all of the steps above to get cos.io up and running. Just follow the instructions below:*
+```
+// Start services
+
+brew services start postgres
+elasticsearch
+redis-server
+
+// Run necessary migrations
+
+python manage.py migrate
+python ensure_footer.py
+python import_json.py
+
+// Start cos.io on localhost:4200
+
+python manage.py runserver 127.0.0.1:4200
+```
 
 ## Importing local data
 Following instructions up to this point will get your local server running smoothly, but you won't have any local data.
@@ -57,16 +81,12 @@ To do this, you must first populate the database you created during setup with a
 
 ## Additional Notes
 - You may have to set `SITE_ID = 1` in your `local.py`
-- The cos.io application will be expecting to have a caching server set up. You can use Redis for that!
-- To use Redis
-    - Turn on Redis server by running `redis-server`.
-    - Set the `CACHES` dict in local.py according to [the Wagtail docs](http://docs.wagtail.io/en/v0.8.7/howto/performance.html#cache).
 - To use Gunicorn, instead of running the server with: `python manage.py runserver 17.0.0.1:4200`, use: `gunicorn website.wsgi`
 - When a new page is published, a message will be sent to Flowdock to inform admins. Set the Flowdock API token as an environment variable.
 The format is: `export FLOWDOCKTOKEN='the_api_token_from_flowdock`
 - If need to export the Journal and Organization entries saved in database, run `python export_json.py`
 
-### Application Testing
+## Application Testing
 - Run all tests:
     - `pytest`
 - Run specific test:
