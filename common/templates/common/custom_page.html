@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% load wagtailcore_tags %}
+{% load static wagtailcore_tags %}
 {% load wagtailcore_tags snippets %}
 
 {% block body_class %} homepage {% endblock %}
@@ -9,8 +9,17 @@
     {% if 'donate' not in page.slug %}
         <div class="banner-container">
             <div class="banner-element">
-                Help support open science today.
-                <a href="/donate/" class="btn banner-button" onClick="ga('send', 'event', 'marketing', 'click', 'COS Donate Banner')">Donate Now</a>
+                <div class="container banner-row-container">
+                    <div class="row">
+                        <div class="col">Support open science and the OSF, November 28th</div>
+                    </div>
+                    <div class="banner-img"><img src="{% static 'images/giving-tuesday.png' %}"></img></div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="/donate/" class="btn banner-button" onClick="ga('send', 'event', 'marketing', 'click', 'COS Donate Banner')">Donate Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     {% endif %}
