@@ -159,7 +159,7 @@
 
   **In accordance with the Digital Millennium Copyright Act (17 USC § 512), any notifications of claimed copyright infringement must be sent to our Designated Agent:**
 
-  Andrew Sallans  
+  Lucy Ofiesh  
   Center for Open Science  
   210 Ridge McIntire Rd.  
   Suite 500, Charlottesville, VA, 22903  
