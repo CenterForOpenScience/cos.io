@@ -7,6 +7,7 @@ PEOPLE_DISPLAY_CHOICES = [
     ('concise-ambassador', 'concise-ambassador'),
     ('concise-top', 'concise-top'),
     ('detailed', 'detailed'),
+    ('expanded-ambassador', 'expanded-ambassador'),
 ]
 
 
