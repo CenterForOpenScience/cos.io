@@ -127,7 +127,7 @@
         <ul class="list-unstyled" id="whoWeAre">
         {% if value.tag == 'Ambassador' %}
             {% for person in ambassadors %}
-                    <li class="col-md-4">
+                    <li class="col-md-4" style="padding-bottom:15px">
                         <div class="thumbnail">
                             {% if person.photo %}
                                 {% image person.photo original as photo %}
@@ -138,9 +138,14 @@
                             <div align="center">
                                 <h3>
                                     {{ person.first_name }} {{ person.last_name }} <br />
-                                    <small>
+                                    <small style="padding-bottom:7px;">
                                         {% if person.position %}
                                             {{ person.position }}
+                                        {% endif %}
+                                    </small>
+                                    <small>
+                                        {% if person.employer %}
+                                            {{ person.employer }}
                                         {% endif %}
                                     </small>
                                 </h3>
