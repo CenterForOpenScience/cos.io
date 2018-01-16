@@ -81,16 +81,20 @@
             }
         })
     </script>
-    <style>
-    .endless_container{
-        display: none;
-        position: absolute;
-        bottom: 0;
-    }
-    .hidden-box {
-        opacity: 0;
-    }
-    </style>
 
+{% endblock %}
+
+{% block extra_css %}
+
+    <style>
+        .endless_container{
+            display: none;
+            position: absolute;
+            bottom: 0;
+        }
+        .hidden-box {
+            opacity: 0;
+        }
+    </style>
 
 {% endblock %}
