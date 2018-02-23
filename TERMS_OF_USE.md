@@ -31,15 +31,32 @@
 
   c.  Users.  All Users must accept the COS Terms of Use and Privacy Policy.
 
-    1. Administrator.  An administrator on a Project or a component is an individual who has full rights to control all aspects of a Project.  An Administrator may create a Project or components of a Project, create and change contributor permissions, identify the legal terms that govern the ownership of the intellectual property in Content deposited into a Project or a Project component or identify the license restrictions governing the use of the intellectual property incorporated into the Project or a Project component, control and modify access and privacy settings for the Project and its components, modify license terms for the use of Content, invite other users to contribute to a Project or a component of a project, authorize add-ons, namely, software designed to increase the capability of OSF, remove Projects or Project Components from the Websites and Services, register (i.e. freeze and uniquely identify) Projects or Project Components.  Administrators must have the authority to bind the individual Administrator's business, organization or institution to the COS's Terms of Use and Privacy Policy.
+    1. Administrator.  An administrator on a Project or a component is an individual who has full
+    rights to control all aspects of a Project.  An Administrator may create a Project or components
+    of a Project, create and change contributor permissions, identify the legal terms that govern
+    the ownership of the intellectual property in Content deposited into a Project or a Project
+    component or identify the license restrictions governing the use of the intellectual property
+    incorporated into the Project or a Project component, control and modify access and privacy
+    settings for the Project and its components, modify license terms for the use of Content, invite
+    other users to contribute to a Project or a component of a project, authorize add-ons, namely,
+    software designed to increase the capability of OSF, remove Projects or Project Components from
+    the Websites and Services, register (i.e. freeze and uniquely identify) Projects or Project
+    Components.  Administrators must have the authority to bind the individual Administrator's
+    business, organization or institution to the COS's Terms of Use and Privacy Policy.
 
-    2. Proxy.  A Proxy is a person to whom the Administrator has granted the authority to manage a Project or Project component on his or her behalf, which may include setting and modifying user access, privacy settings, license terms, and editing and depositing Content.   
+    2. Proxy.  A Proxy is a person to whom the Administrator has granted the authority to manage a
+    Project or Project component on his or her behalf, which may include setting and modifying user
+    access, privacy settings, license terms, and editing and depositing Content.   
 
-    3. Contributing User.  A Contributing User may access, deposit, and edit Content to a Project or a Project component.
+    3. Contributing User.  A Contributing User may access, deposit, and edit Content to a Project or
+    a Project component.
 
-    4. Active User.  An Active User may have select interactive use of the Websites and Services, subject to restrictions imposed by the Administrator.  
+    4. Active User.  An Active User may have select interactive use of the Websites and Services,
+    subject to restrictions imposed by the Administrator.  
 
-    5. Passive User.  A passive user, including journal editors/reviewers, other scientists, and members of the general public, may use the Websites and Services solely as an information resource without any ability to change or modify any Project content.
+    5. Passive User.  A passive user, including journal editors/reviewers, other scientists, and members
+    of the general public, may use the Websites and Services solely as an information resource without
+    any ability to change or modify any Project content.
 
   d.  Public API: An application program interface available to the public to facilitate computer communication with the OSF.  Parts or all of the Websites and Services are accessible via various Public APIs, including but not limited to, GitHub, Twitter, Facebook, YouTube, Google Scholar and Google Groups, and LinkedIn.
 
@@ -142,7 +159,7 @@
 
   **In accordance with the Digital Millennium Copyright Act (17 USC § 512), any notifications of claimed copyright infringement must be sent to our Designated Agent:**
 
-  Andrew Sallans  
+  Lucy Ofiesh  
   Center for Open Science  
   210 Ridge McIntire Rd.  
   Suite 500, Charlottesville, VA, 22903  

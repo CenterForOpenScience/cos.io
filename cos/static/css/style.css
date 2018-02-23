@@ -1539,6 +1539,9 @@ font-size: 18px;
 
 /*Team Blocks*/
 
+.back-team {
+	margin: 20px 0;
+}
 
 .front-team {
 	margin: 20px 0;
@@ -2621,4 +2624,42 @@ li [class*=" fa-"].icon-large {
 }
 .login-signup-page .checkbox{
 	padding-left: 0;
+}
+
+/* banner styles */
+.banner-container {
+    height: 80px;
+    background-color: #D3EEEE;
+    color: black;
+    font-size: 140%;
+    font-weight: bold;
+}
+.banner-element {
+    padding-top: 20px;
+    text-align: center;
+}
+.banner-button, .banner-button:visited {
+    background-color: #34BAEC;
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+@media(max-width: 621px) {
+    .banner-container {
+        height: auto;
+        min-height: 125px;
+        font-size: 120%;
+    }
+    .banner-button {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+    }
 }

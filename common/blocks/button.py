@@ -6,6 +6,7 @@ class ButtonBlock(StructBlockWithStyle):
 
     description = blocks.CharBlock(max_length=255, required=True)
     link = blocks.CharBlock(max_length=255, required=True)
+    on_click = blocks.CharBlock(max_length=255, required=False)
 
     class Meta:
         # form_template = 'common/block_forms/code_block.html'

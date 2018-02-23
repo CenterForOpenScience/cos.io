@@ -56,7 +56,7 @@ To do this, you must first populate the database you created during setup with a
 
 *&ast;When developing new pages on a live site, one should preview the page first.*
 
-## Addtional Notes
+## Additional Notes
 - You may have to set `SITE_ID = 1` in your `local.py`
 - The cos.io application will be expecting to have a caching server set up. You can use Redis for that!
 - To use Redis
@@ -68,6 +68,28 @@ The format is: `export FLOWDOCKTOKEN='the_api_token_from_flowdock`
 - If need to export the Journal and Organization entries saved in database, run `python export_json.py`
 - If you encounter unicode errors you likely have the wrong verison of Python installed, change your verison re-run `pip install -r requirements.txt`
  then run `find . -name \*.pyc -delete` to delete outdated .pyc files.
+
+### Application Testing
+- Run all tests:
+    - `pytest`
+- Run specific test:
+    - `pytest test_view.py`
+- Run all tests below a certain path:
+    - `pytest testpath`
+- Run tests with names matching a certain string:
+    - `pytest -k stringxyz`
+- Run a certain test:
+    - `pytest test_view.py::ViewTest`
+- Run a certain method in a class:
+    - `pytest test_view.py::ViewTest::view_renders`
+
+You can also run Python's debugger with pytest:
+- Invoke the debugger on every failure:
+    - `pytest --pdb`
+- Invoke the debugger on the first failure:
+    - `pytest -x --pdb`
+- Invoke the debugger for the first three failures:
+    - `pytest --pdb --maxfail=3`
 
 ### COS is Hiring!
 
