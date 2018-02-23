@@ -380,7 +380,9 @@ class CustomPage(Page, index.Indexed):
     def serve(self, request):
         return render(request, self.template, {
             'page': self,
-            'people': Person.objects.all(),
+            'team': Person.objects.filter(tags__name__in=["team"]),
+            'ambassadors': Person.objects.filter(tags__name__in=["Ambassador"]).prefetch_related('photo'),
+            'alumni': Person.objects.filter(tags__name__in=["alum"]).prefetch_related('photo'),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
             'organizations': Organization.objects.all(),
