@@ -395,19 +395,19 @@ class CustomPage(Page, index.Indexed):
     def serve(self, request):
         return render(request, self.template, {
             'page': self,
-            'people': Person.objects.all().prefetch_related('photo'),
+            'people': Person.objects.all().select_related('photo'),
             'team': Person.objects.filter(
                 tags__name__in=['team']
-            ).prefetch_related('photo').order_by('last_name'),
+            ).select_related('photo').order_by('last_name'),
             'alumni': Person.objects.filter(
                 tags__name__in=['alum']
-            ).prefetch_related('photo').order_by('last_name'),
+            ).only('last_name', 'first_name').order_by('last_name'),
             'ambassadors': Person.objects.filter(
                 tags__name__in=['Ambassador']
-            ).prefetch_related('photo').order_by('last_name'),
+            ).order_by('last_name'),
             'topcoordinators': Person.objects.filter(
                 tags__name__in=['TOP-coordinator']
-            ).prefetch_related('photo').order_by('last_name'),
+            ).order_by('last_name'),
             'jobs': Job.objects.all(),
             'journals': Journal.objects.all(),
             'organizations': Organization.objects.all(),
