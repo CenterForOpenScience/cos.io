@@ -56,3 +56,7 @@ wagtail==1.7
 wagtailfontawesome==1.0.5
 wcwidth==0.1.7
 Willow==0.4
+
+# Django Debug Toolbar for local development 
+django-debug-toolbar==1.5
+
