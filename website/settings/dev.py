@@ -11,6 +11,7 @@ SECRET_KEY = 'z3kof(_gqk3s-lumnm!6rcs%y!pxvv4okxpw9_5^u^z6c=^73!'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+INSTALLED_APPS.append('debug_toolbar')
 
 try:
     from .local import *  # noqa
