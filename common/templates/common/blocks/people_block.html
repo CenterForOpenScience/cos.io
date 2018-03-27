@@ -6,8 +6,7 @@
 {% if value.displayStyle == 'concise-team' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% for person in people %}
-            {% if value.tag in person.tags.names %}
+            {% for person in team %}
                     <li class="col-md-3">
                         <div class="thumbnail">
                             {% if person.photo %}
@@ -46,12 +45,10 @@
                                 {% if person.twitter %}
                                     <li><a href="{{ person.twitter }}" data-original-title="Twitter" class="twitter"></a></li>
                                 {% endif %}
-
                             </ul>
                         </div>
                     </li>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
         </ul>
     </div>
     <style>
@@ -66,11 +63,22 @@
         height:250px;
     }
     </style>
+{% elif value.displayStyle == 'concise-alum' %}
+    <div class = "row back-team">
+        <ul class="list-unstyled" id="whoWeAre">
+            {% for person in alumni %}
+                    <li class="col-md-3">
+                        <h4>
+                            {{ person.first_name }} {{ person.last_name }} <br/>
+                        </h4>
+                    </li>
+            {% endfor %}
+        </ul>
+    </div>
 {% elif value.displayStyle == 'concise-ambassador' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% for person in people %}
-            {% if value.tag in person.tags.names %}
+            {% for person in ambassadors %}
                     <li class="col-md-4">
                         <div class="thumbnail">
                             {% if person.photo %}
@@ -92,8 +100,48 @@
 
                         </div>
                     </li>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+    <style>
+    .thumbnail {
+        border: none;
+        height:340px;
+        max-width:220px;
+    }
+    .thumbnail > img {
+        border-radius: 256px !important;
+        display:block;
+        width:200px;
+        height:200px;
+    }
+    </style>
+{% elif value.displayStyle == 'concise-top' %}
+    <div class = "row front-team">
+        <ul class="list-unstyled" id="whoWeAre">
+            {% for person in topcoordinators %}
+                    <li class="col-md-4">
+                        <div class="thumbnail">
+                            {% if person.photo %}
+                                {% image person.photo original as photo %}
+                                <img src="{{ photo.url }}" alt="{{ person.first_name }} {{ person.last_name }}">
+                            {% else %}
+                                <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}">
+                            {% endif %}
+                            <br>
+                            <div align="center">
+                                {{ person.first_name }} {{ person.last_name }}
+
+                            </div>
+                            <div align="center">
+                                {% if person.position %}
+                                    {{ person.position }}
+                                {% endif %}
+                            </div>
+
+                        </div>
+                    </li>
+            {% endfor %}
         </ul>
     </div>
     <style>
@@ -112,7 +160,6 @@
 {% else %}
     <div id="linktoperson" class = "btn-group" role = "group"></div>
     {% for person in people %}
-        {% if value.tag in person.tags.names %}
             <hr>
             <div class="row detailrow margin-bottom-30" id="{{ person.first_name }}{{ person.last_name }}">
                 <div class="col-md-5">
@@ -143,6 +190,5 @@
                     </div>
                 </div>
             </div>
-        {% endif %}
     {% endfor %}
 {% endif %}

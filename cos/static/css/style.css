@@ -1539,6 +1539,9 @@ font-size: 18px;
 
 /*Team Blocks*/
 
+.back-team {
+	margin: 20px 0;
+}
 
 .front-team {
 	margin: 20px 0;

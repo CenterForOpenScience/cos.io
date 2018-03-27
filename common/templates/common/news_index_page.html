@@ -11,7 +11,7 @@
     <div class="banner-container">
         <div class="banner-element">
             Help support open science today.
-            <a href="/donate/" class="btn banner-button">Donate Now</a>
+            <a href="/donate/" class="btn banner-button" onClick="ga('send', 'event', 'marketing', 'click', 'COS Donate Banner')">Donate Now</a>
         </div>
     </div>
     <div class="page-container">
@@ -27,8 +27,6 @@
 
                 <div class="margin-bottom-20 grid" style="display: none">
                     {% include page_template %}
-                </div>
-                <div class="pagination">
                 </div>
 
             </div>
@@ -48,37 +46,55 @@
 <!-- END CORE PLUGINS -->
 
     <script type="text/javascript">
-            jQuery(window).on('load', function() {
-                $('.loading-msg').hide();
-                $('.grid').show().masonry({
-                    itemSelector: '.service-box-v1',
-                    columnWidth: '.service-box-v1',
-                    percentPosition: true
-                });
+
+        $(window).load(function() {
+            $('.loading-msg').hide();
+            var grid = $('.grid').show().masonry({
+                itemSelector: '.service-box-v1',
+                columnWidth: '.service-box-v1',
+                percentPosition: true,
             });
-    </script>
+            grid.masonry();
+            $('.service-box-v1').removeClass('hidden-box');
+            grid.on('layoutComplete', function() {
+                $('.service-box-v1').removeClass('hidden-box');
+            });
+        });
 
-    $(window).load(function(){   $('#content').masonry(); });
+        var paginate_scroll_margin = 400;
 
+        if ($(window).width() < 500) {
+            paginate_scroll_margin = 1000;
+        } else if ($(window).width() < 900) {
+            paginate_scroll_margin = 800;
+        }
 
-    <script>
         $.endlessPaginate({
-            paginateOnScroll: true, paginateOnScrollChunkSize: 10, paginateOnScrollMargin: 400,
+            paginateOnScroll: true,
+            paginateOnScrollMargin: paginate_scroll_margin,
             onCompleted: function(){
                 var masonry = $('.grid').data('masonry');
-                setTimeout(function(){
+                setTimeout(function() {
                     masonry.reloadItems();
                     masonry.layout();
-                },200);
+                }, 200);
             }
         })
     </script>
-    <style>
-    .endless_container{
-        position: absolute;
-        bottom: 0;
-    }
-    </style>
 
+{% endblock %}
+
+{% block extra_css %}
+
+    <style>
+        .endless_container{
+            display: none;
+            position: absolute;
+            bottom: 0;
+        }
+        .hidden-box {
+            opacity: 0;
+        }
+    </style>
 
 {% endblock %}
