@@ -68,62 +68,66 @@ We may receive information when you use your account to log into a third-party s
 ### 10. DEFINITIONS  
 In our Privacy Policy and Terms of Use, we use "you" to refer to researchers and other users of the Websites and OSF. We also use the following defined terms:
 
-a. Project. A "Project" is an individual or collaborative enterprise that also may have embedded within it subproject(s) or "Project components" or "component(s)" of the Project.
+**Project.** A "Project" is an individual or collaborative enterprise that also may have embedded within it subproject(s) or "Project components" or "component(s)" of the Project.
 
-b. Preprint. A “Preprint” is a publicly shared document and associated metadata. Preprints cannot be deleted, but can be withdrawn, leaving behind metadata about the resource. 
+**Preprint.** A “Preprint” is a publicly shared document and associated metadata. Preprints cannot be deleted, but can be withdrawn, leaving behind metadata about the resource. 
 
-c. Registration. A “Registration” is a frozen (uneditable), timestamped version of a Project and/or its Components. Registrations cannot be deleted, but can be withdrawn, leaving behind basic metadata about the resource.
+**Registration.** A “Registration” is a frozen (uneditable), timestamped version of a Project and/or its Components. Registrations cannot be deleted, but can be withdrawn, leaving behind basic metadata about the resource.
 
-d. Content. As used in these Terms of Use, "content" means, but is not limited to, any research, data, text, images, software and software code, data sets, information or other materials.
+**Content.** As used in these Terms of Use, "content" means, but is not limited to, any research, data, text, images, software and software code, data sets, information or other materials.
 
-e. Collection. A “Collection” is a group of content hosted on OSF. Examples include OSF Preprints, OSF Registries, OSF Meetings, and branded community-organized services utilizing OSF infrastructure.
+**Collection.** A “Collection” is a group of content hosted on OSF. Examples include OSF Preprints, OSF Registries, OSF Meetings, and branded community-organized services utilizing OSF infrastructure.
 
-f. Users. All Users must accept the COS Terms of Use and Privacy Policy.
+**Users.** All Users must accept the COS Terms of Use and Privacy Policy.
 
-g. Administrator. An administrator on a Project or a component is an individual who has full rights to control all aspects of a Project, Preprint, or Registration. An Administrator may create a Project, components of a Project, or Preprint, create and change contributor permissions, identify the legal terms that govern the ownership of the intellectual property in Content deposited into a Project, a Project component, or Preprint or identify the license restrictions governing the use of the intellectual property incorporated into the Project, Project component, or Preprint, control and modify access and privacy settings for the Project and its components, modify license terms for the use of Content, invite other users to contribute to a Project, component of a project, or Preprint, authorize add-ons, namely, software designed to increase the capability of OSF, remove Projects or Project Components from the Websites and Services, create Registrations (i.e. freeze and uniquely identify) of Projects or Project Components, submit content to a third party for review or moderation, and register DOIs (share persistent metadata with a third party). Administrators must have the authority to bind the individual Administrator's business, organization or institution to the COS's Terms of Use and Privacy Policy.
+**Administrator.** An administrator on a Project or a component is an individual who has full rights to control all aspects of a Project, Preprint, or Registration. An Administrator may create a Project, components of a Project, or Preprint, create and change contributor permissions, identify the legal terms that govern the ownership of the intellectual property in Content deposited into a Project, a Project component, or Preprint or identify the license restrictions governing the use of the intellectual property incorporated into the Project, Project component, or Preprint, control and modify access and privacy settings for the Project and its components, modify license terms for the use of Content, invite other users to contribute to a Project, component of a project, or Preprint, authorize add-ons, namely, software designed to increase the capability of OSF, remove Projects or Project Components from the Websites and Services, create Registrations (i.e. freeze and uniquely identify) of Projects or Project Components, submit content to a third party for review or moderation, and register DOIs (share persistent metadata with a third party). Administrators must have the authority to bind the individual Administrator's business, organization or institution to the COS's Terms of Use and Privacy Policy.
 
-h. Proxy. A Proxy is a person to whom the Administrator has granted the authority to manage a Project or Project component on his or her behalf, which may include setting and modifying user access, privacy settings, license terms, and editing and depositing Content. 
+**Proxy.** A Proxy is a person to whom the Administrator has granted the authority to manage a Project or Project component on his or her behalf, which may include setting and modifying user access, privacy settings, license terms, and editing and depositing Content. 
 
-i. Contributing User. A Contributing User may access, deposit, and edit Content to a Project, Project component, or Preprint.
+**Contributing User.** A Contributing User may access, deposit, and edit Content to a Project, Project component, or Preprint.
 
-j. Active User. An Active User may have select interactive use of the Websites and Services, subject to restrictions imposed by the Administrator. 
+**Active User.** An Active User may have select interactive use of the Websites and Services, subject to restrictions imposed by the Administrator. 
 
-k. Passive User. A passive user, including journal editors/reviewers, other scientists, and members of the general public, may use the Websites and Services solely as an information resource without any ability to change or modify any Project content.
+**Passive User.** A passive user, including journal editors/reviewers, other scientists, and members of the general public, may use the Websites and Services solely as an information resource without any ability to change or modify any Project content.
 
-l. Collection Admin. A Collection Admin is an individual who determines content requirements and moderation settings for a Collection and assigns Reviewers.
+**Collection Admin.** A Collection Admin is an individual who determines content requirements and moderation settings for a Collection and assigns Reviewers.
 
-m. Reviewer. A reviewer may use the Website and Services to review content submitted to a Collection, provide comment on it, accept or reject its submission to the Collection, and update its metadata as it relates to the Collection.
+**Reviewer.** A reviewer may use the Website and Services to review content submitted to a Collection, provide comment on it, accept or reject its submission to the Collection, and update its metadata as it relates to the Collection.
 
-n. Public API: An application program interface available to the public to facilitate computer communication with the OSF. Parts or all of the Websites and Services are accessible via various Public APIs, including but not limited to, GitHub, Twitter, Facebook, YouTube, Google Scholar and Google Groups, and LinkedIn.
+**Public API.** An application program interface available to the public to facilitate computer communication with the OSF. Parts or all of the Websites and Services are accessible via various Public APIs, including but not limited to, GitHub, Twitter, Facebook, YouTube, Google Scholar and Google Groups, and LinkedIn.
 
-o. Privacy Settings. Privacy Settings define whether Project Content may be publicly displayed, displayed with restricted access to a limited group, or private.
+**Privacy Settings.** Privacy Settings define whether Project Content may be publicly displayed, displayed with restricted access to a limited group, or private.
 
-p. Trusted Party: A Trusted Party is an individual or organization to which the Administrator has given the right to view, edit, and/or deposit specific data within a Project or Project component.
+**Trusted Party.** A Trusted Party is an individual or organization to which the Administrator has given the right to view, edit, and/or deposit specific data within a Project or Project component.
 
 ### 11. PRIVACY SETTINGS  
 Projects, Project components, Preprints, and Registrations can be created by an Administrator. The Administrator may choose whether to designate and make Content public, limited access or private. If an Administrator wishes to send you an invitation to participate in a Project, Project component, Preprint, or Registration, the Administrator or COS will send you an email. Once you accept the invitation, your personal profile information may be made available to others collaborating on the Project, Preprint, or Registration, subject to the specific privacy access restrictions imposed by the Administrator of your Project, Preprint, or Registration.
 
-a. Public. Content marked as "Public" will be available to the public for viewing and commercial and non-commercial use under the terms of the license identified by the Administrator.  
-b. Private. Content marked as "Private" may be viewed through the OSF or Public API only by the Administrator(s), a Contributing User of that Project or Component, anyone with a view-only link created by an Administrator, or any designated Proxy. Private data are not shared with the public, Trusted Parties or other members of the COS. Only the COS employees and our authorized agents' or contractors' staff, with a "need to know" access to manage the Websites and Services and process data for the COS are able to view Private Access Data.   
-c. Embargoed. Content marked as “Embargoed” may be viewed through the OSF or Public API only by the Administrator(s), a Contributing User of that Project or Component, anyone with a view-only link created by an administrator, or any designated Proxy, until the Embargo date has passed, at which time the content will be made Public automatically.  
-d. Under Review. Content submitted to services using OSF Reviews may be “Private,” yet available to designated Reviewers of the service for viewing and accepting or rejecting.   
+**Public.** Content marked as "Public" will be available to the public for viewing and commercial and non-commercial use under the terms of the license identified by the Administrator.  
+
+**Private.** Content marked as "Private" may be viewed through the OSF or Public API only by the Administrator(s), a Contributing User of that Project or Component, anyone with a view-only link created by an Administrator, or any designated Proxy. Private data are not shared with the public, Trusted Parties or other members of the COS. Only the COS employees and our authorized agents' or contractors' staff, with a "need to know" access to manage the Websites and Services and process data for the COS are able to view Private Access Data.  
+
+**Embargoed.** Content marked as “Embargoed” may be viewed through the OSF or Public API only by the Administrator(s), a Contributing User of that Project or Component, anyone with a view-only link created by an administrator, or any designated Proxy, until the Embargo date has passed, at which time the content will be made Public automatically.  
+
+**Under Review.** Content submitted to services using OSF Reviews may be “Private,” yet available to designated Reviewers of the service for viewing and accepting or rejecting.   
 
 If an Administrator changes the privacy settings of a Project, those changes will be applied prospectively. For example, if an Administrator changes a privacy setting from "Public" to "Private" or "Limited Access", there is no way for COS to restrict people who have previously viewed or downloaded the previously publicly accessible Content from using it.
 
 ### 12. HOW WE USE YOUR PERSONAL INFORMATION  
-When you register with COS, you acknowledge that information you provide on your membership profile may be seen by others and used by COS as described in this Privacy Policy and our Terms of Use.
-(a) Consent to COS to Use Personal Information
+When you register with COS, you acknowledge that information you provide on your membership profile may be seen by others and used by COS as described in this Privacy Policy and our Terms of Use.  
+
+(a) Consent to COS to Use Personal Information  
 COS may use personal information you supply to provide services that support the activities of the organization, its members, and their collaboration on Projects: contacting users, understanding aggregate usage of the site, and tailoring services. When accessing the Websites, your personal user information may be tracked by COS in order to support collaboration, ensure authorized access, and enable communication between collaborators.
 
   The personal information you may provide to COS may reveal or allow others to discern aspects of your life that are not expressly stated in your profile (for example, your picture or your name may reveal your gender). By consenting to provide personal information to us when you create or update your account and profile, you accepti and agree to our processing of your personal information in ways set out by this Privacy Policy. Supplying information to us, including any information deemed "sensitive" by applicable law, is entirely voluntary on your part. You may withdraw your consent to COS's collection and processing of your information by changing or closing your account, as more fully described in this Privacy Policy.
 
-(b) Communications from COS
+(b) Communications from COS  
 We use the information you provide to customize your experience on the site. We may communicate with you using email or other means available to us regarding the availability of services, service-related issues, or announcements that we believe may be of interest to you. We may, for example, send you welcome messages and emails regarding new features or services, and promotional information from COS. You may opt out of receiving promotional messages from COS by following the instructions contained in the email. As long as you're a registered user, however, you can't opt out of receiving service messages from us. COS may also use personal information in order to customize content on the site to you, such as news relevant to you or to your industry or company.
 
-(c) Communications from Others
+(c) Communications from Others  
 Personal contact information may be provided to other members of a Project on a secure site to encourage and facilitate collaboration, research, and the free exchange of information. Please remember that any information (including personal information) that you disclose on the public sections of our Websites, such as forums, message boards, and news groups, becomes public information that others may collect, circulate, and use. Because we cannot and do not control the acts of others, you should exercise caution when deciding to disclose information about yourself or others in public forums such as these.
 
-(d) Sharing Information with Third Parties
+(d) Sharing Information with Third Parties  
 COS may share your personal information with our vendors, agents or contractors, such as a vendor that may host COS's servers, but only on a "need to know" basis to help us operate our Websites and Services. You can read a list of these third parties here. By providing us with your personal information during the user registration process and by agreeing to the terms of this Privacy Policy, you expressly consent to our storing, processing, and distributing your information for these purposes.
 
 Information you put on your profile and any messages or comments you post on the public areas of our Websites may be seen by others. In keeping with our open process, COS may maintain publicly accessible archives of Projects for which the privacy level is designated as or amended to "Public" by the Administrator. In addition, should you post a comment or send an email to any of COS's hosted mail lists or discussion forums, subscribe to one of our newsletters or register for one of our public meetings, your email address may become part of the publicly accessible archives.
