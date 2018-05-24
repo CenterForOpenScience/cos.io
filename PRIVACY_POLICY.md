@@ -180,5 +180,5 @@ Note that, if you are in the EEA, we may transfer your personal data outside of 
 ### 18. CONTACTING US  
 Questions about this Privacy Policy can be directed to support@osf.io. Support is provided in English only.
 
-This Privacy Policy was last updated on May 23, 2018.
+This Privacy Policy was last updated on May 24, 2018.
 
