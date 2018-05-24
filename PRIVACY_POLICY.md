@@ -107,7 +107,9 @@ Projects, Project components, Preprints, and Registrations can be created by an 
 
 **Private.** Content marked as "Private" may be viewed through the OSF or Public API only by the Administrator(s), a Contributing User of that Project or Component, anyone with a view-only link created by an Administrator, or any designated Proxy. Private data are not shared with the public, Trusted Parties or other members of the COS. Only the COS employees and our authorized agents' or contractors' staff, with a "need to know" access to manage the Websites and Services and process data for the COS are able to view Private Access Data.  
 
-**Embargoed.** Content marked as “Embargoed” may be viewed through the OSF or Public API only by the Administrator(s), a Contributing User of that Project or Component, anyone with a view-only link created by an administrator, or any designated Proxy, until the Embargo date has passed, at which time the content will be made Public automatically.  
+**Embargoed.** Content marked as “Embargoed” may be viewed through the OSF or Public API only by the Administrator(s), a Contributing User of that Project or Component, anyone with a view-only link created by an administrator, or any designated Proxy ("Private"), until the Embargo date has passed, at which time the content will be made Public automatically.  
+
+**Limited Access.** Content marked as "Limited Access" may be viewed through our Websites and Services by the Project Administrator, a Proxy, a Contributing User, an Active or Passive User, and a Trusted Party, subject to the restrictions imposed by the Administrator.
 
 **Under Review.** Content submitted to services using OSF Reviews may be “Private,” yet available to designated Reviewers of the service for viewing and accepting or rejecting.   
 
