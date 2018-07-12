@@ -2693,3 +2693,11 @@ li [class*=" fa-"].icon-large {
 	color: white;
 	text-decoration: underline;
 }
+
+#cookieBanner a:hover {
+	color: #ADCCE6;
+}
+
+#cookieBanner a:visited {
+	color: #ADCCE6;
+}
