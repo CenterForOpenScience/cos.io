@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'blog',
     'common',
     'cos',
+    'contact',
 
     'haystack',
     "wagtail.contrib.table_block",
@@ -215,3 +216,9 @@ RAVEN_CONFIG = {
 
 # Used by common.middleware.URLRedirectMiddleware
 URL_REDIRECTS = ()
+
+# reCAPTCHA API
+RECAPTCHA_SITE_KEY = None
+RECAPTCHA_SECRET_KEY = None
+RECAPTCHA_VERIFY_URL = 'https://recaptcha.net/recaptcha/api/siteverify'
+CONTACT_US_URL = None
