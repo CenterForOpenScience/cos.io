@@ -9,9 +9,8 @@
       {{ block.super }}
    {% endwith %}
 {% endblock %}
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-{% block content %}
 
+{% block content %}
 <div class="banner-container">
     <div class="banner-element">
         Help support open science today.
@@ -21,13 +20,15 @@
 
 <div class="page-container">
     <!-- BEGIN CONTAINER -->
-    <div class="container min-hight margin-top-50">
+    <div class="container min-height margin-top-50">
         <!-- BEGIN CONTENT -->
         <div class="community-content">
             <div class="margin-top-20 page-header">
-                <h1><center><b>Contact Us</b><br>
-                <small style="font-size:20px;">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interests!</small>
-            	</center>
+                <h1>
+                    <center>
+                        <b>Contact Us</b><br>
+                        <small style="font-size:20px;">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interests!</small>
+            	    </center>
             	</h1>
             </div>
             <div>
@@ -37,6 +38,13 @@
                         <input type=hidden name="oid" value="00Dj0000001p7Or">
                         <input type=hidden name="retURL" value="https://cos.io/contact/thank-you/">
                         {% if form.errors %}
+                            {% for field in form %}
+                                {% for error in field.errors %}
+                                    <div class="alert alert-danger">
+                                        <strong>{{ error|escape }}</strong>
+                                    </div>
+                                {% endfor %}
+                            {% endfor %}
                             {% for error in form.non_field_errors %}
                                 <div class="alert alert-danger">
                                     <strong>{{ error|escape }}</strong>
@@ -67,10 +75,9 @@
                         </div>
                         {% endfor %}
                         {% if recaptcha_site_key %}
-                            <script src='https://recaptcha.net/recaptcha/api.js'></script>
+                            <script src='https://recaptcha.net/recaptcha/api.js' async defer></script>
                             <div style="display:block" class="text-center p-b-sm g-recaptcha" data-sitekey="{{recaptcha_site_key}}"></div>
                         {% endif %}
-                        <!-- Submit button group !-->
         				<div class="form-group">
         				  	<div class="btn-group-container">
         				    	<button type="submit" class="btn btn-success" id="btn-submit" name="submit">Submit</button>

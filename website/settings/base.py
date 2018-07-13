@@ -221,4 +221,5 @@ URL_REDIRECTS = ()
 RECAPTCHA_SITE_KEY = None
 RECAPTCHA_SECRET_KEY = None
 RECAPTCHA_VERIFY_URL = 'https://recaptcha.net/recaptcha/api/siteverify'
-CONTACT_US_URL = None
+# Salesforce URL where Contact Us information is directed
+CONTACT_US_SUBMISSION_URL = None

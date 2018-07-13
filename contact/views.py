@@ -1,13 +1,12 @@
-import requests
 import http
+import requests
 
-from django.shortcuts import render
 from django.conf import settings
-
-from .forms import ContactForm
+from django.shortcuts import render
 from django.views.generic.base import TemplateView
 from django.views.generic.edit import FormView
-from django.shortcuts import redirect
+
+from .forms import ContactForm
 
 
 class ContactView(FormView):
@@ -16,9 +15,34 @@ class ContactView(FormView):
     success_url = '/contact/thank-you/'
 
     def get_context_data(self, **kwargs):
+        """
+        Adds recaptcha_site_key to context for Contact Us page
+        """
         context = super(ContactView, self).get_context_data(**kwargs)
         context['recaptcha_site_key'] = settings.RECAPTCHA_SITE_KEY
         return context
+
+    def post(self, request, *args, **kwargs):
+        """
+        Handles POST request; verifies Contact Us form data and recaptcha,
+        forwards form data to Salesforce.
+        """
+        form = self.get_form()
+        if form.is_valid():
+            recaptcha_response = request.POST.get('g-recaptcha-response')
+            recaptcha_valid = self.validate_recaptcha(recaptcha_response)
+            if recaptcha_valid:
+                forwarded_to_salesforce = self.send_to_salesforce(request, form)
+                if forwarded_to_salesforce:
+                    return self.form_valid(form)
+                else:
+                    form.add_error(None, 'Server error. Please try again.')
+                    return self.form_invalid(form)
+            else:
+                form.add_error(None, 'Invalid captcha.')
+                return self.form_invalid(form)
+        else:
+            return self.form_invalid(form)
 
     def validate_recaptcha(self, response):
         """
@@ -26,39 +50,31 @@ class ContactView(FormView):
         :param response: the recaptcha response form submission
         :return: True if valid, False otherwise
         """
-        if not response:
+        if not response or not settings.RECAPTCHA_SITE_KEY:
             return False
-        resp = requests.post(settings.RECAPTCHA_VERIFY_URL, data={
-            'secret': settings.RECAPTCHA_SECRET_KEY,
-            'response': response,
-        })
+        try:
+            resp = requests.post(settings.RECAPTCHA_VERIFY_URL, data={
+                'secret': settings.RECAPTCHA_SECRET_KEY,
+                'response': response,
+            })
+        except requests.exceptions.ConnectionError:
+            return False
         return resp.status_code == http.client.OK and resp.json().get('success')
 
-    def forward_contact_info_to_salesforce(self, request):
+    def send_to_salesforce(self, request, form):
         """
-        If recaptcha passes, forwards the Contact Us form information to Salesforce
+        Forwards the Contact Us form data to Salesforce
+        :param request: the contact us form submission
+        :param form: Contact Us form
+        :return: True if Salesforce request succeeded, False otherwise
         """
-        # TODO - how should this request be formatted?
-        resp = requests.post(settings.CONTACT_US_URL, data=request.POST)
-        return resp.status_code == http.client.OK
-
-    def post(self, request, *args, **kwargs):
-        form = self.get_form()
-        if form.is_valid():
-            recaptcha_response = request.POST.get('g-recaptcha-response')
-            recaptcha_valid = self.validate_recaptcha(recaptcha_response)
-            if recaptcha_valid:
-                forwarded_to_salesforce = self.forward_contact_info_to_salesforce(request)
-                if forwarded_to_salesforce:
-                    return redirect(self.success_url)
-                else:
-                    form.add_error(None, "Server error. Please try again.")
-                    return self.form_invalid(form)
-            else:
-                form.add_error(None, "Invalid captcha")
-                return self.form_invalid(form)
-        else:
-            return self.form_invalid(form)
+        form_data = form.cleaned_data
+        form_data['oid'] = request.POST.get('oid', '')
+        form_data['retURL'] = request.POST.get('retURL', '')
+        if settings.CONTACT_US_SUBMISSION_URL:
+            resp = requests.post(settings.CONTACT_US_SUBMISSION_URL, json=form_data)
+            return resp.status_code == http.client.OK
+        return False
 
 
 class ThanksView(TemplateView):
