@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from rss_feed.forms import BlogsFeed
+from blog.views import BlogsFeed
 from . import views
 
 

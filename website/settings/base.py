@@ -68,7 +68,6 @@ INSTALLED_APPS = [
 
     'wagtailfontawesome',
     'search',
-    'rss_feed',
     'el_pagination',
     'django_forms_bootstrap',
     'raven.contrib.django.raven_compat',
