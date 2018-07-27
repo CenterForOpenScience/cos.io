@@ -218,6 +218,7 @@ class Person(ClusterableModel, index.Indexed):
     )
 
     position = CharField(max_length=140, blank=True)
+    employer = CharField(max_length=140, blank=True)
     term = CharField(blank=True, max_length=9, help_text="Format:YYYY-YYYY")
     linked_in = URLField(blank=True)
     blog_url = URLField(blank=True)
@@ -248,6 +249,7 @@ class Person(ClusterableModel, index.Indexed):
             FieldPanel('bio'),
             FieldPanel('tags'),
             FieldPanel('position'),
+            FieldPanel('employer'),
             FieldPanel('term'),
             FieldPanel('linked_in'),
             FieldPanel('blog_url'),

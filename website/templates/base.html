@@ -47,6 +47,20 @@
     {% endblock %}
     {% wagtailuserbar %}
     {% block content %}{% endblock %}
+
+    <!-- Cookie banner -->
+    <div id="cookieBanner" class="alert">
+        <div id="cookieText">
+            This website relies on cookies to help provide a better user experience. By clicking Accept or continuing to use the site, you agree. For more information,
+            see our <a href='https://github.com/CenterForOpenScience/cos.io/blob/master/PRIVACY_POLICY.md'>Privacy Policy</a>
+            and information on <a href='https://github.com/CenterForOpenScience/cos.io/blob/master/PRIVACY_POLICY.md#7-types-of-information-we-collect'>cookie use</a>.
+        </div>
+        <div id="cookieAccept">
+            <button type="button" class="btn btn-default" data-dismiss="alert" aria-label="Accept">Accept</button>
+        </div>
+    </div>
+    <!-- End cookie banner -->
+
     {# Global javascript #}
     {% compress js %}
     <script type="text/javascript" src="{% static 'js/cosio.js' %}"></script>
@@ -92,6 +106,7 @@
     <script src="{% static 'scripts/portfolio.js' %}"></script>
     <!--<script src="{% static 'scripts/contact-us.js' %}"></script>-->
     <script src="{% static 'scripts/customized_script.js' %}"></script>
+    <script src="{% static 'scripts/cookie-banner.js' %}"></script>
     <script src="{% static 'scripts/prism.js' %}"></script>
     <script src="{% static 'plugins/masonry.pkgd.min.js' %}"></script>
     <script src="{% static 'el-pagination/js/el-pagination.js' %}"></script>
