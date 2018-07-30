@@ -1,8 +1,10 @@
 from django.conf.urls import url
+from blog.views import BlogsFeed
 from . import views
 
 
 urlpatterns = [
+    url(r'^feed/', BlogsFeed(), name='blog-feed'),
     url(r'^tag/(?P<tag>[-\w]+)/', views.tag_view, name="tag"),
     url(r'^category/(?P<category>[-\w]+)/feed/$', views.LatestCategoryFeed(),
         name="category_feed"),

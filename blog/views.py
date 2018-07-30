@@ -79,3 +79,18 @@ class LatestCategoryFeed(Feed):
 
     def item_description(self, item):
         return item.body
+
+
+class BlogsFeed(Feed):
+    title = "Our Blog"
+    link = "/blog/feed/"
+    description = "Posts from the Center for Open Science"
+
+    def items(self):
+        return BlogPage.objects.live().order_by('-date')
+
+    def item_title(self, item):
+        return item.title
+
+    def item_description(self, item):
+        return item.intro
