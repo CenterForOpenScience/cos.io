@@ -82,9 +82,9 @@ class LatestCategoryFeed(Feed):
 
 
 class BlogsFeed(Feed):
-    title = "Cos.io blog"
+    title = "Our Blog"
     link = "/blog/feed/"
-    description = "Blogs of the Center for Open Science"
+    description = "Posts from the Center for Open Science"
 
     def items(self):
         return BlogPage.objects.live().order_by('-date')
