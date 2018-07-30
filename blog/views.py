@@ -82,7 +82,7 @@ class LatestCategoryFeed(Feed):
 
 
 class BlogsFeed(Feed):
-    title = "Our Blog"
+    title = "COS Blog"
     link = "/blog/feed/"
     description = "Posts from the Center for Open Science"
 
