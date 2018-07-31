@@ -13,7 +13,7 @@ def header(context):
 @register.inclusion_tag('common/footer.html', takes_context=True)
 def footer(context):
     return {
-        'footer': Footer.objects.all()[0],
+        'footer': Footer.objects.get(id=1),  # Titled 'COS Footer', the home page footer.
     }
 
 
