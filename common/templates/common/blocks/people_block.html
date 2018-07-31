@@ -6,7 +6,6 @@
 {% if value.displayStyle == 'concise-team' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% if value.tag == 'team' %}
             {% for person in team %}
                     <li class="col-md-3">
                         <div class="thumbnail">
@@ -50,7 +49,6 @@
                         </div>
                     </li>
             {% endfor %}
-        {% endif %}
         </ul>
     </div>
     <style>
@@ -68,7 +66,6 @@
 {% elif value.displayStyle == 'concise-alum' %}
     <div class = "row back-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% if value.tag == 'alum' %}
             {% for person in alumni %}
                     <li class="col-md-3">
                         <h4>
@@ -76,13 +73,11 @@
                         </h4>
                     </li>
             {% endfor %}
-        {% endif %}
         </ul>
     </div>
 {% elif value.displayStyle == 'concise-ambassador' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% if value.tag == 'Ambassador' %}
             {% for person in ambassadors %}
                     <li class="col-md-4">
                         <div class="thumbnail">
@@ -106,7 +101,6 @@
                         </div>
                     </li>
             {% endfor %}
-        {% endif %}
         </ul>
     </div>
     <style>
@@ -122,10 +116,82 @@
         height:200px;
     }
     </style>
+{% elif value.displayStyle == 'expanded-ambassador' %}
+    <div class = "row front-team">
+        <ul class="list-unstyled" id="whoWeAre">
+        {% if value.tag == 'Ambassador' %}
+            {% for person in ambassadors %}
+                    <li class="col-md-4" style="padding-bottom:15px">
+                        <div class="thumbnail">
+                            {% if person.photo %}
+                                {% image person.photo original as photo %}
+                                <img src="{{ photo.url }}" alt="{{ person.first_name }} {{ person.last_name }}" class="ambassador_img">
+                            {% else %}
+                                <img src="{% static 'anonymous.png' %}" alt="{{ person.first_name }} {{ person.last_name }}" class="ambassador_img">
+                            {% endif %}
+                            <div align="center">
+                                <h3>
+                                    {{ person.first_name }} {{ person.last_name }} <br />
+                                    <small style="padding-bottom:7px;">
+                                        {% if person.position %}
+                                            {{ person.position }}
+                                        {% endif %}
+                                    </small>
+                                    <small>
+                                        {% if person.employer %}
+                                            {{ person.employer }}
+                                        {% endif %}
+                                    </small>
+                                </h3>
+                                <ul class="social-icons social-icons-color">
+                                    {% if person.email_address %}
+                                        <li><a href="mailto:{{ person.email_address }}" data-original-title="email" class="email"></a></li>
+                                    {% endif %}
+                                    {% if person.osf_profile %}
+                                        <li><a href="{{ person.osf_profile }}" data-original-title="osf" class="osf"></a></li>
+                                    {% endif %}
+                                    {% if person.linked_in %}
+                                        <li><a href="{{ person.linked_in }}" data-original-title="Linkedin" class="linkedin"></a></li>
+                                    {% endif %}
+                                    {% if person.google_plus %}
+                                        <li><a href="{{ person.google_plus }}" data-original-title="Google Plus" class="googleplus"></a></li>
+                                    {% endif %}
+                                    {% if person.github %}
+                                        <li><a href="{{ person.github }}" data-original-title="GitHub" class="github"></a></li>
+                                    {% endif %}
+                                    {% if person.blog_url %}
+                                        <li><a href="{{ person.blog_url }}" data-original-title="person" class="person"></a></li>
+                                    {% endif %}
+                                    {% if person.twitter %}
+                                        <li><a href="{{ person.twitter }}" data-original-title="Twitter" class="twitter"></a></li>
+                                    {% endif %}
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+            {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
+    <style>
+    .thumbnail {
+        border: none;
+        height: 380px;
+    }
+    .thumbnail > .ambassador_img {
+        border-radius: 256px !important;
+        display:block;
+        width: 250px;
+        height: 250px !important;
+    }
+    .social-icons li {
+        display: inline-block !important;
+        float: none;
+    }
+    </style>
 {% elif value.displayStyle == 'concise-top' %}
     <div class = "row front-team">
         <ul class="list-unstyled" id="whoWeAre">
-        {% if value.tag == 'TOP-coordinator' %}
             {% for person in topcoordinators %}
                     <li class="col-md-4">
                         <div class="thumbnail">
@@ -149,7 +215,6 @@
                         </div>
                     </li>
             {% endfor %}
-        {% endif %}
         </ul>
     </div>
     <style>
@@ -168,7 +233,6 @@
 {% else %}
     <div id="linktoperson" class = "btn-group" role = "group"></div>
     {% for person in people %}
-        {% if value.tag in person.tags.names %}
             <hr>
             <div class="row detailrow margin-bottom-30" id="{{ person.first_name }}{{ person.last_name }}">
                 <div class="col-md-5">
@@ -199,6 +263,5 @@
                     </div>
                 </div>
             </div>
-        {% endif %}
     {% endfor %}
 {% endif %}

@@ -7,7 +7,7 @@
 *For other operating systems, your mileage may vary*
 
 - Clone this repository.
-- Create a virtual environment using python3.4.
+- Create a virtual environment using python3.4, **not 3.5, use 3.4.8**
 - Add the line `export DJANGO_SETTINGS_MODULE=website.settings.dev` to the end of your new virtual environment's `bin/activate.sh` script.
 - `pip install -r requirements.txt`
 - Install postgres, and set your local settings to connect to it
@@ -32,6 +32,15 @@
 - `python manage.py rebuild_index`
 - `python manage.py runserver 127.0.0.1:4200`
 - The application should now be running at `http://localhost:4200/`
+- You should see a "Welcome to Wagtail" message, and access the admin options at `http://localhost:4200/admin`
+
+## Importing local data
+Following instructions up to this point will get your local server running smoothly, but you won't have any local data.
+To do this, you must first populate the database you created during setup with a copy of production data.
+- Obtain a dump of production data from a developer who has worked on this before.
+- Run the following in your terminal: `pg_restore --verbose --clean --no-acl --no-owner -U <your_username> -h localhost -d <db_name> <database_dump_filename>`
+*note*: Images will not be configured this way, but all other basic pages and functionality should be.
+- Repoint the the images links from `/media` to `https://cdn.cos.io/media/` so they don't break out of production.
 
 ## To run on Heroku:
 - Set up a Heroku account if you have not already.
@@ -56,6 +65,8 @@ To do this, you must first populate the database you created during setup with a
 - When a new page is published, a message will be sent to Flowdock to inform admins. Set the Flowdock API token as an environment variable.
 The format is: `export FLOWDOCKTOKEN='the_api_token_from_flowdock`
 - If need to export the Journal and Organization entries saved in database, run `python export_json.py`
+- If you encounter unicode errors you likely have the wrong verison of Python installed, change your verison re-run `pip install -r requirements.txt`
+ then run `find . -name \*.pyc -delete` to delete outdated .pyc files.
 
 # Admin site
 Changes to code can be seen on the front-end part of the site, but if you need to change data or add/remove/edit pages you will need to use the admin site:
