@@ -20,6 +20,7 @@ class ContactView(FormView):
         """
         context = super(ContactView, self).get_context_data(**kwargs)
         context['recaptcha_site_key'] = settings.RECAPTCHA_SITE_KEY
+        context['contact_us_oid'] = settings.CONTACT_US_OID
         return context
 
     def post(self, request, *args, **kwargs):
