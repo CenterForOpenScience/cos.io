@@ -1,6 +1,6 @@
 language: "python"
 python:
-    - "3.5"
+    - "3.6"
 
 env:
     global:
@@ -11,7 +11,7 @@ services:
 
 install:
     - pip install -r requirements.txt
-    - createdb dbname -U travis -w
+    - createdb cosio -U postgres -w
     - python manage.py migrate
     # - printf '\n\n' | python manage.py createsuperuser
 
