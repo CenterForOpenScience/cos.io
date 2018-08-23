@@ -7,7 +7,7 @@
 *For other operating systems, your mileage may vary*
 
 - Clone this repository.
-- Create a virtual environment using python3.4, **not 3.5, use 3.4.8**
+- Create a virtual environment using python 3.6.5.
 - Add the line `export DJANGO_SETTINGS_MODULE=website.settings.dev` to the end of your new virtual environment's `bin/activate.sh` script.
 - `pip install -r requirements.txt`
 - Install postgres, and set your local settings to connect to it
