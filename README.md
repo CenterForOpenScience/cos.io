@@ -30,9 +30,7 @@
 ```
 // Start services
 
-brew services start postgres
-elasticsearch
-redis-server
+docker-compose up -d
 
 // Run necessary migrations
 
