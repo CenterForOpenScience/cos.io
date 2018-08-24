@@ -10,21 +10,8 @@
 - Create a virtual environment using python 3.6.5.
 - Add the line `export DJANGO_SETTINGS_MODULE=website.settings.dev` to the end of your new virtual environment's `bin/activate.sh` script.
 - `pip install -r requirements.txt`
-- Install postgres, and set your local settings to connect to it
-    - `brew install postgres`
-    - `brew services start postgres`
-    - `createdb <db_name>`
-    - You'll need to create a `website/settings/local.py` to instruct django on how to connect to this postgres database
-    - There is an example of how the `DATABASES` setting would look in `website/settings/base.py`
-    - The name of the database will be your username
-    - You should have all privileges granted
-    - Your database's password will be the same as your user account's
-- Install elasticsearch and turn it on
-    - `brew install elasticsearch`
-    - `elasticsearch`
-- Redis is a caching server that is used for the cos.io application.  To turn on Redis:
-    - Run `redis-server`
-    - Set the `CACHES` dict in `local.py` according to [the Wagtail docs](http://docs.wagtail.io/en/v0.8.7/howto/performance.html#cache).
+- Run services: `docker-compose up -d`
+- `python manage.py makemigrations`
 - `python manage.py migrate`
 - `python manage.py createsuperuser` <i>- creates credentials for the admin app</i>
 - `python ensure_footer.py`
