@@ -218,9 +218,9 @@ RAVEN_CONFIG = {
 URL_REDIRECTS = ()
 
 # reCAPTCHA API
-RECAPTCHA_SITE_KEY = None
-RECAPTCHA_SECRET_KEY = None
+RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY', None)
+RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY', None)
 RECAPTCHA_VERIFY_URL = 'https://recaptcha.net/recaptcha/api/siteverify'
 # Salesforce URL where Contact Us information is directed
-CONTACT_US_SUBMISSION_URL = None
-CONTACT_US_OID = None
+CONTACT_US_SUBMISSION_URL = os.environ.get('CONTACT_US_SUBMISSION_URL', None)
+CONTACT_US_OID = os.environ.get('CONTACT_US_OID', None)
