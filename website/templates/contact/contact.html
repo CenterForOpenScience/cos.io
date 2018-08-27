@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load wagtailcore_tags %}
+{% load wagtailcore_tags snippets %}
+
+{% block title %}Contact Us {% endblock %}
+{% block navlinks %}
+   {% with 'communities' as nav %}
+      {{ block.super }}
+   {% endwith %}
+{% endblock %}
+
+{% block content %}
+<div class="banner-container">
+    <div class="banner-element">
+        Help support open science today.
+        <a href="/donate/" class="btn banner-button" onClick="ga('send', 'event', 'marketing', 'click', 'COS Donate Banner')">Donate Now</a>
+    </div>
+</div>
+
+<div class="page-container">
+    <!-- BEGIN CONTAINER -->
+    <div class="container min-height margin-top-50">
+        <!-- BEGIN CONTENT -->
+        <div class="community-content">
+            <div class="margin-top-20 page-header">
+                <h1>
+                    <center>
+                        <b>Contact Us</b><br>
+                        <small style="font-size:20px;">Want to find out more about getting involved?  We'd love to hear from you and discuss more about your interests!</small>
+            	    </center>
+            	</h1>
+            </div>
+            <div>
+                <div class="form-horizontal">
+                    <form method="post" class="contact-form">
+                        {% csrf_token %}
+                        <input type=hidden name="oid" value="{{contact_us_oid}}">
+                        <input type=hidden name="retURL" value="https://cos.io/contact/thank-you/">
+                        {% if form.errors %}
+                            {% for field in form %}
+                                {% for error in field.errors %}
+                                    <div class="alert alert-danger">
+                                        <strong>{{ error|escape }}</strong>
+                                    </div>
+                                {% endfor %}
+                            {% endfor %}
+                            {% for error in form.non_field_errors %}
+                                <div class="alert alert-danger">
+                                    <strong>{{ error|escape }}</strong>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                        {% for field in form %}
+                        <div class="form-group {% if field.field.required %}required{% endif %}">
+                            {% if field.name == 'interests' %}
+                                <div class="col-sm-8 col-sm-offset-4">
+                                    <h4><b>I'm interested in (pick all that apply):</b></h4>
+                                </div>
+                                <div id="interest_checkgroup">
+                                    <div class="form-group">
+                                        <div class="col-sm-4 col-sm-offset-4">
+                                            <div class="checkbox col-sm-offset-2 interests-list">
+                                                {{ field }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <label for="{{ field.name }}" class="col-sm-4 control-label">{{ field.label }} </label>
+                                <div class="col-sm-4">
+                                    {{ field }}
+                                </div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                        {% if recaptcha_site_key %}
+                            <script src='https://recaptcha.net/recaptcha/api.js' async defer></script>
+                            <div style="display:block" class="text-center p-b-sm g-recaptcha" data-sitekey="{{recaptcha_site_key}}"></div>
+                        {% endif %}
+        				<div class="form-group">
+        				  	<div class="btn-group-container">
+        				    	<button type="submit" class="btn btn-success" id="btn-submit" name="submit">Submit</button>
+        				    </div>
+        				</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTAINER -->
+</div>
+<!-- END PAGE CONTAINER -->
+{% footer %}
+{% endblock %}
+<!-- END CONTENT -->

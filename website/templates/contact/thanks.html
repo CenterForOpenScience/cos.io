@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load wagtailcore_tags snippets %}
+{% block title %}Thank You{% endblock %}
+{% block navlinks %}
+   {% with 'communities' as nav %}
+      {{ block.super }}
+   {% endwith %}
+{% endblock %}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+{% block content %}
+
+<div class="banner-container">
+    <div class="banner-element">
+        Help support open science today.
+        <a href="/donate/" class="btn banner-button" onClick="ga('send', 'event', 'marketing', 'click', 'COS Donate Banner')">Donate Now</a>
+    </div>
+</div>
+
+<div class="page-container">
+    <!-- BEGIN CONTAINER -->
+    <div class=​"container">​
+        <h1 class='margin-left-40 margin-top-40'><strong>Thanks for your interest!</strong></h1>
+        <div class='rich-text margin-left-40 margin-bottom-40'>
+            <h3>Someone will be in touch shortly to discuss your needs. </h3>
+        </div>
+    </div>
+    <!-- END CONTAINER -->
+</div>
+<!-- END PAGE CONTAINER -->
+{% footer %}
+{% endblock %}
+<!-- END CONTENT -->
