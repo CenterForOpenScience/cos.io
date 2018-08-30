@@ -73,7 +73,7 @@ class ContactView(FormView):
         form_data['oid'] = request.POST.get('oid', '')
         form_data['retURL'] = request.POST.get('retURL', '')
         if settings.CONTACT_US_SUBMISSION_URL:
-            resp = requests.post(settings.CONTACT_US_SUBMISSION_URL, json=form_data)
+            resp = requests.post(settings.CONTACT_US_SUBMISSION_URL, form_data)
             return resp.status_code == http.client.OK
         return False
 
