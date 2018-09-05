@@ -577,7 +577,7 @@ class NewsIndexPage(Page):
             self.template = page_template
         return render(request, self.template, {
             'page': self,
-            'newsArticles': NewsArticle.objects.all().order_by('-date'),
+            'newsArticles': NewsArticle.objects.filter(live=True).order_by('-date'),
             'page_template': page_template,
         })
 
