@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.9.1] - 2018-03-27
+### Fixed
+- Fix emails not being submitted to Salesforce.
+
+### Changed
+- Removed unneeded files.
+
 ## [1.9.0] - 2018-03-27
 ### Added
 - Captcha verification to Contact Us form.
