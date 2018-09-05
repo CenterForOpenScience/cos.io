@@ -33,7 +33,7 @@ class ContactForm(forms.Form):
             'placeholder': 'Last Name',
             'id': 'last_name'
         }))
-    email_address = forms.EmailField(label='Email', widget=forms.EmailInput(
+    email = forms.EmailField(label='Email', widget=forms.EmailInput(
         attrs={
             'required': 'true',
             'class': 'form-control',
