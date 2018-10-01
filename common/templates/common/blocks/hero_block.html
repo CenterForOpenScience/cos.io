@@ -2,24 +2,25 @@
 {% load static %}
 {% image self.image original as image %}
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
-{% if self.image_display_setting == 'background' %}
-    <style>
-        .slide-wrapper {
-            background-image: url('{{image.url}}');
-            background-repeat: no-repeat;
-            background-position: center top;
-        }
-        .hp-slide-head {
-            font-size: 28px;
-            margin-top: 130px;
-            margin-bottom: 130px;
-            color: {{ self.text_color }};
-            text-transform: none;
-            font-weight: 200;
-        }
-    </style>
-{% endif %}
-<div class="slide-wrapper">
+<style>
+    .slide-wrapper-background {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .hp-slide-head {
+        font-size: 28px;
+        margin-top: 250px;
+        margin-bottom: 120px;
+        color: {{ self.text_color }};
+        text-transform: none;
+        font-weight: 200;
+    }
+</style>
+<div
+    class="slide-wrapper-{{ self.image_display_setting }}"
+    style="background-image: url('{{image.url}}');"
+>
     <div class="container">
         <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height:auto;">
             <div class="row tagline">
@@ -28,8 +29,10 @@
                         <img src="{{ image.url }}" style="padding:28px 28px 28px 28px"/>
                     {% endif %}
                 </div>
-
-                <div class="hp-slide-head col-md-12">
+                <div
+                    class="hp-slide-head col-md-12"
+                    style="color: {{ self.text_color }};"
+                >
                     {{ self.description }}
                 </div>
             </div>
