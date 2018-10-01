@@ -29,7 +29,10 @@
                         <img src="{{ image.url }}" style="padding:28px 28px 28px 28px"/>
                     {% endif %}
                 </div>
-                <div class="hp-slide-head col-md-12">
+                <div
+                    class="hp-slide-head col-md-12"
+                    style="color: {{ self.text_color }};"
+                >
                     {{ self.description }}
                 </div>
             </div>
