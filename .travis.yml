@@ -2,6 +2,9 @@ language: "python"
 python:
     - "3.6"
 
+addons:
+    postgresql: "9.6"
+
 env:
     global:
         - DJANGO_SETTINGS_MODULE=website.settings.dev
@@ -11,6 +14,8 @@ services:
 
 install:
     - pip install -r requirements.txt
+
+before_script:
     - createdb cosio -U postgres -w
     - python manage.py migrate
     # - printf '\n\n' | python manage.py createsuperuser
