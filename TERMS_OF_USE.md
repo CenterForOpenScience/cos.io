@@ -130,11 +130,11 @@ Users may not assign or otherwise transfer the rights or obligations hereunder w
 ### 20. PROCEDURE FOR MAKING CLAIMS OF COPYRIGHT INFRINGEMENT
 In accordance with the Digital Millennium Copyright Act (17 USC § 512), any notifications of claimed copyright infringement must be sent to our Designated Agent:  
 
-Nikki Bialy  
-Center for Open Science  
-210 Ridge McIntire Rd.  
-Suite 500, Charlottesville, VA, 22903  
-or sent via e-mail to  
+Nici Pfeiffer
+Center for Open Science
+210 Ridge McIntire Rd.
+Suite 500, Charlottesville, VA, 22903
+or sent via e-mail to
 copyright@cos.io
 
 ### 21. GENERAL
@@ -150,4 +150,4 @@ All rights not explicitly granted herein are reserved.
 ### 23. QUESTIONS
 If you have questions or comments concerning these Terms of Use, you may email us at contact@cos.io. Support is provided in English only.
 
-These Terms of Use were last updated on August 10,2020.
+These Terms of Use were last updated on March 25, 2021.
