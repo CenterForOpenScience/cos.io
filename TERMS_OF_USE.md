@@ -43,7 +43,7 @@ In this document, we use "you" to refer to researchers and other users of the We
 
 **Collection Administrator.** A Collection Administrator is an individual who determines content requirements and moderation settings for a Collection and assigns Reviewers.  
 
-**Moderator.** A reviewer may use the Website and Services to review content submitted to a Collection, provide comment on it, accept or reject its submission to the Collection, and update its metadata as it relates to the Collection.  
+**Moderator.** A moderator may use the Website and Services to review content submitted to a Collection, provide comment on it, accept or reject its submission to the Collection, and update its metadata as it relates to the Collection.  
 
 **Public API.** An application program interface is available to the public to facilitate computer communication with the OSF. Parts or all of the Websites and Services are accessible via various Public APIs, including but not limited to, GitHub, Twitter, Facebook, YouTube, Google Scholar and Google Groups, and LinkedIn.  
 
@@ -181,4 +181,4 @@ All rights not explicitly granted herein are reserved.
 ### 24. QUESTIONS
 If you have questions or comments concerning these Terms of Use, you may email us at contact@cos.io. Support is provided in English only.
 
-These Terms of Use were last updated on December 20, 2024.
+These Terms of Use were last updated on January 10, 2025.
