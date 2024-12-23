@@ -23,7 +23,7 @@ In this document, we use "you" to refer to researchers and other users of the We
 
 **Preprint.** A “Preprint” is used on OSF to describe a publicly shared document and associated metadata. Preprints cannot be deleted, but can be withdrawn, leaving behind metadata about the resource.  
 
-**Registration.** A “Registration” is used on OSF to describe a frozen (uneditable), timestamped version of a Project and/or its Components. Registrations cannot be deleted, but can be withdrawn, leaving behind basic metadata about the resource.  
+**Registration.** A “Registration” is used on OSF to describe a public, timestamped Object, which is referenced by a DOI and descriptive metadata. Registrations cannot be deleted, but can be withdrawn, leaving behind basic metadata about the resource.  
 
 **Content.** As used in these Terms of Use, "content" means, but is not limited to, any research, data, text, images, software and software code, data sets, information, or other materials. Content can be shared on OSF, in a COS blog post, through interacting in a COS-hosted webinar or workshop, etc. 
 
