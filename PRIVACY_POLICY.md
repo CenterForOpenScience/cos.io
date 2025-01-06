@@ -173,6 +173,7 @@ We will keep your personal information for as long as your account is active or 
 If you are a resident of or are located in the European Economic Area (“EEA”), you may have certain rights under the General Data Protection Regulation (“GDPR”).  Personal data you provide is only collected with your consent, and may be transmitted outside of the EEA to COS (or computer servers maintained for the benefit of COS) pursuant to that consent. 
 
 In general, under the GDPR you may:
+
 +	request access to your personal data
 +	have incomplete or incorrect data corrected
 +	have your personal data deleted
