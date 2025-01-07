@@ -151,13 +151,34 @@ You are responsible for any information you post on our Websites, and, subject t
 
 COS does not rent or sell or otherwise distribute personal information that you have shared with us, except as permitted in this Privacy Policy. We will not disclose personal information that is associated with your profile unless COS has a good-faith belief that disclosure is permitted by law or is reasonably necessary to: (1) comply with a legal requirement or process, including, but not limited to, civil and criminal subpoenas, court orders or other compulsory disclosures; (2) investigate and enforce this Privacy Policy or our Terms of Use; (3) respond to claims of a violation of the rights of third parties; (4) respond to member service inquiries; (5) protect the rights, property, or safety of COS, our users, or the public; or (6) as part of the sale of the assets of COS or as a change in control of the organization or one of its affiliates or in preparation for any of these events. COS reserves the right to supply any such information to any organization into which COS may merge in the future or to which it may make any transfer in order to enable a third party to continue part or all of the organization's mission. Any third party to which COS transfers or sells its assets will have the right to use the personal and other information that you provide in the manner set out in this Privacy Policy. 
 
-### 14. DATA TRANSFER  
+### 14. THIRD PARTY SERVICE DATA
+This Privacy Policy outlines how the OSF accesses, uses, stores, and shares data obtained from third party services via OSF add-on integrations, including Google Drive,  ensuring compliance with industry policies and standards.
+
+(a) Access to Google User Data  
+The OSF may access Google user data only as and when authorized by the user. This includes only the Google Drive account and root folder chosen by the user and is limited to information necessary to complete the function. The user is presented with the scopes and permissions that OSF requests each time the user attempts to connect Drive to their OSF content or reauthorizing their connection.
+
+(b) Use of Google User Data  
+We use Google user data solely to provide and improve the services offered by the OSF platform. Specifically, this data is used for providing access to Google Drive content via the OSF interface. This access is based on the viewer’s permissions on specific OSF content, ranging from read-only viewing of files to administrative management including adding, deleting, or replacing files. Users always determine the appropriate permissions for their content. Data is never used for any unrelated purposes, such as advertising or profiling.
+
+(c) Storage of Google User Data  
+Google user credentials are stored securely using industry-standard encryption and are retained only for as long as necessary to fulfill the intended purpose. File metadata for public content is also made discoverable via the OSF interface.
+
+(D) Sharing of Google User Data  
+We do not share Google user data with third parties except as required by law or to fulfill a user-requested service. In such cases, we ensure that any data shared is limited, anonymized when possible, and compliant with applicable privacy laws.
+
+(E) User Controls and Data Deletion  
+Users retain full control over their Google data. You can revoke access to your Google account at any time via your Google Account or OSF add-ons settings. Additionally, you may request deletion of all your data stored by the OSF by contacting support@cos.io. 
+
+(F) Compliance and Updates  
+We adhere to Google API Services User Data Policy, including the Limited Use requirements. This Privacy Policy is reviewed and updated regularly to ensure continued compliance with legal and regulatory changes.
+
+### 15. DATA TRANSFER  
 COS may store and process personal information on servers or on a cloud located outside of the country where you originally deposited data. The data-protection laws of the country or countries where this personal information will be stored or processed might not be as comprehensive as those in your country. If you are unsure whether this Privacy Policy is in conflict with applicable local rules, you should not submit your information. If you are located within the European Union, you should note that your information will be transferred to the United States, which is deemed by the European Union to have inadequate data protection. By using our Websites and/or directly providing personal information to us, you hereby agree to and acknowledge your understanding of the terms of this Privacy Policy, and consent to have your personal data transferred to and processed in the United States and/or in other jurisdictions as determined by COS, notwithstanding your country of origin, or country, state, and/or province of residence. 
 
-### 15. GOVERNING LAW  
+### 16. GOVERNING LAW  
 This Privacy Policy is governed in all respects by the laws of the Commonwealth of Virginia, excluding that state's conflicts of laws provisions. Any action or proceeding arising out of or related to this Policy or your use of the Websites or Services must be brought in the state or federal courts of the Commonwealth of Virginia, and you consent to the exclusive personal jurisdiction and venue of such courts. Any cause of action you may have with respect to this Policy or your use of the Websites or Services must be commenced within one (1) year after the claim or cause of action arises. 
 
-### 16. YOUR OPT-OUT OPTIONS  
+### 17. YOUR OPT-OUT OPTIONS  
 You may access, modify, correct, or delete your personal information controlled by COS regarding your profile, and you may close your account. You can also contact us for any account information which is not on your profile or readily accessible to you. If you close your account, some or all of your profile information may continue to remain visible on the Websites.
 
 You should be aware that information that you've shared with others or that others have copied may also remain visible after you have closed your account or deleted the information from your own profile. In addition, you may not be able to access, correct, or eliminate any information about you that other users have copied or exported out of the Websites, because this information may not be in our organization's control. Your public profile may be displayed in search engine results.
@@ -166,10 +187,10 @@ From time to time COS may email you electronic newsletters, announcements, surve
 
 Further, COS may send you occasional Service-related emails that you may not opt-out of (e.g. changes or updates to features of our Services that have security or privacy implications, technical and security notices, account verification).
 
-### 17. DATA RETENTION  
+### 18. DATA RETENTION  
 We will keep your personal information for as long as your account is active or as needed to comply with our legal obligations, even after you've closed your account, such as to meet regulatory requirements, resolve disputes between users, to prevent fraud and abuse, or to enforce this Privacy Policy and our Terms of Use. We may be required to retain personal information for a limited period of time if requested by law enforcement. We also may retain indefinitely non-personally identifiable, aggregate data to facilitate our ongoing operations.
 
-### 18. GENERAL DATA PROTECTION REGULATION  
+### 19. GENERAL DATA PROTECTION REGULATION  
 If you are a resident of or are located in the European Economic Area (“EEA”), you may have certain rights under the General Data Protection Regulation (“GDPR”).  Personal data you provide is only collected with your consent, and may be transmitted outside of the EEA to COS (or computer servers maintained for the benefit of COS) pursuant to that consent. 
 
 In general, under the GDPR you may:
@@ -189,7 +210,7 @@ Contact COS at support@osf.io if you have concerns regarding your personal data,
 
 Note that, if you are in the EEA, we may transfer your personal data outside of the EEA, including to the United States. By way of example, this may happen if your personal data is transferred to our servers located in a country outside of the EEA. These countries may not have similar data-protection laws to the EEA. By submitting your personal data, you’re agreeing to this transfer, storing, or processing. If we transfer your information outside of the EEA in this way, we will take steps to ensure that appropriate security measures are taken with the aim of ensuring that your privacy rights continue to be protected as outlined in this policy. 
 
-### 19. CONTACTING US  
+### 20. CONTACTING US  
 Questions about this Privacy Policy can be directed to support@osf.io. Support is provided in English only.
 
 This Privacy Policy was last updated on January 10, 2025.
